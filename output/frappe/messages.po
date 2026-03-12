@@ -42,7 +42,7 @@ msgstr "\"Membros da equipe\" ou \"Gestão\""
 
 #: frappe/public/js/frappe/form/form.js:1093
 msgid "\"amended_from\" field must be present to do an amendment."
-msgstr "O campo \"amended_from\" deve estar presente para fazer uma alteração."
+msgstr "O campo \"amended_from\" deve estar presente para fazer uma retificação."
 
 #: frappe/utils/csvutils.py:246
 msgid "\"{0}\" is not a valid Google Sheets URL"
@@ -1770,43 +1770,43 @@ msgstr "Retificar"
 #: frappe/core/doctype/amended_document_naming_settings/amended_document_naming_settings.json
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Amend Counter"
-msgstr "Contador de correção"
+msgstr "Contador de retificação"
 
 #. Name of a DocType
 #: frappe/core/doctype/amended_document_naming_settings/amended_document_naming_settings.json
 msgid "Amended Document Naming Settings"
-msgstr "Configurações de nomenclatura de documentos corrigidos"
+msgstr "Configurações de nomenclatura de documentos retificados"
 
 #. Label of the amended_documents_section (Section Break) field in DocType
 #. 'Document Naming Settings'
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Amended Documents"
-msgstr "Documentos corrigidos"
+msgstr "Documentos retificados"
 
 #. Label of the amended_from (Link) field in DocType 'Personal Data Download
 #. Request'
 #: frappe/website/doctype/personal_data_download_request/personal_data_download_request.json
 msgid "Amended From"
-msgstr "Corrigido de"
+msgstr "Retificado de"
 
 #: frappe/public/js/frappe/form/save.js:12
 msgctxt "Freeze message while amending a document"
 msgid "Amending"
-msgstr "Corrigindo"
+msgstr "Retificando"
 
 #. Label of the amend_naming_override (Table) field in DocType 'Document Naming
 #. Settings'
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Amendment Naming Override"
-msgstr "Substituição da nomenclatura de correção"
+msgstr "Substituição da nomenclatura de retificação"
 
 #: frappe/model/document.py:586
 msgid "Amendment Not Allowed"
-msgstr "Correção não permitida"
+msgstr "Retificação não permitida"
 
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.py:207
 msgid "Amendment naming rules updated."
-msgstr "Regras de nomenclatura de correção atualizadas."
+msgstr "Regras de nomenclatura de retificação atualizadas."
 
 #. Success message of the request-to-delete-data Web Form
 #: frappe/website/web_form/request_to_delete_data/request_to_delete_data.json
@@ -2702,7 +2702,7 @@ msgstr "Voltar"
 
 #: frappe/templates/pages/integrations/gcalendar-success.html:13
 msgid "Back to Desk"
-msgstr "Voltar para a Desk"
+msgstr "Voltar para o Desk"
 
 #: frappe/www/404.html:26
 msgid "Back to Home"
@@ -3031,7 +3031,7 @@ msgstr "Criação"
 #. Description of a Card Break in the Build Workspace
 #: frappe/core/workspace/build/build.json
 msgid "Build your own reports, print formats, and dashboards. Create personalized workspaces for easier navigation"
-msgstr "Crie seus próprios relatórios, formatos de impressão e painéis. Crie áreas de trabalho personalizadas para facilitar a navegação"
+msgstr "Crie seus próprios relatórios, formatos de impressão e painéis. Crie espaços de trabalho personalizados para facilitar a navegação"
 
 #: frappe/workflow/doctype/workflow/workflow_list.js:18
 msgid "Build {0}"
@@ -3420,7 +3420,7 @@ msgstr "Não é possível criar {0} para um documento filho: {1}"
 
 #: frappe/desk/doctype/workspace/workspace.py:303
 msgid "Cannot create private workspace of other users"
-msgstr "Não é possível criar uma área de trabalho privada de outros usuários"
+msgstr "Não é possível criar um espaço de trabalho privado de outros usuários"
 
 #: frappe/core/doctype/file/file.py:175
 msgid "Cannot delete Home and Attachments folders"
@@ -4369,7 +4369,7 @@ msgstr "Concluido"
 #. Label of the completed_by_role (Link) field in DocType 'Workflow Action'
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 msgid "Completed By Role"
-msgstr "Concluido pela função"
+msgstr "Concluído pelo perfil"
 
 #. Label of the completed_by (Link) field in DocType 'Workflow Action'
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
@@ -4470,9 +4470,9 @@ msgstr "Configurar colunas para {0}"
 msgid "Configure how amended documents will be named.<br>\n\n"
 "Default behaviour is to follow an amend counter which adds a number to the end of the original name indicating the amended version. <br>\n\n"
 "Default Naming will make the amended document to behave same as new documents."
-msgstr "Configure como os documentos alterados serão nomeados.<br>\n\n"
-"O comportamento padrão é seguir um contador de alteração que adiciona um número ao final do nome original, indicando a versão alterada. <br>\n\n"
-"Nomeação padrão fara com que o documento alterado se comporte como documentos novos."
+msgstr "Configure como os documentos retificados serão nomeados.<br>\n\n"
+"O comportamento padrão é seguir um contador de retificação que adiciona um número ao final do nome original, indicando a versão retificada. <br>\n\n"
+"A nomenclatura padrão fará com que o documento retificado se comporte como documentos novos."
 
 #. Description of a DocType
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
@@ -5204,7 +5204,7 @@ msgstr "Relatorios personalizados"
 #. Name of a DocType
 #: frappe/core/doctype/custom_role/custom_role.json
 msgid "Custom Role"
-msgstr "Funcao personalizada"
+msgstr "Perfil personalizado"
 
 #. Label of the custom_sidebar_menu (Section Break) field in DocType 'Portal
 #. Settings'
@@ -5670,7 +5670,7 @@ msgstr "O modelo de endereço padrão não pode ser excluído"
 #. Settings'
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Default Amendment Naming"
-msgstr "Nomeação padrão de alterações"
+msgstr "Nomenclatura padrão de retificação"
 
 #. Label of the default_app (Select) field in DocType 'System Settings'
 #. Label of the default_app (Select) field in DocType 'User'
@@ -5716,6 +5716,11 @@ msgstr "Saida padrão"
 msgid "Default Redirect URI"
 msgstr "URI de redirecionamento padrão"
 
+#. Label of the default_role (Link) field in DocType 'Portal Settings'
+#: frappe/website/doctype/portal_settings/portal_settings.json
+msgid "Default Role at Time of Signup"
+msgstr "Perfil padrão no momento da inscrição"
+
 #: frappe/email/doctype/email_account/email_account_list.js:16
 msgid "Default Sending"
 msgstr "Envio padrão"
@@ -5736,7 +5741,7 @@ msgstr "Tema padrão"
 #. Label of the default_role (Link) field in DocType 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "Default User Role"
-msgstr "Funcao padrão do usuário"
+msgstr "Perfil padrão do usuário"
 
 #. Label of the default_user_type (Link) field in DocType 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
@@ -5753,7 +5758,7 @@ msgstr "Visualização padrão"
 #. Label of the default_workspace (Link) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Default Workspace"
-msgstr "Espaco de trabalho padrão"
+msgstr "Espaço de trabalho padrão"
 
 #. Description of the 'Currency' (Link) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -6078,12 +6083,12 @@ msgstr "Acesso ao Desk"
 #. Label of the desk_settings_section (Section Break) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Desk Settings"
-msgstr "Configurações da área de trabalho"
+msgstr "Configurações do espaço de trabalho"
 
 #. Label of the desk_theme (Select) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Desk Theme"
-msgstr "Tema da área de trabalho"
+msgstr "Tema do espaço de trabalho"
 
 #. Name of a role
 #: frappe/automation/doctype/reminder/reminder.json
@@ -6120,22 +6125,22 @@ msgstr "Tema da área de trabalho"
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
 msgid "Desk User"
-msgstr "Usuário da área de trabalho"
+msgstr "Usuário do espaço de trabalho"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_header.js:21
 #: frappe/www/me.html:86
 msgid "Desktop"
-msgstr "Área de trabalho"
+msgstr "Espaço de trabalho"
 
 #. Name of a DocType
 #: frappe/desk/doctype/desktop_icon/desktop_icon.json
 msgid "Desktop Icon"
-msgstr "Ícone da área de trabalho"
+msgstr "Ícone do espaço de trabalho"
 
 #. Name of a DocType
 #: frappe/desk/doctype/desktop_settings/desktop_settings.json
 msgid "Desktop Settings"
-msgstr "Configurações da área de trabalho"
+msgstr "Configurações do espaço de trabalho"
 
 #. Label of the details_tab (Tab Break) field in DocType 'Module Def'
 #. Label of the details (Code) field in DocType 'Scheduled Job Log'
@@ -10723,7 +10728,7 @@ msgstr "Se for o proprietário"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:25
 msgid "If a Role does not have access at Level 0, then higher levels are meaningless."
-msgstr "Se uma função não tiver acesso no Nível 0, os níveis superiores não terão efeito."
+msgstr "Se um perfil não tiver acesso no Nível 0, os níveis superiores não terão efeito."
 
 #. Description of the 'Enable Action Confirmation' (Check) field in DocType
 #. 'Workflow'
@@ -10746,7 +10751,7 @@ msgstr "Se marcado, os usuários não verão a caixa de diálogo Confirmar acess
 #. Description of the 'Disabled' (Check) field in DocType 'Role'
 #: frappe/core/doctype/role/role.json
 msgid "If disabled, this role will be removed from all users."
-msgstr "Se desativada, esta função será removida de todos os usuários."
+msgstr "Se desativado, este perfil será removido de todos os usuários."
 
 #. Description of the 'Bypass Restricted IP Address Check If Two Factor Auth
 #. Enabled' (Check) field in DocType 'User'
@@ -10803,12 +10808,12 @@ msgstr "Se não for a porta padrão (por exemplo, POP3: 995/110, IMAP: 993/143)"
 #. Description of the 'Roles' (Table) field in DocType 'Dashboard Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 msgid "If set, only user with these roles can access this chart. If not set, DocType or Report permissions will be used."
-msgstr "Se definido, apenas usuários com essas funções podem acessar este gráfico. Se não for definido, serão usadas as permissões do DocType ou do relatório."
+msgstr "Se definido, apenas usuários com esses perfis podem acessar este gráfico. Se não for definido, serão usadas as permissões do DocType ou do relatório."
 
 #. Description of the 'User Type' (Link) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "If the user has any role checked, then the user becomes a \"System User\". \"System User\" has access to the desktop"
-msgstr "Se o usuário tiver qualquer função marcada, ele se tornará um \"System User\". \"System User\" tem acesso à área de trabalho"
+msgstr "Se o usuário tiver qualquer perfil marcado, ele se tornará um \"System User\". \"System User\" tem acesso ao Desk"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:38
 msgid "If these instructions where not helpful, please add in your suggestions on GitHub Issues."
@@ -13541,7 +13546,7 @@ msgstr "Eu"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:14
 msgid "Meaning of Submit, Cancel, Amend"
-msgstr "Significado de Enviar, Cancelar e Alterar"
+msgstr "Significado de Enviar, Cancelar e Retificar"
 
 #. Option for the 'Priority' (Select) field in DocType 'ToDo'
 #. Label of the medium (Data) field in DocType 'Web Page View'
@@ -14104,7 +14109,7 @@ msgstr "Avança para a próxima etapa ao clicar na área destacada."
 #. Tour Step'
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json
 msgid "Mozilla doesn't support :has() so you can pass parent selector here as workaround"
-msgstr "O Mozilla não oferece suporte a :has(), entao você pode informar aqui o seletor pai como alternativa"
+msgstr "O Mozilla não oferece suporte a :has(), então você pode informar aqui o seletor pai como alternativa"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:43
 msgid "Mr"
@@ -14309,7 +14314,7 @@ msgstr "Precisa de ajuda?"
 
 #: frappe/desk/doctype/workspace/workspace.py:356
 msgid "Need Workspace Manager role to edit private workspace of other users"
-msgstr "E necessario o perfil Workspace Manager para editar o workspace privado de outros usuários"
+msgstr "E necessario o perfil Workspace Manager para editar o espaço de trabalho privado de outros usuários"
 
 #: frappe/model/document.py:837
 msgid "Negative Value"
@@ -14479,7 +14484,7 @@ msgstr "Nome do novo fluxo de trabalho"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:404
 msgid "New Workspace"
-msgstr "Novo workspace"
+msgstr "Novo espaço de trabalho"
 
 #. Description of the 'Allowed Public Client Origins' (Small Text) field in
 #. DocType 'OAuth Settings'
@@ -15739,7 +15744,7 @@ msgstr "Integração inicial concluída"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/core/doctype/doctype/doctype_list.js:43
 msgid "Once submitted, submittable documents cannot be changed. They can only be Cancelled and Amended."
-msgstr "Depois de enviados, esses documentos não podem ser alterados. Eles só podem ser cancelados e emendados."
+msgstr "Depois de enviados, esses documentos não podem ser alterados. Eles só podem ser cancelados e retificados."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:35
 msgid "Once you have set this, the users will only be able access documents (eg. Blog Post) where the link exists (eg. Blogger)."
@@ -15792,7 +15797,7 @@ msgstr "Somente os gerentes do sistema podem tornar este arquivo público."
 
 #: frappe/desk/doctype/workspace/workspace.js:32
 msgid "Only Workspace Manager can edit public workspaces"
-msgstr "Somente o perfil Workspace Manager pode editar áreas de trabalho públicas"
+msgstr "Somente o perfil Workspace Manager pode editar espaços de trabalho públicos"
 
 #. Label of the only_allow_system_managers_to_upload_public_files (Check) field
 #. in DocType 'System Settings'
@@ -16759,7 +16764,7 @@ msgstr "As permissões são aplicadas automaticamente a relatórios padrão e pe
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:5
 msgid "Permissions are set on Roles and Document Types (called DocTypes) by setting rights like Read, Write, Create, Delete, Submit, Cancel, Amend, Report, Import, Export, Print, Email and Set User Permissions."
-msgstr "As permissões são definidas em Perfis e Tipos de Documento (chamados DocTypes) ao configurar direitos como Ler, Gravar, Criar, Excluir, Enviar, Cancelar, Alterar, Relatar, Importar, Exportar, Imprimir, E-mail e Definir permissões de usuário."
+msgstr "As permissões são definidas em Perfis e Tipos de Documento (chamados DocTypes) ao configurar direitos como Ler, Gravar, Criar, Excluir, Enviar, Cancelar, Retificar, Relatar, Importar, Exportar, Imprimir, E-mail e Definir permissões de usuário."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:26
 msgid "Permissions at higher levels are Field Level permissions. All Fields have a Permission Level set against them and the rules defined at that permissions apply to the field. This is useful in case you want to hide or make certain field read-only for certain Roles."
@@ -16942,7 +16947,7 @@ msgstr "Verifique seu endereço de e-mail cadastrado para ver as instruções de
 
 #: frappe/desk/doctype/workspace/workspace.js:23
 msgid "Please click Edit on the Workspace for best results"
-msgstr "Clique em Editar na área de trabalho para melhores resultados"
+msgstr "Clique em Editar no espaço de trabalho para melhores resultados"
 
 #: frappe/core/doctype/data_import/data_import.js:164
 msgid "Please click on 'Export Errored Rows', fix the errors and import again."
@@ -19529,12 +19534,12 @@ msgstr "Gerenciador de permissões de perfil"
 #: frappe/core/doctype/user_role_profile/user_role_profile.json
 #: frappe/core/workspace/users/users.json
 msgid "Role Profile"
-msgstr "Perfil de função"
+msgstr "Perfil de acesso"
 
 #. Label of the role_profiles (Table MultiSelect) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Role Profiles"
-msgstr "Perfis de função"
+msgstr "Perfis de acesso"
 
 #. Name of a DocType
 #: frappe/core/doctype/role_replication/role_replication.json
@@ -20524,13 +20529,13 @@ msgstr "Selecionar fluxo de trabalho"
 #. Label of the workspace_name (Link) field in DocType 'Form Tour'
 #: frappe/desk/doctype/form_tour/form_tour.json
 msgid "Select Workspace"
-msgstr "Selecionar área de trabalho"
+msgstr "Selecionar espaço de trabalho"
 
 #. Label of the select_workspaces_section (Section Break) field in DocType
 #. 'Workspace Settings'
 #: frappe/desk/doctype/workspace_settings/workspace_settings.json
 msgid "Select Workspaces"
-msgstr "Selecionar áreas de trabalho"
+msgstr "Selecionar espaços de trabalho"
 
 #: frappe/website/doctype/website_settings/website_settings.js:23
 msgid "Select a Brand Image first."
@@ -21021,6 +21026,12 @@ msgstr "Definir propriedades"
 #: frappe/public/js/frappe/form/link_selector.js:208
 msgid "Set Quantity"
 msgstr "Definir quantidade"
+
+#. Label of the set_role_for (Select) field in DocType 'Role Permission for
+#. Page and Report'
+#: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
+msgid "Set Role For"
+msgstr "Definir perfil para"
 
 #: frappe/core/doctype/user/user.js:129
 #: frappe/core/page/permission_manager/permission_manager.js:72
@@ -22620,7 +22631,7 @@ msgstr "Alternar tema"
 
 #: frappe/templates/includes/navbar/navbar_login.html:17
 msgid "Switch To Desk"
-msgstr "Ir para Desk"
+msgstr "Ir para o Desk"
 
 #: frappe/public/js/frappe/ui/capture.js:281
 msgid "Switching Camera"
@@ -23354,7 +23365,7 @@ msgstr "O recurso que você procura não está disponível"
 
 #: frappe/core/doctype/user_type/user_type.py:114
 msgid "The role {0} should be a custom role."
-msgstr "A função {0} deve ser uma função personalizada."
+msgstr "O perfil {0} deve ser um perfil personalizado."
 
 #: frappe/core/doctype/audit_trail/audit_trail.py:46
 msgid "The selected document {0} is not a {1}."
@@ -23572,7 +23583,7 @@ msgstr "Este documento tem alterações não salvas que podem não aparecer no P
 
 #: frappe/public/js/frappe/form/form.js:1105
 msgid "This document is already amended, you cannot ammend it again"
-msgstr "Este documento já foi corrigido; você não pode corrigi-lo novamente"
+msgstr "Este documento já foi retificado; você não pode retificá-lo novamente"
 
 #: frappe/model/document.py:509
 msgid "This document is currently locked and queued for execution. Please try again after some time."
@@ -24053,7 +24064,7 @@ msgstr "Para imprimir a saída, use <code>print(text)</code>"
 
 #: frappe/core/doctype/user_type/user_type.py:291
 msgid "To set the role {0} in the user {1}, kindly set the {2} field as {3} in one of the {4} record."
-msgstr "Para definir a função {0} para o usuário {1}, defina o campo {2} como {3} em um dos registros de {4}."
+msgstr "Para definir o perfil {0} para o usuário {1}, defina o campo {2} como {3} em um dos registros de {4}."
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.js:8
 msgid "To use Google Calendar, enable {0}."
@@ -24212,7 +24223,7 @@ msgstr "Total"
 #. Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 msgid "Total Background Workers"
-msgstr "Total de workers em segundo plano"
+msgstr "Total de processos em segundo plano"
 
 #. Label of the total_errors (Int) field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
@@ -24807,7 +24818,7 @@ msgstr "Atualizar"
 #. Naming Settings'
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Update Amendment Naming"
-msgstr "Atualizar nomenclatura de alteração"
+msgstr "Atualizar nomenclatura de retificação"
 
 #. Label of the update_field (Select) field in DocType 'Workflow Document
 #. State'
@@ -24924,24 +24935,29 @@ msgstr "Fazer upgrade do plano"
 #: frappe/public/js/frappe/form/grid.js:66
 #: frappe/public/js/frappe/form/templates/form_sidebar.html:13
 msgid "Upload"
-msgstr "Enviar"
+msgstr "Carregar"
 
 #: frappe/public/js/print_format_builder/LetterHeadEditor.vue:93
 msgid "Upload Image"
-msgstr "Enviar imagem"
+msgstr "Carregar imagem"
 
 #: frappe/public/js/frappe/file_uploader/FileUploader.vue:215
 msgid "Upload file"
-msgstr "Enviar arquivo"
+msgstr "Carregar arquivo"
 
 #: frappe/public/js/frappe/file_uploader/FileUploader.vue:218
 msgid "Upload {0} files"
-msgstr "Enviar {0} arquivos"
+msgstr "Carregar {0} arquivos"
+
+#. Label of the uploaded_to_dropbox (Check) field in DocType 'File'
+#: frappe/core/doctype/file/file.json
+msgid "Uploaded To Dropbox"
+msgstr "Carregado para o Dropbox"
 
 #. Label of the uploaded_to_google_drive (Check) field in DocType 'File'
 #: frappe/core/doctype/file/file.json
 msgid "Uploaded To Google Drive"
-msgstr "Enviado para o Google Drive"
+msgstr "Carregado para o Google Drive"
 
 #. Description of the 'Value to Validate' (Data) field in DocType 'Onboarding
 #. Step'
@@ -25087,7 +25103,7 @@ msgstr "Usuário"
 
 #: frappe/core/doctype/has_role/has_role.py:25
 msgid "User '{0}' already has the role '{1}'"
-msgstr "O usuário '{0}' já tem a função '{1}'"
+msgstr "O usuário '{0}' já tem o perfil '{1}'"
 
 #. Name of a DocType
 #: frappe/core/doctype/report/user_activity_report.json
@@ -25240,12 +25256,12 @@ msgstr "Permissões de usuário criadas com sucesso"
 #: frappe/core/doctype/user_role/user_role.json
 #: frappe/integrations/doctype/ldap_group_mapping/ldap_group_mapping.json
 msgid "User Role"
-msgstr "Funcao do usuário"
+msgstr "Perfil do usuário"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_role_profile/user_role_profile.json
 msgid "User Role Profile"
-msgstr "Perfil de função do usuário"
+msgstr "Perfil de acesso do usuário"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_select_document_type/user_select_document_type.json
@@ -25352,7 +25368,7 @@ msgstr "O usuário {0} não tem acesso a este documento"
 
 #: frappe/permissions.py:165
 msgid "User {0} does not have doctype access via role permission for document {1}"
-msgstr "O usuário {0} não tem acesso ao DocType via permissão de função para o documento {1}"
+msgstr "O usuário {0} não tem acesso ao DocType via permissão de perfil para o documento {1}"
 
 #: frappe/desk/doctype/workspace/workspace.py:306
 msgid "User {0} does not have the permission to create a Workspace."
@@ -25765,7 +25781,7 @@ msgstr "Visivel para usuários do site/portal."
 
 #: frappe/desk/doctype/desktop_settings/desktop_settings.js:6
 msgid "Visit Desktop"
-msgstr "Acessar área de trabalho"
+msgstr "Acessar o Desk"
 
 #: frappe/website/doctype/website_route_meta/website_route_meta.js:7
 msgid "Visit Web Page"
@@ -26188,7 +26204,7 @@ msgstr "URL de boas-vindas"
 #. Name of a Workspace
 #: frappe/core/workspace/welcome_workspace/welcome_workspace.json
 msgid "Welcome Workspace"
-msgstr "Espaco de trabalho de boas-vindas"
+msgstr "Espaço de trabalho de boas-vindas"
 
 #: frappe/core/doctype/user/user.py:454
 msgid "Welcome email sent"
@@ -26218,11 +26234,11 @@ msgstr "Ao enviar um documento por e-mail, armazene o PDF em Communication. Avis
 #. DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "When uploading files, force the use of the web-based image capture. If this is unchecked, the default behavior is to use the mobile native camera when use from a mobile is detected."
-msgstr "Ao enviar arquivos, force o uso da captura de imagem baseada na web. Se isso estiver desmarcado, o comportamento padrão será usar a camera nativa do celular quando o acesso por um dispositivo movel for detectado."
+msgstr "Ao carregar arquivos, force o uso da captura de imagem baseada na web. Se isso estiver desmarcado, o comportamento padrão será usar a camera nativa do celular quando o acesso por um dispositivo movel for detectado."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:18
 msgid "When you Amend a document after Cancel and save it, it will get a new number that is a version of the old number."
-msgstr "Quando você alterar um documento apos cancelá-lo e salvá-lo, ele recebera um novo número que e uma versao do número antigo."
+msgstr "Quando você retificar um documento apos cancelá-lo e salvá-lo, ele recebera um novo número que e uma versao do número antigo."
 
 #. Description of the 'DocType View' (Select) field in DocType 'Workspace
 #. Shortcut'
@@ -26321,7 +26337,7 @@ msgstr "Nome da ação do fluxo de trabalho"
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_action_permitted_role/workflow_action_permitted_role.json
 msgid "Workflow Action Permitted Role"
-msgstr "Funcao permitida da ação do fluxo de trabalho"
+msgstr "Perfil permitido da ação do fluxo de trabalho"
 
 #: frappe/public/js/workflow_builder/store.js:129
 #: frappe/workflow/doctype/workflow/workflow.js:25
@@ -26434,7 +26450,7 @@ msgstr "Fluxo de trabalho atualizado com sucesso"
 #: frappe/public/js/frappe/utils/utils.js:968
 #: frappe/public/js/frappe/views/workspace/workspace.js:10
 msgid "Workspace"
-msgstr "Espaco de trabalho"
+msgstr "Espaço de trabalho"
 
 #: frappe/public/js/frappe/router.js:180
 msgid "Workspace <b>{0}</b> does not exist"
@@ -26510,12 +26526,12 @@ msgstr "Visibilidade do espaço de trabalho"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:553
 msgid "Workspace {0} created"
-msgstr "Espaco de trabalho {0} criado"
+msgstr "Espaço de trabalho {0} criado"
 
 #. Option for the 'View' (Select) field in DocType 'Form Tour'
 #: frappe/desk/doctype/form_tour/form_tour.json
 msgid "Workspaces"
-msgstr "Espacos de trabalho"
+msgstr "Espaços de trabalho"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:757
 msgid "Would you like to publish this comment? This means it will become visible to website/portal users."
@@ -27002,11 +27018,11 @@ msgstr "Você precisa da permissão '{0}' em {1} {2} para executar esta ação."
 #: frappe/desk/doctype/workspace/workspace.py:129
 #: frappe/desk/doctype/workspace_sidebar/workspace_sidebar.py:75
 msgid "You need to be Workspace Manager to delete a public workspace."
-msgstr "Você precisa ser Gerente de workspace para excluir um workspace público."
+msgstr "Você precisa ser Workspace Manager para excluir um espaço de trabalho público."
 
 #: frappe/desk/doctype/workspace/workspace.py:78
 msgid "You need to be Workspace Manager to edit this document"
-msgstr "Você precisa ser Gerente de workspace para editar este documento"
+msgstr "Você precisa ser Workspace Manager para editar este documento"
 
 #: frappe/www/attribution.py:16
 msgid "You need to be a system user to access this page."
@@ -27018,7 +27034,7 @@ msgstr "Você precisa estar em modo de desenvolvimento para editar um Web Form p
 
 #: frappe/utils/response.py:280
 msgid "You need to be logged in and have System Manager Role to be able to access backups."
-msgstr "Você precisa fazer login e ter a função Gerente do sistema para acessar os backups."
+msgstr "Você precisa fazer login e ter o perfil Gerente do sistema para acessar os backups."
 
 #: frappe/www/me.py:13 frappe/www/third_party_apps.py:10
 msgid "You need to be logged in to access this page"
@@ -27268,7 +27284,7 @@ msgstr "crescente"
 
 #: frappe/public/js/frappe/form/workflow.js:35
 msgid "by Role"
-msgstr "por função"
+msgstr "por perfil"
 
 #. Label of the profile (Code) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json
@@ -28051,7 +28067,7 @@ msgstr "{0} cancelou este documento {1}"
 
 #: frappe/model/document.py:583
 msgid "{0} cannot be amended because it is not cancelled. Please cancel the document before creating an amendment."
-msgstr "{0} não pode ser alterado porque não está cancelado. Cancele o documento antes de criar uma alteração."
+msgstr "{0} não pode ser retificado porque não está cancelado. Cancele o documento antes de criar uma retificação."
 
 #: frappe/public/js/form_builder/store.js:190
 msgid "{0} cannot be hidden and mandatory without any default value"
@@ -28270,7 +28286,7 @@ msgstr "{0} não é um arquivo ZIP"
 
 #: frappe/core/doctype/user_invitation/user_invitation.py:182
 msgid "{0} is not an allowed role for {1}"
-msgstr "{0} não é uma função permitida para {1}"
+msgstr "{0} não é um perfil permitido para {1}"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:1438
 msgid "{0} is not equal to {1}"
@@ -28450,7 +28466,7 @@ msgstr "{0} removeu {1} linhas de {2}"
 
 #: frappe/public/js/frappe/roles_editor.js:64
 msgid "{0} role does not have permission on any doctype"
-msgstr "A função {0} não tem permissão em nenhum DocType"
+msgstr "O perfil {0} não tem permissão em nenhum DocType"
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:304
 msgctxt "User removed rows from child table"
@@ -28540,7 +28556,7 @@ msgstr "há {0} semanas"
 
 #: frappe/core/page/permission_manager/permission_manager.js:378
 msgid "{0} with the role <strong>{1}</strong>"
-msgstr "{0} com a função <strong>{1}</strong>"
+msgstr "{0} com o perfil <strong>{1}</strong>"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:39
 msgid "{0} y"
@@ -28600,11 +28616,11 @@ msgstr "{0}: '{1}' ({3}) será truncado, pois o máximo de caracteres permitido 
 
 #: frappe/core/doctype/doctype/doctype.py:1835
 msgid "{0}: Cannot set Amend without Cancel"
-msgstr "{0}: não é possível definir Alterar sem Cancelar"
+msgstr "{0}: não é possível definir Retificar sem Cancelar"
 
 #: frappe/core/doctype/doctype/doctype.py:1853
 msgid "{0}: Cannot set Assign Amend if not Submittable"
-msgstr "{0}: não é possível definir Atribuir alteração se não puder ser enviado"
+msgstr "{0}: não é possível definir Atribuir retificação se não puder ser enviado"
 
 #: frappe/core/doctype/doctype/doctype.py:1851
 msgid "{0}: Cannot set Assign Submit if not Submittable"
@@ -28620,7 +28636,7 @@ msgstr "{0}: não é possível definir Importar sem Criar"
 
 #: frappe/core/doctype/doctype/doctype.py:1833
 msgid "{0}: Cannot set Submit, Cancel, Amend without Write"
-msgstr "{0}: não é possível definir Enviar, Cancelar e Alterar sem Gravar"
+msgstr "{0}: não é possível definir Enviar, Cancelar e Retificar sem Gravar"
 
 #: frappe/core/doctype/doctype/doctype.py:1857
 msgid "{0}: Cannot set import as {1} is not importable"
@@ -28656,7 +28672,7 @@ msgstr "{0}: nenhuma permissão básica definida"
 
 #: frappe/core/doctype/doctype/doctype.py:1804
 msgid "{0}: Only one rule allowed with the same Role, Level and {1}"
-msgstr "{0}: só é permitida uma regra com a mesma função, nível e {1}"
+msgstr "{0}: só é permitida uma regra com o mesmo perfil, nível e {1}"
 
 #: frappe/core/doctype/doctype/doctype.py:1330
 msgid "{0}: Options must be a valid DocType for field {1} in row {2}"
