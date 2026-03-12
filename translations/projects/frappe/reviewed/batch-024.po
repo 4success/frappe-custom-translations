@@ -70,11 +70,11 @@ msgstr "As permissões são aplicadas automaticamente a relatórios padrão e pe
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:5
 msgid "Permissions are set on Roles and Document Types (called DocTypes) by setting rights like Read, Write, Create, Delete, Submit, Cancel, Amend, Report, Import, Export, Print, Email and Set User Permissions."
-msgstr "As permissões são definidas em Papéis e Tipos de Documento (chamados DocTypes) ao configurar direitos como Ler, Gravar, Criar, Excluir, Enviar, Cancelar, Alterar, Relatar, Importar, Exportar, Imprimir, E-mail e Definir permissões de usuário."
+msgstr "As permissões são definidas em Perfis e Tipos de Documento (chamados DocTypes) ao configurar direitos como Ler, Gravar, Criar, Excluir, Enviar, Cancelar, Alterar, Relatar, Importar, Exportar, Imprimir, E-mail e Definir permissões de usuário."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:26
 msgid "Permissions at higher levels are Field Level permissions. All Fields have a Permission Level set against them and the rules defined at that permissions apply to the field. This is useful in case you want to hide or make certain field read-only for certain Roles."
-msgstr "As permissões em níveis mais altos são permissões em nível de campo. Todos os campos têm um nível de permissão definido, e as regras definidas nesse nível se aplicam ao campo. Isso é útil quando você quer ocultar ou tornar determinado campo somente leitura para certos papéis."
+msgstr "As permissões em níveis mais altos são permissões em nível de campo. Todos os campos têm um nível de permissão definido, e as regras definidas nesse nível se aplicam ao campo. Isso é útil quando você quer ocultar ou tornar determinado campo somente leitura para certos perfis."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:24
 msgid "Permissions at level 0 are Document Level permissions, i.e. they are primary for access to the document."
@@ -82,7 +82,7 @@ msgstr "As permissões no nível 0 são permissões em nível de documento, ou s
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:6
 msgid "Permissions get applied on Users based on what Roles they are assigned."
-msgstr "As permissões são aplicadas aos usuários com base nos papéis atribuídos a eles."
+msgstr "As permissões são aplicadas aos usuários com base nos perfis atribuídos a eles."
 
 #. Name of a report
 #. Label of a Link in the Users Workspace
@@ -95,7 +95,7 @@ msgstr "Documentos permitidos para o usuário"
 #. Action'
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 msgid "Permitted Roles"
-msgstr "Papéis permitidos"
+msgstr "Perfis permitidos"
 
 #. Option for the 'Address Type' (Select) field in DocType 'Address'
 #: frappe/contacts/doctype/address/address.json
@@ -268,7 +268,7 @@ msgstr "Verifique seu endereço de e-mail cadastrado para ver as instruções de
 
 #: frappe/desk/doctype/workspace/workspace.js:23
 msgid "Please click Edit on the Workspace for best results"
-msgstr "Clique em Editar no workspace para melhores resultados"
+msgstr "Clique em Editar na área de trabalho para melhores resultados"
 
 #: frappe/core/doctype/data_import/data_import.js:164
 msgid "Please click on 'Export Errored Rows', fix the errors and import again."
@@ -400,7 +400,7 @@ msgstr "Segue em anexo {0}: {1}"
 #: frappe/templates/includes/comments/comments.py:42
 #: frappe/templates/includes/comments/comments.py:45
 msgid "Please login to post a comment."
-msgstr "Faça login para públicar um comentário."
+msgstr "Faça login para publicar um comentário."
 
 #: frappe/core/doctype/communication/communication.py:186
 msgid "Please make sure the Reference Communication Docs are not circularly linked."

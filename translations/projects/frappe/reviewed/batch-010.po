@@ -51,11 +51,11 @@ msgstr "Linha #{0} de links de documentos: DocType ou nome do campo inválido."
 
 #: frappe/core/doctype/doctype/doctype.py:1209
 msgid "Document Links Row #{0}: Parent DocType is mandatory for internal links"
-msgstr "Linha #{0} de links de documentos: o DocType pai e obrigatório para links internos"
+msgstr "Linha #{0} de links de documentos: o DocType pai é obrigatório para links internos"
 
 #: frappe/core/doctype/doctype/doctype.py:1215
 msgid "Document Links Row #{0}: Table Fieldname is mandatory for internal links"
-msgstr "Linha #{0} de links de documentos: o nome do campo da tabela e obrigatório para links internos"
+msgstr "Linha #{0} de links de documentos: o nome do campo da tabela é obrigatório para links internos"
 
 #. Label of the reminder_docname (Dynamic Link) field in DocType 'Reminder'
 #. Label of the share_name (Dynamic Link) field in DocType 'DocShare'
@@ -84,7 +84,7 @@ msgstr "Regra de nomenclatura de documentos"
 #. Name of a DocType
 #: frappe/core/doctype/document_naming_rule_condition/document_naming_rule_condition.json
 msgid "Document Naming Rule Condition"
-msgstr "Condicao da regra de nomenclatura de documentos"
+msgstr "Condição da regra de nomenclatura de documentos"
 
 #. Name of a DocType
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
@@ -157,7 +157,7 @@ msgstr "Etiqueta do documento"
 #. Label of the title (Data) field in DocType 'Tag Link'
 #: frappe/desk/doctype/tag_link/tag_link.json
 msgid "Document Title"
-msgstr "Titulo do documento"
+msgstr "Título do documento"
 
 #. Label of the document_type (Link) field in DocType 'Assignment Rule'
 #. Label of the reference_type (Link) field in DocType 'Milestone'
@@ -213,7 +213,7 @@ msgstr "Tipo de documento"
 
 #: frappe/desk/doctype/number_card/number_card.py:60
 msgid "Document Type and Function are required to create a number card"
-msgstr "Tipo de documento e função sao obrigatórios para criar um cartão numerico"
+msgstr "Tipo de documento e função são obrigatórios para criar um cartão numérico"
 
 #: frappe/permissions.py:152
 msgid "Document Type is not importable"
@@ -240,7 +240,7 @@ msgstr "Tipos de documento"
 #. Label of the select_doctypes (Table) field in DocType 'User Type'
 #: frappe/core/doctype/user_type/user_type.json
 msgid "Document Types (Select Permissions Only)"
-msgstr "Tipos de documento (somente permissões de selecao)"
+msgstr "Tipos de documento (somente permissões de seleção)"
 
 #. Label of the section_break_2 (Section Break) field in DocType 'User Type'
 #: frappe/core/doctype/user_type/user_type.json
@@ -274,7 +274,7 @@ msgstr "O documento está em rascunho"
 
 #: frappe/public/js/frappe/form/workflow.js:45
 msgid "Document is only editable by users with role"
-msgstr "O documento so pode ser editado por usuários com o perfil"
+msgstr "O documento só pode ser editado por usuários com o perfil"
 
 #: frappe/core/doctype/communication/communication.js:182
 msgid "Document not Relinked"
@@ -290,7 +290,7 @@ msgstr "O renomeio do documento de {0} para {1} foi enfileirado"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:397
 msgid "Document type is required to create a dashboard chart"
-msgstr "O tipo de documento e obrigatório para criar um grafico de painel"
+msgstr "O tipo de documento é obrigatório para criar um gráfico de painel"
 
 #: frappe/core/doctype/deleted_document/deleted_document.py:45
 msgid "Document {0} Already Restored"
@@ -408,7 +408,7 @@ msgstr "Rosquinha"
 
 #: frappe/public/js/form_builder/components/EditableInput.vue:43
 msgid "Double click to edit label"
-msgstr "Clique duas vezes para editar o rotulo"
+msgstr "Clique duas vezes para editar o rótulo"
 
 #: frappe/core/doctype/file/file.js:15 frappe/core/doctype/user/user.js:481
 #: frappe/email/doctype/auto_email_report/auto_email_report.js:8
@@ -494,7 +494,7 @@ msgstr "Arraste e solte arquivos aqui ou envie de"
 
 #: frappe/public/js/print_format_builder/ConfigureColumns.vue:76
 msgid "Drag columns to set order. Column width is set in percentage. The total width should not be more than 100. Columns marked in red will be removed."
-msgstr "Arraste as colunas para definir a ordem. A largura da coluna e definida em porcentagem. A largura total não deve ser maior que 100. Colunas marcadas em vermelho serão removidas."
+msgstr "Arraste as colunas para definir a ordem. A largura da coluna é definida em porcentagem. A largura total não deve ser maior que 100. Colunas marcadas em vermelho serão removidas."
 
 #: frappe/printing/page/print_format_builder/print_format_builder_layout.html:3
 msgid "Drag elements from the sidebar to add. Drag them back to trash."
@@ -670,7 +670,7 @@ msgstr "Editar"
 
 #: frappe/public/js/frappe/ui/address_autocomplete/autocomplete_dialog.js:66
 msgid "Edit Address in Form"
-msgstr "Editar endereço no formulario"
+msgstr "Editar endereço no formulário"
 
 #: frappe/templates/emails/auto_email_report.html:63
 msgid "Edit Auto Email Report Settings"
@@ -678,7 +678,7 @@ msgstr "Editar configurações do relatório automático por e-mail"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:38
 msgid "Edit Chart"
-msgstr "Editar grafico"
+msgstr "Editar gráfico"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:50
 msgid "Edit Custom Block"
@@ -713,7 +713,7 @@ msgstr "Editar filtros"
 
 #: frappe/public/js/print_format_builder/PrintFormat.vue:29
 msgid "Edit Footer"
-msgstr "Editar rodape"
+msgstr "Editar rodapé"
 
 #: frappe/printing/doctype/print_format/print_format.js:29
 msgid "Edit Format"
@@ -721,7 +721,7 @@ msgstr "Editar formato"
 
 #: frappe/public/js/frappe/form/quick_entry.js:326
 msgid "Edit Full Form"
-msgstr "Editar formulario completo"
+msgstr "Editar formulário completo"
 
 #: frappe/printing/page/print_format_builder/print_format_builder_field.html:27
 #: frappe/public/js/print_format_builder/Field.vue:83
@@ -743,7 +743,7 @@ msgstr "Editar papel timbrado"
 
 #: frappe/public/js/print_format_builder/PrintFormat.vue:35
 msgid "Edit Letter Head Footer"
-msgstr "Editar rodape do papel timbrado"
+msgstr "Editar rodapé do papel timbrado"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:42
 msgid "Edit Links"
@@ -751,7 +751,7 @@ msgstr "Editar links"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:44
 msgid "Edit Number Card"
-msgstr "Editar cartão numerico"
+msgstr "Editar cartão numérico"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:46
 msgid "Edit Onboarding"
@@ -759,7 +759,7 @@ msgstr "Editar Onboarding"
 
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:24
 msgid "Edit Print Format"
-msgstr "Editar formato de impressao"
+msgstr "Editar formato de impressão"
 
 #: frappe/www/me.html:38
 msgid "Edit Profile"
@@ -802,7 +802,7 @@ msgstr "Editar o DocType {0}"
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:721
 msgid "Edit to add content"
-msgstr "Edite para adicionar conteudo"
+msgstr "Edite para adicionar conteúdo"
 
 #: frappe/public/js/frappe/web_form/web_form.js:470
 msgctxt "Button in web form"

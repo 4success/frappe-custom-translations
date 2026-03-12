@@ -39,6 +39,7 @@ Update this file before large review passes. Keep one preferred translation per 
 - `frappe`: database/transaction `Commit` -> `Confirmar`; prefer this wording in current UI unless a future string explicitly exposes low-level transaction semantics.
 - `frappe`: protocol identifiers such as `Client Secret Basic` and similar OAuth/OpenID labels stay in English when they match standard names.
 - `frappe`: field type or UI identifier `Fold` stays `Fold`; avoid translating it as `Dobrar` in form-builder strings.
+- `frappe/ecosystem`: `Workspace` -> `Área de trabalho`; keep the accent in the full family (`Configurações da área de trabalho`, `Tema da área de trabalho`, `Ícone da área de trabalho`).
 - `erpnext`: `Party` / `Party Account` -> `Cadastro` / `Conta do cadastro`; avoid `Terceiro` and `Parceiro` as the default neutral ERP term.
 - `erpnext`: `Stock Entry` -> `Movimento de estoque`; avoid alternating with `Lancamento de estoque`.
 - `erpnext`: `Shipment` -> `Remessa`; use `Expedicao` or `Embarque` only when the source/context is explicitly narrower.

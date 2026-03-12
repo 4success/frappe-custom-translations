@@ -37,7 +37,7 @@ msgstr "Um romaneio só pode ser criado para uma nota de entrega em rascunho."
 #. Description of a DocType
 #: erpnext/stock/doctype/price_list/price_list.json
 msgid "A Price List is a collection of Item Prices either Selling, Buying, or both"
-msgstr "Uma lista de preços é uma colecao de preços de itens de venda, compra ou ambos"
+msgstr "Uma lista de preços é uma coleção de preços de itens de venda, compra ou ambos"
 
 #. Description of a DocType
 #: erpnext/stock/doctype/item/item.json
@@ -50,7 +50,7 @@ msgstr "Um trabalho de conciliação {0} está em execução com os mesmos filtr
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1952
 msgid "A Reverse Journal Entry {0} already exists for this Journal Entry."
-msgstr "Já existe um lançamento de diario reverso {0} para este lançamento de diario."
+msgstr "Já existe um lançamento de diário reverso {0} para este lançamento de diário."
 
 #: erpnext/setup/doctype/company/company.py:1078
 msgid "A Transaction Deletion Document: {0} is triggered for {0}"
@@ -59,7 +59,7 @@ msgstr "Um documento de exclusão de transação: {0} foi acionado para {0}"
 #. Description of a DocType
 #: erpnext/accounts/doctype/shipping_rule_condition/shipping_rule_condition.json
 msgid "A condition for a Shipping Rule"
-msgstr "Uma condicao para uma regra de frete"
+msgstr "Uma condição para uma regra de frete"
 
 #. Description of the 'Send To Primary Contact' (Check) field in DocType
 #. 'Process Statement Of Accounts'
@@ -74,7 +74,7 @@ msgstr "E preciso definir um motorista para enviar."
 #. Description of a DocType
 #: erpnext/stock/doctype/warehouse/warehouse.json
 msgid "A logical Warehouse against which stock entries are made."
-msgstr "Um armazém logico no qual os lançamentos de estoque sao feitos."
+msgstr "Um armazém lógico no qual os lançamentos de estoque são feitos."
 
 #: erpnext/stock/serial_batch_bundle.py:1440
 msgid "A naming series conflict occurred while creating serial numbers. Please change the naming series for the item {0}."
@@ -91,7 +91,7 @@ msgstr "Já existe um modelo com a categoria fiscal {0}. Só é permitido um mod
 #. Description of a DocType
 #: erpnext/setup/doctype/sales_partner/sales_partner.json
 msgid "A third party distributor / dealer / commission agent / affiliate / reseller who sells the companies products for a commission."
-msgstr "Um distribuidor, revendedor, agente comissionado, afiliado ou revendedor terceirizado que vende os produtos da empresa mediante comissao."
+msgstr "Um distribuidor, revendedor, agente comissionado, afiliado ou revendedor terceirizado que vende os produtos da empresa mediante comissão."
 
 #. Option for the 'Blood Group' (Select) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -189,7 +189,7 @@ msgstr "Usuário Acadêmico"
 #: erpnext/stock/doctype/item_quality_inspection_parameter/item_quality_inspection_parameter.json
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Acceptance Criteria Formula"
-msgstr "Formula do critério de aceitação"
+msgstr "Fórmula do critério de aceitação"
 
 #. Label of the value (Data) field in DocType 'Item Quality Inspection
 #. Parameter'
@@ -690,7 +690,7 @@ msgstr "Dimensão Contábil"
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:215
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.py:151
 msgid "Accounting Dimension <b>{0}</b> is required for 'Balance Sheet' account {1}."
-msgstr "A dimensão contábil <b>{0}</b> é obrigatória para a conta de 'Balanco patrimonial' {1}."
+msgstr "A dimensão contábil <b>{0}</b> é obrigatória para a conta de 'Balanço patrimonial' {1}."
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:201
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.py:138
@@ -869,7 +869,7 @@ msgstr "Filtro de dimensões contábeis"
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
 msgid "Accounting Entries"
-msgstr "Lancamentos contábeis"
+msgstr "Lançamentos contábeis"
 
 #: erpnext/assets/doctype/asset/asset.py:917
 #: erpnext/assets/doctype/asset/asset.py:932
@@ -884,7 +884,7 @@ msgstr "Lançamento contábil para LCV no lançamento de estoque {0}"
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:873
 msgid "Accounting Entry for Landed Cost Voucher for SCR {0}"
-msgstr "Lancamento contábil para voucher de custo adicional do SCR {0}"
+msgstr "Lançamento contábil para voucher de custo adicional do SCR {0}"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:839
 msgid "Accounting Entry for Service"
@@ -910,11 +910,11 @@ msgstr "Lançamento Contábil de Estoque"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:736
 msgid "Accounting Entry for {0}"
-msgstr "Lancamento contábil para {0}"
+msgstr "Lançamento contábil para {0}"
 
 #: erpnext/controllers/accounts_controller.py:2418
 msgid "Accounting Entry for {0}: {1} can only be made in currency: {2}"
-msgstr "Lancamento contábil para {0}: {1} só pode ser feito na moeda: {2}"
+msgstr "Lançamento contábil para {0}: {1} só pode ser feito na moeda: {2}"
 
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.js:193
 #: erpnext/assets/doctype/asset_repair/asset_repair.js:171
@@ -946,7 +946,7 @@ msgstr "O período contábil se sobrepoe a {0}"
 #. 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Accounting entries are frozen up to this date. Only users with the specified role can create or modify entries before this date."
-msgstr "Os lançamentos contábeis ficam bloqueados ate está data. Só usuários com o perfil especificado podem criar ou alterar lançamentos antes desta data."
+msgstr "Os lançamentos contábeis ficam bloqueados até esta data. Só usuários com o perfil especificado podem criar ou alterar lançamentos antes desta data."
 
 #. Label of the applicable_on_account (Link) field in DocType 'Applicable On
 #. Account'
@@ -992,7 +992,7 @@ msgstr "Fechamento de contas"
 #. Label of the accounts_frozen_till_date (Date) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Accounts Frozen Till Date"
-msgstr "Contas bloqueadas ate a data"
+msgstr "Contas bloqueadas até a data"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:192
 msgid "Accounts Included in Report"

@@ -32,7 +32,7 @@ msgstr "Demanda Total (dados anteriores)"
 
 #: erpnext/accounts/report/balance_sheet/balance_sheet.py:223
 msgid "Total Equity"
-msgstr "Patrimonio Liquido Total"
+msgstr "Patrimônio Líquido Total"
 
 #. Label of the total_distance (Float) field in DocType 'Delivery Trip'
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.json
@@ -124,13 +124,13 @@ msgstr "Total de Itens"
 
 #: erpnext/stock/report/landed_cost_report/landed_cost_report.py:24
 msgid "Total Landed Cost"
-msgstr "Custo Total de Aquisicao"
+msgstr "Custo Total de Aquisição"
 
 #. Label of the total_taxes_and_charges (Currency) field in DocType 'Landed
 #. Cost Voucher'
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.json
 msgid "Total Landed Cost (Company Currency)"
-msgstr "Custo Total de Aquisicao (Moeda da Empresa)"
+msgstr "Custo Total de Aquisição (Moeda da Empresa)"
 
 #: erpnext/accounts/report/balance_sheet/balance_sheet.py:219
 msgid "Total Liability"
@@ -165,7 +165,7 @@ msgstr "Vendas Mensais Totais"
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Total Net Weight"
-msgstr "Peso Liquido Total"
+msgstr "Peso Líquido Total"
 
 #. Label of the total_number_of_booked_depreciations (Int) field in DocType
 #. 'Asset Finance Book'
@@ -261,7 +261,7 @@ msgstr "Total de Pagamentos"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:712
 msgid "Total Picked Quantity {0} is more than ordered qty {1}. You can set the Over Picking Allowance in Stock Settings."
-msgstr "A quantidade total separada {0} e maior que a quantidade solicitada {1}. Você pode definir a tolerancia de separação excedente em Configurações de Estoque."
+msgstr "A quantidade total separada {0} e maior que a quantidade solicitada {1}. Você pode definir a tolerância de separação excedente em Configurações de Estoque."
 
 #. Label of the total_planned_qty (Float) field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
@@ -551,7 +551,7 @@ msgstr "A porcentagem total de contribuição deve ser igual a 100"
 
 #: erpnext/accounts/doctype/budget/budget.py:363
 msgid "Total distributed amount {0} must be equal to Budget Amount {1}"
-msgstr "O valor total distribuido {0} deve ser igual ao Valor do Orcamento {1}"
+msgstr "O valor total distribuído {0} deve ser igual ao Valor do Orçamento {1}"
 
 #: erpnext/accounts/doctype/budget/budget.py:370
 msgid "Total distribution percent must equal 100 (currently {0})"
@@ -680,22 +680,22 @@ msgstr "Data da Transação"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:504
 msgid "Transaction Deletion Document: {0} is running for this Company. {1}"
-msgstr "Documento de Exclusao de Transações: {0} está em execução para esta Empresa. {1}"
+msgstr "Documento de Exclusão de Transações: {0} está em execução para esta Empresa. {1}"
 
 #. Name of a DocType
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.json
 msgid "Transaction Deletion Record"
-msgstr "Registro de Exclusao de Transações"
+msgstr "Registro de Exclusão de Transações"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/transaction_deletion_record_details/transaction_deletion_record_details.json
 msgid "Transaction Deletion Record Details"
-msgstr "Detalhes do Registro de Exclusao de Transações"
+msgstr "Detalhes do Registro de Exclusão de Transações"
 
 #. Name of a DocType
 #: erpnext/setup/doctype/transaction_deletion_record_item/transaction_deletion_record_item.json
 msgid "Transaction Deletion Record Item"
-msgstr "Item do Registro de Exclusao de Transações"
+msgstr "Item do Registro de Exclusão de Transações"
 
 #. Label of the transaction_details_section (Section Break) field in DocType
 #. 'GL Entry'
@@ -709,7 +709,7 @@ msgstr "Detalhes da Transação"
 #. Label of the transaction_exchange_rate (Float) field in DocType 'GL Entry'
 #: erpnext/accounts/doctype/gl_entry/gl_entry.json
 msgid "Transaction Exchange Rate"
-msgstr "Taxa de Cambio da Transação"
+msgstr "Taxa de Câmbio da Transação"
 
 #. Label of the transaction_id (Data) field in DocType 'Bank Transaction'
 #. Label of the transaction_references (Section Break) field in DocType
@@ -759,7 +759,7 @@ msgstr "Transação não permitida em relação à ordem de trabalho interrompid
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1317
 msgid "Transaction reference no {0} dated {1}"
-msgstr "Referencia da transação no {0} datada de {1}"
+msgstr "Referência da transação no {0} datada de {1}"
 
 #. Group in Bank Account's connections
 #: erpnext/accounts/doctype/bank_account/bank_account.json
@@ -776,11 +776,11 @@ msgstr "Transações"
 #. Label of the transactions_annual_history (Code) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Transactions Annual History"
-msgstr "Historico Anual de Transações"
+msgstr "Histórico Anual de Transações"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.js:117
 msgid "Transactions against the Company already exist! Chart of Accounts can only be imported for a Company with no transactions."
-msgstr "Ja existem transações para esta Empresa! O plano de contas so pode ser importado para uma Empresa sem transações."
+msgstr "Já existem transações para esta Empresa! O plano de contas só pode ser importado para uma Empresa sem transações."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1135
 msgid "Transactions using Sales Invoice in POS are disabled."
@@ -883,7 +883,7 @@ msgstr "Transito"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:479
 msgid "Transit Entry"
-msgstr "Lancamento em Transito"
+msgstr "Lançamento em Transito"
 
 #. Label of the lr_date (Date) field in DocType 'Delivery Note'
 #: erpnext/stock/doctype/delivery_note/delivery_note.json

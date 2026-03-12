@@ -121,7 +121,7 @@ msgstr "E-mail enviado ao fornecedor {0}"
 
 #: erpnext/stock/doctype/shipment/shipment.js:174
 msgid "Email or Phone/Mobile of the Contact are mandatory to continue."
-msgstr "O e-mail ou o telefone/celular do contato sao obrigatórios para continuar."
+msgstr "O e-mail ou o telefone/celular do contato são obrigatórios para continuar."
 
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:322
 msgid "Email sent successfully."
@@ -317,7 +317,7 @@ msgstr "O colaborador {0} não pertence a empresa {1}"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:310
 msgid "Employee {0} is currently working on another workstation. Please assign another employee."
-msgstr "O colaborador {0} esta trabalhando em outro posto de trabalho no momento. Atribua outro colaborador."
+msgstr "O colaborador {0} está trabalhando em outro posto de trabalho no momento. Atribua outro colaborador."
 
 #: erpnext/manufacturing/doctype/workstation/workstation.js:351
 msgid "Employees"
@@ -411,7 +411,7 @@ msgstr "Ativar acesso europeu"
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Enable Fuzzy Matching"
-msgstr "Ativar correspondencia aproximada"
+msgstr "Ativar correspondência aproximada"
 
 #. Label of the enable_health_monitor (Check) field in DocType 'Ledger Health
 #. Monitor'
@@ -475,7 +475,7 @@ msgstr "Ative esta caixa mesmo se quiser definir a prioridade zero"
 #. depreciation period' (Check) field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Enable this option to calculate daily depreciation by considering the total number of days in the entire depreciation period, (including leap years) while using daily pro-rata based depreciation"
-msgstr "Ative esta opção para calcular a depreciação diaria considerando o número total de dias de todo o periodo de depreciação (incluindo anos bissextos) ao usar depreciação diaria proporcional"
+msgstr "Ative esta opção para calcular a depreciação diária considerando o número total de dias de todo o período de depreciação (incluindo anos bissextos) ao usar depreciação diária proporcional"
 
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.js:34
 msgid "Enable to apply SLA on every {0}"
@@ -491,13 +491,13 @@ msgstr "Ao ativar esta caixa, a planilha de horas será buscada ao selecionar um
 #. 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Enabling this checkbox will force each Job Card Time Log to have From Time and To Time"
-msgstr "Ao ativar esta caixa, cada registro de tempo do cartão de trabalho devera ter Hora inicial e Hora final"
+msgstr "Ao ativar esta caixa, cada registro de tempo do cartão de trabalho deverá ter Hora inicial e Hora final"
 
 #. Description of the 'Check Supplier Invoice Number Uniqueness' (Check) field
 #. in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Enabling this ensures each Purchase Invoice has a unique value in Supplier Invoice No. field within a particular fiscal year"
-msgstr "Ao ativar, cada fatura de compra devera ter um valor único no campo Nro. da fatura do fornecedor dentro do mesmo exercício fiscal"
+msgstr "Ao ativar, cada fatura de compra deverá ter um valor único no campo Nro. da fatura do fornecedor dentro do mesmo exercício fiscal"
 
 #. Description of the 'Book Advance Payments in Separate Party Account' (Check)
 #. field in DocType 'Company'
@@ -513,7 +513,7 @@ msgstr "Ao ativar, será possível criar faturas em varias moedas para uma unica
 
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.js:11
 msgid "Enabling this will change the way how cancelled transactions are handled."
-msgstr "Ao ativar, a forma como as transações canceladas sao tratadas será alterada."
+msgstr "Ao ativar, a forma como as transações canceladas são tratadas será alterada."
 
 #. Label of the encashment_date (Date) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -561,18 +561,18 @@ msgstr "A data de término não pode ser anterior à data de início"
 #. Description of the 'To Date' (Date) field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "End date of current invoice's period"
-msgstr "Data final do periodo da fatura atual"
+msgstr "Data final do período da fatura atual"
 
 #. Label of the end_of_life (Date) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "End of Life"
-msgstr "Fim de vida util"
+msgstr "Fim de vida útil"
 
 #. Option for the 'Generate Invoice At' (Select) field in DocType
 #. 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
 msgid "End of the current subscription period"
-msgstr "Fim do periodo atual da assinatura"
+msgstr "Fim do período atual da assinatura"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:21
 msgid "Energy"
@@ -730,7 +730,7 @@ msgstr "Entidade"
 #. Label of the voucher_type (Select) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 msgid "Entry Type"
-msgstr "Tipo de lancamento"
+msgstr "Tipo de lançamento"
 
 #. Option for the 'Root Type' (Select) field in DocType 'Account'
 #. Option for the 'Account Type' (Select) field in DocType 'Account'
@@ -783,7 +783,7 @@ msgstr "Erro na conciliação de partes da transação bancaria {0}"
 
 #: erpnext/assets/doctype/asset/depreciation.py:317
 msgid "Error while posting depreciation entries"
-msgstr "Erro ao lancar os registros de depreciação"
+msgstr "Erro ao lançar os registros de depreciação"
 
 #: erpnext/accounts/deferred_revenue.py:541
 msgid "Error while processing deferred accounting for {0}"
@@ -797,7 +797,7 @@ msgstr "Erro ao refazer a avaliação do item"
 msgid "Error: This asset already has {0} depreciation periods booked.\n"
 "\t\t\t\t\tThe `depreciation start` date must be at least {1} periods after the `available for use` date.\n"
 "\t\t\t\t\tPlease correct the dates accordingly."
-msgstr "Erro: Este ativo ja tem {0} periodos de depreciação contábilizados.\n\t\t\t\t\tA data de `inicio da depreciação` deve ser pelo menos {1} periodos apos a data `disponivel para uso`.\n\t\t\t\t\tCorrija as datas adequadamente."
+msgstr "Erro: Este ativo já tem {0} períodos de depreciação contábilizados.\n\t\t\t\t\tA data de `início da depreciação` deve ser pelo menos {1} períodos após a data `disponível para uso`.\n\t\t\t\t\tCorrija as datas adequadamente."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:962
 msgid "Error: {0} is mandatory field"
@@ -829,7 +829,7 @@ msgstr "Tempo e custo estimados"
 #. Label of the period (Select) field in DocType 'Supplier Scorecard'
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json
 msgid "Evaluation Period"
-msgstr "Periodo de avaliação"
+msgstr "Período de avaliação"
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:48
 msgid "Even if there are multiple Pricing Rules with highest priority, then following internal priorities are applied:"

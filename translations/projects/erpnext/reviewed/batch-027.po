@@ -48,7 +48,7 @@ msgstr "Cartao de trabalho e planejamento de capacidade"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1335
 msgid "Job Card {0} has been completed"
-msgstr "Cartao de trabalho {0} foi concluido"
+msgstr "Cartão de trabalho {0} foi concluído"
 
 #. Label of the dashboard_tab (Tab Break) field in DocType 'Workstation'
 #: erpnext/manufacturing/doctype/workstation/workstation.json
@@ -133,7 +133,7 @@ msgstr "Tarefa: {0} foi acionada para processar transações com falha"
 #. Label of the employment_details (Tab Break) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Joining"
-msgstr "Admissao"
+msgstr "Admissão"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -209,7 +209,7 @@ msgstr "Tipo de Lancamento Contabil"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:540
 msgid "Journal Entry for Asset scrapping cannot be cancelled. Please restore the Asset."
-msgstr "O lancamento contábil para baixa do ativo não pode ser cancelado. Restaure o ativo."
+msgstr "O lançamento contábil para baixa do ativo não pode ser cancelado. Restaure o ativo."
 
 #. Label of the journal_entry_for_scrap (Link) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
@@ -218,7 +218,7 @@ msgstr "Lancamento Contabil de Baixa"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:333
 msgid "Journal Entry type should be set as Depreciation Entry for asset depreciation"
-msgstr "O tipo de lancamento contábil deve ser definido como Lancamento de Depreciação para a depreciação do ativo"
+msgstr "O tipo de lançamento contábil deve ser definido como Lançamento de Depreciação para a depreciação do ativo"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:695
 msgid "Journal Entry {0} does not have account {1} or already matched against other voucher"
@@ -226,7 +226,7 @@ msgstr "O lançamento contábil {0} não possui a conta {1} ou já foi conciliad
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.js:97
 msgid "Journal entries have been created"
-msgstr "Os lancamentos contábeis foram criados"
+msgstr "Os lançamentos contábeis foram criados"
 
 #. Label of the journals_section (Section Break) field in DocType 'Accounts
 #. Settings'
@@ -340,7 +340,7 @@ msgstr ""
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:879
 msgid "Kindly cancel the Manufacturing Entries first against the work order {0}."
-msgstr "Cancele primeiro os lancamentos de fabricação vinculados a ordem de produção {0}."
+msgstr "Cancele primeiro os lançamentos de fabricação vinculados a ordem de produção {0}."
 
 #: erpnext/public/js/utils/party.js:268
 msgid "Kindly select the company first"
@@ -377,11 +377,11 @@ msgstr "Custo de Aquisicao"
 #. Label of the landed_cost_help (HTML) field in DocType 'Landed Cost Voucher'
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.json
 msgid "Landed Cost Help"
-msgstr "Ajuda sobre custo de aquisicao"
+msgstr "Ajuda sobre custo de aquisição"
 
 #: erpnext/stock/report/landed_cost_report/landed_cost_report.py:18
 msgid "Landed Cost Id"
-msgstr "ID do custo de aquisicao"
+msgstr "ID do custo de aquisição"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
@@ -391,22 +391,22 @@ msgstr "Item de Custo de Aquisicao"
 #. Name of a DocType
 #: erpnext/stock/doctype/landed_cost_purchase_receipt/landed_cost_purchase_receipt.json
 msgid "Landed Cost Purchase Receipt"
-msgstr "Recebimento de compra do custo de aquisicao"
+msgstr "Recebimento de compra do custo de aquisição"
 
 #. Name of a report
 #: erpnext/stock/report/landed_cost_report/landed_cost_report.json
 msgid "Landed Cost Report"
-msgstr "Relatorio de custo de aquisicao"
+msgstr "Relatório de custo de aquisição"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/landed_cost_taxes_and_charges/landed_cost_taxes_and_charges.json
 msgid "Landed Cost Taxes and Charges"
-msgstr "Impostos e encargos do custo de aquisicao"
+msgstr "Impostos e encargos do custo de aquisição"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/landed_cost_vendor_invoice/landed_cost_vendor_invoice.json
 msgid "Landed Cost Vendor Invoice"
-msgstr "Fatura do fornecedor do custo de aquisicao"
+msgstr "Fatura do fornecedor do custo de aquisição"
 
 #. Name of a DocType
 #. Label of a Link in the Stock Workspace
@@ -430,7 +430,7 @@ msgstr "Comprovante de Custo de Aquisicao"
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Landed Cost Voucher Amount"
-msgstr "Valor do comprovante de custo de aquisicao"
+msgstr "Valor do comprovante de custo de aquisição"
 
 #. Option for the 'Fulfilment Status' (Select) field in DocType 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
@@ -458,16 +458,16 @@ msgstr "Data do Último Contato"
 #. Task'
 #: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
 msgid "Last Completion Date"
-msgstr "Data da ultima conclusao"
+msgstr "Data da última conclusão"
 
 #: erpnext/accounts/doctype/account/account.py:658
 msgid "Last GL Entry update was done {}. This operation is not allowed while system is actively being used. Please wait for 5 minutes before retrying."
-msgstr "A ultima atualização do lancamento no razão geral foi feita {}. Esta operação não é permitida enquanto o sistema estiver em uso. Aguarde 5 minutos antes de tentar novamente."
+msgstr "A última atualização do lançamento no razão geral foi feita {}. Esta operação não é permitida enquanto o sistema estiver em uso. Aguarde 5 minutos antes de tentar novamente."
 
 #. Label of the last_integration_date (Date) field in DocType 'Bank Account'
 #: erpnext/accounts/doctype/bank_account/bank_account.json
 msgid "Last Integration Date"
-msgstr "Data da ultima integração"
+msgstr "Data da última integração"
 
 #: erpnext/manufacturing/dashboard_fixtures.py:138
 msgid "Last Month Downtime Analysis"
@@ -475,7 +475,7 @@ msgstr "Análise de Tempo de Inatividade no Último Mês"
 
 #: erpnext/stock/doctype/shipment/shipment.js:275
 msgid "Last Name, Email or Phone/Mobile of the user are mandatory to continue."
-msgstr "Sobrenome, e-mail ou telefone/celular do usuário sao obrigatórios para continuar."
+msgstr "Sobrenome, e-mail ou telefone/celular do usuário são obrigatórios para continuar."
 
 #: erpnext/selling/report/inactive_customers/inactive_customers.py:81
 msgid "Last Order Amount"
@@ -499,7 +499,7 @@ msgstr "Data do Último Pedido"
 #: erpnext/stock/doctype/item/item.json
 #: erpnext/stock/report/item_prices/item_prices.py:56
 msgid "Last Purchase Rate"
-msgstr "Ultimo preço de compra"
+msgstr "Último preço de compra"
 
 #. Label of the last_scanned_warehouse (Data) field in DocType 'POS Invoice'
 #. Label of the last_scanned_warehouse (Data) field in DocType 'Purchase
@@ -528,7 +528,7 @@ msgstr "Ultimo preço de compra"
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
 msgid "Last Scanned Warehouse"
-msgstr "Ultimo armazem escaneado"
+msgstr "Último armazém escaneado"
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:332
 msgid "Last Stock Transaction for item {0} under warehouse {1} was on {2}."

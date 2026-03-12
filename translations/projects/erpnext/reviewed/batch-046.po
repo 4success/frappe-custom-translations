@@ -20,7 +20,7 @@ msgstr ""
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.py:622
 msgid "Sales Invoice {0} has already been submitted"
-msgstr "A Fatura de Venda {0} ja foi enviada"
+msgstr "A Fatura de Venda {0} já foi enviada"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:576
 msgid "Sales Invoice {0} must be deleted before cancelling this Sales Order"
@@ -29,7 +29,7 @@ msgstr "A Fatura de Venda {0} deve ser excluida antes de cancelar este Pedido de
 #. Label of the sales_monthly_history (Small Text) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Sales Monthly History"
-msgstr "Historico mensal de vendas"
+msgstr "Histórico mensal de vendas"
 
 #: erpnext/selling/page/sales_funnel/sales_funnel.js:150
 msgid "Sales Opportunities by Campaign"
@@ -185,7 +185,7 @@ msgstr "Item embalado do Pedido de Venda"
 #. Reference'
 #: erpnext/manufacturing/doctype/production_plan_item_reference/production_plan_item_reference.json
 msgid "Sales Order Reference"
-msgstr "Referencia do Pedido de Venda"
+msgstr "Referência do Pedido de Venda"
 
 #. Label of the sales_order_schedule_section (Section Break) field in DocType
 #. 'Sales Order Item'
@@ -212,7 +212,7 @@ msgstr "Pedido de Venda obrigatório para o item {0}"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:342
 msgid "Sales Order {0} already exists against Customer's Purchase Order {1}. To allow multiple Sales Orders, Enable {2} in {3}"
-msgstr "O Pedido de Venda {0} ja existe para o Pedido de Compra do Cliente {1}. Para permitir varios Pedidos de Venda, ative {2} em {3}"
+msgstr "O Pedido de Venda {0} já existe para o Pedido de Compra do Cliente {1}. Para permitir vários Pedidos de Venda, ative {2} em {3}"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1369
 msgid "Sales Order {0} is not submitted"
@@ -225,7 +225,7 @@ msgstr "O Pedido de Venda {0} não é válido"
 #: erpnext/controllers/selling_controller.py:507
 #: erpnext/manufacturing/doctype/work_order/work_order.py:453
 msgid "Sales Order {0} is {1}"
-msgstr "O Pedido de Venda {0} esta {1}"
+msgstr "O Pedido de Venda {0} está {1}"
 
 #. Label of the sales_orders (Table) field in DocType 'Master Production
 #. Schedule'
@@ -447,7 +447,7 @@ msgstr "Pipeline de Vendas por etapa"
 
 #: erpnext/stock/report/item_prices/item_prices.py:58
 msgid "Sales Price List"
-msgstr "Lista de Preco de Venda"
+msgstr "Lista de Preço de Venda"
 
 #. Name of a report
 #. Label of a Link in the Receivables Workspace
@@ -593,7 +593,7 @@ msgstr "Mesmo item"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:597
 msgid "Same item and warehouse combination already entered."
-msgstr "A mesma combinação de item e armazem ja foi informada."
+msgstr "A mesma combinação de item e armazém já foi informada."
 
 #: erpnext/buying/utils.py:64
 msgid "Same item cannot be entered multiple times."
@@ -614,7 +614,7 @@ msgstr "Quantidade de amostra"
 #. Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Sample Retention Warehouse"
-msgstr "Armazem de retencao de amostras"
+msgstr "Armazém de retenção de amostras"
 
 #. Label of the sample_size (Float) field in DocType 'Quality Inspection'
 #: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:93
@@ -747,19 +747,19 @@ msgstr "Registros de horario agendado"
 
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.py:185
 msgid "Scheduler is Inactive. Can't trigger job now."
-msgstr "O agendador esta inativo. Não é possível acionar a tarefa agora."
+msgstr "O agendador está inativo. Não é possível acionar a tarefa agora."
 
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.py:237
 msgid "Scheduler is Inactive. Can't trigger jobs now."
-msgstr "O agendador esta inativo. Não é possível acionar as tarefas agora."
+msgstr "O agendador está inativo. Não é possível acionar as tarefas agora."
 
 #: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:671
 msgid "Scheduler is inactive. Cannot enqueue job."
-msgstr "O agendador esta inativo. Não é possível enfileirar a tarefa."
+msgstr "O agendador está inativo. Não é possível enfileirar a tarefa."
 
 #: erpnext/accounts/doctype/ledger_merge/ledger_merge.py:39
 msgid "Scheduler is inactive. Cannot merge accounts."
-msgstr "O agendador esta inativo. Não é possível mesclar contas."
+msgstr "O agendador está inativo. Não é possível mesclar contas."
 
 #. Label of the schedules (Table) field in DocType 'Maintenance Schedule'
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.json
@@ -799,7 +799,7 @@ msgstr "Acoes do scorecard"
 msgid "Scorecard variables can be used, as well as:\n"
 "{total_score} (the total score from that period),\n"
 "{period_number} (the number of periods to present day)\n"
-msgstr "As variaveis do scorecard podem ser usadas, bem como:\n{total_score} (a pontuação total desse periodo),\n{period_number} (o número de periodos ate hoje)\n"
+msgstr "As variáveis do scorecard podem ser usadas, bem como:\n{total_score} (a pontuação total desse período),\n{period_number} (o número de períodos até hoje)\n"
 
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard_dashboard.py:10
 msgid "Scorecards"
@@ -839,7 +839,7 @@ msgstr "Custo da sucata por qtd."
 #. Label of the item_code (Link) field in DocType 'Job Card Scrap Item'
 #: erpnext/manufacturing/doctype/job_card_scrap_item/job_card_scrap_item.json
 msgid "Scrap Item Code"
-msgstr "Codigo do item de sucata"
+msgstr "Código do item de sucata"
 
 #. Label of the item_name (Data) field in DocType 'Job Card Scrap Item'
 #: erpnext/manufacturing/doctype/job_card_scrap_item/job_card_scrap_item.json
@@ -877,7 +877,7 @@ msgstr "Custo do material de sucata (moeda da empresa)"
 #. Label of the scrap_warehouse (Link) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Scrap Warehouse"
-msgstr "Armazem de sucata"
+msgstr "Armazém de sucata"
 
 #: erpnext/assets/doctype/asset/depreciation.py:382
 msgid "Scrap date cannot be before purchase date"
@@ -945,7 +945,7 @@ msgstr "Secretario(a)"
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:194
 #: erpnext/accounts/report/tds_computation_summary/tds_computation_summary.py:117
 msgid "Section Code"
-msgstr "Codigo da Secao"
+msgstr "Código da Seção"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:177
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:301
@@ -959,7 +959,7 @@ msgstr "Bolsas de valores e de commodities"
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:31
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:44
 msgid "Securities and Deposits"
-msgstr "Titulos e Depositos"
+msgstr "Títulos e Depósitos"
 
 #: erpnext/templates/pages/help.html:29
 msgid "See All Articles"
@@ -975,7 +975,7 @@ msgstr "Segregar pacote de série/lote"
 
 #: erpnext/accounts/report/profitability_analysis/profitability_analysis.py:22
 msgid "Select Accounting Dimension."
-msgstr "Selecione a dimensao contábil."
+msgstr "Selecione a dimensão contábil."
 
 #: erpnext/public/js/utils.js:464
 msgid "Select Alternate Item"
@@ -999,7 +999,7 @@ msgstr "Selecionar BOM e quantidade para produção"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1387
 msgid "Select BOM, Qty and For Warehouse"
-msgstr "Selecionar BOM, quantidade e armazem de destino"
+msgstr "Selecionar BOM, quantidade e armazém de destino"
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.js:234
 #: erpnext/public/js/utils/sales_common.js:443
@@ -1013,7 +1013,7 @@ msgstr "Selecionar no do lote"
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Select Billing Address"
-msgstr "Selecionar endereço de cobranca"
+msgstr "Selecionar endereço de cobrança"
 
 #: erpnext/public/js/stock_analytics.js:61
 msgid "Select Brand..."
@@ -1043,7 +1043,7 @@ msgstr "Selecionar clientes por"
 
 #: erpnext/setup/doctype/employee/employee.js:120
 msgid "Select Date of Birth. This will validate Employees age and prevent hiring of under-age staff."
-msgstr "Selecione a data de nascimento. Isso validara a idade do funcionario e evitara a contratação de menores de idade."
+msgstr "Selecione a data de nascimento. Isso validará a idade do funcionário e evitará a contratação de menores de idade."
 
 #: erpnext/setup/doctype/employee/employee.js:127
 msgid "Select Date of joining. It will have impact on the first salary calculation, Leave allocation on pro-rata bases."

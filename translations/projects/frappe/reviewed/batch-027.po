@@ -100,7 +100,7 @@ msgstr "Representa um usuário no sistema."
 #. Description of a DocType
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
 msgid "Represents the states allowed in one document and role assigned to change the state."
-msgstr "Representa os estados permitidos em um documento e a função atribuída para alterar o estado."
+msgstr "Representa os estados permitidos em um documento e o perfil atribuído para alterar o estado."
 
 #: frappe/integrations/doctype/webhook/webhook.js:101
 msgid "Request Body"
@@ -494,47 +494,47 @@ msgstr "Robots.txt"
 #: frappe/website/doctype/portal_menu_item/portal_menu_item.json
 #: frappe/workflow/doctype/workflow_action_permitted_role/workflow_action_permitted_role.json
 msgid "Role"
-msgstr "Função"
+msgstr "Perfil"
 
 #: frappe/core/doctype/role/role.js:8
 msgid "Role 'All' will be given to all system + website users."
-msgstr "A função 'All' será atribuída a todos os usuários do sistema e do site."
+msgstr "O perfil 'All' será atribuído a todos os usuários do sistema e do site."
 
 #: frappe/core/doctype/role/role.js:13
 msgid "Role 'Desk User' will be given to all system users."
-msgstr "A função 'Desk User' será atribuída a todos os usuários do sistema."
+msgstr "O perfil 'Desk User' será atribuído a todos os usuários do sistema."
 
 #. Label of the role_name (Data) field in DocType 'Role'
 #. Label of the role_profile (Data) field in DocType 'Role Profile'
 #: frappe/core/doctype/role/role.json
 #: frappe/core/doctype/role_profile/role_profile.json
 msgid "Role Name"
-msgstr "Nome da função"
+msgstr "Nome do perfil"
 
 #. Name of a DocType
 #. Label of a Link in the Users Workspace
 #: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
 #: frappe/core/workspace/users/users.json
 msgid "Role Permission for Page and Report"
-msgstr "Permissão de função para página e relatório"
+msgstr "Permissão de perfil para página e relatório"
 
 #. Label of the permissions_section (Section Break) field in DocType 'User
 #. Document Type'
 #: frappe/core/doctype/user_document_type/user_document_type.json
 #: frappe/public/js/frappe/roles_editor.js:114
 msgid "Role Permissions"
-msgstr "Permissões de função"
+msgstr "Permissões de perfil"
 
 #. Label of a Link in the Users Workspace
 #: frappe/core/page/permission_manager/permission_manager.js:4
 #: frappe/core/workspace/users/users.json
 msgid "Role Permissions Manager"
-msgstr "Gerenciador de permissões de função"
+msgstr "Gerenciador de permissões de perfil"
 
 #: frappe/public/js/frappe/list/list_view.js:1936
 msgctxt "Button in list view menu"
 msgid "Role Permissions Manager"
-msgstr "Gerenciador de permissões de função"
+msgstr "Gerenciador de permissões de perfil"
 
 #. Name of a DocType
 #. Label of the role_profile_name (Link) field in DocType 'User'
@@ -555,7 +555,7 @@ msgstr "Perfis de função"
 #. Name of a DocType
 #: frappe/core/doctype/role_replication/role_replication.json
 msgid "Role Replication"
-msgstr "Replicação de função"
+msgstr "Replicação de perfil"
 
 #. Label of the role_and_level (Section Break) field in DocType 'Custom
 #. DocPerm'
@@ -563,11 +563,11 @@ msgstr "Replicação de função"
 #: frappe/core/doctype/custom_docperm/custom_docperm.json
 #: frappe/core/doctype/docperm/docperm.json
 msgid "Role and Level"
-msgstr "Função e nível"
+msgstr "Perfil e nível"
 
 #: frappe/core/doctype/user/user.py:403
 msgid "Role has been set as per the user type {0}"
-msgstr "A função foi definida de acordo com o tipo de usuário {0}"
+msgstr "O perfil foi definido de acordo com o tipo de usuário {0}"
 
 #. Label of the roles (Table) field in DocType 'Page'
 #. Label of the roles (Table) field in DocType 'Report'
@@ -593,36 +593,36 @@ msgstr "A função foi definida de acordo com o tipo de usuário {0}"
 #: frappe/desk/doctype/desktop_icon/desktop_icon.json
 #: frappe/desk/doctype/workspace/workspace.json
 msgid "Roles"
-msgstr "Funções"
+msgstr "Perfis"
 
 #. Label of the roles_permissions_tab (Tab Break) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Roles & Permissions"
-msgstr "Funções e permissões"
+msgstr "Perfis e permissões"
 
 #. Label of the roles (Table) field in DocType 'Role Profile'
 #. Label of the roles (Table) field in DocType 'User'
 #: frappe/core/doctype/role_profile/role_profile.json
 #: frappe/core/doctype/user/user.json
 msgid "Roles Assigned"
-msgstr "Funções atribuídas"
+msgstr "Perfis atribuídos"
 
 #. Label of the roles_html (HTML) field in DocType 'Role Profile'
 #. Label of the roles_html (HTML) field in DocType 'User'
 #: frappe/core/doctype/role_profile/role_profile.json
 #: frappe/core/doctype/user/user.json
 msgid "Roles HTML"
-msgstr "Funções HTML"
+msgstr "Perfis HTML"
 
 #. Label of the roles_html (HTML) field in DocType 'Role Permission for Page
 #. and Report'
 #: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
 msgid "Roles Html"
-msgstr "HTML de funções"
+msgstr "HTML de perfis"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:7
 msgid "Roles can be set for users from their User page."
-msgstr "As funções podem ser definidas para os usuários na página Usuário."
+msgstr "Os perfis podem ser definidos para os usuários na página Usuário."
 
 #: frappe/utils/nestedset.py:293
 msgid "Root {0} cannot be deleted"
@@ -695,7 +695,7 @@ msgstr "Linha #"
 #: frappe/core/doctype/doctype/doctype.py:1866
 #: frappe/core/doctype/doctype/doctype.py:1876
 msgid "Row # {0}: Non administrator user can not set the role {1} to the custom doctype"
-msgstr "Linha # {0}: Usuário não administrador não pode definir a função {1} para o DocType personalizado"
+msgstr "Linha # {0}: Usuário não administrador não pode definir o perfil {1} para o DocType personalizado"
 
 #: frappe/model/base_document.py:1083
 msgid "Row #{0}:"
@@ -775,7 +775,7 @@ msgstr "Condições da regra"
 
 #: frappe/permissions.py:681
 msgid "Rule for this doctype, role, permlevel and if-owner combination already exists."
-msgstr "Já existe uma regra para esta combinação de doctype, função, nível de permissão e se for proprietário."
+msgstr "Já existe uma regra para esta combinação de doctype, perfil, nível de permissão e se for proprietário."
 
 #. Group in DocType's connections
 #: frappe/core/doctype/doctype/doctype.json
@@ -791,7 +791,7 @@ msgstr "Regras que definem a transição de estado no fluxo de trabalho."
 #. 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Rules for how states are transitions, like next state and which role is allowed to change state etc."
-msgstr "Regras de transição entre estados, como o próximo estado e qual função pode alterar o estado etc."
+msgstr "Regras de transição entre estados, como o próximo estado e qual perfil pode alterar o estado etc."
 
 #. Description of the 'Priority' (Int) field in DocType 'Document Naming Rule'
 #: frappe/core/doctype/document_naming_rule/document_naming_rule.json

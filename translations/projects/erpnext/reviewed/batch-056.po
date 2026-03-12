@@ -45,16 +45,16 @@ msgstr "Balancete Por Parceiro"
 #. Label of the trial_period_end (Date) field in DocType 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
 msgid "Trial Period End Date"
-msgstr "Data de Termino do Periodo de Teste"
+msgstr "Data de Término do Período de Teste"
 
 #: erpnext/accounts/doctype/subscription/subscription.py:336
 msgid "Trial Period End Date Cannot be before Trial Period Start Date"
-msgstr "A data de termino do periodo de teste não pode ser anterior a data de inicio do periodo de teste"
+msgstr "A data de término do período de teste não pode ser anterior a data de início do período de teste"
 
 #. Label of the trial_period_start (Date) field in DocType 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
 msgid "Trial Period Start Date"
-msgstr "Data de Inicio do Periodo de Teste"
+msgstr "Data de Início do Período de Teste"
 
 #: erpnext/accounts/doctype/subscription/subscription.py:342
 msgid "Trial Period Start date cannot be after Subscription Start Date"
@@ -273,7 +273,7 @@ msgstr "Categoria de UOM"
 #. Name of a DocType
 #: erpnext/stock/doctype/uom_conversion_detail/uom_conversion_detail.json
 msgid "UOM Conversion Detail"
-msgstr "Detalhe da Conversao de UOM"
+msgstr "Detalhe da Conversão de UOM"
 
 #. Label of the conversion_factor (Float) field in DocType 'POS Invoice Item'
 #. Label of the conversion_factor (Float) field in DocType 'Purchase Invoice
@@ -307,7 +307,7 @@ msgstr "Detalhe da Conversao de UOM"
 #: erpnext/stock/doctype/pick_list_item/pick_list_item.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "UOM Conversion Factor"
-msgstr "Fator de Conversao de UOM"
+msgstr "Fator de Conversão de UOM"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:1438
 msgid "UOM Conversion factor ({0} -> {1}) not found for item: {2}"
@@ -315,7 +315,7 @@ msgstr "Fator de conversão de UOM ({0} -> {1}) não encontrado para o item: {2}
 
 #: erpnext/buying/utils.py:43
 msgid "UOM Conversion factor is required in row {0}"
-msgstr "Fator de conversão de UOM e obrigatório na linha {0}"
+msgstr "Fator de conversão de UOM é obrigatório na linha {0}"
 
 #. Label of the uom_name (Data) field in DocType 'UOM'
 #: erpnext/setup/doctype/uom/uom.json
@@ -366,12 +366,12 @@ msgstr "Desfazer reconciliação de alocações"
 
 #: erpnext/setup/utils.py:182
 msgid "Unable to find exchange rate for {0} to {1} for key date {2}. Please create a Currency Exchange record manually"
-msgstr "Não foi possível encontrar a taxa de cambio de {0} para {1} na data-chave {2}. Crie um registro de cambio manualmente"
+msgstr "Não foi possível encontrar a taxa de câmbio de {0} para {1} na data-chave {2}. Crie um registro de câmbio manualmente"
 
 #: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.py:165
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:314
 msgid "Unable to find exchange rate for {0} to {1} for key date {2}. Please create a Currency Exchange record manually."
-msgstr "Não foi possível encontrar a taxa de cambio de {0} para {1} na data-chave {2}. Crie um registro de cambio manualmente."
+msgstr "Não foi possível encontrar a taxa de câmbio de {0} para {1} na data-chave {2}. Crie um registro de câmbio manualmente."
 
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.py:78
 msgid "Unable to find score starting at {0}. You need to have standing scores covering 0 to 100"
@@ -436,7 +436,7 @@ msgstr "Na Garantia"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.js:78
 msgid "Under Working Hours table, you can add start and end times for a Workstation. For example, a Workstation may be active from 9 am to 1 pm, then 2 pm to 5 pm. You can also specify the working hours based on shifts. While scheduling a Work Order, the system will check for the availability of the Workstation based on the working hours specified."
-msgstr "Na tabela Horario de Trabalho, você pode adicionar horarios de inicio e fim para um Posto de Trabalho. Por exemplo, um Posto de Trabalho pode ficar ativo das 9h as 13h e depois das 14h as 17h. Você também pode definir o horario de trabalho com base em turnos. Ao programar uma Ordem de Trabalho, o sistema verificara a disponibilidade do Posto de Trabalho com base no horario informado."
+msgstr "Na tabela Horario de Trabalho, você pode adicionar horarios de início e fim para um Posto de Trabalho. Por exemplo, um Posto de Trabalho pode ficar ativo das 9h as 13h e depois das 14h as 17h. Você também pode definir o horario de trabalho com base em turnos. Ao programar uma Ordem de Trabalho, o sistema verificara a disponibilidade do Posto de Trabalho com base no horario informado."
 
 #. Option for the 'Fulfilment Status' (Select) field in DocType 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
@@ -450,7 +450,7 @@ msgstr "Unidade"
 
 #: erpnext/controllers/accounts_controller.py:4041
 msgid "Unit Price"
-msgstr "Preco Unitario"
+msgstr "Preço Unitario"
 
 #: erpnext/buying/report/procurement_tracker/procurement_tracker.py:68
 msgid "Unit of Measure"
@@ -550,13 +550,13 @@ msgstr "Conta de Lucro / Prejuizo Não Realizado"
 #. DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Unrealized Profit / Loss account for intra-company transfers"
-msgstr "Conta de Lucro / Prejuizo Não Realizado para transferencias entre empresas"
+msgstr "Conta de Lucro / Prejuizo Não Realizado para transferências entre empresas"
 
 #. Description of the 'Unrealized Profit / Loss Account' (Link) field in
 #. DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Unrealized Profit/Loss account for intra-company transfers"
-msgstr "Conta de Lucro/Prejuizo Não Realizado para transferencias entre empresas"
+msgstr "Conta de Lucro/Prejuizo Não Realizado para transferências entre empresas"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/unreconcile_payment/unreconcile_payment.json
@@ -566,7 +566,7 @@ msgstr "Desfazer reconciliação de pagamento"
 #. Name of a DocType
 #: erpnext/accounts/doctype/unreconcile_payment_entries/unreconcile_payment_entries.json
 msgid "Unreconcile Payment Entries"
-msgstr "Lancamentos de desfazer reconciliação de pagamento"
+msgstr "Lançamentos de desfazer reconciliação de pagamento"
 
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.js:40
 msgid "Unreconcile Transaction"
@@ -591,7 +591,7 @@ msgstr "Valor Não Reconciliado"
 #. Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 msgid "Unreconciled Entries"
-msgstr "Lancamentos Não Reconciliados"
+msgstr "Lançamentos Não Reconciliados"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:903
 #: erpnext/selling/doctype/sales_order/sales_order.js:107
@@ -711,7 +711,7 @@ msgstr "Atualizar Informações Adicionais"
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "Update Auto Repeat Reference"
-msgstr "Atualizar Referencia de Repeticao Automatica"
+msgstr "Atualizar Referência de Repeticao Automatica"
 
 #. Label of the update_bom_costs_automatically (Check) field in DocType
 #. 'Manufacturing Settings'
@@ -724,7 +724,7 @@ msgstr "Atualizar Custo da BOM Automaticamente"
 #. 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Update BOM cost automatically via scheduler, based on the latest Valuation Rate/Price List Rate/Last Purchase Rate of raw materials"
-msgstr "Atualiza o custo da BOM automaticamente via agendador, com base na ultima Taxa de Avaliação/Taxa da Lista de Precos/Ultima Taxa de Compra das materias-primas"
+msgstr "Atualiza o custo da BOM automaticamente via agendador, com base na última Taxa de Avaliação/Taxa da Lista de Preços/Última Taxa de Compra das matérias-primas"
 
 #: erpnext/stock/report/stock_qty_vs_batch_qty/stock_qty_vs_batch_qty.js:31
 msgid "Update Batch Qty"
@@ -797,7 +797,7 @@ msgstr "Atualizar Estoque Atual"
 #. Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Update Existing Price List Rate"
-msgstr "Atualizar Preco da Lista de Precos Existente"
+msgstr "Atualizar Preço da Lista de Preços Existente"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:366
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.js:35
@@ -822,7 +822,7 @@ msgstr "Atualizar Saldo Pendente para a Propria Empresa"
 #. Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Update Price List Based On"
-msgstr "Atualizar Lista de Precos com Base em"
+msgstr "Atualizar Lista de Preços com Base em"
 
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.js:10
 msgid "Update Print Format"
@@ -831,11 +831,11 @@ msgstr "Atualizar Formato de Impressão"
 #. Label of the get_stock_and_rate (Button) field in DocType 'Stock Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Update Rate and Availability"
-msgstr "Atualizar Preco e Disponibilidade"
+msgstr "Atualizar Preço e Disponibilidade"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:630
 msgid "Update Rate as per Last Purchase"
-msgstr "Atualizar Preco conforme a Ultima Compra"
+msgstr "Atualizar Preço conforme a Última Compra"
 
 #. Label of the update_stock (Check) field in DocType 'POS Invoice'
 #. Label of the update_stock (Check) field in DocType 'POS Profile'
@@ -924,13 +924,13 @@ msgstr "Enviar Faturas XML"
 #. Description of the 'Submit ERR Journals?' (Check) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Upon enabling this, the JV will be submitted for a different exchange rate."
-msgstr "Ao habilitar isso, o JV será enviado para uma taxa de cambio diferente."
+msgstr "Ao habilitar isso, o JV será enviado para uma taxa de câmbio diferente."
 
 #. Description of the 'Auto Reserve Stock' (Check) field in DocType 'Stock
 #. Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Upon submission of the Sales Order, Work Order, or Production Plan, the system will automatically reserve the stock."
-msgstr "Ao enviar o Pedido de Venda, a Ordem de Trabalho ou o Plano de Producao, o sistema reservara o estoque automaticamente."
+msgstr "Ao enviar o Pedido de Venda, a Ordem de Trabalho ou o Plano de Produção, o sistema reservará o estoque automaticamente."
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:311
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:423
@@ -946,7 +946,7 @@ msgstr "Urgente"
 
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.js:36
 msgid "Use 'Repost in background' button to trigger background job. Job can only be triggered when document is in Queued or Failed status."
-msgstr "Use o botao 'Repost in background' para acionar a tarefa em segundo plano. A tarefa so pode ser acionada quando o documento estiver com status Em fila ou Falhou."
+msgstr "Use o botao 'Repost in background' para acionar a tarefa em segundo plano. A tarefa só pode ser acionada quando o documento estiver com status Em fila ou Falhou."
 
 #. Description of the 'Advanced Filtering' (Check) field in DocType 'Financial
 #. Report Row'
@@ -969,7 +969,7 @@ msgstr "Usar detector de CSV"
 #. 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Use Company Default Round Off Cost Center"
-msgstr "Usar Centro de Custo Padrao da Empresa para Arredondamento"
+msgstr "Usar Centro de Custo Padrão da Empresa para Arredondamento"
 
 #. Label of the use_company_roundoff_cost_center (Check) field in DocType
 #. 'Sales Invoice'
@@ -979,7 +979,7 @@ msgstr "Usar Centro de Custo padrão da Empresa para Arredondamento"
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.js:146
 msgid "Use Default Warehouse"
-msgstr "Usar Armazem Padrao"
+msgstr "Usar Armazém Padrão"
 
 #. Description of the 'Calculate Estimated Arrival Times' (Button) field in
 #. DocType 'Delivery Trip'
