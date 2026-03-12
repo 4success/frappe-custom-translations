@@ -1,97 +1,99 @@
-# Frappe pt-BR Translation Workflow
+# Traduções pt-BR para Frappe v16
 
-This repository is a working area for reviewing and overriding pt-BR translations for Frappe v16 apps with OpenCode.
+Este repositório reúne um fluxo de trabalho para revisar, validar e distribuir traduções pt-BR para apps do ecossistema Frappe.
 
-It is set up for these projects:
+O foco atual é nestes projetos:
 
 - `frappe/frappe`
 - `frappe/erpnext`
 - `frappe/crm`
 - `frappe/helpdesk`
 
-## What is included
+O objetivo é produzir arquivos de override mínimos, prontos para uso em um app customizado, mantendo consistência terminológica e compatibilidade com o formato gettext usado no Frappe v16.
 
-- OpenCode project rules in `AGENTS.md`
-- project config in `opencode.json`
-- custom subagents in `.opencode/agents/`
-- custom commands in `.opencode/commands/`
-- helper scripts in `scripts/`
-- translation workspace in `translations/`
+## O que você encontra aqui
 
-## Recommended flow
+- regras e orientações do projeto em `AGENTS.md`
+- configuração do OpenCode em `opencode.json`
+- subagentes customizados em `.opencode/agents/`
+- comandos customizados em `.opencode/commands/`
+- scripts auxiliares em `scripts/`
+- área de trabalho das traduções em `translations/`
 
-1. Fetch the original `pt_BR.po` files from the matching branch:
+## Fluxo recomendado
+
+1. Baixe os arquivos originais `pt_BR.po` da branch correspondente:
 
    ```bash
    python3 scripts/fetch_po.py --all --branch version-16
    ```
 
-2. Split one project into smaller review batches:
+2. Divida um projeto em lotes menores para revisão:
 
    ```bash
    python3 scripts/split_po.py --project frappe --size 150
    ```
 
-3. Open OpenCode in this directory and use the custom agents or commands.
+3. Abra o OpenCode neste diretório e use os agentes ou comandos customizados para revisar os lotes.
 
-4. Merge reviewed batches back into one file:
+4. Una novamente os lotes revisados em um único arquivo:
 
    ```bash
    python3 scripts/merge_batches.py --project frappe
    ```
 
-5. Generate a minimal override file with only changed entries:
+5. Gere um arquivo mínimo de override contendo apenas as entradas alteradas:
 
    ```bash
    python3 scripts/build_overrides.py --project frappe
    ```
 
-6. Validate the result:
+6. Valide o resultado:
 
    ```bash
    python3 scripts/check_po.py --project frappe
    ```
 
-7. Import the generated override into another project or custom app using the file:
+7. Use o arquivo gerado no ambiente de destino:
 
    ```text
    translations/projects/<project>/overrides/messages.po
    ```
 
-   This is the import-ready artifact. The `merged/pt_BR.po` file is the full reviewed result, while `overrides/messages.po` contains only entries that differ from the original source file.
+O arquivo `merged/pt_BR.po` contém o resultado completo revisado. Já `overrides/messages.po` contém apenas as entradas que diferem do arquivo-fonte original e, por isso, é o artefato mais indicado para distribuição.
 
-## Applying the overrides in an environment
+## Como aplicar os overrides em um ambiente
 
-The generated `overrides/messages.po` files are meant to be shipped inside a custom Frappe app.
+Os arquivos `overrides/messages.po` foram pensados para serem distribuídos dentro de um app customizado do Frappe.
 
-Recommended approach:
+Abordagem recomendada:
 
-1. Create or use an existing custom app in the target environment.
+1. Crie ou reutilize um app customizado no ambiente de destino.
 
-2. Place the override file in the app locale directory using the target language code:
+2. Coloque o arquivo de override no diretório de locale do app usando o código do idioma:
 
    ```text
    your_app/locale/pt_BR.po
    ```
 
-3. If your environment needs overrides from more than one product, combine the relevant override files into a single `pt_BR.po` file for that app while preserving gettext structure, contexts, plural forms, placeholders, and HTML.
+3. Se o ambiente precisar de overrides de mais de um produto, combine os arquivos relevantes em um único `pt_BR.po`, preservando a estrutura do gettext, contextos, formas de plural, placeholders e HTML.
 
-4. Ensure the custom app is installed on the target site.
+4. Garanta que o app customizado esteja instalado no site de destino.
 
-5. Compile the translations so the application can load the updated gettext catalog.
+5. Compile as traduções para que a aplicação carregue o catálogo gettext atualizado.
 
-6. Clear application cache after compilation.
+6. Limpe o cache da aplicação após a compilação.
 
-7. Make sure the user or site language is set to `pt-BR` / `pt_BR`.
+7. Garanta que o idioma do usuário ou do site esteja configurado como `pt-BR` ou `pt_BR`.
 
-Notes:
+### Observações importantes
 
-- In Frappe v16, `.po` files are the standard translation format.
-- The custom app acts as an override layer for core apps such as Frappe, ERPNext, CRM, and Helpdesk.
-- If a translated string does not change immediately, clear cache again and reload the UI.
-- If a string still does not match, verify the exact `msgid`, optional `msgctxt`, and plural form entries.
+- No Frappe v16, arquivos `.po` são o formato padrão de tradução.
+- O app customizado funciona como camada de override para apps core como Frappe, ERPNext, CRM e Helpdesk.
+- Se uma tradução não mudar imediatamente, limpe o cache novamente e recarregue a interface.
+- Se uma string ainda não bater, verifique o `msgid` exato, o `msgctxt` quando existir, e as entradas de plural.
 
-## OpenCode shortcuts
+## Atalhos do OpenCode
 
 - `/bootstrap-po version-16`
 - `/prepare-project frappe 150`
@@ -99,9 +101,9 @@ Notes:
 - `/review-batch translations/projects/frappe/reviewed/batch-001.po`
 - `/build-overrides frappe`
 
-## Output layout
+## Estrutura de saída
 
-After bootstrap, each project uses this shape:
+Depois do bootstrap, cada projeto usa esta estrutura:
 
 ```text
 translations/projects/<project>/
@@ -112,10 +114,10 @@ translations/projects/<project>/
   overrides/messages.po
 ```
 
-## Notes
+## Notas
 
-- Keep the branch aligned with production, usually `version-16`.
-- `crm` and `helpdesk` currently default to `main` in `translations/projects.json` because their repos publish v16-compatible translations there.
-- Edit the glossary in `translations/glossary.md` before large review passes.
-- The override output is the file you can ship inside your custom app.
-- After updating reviewed batches, run `scripts/merge_batches.py`, `scripts/build_overrides.py`, and `scripts/check_po.py` before exporting files for import.
+- Mantenha a branch alinhada com o ambiente de produção, normalmente `version-16`.
+- `crm` e `helpdesk` atualmente usam `main` por padrão em `translations/projects.json`, porque esses repositórios publicam traduções compatíveis com v16 nessa branch.
+- Edite o glossário em `translations/glossary.md` antes de grandes rodadas de revisão.
+- O arquivo de override é o artefato que você pode distribuir dentro do seu app customizado.
+- Depois de atualizar os lotes revisados, rode `scripts/merge_batches.py`, `scripts/build_overrides.py` e `scripts/check_po.py` antes de exportar os arquivos para importação.
