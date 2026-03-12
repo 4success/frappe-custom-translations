@@ -89,7 +89,7 @@ msgstr "Linha {0}: a qtd. aceita e a qtd. rejeitada não podem ser zero ao mesmo
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:580
 msgid "Row {0}: Account {1} and Party Type {2} have different account types"
-msgstr "Linha {0}: a conta {1} e o tipo de participante {2} têm tipos de conta diferentes"
+msgstr "Linha {0}: a conta {1} e o tipo de cadastro {2} têm tipos de conta diferentes"
 
 #: erpnext/projects/doctype/timesheet/timesheet.py:151
 msgid "Row {0}: Activity Type is mandatory."
@@ -248,11 +248,11 @@ msgstr "Linha {0}: a Lista de Embalagem já foi criada para o item {1}."
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:791
 msgid "Row {0}: Party / Account does not match with {1} / {2} in {3} {4}"
-msgstr "Linha {0}: Participante / Conta não coincidem com {1} / {2} em {3} {4}"
+msgstr "Linha {0}: Cadastro / Conta não coincidem com {1} / {2} em {3} {4}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:569
 msgid "Row {0}: Party Type and Party is required for Receivable / Payable account {1}"
-msgstr "Linha {0}: Tipo de Participante e Participante são obrigatórios para a conta a Receber / a Pagar {1}"
+msgstr "Linha {0}: Tipo de cadastro e Cadastro são obrigatórios para a conta a Receber / a Pagar {1}"
 
 #: erpnext/accounts/doctype/payment_terms_template/payment_terms_template.py:45
 msgid "Row {0}: Payment Term is mandatory"
@@ -308,7 +308,7 @@ msgstr "Linha {0}: a qtd. não pode ser maior que {1} para o item {2}."
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:525
 msgid "Row {0}: Qty in Stock UOM can not be zero."
-msgstr "Linha {0}: a qtd. na UDM de Estoque não pode ser zero."
+msgstr "Linha {0}: a qtd. na UOM de Estoque não pode ser zero."
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:124
 msgid "Row {0}: Qty must be greater than 0."
@@ -381,7 +381,7 @@ msgstr "Linha {0}: {1} deve ser maior que 0"
 
 #: erpnext/controllers/accounts_controller.py:781
 msgid "Row {0}: {1} {2} cannot be same as {3} (Party Account) {4}"
-msgstr "Linha {0}: {1} {2} não pode ser o mesmo que {3} (Conta do Participante) {4}"
+msgstr "Linha {0}: {1} {2} não pode ser o mesmo que {3} (Conta do cadastro) {4}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:805
 msgid "Row {0}: {1} {2} does not match with {3}"
@@ -393,7 +393,7 @@ msgstr "Linha {0}: o item {1} de {2} não existe em {2} {3}"
 
 #: erpnext/utilities/transaction_base.py:558
 msgid "Row {1}: Quantity ({0}) cannot be a fraction. To allow this, disable '{2}' in UOM {3}."
-msgstr "Linha {1}: a Quantidade ({0}) não pode ser fracionada. Para permitir isso, desative '{2}' na UDM {3}."
+msgstr "Linha {1}: a Quantidade ({0}) não pode ser fracionada. Para permitir isso, desative '{2}' na UOM {3}."
 
 #: erpnext/controllers/buying_controller.py:1032
 msgid "Row {idx}: Asset Naming Series is mandatory for the auto creation of assets for item {item_code}."

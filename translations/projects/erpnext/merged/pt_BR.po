@@ -3679,7 +3679,7 @@ msgstr "Todos os itens já foram recebidos"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:2993
 msgid "All items have already been transferred for this Work Order."
-msgstr "Todos os itens já foram transferidos para esta Ordem de Serviço."
+msgstr "Todos os itens já foram transferidos para esta Ordem de Trabalho."
 
 #: erpnext/public/js/controllers/transaction.js:2903
 msgid "All items in this document already have a linked Quality Inspection."
@@ -4092,7 +4092,7 @@ msgstr "Permitir que o usuário edite o preço da lista nas transações"
 #. Label of the allow_rate_change (Check) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 msgid "Allow User to Edit Rate"
-msgstr "Permitir que o usuário edite a taxa"
+msgstr "Permitir que o usuário edite o preço"
 
 #. Label of the allow_different_uom (Check) field in DocType 'Item Variant
 #. Settings'
@@ -4104,7 +4104,7 @@ msgstr "Permitir UM da variante diferente da UM do modelo"
 #. Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Allow Zero Rate"
-msgstr "Permitir taxa zero"
+msgstr "Permitir preço zero"
 
 #. Label of the allow_zero_valuation_rate (Check) field in DocType 'POS Invoice
 #. Item'
@@ -4590,7 +4590,7 @@ msgstr "Valor por extenso"
 #. Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Amount in party's bank account currency"
-msgstr "Valor na moeda da conta bancaria da parte"
+msgstr "Valor na moeda da conta bancária da parte"
 
 #. Description of the 'Amount' (Currency) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
@@ -10583,7 +10583,7 @@ msgstr "O endereço da empresa está ausente. Você não tem permissão para atu
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 #: erpnext/accounts/doctype/payment_order/payment_order.json
 msgid "Company Bank Account"
-msgstr "Conta bancaria da empresa"
+msgstr "Conta bancária da empresa"
 
 #. Label of the company_billing_address_section (Section Break) field in
 #. DocType 'Purchase Invoice'
@@ -10604,7 +10604,7 @@ msgstr "Conta bancaria da empresa"
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 msgid "Company Billing Address"
-msgstr "Endereço de cobranca da empresa"
+msgstr "Endereço de cobrança da empresa"
 
 #. Label of the company_contact_person (Link) field in DocType 'POS Invoice'
 #. Label of the company_contact_person (Link) field in DocType 'Sales Invoice'
@@ -12799,12 +12799,12 @@ msgstr "A LDM Atual e a Nova LDM não podem ser as mesmas"
 #. Revaluation Account'
 #: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
 msgid "Current Exchange Rate"
-msgstr "Taxa de Cambio Atual"
+msgstr "Taxa de Câmbio Atual"
 
 #. Label of the current_index (Int) field in DocType 'Repost Item Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Current Index"
-msgstr "Indice Atual"
+msgstr "Índice Atual"
 
 #. Label of the current_invoice_end (Date) field in DocType 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
@@ -12819,7 +12819,7 @@ msgstr "Data Inicial da Fatura Atual"
 #. Label of the current_level (Int) field in DocType 'BOM Update Log'
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.json
 msgid "Current Level"
-msgstr "Nivel Atual"
+msgstr "Nível Atual"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:153
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:255
@@ -12846,7 +12846,7 @@ msgstr "Qtd. Atual"
 
 #: erpnext/accounts/report/financial_ratios/financial_ratios.py:152
 msgid "Current Ratio"
-msgstr "Indice de Liquidez Corrente"
+msgstr "Índice de Liquidez Corrente"
 
 #. Label of the current_serial_and_batch_bundle (Link) field in DocType 'Stock
 #. Reconciliation Item'
@@ -16374,7 +16374,7 @@ msgstr "Devido ao fechamento de estoque {0}, não é possível refazer a avalia�
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:151
 #: erpnext/accounts/workspace/receivables/receivables.json
 msgid "Dunning"
-msgstr "Cobranca"
+msgstr "Cobrança"
 
 #. Label of the dunning_amount (Currency) field in DocType 'Dunning'
 #: erpnext/accounts/doctype/dunning/dunning.json
@@ -17316,7 +17316,7 @@ msgstr "Informe cada nro. de série em uma nova linha"
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:51
 msgid "Enter the Bank Guarantee Number before submitting."
-msgstr "Informe o número da garantia bancaria antes de enviar."
+msgstr "Informe o número da garantia bancária antes de enviar."
 
 #: erpnext/manufacturing/doctype/routing/routing.js:93
 msgid "Enter the Operation, the table will fetch the Operation details like Hourly Rate, Workstation automatically.\n\n"
@@ -17607,7 +17607,7 @@ msgstr "O valor de ganho/perda cambial foi lancado por {0}"
 #: erpnext/stock/doctype/landed_cost_taxes_and_charges/landed_cost_taxes_and_charges.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Exchange Rate"
-msgstr "Taxa de Cambio"
+msgstr "Taxa de Câmbio"
 
 #. Name of a DocType
 #. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
@@ -17635,7 +17635,7 @@ msgstr "Conta de Reavaliação da Taxa de Câmbio"
 #. field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Exchange Rate Revaluation Settings"
-msgstr "Configurações de Reavaliação da Taxa de Cambio"
+msgstr "Configurações de Reavaliação da Taxa de Câmbio"
 
 #: erpnext/controllers/sales_and_purchase_return.py:72
 msgid "Exchange Rate must be same as {0} {1} ({2})"
@@ -21335,7 +21335,7 @@ msgstr "Caso contrário, você pode Cancelar / Enviar este lançamento"
 #. Rule'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 msgid "If rate is zero then item will be treated as \"Free Item\""
-msgstr "Se a taxa for zero, o item será tratado como \"Item Gratis\""
+msgstr "Se o preço for zero, o item será tratado como \"Item Grátis\""
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:40
 msgid "If selected Pricing Rule is made for 'Rate', it will overwrite Price List. Pricing Rule rate is the final rate, so no further discount should be applied. Hence, in transactions like Sales Order, Purchase Order etc, it will be fetched in 'Rate' field, rather than 'Price List Rate' field."
@@ -22137,12 +22137,12 @@ msgstr "Configurações de chamadas recebidas"
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:193
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:96
 msgid "Incoming Rate"
-msgstr "Custo de entrada"
+msgstr "Preço de entrada"
 
 #. Label of the incoming_rate (Currency) field in DocType 'Sales Invoice Item'
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
 msgid "Incoming Rate (Costing)"
-msgstr "Custo de entrada (custeio)"
+msgstr "Preço de entrada (custeio)"
 
 #: erpnext/public/js/call_popup/call_popup.js:38
 msgid "Incoming call from {0}"
@@ -22272,13 +22272,13 @@ msgstr "O incremento do atributo {0} não pode ser 0"
 #. Label of the indentation_level (Int) field in DocType 'Financial Report Row'
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
 msgid "Indent Level"
-msgstr "Nivel de recuo"
+msgstr "Nível de recuo"
 
 #. Description of the 'Indent Level' (Int) field in DocType 'Financial Report
 #. Row'
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
 msgid "Indentation level: 0 = Main heading, 1 = Sub-category, 2 = Individual accounts, etc."
-msgstr "Nivel de recuo: 0 = cabeçalho principal, 1 = subcategoria, 2 = contas individuais etc."
+msgstr "Nível de recuo: 0 = cabeçalho principal, 1 = subcategoria, 2 = contas individuais etc."
 
 #. Description of the 'Delivery Note' (Link) field in DocType 'Packing Slip'
 #: erpnext/stock/doctype/packing_slip/packing_slip.json
@@ -22611,7 +22611,7 @@ msgstr "Receita de juros"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:3053
 msgid "Interest and/or dunning fee"
-msgstr "Juros e/ou taxa de cobranca"
+msgstr "Juros e/ou taxa de cobrança"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:147
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:244
@@ -23565,7 +23565,7 @@ msgstr "É necessário recebimento de compra para criar fatura de compra?"
 #. Label of the is_debit_note (Check) field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Is Rate Adjustment Entry (Debit Note)"
-msgstr "É lançamento de ajuste de valor (nota de débito)"
+msgstr "É lançamento de ajuste de preço (nota de débito)"
 
 #. Label of the is_recursive (Check) field in DocType 'Pricing Rule'
 #. Label of the is_recursive (Check) field in DocType 'Promotional Scheme
@@ -23713,7 +23713,7 @@ msgstr "É criado usando PDV"
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
 #: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
 msgid "Is this Tax included in Basic Rate?"
-msgstr "Este imposto está incluído no valor base?"
+msgstr "Este imposto está incluído no preço básico?"
 
 #. Option for the 'Transfer Type' (Select) field in DocType 'Share Transfer'
 #. Option for the 'Status' (Select) field in DocType 'Asset'
@@ -25072,7 +25072,7 @@ msgstr "A qtd. do item não pode ser atualizada, pois as matérias-primas já fo
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1074
 msgid "Item rate has been updated to zero as Allow Zero Valuation Rate is checked for item {0}"
-msgstr "O valor do item foi atualizado para zero, pois 'Allow Zero Valuation Rate' está marcado para o item {0}"
+msgstr "O preço do item foi atualizado para zero, pois 'Allow Zero Valuation Rate' está marcado para o item {0}"
 
 #. Label of the finished_good (Link) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
@@ -25086,7 +25086,7 @@ msgstr "Item a ser fabricado ou reembalado"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:9
 msgid "Item valuation rate is recalculated considering landed cost voucher amount"
-msgstr "A taxa de avaliação do item é recalculada considerando o valor do comprovante de custo adicional"
+msgstr "O preço de avaliação do item é recalculado considerando o valor do comprovante de custo adicional"
 
 #: erpnext/stock/utils.py:559
 msgid "Item valuation reposting in progress. Report might show incorrect item valuation."
@@ -26277,11 +26277,11 @@ msgstr ""
 #. Search Source'
 #: erpnext/support/doctype/support_search_source/support_search_source.json
 msgid "Link Options"
-msgstr "Opcoes de vinculo"
+msgstr "Opções de vínculo"
 
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:15
 msgid "Link a new bank account"
-msgstr "Vincular uma nova conta bancaria"
+msgstr "Vincular uma nova conta bancária"
 
 #. Description of the 'Sub Procedure' (Link) field in DocType 'Quality
 #. Procedure Process'
@@ -26373,7 +26373,7 @@ msgstr "Carregando faturas! Aguarde..."
 #. Account'
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 msgid "Loan"
-msgstr "Emprestimo"
+msgstr "Empréstimo"
 
 #. Label of the loan_end_date (Date) field in DocType 'Invoice Discounting'
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.json
@@ -27055,7 +27055,7 @@ msgstr "Campo obrigatório"
 #. Detail'
 #: erpnext/accounts/doctype/accounting_dimension_detail/accounting_dimension_detail.json
 msgid "Mandatory For Balance Sheet"
-msgstr "Obrigatório para o balanco patrimonial"
+msgstr "Obrigatório para o balanço patrimonial"
 
 #. Label of the mandatory_for_pl (Check) field in DocType 'Accounting Dimension
 #. Detail'
@@ -27079,7 +27079,7 @@ msgstr "Recebimento de compra obrigatório"
 #. 'Inventory Dimension'
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
 msgid "Mandatory Section"
-msgstr "Secao obrigatória"
+msgstr "Seção obrigatória"
 
 #. Option for the 'Depreciation Method' (Select) field in DocType 'Asset'
 #. Option for the 'Depreciation Method' (Select) field in DocType 'Asset
@@ -27106,7 +27106,7 @@ msgstr "Manual"
 #: erpnext/stock/doctype/quality_inspection/quality_inspection.json
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Manual Inspection"
-msgstr "Inspecao manual"
+msgstr "Inspeção manual"
 
 #: erpnext/accounts/doctype/process_deferred_accounting/process_deferred_accounting.js:36
 msgid "Manual entry cannot be created! Disable automatic entry for deferred accounting in accounts settings and try again"
@@ -28567,7 +28567,7 @@ msgstr "Inspeções Mensais de Qualidade"
 #. 'Subscription Plan'
 #: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
 msgid "Monthly Rate"
-msgstr "Valor Mensal"
+msgstr "Preço Mensal"
 
 #. Label of the monthly_sales_target (Currency) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
@@ -28803,7 +28803,7 @@ msgstr "Erro de Estoque Negativo"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:625
 msgid "Negative Valuation Rate is not allowed"
-msgstr "Taxa de Avaliação negativa não é permitida"
+msgstr "Preço de avaliação negativo não é permitido"
 
 #: erpnext/setup/setup_wizard/data/sales_stage.txt:8
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:439
@@ -28926,7 +28926,7 @@ msgstr "Variação Líquida no Estoque"
 #: erpnext/manufacturing/doctype/workstation/workstation.json
 #: erpnext/manufacturing/doctype/workstation_type/workstation_type.json
 msgid "Net Hour Rate"
-msgstr "Taxa Líquida por Hora"
+msgstr "Preço Líquido por Hora"
 
 #: erpnext/accounts/report/gross_and_net_profit_report/gross_and_net_profit_report.py:214
 #: erpnext/accounts/report/gross_and_net_profit_report/gross_and_net_profit_report.py:215
@@ -31261,7 +31261,7 @@ msgstr "Entrada de Abertura de PDV desatualizada"
 #: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
 msgid "Outgoing Rate"
-msgstr "Taxa de Saida"
+msgstr "Preço de Saída"
 
 #. Label of the outstanding (Currency) field in DocType 'Overdue Payment'
 #. Label of the outstanding_amount (Float) field in DocType 'Payment Entry
@@ -34551,7 +34551,7 @@ msgstr "Selecione a LDM no campo LDM para o item {item_code}."
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.js:68
 msgid "Please select Bank Account"
-msgstr "Selecione a conta bancaria"
+msgstr "Selecione a conta bancária"
 
 #: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.js:13
 msgid "Please select Category first"
@@ -35150,7 +35150,7 @@ msgstr "Especifique pelo menos um atributo na tabela de atributos"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:615
 msgid "Please specify either Quantity or Valuation Rate or both"
-msgstr "Informe a quantidade, a taxa de avaliação ou ambos"
+msgstr "Informe a quantidade, o preço de avaliação ou ambos"
 
 #: erpnext/stock/doctype/item_attribute/item_attribute.py:93
 msgid "Please specify from/to range"
@@ -37812,7 +37812,7 @@ msgstr "Gráfico por Qtd."
 #. Capitalization Service Item'
 #: erpnext/assets/doctype/asset_capitalization_service_item/asset_capitalization_service_item.json
 msgid "Qty and Rate"
-msgstr "Qtd. e Preco"
+msgstr "Qtd. e Preço"
 
 #. Label of the tracking_section (Section Break) field in DocType 'Purchase
 #. Receipt Item'
@@ -38353,7 +38353,7 @@ msgstr "Quantidade e Descrição"
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
 msgid "Quantity and Rate"
-msgstr "Quantidade e Preco"
+msgstr "Quantidade e Preço"
 
 #. Label of the quantity_and_warehouse (Section Break) field in DocType
 #. 'Material Request Item'
@@ -38700,12 +38700,12 @@ msgstr "Informado Por (E-mail)"
 #: erpnext/templates/form_grid/item_grid.html:8
 #: erpnext/templates/pages/order.html:100 erpnext/templates/pages/rfq.html:43
 msgid "Rate"
-msgstr "Preco"
+msgstr "Preço"
 
 #. Label of the rate_amount_section (Section Break) field in DocType 'BOM Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Rate & Amount"
-msgstr "Preco e Valor"
+msgstr "Preço e Valor"
 
 #. Label of the base_rate (Currency) field in DocType 'POS Invoice Item'
 #. Label of the base_rate (Currency) field in DocType 'Purchase Invoice Item'
@@ -38726,7 +38726,7 @@ msgstr "Preco e Valor"
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Rate (Company Currency)"
-msgstr "Preco (Moeda da Empresa)"
+msgstr "Preço (Moeda da Empresa)"
 
 #. Label of the rm_cost_as_per (Select) field in DocType 'BOM'
 #. Label of the rm_cost_as_per (Select) field in DocType 'BOM Creator'
@@ -38744,7 +38744,7 @@ msgstr "Alíquota de TDS Conforme o Certificado"
 #. Batch Entry'
 #: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
 msgid "Rate Section"
-msgstr "Secao de preços"
+msgstr "Seção de preços"
 
 #. Label of the rate_with_margin (Currency) field in DocType 'POS Invoice Item'
 #. Label of the rate_with_margin (Currency) field in DocType 'Purchase Invoice
@@ -38771,7 +38771,7 @@ msgstr "Secao de preços"
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Rate With Margin"
-msgstr "Preco com Margem"
+msgstr "Preço com Margem"
 
 #. Label of the base_rate_with_margin (Currency) field in DocType 'POS Invoice
 #. Item'
@@ -38798,7 +38798,7 @@ msgstr "Preco com Margem"
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Rate With Margin (Company Currency)"
-msgstr "Preco com Margem (Moeda da Empresa)"
+msgstr "Preço com Margem (Moeda da Empresa)"
 
 #. Label of the rate_and_amount (Section Break) field in DocType 'Purchase
 #. Receipt Item'
@@ -38807,7 +38807,7 @@ msgstr "Preco com Margem (Moeda da Empresa)"
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Rate and Amount"
-msgstr "Preco e Valor"
+msgstr "Preço e Valor"
 
 #. Description of the 'Exchange Rate' (Float) field in DocType 'POS Invoice'
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Sales Invoice'
@@ -39676,7 +39676,7 @@ msgstr "Nº de referência e data de referência são obrigatórios para {0}"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1291
 msgid "Reference No and Reference Date is mandatory for Bank transaction"
-msgstr "Nº de referência e data de referência são obrigatórios para transação bancaria"
+msgstr "Nº de referência e data de referência são obrigatórios para transação bancária"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:622
 msgid "Reference No is mandatory if you entered Reference Date"
@@ -40917,7 +40917,7 @@ msgstr "Lista de chaves da resposta"
 #. Search Source'
 #: erpnext/support/doctype/support_search_source/support_search_source.json
 msgid "Response Options"
-msgstr "Opcoes de resposta"
+msgstr "Opções de resposta"
 
 #. Label of the response_result_key_path (Data) field in DocType 'Support
 #. Search Source'
@@ -41290,12 +41290,12 @@ msgstr "Inverter sinal"
 #: erpnext/quality_management/doctype/quality_review_objective/quality_review_objective.json
 #: erpnext/quality_management/report/review/review.json
 msgid "Review"
-msgstr "Revisao"
+msgstr "Revisão"
 
 #. Label of the review_date (Date) field in DocType 'Task'
 #: erpnext/projects/doctype/task/task.json
 msgid "Review Date"
-msgstr "Data da revisao"
+msgstr "Data da revisão"
 
 #. Label of a Card Break in the Quality Workspace
 #: erpnext/quality_management/workspace/quality/quality.json
@@ -41307,20 +41307,20 @@ msgstr "Revisao e ação"
 #: erpnext/quality_management/doctype/quality_procedure/quality_procedure.json
 #: erpnext/quality_management/doctype/quality_review/quality_review.json
 msgid "Reviews"
-msgstr "Revisoes"
+msgstr "Revisões"
 
 #: erpnext/accounts/doctype/budget/budget.js:37
 msgid "Revise Budget"
-msgstr "Revisar orcamento"
+msgstr "Revisar orçamento"
 
 #. Label of the revision_of (Data) field in DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Revision Of"
-msgstr "Revisao de"
+msgstr "Revisão de"
 
 #: erpnext/accounts/doctype/budget/budget.js:98
 msgid "Revision cancelled"
-msgstr "Revisao cancelada"
+msgstr "Revisão cancelada"
 
 #. Label of the rgt (Int) field in DocType 'Account'
 #. Label of the rgt (Int) field in DocType 'Company'
@@ -42394,7 +42394,7 @@ msgstr "Linha {0}: a qtd. aceita e a qtd. rejeitada não podem ser zero ao mesmo
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:580
 msgid "Row {0}: Account {1} and Party Type {2} have different account types"
-msgstr "Linha {0}: a conta {1} e o tipo de participante {2} têm tipos de conta diferentes"
+msgstr "Linha {0}: a conta {1} e o tipo de cadastro {2} têm tipos de conta diferentes"
 
 #: erpnext/projects/doctype/timesheet/timesheet.py:151
 msgid "Row {0}: Activity Type is mandatory."
@@ -42553,11 +42553,11 @@ msgstr "Linha {0}: a Lista de Embalagem já foi criada para o item {1}."
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:791
 msgid "Row {0}: Party / Account does not match with {1} / {2} in {3} {4}"
-msgstr "Linha {0}: Participante / Conta não coincidem com {1} / {2} em {3} {4}"
+msgstr "Linha {0}: Cadastro / Conta não coincidem com {1} / {2} em {3} {4}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:569
 msgid "Row {0}: Party Type and Party is required for Receivable / Payable account {1}"
-msgstr "Linha {0}: Tipo de Participante e Participante são obrigatórios para a conta a Receber / a Pagar {1}"
+msgstr "Linha {0}: Tipo de cadastro e Cadastro são obrigatórios para a conta a Receber / a Pagar {1}"
 
 #: erpnext/accounts/doctype/payment_terms_template/payment_terms_template.py:45
 msgid "Row {0}: Payment Term is mandatory"
@@ -42613,7 +42613,7 @@ msgstr "Linha {0}: a qtd. não pode ser maior que {1} para o item {2}."
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:525
 msgid "Row {0}: Qty in Stock UOM can not be zero."
-msgstr "Linha {0}: a qtd. na UDM de Estoque não pode ser zero."
+msgstr "Linha {0}: a qtd. na UOM de Estoque não pode ser zero."
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:124
 msgid "Row {0}: Qty must be greater than 0."
@@ -42686,7 +42686,7 @@ msgstr "Linha {0}: {1} deve ser maior que 0"
 
 #: erpnext/controllers/accounts_controller.py:781
 msgid "Row {0}: {1} {2} cannot be same as {3} (Party Account) {4}"
-msgstr "Linha {0}: {1} {2} não pode ser o mesmo que {3} (Conta do Participante) {4}"
+msgstr "Linha {0}: {1} {2} não pode ser o mesmo que {3} (Conta do cadastro) {4}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:805
 msgid "Row {0}: {1} {2} does not match with {3}"
@@ -42698,7 +42698,7 @@ msgstr "Linha {0}: o item {1} de {2} não existe em {2} {3}"
 
 #: erpnext/utilities/transaction_base.py:558
 msgid "Row {1}: Quantity ({0}) cannot be a fraction. To allow this, disable '{2}' in UOM {3}."
-msgstr "Linha {1}: a Quantidade ({0}) não pode ser fracionada. Para permitir isso, desative '{2}' na UDM {3}."
+msgstr "Linha {1}: a Quantidade ({0}) não pode ser fracionada. Para permitir isso, desative '{2}' na UOM {3}."
 
 #: erpnext/controllers/buying_controller.py:1032
 msgid "Row {idx}: Asset Naming Series is mandatory for the auto creation of assets for item {item_code}."
@@ -43987,7 +43987,7 @@ msgstr "Pesquisar subconjuntos"
 #. Source'
 #: erpnext/support/doctype/support_search_source/support_search_source.json
 msgid "Search Term Param Name"
-msgstr "Nome do parametro do termo de pesquisa"
+msgstr "Nome do parâmetro do termo de pesquisa"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:323
 msgid "Search by customer name, phone, email."
@@ -44014,16 +44014,16 @@ msgstr "Segundo e-mail"
 #. Label of the secondary_party (Dynamic Link) field in DocType 'Party Link'
 #: erpnext/accounts/doctype/party_link/party_link.json
 msgid "Secondary Party"
-msgstr "Participante secundario"
+msgstr "Cadastro secundário"
 
 #. Label of the secondary_role (Link) field in DocType 'Party Link'
 #: erpnext/accounts/doctype/party_link/party_link.json
 msgid "Secondary Role"
-msgstr "Funcao secundaria"
+msgstr "Função secundária"
 
 #: erpnext/setup/setup_wizard/data/designation.txt:29
 msgid "Secretary"
-msgstr "Secretario(a)"
+msgstr "Secretário(a)"
 
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:194
 #: erpnext/accounts/report/tds_computation_summary/tds_computation_summary.py:117
@@ -44033,7 +44033,7 @@ msgstr "Código da Seção"
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:177
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:301
 msgid "Secured Loans"
-msgstr "Emprestimos garantidos"
+msgstr "Empréstimos garantidos"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:42
 msgid "Securities & Commodity Exchanges"
@@ -44348,7 +44348,7 @@ msgstr "Selecione o item a ser produzido."
 
 #: erpnext/manufacturing/doctype/bom/bom.js:928
 msgid "Select the Item to be manufactured. The Item name, UoM, Company, and Currency will be fetched automatically."
-msgstr "Selecione o item a ser produzido. O nome do item, UDM, empresa e moeda serão buscados automaticamente."
+msgstr "Selecione o item a ser produzido. O nome do item, UOM, empresa e moeda serão buscados automaticamente."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:432
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:445
@@ -45189,7 +45189,7 @@ msgstr "Qtd. do item de serviço / qtd. do produto acabado"
 #. Label of the service_item_uom (Link) field in DocType 'Subcontracting BOM'
 #: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
 msgid "Service Item UOM"
-msgstr "UDM do item de serviço"
+msgstr "UOM do item de serviço"
 
 #: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.py:64
 msgid "Service Item {0} is disabled."
@@ -56609,7 +56609,7 @@ msgstr "{0} não encontrado para Item {1}"
 
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.py:706
 msgid "{0} parameter is invalid"
-msgstr "O parametro {0} e inválido"
+msgstr "O parâmetro {0} é inválido"
 
 #: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:65
 msgid "{0} payment entries can not be filtered by {1}"

@@ -100,7 +100,7 @@ msgstr "Usuário"
 
 #: frappe/core/doctype/has_role/has_role.py:25
 msgid "User '{0}' already has the role '{1}'"
-msgstr "O usuário '{0}' já tem a função '{1}'"
+msgstr "O usuário '{0}' já tem o perfil '{1}'"
 
 #. Name of a DocType
 #: frappe/core/doctype/report/user_activity_report.json
@@ -258,12 +258,12 @@ msgstr "Permissões de usuário criadas com sucesso"
 #: frappe/core/doctype/user_role/user_role.json
 #: frappe/integrations/doctype/ldap_group_mapping/ldap_group_mapping.json
 msgid "User Role"
-msgstr "Funcao do usuário"
+msgstr "Perfil do usuário"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_role_profile/user_role_profile.json
 msgid "User Role Profile"
-msgstr "Perfil de função do usuário"
+msgstr "Perfil de acesso do usuário"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_select_document_type/user_select_document_type.json
@@ -370,7 +370,7 @@ msgstr "O usuário {0} não tem acesso a este documento"
 
 #: frappe/permissions.py:165
 msgid "User {0} does not have doctype access via role permission for document {1}"
-msgstr "O usuário {0} não tem acesso ao DocType via permissão de função para o documento {1}"
+msgstr "O usuário {0} não tem acesso ao DocType via permissão de perfil para o documento {1}"
 
 #: frappe/desk/doctype/workspace/workspace.py:306
 msgid "User {0} does not have the permission to create a Workspace."
@@ -818,7 +818,7 @@ msgstr "Visita"
 
 #: frappe/desk/doctype/desktop_settings/desktop_settings.js:6
 msgid "Visit Desktop"
-msgstr "Acessar área de trabalho"
+msgstr "Acessar o Desk"
 
 #: frappe/website/doctype/website_route_meta/website_route_meta.js:7
 msgid "Visit Web Page"

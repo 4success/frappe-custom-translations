@@ -2349,7 +2349,7 @@ msgstr "Duplicar visualização"
 
 #: frontend/src/components/Settings/Sla/utils.js:223
 msgid "Duplicate Workday found: {0}. Each Workday should be unique."
-msgstr "Dia útil duplicado encontrado: {0}. Cada dia útil deve ser único."
+msgstr "Dia de trabalho duplicado encontrado: {0}. Cada dia de trabalho deve ser único."
 
 #: frontend/src/components/Modals/EventModal.vue:11
 msgid "Duplicate an Event"
@@ -2485,7 +2485,7 @@ msgstr "Editar visualização"
 
 #: frontend/src/components/Settings/Sla/WorkDayModal.vue:4
 msgid "Edit Workday"
-msgstr "Editar dia útil"
+msgstr "Editar dia de trabalho"
 
 #: frontend/src/components/Modals/EventModal.vue:9
 msgid "Edit an Event"
@@ -3025,7 +3025,7 @@ msgstr "Falha ao renomear modelo"
 
 #: frontend/src/components/Settings/Sla/WorkDayModal.vue:265
 msgid "Failed to save workday: {0}"
-msgstr "Falha ao salvar dia útil: {0}"
+msgstr "Falha ao salvar dia de trabalho: {0}"
 
 #: frontend/src/components/Activities/WhatsAppBox.vue:139
 msgid "Failed to send WhatsApp message"
@@ -4636,7 +4636,7 @@ msgstr "Nenhum site encontrado"
 
 #: frontend/src/components/Settings/Sla/SlaHolidays.vue:156
 msgid "No Workdays in the List"
-msgstr "Nenhum dia útil na lista"
+msgstr "Nenhum dia de trabalho na lista"
 
 #: frontend/src/components/Settings/EmailEdit.vue:150
 msgid "No changes made"
@@ -5972,7 +5972,7 @@ msgstr "Selecionar visualização"
 
 #: frontend/src/components/Settings/Sla/WorkDayModal.vue:15
 msgid "Select Workday"
-msgstr "Selecionar dia útil"
+msgstr "Selecionar dia de trabalho"
 
 #: frontend/src/components/Filter.vue:566
 msgid "Select a Value"
@@ -6091,7 +6091,7 @@ msgstr "Definir como SLA padrão"
 
 #: frontend/src/components/Settings/Sla/SlaHolidays.vue:9
 msgid "Set working days, hours, and holidays by selecting a predefined schedule or creating a new one"
-msgstr "Defina dias úteis, horários e feriados selecionando uma programação predefinida ou criando uma nova"
+msgstr "Defina dias de trabalho, horários e feriados selecionando uma programação predefinida ou criando uma nova"
 
 #: frontend/src/components/Layouts/AppSidebar.vue:540
 msgid "Setting Up"
@@ -7146,11 +7146,11 @@ msgstr "Ganho"
 
 #: frontend/src/components/Dashboard/AddChartModal.vue:79
 msgid "Won Deals"
-msgstr "Negociações ganhas"
+msgstr "Negócios ganhos"
 
 #: crm/api/dashboard.py:306
 msgid "Won deals"
-msgstr "Negociações ganhas"
+msgstr "Negócios ganhos"
 
 #: frontend/src/components/Settings/Sla/SlaHolidays.vue:5
 msgid "Work Schedule & Holidays"
@@ -7160,7 +7160,7 @@ msgstr "Horarios de trabalho e feriados"
 #: crm/fcrm/doctype/crm_service_day/crm_service_day.json
 #: frontend/src/components/Settings/Sla/WorkDayModal.vue:16
 msgid "Workday"
-msgstr "Dia util"
+msgstr "Dia de trabalho"
 
 #. Label of the section_break_rmgo (Section Break) field in DocType 'CRM
 #. Service Level Agreement'
@@ -7219,7 +7219,7 @@ msgstr "Você pode obter sua chave de acesso em "
 
 #: frontend/src/components/Settings/InviteUserPage.vue:37
 msgid "You can invite multiple users by comma separating their email addresses"
-msgstr "Você pode convidar varios usuários separando os endereços de e-mail por virgula"
+msgstr "Você pode convidar vários usuários separando os endereços de e-mail por vírgula"
 
 #: crm/api/user.py:76
 msgid "You cannot remove yourself."
@@ -7231,7 +7231,7 @@ msgstr "Você não definiu um número Exotel no seu agente de telefonia"
 
 #: frontend/src/pages/NotPermitted.vue:12
 msgid "You do not have enough permissions to access Frappe CRM. Please contact your administrator if you believe this is an error."
-msgstr "Você não tem permissões suficientes para acessar o Frappe CRM. Entre em contato com o administrador se acredita que isso e um erro."
+msgstr "Você não tem permissões suficientes para acessar o Frappe CRM. Entre em contato com o administrador se acredita que isso é um erro."
 
 #: crm/integrations/exotel/handler.py:92
 msgid "You do not have mobile number set in your Telephony Agent"
@@ -7247,11 +7247,11 @@ msgstr "Você não tem permissão para acessar este documento"
 
 #: crm/fcrm/doctype/crm_form_script/crm_form_script.py:39
 msgid "You need to be in developer mode to edit a Standard Form Script"
-msgstr "Você precisa estar no modo de desenvolvedor para editar um script de formulario padrão"
+msgstr "Você precisa estar no modo de desenvolvedor para editar um script de formulário padrão"
 
 #: frontend/src/components/Settings/AssignmentRules/AssigneeSearch.vue:150
 msgid "You will be redirected to invite user page, unsaved changes will be lost."
-msgstr "Você será redirecionado para a pagina de convite de usuários; as alterações não salvas serão perdidas."
+msgstr "Você será redirecionado para a página de convite de usuários; as alterações não salvas serão perdidas."
 
 #: frontend/src/components/Settings/LeadSyncing/leadSyncSourceConfig.js:8
 msgid "You will need a Meta developer account and an access token to sync leads from Facebook. Read more"
@@ -7259,23 +7259,23 @@ msgstr "Você precisará de uma conta de desenvolvedor Meta e um token de acesso
 
 #: crm/api/todo.py:100
 msgid "Your assignment on task {0} has been removed by {1}"
-msgstr "Sua atribuicao na tarefa {0} foi removida por {1}"
+msgstr "Sua atribuição na tarefa {0} foi removida por {1}"
 
 #: crm/api/todo.py:37 crm/api/todo.py:78
 msgid "Your assignment on {0} {1} has been removed by {2}"
-msgstr "Sua atribuicao em {0} {1} foi removida por {2}"
+msgstr "Sua atribuição em {0} {1} foi removida por {2}"
 
 #: crm/templates/emails/helpdesk_invitation.html:6
 msgid "Your login id is"
-msgstr "Seu ID de login e"
+msgstr "Seu ID de login é"
 
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:641
 msgid "Your old condition will be overwritten. Are you sure you want to save?"
-msgstr "Sua condicao antiga será substituida. Tem certeza de que deseja salvar?"
+msgstr "Sua condição antiga será substituída. Tem certeza de que deseja salvar?"
 
 #: frontend/src/components/Settings/Sla/SlaPolicyView.vue:401
 msgid "Your old conditions will be overwritten. Are you sure you want to save?"
-msgstr "Suas condicoes antigas serão substituidas. Tem certeza de que deseja salvar?"
+msgstr "Suas condições antigas serão substituídas. Tem certeza de que deseja salvar?"
 
 #: frontend/src/components/Activities/CommentArea.vue:9
 msgid "added a"

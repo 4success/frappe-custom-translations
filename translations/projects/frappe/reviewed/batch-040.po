@@ -56,11 +56,11 @@ msgstr "{0}: '{1}' ({3}) será truncado, pois o máximo de caracteres permitido 
 
 #: frappe/core/doctype/doctype/doctype.py:1835
 msgid "{0}: Cannot set Amend without Cancel"
-msgstr "{0}: não é possível definir Alterar sem Cancelar"
+msgstr "{0}: não é possível definir Retificar sem Cancelar"
 
 #: frappe/core/doctype/doctype/doctype.py:1853
 msgid "{0}: Cannot set Assign Amend if not Submittable"
-msgstr "{0}: não é possível definir Atribuir alteração se não puder ser enviado"
+msgstr "{0}: não é possível definir Atribuir retificação se não puder ser enviado"
 
 #: frappe/core/doctype/doctype/doctype.py:1851
 msgid "{0}: Cannot set Assign Submit if not Submittable"
@@ -76,7 +76,7 @@ msgstr "{0}: não é possível definir Importar sem Criar"
 
 #: frappe/core/doctype/doctype/doctype.py:1833
 msgid "{0}: Cannot set Submit, Cancel, Amend without Write"
-msgstr "{0}: não é possível definir Enviar, Cancelar e Alterar sem Gravar"
+msgstr "{0}: não é possível definir Enviar, Cancelar e Retificar sem Gravar"
 
 #: frappe/core/doctype/doctype/doctype.py:1857
 msgid "{0}: Cannot set import as {1} is not importable"
@@ -112,7 +112,7 @@ msgstr "{0}: nenhuma permissão básica definida"
 
 #: frappe/core/doctype/doctype/doctype.py:1804
 msgid "{0}: Only one rule allowed with the same Role, Level and {1}"
-msgstr "{0}: só é permitida uma regra com a mesma função, nível e {1}"
+msgstr "{0}: só é permitida uma regra com o mesmo perfil, nível e {1}"
 
 #: frappe/core/doctype/doctype/doctype.py:1330
 msgid "{0}: Options must be a valid DocType for field {1} in row {2}"
