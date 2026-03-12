@@ -20,12 +20,12 @@ msgstr ""
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:733
 msgid "References {0} of type {1} had no outstanding amount left before submitting the Payment Entry. Now they have a negative outstanding amount."
-msgstr "As referencias {0} do tipo {1} nao tinham mais valor em aberto antes do envio da Entrada de Pagamento. Agora elas tem valor em aberto negativo."
+msgstr "As referências {0} do tipo {1} não tinham mais valor em aberto antes do envio da Entrada de Pagamento. Agora elas tem valor em aberto negativo."
 
 #. Label of the referral_code (Data) field in DocType 'Sales Partner'
 #: erpnext/setup/doctype/sales_partner/sales_partner.json
 msgid "Referral Code"
-msgstr "Codigo de Indicacao"
+msgstr "Codigo de Indicação"
 
 #. Label of the referral_sales_partner (Link) field in DocType 'Quotation'
 #: erpnext/selling/doctype/quotation/quotation.json
@@ -122,7 +122,7 @@ msgstr "Deposito de Rejeitados"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:657
 msgid "Rejected Warehouse and Accepted Warehouse cannot be same."
-msgstr "O deposito de rejeitados e o deposito aceito nao podem ser o mesmo."
+msgstr "O deposito de rejeitados e o deposito aceito não podem ser o mesmo."
 
 #: erpnext/buying/doctype/purchase_order/purchase_order_dashboard.py:23
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation_dashboard.py:14
@@ -144,11 +144,11 @@ msgstr "Parentesco"
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1061
 msgid "Release Date"
-msgstr "Data de Liberacao"
+msgstr "Data de Liberação"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:318
 msgid "Release date must be in the future"
-msgstr "A data de liberacao deve estar no futuro"
+msgstr "A data de liberação deve estar no futuro"
 
 #. Label of the relieving_date (Date) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -241,12 +241,12 @@ msgstr "Observações"
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Remarks Column Length"
-msgstr "Tamanho da Coluna de Observacoes"
+msgstr "Tamanho da Coluna de Observações"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:71
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:92
 msgid "Remarks:"
-msgstr "Observacoes:"
+msgstr "Observações:"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:96
 msgid "Remove Parent Row No in Items Table"
@@ -254,7 +254,7 @@ msgstr "Remover Nº da Linha Pai na Tabela de Itens"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:9
 msgid "Remove item if charges is not applicable to that item"
-msgstr "Remova o item se os encargos nao se aplicarem a ele"
+msgstr "Remova o item se os encargos não se aplicarem a ele"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:561
 msgid "Removed items with no change in quantity or value."
@@ -273,24 +273,24 @@ msgstr "Renomear valor do atributo no atributo do item."
 #. Label of the rename_log (HTML) field in DocType 'Rename Tool'
 #: erpnext/utilities/doctype/rename_tool/rename_tool.json
 msgid "Rename Log"
-msgstr "Log de Renomeacao"
+msgstr "Log de Renomeação"
 
 #: erpnext/accounts/doctype/account/account.py:556
 msgid "Rename Not Allowed"
-msgstr "Renomeacao Nao Permitida"
+msgstr "Renomeação Não Permitida"
 
 #. Name of a DocType
 #: erpnext/utilities/doctype/rename_tool/rename_tool.json
 msgid "Rename Tool"
-msgstr "Ferramenta de Renomeacao"
+msgstr "Ferramenta de Renomeação"
 
 #: erpnext/utilities/doctype/rename_tool/rename_tool.js:26
 msgid "Rename jobs for doctype {0} have been enqueued."
-msgstr "Os jobs de renomeacao para o doctype {0} foram enfileirados."
+msgstr "Os jobs de renomeação para o doctype {0} foram enfileirados."
 
 #: erpnext/utilities/doctype/rename_tool/rename_tool.js:39
 msgid "Rename jobs for doctype {0} have not been enqueued."
-msgstr "Os jobs de renomeacao para o doctype {0} nao foram enfileirados."
+msgstr "Os jobs de renomeação para o doctype {0} não foram enfileirados."
 
 #: erpnext/accounts/doctype/account/account.py:548
 msgid "Renaming it is only allowed via parent company {0}, to avoid mismatch."
@@ -390,7 +390,7 @@ msgstr "Substituir BOM"
 msgid "Replace a particular BOM in all other BOMs where it is used. It will replace the old BOM link, update cost and regenerate \"BOM Explosion Item\" table as per new BOM.\n"
 "It also updates latest price in all the BOMs."
 msgstr "Substitua uma BOM especifica em todas as outras BOMs em que ela e usada. Isso substituira o link da BOM antiga, atualizara o custo e recriara a tabela \"BOM Explosion Item\" conforme a nova BOM.\n"
-"Tambem atualiza o preco mais recente em todas as BOMs."
+"Tambem atualiza o preço mais recente em todas as BOMs."
 
 #. Label of the report_date (Date) field in DocType 'Quality Inspection'
 #: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:75
@@ -416,7 +416,7 @@ msgstr "Modelo de Relatorio"
 
 #: erpnext/accounts/doctype/account/account.py:462
 msgid "Report Type is mandatory"
-msgstr "O tipo de relatorio e obrigatorio"
+msgstr "O tipo de relatório e obrigatório"
 
 #: erpnext/setup/install.py:206
 msgid "Report an Issue"
@@ -430,7 +430,7 @@ msgstr "Moeda de Relatorio"
 #: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.py:164
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:313
 msgid "Reporting Currency Exchange Not Found"
-msgstr "Cambio da Moeda de Relatorio nao Encontrado"
+msgstr "Cambio da Moeda de Relatorio não Encontrado"
 
 #. Label of the reporting_currency_exchange_rate (Float) field in DocType
 #. 'Account Closing Balance'
@@ -459,7 +459,7 @@ msgstr "Itens de Reprocessamento do Livro Contabil"
 #. Name of a DocType
 #: erpnext/accounts/doctype/repost_accounting_ledger_settings/repost_accounting_ledger_settings.json
 msgid "Repost Accounting Ledger Settings"
-msgstr "Configuracoes de Reprocessamento do Livro Contabil"
+msgstr "Configurações de Reprocessamento do Livro Contabil"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/repost_allowed_types/repost_allowed_types.json
@@ -475,11 +475,11 @@ msgstr "Log de Erros do Reprocessamento"
 #. Name of a DocType
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Repost Item Valuation"
-msgstr "Reprocessar Valoracao do Item"
+msgstr "Reprocessar Valoração do Item"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:337
 msgid "Repost Item Valuation restarted for selected failed records."
-msgstr "O reprocessamento da valoracao do item foi reiniciado para os registros com falha selecionados."
+msgstr "O reprocessamento da valoração do item foi reiniciado para os registros com falha selecionados."
 
 #. Label of the repost_only_accounting_ledgers (Check) field in DocType 'Repost
 #. Item Valuation'
@@ -528,7 +528,7 @@ msgstr "Arquivo de Dados do Reprocessamento"
 #. Item Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Reposting Info"
-msgstr "Informacoes do Reprocessamento"
+msgstr "Informações do Reprocessamento"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.js:127
 msgid "Reposting Progress"
@@ -578,7 +578,7 @@ msgstr "Representa a Empresa"
 #. Description of a DocType
 #: erpnext/accounts/doctype/fiscal_year/fiscal_year.json
 msgid "Represents a Financial Year. All accounting entries and other major transactions are tracked against the Fiscal Year."
-msgstr "Representa um exercicio fiscal. Todos os lancamentos contabeis e outras transacoes principais sao controlados em relacao ao exercicio fiscal."
+msgstr "Representa um exercício fiscal. Todos os lancamentos contábeis e outras transações principais sao controlados em relação ao exercício fiscal."
 
 #: erpnext/templates/form_grid/material_request_grid.html:25
 msgid "Reqd By Date"
@@ -611,7 +611,7 @@ msgstr "Parametros da Requisicao"
 #. Label of the request_type (Select) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
 msgid "Request Type"
-msgstr "Tipo de Solicitacao"
+msgstr "Tipo de Solicitação"
 
 #. Label of the warehouse (Link) field in DocType 'Item Reorder'
 #: erpnext/stock/doctype/item_reorder/item_reorder.json
@@ -621,7 +621,7 @@ msgstr "Solicitação para"
 #. Option for the 'Request Type' (Select) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
 msgid "Request for Information"
-msgstr "Solicitacao de Informacoes"
+msgstr "Solicitação de Informações"
 
 #. Label of the request_for_quotation_tab (Tab Break) field in DocType 'Buying
 #. Settings'
@@ -656,7 +656,7 @@ msgstr "Fornecedor da Solicitação de Cotação"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1084
 msgid "Request for Raw Materials"
-msgstr "Solicitacao de Materias-primas"
+msgstr "Solicitação de Materias-primas"
 
 #. Option for the 'Status' (Select) field in DocType 'Payment Request'
 #. Option for the 'Advance Payment Status' (Select) field in DocType 'Sales
@@ -692,7 +692,7 @@ msgstr "Qtd. Solicitada"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
 msgid "Requested Qty: Quantity requested for purchase, but not ordered."
-msgstr "Qtd. solicitada: quantidade solicitada para compra, mas nao pedida."
+msgstr "Qtd. solicitada: quantidade solicitada para compra, mas não pedida."
 
 #: erpnext/buying/report/procurement_tracker/procurement_tracker.py:46
 msgid "Requesting Site"
@@ -823,7 +823,7 @@ msgstr "Pesquisador"
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Reselect, if the chosen address is edited after save"
-msgstr "Selecione novamente se o endereco escolhido for editado apos salvar"
+msgstr "Selecione novamente se o endereço escolhido for editado apos salvar"
 
 #. Description of the 'Supplier Primary Contact' (Link) field in DocType
 #. 'Supplier'
@@ -918,7 +918,7 @@ msgstr "Qtd. Reservada"
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:263
 msgid "Reserved Qty ({0}) cannot be a fraction. To allow this, disable '{1}' in UOM {3}."
-msgstr "A qtd. reservada ({0}) nao pode ser fracionada. Para permitir isso, desative '{1}' na UM {3}."
+msgstr "A qtd. reservada ({0}) não pode ser fracionada. Para permitir isso, desative '{1}' na UM {3}."
 
 #. Label of the reserved_qty_for_production (Float) field in DocType 'Material
 #. Request Plan Item'
@@ -935,16 +935,16 @@ msgstr "Qtd. Reservada para Plano de Producao"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
 msgid "Reserved Qty for Production: Raw materials quantity to make manufacturing items."
-msgstr "Qtd. reservada para producao: quantidade de materias-primas para fabricar os itens."
+msgstr "Qtd. reservada para produção: quantidade de materias-primas para fabricar os itens."
 
 #. Label of the reserved_qty_for_sub_contract (Float) field in DocType 'Bin'
 #: erpnext/stock/doctype/bin/bin.json
 msgid "Reserved Qty for Subcontract"
-msgstr "Qtd. Reservada para Subcontratacao"
+msgstr "Qtd. Reservada para Subcontratação"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
 msgid "Reserved Qty for Subcontract: Raw materials quantity to make subcontracted items."
-msgstr "Qtd. reservada para subcontratacao: quantidade de materias-primas para produzir os itens subcontratados."
+msgstr "Qtd. reservada para subcontratação: quantidade de materias-primas para produzir os itens subcontratados."
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:649
 msgid "Reserved Qty should be greater than Delivered Qty."
@@ -952,7 +952,7 @@ msgstr "A qtd. reservada deve ser maior que a qtd. entregue."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
 msgid "Reserved Qty: Quantity ordered for sale, but not delivered."
-msgstr "Qtd. reservada: quantidade pedida para venda, mas nao entregue."
+msgstr "Qtd. reservada: quantidade pedida para venda, mas não entregue."
 
 #: erpnext/stock/report/item_shortage_report/item_shortage_report.py:116
 msgid "Reserved Quantity"
@@ -998,4 +998,4 @@ msgstr "Estoque Reservado para Submontagem"
 
 #: erpnext/controllers/buying_controller.py:645
 msgid "Reserved Warehouse is mandatory for the Item {item_code} in Raw Materials supplied."
-msgstr "O deposito de reserva e obrigatorio para o item {item_code} em materias-primas fornecidas."
+msgstr "O deposito de reserva e obrigatório para o item {item_code} em materias-primas fornecidas."

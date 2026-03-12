@@ -33,24 +33,24 @@ msgstr "Aviso"
 
 #: frappe/custom/doctype/customize_form/customize_form.js:217
 msgid "Warning: DATA LOSS IMMINENT! Proceeding will permanently delete following database columns from doctype {0}:"
-msgstr "Aviso: PERDA DE DADOS IMINENTE! Ao prosseguir, as seguintes colunas do banco de dados serao excluidas permanentemente do doctype {0}:"
+msgstr "Aviso: PERDA DE DADOS IMINENTE! Ao prosseguir, as seguintes colunas do banco de dados serão excluidas permanentemente do doctype {0}:"
 
 #: frappe/core/doctype/doctype/doctype.py:1140
 msgid "Warning: Naming is not set"
-msgstr "Aviso: a nomenclatura nao esta definida"
+msgstr "Aviso: a nomenclatura não está definida"
 
 #: frappe/public/js/frappe/model/meta.js:190
 msgid "Warning: Unable to find {0} in any table related to {1}"
-msgstr "Aviso: nao foi possivel encontrar {0} em nenhuma tabela relacionada a {1}"
+msgstr "Aviso: não foi possível encontrar {0} em nenhuma tabela relacionada a {1}"
 
 #. Description of the 'Counter' (Int) field in DocType 'Document Naming Rule'
 #: frappe/core/doctype/document_naming_rule/document_naming_rule.json
 msgid "Warning: Updating counter may lead to document name conflicts if not done properly"
-msgstr "Aviso: atualizar o contador pode causar conflitos nos nomes dos documentos se nao for feito corretamente"
+msgstr "Aviso: atualizar o contador pode causar conflitos nos nomes dos documentos se não for feito corretamente"
 
 #: frappe/core/doctype/doctype/doctype.py:458
 msgid "Warning: Usage of 'format:' is discouraged."
-msgstr "Aviso: o uso de 'format:' nao e recomendado."
+msgstr "Aviso: o uso de 'format:' não é recomendado."
 
 #: frappe/website/doctype/help_article/templates/help_article.html:24
 msgid "Was this article helpful?"
@@ -67,15 +67,15 @@ msgstr "Assistir ao video"
 
 #: frappe/desk/doctype/workspace/workspace.js:34
 msgid "We do not allow editing of this document. Simply click the Edit button on the workspace page to make your workspace editable and customize it as you wish"
-msgstr "Nao permitimos editar este documento. Basta clicar no botao Editar na pagina do espaco de trabalho para torna-lo editavel e personaliza-lo como quiser"
+msgstr "Não permitimos editar este documento. Basta clicar no botao Editar na pagina do espaco de trabalho para torna-lo editável e personaliza-lo como quiser"
 
 #: frappe/templates/emails/delete_data_confirmation.html:2
 msgid "We have received a request for deletion of {0} data associated with: {1}"
-msgstr "Recebemos uma solicitacao de exclusao de dados de {0} associados a: {1}"
+msgstr "Recebemos uma solicitação de exclusão de dados de {0} associados a: {1}"
 
 #: frappe/templates/emails/download_data.html:2
 msgid "We have received a request from you to download your {0} data associated with: {1}"
-msgstr "Recebemos uma solicitacao sua para baixar seus dados de {0} associados a: {1}"
+msgstr "Recebemos uma solicitação sua para baixar seus dados de {0} associados a: {1}"
 
 #: frappe/www/attribution.html:12
 msgid "We would like to thank the authors of these packages for their contribution."
@@ -83,7 +83,7 @@ msgstr "Gostariamos de agradecer aos autores destes pacotes por sua contribuicao
 
 #: frappe/www/contact.py:57
 msgid "We've received your query!"
-msgstr "Recebemos sua solicitacao!"
+msgstr "Recebemos sua solicitação!"
 
 #: frappe/public/js/frappe/form/controls/password.js:87
 msgid "Weak"
@@ -126,7 +126,7 @@ msgstr "URL da pagina web"
 #. Name of a DocType
 #: frappe/website/doctype/web_page_view/web_page_view.json
 msgid "Web Page View"
-msgstr "Visualizacao da pagina web"
+msgstr "Visualização da pagina web"
 
 #. Label of the web_template (Link) field in DocType 'Web Page Block'
 #. Name of a DocType
@@ -147,12 +147,12 @@ msgstr "Valores do modelo web"
 
 #: frappe/utils/jinja_globals.py:48
 msgid "Web Template is not specified"
-msgstr "O modelo web nao foi especificado"
+msgstr "O modelo web não foi especificado"
 
 #. Label of the web_view (Tab Break) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
 msgid "Web View"
-msgstr "Visualizacao web"
+msgstr "Visualização web"
 
 #. Name of a DocType
 #. Label of the webhook (Link) field in DocType 'Webhook Request Log'
@@ -273,14 +273,14 @@ msgstr "Campo de busca do site"
 
 #: frappe/core/doctype/doctype/doctype.py:1537
 msgid "Website Search Field must be a valid fieldname"
-msgstr "O campo de busca do site deve ser um nome de campo valido"
+msgstr "O campo de busca do site deve ser um nome de campo válido"
 
 #. Name of a DocType
 #. Label of a Link in the Website Workspace
 #: frappe/website/doctype/website_settings/website_settings.json
 #: frappe/website/workspace/website/website.json
 msgid "Website Settings"
-msgstr "Configuracoes do site"
+msgstr "Configurações do site"
 
 #. Label of the website_sidebar (Link) field in DocType 'Web Form'
 #. Label of the website_sidebar (Link) field in DocType 'Web Page'
@@ -299,12 +299,12 @@ msgstr "Item da barra lateral do site"
 #. Name of a DocType
 #: frappe/website/doctype/website_slideshow/website_slideshow.json
 msgid "Website Slideshow"
-msgstr "Apresentacao de slides do site"
+msgstr "Apresentação de slides do site"
 
 #. Name of a DocType
 #: frappe/website/doctype/website_slideshow_item/website_slideshow_item.json
 msgid "Website Slideshow Item"
-msgstr "Item da apresentacao de slides do site"
+msgstr "Item da apresentação de slides do site"
 
 #. Label of the website_theme (Link) field in DocType 'Website Settings'
 #. Name of a DocType
@@ -439,7 +439,7 @@ msgstr "Novidades"
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "When enabled this will allow guests to upload files to your application, You can enable this if you wish to collect files from user without having them to log in, for example in job applications web form."
-msgstr "Quando ativado, isso permitira que convidados enviem arquivos para sua aplicacao. Voce pode ativar isso se quiser receber arquivos de usuarios sem exigir login, por exemplo, em um formulario Web de candidatura a vaga."
+msgstr "Quando ativado, isso permitira que convidados enviem arquivos para sua aplicação. Você pode ativar isso se quiser receber arquivos de usuários sem exigir login, por exemplo, em um formulario Web de candidatura a vaga."
 
 #. Description of the 'Store Attached PDF Document' (Check) field in DocType
 #. 'System Settings'
@@ -451,18 +451,18 @@ msgstr "Ao enviar um documento por e-mail, armazene o PDF em Communication. Avis
 #. DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "When uploading files, force the use of the web-based image capture. If this is unchecked, the default behavior is to use the mobile native camera when use from a mobile is detected."
-msgstr "Ao enviar arquivos, force o uso da captura de imagem baseada na web. Se isso estiver desmarcado, o comportamento padrao sera usar a camera nativa do celular quando o acesso por um dispositivo movel for detectado."
+msgstr "Ao enviar arquivos, force o uso da captura de imagem baseada na web. Se isso estiver desmarcado, o comportamento padrão será usar a camera nativa do celular quando o acesso por um dispositivo movel for detectado."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:18
 msgid "When you Amend a document after Cancel and save it, it will get a new number that is a version of the old number."
-msgstr "Quando voce alterar um documento apos cancela-lo e salva-lo, ele recebera um novo numero que e uma versao do numero antigo."
+msgstr "Quando você alterar um documento apos cancelá-lo e salvá-lo, ele recebera um novo número que e uma versao do número antigo."
 
 #. Description of the 'DocType View' (Select) field in DocType 'Workspace
 #. Shortcut'
 #: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
 #: frappe/public/js/frappe/widgets/widget_dialog.js:481
 msgid "Which view of the associated DocType should this shortcut take you to?"
-msgstr "Para qual visualizacao do DocType associado este atalho deve levar voce?"
+msgstr "Para qual visualização do DocType associado este atalho deve levar você?"
 
 #. Label of the width (Data) field in DocType 'DocField'
 #. Label of the width (Int) field in DocType 'Report Column'
@@ -500,7 +500,7 @@ msgstr "Sera seu ID de login"
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:424
 msgid "Will only be shown if section headings are enabled"
-msgstr "So sera exibido se os titulos de secao estiverem ativados"
+msgstr "So será exibido se os títulos de seção estiverem ativados"
 
 #. Description of the 'Run Jobs only Daily if Inactive For (Days)' (Int) field
 #. in DocType 'System Settings'
@@ -516,7 +516,7 @@ msgstr "Com timbre"
 #. Worker'
 #: frappe/core/doctype/rq_worker/rq_worker.json
 msgid "Worker Information"
-msgstr "Informacoes do worker"
+msgstr "Informações do worker"
 
 #. Label of the worker_name (Data) field in DocType 'RQ Worker'
 #: frappe/core/doctype/rq_worker/rq_worker.json
@@ -549,18 +549,18 @@ msgstr "Acao mestre do fluxo de trabalho"
 #. Master'
 #: frappe/workflow/doctype/workflow_action_master/workflow_action_master.json
 msgid "Workflow Action Name"
-msgstr "Nome da acao do fluxo de trabalho"
+msgstr "Nome da ação do fluxo de trabalho"
 
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_action_permitted_role/workflow_action_permitted_role.json
 msgid "Workflow Action Permitted Role"
-msgstr "Funcao permitida da acao do fluxo de trabalho"
+msgstr "Funcao permitida da ação do fluxo de trabalho"
 
 #. Description of the 'Is Optional State' (Check) field in DocType 'Workflow
 #. Document State'
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
 msgid "Workflow Action is not created for optional states"
-msgstr "A acao do fluxo de trabalho nao e criada para estados opcionais"
+msgstr "A ação do fluxo de trabalho não é criada para estados opcionais"
 
 #: frappe/public/js/workflow_builder/store.js:129
 #: frappe/workflow/doctype/workflow/workflow.js:25
@@ -579,7 +579,7 @@ msgstr "ID do construtor de fluxo de trabalho"
 
 #: frappe/workflow/doctype/workflow/workflow.js:11
 msgid "Workflow Builder allows you to create workflows visually. You can drag and drop states and link them to create transitions. Also you can update their properties from the sidebar."
-msgstr "O construtor de fluxo de trabalho permite criar fluxos visualmente. Voce pode arrastar e soltar estados e conecta-los para criar transicoes. Tambem pode atualizar as propriedades deles pela barra lateral."
+msgstr "O construtor de fluxo de trabalho permite criar fluxos visualmente. Você pode arrastar e soltar estados e conecta-los para criar transições. Tambem pode atualizar as propriedades deles pela barra lateral."
 
 #. Label of the workflow_data (JSON) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
@@ -614,15 +614,15 @@ msgstr "Campo de estado do fluxo de trabalho"
 
 #: frappe/model/workflow.py:64
 msgid "Workflow State not set"
-msgstr "Estado do fluxo de trabalho nao definido"
+msgstr "Estado do fluxo de trabalho não definido"
 
 #: frappe/model/workflow.py:260 frappe/model/workflow.py:268
 msgid "Workflow State transition not allowed from {0} to {1}"
-msgstr "Transicao de estado do fluxo de trabalho nao permitida de {0} para {1}"
+msgstr "Transicao de estado do fluxo de trabalho não permitida de {0} para {1}"
 
 #: frappe/workflow/doctype/workflow/workflow.js:140
 msgid "Workflow States Don't Exist"
-msgstr "Os estados do fluxo de trabalho nao existem"
+msgstr "Os estados do fluxo de trabalho não existem"
 
 #: frappe/model/workflow.py:384
 msgid "Workflow Status"
@@ -677,7 +677,7 @@ msgstr "Espaco de trabalho"
 
 #: frappe/public/js/frappe/router.js:180
 msgid "Workspace <b>{0}</b> does not exist"
-msgstr "O espaco de trabalho <b>{0}</b> nao existe"
+msgstr "O espaco de trabalho <b>{0}</b> não existe"
 
 #. Name of a DocType
 #: frappe/desk/doctype/workspace_chart/workspace_chart.json
@@ -717,13 +717,13 @@ msgstr "Lista rapida do espaco de trabalho"
 #: frappe/desk/doctype/workspace_settings/workspace_settings.json
 #: frappe/hooks.py
 msgid "Workspace Settings"
-msgstr "Configuracoes do espaco de trabalho"
+msgstr "Configurações do espaco de trabalho"
 
 #. Label of the workspace_setup_completed (Check) field in DocType 'Workspace
 #. Settings'
 #: frappe/desk/doctype/workspace_settings/workspace_settings.json
 msgid "Workspace Setup Completed"
-msgstr "Configuracao do espaco de trabalho concluida"
+msgstr "Configuração do espaco de trabalho concluida"
 
 #. Name of a DocType
 #: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
@@ -758,11 +758,11 @@ msgstr "Espacos de trabalho"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:757
 msgid "Would you like to publish this comment? This means it will become visible to website/portal users."
-msgstr "Deseja publicar este comentario? Isso significa que ele ficara visivel para usuarios do site/portal."
+msgstr "Deseja públicar este comentario? Isso significa que ele ficara visível para usuários do site/portal."
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:761
 msgid "Would you like to unpublish this comment? This means it will no longer be visible to website/portal users."
-msgstr "Deseja remover a publicação deste comentário? Isso significa que ele não ficará mais visível para usuários do site/portal."
+msgstr "Deseja remover a públicação deste comentário? Isso significa que ele não ficará mais visível para usuários do site/portal."
 
 #: frappe/desk/page/setup_wizard/setup_wizard.py:41
 msgid "Wrapping up"
@@ -898,8 +898,8 @@ msgstr "Ontem"
 #: frappe/public/js/frappe/utils/user.js:33
 msgctxt "Name of the current user. For example: You edited this 5 hours ago."
 msgid "You"
-msgstr "Voce"
+msgstr "Você"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:463
 msgid "You Liked"
-msgstr "Voce curtiu"
+msgstr "Você curtiu"

@@ -22,7 +22,7 @@ msgstr ""
 #. in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allow Sales Order Creation For Expired Quotation"
-msgstr "Permitir criar Pedido de Venda para Cotacao expirada"
+msgstr "Permitir criar Pedido de Venda para Cotação expirada"
 
 #. Label of the allow_zero_qty_in_sales_order (Check) field in DocType 'Selling
 #. Settings'
@@ -39,13 +39,13 @@ msgstr "Permitir taxas de cambio desatualizadas"
 #. 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Allow Supplier Quotation with Zero Quantity"
-msgstr "Permitir Cotacao de Fornecedor com quantidade zero"
+msgstr "Permitir Cotação de Fornecedor com quantidade zero"
 
 #. Label of the allow_uom_with_conversion_rate_defined_in_item (Check) field in
 #. DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Allow UOM with Conversion Rate Defined in Item"
-msgstr "Permitir UM com fator de conversao definido no item"
+msgstr "Permitir UM com fator de conversão definido no item"
 
 #. Label of the allow_discount_change (Check) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
@@ -56,7 +56,7 @@ msgstr "Permitir que o usuário edite o desconto"
 #. Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allow User to Edit Price List Rate in Transactions"
-msgstr "Permitir que o usuário edite o preco da lista nas transações"
+msgstr "Permitir que o usuário edite o preço da lista nas transações"
 
 #. Label of the allow_rate_change (Check) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
@@ -97,7 +97,7 @@ msgstr "Permitir taxa zero"
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 #: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
 msgid "Allow Zero Valuation Rate"
-msgstr "Permitir taxa de avaliacao zero"
+msgstr "Permitir taxa de avaliação zero"
 
 #. Label of the allow_existing_serial_no (Check) field in DocType 'Stock
 #. Settings'
@@ -182,31 +182,31 @@ msgstr "Permite reservar uma quantidade especifica do estoque para um pedido esp
 #. in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Allows users to submit Purchase Orders with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar Pedidos de Compra com quantidade zero. Util quando as taxas sao fixas, mas as quantidades não. Ex.: contratos de preco."
+msgstr "Permite enviar Pedidos de Compra com quantidade zero. Util quando as taxas sao fixas, mas as quantidades não. Ex.: contratos de preço."
 
 #. Description of the 'Allow Quotation with Zero Quantity' (Check) field in
 #. DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allows users to submit Quotations with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar Cotacoes com quantidade zero. Util quando as taxas sao fixas, mas as quantidades não. Ex.: contratos de preco."
+msgstr "Permite enviar Cotações com quantidade zero. Util quando as taxas sao fixas, mas as quantidades não. Ex.: contratos de preço."
 
 #. Description of the 'Allow Request for Quotation with Zero Quantity' (Check)
 #. field in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Allows users to submit Request for Quotations with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar Solicitacoes de Cotacao com quantidade zero. Util quando as taxas sao fixas, mas as quantidades não. Ex.: contratos de preco."
+msgstr "Permite enviar Solicitações de Cotação com quantidade zero. Util quando as taxas sao fixas, mas as quantidades não. Ex.: contratos de preço."
 
 #. Description of the 'Allow Sales Order with Zero Quantity' (Check) field in
 #. DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allows users to submit Sales Orders with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar Pedidos de Venda com quantidade zero. Util quando as taxas sao fixas, mas as quantidades não. Ex.: contratos de preco."
+msgstr "Permite enviar Pedidos de Venda com quantidade zero. Util quando as taxas sao fixas, mas as quantidades não. Ex.: contratos de preço."
 
 #. Description of the 'Allow Supplier Quotation with Zero Quantity' (Check)
 #. field in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Allows users to submit Supplier Quotations with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar Cotacoes de Fornecedor com quantidade zero. Util quando as taxas sao fixas, mas as quantidades não. Ex.: contratos de preco."
+msgstr "Permite enviar Cotações de Fornecedor com quantidade zero. Util quando as taxas sao fixas, mas as quantidades não. Ex.: contratos de preço."
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:1024
 msgid "Already Picked"
@@ -218,11 +218,11 @@ msgstr "Já existe um registro para o item {0}"
 
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:132
 msgid "Already set default in pos profile {0} for user {1}, kindly disabled default"
-msgstr "Já existe padrao definido no perfil de PDV {0} para o usuário {1}; desative o padrao"
+msgstr "Já existe padrão definido no perfil de PDV {0} para o usuário {1}; desative o padrão"
 
 #: erpnext/stock/doctype/item/item.js:20
 msgid "Also you can't switch back to FIFO after setting the valuation method to Moving Average for this item."
-msgstr "Tambem não é possível voltar para FIFO depois de definir o metodo de avaliacao como Media Movel para este item."
+msgstr "Tambem não é possível voltar para FIFO depois de definir o metodo de avaliação como Media Movel para este item."
 
 #: erpnext/manufacturing/doctype/bom/bom.js:222
 #: erpnext/manufacturing/doctype/work_order/work_order.js:165
@@ -254,7 +254,7 @@ msgstr "O item alternativo não pode ser o mesmo código do item"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:378
 msgid "Alternatively, you can download the template and fill your data in."
-msgstr "Ou voce pode baixar o modelo é preencher com seus dados."
+msgstr "Ou você pode baixar o modelo é preencher com seus dados."
 
 #. Option for the 'Action on New Invoice' (Select) field in DocType 'POS
 #. Profile'
@@ -564,7 +564,7 @@ msgstr "Valor na moeda da conta bancaria da parte"
 #. Description of the 'Amount' (Currency) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Amount in transaction currency"
-msgstr "Valor na moeda da transacao"
+msgstr "Valor na moeda da transação"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:74
 msgid "Amount in {0}"
@@ -628,7 +628,7 @@ msgstr "Um Grupo de Itens é uma forma de classificar itens por tipo."
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:520
 msgid "An error has been appeared while reposting item valuation via {0}"
-msgstr "Ocorreu um erro ao relancar a avaliacao do item via {0}"
+msgstr "Ocorreu um erro ao relancar a avaliação do item via {0}"
 
 #: erpnext/public/js/controllers/buying.js:380
 #: erpnext/public/js/utils/sales_common.js:489
@@ -637,7 +637,7 @@ msgstr "Ocorreu um erro durante o processo de atualização"
 
 #: erpnext/stock/reorder_item.py:386
 msgid "An error occurred for certain Items while creating Material Requests based on Re-order level. Please rectify these issues :"
-msgstr "Ocorreu um erro para alguns itens ao criar Solicitacoes de Material com base no nivel de reposicao. Corrijá estes problemas:"
+msgstr "Ocorreu um erro para alguns itens ao criar Solicitações de Material com base no nivel de reposicao. Corrijá estes problemas:"
 
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.html:124
 msgid "Analysis Chart"
@@ -653,11 +653,11 @@ msgstr "Faturamento anual: {0}"
 
 #: erpnext/controllers/budget_controller.py:449
 msgid "Annual Budget for Account {0} against {1} {2} is {3}. It will be collectively ({4}) exceeded by {5}"
-msgstr "O orcamento anual da conta {0} para {1} {2} é {3}. Ele sera excedido coletivamente ({4}) em {5}"
+msgstr "O orcamento anual da conta {0} para {1} {2} é {3}. Ele será excedido coletivamente ({4}) em {5}"
 
 #: erpnext/controllers/budget_controller.py:314
 msgid "Annual Budget for Account {0} against {1}: {2} is {3}. It will be exceeded by {4}"
-msgstr "O orcamento anual da conta {0} para {1}: {2} é {3}. Ele sera excedido em {4}"
+msgstr "O orcamento anual da conta {0} para {1}: {2} é {3}. Ele será excedido em {4}"
 
 #. Label of the expense_year_to_date (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -684,11 +684,11 @@ msgstr "Já existe outro registro de orçamento '{0}' para {1} '{2}' e a conta '
 
 #: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.py:107
 msgid "Another Cost Center Allocation record {0} applicable from {1}, hence this allocation will be applicable upto {2}"
-msgstr "Existe outro registro de Alocacao de Centro de Custo {0} aplicavel a partir de {1}; por isso, está alocacao sera aplicavel ate {2}"
+msgstr "Existe outro registro de Alocação de Centro de Custo {0} aplicavel a partir de {1}; por isso, esta alocação será aplicavel ate {2}"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:752
 msgid "Another Payment Request is already processed"
-msgstr "Outra Solicitacao de Pagamento já foi processada"
+msgstr "Outra Solicitação de Pagamento já foi processada"
 
 #: erpnext/setup/doctype/sales_person/sales_person.py:123
 msgid "Another Sales Person {0} exists with the same Employee id"
@@ -753,7 +753,7 @@ msgstr "Aplicavel a (papel)"
 #. Label of the system_user (Link) field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 msgid "Applicable To (User)"
-msgstr "Aplicavel a (usuario)"
+msgstr "Aplicavel a (usuário)"
 
 #. Label of the countries (Table) field in DocType 'Price List'
 #: erpnext/stock/doctype/price_list/price_list.json
@@ -781,7 +781,7 @@ msgstr "Aplicável se a empresa for uma sociedade de responsabilidade limitada"
 
 #: erpnext/regional/italy/setup.py:122
 msgid "Applicable if the company is an Individual or a Proprietorship"
-msgstr "Aplicavel se a empresa for individual ou de próprietario unico"
+msgstr "Aplicavel se a empresa for individual ou de próprietario único"
 
 #. Label of the applicable_on_cumulative_expense (Check) field in DocType
 #. 'Budget'
@@ -793,7 +793,7 @@ msgstr "Aplicavel a despesa acumulada"
 #. 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Applicable on Material Request"
-msgstr "Aplicavel a Solicitacao de Material"
+msgstr "Aplicavel a Solicitação de Material"
 
 #. Label of the applicable_on_purchase_order (Check) field in DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
@@ -887,7 +887,7 @@ msgstr "Aplicar desconto sobre a taxa"
 #: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
 msgid "Apply Multiple Pricing Rules"
-msgstr "Aplicar varias regras de preco"
+msgstr "Aplicar varias regras de preço"
 
 #. Label of the apply_on (Select) field in DocType 'Pricing Rule'
 #. Label of the apply_on (Select) field in DocType 'Promotional Scheme'
@@ -911,7 +911,7 @@ msgstr "Aplicar regra de armazenagem"
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
 msgid "Apply Recursion Over (As Per Transaction UOM)"
-msgstr "Aplicar recursao sobre (conforme a UM da transacao)"
+msgstr "Aplicar recursao sobre (conforme a UM da transação)"
 
 #. Label of the brands (Table) field in DocType 'Pricing Rule'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
@@ -1018,7 +1018,7 @@ msgstr "Detalhes do compromisso"
 #. Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "Appointment Duration (In Minutes)"
-msgstr "Duracao do compromisso (em minutos)"
+msgstr "Duração do compromisso (em minutos)"
 
 #: erpnext/www/book_appointment/index.py:20
 msgid "Appointment Scheduling Disabled"
@@ -1049,7 +1049,7 @@ msgstr "O papel aprovador não pode ser o mesmo papel ao qual a regra se aplica"
 #. Label of the approving_user (Link) field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 msgid "Approving User  (above authorized value)"
-msgstr "Usuario aprovador  (acima do valor autorizado)"
+msgstr "Usuário aprovador  (acima do valor autorizado)"
 
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.py:77
 msgid "Approving User cannot be same as user the rule is Applicable To"

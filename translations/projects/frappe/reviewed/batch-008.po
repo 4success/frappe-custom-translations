@@ -27,7 +27,7 @@ msgstr "Formato Cron"
 
 #: frappe/core/doctype/scheduled_job_type/scheduled_job_type.py:62
 msgid "Cron format is required for job types with Cron frequency."
-msgstr "O formato Cron e obrigatorio para tipos de tarefa com frequencia Cron."
+msgstr "O formato Cron e obrigatório para tipos de tarefa com frequencia Cron."
 
 #: frappe/public/js/frappe/file_uploader/ImageCropper.vue:34
 msgid "Crop"
@@ -82,7 +82,7 @@ msgstr "Precisão de moeda"
 #. Description of a DocType
 #: frappe/geo/doctype/currency/currency.json
 msgid "Currency list stores the currency value, its symbol and fraction unit"
-msgstr "A lista de moedas armazena o valor da moeda, seu simbolo e a unidade fracionaria"
+msgstr "A lista de moedas armazena o valor da moeda, seu símbolo e a unidade fracionaria"
 
 #. Option for the 'Address Type' (Select) field in DocType 'Address'
 #: frappe/contacts/doctype/address/address.json
@@ -176,7 +176,7 @@ msgstr "DocPerm personalizado"
 #. Label of the custom_select_doctypes (Table) field in DocType 'User Type'
 #: frappe/core/doctype/user_type/user_type.json
 msgid "Custom Document Types (Select Permission)"
-msgstr "Tipos de documento personalizados (selecionar permissao)"
+msgstr "Tipos de documento personalizados (selecionar permissão)"
 
 #: frappe/core/doctype/user_type/user_type.py:105
 msgid "Custom Document Types Limit Exceeded"
@@ -199,11 +199,11 @@ msgstr "O campo personalizado {0} foi criado pelo Administrador e so pode ser ex
 
 #: frappe/custom/doctype/custom_field/custom_field.py:278
 msgid "Custom Fields can only be added to a standard DocType."
-msgstr "Campos personalizados so podem ser adicionados a um DocType padrao."
+msgstr "Campos personalizados so podem ser adicionados a um DocType padrão."
 
 #: frappe/custom/doctype/custom_field/custom_field.py:275
 msgid "Custom Fields cannot be added to core DocTypes."
-msgstr "Campos personalizados nao podem ser adicionados a DocTypes principais."
+msgstr "Campos personalizados não podem ser adicionados a DocTypes principais."
 
 #. Label of the custom_footer_section (Section Break) field in DocType 'Website
 #. Settings'
@@ -224,7 +224,7 @@ msgstr "Pesquisa de grupo personalizada"
 
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:122
 msgid "Custom Group Search if filled needs to contain the user placeholder {0}, eg uid={0},ou=users,dc=example,dc=com"
-msgstr "Se preenchida, a Pesquisa de grupo personalizada precisa conter o placeholder de usuario {0}, por exemplo uid={0},ou=users,dc=example,dc=com"
+msgstr "Se preenchida, a Pesquisa de grupo personalizada precisa conter o placeholder de usuário {0}, por exemplo uid={0},ou=users,dc=example,dc=com"
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:190
 #: frappe/printing/page/print_format_builder/print_format_builder.js:728
@@ -323,19 +323,19 @@ msgstr "Personalizado?"
 #: frappe/core/workspace/build/build.json
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Customization"
-msgstr "Personalizacao"
+msgstr "Personalização"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:372
 msgid "Customizations Discarded"
-msgstr "Personalizacoes descartadas"
+msgstr "Personalizações descartadas"
 
 #: frappe/custom/doctype/customize_form/customize_form.js:465
 msgid "Customizations Reset"
-msgstr "Personalizacoes redefinidas"
+msgstr "Personalizações redefinidas"
 
 #: frappe/modules/utils.py:99
 msgid "Customizations for <b>{0}</b> exported to:<br>{1}"
-msgstr "Personalizacoes de <b>{0}</b> exportadas para:<br>{1}"
+msgstr "Personalizações de <b>{0}</b> exportadas para:<br>{1}"
 
 #: frappe/printing/page/print/print.js:185
 #: frappe/public/js/frappe/form/templates/print_layout.html:39
@@ -374,12 +374,12 @@ msgstr "Personalizar formulario - {0}"
 #. Name of a DocType
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Customize Form Field"
-msgstr "Campo de personalizacao de formulario"
+msgstr "Campo de personalização de formulario"
 
 #. Description of a Card Break in the Build Workspace
 #: frappe/core/workspace/build/build.json
 msgid "Customize properties, naming, fields and more for standard doctypes"
-msgstr "Personalize propriedades, nomeacao, campos e mais para DocTypes padrao"
+msgstr "Personalize propriedades, nomeação, campos e mais para DocTypes padrão"
 
 #: frappe/public/js/frappe/views/file/file_view.js:144
 msgid "Cut"
@@ -541,11 +541,11 @@ msgstr "Nome do painel"
 #. Name of a DocType
 #: frappe/desk/doctype/dashboard_settings/dashboard_settings.json
 msgid "Dashboard Settings"
-msgstr "Configuracoes do painel"
+msgstr "Configurações do painel"
 
 #: frappe/public/js/frappe/list/base_list.js:205
 msgid "Dashboard View"
-msgstr "Visualizacao de painel"
+msgstr "Visualização de painel"
 
 #. Label of the tab_break_2 (Tab Break) field in DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
@@ -584,27 +584,27 @@ msgstr "Dados truncados"
 #. Name of a DocType
 #: frappe/core/doctype/data_export/data_export.json
 msgid "Data Export"
-msgstr "Exportacao de dados"
+msgstr "Exportação de dados"
 
 #. Name of a DocType
 #. Label of the data_import (Link) field in DocType 'Data Import Log'
 #: frappe/core/doctype/data_import/data_import.json
 #: frappe/core/doctype/data_import_log/data_import_log.json
 msgid "Data Import"
-msgstr "Importacao de dados"
+msgstr "Importação de dados"
 
 #. Name of a DocType
 #: frappe/core/doctype/data_import_log/data_import_log.json
 msgid "Data Import Log"
-msgstr "Log de importacao de dados"
+msgstr "Log de importação de dados"
 
 #: frappe/core/doctype/data_export/exporter.py:174
 msgid "Data Import Template"
-msgstr "Modelo de importacao de dados"
+msgstr "Modelo de importação de dados"
 
 #: frappe/core/doctype/data_import/data_import.py:76
 msgid "Data Import is not allowed for {0}. Enable 'Allow Import' in DocType settings."
-msgstr "A importacao de dados nao e permitida para {0}. Ative 'Permitir importacao' nas configuracoes do DocType."
+msgstr "A importação de dados não é permitida para {0}. Ative 'Permitir importação' nas configurações do DocType."
 
 #: frappe/custom/doctype/customize_form/customize_form.py:619
 msgid "Data Too Long"
@@ -643,7 +643,7 @@ msgstr "Limite do tamanho de linha da tabela do banco de dados"
 
 #: frappe/public/js/frappe/doctype/index.js:41
 msgid "Database Table Row Size Utilization: {0}%, this limits number of fields you can add."
-msgstr "Uso do tamanho de linha da tabela do banco de dados: {0}%, isso limita a quantidade de campos que voce pode adicionar."
+msgstr "Uso do tamanho de linha da tabela do banco de dados: {0}%, isso limita a quantidade de campos que você pode adicionar."
 
 #. Label of the database_version (Data) field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
@@ -691,7 +691,7 @@ msgstr "Intervalo de datas"
 #. Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Date and Number Format"
-msgstr "Formato de data e numero"
+msgstr "Formato de data e número"
 
 #: frappe/public/js/frappe/form/controls/date.js:253
 msgid "Date {0} must be in format: {1}"
@@ -764,7 +764,7 @@ msgstr "Prezado(a) gerente do sistema,"
 #: frappe/templates/emails/account_deletion_notification.html:1
 #: frappe/templates/emails/delete_data_confirmation.html:1
 msgid "Dear User,"
-msgstr "Prezado(a) usuario(a),"
+msgstr "Prezado(a) usuário(a),"
 
 #: frappe/templates/emails/download_data.html:1
 msgid "Dear {0}"
@@ -773,15 +773,15 @@ msgstr "Prezado(a) {0}"
 #. Label of the debug_log (Code) field in DocType 'Scheduled Job Log'
 #: frappe/core/doctype/scheduled_job_log/scheduled_job_log.json
 msgid "Debug Log"
-msgstr "Log de depuracao"
+msgstr "Log de depuração"
 
 #: frappe/public/js/frappe/views/reports/report_utils.js:318
 msgid "Decimal Separator must be '.' when Quoting is set to Non-numeric"
-msgstr "O separador decimal deve ser '.' quando a opcao de citacao estiver definida como Nao numerico"
+msgstr "O separador decimal deve ser '.' quando a opção de citação estiver definida como Não numerico"
 
 #: frappe/public/js/frappe/views/reports/report_utils.js:310
 msgid "Decimal Separator must be a single character"
-msgstr "O separador decimal deve ter um unico caractere"
+msgstr "O separador decimal deve ter um único caractere"
 
 #. Label of the default (Small Text) field in DocType 'DocField'
 #. Option for the 'Button Color' (Select) field in DocType 'DocField'
@@ -806,37 +806,37 @@ msgstr "Padrao"
 
 #: frappe/contacts/doctype/address_template/address_template.py:41
 msgid "Default Address Template cannot be deleted"
-msgstr "O modelo de endereco padrao nao pode ser excluido"
+msgstr "O modelo de endereço padrão não pode ser excluido"
 
 #. Label of the default_amend_naming (Select) field in DocType 'Document Naming
 #. Settings'
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Default Amendment Naming"
-msgstr "Nomeacao padrao de alteracoes"
+msgstr "Nomeação padrão de alterações"
 
 #. Label of the default_app (Select) field in DocType 'System Settings'
 #. Label of the default_app (Select) field in DocType 'User'
 #: frappe/core/doctype/system_settings/system_settings.json
 #: frappe/core/doctype/user/user.json
 msgid "Default App"
-msgstr "Aplicativo padrao"
+msgstr "Aplicativo padrão"
 
 #. Label of the default_email_template (Link) field in DocType 'DocType'
 #. Label of the default_email_template (Link) field in DocType 'Customize Form'
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Default Email Template"
-msgstr "Modelo de e-mail padrao"
+msgstr "Modelo de e-mail padrão"
 
 #: frappe/email/doctype/email_account/email_account_list.js:13
 msgid "Default Inbox"
-msgstr "Caixa de entrada padrao"
+msgstr "Caixa de entrada padrão"
 
 #. Label of the default_incoming (Check) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
 #: frappe/email/doctype/email_account/email_account.py:224
 msgid "Default Incoming"
-msgstr "Entrada padrao"
+msgstr "Entrada padrão"
 
 #. Label of the is_default (Check) field in DocType 'Letter Head'
 #: frappe/printing/doctype/letter_head/letter_head.json
@@ -850,13 +850,13 @@ msgstr "Cabeçalho de Carta Padrão"
 #: frappe/core/doctype/amended_document_naming_settings/amended_document_naming_settings.json
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Default Naming"
-msgstr "Nomeacao padrao"
+msgstr "Nomeação padrão"
 
 #. Label of the default_outgoing (Check) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
 #: frappe/email/doctype/email_account/email_account.py:232
 msgid "Default Outgoing"
-msgstr "Saida padrao"
+msgstr "Saida padrão"
 
 #. Label of the default_portal_home (Data) field in DocType 'Portal Settings'
 #: frappe/website/doctype/portal_settings/portal_settings.json
@@ -878,7 +878,7 @@ msgstr "Idioma de impressão padrão"
 #. Label of the default_redirect_uri (Data) field in DocType 'OAuth Client'
 #: frappe/integrations/doctype/oauth_client/oauth_client.json
 msgid "Default Redirect URI"
-msgstr "URI de redirecionamento padrao"
+msgstr "URI de redirecionamento padrão"
 
 #. Label of the default_role (Link) field in DocType 'Portal Settings'
 #: frappe/website/doctype/portal_settings/portal_settings.json
@@ -887,11 +887,11 @@ msgstr "Função padrão no momento da inscrição"
 
 #: frappe/email/doctype/email_account/email_account_list.js:16
 msgid "Default Sending"
-msgstr "Envio padrao"
+msgstr "Envio padrão"
 
 #: frappe/email/doctype/email_account/email_account_list.js:7
 msgid "Default Sending and Inbox"
-msgstr "Envio e caixa de entrada padrao"
+msgstr "Envio e caixa de entrada padrão"
 
 #. Label of the sort_field (Data) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -906,21 +906,21 @@ msgstr "Ordem de classificação padrão"
 #. Label of the field (Data) field in DocType 'Print Format Field Template'
 #: frappe/printing/doctype/print_format_field_template/print_format_field_template.json
 msgid "Default Template For Field"
-msgstr "Modelo padrao para campo"
+msgstr "Modelo padrão para campo"
 
 #: frappe/website/doctype/website_theme/website_theme.js:28
 msgid "Default Theme"
-msgstr "Tema padrao"
+msgstr "Tema padrão"
 
 #. Label of the default_role (Link) field in DocType 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "Default User Role"
-msgstr "Funcao padrao do usuario"
+msgstr "Funcao padrão do usuário"
 
 #. Label of the default_user_type (Link) field in DocType 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "Default User Type"
-msgstr "Tipo de usuario padrao"
+msgstr "Tipo de usuário padrão"
 
 #. Label of the default (Text) field in DocType 'Custom Field'
 #. Label of the default_value (Data) field in DocType 'Property Setter'
@@ -934,4 +934,4 @@ msgstr "Valor padrão"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Default View"
-msgstr "Visualizacao padrao"
+msgstr "Visualização padrão"

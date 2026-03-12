@@ -29,11 +29,11 @@ msgstr "A empresa {0} foi adicionada mais de uma vez"
 
 #: erpnext/setup/setup_wizard/operations/taxes_setup.py:14
 msgid "Company {} does not exist yet. Taxes setup aborted."
-msgstr "A empresa {} ainda nao existe. A configuracao de impostos foi cancelada."
+msgstr "A empresa {} ainda não existe. A configuração de impostos foi cancelada."
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:574
 msgid "Company {} does not match with POS Profile Company {}"
-msgstr "A empresa {} nao corresponde a empresa {} do Perfil de PDV"
+msgstr "A empresa {} não corresponde a empresa {} do Perfil de PDV"
 
 #. Name of a DocType
 #. Label of the competitor (Link) field in DocType 'Competitor Detail'
@@ -82,7 +82,7 @@ msgstr "Concluido em"
 
 #: erpnext/projects/doctype/task/task.py:185
 msgid "Completed On cannot be greater than Today"
-msgstr "Concluido em nao pode ser maior que hoje"
+msgstr "Concluido em não pode ser maior que hoje"
 
 #: erpnext/manufacturing/dashboard_fixtures.py:76
 msgid "Completed Operation"
@@ -106,7 +106,7 @@ msgstr "Qtd. concluida"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1334
 msgid "Completed Qty cannot be greater than 'Qty to Manufacture'"
-msgstr "A qtd. concluida nao pode ser maior que 'Qtd. a fabricar'"
+msgstr "A qtd. concluida não pode ser maior que 'Qtd. a fabricar'"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:317
 #: erpnext/manufacturing/doctype/job_card/job_card.js:438
@@ -149,7 +149,7 @@ msgstr "Data de Conclusão"
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.py:83
 msgid "Completion Date can not be before Failure Date. Please adjust the dates accordingly."
-msgstr "A data de conclusao nao pode ser anterior a data da falha. Ajuste as datas."
+msgstr "A data de conclusao não pode ser anterior a data da falha. Ajuste as datas."
 
 #. Label of the completion_status (Select) field in DocType 'Maintenance
 #. Schedule Detail'
@@ -198,7 +198,7 @@ msgstr "Exemplos de regras condicionais"
 #. Rule'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 msgid "Conditions will be applied on all the selected items combined. "
-msgstr "As condicoes serao aplicadas a todos os itens selecionados em conjunto. "
+msgstr "As condicoes serão aplicadas a todos os itens selecionados em conjunto. "
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:56
 msgid "Configure Product Assembly"
@@ -208,11 +208,11 @@ msgstr "Configurar montagem do produto"
 #. DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Configure the action to stop the transaction or just warn if the same rate is not maintained."
-msgstr "Configure a acao para interromper a transacao ou apenas avisar se o mesmo preco nao for mantido."
+msgstr "Configure a ação para interromper a transação ou apenas avisar se o mesmo preço não for mantido."
 
 #: erpnext/buying/doctype/buying_settings/buying_settings.js:20
 msgid "Configure the default Price List when creating a new Purchase transaction. Item prices will be fetched from this Price List."
-msgstr "Configure a Lista de Precos padrao ao criar uma nova transacao de compra. Os precos dos itens serao buscados dessa Lista de Precos."
+msgstr "Configure a Lista de Precos padrão ao criar uma nova transação de compra. Os preços dos itens serão buscados dessa Lista de Precos."
 
 #. Label of the confirm_before_resetting_posting_date (Check) field in DocType
 #. 'Accounts Settings'
@@ -223,7 +223,7 @@ msgstr "Confirmar antes de redefinir a data de lancamento"
 #. Label of the final_confirmation_date (Date) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Confirmation Date"
-msgstr "Data de confirmacao"
+msgstr "Data de confirmação"
 
 #: erpnext/accounts/report/general_ledger/general_ledger.js:175
 msgid "Consider Accounting Dimensions"
@@ -233,13 +233,13 @@ msgstr "Considere as Dimensões Contábeis"
 #. Withholding Category'
 #: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
 msgid "Consider Entire Party Ledger Amount"
-msgstr "Considerar todo o valor do livro razao da entidade"
+msgstr "Considerar todo o valor do livro razão da entidade"
 
 #. Label of the consider_minimum_order_qty (Check) field in DocType 'Production
 #. Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Consider Minimum Order Qty"
-msgstr "Considerar qtd. minima do pedido"
+msgstr "Considerar qtd. mínima do pedido"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:993
 msgid "Consider Process Loss"
@@ -299,7 +299,7 @@ msgstr "Consolidado"
 #. Merge Log'
 #: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.json
 msgid "Consolidated Credit Note"
-msgstr "Nota de credito consolidada"
+msgstr "Nota de crédito consolidada"
 
 #. Name of a report
 #. Label of a Link in the Financial Reports Workspace
@@ -328,7 +328,7 @@ msgstr "O balancete consolidado pode ser gerado para empresas que tenham a mesma
 
 #: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.py:153
 msgid "Consolidated Trial balance could not be generated as Exchange Rate from {0} to {1} is not available for {2}."
-msgstr "O balancete consolidado nao pode ser gerado, pois a taxa de cambio de {0} para {1} nao esta disponivel para {2}."
+msgstr "O balancete consolidado não pode ser gerado, pois a taxa de cambio de {0} para {1} não esta disponivel para {2}."
 
 #. Option for the 'Lead Type' (Select) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
@@ -411,7 +411,7 @@ msgstr "Qtd. consumida"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1712
 msgid "Consumed Qty cannot be greater than Reserved Qty for item {0}"
-msgstr "A qtd. consumida nao pode ser maior que a qtd. reservada do item {0}"
+msgstr "A qtd. consumida não pode ser maior que a qtd. reservada do item {0}"
 
 #. Label of the consumed_quantity (Data) field in DocType 'Asset Repair
 #. Consumed Item'
@@ -430,7 +430,7 @@ msgstr "Itens de estoque consumidos"
 
 #: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:303
 msgid "Consumed Stock Items, Consumed Asset Items or Consumed Service Items is mandatory for Capitalization"
-msgstr "Itens de estoque consumidos, itens de ativo consumidos ou itens de servico consumidos sao obrigatorios para a capitalizacao"
+msgstr "Itens de estoque consumidos, itens de ativo consumidos ou itens de servico consumidos sao obrigatórios para a capitalização"
 
 #. Label of the stock_items_total (Currency) field in DocType 'Asset
 #. Capitalization'
@@ -454,7 +454,7 @@ msgstr "Taxa de consumo"
 #. Label of the contact_desc (HTML) field in DocType 'Sales Partner'
 #: erpnext/setup/doctype/sales_partner/sales_partner.json
 msgid "Contact Desc"
-msgstr "Descricao do contato"
+msgstr "Descrição do contato"
 
 #. Label of the contact_html (HTML) field in DocType 'Bank'
 #. Label of the contact_html (HTML) field in DocType 'Bank Account'
@@ -490,13 +490,13 @@ msgstr "HTML do contato"
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.json
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
 msgid "Contact Info"
-msgstr "Informacoes de contato"
+msgstr "Informações de contato"
 
 #. Label of the section_break_7 (Section Break) field in DocType 'Delivery
 #. Stop'
 #: erpnext/stock/doctype/delivery_stop/delivery_stop.json
 msgid "Contact Information"
-msgstr "Informacoes de contato"
+msgstr "Informações de contato"
 
 #. Label of the contact_list (Code) field in DocType 'Shareholder'
 #: erpnext/accounts/doctype/shareholder/shareholder.json
@@ -568,7 +568,7 @@ msgstr "Pessoa de contato"
 
 #: erpnext/controllers/accounts_controller.py:585
 msgid "Contact Person does not belong to the {0}"
-msgstr "A pessoa de contato nao pertence a {0}"
+msgstr "A pessoa de contato não pertence a {0}"
 
 #: erpnext/accounts/letterhead/company_letterhead.html:101
 #: erpnext/accounts/letterhead/company_letterhead_grey.html:119
@@ -682,7 +682,7 @@ msgstr "Acao de controle para despesa acumulada"
 #. field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Control Historical Stock Transactions"
-msgstr "Controlar transacoes historicas de estoque"
+msgstr "Controlar transações historicas de estoque"
 
 #. Label of the conversion_factor (Float) field in DocType 'Loyalty Program'
 #. Label of the conversion_factor (Float) field in DocType 'Purchase Order Item
@@ -751,25 +751,25 @@ msgstr "Fator de conversão de unidade de medida padrão deve ser 1 na linha {0}
 
 #: erpnext/controllers/stock_controller.py:86
 msgid "Conversion factor for item {0} has been reset to 1.0 as the uom {1} is same as stock uom {2}."
-msgstr "O fator de conversao do item {0} foi redefinido para 1,0, pois a UDM {1} e igual a UDM de estoque {2}."
+msgstr "O fator de conversão do item {0} foi redefinido para 1,0, pois a UDM {1} e igual a UDM de estoque {2}."
 
 #: erpnext/controllers/accounts_controller.py:2955
 msgid "Conversion rate cannot be 0"
-msgstr "A taxa de conversao nao pode ser 0"
+msgstr "A taxa de conversão não pode ser 0"
 
 #: erpnext/controllers/accounts_controller.py:2962
 msgid "Conversion rate is 1.00, but document currency is different from company currency"
-msgstr "A taxa de conversao e 1,00, mas a moeda do documento e diferente da moeda da empresa"
+msgstr "A taxa de conversão e 1,00, mas a moeda do documento e diferente da moeda da empresa"
 
 #: erpnext/controllers/accounts_controller.py:2958
 msgid "Conversion rate must be 1.00 if document currency is same as company currency"
-msgstr "A taxa de conversao deve ser 1,00 se a moeda do documento for igual a moeda da empresa"
+msgstr "A taxa de conversão deve ser 1,00 se a moeda do documento for igual a moeda da empresa"
 
 #. Label of the clean_description_html (Check) field in DocType 'Stock
 #. Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Convert Item Description to Clean HTML in Transactions"
-msgstr "Converter descricao do item em HTML limpo nas transacoes"
+msgstr "Converter descricao do item em HTML limpo nas transações"
 
 #: erpnext/accounts/doctype/account/account.js:106
 #: erpnext/accounts/doctype/cost_center/cost_center.js:123
@@ -788,7 +788,7 @@ msgstr "Converter para repostagem baseada em item"
 #: erpnext/stock/doctype/warehouse/warehouse.js:52
 msgctxt "Warehouse"
 msgid "Convert to Ledger"
-msgstr "Converter em nao-grupo"
+msgstr "Converter em não-grupo"
 
 #: erpnext/accounts/doctype/account/account.js:78
 #: erpnext/accounts/doctype/cost_center/cost_center.js:121
@@ -836,13 +836,13 @@ msgstr "Cartao de trabalho corretivo"
 #: erpnext/manufacturing/doctype/job_card/job_card.js:502
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 msgid "Corrective Operation"
-msgstr "Operacao corretiva"
+msgstr "Operação corretiva"
 
 #. Label of the corrective_operation_cost (Currency) field in DocType 'Work
 #. Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Corrective Operation Cost"
-msgstr "Custo da operacao corretiva"
+msgstr "Custo da operação corretiva"
 
 #. Label of the corrective_preventive (Select) field in DocType 'Quality
 #. Action'
@@ -1027,18 +1027,18 @@ msgstr "Centro de custo"
 #: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.json
 #: erpnext/accounts/workspace/accounting/accounting.json
 msgid "Cost Center Allocation"
-msgstr "Alocacao de centro de custo"
+msgstr "Alocação de centro de custo"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/cost_center_allocation_percentage/cost_center_allocation_percentage.json
 msgid "Cost Center Allocation Percentage"
-msgstr "Percentual de alocacao de centro de custo"
+msgstr "Percentual de alocação de centro de custo"
 
 #. Label of the allocation_percentages (Table) field in DocType 'Cost Center
 #. Allocation'
 #: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.json
 msgid "Cost Center Allocation Percentages"
-msgstr "Percentuais de alocacao de centro de custo"
+msgstr "Percentuais de alocação de centro de custo"
 
 #. Label of the cost_center_name (Data) field in DocType 'Cost Center'
 #: erpnext/accounts/doctype/cost_center/cost_center.json
@@ -1062,36 +1062,36 @@ msgstr "O centro de custo das linhas de item foi atualizado para {0}"
 
 #: erpnext/accounts/doctype/cost_center/cost_center.py:75
 msgid "Cost Center is a part of Cost Center Allocation, hence cannot be converted to a group"
-msgstr "O centro de custo faz parte de uma alocacao de centro de custo, por isso nao pode ser convertido em grupo"
+msgstr "O centro de custo faz parte de uma alocação de centro de custo, por isso não pode ser convertido em grupo"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1430
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:898
 msgid "Cost Center is required in row {0} in Taxes table for type {1}"
-msgstr "O centro de custo e obrigatorio na linha {0} da tabela de impostos para o tipo {1}"
+msgstr "O centro de custo e obrigatório na linha {0} da tabela de impostos para o tipo {1}"
 
 #: erpnext/accounts/doctype/cost_center/cost_center.py:72
 msgid "Cost Center with Allocation records can not be converted to a group"
-msgstr "O centro de custo com registros de alocacao nao pode ser convertido em grupo"
+msgstr "O centro de custo com registros de alocação não pode ser convertido em grupo"
 
 #: erpnext/accounts/doctype/cost_center/cost_center.py:78
 msgid "Cost Center with existing transactions can not be converted to group"
-msgstr "O centro de custo com transacoes existentes nao pode ser convertido em grupo"
+msgstr "O centro de custo com transações existentes não pode ser convertido em grupo"
 
 #: erpnext/accounts/doctype/cost_center/cost_center.py:63
 msgid "Cost Center with existing transactions can not be converted to ledger"
-msgstr "O centro de custo com transacoes existentes nao pode ser convertido em nao-grupo"
+msgstr "O centro de custo com transações existentes não pode ser convertido em não-grupo"
 
 #: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.py:152
 msgid "Cost Center {0} cannot be used for allocation as it is used as main cost center in other allocation record."
-msgstr "O centro de custo {0} nao pode ser usado na alocacao, pois e usado como centro de custo principal em outro registro de alocacao."
+msgstr "O centro de custo {0} não pode ser usado na alocação, pois e usado como centro de custo principal em outro registro de alocação."
 
 #: erpnext/assets/doctype/asset/asset.py:353
 msgid "Cost Center {} doesn't belong to Company {}"
-msgstr "O centro de custo {} nao pertence a empresa {}"
+msgstr "O centro de custo {} não pertence a empresa {}"
 
 #: erpnext/assets/doctype/asset/asset.py:360
 msgid "Cost Center {} is a group cost center and group cost centers cannot be used in transactions"
-msgstr "O centro de custo {} e um centro de custo de grupo, e centros de custo de grupo nao podem ser usados em transacoes"
+msgstr "O centro de custo {} e um centro de custo de grupo, e centros de custo de grupo não podem ser usados em transações"
 
 #: erpnext/accounts/report/financial_statements.py:661
 msgid "Cost Center: {0} does not exist"
@@ -1104,4 +1104,4 @@ msgstr "Centros de Custo"
 #. Label of the currency_detail (Section Break) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Cost Configuration"
-msgstr "Configuracao de custos"
+msgstr "Configuração de custos"

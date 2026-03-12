@@ -42,12 +42,12 @@ msgstr ""
 #. Description of the 'Reserve Stock' (Check) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "If checked, Stock will be reserved on <b>Submit</b>"
-msgstr "Se marcado, o estoque sera reservado ao <b>enviar</b>"
+msgstr "Se marcado, o estoque será reservado ao <b>enviar</b>"
 
 #. Description of the 'Scan Mode' (Check) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
 msgid "If checked, picked qty won't automatically be fulfilled on submit of pick list."
-msgstr "Se marcado, a qtd. separada nao sera atendida automaticamente ao enviar a lista de separacao."
+msgstr "Se marcado, a qtd. separada não será atendida automaticamente ao enviar a lista de separação."
 
 #. Description of the 'Considered In Paid Amount' (Check) field in DocType
 #. 'Purchase Taxes and Charges'
@@ -56,7 +56,7 @@ msgstr "Se marcado, a qtd. separada nao sera atendida automaticamente ao enviar 
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
 #: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
 msgid "If checked, the tax amount will be considered as already included in the Paid Amount in Payment Entry"
-msgstr "Se marcado, o valor do imposto sera considerado como ja incluido no valor pago na Entrada de Pagamento"
+msgstr "Se marcado, o valor do imposto será considerado como ja incluido no valor pago na Entrada de Pagamento"
 
 #. Description of the 'Is this Tax included in Basic Rate?' (Check) field in
 #. DocType 'Purchase Taxes and Charges'
@@ -75,19 +75,19 @@ msgstr ""
 #. Claim'
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "If different than customer address"
-msgstr "Se for diferente do endereco do cliente"
+msgstr "Se for diferente do endereço do cliente"
 
 #. Description of the 'Disable In Words' (Check) field in DocType 'Global
 #. Defaults'
 #: erpnext/setup/doctype/global_defaults/global_defaults.json
 msgid "If disable, 'In Words' field will not be visible in any transaction"
-msgstr "Se desativado, o campo 'Por extenso' nao ficara visivel em nenhuma transacao"
+msgstr "Se desativado, o campo 'Por extenso' não ficara visível em nenhuma transação"
 
 #. Description of the 'Disable Rounded Total' (Check) field in DocType 'Global
 #. Defaults'
 #: erpnext/setup/doctype/global_defaults/global_defaults.json
 msgid "If disable, 'Rounded Total' field will not be visible in any transaction"
-msgstr "Se desativado, o campo 'Total arredondado' nao ficara visivel em nenhuma transacao"
+msgstr "Se desativado, o campo 'Total arredondado' não ficara visível em nenhuma transação"
 
 #. Description of the 'Ignore Pricing Rule' (Check) field in DocType 'Pick
 #. List'
@@ -104,7 +104,7 @@ msgstr ""
 #. for Quotation'
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
 msgid "If enabled, a print of this document will be attached to each email"
-msgstr "Se ativado, uma impressao deste documento sera anexada a cada e-mail"
+msgstr "Se ativado, uma impressao deste documento será anexada a cada e-mail"
 
 #. Description of the 'Enable Discount Accounting for Selling' (Check) field in
 #. DocType 'Selling Settings'
@@ -116,7 +116,7 @@ msgstr ""
 #. for Quotation'
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
 msgid "If enabled, all files attached to this document will be attached to each email"
-msgstr "Se ativado, todos os arquivos anexados a este documento serao anexados a cada e-mail"
+msgstr "Se ativado, todos os arquivos anexados a este documento serão anexados a cada e-mail"
 
 #. Description of the 'Do Not Update Serial / Batch on Creation of Auto Bundle'
 #. (Check) field in DocType 'Stock Settings'
@@ -215,7 +215,7 @@ msgstr ""
 #. Report Row'
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
 msgid "If enabled, this row's values will be displayed on financial charts"
-msgstr "Se ativado, os valores desta linha serao exibidos nos graficos financeiros"
+msgstr "Se ativado, os valores desta linha serão exibidos nos graficos financeiros"
 
 #. Description of the 'Confirm before resetting posting date' (Check) field in
 #. DocType 'Accounts Settings'
@@ -257,13 +257,13 @@ msgstr "Se nenhum imposto estiver definido e um Modelo de Impostos e Encargos fo
 
 #: erpnext/stock/stock_ledger.py:2040
 msgid "If not, you can Cancel / Submit this entry"
-msgstr "Caso contrario, voce pode Cancelar / Enviar este lancamento"
+msgstr "Caso contrario, você pode Cancelar / Enviar este lancamento"
 
 #. Description of the 'Free Item Rate' (Currency) field in DocType 'Pricing
 #. Rule'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 msgid "If rate is zero then item will be treated as \"Free Item\""
-msgstr "Se a taxa for zero, o item sera tratado como \"Item Gratis\""
+msgstr "Se a taxa for zero, o item será tratado como \"Item Gratis\""
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:40
 msgid "If selected Pricing Rule is made for 'Rate', it will overwrite Price List. Pricing Rule rate is the final rate, so no further discount should be applied. Hence, in transactions like Sales Order, Purchase Order etc, it will be fetched in 'Rate' field, rather than 'Price List Rate' field."
@@ -282,7 +282,7 @@ msgstr "Se a BOM gerar sucata, o Armazem de Sucata precisa ser selecionado."
 #. Description of the 'Frozen' (Select) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
 msgid "If the account is frozen, entries are allowed to restricted users."
-msgstr "Se a conta estiver congelada, os lancamentos serao permitidos apenas para usuarios restritos."
+msgstr "Se a conta estiver congelada, os lancamentos serão permitidos apenas para usuários restritos."
 
 #: erpnext/stock/stock_ledger.py:2033
 msgid "If the item is transacting as a Zero Valuation Rate item in this entry, please enable 'Allow Zero Valuation Rate' in the {0} Item table."
@@ -302,11 +302,11 @@ msgstr ""
 #. Medium'
 #: erpnext/communication/doctype/communication_medium/communication_medium.json
 msgid "If there is no assigned timeslot, then communication will be handled by this group"
-msgstr "Se nao houver horario atribuido, a comunicacao sera tratada por este grupo"
+msgstr "Se não houver horario atribuido, a comunicação será tratada por este grupo"
 
 #: erpnext/edi/doctype/code_list/code_list_import.js:23
 msgid "If there is no title column, use the code column for the title."
-msgstr "Se nao houver coluna de titulo, use a coluna de codigo como titulo."
+msgstr "Se não houver coluna de título, use a coluna de código como título."
 
 #. Description of the 'Allocate Payment Based On Payment Terms' (Check) field
 #. in DocType 'Payment Terms Template'
@@ -434,7 +434,7 @@ msgstr "Ignorar saldo de fechamento"
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Ignore Default Payment Terms Template"
-msgstr "Ignorar modelo padrao de condicoes de pagamento"
+msgstr "Ignorar modelo padrão de condicoes de pagamento"
 
 #. Label of the ignore_employee_time_overlap (Check) field in DocType 'Projects
 #. Settings'
@@ -491,11 +491,11 @@ msgstr ""
 #: erpnext/stock/doctype/pick_list/pick_list.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Ignore Pricing Rule"
-msgstr "Ignorar regra de precificacao"
+msgstr "Ignorar regra de precificação"
 
 #: erpnext/selling/page/point_of_sale/pos_payment.js:335
 msgid "Ignore Pricing Rule is enabled. Cannot apply coupon code."
-msgstr "Ignorar regra de precificacao esta ativado. Nao e possivel aplicar codigo de cupom."
+msgstr "Ignorar regra de precificação esta ativado. Não é possível aplicar código de cupom."
 
 #. Label of the ignore_cr_dr_notes (Check) field in DocType 'Process Statement
 #. Of Accounts'
@@ -536,7 +536,7 @@ msgstr ""
 
 #: erpnext/setup/setup_wizard/data/sales_partner_type.txt:6
 msgid "Implementation Partner"
-msgstr "Parceiro de implantacao"
+msgstr "Parceiro de implantação"
 
 #. Description of a DocType
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.json
@@ -586,7 +586,7 @@ msgstr "Importar usando arquivo CSV"
 
 #: erpnext/edi/doctype/code_list/code_list_import.js:130
 msgid "Import completed. {0} common codes created."
-msgstr "Importacao concluida. {0} codigos comuns criados."
+msgstr "Importação concluida. {0} códigos comuns criados."
 
 #: erpnext/stock/doctype/item_price/item_price.js:29
 msgid "Import in Bulk"
@@ -594,7 +594,7 @@ msgstr "Importar em massa"
 
 #: erpnext/edi/doctype/common_code/common_code.py:109
 msgid "Importing Common Codes"
-msgstr "Importando codigos comuns"
+msgstr "Importando códigos comuns"
 
 #. Option for the 'Manufacturing Type' (Select) field in DocType 'Production
 #. Plan Sub Assembly Item'
@@ -731,13 +731,13 @@ msgstr "Por extenso (moeda da empresa)"
 #. Description of the 'In Words' (Data) field in DocType 'Delivery Note'
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "In Words (Export) will be visible once you save the Delivery Note."
-msgstr "Por extenso (exportacao) ficara visivel depois que voce salvar a Nota de Entrega."
+msgstr "Por extenso (exportação) ficara visível depois que você salvar a Nota de Entrega."
 
 #. Description of the 'In Words (Company Currency)' (Data) field in DocType
 #. 'Delivery Note'
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "In Words will be visible once you save the Delivery Note."
-msgstr "Por extenso ficara visivel depois que voce salvar a Nota de Entrega."
+msgstr "Por extenso ficara visível depois que você salvar a Nota de Entrega."
 
 #. Description of the 'In Words (Company Currency)' (Data) field in DocType
 #. 'POS Invoice'
@@ -746,13 +746,13 @@ msgstr "Por extenso ficara visivel depois que voce salvar a Nota de Entrega."
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "In Words will be visible once you save the Sales Invoice."
-msgstr "Por extenso ficara visivel depois que voce salvar a Fatura de Venda."
+msgstr "Por extenso ficara visível depois que você salvar a Fatura de Venda."
 
 #. Description of the 'In Words (Company Currency)' (Data) field in DocType
 #. 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "In Words will be visible once you save the Sales Order."
-msgstr "Por extenso ficara visivel depois que voce salvar o Pedido de Venda."
+msgstr "Por extenso ficara visível depois que você salvar o Pedido de Venda."
 
 #. Description of the 'Completed Time' (Data) field in DocType 'Job Card
 #. Operation'
@@ -910,13 +910,13 @@ msgstr "Incluir itens desmembrados"
 #: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
 #: erpnext/stock/doctype/item/item.json
 msgid "Include Item In Manufacturing"
-msgstr "Incluir item na fabricacao"
+msgstr "Incluir item na fabricação"
 
 #. Label of the include_non_stock_items (Check) field in DocType 'Production
 #. Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Include Non Stock Items"
-msgstr "Incluir itens nao estocaveis"
+msgstr "Incluir itens não estocaveis"
 
 #. Label of the include_pos_transactions (Check) field in DocType 'Bank
 #. Clearance'
