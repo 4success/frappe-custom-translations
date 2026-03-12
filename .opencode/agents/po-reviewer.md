@@ -1,6 +1,7 @@
 ---
 description: Audits reviewed PO files for consistency, placeholders, and business terminology
 mode: subagent
+model: openai/gpt-5-mini
 temperature: 0.05
 tools:
   write: false

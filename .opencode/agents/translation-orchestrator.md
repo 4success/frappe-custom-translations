@@ -1,6 +1,7 @@
 ---
 description: Orchestrates batch-by-batch pt-BR PO review across Frappe projects
 mode: subagent
+model: openai/gpt-5.4
 temperature: 0.1
 permission:
   task:

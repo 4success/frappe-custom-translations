@@ -1,6 +1,7 @@
 ---
 description: Maintains a stable pt-BR glossary for recurring Frappe business terms
 mode: subagent
+model: openai/gpt-5-mini
 temperature: 0.1
 tools:
   bash: false

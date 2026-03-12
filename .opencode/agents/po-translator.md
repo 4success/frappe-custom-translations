@@ -1,6 +1,7 @@
 ---
 description: Revises PO batches into natural and consistent pt-BR without breaking gettext syntax
 mode: subagent
+model: openai/gpt-5.4
 temperature: 0.05
 tools:
   bash: false

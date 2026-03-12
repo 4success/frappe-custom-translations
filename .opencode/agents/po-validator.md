@@ -1,6 +1,7 @@
 ---
 description: Validates PO files with syntax and placeholder checks
 mode: subagent
+model: openai/gpt-5-nano
 temperature: 0
 permission:
   bash:
