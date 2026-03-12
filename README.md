@@ -1,17 +1,17 @@
-# Traduções pt-BR para Frappe v16
+# 🇧🇷 Traduções pt-BR para Frappe v16
 
-Este repositório reúne um fluxo de trabalho para revisar, validar e distribuir traduções pt-BR para apps do ecossistema Frappe.
+Ferramentas, arquivos e fluxo de trabalho para revisar, validar e distribuir traduções pt-BR para apps do ecossistema Frappe.
 
-O foco atual é nestes projetos:
+Este repositório foi pensado para quem quer manter overrides de tradução com mais consistência, rastreabilidade e compatibilidade com o formato gettext usado no Frappe v16.
+
+## 📚 Projetos cobertos
 
 - `frappe/frappe`
 - `frappe/erpnext`
 - `frappe/crm`
 - `frappe/helpdesk`
 
-O objetivo é produzir arquivos de override mínimos, prontos para uso em um app customizado, mantendo consistência terminológica e compatibilidade com o formato gettext usado no Frappe v16.
-
-## O que você encontra aqui
+## ✨ O que você encontra aqui
 
 - regras e orientações do projeto em `AGENTS.md`
 - configuração do OpenCode em `opencode.json`
@@ -20,7 +20,7 @@ O objetivo é produzir arquivos de override mínimos, prontos para uso em um app
 - scripts auxiliares em `scripts/`
 - área de trabalho das traduções em `translations/`
 
-## Fluxo recomendado
+## 🚀 Fluxo recomendado
 
 1. Baixe os arquivos originais `pt_BR.po` da branch correspondente:
 
@@ -60,13 +60,23 @@ O objetivo é produzir arquivos de override mínimos, prontos para uso em um app
    translations/projects/<project>/overrides/messages.po
    ```
 
-O arquivo `merged/pt_BR.po` contém o resultado completo revisado. Já `overrides/messages.po` contém apenas as entradas que diferem do arquivo-fonte original e, por isso, é o artefato mais indicado para distribuição.
+## 📦 Artefato principal
 
-## Como aplicar os overrides em um ambiente
+Se você quer distribuir as traduções em outro ambiente, este é o arquivo mais importante:
+
+```text
+translations/projects/<project>/overrides/messages.po
+```
+
+- `merged/pt_BR.po` contém o resultado completo revisado
+- `overrides/messages.po` contém apenas as entradas diferentes do arquivo-fonte original
+- para distribuição em um app customizado, o arquivo de override costuma ser a melhor opção
+
+## 🛠️ Como aplicar os overrides em um ambiente
 
 Os arquivos `overrides/messages.po` foram pensados para serem distribuídos dentro de um app customizado do Frappe.
 
-Abordagem recomendada:
+### Abordagem recomendada
 
 1. Crie ou reutilize um app customizado no ambiente de destino.
 
@@ -86,14 +96,22 @@ Abordagem recomendada:
 
 7. Garanta que o idioma do usuário ou do site esteja configurado como `pt-BR` ou `pt_BR`.
 
-### Observações importantes
+### ✅ Resultado esperado
 
-- No Frappe v16, arquivos `.po` são o formato padrão de tradução.
-- O app customizado funciona como camada de override para apps core como Frappe, ERPNext, CRM e Helpdesk.
-- Se uma tradução não mudar imediatamente, limpe o cache novamente e recarregue a interface.
-- Se uma string ainda não bater, verifique o `msgid` exato, o `msgctxt` quando existir, e as entradas de plural.
+Depois da compilação e da limpeza de cache:
 
-## Atalhos do OpenCode
+- as strings alteradas devem aparecer em pt-BR na interface
+- o app customizado deve funcionar como camada de override para os apps core
+- novas revisões podem ser publicadas reaproveitando o mesmo fluxo
+
+### ⚠️ Observações importantes
+
+- no Frappe v16, arquivos `.po` são o formato padrão de tradução
+- o app customizado funciona como camada de override para apps como Frappe, ERPNext, CRM e Helpdesk
+- se uma tradução não mudar imediatamente, limpe o cache novamente e recarregue a interface
+- se uma string ainda não bater, verifique o `msgid` exato, o `msgctxt` quando existir, e as entradas de plural
+
+## 🤖 Atalhos do OpenCode
 
 - `/bootstrap-po version-16`
 - `/prepare-project frappe 150`
@@ -101,7 +119,7 @@ Abordagem recomendada:
 - `/review-batch translations/projects/frappe/reviewed/batch-001.po`
 - `/build-overrides frappe`
 
-## Estrutura de saída
+## 🗂️ Estrutura de saída
 
 Depois do bootstrap, cada projeto usa esta estrutura:
 
@@ -114,10 +132,10 @@ translations/projects/<project>/
   overrides/messages.po
 ```
 
-## Notas
+## 🧭 Notas
 
-- Mantenha a branch alinhada com o ambiente de produção, normalmente `version-16`.
-- `crm` e `helpdesk` atualmente usam `main` por padrão em `translations/projects.json`, porque esses repositórios publicam traduções compatíveis com v16 nessa branch.
-- Edite o glossário em `translations/glossary.md` antes de grandes rodadas de revisão.
-- O arquivo de override é o artefato que você pode distribuir dentro do seu app customizado.
-- Depois de atualizar os lotes revisados, rode `scripts/merge_batches.py`, `scripts/build_overrides.py` e `scripts/check_po.py` antes de exportar os arquivos para importação.
+- mantenha a branch alinhada com o ambiente de produção, normalmente `version-16`
+- `crm` e `helpdesk` atualmente usam `main` por padrão em `translations/projects.json`, porque esses repositórios publicam traduções compatíveis com v16 nessa branch
+- edite o glossário em `translations/glossary.md` antes de grandes rodadas de revisão
+- o arquivo de override é o artefato que você pode distribuir dentro do seu app customizado
+- depois de atualizar os lotes revisados, rode `scripts/merge_batches.py`, `scripts/build_overrides.py` e `scripts/check_po.py` antes de exportar os arquivos para importação
