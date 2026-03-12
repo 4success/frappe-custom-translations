@@ -1,0 +1,821 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:35+0000\n"
+"PO-Revision-Date: 2026-01-21 06:48\n"
+"Last-Translator: developers@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File-ID: 138\n"
+"Language: pt_BR\n"
+
+#. Label of the enable_email_event_reminders (Check) field in DocType
+#. 'Notification Settings'
+#: frappe/desk/doctype/notification_settings/notification_settings.json
+msgid "Event Reminders"
+msgstr ""
+
+#: frappe/integrations/doctype/google_calendar/google_calendar.py:493
+#: frappe/integrations/doctype/google_calendar/google_calendar.py:577
+msgid "Event Synced with Google Calendar."
+msgstr ""
+
+#. Label of the event_type (Data) field in DocType 'Recorder'
+#. Label of the event_type (Select) field in DocType 'Event'
+#: frappe/core/doctype/recorder/recorder.json
+#: frappe/desk/doctype/event/event.json
+msgid "Event Type"
+msgstr ""
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:67
+msgid "Events"
+msgstr ""
+
+#: frappe/desk/doctype/event/event.py:278
+msgid "Events in Today's Calendar"
+msgstr ""
+
+#. Label of the everyone (Check) field in DocType 'DocShare'
+#: frappe/core/doctype/docshare/docshare.json
+#: frappe/public/js/frappe/form/templates/set_sharing.html:27
+msgid "Everyone"
+msgstr ""
+
+#. Description of the 'Custom Options' (Code) field in DocType 'Dashboard
+#. Chart'
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+msgid "Ex: \"colors\": [\"#d1d8dd\", \"#ff5858\"]"
+msgstr ""
+
+#. Label of the exact_copies (Int) field in DocType 'Recorder Query'
+#: frappe/core/doctype/recorder_query/recorder_query.json
+msgid "Exact Copies"
+msgstr ""
+
+#. Label of the example (HTML) field in DocType 'Workflow Transition'
+#: frappe/workflow/doctype/workflow_transition/workflow_transition.json
+msgid "Example"
+msgstr "Exemplo"
+
+#. Description of the 'Default Portal Home' (Data) field in DocType 'Portal
+#. Settings'
+#: frappe/website/doctype/portal_settings/portal_settings.json
+msgid "Example: \"/desk\""
+msgstr ""
+
+#. Description of the 'Path' (Data) field in DocType 'Onboarding Step'
+#: frappe/desk/doctype/onboarding_step/onboarding_step.json
+msgid "Example: #Tree/Account"
+msgstr "Exemplo: # árvore / conta"
+
+#. Description of the 'Digits' (Int) field in DocType 'Document Naming Rule'
+#: frappe/core/doctype/document_naming_rule/document_naming_rule.json
+msgid "Example: 00001"
+msgstr "Exemplo: 00001"
+
+#. Description of the 'Session Expiry (idle timeout)' (Data) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Example: Setting this to 24:00 will log out a user if they are not active for 24:00 hours."
+msgstr ""
+
+#. Description of the 'Description' (Small Text) field in DocType 'Assignment
+#. Rule'
+#: frappe/automation/doctype/assignment_rule/assignment_rule.json
+msgid "Example: {{ subject }}"
+msgstr ""
+
+#. Option for the 'File Type' (Select) field in DocType 'Data Export'
+#: frappe/core/doctype/data_export/data_export.json
+msgid "Excel"
+msgstr ""
+
+#: frappe/public/js/frappe/form/controls/password.js:90
+msgid "Excellent"
+msgstr ""
+
+#. Label of the exception (Text) field in DocType 'Data Import Log'
+#. Label of the exc_info (Code) field in DocType 'RQ Job'
+#. Label of the exception (Long Text) field in DocType 'Submission Queue'
+#: frappe/core/doctype/data_import_log/data_import_log.json
+#: frappe/core/doctype/rq_job/rq_job.json
+#: frappe/core/doctype/submission_queue/submission_queue.json
+msgid "Exception"
+msgstr "Exceção"
+
+#. Label of the execute_section (Section Break) field in DocType 'System
+#. Console'
+#: frappe/desk/doctype/system_console/system_console.js:17
+#: frappe/desk/doctype/system_console/system_console.js:22
+#: frappe/desk/doctype/system_console/system_console.json
+msgid "Execute"
+msgstr ""
+
+#: frappe/desk/doctype/system_console/system_console.js:10
+msgid "Execute Console script"
+msgstr ""
+
+#: frappe/public/js/frappe/ui/dropdown_console.js:132
+msgid "Executing Code"
+msgstr ""
+
+#: frappe/desk/doctype/system_console/system_console.js:18
+msgid "Executing..."
+msgstr ""
+
+#: frappe/public/js/frappe/views/reports/query_report.js:2162
+msgid "Execution Time: {0} sec"
+msgstr ""
+
+#. Option for the 'PDF Page Size' (Select) field in DocType 'Print Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "Executive"
+msgstr ""
+
+#. Label of the existing_role (Link) field in DocType 'Role Replication'
+#: frappe/core/doctype/role_replication/role_replication.json
+msgid "Existing Role"
+msgstr ""
+
+#: frappe/public/js/frappe/views/treeview.js:115
+#: frappe/public/js/frappe/views/treeview.js:127
+#: frappe/public/js/frappe/views/treeview.js:137
+#: frappe/public/js/frappe/widgets/base_widget.js:159
+msgid "Expand"
+msgstr ""
+
+#: frappe/public/js/frappe/form/controls/code.js:186
+msgctxt "Enlarge code field."
+msgid "Expand"
+msgstr ""
+
+#: frappe/public/js/frappe/views/reports/query_report.js:2143
+#: frappe/public/js/frappe/views/treeview.js:133
+msgid "Expand All"
+msgstr ""
+
+#: frappe/database/query.py:684
+msgid "Expected 'and' or 'or' operator, found: {0}"
+msgstr ""
+
+#: frappe/public/js/frappe/form/templates/form_sidebar.html:41
+msgid "Experimental"
+msgstr ""
+
+#. Option for the 'Level' (Select) field in DocType 'Help Article'
+#: frappe/website/doctype/help_article/help_article.json
+msgid "Expert"
+msgstr "Especialista"
+
+#. Label of the expiration_time (Datetime) field in DocType 'OAuth
+#. Authorization Code'
+#. Label of the expiration_time (Datetime) field in DocType 'OAuth Bearer
+#. Token'
+#: frappe/integrations/doctype/oauth_authorization_code/oauth_authorization_code.json
+#: frappe/integrations/doctype/oauth_bearer_token/oauth_bearer_token.json
+msgid "Expiration time"
+msgstr "Data de validade"
+
+#. Label of the expire_notification_on (Datetime) field in DocType 'Note'
+#: frappe/desk/doctype/note/note.json
+msgid "Expire Notification On"
+msgstr ""
+
+#. Option for the 'Delivery Status' (Select) field in DocType 'Communication'
+#. Option for the 'Status' (Select) field in DocType 'User Invitation'
+#: frappe/core/doctype/communication/communication.json
+#: frappe/core/doctype/user_invitation/user_invitation.json
+msgid "Expired"
+msgstr ""
+
+#. Label of the expires_in (Int) field in DocType 'OAuth Bearer Token'
+#. Label of the expires_in (Int) field in DocType 'Token Cache'
+#: frappe/integrations/doctype/oauth_bearer_token/oauth_bearer_token.json
+#: frappe/integrations/doctype/token_cache/token_cache.json
+msgid "Expires In"
+msgstr "Expira em"
+
+#. Label of the expires_on (Date) field in DocType 'Document Share Key'
+#: frappe/core/doctype/document_share_key/document_share_key.json
+msgid "Expires On"
+msgstr ""
+
+#. Label of the lifespan_qrcode_image (Int) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Expiry time of QR Code Image Page"
+msgstr "Tempo de expiração da página de imagem de código QR"
+
+#. Label of the export (Check) field in DocType 'Custom DocPerm'
+#. Label of the export (Check) field in DocType 'DocPerm'
+#: frappe/core/doctype/custom_docperm/custom_docperm.json
+#: frappe/core/doctype/docperm/docperm.json
+#: frappe/core/doctype/recorder/recorder_list.js:37
+#: frappe/public/js/frappe/data_import/data_exporter.js:92
+#: frappe/public/js/frappe/data_import/data_exporter.js:243
+#: frappe/public/js/frappe/views/reports/query_report.js:1850
+#: frappe/public/js/frappe/views/reports/report_view.js:1633
+#: frappe/public/js/frappe/widgets/chart_widget.js:315
+msgid "Export"
+msgstr ""
+
+#: frappe/public/js/frappe/list/list_view.js:2359
+msgctxt "Button in list view actions menu"
+msgid "Export"
+msgstr ""
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:245
+msgid "Export 1 record"
+msgstr ""
+
+#: frappe/custom/doctype/customize_form/customize_form.js:262
+msgid "Export Custom Permissions"
+msgstr ""
+
+#: frappe/custom/doctype/customize_form/customize_form.js:242
+msgid "Export Customizations"
+msgstr ""
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:14
+msgid "Export Data"
+msgstr ""
+
+#: frappe/core/doctype/data_import/data_import.js:87
+#: frappe/public/js/frappe/data_import/import_preview.js:199
+msgid "Export Errored Rows"
+msgstr ""
+
+#. Label of the export_from (Data) field in DocType 'Access Log'
+#: frappe/core/doctype/access_log/access_log.json
+msgid "Export From"
+msgstr "Exportar de"
+
+#: frappe/core/doctype/data_import/data_import.js:544
+msgid "Export Import Log"
+msgstr ""
+
+#: frappe/public/js/frappe/views/reports/report_utils.js:245
+msgctxt "Export report"
+msgid "Export Report: {0}"
+msgstr ""
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:26
+msgid "Export Type"
+msgstr ""
+
+#: frappe/public/js/frappe/views/reports/report_view.js:1644
+msgid "Export all matching rows?"
+msgstr ""
+
+#: frappe/public/js/frappe/views/reports/report_view.js:1654
+msgid "Export all {0} rows?"
+msgstr ""
+
+#: frappe/public/js/frappe/views/file/file_view.js:154
+msgid "Export as zip"
+msgstr ""
+
+#: frappe/public/js/frappe/views/reports/report_utils.js:184
+msgid "Export in Background"
+msgstr ""
+
+#: frappe/public/js/frappe/utils/tools.js:11
+msgid "Export not allowed. You need {0} role to export."
+msgstr ""
+
+#. Description of the 'Export without main header' (Check) field in DocType
+#. 'Data Export'
+#: frappe/core/doctype/data_export/data_export.json
+msgid "Export the data without any header notes and column descriptions"
+msgstr ""
+
+#. Label of the export_without_main_header (Check) field in DocType 'Data
+#. Export'
+#: frappe/core/doctype/data_export/data_export.json
+msgid "Export without main header"
+msgstr ""
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:247
+msgid "Export {0} records"
+msgstr ""
+
+#: frappe/custom/doctype/customize_form/customize_form.js:263
+msgid "Exported permissions will be force-synced on every migrate overriding any other customization."
+msgstr ""
+
+#. Label of the expose_recipients (Data) field in DocType 'Email Queue'
+#: frappe/email/doctype/email_queue/email_queue.json
+msgid "Expose Recipients"
+msgstr "Mostrar Destinatários"
+
+#. Option for the 'Naming Rule' (Select) field in DocType 'DocType'
+#. Option for the 'Naming Rule' (Select) field in DocType 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Expression"
+msgstr ""
+
+#. Option for the 'Naming Rule' (Select) field in DocType 'DocType'
+#. Option for the 'Naming Rule' (Select) field in DocType 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Expression (old style)"
+msgstr ""
+
+#. Description of the 'Condition' (Data) field in DocType 'Notification
+#. Recipient'
+#: frappe/email/doctype/notification_recipient/notification_recipient.json
+msgid "Expression, Optional"
+msgstr "Expressão, Opcional"
+
+#. Option for the 'Link Type' (Select) field in DocType 'Desktop Icon'
+#: frappe/desk/doctype/desktop_icon/desktop_icon.json
+msgid "External"
+msgstr ""
+
+#. Label of the external_link (Data) field in DocType 'Workspace'
+#: frappe/desk/doctype/workspace/workspace.json
+#: frappe/public/js/frappe/views/workspace/workspace.js:440
+msgid "External Link"
+msgstr ""
+
+#. Label of the section_break_18 (Section Break) field in DocType 'Connected
+#. App'
+#: frappe/integrations/doctype/connected_app/connected_app.json
+msgid "Extra Parameters"
+msgstr ""
+
+#. Option for the 'Social Login Provider' (Select) field in DocType 'Social
+#. Login Key'
+#: frappe/integrations/doctype/social_login_key/social_login_key.json
+msgid "Facebook"
+msgstr ""
+
+#. Option for the 'SocketIO Ping Check' (Select) field in DocType 'System
+#. Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Fail"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Activity Log'
+#. Option for the 'Status' (Select) field in DocType 'Scheduled Job Log'
+#. Option for the 'Status' (Select) field in DocType 'Submission Queue'
+#. Option for the 'Status' (Select) field in DocType 'Integration Request'
+#: frappe/core/doctype/activity_log/activity_log.json
+#: frappe/core/doctype/scheduled_job_log/scheduled_job_log.json
+#: frappe/core/doctype/submission_queue/submission_queue.json
+#: frappe/integrations/doctype/integration_request/integration_request.json
+msgid "Failed"
+msgstr ""
+
+#. Label of the failed_emails (Int) field in DocType 'System Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Failed Emails"
+msgstr ""
+
+#. Label of the failed_job_count (Int) field in DocType 'RQ Worker'
+#: frappe/core/doctype/rq_worker/rq_worker.json
+msgid "Failed Job Count"
+msgstr ""
+
+#. Label of the failed_jobs (Int) field in DocType 'System Health Report
+#. Workers'
+#: frappe/desk/doctype/system_health_report_workers/system_health_report_workers.json
+msgid "Failed Jobs"
+msgstr ""
+
+#. Label of the failed_logins (Int) field in DocType 'System Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Failed Logins (Last 30 days)"
+msgstr ""
+
+#: frappe/model/workflow.py:362
+msgid "Failed Transactions"
+msgstr ""
+
+#: frappe/utils/synchronization.py:46
+msgid "Failed to aquire lock: {}. Lock may be held by another process."
+msgstr ""
+
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.py:362
+msgid "Failed to change password."
+msgstr ""
+
+#: frappe/desk/page/setup_wizard/setup_wizard.js:232
+#: frappe/desk/page/setup_wizard/setup_wizard.py:42
+msgid "Failed to complete setup"
+msgstr ""
+
+#: frappe/integrations/doctype/webhook/webhook.py:141
+msgid "Failed to compute request body: {}"
+msgstr ""
+
+#: frappe/printing/doctype/network_printer_settings/network_printer_settings.py:46
+#: frappe/printing/doctype/network_printer_settings/network_printer_settings.py:48
+msgid "Failed to connect to server"
+msgstr ""
+
+#: frappe/auth.py:704
+msgid "Failed to decode token, please provide a valid base64-encoded token."
+msgstr ""
+
+#: frappe/utils/password.py:210
+msgid "Failed to decrypt key {0}"
+msgstr ""
+
+#: frappe/desk/reportview.py:638
+msgid "Failed to delete {0} documents: {1}"
+msgstr ""
+
+#: frappe/core/doctype/rq_job/rq_job_list.js:42
+msgid "Failed to enable scheduler: {0}"
+msgstr ""
+
+#: frappe/email/doctype/notification/notification.py:107
+#: frappe/integrations/doctype/webhook/webhook.py:131
+msgid "Failed to evaluate conditions: {}"
+msgstr ""
+
+#: frappe/types/exporter.py:205
+msgid "Failed to export python type hints"
+msgstr ""
+
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.py:249
+msgid "Failed to generate names from the series"
+msgstr ""
+
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.js:75
+msgid "Failed to generate preview of series"
+msgstr ""
+
+#: frappe/handler.py:77
+msgid "Failed to get method for command {0} with {1}"
+msgstr ""
+
+#: frappe/api/v2.py:46
+msgid "Failed to get method {0} with {1}"
+msgstr ""
+
+#: frappe/integrations/frappe_providers/frappecloud_billing.py:59
+msgid "Failed to get site info"
+msgstr ""
+
+#: frappe/model/virtual_doctype.py:63
+msgid "Failed to import virtual doctype {}, is controller file present?"
+msgstr ""
+
+#: frappe/utils/image.py:75
+msgid "Failed to optimize image: {0}"
+msgstr ""
+
+#: frappe/email/doctype/notification/notification.py:124
+msgid "Failed to render message: {}"
+msgstr ""
+
+#: frappe/email/doctype/notification/notification.py:142
+msgid "Failed to render subject: {}"
+msgstr ""
+
+#: frappe/integrations/frappe_providers/frappecloud_billing.py:94
+msgid "Failed to request login to Frappe Cloud"
+msgstr ""
+
+#: frappe/email/doctype/email_queue/email_queue.py:300
+msgid "Failed to send email with subject:"
+msgstr ""
+
+#: frappe/desk/doctype/notification_log/notification_log.py:43
+msgid "Failed to send notification email"
+msgstr ""
+
+#: frappe/desk/page/setup_wizard/setup_wizard.py:24
+msgid "Failed to update global settings"
+msgstr ""
+
+#: frappe/integrations/frappe_providers/frappecloud_billing.py:74
+msgid "Failed while calling API {0}"
+msgstr ""
+
+#. Label of the failing_scheduled_jobs (Table) field in DocType 'System Health
+#. Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Failing Scheduled Jobs (last 7 days)"
+msgstr ""
+
+#: frappe/core/doctype/data_import/data_import.js:485
+msgid "Failure"
+msgstr ""
+
+#. Label of the failure_rate (Percent) field in DocType 'System Health Report
+#. Failing Jobs'
+#: frappe/desk/doctype/system_health_report_failing_jobs/system_health_report_failing_jobs.json
+msgid "Failure Rate"
+msgstr ""
+
+#. Label of the favicon (Attach) field in DocType 'Website Settings'
+#: frappe/website/doctype/website_settings/website_settings.json
+msgid "FavIcon"
+msgstr ""
+
+#. Label of the fax (Data) field in DocType 'Address'
+#: frappe/contacts/doctype/address/address.json
+msgid "Fax"
+msgstr ""
+
+#: frappe/public/js/frappe/form/templates/form_sidebar.html:51
+msgid "Feedback"
+msgstr ""
+
+#: frappe/desk/page/setup_wizard/install_fixtures.py:29
+msgid "Female"
+msgstr "Feminino"
+
+#. Label of the fetch_from (Small Text) field in DocType 'DocField'
+#. Label of the fetch_from (Small Text) field in DocType 'Custom Field'
+#. Label of the fetch_from (Small Text) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/public/js/form_builder/components/controls/FetchFromControl.vue:29
+#: frappe/public/js/form_builder/components/controls/FetchFromControl.vue:34
+msgid "Fetch From"
+msgstr "Buscar de"
+
+#: frappe/website/doctype/website_slideshow/website_slideshow.js:15
+msgid "Fetch Images"
+msgstr ""
+
+#: frappe/website/doctype/website_slideshow/website_slideshow.js:13
+msgid "Fetch attached images from document"
+msgstr ""
+
+#. Label of the fetch_if_empty (Check) field in DocType 'DocField'
+#. Label of the fetch_if_empty (Check) field in DocType 'Custom Field'
+#. Label of the fetch_if_empty (Check) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Fetch on Save if Empty"
+msgstr ""
+
+#: frappe/desk/doctype/global_search_settings/global_search_settings.py:61
+msgid "Fetching default Global Search documents."
+msgstr ""
+
+#: frappe/website/doctype/web_form/web_form.js:168
+msgid "Fetching fields from {0}..."
+msgstr ""
+
+#. Label of the field (Select) field in DocType 'Assignment Rule'
+#. Label of the field (Select) field in DocType 'Document Naming Rule
+#. Condition'
+#. Label of the field (Select) field in DocType 'Bulk Update'
+#. Label of the report_field (Select) field in DocType 'Number Card'
+#. Label of the field (Select) field in DocType 'Onboarding Step'
+#. Label of the fieldname (Select) field in DocType 'Web Form Field'
+#. Label of the fieldname (Select) field in DocType 'Web Form List Column'
+#: frappe/automation/doctype/assignment_rule/assignment_rule.json
+#: frappe/core/doctype/document_naming_rule_condition/document_naming_rule_condition.json
+#: frappe/core/doctype/permission_log/permission_log.js:12
+#: frappe/desk/doctype/bulk_update/bulk_update.json
+#: frappe/desk/doctype/number_card/number_card.json
+#: frappe/desk/doctype/onboarding_step/onboarding_step.json
+#: frappe/public/js/frappe/list/bulk_operations.js:327
+#: frappe/public/js/frappe/list/list_view_permission_restrictions.html:3
+#: frappe/public/js/frappe/views/reports/query_report.js:236
+#: frappe/public/js/frappe/views/reports/query_report.js:1909
+#: frappe/website/doctype/web_form_field/web_form_field.json
+#: frappe/website/doctype/web_form_list_column/web_form_list_column.json
+msgid "Field"
+msgstr ""
+
+#: frappe/core/doctype/doctype/doctype.py:419
+msgid "Field \"route\" is mandatory for Web Views"
+msgstr ""
+
+#: frappe/core/doctype/doctype/doctype.py:1541
+msgid "Field \"title\" is mandatory if \"Website Search Field\" is set."
+msgstr ""
+
+#: frappe/desk/doctype/bulk_update/bulk_update.js:17
+msgid "Field \"value\" is mandatory. Please specify value to be updated"
+msgstr ""
+
+#: frappe/desk/search.py:255
+msgid "Field <code>{0}</code> not found in {1}"
+msgstr ""
+
+#. Label of the description (Text) field in DocType 'Custom Field'
+#: frappe/custom/doctype/custom_field/custom_field.json
+msgid "Field Description"
+msgstr "Descrição do Campo"
+
+#: frappe/core/doctype/doctype/doctype.py:1092
+msgid "Field Missing"
+msgstr ""
+
+#. Label of the field_name (Data) field in DocType 'Property Setter'
+#. Label of the field_name (Select) field in DocType 'Kanban Board'
+#: frappe/custom/doctype/property_setter/property_setter.json
+#: frappe/desk/doctype/kanban_board/kanban_board.json
+msgid "Field Name"
+msgstr ""
+
+#: frappe/public/js/print_format_builder/PrintFormatSection.vue:141
+msgid "Field Orientation (Left-Right)"
+msgstr ""
+
+#: frappe/public/js/print_format_builder/PrintFormatSection.vue:148
+msgid "Field Orientation (Top-Down)"
+msgstr ""
+
+#: frappe/public/js/print_format_builder/PrintFormatControls.vue:233
+#: frappe/public/js/print_format_builder/utils.js:69
+msgid "Field Template"
+msgstr ""
+
+#. Label of the fieldtype (Select) field in DocType 'Custom Field'
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/templates/form_grid/fields.html:40
+msgid "Field Type"
+msgstr ""
+
+#: frappe/desk/reportview.py:204
+msgid "Field not permitted in query"
+msgstr ""
+
+#. Description of the 'Workflow State Field' (Data) field in DocType 'Workflow'
+#: frappe/workflow/doctype/workflow/workflow.json
+msgid "Field that represents the Workflow State of the transaction (if field is not present, a new hidden Custom Field will be created)"
+msgstr ""
+
+#. Label of the track_field (Select) field in DocType 'Milestone Tracker'
+#: frappe/automation/doctype/milestone_tracker/milestone_tracker.json
+msgid "Field to Track"
+msgstr "Campo para rastrear"
+
+#: frappe/custom/doctype/property_setter/property_setter.py:52
+msgid "Field type cannot be changed for {0}"
+msgstr ""
+
+#: frappe/database/database.py:919
+msgid "Field {0} does not exist on {1}"
+msgstr ""
+
+#: frappe/desk/form/meta.py:187
+msgid "Field {0} is referring to non-existing doctype {1}."
+msgstr ""
+
+#: frappe/core/doctype/doctype/doctype.py:1669
+msgid "Field {0} must be a virtual field to support virtual doctype."
+msgstr ""
+
+#: frappe/public/js/frappe/form/form.js:1768
+msgid "Field {0} not found."
+msgstr ""
+
+#: frappe/email/doctype/notification/notification.py:564
+msgid "Field {0} on document {1} is neither a Mobile number field nor a Customer or User link"
+msgstr ""
+
+#. Label of the fieldname (Data) field in DocType 'Report Column'
+#. Label of the fieldname (Data) field in DocType 'Report Filter'
+#. Label of the fieldname (Data) field in DocType 'Custom Field'
+#. Label of the fieldname (Select) field in DocType 'DocType Layout Field'
+#. Label of the fieldname (Select) field in DocType 'Form Tour Step'
+#. Label of the fieldname (Select) field in DocType 'Webhook Data'
+#. Label of the fieldname (Data) field in DocType 'Web Template Field'
+#: frappe/core/doctype/report_column/report_column.json
+#: frappe/core/doctype/report_filter/report_filter.json
+#: frappe/custom/doctype/custom_field/custom_field.js:121
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/doctype_layout_field/doctype_layout_field.json
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+#: frappe/integrations/doctype/webhook_data/webhook_data.json
+#: frappe/public/js/frappe/form/grid_row.js:454
+#: frappe/website/doctype/web_template_field/web_template_field.json
+msgid "Fieldname"
+msgstr ""
+
+#: frappe/core/doctype/doctype/doctype.py:272
+msgid "Fieldname '{0}' conflicting with a {1} of the name {2} in {3}"
+msgstr ""
+
+#: frappe/core/doctype/doctype/doctype.py:1091
+msgid "Fieldname called {0} must exist to enable autonaming"
+msgstr ""
+
+#: frappe/database/schema.py:131 frappe/database/schema.py:408
+msgid "Fieldname is limited to 64 characters ({0})"
+msgstr ""
+
+#: frappe/custom/doctype/custom_field/custom_field.py:198
+msgid "Fieldname not set for Custom Field"
+msgstr ""
+
+#: frappe/custom/doctype/custom_field/custom_field.js:107
+msgid "Fieldname which will be the DocType for this link field."
+msgstr ""
+
+#: frappe/public/js/form_builder/store.js:175
+msgid "Fieldname {0} appears multiple times"
+msgstr ""
+
+#: frappe/database/schema.py:398
+msgid "Fieldname {0} cannot have special characters like {1}"
+msgstr ""
+
+#: frappe/core/doctype/doctype/doctype.py:1942
+msgid "Fieldname {0} conflicting with meta object"
+msgstr ""
+
+#: frappe/core/doctype/doctype/doctype.py:510
+#: frappe/public/js/form_builder/utils.js:302
+msgid "Fieldname {0} is restricted"
+msgstr ""
+
+#. Label of the fields (Table) field in DocType 'DocType'
+#. Label of the fields_section (Section Break) field in DocType 'DocType'
+#. Label of the fields_tab (Tab Break) field in DocType 'DocType'
+#. Label of the fields_section_break (Section Break) field in DocType
+#. 'Customize Form'
+#. Label of the fields (Table) field in DocType 'Customize Form'
+#. Label of the fields (Table) field in DocType 'DocType Layout'
+#. Label of the fields (Code) field in DocType 'Kanban Board'
+#. Label of the fields_html (HTML) field in DocType 'List View Settings'
+#. Label of the fields (Code) field in DocType 'List View Settings'
+#. Label of the fields (Small Text) field in DocType 'Personal Data Deletion
+#. Step'
+#. Label of the fields (Table) field in DocType 'Web Template'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+#: frappe/custom/doctype/doctype_layout/doctype_layout.json
+#: frappe/desk/doctype/kanban_board/kanban_board.json
+#: frappe/desk/doctype/list_view_settings/list_view_settings.json
+#: frappe/public/js/frappe/list/list_settings.js:133
+#: frappe/public/js/frappe/views/kanban/kanban_settings.js:111
+#: frappe/public/js/print_format_builder/PrintFormatControls.vue:83
+#: frappe/website/doctype/personal_data_deletion_step/personal_data_deletion_step.json
+#: frappe/website/doctype/web_template/web_template.json
+msgid "Fields"
+msgstr ""
+
+#. Label of the fields_multicheck (HTML) field in DocType 'Data Export'
+#: frappe/core/doctype/data_export/data_export.json
+msgid "Fields Multicheck"
+msgstr ""
+
+#: frappe/core/doctype/file/file.py:441
+msgid "Fields `file_name` or `file_url` must be set for File"
+msgstr ""
+
+#: frappe/model/db_query.py:167
+msgid "Fields must be a list or tuple when as_list is enabled"
+msgstr ""
+
+#: frappe/database/query.py:1011
+msgid "Fields must be a string, list, tuple, pypika Field, or pypika Function"
+msgstr ""
+
+#. Description of the 'Search Fields' (Data) field in DocType 'Customize Form'
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Fields separated by comma (,) will be included in the \"Search By\" list of Search dialog box"
+msgstr ""
+
+#. Label of the fieldtype (Select) field in DocType 'Report Column'
+#. Label of the fieldtype (Select) field in DocType 'Report Filter'
+#. Label of the fieldtype (Data) field in DocType 'Form Tour Step'
+#. Label of the fieldtype (Select) field in DocType 'Web Form Field'
+#. Label of the fieldtype (Data) field in DocType 'Web Form List Column'
+#. Label of the fieldtype (Select) field in DocType 'Web Template Field'
+#: frappe/core/doctype/report_column/report_column.json
+#: frappe/core/doctype/report_filter/report_filter.json
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+#: frappe/website/doctype/web_form_field/web_form_field.json
+#: frappe/website/doctype/web_form_list_column/web_form_list_column.json
+#: frappe/website/doctype/web_template_field/web_template_field.json
+msgid "Fieldtype"
+msgstr ""
+
+#: frappe/custom/doctype/custom_field/custom_field.py:194
+msgid "Fieldtype cannot be changed from {0} to {1}"
+msgstr ""
+
+#: frappe/custom/doctype/customize_form/customize_form.py:593
+msgid "Fieldtype cannot be changed from {0} to {1} in row {2}"
+msgstr ""
+
+#. Name of a DocType
+#. Option for the 'Select List View' (Select) field in DocType 'Form Tour'
+#: frappe/core/doctype/file/file.json
+#: frappe/desk/doctype/form_tour/form_tour.json
+msgid "File"
+msgstr ""

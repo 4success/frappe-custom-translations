@@ -1,0 +1,976 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Title of an incoterm
+#: erpnext/setup/doctype/incoterm/incoterms.csv:2
+msgid "Ex Works"
+msgstr ""
+
+#. Label of the url (Data) field in DocType 'Currency Exchange Settings'
+#: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.json
+msgid "Example URL"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:993
+msgid "Example of a linked document: {0}"
+msgstr ""
+
+#. Description of the 'Serial Number Series' (Data) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Example: ABCD.#####\n"
+"If series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank."
+msgstr ""
+
+#. Description of the 'Batch Number Series' (Data) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Example: ABCD.#####. If series is set and Batch No is not mentioned in transactions, then automatic batch number will be created based on this series. If you always want to explicitly mention Batch No for this item, leave this blank. Note: this setting will take priority over the Naming Series Prefix in Stock Settings."
+msgstr ""
+
+#: erpnext/stock/stock_ledger.py:2311
+msgid "Example: Serial No {0} reserved in {1}."
+msgstr ""
+
+#. Label of the exception_budget_approver_role (Link) field in DocType
+#. 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Exception Budget Approver Role"
+msgstr ""
+
+#: erpnext/manufacturing/report/work_order_consumed_materials/work_order_consumed_materials.js:55
+msgid "Excess Materials Consumed"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:1012
+msgid "Excess Transfer"
+msgstr ""
+
+#. Option for the 'Stop Reason' (Select) field in DocType 'Downtime Entry'
+#: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json
+msgid "Excessive machine set up time"
+msgstr ""
+
+#. Label of the exchange_gain__loss_section (Section Break) field in DocType
+#. 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Exchange Gain / Loss"
+msgstr ""
+
+#. Label of the exchange_gain_loss_account (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Exchange Gain / Loss Account"
+msgstr ""
+
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Exchange Gain Or Loss"
+msgstr ""
+
+#. Label of the exchange_gain_loss (Currency) field in DocType 'Payment Entry
+#. Reference'
+#. Label of the exchange_gain_loss (Currency) field in DocType 'Purchase
+#. Invoice Advance'
+#. Label of the exchange_gain_loss (Currency) field in DocType 'Sales Invoice
+#. Advance'
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:131
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:217
+#: erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.json
+#: erpnext/accounts/doctype/purchase_invoice_advance/purchase_invoice_advance.json
+#: erpnext/accounts/doctype/sales_invoice_advance/sales_invoice_advance.json
+#: erpnext/setup/doctype/company/company.py:665
+msgid "Exchange Gain/Loss"
+msgstr "Ganho/perda Com Câmbio"
+
+#: erpnext/controllers/accounts_controller.py:1769
+#: erpnext/controllers/accounts_controller.py:1853
+msgid "Exchange Gain/Loss amount has been booked through {0}"
+msgstr ""
+
+#. Label of the exchange_rate (Float) field in DocType 'Advance Payment Ledger
+#. Entry'
+#. Label of the exchange_rate (Float) field in DocType 'Journal Entry Account'
+#. Label of the exchange_rate (Float) field in DocType 'Payment Entry
+#. Reference'
+#. Label of the exchange_rate (Float) field in DocType 'Payment Reconciliation
+#. Allocation'
+#. Label of the exchange_rate (Float) field in DocType 'Payment Reconciliation
+#. Invoice'
+#. Label of the exchange_rate (Float) field in DocType 'Payment Reconciliation
+#. Payment'
+#. Label of the pegged_exchange_rate (Data) field in DocType 'Pegged Currency
+#. Details'
+#. Label of the conversion_rate (Float) field in DocType 'POS Invoice'
+#. Label of the exchange_rate (Float) field in DocType 'Process Payment
+#. Reconciliation Log Allocations'
+#. Label of the conversion_rate (Float) field in DocType 'Purchase Invoice'
+#. Label of the conversion_rate (Float) field in DocType 'Sales Invoice'
+#. Label of the conversion_rate (Float) field in DocType 'Purchase Order'
+#. Label of the conversion_rate (Float) field in DocType 'Supplier Quotation'
+#. Label of the conversion_rate (Float) field in DocType 'Opportunity'
+#. Label of the exchange_rate (Float) field in DocType 'Timesheet'
+#. Label of the conversion_rate (Float) field in DocType 'Quotation'
+#. Label of the conversion_rate (Float) field in DocType 'Sales Order'
+#. Label of the exchange_rate (Float) field in DocType 'Currency Exchange'
+#. Label of the conversion_rate (Float) field in DocType 'Delivery Note'
+#. Label of the exchange_rate (Float) field in DocType 'Landed Cost Taxes and
+#. Charges'
+#. Label of the conversion_rate (Float) field in DocType 'Purchase Receipt'
+#: erpnext/accounts/doctype/advance_payment_ledger_entry/advance_payment_ledger_entry.json
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+#: erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.json
+#: erpnext/accounts/doctype/payment_reconciliation_allocation/payment_reconciliation_allocation.json
+#: erpnext/accounts/doctype/payment_reconciliation_invoice/payment_reconciliation_invoice.json
+#: erpnext/accounts/doctype/payment_reconciliation_payment/payment_reconciliation_payment.json
+#: erpnext/accounts/doctype/pegged_currency_details/pegged_currency_details.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/process_payment_reconciliation_log_allocations/process_payment_reconciliation_log_allocations.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/projects/doctype/timesheet/timesheet.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/setup/doctype/currency_exchange/currency_exchange.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/landed_cost_taxes_and_charges/landed_cost_taxes_and_charges.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Exchange Rate"
+msgstr ""
+
+#. Name of a DocType
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
+#. Account'
+#. Option for the 'Journal Entry Type' (Select) field in DocType 'Journal Entry
+#. Template'
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.json
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Exchange Rate Revaluation"
+msgstr "Reavaliação da Taxa de Câmbio"
+
+#. Label of the accounts (Table) field in DocType 'Exchange Rate Revaluation'
+#. Name of a DocType
+#: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.json
+#: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
+msgid "Exchange Rate Revaluation Account"
+msgstr "Conta de Reavaliação da Taxa de Câmbio"
+
+#. Label of the exchange_rate_revaluation_settings_section (Section Break)
+#. field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Exchange Rate Revaluation Settings"
+msgstr ""
+
+#: erpnext/controllers/sales_and_purchase_return.py:72
+msgid "Exchange Rate must be same as {0} {1} ({2})"
+msgstr "Taxa de câmbio deve ser o mesmo que {0} {1} ({2})"
+
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#. Option for the 'Journal Entry Type' (Select) field in DocType 'Journal Entry
+#. Template'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+msgid "Excise Entry"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:1374
+msgid "Excise Invoice"
+msgstr "Guia de Recolhimento de Tributos"
+
+#. Label of the excise_page (Data) field in DocType 'Delivery Note'
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+msgid "Excise Page Number"
+msgstr ""
+
+#. Label of the doctypes_to_be_ignored (Table) field in DocType 'Transaction
+#. Deletion Record'
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.json
+msgid "Excluded DocTypes"
+msgstr ""
+
+#. Label of the excluded_fee (Currency) field in DocType 'Bank Transaction'
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+msgid "Excluded Fee"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:265
+msgid "Execution"
+msgstr "Execução"
+
+#: erpnext/setup/setup_wizard/data/designation.txt:16
+msgid "Executive Assistant"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:23
+msgid "Executive Search"
+msgstr ""
+
+#: erpnext/regional/report/uae_vat_201/uae_vat_201.py:67
+msgid "Exempt Supplies"
+msgstr ""
+
+#. Label of the exempted_role (Link) field in DocType 'Accounting Period'
+#: erpnext/accounts/doctype/accounting_period/accounting_period.json
+msgid "Exempted Role"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/marketing_source.txt:5
+msgid "Exhibition"
+msgstr ""
+
+#. Option for the 'Create Chart Of Accounts Based On' (Select) field in DocType
+#. 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Existing Company"
+msgstr ""
+
+#. Label of the existing_company (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Existing Company "
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/marketing_source.txt:1
+msgid "Existing Customer"
+msgstr ""
+
+#. Label of the held_on (Date) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Exit Interview Held On"
+msgstr ""
+
+#: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.py:444
+msgid "Expected"
+msgstr ""
+
+#. Label of the expected_amount (Currency) field in DocType 'POS Closing Entry
+#. Detail'
+#: erpnext/accounts/doctype/pos_closing_entry_detail/pos_closing_entry_detail.json
+msgid "Expected Amount"
+msgstr ""
+
+#: erpnext/manufacturing/report/production_planning_report/production_planning_report.py:429
+msgid "Expected Arrival Date"
+msgstr "Data Esperada de Chegada"
+
+#: erpnext/stock/report/incorrect_balance_qty_after_transaction/incorrect_balance_qty_after_transaction.py:119
+msgid "Expected Balance Qty"
+msgstr ""
+
+#. Label of the expected_closing (Date) field in DocType 'Opportunity'
+#: erpnext/crm/doctype/opportunity/opportunity.json
+msgid "Expected Closing Date"
+msgstr ""
+
+#. Label of the expected_delivery_date (Date) field in DocType 'Purchase Order
+#. Item'
+#. Label of the expected_delivery_date (Date) field in DocType 'Supplier
+#. Quotation Item'
+#. Label of the expected_delivery_date (Date) field in DocType 'Work Order'
+#. Label of the expected_delivery_date (Date) field in DocType 'Subcontracting
+#. Order Item'
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/buying/report/procurement_tracker/procurement_tracker.py:115
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/stock/report/delayed_item_report/delayed_item_report.py:135
+#: erpnext/stock/report/delayed_order_report/delayed_order_report.py:60
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+msgid "Expected Delivery Date"
+msgstr "Data Prevista de Entrega"
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:403
+msgid "Expected Delivery Date should be after Sales Order Date"
+msgstr "Data de entrega esperada deve ser após a data da ordem de venda"
+
+#. Label of the expected_end_date (Datetime) field in DocType 'Job Card'
+#. Label of the expected_end_date (Date) field in DocType 'Project'
+#. Label of the exp_end_date (Datetime) field in DocType 'Task'
+#. Label of a field in the tasks Web Form
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/workstation/workstation_job_card.html:49
+#: erpnext/projects/doctype/project/project.json
+#: erpnext/projects/doctype/task/task.json
+#: erpnext/projects/report/delayed_tasks_summary/delayed_tasks_summary.py:126
+#: erpnext/projects/web_form/tasks/tasks.json
+#: erpnext/templates/pages/task_info.html:64
+msgid "Expected End Date"
+msgstr "Data Prevista de Término"
+
+#: erpnext/projects/doctype/task/task.py:114
+msgid "Expected End Date should be less than or equal to parent task's Expected End Date {0}."
+msgstr ""
+
+#. Label of the expected_hours (Float) field in DocType 'Timesheet Detail'
+#: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
+#: erpnext/public/js/projects/timer.js:16
+msgid "Expected Hrs"
+msgstr "Horas Esperadas"
+
+#. Label of the expected_start_date (Datetime) field in DocType 'Job Card'
+#. Label of the expected_start_date (Date) field in DocType 'Project'
+#. Label of the exp_start_date (Datetime) field in DocType 'Task'
+#. Label of a field in the tasks Web Form
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/workstation/workstation_job_card.html:45
+#: erpnext/projects/doctype/project/project.json
+#: erpnext/projects/doctype/task/task.json
+#: erpnext/projects/report/delayed_tasks_summary/delayed_tasks_summary.py:120
+#: erpnext/projects/web_form/tasks/tasks.json
+#: erpnext/templates/pages/task_info.html:59
+msgid "Expected Start Date"
+msgstr "Data Prevista de Início"
+
+#: erpnext/stock/report/incorrect_stock_value_report/incorrect_stock_value_report.py:129
+msgid "Expected Stock Value"
+msgstr ""
+
+#. Label of the expected_time (Float) field in DocType 'Task'
+#: erpnext/projects/doctype/task/task.json
+msgid "Expected Time (in hours)"
+msgstr ""
+
+#. Label of the time_required (Float) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Expected Time Required (In Mins)"
+msgstr ""
+
+#. Label of the expected_value_after_useful_life (Currency) field in DocType
+#. 'Asset Depreciation Schedule'
+#. Description of the 'Salvage Value' (Currency) field in DocType 'Asset
+#. Finance Book'
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+#: erpnext/assets/doctype/asset_finance_book/asset_finance_book.json
+msgid "Expected Value After Useful Life"
+msgstr ""
+
+#. Option for the 'Root Type' (Select) field in DocType 'Account'
+#. Label of the expense (Float) field in DocType 'Cashier Closing'
+#. Option for the 'Root Type' (Select) field in DocType 'Ledger Merge'
+#. Option for the 'Type' (Select) field in DocType 'Process Deferred
+#. Accounting'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/cashier_closing/cashier_closing.json
+#: erpnext/accounts/doctype/ledger_merge/ledger_merge.json
+#: erpnext/accounts/doctype/process_deferred_accounting/process_deferred_accounting.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:603
+#: erpnext/accounts/report/account_balance/account_balance.js:28
+#: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.js:89
+#: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py:184
+#: erpnext/accounts/report/profitability_analysis/profitability_analysis.py:190
+msgid "Expense"
+msgstr "Despesa"
+
+#: erpnext/controllers/stock_controller.py:897
+msgid "Expense / Difference account ({0}) must be a 'Profit or Loss' account"
+msgstr "Despesa conta / Diferença ({0}) deve ser um 'resultados' conta"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#. Label of the expense_account (Link) field in DocType 'Loyalty Program'
+#. Label of the expense_account (Link) field in DocType 'POS Invoice Item'
+#. Label of the expense_account (Link) field in DocType 'POS Profile'
+#. Label of the expense_account (Link) field in DocType 'Sales Invoice Item'
+#. Label of the expense_account (Link) field in DocType 'Asset Capitalization
+#. Service Item'
+#. Label of the expense_account (Link) field in DocType 'Asset Repair Purchase
+#. Invoice'
+#. Label of the expense_account (Link) field in DocType 'Purchase Order Item'
+#. Label of the expense_account (Link) field in DocType 'Workstation Operating
+#. Component Account'
+#. Label of the expense_account (Link) field in DocType 'Delivery Note Item'
+#. Label of the expense_account (Link) field in DocType 'Landed Cost Taxes and
+#. Charges'
+#. Label of the expense_account (Link) field in DocType 'Material Request Item'
+#. Label of the expense_account (Link) field in DocType 'Purchase Receipt Item'
+#. Label of the expense_account (Link) field in DocType 'Subcontracting Order
+#. Item'
+#. Label of the expense_account (Link) field in DocType 'Subcontracting Receipt
+#. Item'
+#. Label of the expense_account (Link) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/report/account_balance/account_balance.js:46
+#: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.py:245
+#: erpnext/assets/doctype/asset_capitalization_service_item/asset_capitalization_service_item.json
+#: erpnext/assets/doctype/asset_repair_purchase_invoice/asset_repair_purchase_invoice.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/manufacturing/doctype/workstation_operating_component_account/workstation_operating_component_account.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/landed_cost_taxes_and_charges/landed_cost_taxes_and_charges.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
+msgid "Expense Account"
+msgstr "Conta de Despesas"
+
+#: erpnext/controllers/stock_controller.py:877
+msgid "Expense Account Missing"
+msgstr "Conta de Despesas Ausente"
+
+#. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
+#. Account'
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+msgid "Expense Claim"
+msgstr ""
+
+#. Label of the expense_account (Link) field in DocType 'Purchase Invoice Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+msgid "Expense Head"
+msgstr ""
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:497
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:521
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:541
+msgid "Expense Head Changed"
+msgstr "Cabeça de Despesas Alterada"
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:599
+msgid "Expense account is mandatory for item {0}"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:81
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:140
+msgid "Expenses"
+msgstr "Despesas"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:88
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:148
+#: erpnext/accounts/report/account_balance/account_balance.js:49
+msgid "Expenses Included In Asset Valuation"
+msgstr "Despesas Incluídas na Avaliação de Imobilizado"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:92
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:153
+#: erpnext/accounts/report/account_balance/account_balance.js:51
+msgid "Expenses Included In Valuation"
+msgstr "Despesas Incluídas na Avaliação"
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:271
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:390
+msgid "Expired Batches"
+msgstr "Lotes Expirados"
+
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.py:291
+msgid "Expires in a week or less"
+msgstr ""
+
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.py:295
+msgid "Expires today or already expired"
+msgstr ""
+
+#. Option for the 'Pick Serial / Batch Based On' (Select) field in DocType
+#. 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Expiry"
+msgstr ""
+
+#: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.py:38
+msgid "Expiry (In Days)"
+msgstr "Vencimento (em Dias)"
+
+#. Label of the expiry_date (Date) field in DocType 'Loyalty Point Entry'
+#. Label of the expiry_date (Date) field in DocType 'Driver'
+#. Label of the expiry_date (Date) field in DocType 'Driving License Category'
+#. Label of the expiry_date (Date) field in DocType 'Batch'
+#: erpnext/accounts/doctype/loyalty_point_entry/loyalty_point_entry.json
+#: erpnext/setup/doctype/driver/driver.json
+#: erpnext/setup/doctype/driving_license_category/driving_license_category.json
+#: erpnext/stock/doctype/batch/batch.json
+#: erpnext/stock/report/available_batch_report/available_batch_report.py:58
+msgid "Expiry Date"
+msgstr ""
+
+#: erpnext/stock/doctype/batch/batch.py:219
+msgid "Expiry Date Mandatory"
+msgstr "Data de Expiração Obrigatória"
+
+#. Label of the expiry_duration (Int) field in DocType 'Loyalty Program'
+#: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
+msgid "Expiry Duration (in days)"
+msgstr ""
+
+#. Label of the section_break0 (Tab Break) field in DocType 'BOM'
+#. Label of the exploded_items (Table) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Exploded Items"
+msgstr ""
+
+#. Name of a report
+#: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.json
+msgid "Exponential Smoothing Forecasting"
+msgstr "Previsão de Suavização Exponencial"
+
+#: erpnext/regional/report/electronic_invoice_register/electronic_invoice_register.js:34
+msgid "Export E-Invoices"
+msgstr "Exportar Faturas Eletrônicas"
+
+#. Label of the extended_bank_statement_section (Section Break) field in
+#. DocType 'Bank Transaction'
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+msgid "Extended Bank Statement"
+msgstr ""
+
+#. Label of the external_work_history (Table) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "External Work History"
+msgstr ""
+
+#: erpnext/manufacturing/report/work_order_consumed_materials/work_order_consumed_materials.py:148
+msgid "Extra Consumed Qty"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:227
+msgid "Extra Job Card Quantity"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:275
+msgid "Extra Large"
+msgstr "Extra Grande"
+
+#. Label of the section_break_xhtl (Section Break) field in DocType
+#. 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Extra Material Transfer"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:271
+msgid "Extra Small"
+msgstr "Muito Pequeno"
+
+#. Label of the finished_good (Link) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "FG / Semi FG Item"
+msgstr ""
+
+#. Option for the 'Default Stock Valuation Method' (Select) field in DocType
+#. 'Company'
+#. Option for the 'Valuation Method' (Select) field in DocType 'Item'
+#. Option for the 'Default Valuation Method' (Select) field in DocType 'Stock
+#. Settings'
+#. Option for the 'Pick Serial / Batch Based On' (Select) field in DocType
+#. 'Stock Settings'
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "FIFO"
+msgstr ""
+
+#. Label of the fifo_queue (Long Text) field in DocType 'Stock Closing Balance'
+#: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
+msgid "FIFO Queue"
+msgstr ""
+
+#. Name of a report
+#: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.json
+msgid "FIFO Queue vs Qty After Transaction Comparison"
+msgstr ""
+
+#. Label of the stock_queue (Small Text) field in DocType 'Serial and Batch
+#. Entry'
+#. Label of the stock_queue (Long Text) field in DocType 'Stock Ledger Entry'
+#: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
+msgid "FIFO Stock Queue (qty, rate)"
+msgstr ""
+
+#: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:179
+#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:218
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:121
+msgid "FIFO/LIFO Queue"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Fahrenheit"
+msgstr ""
+
+#: erpnext/bulk_transaction/doctype/bulk_transaction_log/bulk_transaction_log.js:17
+msgid "Failed Entries"
+msgstr ""
+
+#: erpnext/utilities/doctype/video_settings/video_settings.py:33
+msgid "Failed to Authenticate the API key."
+msgstr "Falha ao autenticar a chave API."
+
+#: erpnext/setup/demo.py:54
+msgid "Failed to erase demo data, please delete the demo company manually."
+msgstr ""
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:25
+#: erpnext/setup/setup_wizard/setup_wizard.py:26
+msgid "Failed to install presets"
+msgstr "Falha na instalação de predefinições"
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:17
+#: erpnext/setup/setup_wizard/setup_wizard.py:18
+#: erpnext/setup/setup_wizard/setup_wizard.py:42
+#: erpnext/setup/setup_wizard/setup_wizard.py:43
+msgid "Failed to login"
+msgstr ""
+
+#: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.py:164
+msgid "Failed to parse MT940 format. Error: {0}"
+msgstr ""
+
+#: erpnext/assets/doctype/asset/asset.js:221
+msgid "Failed to post depreciation entries"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:30
+#: erpnext/setup/setup_wizard/setup_wizard.py:31
+msgid "Failed to setup company"
+msgstr "Falha na configuração da empresa"
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:37
+msgid "Failed to setup defaults"
+msgstr "Falha ao configurar os padrões"
+
+#: erpnext/setup/doctype/company/company.py:862
+msgid "Failed to setup defaults for country {0}. Please contact support."
+msgstr ""
+
+#. Label of the failure_date (Datetime) field in DocType 'Asset Repair'
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+msgid "Failure Date"
+msgstr ""
+
+#. Label of the failure_description_section (Section Break) field in DocType
+#. 'POS Closing Entry'
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
+msgid "Failure Description"
+msgstr ""
+
+#: erpnext/accounts/doctype/payment_request/payment_request.js:37
+msgid "Failure: {0}"
+msgstr ""
+
+#. Label of the family_background (Small Text) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Family Background"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Faraday"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Fathom"
+msgstr ""
+
+#. Label of the document_name (Dynamic Link) field in DocType 'Quality
+#. Feedback'
+#: erpnext/quality_management/doctype/quality_feedback/quality_feedback.json
+msgid "Feedback By"
+msgstr ""
+
+#. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
+#. Account'
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+msgid "Fees"
+msgstr ""
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:384
+msgid "Fetch Based On"
+msgstr ""
+
+#. Label of the fetch_customers (Button) field in DocType 'Process Statement Of
+#. Accounts'
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+msgid "Fetch Customers"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.js:80
+msgid "Fetch Items from Warehouse"
+msgstr "Buscar itens do armazém"
+
+#: erpnext/crm/doctype/opportunity/opportunity.js:117
+msgid "Fetch Latest Exchange Rate"
+msgstr ""
+
+#: erpnext/accounts/doctype/dunning/dunning.js:61
+msgid "Fetch Overdue Payments"
+msgstr ""
+
+#: erpnext/accounts/doctype/subscription/subscription.js:36
+msgid "Fetch Subscription Updates"
+msgstr "Buscar Atualizações de Assinatura"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:1047
+msgid "Fetch Timesheet"
+msgstr ""
+
+#. Label of the fetch_timesheet_in_sales_invoice (Check) field in DocType
+#. 'Projects Settings'
+#: erpnext/projects/doctype/projects_settings/projects_settings.json
+msgid "Fetch Timesheet in Sales Invoice"
+msgstr ""
+
+#. Label of the fetch_valuation_rate_for_internal_transaction (Check) field in
+#. DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Fetch Valuation Rate for Internal Transaction"
+msgstr ""
+
+#. Label of the fetch_from_parent (Select) field in DocType 'Inventory
+#. Dimension'
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
+msgid "Fetch Value From"
+msgstr ""
+
+#: erpnext/stock/doctype/material_request/material_request.js:360
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:694
+msgid "Fetch exploded BOM (including sub-assemblies)"
+msgstr ""
+
+#. Description of the 'Get Items from Open Material Requests' (Button) field in
+#. DocType 'Purchase Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+msgid "Fetch items based on Default Supplier."
+msgstr ""
+
+#: erpnext/selling/page/point_of_sale/pos_item_details.js:455
+msgid "Fetched only {0} available serial numbers."
+msgstr ""
+
+#: erpnext/edi/doctype/code_list/code_list_import.py:27
+msgid "Fetching Error"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.js:198
+msgid "Fetching Material Requests..."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.js:145
+msgid "Fetching Sales Orders..."
+msgstr ""
+
+#: erpnext/accounts/doctype/dunning/dunning.js:135
+#: erpnext/public/js/controllers/transaction.js:1476
+msgid "Fetching exchange rates ..."
+msgstr ""
+
+#: erpnext/manufacturing/page/bom_comparison_tool/bom_comparison_tool.js:72
+msgid "Fetching..."
+msgstr ""
+
+#. Label of the field_mapping_section (Section Break) field in DocType
+#. 'Inventory Dimension'
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
+msgid "Field Mapping"
+msgstr ""
+
+#. Label of the bank_transaction_field (Select) field in DocType 'Bank
+#. Transaction Mapping'
+#: erpnext/accounts/doctype/bank_transaction_mapping/bank_transaction_mapping.json
+msgid "Field in Bank Transaction"
+msgstr ""
+
+#. Description of the 'Do not update variants on save' (Check) field in DocType
+#. 'Item Variant Settings'
+#: erpnext/stock/doctype/item_variant_settings/item_variant_settings.json
+msgid "Fields will be copied over only at time of creation."
+msgstr ""
+
+#. Label of the file_to_rename (Attach) field in DocType 'Rename Tool'
+#: erpnext/utilities/doctype/rename_tool/rename_tool.json
+msgid "File to Rename"
+msgstr ""
+
+#: erpnext/accounts/report/consolidated_financial_statement/consolidated_financial_statement.js:16
+#: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.js:16
+#: erpnext/public/js/financial_statements.js:303
+msgid "Filter Based On"
+msgstr "Filtro Baseado Em"
+
+#. Label of the filter_duration (Int) field in DocType 'Process Statement Of
+#. Accounts'
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+msgid "Filter Duration (Months)"
+msgstr ""
+
+#: erpnext/stock/report/warehouse_wise_item_balance_age_and_value/warehouse_wise_item_balance_age_and_value.js:60
+msgid "Filter Total Zero Qty"
+msgstr ""
+
+#. Label of the filter_by_reference_date (Check) field in DocType 'Bank
+#. Reconciliation Tool'
+#: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.json
+msgid "Filter by Reference Date"
+msgstr ""
+
+#: erpnext/selling/page/point_of_sale/pos_past_order_list.js:70
+msgid "Filter by invoice status"
+msgstr ""
+
+#. Label of the invoice_name (Data) field in DocType 'Payment Reconciliation'
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+msgid "Filter on Invoice"
+msgstr ""
+
+#. Label of the payment_name (Data) field in DocType 'Payment Reconciliation'
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+msgid "Filter on Payment"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.js:158
+msgid "Filters for Material Requests"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.js:92
+msgid "Filters for Sales Orders"
+msgstr ""
+
+#: erpnext/accounts/report/invalid_ledger_entries/invalid_ledger_entries.py:74
+msgid "Filters missing"
+msgstr ""
+
+#. Label of the bom_no (Link) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Final BOM"
+msgstr ""
+
+#. Label of the details_tab (Tab Break) field in DocType 'BOM Creator'
+#. Label of the production_item (Link) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Final Product"
+msgstr ""
+
+#. Label of the finance_book (Link) field in DocType 'Account Closing Balance'
+#. Name of a DocType
+#. Label of the finance_book (Link) field in DocType 'GL Entry'
+#. Label of the finance_book (Link) field in DocType 'Journal Entry'
+#. Label of the finance_book (Link) field in DocType 'Payment Ledger Entry'
+#. Label of the finance_book (Link) field in DocType 'POS Invoice Item'
+#. Label of the finance_book (Link) field in DocType 'Process Statement Of
+#. Accounts'
+#. Label of the finance_book (Link) field in DocType 'Sales Invoice Item'
+#. Label of a Link in the Accounting Workspace
+#. Label of the finance_book (Link) field in DocType 'Asset Capitalization'
+#. Label of the finance_book (Link) field in DocType 'Asset Capitalization
+#. Asset Item'
+#. Label of the finance_book (Link) field in DocType 'Asset Depreciation
+#. Schedule'
+#. Label of the finance_book (Link) field in DocType 'Asset Finance Book'
+#. Label of the finance_book (Link) field in DocType 'Asset Shift Allocation'
+#. Label of the finance_book (Link) field in DocType 'Asset Value Adjustment'
+#: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.json
+#: erpnext/accounts/doctype/finance_book/finance_book.json
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.json
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/report/accounts_payable/accounts_payable.js:22
+#: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.js:41
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:24
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:41
+#: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.js:48
+#: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.js:51
+#: erpnext/accounts/report/consolidated_financial_statement/consolidated_financial_statement.js:104
+#: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.js:51
+#: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.js:32
+#: erpnext/accounts/report/dimension_wise_accounts_balance_report/dimension_wise_accounts_balance_report.js:51
+#: erpnext/accounts/report/general_ledger/general_ledger.js:16
+#: erpnext/accounts/report/supplier_ledger_summary/supplier_ledger_summary.js:31
+#: erpnext/accounts/report/trial_balance/trial_balance.js:71
+#: erpnext/accounts/workspace/accounting/accounting.json
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+#: erpnext/assets/doctype/asset_capitalization_asset_item/asset_capitalization_asset_item.json
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+#: erpnext/assets/doctype/asset_finance_book/asset_finance_book.json
+#: erpnext/assets/doctype/asset_shift_allocation/asset_shift_allocation.json
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.json
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.js:48
+#: erpnext/public/js/financial_statements.js:297
+msgid "Finance Book"
+msgstr "Livro Contábil"
+
+#. Label of the finance_book_detail (Section Break) field in DocType 'Asset
+#. Category'
+#: erpnext/assets/doctype/asset_category/asset_category.json
+msgid "Finance Book Detail"
+msgstr ""
+
+#. Label of the finance_book_id (Int) field in DocType 'Asset Depreciation
+#. Schedule'
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+msgid "Finance Book Id"
+msgstr ""
+
+#. Label of the section_break_36 (Section Break) field in DocType 'Asset'
+#. Label of the finance_books (Table) field in DocType 'Asset Category'
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_category/asset_category.json
+msgid "Finance Books"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/designation.txt:17
+msgid "Finance Manager"
+msgstr ""
+
+#. Name of a report
+#: erpnext/accounts/report/financial_ratios/financial_ratios.json
+msgid "Financial Ratios"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
+msgid "Financial Report Row"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.json
+msgid "Financial Report Template"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_engine.py:242
+msgid "Financial Report Template {0} is disabled"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_engine.py:239
+msgid "Financial Report Template {0} not found"
+msgstr ""
+
+#. Name of a Workspace
+#: erpnext/accounts/workspace/financial_reports/financial_reports.json
+msgid "Financial Reports"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:24
+msgid "Financial Services"
+msgstr ""

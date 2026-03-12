@@ -1,0 +1,1051 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Label of the work_order_details_section (Section Break) field in DocType
+#. 'Production Plan Sub Assembly Item'
+#. Name of a Workspace
+#. Label of the manufacturing_section (Section Break) field in DocType
+#. 'Company'
+#. Label of the manufacturing_section (Section Break) field in DocType 'Batch'
+#. Label of the manufacturing (Tab Break) field in DocType 'Item'
+#. Label of the section_break_wuqi (Section Break) field in DocType 'Item Lead
+#. Time'
+#: erpnext/buying/doctype/purchase_order/purchase_order_dashboard.py:30
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/selling/doctype/sales_order/sales_order_dashboard.py:29
+#: erpnext/setup/doctype/company/company.json erpnext/setup/install.py:332
+#: erpnext/setup/setup_wizard/data/industry_type.txt:31
+#: erpnext/stock/doctype/batch/batch.json erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+#: erpnext/stock/doctype/material_request/material_request_dashboard.py:18
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order_dashboard.py:13
+msgid "Manufacturing"
+msgstr "Fabricação"
+
+#. Label of the semi_fg_bom (Link) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Manufacturing BOM"
+msgstr "LDM de Fabricação"
+
+#. Label of the manufacturing_date (Date) field in DocType 'Batch'
+#: erpnext/stock/doctype/batch/batch.json
+msgid "Manufacturing Date"
+msgstr "Data de Fabricação"
+
+#. Name of a role
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+#: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.json
+#: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
+#: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
+#: erpnext/manufacturing/doctype/operation/operation.json
+#: erpnext/manufacturing/doctype/routing/routing.json
+#: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.json
+#: erpnext/manufacturing/doctype/workstation_operating_component/workstation_operating_component.json
+#: erpnext/stock/doctype/pick_list/pick_list.json
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+msgid "Manufacturing Manager"
+msgstr "Gerente de Fabricação"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:2289
+msgid "Manufacturing Quantity is mandatory"
+msgstr "A quantidade de fabricação é obrigatória"
+
+#. Label of the manufacturing_section_section (Section Break) field in DocType
+#. 'Sales Order Item'
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+msgid "Manufacturing Section"
+msgstr "Seção de Fabricação"
+
+#. Name of a DocType
+#. Label of a Link in the Manufacturing Workspace
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+msgid "Manufacturing Settings"
+msgstr "Configurações de Fabricação"
+
+#. Label of the manufacturing_time_in_mins (Int) field in DocType 'Item Lead
+#. Time'
+#. Label of the manufacturing_time_tab (Tab Break) field in DocType 'Item Lead
+#. Time'
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+msgid "Manufacturing Time"
+msgstr "Tempo de Fabricação"
+
+#. Label of the type_of_manufacturing (Select) field in DocType 'Production
+#. Plan Sub Assembly Item'
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+msgid "Manufacturing Type"
+msgstr "Tipo de Fabricação"
+
+#. Name of a role
+#: erpnext/assets/doctype/asset_maintenance/asset_maintenance.json
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
+#: erpnext/assets/doctype/asset_maintenance_team/asset_maintenance_team.json
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+#: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
+#: erpnext/manufacturing/doctype/operation/operation.json
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+#: erpnext/manufacturing/doctype/routing/routing.json
+#: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/manufacturing/doctype/workstation/workstation.json
+#: erpnext/manufacturing/doctype/workstation_operating_component/workstation_operating_component.json
+#: erpnext/manufacturing/doctype/workstation_type/workstation_type.json
+#: erpnext/projects/doctype/timesheet/timesheet.json
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/pick_list/pick_list.json
+#: erpnext/stock/doctype/price_list/price_list.json
+#: erpnext/stock/doctype/quality_inspection_parameter/quality_inspection_parameter.json
+#: erpnext/stock/doctype/quality_inspection_parameter_group/quality_inspection_parameter_group.json
+#: erpnext/stock/doctype/quality_inspection_template/quality_inspection_template.json
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/warehouse/warehouse.json
+#: erpnext/stock/doctype/warehouse_type/warehouse_type.json
+msgid "Manufacturing User"
+msgstr "Usuário de Fabricação"
+
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.js:106
+msgid "Mapping Subcontracting Inward Order ..."
+msgstr "Mapeando Pedido de Entrada de Subcontratação ..."
+
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:153
+msgid "Mapping Subcontracting Order ..."
+msgstr "Mapeando Pedido de Subcontratação ..."
+
+#: erpnext/public/js/utils.js:962
+msgid "Mapping {0} ..."
+msgstr "Mapeando {0} ..."
+
+#. Label of the margin (Section Break) field in DocType 'Pricing Rule'
+#. Label of the margin (Section Break) field in DocType 'Project'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/projects/doctype/project/project.json
+msgid "Margin"
+msgstr "Margem"
+
+#. Label of the margin_money (Currency) field in DocType 'Bank Guarantee'
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
+msgid "Margin Money"
+msgstr "Margem de Garantia"
+
+#. Label of the margin_rate_or_amount (Float) field in DocType 'POS Invoice
+#. Item'
+#. Label of the margin_rate_or_amount (Float) field in DocType 'Pricing Rule'
+#. Label of the margin_rate_or_amount (Float) field in DocType 'Purchase
+#. Invoice Item'
+#. Label of the margin_rate_or_amount (Float) field in DocType 'Sales Invoice
+#. Item'
+#. Label of the margin_rate_or_amount (Float) field in DocType 'Purchase Order
+#. Item'
+#. Label of the margin_rate_or_amount (Float) field in DocType 'Supplier
+#. Quotation Item'
+#. Label of the margin_rate_or_amount (Float) field in DocType 'Quotation Item'
+#. Label of the margin_rate_or_amount (Float) field in DocType 'Sales Order
+#. Item'
+#. Label of the margin_rate_or_amount (Float) field in DocType 'Delivery Note
+#. Item'
+#. Label of the margin_rate_or_amount (Float) field in DocType 'Purchase
+#. Receipt Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Margin Rate or Amount"
+msgstr "Taxa ou Valor da Margem"
+
+#. Label of the margin_type (Select) field in DocType 'POS Invoice Item'
+#. Label of the margin_type (Select) field in DocType 'Pricing Rule'
+#. Label of the margin_type (Data) field in DocType 'Pricing Rule Detail'
+#. Label of the margin_type (Select) field in DocType 'Purchase Invoice Item'
+#. Label of the margin_type (Select) field in DocType 'Sales Invoice Item'
+#. Label of the margin_type (Select) field in DocType 'Purchase Order Item'
+#. Label of the margin_type (Select) field in DocType 'Supplier Quotation Item'
+#. Label of the margin_type (Select) field in DocType 'Quotation Item'
+#. Label of the margin_type (Select) field in DocType 'Sales Order Item'
+#. Label of the margin_type (Select) field in DocType 'Delivery Note Item'
+#. Label of the margin_type (Select) field in DocType 'Purchase Receipt Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/pricing_rule_detail/pricing_rule_detail.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Margin Type"
+msgstr "Tipo de Margem"
+
+#: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.js:33
+msgid "Margin View"
+msgstr "Visão de Margem"
+
+#. Label of the marital_status (Select) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Marital Status"
+msgstr "Estado Civil"
+
+#: erpnext/public/js/templates/crm_activities.html:39
+#: erpnext/public/js/templates/crm_activities.html:123
+msgid "Mark As Closed"
+msgstr "Marcar como Encerrado"
+
+#. Label of the market_segment (Link) field in DocType 'Lead'
+#. Name of a DocType
+#. Label of the market_segment (Data) field in DocType 'Market Segment'
+#. Label of the market_segment (Link) field in DocType 'Opportunity'
+#. Label of the market_segment (Link) field in DocType 'Prospect'
+#. Label of the market_segment (Link) field in DocType 'Customer'
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/crm/doctype/market_segment/market_segment.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/doctype/prospect/prospect.json
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Market Segment"
+msgstr "Segmento de Mercado"
+
+#: erpnext/setup/doctype/company/company.py:442
+msgid "Marketing"
+msgstr "Marketing"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:112
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:191
+#: erpnext/setup/doctype/company/company.py:682
+msgid "Marketing Expenses"
+msgstr "Despesas com Marketing"
+
+#: erpnext/setup/setup_wizard/data/designation.txt:23
+msgid "Marketing Specialist"
+msgstr "Especialista em Marketing"
+
+#. Option for the 'Marital Status' (Select) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Married"
+msgstr "Casado(a)"
+
+#: erpnext/setup/setup_wizard/data/marketing_source.txt:7
+msgid "Mass Mailing"
+msgstr "Envio em Massa"
+
+#. Name of a DocType
+#. Label of a Link in the Manufacturing Workspace
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+msgid "Master Production Schedule"
+msgstr "Plano Mestre de Produção"
+
+#. Name of a DocType
+#: erpnext/manufacturing/doctype/master_production_schedule_item/master_production_schedule_item.json
+msgid "Master Production Schedule Item"
+msgstr "Item do Plano Mestre de Produção"
+
+#. Label of a Card Break in the CRM Workspace
+#: erpnext/crm/workspace/crm/crm.json
+msgid "Masters"
+msgstr "Cadastros"
+
+#: erpnext/projects/doctype/project/project_dashboard.py:14
+msgid "Material"
+msgstr "Material"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:833
+msgid "Material Consumption"
+msgstr "Consumo de Material"
+
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry'
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry Type'
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:114
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1152
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+msgid "Material Consumption for Manufacture"
+msgstr "Consumo de Material para Fabricação"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:537
+msgid "Material Consumption is not set in Manufacturing Settings."
+msgstr "O consumo de material não está definido em Configurações de fabricação."
+
+#. Option for the 'Type' (Select) field in DocType 'Material Request Plan Item'
+#. Option for the 'Default Material Request Type' (Select) field in DocType
+#. 'Item'
+#. Option for the 'Material Request Type' (Select) field in DocType 'Item
+#. Reorder'
+#. Option for the 'Purpose' (Select) field in DocType 'Material Request'
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry'
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry Type'
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:71
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/item_reorder/item_reorder.json
+#: erpnext/stock/doctype/material_request/material_request.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+msgid "Material Issue"
+msgstr "Saída de Material"
+
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry'
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry Type'
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:77
+#: erpnext/stock/doctype/material_request/material_request.js:176
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+msgid "Material Receipt"
+msgstr "Entrada de Material"
+
+#. Label of the material_request (Link) field in DocType 'Purchase Invoice
+#. Item'
+#. Label of the material_request (Link) field in DocType 'Purchase Order Item'
+#. Label of the material_request (Link) field in DocType 'Request for Quotation
+#. Item'
+#. Label of the material_request (Link) field in DocType 'Supplier Quotation
+#. Item'
+#. Label of a Link in the Buying Workspace
+#. Label of a shortcut in the Buying Workspace
+#. Option for the 'Get Items From' (Select) field in DocType 'Production Plan'
+#. Label of the material_request (Link) field in DocType 'Production Plan Item'
+#. Label of the material_request (Link) field in DocType 'Production Plan
+#. Material Request'
+#. Option for the 'Manufacturing Type' (Select) field in DocType 'Production
+#. Plan Sub Assembly Item'
+#. Label of the material_request (Link) field in DocType 'Work Order'
+#. Label of the material_request (Link) field in DocType 'Sales Order Item'
+#. Label of the material_request (Link) field in DocType 'Delivery Note Item'
+#. Name of a DocType
+#. Label of the material_request (Link) field in DocType 'Pick List'
+#. Label of the material_request (Link) field in DocType 'Pick List Item'
+#. Label of the material_request (Link) field in DocType 'Purchase Receipt
+#. Item'
+#. Label of the material_request (Link) field in DocType 'Stock Entry Detail'
+#. Label of a Link in the Stock Workspace
+#. Label of a shortcut in the Stock Workspace
+#. Label of the material_request (Link) field in DocType 'Subcontracting Order
+#. Item'
+#. Label of the material_request (Link) field in DocType 'Subcontracting Order
+#. Service Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.js:582
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:347
+#: erpnext/buying/doctype/request_for_quotation_item/request_for_quotation_item.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.js:48
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.js:33
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:184
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/manufacturing/doctype/job_card/job_card.js:160
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:159
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+#: erpnext/manufacturing/doctype/production_plan_item/production_plan_item.json
+#: erpnext/manufacturing/doctype/production_plan_material_request/production_plan_material_request.json
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/selling/doctype/sales_order/sales_order.js:1078
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/selling/report/pending_so_items_for_purchase_request/pending_so_items_for_purchase_request.py:36
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/material_request/material_request.json
+#: erpnext/stock/doctype/material_request/material_request.py:423
+#: erpnext/stock/doctype/material_request/material_request.py:473
+#: erpnext/stock/doctype/pick_list/pick_list.json
+#: erpnext/stock/doctype/pick_list_item/pick_list_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:234
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:337
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/stock/workspace/stock/stock.json
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_service_item/subcontracting_order_service_item.json
+msgid "Material Request"
+msgstr "Requisição de Material"
+
+#. Label of the material_request_date (Date) field in DocType 'Production Plan
+#. Material Request'
+#: erpnext/buying/report/procurement_tracker/procurement_tracker.py:19
+#: erpnext/manufacturing/doctype/production_plan_material_request/production_plan_material_request.json
+msgid "Material Request Date"
+msgstr "Data da Requisição de Material"
+
+#. Label of the material_request_detail (Section Break) field in DocType
+#. 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Material Request Detail"
+msgstr "Detalhes da Requisição de Material"
+
+#. Label of the material_request_item (Data) field in DocType 'Purchase Invoice
+#. Item'
+#. Label of the material_request_item (Data) field in DocType 'Purchase Order
+#. Item'
+#. Label of the material_request_item (Data) field in DocType 'Request for
+#. Quotation Item'
+#. Label of the material_request_item (Data) field in DocType 'Supplier
+#. Quotation Item'
+#. Label of the material_request_item (Data) field in DocType 'Work Order'
+#. Label of the material_request_item (Data) field in DocType 'Sales Order
+#. Item'
+#. Label of the material_request_item (Data) field in DocType 'Delivery Note
+#. Item'
+#. Name of a DocType
+#. Label of the material_request_item (Data) field in DocType 'Pick List Item'
+#. Label of the material_request_item (Data) field in DocType 'Purchase Receipt
+#. Item'
+#. Label of the material_request_item (Link) field in DocType 'Stock Entry
+#. Detail'
+#. Label of the material_request_item (Data) field in DocType 'Subcontracting
+#. Order Item'
+#. Label of the material_request_item (Data) field in DocType 'Subcontracting
+#. Order Service Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/request_for_quotation_item/request_for_quotation_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/doctype/pick_list_item/pick_list_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_service_item/subcontracting_order_service_item.json
+msgid "Material Request Item"
+msgstr "Item da Requisição de Material"
+
+#: erpnext/buying/report/procurement_tracker/procurement_tracker.py:25
+msgid "Material Request No"
+msgstr "Nº da Requisição de Material"
+
+#. Name of a DocType
+#. Label of the material_request_plan_item (Data) field in DocType 'Material
+#. Request Item'
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+msgid "Material Request Plan Item"
+msgstr "Item do Plano de Requisição de Material"
+
+#. Label of the material_request_type (Select) field in DocType 'Item Reorder'
+#: erpnext/manufacturing/notification/material_request_receipt_notification/material_request_receipt_notification.html:1
+#: erpnext/stock/doctype/item_reorder/item_reorder.json
+msgid "Material Request Type"
+msgstr "Tipo de Requisição de Material"
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:1795
+msgid "Material Request not created, as quantity for Raw Materials already available."
+msgstr "Requisição de material não criada, pois a quantidade de matéria-prima já está disponível."
+
+#: erpnext/stock/doctype/material_request/material_request.py:137
+msgid "Material Request of maximum {0} can be made for Item {1} against Sales Order {2}"
+msgstr "Pode ser feita uma requisição de material de no máximo {0} para o item {1} referente ao pedido de venda {2}"
+
+#. Description of the 'Material Request' (Link) field in DocType 'Stock Entry
+#. Detail'
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "Material Request used to make this Stock Entry"
+msgstr "Requisição de material usada para gerar esta entrada de estoque"
+
+#: erpnext/controllers/subcontracting_controller.py:1310
+msgid "Material Request {0} is cancelled or stopped"
+msgstr "A requisição de material {0} está cancelada ou interrompida"
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:1444
+msgid "Material Request {0} submitted."
+msgstr "Requisição de Material {0} enviada."
+
+#. Option for the 'Status' (Select) field in DocType 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Material Requested"
+msgstr "Material Requisitado"
+
+#. Label of the material_requests (Table) field in DocType 'Master Production
+#. Schedule'
+#. Label of the material_requests (Table) field in DocType 'Production Plan'
+#: erpnext/accounts/doctype/budget/budget.py:624
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Material Requests"
+msgstr "Requisições de Material"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.py:430
+msgid "Material Requests Required"
+msgstr "Requisições de Material Necessárias"
+
+#. Label of a Link in the Buying Workspace
+#. Name of a report
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/stock/report/material_requests_for_which_supplier_quotations_are_not_created/material_requests_for_which_supplier_quotations_are_not_created.json
+msgid "Material Requests for which Supplier Quotations are not created"
+msgstr "Requisições de material para as quais não foram criadas cotações de fornecedor"
+
+#. Label of a Link in the Manufacturing Workspace
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+msgid "Material Requirements Planning"
+msgstr "Planejamento das Necessidades de Materiais"
+
+#. Name of a report
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.json
+msgid "Material Requirements Planning Report"
+msgstr "Relatório de Planejamento das Necessidades de Materiais"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry_list.js:13
+msgid "Material Returned from WIP"
+msgstr "Material devolvido do WIP"
+
+#. Option for the 'Type' (Select) field in DocType 'Material Request Plan Item'
+#. Option for the 'Default Material Request Type' (Select) field in DocType
+#. 'Item'
+#. Option for the 'Purpose' (Select) field in DocType 'Material Request'
+#. Option for the 'Purpose' (Select) field in DocType 'Pick List'
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry'
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry Type'
+#: erpnext/manufacturing/doctype/job_card/job_card.js:174
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:83
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/material_request/material_request.js:154
+#: erpnext/stock/doctype/material_request/material_request.json
+#: erpnext/stock/doctype/pick_list/pick_list.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+msgid "Material Transfer"
+msgstr "Transferência de Material"
+
+#: erpnext/stock/doctype/material_request/material_request.js:160
+msgid "Material Transfer (In Transit)"
+msgstr "Transferência de Material (Em Trânsito)"
+
+#. Option for the 'Purpose' (Select) field in DocType 'Pick List'
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry'
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry Type'
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:108
+#: erpnext/stock/doctype/pick_list/pick_list.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+msgid "Material Transfer for Manufacture"
+msgstr "Transferência de Material para Fabricação"
+
+#. Option for the 'Status' (Select) field in DocType 'Job Card'
+#. Option for the 'Status' (Select) field in DocType 'Subcontracting Order'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Material Transferred"
+msgstr "Material Transferido"
+
+#. Option for the 'Backflush Raw Materials Based On' (Select) field in DocType
+#. 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Material Transferred for Manufacture"
+msgstr "Material Transferido para Fabricação"
+
+#. Label of the material_transferred_for_manufacturing (Float) field in DocType
+#. 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Material Transferred for Manufacturing"
+msgstr "Material Transferido para Fabricação"
+
+#. Option for the 'Backflush Raw Materials of Subcontract Based On' (Select)
+#. field in DocType 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Material Transferred for Subcontract"
+msgstr "Material Transferido para Subcontratação"
+
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.js:151
+msgid "Material from Customer"
+msgstr "Material do Cliente"
+
+#: erpnext/buying/doctype/purchase_order/purchase_order.js:431
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:536
+msgid "Material to Supplier"
+msgstr "Material para o Fornecedor"
+
+#: erpnext/controllers/subcontracting_controller.py:1531
+msgid "Materials are already received against the {0} {1}"
+msgstr "Os materiais já foram recebidos para {0} {1}"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:733
+msgid "Materials needs to be transferred to the work in progress warehouse for the job card {0}"
+msgstr "Os materiais precisam ser transferidos para o armazém de trabalho em andamento do cartão de trabalho {0}"
+
+#. Label of the max_amount (Currency) field in DocType 'Promotional Scheme
+#. Price Discount'
+#. Label of the max_amount (Currency) field in DocType 'Promotional Scheme
+#. Product Discount'
+#: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
+#: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
+msgid "Max Amount"
+msgstr "Valor Máximo"
+
+#. Label of the max_amt (Currency) field in DocType 'Pricing Rule'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+msgid "Max Amt"
+msgstr "Valor Máx."
+
+#. Label of the max_discount (Float) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Max Discount (%)"
+msgstr "Desconto Máx. (%)"
+
+#. Label of the max_grade (Percent) field in DocType 'Supplier Scorecard
+#. Scoring Standing'
+#. Label of the max_grade (Percent) field in DocType 'Supplier Scorecard
+#. Standing'
+#: erpnext/buying/doctype/supplier_scorecard_scoring_standing/supplier_scorecard_scoring_standing.json
+#: erpnext/buying/doctype/supplier_scorecard_standing/supplier_scorecard_standing.json
+msgid "Max Grade"
+msgstr "Nota Máxima"
+
+#. Label of the max_producible_qty (Float) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Max Producible Qty"
+msgstr "Qtd. Máxima Produzível"
+
+#. Label of the max_qty (Float) field in DocType 'Promotional Scheme Price
+#. Discount'
+#. Label of the max_qty (Float) field in DocType 'Promotional Scheme Product
+#. Discount'
+#: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
+#: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
+msgid "Max Qty"
+msgstr "Qtd. Máx."
+
+#. Label of the max_qty (Float) field in DocType 'Pricing Rule'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+msgid "Max Qty (As Per Stock UOM)"
+msgstr "Qtd. Máx. (Conforme UM de Estoque)"
+
+#. Label of the sample_quantity (Int) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Max Sample Quantity"
+msgstr "Quantidade Máxima de Amostra"
+
+#. Label of the max_score (Float) field in DocType 'Supplier Scorecard
+#. Criteria'
+#. Label of the max_score (Float) field in DocType 'Supplier Scorecard Scoring
+#. Criteria'
+#: erpnext/buying/doctype/supplier_scorecard_criteria/supplier_scorecard_criteria.json
+#: erpnext/buying/doctype/supplier_scorecard_scoring_criteria/supplier_scorecard_scoring_criteria.json
+msgid "Max Score"
+msgstr "Pontuação Máxima"
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:292
+msgid "Max discount allowed for item: {0} is {1}%"
+msgstr "O desconto máximo permitido para o item {0} é {1}%"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:985
+#: erpnext/stock/doctype/pick_list/pick_list.js:198
+msgid "Max: {0}"
+msgstr "Máx.: {0}"
+
+#. Label of the maximum_invoice_amount (Currency) field in DocType 'Payment
+#. Reconciliation'
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+msgid "Maximum Invoice Amount"
+msgstr "Valor Máximo da Fatura"
+
+#. Label of the maximum_net_rate (Float) field in DocType 'Item Tax'
+#: erpnext/stock/doctype/item_tax/item_tax.json
+msgid "Maximum Net Rate"
+msgstr "Preço Líquido Máximo"
+
+#. Label of the maximum_payment_amount (Currency) field in DocType 'Payment
+#. Reconciliation'
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+msgid "Maximum Payment Amount"
+msgstr "Valor Máximo do Pagamento"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:3724
+msgid "Maximum Samples - {0} can be retained for Batch {1} and Item {2}."
+msgstr "Amostras máximas - {0} podem ser retidas para o lote {1} e o item {2}."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:3715
+msgid "Maximum Samples - {0} have already been retained for Batch {1} and Item {2} in Batch {3}."
+msgstr "Amostras máximas - {0} já foram retidas para o lote {1} e o item {2} no lote {3}."
+
+#. Label of the maximum_use (Int) field in DocType 'Coupon Code'
+#: erpnext/accounts/doctype/coupon_code/coupon_code.json
+msgid "Maximum Use"
+msgstr "Uso Máximo"
+
+#. Label of the max_value (Float) field in DocType 'Item Quality Inspection
+#. Parameter'
+#. Label of the max_value (Float) field in DocType 'Quality Inspection Reading'
+#: erpnext/stock/doctype/item_quality_inspection_parameter/item_quality_inspection_parameter.json
+#: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
+msgid "Maximum Value"
+msgstr "Valor Máximo"
+
+#: erpnext/controllers/selling_controller.py:278
+msgid "Maximum discount for Item {0} is {1}%"
+msgstr "O desconto máximo para o item {0} é {1}%"
+
+#: erpnext/public/js/utils/barcode_scanner.js:120
+msgid "Maximum quantity scanned for item {0}."
+msgstr "Quantidade máxima atingida para o item {0}."
+
+#. Description of the 'Max Sample Quantity' (Int) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Maximum sample quantity that can be retained"
+msgstr "Quantidade máxima de amostra que pode ser retida"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Megacoulomb"
+msgstr "Megacoulomb"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Megagram/Litre"
+msgstr "Megagrama/Litro"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Megahertz"
+msgstr "Megahertz"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Megajoule"
+msgstr "Megajoule"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Megawatt"
+msgstr "Megawatt"
+
+#: erpnext/stock/stock_ledger.py:2046
+msgid "Mention Valuation Rate in the Item master."
+msgstr "Informe a taxa de avaliação no cadastro do item."
+
+#. Description of the 'Accounts' (Table) field in DocType 'Customer'
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Mention if non-standard Receivable account"
+msgstr "Informe se houver conta a receber fora do padrão"
+
+#. Description of the 'Accounts' (Table) field in DocType 'Supplier'
+#: erpnext/buying/doctype/supplier/supplier.json
+msgid "Mention if non-standard payable account"
+msgstr "Informe se houver conta a pagar fora do padrão"
+
+#. Description of the 'Accounts' (Table) field in DocType 'Customer Group'
+#. Description of the 'Accounts' (Table) field in DocType 'Supplier Group'
+#: erpnext/setup/doctype/customer_group/customer_group.json
+#: erpnext/setup/doctype/supplier_group/supplier_group.json
+msgid "Mention if non-standard receivable account applicable"
+msgstr "Informe se houver conta a receber fora do padrão, se aplicável"
+
+#: erpnext/accounts/doctype/account/account.js:151
+msgid "Merge"
+msgstr "Mesclar"
+
+#: erpnext/accounts/doctype/account/account.js:45
+msgid "Merge Account"
+msgstr "Mesclar Conta"
+
+#. Label of the merge_invoices_based_on (Select) field in DocType 'POS Invoice
+#. Merge Log'
+#: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.json
+msgid "Merge Invoices Based On"
+msgstr "Mesclar Faturas com Base em"
+
+#: erpnext/accounts/doctype/ledger_merge/ledger_merge.js:18
+msgid "Merge Progress"
+msgstr "Progresso da Mesclagem"
+
+#. Label of the merge_similar_account_heads (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Merge Similar Account Heads"
+msgstr "Mesclar Contas Contábeis Semelhantes"
+
+#: erpnext/public/js/utils.js:994
+msgid "Merge taxes from multiple documents"
+msgstr "Mesclar impostos de vários documentos"
+
+#: erpnext/accounts/doctype/account/account.js:123
+msgid "Merge with Existing Account"
+msgstr "Mesclar com conta existente"
+
+#. Label of the merged (Check) field in DocType 'Ledger Merge Accounts'
+#: erpnext/accounts/doctype/ledger_merge_accounts/ledger_merge_accounts.json
+msgid "Merged"
+msgstr "Mesclado"
+
+#: erpnext/accounts/doctype/account/account.py:601
+msgid "Merging is only possible if following properties are same in both records. Is Group, Root Type, Company and Account Currency"
+msgstr "A mesclagem só é possível se as seguintes propriedades forem iguais em ambos os registros: É Grupo, Tipo Raiz, Empresa e Moeda da Conta"
+
+#: erpnext/accounts/doctype/ledger_merge/ledger_merge.js:16
+msgid "Merging {0} of {1}"
+msgstr "Mesclando {0} de {1}"
+
+#. Label of the message_for_supplier (Text Editor) field in DocType 'Request
+#. for Quotation'
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
+msgid "Message for Supplier"
+msgstr "Mensagem para o Fornecedor"
+
+#. Label of the message_to_show (Data) field in DocType 'Cheque Print Template'
+#: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
+msgid "Message to show"
+msgstr "Mensagem a Exibir"
+
+#. Description of the 'Message' (Text) field in DocType 'Project'
+#: erpnext/projects/doctype/project/project.json
+msgid "Message will be sent to the users to get their status on the Project"
+msgstr "A mensagem será enviada aos usuários para obter o status deles no projeto"
+
+#. Description of the 'Message' (Text) field in DocType 'SMS Center'
+#: erpnext/selling/doctype/sms_center/sms_center.json
+msgid "Messages greater than 160 characters will be split into multiple messages"
+msgstr "Mensagens com mais de 160 caracteres serão divididas em várias mensagens"
+
+#: erpnext/setup/install.py:127
+msgid "Messaging CRM Campagin"
+msgstr "Campanha de CRM por Mensagens"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Meter"
+msgstr "Metro"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Meter Of Water"
+msgstr "Metro de Coluna d'Água"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Meter/Second"
+msgstr "Metro/Segundo"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Microbar"
+msgstr "Microbar"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Microgram"
+msgstr "Micrograma"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Microgram/Litre"
+msgstr "Micrograma/Litro"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Micrometer"
+msgstr "Micrômetro"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Microsecond"
+msgstr "Microssegundo"
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:310
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:422
+msgid "Middle Income"
+msgstr "Renda Média"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Mile"
+msgstr "Milha"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Mile (Nautical)"
+msgstr "Milha Náutica"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Mile/Hour"
+msgstr "Milha/Hora"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Mile/Minute"
+msgstr "Milha/Minuto"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Mile/Second"
+msgstr "Milha/Segundo"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Milibar"
+msgstr "Milibar"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Milliampere"
+msgstr "Miliampere"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Millicoulomb"
+msgstr "Milicoulomb"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Milligram"
+msgstr "Miligrama"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Milligram/Cubic Centimeter"
+msgstr "Miligrama/Centímetro Cúbico"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Milligram/Cubic Meter"
+msgstr "Miligrama/Metro Cúbico"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Milligram/Cubic Millimeter"
+msgstr "Miligrama/Milímetro Cúbico"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Milligram/Litre"
+msgstr "Miligrama/Litro"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Millihertz"
+msgstr "Milihertz"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Millilitre"
+msgstr "Mililitro"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Millimeter"
+msgstr "Milímetro"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Millimeter Of Mercury"
+msgstr "Milímetro de Mercúrio"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Millimeter Of Water"
+msgstr "Milímetro de Água"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Millisecond"
+msgstr "Milissegundo"
+
+#. Label of the min_amount (Currency) field in DocType 'Promotional Scheme
+#. Price Discount'
+#. Label of the min_amount (Currency) field in DocType 'Promotional Scheme
+#. Product Discount'
+#: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
+#: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
+msgid "Min Amount"
+msgstr "Valor Mín."
+
+#. Label of the min_amt (Currency) field in DocType 'Pricing Rule'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+msgid "Min Amt"
+msgstr "Valor Mín."
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:228
+msgid "Min Amt can not be greater than Max Amt"
+msgstr "O valor mín. não pode ser maior que o valor máx."
+
+#. Label of the min_grade (Percent) field in DocType 'Supplier Scorecard
+#. Scoring Standing'
+#. Label of the min_grade (Percent) field in DocType 'Supplier Scorecard
+#. Standing'
+#: erpnext/buying/doctype/supplier_scorecard_scoring_standing/supplier_scorecard_scoring_standing.json
+#: erpnext/buying/doctype/supplier_scorecard_standing/supplier_scorecard_standing.json
+msgid "Min Grade"
+msgstr "Nota Mínima"
+
+#. Label of the min_order_qty (Float) field in DocType 'Material Request Item'
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1046
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+msgid "Min Order Qty"
+msgstr "Qtd. Mín. do Pedido"
+
+#. Label of the min_qty (Float) field in DocType 'Promotional Scheme Price
+#. Discount'
+#. Label of the min_qty (Float) field in DocType 'Promotional Scheme Product
+#. Discount'
+#: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
+#: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
+msgid "Min Qty"
+msgstr "Qtd. Mín."
+
+#. Label of the min_qty (Float) field in DocType 'Pricing Rule'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+msgid "Min Qty (As Per Stock UOM)"
+msgstr "Qtd. Mín. (Conforme UM de Estoque)"
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:224
+msgid "Min Qty can not be greater than Max Qty"
+msgstr "A qtd. mín. não pode ser maior que a qtd. máx."
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:238
+msgid "Min Qty should be greater than Recurse Over Qty"
+msgstr "A qtd. mín. deve ser maior que a qtd. de recorrência"
+
+#: erpnext/stock/doctype/item/item.js:846
+msgid "Min Value: {0}, Max Value: {1}, in Increments of: {2}"
+msgstr "Valor mín.: {0}, valor máx.: {1}, em incrementos de: {2}"
+
+#. Label of the minimum_invoice_amount (Currency) field in DocType 'Payment
+#. Reconciliation'
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+msgid "Minimum Invoice Amount"
+msgstr "Valor Mínimo da Fatura"
+
+#: erpnext/crm/report/prospects_engaged_but_not_converted/prospects_engaged_but_not_converted.js:20
+msgid "Minimum Lead Age (Days)"
+msgstr "Idade Mínima do Lead (Dias)"

@@ -1,0 +1,706 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#: erpnext/stock/doctype/shipment/shipment.py:106
+msgid "Pickup To time should be greater than Pickup From time"
+msgstr ""
+
+#. Label of the pickup_type (Select) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Pickup Type"
+msgstr ""
+
+#. Label of the heading_pickup_from (Heading) field in DocType 'Shipment'
+#. Label of the pickup_from_type (Select) field in DocType 'Shipment'
+#. Label of the pickup_from (Time) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Pickup from"
+msgstr ""
+
+#. Label of the pickup_to (Time) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Pickup to"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Pint (UK)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Pint (US)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Pint, Dry (US)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Pint, Liquid (US)"
+msgstr ""
+
+#: erpnext/crm/report/sales_pipeline_analytics/sales_pipeline_analytics.js:8
+msgid "Pipeline By"
+msgstr ""
+
+#. Label of the place_of_issue (Data) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Place of Issue"
+msgstr ""
+
+#. Label of the plaid_access_token (Data) field in DocType 'Bank'
+#: erpnext/accounts/doctype/bank/bank.json
+msgid "Plaid Access Token"
+msgstr ""
+
+#. Label of the plaid_client_id (Data) field in DocType 'Plaid Settings'
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.json
+msgid "Plaid Client ID"
+msgstr ""
+
+#. Label of the plaid_env (Select) field in DocType 'Plaid Settings'
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.json
+msgid "Plaid Environment"
+msgstr ""
+
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:154
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:178
+msgid "Plaid Link Failed"
+msgstr ""
+
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:252
+msgid "Plaid Link Refresh Required"
+msgstr ""
+
+#: erpnext/accounts/doctype/bank/bank.js:131
+msgid "Plaid Link Updated"
+msgstr ""
+
+#. Label of the plaid_secret (Password) field in DocType 'Plaid Settings'
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.json
+msgid "Plaid Secret"
+msgstr ""
+
+#. Label of a Link in the Accounting Workspace
+#. Name of a DocType
+#: erpnext/accounts/workspace/accounting/accounting.json
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.json
+msgid "Plaid Settings"
+msgstr ""
+
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:227
+msgid "Plaid transactions sync error"
+msgstr "Erro de sincronização de transações de xadrez"
+
+#. Label of the plan (Link) field in DocType 'Subscription Plan Detail'
+#: erpnext/accounts/doctype/subscription_plan_detail/subscription_plan_detail.json
+msgid "Plan"
+msgstr ""
+
+#. Label of the plan_name (Data) field in DocType 'Subscription Plan'
+#: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
+msgid "Plan Name"
+msgstr ""
+
+#. Description of the 'Use Multi-Level BOM' (Check) field in DocType 'Work
+#. Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Plan material for sub-assemblies"
+msgstr ""
+
+#. Description of the 'Capacity Planning For (Days)' (Int) field in DocType
+#. 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Plan operations X days in advance"
+msgstr ""
+
+#. Description of the 'Allow Overtime' (Check) field in DocType 'Manufacturing
+#. Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Plan time logs outside Workstation working hours"
+msgstr ""
+
+#. Option for the 'Maintenance Status' (Select) field in DocType 'Asset
+#. Maintenance Log'
+#. Option for the 'Maintenance Status' (Select) field in DocType 'Asset
+#. Maintenance Task'
+#. Option for the 'Status' (Select) field in DocType 'Sales Forecast'
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
+#: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
+#: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.json
+#: erpnext/manufacturing/doctype/sales_forecast/sales_forecast_list.js:6
+msgid "Planned"
+msgstr ""
+
+#. Label of the planned_end_date (Datetime) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:236
+msgid "Planned End Date"
+msgstr "Data Planejada de Término"
+
+#. Label of the planned_end_time (Datetime) field in DocType 'Work Order
+#. Operation'
+#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
+msgid "Planned End Time"
+msgstr ""
+
+#. Label of the planned_operating_cost (Currency) field in DocType 'Work Order'
+#. Label of the planned_operating_cost (Currency) field in DocType 'Work Order
+#. Operation'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
+msgid "Planned Operating Cost"
+msgstr ""
+
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1026
+msgid "Planned Purchase Order"
+msgstr ""
+
+#. Label of the planned_qty (Float) field in DocType 'Master Production
+#. Schedule Item'
+#. Label of the planned_qty (Float) field in DocType 'Production Plan Item'
+#. Label of the planned_qty (Float) field in DocType 'Bin'
+#: erpnext/manufacturing/doctype/master_production_schedule_item/master_production_schedule_item.json
+#: erpnext/manufacturing/doctype/production_plan_item/production_plan_item.json
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1014
+#: erpnext/stock/doctype/bin/bin.json
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:148
+msgid "Planned Qty"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
+msgid "Planned Qty: Quantity, for which, Work Order has been raised, but is pending to be manufactured."
+msgstr ""
+
+#. Label of the planned_qty (Float) field in DocType 'Sales Order Item'
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/report/item_shortage_report/item_shortage_report.py:109
+msgid "Planned Quantity"
+msgstr "Quantidade Planejada"
+
+#. Label of the planned_start_date (Datetime) field in DocType 'Production Plan
+#. Item'
+#. Label of the planned_start_date (Datetime) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/production_plan_item/production_plan_item.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:230
+msgid "Planned Start Date"
+msgstr "Data Planejada de Início"
+
+#. Label of the planned_start_time (Datetime) field in DocType 'Work Order
+#. Operation'
+#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
+msgid "Planned Start Time"
+msgstr ""
+
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1031
+msgid "Planned Work Order"
+msgstr ""
+
+#. Label of the mps_tab (Tab Break) field in DocType 'Master Production
+#. Schedule'
+#. Label of the item_balance (Section Break) field in DocType 'Quotation Item'
+#. Label of the planning_section (Section Break) field in DocType 'Sales Order
+#. Item'
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:262
+msgid "Planning"
+msgstr "Planejamento"
+
+#. Label of the sb_4 (Section Break) field in DocType 'Subscription'
+#. Label of the plans (Table) field in DocType 'Subscription'
+#: erpnext/accounts/doctype/subscription/subscription.json
+msgid "Plans"
+msgstr ""
+
+#. Label of the plant_dashboard (HTML) field in DocType 'Plant Floor'
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.json
+msgid "Plant Dashboard"
+msgstr ""
+
+#. Name of a DocType
+#. Label of the plant_floor (Link) field in DocType 'Workstation'
+#. Label of a shortcut in the Manufacturing Workspace
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.json
+#: erpnext/manufacturing/doctype/workstation/workstation.json
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/public/js/plant_floor_visual/visual_plant.js:53
+msgid "Plant Floor"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:57
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:97
+msgid "Plants and Machineries"
+msgstr "Instalações e Maquinários"
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:577
+msgid "Please Restock Items and Update the Pick List to continue. To discontinue, cancel the Pick List."
+msgstr "Reabasteça os itens e atualize a lista de seleção para continuar. Para descontinuar, cancele a lista de seleção."
+
+#: erpnext/selling/page/sales_funnel/sales_funnel.py:18
+msgid "Please Select a Company"
+msgstr ""
+
+#: erpnext/selling/page/sales_funnel/sales_funnel.js:111
+msgid "Please Select a Company."
+msgstr "Selecione Uma Empresa."
+
+#: erpnext/stock/doctype/delivery_note/delivery_note.js:162
+#: erpnext/stock/doctype/delivery_note/delivery_note.js:204
+msgid "Please Select a Customer"
+msgstr "Selecione Um Cliente"
+
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:130
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:219
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:145
+msgid "Please Select a Supplier"
+msgstr "Selecione Um Fornecedor"
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:161
+msgid "Please Set Priority"
+msgstr ""
+
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:155
+msgid "Please Set Supplier Group in Buying Settings."
+msgstr ""
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.js:1873
+msgid "Please Specify Account"
+msgstr ""
+
+#: erpnext/buying/doctype/supplier/supplier.py:126
+msgid "Please add 'Supplier' role to user {0}."
+msgstr ""
+
+#: erpnext/selling/page/point_of_sale/pos_controller.js:101
+msgid "Please add Mode of payments and opening balance details."
+msgstr "Adicione o modo de pagamento e os detalhes do saldo inicial."
+
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:185
+msgid "Please add Request for Quotation to the sidebar in Portal Settings."
+msgstr ""
+
+#: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:416
+msgid "Please add Root Account for - {0}"
+msgstr ""
+
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:302
+msgid "Please add a Temporary Opening account in Chart of Accounts"
+msgstr "Adicione uma conta de abertura temporária no plano de contas"
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:649
+msgid "Please add atleast one Serial No / Batch No"
+msgstr ""
+
+#: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.py:85
+msgid "Please add the Bank Account column"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/account_tree.js:243
+msgid "Please add the account to root level Company - {0}"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/account.py:233
+msgid "Please add the account to root level Company - {}"
+msgstr ""
+
+#: erpnext/controllers/website_list_for_contact.py:298
+msgid "Please add {1} role to user {0}."
+msgstr ""
+
+#: erpnext/controllers/stock_controller.py:1688
+msgid "Please adjust the qty or edit {0} to proceed."
+msgstr ""
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:128
+msgid "Please attach CSV file"
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:3085
+msgid "Please cancel and amend the Payment Entry"
+msgstr ""
+
+#: erpnext/accounts/utils.py:1101
+msgid "Please cancel payment entry manually first"
+msgstr ""
+
+#: erpnext/accounts/doctype/gl_entry/gl_entry.py:328
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:348
+msgid "Please cancel related transaction."
+msgstr ""
+
+#: erpnext/assets/doctype/asset/asset.js:85
+#: erpnext/assets/doctype/asset/asset.py:248
+msgid "Please capitalize this asset before submitting."
+msgstr ""
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:941
+msgid "Please check Multi Currency option to allow accounts with other currency"
+msgstr ""
+
+#: erpnext/accounts/deferred_revenue.py:544
+msgid "Please check Process Deferred Accounting {0} and submit manually after resolving errors."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.js:87
+msgid "Please check either with operations or FG Based Operating Cost."
+msgstr ""
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:524
+msgid "Please check the error message and take necessary actions to fix the error and then restart the reposting again."
+msgstr ""
+
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_connector.py:65
+msgid "Please check your Plaid client ID and secret values"
+msgstr ""
+
+#: erpnext/crm/doctype/appointment/appointment.py:98
+#: erpnext/www/book_appointment/index.js:235
+msgid "Please check your email to confirm the appointment"
+msgstr ""
+
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:374
+msgid "Please click on 'Generate Schedule'"
+msgstr "Por favor, clique em \"Gerar Agenda\""
+
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:386
+msgid "Please click on 'Generate Schedule' to fetch Serial No added for Item {0}"
+msgstr ""
+
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:104
+msgid "Please click on 'Generate Schedule' to get schedule"
+msgstr "Por favor, clique em \"Gerar Agenda\" para obter cronograma"
+
+#: erpnext/selling/doctype/customer/customer.py:585
+msgid "Please contact any of the following users to extend the credit limits for {0}: {1}"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:342
+msgid "Please contact any of the following users to {} this transaction."
+msgstr ""
+
+#: erpnext/selling/doctype/customer/customer.py:578
+msgid "Please contact your administrator to extend the credit limits for {0}."
+msgstr ""
+
+#: erpnext/accounts/doctype/account/account.py:384
+msgid "Please convert the parent account in corresponding child company to a group account."
+msgstr "Converta a conta-mãe da empresa-filha correspondente em uma conta de grupo."
+
+#: erpnext/selling/doctype/quotation/quotation.py:611
+msgid "Please create Customer from Lead {0}."
+msgstr "Crie um Cliente a partir do Lead {0}."
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:132
+msgid "Please create Landed Cost Vouchers against Invoices that have 'Update Stock' enabled."
+msgstr ""
+
+#: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:74
+msgid "Please create a new Accounting Dimension if required."
+msgstr ""
+
+#: erpnext/controllers/accounts_controller.py:804
+msgid "Please create purchase from internal sale or delivery document itself"
+msgstr ""
+
+#: erpnext/assets/doctype/asset/asset.py:455
+msgid "Please create purchase receipt or purchase invoice for the item {0}"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:654
+msgid "Please delete Product Bundle {0}, before merging {1} into {2}"
+msgstr ""
+
+#: erpnext/assets/doctype/asset/depreciation.py:554
+msgid "Please disable workflow temporarily for Journal Entry {0}"
+msgstr ""
+
+#: erpnext/assets/doctype/asset/asset.py:556
+msgid "Please do not book expense of multiple assets against one single Asset."
+msgstr ""
+
+#: erpnext/controllers/item_variant.py:235
+msgid "Please do not create more than 500 items at a time"
+msgstr ""
+
+#: erpnext/accounts/doctype/budget/budget.py:182
+msgid "Please enable Applicable on Booking Actual Expenses"
+msgstr ""
+
+#: erpnext/accounts/doctype/budget/budget.py:178
+msgid "Please enable Applicable on Purchase Order and Applicable on Booking Actual Expenses"
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:282
+msgid "Please enable Use Old Serial / Batch Fields to make_bundle"
+msgstr ""
+
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.js:13
+msgid "Please enable only if the understand the effects of enabling this."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:673
+msgid "Please enable {0} in the {1}."
+msgstr ""
+
+#: erpnext/controllers/selling_controller.py:837
+msgid "Please enable {} in {} to allow same item in multiple rows"
+msgstr ""
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:375
+msgid "Please ensure that the {0} account is a Balance Sheet account. You can change the parent account to a Balance Sheet account or select a different account."
+msgstr ""
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:383
+msgid "Please ensure that the {0} account {1} is a Payable account. You can change the account type to Payable or select a different account."
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:987
+msgid "Please ensure {} account is a Balance Sheet account."
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:997
+msgid "Please ensure {} account {} is a Receivable account."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:664
+msgid "Please enter <b>Difference Account</b> or set default <b>Stock Adjustment Account</b> for company {0}"
+msgstr "Insira a <b>Conta de diferença</b> ou defina a <b>Conta de ajuste de estoque</b> padrão para a empresa {0}"
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:554
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1262
+msgid "Please enter Account for Change Amount"
+msgstr ""
+
+#: erpnext/setup/doctype/authorization_rule/authorization_rule.py:75
+msgid "Please enter Approving Role or Approving User"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:952
+msgid "Please enter Cost Center"
+msgstr ""
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:409
+msgid "Please enter Delivery Date"
+msgstr "Digite Data de Entrega"
+
+#: erpnext/setup/doctype/sales_person/sales_person_tree.js:9
+msgid "Please enter Employee Id of this sales person"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:961
+msgid "Please enter Expense Account"
+msgstr ""
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.js:86
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:87
+msgid "Please enter Item Code to get Batch Number"
+msgstr ""
+
+#: erpnext/public/js/controllers/transaction.js:2944
+msgid "Please enter Item Code to get batch no"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:85
+msgid "Please enter Item first"
+msgstr ""
+
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:224
+msgid "Please enter Maintenance Details first"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.py:192
+msgid "Please enter Planned Qty for Item {0} at row {1}"
+msgstr ""
+
+#: erpnext/setup/doctype/employee/employee.js:83
+msgid "Please enter Preferred Contact Email"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:73
+msgid "Please enter Production Item first"
+msgstr ""
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:50
+msgid "Please enter Purchase Receipt first"
+msgstr "Digite Recibo de compra primeiro"
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:113
+msgid "Please enter Receipt Document"
+msgstr ""
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:1005
+msgid "Please enter Reference date"
+msgstr ""
+
+#: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:395
+msgid "Please enter Root Type for account- {0}"
+msgstr ""
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:308
+msgid "Please enter Serial Nos"
+msgstr ""
+
+#: erpnext/stock/doctype/shipment/shipment.py:85
+msgid "Please enter Shipment Parcel information"
+msgstr ""
+
+#: erpnext/stock/doctype/quick_stock_balance/quick_stock_balance.js:30
+msgid "Please enter Warehouse and Date"
+msgstr "Entre o armazém e a data"
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:660
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1258
+msgid "Please enter Write Off Account"
+msgstr ""
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:717
+msgid "Please enter a valid number of deliveries"
+msgstr ""
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:658
+msgid "Please enter a valid quantity"
+msgstr ""
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:652
+msgid "Please enter at least one delivery date and quantity"
+msgstr ""
+
+#: erpnext/accounts/doctype/cost_center/cost_center.js:114
+msgid "Please enter company name first"
+msgstr ""
+
+#: erpnext/controllers/accounts_controller.py:2952
+msgid "Please enter default currency in Company Master"
+msgstr ""
+
+#: erpnext/selling/doctype/sms_center/sms_center.py:129
+msgid "Please enter message before sending"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:431
+msgid "Please enter mobile number first."
+msgstr ""
+
+#: erpnext/accounts/doctype/cost_center/cost_center.py:45
+msgid "Please enter parent cost center"
+msgstr ""
+
+#: erpnext/public/js/utils/barcode_scanner.js:186
+msgid "Please enter quantity for item {0}"
+msgstr ""
+
+#: erpnext/setup/doctype/employee/employee.py:184
+msgid "Please enter relieving date."
+msgstr ""
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:132
+msgid "Please enter serial nos"
+msgstr ""
+
+#: erpnext/setup/doctype/company/company.js:214
+msgid "Please enter the company name to confirm"
+msgstr "Insira o nome da empresa para confirmar"
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:713
+msgid "Please enter the first delivery date"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:804
+msgid "Please enter the phone number first"
+msgstr ""
+
+#: erpnext/controllers/buying_controller.py:1177
+msgid "Please enter the {schedule_date}."
+msgstr ""
+
+#: erpnext/public/js/setup_wizard.js:97
+msgid "Please enter valid Financial Year Start and End Dates"
+msgstr ""
+
+#: erpnext/setup/doctype/employee/employee.py:222
+msgid "Please enter {0}"
+msgstr "Insira {0}"
+
+#: erpnext/public/js/utils/party.js:321
+msgid "Please enter {0} first"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.py:430
+msgid "Please fill the Material Requests table"
+msgstr "Preencha a tabela de Solicitações de Materiais"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.py:341
+msgid "Please fill the Sales Orders table"
+msgstr ""
+
+#: erpnext/stock/doctype/shipment/shipment.js:277
+msgid "Please first set Last Name, Email and Phone for the user"
+msgstr ""
+
+#: erpnext/telephony/doctype/incoming_call_settings/incoming_call_settings.js:94
+msgid "Please fix overlapping time slots for {0}"
+msgstr ""
+
+#: erpnext/telephony/doctype/incoming_call_settings/incoming_call_settings.py:72
+msgid "Please fix overlapping time slots for {0}."
+msgstr ""
+
+#: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:67
+msgid "Please import accounts against parent company or enable {} in company master."
+msgstr ""
+
+#: erpnext/setup/doctype/employee/employee.py:181
+msgid "Please make sure the employees above report to another Active employee."
+msgstr "Certifique-se de que os funcionários acima se reportem a outro funcionário ativo."
+
+#: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:374
+msgid "Please make sure the file you are using has 'Parent Account' column present in the header."
+msgstr ""
+
+#: erpnext/setup/doctype/company/company.js:216
+msgid "Please make sure you really want to delete all the transactions for this company. Your master data will remain as it is. This action cannot be undone."
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.js:597
+msgid "Please mention 'Weight UOM' along with Weight."
+msgstr ""
+
+#: erpnext/accounts/general_ledger.py:648
+#: erpnext/accounts/general_ledger.py:655
+msgid "Please mention '{0}' in Company: {1}"
+msgstr ""
+
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:232
+msgid "Please mention no of visits required"
+msgstr "O número de visitas é obrigatório"
+
+#: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.py:70
+msgid "Please mention the Current and New BOM for replacement."
+msgstr ""
+
+#: erpnext/selling/doctype/installation_note/installation_note.py:120
+msgid "Please pull items from Delivery Note"
+msgstr ""

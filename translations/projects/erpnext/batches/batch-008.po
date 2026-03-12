@@ -1,0 +1,978 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Label of the bank_ac_no (Data) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Bank A/C No."
+msgstr ""
+
+#. Name of a DocType
+#. Label of the bank_account (Link) field in DocType 'Bank Clearance'
+#. Label of the bank_account (Link) field in DocType 'Bank Guarantee'
+#. Label of the bank_account (Link) field in DocType 'Bank Reconciliation Tool'
+#. Label of the bank_account (Link) field in DocType 'Bank Statement Import'
+#. Label of the bank_account (Link) field in DocType 'Bank Transaction'
+#. Label of the bank_account (Link) field in DocType 'Invoice Discounting'
+#. Label of the bank_account (Link) field in DocType 'Journal Entry Account'
+#. Label of the bank_account (Link) field in DocType 'Payment Order Reference'
+#. Label of the bank_account (Link) field in DocType 'Payment Request'
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/bank_account/bank_account.json
+#: erpnext/accounts/doctype/bank_clearance/bank_clearance.json
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
+#: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.json
+#: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.json
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.json
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+#: erpnext/accounts/doctype/payment_order_reference/payment_order_reference.json
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+#: erpnext/accounts/report/bank_clearance_summary/bank_clearance_summary.js:21
+#: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.js:16
+#: erpnext/accounts/report/cheques_and_deposits_incorrectly_cleared/cheques_and_deposits_incorrectly_cleared.js:16
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Bank Account"
+msgstr "Conta Bancária"
+
+#. Label of the bank_account_details (Section Break) field in DocType 'Payment
+#. Order Reference'
+#. Label of the bank_account_details (Section Break) field in DocType 'Payment
+#. Request'
+#: erpnext/accounts/doctype/payment_order_reference/payment_order_reference.json
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+msgid "Bank Account Details"
+msgstr ""
+
+#. Label of the bank_account_info (Section Break) field in DocType 'Bank
+#. Guarantee'
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
+msgid "Bank Account Info"
+msgstr ""
+
+#. Label of the bank_account_no (Data) field in DocType 'Bank Account'
+#. Label of the bank_account_no (Data) field in DocType 'Bank Guarantee'
+#. Label of the bank_account_no (Read Only) field in DocType 'Payment Entry'
+#. Label of the bank_account_no (Read Only) field in DocType 'Payment Request'
+#: erpnext/accounts/doctype/bank_account/bank_account.json
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+msgid "Bank Account No"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/bank_account_subtype/bank_account_subtype.json
+msgid "Bank Account Subtype"
+msgstr "Subtipo de Conta Bancária"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/bank_account_type/bank_account_type.json
+msgid "Bank Account Type"
+msgstr ""
+
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:376
+msgid "Bank Account {} in Bank Transaction {} is not matching with Bank Account {}"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:15
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:20
+msgid "Bank Accounts"
+msgstr "Contas Bancárias"
+
+#. Label of the bank_balance (Check) field in DocType 'Email Digest'
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "Bank Balance"
+msgstr ""
+
+#. Label of the bank_charges (Currency) field in DocType 'Invoice Discounting'
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:133
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:219
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.json
+msgid "Bank Charges"
+msgstr ""
+
+#. Label of the bank_charges_account (Link) field in DocType 'Invoice
+#. Discounting'
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.json
+msgid "Bank Charges Account"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/bank_clearance/bank_clearance.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Bank Clearance"
+msgstr "Liquidação Bancária"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/bank_clearance_detail/bank_clearance_detail.json
+msgid "Bank Clearance Detail"
+msgstr "Detalhe de Liquidação de Banco"
+
+#. Name of a report
+#: erpnext/accounts/report/bank_clearance_summary/bank_clearance_summary.json
+msgid "Bank Clearance Summary"
+msgstr "Resumo da Liquidação Bancária"
+
+#. Label of the credit_balance (Check) field in DocType 'Email Digest'
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "Bank Credit Balance"
+msgstr ""
+
+#. Label of the bank_details_section (Section Break) field in DocType 'Bank'
+#. Label of the bank_details_section (Section Break) field in DocType
+#. 'Employee'
+#: erpnext/accounts/doctype/bank/bank.json
+#: erpnext/accounts/doctype/bank/bank_dashboard.py:7
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Bank Details"
+msgstr "Detalhes Bancários"
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:260
+msgid "Bank Draft"
+msgstr "Cheque Administrativo"
+
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#. Option for the 'Journal Entry Type' (Select) field in DocType 'Journal Entry
+#. Template'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+msgid "Bank Entry"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
+msgid "Bank Guarantee"
+msgstr "Garantia Bancária"
+
+#. Label of the bank_guarantee_number (Data) field in DocType 'Bank Guarantee'
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
+msgid "Bank Guarantee Number"
+msgstr ""
+
+#. Label of the bg_type (Select) field in DocType 'Bank Guarantee'
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
+msgid "Bank Guarantee Type"
+msgstr ""
+
+#. Label of the bank_name (Data) field in DocType 'Bank'
+#. Label of the bank_name (Data) field in DocType 'Cheque Print Template'
+#. Label of the bank_name (Data) field in DocType 'Employee'
+#: erpnext/accounts/doctype/bank/bank.json
+#: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Bank Name"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:179
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:309
+msgid "Bank Overdraft Account"
+msgstr "Conta Bancária Garantida"
+
+#. Name of a report
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.html:1
+#: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Bank Reconciliation Statement"
+msgstr "Extrato Bancário Conciliado"
+
+#. Name of a DocType
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Bank Reconciliation Tool"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.json
+msgid "Bank Statement Import"
+msgstr ""
+
+#: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.py:40
+msgid "Bank Statement balance as per General Ledger"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:32
+msgid "Bank Transaction"
+msgstr "Transação Bancária"
+
+#. Label of the bank_transaction_mapping (Table) field in DocType 'Bank'
+#. Name of a DocType
+#: erpnext/accounts/doctype/bank/bank.json
+#: erpnext/accounts/doctype/bank_transaction_mapping/bank_transaction_mapping.json
+msgid "Bank Transaction Mapping"
+msgstr "Mapeamento de Transações Bancárias"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/bank_transaction_payments/bank_transaction_payments.json
+msgid "Bank Transaction Payments"
+msgstr "Pagamentos de Transações Bancárias"
+
+#: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:493
+msgid "Bank Transaction {0} Matched"
+msgstr ""
+
+#: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:541
+msgid "Bank Transaction {0} added as Journal Entry"
+msgstr ""
+
+#: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:516
+msgid "Bank Transaction {0} added as Payment Entry"
+msgstr ""
+
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:147
+msgid "Bank Transaction {0} is already fully reconciled"
+msgstr ""
+
+#: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:561
+msgid "Bank Transaction {0} updated"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:575
+msgid "Bank account cannot be named as {0}"
+msgstr "A conta bancária não pode ser nomeada como {0}"
+
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:146
+msgid "Bank account {0} already exists and could not be created again"
+msgstr "A conta bancária {0} já existe e não pôde ser criada novamente"
+
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:158
+msgid "Bank accounts added"
+msgstr "Contas bancárias adicionadas"
+
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:311
+msgid "Bank transaction creation error"
+msgstr "Erro de criação de transação bancária"
+
+#. Label of the bank_cash_account (Link) field in DocType 'Process Payment
+#. Reconciliation'
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
+msgid "Bank/Cash Account"
+msgstr ""
+
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.py:57
+msgid "Bank/Cash Account {0} doesn't belong to company {1}"
+msgstr ""
+
+#. Label of the banking_tab (Tab Break) field in DocType 'Accounts Settings'
+#. Label of a Card Break in the Accounting Workspace
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+#: erpnext/setup/setup_wizard/data/industry_type.txt:8
+msgid "Banking"
+msgstr "Bancos"
+
+#. Label of the barcode_type (Select) field in DocType 'Item Barcode'
+#: erpnext/stock/doctype/item_barcode/item_barcode.json
+msgid "Barcode Type"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:475
+msgid "Barcode {0} already used in Item {1}"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:490
+msgid "Barcode {0} is not a valid {1} code"
+msgstr "O código de barras {0} não é um código {1} válido"
+
+#. Label of the sb_barcodes (Section Break) field in DocType 'Item'
+#. Label of the barcodes (Table) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Barcodes"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Barleycorn"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Barrel (Oil)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Barrel(Beer)"
+msgstr ""
+
+#. Label of the base_amount (Currency) field in DocType 'BOM Creator Item'
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+msgid "Base Amount"
+msgstr ""
+
+#. Label of the base_amount (Currency) field in DocType 'Sales Invoice Payment'
+#: erpnext/accounts/doctype/sales_invoice_payment/sales_invoice_payment.json
+msgid "Base Amount (Company Currency)"
+msgstr ""
+
+#. Label of the base_change_amount (Currency) field in DocType 'POS Invoice'
+#. Label of the base_change_amount (Currency) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Base Change Amount (Company Currency)"
+msgstr ""
+
+#. Label of the base_cost_per_unit (Float) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Base Cost Per Unit"
+msgstr ""
+
+#. Label of the base_hour_rate (Currency) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Base Hour Rate(Company Currency)"
+msgstr ""
+
+#. Label of the base_rate (Currency) field in DocType 'BOM Creator Item'
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+msgid "Base Rate"
+msgstr ""
+
+#. Label of the base_tax_withholding_net_total (Currency) field in DocType
+#. 'Purchase Invoice'
+#. Label of the base_tax_withholding_net_total (Currency) field in DocType
+#. 'Purchase Order'
+#. Label of the base_tax_withholding_net_total (Currency) field in DocType
+#. 'Purchase Receipt'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Base Tax Withholding Net Total"
+msgstr ""
+
+#: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:261
+msgid "Base Total"
+msgstr ""
+
+#. Label of the base_total_billable_amount (Currency) field in DocType
+#. 'Timesheet'
+#: erpnext/projects/doctype/timesheet/timesheet.json
+msgid "Base Total Billable Amount"
+msgstr ""
+
+#. Label of the base_total_billed_amount (Currency) field in DocType
+#. 'Timesheet'
+#: erpnext/projects/doctype/timesheet/timesheet.json
+msgid "Base Total Billed Amount"
+msgstr ""
+
+#. Label of the base_total_costing_amount (Currency) field in DocType
+#. 'Timesheet'
+#: erpnext/projects/doctype/timesheet/timesheet.json
+msgid "Base Total Costing Amount"
+msgstr ""
+
+#: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.js:46
+msgid "Based On Data ( in years )"
+msgstr "Com base em dados (em anos)"
+
+#: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.js:30
+msgid "Based On Document"
+msgstr "Com Base no Documento"
+
+#. Label of the based_on_payment_terms (Check) field in DocType 'Process
+#. Statement Of Accounts'
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+#: erpnext/accounts/report/accounts_payable/accounts_payable.js:120
+#: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.js:97
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:142
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:115
+msgid "Based On Payment Terms"
+msgstr ""
+
+#. Option for the 'Subscription Price Based On' (Select) field in DocType
+#. 'Subscription Plan'
+#: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
+msgid "Based On Price List"
+msgstr ""
+
+#. Label of the based_on_value (Dynamic Link) field in DocType 'Party Specific
+#. Item'
+#: erpnext/selling/doctype/party_specific_item/party_specific_item.json
+msgid "Based On Value"
+msgstr ""
+
+#: erpnext/setup/doctype/holiday_list/holiday_list.js:60
+msgid "Based on your HR Policy, select your leave allocation period's end date"
+msgstr ""
+
+#: erpnext/setup/doctype/holiday_list/holiday_list.js:55
+msgid "Based on your HR Policy, select your leave allocation period's start date"
+msgstr ""
+
+#. Label of the basic_amount (Currency) field in DocType 'Stock Entry Detail'
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "Basic Amount"
+msgstr ""
+
+#. Label of the base_amount (Currency) field in DocType 'BOM Scrap Item'
+#: erpnext/manufacturing/doctype/bom_scrap_item/bom_scrap_item.json
+msgid "Basic Amount (Company Currency)"
+msgstr ""
+
+#. Label of the base_rate (Currency) field in DocType 'BOM Item'
+#. Label of the base_rate (Currency) field in DocType 'BOM Scrap Item'
+#. Label of the base_rate (Currency) field in DocType 'Sales Order Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+#: erpnext/manufacturing/doctype/bom_scrap_item/bom_scrap_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+msgid "Basic Rate (Company Currency)"
+msgstr ""
+
+#. Label of the basic_rate (Currency) field in DocType 'Stock Entry Detail'
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "Basic Rate (as per Stock UOM)"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/doctype/batch/batch.json
+#: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.py:34
+#: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.py:80
+#: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:158
+#: erpnext/stock/report/stock_ledger/stock_ledger.py:330
+#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:171
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:80
+#: erpnext/stock/report/stock_qty_vs_batch_qty/stock_qty_vs_batch_qty.js:19
+#: erpnext/stock/report/stock_qty_vs_batch_qty/stock_qty_vs_batch_qty.py:32
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Batch"
+msgstr "Lote"
+
+#. Label of the description (Small Text) field in DocType 'Batch'
+#: erpnext/stock/doctype/batch/batch.json
+msgid "Batch Description"
+msgstr ""
+
+#. Label of the sb_batch (Section Break) field in DocType 'Batch'
+#: erpnext/stock/doctype/batch/batch.json
+msgid "Batch Details"
+msgstr ""
+
+#: erpnext/stock/doctype/batch/batch.py:217
+#: erpnext/stock/report/serial_no_and_batch_traceability/serial_no_and_batch_traceability.py:465
+msgid "Batch Expiry Date"
+msgstr ""
+
+#. Label of the batch_id (Data) field in DocType 'Batch'
+#: erpnext/stock/doctype/batch/batch.json
+msgid "Batch ID"
+msgstr ""
+
+#: erpnext/stock/doctype/batch/batch.py:129
+msgid "Batch ID is mandatory"
+msgstr "O ID do lote é obrigatório"
+
+#. Name of a report
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Batch Item Expiry Status"
+msgstr ""
+
+#. Label of the batch_no (Link) field in DocType 'POS Invoice Item'
+#. Label of the batch_no (Link) field in DocType 'Purchase Invoice Item'
+#. Label of the batch_no (Link) field in DocType 'Sales Invoice Item'
+#. Label of the batch_no (Link) field in DocType 'Asset Capitalization Stock
+#. Item'
+#. Label of the batch_no (Link) field in DocType 'Purchase Receipt Item
+#. Supplied'
+#. Label of the batch_no (Link) field in DocType 'Job Card'
+#. Label of the batch_no (Link) field in DocType 'Delivery Note Item'
+#. Label of the batch_no (Link) field in DocType 'Item Price'
+#. Label of the batch_no (Link) field in DocType 'Packed Item'
+#. Label of the batch_no (Link) field in DocType 'Packing Slip Item'
+#. Label of the batch_no (Link) field in DocType 'Pick List Item'
+#. Label of the batch_no (Link) field in DocType 'Purchase Receipt Item'
+#. Label of the batch_no (Link) field in DocType 'Quality Inspection'
+#. Label of the batch_no (Link) field in DocType 'Serial and Batch Entry'
+#. Label of the batch_no (Link) field in DocType 'Serial No'
+#. Label of the batch_no (Link) field in DocType 'Stock Closing Balance'
+#. Label of the batch_no (Link) field in DocType 'Stock Entry Detail'
+#. Label of the batch_no (Data) field in DocType 'Stock Ledger Entry'
+#. Label of the batch_no (Link) field in DocType 'Stock Reconciliation Item'
+#. Label of the batch_no (Link) field in DocType 'Subcontracting Receipt Item'
+#. Label of the batch_no (Link) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/assets/doctype/asset_capitalization_stock_item/asset_capitalization_stock_item.json
+#: erpnext/buying/doctype/purchase_receipt_item_supplied/purchase_receipt_item_supplied.json
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/report/cost_of_poor_quality_report/cost_of_poor_quality_report.js:89
+#: erpnext/manufacturing/report/cost_of_poor_quality_report/cost_of_poor_quality_report.py:115
+#: erpnext/public/js/controllers/transaction.js:2821
+#: erpnext/public/js/utils/barcode_scanner.js:281
+#: erpnext/public/js/utils/serial_no_batch_selector.js:438
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/item_price/item_price.json
+#: erpnext/stock/doctype/packed_item/packed_item.json
+#: erpnext/stock/doctype/packing_slip_item/packing_slip_item.json
+#: erpnext/stock/doctype/pick_list_item/pick_list_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+#: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
+#: erpnext/stock/doctype/serial_no/serial_no.json
+#: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
+#: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
+#: erpnext/stock/report/available_batch_report/available_batch_report.js:64
+#: erpnext/stock/report/available_batch_report/available_batch_report.py:51
+#: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.js:68
+#: erpnext/stock/report/serial_and_batch_summary/serial_and_batch_summary.js:81
+#: erpnext/stock/report/serial_and_batch_summary/serial_and_batch_summary.py:160
+#: erpnext/stock/report/serial_no_and_batch_traceability/serial_no_and_batch_traceability.js:19
+#: erpnext/stock/report/serial_no_and_batch_traceability/serial_no_and_batch_traceability.py:458
+#: erpnext/stock/report/stock_ledger/stock_ledger.js:77
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
+msgid "Batch No"
+msgstr ""
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1080
+msgid "Batch No is mandatory"
+msgstr ""
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:3031
+msgid "Batch No {0} does not exists"
+msgstr ""
+
+#: erpnext/stock/utils.py:646
+msgid "Batch No {0} is linked with Item {1} which has serial no. Please scan serial no instead."
+msgstr ""
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:406
+msgid "Batch No {0} is not present in the original {1} {2}, hence you can't return it against the {1} {2}"
+msgstr ""
+
+#. Label of the batch_no (Int) field in DocType 'BOM Update Batch'
+#: erpnext/manufacturing/doctype/bom_update_batch/bom_update_batch.json
+msgid "Batch No."
+msgstr ""
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:16
+#: erpnext/public/js/utils/serial_no_batch_selector.js:190
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:50
+msgid "Batch Nos"
+msgstr ""
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1687
+msgid "Batch Nos are created successfully"
+msgstr ""
+
+#: erpnext/controllers/sales_and_purchase_return.py:1072
+msgid "Batch Not Available for Return"
+msgstr ""
+
+#. Label of the batch_number_series (Data) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Batch Number Series"
+msgstr ""
+
+#: erpnext/stock/report/serial_and_batch_summary/serial_and_batch_summary.py:161
+#: erpnext/stock/report/stock_qty_vs_batch_qty/stock_qty_vs_batch_qty.py:33
+msgid "Batch Qty"
+msgstr ""
+
+#: erpnext/stock/report/stock_qty_vs_batch_qty/stock_qty_vs_batch_qty.py:120
+msgid "Batch Qty updated successfully"
+msgstr ""
+
+#: erpnext/stock/doctype/batch/batch.py:177
+msgid "Batch Qty updated to {0}"
+msgstr ""
+
+#. Label of the batch_qty (Float) field in DocType 'Batch'
+#: erpnext/stock/doctype/batch/batch.json
+msgid "Batch Quantity"
+msgstr ""
+
+#. Label of the batch_size (Int) field in DocType 'BOM Operation'
+#. Label of the batch_size (Int) field in DocType 'Operation'
+#. Label of the batch_size (Float) field in DocType 'Work Order'
+#. Label of the batch_size (Float) field in DocType 'Work Order Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+#: erpnext/manufacturing/doctype/operation/operation.json
+#: erpnext/manufacturing/doctype/work_order/work_order.js:350
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
+msgid "Batch Size"
+msgstr ""
+
+#. Label of the stock_uom (Link) field in DocType 'Batch'
+#: erpnext/stock/doctype/batch/batch.json
+msgid "Batch UOM"
+msgstr ""
+
+#. Label of the batch_and_serial_no_section (Section Break) field in DocType
+#. 'Asset Capitalization Stock Item'
+#: erpnext/assets/doctype/asset_capitalization_stock_item/asset_capitalization_stock_item.json
+msgid "Batch and Serial No"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:880
+msgid "Batch not created for item {} since it does not have a batch series."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:384
+msgid "Batch {0} and Warehouse"
+msgstr ""
+
+#: erpnext/controllers/sales_and_purchase_return.py:1071
+msgid "Batch {0} is not available in warehouse {1}"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:3169
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:290
+msgid "Batch {0} of Item {1} has expired."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:3175
+msgid "Batch {0} of Item {1} is disabled."
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Batch-Wise Balance History"
+msgstr "Balanço Por Histórico de Lotes"
+
+#: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:164
+#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:183
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:86
+msgid "Batchwise Valuation"
+msgstr ""
+
+#. Label of the section_break_3 (Section Break) field in DocType 'Stock
+#. Reconciliation Item'
+#: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
+msgid "Before reconciliation"
+msgstr ""
+
+#. Label of the start (Int) field in DocType 'Task'
+#: erpnext/projects/doctype/task/task.json
+msgid "Begin On (Days)"
+msgstr ""
+
+#. Option for the 'Generate Invoice At' (Select) field in DocType
+#. 'Subscription'
+#: erpnext/accounts/doctype/subscription/subscription.json
+msgid "Beginning of the current subscription period"
+msgstr ""
+
+#: erpnext/accounts/doctype/subscription/subscription.py:320
+msgid "Below Subscription Plans are of different currency to the party default billing currency/Company currency: {0}"
+msgstr ""
+
+#. Label of the bill_date (Date) field in DocType 'Journal Entry'
+#. Label of the bill_date (Date) field in DocType 'Subcontracting Receipt'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1207
+#: erpnext/accounts/report/purchase_register/purchase_register.py:214
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Bill Date"
+msgstr "Data de Faturamento"
+
+#. Label of the bill_no (Data) field in DocType 'Journal Entry'
+#. Label of the bill_no (Data) field in DocType 'Subcontracting Receipt'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1206
+#: erpnext/accounts/report/purchase_register/purchase_register.py:213
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Bill No"
+msgstr ""
+
+#. Label of the bill_for_rejected_quantity_in_purchase_invoice (Check) field in
+#. DocType 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Bill for Rejected Quantity in Purchase Invoice"
+msgstr ""
+
+#. Label of a Card Break in the Manufacturing Workspace
+#. Label of a Link in the Manufacturing Workspace
+#: erpnext/manufacturing/doctype/bom/bom.py:1263
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/stock/doctype/material_request/material_request.js:127
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:657
+msgid "Bill of Materials"
+msgstr "Lista de Materiais"
+
+#. Option for the 'Status' (Select) field in DocType 'Timesheet'
+#: erpnext/controllers/website_list_for_contact.py:203
+#: erpnext/projects/doctype/timesheet/timesheet.json
+#: erpnext/projects/doctype/timesheet/timesheet_list.js:5
+msgid "Billed"
+msgstr "Faturado"
+
+#. Label of the billed_amt (Currency) field in DocType 'Purchase Order Item'
+#: erpnext/accounts/report/delivered_items_to_be_billed/delivered_items_to_be_billed.py:51
+#: erpnext/accounts/report/received_items_to_be_billed/received_items_to_be_billed.py:51
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.py:125
+#: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:189
+#: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:283
+#: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.py:107
+#: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:209
+#: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:298
+msgid "Billed Amount"
+msgstr "Total Faturado"
+
+#. Label of the billed_amt (Currency) field in DocType 'Sales Order Item'
+#. Label of the billed_amt (Currency) field in DocType 'Delivery Note Item'
+#. Label of the billed_amt (Currency) field in DocType 'Purchase Receipt Item'
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Billed Amt"
+msgstr ""
+
+#. Name of a report
+#: erpnext/accounts/report/billed_items_to_be_received/billed_items_to_be_received.json
+msgid "Billed Items To Be Received"
+msgstr ""
+
+#. Label of the billed_qty (Float) field in DocType 'Subcontracting Inward
+#. Order Received Item'
+#: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:261
+#: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:276
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
+msgid "Billed Qty"
+msgstr "Quantidade Faturada"
+
+#. Label of the section_break_56 (Section Break) field in DocType 'Purchase
+#. Order Item'
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+msgid "Billed, Received & Returned"
+msgstr ""
+
+#. Option for the 'Determine Address Tax Category From' (Select) field in
+#. DocType 'Accounts Settings'
+#. Label of the billing_address_display (Text Editor) field in DocType
+#. 'Purchase Invoice'
+#. Label of the address_and_contact (Section Break) field in DocType 'Sales
+#. Invoice'
+#. Label of the billing_address_section (Section Break) field in DocType
+#. 'Quotation'
+#. Label of the billing_address_column (Section Break) field in DocType 'Sales
+#. Order'
+#. Label of the contact_info (Section Break) field in DocType 'Delivery Note'
+#. Label of the address_display (Text Editor) field in DocType 'Delivery Note'
+#. Label of the billing_address (Link) field in DocType 'Purchase Receipt'
+#. Label of the billing_address_display (Text Editor) field in DocType
+#. 'Purchase Receipt'
+#. Label of the billing_address_display (Text Editor) field in DocType
+#. 'Subcontracting Receipt'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Billing Address"
+msgstr ""
+
+#. Label of the billing_address_display (Text Editor) field in DocType
+#. 'Purchase Order'
+#. Label of the billing_address_display (Text Editor) field in DocType 'Request
+#. for Quotation'
+#. Label of the billing_address_display (Text Editor) field in DocType
+#. 'Supplier Quotation'
+#. Label of the billing_address_display (Text Editor) field in DocType
+#. 'Subcontracting Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Billing Address Details"
+msgstr ""
+
+#. Label of the customer_address (Link) field in DocType 'Delivery Note'
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+msgid "Billing Address Name"
+msgstr ""
+
+#: erpnext/controllers/accounts_controller.py:573
+msgid "Billing Address does not belong to the {0}"
+msgstr ""
+
+#. Label of the billing_amount (Currency) field in DocType 'Sales Invoice
+#. Timesheet'
+#. Label of the billing_amount (Currency) field in DocType 'Timesheet Detail'
+#. Label of the base_billing_amount (Currency) field in DocType 'Timesheet
+#. Detail'
+#: erpnext/accounts/doctype/sales_invoice_timesheet/sales_invoice_timesheet.json
+#: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
+#: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.py:73
+#: erpnext/selling/report/territory_wise_sales/territory_wise_sales.py:50
+msgid "Billing Amount"
+msgstr "Total Para Faturamento"
+
+#. Label of the billing_city (Data) field in DocType 'Tax Rule'
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+msgid "Billing City"
+msgstr ""
+
+#. Label of the billing_country (Link) field in DocType 'Tax Rule'
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+msgid "Billing Country"
+msgstr ""
+
+#. Label of the billing_county (Data) field in DocType 'Tax Rule'
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+msgid "Billing County"
+msgstr ""
+
+#. Label of the default_currency (Link) field in DocType 'Supplier'
+#. Label of the default_currency (Link) field in DocType 'Customer'
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Billing Currency"
+msgstr ""
+
+#: erpnext/public/js/purchase_trends_filters.js:39
+msgid "Billing Date"
+msgstr "Data de Cobrança"
+
+#. Label of the billing_details (Section Break) field in DocType 'Timesheet'
+#: erpnext/projects/doctype/timesheet/timesheet.json
+msgid "Billing Details"
+msgstr ""
+
+#. Label of the billing_email (Data) field in DocType 'Process Statement Of
+#. Accounts Customer'
+#: erpnext/accounts/doctype/process_statement_of_accounts_customer/process_statement_of_accounts_customer.json
+msgid "Billing Email"
+msgstr ""
+
+#. Label of the billing_hours (Float) field in DocType 'Sales Invoice
+#. Timesheet'
+#. Label of the billing_hours (Float) field in DocType 'Timesheet Detail'
+#: erpnext/accounts/doctype/sales_invoice_timesheet/sales_invoice_timesheet.json
+#: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
+#: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.py:67
+msgid "Billing Hours"
+msgstr "Horas de Faturação"
+
+#. Label of the billing_interval (Select) field in DocType 'Subscription Plan'
+#: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
+msgid "Billing Interval"
+msgstr ""
+
+#. Label of the billing_interval_count (Int) field in DocType 'Subscription
+#. Plan'
+#: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
+msgid "Billing Interval Count"
+msgstr ""
+
+#: erpnext/accounts/doctype/subscription_plan/subscription_plan.py:41
+msgid "Billing Interval Count cannot be less than 1"
+msgstr "A contagem do intervalo de faturamento não pode ser menor que 1"
+
+#: erpnext/accounts/doctype/subscription/subscription.py:363
+msgid "Billing Interval in Subscription Plan must be Month to follow calendar months"
+msgstr ""
+
+#. Label of the billing_rate (Currency) field in DocType 'Activity Cost'
+#. Label of the billing_rate (Currency) field in DocType 'Timesheet Detail'
+#. Label of the base_billing_rate (Currency) field in DocType 'Timesheet
+#. Detail'
+#: erpnext/projects/doctype/activity_cost/activity_cost.json
+#: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
+msgid "Billing Rate"
+msgstr ""
+
+#. Label of the billing_state (Data) field in DocType 'Tax Rule'
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+msgid "Billing State"
+msgstr ""
+
+#. Label of the billing_status (Select) field in DocType 'Sales Order'
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/selling/doctype/sales_order/sales_order_calendar.js:31
+msgid "Billing Status"
+msgstr ""
+
+#. Label of the billing_zipcode (Data) field in DocType 'Tax Rule'
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+msgid "Billing Zipcode"
+msgstr ""
+
+#: erpnext/accounts/party.py:610
+msgid "Billing currency must be equal to either default company's currency or party account currency"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/stock/doctype/bin/bin.json
+msgid "Bin"
+msgstr "Caixa"
+
+#: erpnext/stock/doctype/bin/bin.js:16
+msgid "Bin Qty Recalculated"
+msgstr ""
+
+#. Label of the bio (Text Editor) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Bio / Cover Letter"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Biot"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:9
+msgid "Biotechnology"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.json
+msgid "Bisect Accounting Statements"
+msgstr ""
+
+#: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.js:9
+msgid "Bisect Left"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/bisect_nodes/bisect_nodes.json
+msgid "Bisect Nodes"
+msgstr ""
+
+#: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.js:13
+msgid "Bisect Right"
+msgstr ""
+
+#. Label of the bisecting_from (Heading) field in DocType 'Bisect Accounting
+#. Statements'
+#: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.json
+msgid "Bisecting From"
+msgstr ""
+
+#: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.js:61
+msgid "Bisecting Left ..."
+msgstr ""

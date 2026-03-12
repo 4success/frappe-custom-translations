@@ -1,0 +1,964 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#: erpnext/crm/report/campaign_efficiency/campaign_efficiency.py:25
+#: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:31
+msgid "Opp/Lead %"
+msgstr ""
+
+#. Label of the opportunities_tab (Tab Break) field in DocType 'Prospect'
+#. Label of the opportunities (Table) field in DocType 'Prospect'
+#: erpnext/crm/doctype/prospect/prospect.json
+#: erpnext/selling/page/sales_funnel/sales_funnel.py:56
+msgid "Opportunities"
+msgstr "Oportunidades"
+
+#: erpnext/selling/page/sales_funnel/sales_funnel.js:49
+msgid "Opportunities by Campaign"
+msgstr ""
+
+#: erpnext/selling/page/sales_funnel/sales_funnel.js:50
+msgid "Opportunities by Medium"
+msgstr ""
+
+#: erpnext/selling/page/sales_funnel/sales_funnel.js:48
+msgid "Opportunities by Source"
+msgstr ""
+
+#. Label of the opportunity (Link) field in DocType 'Request for Quotation'
+#. Label of the opportunity (Link) field in DocType 'Supplier Quotation'
+#. Label of the opportunity_section (Section Break) field in DocType 'CRM
+#. Settings'
+#. Option for the 'Status' (Select) field in DocType 'Lead'
+#. Name of a DocType
+#. Label of the opportunity (Link) field in DocType 'Prospect Opportunity'
+#. Label of a Link in the CRM Workspace
+#. Label of a shortcut in the CRM Workspace
+#. Label of the opportunity (Link) field in DocType 'Quotation'
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:371
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/crm/doctype/crm_settings/crm_settings.json
+#: erpnext/crm/doctype/lead/lead.js:33 erpnext/crm/doctype/lead/lead.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/doctype/prospect/prospect.js:20
+#: erpnext/crm/doctype/prospect_opportunity/prospect_opportunity.json
+#: erpnext/crm/report/lead_details/lead_details.js:36
+#: erpnext/crm/report/lost_opportunity/lost_opportunity.py:17
+#: erpnext/crm/workspace/crm/crm.json erpnext/public/js/communication.js:35
+#: erpnext/selling/doctype/quotation/quotation.js:146
+#: erpnext/selling/doctype/quotation/quotation.json
+msgid "Opportunity"
+msgstr "Oportunidade"
+
+#. Label of the opportunity_amount (Currency) field in DocType 'Opportunity'
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/selling/report/territory_wise_sales/territory_wise_sales.py:29
+msgid "Opportunity Amount"
+msgstr "Valor da Oportunidade"
+
+#. Label of the base_opportunity_amount (Currency) field in DocType
+#. 'Opportunity'
+#: erpnext/crm/doctype/opportunity/opportunity.json
+msgid "Opportunity Amount (Company Currency)"
+msgstr ""
+
+#. Label of the transaction_date (Date) field in DocType 'Opportunity'
+#: erpnext/crm/doctype/opportunity/opportunity.json
+msgid "Opportunity Date"
+msgstr ""
+
+#. Label of the opportunity_from (Link) field in DocType 'Opportunity'
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/report/lost_opportunity/lost_opportunity.js:42
+#: erpnext/crm/report/lost_opportunity/lost_opportunity.py:24
+msgid "Opportunity From"
+msgstr "Oportunidade De"
+
+#. Name of a DocType
+#. Label of the enq_det (Text) field in DocType 'Quotation'
+#: erpnext/crm/doctype/opportunity_item/opportunity_item.json
+#: erpnext/selling/doctype/quotation/quotation.json
+msgid "Opportunity Item"
+msgstr ""
+
+#. Label of the lost_reason (Link) field in DocType 'Lost Reason Detail'
+#. Name of a DocType
+#. Label of the lost_reason (Link) field in DocType 'Opportunity Lost Reason
+#. Detail'
+#: erpnext/crm/doctype/lost_reason_detail/lost_reason_detail.json
+#: erpnext/crm/doctype/opportunity_lost_reason/opportunity_lost_reason.json
+#: erpnext/crm/doctype/opportunity_lost_reason_detail/opportunity_lost_reason_detail.json
+msgid "Opportunity Lost Reason"
+msgstr "Oportunidade Razão Perdida"
+
+#. Name of a DocType
+#: erpnext/crm/doctype/opportunity_lost_reason_detail/opportunity_lost_reason_detail.json
+msgid "Opportunity Lost Reason Detail"
+msgstr "Detalhe do Motivo da Oportunidade Perdida"
+
+#. Label of the opportunity_owner (Link) field in DocType 'Opportunity'
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/report/opportunity_summary_by_sales_stage/opportunity_summary_by_sales_stage.py:32
+#: erpnext/crm/report/sales_pipeline_analytics/sales_pipeline_analytics.py:66
+msgid "Opportunity Owner"
+msgstr ""
+
+#: erpnext/crm/report/opportunity_summary_by_sales_stage/opportunity_summary_by_sales_stage.js:46
+#: erpnext/crm/report/sales_pipeline_analytics/sales_pipeline_analytics.js:58
+msgid "Opportunity Source"
+msgstr ""
+
+#. Label of a Link in the CRM Workspace
+#: erpnext/crm/workspace/crm/crm.json
+msgid "Opportunity Summary by Sales Stage"
+msgstr ""
+
+#. Name of a report
+#: erpnext/crm/report/opportunity_summary_by_sales_stage/opportunity_summary_by_sales_stage.json
+msgid "Opportunity Summary by Sales Stage "
+msgstr ""
+
+#. Label of the opportunity_type (Link) field in DocType 'Opportunity'
+#. Name of a DocType
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/doctype/opportunity_type/opportunity_type.json
+#: erpnext/crm/report/lost_opportunity/lost_opportunity.py:44
+#: erpnext/crm/report/opportunity_summary_by_sales_stage/opportunity_summary_by_sales_stage.js:52
+#: erpnext/crm/report/opportunity_summary_by_sales_stage/opportunity_summary_by_sales_stage.py:48
+#: erpnext/crm/report/sales_pipeline_analytics/sales_pipeline_analytics.js:64
+msgid "Opportunity Type"
+msgstr ""
+
+#. Label of the section_break_14 (Section Break) field in DocType 'Opportunity'
+#: erpnext/crm/doctype/opportunity/opportunity.json
+msgid "Opportunity Value"
+msgstr ""
+
+#: erpnext/public/js/communication.js:102
+msgid "Opportunity {0} created"
+msgstr "Oportunidade {0} criada"
+
+#. Label of the optimize_route (Button) field in DocType 'Delivery Trip'
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.json
+msgid "Optimize Route"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/account_tree.js:182
+msgid "Optional. Sets company's default currency, if not specified."
+msgstr "Opcional. Define moeda padrão da empresa, se não for especificado."
+
+#: erpnext/accounts/doctype/account/account_tree.js:161
+msgid "Optional. This setting will be used to filter in various transactions."
+msgstr "Opcional. Esta configuração será usada para filtrar em várias transações."
+
+#: erpnext/accounts/doctype/account/account_tree.js:169
+msgid "Optional. Used with Financial Report Template"
+msgstr ""
+
+#: erpnext/selling/report/territory_wise_sales/territory_wise_sales.py:43
+msgid "Order Amount"
+msgstr "Valor do Pedido"
+
+#: erpnext/manufacturing/report/production_planning_report/production_planning_report.js:80
+msgid "Order By"
+msgstr "Ordenar Por"
+
+#. Label of the order_confirmation_date (Date) field in DocType 'Purchase
+#. Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+msgid "Order Confirmation Date"
+msgstr ""
+
+#. Label of the order_confirmation_no (Data) field in DocType 'Purchase Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+msgid "Order Confirmation No"
+msgstr ""
+
+#: erpnext/crm/report/campaign_efficiency/campaign_efficiency.py:23
+#: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:29
+msgid "Order Count"
+msgstr "Contagem de Pedidos"
+
+#. Label of the order_date (Date) field in DocType 'Blanket Order'
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
+msgid "Order Date"
+msgstr ""
+
+#. Label of the order_information_section (Section Break) field in DocType
+#. 'Delivery Stop'
+#: erpnext/stock/doctype/delivery_stop/delivery_stop.json
+msgid "Order Information"
+msgstr ""
+
+#. Label of the order_no (Data) field in DocType 'Blanket Order'
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
+msgid "Order No"
+msgstr ""
+
+#: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.py:142
+#: erpnext/manufacturing/report/production_plan_summary/production_plan_summary.py:175
+#: erpnext/manufacturing/report/production_planning_report/production_planning_report.py:383
+msgid "Order Qty"
+msgstr "Quantidade do Pedido"
+
+#. Label of the tracking_section (Section Break) field in DocType 'Purchase
+#. Order'
+#. Label of the order_status_section (Section Break) field in DocType
+#. 'Subcontracting Inward Order'
+#. Label of the order_status_section (Section Break) field in DocType
+#. 'Subcontracting Order'
+#. Label of the order_status_section (Section Break) field in DocType
+#. 'Subcontracting Receipt'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Order Status"
+msgstr ""
+
+#: erpnext/manufacturing/notification/material_request_receipt_notification/material_request_receipt_notification.html:4
+msgid "Order Summary"
+msgstr ""
+
+#. Label of the blanket_order_type (Select) field in DocType 'Blanket Order'
+#. Label of the order_type (Select) field in DocType 'Quotation'
+#. Label of the order_type (Select) field in DocType 'Sales Order'
+#: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.js:29
+#: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.js:7
+#: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.js:7
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+msgid "Order Type"
+msgstr ""
+
+#: erpnext/crm/report/campaign_efficiency/campaign_efficiency.py:24
+#: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:30
+msgid "Order Value"
+msgstr "Valor do Pedido"
+
+#: erpnext/crm/report/campaign_efficiency/campaign_efficiency.py:27
+#: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:33
+msgid "Order/Quot %"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Quotation'
+#. Option for the 'Status' (Select) field in DocType 'Material Request'
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation_list.js:5
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/quotation/quotation_list.js:34
+#: erpnext/stock/doctype/material_request/material_request.json
+#: erpnext/stock/doctype/material_request/material_request_list.js:40
+msgid "Ordered"
+msgstr "Pedido"
+
+#. Label of the ordered_qty (Float) field in DocType 'Material Request Plan
+#. Item'
+#. Label of the ordered_qty (Float) field in DocType 'Production Plan Item'
+#. Label of the ordered_qty (Float) field in DocType 'Production Plan Sub
+#. Assembly Item'
+#. Label of the ordered_qty (Float) field in DocType 'Sales Order Item'
+#. Label of the ordered_qty (Float) field in DocType 'Bin'
+#. Label of the ordered_qty (Float) field in DocType 'Packed Item'
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:169
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:238
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/manufacturing/doctype/production_plan_item/production_plan_item.json
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/manufacturing/report/bom_variance_report/bom_variance_report.py:49
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/bin/bin.json
+#: erpnext/stock/doctype/packed_item/packed_item.json
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:162
+msgid "Ordered Qty"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
+msgid "Ordered Qty: Quantity ordered for purchase, but not received."
+msgstr ""
+
+#. Label of the ordered_qty (Float) field in DocType 'Blanket Order Item'
+#: erpnext/manufacturing/doctype/blanket_order_item/blanket_order_item.json
+#: erpnext/stock/report/item_shortage_report/item_shortage_report.py:102
+msgid "Ordered Quantity"
+msgstr "Quantidade Encomendada"
+
+#: erpnext/buying/doctype/supplier/supplier_dashboard.py:11
+#: erpnext/selling/doctype/customer/customer_dashboard.py:20
+#: erpnext/selling/doctype/sales_order/sales_order.py:956
+#: erpnext/setup/doctype/company/company_dashboard.py:23
+msgid "Orders"
+msgstr "Pedidos"
+
+#. Label of the organization_section (Section Break) field in DocType 'Lead'
+#. Label of the organization_details_section (Section Break) field in DocType
+#. 'Opportunity'
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/report/prospects_engaged_but_not_converted/prospects_engaged_but_not_converted.py:30
+msgid "Organization"
+msgstr "Organização"
+
+#. Label of the company_name (Data) field in DocType 'Lead'
+#: erpnext/crm/doctype/lead/lead.json
+msgid "Organization Name"
+msgstr ""
+
+#. Label of the original_item (Link) field in DocType 'BOM Item'
+#. Label of the original_item (Link) field in DocType 'Stock Entry Detail'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "Original Item"
+msgstr ""
+
+#. Label of the margin_details (Section Break) field in DocType 'Bank
+#. Guarantee'
+#. Label of the other_details (Section Break) field in DocType 'Production
+#. Plan'
+#. Label of the other_details (HTML) field in DocType 'Purchase Receipt'
+#. Label of the other_details (HTML) field in DocType 'Subcontracting Receipt'
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Other Details"
+msgstr ""
+
+#. Label of the other_info_tab (Tab Break) field in DocType 'Asset'
+#. Label of the other_info_tab (Tab Break) field in DocType 'Stock Entry'
+#. Label of the tab_other_info (Tab Break) field in DocType 'Subcontracting
+#. Inward Order'
+#. Label of the tab_other_info (Tab Break) field in DocType 'Subcontracting
+#. Order'
+#. Label of the tab_other_info (Tab Break) field in DocType 'Subcontracting
+#. Receipt'
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Other Info"
+msgstr ""
+
+#. Label of a Card Break in the Financial Reports Workspace
+#. Label of a Card Break in the Buying Workspace
+#. Label of a Card Break in the Selling Workspace
+#. Label of a Card Break in the Stock Workspace
+#: erpnext/accounts/workspace/financial_reports/financial_reports.json
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/selling/workspace/selling/selling.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Other Reports"
+msgstr "Relatórios Adicionais"
+
+#. Label of the other_settings_section (Section Break) field in DocType
+#. 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Other Settings"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Ounce"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Ounce-Force"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Ounce/Cubic Foot"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Ounce/Cubic Inch"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Ounce/Gallon (UK)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Ounce/Gallon (US)"
+msgstr ""
+
+#: erpnext/stock/report/available_serial_no/available_serial_no.py:119
+#: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.py:83
+#: erpnext/stock/report/stock_balance/stock_balance.py:479
+#: erpnext/stock/report/stock_ledger/stock_ledger.py:244
+msgid "Out Qty"
+msgstr ""
+
+#: erpnext/stock/report/stock_balance/stock_balance.py:485
+msgid "Out Value"
+msgstr "Valor Saída"
+
+#. Option for the 'Maintenance Status' (Select) field in DocType 'Serial No'
+#. Option for the 'Warranty / AMC Status' (Select) field in DocType 'Warranty
+#. Claim'
+#: erpnext/stock/doctype/serial_no/serial_no.json
+#: erpnext/support/doctype/warranty_claim/warranty_claim.json
+msgid "Out of AMC"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset/asset_list.js:20
+msgid "Out of Order"
+msgstr "Fora de Serviço"
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:580
+msgid "Out of Stock"
+msgstr "Fora de Estoque"
+
+#. Option for the 'Maintenance Status' (Select) field in DocType 'Serial No'
+#. Option for the 'Warranty / AMC Status' (Select) field in DocType 'Warranty
+#. Claim'
+#: erpnext/stock/doctype/serial_no/serial_no.json
+#: erpnext/support/doctype/warranty_claim/warranty_claim.json
+msgid "Out of Warranty"
+msgstr ""
+
+#: erpnext/templates/includes/macros.html:173
+msgid "Out of stock"
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1177
+#: erpnext/selling/page/point_of_sale/pos_controller.js:208
+msgid "Outdated POS Opening Entry"
+msgstr ""
+
+#. Label of the outgoing_rate (Float) field in DocType 'Serial and Batch Entry'
+#. Label of the outgoing_rate (Currency) field in DocType 'Stock Ledger Entry'
+#: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
+msgid "Outgoing Rate"
+msgstr ""
+
+#. Label of the outstanding (Currency) field in DocType 'Overdue Payment'
+#. Label of the outstanding_amount (Float) field in DocType 'Payment Entry
+#. Reference'
+#. Label of the outstanding (Currency) field in DocType 'Payment Schedule'
+#: erpnext/accounts/doctype/overdue_payment/overdue_payment.json
+#: erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.json
+#: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
+msgid "Outstanding"
+msgstr ""
+
+#. Label of the base_outstanding (Currency) field in DocType 'Payment Schedule'
+#: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
+msgid "Outstanding (Company Currency)"
+msgstr ""
+
+#. Label of the outstanding_amount (Float) field in DocType 'Cashier Closing'
+#. Label of the outstanding_amount (Currency) field in DocType 'Discounted
+#. Invoice'
+#. Label of the outstanding_amount (Currency) field in DocType 'Opening Invoice
+#. Creation Tool Item'
+#. Label of the outstanding_amount (Currency) field in DocType 'Payment
+#. Reconciliation Invoice'
+#. Label of the outstanding_amount (Currency) field in DocType 'Payment
+#. Request'
+#. Label of the outstanding_amount (Currency) field in DocType 'POS Invoice'
+#. Label of the outstanding_amount (Currency) field in DocType 'Purchase
+#. Invoice'
+#. Label of the outstanding_amount (Currency) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/cashier_closing/cashier_closing.json
+#: erpnext/accounts/doctype/discounted_invoice/discounted_invoice.json
+#: erpnext/accounts/doctype/opening_invoice_creation_tool_item/opening_invoice_creation_tool_item.json
+#: erpnext/accounts/doctype/payment_entry/payment_entry.js:878
+#: erpnext/accounts/doctype/payment_reconciliation_invoice/payment_reconciliation_invoice.json
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:300
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:182
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:149
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1220
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:167
+#: erpnext/accounts/report/purchase_register/purchase_register.py:289
+#: erpnext/accounts/report/sales_register/sales_register.py:319
+msgid "Outstanding Amount"
+msgstr "Valor Devido"
+
+#: erpnext/selling/report/customer_credit_balance/customer_credit_balance.py:66
+msgid "Outstanding Amt"
+msgstr "Valor Devido"
+
+#: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.py:44
+msgid "Outstanding Cheques and Deposits to clear"
+msgstr "Cheques em circulação e depósitos para apagar"
+
+#: erpnext/accounts/doctype/gl_entry/gl_entry.py:407
+msgid "Outstanding for {0} cannot be less than zero ({1})"
+msgstr "Excelente para {0} não pode ser inferior a zero ( {1})"
+
+#. Option for the 'Payment Request Type' (Select) field in DocType 'Payment
+#. Request'
+#. Option for the 'Type of Transaction' (Select) field in DocType 'Inventory
+#. Dimension'
+#. Option for the 'Type of Transaction' (Select) field in DocType 'Serial and
+#. Batch Bundle'
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+msgid "Outward"
+msgstr ""
+
+#. Label of the over_billing_allowance (Currency) field in DocType 'Accounts
+#. Settings'
+#. Label of the over_billing_allowance (Float) field in DocType 'Item'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+#: erpnext/stock/doctype/item/item.json
+msgid "Over Billing Allowance (%)"
+msgstr ""
+
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:1286
+msgid "Over Billing Allowance exceeded for Purchase Receipt Item {0} ({1}) by {2}%"
+msgstr ""
+
+#. Label of the over_delivery_receipt_allowance (Float) field in DocType 'Item'
+#. Label of the over_delivery_receipt_allowance (Float) field in DocType 'Stock
+#. Settings'
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Over Delivery/Receipt Allowance (%)"
+msgstr ""
+
+#. Label of the over_picking_allowance (Percent) field in DocType 'Stock
+#. Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Over Picking Allowance"
+msgstr ""
+
+#: erpnext/controllers/stock_controller.py:1677
+msgid "Over Receipt"
+msgstr ""
+
+#: erpnext/controllers/status_updater.py:472
+msgid "Over Receipt/Delivery of {0} {1} ignored for item {2} because you have {3} role."
+msgstr ""
+
+#. Label of the mr_qty_allowance (Float) field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Over Transfer Allowance"
+msgstr ""
+
+#. Label of the over_transfer_allowance (Float) field in DocType 'Buying
+#. Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Over Transfer Allowance (%)"
+msgstr ""
+
+#: erpnext/controllers/status_updater.py:474
+msgid "Overbilling of {0} {1} ignored for item {2} because you have {3} role."
+msgstr ""
+
+#: erpnext/controllers/accounts_controller.py:2175
+msgid "Overbilling of {} ignored because you have {} role."
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'POS Invoice'
+#. Option for the 'Status' (Select) field in DocType 'Purchase Invoice'
+#. Option for the 'Status' (Select) field in DocType 'Sales Invoice'
+#. Option for the 'Maintenance Status' (Select) field in DocType 'Asset
+#. Maintenance Log'
+#. Option for the 'Maintenance Status' (Select) field in DocType 'Asset
+#. Maintenance Task'
+#. Option for the 'Status' (Select) field in DocType 'Task'
+#. Option in a Select field in the tasks Web Form
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:277
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
+#: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
+#: erpnext/manufacturing/report/production_analytics/production_analytics.py:125
+#: erpnext/projects/doctype/task/task.json
+#: erpnext/projects/report/project_summary/project_summary.py:100
+#: erpnext/projects/web_form/tasks/tasks.json
+#: erpnext/selling/doctype/sales_order/sales_order_list.js:30
+#: erpnext/templates/pages/task_info.html:75
+msgid "Overdue"
+msgstr "Vencido"
+
+#. Label of the overdue_days (Data) field in DocType 'Overdue Payment'
+#: erpnext/accounts/doctype/overdue_payment/overdue_payment.json
+msgid "Overdue Days"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/overdue_payment/overdue_payment.json
+msgid "Overdue Payment"
+msgstr ""
+
+#. Label of the overdue_payments (Table) field in DocType 'Dunning'
+#: erpnext/accounts/doctype/dunning/dunning.json
+msgid "Overdue Payments"
+msgstr ""
+
+#: erpnext/projects/report/project_summary/project_summary.py:142
+msgid "Overdue Tasks"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'POS Invoice'
+#. Option for the 'Status' (Select) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Overdue and Discounted"
+msgstr ""
+
+#: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.py:70
+msgid "Overlap in scoring between {0} and {1}"
+msgstr "Sobreposição na pontuação entre {0} e {1}"
+
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:199
+msgid "Overlapping conditions found between:"
+msgstr ""
+
+#. Label of the overproduction_percentage_for_sales_order (Percent) field in
+#. DocType 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Overproduction Percentage For Sales Order"
+msgstr ""
+
+#. Label of the overproduction_percentage_for_work_order (Percent) field in
+#. DocType 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Overproduction Percentage For Work Order"
+msgstr ""
+
+#. Label of the over_production_for_sales_and_work_order_section (Section
+#. Break) field in DocType 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Overproduction for Sales and Work Order"
+msgstr ""
+
+#. Option for the 'Permanent Address Is' (Select) field in DocType 'Employee'
+#. Option for the 'Current Address Is' (Select) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Owned"
+msgstr ""
+
+#: erpnext/accounts/report/sales_payment_summary/sales_payment_summary.js:29
+#: erpnext/accounts/report/sales_payment_summary/sales_payment_summary.py:23
+#: erpnext/accounts/report/sales_payment_summary/sales_payment_summary.py:39
+#: erpnext/accounts/report/sales_register/sales_register.js:46
+#: erpnext/accounts/report/sales_register/sales_register.py:236
+#: erpnext/crm/report/lead_details/lead_details.py:45
+msgid "Owner"
+msgstr "Proprietário"
+
+#. Label of the p_l_closing_balance (JSON) field in DocType 'Process Period
+#. Closing Voucher'
+#: erpnext/accounts/doctype/process_period_closing_voucher/process_period_closing_voucher.json
+msgid "P&L Closing Balance"
+msgstr ""
+
+#. Label of the pan_no (Data) field in DocType 'Lower Deduction Certificate'
+#: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
+msgid "PAN No"
+msgstr ""
+
+#. Label of the parent_pcv (Link) field in DocType 'Process Period Closing
+#. Voucher'
+#: erpnext/accounts/doctype/process_period_closing_voucher/process_period_closing_voucher.json
+msgid "PCV"
+msgstr ""
+
+#: erpnext/accounts/doctype/process_period_closing_voucher/process_period_closing_voucher.js:35
+msgid "PCV Paused"
+msgstr ""
+
+#: erpnext/accounts/doctype/process_period_closing_voucher/process_period_closing_voucher.js:53
+msgid "PCV Resumed"
+msgstr ""
+
+#. Label of the pdf_name (Data) field in DocType 'Process Statement Of
+#. Accounts'
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+msgid "PDF Name"
+msgstr ""
+
+#. Label of the pin (Data) field in DocType 'Warehouse'
+#: erpnext/stock/doctype/warehouse/warehouse.json
+msgid "PIN"
+msgstr ""
+
+#. Label of the po_detail (Data) field in DocType 'Stock Entry Detail'
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "PO Supplied Item"
+msgstr ""
+
+#. Label of the pos_tab (Tab Break) field in DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "POS"
+msgstr ""
+
+#. Label of the invoice_fields (Table) field in DocType 'POS Settings'
+#: erpnext/accounts/doctype/pos_settings/pos_settings.json
+msgid "POS Additional Fields"
+msgstr ""
+
+#: erpnext/selling/page/point_of_sale/pos_controller.js:183
+msgid "POS Closed"
+msgstr ""
+
+#. Name of a DocType
+#. Label of the pos_closing_entry (Link) field in DocType 'POS Invoice Merge
+#. Log'
+#. Label of the pos_closing_entry (Data) field in DocType 'POS Opening Entry'
+#. Label of the pos_closing_entry (Link) field in DocType 'Sales Invoice'
+#. Label of a Link in the Selling Workspace
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
+#: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.json
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/selling/workspace/selling/selling.json
+msgid "POS Closing Entry"
+msgstr "Entrada de fechamento de PDV"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/pos_closing_entry_detail/pos_closing_entry_detail.json
+msgid "POS Closing Entry Detail"
+msgstr "Detalhe de entrada de fechamento de PDV"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/pos_closing_entry_taxes/pos_closing_entry_taxes.json
+msgid "POS Closing Entry Taxes"
+msgstr "Impostos de Entrada de Fechamento de PDV"
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.js:31
+msgid "POS Closing Failed"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.js:53
+msgid "POS Closing failed while running in a background process. You can resolve the {0} and retry the process again."
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/pos_customer_group/pos_customer_group.json
+msgid "POS Customer Group"
+msgstr "Grupo de Cliente PDV"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/pos_field/pos_field.json
+msgid "POS Field"
+msgstr "Campo POS"
+
+#. Name of a DocType
+#. Label of the pos_invoice (Link) field in DocType 'POS Invoice Reference'
+#. Option for the 'Invoice Type Created via POS Screen' (Select) field in
+#. DocType 'POS Settings'
+#. Label of the pos_invoice (Link) field in DocType 'Sales Invoice Item'
+#. Label of a shortcut in the Receivables Workspace
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/pos_invoice_reference/pos_invoice_reference.json
+#: erpnext/accounts/doctype/pos_settings/pos_settings.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/report/pos_register/pos_register.py:174
+#: erpnext/accounts/workspace/receivables/receivables.json
+msgid "POS Invoice"
+msgstr "Fatura PDV"
+
+#. Name of a DocType
+#. Label of the pos_invoice_item (Data) field in DocType 'POS Invoice Item'
+#. Label of the pos_invoice_item (Data) field in DocType 'Sales Invoice Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+msgid "POS Invoice Item"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.json
+msgid "POS Invoice Merge Log"
+msgstr "Registro de Fusão de Faturas de PDV"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/pos_invoice_reference/pos_invoice_reference.json
+msgid "POS Invoice Reference"
+msgstr "Referência de Fatura de PDV"
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:117
+msgid "POS Invoice is already consolidated"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:125
+msgid "POS Invoice is not submitted"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:128
+msgid "POS Invoice isn't created by user {}"
+msgstr "A fatura de PDV não foi criada pelo usuário {}"
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:204
+msgid "POS Invoice should have the field {0} checked."
+msgstr ""
+
+#. Label of the pos_invoices (Table) field in DocType 'POS Invoice Merge Log'
+#: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.json
+msgid "POS Invoices"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:86
+msgid "POS Invoices can't be added when Sales Invoice is enabled"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:662
+msgid "POS Invoices will be consolidated in a background process"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:664
+msgid "POS Invoices will be unconsolidated in a background process"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/pos_item_group/pos_item_group.json
+msgid "POS Item Group"
+msgstr "Grupo de Itens PDV"
+
+#. Label of the pos_opening_entry (Link) field in DocType 'POS Closing Entry'
+#. Name of a DocType
+#. Label of a Link in the Selling Workspace
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.json
+#: erpnext/selling/workspace/selling/selling.json
+msgid "POS Opening Entry"
+msgstr "Entrada de abertura de PDV"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1178
+msgid "POS Opening Entry - {0} is outdated. Please close the POS and create a new POS Opening Entry."
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:121
+msgid "POS Opening Entry Cancellation Error"
+msgstr ""
+
+#: erpnext/selling/page/point_of_sale/pos_controller.js:183
+msgid "POS Opening Entry Cancelled"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/pos_opening_entry_detail/pos_opening_entry_detail.json
+msgid "POS Opening Entry Detail"
+msgstr "Detalhe de Entrada de Abertura de PDV"
+
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:67
+msgid "POS Opening Entry Exists"
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1163
+msgid "POS Opening Entry Missing"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:122
+msgid "POS Opening Entry cannot be cancelled as unconsolidated Invoices exists."
+msgstr ""
+
+#: erpnext/selling/page/point_of_sale/pos_controller.js:189
+msgid "POS Opening Entry has been cancelled. Please refresh the page."
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/pos_payment_method/pos_payment_method.json
+msgid "POS Payment Method"
+msgstr "Método de Pagamento PDV"
+
+#. Label of the pos_profile (Link) field in DocType 'POS Closing Entry'
+#. Label of the pos_profile (Link) field in DocType 'POS Invoice'
+#. Label of the pos_profile (Link) field in DocType 'POS Opening Entry'
+#. Name of a DocType
+#. Label of the pos_profile (Link) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.json
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/report/pos_register/pos_register.js:32
+#: erpnext/accounts/report/pos_register/pos_register.py:117
+#: erpnext/accounts/report/pos_register/pos_register.py:188
+#: erpnext/selling/page/point_of_sale/pos_controller.js:80
+msgid "POS Profile"
+msgstr "Perfil do PDV"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1171
+msgid "POS Profile - {0} has multiple open POS Opening Entries. Please close or cancel the existing entries before proceeding."
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:247
+msgid "POS Profile - {0} is currently open. Please close the POS or cancel the existing POS Opening Entry before cancelling this POS Closing Entry."
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/pos_profile_user/pos_profile_user.json
+msgid "POS Profile User"
+msgstr "Perfil de Usuário do PDV"
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:122
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:187
+msgid "POS Profile doesn't match {}"
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1131
+msgid "POS Profile is mandatory to mark this invoice as POS Transaction."
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1355
+msgid "POS Profile required to make POS Entry"
+msgstr "Perfil do PDV necessário para fazer entrada no PDV"
+
+#: erpnext/accounts/doctype/pos_profile/pos_profile.py:113
+msgid "POS Profile {0} cannot be disabled as there are ongoing POS sessions."
+msgstr ""
+
+#: erpnext/accounts/doctype/mode_of_payment/mode_of_payment.py:63
+msgid "POS Profile {} contains Mode of Payment {}. Please remove them to disable this mode."
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:58
+msgid "POS Profile {} does not belong to company {}"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:47
+msgid "POS Profile {} does not exist."
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:54
+msgid "POS Profile {} is disabled."
+msgstr ""
+
+#. Name of a report
+#: erpnext/accounts/report/pos_register/pos_register.json
+msgid "POS Register"
+msgstr "Registro de PDV"
+
+#. Name of a DocType
+#. Label of the pos_search_fields (Table) field in DocType 'POS Settings'
+#: erpnext/accounts/doctype/pos_search_fields/pos_search_fields.json
+#: erpnext/accounts/doctype/pos_settings/pos_settings.json
+msgid "POS Search Fields"
+msgstr ""

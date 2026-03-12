@@ -1,0 +1,1204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#: erpnext/assets/doctype/asset_maintenance/asset_maintenance.py:37
+msgid "Start date should be less than end date for task {0}"
+msgstr "A data de início deve ser inferior à data de término da tarefa {0}"
+
+#. Label of the started_time (Datetime) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Started Time"
+msgstr "Hora de início"
+
+#: erpnext/utilities/bulk_transaction.py:44
+msgid "Started a background job to create {1} {0}. {2}"
+msgstr "Foi iniciado um trabalho em segundo plano para criar {1} {0}. {2}"
+
+#. Label of the date_dist_from_left_edge (Float) field in DocType 'Cheque Print
+#. Template'
+#. Label of the payer_name_from_left_edge (Float) field in DocType 'Cheque
+#. Print Template'
+#. Label of the amt_in_words_from_left_edge (Float) field in DocType 'Cheque
+#. Print Template'
+#. Label of the amt_in_figures_from_left_edge (Float) field in DocType 'Cheque
+#. Print Template'
+#. Label of the acc_no_dist_from_left_edge (Float) field in DocType 'Cheque
+#. Print Template'
+#. Label of the signatory_from_left_edge (Float) field in DocType 'Cheque Print
+#. Template'
+#: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
+msgid "Starting location from left edge"
+msgstr "Posição inicial a partir da borda esquerda"
+
+#. Label of the starting_position_from_top_edge (Float) field in DocType
+#. 'Cheque Print Template'
+#: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
+msgid "Starting position from top edge"
+msgstr "Posição inicial a partir da borda superior"
+
+#. Label of the status_details (Section Break) field in DocType 'Service Level
+#. Agreement'
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
+msgid "Status Details"
+msgstr "Detalhes do status"
+
+#. Label of the illustration_section (Section Break) field in DocType
+#. 'Workstation'
+#: erpnext/manufacturing/doctype/workstation/workstation.json
+msgid "Status Illustration"
+msgstr "Ilustração do status"
+
+#: erpnext/projects/doctype/project/project.py:712
+msgid "Status must be Cancelled or Completed"
+msgstr "O status deve ser Cancelado ou Concluído"
+
+#: erpnext/controllers/status_updater.py:17
+msgid "Status must be one of {0}"
+msgstr "O status deve ser um destes: {0}"
+
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.py:271
+msgid "Status set to rejected as there are one or more rejected readings."
+msgstr "Status definido como rejeitado, pois há uma ou mais leituras rejeitadas."
+
+#. Description of the 'Supplier Details' (Text) field in DocType 'Supplier'
+#: erpnext/buying/doctype/supplier/supplier.json
+msgid "Statutory info and other general information about your Supplier"
+msgstr "Informações legais e outras informações gerais sobre seu fornecedor"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#. Group in Incoterm's connections
+#. Label of a Card Break in the Home Workspace
+#. Name of a Workspace
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/item_tax_template/item_tax_template_dashboard.py:11
+#: erpnext/accounts/report/account_balance/account_balance.js:57
+#: erpnext/manufacturing/doctype/bom/bom_dashboard.py:14
+#: erpnext/setup/doctype/incoterm/incoterm.json
+#: erpnext/setup/workspace/home/home.json
+#: erpnext/stock/doctype/material_request/material_request_dashboard.py:17
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Stock"
+msgstr "Estoque"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:96
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:158
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1355
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1381
+#: erpnext/accounts/report/account_balance/account_balance.js:58
+msgid "Stock Adjustment"
+msgstr "Ajuste de estoque"
+
+#. Label of the stock_adjustment_account (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Stock Adjustment Account"
+msgstr "Conta de ajuste de estoque"
+
+#. Label of the stock_ageing_section (Section Break) field in DocType 'Stock
+#. Closing Balance'
+#. Name of a report
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
+#: erpnext/stock/report/stock_ageing/stock_ageing.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Stock Ageing"
+msgstr "Envelhecimento do estoque"
+
+#. Name of a report
+#. Label of a Link in the Stock Workspace
+#: erpnext/public/js/stock_analytics.js:7
+#: erpnext/stock/report/stock_analytics/stock_analytics.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Stock Analytics"
+msgstr "Análise de estoque"
+
+#. Label of the stock_asset_account (Link) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Stock Asset Account"
+msgstr "Conta de ativo de estoque"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:36
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:59
+msgid "Stock Assets"
+msgstr "Ativos de estoque"
+
+#: erpnext/stock/report/item_price_stock/item_price_stock.py:34
+msgid "Stock Available"
+msgstr "Disponível em estoque"
+
+#. Label of the stock_balance (Button) field in DocType 'Quotation Item'
+#. Name of a report
+#. Label of a Link in the Stock Workspace
+#. Label of a shortcut in the Stock Workspace
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/stock/doctype/item/item.js:90
+#: erpnext/stock/doctype/warehouse/warehouse.js:61
+#: erpnext/stock/report/stock_balance/stock_balance.json
+#: erpnext/stock/report/warehouse_wise_stock_balance/warehouse_wise_stock_balance.py:107
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Stock Balance"
+msgstr "Saldo de estoque"
+
+#: erpnext/stock/doctype/quick_stock_balance/quick_stock_balance.js:15
+msgid "Stock Balance Report"
+msgstr "Relatório de saldo de estoque"
+
+#: erpnext/stock/page/warehouse_capacity_summary/warehouse_capacity_summary_header.html:10
+msgid "Stock Capacity"
+msgstr "Capacidade de estoque"
+
+#. Label of the stock_closing_tab (Tab Break) field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Stock Closing"
+msgstr "Fechamento de estoque"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
+msgid "Stock Closing Balance"
+msgstr "Saldo de fechamento de estoque"
+
+#. Label of the stock_closing_entry (Link) field in DocType 'Stock Closing
+#. Balance'
+#. Name of a DocType
+#: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.json
+msgid "Stock Closing Entry"
+msgstr "Lançamento de fechamento de estoque"
+
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:77
+msgid "Stock Closing Entry {0} already exists for the selected date range"
+msgstr "O lançamento de fechamento de estoque {0} já existe para o intervalo de datas selecionado"
+
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:98
+msgid "Stock Closing Entry {0} has been queued for processing, system will take sometime to complete it."
+msgstr "O lançamento de fechamento de estoque {0} foi enfileirado para processamento; o sistema levará algum tempo para concluí-lo."
+
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry_dashboard.py:9
+msgid "Stock Closing Log"
+msgstr "Log de fechamento de estoque"
+
+#. Label of the warehouse_and_reference (Section Break) field in DocType 'POS
+#. Invoice Item'
+#. Label of the warehouse_and_reference (Section Break) field in DocType 'Sales
+#. Invoice Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+msgid "Stock Details"
+msgstr "Detalhes do estoque"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:864
+msgid "Stock Entries already created for Work Order {0}: {1}"
+msgstr "Movimentos de estoque já criados para a ordem de trabalho {0}: {1}"
+
+#. Label of the stock_entry (Link) field in DocType 'Journal Entry'
+#. Label of a Link in the Manufacturing Workspace
+#. Option for the 'Receipt Document Type' (Select) field in DocType 'Landed
+#. Cost Item'
+#. Option for the 'Receipt Document Type' (Select) field in DocType 'Landed
+#. Cost Purchase Receipt'
+#. Option for the 'Reference Type' (Select) field in DocType 'Quality
+#. Inspection'
+#. Name of a DocType
+#. Option for the 'From Voucher Type' (Select) field in DocType 'Stock
+#. Reservation Entry'
+#. Label of a Link in the Stock Workspace
+#. Label of a shortcut in the Stock Workspace
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
+#: erpnext/stock/doctype/landed_cost_purchase_receipt/landed_cost_purchase_receipt.json
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Stock Entry"
+msgstr "Movimento de estoque"
+
+#. Label of the outgoing_stock_entry (Link) field in DocType 'Stock Entry'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Stock Entry (Outward GIT)"
+msgstr "Movimento de estoque (GIT de saída)"
+
+#. Label of the ste_detail (Data) field in DocType 'Stock Entry Detail'
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "Stock Entry Child"
+msgstr "Registro filho do movimento de estoque"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "Stock Entry Detail"
+msgstr "Detalhe do movimento de estoque"
+
+#. Label of the stock_entry_item (Data) field in DocType 'Landed Cost Item'
+#: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
+msgid "Stock Entry Item"
+msgstr "Item do movimento de estoque"
+
+#. Label of the stock_entry_type (Link) field in DocType 'Stock Entry'
+#. Name of a DocType
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+msgid "Stock Entry Type"
+msgstr "Tipo de movimento de estoque"
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:1426
+msgid "Stock Entry has been already created against this Pick List"
+msgstr "Já foi criado um movimento de estoque para esta lista de separação"
+
+#: erpnext/stock/doctype/batch/batch.js:136
+msgid "Stock Entry {0} created"
+msgstr "Movimento de estoque {0} criado"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:1370
+msgid "Stock Entry {0} has created"
+msgstr "O movimento de estoque {0} foi criado"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:1284
+msgid "Stock Entry {0} is not submitted"
+msgstr "O movimento de estoque {0} não foi enviado"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:83
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:142
+msgid "Stock Expenses"
+msgstr "Despesas com estoque"
+
+#. Label of the stock_frozen_upto (Date) field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Stock Frozen Up To"
+msgstr "Estoque congelado até"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:37
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:60
+msgid "Stock In Hand"
+msgstr "Estoque em mãos"
+
+#. Label of the stock_items (Table) field in DocType 'Asset Capitalization'
+#. Label of the stock_items (Table) field in DocType 'Asset Repair'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+msgid "Stock Items"
+msgstr "Itens de estoque"
+
+#. Name of a report
+#. Label of a Link in the Stock Workspace
+#. Label of a shortcut in the Stock Workspace
+#: erpnext/public/js/controllers/stock_controller.js:67
+#: erpnext/public/js/utils/ledger_preview.js:37
+#: erpnext/stock/doctype/item/item.js:100
+#: erpnext/stock/doctype/item/item_dashboard.py:8
+#: erpnext/stock/report/stock_ledger/stock_ledger.json
+#: erpnext/stock/workspace/stock/stock.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:35
+msgid "Stock Ledger"
+msgstr "Razão de estoque"
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:9
+msgid "Stock Ledger Entries and GL Entries are reposted for the selected Purchase Receipts"
+msgstr "Os lançamentos do razão de estoque e do razão contábil foram reprocessados para os recebimentos de compra selecionados"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
+#: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:113
+#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:138
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:30
+msgid "Stock Ledger Entry"
+msgstr "Lançamento do razão de estoque"
+
+#: erpnext/stock/report/incorrect_stock_value_report/incorrect_stock_value_report.py:98
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:110
+msgid "Stock Ledger ID"
+msgstr "ID do razão de estoque"
+
+#. Name of a report
+#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.json
+msgid "Stock Ledger Invariant Check"
+msgstr "Verificação de invariantes do razão de estoque"
+
+#. Name of a report
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.json
+msgid "Stock Ledger Variance"
+msgstr "Variação do razão de estoque"
+
+#. Description of the 'Repost Only Accounting Ledgers' (Check) field in DocType
+#. 'Repost Item Valuation'
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+msgid "Stock Ledgers won’t be reposted."
+msgstr "Os livros razão de estoque não serão reprocessados."
+
+#: erpnext/stock/doctype/batch/batch.js:79
+#: erpnext/stock/doctype/item/item.js:561
+msgid "Stock Levels"
+msgstr "Níveis de estoque"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:160
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:273
+msgid "Stock Liabilities"
+msgstr "Passivos de estoque"
+
+#. Name of a role
+#: erpnext/accounts/doctype/fiscal_year/fiscal_year.json
+#: erpnext/assets/doctype/asset_movement/asset_movement.json
+#: erpnext/assets/doctype/location/location.json
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/selling/doctype/product_bundle/product_bundle.json
+#: erpnext/setup/doctype/incoterm/incoterm.json
+#: erpnext/setup/doctype/item_group/item_group.json
+#: erpnext/setup/doctype/uom/uom.json erpnext/stock/doctype/bin/bin.json
+#: erpnext/stock/doctype/customs_tariff_number/customs_tariff_number.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/item_alternative/item_alternative.json
+#: erpnext/stock/doctype/item_manufacturer/item_manufacturer.json
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.json
+#: erpnext/stock/doctype/manufacturer/manufacturer.json
+#: erpnext/stock/doctype/material_request/material_request.json
+#: erpnext/stock/doctype/packing_slip/packing_slip.json
+#: erpnext/stock/doctype/pick_list/pick_list.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.json
+#: erpnext/stock/doctype/quick_stock_balance/quick_stock_balance.json
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+#: erpnext/stock/doctype/serial_no/serial_no.json
+#: erpnext/stock/doctype/shipment/shipment.json
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+#: erpnext/stock/doctype/warehouse_type/warehouse_type.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Stock Manager"
+msgstr "Gerente de estoque"
+
+#: erpnext/stock/doctype/item/item_dashboard.py:34
+msgid "Stock Movement"
+msgstr "Movimentação de estoque"
+
+#. Option for the 'Status' (Select) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Stock Partially Reserved"
+msgstr "Estoque parcialmente reservado"
+
+#. Label of the stock_planning_tab (Tab Break) field in DocType 'Stock
+#. Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Stock Planning"
+msgstr "Planejamento de estoque"
+
+#. Name of a report
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/doctype/item/item.js:110
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Stock Projected Qty"
+msgstr "Qtd. projetada de estoque"
+
+#. Label of the stock_qty (Float) field in DocType 'BOM Creator Item'
+#. Label of the stock_qty (Float) field in DocType 'BOM Explosion Item'
+#. Label of the stock_qty (Float) field in DocType 'BOM Item'
+#. Label of the stock_qty (Float) field in DocType 'Delivery Schedule Item'
+#. Label of the stock_qty (Float) field in DocType 'Material Request Item'
+#: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.py:251
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:303
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+#: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+#: erpnext/selling/doctype/delivery_schedule_item/delivery_schedule_item.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/report/stock_qty_vs_batch_qty/stock_qty_vs_batch_qty.py:34
+#: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.py:34
+msgid "Stock Qty"
+msgstr "Quantidade em estoque"
+
+#. Name of a report
+#: erpnext/stock/report/stock_qty_vs_batch_qty/stock_qty_vs_batch_qty.json
+msgid "Stock Qty vs Batch Qty"
+msgstr "Qtd. em estoque vs. qtd. do lote"
+
+#. Name of a report
+#: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.json
+msgid "Stock Qty vs Serial No Count"
+msgstr "Qtd. em estoque vs. contagem de Nº de Série"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#. Label of the stock_received_but_not_billed (Link) field in DocType 'Company'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:161
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:274
+#: erpnext/accounts/report/account_balance/account_balance.js:59
+#: erpnext/setup/doctype/company/company.json
+msgid "Stock Received But Not Billed"
+msgstr "Estoque recebido, mas não faturado"
+
+#. Label of a Link in the Home Workspace
+#. Name of a DocType
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Reconciliation'
+#. Label of a Link in the Stock Workspace
+#: erpnext/setup/workspace/home/home.json
+#: erpnext/stock/doctype/item/item.py:617
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Stock Reconciliation"
+msgstr "Conciliação de estoque"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
+msgid "Stock Reconciliation Item"
+msgstr "Item de conciliação de estoque"
+
+#: erpnext/stock/doctype/item/item.py:617
+msgid "Stock Reconciliations"
+msgstr "Reconciliações de estoque"
+
+#. Label of a Card Break in the Stock Workspace
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Stock Reports"
+msgstr "Relatórios de estoque"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.json
+msgid "Stock Reposting Settings"
+msgstr "Configurações de reprocessamento de estoque"
+
+#. Label of the stock_reservation_tab (Tab Break) field in DocType 'Stock
+#. Settings'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:263
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:271
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:277
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:289
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:297
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:303
+#: erpnext/manufacturing/doctype/work_order/work_order.js:896
+#: erpnext/manufacturing/doctype/work_order/work_order.js:905
+#: erpnext/manufacturing/doctype/work_order/work_order.js:912
+#: erpnext/manufacturing/doctype/work_order/work_order_dashboard.py:14
+#: erpnext/public/js/stock_reservation.js:12
+#: erpnext/selling/doctype/sales_order/sales_order.js:94
+#: erpnext/selling/doctype/sales_order/sales_order.js:109
+#: erpnext/selling/doctype/sales_order/sales_order.js:122
+#: erpnext/selling/doctype/sales_order/sales_order.js:250
+#: erpnext/stock/doctype/pick_list/pick_list.js:150
+#: erpnext/stock/doctype/pick_list/pick_list.js:165
+#: erpnext/stock/doctype/pick_list/pick_list.js:170
+#: erpnext/stock/doctype/stock_entry/stock_entry_dashboard.py:12
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:719
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:674
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1236
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1643
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1656
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1670
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1684
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1698
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1715
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+#: erpnext/stock/doctype/stock_settings/stock_settings.py:178
+#: erpnext/stock/doctype/stock_settings/stock_settings.py:190
+#: erpnext/stock/doctype/stock_settings/stock_settings.py:204
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:182
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:195
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:207
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:220
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order_dashboard.py:14
+msgid "Stock Reservation"
+msgstr "Reserva de estoque"
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1824
+msgid "Stock Reservation Entries Cancelled"
+msgstr "Lançamentos de reserva de estoque cancelados"
+
+#: erpnext/controllers/subcontracting_inward_controller.py:995
+#: erpnext/manufacturing/doctype/production_plan/production_plan.py:2211
+#: erpnext/manufacturing/doctype/work_order/work_order.py:2059
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1776
+msgid "Stock Reservation Entries Created"
+msgstr "Lançamentos de reserva de estoque criados"
+
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.py:445
+msgid "Stock Reservation Entries created"
+msgstr "Lançamentos de reserva de estoque criados"
+
+#. Name of a DocType
+#: erpnext/public/js/stock_reservation.js:309
+#: erpnext/selling/doctype/sales_order/sales_order.js:467
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:388
+#: erpnext/stock/report/reserved_stock/reserved_stock.js:53
+#: erpnext/stock/report/reserved_stock/reserved_stock.py:171
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:343
+msgid "Stock Reservation Entry"
+msgstr "Lançamento de reserva de estoque"
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:571
+msgid "Stock Reservation Entry cannot be updated as it has been delivered."
+msgstr "O lançamento de reserva de estoque não pode ser atualizado, pois já foi entregue."
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:565
+msgid "Stock Reservation Entry created against a Pick List cannot be updated. If you need to make changes, we recommend canceling the existing entry and creating a new one."
+msgstr "O lançamento de reserva de estoque criado a partir de uma lista de separação não pode ser atualizado. Se precisar fazer alterações, recomendamos cancelar o lançamento existente e criar um novo."
+
+#: erpnext/stock/doctype/delivery_note/delivery_note.py:555
+msgid "Stock Reservation Warehouse Mismatch"
+msgstr "Divergência de armazém na reserva de estoque"
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:683
+msgid "Stock Reservation can only be created against {0}."
+msgstr "A reserva de estoque só pode ser criada para {0}."
+
+#. Option for the 'Status' (Select) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Stock Reserved"
+msgstr "Estoque reservado"
+
+#. Label of the stock_reserved_qty (Float) field in DocType 'Material Request
+#. Plan Item'
+#. Label of the stock_reserved_qty (Float) field in DocType 'Production Plan
+#. Sub Assembly Item'
+#. Label of the stock_reserved_qty (Float) field in DocType 'Work Order Item'
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
+msgid "Stock Reserved Qty"
+msgstr "Qtd. reservada em estoque"
+
+#. Label of the stock_reserved_qty (Float) field in DocType 'Sales Order Item'
+#. Label of the stock_reserved_qty (Float) field in DocType 'Pick List Item'
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/pick_list_item/pick_list_item.json
+msgid "Stock Reserved Qty (in Stock UOM)"
+msgstr "Qtd. reservada em estoque (na UM de estoque)"
+
+#. Label of the auto_accounting_for_stock_settings (Section Break) field in
+#. DocType 'Company'
+#. Label of a shortcut in the Settings Workspace
+#. Name of a DocType
+#. Label of a Link in the Stock Workspace
+#: erpnext/selling/doctype/selling_settings/selling_settings.py:93
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/setup/workspace/settings/settings.json
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:675
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Stock Settings"
+msgstr "Configurações de estoque"
+
+#. Label of the stock_summary_tab (Tab Break) field in DocType 'Plant Floor'
+#. Label of the stock_summary (HTML) field in DocType 'Plant Floor'
+#. Label of a Link in the Stock Workspace
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.json
+#: erpnext/stock/page/stock_balance/stock_balance.js:4
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Stock Summary"
+msgstr "Resumo do estoque"
+
+#. Label of a Card Break in the Stock Workspace
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Stock Transactions"
+msgstr "Transações de estoque"
+
+#. Label of the section_break_9 (Section Break) field in DocType 'Stock
+#. Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Stock Transactions Settings"
+msgstr "Configurações de transações de estoque"
+
+#. Label of the stock_uom (Link) field in DocType 'POS Invoice Item'
+#. Label of the stock_uom (Link) field in DocType 'Purchase Invoice Item'
+#. Label of the stock_uom (Link) field in DocType 'Sales Invoice Item'
+#. Label of the stock_uom (Link) field in DocType 'Asset Capitalization Stock
+#. Item'
+#. Label of the stock_uom (Link) field in DocType 'Purchase Order Item'
+#. Label of the stock_uom (Link) field in DocType 'Request for Quotation Item'
+#. Label of the stock_uom (Link) field in DocType 'Supplier Quotation Item'
+#. Label of the stock_uom (Link) field in DocType 'BOM Creator Item'
+#. Label of the stock_uom (Link) field in DocType 'BOM Explosion Item'
+#. Label of the stock_uom (Link) field in DocType 'BOM Item'
+#. Label of the stock_uom (Link) field in DocType 'BOM Scrap Item'
+#. Label of the stock_uom (Link) field in DocType 'Job Card Item'
+#. Label of the stock_uom (Link) field in DocType 'Job Card Scrap Item'
+#. Label of the stock_uom (Link) field in DocType 'Production Plan Sub Assembly
+#. Item'
+#. Label of the stock_uom (Link) field in DocType 'Work Order'
+#. Label of the stock_uom (Link) field in DocType 'Work Order Item'
+#. Label of the stock_uom (Link) field in DocType 'Delivery Schedule Item'
+#. Label of the stock_uom (Link) field in DocType 'Quotation Item'
+#. Label of the stock_uom (Link) field in DocType 'Sales Order Item'
+#. Label of the stock_uom (Link) field in DocType 'Delivery Note Item'
+#. Label of the stock_uom (Link) field in DocType 'Item Lead Time'
+#. Label of the stock_uom (Link) field in DocType 'Material Request Item'
+#. Label of the stock_uom (Link) field in DocType 'Pick List Item'
+#. Label of the stock_uom (Link) field in DocType 'Purchase Receipt Item'
+#. Label of the stock_uom (Link) field in DocType 'Putaway Rule'
+#. Label of the stock_uom (Link) field in DocType 'Stock Closing Balance'
+#. Label of the stock_uom (Link) field in DocType 'Stock Entry Detail'
+#. Label of the stock_uom (Link) field in DocType 'Stock Ledger Entry'
+#. Label of the stock_uom (Link) field in DocType 'Stock Reconciliation Item'
+#. Label of the stock_uom (Link) field in DocType 'Stock Reservation Entry'
+#. Label of the stock_uom (Link) field in DocType 'Subcontracting Inward Order
+#. Item'
+#. Label of the stock_uom (Link) field in DocType 'Subcontracting Inward Order
+#. Received Item'
+#. Label of the stock_uom (Link) field in DocType 'Subcontracting Inward Order
+#. Scrap Item'
+#. Label of the stock_uom (Link) field in DocType 'Subcontracting Order Item'
+#. Label of the stock_uom (Link) field in DocType 'Subcontracting Order
+#. Supplied Item'
+#. Label of the stock_uom (Link) field in DocType 'Subcontracting Receipt Item'
+#. Label of the stock_uom (Link) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.py:253
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:305
+#: erpnext/assets/doctype/asset_capitalization_stock_item/asset_capitalization_stock_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/request_for_quotation_item/request_for_quotation_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:213
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.py:216
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+#: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+#: erpnext/manufacturing/doctype/bom_scrap_item/bom_scrap_item.json
+#: erpnext/manufacturing/doctype/job_card_item/job_card_item.json
+#: erpnext/manufacturing/doctype/job_card_scrap_item/job_card_scrap_item.json
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
+#: erpnext/selling/doctype/delivery_schedule_item/delivery_schedule_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/doctype/pick_list_item/pick_list_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.json
+#: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
+#: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+#: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.py:35
+#: erpnext/stock/report/reserved_stock/reserved_stock.py:110
+#: erpnext/stock/report/stock_balance/stock_balance.py:436
+#: erpnext/stock/report/stock_ledger/stock_ledger.py:215
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_item/subcontracting_inward_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_scrap_item/subcontracting_inward_order_scrap_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
+msgid "Stock UOM"
+msgstr "UM de estoque"
+
+#. Label of the conversion_factor_section (Section Break) field in DocType
+#. 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Stock UOM Quantity"
+msgstr "Quantidade na UM de estoque"
+
+#: erpnext/public/js/stock_reservation.js:230
+#: erpnext/selling/doctype/sales_order/sales_order.js:451
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:327
+msgid "Stock Unreservation"
+msgstr "Liberação da reserva de estoque"
+
+#. Label of the stock_uom (Link) field in DocType 'Purchase Order Item
+#. Supplied'
+#. Label of the stock_uom (Link) field in DocType 'Purchase Receipt Item
+#. Supplied'
+#: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
+#: erpnext/buying/doctype/purchase_receipt_item_supplied/purchase_receipt_item_supplied.json
+msgid "Stock Uom"
+msgstr "UM de estoque"
+
+#. Name of a role
+#: erpnext/accounts/doctype/fiscal_year/fiscal_year.json
+#: erpnext/assets/doctype/location/location.json
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/selling/doctype/product_bundle/product_bundle.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/setup/doctype/brand/brand.json
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/setup/doctype/incoterm/incoterm.json
+#: erpnext/setup/doctype/item_group/item_group.json
+#: erpnext/setup/doctype/terms_and_conditions/terms_and_conditions.json
+#: erpnext/setup/doctype/territory/territory.json
+#: erpnext/setup/doctype/uom/uom.json erpnext/stock/doctype/bin/bin.json
+#: erpnext/stock/doctype/customs_tariff_number/customs_tariff_number.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.json
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/item_alternative/item_alternative.json
+#: erpnext/stock/doctype/item_manufacturer/item_manufacturer.json
+#: erpnext/stock/doctype/manufacturer/manufacturer.json
+#: erpnext/stock/doctype/material_request/material_request.json
+#: erpnext/stock/doctype/packing_slip/packing_slip.json
+#: erpnext/stock/doctype/pick_list/pick_list.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.json
+#: erpnext/stock/doctype/quality_inspection_parameter/quality_inspection_parameter.json
+#: erpnext/stock/doctype/quality_inspection_parameter_group/quality_inspection_parameter_group.json
+#: erpnext/stock/doctype/quality_inspection_template/quality_inspection_template.json
+#: erpnext/stock/doctype/quick_stock_balance/quick_stock_balance.json
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+#: erpnext/stock/doctype/serial_no/serial_no.json
+#: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+#: erpnext/stock/doctype/warehouse/warehouse.json
+#: erpnext/stock/doctype/warehouse_type/warehouse_type.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Stock User"
+msgstr "Usuário de estoque"
+
+#. Label of the stock_validations_tab (Tab Break) field in DocType 'Stock
+#. Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Stock Validations"
+msgstr "Validações de estoque"
+
+#. Label of the stock_value (Float) field in DocType 'Bin'
+#. Label of the value (Currency) field in DocType 'Quick Stock Balance'
+#: erpnext/stock/dashboard_chart_source/stock_value_by_item_group/stock_value_by_item_group.py:35
+#: erpnext/stock/dashboard_chart_source/warehouse_wise_stock_value/warehouse_wise_stock_value.py:50
+#: erpnext/stock/doctype/bin/bin.json
+#: erpnext/stock/doctype/quick_stock_balance/quick_stock_balance.json
+#: erpnext/stock/report/incorrect_stock_value_report/incorrect_stock_value_report.py:134
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:126
+msgid "Stock Value"
+msgstr "Valor do estoque"
+
+#. Label of a chart in the Stock Workspace
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Stock Value by Item Group"
+msgstr "Valor do estoque por grupo de itens"
+
+#. Name of a report
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.json
+msgid "Stock and Account Value Comparison"
+msgstr "Comparação entre valor do estoque e valor contábil"
+
+#. Label of the stock_tab (Tab Break) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Stock and Manufacturing"
+msgstr "Estoque e manufatura"
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:255
+msgid "Stock cannot be reserved in group warehouse {0}."
+msgstr "O estoque não pode ser reservado no armazém de grupo {0}."
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1588
+msgid "Stock cannot be reserved in the group warehouse {0}."
+msgstr "O estoque não pode ser reservado no armazém de grupo {0}."
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:734
+msgid "Stock cannot be updated against Purchase Receipt {0}"
+msgstr "O estoque não pode ser atualizado com base no recebimento de compra {0}"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1202
+msgid "Stock cannot be updated against the following Delivery Notes: {0}"
+msgstr "O estoque não pode ser atualizado com base nas seguintes notas de entrega: {0}"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1271
+msgid "Stock cannot be updated because the invoice contains a drop shipping item. Please disable 'Update Stock' or remove the drop shipping item."
+msgstr "O estoque não pode ser atualizado porque a fatura contém um item de entrega direta. Desative 'Atualizar estoque' ou remova o item de entrega direta."
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1130
+msgid "Stock has been unreserved for work order {0}."
+msgstr "A reserva de estoque foi liberada para a ordem de trabalho {0}."
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:359
+msgid "Stock not available for Item {0} in Warehouse {1}."
+msgstr "Estoque indisponível para o item {0} no armazém {1}."
+
+#: erpnext/selling/page/point_of_sale/pos_controller.js:859
+msgid "Stock quantity not enough for Item Code: {0} under warehouse {1}. Available quantity {2} {3}."
+msgstr "Quantidade em estoque insuficiente para o código do item: {0} no armazém {1}. Quantidade disponível {2} {3}."
+
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:256
+msgid "Stock transactions before {0} are frozen"
+msgstr "As transações de estoque anteriores a {0} estão congeladas"
+
+#. Description of the 'Freeze Stocks Older Than (Days)' (Int) field in DocType
+#. 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Stock transactions that are older than the mentioned days cannot be modified."
+msgstr "Transações de estoque mais antigas que a quantidade de dias informada não podem ser modificadas."
+
+#. Description of the 'Auto Reserve Stock for Sales Order on Purchase' (Check)
+#. field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Stock will be reserved on submission of <b>Purchase Receipt</b> created against Material Request for Sales Order."
+msgstr "O estoque será reservado ao enviar o <b>Recebimento de Compra</b> criado a partir de uma Requisição de Material para Pedido de Venda."
+
+#: erpnext/stock/utils.py:576
+msgid "Stock/Accounts can not be frozen as processing of backdated entries is going on. Please try again later."
+msgstr "Estoque/Contas não podem ser congelados enquanto o processamento de lançamentos retroativos estiver em andamento. Tente novamente mais tarde."
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Stone"
+msgstr "Pedra"
+
+#. Label of the stop_reason (Select) field in DocType 'Downtime Entry'
+#: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json
+#: erpnext/manufacturing/report/downtime_analysis/downtime_analysis.py:94
+msgid "Stop Reason"
+msgstr "Motivo da parada"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:1055
+msgid "Stopped Work Order cannot be cancelled, Unstop it first to cancel"
+msgstr "A ordem de trabalho parada não pode ser cancelada. Reative-a antes de cancelar."
+
+#: erpnext/setup/doctype/company/company.py:375
+#: erpnext/setup/setup_wizard/operations/defaults_setup.py:33
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:528
+#: erpnext/stock/doctype/item/item.py:285
+msgid "Stores"
+msgstr "Almoxarifado"
+
+#. Option for the 'Depreciation Method' (Select) field in DocType 'Asset'
+#. Option for the 'Depreciation Method' (Select) field in DocType 'Asset
+#. Depreciation Schedule'
+#. Option for the 'Depreciation Method' (Select) field in DocType 'Asset
+#. Finance Book'
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+#: erpnext/assets/doctype/asset_finance_book/asset_finance_book.json
+msgid "Straight Line"
+msgstr "Linear"
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:58
+msgid "Sub Assemblies"
+msgstr "Subconjuntos"
+
+#. Label of the raw_materials_tab (Tab Break) field in DocType 'BOM Creator'
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+msgid "Sub Assemblies & Raw Materials"
+msgstr "Subconjuntos e matérias-primas"
+
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:321
+msgid "Sub Assembly Item"
+msgstr "Item de subconjunto"
+
+#. Label of the production_item (Link) field in DocType 'Production Plan Sub
+#. Assembly Item'
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+msgid "Sub Assembly Item Code"
+msgstr "Código do item de subconjunto"
+
+#. Label of the sub_assembly_item_reference (Data) field in DocType 'Material
+#. Request Plan Item'
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+msgid "Sub Assembly Item Reference"
+msgstr "Referência do item de subconjunto"
+
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:430
+msgid "Sub Assembly Item is mandatory"
+msgstr "O item de subconjunto é obrigatório"
+
+#. Label of the section_break_24 (Section Break) field in DocType 'Production
+#. Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Sub Assembly Items"
+msgstr "Itens de subconjunto"
+
+#. Label of the sub_assembly_warehouse (Link) field in DocType 'Production
+#. Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Sub Assembly Warehouse"
+msgstr "Armazém de subconjuntos"
+
+#. Label of the operation (Link) field in DocType 'Job Card Time Log'
+#. Name of a DocType
+#: erpnext/manufacturing/doctype/job_card/job_card.js:349
+#: erpnext/manufacturing/doctype/job_card_time_log/job_card_time_log.json
+#: erpnext/manufacturing/doctype/sub_operation/sub_operation.json
+msgid "Sub Operation"
+msgstr "Suboperação"
+
+#. Label of the sub_operations (Table) field in DocType 'Job Card'
+#. Label of the section_break_21 (Tab Break) field in DocType 'Job Card'
+#. Label of the sub_operations_section (Section Break) field in DocType
+#. 'Operation'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/operation/operation.json
+msgid "Sub Operations"
+msgstr "Suboperações"
+
+#. Label of the procedure (Link) field in DocType 'Quality Procedure Process'
+#: erpnext/quality_management/doctype/quality_procedure_process/quality_procedure_process.json
+msgid "Sub Procedure"
+msgstr "Subprocedimento"
+
+#: erpnext/accounts/print_format/sales_invoice_print/sales_invoice_print.html:129
+msgid "Sub Total"
+msgstr "Subtotal"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.py:600
+msgid "Sub assembly item references are missing. Please fetch the sub assemblies and raw materials again."
+msgstr "Faltam referências dos itens de subconjunto. Busque novamente os subconjuntos e as matérias-primas."
+
+#: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.py:127
+msgid "Sub-assembly BOM Count"
+msgstr "Quantidade de BOM de subconjunto"
+
+#: erpnext/buying/doctype/purchase_order/purchase_order_dashboard.py:34
+msgid "Sub-contracting"
+msgstr "Subcontratação"
+
+#. Option for the 'Manufacturing Type' (Select) field in DocType 'Production
+#. Plan Sub Assembly Item'
+#: erpnext/manufacturing/doctype/bom/bom_dashboard.py:17
+#: erpnext/manufacturing/doctype/production_plan/production_plan_dashboard.py:12
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+msgid "Subcontract"
+msgstr "Subcontratar"
+
+#. Label of the subcontract_bom_section (Section Break) field in DocType
+#. 'Purchase Receipt Item'
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Subcontract BOM"
+msgstr "BOM de subcontratação"
+
+#: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.js:36
+#: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.py:128
+#: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.py:22
+#: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.py:22
+msgid "Subcontract Order"
+msgstr "Pedido de subcontratação"
+
+#. Name of a report
+#. Label of a Link in the Manufacturing Workspace
+#. Label of a Link in the Subcontracting Workspace
+#: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.json
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/subcontracting/workspace/subcontracting/subcontracting.json
+msgid "Subcontract Order Summary"
+msgstr "Resumo do pedido de subcontratação"
+
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:83
+msgid "Subcontract Return"
+msgstr "Devolução de subcontratação"
+
+#. Label of the subcontracted_item (Link) field in DocType 'Stock Entry Detail'
+#: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.py:136
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "Subcontracted Item"
+msgstr "Item subcontratado"
+
+#. Name of a report
+#. Label of a Link in the Buying Workspace
+#. Label of a Link in the Manufacturing Workspace
+#. Label of a Link in the Stock Workspace
+#. Label of a Link in the Subcontracting Workspace
+#: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.json
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/stock/workspace/stock/stock.json
+#: erpnext/subcontracting/workspace/subcontracting/subcontracting.json
+msgid "Subcontracted Item To Be Received"
+msgstr "Item subcontratado a receber"
+
+#: erpnext/stock/doctype/material_request/material_request.js:212
+msgid "Subcontracted Purchase Order"
+msgstr "Pedido de compra para subcontratação"
+
+#. Label of the subcontracted_qty (Float) field in DocType 'Purchase Order
+#. Item'
+#. Label of the subcontracted_qty (Float) field in DocType 'Sales Order Item'
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+msgid "Subcontracted Quantity"
+msgstr "Quantidade subcontratada"
+
+#. Name of a report
+#. Label of a Link in the Buying Workspace
+#. Label of a Link in the Manufacturing Workspace
+#. Label of a Link in the Stock Workspace
+#. Label of a Link in the Subcontracting Workspace
+#: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.json
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/stock/workspace/stock/stock.json
+#: erpnext/subcontracting/workspace/subcontracting/subcontracting.json
+msgid "Subcontracted Raw Materials To Be Transferred"
+msgstr "Matérias-primas subcontratadas a serem transferidas"
+
+#. Option for the 'Type' (Select) field in DocType 'Material Request Plan Item'
+#. Label of the subcontracting_section (Section Break) field in DocType
+#. 'Production Plan Sub Assembly Item'
+#. Label of a Card Break in the Manufacturing Workspace
+#. Option for the 'Purpose' (Select) field in DocType 'Material Request'
+#. Name of a Workspace
+#: erpnext/manufacturing/doctype/job_card/job_card_dashboard.py:10
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/stock/doctype/material_request/material_request.json
+#: erpnext/subcontracting/workspace/subcontracting/subcontracting.json
+msgid "Subcontracting"
+msgstr "Subcontratação"
+
+#. Label of a Link in the Manufacturing Workspace
+#. Name of a DocType
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
+msgid "Subcontracting BOM"
+msgstr "BOM de subcontratação"
+
+#. Label of the subcontracting_conversion_factor (Float) field in DocType
+#. 'Subcontracting Inward Order Item'
+#. Label of the subcontracting_conversion_factor (Float) field in DocType
+#. 'Subcontracting Order Item'
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_item/subcontracting_inward_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+msgid "Subcontracting Conversion Factor"
+msgstr "Fator de conversão de subcontratação"
+
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry'
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry Type'
+#. Label of a Link in the Subcontracting Workspace
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:132
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.js:158
+#: erpnext/subcontracting/workspace/subcontracting/subcontracting.json
+msgid "Subcontracting Delivery"
+msgstr "Entrega para subcontratação"
+
+#. Label of the subcontracting_inward_tab (Tab Break) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/sales_order/sales_order_dashboard.py:33
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Subcontracting Inward"
+msgstr "Entrada de subcontratação"
+
+#. Label of the subcontracting_inward_order (Link) field in DocType 'Work
+#. Order'
+#. Label of the subcontracting_inward_order (Link) field in DocType 'Stock
+#. Entry'
+#. Option for the 'Voucher Type' (Select) field in DocType 'Stock Reservation
+#. Entry'
+#. Option for the 'From Voucher Type' (Select) field in DocType 'Stock
+#. Reservation Entry'
+#. Name of a DocType
+#. Label of a Card Break in the Subcontracting Workspace
+#. Label of a Link in the Subcontracting Workspace
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/selling/doctype/sales_order/sales_order.js:1005
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
+#: erpnext/subcontracting/workspace/subcontracting/subcontracting.json
+msgid "Subcontracting Inward Order"
+msgstr "Ordem de entrada de subcontratação"
+
+#. Label of a number card in the Subcontracting Workspace
+#: erpnext/subcontracting/workspace/subcontracting/subcontracting.json
+msgid "Subcontracting Inward Order Count"
+msgstr "Quantidade de ordens de entrada de subcontratação"
+
+#. Label of the subcontracting_inward_order_item (Data) field in DocType 'Work
+#. Order'
+#. Name of a DocType
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_item/subcontracting_inward_order_item.json
+msgid "Subcontracting Inward Order Item"
+msgstr "Item da ordem de entrada de subcontratação"
+
+#. Name of a DocType
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
+msgid "Subcontracting Inward Order Received Item"
+msgstr "Item recebido da ordem de entrada de subcontratação"
+
+#. Name of a DocType
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_scrap_item/subcontracting_inward_order_scrap_item.json
+msgid "Subcontracting Inward Order Scrap Item"
+msgstr "Item de refugo da ordem de entrada de subcontratação"
+
+#. Name of a DocType
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_service_item/subcontracting_inward_order_service_item.json
+msgid "Subcontracting Inward Order Service Item"
+msgstr "Item de serviço da ordem de entrada de subcontratação"
+
+#. Label of the section_break_zwh6 (Section Break) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Subcontracting Inward Settings"
+msgstr "Configurações de entrada de subcontratação"
+
+#. Label of a Link in the Manufacturing Workspace
+#. Label of the subcontracting_order (Link) field in DocType 'Stock Entry'
+#. Option for the 'Voucher Type' (Select) field in DocType 'Stock Reservation
+#. Entry'
+#. Name of a DocType
+#. Label of the subcontracting_order (Link) field in DocType 'Subcontracting
+#. Receipt Item'
+#. Label of the subcontracting_order (Link) field in DocType 'Subcontracting
+#. Receipt Supplied Item'
+#: erpnext/buying/doctype/purchase_order/purchase_order.js:441
+#: erpnext/controllers/subcontracting_controller.py:1140
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:140
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
+msgid "Subcontracting Order"
+msgstr "Ordem de subcontratação"
+
+#. Description of the 'Auto Create Subcontracting Order' (Check) field in
+#. DocType 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Subcontracting Order (Draft) will be auto-created on submission of Purchase Order."
+msgstr "A ordem de subcontratação (rascunho) será criada automaticamente ao enviar o pedido de compra."
+
+#. Name of a DocType
+#. Label of the subcontracting_order_item (Data) field in DocType
+#. 'Subcontracting Receipt Item'
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Subcontracting Order Item"
+msgstr "Item da ordem de subcontratação"

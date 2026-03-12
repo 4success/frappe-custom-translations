@@ -1,0 +1,897 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Name of a DocType
+#: erpnext/manufacturing/doctype/job_card_scheduled_time/job_card_scheduled_time.json
+msgid "Job Card Scheduled Time"
+msgstr "Horario agendado do cartao de trabalho"
+
+#. Name of a DocType
+#: erpnext/manufacturing/doctype/job_card_scrap_item/job_card_scrap_item.json
+msgid "Job Card Scrap Item"
+msgstr "Item de sucata do cartao de trabalho"
+
+#. Name of a report
+#. Label of a Link in the Manufacturing Workspace
+#: erpnext/manufacturing/report/job_card_summary/job_card_summary.json
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+msgid "Job Card Summary"
+msgstr "Resumo do Cartão de Trabalho"
+
+#. Name of a DocType
+#: erpnext/manufacturing/doctype/job_card_time_log/job_card_time_log.json
+msgid "Job Card Time Log"
+msgstr "Registro de Tempo do Cartão de Trabalho"
+
+#. Label of the job_card_section (Tab Break) field in DocType 'Manufacturing
+#. Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Job Card and Capacity Planning"
+msgstr "Cartao de trabalho e planejamento de capacidade"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:1335
+msgid "Job Card {0} has been completed"
+msgstr "Cartao de trabalho {0} foi concluido"
+
+#. Label of the dashboard_tab (Tab Break) field in DocType 'Workstation'
+#: erpnext/manufacturing/doctype/workstation/workstation.json
+msgid "Job Cards"
+msgstr "Cartoes de Trabalho"
+
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.js:106
+msgid "Job Paused"
+msgstr "Tarefa pausada"
+
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.js:64
+#: erpnext/accounts/doctype/process_period_closing_voucher/process_period_closing_voucher.js:17
+msgid "Job Started"
+msgstr "Tarefa iniciada"
+
+#. Label of the job_title (Data) field in DocType 'Lead'
+#. Label of the job_title (Data) field in DocType 'Opportunity'
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+msgid "Job Title"
+msgstr "Cargo"
+
+#. Label of the supplier (Link) field in DocType 'Subcontracting Order'
+#. Label of the supplier (Link) field in DocType 'Subcontracting Receipt'
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Job Worker"
+msgstr ""
+
+#. Label of the supplier_address (Link) field in DocType 'Subcontracting Order'
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Job Worker Address"
+msgstr ""
+
+#. Label of the address_display (Text Editor) field in DocType 'Subcontracting
+#. Order'
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Job Worker Address Details"
+msgstr ""
+
+#. Label of the contact_person (Link) field in DocType 'Subcontracting Order'
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Job Worker Contact"
+msgstr ""
+
+#. Label of the supplier_currency (Link) field in DocType 'Subcontracting
+#. Order'
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Job Worker Currency"
+msgstr ""
+
+#. Label of the supplier_delivery_note (Data) field in DocType 'Subcontracting
+#. Receipt'
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Job Worker Delivery Note"
+msgstr ""
+
+#. Label of the supplier_name (Data) field in DocType 'Subcontracting Order'
+#. Label of the supplier_name (Data) field in DocType 'Subcontracting Receipt'
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Job Worker Name"
+msgstr ""
+
+#. Label of the supplier_warehouse (Link) field in DocType 'Subcontracting
+#. Order'
+#. Label of the supplier_warehouse (Link) field in DocType 'Subcontracting
+#. Receipt'
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Job Worker Warehouse"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:2575
+msgid "Job card {0} created"
+msgstr "Cartão de trabalho {0} criado"
+
+#: erpnext/utilities/bulk_transaction.py:74
+msgid "Job: {0} has been triggered for processing failed transactions"
+msgstr "Tarefa: {0} foi acionada para processar transacoes com falha"
+
+#. Label of the employment_details (Tab Break) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Joining"
+msgstr "Admissao"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Joule"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Joule/Meter"
+msgstr ""
+
+#: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.js:30
+msgid "Journal Entries"
+msgstr "Lancamentos Contabeis"
+
+#: erpnext/accounts/utils.py:1027
+msgid "Journal Entries {0} are un-linked"
+msgstr "Lançamentos contábeis {0} foram desvinculados"
+
+#. Name of a DocType
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
+#. Account'
+#. Option for the 'Journal Entry Type' (Select) field in DocType 'Journal Entry
+#. Template'
+#. Option for the 'Invoice Type' (Select) field in DocType 'Payment
+#. Reconciliation Invoice'
+#. Label of a Link in the Accounting Workspace
+#. Label of a Link in the Payables Workspace
+#. Label of a shortcut in the Payables Workspace
+#. Label of a shortcut in the Receivables Workspace
+#. Group in Asset's connections
+#. Label of the journal_entry (Link) field in DocType 'Asset Value Adjustment'
+#. Label of the journal_entry (Link) field in DocType 'Depreciation Schedule'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+#: erpnext/accounts/doctype/payment_reconciliation_invoice/payment_reconciliation_invoice.json
+#: erpnext/accounts/print_format/journal_auditing_voucher/journal_auditing_voucher.html:10
+#: erpnext/accounts/workspace/accounting/accounting.json
+#: erpnext/accounts/workspace/payables/payables.json
+#: erpnext/accounts/workspace/receivables/receivables.json
+#: erpnext/assets/doctype/asset/asset.js:307
+#: erpnext/assets/doctype/asset/asset.js:316
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.json
+#: erpnext/assets/doctype/depreciation_schedule/depreciation_schedule.json
+#: erpnext/templates/form_grid/bank_reconciliation_grid.html:3
+msgid "Journal Entry"
+msgstr "Lançamento contábil"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+msgid "Journal Entry Account"
+msgstr "Conta do lançamento contábil"
+
+#. Name of a DocType
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Journal Entry Template"
+msgstr "Modelo de Lancamento Contabil"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/journal_entry_template_account/journal_entry_template_account.json
+msgid "Journal Entry Template Account"
+msgstr "Conta de Modelo de Lançamento Contábil"
+
+#. Label of the voucher_type (Select) field in DocType 'Journal Entry Template'
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+msgid "Journal Entry Type"
+msgstr "Tipo de Lancamento Contabil"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:540
+msgid "Journal Entry for Asset scrapping cannot be cancelled. Please restore the Asset."
+msgstr "O lancamento contabil para baixa do ativo nao pode ser cancelado. Restaure o ativo."
+
+#. Label of the journal_entry_for_scrap (Link) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Journal Entry for Scrap"
+msgstr "Lancamento Contabil de Baixa"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:333
+msgid "Journal Entry type should be set as Depreciation Entry for asset depreciation"
+msgstr "O tipo de lancamento contabil deve ser definido como Lancamento de Depreciacao para a depreciacao do ativo"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:695
+msgid "Journal Entry {0} does not have account {1} or already matched against other voucher"
+msgstr "O lançamento contábil {0} não possui a conta {1} ou já foi conciliado com outro comprovante"
+
+#: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.js:97
+msgid "Journal entries have been created"
+msgstr "Os lancamentos contabeis foram criados"
+
+#. Label of the journals_section (Section Break) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Journals"
+msgstr "Lancamentos Contabeis"
+
+#. Description of a DocType
+#: erpnext/crm/doctype/campaign/campaign.json
+msgid "Keep Track of Sales Campaigns. Keep track of Leads, Quotations, Sales Order etc from Campaigns to gauge Return on Investment. "
+msgstr "Acompanhe campanhas de vendas. Acompanhe Leads, cotacoes, pedidos de venda etc. das campanhas para medir o retorno sobre o investimento. "
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kelvin"
+msgstr ""
+
+#. Label of a Card Break in the Buying Workspace
+#. Label of a Card Break in the Selling Workspace
+#. Label of a Card Break in the Stock Workspace
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/selling/workspace/selling/selling.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Key Reports"
+msgstr "Relatórios Principais"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kg"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kiloampere"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilocalorie"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilocoulomb"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilogram-Force"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilogram/Cubic Centimeter"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilogram/Cubic Meter"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilogram/Litre"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilohertz"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilojoule"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilometer"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilometer/Hour"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilopascal"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilopond"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilopound-Force"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilowatt"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kilowatt-Hour"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:879
+msgid "Kindly cancel the Manufacturing Entries first against the work order {0}."
+msgstr "Cancele primeiro os lancamentos de fabricacao vinculados a ordem de producao {0}."
+
+#: erpnext/public/js/utils/party.js:268
+msgid "Kindly select the company first"
+msgstr "Selecione primeiro a empresa"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Kip"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Knot"
+msgstr ""
+
+#. Option for the 'Default Stock Valuation Method' (Select) field in DocType
+#. 'Company'
+#. Option for the 'Valuation Method' (Select) field in DocType 'Item'
+#. Option for the 'Default Valuation Method' (Select) field in DocType 'Stock
+#. Settings'
+#. Option for the 'Pick Serial / Batch Based On' (Select) field in DocType
+#. 'Stock Settings'
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "LIFO"
+msgstr ""
+
+#. Label of the taxes (Table) field in DocType 'Landed Cost Voucher'
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.json
+msgid "Landed Cost"
+msgstr "Custo de Aquisicao"
+
+#. Label of the landed_cost_help (HTML) field in DocType 'Landed Cost Voucher'
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.json
+msgid "Landed Cost Help"
+msgstr "Ajuda sobre custo de aquisicao"
+
+#: erpnext/stock/report/landed_cost_report/landed_cost_report.py:18
+msgid "Landed Cost Id"
+msgstr "ID do custo de aquisicao"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
+msgid "Landed Cost Item"
+msgstr "Item de Custo de Aquisicao"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/landed_cost_purchase_receipt/landed_cost_purchase_receipt.json
+msgid "Landed Cost Purchase Receipt"
+msgstr "Recebimento de compra do custo de aquisicao"
+
+#. Name of a report
+#: erpnext/stock/report/landed_cost_report/landed_cost_report.json
+msgid "Landed Cost Report"
+msgstr "Relatorio de custo de aquisicao"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/landed_cost_taxes_and_charges/landed_cost_taxes_and_charges.json
+msgid "Landed Cost Taxes and Charges"
+msgstr "Impostos e encargos do custo de aquisicao"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/landed_cost_vendor_invoice/landed_cost_vendor_invoice.json
+msgid "Landed Cost Vendor Invoice"
+msgstr "Fatura do fornecedor do custo de aquisicao"
+
+#. Name of a DocType
+#. Label of a Link in the Stock Workspace
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:667
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:95
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Landed Cost Voucher"
+msgstr "Comprovante de Custo de Aquisicao"
+
+#. Label of the landed_cost_voucher_amount (Currency) field in DocType
+#. 'Purchase Invoice Item'
+#. Label of the landed_cost_voucher_amount (Currency) field in DocType
+#. 'Purchase Receipt Item'
+#. Label of the landed_cost_voucher_amount (Currency) field in DocType 'Stock
+#. Entry Detail'
+#. Label of the landed_cost_voucher_amount (Currency) field in DocType
+#. 'Subcontracting Receipt Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Landed Cost Voucher Amount"
+msgstr "Valor do comprovante de custo de aquisicao"
+
+#. Option for the 'Fulfilment Status' (Select) field in DocType 'Contract'
+#: erpnext/crm/doctype/contract/contract.json
+msgid "Lapsed"
+msgstr "Vencido"
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:274
+msgid "Large"
+msgstr "Grande"
+
+#. Label of the carbon_check_date (Date) field in DocType 'Vehicle'
+#: erpnext/setup/doctype/vehicle/vehicle.json
+msgid "Last Carbon Check"
+msgstr "Ultima verificacao de carbono"
+
+#: erpnext/crm/report/prospects_engaged_but_not_converted/prospects_engaged_but_not_converted.py:46
+msgid "Last Communication"
+msgstr "Último Contato"
+
+#: erpnext/crm/report/prospects_engaged_but_not_converted/prospects_engaged_but_not_converted.py:52
+msgid "Last Communication Date"
+msgstr "Data do Último Contato"
+
+#. Label of the last_completion_date (Date) field in DocType 'Asset Maintenance
+#. Task'
+#: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
+msgid "Last Completion Date"
+msgstr "Data da ultima conclusao"
+
+#: erpnext/accounts/doctype/account/account.py:658
+msgid "Last GL Entry update was done {}. This operation is not allowed while system is actively being used. Please wait for 5 minutes before retrying."
+msgstr "A ultima atualizacao do lancamento no razao geral foi feita {}. Esta operacao nao e permitida enquanto o sistema estiver em uso. Aguarde 5 minutos antes de tentar novamente."
+
+#. Label of the last_integration_date (Date) field in DocType 'Bank Account'
+#: erpnext/accounts/doctype/bank_account/bank_account.json
+msgid "Last Integration Date"
+msgstr "Data da ultima integracao"
+
+#: erpnext/manufacturing/dashboard_fixtures.py:138
+msgid "Last Month Downtime Analysis"
+msgstr "Análise de Tempo de Inatividade no Último Mês"
+
+#: erpnext/stock/doctype/shipment/shipment.js:275
+msgid "Last Name, Email or Phone/Mobile of the user are mandatory to continue."
+msgstr "Sobrenome, e-mail ou telefone/celular do usuario sao obrigatorios para continuar."
+
+#: erpnext/selling/report/inactive_customers/inactive_customers.py:81
+msgid "Last Order Amount"
+msgstr "Valor do Último Pedido"
+
+#: erpnext/accounts/report/inactive_sales_items/inactive_sales_items.py:44
+#: erpnext/selling/report/inactive_customers/inactive_customers.py:82
+msgid "Last Order Date"
+msgstr "Data do Último Pedido"
+
+#. Label of the last_purchase_rate (Currency) field in DocType 'Purchase Order
+#. Item'
+#. Option for the 'Rate Of Materials Based On' (Select) field in DocType 'BOM'
+#. Option for the 'Rate Of Materials Based On' (Select) field in DocType 'BOM
+#. Creator'
+#. Label of the last_purchase_rate (Float) field in DocType 'Item'
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+#: erpnext/manufacturing/report/bom_stock_calculated/bom_stock_calculated.py:106
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/report/item_prices/item_prices.py:56
+msgid "Last Purchase Rate"
+msgstr "Ultimo preco de compra"
+
+#. Label of the last_scanned_warehouse (Data) field in DocType 'POS Invoice'
+#. Label of the last_scanned_warehouse (Data) field in DocType 'Purchase
+#. Invoice'
+#. Label of the last_scanned_warehouse (Data) field in DocType 'Sales Invoice'
+#. Label of the last_scanned_warehouse (Data) field in DocType 'Purchase Order'
+#. Label of the last_scanned_warehouse (Data) field in DocType 'Quotation'
+#. Label of the last_scanned_warehouse (Data) field in DocType 'Sales Order'
+#. Label of the last_scanned_warehouse (Data) field in DocType 'Delivery Note'
+#. Label of the last_scanned_warehouse (Data) field in DocType 'Material
+#. Request'
+#. Label of the last_scanned_warehouse (Data) field in DocType 'Purchase
+#. Receipt'
+#. Label of the last_scanned_warehouse (Data) field in DocType 'Stock Entry'
+#. Label of the last_scanned_warehouse (Data) field in DocType 'Stock
+#. Reconciliation'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/material_request/material_request.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
+msgid "Last Scanned Warehouse"
+msgstr "Ultimo armazem escaneado"
+
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:332
+msgid "Last Stock Transaction for item {0} under warehouse {1} was on {2}."
+msgstr ""
+
+#: erpnext/setup/doctype/vehicle/vehicle.py:46
+msgid "Last carbon check date cannot be a future date"
+msgstr "A última data de verificação de carbono não pode ser uma data futura"
+
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:1025
+msgid "Last transacted"
+msgstr "Ultima movimentacao"
+
+#: erpnext/stock/report/stock_ageing/stock_ageing.py:177
+msgid "Latest"
+msgstr "Mais recente"
+
+#: erpnext/stock/report/stock_balance/stock_balance.py:517
+msgid "Latest Age"
+msgstr "Idade Mais Recente"
+
+#. Label of the latitude (Float) field in DocType 'Location'
+#. Label of the lat (Float) field in DocType 'Delivery Stop'
+#: erpnext/assets/doctype/location/location.json
+#: erpnext/stock/doctype/delivery_stop/delivery_stop.json
+msgid "Latitude"
+msgstr "Latitude"
+
+#. Label of the section_break_5 (Section Break) field in DocType 'CRM Settings'
+#. Option for the 'Email Campaign For ' (Select) field in DocType 'Email
+#. Campaign'
+#. Name of a DocType
+#. Option for the 'Status' (Select) field in DocType 'Lead'
+#. Label of the lead (Link) field in DocType 'Prospect Lead'
+#. Label of a Link in the CRM Workspace
+#. Label of a shortcut in the CRM Workspace
+#. Label of a Link in the Home Workspace
+#. Label of the lead (Link) field in DocType 'Issue'
+#: erpnext/crm/doctype/crm_settings/crm_settings.json
+#: erpnext/crm/doctype/email_campaign/email_campaign.json
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/crm/doctype/prospect_lead/prospect_lead.json
+#: erpnext/crm/report/lead_details/lead_details.js:33
+#: erpnext/crm/report/lead_details/lead_details.py:18
+#: erpnext/crm/report/prospects_engaged_but_not_converted/prospects_engaged_but_not_converted.js:8
+#: erpnext/crm/report/prospects_engaged_but_not_converted/prospects_engaged_but_not_converted.py:28
+#: erpnext/crm/workspace/crm/crm.json erpnext/public/js/communication.js:25
+#: erpnext/setup/workspace/home/home.json
+#: erpnext/support/doctype/issue/issue.json
+msgid "Lead"
+msgstr "Lead"
+
+#: erpnext/crm/doctype/lead/lead.py:549
+msgid "Lead -> Prospect"
+msgstr ""
+
+#. Name of a report
+#: erpnext/crm/report/lead_conversion_time/lead_conversion_time.json
+msgid "Lead Conversion Time"
+msgstr "Tempo de conversao do lead"
+
+#: erpnext/crm/report/campaign_efficiency/campaign_efficiency.py:20
+#: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:26
+msgid "Lead Count"
+msgstr "Quantidade de leads"
+
+#. Name of a report
+#. Label of a Link in the CRM Workspace
+#: erpnext/crm/report/lead_details/lead_details.json
+#: erpnext/crm/workspace/crm/crm.json
+msgid "Lead Details"
+msgstr "Detalhes do lead"
+
+#. Label of the lead_name (Data) field in DocType 'Prospect Lead'
+#: erpnext/crm/doctype/prospect_lead/prospect_lead.json
+#: erpnext/crm/report/lead_details/lead_details.py:24
+msgid "Lead Name"
+msgstr "Nome do lead"
+
+#. Label of the lead_owner (Link) field in DocType 'Lead'
+#. Label of the lead_owner (Data) field in DocType 'Prospect Lead'
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/crm/doctype/prospect_lead/prospect_lead.json
+#: erpnext/crm/report/lead_details/lead_details.py:28
+#: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:21
+msgid "Lead Owner"
+msgstr "Responsável pelo lead"
+
+#. Name of a report
+#. Label of a Link in the CRM Workspace
+#: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.json
+#: erpnext/crm/workspace/crm/crm.json
+msgid "Lead Owner Efficiency"
+msgstr "Eficiência do responsável pelo lead"
+
+#: erpnext/crm/doctype/lead/lead.py:176
+msgid "Lead Owner cannot be same as the Lead Email Address"
+msgstr "O responsável pelo lead não pode ser o mesmo do e-mail do lead"
+
+#. Label of a Link in the CRM Workspace
+#: erpnext/crm/workspace/crm/crm.json
+msgid "Lead Source"
+msgstr "Origem do lead"
+
+#. Label of the cumulative_lead_time (Int) field in DocType 'Master Production
+#. Schedule Item'
+#. Label of the lead_time (Float) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/master_production_schedule_item/master_production_schedule_item.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1056
+#: erpnext/stock/doctype/item/item_dashboard.py:35
+msgid "Lead Time"
+msgstr "Prazo"
+
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.py:266
+msgid "Lead Time (Days)"
+msgstr "Prazo de Entrega (dias)"
+
+#: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:267
+msgid "Lead Time (in mins)"
+msgstr "Prazo (em minutos)"
+
+#. Label of the lead_time_date (Date) field in DocType 'Material Request Item'
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+msgid "Lead Time Date"
+msgstr "Data do prazo"
+
+#: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py:59
+msgid "Lead Time Days"
+msgstr "Dias de prazo"
+
+#. Label of the lead_time_days (Int) field in DocType 'Item'
+#. Label of the lead_time_days (Int) field in DocType 'Item Price'
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/item_price/item_price.json
+msgid "Lead Time in days"
+msgstr "Prazo em dias"
+
+#. Label of the type (Select) field in DocType 'Lead'
+#: erpnext/crm/doctype/lead/lead.json
+msgid "Lead Type"
+msgstr "Tipo de lead"
+
+#: erpnext/crm/doctype/lead/lead.py:548
+msgid "Lead {0} has been added to prospect {1}."
+msgstr ""
+
+#. Label of the leads_section (Tab Break) field in DocType 'Prospect'
+#: erpnext/crm/doctype/prospect/prospect.json
+msgid "Leads"
+msgstr "Leads"
+
+#: erpnext/utilities/activation.py:78
+msgid "Leads help you get business, add all your contacts and more as your leads"
+msgstr ""
+
+#. Label of a shortcut in the Stock Workspace
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Learn Inventory Management"
+msgstr "Aprenda gestao de estoque"
+
+#. Label of a shortcut in the Manufacturing Workspace
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+msgid "Learn Manufacturing"
+msgstr "Aprenda fabricacao"
+
+#. Label of a shortcut in the Buying Workspace
+#: erpnext/buying/workspace/buying/buying.json
+msgid "Learn Procurement"
+msgstr "Aprenda compras"
+
+#. Label of a shortcut in the Projects Workspace
+#: erpnext/projects/workspace/projects/projects.json
+msgid "Learn Project Management"
+msgstr "Aprenda gestao de projetos"
+
+#. Label of a shortcut in the Selling Workspace
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Learn Sales Management"
+msgstr "Aprenda gestao de vendas"
+
+#. Description of the 'Enable Common Party Accounting' (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+#, python-format
+msgid "Learn about <a href=\"https://docs.erpnext.com/docs/v13/user/manual/en/accounts/articles/common_party_accounting#:~:text=Common%20Party%20Accounting%20in%20ERPNext,Invoice%20against%20a%20primary%20Supplier.\">Common Party</a>"
+msgstr ""
+
+#. Label of the leave_encashed (Select) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Leave Encashed?"
+msgstr ""
+
+#. Description of the 'Success Redirect URL' (Data) field in DocType
+#. 'Appointment Booking Settings'
+#: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
+msgid "Leave blank for home.\n"
+"This is relative to site URL, for example \"about\" will redirect to \"https://yoursitename.com/about\""
+msgstr ""
+
+#. Description of the 'Release Date' (Date) field in DocType 'Supplier'
+#: erpnext/buying/doctype/supplier/supplier.json
+msgid "Leave blank if the Supplier is blocked indefinitely"
+msgstr "Deixe em branco se o fornecedor estiver bloqueado por prazo indeterminado"
+
+#. Description of the 'Dispatch Notification Attachment' (Link) field in
+#. DocType 'Delivery Settings'
+#: erpnext/stock/doctype/delivery_settings/delivery_settings.json
+msgid "Leave blank to use the standard Delivery Note format"
+msgstr "Deixe em branco para usar o formato padrao da nota de entrega"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/ledger_health/ledger_health.json
+msgid "Ledger Health"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/ledger_health_monitor/ledger_health_monitor.json
+msgid "Ledger Health Monitor"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/ledger_health_monitor_company/ledger_health_monitor_company.json
+msgid "Ledger Health Monitor Company"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/ledger_merge/ledger_merge.json
+msgid "Ledger Merge"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/ledger_merge_accounts/ledger_merge_accounts.json
+msgid "Ledger Merge Accounts"
+msgstr ""
+
+#. Label of a Card Break in the Financial Reports Workspace
+#: erpnext/accounts/workspace/financial_reports/financial_reports.json
+msgid "Ledgers"
+msgstr ""
+
+#. Label of the left_child (Link) field in DocType 'Bisect Nodes'
+#: erpnext/accounts/doctype/bisect_nodes/bisect_nodes.json
+msgid "Left Child"
+msgstr ""
+
+#. Label of the lft (Int) field in DocType 'Quality Procedure'
+#: erpnext/quality_management/doctype/quality_procedure/quality_procedure.json
+msgid "Left Index"
+msgstr ""
+
+#. Label of the legacy_section (Section Break) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Legacy Fields"
+msgstr ""
+
+#. Description of a DocType
+#: erpnext/setup/doctype/company/company.json
+msgid "Legal Entity / Subsidiary with a separate Chart of Accounts belonging to the Organization."
+msgstr ""
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:111
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:190
+msgid "Legal Expenses"
+msgstr "Despesas Legais"
+
+#: erpnext/regional/report/uae_vat_201/uae_vat_201.py:19
+msgid "Legend"
+msgstr "Legenda"
+
+#. Label of the length (Int) field in DocType 'Shipment Parcel'
+#. Label of the length (Int) field in DocType 'Shipment Parcel Template'
+#: erpnext/stock/doctype/shipment_parcel/shipment_parcel.json
+#: erpnext/stock/doctype/shipment_parcel_template/shipment_parcel_template.json
+msgid "Length (cm)"
+msgstr "Comprimento (cm)"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.js:886
+msgid "Less Than Amount"
+msgstr "Menor que o valor"
+
+#. Description of the 'Body Text' (Text Editor) field in DocType 'Dunning
+#. Letter Text'
+#: erpnext/accounts/doctype/dunning_letter_text/dunning_letter_text.json
+msgid "Letter or Email Body Text"
+msgstr "Texto do corpo da carta ou e-mail"
+
+#. Description of the 'Closing Text' (Text Editor) field in DocType 'Dunning
+#. Letter Text'
+#: erpnext/accounts/doctype/dunning_letter_text/dunning_letter_text.json
+msgid "Letter or Email Closing Text"
+msgstr "Texto de encerramento da carta ou e-mail"
+
+#. Label of the bom_level (Int) field in DocType 'Production Plan Sub Assembly
+#. Item'
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+msgid "Level (BOM)"
+msgstr "Nivel (BOM)"
+
+#. Label of the lft (Int) field in DocType 'Account'
+#. Label of the lft (Int) field in DocType 'Company'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/setup/doctype/company/company.json
+msgid "Lft"
+msgstr ""
+
+#: erpnext/accounts/report/balance_sheet/balance_sheet.py:251
+msgid "Liabilities"
+msgstr "Passivo"
+
+#. Option for the 'Root Type' (Select) field in DocType 'Account'
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#. Option for the 'Root Type' (Select) field in DocType 'Ledger Merge'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/ledger_merge/ledger_merge.json
+#: erpnext/accounts/report/account_balance/account_balance.js:26
+msgid "Liability"
+msgstr "Passivo"
+
+#. Label of the license_details (Section Break) field in DocType 'Driver'
+#: erpnext/setup/doctype/driver/driver.json
+msgid "License Details"
+msgstr "Detalhes da licenca"
+
+#. Label of the license_number (Data) field in DocType 'Driver'
+#: erpnext/setup/doctype/driver/driver.json
+msgid "License Number"
+msgstr "Numero da licenca"
+
+#. Label of the license_plate (Data) field in DocType 'Vehicle'
+#: erpnext/setup/doctype/vehicle/vehicle.json
+msgid "License Plate"
+msgstr "Placa"
+
+#: erpnext/controllers/status_updater.py:467
+msgid "Limit Crossed"
+msgstr "Limite Ultrapassado"
+
+#. Label of the limit_reposting_timeslot (Check) field in DocType 'Stock
+#. Reposting Settings'
+#: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.json
+msgid "Limit timeslot for Stock Reposting"
+msgstr ""
+
+#. Description of the 'Short Name' (Data) field in DocType 'Manufacturer'
+#: erpnext/stock/doctype/manufacturer/manufacturer.json
+msgid "Limited to 12 characters"
+msgstr ""
+
+#. Label of the limits_dont_apply_on (Select) field in DocType 'Stock Reposting
+#. Settings'
+#: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.json
+msgid "Limits don't apply on"
+msgstr ""
+
+#. Label of the reference_code (Data) field in DocType 'Financial Report Row'
+#: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
+msgid "Line Reference"
+msgstr ""
+
+#. Label of the amt_in_words_line_spacing (Float) field in DocType 'Cheque
+#. Print Template'
+#: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
+msgid "Line spacing for amount in words"
+msgstr ""

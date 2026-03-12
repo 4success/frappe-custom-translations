@@ -1,0 +1,833 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:35+0000\n"
+"PO-Revision-Date: 2026-01-21 06:48\n"
+"Last-Translator: developers@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File-ID: 138\n"
+"Language: pt_BR\n"
+
+#. Label of the transitions (Table) field in DocType 'Workflow'
+#: frappe/workflow/doctype/workflow/workflow.json
+msgid "Transitions"
+msgstr "Transições"
+
+#. Label of the translatable (Check) field in DocType 'DocField'
+#. Label of the translatable (Check) field in DocType 'Custom Field'
+#. Label of the translatable (Check) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Translatable"
+msgstr "Traduzível"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:2274
+msgid "Translate Data"
+msgstr "Traduzir dados"
+
+#. Label of the translated_doctype (Check) field in DocType 'DocType'
+#. Label of the translated_doctype (Check) field in DocType 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Translate Link Fields"
+msgstr "Traduzir campos Link"
+
+#: frappe/public/js/frappe/views/reports/report_view.js:1662
+msgid "Translate values"
+msgstr "Traduzir valores"
+
+#: frappe/public/js/frappe/views/translation_manager.js:11
+msgid "Translate {0}"
+msgstr "Traduzir {0}"
+
+#. Label of the translated_text (Code) field in DocType 'Translation'
+#: frappe/core/doctype/translation/translation.json
+msgid "Translated Text"
+msgstr "Texto Traduzido"
+
+#. Name of a DocType
+#: frappe/core/doctype/translation/translation.json
+msgid "Translation"
+msgstr "Tradução"
+
+#: frappe/public/js/frappe/views/translation_manager.js:46
+msgid "Translations"
+msgstr "Traduções"
+
+#. Name of a role
+#: frappe/core/doctype/translation/translation.json
+msgid "Translator"
+msgstr "Tradutor"
+
+#. Option for the 'Email Status' (Select) field in DocType 'Communication'
+#: frappe/core/doctype/communication/communication.json
+msgid "Trash"
+msgstr "Lixeira"
+
+#. Option for the 'View' (Select) field in DocType 'Form Tour'
+#. Option for the 'DocType View' (Select) field in DocType 'Workspace Shortcut'
+#: frappe/desk/doctype/form_tour/form_tour.json
+#: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:96
+msgid "Tree"
+msgstr "Árvore"
+
+#: frappe/public/js/frappe/list/base_list.js:211
+msgid "Tree View"
+msgstr "Visualização em árvore"
+
+#. Description of the 'Is Tree' (Check) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "Tree structures are implemented using Nested Set"
+msgstr "As estruturas em árvore são implementadas usando Nested Set"
+
+#: frappe/public/js/frappe/views/treeview.js:19
+msgid "Tree view is not available for {0}"
+msgstr "A visualização em árvore não está disponível para {0}"
+
+#. Label of the method (Data) field in DocType 'Notification'
+#: frappe/email/doctype/notification/notification.json
+msgid "Trigger Method"
+msgstr "Método de acionamento"
+
+#: frappe/public/js/frappe/ui/keyboard.js:196
+msgid "Trigger Primary Action"
+msgstr "Acionar ação principal"
+
+#: frappe/tests/test_translate.py:55
+msgid "Trigger caching"
+msgstr "Disparar cacheamento"
+
+#. Description of the 'Trigger Method' (Data) field in DocType 'Notification'
+#: frappe/email/doctype/notification/notification.json
+msgid "Trigger on valid methods like \"before_insert\", \"after_update\", etc (will depend on the DocType selected)"
+msgstr "Acione em métodos válidos como \"before_insert\", \"after_update\" etc. (depende do DocType selecionado)"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:144
+msgid "Trim Table"
+msgstr "Ajustar tabela"
+
+#: frappe/public/js/frappe/widgets/onboarding_widget.js:318
+msgid "Try Again"
+msgstr "Tentar novamente"
+
+#. Label of the try_naming_series (Data) field in DocType 'Document Naming
+#. Settings'
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.json
+msgid "Try a Naming Series"
+msgstr "Experimente uma série de nomenclatura"
+
+#: frappe/printing/page/print/print.js:204
+#: frappe/printing/page/print/print.js:210
+msgid "Try the new Print Designer"
+msgstr "Experimente o novo Designer de impressão"
+
+#: frappe/utils/password_strength.py:106
+msgid "Try to avoid repeated words and characters"
+msgstr "Tente evitar palavras e caracteres repetidos"
+
+#: frappe/utils/password_strength.py:98
+msgid "Try to use a longer keyboard pattern with more turns"
+msgstr "Tente usar um padrão de teclado mais longo e com mais mudanças de direção"
+
+#. Option for the 'Day' (Select) field in DocType 'Assignment Rule Day'
+#. Option for the 'Day' (Select) field in DocType 'Auto Repeat Day'
+#. Option for the 'First Day of the Week' (Select) field in DocType 'Language'
+#. Option for the 'First Day of the Week' (Select) field in DocType 'System
+#. Settings'
+#. Label of the tuesday (Check) field in DocType 'Event'
+#. Option for the 'Day of Week' (Select) field in DocType 'Auto Email Report'
+#: frappe/automation/doctype/assignment_rule_day/assignment_rule_day.json
+#: frappe/automation/doctype/auto_repeat_day/auto_repeat_day.json
+#: frappe/core/doctype/language/language.json
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/desk/doctype/event/event.json
+#: frappe/email/doctype/auto_email_report/auto_email_report.json
+msgid "Tuesday"
+msgstr "Terça-feira"
+
+#. Label of the two_factor_auth (Check) field in DocType 'Role'
+#. Label of the two_factor_authentication (Section Break) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/role/role.json
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Two Factor Authentication"
+msgstr "Autenticação de dois fatores"
+
+#. Label of the two_factor_method (Select) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Two Factor Authentication method"
+msgstr "Método de autenticação de dois fatores"
+
+#. Label of the communication_medium (Select) field in DocType 'Communication'
+#. Label of the fieldtype (Select) field in DocType 'DocField'
+#. Label of the fieldtype (Select) field in DocType 'Customize Form Field'
+#. Label of the type (Data) field in DocType 'Console Log'
+#. Label of the type (Select) field in DocType 'Dashboard Chart'
+#. Label of the type (Select) field in DocType 'Notification Log'
+#. Label of the type (Select) field in DocType 'Number Card'
+#. Label of the type (Select) field in DocType 'System Console'
+#. Label of the type (Select) field in DocType 'Workspace'
+#. Label of the type (Select) field in DocType 'Workspace Link'
+#. Label of the type (Select) field in DocType 'Workspace Shortcut'
+#. Label of the type (Select) field in DocType 'Workspace Sidebar Item'
+#. Label of the type (Select) field in DocType 'Web Template'
+#: frappe/core/doctype/communication/communication.json
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/desk/doctype/console_log/console_log.json
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+#: frappe/desk/doctype/notification_log/notification_log.json
+#: frappe/desk/doctype/number_card/number_card.json
+#: frappe/desk/doctype/system_console/system_console.json
+#: frappe/desk/doctype/workspace/workspace.json
+#: frappe/desk/doctype/workspace_link/workspace_link.json
+#: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
+#: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json
+#: frappe/public/js/frappe/views/file/file_view.js:371
+#: frappe/public/js/frappe/views/workspace/workspace.js:413
+#: frappe/public/js/frappe/widgets/widget_dialog.js:404
+#: frappe/website/doctype/web_template/web_template.json
+#: frappe/www/attribution.html:35
+msgid "Type"
+msgstr "Tipo"
+
+#: frappe/public/js/frappe/form/controls/comment.js:81
+msgid "Type a reply / comment"
+msgstr "Digite uma resposta / comentário"
+
+#: frappe/templates/includes/search_template.html:51
+msgid "Type something in the search box to search"
+msgstr "Digite algo na caixa de pesquisa para pesquisar"
+
+#: frappe/templates/discussions/comment_box.html:8
+#: frappe/templates/discussions/reply_section.html:53
+#: frappe/templates/discussions/topic_modal.html:11
+msgid "Type title"
+msgstr "Digite um título"
+
+#: frappe/templates/discussions/discussions.js:341
+msgid "Type your reply here..."
+msgstr "Digite sua resposta aqui..."
+
+#: frappe/core/doctype/data_export/exporter.py:143
+msgid "Type:"
+msgstr "Tipo:"
+
+#. Label of the ui_tour (Check) field in DocType 'Form Tour'
+#. Label of the ui_tour (Check) field in DocType 'Form Tour Step'
+#: frappe/desk/doctype/form_tour/form_tour.json
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+msgid "UI Tour"
+msgstr "Tour da interface"
+
+#. Label of the uid (Int) field in DocType 'Communication'
+#. Label of the uid (Data) field in DocType 'Email Flag Queue'
+#. Label of the uid (Data) field in DocType 'Unhandled Email'
+#: frappe/core/doctype/communication/communication.json
+#: frappe/email/doctype/email_flag_queue/email_flag_queue.json
+#: frappe/email/doctype/unhandled_email/unhandled_email.json
+msgid "UID"
+msgstr "UID"
+
+#. Label of the uidnext (Int) field in DocType 'Email Account'
+#. Label of the uidnext (Data) field in DocType 'IMAP Folder'
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/imap_folder/imap_folder.json
+msgid "UIDNEXT"
+msgstr "UIDNEXT"
+
+#. Label of the uidvalidity (Data) field in DocType 'Email Account'
+#. Label of the uidvalidity (Data) field in DocType 'IMAP Folder'
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/imap_folder/imap_folder.json
+msgid "UIDVALIDITY"
+msgstr "UIDVALIDITY"
+
+#. Option for the 'Email Sync Option' (Select) field in DocType 'Email Account'
+#: frappe/email/doctype/email_account/email_account.json
+msgid "UNSEEN"
+msgstr "Não lido"
+
+#. Description of the 'Redirect URIs' (Text) field in DocType 'OAuth Client'
+#: frappe/integrations/doctype/oauth_client/oauth_client.json
+msgid "URIs for receiving authorization code once the user allows access, as well as failure responses. Typically a REST endpoint exposed by the Client App.\n"
+"<br>e.g. http://hostname/api/method/frappe.integrations.oauth2_logins.login_via_facebook"
+msgstr "URIs para receber o código de autorização depois que o usuário permitir o acesso, bem como respostas de falha. Normalmente, é um endpoint REST exposto pelo aplicativo cliente.\n"
+"<br>ex.: http://hostname/api/method/frappe.integrations.oauth2_logins.login_via_facebook"
+
+#. Option for the 'Type' (Select) field in DocType 'Workspace'
+#. Option for the 'Type' (Select) field in DocType 'Workspace Shortcut'
+#. Label of the url (Data) field in DocType 'Workspace Shortcut'
+#. Option for the 'Link Type' (Select) field in DocType 'Workspace Sidebar
+#. Item'
+#. Label of the url (Data) field in DocType 'Workspace Sidebar Item'
+#. Label of the url (Small Text) field in DocType 'Integration Request'
+#. Label of the url (Text) field in DocType 'Webhook Request Log'
+#. Label of the url (Data) field in DocType 'Top Bar Item'
+#. Label of the url (Data) field in DocType 'Website Slideshow Item'
+#: frappe/desk/doctype/workspace/workspace.json
+#: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
+#: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json
+#: frappe/integrations/doctype/integration_request/integration_request.json
+#: frappe/integrations/doctype/webhook_request_log/webhook_request_log.json
+#: frappe/public/js/frappe/widgets/widget_dialog.js:471
+#: frappe/website/doctype/top_bar_item/top_bar_item.json
+#: frappe/website/doctype/website_slideshow_item/website_slideshow_item.json
+msgid "URL"
+msgstr "URL"
+
+#. Description of the 'Documentation Link' (Data) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "URL for documentation or help"
+msgstr "URL para documentação ou ajuda"
+
+#: frappe/core/doctype/file/file.py:241
+msgid "URL must start with http:// or https://"
+msgstr "A URL deve começar com http:// ou https://"
+
+#. Description of the 'Resource Documentation' (Data) field in DocType 'OAuth
+#. Settings'
+#: frappe/integrations/doctype/oauth_settings/oauth_settings.json
+msgid "URL of a human-readable page with info that developers might need."
+msgstr "URL de uma página legível por humanos com informações que os desenvolvedores possam precisar."
+
+#. Description of the 'Client URI' (Data) field in DocType 'OAuth Client'
+#: frappe/integrations/doctype/oauth_client/oauth_client.json
+msgid "URL of a web page providing information about the client."
+msgstr "URL de uma página da web com informações sobre o cliente."
+
+#. Description of the 'Resource TOS URI' (Data) field in DocType 'OAuth
+#. Settings'
+#: frappe/integrations/doctype/oauth_settings/oauth_settings.json
+msgid "URL of human-readable page with info about the protected resource's terms of service."
+msgstr "URL de uma página legível por humanos com informações sobre os termos de serviço do recurso protegido."
+
+#. Description of the 'Resource Policy URI' (Data) field in DocType 'OAuth
+#. Settings'
+#: frappe/integrations/doctype/oauth_settings/oauth_settings.json
+msgid "URL of human-readable page with info on requirements about how the client can use the data."
+msgstr "URL de uma página legível por humanos com informações sobre os requisitos de uso dos dados pelo cliente."
+
+#: frappe/website/doctype/web_page/web_page.js:84
+msgid "URL of the page"
+msgstr "URL da página"
+
+#. Description of the 'Policy URI' (Data) field in DocType 'OAuth Client'
+#: frappe/integrations/doctype/oauth_client/oauth_client.json
+msgid "URL that points to a human-readable policy document for the client. Should be shown to end-user before authorizing."
+msgstr "URL que aponta para um documento de política legível por humanos do cliente. Deve ser mostrado ao usuário final antes da autorização."
+
+#. Description of the 'TOS URI' (Data) field in DocType 'OAuth Client'
+#: frappe/integrations/doctype/oauth_client/oauth_client.json
+msgid "URL that points to a human-readable terms of service document for the client. Should be shown to end-user before authorizing."
+msgstr "URL que aponta para um documento de termos de serviço legível por humanos do cliente. Deve ser mostrado ao usuário final antes da autorização."
+
+#. Description of the 'Logo URI' (Data) field in DocType 'OAuth Client'
+#: frappe/integrations/doctype/oauth_client/oauth_client.json
+msgid "URL that references a logo for the client."
+msgstr "URL que referencia um logotipo do cliente."
+
+#. Description of the 'URL' (Data) field in DocType 'Website Slideshow Item'
+#: frappe/website/doctype/website_slideshow_item/website_slideshow_item.json
+msgid "URL to go to on clicking the slideshow image"
+msgstr "URL para abrir ao clicar na imagem do slideshow"
+
+#. Name of a DocType
+#: frappe/website/doctype/utm_campaign/utm_campaign.json
+msgid "UTM Campaign"
+msgstr "Campanha UTM"
+
+#. Name of a DocType
+#: frappe/website/doctype/utm_medium/utm_medium.json
+msgid "UTM Medium"
+msgstr "Mídia UTM"
+
+#. Name of a DocType
+#: frappe/website/doctype/utm_source/utm_source.json
+msgid "UTM Source"
+msgstr "Origem UTM"
+
+#. Option for the 'Naming Rule' (Select) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "UUID"
+msgstr "UUID"
+
+#: frappe/desk/form/document_follow.py:79
+msgid "Un-following document {0}"
+msgstr "Deixando de seguir o documento {0}"
+
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.py:67
+msgid "Unable to find DocType {0}"
+msgstr "Não foi possível encontrar o DocType {0}"
+
+#: frappe/public/js/frappe/ui/capture.js:338
+msgid "Unable to load camera."
+msgstr "Não foi possível carregar a câmera."
+
+#: frappe/public/js/frappe/model/model.js:230
+msgid "Unable to load: {0}"
+msgstr "Não foi possível carregar: {0}"
+
+#: frappe/utils/csvutils.py:37
+msgid "Unable to open attached file. Did you export it as CSV?"
+msgstr "Não foi possível abrir o arquivo anexado. Você o exportou como CSV?"
+
+#: frappe/core/doctype/file/utils.py:98 frappe/core/doctype/file/utils.py:130
+msgid "Unable to read file format for {0}"
+msgstr "Não foi possível ler o formato do arquivo para {0}"
+
+#: frappe/core/doctype/communication/email.py:180
+msgid "Unable to send mail because of a missing email account. Please setup default Email Account from Settings > Email Account"
+msgstr "Não foi possível enviar o e-mail porque falta uma conta de e-mail. Configure a conta de e-mail padrão em Configurações > Conta de e-mail"
+
+#: frappe/public/js/frappe/views/calendar/calendar.js:450
+msgid "Unable to update event"
+msgstr "Não foi possível atualizar o evento"
+
+#: frappe/core/doctype/file/file.py:496
+msgid "Unable to write file format for {0}"
+msgstr "Não foi possível gravar o formato do arquivo para {0}"
+
+#. Label of the unassign_condition (Code) field in DocType 'Assignment Rule'
+#: frappe/automation/doctype/assignment_rule/assignment_rule.json
+msgid "Unassign Condition"
+msgstr "Condição para desatribuir"
+
+#: frappe/app.py:399
+msgid "Uncaught Exception"
+msgstr "Exceção não tratada"
+
+#: frappe/public/js/frappe/form/toolbar.js:114
+msgid "Unchanged"
+msgstr "Sem alterações"
+
+#: frappe/public/js/frappe/form/toolbar.js:551
+msgid "Undo"
+msgstr "Desfazer"
+
+#: frappe/public/js/frappe/form/toolbar.js:559
+msgid "Undo last action"
+msgstr "Desfazer última ação"
+
+#: frappe/public/js/frappe/form/templates/form_sidebar.html:131
+#: frappe/public/js/frappe/form/toolbar.js:912
+msgid "Unfollow"
+msgstr "Deixar de seguir"
+
+#. Name of a DocType
+#: frappe/email/doctype/unhandled_email/unhandled_email.json
+msgid "Unhandled Email"
+msgstr "E-mail não tratado"
+
+#. Label of the unhandled_emails (Int) field in DocType 'System Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Unhandled Emails"
+msgstr "E-mails não tratados"
+
+#. Label of the unique (Check) field in DocType 'DocField'
+#. Label of the unique (Check) field in DocType 'Custom Field'
+#. Label of the unique (Check) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Unique"
+msgstr "Único"
+
+#. Description of the 'Software ID' (Data) field in DocType 'OAuth Client'
+#: frappe/integrations/doctype/oauth_client/oauth_client.json
+msgid "Unique ID assigned by the client developer used to identify the client software to be dynamically registered.\n"
+"<br>\n"
+"<b>Should remain same</b> across multiple versions or updates of the software."
+msgstr "ID exclusivo atribuído pelo desenvolvedor do cliente, usado para identificar o software do cliente a ser registrado dinamicamente.\n"
+"<br>\n"
+"<b>Deve permanecer o mesmo</b> em várias versões ou atualizações do software."
+
+#: frappe/website/report/website_analytics/website_analytics.js:60
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: frappe/public/js/frappe/model/model.js:209
+msgid "Unknown Column: {0}"
+msgstr "Coluna desconhecida: {0}"
+
+#: frappe/utils/data.py:1255
+msgid "Unknown Rounding Method: {}"
+msgstr "Método de arredondamento desconhecido: {}"
+
+#: frappe/auth.py:322
+msgid "Unknown User"
+msgstr "Usuário desconhecido"
+
+#: frappe/utils/csvutils.py:54
+msgid "Unknown file encoding. Tried to use: {0}"
+msgstr "Codificação de arquivo desconhecida. Tentativa com: {0}"
+
+#: frappe/core/doctype/submission_queue/submission_queue.js:7
+msgid "Unlock Reference Document"
+msgstr "Desbloquear documento de referência"
+
+#: frappe/public/js/frappe/form/footer/form_timeline.js:633
+#: frappe/website/doctype/web_form/web_form.js:86
+msgid "Unpublish"
+msgstr "Cancelar publicação"
+
+#. Option for the 'Action' (Select) field in DocType 'Email Flag Queue'
+#: frappe/email/doctype/email_flag_queue/email_flag_queue.json
+msgid "Unread"
+msgstr "Não lido"
+
+#. Label of the unread_notification_sent (Check) field in DocType
+#. 'Communication'
+#: frappe/core/doctype/communication/communication.json
+msgid "Unread Notification Sent"
+msgstr "Notificação de mensagem não lida enviada"
+
+#: frappe/utils/safe_exec.py:498
+msgid "Unsafe SQL query"
+msgstr "Consulta SQL insegura"
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:159
+#: frappe/public/js/frappe/form/controls/multicheck.js:167
+#: frappe/public/js/frappe/views/reports/report_view.js:1605
+msgid "Unselect All"
+msgstr "Desmarcar tudo"
+
+#. Option for the 'Comment Type' (Select) field in DocType 'Comment'
+#: frappe/core/doctype/comment/comment.json
+msgid "Unshared"
+msgstr "Não Compartilhado"
+
+#: frappe/email/queue.py:67
+msgid "Unsubscribe"
+msgstr "Cancelar inscrição"
+
+#. Label of the unsubscribe_method (Data) field in DocType 'Email Queue'
+#: frappe/email/doctype/email_queue/email_queue.json
+msgid "Unsubscribe Method"
+msgstr "Método de Cancelamento de Inscrição"
+
+#. Label of the unsubscribe_params (Code) field in DocType 'Email Queue'
+#: frappe/email/doctype/email_queue/email_queue.json
+msgid "Unsubscribe Params"
+msgstr "Parâmetros de cancelamento de inscrição"
+
+#. Label of the unsubscribed (Check) field in DocType 'Contact'
+#. Label of the unsubscribed (Check) field in DocType 'User'
+#. Label of the unsubscribed (Check) field in DocType 'Email Group Member'
+#: frappe/contacts/doctype/contact/contact.json
+#: frappe/core/doctype/user/user.json
+#: frappe/email/doctype/email_group_member/email_group_member.json
+#: frappe/email/queue.py:123
+msgid "Unsubscribed"
+msgstr "Descadastrado"
+
+#: frappe/database/query.py:1055
+msgid "Unsupported function or operator: {0}"
+msgstr "Função ou operador não compatível: {0}"
+
+#: frappe/database/query.py:1967
+msgid "Unsupported {0}: {1}"
+msgstr "Sem suporte para {0}: {1}"
+
+#: frappe/public/js/frappe/data_import/import_preview.js:72
+msgid "Untitled Column"
+msgstr "Coluna sem título"
+
+#: frappe/core/doctype/file/file.js:38
+msgid "Unzip"
+msgstr "Descompactar"
+
+#: frappe/public/js/frappe/views/file/file_view.js:132
+msgid "Unzipped {0} files"
+msgstr "Descompactados {0} arquivos"
+
+#: frappe/public/js/frappe/views/file/file_view.js:125
+msgid "Unzipping files..."
+msgstr "Descompactando arquivos..."
+
+#: frappe/desk/doctype/event/event.py:273
+msgid "Upcoming Events for Today"
+msgstr "Próximos eventos de hoje"
+
+#. Label of the update (Button) field in DocType 'Document Naming Settings'
+#: frappe/core/doctype/data_import/data_import_list.js:36
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.json
+#: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.js:23
+#: frappe/custom/doctype/customize_form/customize_form.js:438
+#: frappe/desk/doctype/bulk_update/bulk_update.js:15
+#: frappe/printing/page/print_format_builder/print_format_builder.js:447
+#: frappe/printing/page/print_format_builder/print_format_builder.js:507
+#: frappe/printing/page/print_format_builder/print_format_builder.js:678
+#: frappe/printing/page/print_format_builder/print_format_builder.js:765
+#: frappe/public/js/frappe/form/grid_row.js:427
+msgid "Update"
+msgstr "Atualizar"
+
+#. Label of the update_amendment_naming (Button) field in DocType 'Document
+#. Naming Settings'
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.json
+msgid "Update Amendment Naming"
+msgstr "Atualizar nomenclatura de alteração"
+
+#. Option for the 'Import Type' (Select) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Update Existing Records"
+msgstr "Atualizar registros existentes"
+
+#. Label of the update_field (Select) field in DocType 'Workflow Document
+#. State'
+#: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
+msgid "Update Field"
+msgstr "Atualizar campo"
+
+#: frappe/core/doctype/installed_applications/installed_applications.js:6
+#: frappe/core/doctype/installed_applications/installed_applications.js:13
+msgid "Update Hooks Resolution Order"
+msgstr "Atualizar ordem de resolução dos hooks"
+
+#: frappe/core/doctype/installed_applications/installed_applications.js:45
+msgid "Update Order"
+msgstr "Atualizar ordem"
+
+#: frappe/desk/page/setup_wizard/setup_wizard.js:494
+msgid "Update Password"
+msgstr "Atualizar senha"
+
+#. Title of the edit-profile Web Form
+#: frappe/core/web_form/edit_profile/edit_profile.json
+msgid "Update Profile"
+msgstr "Atualizar perfil"
+
+#. Label of the update_series (Section Break) field in DocType 'Document Naming
+#. Settings'
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.json
+msgid "Update Series Counter"
+msgstr "Atualizar contador da série"
+
+#. Label of the update_series_start (Button) field in DocType 'Document Naming
+#. Settings'
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.json
+msgid "Update Series Number"
+msgstr "Atualizar número da série"
+
+#. Option for the 'Action' (Select) field in DocType 'Onboarding Step'
+#: frappe/desk/doctype/onboarding_step/onboarding_step.json
+msgid "Update Settings"
+msgstr "Atualizar configurações"
+
+#: frappe/public/js/frappe/views/translation_manager.js:13
+msgid "Update Translations"
+msgstr "Atualizar traduções"
+
+#. Label of the update_value (Small Text) field in DocType 'Bulk Update'
+#. Label of the update_value (Data) field in DocType 'Workflow Document State'
+#: frappe/desk/doctype/bulk_update/bulk_update.json
+#: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
+msgid "Update Value"
+msgstr "Atualizar Valor"
+
+#: frappe/utils/change_log.py:381
+msgid "Update from Frappe Cloud"
+msgstr "Atualizar do Frappe Cloud"
+
+#: frappe/public/js/frappe/list/bulk_operations.js:375
+msgid "Update {0} records"
+msgstr "Atualizar {0} registros"
+
+#. Option for the 'Comment Type' (Select) field in DocType 'Comment'
+#. Option for the 'Status' (Select) field in DocType 'Permission Log'
+#: frappe/core/doctype/comment/comment.json
+#: frappe/core/doctype/permission_log/permission_log.json
+#: frappe/desk/doctype/workspace_settings/workspace_settings.py:41
+#: frappe/public/js/frappe/web_form/web_form.js:451
+msgid "Updated"
+msgstr "Atualizado"
+
+#: frappe/desk/doctype/bulk_update/bulk_update.js:32
+msgid "Updated Successfully"
+msgstr "Atualizado com sucesso"
+
+#: frappe/public/js/frappe/desk.js:446
+msgid "Updated To A New Version 🎉"
+msgstr "Atualizado para uma nova versão 🎉"
+
+#: frappe/public/js/frappe/list/bulk_operations.js:372
+msgid "Updated successfully"
+msgstr "Atualizado com sucesso"
+
+#: frappe/utils/response.py:337
+msgid "Updating"
+msgstr "Atualizando"
+
+#: frappe/public/js/frappe/form/save.js:11
+msgctxt "Freeze message while updating a document"
+msgid "Updating"
+msgstr "Atualizando"
+
+#: frappe/email/doctype/email_queue/email_queue_list.js:49
+msgid "Updating Email Queue Statuses. The emails will be picked up in the next scheduled run."
+msgstr "Atualizando os status da fila de e-mails. Os e-mails serão processados na próxima execução agendada."
+
+#: frappe/core/doctype/document_naming_rule/document_naming_rule.js:17
+msgid "Updating counter may lead to document name conflicts if not done properly"
+msgstr "Atualizar o contador pode causar conflitos nos nomes dos documentos se não for feito corretamente"
+
+#: frappe/desk/page/setup_wizard/setup_wizard.py:23
+msgid "Updating global settings"
+msgstr "Atualizando configurações globais"
+
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.js:59
+msgid "Updating naming series options"
+msgstr "Atualizando opções da série de nomenclatura"
+
+#: frappe/public/js/frappe/form/toolbar.js:147
+msgid "Updating related fields..."
+msgstr "Atualizando campos relacionados..."
+
+#: frappe/desk/doctype/bulk_update/bulk_update.py:95
+msgid "Updating {0}"
+msgstr "Atualizando {0}"
+
+#: frappe/core/doctype/data_import/data_import.js:36
+msgid "Updating {0} of {1}, {2}"
+msgstr "Atualizando {0} de {1}, {2}"
+
+#: frappe/public/js/billing.bundle.js:131
+msgid "Upgrade plan"
+msgstr "Fazer upgrade do plano"
+
+#: frappe/public/js/frappe/file_uploader/file_uploader.bundle.js:145
+#: frappe/public/js/frappe/file_uploader/file_uploader.bundle.js:146
+#: frappe/public/js/frappe/form/grid.js:66
+#: frappe/public/js/frappe/form/templates/form_sidebar.html:13
+msgid "Upload"
+msgstr "Enviar"
+
+#: frappe/public/js/print_format_builder/LetterHeadEditor.vue:93
+msgid "Upload Image"
+msgstr "Enviar imagem"
+
+#: frappe/public/js/frappe/file_uploader/FileUploader.vue:215
+msgid "Upload file"
+msgstr "Enviar arquivo"
+
+#: frappe/public/js/frappe/file_uploader/FileUploader.vue:218
+msgid "Upload {0} files"
+msgstr "Enviar {0} arquivos"
+
+#. Label of the uploaded_to_dropbox (Check) field in DocType 'File'
+#: frappe/core/doctype/file/file.json
+msgid "Uploaded To Dropbox"
+msgstr "Enviado para o Dropbox"
+
+#. Label of the uploaded_to_google_drive (Check) field in DocType 'File'
+#: frappe/core/doctype/file/file.json
+msgid "Uploaded To Google Drive"
+msgstr "Enviado para o Google Drive"
+
+#. Description of the 'Value to Validate' (Data) field in DocType 'Onboarding
+#. Step'
+#: frappe/desk/doctype/onboarding_step/onboarding_step.json
+#, python-format
+msgid "Use % for any non empty value."
+msgstr "Use % for qualquer valor nao vazio."
+
+#. Label of the ascii_encode_password (Check) field in DocType 'Email Account'
+#: frappe/email/doctype/email_account/email_account.json
+msgid "Use ASCII encoding for password"
+msgstr "Use codificação ASCII para senha"
+
+#. Label of the use_first_day_of_period (Check) field in DocType 'Auto Email
+#. Report'
+#: frappe/email/doctype/auto_email_report/auto_email_report.json
+msgid "Use First Day of Period"
+msgstr "Usar primeiro dia do período"
+
+#. Label of the use_html (Check) field in DocType 'Email Template'
+#: frappe/email/doctype/email_template/email_template.json
+msgid "Use HTML"
+msgstr "Usar HTML"
+
+#. Label of the use_imap (Check) field in DocType 'Email Account'
+#. Label of the use_imap (Check) field in DocType 'Email Domain'
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/email_domain/email_domain.json
+msgid "Use IMAP"
+msgstr "Usar IMAP"
+
+#. Label of the use_number_format_from_currency (Check) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Use Number Format from Currency"
+msgstr "Usar formato numérico da moeda"
+
+#. Label of the use_post (Check) field in DocType 'SMS Settings'
+#: frappe/core/doctype/sms_settings/sms_settings.json
+msgid "Use POST"
+msgstr "Usar POST"
+
+#. Label of the use_report_chart (Check) field in DocType 'Dashboard Chart'
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+msgid "Use Report Chart"
+msgstr "Usar gráfico de relatório"
+
+#. Label of the use_ssl (Check) field in DocType 'Email Account'
+#. Label of the use_ssl_for_outgoing (Check) field in DocType 'Email Account'
+#. Label of the use_ssl (Check) field in DocType 'Email Domain'
+#. Label of the use_ssl_for_outgoing (Check) field in DocType 'Email Domain'
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/email_domain/email_domain.json
+msgid "Use SSL"
+msgstr "Usar SSL"
+
+#. Label of the use_starttls (Check) field in DocType 'Email Account'
+#. Label of the use_starttls (Check) field in DocType 'Email Domain'
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/email_domain/email_domain.json
+msgid "Use STARTTLS"
+msgstr "Usar STARTTLS"
+
+#. Label of the use_tls (Check) field in DocType 'Email Account'
+#. Label of the use_tls (Check) field in DocType 'Email Domain'
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/email_domain/email_domain.json
+msgid "Use TLS"
+msgstr "Usar TLS"
+
+#: frappe/utils/password_strength.py:191
+msgid "Use a few uncommon words together."
+msgstr "Use algumas palavras incomuns juntas."
+
+#: frappe/utils/password_strength.py:44
+msgid "Use a few words, avoid common phrases."
+msgstr "Use algumas palavras e evite frases comuns."
+
+#. Label of the login_id_is_different (Check) field in DocType 'Email Account'
+#: frappe/email/doctype/email_account/email_account.json
+msgid "Use different Email ID"
+msgstr "Usar ID de e-mail diferente"
+
+#. Description of the 'Detect CSV type' (Check) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Use if the default settings don't seem to detect your data correctly"
+msgstr "Use se as configurações padrão não detectarem seus dados corretamente"
+
+#: frappe/model/db_query.py:509
+msgid "Use of sub-query or function is restricted"
+msgstr "O uso de subconsulta ou função é restrito"
+
+#: frappe/printing/page/print/print.js:311
+msgid "Use the new Print Format Builder"
+msgstr "Use o novo construtor de formatos de impressão"

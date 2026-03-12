@@ -1,0 +1,838 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Label of a Card Break in the Financial Reports Workspace
+#: erpnext/accounts/workspace/financial_reports/financial_reports.json
+#: erpnext/public/js/financial_statements.js:265
+msgid "Financial Statements"
+msgstr "Demonstrativos Financeiros"
+
+#: erpnext/public/js/setup_wizard.js:48
+msgid "Financial Year Begins On"
+msgstr "O Exercício Fiscal Começa em"
+
+#. Description of the 'Ignore Account Closing Balance' (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Financial reports will be generated using GL Entry doctypes (should be enabled if Period Closing Voucher is not posted for all years sequentially or missing) "
+msgstr "Os relatórios financeiros serão gerados usando DocTypes de GL Entry (deve ser ativado se o Comprovante de Fechamento de Período não tiver sido lançado para todos os anos em sequência ou estiver faltando) "
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:853
+#: erpnext/manufacturing/doctype/work_order/work_order.js:868
+#: erpnext/manufacturing/doctype/work_order/work_order.js:877
+msgid "Finish"
+msgstr "Finalizar"
+
+#. Label of the fg_item (Link) field in DocType 'Purchase Order Item'
+#. Label of the item_code (Link) field in DocType 'BOM Creator'
+#. Label of the parent_item_code (Link) field in DocType 'Production Plan Sub
+#. Assembly Item'
+#. Label of the fg_item (Link) field in DocType 'Sales Order Item'
+#. Label of the finished_good (Link) field in DocType 'Subcontracting BOM'
+#: erpnext/buying/doctype/purchase_order/purchase_order.js:246
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/manufacturing/report/bom_variance_report/bom_variance_report.py:43
+#: erpnext/manufacturing/report/production_plan_summary/production_plan_summary.py:147
+#: erpnext/selling/doctype/sales_order/sales_order.js:824
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
+msgid "Finished Good"
+msgstr "Produto Acabado"
+
+#. Label of the finished_good_bom (Link) field in DocType 'Subcontracting BOM'
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
+msgid "Finished Good BOM"
+msgstr "BOM do Produto Acabado"
+
+#. Label of the fg_item (Link) field in DocType 'Subcontracting Inward Order
+#. Service Item'
+#. Label of the fg_item (Link) field in DocType 'Subcontracting Order Service
+#. Item'
+#: erpnext/public/js/utils.js:817
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_service_item/subcontracting_inward_order_service_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_service_item/subcontracting_order_service_item.json
+msgid "Finished Good Item"
+msgstr "Item do Produto Acabado"
+
+#. Label of the fg_item_code (Link) field in DocType 'Subcontracting Inward
+#. Order Scrap Item'
+#: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.py:37
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_scrap_item/subcontracting_inward_order_scrap_item.json
+msgid "Finished Good Item Code"
+msgstr "Código de Item Acabado"
+
+#: erpnext/public/js/utils.js:835
+msgid "Finished Good Item Qty"
+msgstr "Qtd. do Item do Produto Acabado"
+
+#. Label of the fg_item_qty (Float) field in DocType 'Subcontracting Inward
+#. Order Service Item'
+#. Label of the fg_item_qty (Float) field in DocType 'Subcontracting Order
+#. Service Item'
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_service_item/subcontracting_inward_order_service_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_service_item/subcontracting_order_service_item.json
+msgid "Finished Good Item Quantity"
+msgstr "Quantidade do Item do Produto Acabado"
+
+#: erpnext/controllers/accounts_controller.py:3924
+msgid "Finished Good Item is not specified for service item {0}"
+msgstr "O item de produto acabado não foi informado para o item de serviço {0}"
+
+#: erpnext/controllers/accounts_controller.py:3941
+msgid "Finished Good Item {0} Qty can not be zero"
+msgstr "A qtd. do item de produto acabado {0} não pode ser zero"
+
+#: erpnext/controllers/accounts_controller.py:3935
+msgid "Finished Good Item {0} must be a sub-contracted item"
+msgstr "O item de produto acabado {0} deve ser um item terceirizado"
+
+#. Label of the fg_item_qty (Float) field in DocType 'Purchase Order Item'
+#. Label of the fg_item_qty (Float) field in DocType 'Sales Order Item'
+#. Label of the finished_good_qty (Float) field in DocType 'Subcontracting BOM'
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
+msgid "Finished Good Qty"
+msgstr "Qtd. do Produto Acabado"
+
+#. Label of the fg_completed_qty (Float) field in DocType 'Stock Entry'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Finished Good Quantity "
+msgstr "Quantidade do Produto Acabado "
+
+#. Label of the serial_no_and_batch_for_finished_good_section (Section Break)
+#. field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Finished Good Serial / Batch"
+msgstr "Nº de Série / Lote do Produto Acabado"
+
+#. Label of the finished_good_uom (Link) field in DocType 'Subcontracting BOM'
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
+msgid "Finished Good UOM"
+msgstr "UM do Produto Acabado"
+
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.py:51
+msgid "Finished Good {0} does not have a default BOM."
+msgstr "O produto acabado {0} não possui uma BOM padrão."
+
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.py:46
+msgid "Finished Good {0} is disabled."
+msgstr "O produto acabado {0} está desativado."
+
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.py:48
+msgid "Finished Good {0} must be a stock item."
+msgstr "O produto acabado {0} deve ser um item de estoque."
+
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.py:55
+msgid "Finished Good {0} must be a sub-contracted item."
+msgstr "O produto acabado {0} deve ser um item terceirizado."
+
+#: erpnext/setup/doctype/company/company.py:377
+msgid "Finished Goods"
+msgstr "Produtos Acabados"
+
+#. Label of the fg_based_section_section (Section Break) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Finished Goods Based Operating Cost"
+msgstr "Custo Operacional com Base em Produtos Acabados"
+
+#. Label of the fg_item (Link) field in DocType 'BOM Creator Item'
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+msgid "Finished Goods Item"
+msgstr "Item de Produtos Acabados"
+
+#. Label of the fg_reference_id (Data) field in DocType 'BOM Creator Item'
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+msgid "Finished Goods Reference"
+msgstr "Referência de Produtos Acabados"
+
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.js:165
+msgid "Finished Goods Return"
+msgstr "Devolução de Produtos Acabados"
+
+#: erpnext/manufacturing/report/process_loss_report/process_loss_report.py:106
+msgid "Finished Goods Value"
+msgstr "Valor dos Produtos Acabados"
+
+#. Label of the fg_warehouse (Link) field in DocType 'BOM Operation'
+#. Label of the warehouse (Link) field in DocType 'Production Plan Item'
+#. Label of the fg_warehouse (Link) field in DocType 'Work Order Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+#: erpnext/manufacturing/doctype/production_plan_item/production_plan_item.json
+#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
+msgid "Finished Goods Warehouse"
+msgstr "Armazém de Produtos Acabados"
+
+#. Label of the fg_based_operating_cost (Check) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Finished Goods based Operating Cost"
+msgstr "Custo Operacional com Base em Produtos Acabados"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1594
+msgid "Finished Item {0} does not match with Work Order {1}"
+msgstr "O item acabado {0} não corresponde à ordem de produção {1}"
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:577
+msgid "First Delivery Date"
+msgstr "Primeira Data de Entrega"
+
+#. Label of the first_email (Time) field in DocType 'Project'
+#: erpnext/projects/doctype/project/project.json
+msgid "First Email"
+msgstr "Primeiro E-mail"
+
+#. Label of the first_responded_on (Datetime) field in DocType 'Issue'
+#: erpnext/support/doctype/issue/issue.json
+msgid "First Responded On"
+msgstr "Primeira Resposta em"
+
+#. Option for the 'Service Level Agreement Status' (Select) field in DocType
+#. 'Issue'
+#: erpnext/support/doctype/issue/issue.json
+msgid "First Response Due"
+msgstr "Vencimento da Primeira Resposta"
+
+#: erpnext/support/doctype/issue/test_issue.py:239
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.py:906
+msgid "First Response SLA Failed by {}"
+msgstr "O SLA da primeira resposta falhou em {}"
+
+#. Label of the first_response_time (Duration) field in DocType 'Opportunity'
+#. Label of the first_response_time (Duration) field in DocType 'Issue'
+#. Label of the response_time (Duration) field in DocType 'Service Level
+#. Priority'
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/support/doctype/issue/issue.json
+#: erpnext/support/doctype/service_level_priority/service_level_priority.json
+#: erpnext/support/report/first_response_time_for_issues/first_response_time_for_issues.py:15
+msgid "First Response Time"
+msgstr "Tempo de Primeira Resposta"
+
+#. Name of a report
+#. Label of a Link in the Support Workspace
+#: erpnext/support/report/first_response_time_for_issues/first_response_time_for_issues.json
+#: erpnext/support/workspace/support/support.json
+msgid "First Response Time for Issues"
+msgstr "Tempo de Primeira Resposta para Chamados"
+
+#. Name of a report
+#. Label of a Link in the CRM Workspace
+#: erpnext/crm/report/first_response_time_for_opportunity/first_response_time_for_opportunity.json
+#: erpnext/crm/workspace/crm/crm.json
+msgid "First Response Time for Opportunity"
+msgstr "Tempo de Primeira Resposta em Oportunidades"
+
+#: erpnext/regional/italy/utils.py:229
+msgid "Fiscal Regime is mandatory, kindly set the fiscal regime in the company {0}"
+msgstr "O regime fiscal é obrigatório. Defina o regime fiscal na empresa {0}"
+
+#. Name of a DocType
+#. Label of the fiscal_year (Link) field in DocType 'GL Entry'
+#. Label of the fiscal_year (Link) field in DocType 'Monthly Distribution'
+#. Label of the fiscal_year (Link) field in DocType 'Period Closing Voucher'
+#. Label of a Link in the Accounting Workspace
+#. Label of the fiscal_year (Link) field in DocType 'Lower Deduction
+#. Certificate'
+#. Label of the fiscal_year (Link) field in DocType 'Target Detail'
+#. Label of the fiscal_year (Data) field in DocType 'Stock Ledger Entry'
+#: erpnext/accounts/doctype/fiscal_year/fiscal_year.json
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+#: erpnext/accounts/doctype/monthly_distribution/monthly_distribution.json
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.json
+#: erpnext/accounts/notification/notification_for_new_fiscal_year/notification_for_new_fiscal_year.html:1
+#: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.js:18
+#: erpnext/accounts/report/dimension_wise_accounts_balance_report/dimension_wise_accounts_balance_report.js:16
+#: erpnext/accounts/report/profitability_analysis/profitability_analysis.js:38
+#: erpnext/accounts/report/trial_balance/trial_balance.js:16
+#: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.js:16
+#: erpnext/accounts/workspace/accounting/accounting.json
+#: erpnext/manufacturing/report/job_card_summary/job_card_summary.js:16
+#: erpnext/public/js/purchase_trends_filters.js:28
+#: erpnext/public/js/sales_trends_filters.js:44
+#: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
+#: erpnext/regional/report/irs_1099/irs_1099.js:17
+#: erpnext/selling/report/sales_partner_target_variance_based_on_item_group/sales_partner_target_variance_based_on_item_group.js:15
+#: erpnext/selling/report/sales_person_target_variance_based_on_item_group/sales_person_target_variance_based_on_item_group.js:15
+#: erpnext/selling/report/territory_target_variance_based_on_item_group/territory_target_variance_based_on_item_group.js:15
+#: erpnext/setup/doctype/target_detail/target_detail.json
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
+msgid "Fiscal Year"
+msgstr "Exercício Fiscal"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/fiscal_year_company/fiscal_year_company.json
+msgid "Fiscal Year Company"
+msgstr "Empresa do Exercício Fiscal"
+
+#: erpnext/accounts/doctype/fiscal_year/fiscal_year.py:65
+msgid "Fiscal Year End Date should be one year after Fiscal Year Start Date"
+msgstr "A data final do exercício fiscal deve ser um ano após a data inicial"
+
+#: erpnext/accounts/doctype/fiscal_year/fiscal_year.py:129
+msgid "Fiscal Year Start Date and Fiscal Year End Date are already set in Fiscal Year {0}"
+msgstr "A data inicial e a data final do exercício fiscal já estão definidas no exercício fiscal {0}"
+
+#: erpnext/controllers/trends.py:53
+msgid "Fiscal Year {0} Does Not Exist"
+msgstr "O exercício fiscal {0} não existe"
+
+#: erpnext/accounts/report/trial_balance/trial_balance.py:49
+msgid "Fiscal Year {0} does not exist"
+msgstr "O exercício fiscal {0} não existe"
+
+#: erpnext/accounts/doctype/budget/budget.py:97
+msgid "Fiscal Year {0} is not available for Company {1}."
+msgstr "O exercício fiscal {0} não está disponível para a empresa {1}."
+
+#: erpnext/accounts/report/trial_balance/trial_balance.py:43
+msgid "Fiscal Year {0} is required"
+msgstr "O exercício fiscal {0} é obrigatório"
+
+#: erpnext/stock/report/incorrect_serial_and_batch_bundle/incorrect_serial_and_batch_bundle.js:28
+msgid "Fix SABB Entry"
+msgstr "Corrigir Lançamento SABB"
+
+#. Option for the 'Calculate Based On' (Select) field in DocType 'Shipping
+#. Rule'
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
+msgid "Fixed"
+msgstr "Fixo"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/report/account_balance/account_balance.js:52
+msgid "Fixed Asset"
+msgstr "Ativo Imobilizado"
+
+#. Label of the fixed_asset_account (Link) field in DocType 'Asset
+#. Capitalization Asset Item'
+#. Label of the fixed_asset_account (Link) field in DocType 'Asset Category
+#. Account'
+#: erpnext/assets/doctype/asset/asset.py:879
+#: erpnext/assets/doctype/asset_capitalization_asset_item/asset_capitalization_asset_item.json
+#: erpnext/assets/doctype/asset_category_account/asset_category_account.json
+msgid "Fixed Asset Account"
+msgstr "Conta do Ativo Imobilizado"
+
+#. Label of the fixed_asset_defaults (Section Break) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Fixed Asset Defaults"
+msgstr "Padrões de Ativo Imobilizado"
+
+#: erpnext/stock/doctype/item/item.py:304
+msgid "Fixed Asset Item must be a non-stock item."
+msgstr "O item de ativo imobilizado deve ser um item não estocável."
+
+#. Name of a report
+#. Label of a shortcut in the Assets Workspace
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.json
+#: erpnext/assets/workspace/assets/assets.json
+msgid "Fixed Asset Register"
+msgstr "Registro de Ativo Imobilizado"
+
+#: erpnext/accounts/report/financial_ratios/financial_ratios.py:211
+msgid "Fixed Asset Turnover Ratio"
+msgstr "Índice de Giro do Ativo Imobilizado"
+
+#: erpnext/manufacturing/doctype/bom/bom.py:691
+msgid "Fixed Asset item {0} cannot be used in BOMs."
+msgstr "O item de ativo imobilizado {0} não pode ser usado em BOMs."
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:43
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:76
+msgid "Fixed Assets"
+msgstr "Ativos Imobilizados"
+
+#. Label of the fixed_deposit_number (Data) field in DocType 'Bank Guarantee'
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
+msgid "Fixed Deposit Number"
+msgstr "Número do Depósito a Prazo"
+
+#. Label of the fixed_email (Link) field in DocType 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Fixed Outgoing Email Account"
+msgstr "Conta Fixa de E-mail de Saída"
+
+#. Option for the 'Subscription Price Based On' (Select) field in DocType
+#. 'Subscription Plan'
+#: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
+msgid "Fixed Rate"
+msgstr "Taxa Fixa"
+
+#. Label of the fixed_time (Check) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Fixed Time"
+msgstr "Tempo Fixo"
+
+#. Name of a role
+#: erpnext/setup/doctype/driver/driver.json
+#: erpnext/setup/doctype/vehicle/vehicle.json
+msgid "Fleet Manager"
+msgstr "Gerente de Frota"
+
+#. Label of the details_tab (Tab Break) field in DocType 'Plant Floor'
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.json
+msgid "Floor"
+msgstr "Chao de Fabrica"
+
+#. Label of the floor_name (Data) field in DocType 'Plant Floor'
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.json
+msgid "Floor Name"
+msgstr "Nome do Chao de Fabrica"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Fluid Ounce (UK)"
+msgstr "Onça Líquida (Reino Unido)"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Fluid Ounce (US)"
+msgstr "Onça Líquida (EUA)"
+
+#: erpnext/selling/page/point_of_sale/pos_item_selector.js:334
+msgid "Focus on Item Group filter"
+msgstr "Foco no filtro de grupo de itens"
+
+#: erpnext/selling/page/point_of_sale/pos_item_selector.js:325
+msgid "Focus on search input"
+msgstr "Foco na entrada de pesquisa"
+
+#. Label of the folio_no (Data) field in DocType 'Shareholder'
+#: erpnext/accounts/doctype/shareholder/shareholder.json
+msgid "Folio no."
+msgstr "Nº do Fólio"
+
+#. Label of the follow_calendar_months (Check) field in DocType 'Subscription'
+#: erpnext/accounts/doctype/subscription/subscription.json
+msgid "Follow Calendar Months"
+msgstr "Seguir Meses do Calendário"
+
+#: erpnext/templates/emails/reorder_item.html:1
+msgid "Following Material Requests have been raised automatically based on Item's re-order level"
+msgstr "As seguintes solicitações de material foram geradas automaticamente com base no nível de reposição do item"
+
+#: erpnext/selling/doctype/customer/customer.py:784
+msgid "Following fields are mandatory to create address:"
+msgstr "Os campos a seguir são obrigatórios para criar um endereço:"
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:25
+msgid "Food, Beverage & Tobacco"
+msgstr "Alimentos, Bebidas e Tabaco"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Foot"
+msgstr "Pé"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Foot Of Water"
+msgstr "Pé de Coluna d'Água"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Foot/Minute"
+msgstr "Pé/Minuto"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Foot/Second"
+msgstr "Pé/Segundo"
+
+#: erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html:23
+msgid "For"
+msgstr "Para"
+
+#: erpnext/public/js/utils/sales_common.js:389
+msgid "For 'Product Bundle' items, Warehouse, Serial No and Batch No will be considered from the 'Packing List' table. If Warehouse and Batch No are same for all packing items for any 'Product Bundle' item, those values can be entered in the main Item table, values will be copied to 'Packing List' table."
+msgstr "Para itens de 'Pacote de Produtos', Armazém, Nº de Série e Nº do Lote serão considerados da tabela 'Lista de Embalagem'. Se o Armazém e o Nº do Lote forem os mesmos para todos os itens de embalagem de qualquer item de 'Pacote de Produtos', esses valores podem ser informados na tabela principal de Itens e serão copiados para a tabela 'Lista de Embalagem'."
+
+#. Label of the for_all_stock_asset_accounts (Check) field in DocType 'Journal
+#. Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "For All Stock Asset Accounts"
+msgstr "Para Todas as Contas de Ativo de Estoque"
+
+#. Label of the for_buying (Check) field in DocType 'Currency Exchange'
+#: erpnext/setup/doctype/currency_exchange/currency_exchange.json
+msgid "For Buying"
+msgstr "Para Compra"
+
+#. Label of the company (Link) field in DocType 'Email Digest'
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "For Company"
+msgstr "Para a Empresa"
+
+#: erpnext/stock/doctype/material_request/material_request.js:403
+msgid "For Default Supplier (Optional)"
+msgstr "Para Fornecedor Padrão (opcional)"
+
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:187
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:211
+msgid "For Item"
+msgstr "Para o Item"
+
+#: erpnext/controllers/stock_controller.py:1546
+msgid "For Item {0} cannot be received more than {1} qty against the {2} {3}"
+msgstr "Para o item {0}, não é possível receber mais de {1} de quantidade contra {2} {3}"
+
+#. Label of the for_job_card (Link) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "For Job Card"
+msgstr "Para Cartão de Trabalho"
+
+#. Label of the for_operation (Link) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.js:515
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "For Operation"
+msgstr "Para a Operação"
+
+#. Label of the for_price_list (Link) field in DocType 'Pricing Rule'
+#. Label of the for_price_list (Link) field in DocType 'Promotional Scheme
+#. Price Discount'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
+msgid "For Price List"
+msgstr "Para Lista de Preços"
+
+#. Description of the 'Planned Quantity' (Float) field in DocType 'Sales Order
+#. Item'
+#. Description of the 'Produced Quantity' (Float) field in DocType 'Sales Order
+#. Item'
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+msgid "For Production"
+msgstr "Para Produção"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:790
+msgid "For Quantity (Manufactured Qty) is mandatory"
+msgstr "Para Quantidade (Qtd. Produzida) é obrigatório"
+
+#. Label of the material_request_planning (Section Break) field in DocType
+#. 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "For Raw Materials"
+msgstr "Para Matérias-Primas"
+
+#: erpnext/controllers/accounts_controller.py:1435
+msgid "For Return Invoices with Stock effect, '0' qty Items are not allowed. Following rows are affected: {0}"
+msgstr "Para faturas de devolução com efeito no estoque, itens com quantidade '0' não são permitidos. As seguintes linhas foram afetadas: {0}"
+
+#. Label of the for_selling (Check) field in DocType 'Currency Exchange'
+#: erpnext/setup/doctype/currency_exchange/currency_exchange.json
+msgid "For Selling"
+msgstr "Para Venda"
+
+#: erpnext/accounts/doctype/payment_order/payment_order.js:108
+msgid "For Supplier"
+msgstr "Para Fornecedor"
+
+#. Label of the warehouse (Link) field in DocType 'Material Request Plan Item'
+#. Label of the for_warehouse (Link) field in DocType 'Production Plan'
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:471
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+#: erpnext/selling/doctype/sales_order/sales_order.js:1399
+#: erpnext/stock/doctype/material_request/material_request.js:349
+#: erpnext/templates/form_grid/material_request_grid.html:36
+msgid "For Warehouse"
+msgstr "Para Armazém"
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:125
+msgid "For Work Order"
+msgstr "Para Ordem de Produção"
+
+#: erpnext/controllers/status_updater.py:278
+msgid "For an item {0}, quantity must be negative number"
+msgstr "Para um item {0}, a quantidade deve ser um número negativo"
+
+#: erpnext/controllers/status_updater.py:275
+msgid "For an item {0}, quantity must be positive number"
+msgstr "Para um item {0}, a quantidade deve ser um número positivo"
+
+#. Description of the 'Income Account' (Link) field in DocType 'Dunning'
+#: erpnext/accounts/doctype/dunning/dunning.json
+msgid "For dunning fee and interest"
+msgstr "Para taxa e juros de cobrança"
+
+#. Description of the 'Year Name' (Data) field in DocType 'Fiscal Year'
+#: erpnext/accounts/doctype/fiscal_year/fiscal_year.json
+msgid "For e.g. 2012, 2012-13"
+msgstr "Por exemplo: 2012, 2012-13"
+
+#. Description of the 'Collection Factor (=1 LP)' (Currency) field in DocType
+#. 'Loyalty Program Collection'
+#: erpnext/accounts/doctype/loyalty_program_collection/loyalty_program_collection.json
+msgid "For how much spent = 1 Loyalty Point"
+msgstr "A cada quanto gasto = 1 ponto de fidelidade"
+
+#. Description of the 'Supplier' (Link) field in DocType 'Request for
+#. Quotation'
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
+msgid "For individual supplier"
+msgstr "Para fornecedor individual"
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:330
+msgid "For item <b>{0}</b>, only <b>{1}</b> asset have been created or linked to <b>{2}</b>. Please create or link <b>{3}</b> more asset with the respective document."
+msgstr "Para o item <b>{0}</b>, apenas <b>{1}</b> ativo foi criado ou vinculado a <b>{2}</b>. Crie ou vincule mais <b>{3}</b> ativos ao respectivo documento."
+
+#: erpnext/controllers/status_updater.py:283
+msgid "For item {0}, rate must be a positive number. To Allow negative rates, enable {1} in {2}"
+msgstr "Para o item {0}, a taxa deve ser um número positivo. Para permitir taxas negativas, ative {1} em {2}"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:2524
+msgid "For operation {0}: Quantity ({1}) can not be greater than pending quantity({2})"
+msgstr "Para a operação {0}: a quantidade ({1}) não pode ser maior que a quantidade pendente ({2})"
+
+#: erpnext/projects/doctype/project/project.js:208
+msgid "For project {0}, update your status"
+msgstr "Para o projeto {0}, atualize seu status"
+
+#. Description of the 'Parent Warehouse' (Link) field in DocType 'Master
+#. Production Schedule'
+#. Description of the 'Parent Warehouse' (Link) field in DocType 'Sales
+#. Forecast'
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
+#: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.json
+msgid "For projected and forecast quantities, the system will consider all child warehouses under the selected parent warehouse."
+msgstr "Para quantidades projetadas e previstas, o sistema considerará todos os armazéns filhos sob o armazém pai selecionado."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1626
+msgid "For quantity {0} should not be greater than allowed quantity {1}"
+msgstr "A quantidade para {0} não deve ser maior que a quantidade permitida {1}"
+
+#. Description of the 'Territory Manager' (Link) field in DocType 'Territory'
+#: erpnext/setup/doctype/territory/territory.json
+msgid "For reference"
+msgstr "Como referência"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.js:1528
+#: erpnext/public/js/controllers/accounts.js:204
+msgid "For row {0} in {1}. To include {2} in Item rate, rows {3} must also be included"
+msgstr "Para a linha {0} em {1}. Para incluir {2} na taxa do item, as linhas {3} também devem ser incluídas"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.py:1691
+msgid "For row {0}: Enter Planned Qty"
+msgstr "Para a linha {0}: informe a qtd. planejada"
+
+#. Description of the 'Service Expense Account' (Link) field in DocType
+#. 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "For service item"
+msgstr "Para item de serviço"
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:178
+msgid "For the 'Apply Rule On Other' condition the field {0} is mandatory"
+msgstr "Para a condição 'Aplicar Regra em Outro', o campo {0} é obrigatório"
+
+#. Description of a DocType
+#: erpnext/stock/doctype/item_customer_detail/item_customer_detail.json
+msgid "For the convenience of customers, these codes can be used in print formats like Invoices and Delivery Notes"
+msgstr "Para conveniência dos clientes, esses códigos podem ser usados em formatos de impressão como Faturas e Notas de Entrega"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:930
+msgid "For the item {0}, the quantity should be {1} according to the BOM {2}."
+msgstr "Para o item {0}, a quantidade deve ser {1} de acordo com a BOM {2}."
+
+#: erpnext/public/js/controllers/transaction.js:1286
+msgctxt "Clear payment terms template and/or payment schedule when due date is changed"
+msgid "For the new {0} to take effect, would you like to clear the current {1}?"
+msgstr "Para que o novo {0} entre em vigor, deseja limpar o {1} atual?"
+
+#: erpnext/controllers/stock_controller.py:401
+msgid "For the {0}, no stock is available for the return in the warehouse {1}."
+msgstr "Para {0}, não há estoque disponível para a devolução no armazém {1}."
+
+#: erpnext/controllers/sales_and_purchase_return.py:1123
+msgid "For the {0}, the quantity is required to make the return entry"
+msgstr "Para {0}, a quantidade é obrigatória para fazer o lançamento de devolução"
+
+#: erpnext/accounts/doctype/subscription/subscription.js:42
+msgid "Force-Fetch Subscription Updates"
+msgstr "Forçar Busca de Atualizações da Assinatura"
+
+#: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.py:234
+msgid "Forecast"
+msgstr "Previsão"
+
+#. Label of the forecast_demand_section (Section Break) field in DocType
+#. 'Master Production Schedule'
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
+msgid "Forecast Demand"
+msgstr "Previsão de Demanda"
+
+#. Label of the forecast_qty (Float) field in DocType 'Sales Forecast Item'
+#: erpnext/manufacturing/doctype/sales_forecast_item/sales_forecast_item.json
+msgid "Forecast Qty"
+msgstr "Qtd. Prevista"
+
+#. Label of a shortcut in the Manufacturing Workspace
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+msgid "Forecasting"
+msgstr "Previsão"
+
+#. Label of the forecasting_method (Select) field in DocType 'Sales Forecast'
+#: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.json
+msgid "Forecasting Method"
+msgstr "Método de Previsão"
+
+#: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.py:280
+#: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.py:281
+#: erpnext/accounts/report/consolidated_trial_balance/test_consolidated_trial_balance.py:88
+msgid "Foreign Currency Translation Reserve"
+msgstr "Reserva de Conversão de Moeda Estrangeira"
+
+#. Label of the foreign_trade_details (Section Break) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Foreign Trade Details"
+msgstr "Detalhes de Comércio Exterior"
+
+#. Label of the formula_based_criteria (Check) field in DocType 'Item Quality
+#. Inspection Parameter'
+#. Label of the formula_based_criteria (Check) field in DocType 'Quality
+#. Inspection Reading'
+#: erpnext/stock/doctype/item_quality_inspection_parameter/item_quality_inspection_parameter.json
+#: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
+msgid "Formula Based Criteria"
+msgstr "Critério Baseado em Fórmula"
+
+#. Label of the calculation_formula (Code) field in DocType 'Financial Report
+#. Row'
+#: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
+msgid "Formula or Account Filter"
+msgstr "Fórmula ou Filtro de Conta"
+
+#: erpnext/templates/pages/help.html:35
+msgid "Forum Activity"
+msgstr "Atividade do Fórum"
+
+#. Label of the forum_sb (Section Break) field in DocType 'Support Settings'
+#: erpnext/support/doctype/support_settings/support_settings.json
+msgid "Forum Posts"
+msgstr "Postagens no Fórum"
+
+#. Label of the forum_url (Data) field in DocType 'Support Settings'
+#: erpnext/support/doctype/support_settings/support_settings.json
+msgid "Forum URL"
+msgstr "URL do Fórum"
+
+#: erpnext/setup/install.py:200
+msgid "Frappe School"
+msgstr "Frappe School"
+
+#. Title of an incoterm
+#: erpnext/setup/doctype/incoterm/incoterms.csv:4
+msgid "Free Alongside Ship"
+msgstr "Livre ao Lado do Navio"
+
+#. Title of an incoterm
+#: erpnext/setup/doctype/incoterm/incoterms.csv:3
+msgid "Free Carrier"
+msgstr "Livre no Transportador"
+
+#. Label of the free_item (Link) field in DocType 'Pricing Rule'
+#. Label of the section_break_6 (Section Break) field in DocType 'Promotional
+#. Scheme Product Discount'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
+msgid "Free Item"
+msgstr "Item Grátis"
+
+#. Label of the free_item_rate (Currency) field in DocType 'Pricing Rule'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+msgid "Free Item Rate"
+msgstr "Taxa do Item Grátis"
+
+#. Title of an incoterm
+#: erpnext/setup/doctype/incoterm/incoterms.csv:5
+msgid "Free On Board"
+msgstr "Livre a Bordo"
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:283
+msgid "Free item code is not selected"
+msgstr "O código do item grátis não foi selecionado"
+
+#: erpnext/accounts/doctype/pricing_rule/utils.py:654
+msgid "Free item not set in the pricing rule {0}"
+msgstr "O item grátis não foi definido na regra de preço {0}"
+
+#. Label of the stock_frozen_upto_days (Int) field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Freeze Stocks Older Than (Days)"
+msgstr "Congelar Estoques Mais Antigos que (Dias)"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:107
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:185
+msgid "Freight and Forwarding Charges"
+msgstr "Frete e Encargos de Envio"
+
+#. Label of the frequency (Select) field in DocType 'Project'
+#: erpnext/projects/doctype/project/project.json
+msgid "Frequency To Collect Progress"
+msgstr "Frequência para Coletar Progresso"
+
+#. Label of the frequency_of_depreciation (Int) field in DocType 'Asset'
+#. Label of the frequency_of_depreciation (Int) field in DocType 'Asset
+#. Depreciation Schedule'
+#. Label of the frequency_of_depreciation (Int) field in DocType 'Asset Finance
+#. Book'
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+#: erpnext/assets/doctype/asset_finance_book/asset_finance_book.json
+msgid "Frequency of Depreciation (Months)"
+msgstr "Frequência da Depreciação (Meses)"
+
+#: erpnext/www/support/index.html:45
+msgid "Frequently Read Articles"
+msgstr "Artigos Lidos com Frequência"
+
+#. Label of the from_bom (Link) field in DocType 'Material Request Plan Item'
+#. Label of the from_bom (Check) field in DocType 'Stock Entry'
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "From BOM"
+msgstr "Da BOM"
+
+#: erpnext/manufacturing/report/bom_stock_calculated/bom_stock_calculated.py:63
+#: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py:25
+msgid "From BOM No"
+msgstr "Do Nº da BOM"
+
+#. Label of the from_company (Data) field in DocType 'Warranty Claim'
+#: erpnext/support/doctype/warranty_claim/warranty_claim.json
+msgid "From Company"
+msgstr "Da Empresa"
+
+#. Description of the 'Corrective Operation Cost' (Currency) field in DocType
+#. 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "From Corrective Job Card"
+msgstr "Do Cartão de Trabalho Corretivo"
+
+#. Label of the from_currency (Link) field in DocType 'Currency Exchange'
+#: erpnext/setup/doctype/currency_exchange/currency_exchange.json
+msgid "From Currency"
+msgstr "Da Moeda"
+
+#: erpnext/setup/doctype/currency_exchange/currency_exchange.py:52
+msgid "From Currency and To Currency cannot be same"
+msgstr "A moeda de origem e a moeda de destino não podem ser iguais"

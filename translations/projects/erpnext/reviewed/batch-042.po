@@ -1,0 +1,1001 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:733
+msgid "References {0} of type {1} had no outstanding amount left before submitting the Payment Entry. Now they have a negative outstanding amount."
+msgstr "As referencias {0} do tipo {1} nao tinham mais valor em aberto antes do envio da Entrada de Pagamento. Agora elas tem valor em aberto negativo."
+
+#. Label of the referral_code (Data) field in DocType 'Sales Partner'
+#: erpnext/setup/doctype/sales_partner/sales_partner.json
+msgid "Referral Code"
+msgstr "Codigo de Indicacao"
+
+#. Label of the referral_sales_partner (Link) field in DocType 'Quotation'
+#: erpnext/selling/doctype/quotation/quotation.json
+msgid "Referral Sales Partner"
+msgstr "Parceiro de Vendas Indicador"
+
+#: erpnext/accounts/doctype/bank/bank.js:21
+msgid "Refresh Plaid Link"
+msgstr "Atualizar Link do Plaid"
+
+#: erpnext/stock/reorder_item.py:402
+msgid "Regards,"
+msgstr "Saudações,"
+
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.js:27
+msgid "Regenerate Stock Closing Entry"
+msgstr "Regenerar Lancamento de Fechamento de Estoque"
+
+#. Label of a Card Break in the Buying Workspace
+#: erpnext/buying/workspace/buying/buying.json
+msgid "Regional"
+msgstr "Regional"
+
+#. Label of the registration_details (Code) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Registration Details"
+msgstr "Detalhes do Registro"
+
+#. Option for the 'Cheque Size' (Select) field in DocType 'Cheque Print
+#. Template'
+#: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
+msgid "Regular"
+msgstr "Regular"
+
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.py:198
+msgid "Rejected "
+msgstr "Rejeitado "
+
+#. Label of the rejected_qty (Float) field in DocType 'Purchase Invoice Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+msgid "Rejected Qty"
+msgstr "Qtd. Rejeitada"
+
+#. Label of the rejected_qty (Float) field in DocType 'Purchase Receipt Item'
+#. Label of the rejected_qty (Float) field in DocType 'Subcontracting Receipt
+#. Item'
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Rejected Quantity"
+msgstr "Quantidade Rejeitada"
+
+#. Label of the rejected_serial_no (Text) field in DocType 'Purchase Invoice
+#. Item'
+#. Label of the rejected_serial_no (Text) field in DocType 'Purchase Receipt
+#. Item'
+#. Label of the rejected_serial_no (Small Text) field in DocType
+#. 'Subcontracting Receipt Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Rejected Serial No"
+msgstr "Nº de Serie Rejeitado"
+
+#. Label of the rejected_serial_and_batch_bundle (Link) field in DocType
+#. 'Purchase Invoice Item'
+#. Label of the rejected_serial_and_batch_bundle (Link) field in DocType
+#. 'Purchase Receipt Item'
+#. Label of the rejected_serial_and_batch_bundle (Link) field in DocType
+#. 'Subcontracting Receipt Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Rejected Serial and Batch Bundle"
+msgstr "Pacote de Series e Lotes Rejeitados"
+
+#. Label of the rejected_warehouse (Link) field in DocType 'Purchase Invoice'
+#. Label of the rejected_warehouse (Link) field in DocType 'Purchase Invoice
+#. Item'
+#. Label of the rejected_warehouse (Link) field in DocType 'Purchase Receipt'
+#. Label of the rejected_warehouse (Link) field in DocType 'Purchase Receipt
+#. Item'
+#. Label of the rejected_warehouse (Link) field in DocType 'Subcontracting
+#. Receipt'
+#. Label of the rejected_warehouse (Link) field in DocType 'Subcontracting
+#. Receipt Item'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Rejected Warehouse"
+msgstr "Deposito de Rejeitados"
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:657
+msgid "Rejected Warehouse and Accepted Warehouse cannot be same."
+msgstr "O deposito de rejeitados e o deposito aceito nao podem ser o mesmo."
+
+#: erpnext/buying/doctype/purchase_order/purchase_order_dashboard.py:23
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation_dashboard.py:14
+#: erpnext/stock/doctype/delivery_note/delivery_note_dashboard.py:22
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt_dashboard.py:26
+msgid "Related"
+msgstr "Relacionados"
+
+#. Label of the relation (Data) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Relation"
+msgstr "Parentesco"
+
+#. Label of the release_date (Date) field in DocType 'Purchase Invoice'
+#. Label of the release_date (Date) field in DocType 'Supplier'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:267
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:311
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1061
+msgid "Release Date"
+msgstr "Data de Liberacao"
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:318
+msgid "Release date must be in the future"
+msgstr "A data de liberacao deve estar no futuro"
+
+#. Label of the relieving_date (Date) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Relieving Date"
+msgstr "Data de Desligamento"
+
+#: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:125
+msgid "Remaining"
+msgstr "Remanescente"
+
+#: erpnext/selling/page/point_of_sale/pos_payment.js:684
+msgid "Remaining Amount"
+msgstr "Valor Restante"
+
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:189
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:156
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1232
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:178
+msgid "Remaining Balance"
+msgstr "Saldo Remanescente"
+
+#. Label of the remark (Small Text) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/selling/page/point_of_sale/pos_payment.js:489
+msgid "Remark"
+msgstr "Observação"
+
+#. Label of the remarks (Text) field in DocType 'GL Entry'
+#. Label of the remarks (Small Text) field in DocType 'Payment Entry'
+#. Label of the remarks (Text) field in DocType 'Payment Ledger Entry'
+#. Label of the remarks (Small Text) field in DocType 'Payment Reconciliation
+#. Payment'
+#. Label of the remarks (Small Text) field in DocType 'Period Closing Voucher'
+#. Label of the remarks (Small Text) field in DocType 'POS Invoice'
+#. Label of the remarks (Small Text) field in DocType 'Purchase Invoice'
+#. Label of the remarks (Text) field in DocType 'Purchase Invoice Advance'
+#. Label of the remarks (Small Text) field in DocType 'Sales Invoice'
+#. Label of the remarks (Text) field in DocType 'Sales Invoice Advance'
+#. Label of the remarks (Long Text) field in DocType 'Share Transfer'
+#. Label of the remarks (Text Editor) field in DocType 'BOM Creator'
+#. Label of the remarks_tab (Tab Break) field in DocType 'BOM Creator'
+#. Label of the remarks (Text) field in DocType 'Downtime Entry'
+#. Label of the remarks (Small Text) field in DocType 'Job Card'
+#. Label of the remarks (Small Text) field in DocType 'Installation Note'
+#. Label of the remarks (Small Text) field in DocType 'Purchase Receipt'
+#. Label of the remarks (Text) field in DocType 'Quality Inspection'
+#. Label of the remarks (Text) field in DocType 'Stock Entry'
+#. Label of the remarks (Small Text) field in DocType 'Subcontracting Receipt'
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.json
+#: erpnext/accounts/doctype/payment_reconciliation_payment/payment_reconciliation_payment.json
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:42
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:165
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:194
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:243
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:314
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice_advance/purchase_invoice_advance.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_invoice_advance/sales_invoice_advance.json
+#: erpnext/accounts/doctype/share_transfer/share_transfer.json
+#: erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html:11
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:142
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:159
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:204
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:275
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1264
+#: erpnext/accounts/report/general_ledger/general_ledger.html:90
+#: erpnext/accounts/report/general_ledger/general_ledger.html:116
+#: erpnext/accounts/report/general_ledger/general_ledger.py:796
+#: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:112
+#: erpnext/accounts/report/purchase_register/purchase_register.py:296
+#: erpnext/accounts/report/sales_register/sales_register.py:335
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+#: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/report/downtime_analysis/downtime_analysis.py:95
+#: erpnext/selling/doctype/installation_note/installation_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Remarks"
+msgstr "Observações"
+
+#. Label of the remarks_section (Section Break) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Remarks Column Length"
+msgstr "Tamanho da Coluna de Observacoes"
+
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:71
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:92
+msgid "Remarks:"
+msgstr "Observacoes:"
+
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:96
+msgid "Remove Parent Row No in Items Table"
+msgstr "Remover Nº da Linha Pai na Tabela de Itens"
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:9
+msgid "Remove item if charges is not applicable to that item"
+msgstr "Remova o item se os encargos nao se aplicarem a ele"
+
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:561
+msgid "Removed items with no change in quantity or value."
+msgstr "Itens removidos sem nenhuma alteração na quantidade ou valor."
+
+#: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:87
+msgid "Removing rows without exchange gain or loss"
+msgstr "Removendo linhas sem ganho ou perda cambial"
+
+#. Description of the 'Allow Rename Attribute Value' (Check) field in DocType
+#. 'Item Variant Settings'
+#: erpnext/stock/doctype/item_variant_settings/item_variant_settings.json
+msgid "Rename Attribute Value in Item Attribute."
+msgstr "Renomear valor do atributo no atributo do item."
+
+#. Label of the rename_log (HTML) field in DocType 'Rename Tool'
+#: erpnext/utilities/doctype/rename_tool/rename_tool.json
+msgid "Rename Log"
+msgstr "Log de Renomeacao"
+
+#: erpnext/accounts/doctype/account/account.py:556
+msgid "Rename Not Allowed"
+msgstr "Renomeacao Nao Permitida"
+
+#. Name of a DocType
+#: erpnext/utilities/doctype/rename_tool/rename_tool.json
+msgid "Rename Tool"
+msgstr "Ferramenta de Renomeacao"
+
+#: erpnext/utilities/doctype/rename_tool/rename_tool.js:26
+msgid "Rename jobs for doctype {0} have been enqueued."
+msgstr "Os jobs de renomeacao para o doctype {0} foram enfileirados."
+
+#: erpnext/utilities/doctype/rename_tool/rename_tool.js:39
+msgid "Rename jobs for doctype {0} have not been enqueued."
+msgstr "Os jobs de renomeacao para o doctype {0} nao foram enfileirados."
+
+#: erpnext/accounts/doctype/account/account.py:548
+msgid "Renaming it is only allowed via parent company {0}, to avoid mismatch."
+msgstr "Renomear só é permitido por meio da empresa-mãe {0}, para evitar incompatibilidade."
+
+#: erpnext/manufacturing/doctype/workstation/test_workstation.py:80
+#: erpnext/manufacturing/doctype/workstation/test_workstation.py:91
+#: erpnext/manufacturing/doctype/workstation/test_workstation.py:118
+#: erpnext/patches/v16_0/make_workstation_operating_components.py:49
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:316
+msgid "Rent"
+msgstr "Aluguel"
+
+#. Option for the 'Permanent Address Is' (Select) field in DocType 'Employee'
+#. Option for the 'Current Address Is' (Select) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Rented"
+msgstr "Alugado"
+
+#. Label of the reorder_level (Float) field in DocType 'Material Request Item'
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py:64
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:211
+msgid "Reorder Level"
+msgstr "Estoque Minimo"
+
+#. Label of the reorder_qty (Float) field in DocType 'Material Request Item'
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:218
+msgid "Reorder Qty"
+msgstr "Qtd. de Reposicao"
+
+#. Label of the reorder_levels (Table) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Reorder level based on Warehouse"
+msgstr "Nivel de reposicao por deposito"
+
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry'
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry Type'
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:95
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+msgid "Repack"
+msgstr "Reembalar"
+
+#. Group in Asset's connections
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Repair"
+msgstr "Reparo"
+
+#: erpnext/assets/doctype/asset/asset.js:120
+msgid "Repair Asset"
+msgstr "Reparar Ativo"
+
+#. Label of the repair_cost (Currency) field in DocType 'Asset Repair'
+#. Label of the repair_cost (Currency) field in DocType 'Asset Repair Purchase
+#. Invoice'
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+#: erpnext/assets/doctype/asset_repair_purchase_invoice/asset_repair_purchase_invoice.json
+msgid "Repair Cost"
+msgstr "Custo do Reparo"
+
+#. Label of the accounting_details (Section Break) field in DocType 'Asset
+#. Repair'
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+msgid "Repair Purchase Invoices"
+msgstr "Faturas de Compra do Reparo"
+
+#. Label of the repair_status (Select) field in DocType 'Asset Repair'
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+msgid "Repair Status"
+msgstr "Status do Reparo"
+
+#: erpnext/selling/report/customer_acquisition_and_loyalty/customer_acquisition_and_loyalty.py:37
+msgid "Repeat Customer Revenue"
+msgstr "Receita de Clientes Recorrentes"
+
+#: erpnext/selling/report/customer_acquisition_and_loyalty/customer_acquisition_and_loyalty.py:22
+msgid "Repeat Customers"
+msgstr "Clientes Recorrentes"
+
+#. Label of the replace (Button) field in DocType 'BOM Update Tool'
+#: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
+msgid "Replace"
+msgstr "Substituir"
+
+#. Option for the 'Update Type' (Select) field in DocType 'BOM Update Log'
+#. Label of the replace_bom_section (Section Break) field in DocType 'BOM
+#. Update Tool'
+#: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.json
+#: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
+msgid "Replace BOM"
+msgstr "Substituir BOM"
+
+#. Description of a DocType
+#: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
+msgid "Replace a particular BOM in all other BOMs where it is used. It will replace the old BOM link, update cost and regenerate \"BOM Explosion Item\" table as per new BOM.\n"
+"It also updates latest price in all the BOMs."
+msgstr "Substitua uma BOM especifica em todas as outras BOMs em que ela e usada. Isso substituira o link da BOM antiga, atualizara o custo e recriara a tabela \"BOM Explosion Item\" conforme a nova BOM.\n"
+"Tambem atualiza o preco mais recente em todas as BOMs."
+
+#. Label of the report_date (Date) field in DocType 'Quality Inspection'
+#: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:75
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+msgid "Report Date"
+msgstr "Data do Relatório"
+
+#: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.js:225
+msgid "Report Error"
+msgstr "Reportar Erro"
+
+#. Label of the rows (Table) field in DocType 'Financial Report Template'
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.json
+msgid "Report Line Items"
+msgstr "Itens de Linha do Relatorio"
+
+#: erpnext/accounts/report/balance_sheet/balance_sheet.js:13
+#: erpnext/accounts/report/cash_flow/cash_flow.js:22
+#: erpnext/accounts/report/custom_financial_statement/custom_financial_statement.js:13
+#: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.js:13
+msgid "Report Template"
+msgstr "Modelo de Relatorio"
+
+#: erpnext/accounts/doctype/account/account.py:462
+msgid "Report Type is mandatory"
+msgstr "O tipo de relatorio e obrigatorio"
+
+#: erpnext/setup/install.py:206
+msgid "Report an Issue"
+msgstr "Reportar um Problema"
+
+#. Label of the reporting_currency (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Reporting Currency"
+msgstr "Moeda de Relatorio"
+
+#: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.py:164
+#: erpnext/accounts/doctype/gl_entry/gl_entry.py:313
+msgid "Reporting Currency Exchange Not Found"
+msgstr "Cambio da Moeda de Relatorio nao Encontrado"
+
+#. Label of the reporting_currency_exchange_rate (Float) field in DocType
+#. 'Account Closing Balance'
+#. Label of the reporting_currency_exchange_rate (Float) field in DocType 'GL
+#. Entry'
+#: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.json
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+msgid "Reporting Currency Exchange Rate"
+msgstr "Taxa de Cambio da Moeda de Relatorio"
+
+#. Label of the reports_to (Link) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Reports to"
+msgstr "Reporta-se a"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.json
+msgid "Repost Accounting Ledger"
+msgstr "Reprocessar Livro Contabil"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/repost_accounting_ledger_items/repost_accounting_ledger_items.json
+msgid "Repost Accounting Ledger Items"
+msgstr "Itens de Reprocessamento do Livro Contabil"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/repost_accounting_ledger_settings/repost_accounting_ledger_settings.json
+msgid "Repost Accounting Ledger Settings"
+msgstr "Configuracoes de Reprocessamento do Livro Contabil"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/repost_allowed_types/repost_allowed_types.json
+msgid "Repost Allowed Types"
+msgstr "Tipos Permitidos para Reprocessamento"
+
+#. Label of the repost_error_log (Long Text) field in DocType 'Repost Payment
+#. Ledger'
+#: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.json
+msgid "Repost Error Log"
+msgstr "Log de Erros do Reprocessamento"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+msgid "Repost Item Valuation"
+msgstr "Reprocessar Valoracao do Item"
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:337
+msgid "Repost Item Valuation restarted for selected failed records."
+msgstr "O reprocessamento da valoracao do item foi reiniciado para os registros com falha selecionados."
+
+#. Label of the repost_only_accounting_ledgers (Check) field in DocType 'Repost
+#. Item Valuation'
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+msgid "Repost Only Accounting Ledgers"
+msgstr "Reprocessar Apenas Livros Contabeis"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.json
+msgid "Repost Payment Ledger"
+msgstr "Reprocessar Livro de Pagamentos"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/repost_payment_ledger_items/repost_payment_ledger_items.json
+msgid "Repost Payment Ledger Items"
+msgstr "Itens de Reprocessamento do Livro de Pagamentos"
+
+#. Label of the repost_status (Select) field in DocType 'Repost Payment Ledger'
+#: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.json
+msgid "Repost Status"
+msgstr "Status do Reprocessamento"
+
+#: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:146
+msgid "Repost has started in the background"
+msgstr "O reprocessamento foi iniciado em segundo plano"
+
+#: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.js:40
+msgid "Repost in background"
+msgstr "Reprocessar em segundo plano"
+
+#: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.py:118
+msgid "Repost started in the background"
+msgstr "O reprocessamento foi iniciado em segundo plano"
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.js:119
+msgid "Reposting Completed {0}%"
+msgstr "Reprocessamento concluido {0}%"
+
+#. Label of the reposting_data_file (Attach) field in DocType 'Repost Item
+#. Valuation'
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+msgid "Reposting Data File"
+msgstr "Arquivo de Dados do Reprocessamento"
+
+#. Label of the reposting_info_section (Section Break) field in DocType 'Repost
+#. Item Valuation'
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+msgid "Reposting Info"
+msgstr "Informacoes do Reprocessamento"
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.js:127
+msgid "Reposting Progress"
+msgstr "Progresso do Reprocessamento"
+
+#. Label of the reposting_reference (Data) field in DocType 'Repost Item
+#. Valuation'
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+msgid "Reposting Reference"
+msgstr "Referencia do Reprocessamento"
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:182
+#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:327
+msgid "Reposting entries created: {0}"
+msgstr "Lancamentos de reprocessamento criados: {0}"
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.js:103
+msgid "Reposting has been started in the background."
+msgstr "O reprocessamento foi iniciado em segundo plano."
+
+#: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.js:49
+msgid "Reposting in the background."
+msgstr "Reprocessando em segundo plano."
+
+#. Label of the represents_company (Link) field in DocType 'Purchase Invoice'
+#. Label of the represents_company (Link) field in DocType 'Sales Invoice'
+#. Label of the represents_company (Link) field in DocType 'Purchase Order'
+#. Label of the represents_company (Link) field in DocType 'Supplier'
+#. Label of the represents_company (Link) field in DocType 'Customer'
+#. Label of the represents_company (Link) field in DocType 'Sales Order'
+#. Label of the represents_company (Link) field in DocType 'Delivery Note'
+#. Label of the represents_company (Link) field in DocType 'Purchase Receipt'
+#. Label of the represents_company (Link) field in DocType 'Subcontracting
+#. Receipt'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Represents Company"
+msgstr "Representa a Empresa"
+
+#. Description of a DocType
+#: erpnext/accounts/doctype/fiscal_year/fiscal_year.json
+msgid "Represents a Financial Year. All accounting entries and other major transactions are tracked against the Fiscal Year."
+msgstr "Representa um exercicio fiscal. Todos os lancamentos contabeis e outras transacoes principais sao controlados em relacao ao exercicio fiscal."
+
+#: erpnext/templates/form_grid/material_request_grid.html:25
+msgid "Reqd By Date"
+msgstr "Data Necessaria"
+
+#. Label of the required_bom_qty (Float) field in DocType 'Material Request
+#. Plan Item'
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+msgid "Reqd Qty (BOM)"
+msgstr "Qtd. Necessaria (BOM)"
+
+#: erpnext/public/js/utils.js:791
+msgid "Reqd by date"
+msgstr "Data necessaria"
+
+#: erpnext/manufacturing/doctype/workstation/workstation.js:489
+msgid "Reqired Qty"
+msgstr "Qtd. Necessaria"
+
+#: erpnext/crm/doctype/opportunity/opportunity.js:89
+msgid "Request For Quotation"
+msgstr "Solicitação de Cotação"
+
+#. Label of the section_break_2 (Section Break) field in DocType 'Currency
+#. Exchange Settings'
+#: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.json
+msgid "Request Parameters"
+msgstr "Parametros da Requisicao"
+
+#. Label of the request_type (Select) field in DocType 'Lead'
+#: erpnext/crm/doctype/lead/lead.json
+msgid "Request Type"
+msgstr "Tipo de Solicitacao"
+
+#. Label of the warehouse (Link) field in DocType 'Item Reorder'
+#: erpnext/stock/doctype/item_reorder/item_reorder.json
+msgid "Request for"
+msgstr "Solicitação para"
+
+#. Option for the 'Request Type' (Select) field in DocType 'Lead'
+#: erpnext/crm/doctype/lead/lead.json
+msgid "Request for Information"
+msgstr "Solicitacao de Informacoes"
+
+#. Label of the request_for_quotation_tab (Tab Break) field in DocType 'Buying
+#. Settings'
+#. Name of a DocType
+#. Label of the request_for_quotation (Link) field in DocType 'Supplier
+#. Quotation Item'
+#. Label of a Link in the Buying Workspace
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:388
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.js:80
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:70
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.py:272
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/stock/doctype/material_request/material_request.js:190
+msgid "Request for Quotation"
+msgstr "Solicitação de Cotação"
+
+#. Name of a DocType
+#. Label of the request_for_quotation_item (Data) field in DocType 'Supplier
+#. Quotation Item'
+#: erpnext/buying/doctype/request_for_quotation_item/request_for_quotation_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+msgid "Request for Quotation Item"
+msgstr "Item da Solicitação de Cotação"
+
+#. Name of a DocType
+#: erpnext/buying/doctype/request_for_quotation_supplier/request_for_quotation_supplier.json
+msgid "Request for Quotation Supplier"
+msgstr "Fornecedor da Solicitação de Cotação"
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:1084
+msgid "Request for Raw Materials"
+msgstr "Solicitacao de Materias-primas"
+
+#. Option for the 'Status' (Select) field in DocType 'Payment Request'
+#. Option for the 'Advance Payment Status' (Select) field in DocType 'Sales
+#. Order'
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+msgid "Requested"
+msgstr "Solicitado"
+
+#. Name of a report
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/report/requested_items_to_be_transferred/requested_items_to_be_transferred.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Requested Items To Be Transferred"
+msgstr "Itens Solicitados para Transferencia"
+
+#. Name of a report
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.json
+msgid "Requested Items to Order and Receive"
+msgstr "Itens Solicitados para Comprar e Receber"
+
+#. Label of the requested_qty (Float) field in DocType 'Job Card'
+#. Label of the requested_qty (Float) field in DocType 'Material Request Plan
+#. Item'
+#. Label of the indented_qty (Float) field in DocType 'Bin'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/selling/report/pending_so_items_for_purchase_request/pending_so_items_for_purchase_request.py:44
+#: erpnext/stock/doctype/bin/bin.json
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:155
+msgid "Requested Qty"
+msgstr "Qtd. Solicitada"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
+msgid "Requested Qty: Quantity requested for purchase, but not ordered."
+msgstr "Qtd. solicitada: quantidade solicitada para compra, mas nao pedida."
+
+#: erpnext/buying/report/procurement_tracker/procurement_tracker.py:46
+msgid "Requesting Site"
+msgstr "Site Solicitante"
+
+#: erpnext/buying/report/procurement_tracker/procurement_tracker.py:53
+msgid "Requestor"
+msgstr "Solicitante"
+
+#. Label of the schedule_date (Date) field in DocType 'Purchase Order'
+#. Label of the schedule_date (Date) field in DocType 'Purchase Order Item'
+#. Label of the schedule_date (Date) field in DocType 'Material Request Plan
+#. Item'
+#. Label of the schedule_date (Date) field in DocType 'Material Request'
+#. Label of the schedule_date (Date) field in DocType 'Material Request Item'
+#. Label of the schedule_date (Date) field in DocType 'Purchase Receipt Item'
+#. Label of the schedule_date (Date) field in DocType 'Subcontracting Order'
+#. Label of the schedule_date (Date) field in DocType 'Subcontracting Order
+#. Item'
+#. Label of the schedule_date (Date) field in DocType 'Subcontracting Receipt
+#. Item'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:201
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:191
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/stock/doctype/material_request/material_request.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Required By"
+msgstr "Necessario em"
+
+#. Label of the schedule_date (Date) field in DocType 'Request for Quotation'
+#. Label of the schedule_date (Date) field in DocType 'Request for Quotation
+#. Item'
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
+#: erpnext/buying/doctype/request_for_quotation_item/request_for_quotation_item.json
+msgid "Required Date"
+msgstr "Data Necessaria"
+
+#. Label of the section_break_ndpq (Section Break) field in DocType 'Work
+#. Order'
+#. Label of the received_items (Table) field in DocType 'Subcontracting Inward
+#. Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
+msgid "Required Items"
+msgstr "Itens Necessarios"
+
+#: erpnext/templates/form_grid/material_request_grid.html:7
+msgid "Required On"
+msgstr "Necessario em"
+
+#. Label of the required_qty (Float) field in DocType 'Purchase Order Item
+#. Supplied'
+#. Label of the required_qty (Float) field in DocType 'Job Card Item'
+#. Label of the quantity (Float) field in DocType 'Material Request Plan Item'
+#. Label of the required_qty (Float) field in DocType 'Production Plan Sub
+#. Assembly Item'
+#. Label of the required_qty (Float) field in DocType 'Work Order Item'
+#. Label of the required_qty (Float) field in DocType 'Subcontracting Inward
+#. Order Received Item'
+#. Label of the required_qty (Float) field in DocType 'Subcontracting Order
+#. Supplied Item'
+#. Label of the required_qty (Float) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
+#: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
+#: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.py:151
+#: erpnext/manufacturing/doctype/job_card_item/job_card_item.json
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
+#: erpnext/manufacturing/report/bom_stock_calculated/bom_stock_calculated.py:94
+#: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.html:11
+#: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.html:21
+#: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py:28
+#: erpnext/manufacturing/report/bom_variance_report/bom_variance_report.py:58
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1041
+#: erpnext/manufacturing/report/production_planning_report/production_planning_report.py:426
+#: erpnext/manufacturing/report/work_order_consumed_materials/work_order_consumed_materials.py:139
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
+msgid "Required Qty"
+msgstr "Qtd. Necessaria"
+
+#: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.py:44
+#: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.py:37
+msgid "Required Quantity"
+msgstr "Quantidade Necessaria"
+
+#. Label of the requirement (Data) field in DocType 'Contract Fulfilment
+#. Checklist'
+#. Label of the requirement (Data) field in DocType 'Contract Template
+#. Fulfilment Terms'
+#: erpnext/crm/doctype/contract_fulfilment_checklist/contract_fulfilment_checklist.json
+#: erpnext/crm/doctype/contract_template_fulfilment_terms/contract_template_fulfilment_terms.json
+msgid "Requirement"
+msgstr "Requisito"
+
+#. Label of the requires_fulfilment (Check) field in DocType 'Contract'
+#. Label of the requires_fulfilment (Check) field in DocType 'Contract
+#. Template'
+#: erpnext/crm/doctype/contract/contract.json
+#: erpnext/crm/doctype/contract_template/contract_template.json
+msgid "Requires Fulfilment"
+msgstr "Requer Cumprimento"
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:263
+msgid "Research"
+msgstr "Pesquisa"
+
+#: erpnext/setup/doctype/company/company.py:502
+msgid "Research & Development"
+msgstr "Pesquisa e Desenvolvimento"
+
+#: erpnext/setup/setup_wizard/data/designation.txt:27
+msgid "Researcher"
+msgstr "Pesquisador"
+
+#. Description of the 'Supplier Primary Address' (Link) field in DocType
+#. 'Supplier'
+#. Description of the 'Customer Primary Address' (Link) field in DocType
+#. 'Customer'
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Reselect, if the chosen address is edited after save"
+msgstr "Selecione novamente se o endereco escolhido for editado apos salvar"
+
+#. Description of the 'Supplier Primary Contact' (Link) field in DocType
+#. 'Supplier'
+#. Description of the 'Customer Primary Contact' (Link) field in DocType
+#. 'Customer'
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Reselect, if the chosen contact is edited after save"
+msgstr "Selecione novamente se o contato escolhido for editado apos salvar"
+
+#: erpnext/setup/setup_wizard/data/sales_partner_type.txt:7
+msgid "Reseller"
+msgstr "Revendedor"
+
+#: erpnext/accounts/doctype/payment_request/payment_request.js:47
+msgid "Resend Payment Email"
+msgstr "Reenviar E-mail de Pagamento"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan_dashboard.py:13
+msgid "Reservation"
+msgstr "Reserva"
+
+#. Label of the reservation_based_on (Select) field in DocType 'Stock
+#. Reservation Entry'
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+#: erpnext/stock/report/reserved_stock/reserved_stock.js:118
+msgid "Reservation Based On"
+msgstr "Reserva Baseada em"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:894
+#: erpnext/selling/doctype/sales_order/sales_order.js:92
+#: erpnext/stock/doctype/pick_list/pick_list.js:148
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:180
+msgid "Reserve"
+msgstr "Reservar"
+
+#. Label of the reserve_stock (Check) field in DocType 'Production Plan'
+#. Label of the reserve_stock (Check) field in DocType 'Work Order'
+#. Label of the reserve_stock (Check) field in DocType 'Sales Order'
+#. Label of the reserve_stock (Check) field in DocType 'Sales Order Item'
+#. Label of the reserve_stock (Check) field in DocType 'Subcontracting Order'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/public/js/stock_reservation.js:15
+#: erpnext/selling/doctype/sales_order/sales_order.js:397
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:278
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Reserve Stock"
+msgstr "Reservar Estoque"
+
+#. Label of the reserve_warehouse (Link) field in DocType 'Purchase Order Item
+#. Supplied'
+#. Label of the reserve_warehouse (Link) field in DocType 'Subcontracting Order
+#. Supplied Item'
+#: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
+#: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
+msgid "Reserve Warehouse"
+msgstr "Deposito de Reserva"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:287
+msgid "Reserve for Raw Materials"
+msgstr "Reservar para Materias-primas"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:261
+msgid "Reserve for Sub-assembly"
+msgstr "Reservar para Submontagem"
+
+#. Option for the 'Status' (Select) field in DocType 'Stock Reservation Entry'
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+msgid "Reserved"
+msgstr "Reservado"
+
+#: erpnext/controllers/stock_controller.py:1269
+msgid "Reserved Batch Conflict"
+msgstr "Conflito de Lote Reservado"
+
+#. Label of the reserved_qty (Float) field in DocType 'Bin'
+#. Label of the reserved_qty (Float) field in DocType 'Stock Reservation Entry'
+#. Label of the stock_reserved_qty (Float) field in DocType 'Subcontracting
+#. Order Supplied Item'
+#: erpnext/manufacturing/doctype/plant_floor/stock_summary_template.html:29
+#: erpnext/stock/dashboard/item_dashboard_list.html:20
+#: erpnext/stock/doctype/bin/bin.json
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+#: erpnext/stock/report/reserved_stock/reserved_stock.py:124
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:169
+#: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
+msgid "Reserved Qty"
+msgstr "Qtd. Reservada"
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:263
+msgid "Reserved Qty ({0}) cannot be a fraction. To allow this, disable '{1}' in UOM {3}."
+msgstr "A qtd. reservada ({0}) nao pode ser fracionada. Para permitir isso, desative '{1}' na UM {3}."
+
+#. Label of the reserved_qty_for_production (Float) field in DocType 'Material
+#. Request Plan Item'
+#. Label of the reserved_qty_for_production (Float) field in DocType 'Bin'
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/stock/doctype/bin/bin.json
+msgid "Reserved Qty for Production"
+msgstr "Qtd. Reservada para Producao"
+
+#. Label of the reserved_qty_for_production_plan (Float) field in DocType 'Bin'
+#: erpnext/stock/doctype/bin/bin.json
+msgid "Reserved Qty for Production Plan"
+msgstr "Qtd. Reservada para Plano de Producao"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
+msgid "Reserved Qty for Production: Raw materials quantity to make manufacturing items."
+msgstr "Qtd. reservada para producao: quantidade de materias-primas para fabricar os itens."
+
+#. Label of the reserved_qty_for_sub_contract (Float) field in DocType 'Bin'
+#: erpnext/stock/doctype/bin/bin.json
+msgid "Reserved Qty for Subcontract"
+msgstr "Qtd. Reservada para Subcontratacao"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
+msgid "Reserved Qty for Subcontract: Raw materials quantity to make subcontracted items."
+msgstr "Qtd. reservada para subcontratacao: quantidade de materias-primas para produzir os itens subcontratados."
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:649
+msgid "Reserved Qty should be greater than Delivered Qty."
+msgstr "A qtd. reservada deve ser maior que a qtd. entregue."
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
+msgid "Reserved Qty: Quantity ordered for sale, but not delivered."
+msgstr "Qtd. reservada: quantidade pedida para venda, mas nao entregue."
+
+#: erpnext/stock/report/item_shortage_report/item_shortage_report.py:116
+msgid "Reserved Quantity"
+msgstr "Quantidade Reservada"
+
+#: erpnext/stock/report/item_shortage_report/item_shortage_report.py:123
+msgid "Reserved Quantity for Production"
+msgstr "Quantidade Reservada Para Produção"
+
+#: erpnext/stock/stock_ledger.py:2317
+msgid "Reserved Serial No."
+msgstr "Nº de Serie Reservado"
+
+#. Label of the reserved_stock (Float) field in DocType 'Bin'
+#. Name of a report
+#: erpnext/manufacturing/doctype/plant_floor/stock_summary_template.html:24
+#: erpnext/manufacturing/doctype/work_order/work_order.js:910
+#: erpnext/public/js/stock_reservation.js:236
+#: erpnext/selling/doctype/sales_order/sales_order.js:120
+#: erpnext/selling/doctype/sales_order/sales_order.js:457
+#: erpnext/stock/dashboard/item_dashboard_list.html:15
+#: erpnext/stock/doctype/bin/bin.json
+#: erpnext/stock/doctype/pick_list/pick_list.js:168
+#: erpnext/stock/report/reserved_stock/reserved_stock.json
+#: erpnext/stock/report/stock_balance/stock_balance.py:497
+#: erpnext/stock/stock_ledger.py:2301
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:205
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:333
+msgid "Reserved Stock"
+msgstr "Estoque Reservado"
+
+#: erpnext/stock/stock_ledger.py:2346
+msgid "Reserved Stock for Batch"
+msgstr "Estoque Reservado para Lote"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:301
+msgid "Reserved Stock for Raw Materials"
+msgstr "Estoque Reservado para Materias-primas"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:275
+msgid "Reserved Stock for Sub-assembly"
+msgstr "Estoque Reservado para Submontagem"
+
+#: erpnext/controllers/buying_controller.py:645
+msgid "Reserved Warehouse is mandatory for the Item {item_code} in Raw Materials supplied."
+msgstr "O deposito de reserva e obrigatorio para o item {item_code} em materias-primas fornecidas."

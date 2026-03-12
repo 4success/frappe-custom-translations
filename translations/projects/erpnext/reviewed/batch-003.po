@@ -1,0 +1,1054 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Label of the accumulated_depreciation_amount (Currency) field in DocType
+#. 'Depreciation Schedule'
+#: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.py:178
+#: erpnext/assets/doctype/asset/asset.js:302
+#: erpnext/assets/doctype/depreciation_schedule/depreciation_schedule.json
+msgid "Accumulated Depreciation Amount"
+msgstr "Depreciação Acumulada"
+
+#: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.py:635
+#: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.py:653
+msgid "Accumulated Depreciation as on"
+msgstr "Depreciação acumulada em"
+
+#: erpnext/accounts/doctype/budget/budget.py:521
+msgid "Accumulated Monthly"
+msgstr "Acumulado mensal"
+
+#: erpnext/controllers/budget_controller.py:425
+msgid "Accumulated Monthly Budget for Account {0} against {1} {2} is {3}. It will be collectively ({4}) exceeded by {5}"
+msgstr "O orçamento mensal acumulado da conta {0} para {1} {2} é {3}. Ele será excedido no total ({4}) em {5}"
+
+#: erpnext/controllers/budget_controller.py:327
+msgid "Accumulated Monthly Budget for Account {0} against {1}: {2} is {3}. It will be exceeded by {4}"
+msgstr "O orçamento mensal acumulado da conta {0} para {1}: {2} é {3}. Ele será excedido em {4}"
+
+#: erpnext/accounts/report/balance_sheet/balance_sheet.js:39
+#: erpnext/accounts/report/gross_and_net_profit_report/gross_and_net_profit_report.js:8
+#: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.js:40
+msgid "Accumulated Values"
+msgstr "Valores Acumulados"
+
+#: erpnext/accounts/report/consolidated_financial_statement/consolidated_financial_statement.js:125
+msgid "Accumulated Values in Group Company"
+msgstr "Valores Acumulados na Empresa do Grupo"
+
+#: erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py:111
+msgid "Achieved ({})"
+msgstr "Alcançado ({})"
+
+#. Label of the acquisition_date (Date) field in DocType 'Vehicle'
+#: erpnext/setup/doctype/vehicle/vehicle.json
+msgid "Acquisition Date"
+msgstr "Data de aquisição"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Acre"
+msgstr "Acre"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Acre (US)"
+msgstr "Acre (EUA)"
+
+#. Label of the action_if_quality_inspection_is_not_submitted (Select) field in
+#. DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Action If Quality Inspection Is Not Submitted"
+msgstr "Ação se a inspeção de qualidade não for enviada"
+
+#. Label of the action_if_quality_inspection_is_rejected (Select) field in
+#. DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Action If Quality Inspection Is Rejected"
+msgstr "Ação se a inspeção de qualidade for rejeitada"
+
+#. Label of the maintain_same_rate_action (Select) field in DocType 'Buying
+#. Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Action If Same Rate is Not Maintained"
+msgstr "Ação se a mesma taxa não for mantida"
+
+#: erpnext/quality_management/doctype/quality_review/quality_review_list.js:7
+msgid "Action Initialised"
+msgstr "Ação Inicializada"
+
+#. Label of the action_if_accumulated_monthly_budget_exceeded (Select) field in
+#. DocType 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+msgid "Action if Accumulated Monthly Budget Exceeded on Actual"
+msgstr "Ação se o orçamento mensal acumulado for excedido no realizado"
+
+#. Label of the action_if_accumulated_monthly_budget_exceeded_on_mr (Select)
+#. field in DocType 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+msgid "Action if Accumulated Monthly Budget Exceeded on MR"
+msgstr "Ação se o orçamento mensal acumulado for excedido na MR"
+
+#. Label of the action_if_accumulated_monthly_budget_exceeded_on_po (Select)
+#. field in DocType 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+msgid "Action if Accumulated Monthly Budget Exceeded on PO"
+msgstr "Ação se o orçamento mensal acumulado for excedido no PO"
+
+#. Label of the action_if_accumulated_monthly_exceeded_on_cumulative_expense
+#. (Select) field in DocType 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+msgid "Action if Accumulative Monthly Budget Exceeded on Cumulative Expense"
+msgstr "Ação se o orçamento mensal acumulado for excedido na despesa acumulada"
+
+#. Label of the action_if_annual_budget_exceeded (Select) field in DocType
+#. 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+msgid "Action if Annual Budget Exceeded on Actual"
+msgstr "Ação se o orçamento anual for excedido no realizado"
+
+#. Label of the action_if_annual_budget_exceeded_on_mr (Select) field in
+#. DocType 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+msgid "Action if Annual Budget Exceeded on MR"
+msgstr "Ação se o orçamento anual for excedido na MR"
+
+#. Label of the action_if_annual_budget_exceeded_on_po (Select) field in
+#. DocType 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+msgid "Action if Annual Budget Exceeded on PO"
+msgstr "Ação se o orçamento anual for excedido no PO"
+
+#. Label of the action_if_annual_exceeded_on_cumulative_expense (Select) field
+#. in DocType 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+msgid "Action if Anual Budget Exceeded on Cumulative Expense"
+msgstr "Ação se o orçamento anual for excedido na despesa acumulada"
+
+#. Label of the maintain_same_rate_action (Select) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Action if Same Rate is Not Maintained Throughout  Internal Transaction"
+msgstr "Ação se a mesma taxa não for mantida em toda a transação interna"
+
+#. Label of the maintain_same_rate_action (Select) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Action if Same Rate is Not Maintained Throughout Sales Cycle"
+msgstr "Ação se a mesma taxa não for mantida em todo o ciclo de vendas"
+
+#. Label of the action_on_new_invoice (Select) field in DocType 'POS Profile'
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+msgid "Action on New Invoice"
+msgstr "Ação na nova fatura"
+
+#. Label of the actions_performed (Text Editor) field in DocType 'Asset
+#. Maintenance Log'
+#. Label of the actions_performed (Long Text) field in DocType 'Asset Repair'
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+msgid "Actions performed"
+msgstr "Ações realizadas"
+
+#: erpnext/selling/page/sales_funnel/sales_funnel.py:55
+msgid "Active Leads"
+msgstr "Leads ativos"
+
+#. Label of the on_status_image (Attach Image) field in DocType 'Workstation'
+#: erpnext/manufacturing/doctype/workstation/workstation.json
+msgid "Active Status"
+msgstr "Status ativo"
+
+#. Label of a number card in the Subcontracting Workspace
+#: erpnext/subcontracting/workspace/subcontracting/subcontracting.json
+msgid "Active Subcontracted Items"
+msgstr "Itens subcontratados ativos"
+
+#. Label of the activities_tab (Tab Break) field in DocType 'Lead'
+#. Label of the activities_tab (Tab Break) field in DocType 'Opportunity'
+#. Label of the activities_tab (Tab Break) field in DocType 'Prospect'
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/doctype/prospect/prospect.json
+msgid "Activities"
+msgstr "Atividades"
+
+#. Name of a DocType
+#. Label of a Link in the Projects Workspace
+#: erpnext/projects/doctype/activity_cost/activity_cost.json
+#: erpnext/projects/workspace/projects/projects.json
+msgid "Activity Cost"
+msgstr "Custo da Atividade"
+
+#: erpnext/projects/doctype/activity_cost/activity_cost.py:51
+msgid "Activity Cost exists for Employee {0} against Activity Type - {1}"
+msgstr "Já existe custo de atividade para o colaborador {0} no tipo de atividade {1}"
+
+#: erpnext/projects/doctype/activity_type/activity_type.js:10
+msgid "Activity Cost per Employee"
+msgstr "Custo da Atividade Por Colaborador"
+
+#. Label of the activity_type (Link) field in DocType 'Sales Invoice Timesheet'
+#. Label of the activity_type (Link) field in DocType 'Activity Cost'
+#. Name of a DocType
+#. Label of the activity_type (Data) field in DocType 'Activity Type'
+#. Label of the activity_type (Link) field in DocType 'Timesheet Detail'
+#. Label of a Link in the Projects Workspace
+#: erpnext/accounts/doctype/sales_invoice_timesheet/sales_invoice_timesheet.json
+#: erpnext/projects/doctype/activity_cost/activity_cost.json
+#: erpnext/projects/doctype/activity_type/activity_type.json
+#: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
+#: erpnext/projects/report/daily_timesheet_summary/daily_timesheet_summary.py:32
+#: erpnext/projects/workspace/projects/projects.json
+#: erpnext/public/js/projects/timer.js:9
+#: erpnext/templates/pages/timelog_info.html:25
+msgid "Activity Type"
+msgstr "Tipo de atividade"
+
+#. Option for the 'Type' (Select) field in DocType 'Advance Taxes and Charges'
+#. Option for the 'Type' (Select) field in DocType 'Purchase Taxes and Charges'
+#. Option for the 'Type' (Select) field in DocType 'Sales Taxes and Charges'
+#: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
+#: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
+#: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:100
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:110
+msgid "Actual"
+msgstr "Realizado"
+
+#: erpnext/stock/report/incorrect_balance_qty_after_transaction/incorrect_balance_qty_after_transaction.py:125
+msgid "Actual Balance Qty"
+msgstr "Qtd. real de saldo"
+
+#. Label of the actual_batch_qty (Float) field in DocType 'Packed Item'
+#: erpnext/stock/doctype/packed_item/packed_item.json
+msgid "Actual Batch Quantity"
+msgstr "Quantidade real do lote"
+
+#: erpnext/buying/report/procurement_tracker/procurement_tracker.py:101
+msgid "Actual Cost"
+msgstr "Custo Real"
+
+#. Label of the actual_date (Date) field in DocType 'Maintenance Schedule
+#. Detail'
+#: erpnext/maintenance/doctype/maintenance_schedule_detail/maintenance_schedule_detail.json
+msgid "Actual Date"
+msgstr "Data efetiva"
+
+#: erpnext/buying/report/procurement_tracker/procurement_tracker.py:121
+#: erpnext/stock/report/delayed_item_report/delayed_item_report.py:141
+#: erpnext/stock/report/delayed_order_report/delayed_order_report.py:66
+msgid "Actual Delivery Date"
+msgstr "Data de entrega efetiva"
+
+#. Label of the section_break_cmgo (Section Break) field in DocType 'Master
+#. Production Schedule'
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
+msgid "Actual Demand"
+msgstr "Demanda real"
+
+#. Label of the actual_end_date (Datetime) field in DocType 'Job Card'
+#. Label of the actual_end_date (Datetime) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:254
+#: erpnext/projects/report/delayed_tasks_summary/delayed_tasks_summary.py:129
+msgid "Actual End Date"
+msgstr "Data efetiva de término"
+
+#. Label of the actual_end_date (Date) field in DocType 'Project'
+#. Label of the act_end_date (Date) field in DocType 'Task'
+#: erpnext/projects/doctype/project/project.json
+#: erpnext/projects/doctype/task/task.json
+msgid "Actual End Date (via Timesheet)"
+msgstr "Data efetiva de término (via Timesheet)"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:222
+msgid "Actual End Date cannot be before Actual Start Date"
+msgstr "A data efetiva de término não pode ser anterior à data efetiva de início"
+
+#. Label of the actual_end_time (Datetime) field in DocType 'Work Order
+#. Operation'
+#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
+msgid "Actual End Time"
+msgstr "Hora efetiva de término"
+
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:381
+msgid "Actual Expense"
+msgstr "Despesa real"
+
+#: erpnext/accounts/doctype/budget/budget.py:601
+msgid "Actual Expenses"
+msgstr "Despesas reais"
+
+#. Label of the actual_operating_cost (Currency) field in DocType 'Work Order'
+#. Label of the actual_operating_cost (Currency) field in DocType 'Work Order
+#. Operation'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
+msgid "Actual Operating Cost"
+msgstr "Custo operacional real"
+
+#. Label of the actual_operation_time (Float) field in DocType 'Work Order
+#. Operation'
+#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
+msgid "Actual Operation Time"
+msgstr "Tempo real de operação"
+
+#: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.py:430
+msgid "Actual Posting"
+msgstr "Lançamento efetivo"
+
+#. Label of the actual_qty (Float) field in DocType 'Production Plan Sub
+#. Assembly Item'
+#. Label of the actual_qty (Float) field in DocType 'Bin'
+#. Label of the actual_qty (Float) field in DocType 'Material Request Item'
+#. Label of the actual_qty (Float) field in DocType 'Packed Item'
+#: erpnext/manufacturing/doctype/plant_floor/stock_summary_template.html:21
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/stock/doctype/bin/bin.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/doctype/packed_item/packed_item.json
+#: erpnext/stock/report/product_bundle_balance/product_bundle_balance.py:96
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:141
+msgid "Actual Qty"
+msgstr "Qtd. real"
+
+#. Label of the actual_qty (Float) field in DocType 'Stock Entry Detail'
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "Actual Qty (at source/target)"
+msgstr "Qtd. real (na origem/no destino)"
+
+#. Label of the actual_qty (Float) field in DocType 'Asset Capitalization Stock
+#. Item'
+#: erpnext/assets/doctype/asset_capitalization_stock_item/asset_capitalization_stock_item.json
+msgid "Actual Qty in Warehouse"
+msgstr "Qtd. real no armazém"
+
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:202
+msgid "Actual Qty is mandatory"
+msgstr "Qtd. real é obrigatória"
+
+#: erpnext/manufacturing/doctype/plant_floor/stock_summary_template.html:37
+#: erpnext/stock/dashboard/item_dashboard_list.html:28
+msgid "Actual Qty {0} / Waiting Qty {1}"
+msgstr "Qtd. real {0} / Qtd. pendente {1}"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
+msgid "Actual Qty: Quantity available in the warehouse."
+msgstr "Qtd. real: quantidade disponível no armazém."
+
+#: erpnext/stock/report/item_shortage_report/item_shortage_report.py:95
+msgid "Actual Quantity"
+msgstr "Quantidade Real"
+
+#. Label of the actual_start_date (Datetime) field in DocType 'Job Card'
+#. Label of the actual_start_date (Datetime) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:248
+msgid "Actual Start Date"
+msgstr "Data efetiva de início"
+
+#. Label of the actual_start_date (Date) field in DocType 'Project'
+#. Label of the act_start_date (Date) field in DocType 'Task'
+#: erpnext/projects/doctype/project/project.json
+#: erpnext/projects/doctype/task/task.json
+msgid "Actual Start Date (via Timesheet)"
+msgstr "Data efetiva de início (via Timesheet)"
+
+#. Label of the actual_start_time (Datetime) field in DocType 'Work Order
+#. Operation'
+#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
+msgid "Actual Start Time"
+msgstr "Hora efetiva de início"
+
+#. Label of the timing_detail (Tab Break) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Actual Time"
+msgstr "Tempo real"
+
+#. Label of the section_break_9 (Section Break) field in DocType 'Work Order
+#. Operation'
+#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
+msgid "Actual Time and Cost"
+msgstr "Tempo é custo reais"
+
+#. Label of the actual_time (Float) field in DocType 'Project'
+#. Label of the actual_time (Float) field in DocType 'Task'
+#: erpnext/projects/doctype/project/project.json
+#: erpnext/projects/doctype/task/task.json
+msgid "Actual Time in Hours (via Timesheet)"
+msgstr "Tempo real em horas (via Timesheet)"
+
+#: erpnext/stock/page/stock_balance/stock_balance.js:55
+msgid "Actual qty in stock"
+msgstr "Quantidade real em estoque"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.js:1521
+#: erpnext/public/js/controllers/accounts.js:197
+msgid "Actual type tax cannot be included in Item rate in row {0}"
+msgstr "O imposto do tipo real não pode ser incluído no preço do item na linha {0}"
+
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1005
+msgid "Ad-hoc Qty"
+msgstr "Qtd. ad hoc"
+
+#: erpnext/stock/doctype/item/item.js:576
+#: erpnext/stock/doctype/price_list/price_list.js:8
+msgid "Add / Edit Prices"
+msgstr "Adicionar / Editar Preços"
+
+#: erpnext/accounts/report/general_ledger/general_ledger.js:207
+msgid "Add Columns in Transaction Currency"
+msgstr "Adicionar colunas na moeda da transação"
+
+#: erpnext/templates/pages/task_info.html:94
+#: erpnext/templates/pages/task_info.html:96
+msgid "Add Comment"
+msgstr "Adicionar comentário"
+
+#. Label of the add_corrective_operation_cost_in_finished_good_valuation
+#. (Check) field in DocType 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Add Corrective Operation Cost in Finished Good Valuation"
+msgstr "Adicionar custo da operação corretiva na valorização do produto acabado"
+
+#: erpnext/public/js/event.js:24
+msgid "Add Customers"
+msgstr "Adicionar Clientes"
+
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:92
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:442
+msgid "Add Discount"
+msgstr "Adicionar desconto"
+
+#: erpnext/public/js/event.js:40
+msgid "Add Employees"
+msgstr "Adicionar Colaboradores"
+
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:256
+#: erpnext/selling/doctype/sales_order/sales_order.js:277
+#: erpnext/stock/dashboard/item_dashboard.js:216
+msgid "Add Item"
+msgstr "Adicionar Item"
+
+#: erpnext/public/js/utils/item_selector.js:20
+#: erpnext/public/js/utils/item_selector.js:35
+msgid "Add Items"
+msgstr "Adicionar Itens"
+
+#: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.py:56
+msgid "Add Items in the Purpose Table"
+msgstr "Adicione itens na tabela Finalidade"
+
+#: erpnext/crm/doctype/lead/lead.js:84
+msgid "Add Lead to Prospect"
+msgstr "Adicionar Lead ao Prospecto"
+
+#: erpnext/public/js/event.js:16
+msgid "Add Leads"
+msgstr "Adicionar Leads"
+
+#. Label of the add_local_holidays (Section Break) field in DocType 'Holiday
+#. List'
+#: erpnext/setup/doctype/holiday_list/holiday_list.json
+msgid "Add Local Holidays"
+msgstr "Adicionar feriados locais"
+
+#. Label of the add_manually (Check) field in DocType 'Repost Payment Ledger'
+#: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.json
+msgid "Add Manually"
+msgstr "Adicionar manualmente"
+
+#: erpnext/projects/doctype/task/task_tree.js:49
+msgid "Add Multiple Tasks"
+msgstr "Adicionar Várias Tarefas"
+
+#. Label of the add_deduct_tax (Select) field in DocType 'Advance Taxes and
+#. Charges'
+#: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
+msgid "Add Or Deduct"
+msgstr "Adicionar ou deduzir"
+
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:280
+msgid "Add Order Discount"
+msgstr "Adicionar Desconto de Pedido"
+
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:281
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:416
+msgid "Add Phantom Item"
+msgstr "Adicionar item fantasma"
+
+#. Label of the add_quote (Check) field in DocType 'Email Digest'
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "Add Quote"
+msgstr "Adicionar citação"
+
+#. Label of the add_raw_materials (Button) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom/bom.js:990
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Add Raw Materials"
+msgstr "Adicionar matérias-primas"
+
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.js:82
+msgid "Add Safety Stock"
+msgstr "Adicionar estoque de segurança"
+
+#: erpnext/public/js/event.js:48
+msgid "Add Sales Partners"
+msgstr "Adicionar Parceiros de Vendas"
+
+#. Label of the add_schedule (Button) field in DocType 'Sales Order Item'
+#: erpnext/selling/doctype/sales_order/sales_order.js:649
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+msgid "Add Schedule"
+msgstr "Adicionar cronograma"
+
+#. Label of the add_serial_batch_bundle (Button) field in DocType
+#. 'Subcontracting Receipt Item'
+#. Label of the add_serial_batch_bundle (Button) field in DocType
+#. 'Subcontracting Receipt Supplied Item'
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
+msgid "Add Serial / Batch Bundle"
+msgstr "Adicionar pacote de série/lote"
+
+#. Label of the add_serial_batch_bundle (Button) field in DocType 'Purchase
+#. Invoice Item'
+#. Label of the add_serial_batch_bundle (Button) field in DocType 'Purchase
+#. Receipt Item'
+#. Label of the add_serial_batch_bundle (Button) field in DocType 'Stock Entry
+#. Detail'
+#. Label of the add_serial_batch_bundle (Button) field in DocType 'Stock
+#. Reconciliation Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
+msgid "Add Serial / Batch No"
+msgstr "Adicionar n.º de série/lote"
+
+#. Label of the add_serial_batch_for_rejected_qty (Button) field in DocType
+#. 'Purchase Receipt Item'
+#. Label of the add_serial_batch_for_rejected_qty (Button) field in DocType
+#. 'Subcontracting Receipt Item'
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Add Serial / Batch No (Rejected Qty)"
+msgstr "Adicionar n.º de série/lote (Qtd. rejeitada)"
+
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:200
+msgid "Add Stock"
+msgstr "Adicionar estoque"
+
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:281
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:416
+msgid "Add Sub Assembly"
+msgstr "Adicionar subconjunto"
+
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:503
+#: erpnext/public/js/event.js:32
+msgid "Add Suppliers"
+msgstr "Adicionar Fornecedores"
+
+#: erpnext/utilities/activation.py:124
+msgid "Add Timesheets"
+msgstr "Adicionar apontamentos de horas"
+
+#. Label of the add_weekly_holidays (Section Break) field in DocType 'Holiday
+#. List'
+#: erpnext/setup/doctype/holiday_list/holiday_list.json
+msgid "Add Weekly Holidays"
+msgstr "Adicionar feriados semanais"
+
+#: erpnext/public/js/utils/crm_activities.js:144
+msgid "Add a Note"
+msgstr "Adicionar nota"
+
+#: erpnext/www/book_appointment/index.html:42
+msgid "Add details"
+msgstr "Adicionar detalhes"
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:86
+#: erpnext/stock/doctype/pick_list/pick_list.py:882
+msgid "Add items in the Item Locations table"
+msgstr "Adicionar itens na tabela de localização de itens"
+
+#. Label of the add_deduct_tax (Select) field in DocType 'Purchase Taxes and
+#. Charges'
+#: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
+msgid "Add or Deduct"
+msgstr "Adicionar ou deduzir"
+
+#: erpnext/utilities/activation.py:114
+msgid "Add the rest of your organization as your users. You can also add invite Customers to your portal by adding them from Contacts"
+msgstr "Adicione o restante da sua organização como usuários. Você também pode adicionar clientes convidados ao seu portal a partir de Contatos"
+
+#. Label of the get_weekly_off_dates (Button) field in DocType 'Holiday List'
+#. Label of the get_local_holidays (Button) field in DocType 'Holiday List'
+#: erpnext/setup/doctype/holiday_list/holiday_list.json
+msgid "Add to Holidays"
+msgstr "Adicionar aos feriados"
+
+#: erpnext/crm/doctype/lead/lead.js:38
+msgid "Add to Prospect"
+msgstr "Adicionar ao Prospecto"
+
+#. Label of the add_to_transit (Check) field in DocType 'Stock Entry'
+#. Label of the add_to_transit (Check) field in DocType 'Stock Entry Type'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+msgid "Add to Transit"
+msgstr "Adicionar em trânsito"
+
+#: erpnext/accounts/doctype/coupon_code/coupon_code.js:36
+msgid "Add/Edit Coupon Conditions"
+msgstr "Adicionar / Editar Condições do Cupom"
+
+#. Label of the added_by (Link) field in DocType 'CRM Note'
+#: erpnext/crm/doctype/crm_note/crm_note.json
+msgid "Added By"
+msgstr "Adicionado por"
+
+#. Label of the added_on (Datetime) field in DocType 'CRM Note'
+#: erpnext/crm/doctype/crm_note/crm_note.json
+msgid "Added On"
+msgstr "Adicionado em"
+
+#: erpnext/buying/doctype/supplier/supplier.py:132
+msgid "Added Supplier Role to User {0}."
+msgstr "Função de Fornecedor adicionada ao usuário {0}."
+
+#: erpnext/controllers/website_list_for_contact.py:304
+msgid "Added {1} Role to User {0}."
+msgstr "Função {1} adicionada ao usuário {0}."
+
+#: erpnext/crm/doctype/lead/lead.js:81
+msgid "Adding Lead to Prospect..."
+msgstr "Adicionando Lead ao Prospecto..."
+
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:450
+msgid "Additional"
+msgstr "Adicional"
+
+#. Label of the additional_asset_cost (Currency) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Additional Asset Cost"
+msgstr "Custo adicional do ativo"
+
+#. Label of the additional_cost (Currency) field in DocType 'Stock Entry
+#. Detail'
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "Additional Cost"
+msgstr "Custo adicional"
+
+#. Label of the additional_cost_per_qty (Currency) field in DocType
+#. 'Subcontracting Order Item'
+#. Label of the additional_cost_per_qty (Currency) field in DocType
+#. 'Subcontracting Receipt Item'
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Additional Cost Per Qty"
+msgstr "Custo adicional por qtd."
+
+#. Label of the additional_costs_section (Tab Break) field in DocType 'Stock
+#. Entry'
+#. Label of the additional_costs (Table) field in DocType 'Stock Entry'
+#. Label of the tab_additional_costs (Tab Break) field in DocType
+#. 'Subcontracting Order'
+#. Label of the additional_costs (Table) field in DocType 'Subcontracting
+#. Order'
+#. Label of the tab_additional_costs (Tab Break) field in DocType
+#. 'Subcontracting Receipt'
+#. Label of the additional_costs (Table) field in DocType 'Subcontracting
+#. Receipt'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Additional Costs"
+msgstr "Custos adicionais"
+
+#. Label of the additional_data (Code) field in DocType 'Common Code'
+#: erpnext/edi/doctype/common_code/common_code.json
+msgid "Additional Data"
+msgstr "Dados adicionais"
+
+#. Label of the additional_details (Section Break) field in DocType 'Vehicle'
+#: erpnext/setup/doctype/vehicle/vehicle.json
+msgid "Additional Details"
+msgstr "Detalhes adicionais"
+
+#. Label of the section_break_49 (Section Break) field in DocType 'POS Invoice'
+#. Label of the section_break_44 (Section Break) field in DocType 'Purchase
+#. Invoice'
+#. Label of the section_break_49 (Section Break) field in DocType 'Sales
+#. Invoice'
+#. Label of the discount_section (Section Break) field in DocType 'Purchase
+#. Order'
+#. Label of the section_break_41 (Section Break) field in DocType 'Supplier
+#. Quotation'
+#. Label of the section_break_44 (Section Break) field in DocType 'Quotation'
+#. Label of the section_break_48 (Section Break) field in DocType 'Sales Order'
+#. Label of the section_break_49 (Section Break) field in DocType 'Delivery
+#. Note'
+#. Label of the section_break_42 (Section Break) field in DocType 'Purchase
+#. Receipt'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Additional Discount"
+msgstr "Desconto adicional"
+
+#. Label of the discount_amount (Currency) field in DocType 'POS Invoice'
+#. Label of the discount_amount (Currency) field in DocType 'Purchase Invoice'
+#. Label of the discount_amount (Currency) field in DocType 'Sales Invoice'
+#. Label of the additional_discount_amount (Currency) field in DocType
+#. 'Subscription'
+#. Label of the discount_amount (Currency) field in DocType 'Purchase Order'
+#. Label of the discount_amount (Currency) field in DocType 'Supplier
+#. Quotation'
+#. Label of the discount_amount (Currency) field in DocType 'Quotation'
+#. Label of the discount_amount (Currency) field in DocType 'Sales Order'
+#. Label of the discount_amount (Currency) field in DocType 'Delivery Note'
+#. Label of the discount_amount (Currency) field in DocType 'Purchase Receipt'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/subscription/subscription.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Additional Discount Amount"
+msgstr "Valor do desconto adicional"
+
+#. Label of the base_discount_amount (Currency) field in DocType 'POS Invoice'
+#. Label of the base_discount_amount (Currency) field in DocType 'Purchase
+#. Invoice'
+#. Label of the base_discount_amount (Currency) field in DocType 'Sales
+#. Invoice'
+#. Label of the base_discount_amount (Currency) field in DocType 'Purchase
+#. Order'
+#. Label of the base_discount_amount (Currency) field in DocType 'Supplier
+#. Quotation'
+#. Label of the base_discount_amount (Currency) field in DocType 'Quotation'
+#. Label of the base_discount_amount (Currency) field in DocType 'Sales Order'
+#. Label of the base_discount_amount (Currency) field in DocType 'Delivery
+#. Note'
+#. Label of the base_discount_amount (Currency) field in DocType 'Purchase
+#. Receipt'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Additional Discount Amount (Company Currency)"
+msgstr "Valor do desconto adicional (moeda da empresa)"
+
+#: erpnext/controllers/taxes_and_totals.py:805
+msgid "Additional Discount Amount ({discount_amount}) cannot exceed the total before such discount ({total_before_discount})"
+msgstr "O valor do desconto adicional ({discount_amount}) não pode exceder o total antes desse desconto ({total_before_discount})"
+
+#. Label of the additional_discount_percentage (Float) field in DocType 'POS
+#. Invoice'
+#. Label of the additional_discount_percentage (Float) field in DocType
+#. 'Purchase Invoice'
+#. Label of the additional_discount_percentage (Float) field in DocType 'Sales
+#. Invoice'
+#. Label of the additional_discount_percentage (Percent) field in DocType
+#. 'Subscription'
+#. Label of the additional_discount_percentage (Float) field in DocType
+#. 'Purchase Order'
+#. Label of the additional_discount_percentage (Float) field in DocType
+#. 'Supplier Quotation'
+#. Label of the additional_discount_percentage (Float) field in DocType
+#. 'Quotation'
+#. Label of the additional_discount_percentage (Float) field in DocType 'Sales
+#. Order'
+#. Label of the additional_discount_percentage (Float) field in DocType
+#. 'Delivery Note'
+#. Label of the additional_discount_percentage (Float) field in DocType
+#. 'Purchase Receipt'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/subscription/subscription.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Additional Discount Percentage"
+msgstr "Percentual de desconto adicional"
+
+#. Label of the additional_info_section (Section Break) field in DocType
+#. 'Purchase Invoice'
+#. Label of the more_information (Section Break) field in DocType 'Sales
+#. Invoice'
+#. Label of the section_break_jtou (Section Break) field in DocType 'Asset'
+#. Label of the additional_info_section (Section Break) field in DocType
+#. 'Purchase Order'
+#. Label of the more_info (Section Break) field in DocType 'Supplier Quotation'
+#. Label of the additional_info_section (Section Break) field in DocType
+#. 'Quotation'
+#. Label of the additional_info_section (Section Break) field in DocType 'Sales
+#. Order'
+#. Label of the more_info (Section Break) field in DocType 'Delivery Note'
+#. Label of the additional_info_section (Section Break) field in DocType
+#. 'Purchase Receipt'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Additional Info"
+msgstr "Informações adicionais"
+
+#. Label of the other_info_tab (Section Break) field in DocType 'Lead'
+#. Label of the additional_information (Text) field in DocType 'Quality Review'
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/quality_management/doctype/quality_review/quality_review.json
+#: erpnext/selling/page/point_of_sale/pos_payment.js:59
+msgid "Additional Information"
+msgstr "Informações adicionais"
+
+#: erpnext/selling/page/point_of_sale/pos_payment.js:85
+msgid "Additional Information updated successfully."
+msgstr "Informações adicionais atualizadas com sucesso."
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:787
+msgid "Additional Material Transfer"
+msgstr "Transferência adicional de material"
+
+#. Label of the additional_notes (Text) field in DocType 'Quotation Item'
+#. Label of the additional_notes (Text) field in DocType 'Sales Order Item'
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+msgid "Additional Notes"
+msgstr "Observações adicionais"
+
+#. Label of the additional_operating_cost (Currency) field in DocType 'Work
+#. Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Additional Operating Cost"
+msgstr "Custo operacional adicional"
+
+#. Label of the additional_transferred_qty (Float) field in DocType 'Work
+#. Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Additional Transferred Qty"
+msgstr "Qtd. adicional transferida"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:660
+msgid "Additional Transferred Qty {0}\n"
+"\t\t\t\t\tcannot be greater than {1}.\n"
+"\t\t\t\t\tTo fix this, increase the percentage value\n"
+"\t\t\t\t\tof the field 'Transfer Extra Raw Materials to WIP'\n"
+"\t\t\t\t\tin Manufacturing Settings."
+msgstr "A qtd. adicional transferida {0}\n\t\t\t\t\tnão pode ser maior que {1}.\n\t\t\t\t\tPara corrigir isso, aumente o valor percentual\n\t\t\t\t\tdo campo 'Transfer Extra Raw Materials to WIP'\n\t\t\t\t\tem Configurações de fabricação."
+
+#. Description of the 'Customer Details' (Text) field in DocType 'Customer'
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Additional information regarding the customer."
+msgstr "Informações adicionais sobre o cliente."
+
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:590
+msgid "Additional {0} {1} of item {2} required as per BOM to complete this transaction"
+msgstr "Mais {0} {1} do item {2} são necessários conforme a BOM para concluir está transação"
+
+#. Label of the address_and_contact_tab (Tab Break) field in DocType 'Dunning'
+#. Label of the contact_and_address_tab (Tab Break) field in DocType 'POS
+#. Invoice'
+#. Label of the address_and_contact_tab (Tab Break) field in DocType 'Purchase
+#. Invoice'
+#. Label of the contact_and_address_tab (Tab Break) field in DocType 'Sales
+#. Invoice'
+#. Label of the address_and_contact_tab (Tab Break) field in DocType 'Purchase
+#. Order'
+#. Label of the contact_and_address_tab (Tab Break) field in DocType 'Supplier'
+#. Label of the address_and_contact_tab (Tab Break) field in DocType 'Supplier
+#. Quotation'
+#. Label of the address_contact_section (Section Break) field in DocType
+#. 'Opportunity'
+#. Label of the contacts_tab (Tab Break) field in DocType 'Prospect'
+#. Label of the contact_and_address_tab (Tab Break) field in DocType 'Customer'
+#. Label of the address_and_contact_tab (Tab Break) field in DocType
+#. 'Quotation'
+#. Label of the contact_info (Tab Break) field in DocType 'Sales Order'
+#. Label of the company_info (Section Break) field in DocType 'Company'
+#. Label of the address_and_contact_tab (Tab Break) field in DocType 'Delivery
+#. Note'
+#. Label of the address_and_contact_tab (Tab Break) field in DocType 'Purchase
+#. Receipt'
+#: erpnext/accounts/doctype/dunning/dunning.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/doctype/prospect/prospect.json
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Address & Contact"
+msgstr "Endereço & Contato"
+
+#. Label of the address_section (Section Break) field in DocType 'Lead'
+#. Label of the contact_details (Tab Break) field in DocType 'Employee'
+#. Label of the address_contacts (Section Break) field in DocType 'Sales
+#. Partner'
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/setup/doctype/employee/employee.json
+#: erpnext/setup/doctype/sales_partner/sales_partner.json
+msgid "Address & Contacts"
+msgstr "Endereços & Contatos"
+
+#. Label of a Link in the Financial Reports Workspace
+#. Name of a report
+#: erpnext/accounts/workspace/financial_reports/financial_reports.json
+#: erpnext/selling/report/address_and_contacts/address_and_contacts.json
+msgid "Address And Contacts"
+msgstr "Endereços e contatos"
+
+#. Label of the address_desc (HTML) field in DocType 'Sales Partner'
+#: erpnext/setup/doctype/sales_partner/sales_partner.json
+msgid "Address Desc"
+msgstr "Descrição do endereço"
+
+#. Label of the address_html (HTML) field in DocType 'Bank'
+#. Label of the address_html (HTML) field in DocType 'Bank Account'
+#. Label of the address_html (HTML) field in DocType 'Shareholder'
+#. Label of the address_html (HTML) field in DocType 'Supplier'
+#. Label of the address_html (HTML) field in DocType 'Lead'
+#. Label of the address_html (HTML) field in DocType 'Opportunity'
+#. Label of the address_html (HTML) field in DocType 'Prospect'
+#. Label of the address_html (HTML) field in DocType 'Customer'
+#. Label of the address_html (HTML) field in DocType 'Sales Partner'
+#. Label of the address_html (HTML) field in DocType 'Manufacturer'
+#. Label of the address_html (HTML) field in DocType 'Warehouse'
+#: erpnext/accounts/doctype/bank/bank.json
+#: erpnext/accounts/doctype/bank_account/bank_account.json
+#: erpnext/accounts/doctype/shareholder/shareholder.json
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/doctype/prospect/prospect.json
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/setup/doctype/sales_partner/sales_partner.json
+#: erpnext/stock/doctype/manufacturer/manufacturer.json
+#: erpnext/stock/doctype/warehouse/warehouse.json
+msgid "Address HTML"
+msgstr "HTML do endereço"
+
+#. Label of the address (Link) field in DocType 'Delivery Stop'
+#: erpnext/stock/doctype/delivery_stop/delivery_stop.json
+msgid "Address Name"
+msgstr "Nome do endereço"
+
+#. Label of the address_and_contact (Section Break) field in DocType 'Bank'
+#. Label of the address_and_contact (Section Break) field in DocType 'Bank
+#. Account'
+#. Label of the address_and_contact (Section Break) field in DocType 'POS
+#. Invoice'
+#. Label of the address_contacts (Section Break) field in DocType 'Customer'
+#. Label of the address_and_contact (Section Break) field in DocType
+#. 'Warehouse'
+#. Label of the tab_address_and_contact (Tab Break) field in DocType
+#. 'Subcontracting Order'
+#. Label of the tab_addresses (Tab Break) field in DocType 'Subcontracting
+#. Receipt'
+#: erpnext/accounts/doctype/bank/bank.json
+#: erpnext/accounts/doctype/bank_account/bank_account.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/stock/doctype/warehouse/warehouse.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Address and Contact"
+msgstr "Endereço e contato"
+
+#. Label of the address_contacts (Section Break) field in DocType 'Shareholder'
+#. Label of the address_contacts (Section Break) field in DocType 'Supplier'
+#. Label of the address_contacts (Section Break) field in DocType
+#. 'Manufacturer'
+#: erpnext/accounts/doctype/shareholder/shareholder.json
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/stock/doctype/manufacturer/manufacturer.json
+msgid "Address and Contacts"
+msgstr "Endereços e contatos"
+
+#: erpnext/accounts/custom/address.py:33
+msgid "Address needs to be linked to a Company. Please add a row for Company in the Links table."
+msgstr "O endereço precisa estar vinculado a uma empresa. Adicione uma linha para Empresa na tabela de Links."
+
+#. Description of the 'Determine Address Tax Category From' (Select) field in
+#. DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Address used to determine Tax Category in transactions"
+msgstr "Endereço usado para determinar a categoria fiscal nas transações"
+
+#: erpnext/assets/doctype/asset/asset.js:152
+msgid "Adjust Asset Value"
+msgstr "Ajustar valor do ativo"
+
+#. Label of the adjust_qty (Float) field in DocType 'Sales Forecast Item'
+#: erpnext/manufacturing/doctype/sales_forecast_item/sales_forecast_item.json
+msgid "Adjust Qty"
+msgstr "Ajustar qtd."
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:1108
+msgid "Adjustment Against"
+msgstr "Ajuste referente a"
+
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:664
+msgid "Adjustment based on Purchase Invoice rate"
+msgstr "Ajuste com base na taxa da fatura de compra"
+
+#: erpnext/setup/setup_wizard/data/designation.txt:2
+msgid "Administrative Assistant"
+msgstr "Assistente administrativo"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:103
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:168
+msgid "Administrative Expenses"
+msgstr "Despesas Administrativas"

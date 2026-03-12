@@ -1,0 +1,1341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Name of a report
+#. Label of a Link in the Payables Workspace
+#: erpnext/accounts/report/purchase_register/purchase_register.json
+#: erpnext/accounts/workspace/payables/payables.json
+msgid "Purchase Register"
+msgstr "Registro de Compras"
+
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:250
+msgid "Purchase Return"
+msgstr "Devolução de Compra"
+
+#. Label of the purchase_tax_template (Link) field in DocType 'Tax Rule'
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+#: erpnext/setup/doctype/company/company.js:145
+msgid "Purchase Tax Template"
+msgstr "Modelo de Impostos Sobre a Compra"
+
+#. Label of the taxes (Table) field in DocType 'Purchase Invoice'
+#. Name of a DocType
+#. Label of the taxes (Table) field in DocType 'Purchase Taxes and Charges
+#. Template'
+#. Label of the taxes (Table) field in DocType 'Purchase Order'
+#. Label of the taxes (Table) field in DocType 'Supplier Quotation'
+#. Label of the taxes (Table) field in DocType 'Purchase Receipt'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
+#: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Purchase Taxes and Charges"
+msgstr "Impostos e Encargos Sobre Compras"
+
+#. Label of the purchase_taxes_and_charges_template (Link) field in DocType
+#. 'Payment Entry'
+#. Label of the taxes_and_charges (Link) field in DocType 'Purchase Invoice'
+#. Name of a DocType
+#. Label of the purchase_tax_template (Link) field in DocType 'Subscription'
+#. Label of a Link in the Accounting Workspace
+#. Label of the taxes_and_charges (Link) field in DocType 'Purchase Order'
+#. Label of the taxes_and_charges (Link) field in DocType 'Supplier Quotation'
+#. Label of a Link in the Buying Workspace
+#. Label of the taxes_and_charges (Link) field in DocType 'Purchase Receipt'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.json
+#: erpnext/accounts/doctype/subscription/subscription.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Purchase Taxes and Charges Template"
+msgstr "Modelo de Encargos e Impostos Sobre Compras"
+
+#. Label of the purchase_time (Int) field in DocType 'Item Lead Time'
+#. Label of the purchase_lead_time_tab (Tab Break) field in DocType 'Item Lead
+#. Time'
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+msgid "Purchase Time"
+msgstr ""
+
+#: erpnext/buying/report/purchase_order_trends/purchase_order_trends.py:57
+msgid "Purchase Value"
+msgstr ""
+
+#: erpnext/stock/report/landed_cost_report/landed_cost_report.py:35
+msgid "Purchase Voucher No"
+msgstr ""
+
+#: erpnext/stock/report/landed_cost_report/landed_cost_report.py:29
+msgid "Purchase Voucher Type"
+msgstr ""
+
+#: erpnext/utilities/activation.py:105
+msgid "Purchase orders help you plan and follow up on your purchases"
+msgstr "As ordens de compra ajudá-lo a planejar e acompanhar suas compras"
+
+#. Option for the 'Current State' (Select) field in DocType 'Share Balance'
+#: erpnext/accounts/doctype/share_balance/share_balance.json
+msgid "Purchased"
+msgstr ""
+
+#: erpnext/regional/report/vat_audit_report/vat_audit_report.py:146
+msgid "Purchases"
+msgstr ""
+
+#. Option for the 'Order Type' (Select) field in DocType 'Blanket Order'
+#. Label of the purchasing_tab (Tab Break) field in DocType 'Item'
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
+#: erpnext/selling/doctype/sales_order/sales_order_dashboard.py:27
+#: erpnext/stock/doctype/item/item.json
+msgid "Purchasing"
+msgstr "Requisições"
+
+#. Label of the purpose (Select) field in DocType 'Asset Movement'
+#. Label of the material_request_type (Select) field in DocType 'Material
+#. Request'
+#. Label of the purpose (Select) field in DocType 'Pick List'
+#. Label of the purpose (Select) field in DocType 'Stock Entry'
+#. Label of the purpose (Select) field in DocType 'Stock Entry Type'
+#. Label of the purpose (Select) field in DocType 'Stock Reconciliation'
+#: erpnext/assets/doctype/asset_movement/asset_movement.json
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.js:163
+#: erpnext/stock/doctype/material_request/material_request.json
+#: erpnext/stock/doctype/pick_list/pick_list.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:353
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
+msgid "Purpose"
+msgstr "Finalidade"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:478
+msgid "Purpose must be one of {0}"
+msgstr "Objetivo deve ser um dos {0}"
+
+#. Label of the purposes (Table) field in DocType 'Maintenance Visit'
+#: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
+msgid "Purposes"
+msgstr ""
+
+#: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.py:56
+msgid "Purposes Required"
+msgstr ""
+
+#. Label of the putaway_rule (Link) field in DocType 'Purchase Receipt Item'
+#. Name of a DocType
+#. Label of the putaway_rule (Link) field in DocType 'Stock Entry Detail'
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "Putaway Rule"
+msgstr ""
+
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.py:53
+msgid "Putaway Rule already exists for Item {0} in Warehouse {1}."
+msgstr ""
+
+#. Label of the free_qty (Float) field in DocType 'Pricing Rule'
+#. Label of the free_qty (Float) field in DocType 'Promotional Scheme Product
+#. Discount'
+#. Label of the qty (Float) field in DocType 'Asset Capitalization Service
+#. Item'
+#. Label of the qty (Float) field in DocType 'Opportunity Item'
+#. Label of the qty (Float) field in DocType 'BOM Creator Item'
+#. Label of the qty (Float) field in DocType 'BOM Item'
+#. Label of the stock_qty (Float) field in DocType 'BOM Scrap Item'
+#. Label of the qty (Float) field in DocType 'BOM Website Item'
+#. Label of the qty_section (Section Break) field in DocType 'Job Card Item'
+#. Label of the stock_qty (Float) field in DocType 'Job Card Scrap Item'
+#. Label of the qty (Float) field in DocType 'Production Plan Item Reference'
+#. Label of the qty_section (Section Break) field in DocType 'Work Order Item'
+#. Label of the qty (Float) field in DocType 'Delivery Schedule Item'
+#. Label of the qty (Float) field in DocType 'Product Bundle Item'
+#. Label of the qty (Float) field in DocType 'Landed Cost Item'
+#. Option for the 'Distribute Charges Based On' (Select) field in DocType
+#. 'Landed Cost Voucher'
+#. Label of the qty (Float) field in DocType 'Packed Item'
+#. Label of the qty (Float) field in DocType 'Pick List Item'
+#. Label of the qty (Float) field in DocType 'Serial and Batch Entry'
+#. Label of the qty (Float) field in DocType 'Stock Entry Detail'
+#. Option for the 'Reservation Based On' (Select) field in DocType 'Stock
+#. Reservation Entry'
+#. Option for the 'Distribute Additional Costs Based On ' (Select) field in
+#. DocType 'Subcontracting Order'
+#. Option for the 'Distribute Additional Costs Based On ' (Select) field in
+#. DocType 'Subcontracting Receipt'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
+#: erpnext/accounts/print_format/sales_invoice_print/sales_invoice_print.html:91
+#: erpnext/accounts/report/gross_profit/gross_profit.py:334
+#: erpnext/assets/doctype/asset_capitalization_service_item/asset_capitalization_service_item.json
+#: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:240
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:224
+#: erpnext/controllers/trends.py:268 erpnext/controllers/trends.py:280
+#: erpnext/controllers/trends.py:285
+#: erpnext/crm/doctype/opportunity_item/opportunity_item.json
+#: erpnext/manufacturing/doctype/bom/bom.js:1048
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+#: erpnext/manufacturing/doctype/bom_scrap_item/bom_scrap_item.json
+#: erpnext/manufacturing/doctype/bom_website_item/bom_website_item.json
+#: erpnext/manufacturing/doctype/job_card_item/job_card_item.json
+#: erpnext/manufacturing/doctype/job_card_scrap_item/job_card_scrap_item.json
+#: erpnext/manufacturing/doctype/production_plan_item_reference/production_plan_item_reference.json
+#: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
+#: erpnext/manufacturing/doctype/workstation/workstation_job_card.html:28
+#: erpnext/manufacturing/report/bom_explorer/bom_explorer.py:69
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:235
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:333
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:398
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:499
+#: erpnext/public/js/stock_reservation.js:134
+#: erpnext/public/js/stock_reservation.js:336 erpnext/public/js/utils.js:771
+#: erpnext/selling/doctype/delivery_schedule_item/delivery_schedule_item.json
+#: erpnext/selling/doctype/product_bundle_item/product_bundle_item.json
+#: erpnext/selling/doctype/sales_order/sales_order.js:390
+#: erpnext/selling/doctype/sales_order/sales_order.js:494
+#: erpnext/selling/doctype/sales_order/sales_order.js:584
+#: erpnext/selling/doctype/sales_order/sales_order.js:631
+#: erpnext/selling/doctype/sales_order/sales_order.js:1265
+#: erpnext/selling/doctype/sales_order/sales_order.js:1417
+#: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:255
+#: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.json
+#: erpnext/stock/doctype/packed_item/packed_item.json
+#: erpnext/stock/doctype/pick_list_item/pick_list_item.json
+#: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+#: erpnext/stock/report/incorrect_serial_no_valuation/incorrect_serial_no_valuation.py:195
+#: erpnext/stock/report/serial_no_ledger/serial_no_ledger.py:73
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:271
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:370
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+#: erpnext/templates/form_grid/item_grid.html:7
+#: erpnext/templates/form_grid/material_request_grid.html:9
+#: erpnext/templates/form_grid/stock_entry_grid.html:10
+#: erpnext/templates/generators/bom.html:50 erpnext/templates/pages/rfq.html:40
+msgid "Qty"
+msgstr ""
+
+#: erpnext/templates/pages/order.html:178
+msgid "Qty "
+msgstr ""
+
+#. Label of the company_total_stock (Float) field in DocType 'Sales Invoice
+#. Item'
+#. Label of the company_total_stock (Float) field in DocType 'Quotation Item'
+#. Label of the company_total_stock (Float) field in DocType 'Sales Order Item'
+#. Label of the company_total_stock (Float) field in DocType 'Delivery Note
+#. Item'
+#. Label of the company_total_stock (Float) field in DocType 'Pick List Item'
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/pick_list_item/pick_list_item.json
+msgid "Qty (Company)"
+msgstr ""
+
+#. Label of the actual_qty (Float) field in DocType 'Sales Invoice Item'
+#. Label of the actual_qty (Float) field in DocType 'Quotation Item'
+#. Label of the actual_qty (Float) field in DocType 'Sales Order Item'
+#. Label of the actual_qty (Float) field in DocType 'Delivery Note Item'
+#. Label of the actual_qty (Float) field in DocType 'Pick List Item'
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/pick_list_item/pick_list_item.json
+msgid "Qty (Warehouse)"
+msgstr ""
+
+#. Label of the stock_qty (Float) field in DocType 'Pick List Item'
+#: erpnext/stock/doctype/pick_list_item/pick_list_item.json
+msgid "Qty (in Stock UOM)"
+msgstr ""
+
+#. Label of the qty_after_transaction (Float) field in DocType 'Stock Ledger
+#. Entry'
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
+msgid "Qty After Transaction"
+msgstr ""
+
+#. Label of the actual_qty (Float) field in DocType 'Stock Closing Balance'
+#. Label of the actual_qty (Float) field in DocType 'Stock Ledger Entry'
+#: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
+#: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:169
+#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:188
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:91
+msgid "Qty Change"
+msgstr ""
+
+#. Label of the qty_consumed_per_unit (Float) field in DocType 'BOM Explosion
+#. Item'
+#. Label of the qty_consumed_per_unit (Float) field in DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid "Qty Consumed Per Unit"
+msgstr ""
+
+#. Label of the actual_qty (Float) field in DocType 'Material Request Plan
+#. Item'
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+msgid "Qty In Stock"
+msgstr ""
+
+#: erpnext/manufacturing/report/bom_stock_calculated/bom_stock_calculated.py:82
+msgid "Qty Per Unit"
+msgstr ""
+
+#. Label of the for_quantity (Float) field in DocType 'Job Card'
+#. Label of the qty (Float) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/bom/bom.js:337
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/manufacturing/report/process_loss_report/process_loss_report.py:82
+msgid "Qty To Manufacture"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:1389
+msgid "Qty To Manufacture ({0}) cannot be a fraction for the UOM {2}. To allow this, disable '{1}' in the UOM {2}."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:224
+msgid "Qty To Manufacture in the job card cannot be greater than Qty To Manufacture in the work order for the operation {0}. <br><br><b>Solution: </b> Either you can reduce the Qty To Manufacture in the job card or set the 'Overproduction Percentage For Work Order' in the {1}."
+msgstr ""
+
+#. Label of the qty_to_produce (Float) field in DocType 'Batch'
+#: erpnext/stock/doctype/batch/batch.json
+msgid "Qty To Produce"
+msgstr ""
+
+#: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:56
+msgid "Qty Wise Chart"
+msgstr ""
+
+#. Label of the section_break_6 (Section Break) field in DocType 'Asset
+#. Capitalization Service Item'
+#: erpnext/assets/doctype/asset_capitalization_service_item/asset_capitalization_service_item.json
+msgid "Qty and Rate"
+msgstr ""
+
+#. Label of the tracking_section (Section Break) field in DocType 'Purchase
+#. Receipt Item'
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Qty as Per Stock UOM"
+msgstr ""
+
+#. Label of the stock_qty (Float) field in DocType 'POS Invoice Item'
+#. Label of the stock_qty (Float) field in DocType 'Sales Invoice Item'
+#. Label of the stock_qty (Float) field in DocType 'Request for Quotation Item'
+#. Label of the stock_qty (Float) field in DocType 'Supplier Quotation Item'
+#. Label of the stock_qty (Float) field in DocType 'Quotation Item'
+#. Label of the stock_qty (Float) field in DocType 'Sales Order Item'
+#. Label of the transfer_qty (Float) field in DocType 'Stock Entry Detail'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/buying/doctype/request_for_quotation_item/request_for_quotation_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "Qty as per Stock UOM"
+msgstr ""
+
+#. Description of the 'Apply Recursion Over (As Per Transaction UOM)' (Float)
+#. field in DocType 'Pricing Rule'
+#. Description of the 'Apply Recursion Over (As Per Transaction UOM)' (Float)
+#. field in DocType 'Promotional Scheme Product Discount'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
+msgid "Qty for which recursion isn't applicable."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:983
+msgid "Qty for {0}"
+msgstr ""
+
+#. Label of the stock_qty (Float) field in DocType 'Purchase Order Item'
+#. Label of the stock_qty (Float) field in DocType 'Delivery Note Item'
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:231
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+msgid "Qty in Stock UOM"
+msgstr ""
+
+#. Label of the for_qty (Float) field in DocType 'Pick List'
+#: erpnext/stock/doctype/pick_list/pick_list.js:196
+#: erpnext/stock/doctype/pick_list/pick_list.json
+msgid "Qty of Finished Goods Item"
+msgstr "Quantidade de Item de Produtos Acabados"
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:624
+msgid "Qty of Finished Goods Item should be greater than 0."
+msgstr ""
+
+#. Description of the 'Qty of Finished Goods Item' (Float) field in DocType
+#. 'Pick List'
+#: erpnext/stock/doctype/pick_list/pick_list.json
+msgid "Qty of raw materials will be decided based on the qty of the Finished Goods Item"
+msgstr ""
+
+#. Label of the consumed_qty (Float) field in DocType 'Purchase Receipt Item
+#. Supplied'
+#: erpnext/buying/doctype/purchase_receipt_item_supplied/purchase_receipt_item_supplied.json
+msgid "Qty to Be Consumed"
+msgstr ""
+
+#: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:268
+#: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:283
+msgid "Qty to Bill"
+msgstr ""
+
+#: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:133
+msgid "Qty to Build"
+msgstr ""
+
+#: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:269
+msgid "Qty to Deliver"
+msgstr ""
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:373
+msgid "Qty to Fetch"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/job_card/job_card.js:304
+#: erpnext/manufacturing/doctype/job_card/job_card.py:769
+msgid "Qty to Manufacture"
+msgstr ""
+
+#. Label of the qty (Float) field in DocType 'Production Plan Sub Assembly
+#. Item'
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:168
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:259
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+msgid "Qty to Order"
+msgstr ""
+
+#. Label of the finished_good_qty (Float) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+#: erpnext/manufacturing/report/work_order_consumed_materials/work_order_consumed_materials.py:129
+msgid "Qty to Produce"
+msgstr ""
+
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:171
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:252
+msgid "Qty to Receive"
+msgstr ""
+
+#. Label of the qualification_tab (Section Break) field in DocType 'Lead'
+#. Label of the qualification (Data) field in DocType 'Employee Education'
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/setup/doctype/employee_education/employee_education.json
+#: erpnext/setup/setup_wizard/data/sales_stage.txt:2
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:433
+msgid "Qualification"
+msgstr "Qualificação"
+
+#. Label of the qualification_status (Select) field in DocType 'Lead'
+#: erpnext/crm/doctype/lead/lead.json
+msgid "Qualification Status"
+msgstr ""
+
+#. Option for the 'Qualification Status' (Select) field in DocType 'Lead'
+#: erpnext/crm/doctype/lead/lead.json
+msgid "Qualified"
+msgstr ""
+
+#. Label of the qualified_by (Link) field in DocType 'Lead'
+#: erpnext/crm/doctype/lead/lead.json
+msgid "Qualified By"
+msgstr ""
+
+#. Label of the qualified_on (Date) field in DocType 'Lead'
+#: erpnext/crm/doctype/lead/lead.json
+msgid "Qualified on"
+msgstr ""
+
+#. Name of a Workspace
+#. Label of the quality_tab (Tab Break) field in DocType 'Item'
+#. Label of the quality_tab (Tab Break) field in DocType 'Stock Settings'
+#: erpnext/quality_management/workspace/quality/quality.json
+#: erpnext/stock/doctype/batch/batch_dashboard.py:11
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Quality"
+msgstr "Qualidade"
+
+#. Name of a DocType
+#. Option for the 'Document Type' (Select) field in DocType 'Quality Meeting
+#. Minutes'
+#. Label of a Link in the Quality Workspace
+#. Label of a shortcut in the Quality Workspace
+#: erpnext/quality_management/doctype/quality_action/quality_action.json
+#: erpnext/quality_management/doctype/quality_meeting_minutes/quality_meeting_minutes.json
+#: erpnext/quality_management/workspace/quality/quality.json
+msgid "Quality Action"
+msgstr "Ação de Qualidade"
+
+#. Name of a DocType
+#: erpnext/quality_management/doctype/quality_action_resolution/quality_action_resolution.json
+msgid "Quality Action Resolution"
+msgstr "Resolução de Ação de Qualidade"
+
+#. Name of a DocType
+#. Option for the 'Document Type' (Select) field in DocType 'Quality Meeting
+#. Minutes'
+#. Label of a Link in the Quality Workspace
+#: erpnext/quality_management/doctype/quality_feedback/quality_feedback.json
+#: erpnext/quality_management/doctype/quality_meeting_minutes/quality_meeting_minutes.json
+#: erpnext/quality_management/workspace/quality/quality.json
+msgid "Quality Feedback"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/quality_management/doctype/quality_feedback_parameter/quality_feedback_parameter.json
+msgid "Quality Feedback Parameter"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Link in the Quality Workspace
+#: erpnext/quality_management/doctype/quality_feedback_template/quality_feedback_template.json
+#: erpnext/quality_management/workspace/quality/quality.json
+msgid "Quality Feedback Template"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/quality_management/doctype/quality_feedback_template_parameter/quality_feedback_template_parameter.json
+msgid "Quality Feedback Template Parameter"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Link in the Quality Workspace
+#. Label of a shortcut in the Quality Workspace
+#: erpnext/quality_management/doctype/quality_goal/quality_goal.json
+#: erpnext/quality_management/workspace/quality/quality.json
+msgid "Quality Goal"
+msgstr "Objetivo de Qualidade"
+
+#. Name of a DocType
+#: erpnext/quality_management/doctype/quality_goal_objective/quality_goal_objective.json
+msgid "Quality Goal Objective"
+msgstr ""
+
+#. Label of the quality_inspection (Link) field in DocType 'POS Invoice Item'
+#. Label of the quality_inspection (Link) field in DocType 'Purchase Invoice
+#. Item'
+#. Label of the quality_inspection (Link) field in DocType 'Sales Invoice Item'
+#. Label of the quality_inspection_section_break (Section Break) field in
+#. DocType 'BOM'
+#. Label of the quality_inspection (Link) field in DocType 'Job Card'
+#. Label of the quality_inspection_section (Section Break) field in DocType
+#. 'Job Card'
+#. Label of a shortcut in the Quality Workspace
+#. Label of the quality_inspection (Link) field in DocType 'Delivery Note Item'
+#. Label of the quality_inspection (Link) field in DocType 'Purchase Receipt
+#. Item'
+#. Name of a DocType
+#. Group in Quality Inspection Template's connections
+#. Label of the quality_inspection (Link) field in DocType 'Stock Entry Detail'
+#. Label of a Link in the Stock Workspace
+#. Label of the quality_inspection (Link) field in DocType 'Subcontracting
+#. Receipt Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/manufacturing/doctype/bom/bom.js:208
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/quality_management/workspace/quality/quality.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+#: erpnext/stock/doctype/quality_inspection_template/quality_inspection_template.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/stock/workspace/stock/stock.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Quality Inspection"
+msgstr "Inspeção de Qualidade"
+
+#: erpnext/manufacturing/dashboard_fixtures.py:108
+msgid "Quality Inspection Analysis"
+msgstr "Análise de Inspeção de Qualidade"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/quality_inspection_parameter/quality_inspection_parameter.json
+msgid "Quality Inspection Parameter"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/stock/doctype/quality_inspection_parameter_group/quality_inspection_parameter_group.json
+msgid "Quality Inspection Parameter Group"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
+msgid "Quality Inspection Reading"
+msgstr "Leitura da Inspeção de Qualidade"
+
+#. Label of the inspection_required (Check) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Quality Inspection Required"
+msgstr ""
+
+#. Label of the quality_inspection_settings_section (Section Break) field in
+#. DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Quality Inspection Settings"
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the Manufacturing Workspace
+#: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.json
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+msgid "Quality Inspection Summary"
+msgstr "Resumo de Inspeção de Qualidade"
+
+#. Label of the quality_inspection_template (Link) field in DocType 'BOM'
+#. Label of the quality_inspection_template (Link) field in DocType 'Job Card'
+#. Label of the quality_inspection_template (Link) field in DocType 'Operation'
+#. Label of the quality_inspection_template (Link) field in DocType 'Item'
+#. Label of the quality_inspection_template (Link) field in DocType 'Quality
+#. Inspection'
+#. Name of a DocType
+#. Label of a Link in the Stock Workspace
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/operation/operation.json
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+#: erpnext/stock/doctype/quality_inspection_template/quality_inspection_template.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Quality Inspection Template"
+msgstr "Modelo de Inspeção de Qualidade"
+
+#. Label of the quality_inspection_template_name (Data) field in DocType
+#. 'Quality Inspection Template'
+#: erpnext/stock/doctype/quality_inspection_template/quality_inspection_template.json
+msgid "Quality Inspection Template Name"
+msgstr ""
+
+#: erpnext/public/js/controllers/transaction.js:375
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:179
+msgid "Quality Inspection(s)"
+msgstr ""
+
+#. Label of a chart in the Quality Workspace
+#: erpnext/quality_management/workspace/quality/quality.json
+msgid "Quality Inspections"
+msgstr ""
+
+#: erpnext/setup/doctype/company/company.py:496
+msgid "Quality Management"
+msgstr ""
+
+#. Name of a role
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_activity/asset_activity.json
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+#: erpnext/assets/doctype/asset_category/asset_category.json
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+#: erpnext/assets/doctype/asset_maintenance/asset_maintenance.json
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+#: erpnext/quality_management/doctype/quality_review/quality_review.json
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+#: erpnext/stock/doctype/quality_inspection_parameter/quality_inspection_parameter.json
+#: erpnext/stock/doctype/quality_inspection_parameter_group/quality_inspection_parameter_group.json
+#: erpnext/stock/doctype/quality_inspection_template/quality_inspection_template.json
+msgid "Quality Manager"
+msgstr "Gerente de Qualidade"
+
+#. Name of a DocType
+#. Label of a Link in the Quality Workspace
+#: erpnext/quality_management/doctype/quality_meeting/quality_meeting.json
+#: erpnext/quality_management/workspace/quality/quality.json
+msgid "Quality Meeting"
+msgstr "Encontro de Qualidade"
+
+#. Name of a DocType
+#: erpnext/quality_management/doctype/quality_meeting_agenda/quality_meeting_agenda.json
+msgid "Quality Meeting Agenda"
+msgstr "Agenda da Reunião de Qualidade"
+
+#. Name of a DocType
+#: erpnext/quality_management/doctype/quality_meeting_minutes/quality_meeting_minutes.json
+msgid "Quality Meeting Minutes"
+msgstr "Minutos da Reunião de Qualidade"
+
+#. Name of a DocType
+#. Label of the quality_procedure_name (Data) field in DocType 'Quality
+#. Procedure'
+#. Label of a Link in the Quality Workspace
+#. Label of a shortcut in the Quality Workspace
+#: erpnext/quality_management/doctype/quality_procedure/quality_procedure.json
+#: erpnext/quality_management/doctype/quality_procedure/quality_procedure_tree.js:10
+#: erpnext/quality_management/workspace/quality/quality.json
+msgid "Quality Procedure"
+msgstr "Procedimento de Qualidade"
+
+#. Name of a DocType
+#: erpnext/quality_management/doctype/quality_procedure_process/quality_procedure_process.json
+msgid "Quality Procedure Process"
+msgstr "Processo de Procedimento de Qualidade"
+
+#. Option for the 'Document Type' (Select) field in DocType 'Quality Meeting
+#. Minutes'
+#. Name of a DocType
+#. Label of a Link in the Quality Workspace
+#. Label of a shortcut in the Quality Workspace
+#: erpnext/quality_management/doctype/quality_meeting_minutes/quality_meeting_minutes.json
+#: erpnext/quality_management/doctype/quality_review/quality_review.json
+#: erpnext/quality_management/workspace/quality/quality.json
+msgid "Quality Review"
+msgstr "Revisão de Qualidade"
+
+#. Name of a DocType
+#: erpnext/quality_management/doctype/quality_review_objective/quality_review_objective.json
+msgid "Quality Review Objective"
+msgstr "Objetivo de Revisão de Qualidade"
+
+#. Label of the qty (Data) field in DocType 'Opening Invoice Creation Tool
+#. Item'
+#. Label of the qty (Float) field in DocType 'POS Invoice Item'
+#. Label of the qty (Float) field in DocType 'Sales Invoice Item'
+#. Label of the qty (Int) field in DocType 'Subscription Plan Detail'
+#. Label of the stock_qty (Float) field in DocType 'Asset Capitalization Stock
+#. Item'
+#. Label of the qty (Float) field in DocType 'Purchase Order Item'
+#. Label of the qty (Float) field in DocType 'Request for Quotation Item'
+#. Label of the qty (Float) field in DocType 'Supplier Quotation Item'
+#. Label of the qty (Float) field in DocType 'Blanket Order Item'
+#. Label of the quantity (Float) field in DocType 'BOM'
+#. Label of the qty (Float) field in DocType 'BOM Creator'
+#. Label of the section_break_4rxf (Section Break) field in DocType 'Production
+#. Plan Sub Assembly Item'
+#. Label of the qty (Float) field in DocType 'Quotation Item'
+#. Label of the qty (Float) field in DocType 'Sales Order Item'
+#. Label of the qty (Float) field in DocType 'Delivery Note Item'
+#. Label of the qty (Float) field in DocType 'Material Request Item'
+#. Label of the quantity_section (Section Break) field in DocType 'Packing Slip
+#. Item'
+#. Label of the qty (Float) field in DocType 'Packing Slip Item'
+#. Label of the quantity_section (Section Break) field in DocType 'Pick List
+#. Item'
+#. Label of the quantity_section (Section Break) field in DocType 'Stock Entry
+#. Detail'
+#. Label of the qty (Float) field in DocType 'Stock Reconciliation Item'
+#. Label of the qty (Float) field in DocType 'Subcontracting Inward Order Item'
+#. Label of the quantity_section (Section Break) field in DocType
+#. 'Subcontracting Inward Order Item'
+#. Label of the qty (Float) field in DocType 'Subcontracting Inward Order
+#. Service Item'
+#. Label of the qty (Float) field in DocType 'Subcontracting Order Item'
+#. Label of the qty (Float) field in DocType 'Subcontracting Order Service
+#. Item'
+#: erpnext/accounts/doctype/opening_invoice_creation_tool_item/opening_invoice_creation_tool_item.json
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/doctype/subscription_plan_detail/subscription_plan_detail.json
+#: erpnext/accounts/report/inactive_sales_items/inactive_sales_items.py:47
+#: erpnext/assets/doctype/asset_capitalization_stock_item/asset_capitalization_stock_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/request_for_quotation_item/request_for_quotation_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.py:52
+#: erpnext/buying/report/procurement_tracker/procurement_tracker.py:66
+#: erpnext/buying/report/purchase_analytics/purchase_analytics.js:28
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.py:213
+#: erpnext/manufacturing/doctype/blanket_order_item/blanket_order_item.json
+#: erpnext/manufacturing/doctype/bom/bom.js:424
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.js:69
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:194
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:218
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/public/js/controllers/buying.js:615
+#: erpnext/public/js/stock_analytics.js:50
+#: erpnext/public/js/utils/serial_no_batch_selector.js:486
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:46
+#: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.py:42
+#: erpnext/selling/report/sales_analytics/sales_analytics.js:44
+#: erpnext/selling/report/sales_partner_transaction_summary/sales_partner_transaction_summary.py:67
+#: erpnext/stock/dashboard/item_dashboard.js:248
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/material_request/material_request.js:356
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/doctype/packing_slip_item/packing_slip_item.json
+#: erpnext/stock/doctype/pick_list_item/pick_list_item.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:690
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
+#: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.py:36
+#: erpnext/stock/report/delayed_item_report/delayed_item_report.py:154
+#: erpnext/stock/report/serial_no_and_batch_traceability/serial_no_and_batch_traceability.py:476
+#: erpnext/stock/report/stock_analytics/stock_analytics.js:27
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_item/subcontracting_inward_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_service_item/subcontracting_inward_order_service_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_service_item/subcontracting_order_service_item.json
+#: erpnext/templates/emails/reorder_item.html:10
+#: erpnext/templates/generators/bom.html:30
+#: erpnext/templates/pages/material_request_info.html:48
+#: erpnext/templates/pages/order.html:97
+msgid "Quantity"
+msgstr "Quantidade"
+
+#. Description of the 'Packing Unit' (Int) field in DocType 'Item Price'
+#: erpnext/stock/doctype/item_price/item_price.json
+msgid "Quantity  that must be bought or sold per UOM"
+msgstr ""
+
+#. Label of the quantity (Section Break) field in DocType 'Request for
+#. Quotation Item'
+#: erpnext/buying/doctype/request_for_quotation_item/request_for_quotation_item.json
+msgid "Quantity & Stock"
+msgstr ""
+
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.js:53
+msgid "Quantity (A - B)"
+msgstr ""
+
+#. Label of the quantity_difference (Read Only) field in DocType 'Stock
+#. Reconciliation Item'
+#: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
+msgid "Quantity Difference"
+msgstr ""
+
+#. Label of the section_break_19 (Section Break) field in DocType 'Pricing
+#. Rule'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+msgid "Quantity and Amount"
+msgstr ""
+
+#. Label of the section_break_9 (Section Break) field in DocType 'Production
+#. Plan Item'
+#: erpnext/manufacturing/doctype/production_plan_item/production_plan_item.json
+msgid "Quantity and Description"
+msgstr ""
+
+#. Label of the quantity_and_rate (Section Break) field in DocType 'Purchase
+#. Invoice Item'
+#. Label of the quantity_and_rate (Section Break) field in DocType 'Purchase
+#. Order Item'
+#. Label of the quantity_and_rate (Section Break) field in DocType 'Supplier
+#. Quotation Item'
+#. Label of the quantity_and_rate_section (Section Break) field in DocType
+#. 'Opportunity Item'
+#. Label of the quantity_and_rate_section (Section Break) field in DocType 'BOM
+#. Creator Item'
+#. Label of the quantity_and_rate (Section Break) field in DocType 'BOM Item'
+#. Label of the quantity_and_rate (Section Break) field in DocType 'BOM Scrap
+#. Item'
+#. Label of the quantity_and_rate (Section Break) field in DocType 'Job Card
+#. Scrap Item'
+#. Label of the quantity_and_rate (Section Break) field in DocType 'Quotation
+#. Item'
+#. Label of the quantity_and_rate (Section Break) field in DocType 'Sales Order
+#. Item'
+#. Label of the quantity_and_rate (Section Break) field in DocType 'Delivery
+#. Note Item'
+#. Label of the quantity_and_rate_section (Tab Break) field in DocType 'Serial
+#. and Batch Bundle'
+#. Label of the quantity_and_rate_section (Section Break) field in DocType
+#. 'Subcontracting Order Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/crm/doctype/opportunity_item/opportunity_item.json
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+#: erpnext/manufacturing/doctype/bom_scrap_item/bom_scrap_item.json
+#: erpnext/manufacturing/doctype/job_card_scrap_item/job_card_scrap_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+msgid "Quantity and Rate"
+msgstr ""
+
+#. Label of the quantity_and_warehouse (Section Break) field in DocType
+#. 'Material Request Item'
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+msgid "Quantity and Warehouse"
+msgstr ""
+
+#: erpnext/stock/doctype/material_request/material_request.py:202
+msgid "Quantity cannot be greater than {0} for Item {1}"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:274
+msgid "Quantity is required"
+msgstr ""
+
+#: erpnext/stock/dashboard/item_dashboard.js:285
+msgid "Quantity must be greater than zero, and less or equal to {0}"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1013
+#: erpnext/stock/doctype/pick_list/pick_list.js:204
+msgid "Quantity must not be more than {0}"
+msgstr ""
+
+#. Description of the 'Quantity' (Float) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Quantity of item obtained after manufacturing / repacking from given quantities of raw materials"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:683
+msgid "Quantity required for Item {0} in row {1}"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:627
+#: erpnext/manufacturing/doctype/job_card/job_card.js:385
+#: erpnext/manufacturing/doctype/job_card/job_card.js:455
+#: erpnext/manufacturing/doctype/workstation/workstation.js:303
+msgid "Quantity should be greater than 0"
+msgstr ""
+
+#: erpnext/manufacturing/report/bom_stock_calculated/bom_stock_calculated.js:21
+msgid "Quantity to Make"
+msgstr "Quantidade a Fazer"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:343
+msgid "Quantity to Manufacture"
+msgstr "Quantidade a Fabricar"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:2517
+msgid "Quantity to Manufacture can not be zero for the operation {0}"
+msgstr "A quantidade a fabricar não pode ser zero para a operação {0}"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:1381
+msgid "Quantity to Manufacture must be greater than 0."
+msgstr "Quantidade de Fabricação deve ser maior que 0."
+
+#: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.js:24
+msgid "Quantity to Produce"
+msgstr "Quantidade Para Produzir"
+
+#: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py:37
+msgid "Quantity to Produce should be greater than zero."
+msgstr ""
+
+#: erpnext/public/js/utils/barcode_scanner.js:257
+msgid "Quantity to Scan"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Quart (UK)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Quart Dry (US)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Quart Liquid (US)"
+msgstr ""
+
+#: erpnext/selling/report/sales_analytics/sales_analytics.py:437
+#: erpnext/stock/report/stock_analytics/stock_analytics.py:116
+msgid "Quarter {0} {1}"
+msgstr ""
+
+#. Label of the query_route (Data) field in DocType 'Support Search Source'
+#: erpnext/support/doctype/support_search_source/support_search_source.json
+msgid "Query Route String"
+msgstr ""
+
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.py:139
+msgid "Queue Size should be between 5 and 100"
+msgstr ""
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.js:590
+msgid "Quick Journal Entry"
+msgstr "Lançamento no Livro Diário Rápido"
+
+#: erpnext/accounts/report/financial_ratios/financial_ratios.py:152
+msgid "Quick Ratio"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/doctype/quick_stock_balance/quick_stock_balance.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Quick Stock Balance"
+msgstr "Balanço Rápido de Estoque"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Quintal"
+msgstr ""
+
+#: erpnext/crm/report/campaign_efficiency/campaign_efficiency.py:22
+#: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:28
+msgid "Quot Count"
+msgstr "Contagem de Orçamentos"
+
+#: erpnext/crm/report/campaign_efficiency/campaign_efficiency.py:26
+#: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:32
+msgid "Quot/Lead %"
+msgstr ""
+
+#. Option for the 'Document Type' (Select) field in DocType 'Contract'
+#. Label of the quotation_section (Section Break) field in DocType 'CRM
+#. Settings'
+#. Option for the 'Status' (Select) field in DocType 'Lead'
+#. Option for the 'Status' (Select) field in DocType 'Opportunity'
+#. Name of a DocType
+#. Label of the prevdoc_docname (Link) field in DocType 'Sales Order Item'
+#. Label of a Link in the Selling Workspace
+#. Option for the 'Transaction' (Select) field in DocType 'Authorization Rule'
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:295
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.js:43
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.html:20
+#: erpnext/crm/doctype/contract/contract.json
+#: erpnext/crm/doctype/crm_settings/crm_settings.json
+#: erpnext/crm/doctype/lead/lead.js:34 erpnext/crm/doctype/lead/lead.json
+#: erpnext/crm/doctype/opportunity/opportunity.js:108
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/report/lead_details/lead_details.js:37
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.js:38
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.js:1175
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/selling/workspace/selling/selling.json
+#: erpnext/setup/doctype/authorization_rule/authorization_rule.json
+msgid "Quotation"
+msgstr "Orçamento"
+
+#: erpnext/selling/report/territory_wise_sales/territory_wise_sales.py:36
+msgid "Quotation Amount"
+msgstr "Valor da Cotação"
+
+#. Name of a DocType
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+msgid "Quotation Item"
+msgstr ""
+
+#. Name of a DocType
+#. Label of the order_lost_reason (Data) field in DocType 'Quotation Lost
+#. Reason'
+#. Label of the lost_reason (Link) field in DocType 'Quotation Lost Reason
+#. Detail'
+#: erpnext/setup/doctype/quotation_lost_reason/quotation_lost_reason.json
+#: erpnext/setup/doctype/quotation_lost_reason_detail/quotation_lost_reason_detail.json
+msgid "Quotation Lost Reason"
+msgstr "Motivo da Perda do Orçamento"
+
+#. Name of a DocType
+#: erpnext/setup/doctype/quotation_lost_reason_detail/quotation_lost_reason_detail.json
+msgid "Quotation Lost Reason Detail"
+msgstr "Detalhe do Motivo da Perda da Cotação"
+
+#. Label of the quotation_number (Data) field in DocType 'Supplier Quotation'
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+msgid "Quotation Number"
+msgstr ""
+
+#. Label of the quotation_to (Link) field in DocType 'Quotation'
+#: erpnext/selling/doctype/quotation/quotation.json
+msgid "Quotation To"
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the Selling Workspace
+#: erpnext/selling/report/quotation_trends/quotation_trends.json
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Quotation Trends"
+msgstr "Tendência de Orçamentos"
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:473
+msgid "Quotation {0} is cancelled"
+msgstr "O Orçamento {0} está cancelado"
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:386
+msgid "Quotation {0} not of type {1}"
+msgstr "O Orçamento {0} não é do tipo {1}"
+
+#: erpnext/selling/doctype/quotation/quotation.py:347
+#: erpnext/selling/page/sales_funnel/sales_funnel.py:57
+msgid "Quotations"
+msgstr "Orçamentos"
+
+#: erpnext/utilities/activation.py:87
+msgid "Quotations are proposals, bids you have sent to your customers"
+msgstr "Citações são propostas, as propostas que enviou aos seus clientes"
+
+#: erpnext/templates/pages/rfq.html:73
+msgid "Quotations: "
+msgstr ""
+
+#. Label of the quote_status (Select) field in DocType 'Request for Quotation
+#. Supplier'
+#: erpnext/buying/doctype/request_for_quotation_supplier/request_for_quotation_supplier.json
+msgid "Quote Status"
+msgstr ""
+
+#: erpnext/selling/report/quotation_trends/quotation_trends.py:57
+msgid "Quoted Amount"
+msgstr ""
+
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:104
+msgid "RFQs are not allowed for {0} due to a scorecard standing of {1}"
+msgstr ""
+
+#. Label of the auto_indent (Check) field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Raise Material Request When Stock Reaches Re-order Level"
+msgstr ""
+
+#. Label of the complaint_raised_by (Data) field in DocType 'Warranty Claim'
+#: erpnext/support/doctype/warranty_claim/warranty_claim.json
+msgid "Raised By"
+msgstr ""
+
+#. Label of the raised_by (Data) field in DocType 'Issue'
+#: erpnext/support/doctype/issue/issue.json
+msgid "Raised By (Email)"
+msgstr ""
+
+#. Label of the rate (Currency) field in DocType 'POS Invoice Item'
+#. Option for the 'Rate or Discount' (Select) field in DocType 'Pricing Rule'
+#. Label of the rate (Currency) field in DocType 'Pricing Rule'
+#. Option for the 'Discount Type' (Select) field in DocType 'Promotional Scheme
+#. Price Discount'
+#. Label of the rate (Currency) field in DocType 'Promotional Scheme Price
+#. Discount'
+#. Label of the free_item_rate (Currency) field in DocType 'Promotional Scheme
+#. Product Discount'
+#. Label of the rate (Currency) field in DocType 'Purchase Invoice Item'
+#. Label of the rate (Currency) field in DocType 'Sales Invoice Item'
+#. Label of the rate (Currency) field in DocType 'Share Balance'
+#. Label of the rate (Currency) field in DocType 'Share Transfer'
+#. Label of the rate (Currency) field in DocType 'Asset Capitalization Service
+#. Item'
+#. Label of the rate (Currency) field in DocType 'Purchase Order Item'
+#. Label of the rate (Currency) field in DocType 'Purchase Order Item Supplied'
+#. Label of the rate (Currency) field in DocType 'Purchase Receipt Item
+#. Supplied'
+#. Label of the rate (Currency) field in DocType 'Supplier Quotation Item'
+#. Label of the rate (Currency) field in DocType 'Opportunity Item'
+#. Label of the rate (Currency) field in DocType 'Blanket Order Item'
+#. Label of the rate (Currency) field in DocType 'BOM Creator Item'
+#. Label of the rate (Currency) field in DocType 'BOM Explosion Item'
+#. Label of the rate (Currency) field in DocType 'BOM Item'
+#. Label of the rate (Currency) field in DocType 'BOM Scrap Item'
+#. Label of the rate (Currency) field in DocType 'Work Order Item'
+#. Label of the rate (Float) field in DocType 'Product Bundle Item'
+#. Label of the rate (Currency) field in DocType 'Quotation Item'
+#. Label of the rate (Currency) field in DocType 'Sales Order Item'
+#. Label of the rate (Currency) field in DocType 'Delivery Note Item'
+#. Label of the price_list_rate (Currency) field in DocType 'Item Price'
+#. Label of the rate (Currency) field in DocType 'Landed Cost Item'
+#. Label of the rate (Currency) field in DocType 'Material Request Item'
+#. Label of the rate (Currency) field in DocType 'Packed Item'
+#. Label of the rate (Currency) field in DocType 'Purchase Receipt Item'
+#. Option for the 'Update Price List Based On' (Select) field in DocType 'Stock
+#. Settings'
+#. Label of the rate (Currency) field in DocType 'Subcontracting Inward Order
+#. Received Item'
+#. Label of the rate (Currency) field in DocType 'Subcontracting Inward Order
+#. Service Item'
+#. Label of the rate (Currency) field in DocType 'Subcontracting Order Item'
+#. Label of the rate (Currency) field in DocType 'Subcontracting Order Service
+#. Item'
+#. Label of the rate (Currency) field in DocType 'Subcontracting Order Supplied
+#. Item'
+#. Label of the rate (Currency) field in DocType 'Subcontracting Receipt Item'
+#. Label of the rate (Currency) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
+#: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/doctype/share_balance/share_balance.json
+#: erpnext/accounts/doctype/share_transfer/share_transfer.json
+#: erpnext/accounts/print_format/sales_invoice_print/sales_invoice_print.html:92
+#: erpnext/accounts/report/billed_items_to_be_received/billed_items_to_be_received.py:78
+#: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.py:260
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:312
+#: erpnext/accounts/report/share_ledger/share_ledger.py:56
+#: erpnext/assets/doctype/asset_capitalization_service_item/asset_capitalization_service_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
+#: erpnext/buying/doctype/purchase_receipt_item_supplied/purchase_receipt_item_supplied.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.py:65
+#: erpnext/crm/doctype/opportunity_item/opportunity_item.json
+#: erpnext/manufacturing/doctype/blanket_order_item/blanket_order_item.json
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+#: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+#: erpnext/manufacturing/doctype/bom_scrap_item/bom_scrap_item.json
+#: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
+#: erpnext/public/js/utils.js:781
+#: erpnext/selling/doctype/product_bundle_item/product_bundle_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.py:45
+#: erpnext/selling/report/sales_partner_transaction_summary/sales_partner_transaction_summary.py:68
+#: erpnext/stock/dashboard/item_dashboard.js:255
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/item_price/item_price.json
+#: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/doctype/packed_item/packed_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+#: erpnext/stock/report/delayed_item_report/delayed_item_report.py:155
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_service_item/subcontracting_inward_order_service_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_service_item/subcontracting_order_service_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
+#: erpnext/templates/form_grid/item_grid.html:8
+#: erpnext/templates/pages/order.html:100 erpnext/templates/pages/rfq.html:43
+msgid "Rate"
+msgstr "Taxa"
+
+#. Label of the rate_amount_section (Section Break) field in DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid "Rate & Amount"
+msgstr ""
+
+#. Label of the base_rate (Currency) field in DocType 'POS Invoice Item'
+#. Label of the base_rate (Currency) field in DocType 'Purchase Invoice Item'
+#. Label of the base_rate (Currency) field in DocType 'Sales Invoice Item'
+#. Label of the base_rate (Currency) field in DocType 'Purchase Order Item'
+#. Label of the base_rate (Currency) field in DocType 'Supplier Quotation Item'
+#. Label of the base_rate (Currency) field in DocType 'Opportunity Item'
+#. Label of the base_rate (Currency) field in DocType 'Quotation Item'
+#. Label of the base_rate (Currency) field in DocType 'Delivery Note Item'
+#. Label of the base_rate (Currency) field in DocType 'Purchase Receipt Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/crm/doctype/opportunity_item/opportunity_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Rate (Company Currency)"
+msgstr ""
+
+#. Label of the rm_cost_as_per (Select) field in DocType 'BOM'
+#. Label of the rm_cost_as_per (Select) field in DocType 'BOM Creator'
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+msgid "Rate Of Materials Based On"
+msgstr ""
+
+#. Label of the rate (Percent) field in DocType 'Lower Deduction Certificate'
+#: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
+msgid "Rate Of TDS As Per Certificate"
+msgstr ""
+
+#. Label of the section_break_6 (Section Break) field in DocType 'Serial and
+#. Batch Entry'
+#: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
+msgid "Rate Section"
+msgstr ""
+
+#. Label of the rate_with_margin (Currency) field in DocType 'POS Invoice Item'
+#. Label of the rate_with_margin (Currency) field in DocType 'Purchase Invoice
+#. Item'
+#. Label of the rate_with_margin (Currency) field in DocType 'Sales Invoice
+#. Item'
+#. Label of the rate_with_margin (Currency) field in DocType 'Purchase Order
+#. Item'
+#. Label of the rate_with_margin (Currency) field in DocType 'Supplier
+#. Quotation Item'
+#. Label of the rate_with_margin (Currency) field in DocType 'Quotation Item'
+#. Label of the rate_with_margin (Currency) field in DocType 'Sales Order Item'
+#. Label of the rate_with_margin (Currency) field in DocType 'Delivery Note
+#. Item'
+#. Label of the rate_with_margin (Currency) field in DocType 'Purchase Receipt
+#. Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Rate With Margin"
+msgstr ""
+
+#. Label of the base_rate_with_margin (Currency) field in DocType 'POS Invoice
+#. Item'
+#. Label of the base_rate_with_margin (Currency) field in DocType 'Purchase
+#. Invoice Item'
+#. Label of the base_rate_with_margin (Currency) field in DocType 'Sales
+#. Invoice Item'
+#. Label of the base_rate_with_margin (Currency) field in DocType 'Purchase
+#. Order Item'
+#. Label of the base_rate_with_margin (Currency) field in DocType 'Quotation
+#. Item'
+#. Label of the base_rate_with_margin (Currency) field in DocType 'Sales Order
+#. Item'
+#. Label of the base_rate_with_margin (Currency) field in DocType 'Delivery
+#. Note Item'
+#. Label of the base_rate_with_margin (Currency) field in DocType 'Purchase
+#. Receipt Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Rate With Margin (Company Currency)"
+msgstr ""
+
+#. Label of the rate_and_amount (Section Break) field in DocType 'Purchase
+#. Receipt Item'
+#. Label of the rate_and_amount (Section Break) field in DocType
+#. 'Subcontracting Receipt Item'
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Rate and Amount"
+msgstr ""

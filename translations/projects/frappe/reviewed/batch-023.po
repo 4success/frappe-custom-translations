@@ -1,0 +1,836 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:35+0000\n"
+"PO-Revision-Date: 2026-01-21 06:48\n"
+"Last-Translator: developers@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File-ID: 138\n"
+"Language: pt_BR\n"
+
+#: frappe/core/doctype/file/file.js:34
+#: frappe/core/report/database_storage_usage_by_tables/database_storage_usage_by_tables.js:8
+#: frappe/public/js/frappe/file_uploader/FilePreview.vue:31
+msgid "Optimize"
+msgstr "Otimizar"
+
+#: frappe/core/doctype/file/file.js:110
+msgid "Optimizing image..."
+msgstr "Otimizando imagem..."
+
+#: frappe/custom/doctype/custom_field/custom_field.js:100
+msgid "Option 1"
+msgstr "Opção 1"
+
+#: frappe/custom/doctype/custom_field/custom_field.js:102
+msgid "Option 2"
+msgstr "Opção 2"
+
+#: frappe/custom/doctype/custom_field/custom_field.js:104
+msgid "Option 3"
+msgstr "Opção 3"
+
+#: frappe/core/doctype/doctype/doctype.py:1653
+msgid "Option {0} for field {1} is not a child table"
+msgstr "A opção {0} do campo {1} não é uma tabela filha"
+
+#. Description of the 'CC' (Code) field in DocType 'Notification Recipient'
+#: frappe/email/doctype/notification_recipient/notification_recipient.json
+msgid "Optional: Always send to these ids. Each Email Address on a new row"
+msgstr "Opcional: sempre enviar para estes IDs. Um endereço de e-mail por linha"
+
+#. Description of the 'Condition' (Code) field in DocType 'Notification'
+#: frappe/email/doctype/notification/notification.json
+msgid "Optional: The alert will be sent if this expression is true"
+msgstr "Opcional: o alerta será enviado se esta expressão for verdadeira"
+
+#. Label of the options (Small Text) field in DocType 'DocField'
+#. Label of the options (Data) field in DocType 'Report Column'
+#. Label of the options (Small Text) field in DocType 'Report Filter'
+#. Label of the options (Small Text) field in DocType 'Custom Field'
+#. Label of the options (Small Text) field in DocType 'Customize Form Field'
+#. Label of the options (Text) field in DocType 'Web Form Field'
+#. Label of the options (Text) field in DocType 'Web Form List Column'
+#. Label of the options (Small Text) field in DocType 'Web Template Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/report_column/report_column.json
+#: frappe/core/doctype/report_filter/report_filter.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/templates/form_grid/fields.html:43
+#: frappe/website/doctype/web_form_field/web_form_field.json
+#: frappe/website/doctype/web_form_list_column/web_form_list_column.json
+#: frappe/website/doctype/web_template_field/web_template_field.json
+msgid "Options"
+msgstr "Opções"
+
+#: frappe/core/doctype/doctype/doctype.py:1381
+msgid "Options 'Dynamic Link' type of field must point to another Link Field with options as 'DocType'"
+msgstr "As opções do campo do tipo 'Dynamic Link' devem apontar para outro campo Link com opções como 'DocType'"
+
+#. Label of the options_help (HTML) field in DocType 'Custom Field'
+#: frappe/custom/doctype/custom_field/custom_field.json
+msgid "Options Help"
+msgstr "Ajuda sobre Opções"
+
+#: frappe/core/doctype/doctype/doctype.py:1682
+msgid "Options for Rating field can range from 3 to 10"
+msgstr "As opções do campo Avaliação podem variar de 3 a 10"
+
+#: frappe/custom/doctype/custom_field/custom_field.js:96
+msgid "Options for select. Each option on a new line."
+msgstr "Opções para seleção. Cada opção em uma nova linha."
+
+#: frappe/core/doctype/doctype/doctype.py:1398
+msgid "Options for {0} must be set before setting the default value."
+msgstr "As opções de {0} devem ser definidas antes de configurar o valor padrão."
+
+#: frappe/public/js/form_builder/store.js:182
+msgid "Options is required for field {0} of type {1}"
+msgstr "As opções são obrigatórias para o campo {0} do tipo {1}"
+
+#: frappe/model/base_document.py:972
+msgid "Options not set for link field {0}"
+msgstr "Opções não definidas para o campo de link {0}"
+
+#. Option for the 'Color' (Select) field in DocType 'DocType State'
+#. Option for the 'Indicator' (Select) field in DocType 'Kanban Board Column'
+#: frappe/core/doctype/doctype_state/doctype_state.json
+#: frappe/desk/doctype/kanban_board_column/kanban_board_column.json
+msgid "Orange"
+msgstr "Laranja"
+
+#. Label of the order (Code) field in DocType 'Kanban Board Column'
+#: frappe/desk/doctype/kanban_board_column/kanban_board_column.json
+msgid "Order"
+msgstr "Ordem"
+
+#: frappe/database/query.py:1216
+msgid "Order By must be a string"
+msgstr "Order By deve ser uma string"
+
+#. Label of the sb0 (Section Break) field in DocType 'About Us Settings'
+#. Label of the company_history (Table) field in DocType 'About Us Settings'
+#: frappe/website/doctype/about_us_settings/about_us_settings.json
+msgid "Org History"
+msgstr "História da Organização"
+
+#. Label of the company_history_heading (Data) field in DocType 'About Us
+#. Settings'
+#: frappe/website/doctype/about_us_settings/about_us_settings.json
+msgid "Org History Heading"
+msgstr "Cabeçalho da História da Organização"
+
+#: frappe/public/js/frappe/form/print_utils.js:21
+msgid "Orientation"
+msgstr "Orientação"
+
+#: frappe/core/doctype/version/version_view.html:14
+#: frappe/core/doctype/version/version_view.html:76
+msgid "Original Value"
+msgstr "Valor original"
+
+#. Option for the 'Address Type' (Select) field in DocType 'Address'
+#. Option for the 'Type' (Select) field in DocType 'Communication'
+#. Option for the 'Show in Module Section' (Select) field in DocType 'DocType'
+#. Option for the 'Event Category' (Select) field in DocType 'Event'
+#: frappe/contacts/doctype/address/address.json
+#: frappe/core/doctype/communication/communication.json
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/desk/doctype/event/event.json
+#: frappe/desk/page/setup_wizard/install_fixtures.py:30
+msgid "Other"
+msgstr "Outro"
+
+#. Label of the outgoing_tab (Tab Break) field in DocType 'Email Account'
+#: frappe/email/doctype/email_account/email_account.json
+msgid "Outgoing"
+msgstr "Saída"
+
+#. Label of the outgoing_mail_settings (Section Break) field in DocType 'Email
+#. Account'
+#: frappe/email/doctype/email_account/email_account.json
+msgid "Outgoing (SMTP) Settings"
+msgstr "Configurações de saída (SMTP)"
+
+#. Label of the outgoing_emails_column (Column Break) field in DocType 'System
+#. Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Outgoing Emails (Last 7 days)"
+msgstr "E-mails de saída (últimos 7 dias)"
+
+#. Label of the smtp_server (Data) field in DocType 'Email Account'
+#. Label of the smtp_server (Data) field in DocType 'Email Domain'
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/email_domain/email_domain.json
+msgid "Outgoing Server"
+msgstr "Servidor de saída"
+
+#. Label of the outgoing_mail_settings (Section Break) field in DocType 'Email
+#. Domain'
+#: frappe/email/doctype/email_domain/email_domain.json
+msgid "Outgoing Settings"
+msgstr "Configurações de saída"
+
+#: frappe/email/doctype/email_domain/email_domain.py:33
+msgid "Outgoing email account not correct"
+msgstr "A conta de e-mail de saída não está correta"
+
+#. Option for the 'Service' (Select) field in DocType 'Email Account'
+#: frappe/email/doctype/email_account/email_account.json
+msgid "Outlook.com"
+msgstr "Outlook.com"
+
+#. Label of the output (Code) field in DocType 'Permission Inspector'
+#. Label of the output (Code) field in DocType 'System Console'
+#. Label of the output (Code) field in DocType 'Integration Request'
+#: frappe/core/doctype/permission_inspector/permission_inspector.json
+#: frappe/desk/doctype/system_console/system_console.json
+#: frappe/integrations/doctype/integration_request/integration_request.json
+msgid "Output"
+msgstr "Saída"
+
+#: frappe/public/js/frappe/form/templates/form_dashboard.html:5
+msgid "Overview"
+msgstr "Visão geral"
+
+#. Option for the 'Method' (Select) field in DocType 'Recorder'
+#: frappe/core/doctype/recorder/recorder.json
+msgid "PATCH"
+msgstr "PATCH"
+
+#. Option for the 'Format' (Select) field in DocType 'Auto Email Report'
+#: frappe/email/doctype/auto_email_report/auto_email_report.json
+#: frappe/printing/page/print/print.js:85
+#: frappe/public/js/frappe/form/templates/print_layout.html:44
+#: frappe/public/js/frappe/views/reports/query_report.js:1834
+msgid "PDF"
+msgstr "PDF"
+
+#: frappe/utils/print_format.py:147 frappe/utils/print_format.py:191
+msgid "PDF Generation in Progress"
+msgstr "Geração de PDF em andamento"
+
+#. Label of the pdf_generator (Select) field in DocType 'Print Format'
+#: frappe/printing/doctype/print_format/print_format.json
+msgid "PDF Generator"
+msgstr "Gerador de PDF"
+
+#. Label of the pdf_page_height (Float) field in DocType 'Print Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "PDF Page Height (in mm)"
+msgstr "Altura da página PDF (em mm)"
+
+#. Label of the pdf_page_size (Select) field in DocType 'Print Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "PDF Page Size"
+msgstr "Tamanho da página PDF"
+
+#. Label of the pdf_page_width (Float) field in DocType 'Print Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "PDF Page Width (in mm)"
+msgstr "Largura da página PDF (em mm)"
+
+#. Label of the pdf_settings (Section Break) field in DocType 'Print Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "PDF Settings"
+msgstr "Configurações do PDF"
+
+#: frappe/utils/print_format.py:292
+msgid "PDF generation failed"
+msgstr "Falha na geração do PDF"
+
+#: frappe/utils/pdf.py:107
+msgid "PDF generation failed because of broken image links"
+msgstr "A geração do PDF falhou devido a links de imagem inválidos"
+
+#: frappe/printing/page/print/print.js:675
+msgid "PDF generation may not work as expected."
+msgstr "A geração de PDF pode não funcionar como esperado."
+
+#: frappe/printing/page/print/print.js:593
+msgid "PDF printing via \"Raw Print\" is not supported."
+msgstr "A impressão em PDF via \"Raw Print\" não é suportada."
+
+#. Label of the pid (Data) field in DocType 'RQ Worker'
+#: frappe/core/doctype/rq_worker/rq_worker.json
+msgid "PID"
+msgstr "PID"
+
+#. Option for the 'Method' (Select) field in DocType 'Recorder'
+#. Option for the 'Request Method' (Select) field in DocType 'Webhook'
+#: frappe/core/doctype/recorder/recorder.json
+#: frappe/integrations/doctype/webhook/webhook.json
+msgid "POST"
+msgstr "POST"
+
+#. Option for the 'Method' (Select) field in DocType 'Recorder'
+#. Option for the 'Request Method' (Select) field in DocType 'Webhook'
+#: frappe/core/doctype/recorder/recorder.json
+#: frappe/integrations/doctype/webhook/webhook.json
+msgid "PUT"
+msgstr "PUT"
+
+#. Label of the package (Link) field in DocType 'Module Def'
+#. Name of a DocType
+#. Label of the package (Link) field in DocType 'Package Release'
+#. Label of a Link in the Build Workspace
+#: frappe/core/doctype/module_def/module_def.json
+#: frappe/core/doctype/package/package.json
+#: frappe/core/doctype/package_release/package_release.json
+#: frappe/core/workspace/build/build.json frappe/www/attribution.html:34
+msgid "Package"
+msgstr "Pacote"
+
+#. Name of a DocType
+#. Label of a Link in the Build Workspace
+#: frappe/core/doctype/package_import/package_import.json
+#: frappe/core/workspace/build/build.json
+msgid "Package Import"
+msgstr "Importação de pacote"
+
+#. Label of the package_name (Data) field in DocType 'Package'
+#: frappe/core/doctype/package/package.json
+msgid "Package Name"
+msgstr "Nome do pacote"
+
+#. Name of a DocType
+#: frappe/core/doctype/package_release/package_release.json
+msgid "Package Release"
+msgstr "Versão do pacote"
+
+#. Label of a Card Break in the Build Workspace
+#: frappe/core/workspace/build/build.json
+msgid "Packages"
+msgstr "Pacotes"
+
+#. Description of a Card Break in the Build Workspace
+#: frappe/core/workspace/build/build.json
+msgid "Packages are lightweight apps (collection of Module Defs) that can be created, imported, or released right from the UI"
+msgstr "Pacotes são apps leves (coleção de definições de módulo) que podem ser criados, importados ou publicados diretamente pela interface"
+
+#. Label of the page (Link) field in DocType 'Custom Role'
+#. Name of a DocType
+#. Option for the 'Set Role For' (Select) field in DocType 'Role Permission for
+#. Page and Report'
+#. Label of the page (Link) field in DocType 'Role Permission for Page and
+#. Report'
+#. Label of a Link in the Build Workspace
+#. Option for the 'View' (Select) field in DocType 'Form Tour'
+#. Option for the 'Link Type' (Select) field in DocType 'Workspace'
+#. Option for the 'Link Type' (Select) field in DocType 'Workspace Link'
+#. Option for the 'Type' (Select) field in DocType 'Workspace Shortcut'
+#. Option for the 'Link Type' (Select) field in DocType 'Workspace Sidebar
+#. Item'
+#: frappe/core/doctype/custom_role/custom_role.json
+#: frappe/core/doctype/page/page.json
+#: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
+#: frappe/core/workspace/build/build.json
+#: frappe/desk/doctype/form_tour/form_tour.json
+#: frappe/desk/doctype/workspace/workspace.json
+#: frappe/desk/doctype/workspace_link/workspace_link.json
+#: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
+#: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json
+msgid "Page"
+msgstr "Página"
+
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Form Field'
+#: frappe/public/js/print_format_builder/PrintFormatSection.vue:63
+#: frappe/website/doctype/web_form_field/web_form_field.json
+msgid "Page Break"
+msgstr "Quebra de página"
+
+#. Option for the 'Content Type' (Select) field in DocType 'Web Page'
+#: frappe/website/doctype/web_page/web_page.js:92
+#: frappe/website/doctype/web_page/web_page.json
+msgid "Page Builder"
+msgstr "Construtor de páginas"
+
+#. Label of the page_blocks (Table) field in DocType 'Web Page'
+#: frappe/website/doctype/web_page/web_page.json
+msgid "Page Building Blocks"
+msgstr "Blocos de construção de página"
+
+#. Label of the page_html (Section Break) field in DocType 'Page'
+#: frappe/core/doctype/page/page.json
+msgid "Page HTML"
+msgstr "HTML da página"
+
+#: frappe/public/js/frappe/list/bulk_operations.js:73
+msgid "Page Height (in mm)"
+msgstr "Altura da página (em mm)"
+
+#: frappe/public/js/print_format_builder/PrintFormatControls.vue:5
+msgid "Page Margins"
+msgstr "Margens da página"
+
+#. Label of the page_name (Data) field in DocType 'Page'
+#: frappe/core/doctype/page/page.json
+msgid "Page Name"
+msgstr "Nome da página"
+
+#. Label of the page_number (Select) field in DocType 'Print Format'
+#: frappe/printing/doctype/print_format/print_format.json
+#: frappe/public/js/print_format_builder/PrintFormatControls.vue:63
+msgid "Page Number"
+msgstr "Número da página"
+
+#. Label of the page_route (Small Text) field in DocType 'Form Tour'
+#: frappe/desk/doctype/form_tour/form_tour.json
+msgid "Page Route"
+msgstr "Rota da página"
+
+#. Label of the view_link_in_email (Section Break) field in DocType 'Print
+#. Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "Page Settings"
+msgstr "Configurações da página"
+
+#: frappe/public/js/frappe/ui/keyboard.js:125
+msgid "Page Shortcuts"
+msgstr "Atalhos da página"
+
+#: frappe/public/js/frappe/list/bulk_operations.js:66
+msgid "Page Size"
+msgstr "Tamanho da página"
+
+#. Label of the page_title (Data) field in DocType 'About Us Settings'
+#: frappe/website/doctype/about_us_settings/about_us_settings.json
+msgid "Page Title"
+msgstr "Título da página"
+
+#: frappe/public/js/frappe/list/bulk_operations.js:80
+msgid "Page Width (in mm)"
+msgstr "Largura da página (em mm)"
+
+#: frappe/www/qrcode.py:35
+msgid "Page has expired!"
+msgstr "A página expirou!"
+
+#: frappe/printing/doctype/print_settings/print_settings.py:70
+#: frappe/public/js/frappe/list/bulk_operations.js:106
+msgid "Page height and width cannot be zero"
+msgstr "A altura e a largura da página não podem ser zero"
+
+#: frappe/public/js/frappe/views/container.js:52 frappe/www/404.html:23
+msgid "Page not found"
+msgstr "Página não encontrada"
+
+#. Description of a DocType
+#: frappe/website/doctype/web_page/web_page.json
+msgid "Page to show on the website\n"
+msgstr "Página a ser exibida no site\n"
+
+#: frappe/public/html/print_template.html:25
+#: frappe/public/js/frappe/views/reports/print_tree.html:89
+#: frappe/public/js/frappe/web_form/web_form.js:288
+#: frappe/templates/print_formats/standard.html:34
+msgid "Page {0} of {1}"
+msgstr "Página {0} de {1}"
+
+#. Label of the parameter (Data) field in DocType 'SMS Parameter'
+#: frappe/core/doctype/sms_parameter/sms_parameter.json
+msgid "Parameter"
+msgstr "Parâmetro"
+
+#: frappe/public/js/frappe/model/model.js:142
+#: frappe/public/js/frappe/views/workspace/workspace.js:448
+msgid "Parent"
+msgstr "Pai"
+
+#. Label of the parent_doctype (Link) field in DocType 'DocType Link'
+#: frappe/core/doctype/doctype_link/doctype_link.json
+msgid "Parent DocType"
+msgstr "DocType pai"
+
+#. Label of the parent_document_type (Link) field in DocType 'Dashboard Chart'
+#. Label of the parent_document_type (Link) field in DocType 'Number Card'
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+#: frappe/desk/doctype/number_card/number_card.json
+msgid "Parent Document Type"
+msgstr "Tipo de documento pai"
+
+#: frappe/desk/doctype/number_card/number_card.py:66
+msgid "Parent Document Type is required to create a number card"
+msgstr "O tipo de documento pai é obrigatório para criar um cartão numérico"
+
+#. Label of the parent_element_selector (Data) field in DocType 'Form Tour
+#. Step'
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+msgid "Parent Element Selector"
+msgstr "Seletor do elemento pai"
+
+#. Label of the parent_fieldname (Select) field in DocType 'Form Tour Step'
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+msgid "Parent Field"
+msgstr "Campo pai"
+
+#. Label of the nsm_parent_field (Data) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/core/doctype/doctype/doctype.py:948
+msgid "Parent Field (Tree)"
+msgstr "Campo pai (árvore)"
+
+#: frappe/core/doctype/doctype/doctype.py:954
+msgid "Parent Field must be a valid fieldname"
+msgstr "O campo pai deve ser um nome de campo válido"
+
+#. Label of the parent_icon (Link) field in DocType 'Desktop Icon'
+#: frappe/desk/doctype/desktop_icon/desktop_icon.json
+msgid "Parent Icon"
+msgstr "Ícone pai"
+
+#. Label of the parent_label (Select) field in DocType 'Top Bar Item'
+#: frappe/website/doctype/top_bar_item/top_bar_item.json
+msgid "Parent Label"
+msgstr "Rótulo pai"
+
+#: frappe/core/doctype/doctype/doctype.py:1212
+msgid "Parent Missing"
+msgstr "Documento pai ausente"
+
+#. Label of the parent_page (Link) field in DocType 'Workspace'
+#: frappe/desk/doctype/workspace/workspace.json
+msgid "Parent Page"
+msgstr "Página pai"
+
+#: frappe/core/doctype/data_export/exporter.py:24
+msgid "Parent Table"
+msgstr "Tabela pai"
+
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:404
+msgid "Parent document type is required to create a dashboard chart"
+msgstr "O tipo de documento pai é obrigatório para criar um gráfico de dashboard"
+
+#: frappe/core/doctype/data_export/exporter.py:253
+msgid "Parent is the name of the document to which the data will get added to."
+msgstr "Parent é o nome do documento ao qual os dados serão adicionados."
+
+#: frappe/public/js/frappe/ui/group_by/group_by.js:253
+msgid "Parent-to-child or child-to-different-child grouping is not allowed."
+msgstr "Não é permitido agrupar de pai para filho ou de filho para filho diferente."
+
+#: frappe/permissions.py:835
+msgid "Parentfield not specified in {0}: {1}"
+msgstr "Parentfield não especificado em {0}: {1}"
+
+#: frappe/client.py:470
+msgid "Parenttype, Parent and Parentfield are required to insert a child record"
+msgstr "Parenttype, Parent e Parentfield são obrigatórios para inserir um registro filho"
+
+#. Label of the partial (Check) field in DocType 'Personal Data Deletion Step'
+#: frappe/website/doctype/personal_data_deletion_step/personal_data_deletion_step.json
+msgid "Partial"
+msgstr "Parcial"
+
+#. Option for the 'Status' (Select) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Partial Success"
+msgstr "Sucesso parcial"
+
+#. Option for the 'Status' (Select) field in DocType 'Email Queue'
+#: frappe/email/doctype/email_queue/email_queue.json
+msgid "Partially Sent"
+msgstr "Enviado parcialmente"
+
+#. Label of the participants (Section Break) field in DocType 'Event'
+#: frappe/desk/doctype/event/event.js:30 frappe/desk/doctype/event/event.json
+msgid "Participants"
+msgstr "Participantes"
+
+#. Option for the 'SocketIO Ping Check' (Select) field in DocType 'System
+#. Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Pass"
+msgstr "Aprovado"
+
+#. Option for the 'Status' (Select) field in DocType 'Contact'
+#: frappe/contacts/doctype/contact/contact.json
+msgid "Passive"
+msgstr "Passivo"
+
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Label of the password_settings (Section Break) field in DocType 'System
+#. Settings'
+#. Label of the password_tab (Tab Break) field in DocType 'System Settings'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Label of the password (Password) field in DocType 'Email Account'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/core/doctype/user/user.js:170 frappe/core/doctype/user/user.js:217
+#: frappe/core/doctype/user/user.js:237
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/desk/page/setup_wizard/setup_wizard.js:493
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/website/doctype/web_form_field/web_form_field.json
+#: frappe/www/login.html:22
+msgid "Password"
+msgstr "Senha"
+
+#: frappe/core/doctype/user/user.py:1141
+msgid "Password Email Sent"
+msgstr "E-mail de senha enviado"
+
+#: frappe/core/doctype/user/user.py:497
+msgid "Password Reset"
+msgstr "Redefinição de senha"
+
+#. Label of the password_reset_limit (Int) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Password Reset Link Generation Limit"
+msgstr "Limite de geração de link de redefinição de senha"
+
+#: frappe/public/js/frappe/form/grid_row.js:896
+msgid "Password cannot be filtered"
+msgstr "A senha não pode ser filtrada"
+
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.py:360
+msgid "Password changed successfully."
+msgstr "Senha alterada com sucesso."
+
+#. Label of the password (Password) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "Password for Base DN"
+msgstr "Senha para DN de base"
+
+#: frappe/email/doctype/email_account/email_account.py:189
+msgid "Password is required or select Awaiting Password"
+msgstr "A senha é obrigatória ou selecione Aguardando senha"
+
+#: frappe/www/update-password.html:94
+msgid "Password is valid. 👍"
+msgstr "A senha é válida. 👍"
+
+#: frappe/public/js/frappe/desk.js:212
+msgid "Password missing in Email Account"
+msgstr "Senha ausente na conta de e-mail"
+
+#: frappe/utils/password.py:47
+msgid "Password not found for {0} {1} {2}"
+msgstr "Senha não encontrada para {0} {1} {2}"
+
+#: frappe/core/doctype/user/user.py:1307
+msgid "Password requirements not met"
+msgstr "Os requisitos de senha não foram atendidos"
+
+#: frappe/core/doctype/user/user.py:1140
+msgid "Password reset instructions have been sent to {}'s email"
+msgstr "As instruções de redefinição de senha foram enviadas para o e-mail de {}"
+
+#: frappe/www/update-password.html:191
+msgid "Password set"
+msgstr "Senha definida"
+
+#: frappe/auth.py:264
+msgid "Password size exceeded the maximum allowed size"
+msgstr "O tamanho da senha excedeu o tamanho máximo permitido"
+
+#: frappe/core/doctype/user/user.py:926
+msgid "Password size exceeded the maximum allowed size."
+msgstr "O tamanho da senha excedeu o tamanho máximo permitido."
+
+#: frappe/www/update-password.html:93
+msgid "Passwords do not match"
+msgstr "As senhas não coincidem"
+
+#: frappe/core/doctype/user/user.js:203
+msgid "Passwords do not match!"
+msgstr "As senhas não coincidem!"
+
+#: frappe/public/js/frappe/views/file/file_view.js:151
+msgid "Paste"
+msgstr "Colar"
+
+#. Label of the patch (Int) field in DocType 'Package Release'
+#. Label of the patch (Code) field in DocType 'Patch Log'
+#: frappe/core/doctype/package_release/package_release.json
+#: frappe/core/doctype/patch_log/patch_log.json
+msgid "Patch"
+msgstr "Patch"
+
+#. Name of a DocType
+#: frappe/core/doctype/patch_log/patch_log.json
+msgid "Patch Log"
+msgstr "Log de patch"
+
+#: frappe/modules/patch_handler.py:136
+msgid "Patch type {} not found in patches.txt"
+msgstr "Tipo de patch {} não encontrado em patches.txt"
+
+#. Label of the path (Data) field in DocType 'API Request Log'
+#. Label of the path (Small Text) field in DocType 'Package Release'
+#. Label of the path (Data) field in DocType 'Recorder'
+#. Label of the path (Data) field in DocType 'Onboarding Step'
+#. Label of the path (Data) field in DocType 'Web Page View'
+#: frappe/core/doctype/api_request_log/api_request_log.json
+#: frappe/core/doctype/package_release/package_release.json
+#: frappe/core/doctype/recorder/recorder.json
+#: frappe/desk/doctype/onboarding_step/onboarding_step.json
+#: frappe/website/doctype/web_page_view/web_page_view.json
+#: frappe/website/report/website_analytics/website_analytics.js:35
+msgid "Path"
+msgstr "Caminho"
+
+#. Label of the local_ca_certs_file (Data) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "Path to CA Certs File"
+msgstr "Caminho para o arquivo de certificados CA"
+
+#. Label of the local_server_certificate_file (Data) field in DocType 'LDAP
+#. Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "Path to Server Certificate"
+msgstr "Caminho para o certificado do servidor"
+
+#. Label of the local_private_key_file (Data) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "Path to private Key File"
+msgstr "Caminho para o arquivo da chave privada"
+
+#: frappe/modules/utils.py:209
+msgid "Path {0} is not within module {1}"
+msgstr "O caminho {0} não está dentro do módulo {1}"
+
+#: frappe/website/path_resolver.py:230
+msgid "Path {0} it not a valid path"
+msgstr "O caminho {0} não é um caminho válido"
+
+#. Label of the payload_count (Int) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Payload Count"
+msgstr "Quantidade de payloads"
+
+#. Label of the peak_memory_usage (Int) field in DocType 'Prepared Report'
+#: frappe/core/doctype/prepared_report/prepared_report.json
+msgid "Peak Memory Usage"
+msgstr "Pico de uso de memória"
+
+#. Option for the 'Status' (Select) field in DocType 'Data Import'
+#. Option for the 'Contribution Status' (Select) field in DocType 'Translation'
+#. Option for the 'Status' (Select) field in DocType 'User Invitation'
+#. Option for the 'Status' (Select) field in DocType 'Personal Data Deletion
+#. Step'
+#: frappe/core/doctype/data_import/data_import.json
+#: frappe/core/doctype/translation/translation.json
+#: frappe/core/doctype/user_invitation/user_invitation.json
+#: frappe/website/doctype/personal_data_deletion_step/personal_data_deletion_step.json
+msgid "Pending"
+msgstr "Pendente"
+
+#. Option for the 'Status' (Select) field in DocType 'Personal Data Deletion
+#. Request'
+#: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.json
+msgid "Pending Approval"
+msgstr "Aprovação pendente"
+
+#. Label of the pending_emails (Int) field in DocType 'System Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Pending Emails"
+msgstr "E-mails pendentes"
+
+#. Label of the pending_jobs (Int) field in DocType 'System Health Report
+#. Queue'
+#: frappe/desk/doctype/system_health_report_queue/system_health_report_queue.json
+msgid "Pending Jobs"
+msgstr "Tarefas pendentes"
+
+#. Option for the 'Status' (Select) field in DocType 'Personal Data Deletion
+#. Request'
+#: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.json
+msgid "Pending Verification"
+msgstr "Verificação pendente"
+
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Percent"
+msgstr "Percentual"
+
+#. Option for the 'Type' (Select) field in DocType 'Dashboard Chart'
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+msgid "Percentage"
+msgstr "Porcentagem"
+
+#. Label of the dynamic_date_period (Select) field in DocType 'Auto Email
+#. Report'
+#: frappe/email/doctype/auto_email_report/auto_email_report.json
+msgid "Period"
+msgstr "Período"
+
+#. Label of the permlevel (Int) field in DocType 'DocField'
+#. Label of the permlevel (Int) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Perm Level"
+msgstr "Nível de permissão"
+
+#. Option for the 'Address Type' (Select) field in DocType 'Address'
+#: frappe/contacts/doctype/address/address.json
+msgid "Permanent"
+msgstr "Permanente"
+
+#: frappe/public/js/frappe/form/form.js:1031
+msgid "Permanently Cancel {0}?"
+msgstr "Cancelar {0} permanentemente?"
+
+#: frappe/public/js/frappe/form/form.js:1077
+msgid "Permanently Discard {0}?"
+msgstr "Descartar {0} permanentemente?"
+
+#: frappe/public/js/frappe/form/form.js:864
+msgid "Permanently Submit {0}?"
+msgstr "Enviar {0} permanentemente?"
+
+#: frappe/public/js/frappe/model/model.js:684
+msgid "Permanently delete {0}?"
+msgstr "Excluir {0} permanentemente?"
+
+#: frappe/core/doctype/user_type/user_type.py:84 frappe/database/query.py:914
+msgid "Permission Error"
+msgstr "Erro de permissão"
+
+#. Name of a DocType
+#: frappe/core/doctype/permission_inspector/permission_inspector.json
+msgid "Permission Inspector"
+msgstr "Inspetor de permissões"
+
+#. Label of the permlevel (Int) field in DocType 'Custom Field'
+#: frappe/core/page/permission_manager/permission_manager.js:513
+#: frappe/custom/doctype/custom_field/custom_field.json
+msgid "Permission Level"
+msgstr "Nível de permissão"
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:22
+msgid "Permission Levels"
+msgstr "Níveis de permissão"
+
+#. Name of a DocType
+#: frappe/core/doctype/permission_log/permission_log.json
+msgid "Permission Log"
+msgstr "Log de permissões"
+
+#. Label of a shortcut in the Users Workspace
+#: frappe/core/workspace/users/users.json
+msgid "Permission Manager"
+msgstr "Gerenciador de permissões"
+
+#. Option for the 'Script Type' (Select) field in DocType 'Server Script'
+#: frappe/core/doctype/server_script/server_script.json
+msgid "Permission Query"
+msgstr "Consulta de permissão"

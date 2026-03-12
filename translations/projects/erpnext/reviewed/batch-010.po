@@ -1,0 +1,757 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#: erpnext/setup/doctype/authorization_control/authorization_control.py:60
+msgid "Can be approved by {0}"
+msgstr "Pode ser aprovado por {0}"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:2454
+msgid "Can not close Work Order. Since {0} Job Cards are in Work In Progress state."
+msgstr "Não é possível encerrar a ordem de produção, pois {0} cartões de trabalho estão em andamento."
+
+#: erpnext/accounts/report/pos_register/pos_register.py:124
+msgid "Can not filter based on Cashier, if grouped by Cashier"
+msgstr "Não é possível filtrar com base no Caixa, se agrupado por Caixa"
+
+#: erpnext/accounts/report/general_ledger/general_ledger.py:80
+msgid "Can not filter based on Child Account, if grouped by Account"
+msgstr "Não é possível filtrar por conta filha se estiver agrupado por conta"
+
+#: erpnext/accounts/report/pos_register/pos_register.py:121
+msgid "Can not filter based on Customer, if grouped by Customer"
+msgstr "Não é possível filtrar com base no cliente, se agrupado por cliente"
+
+#: erpnext/accounts/report/pos_register/pos_register.py:118
+msgid "Can not filter based on POS Profile, if grouped by POS Profile"
+msgstr "Não é possível filtrar por perfil de PDV se estiver agrupado por perfil de PDV"
+
+#: erpnext/accounts/report/pos_register/pos_register.py:127
+msgid "Can not filter based on Payment Method, if grouped by Payment Method"
+msgstr "Não é possível filtrar com base na forma de pagamento, se agrupado por forma de pagamento"
+
+#: erpnext/accounts/report/general_ledger/general_ledger.py:83
+msgid "Can not filter based on Voucher No, if grouped by Voucher"
+msgstr "Não é possível filtrar por número do comprovante se estiver agrupado por comprovante"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:1580
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:2941
+msgid "Can only make payment against unbilled {0}"
+msgstr "Só é possível registrar pagamento para {0} não faturado"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.js:1493
+#: erpnext/controllers/accounts_controller.py:3172
+#: erpnext/public/js/controllers/accounts.js:103
+msgid "Can refer row only if the charge type is 'On Previous Row Amount' or 'Previous Row Total'"
+msgstr "Só é possível referenciar uma linha se o tipo de cobrança for 'Sobre o valor da linha anterior' ou 'Sobre o total da linha anterior'"
+
+#: erpnext/setup/doctype/company/company.py:198
+#: erpnext/stock/doctype/stock_settings/stock_settings.py:144
+msgid "Can't change the valuation method, as there are transactions against some items which do not have its own valuation method"
+msgstr "Não é possível alterar o método de avaliação, pois há transações de alguns itens que não têm método de avaliação próprio"
+
+#. Label of the cancel_at_period_end (Check) field in DocType 'Subscription'
+#: erpnext/accounts/doctype/subscription/subscription.json
+msgid "Cancel At End Of Period"
+msgstr "Cancelar ao fim do período"
+
+#: erpnext/support/doctype/warranty_claim/warranty_claim.py:72
+msgid "Cancel Material Visit {0} before cancelling this Warranty Claim"
+msgstr "Cancele a visita de material {0} antes de cancelar esta solicitação de garantia"
+
+#: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.py:192
+msgid "Cancel Material Visits {0} before cancelling this Maintenance Visit"
+msgstr "Cancele as visitas de material {0} antes de cancelar esta visita de manutenção"
+
+#: erpnext/accounts/doctype/subscription/subscription.js:48
+msgid "Cancel Subscription"
+msgstr "Cancelar Assinatura"
+
+#. Label of the cancel_after_grace (Check) field in DocType 'Subscription
+#. Settings'
+#: erpnext/accounts/doctype/subscription_settings/subscription_settings.json
+msgid "Cancel Subscription After Grace Period"
+msgstr "Cancelar assinatura após o período de carência"
+
+#. Label of the cancelation_date (Date) field in DocType 'Subscription'
+#: erpnext/accounts/doctype/subscription/subscription.json
+msgid "Cancelation Date"
+msgstr "Data de cancelamento"
+
+#. Option for the 'Status' (Select) field in DocType 'Stock Closing Entry'
+#. Option for the 'Status' (Select) field in DocType 'Call Log'
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting_list.js:13
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.json
+#: erpnext/stock/doctype/stock_entry/stock_entry_list.js:25
+#: erpnext/telephony/doctype/call_log/call_log.json
+msgid "Canceled"
+msgstr "Cancelado"
+
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:76
+msgid "Cannot Assign Cashier"
+msgstr "Não é possível atribuir o caixa"
+
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.js:90
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.py:215
+msgid "Cannot Calculate Arrival Time as Driver Address is Missing."
+msgstr "Não é possível calcular o horário de chegada, pois falta o endereço do motorista."
+
+#: erpnext/setup/doctype/company/company.py:217
+msgid "Cannot Change Inventory Account Setting"
+msgstr "Não é possível alterar a configuração da conta de estoque"
+
+#: erpnext/controllers/sales_and_purchase_return.py:376
+msgid "Cannot Create Return"
+msgstr "Não é possível criar devolução"
+
+#: erpnext/stock/doctype/item/item.py:630
+#: erpnext/stock/doctype/item/item.py:643
+#: erpnext/stock/doctype/item/item.py:657
+msgid "Cannot Merge"
+msgstr "Não é possível mesclar"
+
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.js:123
+msgid "Cannot Optimize Route as Driver Address is Missing."
+msgstr "Não é possível otimizar a rota, pois falta o endereço do motorista."
+
+#: erpnext/setup/doctype/employee/employee.py:182
+msgid "Cannot Relieve Employee"
+msgstr "Não é possível desligar o funcionário"
+
+#: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:73
+msgid "Cannot Resubmit Ledger entries for vouchers in Closed fiscal year."
+msgstr "Não é possível reenviar lançamentos contábeis de comprovantes em exercício fiscal encerrado."
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:226
+msgid "Cannot amend {0} {1}, please create a new one instead."
+msgstr "Não é possível alterar {0} {1}; crie um novo em vez disso."
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:1327
+msgid "Cannot apply TDS against multiple parties in one entry"
+msgstr "Não é possível aplicar TDS para várias partes em um único lançamento"
+
+#: erpnext/stock/doctype/item/item.py:310
+msgid "Cannot be a fixed asset item as Stock Ledger is created."
+msgstr "Não pode ser um item de ativo imobilizado, pois o razão de estoque já foi criado."
+
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.py:118
+msgid "Cannot cancel Asset Depreciation Schedule {0} as it has a draft journal entry {1}."
+msgstr "Não é possível cancelar o cronograma de depreciação do ativo {0}, pois ele tem o lançamento contábil em rascunho {1}."
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:246
+msgid "Cannot cancel POS Closing Entry"
+msgstr "Não é possível cancelar o fechamento de PDV"
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:140
+msgid "Cannot cancel Stock Reservation Entry {0}, as it has used in the work order {1}. Please cancel the work order first or unreserved the stock"
+msgstr "Não é possível cancelar a entrada de reserva de estoque {0}, pois ela foi usada na ordem de produção {1}. Cancele a ordem de produção primeiro ou desfaça a reserva do estoque"
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:246
+msgid "Cannot cancel as processing of cancelled documents is pending."
+msgstr "Não é possível cancelar, pois o processamento de documentos cancelados está pendente."
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:1065
+msgid "Cannot cancel because submitted Stock Entry {0} exists"
+msgstr "Não é possível cancelar, pois existe a entrada de estoque enviada {0}"
+
+#: erpnext/stock/stock_ledger.py:209
+msgid "Cannot cancel the transaction. Reposting of item valuation on submission is not completed yet."
+msgstr "Não é possível cancelar a transação. O reprocessamento da avaliação do item no envio ainda não foi concluído."
+
+#: erpnext/controllers/subcontracting_inward_controller.py:587
+msgid "Cannot cancel this Manufacturing Stock Entry as quantity of Finished Good produced cannot be less than quantity delivered in the linked Subcontracting Inward Order."
+msgstr "Não é possível cancelar esta entrada de estoque de manufatura, pois a quantidade do produto acabado produzida não pode ser menor que a quantidade entregue na ordem de entrada de subcontratação vinculada."
+
+#: erpnext/controllers/buying_controller.py:1129
+msgid "Cannot cancel this document as it is linked with the submitted asset {asset_link}. Please cancel the asset to continue."
+msgstr "Não é possível cancelar este documento, pois ele está vinculado ao ativo enviado {asset_link}. Cancele o ativo para continuar."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:458
+msgid "Cannot cancel transaction for Completed Work Order."
+msgstr "Não é possível cancelar a transação para a ordem de serviço concluída."
+
+#: erpnext/stock/doctype/item/item.py:875
+msgid "Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item"
+msgstr "Não é possível alterar os atributos após a transação de estoque. Crie um novo item e transfira o estoque para ele"
+
+#: erpnext/accounts/doctype/fiscal_year/fiscal_year.py:49
+msgid "Cannot change Fiscal Year Start Date and Fiscal Year End Date once the Fiscal Year is saved."
+msgstr "Não é possível alterar a data inicial e a data final do exercício fiscal depois que ele for salvo."
+
+#: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:73
+msgid "Cannot change Reference Document Type."
+msgstr "Não é possível alterar o tipo de documento de referência."
+
+#: erpnext/accounts/deferred_revenue.py:53
+msgid "Cannot change Service Stop Date for item in row {0}"
+msgstr "Não é possível alterar a data de término do serviço para o item na linha {0}"
+
+#: erpnext/stock/doctype/item/item.py:866
+msgid "Cannot change Variant properties after stock transaction. You will have to make a new Item to do this."
+msgstr "Não é possível alterar as propriedades da variante após a transação de estoque. Será necessário criar um novo item para fazer isso."
+
+#: erpnext/setup/doctype/company/company.py:322
+msgid "Cannot change company's default currency, because there are existing transactions. Transactions must be cancelled to change the default currency."
+msgstr "Não é possível alterar a moeda padrão da empresa, porque existem operações existentes. Transações devem ser canceladas para alterar a moeda padrão."
+
+#: erpnext/projects/doctype/task/task.py:145
+msgid "Cannot complete task {0} as its dependant task {1} are not completed / cancelled."
+msgstr "Não é possível concluir a tarefa {0}, pois a tarefa dependente {1} não foi concluída/cancelada."
+
+#: erpnext/accounts/doctype/cost_center/cost_center.py:61
+msgid "Cannot convert Cost Center to ledger as it has child nodes"
+msgstr "Não é possível converter o centro de custo em conta contábil, pois ele tem nós filhos"
+
+#: erpnext/projects/doctype/task/task.js:49
+msgid "Cannot convert Task to non-group because the following child Tasks exist: {0}."
+msgstr "Não é possível converter a tarefa em não grupo porque existem as seguintes tarefas filhas: {0}."
+
+#: erpnext/accounts/doctype/account/account.py:440
+msgid "Cannot convert to Group because Account Type is selected."
+msgstr "Não é possível converter em grupo porque o tipo de conta está selecionado."
+
+#: erpnext/accounts/doctype/account/account.py:276
+msgid "Cannot covert to Group because Account Type is selected."
+msgstr "Não é possível converter em grupo porque o tipo de conta está selecionado."
+
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:1013
+msgid "Cannot create Stock Reservation Entries for future dated Purchase Receipts."
+msgstr "Não é possível criar entradas de reserva de estoque para recebimentos de compra com data futura."
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:1849
+#: erpnext/stock/doctype/pick_list/pick_list.py:219
+msgid "Cannot create a pick list for Sales Order {0} because it has reserved stock. Please unreserve the stock in order to create a pick list."
+msgstr "Não é possível criar uma lista de separação para o pedido de venda {0}, pois ele tem estoque reservado. Desfaça a reserva do estoque para criar a lista de separação."
+
+#: erpnext/accounts/general_ledger.py:148
+msgid "Cannot create accounting entries against disabled accounts: {0}"
+msgstr "Não é possível criar lançamentos contábeis para contas desativadas: {0}"
+
+#: erpnext/controllers/sales_and_purchase_return.py:375
+msgid "Cannot create return for consolidated invoice {0}."
+msgstr "Não é possível criar devolução para a fatura consolidada {0}."
+
+#: erpnext/manufacturing/doctype/bom/bom.py:1120
+msgid "Cannot deactivate or cancel BOM as it is linked with other BOMs"
+msgstr "Não é possível desativar ou cancelar a BOM, pois ela está vinculada a outras BOMs"
+
+#: erpnext/crm/doctype/opportunity/opportunity.py:282
+msgid "Cannot declare as lost, because Quotation has been made."
+msgstr "Não é possível marcar como perdida, pois já foi criada uma cotação."
+
+#: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.js:16
+#: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.js:26
+msgid "Cannot deduct when category is for 'Valuation' or 'Valuation and Total'"
+msgstr "Não é possível deduzir quando a categoria for 'Avaliação' ou 'Avaliação e total'"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.js:1808
+msgid "Cannot delete Exchange Gain/Loss row"
+msgstr "Não é possível excluir a linha de ganho/perda cambial"
+
+#: erpnext/stock/doctype/serial_no/serial_no.py:120
+msgid "Cannot delete Serial No {0}, as it is used in stock transactions"
+msgstr "Não é possível excluir o número de série {0}, pois ele é usado em transações de estoque"
+
+#: erpnext/controllers/accounts_controller.py:3768
+msgid "Cannot delete an item which has been ordered"
+msgstr "Não é possível excluir um item que já foi pedido"
+
+#: erpnext/setup/doctype/company/company.py:552
+msgid "Cannot disable perpetual inventory, as there are existing Stock Ledger Entries for the company {0}. Please cancel the stock transactions first and try again."
+msgstr "Não é possível desativar o estoque permanente, pois há lançamentos no razão de estoque para a empresa {0}. Cancele primeiro as transações de estoque e tente novamente."
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:677
+msgid "Cannot disassemble more than produced quantity."
+msgstr "Não é possível desmontar mais do que a quantidade produzida."
+
+#: erpnext/setup/doctype/company/company.py:214
+msgid "Cannot enable Item-wise Inventory Account, as there are existing Stock Ledger Entries for the company {0} with Warehouse-wise Inventory Account. Please cancel the stock transactions first and try again."
+msgstr "Não é possível ativar conta de estoque por item, pois há lançamentos no razão de estoque para a empresa {0} com conta de estoque por depósito. Cancele primeiro as transações de estoque e tente novamente."
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:110
+msgid "Cannot enqueue multi docs for one company. {0} is already queued/running for company: {1}"
+msgstr "Não é possível enfileirar vários documentos para uma empresa. {0} já está na fila/em execução para a empresa: {1}"
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:771
+#: erpnext/selling/doctype/sales_order/sales_order.py:794
+msgid "Cannot ensure delivery by Serial No as Item {0} is added with and without Ensure Delivery by Serial No."
+msgstr "Não é possível garantir a entrega por número de série, pois o item {0} foi adicionado com e sem a opção Garantir entrega por número de série."
+
+#: erpnext/public/js/utils/barcode_scanner.js:62
+msgid "Cannot find Item or Warehouse with this Barcode"
+msgstr "Não foi possível localizar item ou depósito com este código de barras"
+
+#: erpnext/public/js/utils/barcode_scanner.js:63
+msgid "Cannot find Item with this Barcode"
+msgstr "Não foi possível localizar item com este código de barras"
+
+#: erpnext/controllers/accounts_controller.py:3720
+msgid "Cannot find a default warehouse for item {0}. Please set one in the Item Master or in Stock Settings."
+msgstr "Não foi possível localizar um depósito padrão para o item {0}. Defina um no cadastro do item ou nas configurações de estoque."
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:516
+msgid "Cannot make any transactions until the deletion job is completed"
+msgstr "Não é possível fazer transações até que a tarefa de exclusão seja concluída"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:530
+msgid "Cannot produce more Item {0} than Sales Order quantity {1}"
+msgstr "Não é possível produzir mais do item {0} do que a quantidade {1} do pedido de venda"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:1420
+msgid "Cannot produce more item for {0}"
+msgstr "Não é possível produzir mais itens para {0}"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:1424
+msgid "Cannot produce more than {0} items for {1}"
+msgstr "Não é possível produzir mais de {0} itens para {1}"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:353
+msgid "Cannot receive from customer against negative outstanding"
+msgstr "Não é possível receber de cliente com saldo em aberto negativo"
+
+#: erpnext/controllers/accounts_controller.py:3900
+msgid "Cannot reduce quantity than ordered or purchased quantity"
+msgstr "Não é possível reduzir a quantidade para menos do que a quantidade pedida ou comprada"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.js:1506
+#: erpnext/controllers/accounts_controller.py:3187
+#: erpnext/public/js/controllers/accounts.js:120
+msgid "Cannot refer row number greater than or equal to current row number for this Charge type"
+msgstr "Não é possível referenciar número de linha maior ou igual ao número da linha atual para este tipo de cobrança"
+
+#: erpnext/accounts/doctype/bank/bank.js:66
+msgid "Cannot retrieve link token for update. Check Error Log for more information"
+msgstr "Não foi possível obter o token de vínculo para atualização. Verifique o log de erros para mais informações"
+
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:68
+msgid "Cannot retrieve link token. Check Error Log for more information"
+msgstr "Não foi possível obter o token de vínculo. Verifique o log de erros para mais informações"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.js:1499
+#: erpnext/accounts/doctype/payment_entry/payment_entry.js:1677
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:1889
+#: erpnext/controllers/accounts_controller.py:3177
+#: erpnext/public/js/controllers/accounts.js:112
+#: erpnext/public/js/controllers/taxes_and_totals.js:524
+msgid "Cannot select charge type as 'On Previous Row Amount' or 'On Previous Row Total' for first row"
+msgstr "Não é possível selecionar o tipo de cobrança como 'Sobre o valor da linha anterior' ou 'Sobre o total da linha anterior' para a primeira linha"
+
+#: erpnext/selling/doctype/quotation/quotation.py:287
+msgid "Cannot set as Lost as Sales Order is made."
+msgstr "Não é possível marcar como perdida, pois já foi criado um pedido de venda."
+
+#: erpnext/setup/doctype/authorization_rule/authorization_rule.py:91
+msgid "Cannot set authorization on basis of Discount for {0}"
+msgstr "Não é possível definir a autorização com base em desconto para {0}"
+
+#: erpnext/stock/doctype/item/item.py:721
+msgid "Cannot set multiple Item Defaults for a company."
+msgstr "Não é possível definir vários padrões de item para uma empresa."
+
+#: erpnext/controllers/accounts_controller.py:3882
+msgid "Cannot set quantity less than delivered quantity"
+msgstr "Não é possível definir quantidade menor que a quantidade fornecida"
+
+#: erpnext/controllers/accounts_controller.py:3885
+msgid "Cannot set quantity less than received quantity"
+msgstr "Não é possível definir quantidade menor que a quantidade recebida"
+
+#: erpnext/stock/doctype/item_variant_settings/item_variant_settings.py:69
+msgid "Cannot set the field <b>{0}</b> for copying in variants"
+msgstr "Não é possível definir o campo <b>{0}</b> para copiar em variantes"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:1999
+msgid "Cannot {0} from {1} without any negative outstanding invoice"
+msgstr "Não é possível {0} de {1} sem nenhuma fatura em aberto negativa"
+
+#. Label of the canonical_uri (Data) field in DocType 'Code List'
+#. Label of the canonical_uri (Data) field in DocType 'Common Code'
+#: erpnext/edi/doctype/code_list/code_list.json
+#: erpnext/edi/doctype/common_code/common_code.json
+msgid "Canonical URI"
+msgstr "URI canônica"
+
+#. Label of the capacity_per_day (Int) field in DocType 'Item Lead Time'
+#. Label of the capacity (Float) field in DocType 'Putaway Rule'
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:947
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.json
+msgid "Capacity"
+msgstr "Capacidade"
+
+#. Label of the capacity_in_days_section (Section Break) field in DocType
+#. 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Capacity (In Days)"
+msgstr "Capacidade (em dias)"
+
+#: erpnext/stock/page/warehouse_capacity_summary/warehouse_capacity_summary.js:69
+msgid "Capacity (Stock UOM)"
+msgstr "Capacidade (UM de estoque)"
+
+#. Label of the capacity_planning (Section Break) field in DocType
+#. 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Capacity Planning"
+msgstr "Planejámento de capacidade"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:1051
+msgid "Capacity Planning Error, planned start time can not be same as end time"
+msgstr "Erro de planejámento de capacidade, a hora de início planejáda não pode ser igual à hora de término"
+
+#. Label of the capacity_planning_for_days (Int) field in DocType
+#. 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Capacity Planning For (Days)"
+msgstr "Planejámento de capacidade para (dias)"
+
+#. Label of the stock_capacity (Float) field in DocType 'Putaway Rule'
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.json
+msgid "Capacity in Stock UOM"
+msgstr "Capacidade em UM de estoque"
+
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.py:86
+msgid "Capacity must be greater than 0"
+msgstr "A capacidade deve ser maior que 0"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:44
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:77
+msgid "Capital Equipment"
+msgstr "Equipamentos de capital"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:190
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:333
+msgid "Capital Stock"
+msgstr "Capital Social"
+
+#. Label of the capital_work_in_progress_account (Link) field in DocType 'Asset
+#. Category Account'
+#. Label of the capital_work_in_progress_account (Link) field in DocType
+#. 'Company'
+#: erpnext/assets/doctype/asset_category_account/asset_category_account.json
+#: erpnext/setup/doctype/company/company.json
+msgid "Capital Work In Progress Account"
+msgstr "Conta de imobilizado em andamento (CWIP)"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/report/account_balance/account_balance.js:42
+msgid "Capital Work in Progress"
+msgstr "Imobilizado em andamento (CWIP)"
+
+#: erpnext/assets/doctype/asset/asset.js:210
+msgid "Capitalize Asset"
+msgstr "Capitalizar ativo"
+
+#. Label of the capitalize_repair_cost (Check) field in DocType 'Asset Repair'
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+msgid "Capitalize Repair Cost"
+msgstr "Capitalizar custo de reparo"
+
+#: erpnext/assets/doctype/asset/asset.js:208
+msgid "Capitalize this asset before submitting."
+msgstr "Capitalize este ativo antes de enviar."
+
+#. Option for the 'Status' (Select) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset/asset_list.js:14
+msgid "Capitalized"
+msgstr "Capitalizado"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Carat"
+msgstr "Quilate"
+
+#. Title of an incoterm
+#: erpnext/setup/doctype/incoterm/incoterms.csv:6
+msgid "Carriage Paid To"
+msgstr "Frete pago até"
+
+#. Title of an incoterm
+#: erpnext/setup/doctype/incoterm/incoterms.csv:7
+msgid "Carriage and Insurance Paid to"
+msgstr "Frete e seguro pagos até"
+
+#. Label of the carrier (Data) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Carrier"
+msgstr "Transportadora"
+
+#. Label of the carrier_service (Data) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Carrier Service"
+msgstr "Serviço da transportadora"
+
+#. Label of the carry_forward_communication_and_comments (Check) field in
+#. DocType 'CRM Settings'
+#: erpnext/crm/doctype/crm_settings/crm_settings.json
+msgid "Carry Forward Communication and Comments"
+msgstr "Manter comunicações e comentários"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#. Option for the 'Type' (Select) field in DocType 'Mode of Payment'
+#. Option for the 'Salary Mode' (Select) field in DocType 'Employee'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:21
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:27
+#: erpnext/accounts/doctype/mode_of_payment/mode_of_payment.json
+#: erpnext/accounts/report/account_balance/account_balance.js:40
+#: erpnext/setup/doctype/employee/employee.json
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:257
+msgid "Cash"
+msgstr "Dinheiro"
+
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#. Option for the 'Journal Entry Type' (Select) field in DocType 'Journal Entry
+#. Template'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+msgid "Cash Entry"
+msgstr "Lançamento em dinheiro"
+
+#. Option for the 'Report Type' (Select) field in DocType 'Financial Report
+#. Template'
+#. Name of a report
+#. Label of a Link in the Financial Reports Workspace
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.json
+#: erpnext/accounts/report/cash_flow/cash_flow.json
+#: erpnext/accounts/workspace/financial_reports/financial_reports.json
+msgid "Cash Flow"
+msgstr "Fluxo de Caixa"
+
+#: erpnext/public/js/financial_statements.js:277
+msgid "Cash Flow Statement"
+msgstr "Demonstrativo de Fluxo de Caixa"
+
+#: erpnext/accounts/report/cash_flow/cash_flow.py:178
+msgid "Cash Flow from Financing"
+msgstr "Fluxo de Caixa de Financiamento"
+
+#: erpnext/accounts/report/cash_flow/cash_flow.py:171
+msgid "Cash Flow from Investing"
+msgstr "Fluxo de Caixa de Investimentos"
+
+#: erpnext/accounts/report/cash_flow/cash_flow.py:159
+msgid "Cash Flow from Operations"
+msgstr "Fluxo de Caixa das Operações"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:20
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:26
+msgid "Cash In Hand"
+msgstr "Caixa"
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:322
+msgid "Cash or Bank Account is mandatory for making payment entry"
+msgstr "Conta de caixa ou bancária é obrigatória para criar o lançamento de pagamento"
+
+#. Label of the cash_bank_account (Link) field in DocType 'POS Invoice'
+#. Label of the cash_bank_account (Link) field in DocType 'Purchase Invoice'
+#. Label of the cash_bank_account (Link) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Cash/Bank Account"
+msgstr "Conta de caixa/banco"
+
+#. Label of the user (Link) field in DocType 'POS Closing Entry'
+#. Label of the user (Link) field in DocType 'POS Opening Entry'
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.json
+#: erpnext/accounts/report/pos_register/pos_register.js:38
+#: erpnext/accounts/report/pos_register/pos_register.py:123
+#: erpnext/accounts/report/pos_register/pos_register.py:195
+msgid "Cashier"
+msgstr "Caixa"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/cashier_closing/cashier_closing.json
+msgid "Cashier Closing"
+msgstr "Fechamento do Caixa"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/cashier_closing_payments/cashier_closing_payments.json
+msgid "Cashier Closing Payments"
+msgstr "Pagamentos de Fechamento do Caixa"
+
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:77
+msgid "Cashier is currently assigned to another POS."
+msgstr "O caixa está atribuído a outro PDV no momento."
+
+#. Label of the catch_all (Link) field in DocType 'Communication Medium'
+#: erpnext/communication/doctype/communication_medium/communication_medium.json
+msgid "Catch All"
+msgstr "Catch-all"
+
+#. Label of the categorize_by (Select) field in DocType 'Process Statement Of
+#. Accounts'
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+msgid "Categorize By"
+msgstr "Categorizar por"
+
+#: erpnext/accounts/report/general_ledger/general_ledger.js:116
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:80
+msgid "Categorize by"
+msgstr "Categorizar por"
+
+#: erpnext/accounts/report/general_ledger/general_ledger.js:129
+msgid "Categorize by Account"
+msgstr "Categorizar por conta"
+
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:84
+msgid "Categorize by Item"
+msgstr "Categorizar por item"
+
+#: erpnext/accounts/report/general_ledger/general_ledger.js:133
+msgid "Categorize by Party"
+msgstr "Categorizar por parte"
+
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:83
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:86
+msgid "Categorize by Supplier"
+msgstr "Categorizar por fornecedor"
+
+#. Option for the 'Categorize By' (Select) field in DocType 'Process Statement
+#. Of Accounts'
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+#: erpnext/accounts/report/general_ledger/general_ledger.js:121
+msgid "Categorize by Voucher"
+msgstr "Categorizar por comprovante"
+
+#. Option for the 'Categorize By' (Select) field in DocType 'Process Statement
+#. Of Accounts'
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+#: erpnext/accounts/report/general_ledger/general_ledger.js:125
+msgid "Categorize by Voucher (Consolidated)"
+msgstr "Categorizar por comprovante (consolidado)"
+
+#. Label of the category_details_section (Section Break) field in DocType 'Tax
+#. Withholding Category'
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
+msgid "Category Details"
+msgstr "Detalhes da categoria"
+
+#: erpnext/assets/dashboard_fixtures.py:93
+msgid "Category-wise Asset Value"
+msgstr "Valor do Ativo Por Categoria"
+
+#: erpnext/buying/doctype/purchase_order/purchase_order.py:335
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:115
+msgid "Caution"
+msgstr "Cuidado"
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:181
+msgid "Caution: This might alter frozen accounts."
+msgstr "Cuidado: isso pode alterar contas congeladas."
+
+#. Label of the cell_number (Data) field in DocType 'Driver'
+#: erpnext/setup/doctype/driver/driver.json
+msgid "Cellphone Number"
+msgstr "Número de celular"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Celsius"
+msgstr "Celsius"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Cental"
+msgstr "Cental"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Centiarea"
+msgstr "Centiárea"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Centigram/Litre"
+msgstr "Centigrama/litro"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Centilitre"
+msgstr "Centilitro"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Centimeter"
+msgstr "Centímetro"
+
+#. Label of the certificate_attachement (Attach) field in DocType 'Asset
+#. Maintenance Log'
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
+msgid "Certificate"
+msgstr "Certificado"
+
+#. Label of the certificate_details_section (Section Break) field in DocType
+#. 'Lower Deduction Certificate'
+#: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
+msgid "Certificate Details"
+msgstr "Detalhes do certificado"
+
+#. Label of the certificate_limit (Currency) field in DocType 'Lower Deduction
+#. Certificate'
+#: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
+msgid "Certificate Limit"
+msgstr "Limite do certificado"
+
+#. Label of the certificate_no (Data) field in DocType 'Lower Deduction
+#. Certificate'
+#: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
+msgid "Certificate No"
+msgstr "Nº do certificado"
+
+#. Label of the certificate_required (Check) field in DocType 'Asset
+#. Maintenance Task'
+#: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
+msgid "Certificate Required"
+msgstr "Certificado obrigatório"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Chain"
+msgstr "Corrente"
+
+#. Label of the change_amount (Currency) field in DocType 'POS Invoice'
+#. Label of the change_amount (Currency) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:318
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/selling/page/point_of_sale/pos_payment.js:684
+msgid "Change Amount"
+msgstr "Valor do troco"
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:94
+msgid "Change Release Date"
+msgstr "Alterar Data de Liberação"
+
+#. Label of the stock_value_difference (Float) field in DocType 'Serial and
+#. Batch Entry'
+#. Label of the stock_value_difference (Currency) field in DocType 'Stock
+#. Closing Balance'
+#. Label of the stock_value_difference (Currency) field in DocType 'Stock
+#. Ledger Entry'
+#: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
+#: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
+#: erpnext/stock/report/serial_and_batch_summary/serial_and_batch_summary.py:169
+msgid "Change in Stock Value"
+msgstr "Variação no valor do estoque"

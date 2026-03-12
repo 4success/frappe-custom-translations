@@ -1,0 +1,744 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:35+0000\n"
+"PO-Revision-Date: 2026-01-21 06:48\n"
+"Last-Translator: developers@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File-ID: 138\n"
+"Language: pt_BR\n"
+
+#. Label of the permission_rules (Section Break) field in DocType 'Custom Role'
+#: frappe/core/doctype/custom_role/custom_role.json
+msgid "Permission Rules"
+msgstr "Regras de Permissão"
+
+#. Label of the permission_type (Select) field in DocType 'Permission
+#. Inspector'
+#. Name of a DocType
+#. Label of the perm_type (Data) field in DocType 'Permission Type'
+#: frappe/core/doctype/permission_inspector/permission_inspector.json
+#: frappe/core/doctype/permission_type/permission_type.json
+msgid "Permission Type"
+msgstr "Tipo de permissão"
+
+#: frappe/core/doctype/permission_type/permission_type.py:40
+msgid "Permission Type '{0}' is reserved. Please choose another name."
+msgstr "O tipo de permissão '{0}' é reservado. Escolha outro nome."
+
+#. Label of the section_break_4 (Section Break) field in DocType 'Custom
+#. DocPerm'
+#. Label of the permissions (Section Break) field in DocType 'DocField'
+#. Label of the section_break_4 (Section Break) field in DocType 'DocPerm'
+#. Label of the permissions (Table) field in DocType 'DocType'
+#. Label of the permissions_tab (Tab Break) field in DocType 'DocType'
+#. Label of the permissions (Section Break) field in DocType 'System Settings'
+#. Label of a Card Break in the Users Workspace
+#. Label of the permissions (Section Break) field in DocType 'Customize Form
+#. Field'
+#: frappe/core/doctype/custom_docperm/custom_docperm.json
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/docperm/docperm.json
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/core/doctype/user/user.js:136 frappe/core/doctype/user/user.js:145
+#: frappe/core/doctype/user/user.js:154
+#: frappe/core/page/permission_manager/permission_manager.js:221
+#: frappe/core/workspace/users/users.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Permissions"
+msgstr "Permissões"
+
+#: frappe/core/doctype/doctype/doctype.py:1869
+#: frappe/core/doctype/doctype/doctype.py:1879
+msgid "Permissions Error"
+msgstr "Erro de permissões"
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:10
+msgid "Permissions are automatically applied to Standard Reports and searches."
+msgstr "As permissões são aplicadas automaticamente a relatórios padrão e pesquisas."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:5
+msgid "Permissions are set on Roles and Document Types (called DocTypes) by setting rights like Read, Write, Create, Delete, Submit, Cancel, Amend, Report, Import, Export, Print, Email and Set User Permissions."
+msgstr "As permissões são definidas em Papéis e Tipos de Documento (chamados DocTypes) ao configurar direitos como Ler, Gravar, Criar, Excluir, Enviar, Cancelar, Alterar, Relatar, Importar, Exportar, Imprimir, E-mail e Definir permissões de usuário."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:26
+msgid "Permissions at higher levels are Field Level permissions. All Fields have a Permission Level set against them and the rules defined at that permissions apply to the field. This is useful in case you want to hide or make certain field read-only for certain Roles."
+msgstr "As permissões em níveis mais altos são permissões em nível de campo. Todos os campos têm um nível de permissão definido, e as regras definidas nesse nível se aplicam ao campo. Isso é útil quando você quer ocultar ou tornar determinado campo somente leitura para certos papéis."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:24
+msgid "Permissions at level 0 are Document Level permissions, i.e. they are primary for access to the document."
+msgstr "As permissões no nível 0 são permissões em nível de documento, ou seja, são as principais para acesso ao documento."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:6
+msgid "Permissions get applied on Users based on what Roles they are assigned."
+msgstr "As permissões são aplicadas aos usuários com base nos papéis atribuídos a eles."
+
+#. Name of a report
+#. Label of a Link in the Users Workspace
+#: frappe/core/report/permitted_documents_for_user/permitted_documents_for_user.json
+#: frappe/core/workspace/users/users.json
+msgid "Permitted Documents For User"
+msgstr "Documentos permitidos para o usuário"
+
+#. Label of the permitted_roles (Table MultiSelect) field in DocType 'Workflow
+#. Action'
+#: frappe/workflow/doctype/workflow_action/workflow_action.json
+msgid "Permitted Roles"
+msgstr "Papéis permitidos"
+
+#. Option for the 'Address Type' (Select) field in DocType 'Address'
+#: frappe/contacts/doctype/address/address.json
+msgid "Personal"
+msgstr "Pessoal"
+
+#. Name of a DocType
+#: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.json
+msgid "Personal Data Deletion Request"
+msgstr "Solicitação de exclusão de dados pessoais"
+
+#. Name of a DocType
+#: frappe/website/doctype/personal_data_deletion_step/personal_data_deletion_step.json
+msgid "Personal Data Deletion Step"
+msgstr "Etapa de exclusão de dados pessoais"
+
+#. Name of a DocType
+#: frappe/website/doctype/personal_data_download_request/personal_data_download_request.json
+msgid "Personal Data Download Request"
+msgstr "Solicitação de download de dados pessoais"
+
+#. Label of the phone (Data) field in DocType 'Address'
+#. Label of the phone (Data) field in DocType 'Contact'
+#. Option for the 'Type' (Select) field in DocType 'Communication'
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Label of the phone (Data) field in DocType 'User'
+#. Label of a field in the edit-profile Web Form
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Label of the phone (Data) field in DocType 'Contact Us Settings'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Form Field'
+#: frappe/contacts/doctype/address/address.json
+#: frappe/contacts/doctype/contact/contact.json
+#: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.py:47
+#: frappe/core/doctype/communication/communication.json
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/user/user.json
+#: frappe/core/web_form/edit_profile/edit_profile.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/website/doctype/contact_us_settings/contact_us_settings.json
+#: frappe/website/doctype/web_form_field/web_form_field.json
+msgid "Phone"
+msgstr "Telefone"
+
+#. Label of the phone_no (Data) field in DocType 'Communication'
+#: frappe/core/doctype/communication/communication.json
+msgid "Phone No."
+msgstr "Nº de telefone"
+
+#: frappe/utils/__init__.py:124
+msgid "Phone Number {0} set in field {1} is not valid."
+msgstr "O número de telefone {0} definido no campo {1} não é válido."
+
+#: frappe/public/js/frappe/form/print_utils.js:68
+#: frappe/public/js/frappe/views/reports/report_view.js:1570
+#: frappe/public/js/frappe/views/reports/report_view.js:1573
+msgid "Pick Columns"
+msgstr "Selecionar colunas"
+
+#. Option for the 'Type' (Select) field in DocType 'Dashboard Chart'
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+msgid "Pie"
+msgstr "Torta"
+
+#. Label of the pincode (Data) field in DocType 'Contact Us Settings'
+#: frappe/website/doctype/contact_us_settings/contact_us_settings.json
+msgid "Pincode"
+msgstr "CEP"
+
+#. Option for the 'Color' (Select) field in DocType 'DocType State'
+#. Option for the 'Indicator' (Select) field in DocType 'Kanban Board Column'
+#: frappe/core/doctype/doctype_state/doctype_state.json
+#: frappe/desk/doctype/kanban_board_column/kanban_board_column.json
+msgid "Pink"
+msgstr "Rosa"
+
+#. Label of the placeholder (Data) field in DocType 'DocField'
+#. Label of the placeholder (Data) field in DocType 'Custom Field'
+#. Label of the placeholder (Data) field in DocType 'Customize Form Field'
+#. Label of the placeholder (Data) field in DocType 'Web Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/website/doctype/web_form_field/web_form_field.json
+msgid "Placeholder"
+msgstr "Texto de preenchimento"
+
+#. Option for the 'Message Type' (Select) field in DocType 'Notification'
+#: frappe/email/doctype/notification/notification.json
+msgid "Plain Text"
+msgstr "Texto simples"
+
+#. Option for the 'Address Type' (Select) field in DocType 'Address'
+#: frappe/contacts/doctype/address/address.json
+msgid "Plant"
+msgstr "Fábrica"
+
+#: frappe/email/doctype/email_account/email_account.py:544
+msgid "Please Authorize OAuth for Email Account {0}"
+msgstr "Autorize o OAuth para a conta de e-mail {0}"
+
+#: frappe/email/oauth.py:29
+msgid "Please Authorize OAuth for Email Account {}"
+msgstr "Autorize o OAuth para a conta de e-mail {}"
+
+#: frappe/website/doctype/website_theme/website_theme.py:77
+msgid "Please Duplicate this Website Theme to customize."
+msgstr "Duplique este tema do site para personalizar."
+
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.py:162
+msgid "Please Install the ldap3 library via pip to use ldap functionality."
+msgstr "Instale a biblioteca ldap3 via pip para usar a funcionalidade LDAP."
+
+#: frappe/public/js/frappe/views/reports/query_report.js:308
+msgid "Please Set Chart"
+msgstr "Defina o gráfico"
+
+#: frappe/core/doctype/sms_settings/sms_settings.py:88
+msgid "Please Update SMS Settings"
+msgstr "Atualize as configurações de SMS"
+
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:614
+msgid "Please add a subject to your email"
+msgstr "Adicione um assunto ao seu e-mail"
+
+#: frappe/templates/includes/comments/comments.html:168
+msgid "Please add a valid comment."
+msgstr "Adicione um comentário válido."
+
+#: frappe/core/doctype/user/user.py:1123
+msgid "Please ask your administrator to verify your sign-up"
+msgstr "Peça ao seu administrador para verificar seu cadastro"
+
+#: frappe/public/js/frappe/form/controls/select.js:101
+msgid "Please attach a file first."
+msgstr "Anexe um arquivo primeiro."
+
+#: frappe/printing/doctype/letter_head/letter_head.py:82
+msgid "Please attach an image file to set HTML for Footer."
+msgstr "Anexe um arquivo de imagem para definir o HTML do rodapé."
+
+#: frappe/printing/doctype/letter_head/letter_head.py:70
+msgid "Please attach an image file to set HTML for Letter Head."
+msgstr "Anexe um arquivo de imagem para definir o HTML do timbre."
+
+#: frappe/core/doctype/package_import/package_import.py:39
+msgid "Please attach the package"
+msgstr "Anexe o pacote"
+
+#: frappe/utils/dashboard.py:58
+msgid "Please check the filter values set for Dashboard Chart: {}"
+msgstr "Verifique os valores de filtro definidos para o gráfico do dashboard: {}"
+
+#: frappe/model/base_document.py:1052
+msgid "Please check the value of \"Fetch From\" set for field {0}"
+msgstr "Verifique o valor de \"Fetch From\" definido para o campo {0}"
+
+#: frappe/core/doctype/user/user.py:1121
+msgid "Please check your email for verification"
+msgstr "Verifique seu e-mail para confirmação"
+
+#: frappe/email/smtp.py:134
+msgid "Please check your email login credentials."
+msgstr "Verifique suas credenciais de login do e-mail."
+
+#: frappe/twofactor.py:243
+msgid "Please check your registered email address for instructions on how to proceed. Do not close this window as you will have to return to it."
+msgstr "Verifique seu endereço de e-mail cadastrado para ver as instruções de como prosseguir. Não feche esta janela, pois você precisará voltar a ela."
+
+#: frappe/desk/doctype/workspace/workspace.js:23
+msgid "Please click Edit on the Workspace for best results"
+msgstr "Clique em Editar no workspace para melhores resultados"
+
+#: frappe/core/doctype/data_import/data_import.js:164
+msgid "Please click on 'Export Errored Rows', fix the errors and import again."
+msgstr "Clique em 'Export Errored Rows', corrija os erros e importe novamente."
+
+#: frappe/twofactor.py:286
+msgid "Please click on the following link and follow the instructions on the page. {0}"
+msgstr "Clique no link a seguir e siga as instruções na página. {0}"
+
+#: frappe/templates/emails/password_reset.html:2
+msgid "Please click on the following link to set your new password"
+msgstr "Clique no link a seguir para definir sua nova senha"
+
+#: frappe/www/confirm_workflow_action.html:4
+msgid "Please confirm your action to {0} this document."
+msgstr "Confirme a ação: {0} este documento."
+
+#: frappe/printing/page/print/print.js:677
+msgid "Please contact your system manager to install correct version."
+msgstr "Entre em contato com o administrador do sistema para instalar a versão correta."
+
+#: frappe/desk/doctype/number_card/number_card.js:45
+msgid "Please create Card first"
+msgstr "Crie o cartão primeiro"
+
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:42
+msgid "Please create chart first"
+msgstr "Crie o gráfico primeiro"
+
+#: frappe/desk/form/meta.py:193
+msgid "Please delete the field from {0} or add the required doctype."
+msgstr "Exclua o campo de {0} ou adicione o doctype obrigatório."
+
+#: frappe/core/doctype/data_export/exporter.py:184
+msgid "Please do not change the template headings."
+msgstr "Não altere os cabeçalhos do modelo."
+
+#: frappe/printing/doctype/print_format/print_format.js:19
+msgid "Please duplicate this to make changes"
+msgstr "Duplique para fazer alterações"
+
+#: frappe/core/doctype/system_settings/system_settings.py:182
+msgid "Please enable atleast one Social Login Key or LDAP or Login With Email Link before disabling username/password based login."
+msgstr "Ative pelo menos uma chave de login social, LDAP ou Login With Email Link antes de desativar o login com nome de usuário/senha."
+
+#: frappe/desk/doctype/notification_log/notification_log.js:45
+#: frappe/email/doctype/auto_email_report/auto_email_report.js:17
+#: frappe/printing/page/print/print.js:697
+#: frappe/printing/page/print/print.js:733
+#: frappe/public/js/frappe/list/bulk_operations.js:161
+#: frappe/public/js/frappe/utils/utils.js:1577
+msgid "Please enable pop-ups"
+msgstr "Ative os pop-ups"
+
+#: frappe/public/js/frappe/microtemplate.js:162
+#: frappe/public/js/frappe/microtemplate.js:177
+msgid "Please enable pop-ups in your browser"
+msgstr "Ative os pop-ups no seu navegador"
+
+#: frappe/integrations/google_oauth.py:55
+msgid "Please enable {} before continuing."
+msgstr "Ative {} antes de continuar."
+
+#: frappe/utils/oauth.py:220
+msgid "Please ensure that your profile has an email address"
+msgstr "Verifique se o seu perfil tem um endereço de e-mail"
+
+#: frappe/integrations/doctype/social_login_key/social_login_key.py:83
+msgid "Please enter Access Token URL"
+msgstr "Informe a URL do token de acesso"
+
+#: frappe/integrations/doctype/social_login_key/social_login_key.py:81
+msgid "Please enter Authorize URL"
+msgstr "Informe a URL de autorização"
+
+#: frappe/integrations/doctype/social_login_key/social_login_key.py:79
+msgid "Please enter Base URL"
+msgstr "Informe a URL base"
+
+#: frappe/integrations/doctype/social_login_key/social_login_key.py:87
+msgid "Please enter Client ID before social login is enabled"
+msgstr "Informe o ID do cliente antes de ativar o login social"
+
+#: frappe/integrations/doctype/social_login_key/social_login_key.py:90
+msgid "Please enter Client Secret before social login is enabled"
+msgstr "Informe o segredo do cliente antes de ativar o login social"
+
+#: frappe/integrations/doctype/connected_app/connected_app.py:54
+msgid "Please enter OpenID Configuration URL"
+msgstr "Informe a URL de configuração do OpenID"
+
+#: frappe/integrations/doctype/social_login_key/social_login_key.py:85
+msgid "Please enter Redirect URL"
+msgstr "Informe a URL de redirecionamento"
+
+#: frappe/templates/includes/comments/comments.html:163
+msgid "Please enter a valid email address."
+msgstr "Informe um endereço de e-mail válido."
+
+#: frappe/templates/includes/contact.js:15
+msgid "Please enter both your email and message so that we can get back to you. Thanks!"
+msgstr "Informe seu e-mail e sua mensagem para que possamos responder. Obrigado!"
+
+#: frappe/www/update-password.html:259
+msgid "Please enter the password"
+msgstr "Informe a senha"
+
+#: frappe/public/js/frappe/desk.js:217
+msgctxt "Email Account"
+msgid "Please enter the password for: <b>{0}</b>"
+msgstr "Informe a senha de: <b>{0}</b>"
+
+#: frappe/core/doctype/sms_settings/sms_settings.py:43
+msgid "Please enter valid mobile nos"
+msgstr "Informe números de celular válidos"
+
+#: frappe/www/update-password.html:142
+msgid "Please enter your new password."
+msgstr "Informe sua nova senha."
+
+#: frappe/www/update-password.html:135
+msgid "Please enter your old password."
+msgstr "Informe sua senha antiga."
+
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:444
+msgid "Please find attached {0}: {1}"
+msgstr "Segue em anexo {0}: {1}"
+
+#: frappe/templates/includes/comments/comments.py:42
+#: frappe/templates/includes/comments/comments.py:45
+msgid "Please login to post a comment."
+msgstr "Faça login para publicar um comentário."
+
+#: frappe/core/doctype/communication/communication.py:186
+msgid "Please make sure the Reference Communication Docs are not circularly linked."
+msgstr "Verifique se os documentos de comunicação de referência não estão vinculados circularmente."
+
+#: frappe/model/document.py:1037
+msgid "Please refresh to get the latest document."
+msgstr "Atualize para obter a versão mais recente do documento."
+
+#: frappe/printing/page/print/print.js:594
+msgid "Please remove the printer mapping in Printer Settings and try again."
+msgstr "Remova o mapeamento da impressora em Configurações da impressora e tente novamente."
+
+#: frappe/public/js/frappe/form/form.js:359
+msgid "Please save before attaching."
+msgstr "Salve antes de anexar."
+
+#: frappe/public/js/frappe/form/sidebar/assign_to.js:55
+msgid "Please save the document before assignment"
+msgstr "Salve o documento antes de atribuir"
+
+#: frappe/public/js/frappe/form/sidebar/assign_to.js:75
+msgid "Please save the document before removing assignment"
+msgstr "Salve o documento antes de remover a atribuição"
+
+#: frappe/automation/doctype/auto_repeat/auto_repeat.js:89
+msgid "Please save the form before previewing the message"
+msgstr "Salve o formulário antes de visualizar a mensagem"
+
+#: frappe/public/js/frappe/views/reports/report_view.js:1722
+msgid "Please save the report first"
+msgstr "Salve o relatório primeiro"
+
+#: frappe/website/doctype/web_template/web_template.js:22
+msgid "Please save to edit the template."
+msgstr "Salve para editar o modelo."
+
+#: frappe/printing/doctype/print_format/print_format.js:31
+msgid "Please select DocType first"
+msgstr "Selecione o DocType primeiro"
+
+#: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.js:27
+msgid "Please select Entity Type first"
+msgstr "Selecione o tipo de entidade primeiro"
+
+#: frappe/core/doctype/system_settings/system_settings.py:118
+msgid "Please select Minimum Password Score"
+msgstr "Selecione a pontuação mínima da senha"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:1215
+msgid "Please select X and Y fields"
+msgstr "Selecione os campos X e Y"
+
+#: frappe/public/js/form_builder/components/Field.vue:158
+msgid "Please select a DocType in options before setting filters"
+msgstr "Selecione um DocType nas opções antes de definir filtros"
+
+#: frappe/utils/__init__.py:131
+msgid "Please select a country code for field {1}."
+msgstr "Selecione um código de país para o campo {1}."
+
+#: frappe/public/js/frappe/file_uploader/FileUploader.vue:527
+msgid "Please select a file first."
+msgstr "Selecione um arquivo primeiro."
+
+#: frappe/utils/file_manager.py:50
+msgid "Please select a file or url"
+msgstr "Selecione um arquivo ou URL"
+
+#: frappe/model/rename_doc.py:684
+msgid "Please select a valid csv file with data"
+msgstr "Selecione um arquivo CSV válido com dados"
+
+#: frappe/utils/data.py:309
+msgid "Please select a valid date filter"
+msgstr "Selecione um filtro de data válido"
+
+#: frappe/core/doctype/user_permission/user_permission_list.js:203
+msgid "Please select applicable Doctypes"
+msgstr "Selecione os DocTypes aplicáveis"
+
+#: frappe/model/db_query.py:1249
+msgid "Please select atleast 1 column from {0} to sort/group"
+msgstr "Selecione pelo menos 1 coluna de {0} para ordenar/agrupar"
+
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.py:214
+msgid "Please select prefix first"
+msgstr "Selecione o prefixo primeiro"
+
+#: frappe/core/doctype/data_export/data_export.js:42
+msgid "Please select the Document Type."
+msgstr "Selecione o tipo de documento."
+
+#. Description of the 'Directory Server' (Select) field in DocType 'LDAP
+#. Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "Please select the LDAP Directory being used"
+msgstr "Selecione o diretório LDAP em uso"
+
+#: frappe/website/doctype/website_settings/website_settings.js:100
+msgid "Please select {0}"
+msgstr "Selecione {0}"
+
+#: frappe/contacts/doctype/contact/contact.py:298
+msgid "Please set Email Address"
+msgstr "Defina o endereço de e-mail"
+
+#: frappe/printing/page/print/print.js:608
+msgid "Please set a printer mapping for this print format in the Printer Settings"
+msgstr "Defina um mapeamento de impressora para este formato de impressão em Configurações da impressora"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:1438
+msgid "Please set filters"
+msgstr "Defina os filtros"
+
+#: frappe/email/doctype/auto_email_report/auto_email_report.py:271
+msgid "Please set filters value in Report Filter table."
+msgstr "Defina os valores dos filtros na tabela Filtro de relatório."
+
+#: frappe/model/naming.py:580
+msgid "Please set the document name"
+msgstr "Defina o nome do documento"
+
+#: frappe/desk/doctype/dashboard/dashboard.py:120
+msgid "Please set the following documents in this Dashboard as standard first."
+msgstr "Defina primeiro os documentos a seguir neste dashboard como padrão."
+
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.py:120
+msgid "Please set the series to be used."
+msgstr "Defina a série a ser usada."
+
+#: frappe/core/doctype/system_settings/system_settings.py:132
+msgid "Please setup SMS before setting it as an authentication method, via SMS Settings"
+msgstr "Configure o SMS antes de defini-lo como método de autenticação, em Configurações de SMS"
+
+#: frappe/automation/doctype/auto_repeat/auto_repeat.js:107
+msgid "Please setup a message first"
+msgstr "Configure uma mensagem primeiro"
+
+#: frappe/core/doctype/user/user.py:462
+msgid "Please setup default outgoing Email Account from Settings > Email Account"
+msgstr "Configure a conta de e-mail de saída padrão em Configurações > Conta de e-mail"
+
+#: frappe/email/doctype/email_account/email_account.py:432
+msgid "Please setup default outgoing Email Account from Tools > Email Account"
+msgstr "Configure a conta de e-mail de saída padrão em Ferramentas > Conta de e-mail"
+
+#: frappe/public/js/frappe/model/model.js:774
+msgid "Please specify"
+msgstr "Especifique"
+
+#: frappe/permissions.py:809
+msgid "Please specify a valid parent DocType for {0}"
+msgstr "Especifique um DocType pai válido para {0}"
+
+#: frappe/email/doctype/notification/notification.py:165
+msgid "Please specify at least 10 minutes due to the trigger cadence of the scheduler"
+msgstr "Especifique pelo menos 10 minutos devido à cadência de acionamento do agendador"
+
+#: frappe/email/doctype/notification/notification.py:172
+msgid "Please specify the field from which to attach files"
+msgstr "Especifique o campo do qual os arquivos serão anexados"
+
+#: frappe/email/doctype/notification/notification.py:162
+msgid "Please specify the minutes offset"
+msgstr "Especifique o deslocamento em minutos"
+
+#: frappe/email/doctype/notification/notification.py:156
+msgid "Please specify which date field must be checked"
+msgstr "Especifique qual campo de data deve ser verificado"
+
+#: frappe/email/doctype/notification/notification.py:160
+msgid "Please specify which datetime field must be checked"
+msgstr "Especifique qual campo de data e hora deve ser verificado"
+
+#: frappe/email/doctype/notification/notification.py:169
+msgid "Please specify which value field must be checked"
+msgstr "Especifique qual campo de valor deve ser verificado"
+
+#: frappe/public/js/frappe/request.js:187
+#: frappe/public/js/frappe/views/translation_manager.js:102
+msgid "Please try again"
+msgstr "Tente novamente"
+
+#: frappe/integrations/google_oauth.py:58
+msgid "Please update {} before continuing."
+msgstr "Atualize {} antes de continuar."
+
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.py:335
+msgid "Please use a valid LDAP search filter"
+msgstr "Use um filtro de pesquisa LDAP válido"
+
+#: frappe/templates/emails/file_backup_notification.html:4
+msgid "Please use following links to download file backup."
+msgstr "Use os links a seguir para baixar o backup do arquivo."
+
+#: frappe/utils/password.py:217
+msgid "Please visit https://frappecloud.com/docs/sites/migrate-an-existing-site#encryption-key for more information."
+msgstr "Acesse https://frappecloud.com/docs/sites/migrate-an-existing-site#encryption-key para mais informações."
+
+#. Label of the policy_uri (Data) field in DocType 'OAuth Client'
+#: frappe/integrations/doctype/oauth_client/oauth_client.json
+msgid "Policy URI"
+msgstr "URI da política"
+
+#. Option for the 'SocketIO Transport Mode' (Select) field in DocType 'System
+#. Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Polling"
+msgstr "Sondagem"
+
+#. Label of the popover_element (Check) field in DocType 'Form Tour Step'
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+msgid "Popover Element"
+msgstr "Elemento do popover"
+
+#. Label of the ondemand_description (HTML Editor) field in DocType 'Form Tour
+#. Step'
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+msgid "Popover or Modal Description"
+msgstr "Descrição do popover ou modal"
+
+#. Label of the smtp_port (Data) field in DocType 'Email Account'
+#. Label of the incoming_port (Data) field in DocType 'Email Account'
+#. Label of the smtp_port (Data) field in DocType 'Email Domain'
+#. Label of the incoming_port (Data) field in DocType 'Email Domain'
+#. Label of the port (Int) field in DocType 'Network Printer Settings'
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/email_domain/email_domain.json
+#: frappe/printing/doctype/network_printer_settings/network_printer_settings.json
+msgid "Port"
+msgstr "Porta"
+
+#: frappe/www/me.html:81
+msgid "Portal"
+msgstr "Portal"
+
+#. Label of the menu (Table) field in DocType 'Portal Settings'
+#: frappe/website/doctype/portal_settings/portal_settings.json
+msgid "Portal Menu"
+msgstr "Menu do portal"
+
+#. Name of a DocType
+#: frappe/website/doctype/portal_menu_item/portal_menu_item.json
+msgid "Portal Menu Item"
+msgstr "Item do menu do portal"
+
+#. Name of a DocType
+#: frappe/website/doctype/portal_settings/portal_settings.json
+msgid "Portal Settings"
+msgstr "Configurações do portal"
+
+#: frappe/public/js/frappe/form/print_utils.js:24
+msgid "Portrait"
+msgstr "Retrato"
+
+#. Label of the position (Select) field in DocType 'Form Tour Step'
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+msgid "Position"
+msgstr "Posição"
+
+#: frappe/templates/discussions/comment_box.html:29
+#: frappe/templates/discussions/reply_card.html:15
+#: frappe/templates/discussions/reply_section.html:29
+#: frappe/templates/discussions/reply_section.html:53
+#: frappe/templates/discussions/topic_modal.html:11
+msgid "Post"
+msgstr "Publicar"
+
+#: frappe/templates/discussions/reply_section.html:40
+msgid "Post it here, our mentors will help you out."
+msgstr "Publique aqui, nossos mentores vão ajudar você."
+
+#. Option for the 'Address Type' (Select) field in DocType 'Address'
+#: frappe/contacts/doctype/address/address.json
+msgid "Postal"
+msgstr "Postal"
+
+#. Label of the pincode (Data) field in DocType 'Address'
+#: frappe/contacts/doctype/address/address.json
+#: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.py:41
+msgid "Postal Code"
+msgstr "CEP"
+
+#. Label of the posting_timestamp (Datetime) field in DocType 'Changelog Feed'
+#: frappe/desk/doctype/changelog_feed/changelog_feed.json
+msgid "Posting Timestamp"
+msgstr "Data e hora de publicação"
+
+#. Label of the precision (Select) field in DocType 'DocField'
+#. Label of the precision (Select) field in DocType 'Custom Field'
+#. Label of the precision (Select) field in DocType 'Customize Form Field'
+#. Label of the precision (Select) field in DocType 'Web Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/website/doctype/web_form_field/web_form_field.json
+msgid "Precision"
+msgstr "Precisão"
+
+#: frappe/core/doctype/doctype/doctype.py:1691
+msgid "Precision ({0}) for {1} cannot be greater than its length ({2})."
+msgstr "A precisão ({0}) de {1} não pode ser maior que seu comprimento ({2})."
+
+#: frappe/core/doctype/doctype/doctype.py:1415
+msgid "Precision should be between 1 and 6"
+msgstr "A precisão deve estar entre 1 e 6"
+
+#: frappe/utils/password_strength.py:187
+msgid "Predictable substitutions like '@' instead of 'a' don't help very much."
+msgstr "Substituições previsíveis como '@' no lugar de 'a' não ajudam muito."
+
+#: frappe/desk/page/setup_wizard/install_fixtures.py:34
+msgid "Prefer not to say"
+msgstr "Prefiro não dizer"
+
+#. Label of the is_primary_address (Check) field in DocType 'Address'
+#: frappe/contacts/doctype/address/address.json
+msgid "Preferred Billing Address"
+msgstr "Endereço de cobrança preferencial"
+
+#. Label of the is_shipping_address (Check) field in DocType 'Address'
+#: frappe/contacts/doctype/address/address.json
+msgid "Preferred Shipping Address"
+msgstr "Endereço de entrega preferencial"
+
+#. Label of the prefix (Data) field in DocType 'Document Naming Rule'
+#. Label of the prefix (Autocomplete) field in DocType 'Document Naming
+#. Settings'
+#: frappe/core/doctype/document_naming_rule/document_naming_rule.json
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.json
+msgid "Prefix"
+msgstr "Prefixo"
+
+#. Name of a DocType
+#. Label of the prepared_report (Check) field in DocType 'Report'
+#: frappe/core/doctype/prepared_report/prepared_report.json
+#: frappe/core/doctype/report/report.json
+#: frappe/core/report/prepared_report_analytics/prepared_report_analytics.py:32
+msgid "Prepared Report"
+msgstr "Relatório preparado"

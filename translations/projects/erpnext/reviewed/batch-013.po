@@ -1,0 +1,820 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Label of the cost_per_unit (Float) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Cost Per Unit"
+msgstr "Custo por Unidade"
+
+#. Title of an incoterm
+#: erpnext/setup/doctype/incoterm/incoterms.csv:8
+msgid "Cost and Freight"
+msgstr "Custo e Frete"
+
+#: erpnext/projects/report/project_wise_stock_tracking/project_wise_stock_tracking.py:41
+msgid "Cost of Delivered Items"
+msgstr "Custo de Produtos Entregues"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#. Label of the cost_of_good_sold_section (Section Break) field in DocType
+#. 'Item Default'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:84
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:143
+#: erpnext/accounts/report/account_balance/account_balance.js:43
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Cost of Goods Sold"
+msgstr "Custo das Mercadorias Vendidas"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:700
+msgid "Cost of Goods Sold Account in Items Table"
+msgstr "Conta de Custo das Mercadorias Vendidas na Tabela de Itens"
+
+#: erpnext/projects/report/project_wise_stock_tracking/project_wise_stock_tracking.py:40
+msgid "Cost of Issued Items"
+msgstr "Custo dos Itens Emitidos"
+
+#. Name of a report
+#: erpnext/manufacturing/report/cost_of_poor_quality_report/cost_of_poor_quality_report.json
+msgid "Cost of Poor Quality Report"
+msgstr "Relatorio de Custo da Ma Qualidade"
+
+#: erpnext/projects/report/project_wise_stock_tracking/project_wise_stock_tracking.py:39
+msgid "Cost of Purchased Items"
+msgstr "Custo de Produtos Comprados"
+
+#: erpnext/config/projects.py:67
+msgid "Cost of various activities"
+msgstr "Custo de varias atividades"
+
+#. Label of the ctc (Currency) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Cost to Company (CTC)"
+msgstr "Custo para a Empresa (CTC)"
+
+#. Title of an incoterm
+#: erpnext/setup/doctype/incoterm/incoterms.csv:9
+msgid "Cost, Insurance and Freight"
+msgstr "Custo, Seguro e Frete"
+
+#. Label of the costing (Tab Break) field in DocType 'BOM'
+#. Label of the currency_detail (Section Break) field in DocType 'BOM Creator'
+#. Label of the costing_section (Section Break) field in DocType 'BOM
+#. Operation'
+#. Label of the sb_costing (Section Break) field in DocType 'Task'
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+#: erpnext/projects/doctype/task/task.json
+msgid "Costing"
+msgstr "Custeio"
+
+#. Label of the costing_amount (Currency) field in DocType 'Timesheet Detail'
+#. Label of the base_costing_amount (Currency) field in DocType 'Timesheet
+#. Detail'
+#: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
+msgid "Costing Amount"
+msgstr "Valor de Custeio"
+
+#. Label of the costing_detail (Section Break) field in DocType 'BOM Creator'
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+msgid "Costing Details"
+msgstr "Detalhes do Custeio"
+
+#. Label of the costing_rate (Currency) field in DocType 'Activity Cost'
+#. Label of the costing_rate (Currency) field in DocType 'Timesheet Detail'
+#. Label of the base_costing_rate (Currency) field in DocType 'Timesheet
+#. Detail'
+#: erpnext/projects/doctype/activity_cost/activity_cost.json
+#: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
+msgid "Costing Rate"
+msgstr "Taxa de Custeio"
+
+#. Label of the project_details (Section Break) field in DocType 'Project'
+#: erpnext/projects/doctype/project/project.json
+msgid "Costing and Billing"
+msgstr "Custeio e Faturamento"
+
+#: erpnext/projects/doctype/project/project.js:140
+msgid "Costing and Billing fields has been updated"
+msgstr "Os campos de custeio e faturamento foram atualizados"
+
+#: erpnext/setup/demo.py:55
+msgid "Could Not Delete Demo Data"
+msgstr "Nao foi possivel excluir os dados de demonstracao"
+
+#: erpnext/selling/doctype/quotation/quotation.py:609
+msgid "Could not auto create Customer due to the following missing mandatory field(s):"
+msgstr "Nao foi possivel criar o Cliente automaticamente devido aos seguintes campos obrigatorios ausentes:"
+
+#: erpnext/stock/doctype/delivery_note/delivery_note.py:680
+msgid "Could not create Credit Note automatically, please uncheck 'Issue Credit Note' and submit again"
+msgstr "Nao foi possivel criar a Nota de Credito automaticamente, desmarque 'Emitir Nota de Credito' e envie novamente"
+
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:353
+msgid "Could not detect the Company for updating Bank Accounts"
+msgstr "Nao foi possivel identificar a Empresa para atualizar as Contas Bancarias"
+
+#: erpnext/assets/doctype/asset_shift_allocation/asset_shift_allocation.py:129
+msgid "Could not find a suitable shift to match the difference: {0}"
+msgstr "Nao foi possivel encontrar um turno adequado para corresponder a diferenca: {0}"
+
+#: erpnext/buying/doctype/supplier_scorecard_variable/supplier_scorecard_variable.py:46
+#: erpnext/buying/doctype/supplier_scorecard_variable/supplier_scorecard_variable.py:50
+msgid "Could not find path for "
+msgstr "Nao foi possivel encontrar caminho para "
+
+#: erpnext/accounts/report/dimension_wise_accounts_balance_report/dimension_wise_accounts_balance_report.py:125
+#: erpnext/accounts/report/financial_statements.py:242
+msgid "Could not retrieve information for {0}."
+msgstr "Não foi possível recuperar informações para {0}."
+
+#: erpnext/buying/doctype/supplier_scorecard_period/supplier_scorecard_period.py:80
+msgid "Could not solve criteria score function for {0}. Make sure the formula is valid."
+msgstr "Não foi possível resolver a função de pontuação dos critérios para {0}. Verifique se a fórmula é válida."
+
+#: erpnext/buying/doctype/supplier_scorecard_period/supplier_scorecard_period.py:100
+msgid "Could not solve weighted score function. Make sure the formula is valid."
+msgstr "Não foi possível resolver a função de pontuação ponderada. Verifique se a fórmula é válida."
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Coulomb"
+msgstr "Coulomb"
+
+#: erpnext/regional/doctype/import_supplier_invoice/import_supplier_invoice.py:419
+msgid "Country Code in File does not match with country code set up in the system"
+msgstr "O código do país no arquivo não corresponde ao código do país configurado no sistema"
+
+#. Label of the country_of_origin (Link) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Country of Origin"
+msgstr "Pais de Origem"
+
+#. Name of a DocType
+#. Label of the coupon_code (Data) field in DocType 'Coupon Code'
+#. Label of the coupon_code (Link) field in DocType 'POS Invoice'
+#. Label of the coupon_code (Link) field in DocType 'Sales Invoice'
+#. Label of the coupon_code (Link) field in DocType 'Quotation'
+#. Label of the coupon_code (Link) field in DocType 'Sales Order'
+#. Label of a Link in the Selling Workspace
+#: erpnext/accounts/doctype/coupon_code/coupon_code.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Coupon Code"
+msgstr "Código do Cupom"
+
+#. Label of the coupon_code_based (Check) field in DocType 'Pricing Rule'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+msgid "Coupon Code Based"
+msgstr "Baseado em Codigo de Cupom"
+
+#. Label of the description (Text Editor) field in DocType 'Coupon Code'
+#: erpnext/accounts/doctype/coupon_code/coupon_code.json
+msgid "Coupon Description"
+msgstr "Descricao do Cupom"
+
+#. Label of the coupon_name (Data) field in DocType 'Coupon Code'
+#: erpnext/accounts/doctype/coupon_code/coupon_code.json
+msgid "Coupon Name"
+msgstr "Nome do Cupom"
+
+#. Label of the coupon_type (Select) field in DocType 'Coupon Code'
+#: erpnext/accounts/doctype/coupon_code/coupon_code.json
+msgid "Coupon Type"
+msgstr "Tipo de Cupom"
+
+#: erpnext/accounts/doctype/account/account_tree.js:85
+#: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:82
+#: erpnext/templates/form_grid/bank_reconciliation_grid.html:16
+msgid "Cr"
+msgstr "Cr"
+
+#. Label of the create_chart_of_accounts_based_on (Select) field in DocType
+#. 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Create Chart Of Accounts Based On"
+msgstr "Criar Plano de Contas com Base em"
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:132
+msgid "Create Delivery Note"
+msgstr "Criar Nota de Entrega"
+
+#: erpnext/stock/doctype/delivery_note/delivery_note_list.js:61
+msgid "Create Delivery Trip"
+msgstr "Criar Viagem de Entrega"
+
+#: erpnext/assets/doctype/asset/asset.js:162
+msgid "Create Depreciation Entry"
+msgstr "Criar Lancamento de Depreciacao"
+
+#: erpnext/utilities/activation.py:137
+msgid "Create Employee"
+msgstr "Criar Colaborador"
+
+#: erpnext/utilities/activation.py:135
+msgid "Create Employee Records"
+msgstr "Criar Registros de Colaboradores"
+
+#: erpnext/utilities/activation.py:136
+msgid "Create Employee records."
+msgstr "Criar registros de colaboradores."
+
+#. Label of the is_grouped_asset (Check) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Create Grouped Asset"
+msgstr "Criar Ativo Agrupado"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.js:105
+msgid "Create Inter Company Journal Entry"
+msgstr "Criar Entrada de Diário Entre Empresas"
+
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:54
+msgid "Create Invoices"
+msgstr "Criar Faturas"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:206
+msgid "Create Job Card"
+msgstr "Criar Cartão de Trabalho"
+
+#. Label of the create_job_card_based_on_batch_size (Check) field in DocType
+#. 'Operation'
+#: erpnext/manufacturing/doctype/operation/operation.json
+msgid "Create Job Card based on Batch Size"
+msgstr "Criar Cartao de Trabalho com base no Tamanho do Lote"
+
+#: erpnext/accounts/doctype/payment_order/payment_order.js:39
+msgid "Create Journal Entries"
+msgstr "Criar Lancamentos Contabeis"
+
+#: erpnext/accounts/doctype/share_transfer/share_transfer.js:18
+msgid "Create Journal Entry"
+msgstr "Criar Entrada de Diário"
+
+#: erpnext/utilities/activation.py:79
+msgid "Create Lead"
+msgstr "Criar Lead"
+
+#: erpnext/utilities/activation.py:77
+msgid "Create Leads"
+msgstr "Criar Leads"
+
+#. Label of the post_change_gl_entries (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Create Ledger Entries for Change Amount"
+msgstr "Criar Lancamentos no Razao para Valor de Troco"
+
+#: erpnext/buying/doctype/supplier/supplier.js:226
+#: erpnext/selling/doctype/customer/customer.js:285
+msgid "Create Link"
+msgstr "Criar Link"
+
+#: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.js:41
+msgid "Create MPS"
+msgstr "Criar MPS"
+
+#. Label of the create_missing_party (Check) field in DocType 'Opening Invoice
+#. Creation Tool'
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.json
+msgid "Create Missing Party"
+msgstr "Criar Parte Ausente"
+
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.js:164
+msgid "Create Multi-level BOM"
+msgstr "Criar LDM Multinivel"
+
+#: erpnext/public/js/call_popup/call_popup.js:122
+msgid "Create New Contact"
+msgstr "Criar Novo Contato"
+
+#: erpnext/public/js/call_popup/call_popup.js:128
+msgid "Create New Customer"
+msgstr "Criar Novo Cliente"
+
+#: erpnext/public/js/call_popup/call_popup.js:134
+msgid "Create New Lead"
+msgstr "Criar Novo Lead"
+
+#: erpnext/crm/doctype/lead/lead.js:161
+msgid "Create Opportunity"
+msgstr "Criar Oportunidade"
+
+#: erpnext/selling/page/point_of_sale/pos_controller.js:67
+msgid "Create POS Opening Entry"
+msgstr "Criar Entrada de Abertura de PDV"
+
+#: erpnext/accounts/doctype/payment_request/payment_request.js:66
+msgid "Create Payment Entry"
+msgstr "Criar Entrada de Pagamento"
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:859
+msgid "Create Payment Entry for Consolidated POS Invoices."
+msgstr "Criar Lancamento de Pagamento para Faturas de PDV Consolidadas."
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:769
+msgid "Create Pick List"
+msgstr "Criar Lista de Seleção"
+
+#: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.js:10
+msgid "Create Print Format"
+msgstr "Criar Formato de Impressão"
+
+#: erpnext/crm/doctype/lead/lead_list.js:8
+msgid "Create Prospect"
+msgstr "Criar Prospect"
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:1660
+#: erpnext/utilities/activation.py:106
+msgid "Create Purchase Order"
+msgstr "Criar Pedido de Compra"
+
+#: erpnext/utilities/activation.py:104
+msgid "Create Purchase Orders"
+msgstr "Criar Pedidos de Compra"
+
+#: erpnext/utilities/activation.py:88
+msgid "Create Quotation"
+msgstr "Criar Cotação"
+
+#. Label of the create_receiver_list (Button) field in DocType 'SMS Center'
+#: erpnext/selling/doctype/sms_center/sms_center.json
+msgid "Create Receiver List"
+msgstr "Criar Lista de Destinatarios"
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:44
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.js:92
+msgid "Create Reposting Entries"
+msgstr "Criar Lancamentos de Reprocessamento"
+
+#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.js:58
+msgid "Create Reposting Entry"
+msgstr "Criar Lancamento de Reprocessamento"
+
+#: erpnext/projects/doctype/timesheet/timesheet.js:55
+#: erpnext/projects/doctype/timesheet/timesheet.js:231
+#: erpnext/projects/doctype/timesheet/timesheet.js:235
+msgid "Create Sales Invoice"
+msgstr "Criar Fatura de Vendas"
+
+#: erpnext/utilities/activation.py:97
+msgid "Create Sales Order"
+msgstr "Criar Pedido de Venda"
+
+#: erpnext/utilities/activation.py:96
+msgid "Create Sales Orders to help you plan your work and deliver on-time"
+msgstr "Criar Pedidos de Venda para ajudar a planejar seu trabalho e entregar no prazo"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:428
+msgid "Create Sample Retention Stock Entry"
+msgstr "Criar Entrada de Estoque de Retenção de Amostra"
+
+#: erpnext/stock/dashboard/item_dashboard.js:283
+#: erpnext/stock/doctype/material_request/material_request.js:488
+#: erpnext/stock/doctype/pick_list/pick_list.js:138
+msgid "Create Stock Entry"
+msgstr "Criar Lancamento de Estoque"
+
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:193
+msgid "Create Supplier Quotation"
+msgstr "Criar Cotação de Fornecedor"
+
+#: erpnext/setup/doctype/company/company.js:157
+msgid "Create Tax Template"
+msgstr "Criar Modelo de Imposto"
+
+#: erpnext/utilities/activation.py:128
+msgid "Create Timesheet"
+msgstr "Criar Folha de Horas"
+
+#. Label of the create_user (Button) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+#: erpnext/utilities/activation.py:117
+msgid "Create User"
+msgstr "Criar Usuário"
+
+#. Label of the create_user_permission (Check) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Create User Permission"
+msgstr "Criar Permissao de Usuario"
+
+#: erpnext/utilities/activation.py:113
+msgid "Create Users"
+msgstr "Criar Usuários"
+
+#: erpnext/stock/doctype/item/item.js:872
+msgid "Create Variant"
+msgstr "Criar Variante"
+
+#: erpnext/stock/doctype/item/item.js:686
+#: erpnext/stock/doctype/item/item.js:730
+msgid "Create Variants"
+msgstr "Criar Variantes"
+
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:10
+msgid "Create Workstation"
+msgstr "Criar Estacao de Trabalho"
+
+#: erpnext/stock/doctype/item/item.js:713
+#: erpnext/stock/doctype/item/item.js:865
+msgid "Create a variant with the template image."
+msgstr "Criar uma variante com a imagem do modelo."
+
+#: erpnext/stock/stock_ledger.py:2045
+msgid "Create an incoming stock transaction for the Item."
+msgstr "Criar uma transacao de entrada de estoque para o item."
+
+#: erpnext/utilities/activation.py:86
+msgid "Create customer quotes"
+msgstr "Criar orçamentos de clientes"
+
+#. Label of the create_pr_in_draft_status (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Create in Draft Status"
+msgstr "Criar em Status de Rascunho"
+
+#. Description of the 'Create Missing Party' (Check) field in DocType 'Opening
+#. Invoice Creation Tool'
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.json
+msgid "Create missing customer or supplier."
+msgstr "Criar cliente ou fornecedor ausente."
+
+#: erpnext/public/js/bulk_transaction_processing.js:14
+msgid "Create {0} {1} ?"
+msgstr "Criar {0} {1}?"
+
+#: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.py:250
+msgid "Created {0} scorecards for {1} between:"
+msgstr "Criados {0} scorecards para {1} entre:"
+
+#: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.js:140
+msgid "Creating Accounts..."
+msgstr "Criando Contas..."
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:1535
+msgid "Creating Delivery Note ..."
+msgstr "Criando Nota de Entrega..."
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:677
+msgid "Creating Delivery Schedule..."
+msgstr "Criando Programacao de Entrega..."
+
+#: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:144
+msgid "Creating Dimensions..."
+msgstr "Criando Dimensões..."
+
+#: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.js:92
+msgid "Creating Journal Entries..."
+msgstr "Criando Lancamentos Contabeis..."
+
+#: erpnext/stock/doctype/packing_slip/packing_slip.js:42
+msgid "Creating Packing Slip ..."
+msgstr "Criando Romaneio..."
+
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:60
+msgid "Creating Purchase Invoices ..."
+msgstr "Criando Faturas de Compra..."
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:1684
+msgid "Creating Purchase Order ..."
+msgstr "Criando Pedido de Compra..."
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:728
+#: erpnext/buying/doctype/purchase_order/purchase_order.js:560
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:73
+msgid "Creating Purchase Receipt ..."
+msgstr "Criando Recebimento de Compra..."
+
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:58
+msgid "Creating Sales Invoices ..."
+msgstr "Criando Faturas de Venda..."
+
+#: erpnext/buying/doctype/purchase_order/purchase_order.js:136
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:485
+msgid "Creating Stock Entry"
+msgstr "Criando Lancamento de Estoque"
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:1805
+msgid "Creating Subcontracting Inward Order ..."
+msgstr "Criando Pedido de Entrada de Subcontratacao..."
+
+#: erpnext/buying/doctype/purchase_order/purchase_order.js:575
+msgid "Creating Subcontracting Order ..."
+msgstr "Criando Pedido de Subcontratacao..."
+
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:583
+msgid "Creating Subcontracting Receipt ..."
+msgstr "Criando Recebimento de Subcontratacao..."
+
+#: erpnext/setup/doctype/employee/employee.js:92
+msgid "Creating User..."
+msgstr "Criando Usuario..."
+
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:287
+msgid "Creating {} out of {} {}"
+msgstr "Criando {} de {} {}"
+
+#: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:141
+#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:154
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:46
+msgid "Creation"
+msgstr "Criacao"
+
+#: erpnext/utilities/bulk_transaction.py:210
+msgid "Creation of <b><a href='/app/{0}'>{1}(s)</a></b> successful"
+msgstr "Criacao de <b><a href='/app/{0}'>{1}(s)</a></b> concluida com sucesso"
+
+#: erpnext/utilities/bulk_transaction.py:227
+msgid "Creation of {0} failed.\n"
+"\t\t\t\tCheck <b><a href=\"/app/bulk-transaction-log\">Bulk Transaction Log</a></b>"
+msgstr ""
+"Falha na criacao de {0}.\n"
+"\t\t\t\tVerifique o <b><a href=\"/app/bulk-transaction-log\">Log de Transacao em Massa</a></b>"
+
+#: erpnext/utilities/bulk_transaction.py:218
+msgid "Creation of {0} partially successful.\n"
+"\t\t\t\tCheck <b><a href=\"/app/bulk-transaction-log\">Bulk Transaction Log</a></b>"
+msgstr ""
+"Criacao de {0} parcialmente concluida.\n"
+"\t\t\t\tVerifique o <b><a href=\"/app/bulk-transaction-log\">Log de Transacao em Massa</a></b>"
+
+#. Option for the 'Balance must be' (Select) field in DocType 'Account'
+#. Label of the credit_in_account_currency (Currency) field in DocType 'Journal
+#. Entry Account'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:39
+#: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.html:11
+#: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.py:84
+#: erpnext/accounts/report/cheques_and_deposits_incorrectly_cleared/cheques_and_deposits_incorrectly_cleared.py:146
+#: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.py:451
+#: erpnext/accounts/report/general_ledger/general_ledger.html:93
+#: erpnext/accounts/report/purchase_register/purchase_register.py:241
+#: erpnext/accounts/report/sales_register/sales_register.py:277
+#: erpnext/accounts/report/trial_balance/trial_balance.py:522
+#: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.py:212
+#: erpnext/accounts/report/voucher_wise_balance/voucher_wise_balance.py:34
+msgid "Credit"
+msgstr "Crédito"
+
+#: erpnext/accounts/report/general_ledger/general_ledger.py:722
+msgid "Credit (Transaction)"
+msgstr "Credito (Transacao)"
+
+#: erpnext/accounts/report/general_ledger/general_ledger.py:697
+msgid "Credit ({0})"
+msgstr "Crédito ({0})"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.js:606
+msgid "Credit Account"
+msgstr "Conta de Crédito"
+
+#. Label of the credit (Currency) field in DocType 'Account Closing Balance'
+#. Label of the credit (Currency) field in DocType 'GL Entry'
+#: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.json
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+msgid "Credit Amount"
+msgstr "Valor de Credito"
+
+#. Label of the credit_in_account_currency (Currency) field in DocType 'Account
+#. Closing Balance'
+#. Label of the credit_in_account_currency (Currency) field in DocType 'GL
+#. Entry'
+#: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.json
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+msgid "Credit Amount in Account Currency"
+msgstr "Valor de Credito na Moeda da Conta"
+
+#. Label of the credit_in_reporting_currency (Currency) field in DocType
+#. 'Account Closing Balance'
+#. Label of the credit_in_reporting_currency (Currency) field in DocType 'GL
+#. Entry'
+#: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.json
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+msgid "Credit Amount in Reporting Currency"
+msgstr "Valor de Credito na Moeda de Relatorio"
+
+#. Label of the credit_in_transaction_currency (Currency) field in DocType 'GL
+#. Entry'
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+msgid "Credit Amount in Transaction Currency"
+msgstr "Valor de Credito na Moeda da Transacao"
+
+#: erpnext/selling/report/customer_credit_balance/customer_credit_balance.py:67
+msgid "Credit Balance"
+msgstr "Saldo Credor"
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:258
+msgid "Credit Card"
+msgstr "Cartão de Crédito"
+
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#. Option for the 'Journal Entry Type' (Select) field in DocType 'Journal Entry
+#. Template'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+msgid "Credit Card Entry"
+msgstr "Lancamento de Cartao de Credito"
+
+#. Label of the credit_days (Int) field in DocType 'Payment Schedule'
+#. Label of the credit_days (Int) field in DocType 'Payment Term'
+#. Label of the credit_days (Int) field in DocType 'Payment Terms Template
+#. Detail'
+#: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
+#: erpnext/accounts/doctype/payment_term/payment_term.json
+#: erpnext/accounts/doctype/payment_terms_template_detail/payment_terms_template_detail.json
+msgid "Credit Days"
+msgstr "Dias de Credito"
+
+#. Label of the credit_limits (Table) field in DocType 'Customer'
+#. Label of the credit_limit (Currency) field in DocType 'Customer Credit
+#. Limit'
+#. Label of the credit_limit (Currency) field in DocType 'Company'
+#. Label of the credit_limits (Table) field in DocType 'Customer Group'
+#. Label of the section_credit_limit (Section Break) field in DocType 'Supplier
+#. Group'
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:36
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/selling/doctype/customer_credit_limit/customer_credit_limit.json
+#: erpnext/selling/report/customer_credit_balance/customer_credit_balance.py:65
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/setup/doctype/customer_group/customer_group.json
+#: erpnext/setup/doctype/supplier_group/supplier_group.json
+msgid "Credit Limit"
+msgstr "Limite de Crédito"
+
+#: erpnext/selling/doctype/customer/customer.py:593
+msgid "Credit Limit Crossed"
+msgstr "Limite de Credito Excedido"
+
+#. Label of the accounts_transactions_settings_section (Section Break) field in
+#. DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Credit Limit Settings"
+msgstr "Configuracoes de Limite de Credito"
+
+#. Label of the credit_limit_section (Section Break) field in DocType
+#. 'Customer'
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Credit Limit and Payment Terms"
+msgstr "Limite de Credito e Condicoes de Pagamento"
+
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:50
+msgid "Credit Limit:"
+msgstr "Limite de Credito:"
+
+#. Label of the invoicing_settings_tab (Tab Break) field in DocType 'Accounts
+#. Settings'
+#. Label of the credit_limit_section (Section Break) field in DocType 'Customer
+#. Group'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+#: erpnext/setup/doctype/customer_group/customer_group.json
+msgid "Credit Limits"
+msgstr "Limites de Credito"
+
+#. Label of the credit_months (Int) field in DocType 'Payment Schedule'
+#. Label of the credit_months (Int) field in DocType 'Payment Term'
+#. Label of the credit_months (Int) field in DocType 'Payment Terms Template
+#. Detail'
+#: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
+#: erpnext/accounts/doctype/payment_term/payment_term.json
+#: erpnext/accounts/doctype/payment_terms_template_detail/payment_terms_template_detail.json
+msgid "Credit Months"
+msgstr "Meses de Credito"
+
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#. Option for the 'Journal Entry Type' (Select) field in DocType 'Journal Entry
+#. Template'
+#. Label of the credit_note (Link) field in DocType 'Stock Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:176
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:147
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1216
+#: erpnext/controllers/sales_and_purchase_return.py:391
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:303
+#: erpnext/stock/doctype/delivery_note/delivery_note.js:89
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Credit Note"
+msgstr "Nota de Crédito"
+
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:203
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:162
+msgid "Credit Note Amount"
+msgstr "Valor da Nota de Crédito"
+
+#. Option for the 'Status' (Select) field in DocType 'POS Invoice'
+#. Option for the 'Status' (Select) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:270
+msgid "Credit Note Issued"
+msgstr "Nota de Crédito Emitida"
+
+#. Description of the 'Update Outstanding for Self' (Check) field in DocType
+#. 'Sales Invoice'
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Credit Note will update it's own outstanding amount, even if 'Return Against' is specified."
+msgstr "A nota de credito atualizara seu proprio valor em aberto, mesmo se 'Return Against' estiver especificado."
+
+#: erpnext/stock/doctype/delivery_note/delivery_note.py:677
+msgid "Credit Note {0} has been created automatically"
+msgstr "A nota de crédito {0} foi criada automaticamente"
+
+#. Label of the credit_to (Link) field in DocType 'Purchase Invoice'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:377
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:385
+#: erpnext/controllers/accounts_controller.py:2357
+msgid "Credit To"
+msgstr "Creditar em"
+
+#. Label of the credit (Currency) field in DocType 'Journal Entry Account'
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+msgid "Credit in Company Currency"
+msgstr "Credito na Moeda da Empresa"
+
+#: erpnext/selling/doctype/customer/customer.py:559
+#: erpnext/selling/doctype/customer/customer.py:614
+msgid "Credit limit has been crossed for customer {0} ({1}/{2})"
+msgstr "O limite de credito foi excedido para o cliente {0} ({1}/{2})"
+
+#: erpnext/selling/doctype/customer/customer.py:352
+msgid "Credit limit is already defined for the Company {0}"
+msgstr "O limite de crédito já está definido para a empresa {0}"
+
+#: erpnext/selling/doctype/customer/customer.py:613
+msgid "Credit limit reached for customer {0}"
+msgstr "Limite de crédito atingido para o cliente {0}"
+
+#: erpnext/accounts/report/financial_ratios/financial_ratios.py:213
+msgid "Creditor Turnover Ratio"
+msgstr "Indice de Giro de Credores"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:155
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:257
+msgid "Creditors"
+msgstr "Credores"
+
+#. Label of the criteria (Table) field in DocType 'Supplier Scorecard Period'
+#: erpnext/buying/doctype/supplier_scorecard_period/supplier_scorecard_period.json
+msgid "Criteria"
+msgstr "Criterios"
+
+#. Label of the formula (Small Text) field in DocType 'Supplier Scorecard
+#. Criteria'
+#. Label of the formula (Small Text) field in DocType 'Supplier Scorecard
+#. Scoring Criteria'
+#: erpnext/buying/doctype/supplier_scorecard_criteria/supplier_scorecard_criteria.json
+#: erpnext/buying/doctype/supplier_scorecard_scoring_criteria/supplier_scorecard_scoring_criteria.json
+msgid "Criteria Formula"
+msgstr "Formula dos Criterios"
+
+#. Label of the criteria_name (Data) field in DocType 'Supplier Scorecard
+#. Criteria'
+#. Label of the criteria_name (Link) field in DocType 'Supplier Scorecard
+#. Scoring Criteria'
+#: erpnext/buying/doctype/supplier_scorecard_criteria/supplier_scorecard_criteria.json
+#: erpnext/buying/doctype/supplier_scorecard_scoring_criteria/supplier_scorecard_scoring_criteria.json
+msgid "Criteria Name"
+msgstr "Nome do Criterio"
+
+#. Label of the criteria_setup (Section Break) field in DocType 'Supplier
+#. Scorecard'
+#: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json
+msgid "Criteria Setup"
+msgstr "Configuracao dos Criterios"
+
+#. Label of the weight (Percent) field in DocType 'Supplier Scorecard Criteria'
+#. Label of the weight (Percent) field in DocType 'Supplier Scorecard Scoring
+#. Criteria'
+#: erpnext/buying/doctype/supplier_scorecard_criteria/supplier_scorecard_criteria.json
+#: erpnext/buying/doctype/supplier_scorecard_scoring_criteria/supplier_scorecard_scoring_criteria.json
+msgid "Criteria Weight"
+msgstr "Peso do Criterio"
+
+#: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.py:89
+#: erpnext/buying/doctype/supplier_scorecard_period/supplier_scorecard_period.py:55
+msgid "Criteria weights must add up to 100%"
+msgstr "Os pesos dos criterios devem somar 100%"

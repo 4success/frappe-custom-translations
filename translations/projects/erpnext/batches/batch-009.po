@@ -1,0 +1,857 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.js:71
+msgid "Bisecting Right ..."
+msgstr ""
+
+#. Label of the bisecting_to (Heading) field in DocType 'Bisect Accounting
+#. Statements'
+#: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.json
+msgid "Bisecting To"
+msgstr ""
+
+#. Option for the 'Frequency' (Select) field in DocType 'Process Statement Of
+#. Accounts'
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+msgid "Biweekly"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:285
+msgid "Black"
+msgstr "Preto"
+
+#. Option for the 'Data Source' (Select) field in DocType 'Financial Report
+#. Row'
+#: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
+msgid "Blank Line"
+msgstr ""
+
+#. Label of the blanket_order (Link) field in DocType 'Purchase Order Item'
+#. Name of a DocType
+#. Label of the blanket_order (Link) field in DocType 'Quotation Item'
+#. Label of the blanket_order (Link) field in DocType 'Sales Order Item'
+#. Label of a Link in the Selling Workspace
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Blanket Order"
+msgstr "Pedido de Cobertor"
+
+#. Label of the blanket_order_allowance (Float) field in DocType 'Buying
+#. Settings'
+#. Label of the blanket_order_allowance (Float) field in DocType 'Selling
+#. Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Blanket Order Allowance (%)"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/manufacturing/doctype/blanket_order_item/blanket_order_item.json
+msgid "Blanket Order Item"
+msgstr ""
+
+#. Label of the blanket_order_rate (Currency) field in DocType 'Purchase Order
+#. Item'
+#. Label of the blanket_order_rate (Currency) field in DocType 'Quotation Item'
+#. Label of the blanket_order_rate (Currency) field in DocType 'Sales Order
+#. Item'
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+msgid "Blanket Order Rate"
+msgstr ""
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:109
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:261
+msgid "Block Invoice"
+msgstr "Bloquear Fatura"
+
+#. Label of the on_hold (Check) field in DocType 'Supplier'
+#. Label of the block_supplier_section (Section Break) field in DocType
+#. 'Supplier'
+#: erpnext/buying/doctype/supplier/supplier.json
+msgid "Block Supplier"
+msgstr ""
+
+#. Label of the blog_subscriber (Check) field in DocType 'Lead'
+#: erpnext/crm/doctype/lead/lead.json
+msgid "Blog Subscriber"
+msgstr ""
+
+#. Label of the blood_group (Select) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Blood Group"
+msgstr ""
+
+#. Label of the body (Text Editor) field in DocType 'Process Statement Of
+#. Accounts'
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+msgid "Body"
+msgstr ""
+
+#. Label of the body_text (Text Editor) field in DocType 'Dunning'
+#. Label of the body_text (Text Editor) field in DocType 'Dunning Letter Text'
+#: erpnext/accounts/doctype/dunning/dunning.json
+#: erpnext/accounts/doctype/dunning_letter_text/dunning_letter_text.json
+msgid "Body Text"
+msgstr ""
+
+#. Label of the body_and_closing_text_help (HTML) field in DocType 'Dunning
+#. Letter Text'
+#: erpnext/accounts/doctype/dunning_letter_text/dunning_letter_text.json
+msgid "Body and Closing Text Help"
+msgstr ""
+
+#. Label of the bold_text (Check) field in DocType 'Financial Report Row'
+#: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
+msgid "Bold Text"
+msgstr ""
+
+#. Description of the 'Bold Text' (Check) field in DocType 'Financial Report
+#. Row'
+#: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
+msgid "Bold text for emphasis (totals, major headings)"
+msgstr ""
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:282
+msgid "Book Advance Payments as Liability option is chosen. Paid From account changed from {0} to {1}."
+msgstr ""
+
+#. Label of the book_advance_payments_in_separate_party_account (Check) field
+#. in DocType 'Payment Entry'
+#. Label of the book_advance_payments_in_separate_party_account (Check) field
+#. in DocType 'Company'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/setup/doctype/company/company.json
+msgid "Book Advance Payments in Separate Party Account"
+msgstr ""
+
+#: erpnext/www/book_appointment/index.html:3
+msgid "Book Appointment"
+msgstr "Anotação de Livro"
+
+#. Label of the book_asset_depreciation_entry_automatically (Check) field in
+#. DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Book Asset Depreciation Entry Automatically"
+msgstr ""
+
+#. Label of the book_deferred_entries_based_on (Select) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Book Deferred Entries Based On"
+msgstr ""
+
+#. Label of the book_deferred_entries_via_journal_entry (Check) field in
+#. DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Book Deferred Entries Via Journal Entry"
+msgstr ""
+
+#. Label of the book_tax_discount_loss (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Book Tax Loss on Early Payment Discount"
+msgstr ""
+
+#: erpnext/www/book_appointment/index.html:15
+msgid "Book an appointment"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+#: erpnext/stock/doctype/shipment/shipment_list.js:5
+msgid "Booked"
+msgstr "Reservado"
+
+#. Label of the booked_fixed_asset (Check) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Booked Fixed Asset"
+msgstr ""
+
+#: erpnext/stock/doctype/warehouse/warehouse.py:146
+msgid "Booking stock value across multiple accounts will make it harder to track stock and account value."
+msgstr ""
+
+#: erpnext/accounts/general_ledger.py:811
+msgid "Books have been closed till the period ending on {0}"
+msgstr ""
+
+#. Option for the 'Type of Transaction' (Select) field in DocType 'Inventory
+#. Dimension'
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
+msgid "Both"
+msgstr ""
+
+#: erpnext/setup/doctype/supplier_group/supplier_group.py:57
+msgid "Both Payable Account: {0} and Advance Account: {1} must be of same currency for company: {2}"
+msgstr ""
+
+#: erpnext/setup/doctype/customer_group/customer_group.py:62
+msgid "Both Receivable Account: {0} and Advance Account: {1} must be of same currency for company: {2}"
+msgstr ""
+
+#: erpnext/accounts/doctype/subscription/subscription.py:339
+msgid "Both Trial Period Start Date and Trial Period End Date must be set"
+msgstr "A data de início do período de avaliação e a data de término do período de avaliação devem ser definidas"
+
+#: erpnext/utilities/transaction_base.py:230
+msgid "Both {0} Account: {1} and Advance Account: {2} must be of same currency for company: {3}"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Box"
+msgstr ""
+
+#. Label of the branch (Link) field in DocType 'SMS Center'
+#. Name of a DocType
+#. Label of the branch (Data) field in DocType 'Branch'
+#. Label of the branch (Link) field in DocType 'Employee'
+#. Label of the branch (Link) field in DocType 'Employee Internal Work History'
+#: erpnext/selling/doctype/sms_center/sms_center.json
+#: erpnext/setup/doctype/branch/branch.json
+#: erpnext/setup/doctype/employee/employee.json
+#: erpnext/setup/doctype/employee_internal_work_history/employee_internal_work_history.json
+msgid "Branch"
+msgstr "Filial"
+
+#. Label of the branch_code (Data) field in DocType 'Bank Account'
+#. Label of the branch_code (Data) field in DocType 'Bank Guarantee'
+#. Label of the branch_code (Read Only) field in DocType 'Payment Request'
+#: erpnext/accounts/doctype/bank_account/bank_account.json
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+msgid "Branch Code"
+msgstr ""
+
+#. Label of the brand_defaults (Table) field in DocType 'Brand'
+#: erpnext/setup/doctype/brand/brand.json
+msgid "Brand Defaults"
+msgstr ""
+
+#. Label of the brand (Data) field in DocType 'POS Invoice Item'
+#. Label of the brand (Data) field in DocType 'Sales Invoice Item'
+#. Label of the brand (Link) field in DocType 'Sales Order Item'
+#. Label of the brand (Data) field in DocType 'Brand'
+#. Label of the brand (Link) field in DocType 'Delivery Note Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/setup/doctype/brand/brand.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+msgid "Brand Name"
+msgstr ""
+
+#. Option for the 'Maintenance Type' (Select) field in DocType 'Maintenance
+#. Visit'
+#: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
+msgid "Breakdown"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:10
+msgid "Broadcasting"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:11
+msgid "Brokerage"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.js:165
+msgid "Browse BOM"
+msgstr "Navegar LDM"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Btu (It)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Btu (Mean)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Btu (Th)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Btu/Hour"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Btu/Minutes"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Btu/Seconds"
+msgstr ""
+
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.js:101
+msgid "Bucket Size"
+msgstr ""
+
+#. Label of the budget_settings (Tab Break) field in DocType 'Accounts
+#. Settings'
+#. Name of a DocType
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+#: erpnext/accounts/doctype/budget/budget.json
+#: erpnext/accounts/doctype/cost_center/cost_center.js:45
+#: erpnext/accounts/doctype/cost_center/cost_center_tree.js:65
+#: erpnext/accounts/doctype/cost_center/cost_center_tree.js:73
+#: erpnext/accounts/doctype/cost_center/cost_center_tree.js:81
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:99
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:109
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:380
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Budget"
+msgstr "Orçamento"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/budget_account/budget_account.json
+msgid "Budget Account"
+msgstr "Conta do Orçamento"
+
+#. Label of the budget_against (Select) field in DocType 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.js:80
+msgid "Budget Against"
+msgstr "Orçamento Em"
+
+#. Label of the budget_amount (Currency) field in DocType 'Budget'
+#. Label of the budget_amount (Currency) field in DocType 'Budget Account'
+#: erpnext/accounts/doctype/budget/budget.json
+#: erpnext/accounts/doctype/budget_account/budget_account.json
+msgid "Budget Amount"
+msgstr ""
+
+#: erpnext/accounts/doctype/budget/budget.py:84
+msgid "Budget Amount can not be {0}."
+msgstr ""
+
+#. Label of the budget_detail (Section Break) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Budget Detail"
+msgstr ""
+
+#. Label of the budget_distribution (Table) field in DocType 'Budget'
+#. Name of a DocType
+#: erpnext/accounts/doctype/budget/budget.json
+#: erpnext/accounts/doctype/budget_distribution/budget_distribution.json
+msgid "Budget Distribution"
+msgstr ""
+
+#. Label of the budget_distribution_total (Currency) field in DocType 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+msgid "Budget Distribution Total"
+msgstr ""
+
+#. Label of the budget_end_date (Date) field in DocType 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+msgid "Budget End Date"
+msgstr ""
+
+#: erpnext/accounts/doctype/budget/budget.py:570
+#: erpnext/accounts/doctype/budget/budget.py:572
+#: erpnext/controllers/budget_controller.py:289
+#: erpnext/controllers/budget_controller.py:292
+msgid "Budget Exceeded"
+msgstr ""
+
+#: erpnext/accounts/doctype/budget/budget.py:229
+msgid "Budget Limit Exceeded"
+msgstr ""
+
+#: erpnext/accounts/doctype/cost_center/cost_center_tree.js:61
+msgid "Budget List"
+msgstr "Lista de Orçamentos"
+
+#. Label of the budget_start_date (Date) field in DocType 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+msgid "Budget Start Date"
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/cost_center/cost_center_tree.js:77
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Budget Variance Report"
+msgstr "Relatório de Variação de Orçamento"
+
+#: erpnext/accounts/doctype/budget/budget.py:157
+msgid "Budget cannot be assigned against Group Account {0}"
+msgstr "Orçamento não pode ser atribuído contra a conta de grupo {0}"
+
+#: erpnext/accounts/doctype/budget/budget.py:162
+msgid "Budget cannot be assigned against {0}, as it's not an Income or Expense account"
+msgstr "Orçamento não pode ser atribuído contra {0}, pois não é uma conta de renda ou despesa"
+
+#: erpnext/accounts/doctype/fiscal_year/fiscal_year_dashboard.py:8
+msgid "Budgets"
+msgstr "Orçamentos"
+
+#. Label of the buffer_time (Int) field in DocType 'Item Lead Time'
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+msgid "Buffer Time"
+msgstr ""
+
+#. Option for the 'Data Fetch Method' (Select) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Buffered Cursor"
+msgstr ""
+
+#: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:162
+msgid "Build All?"
+msgstr ""
+
+#: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.js:20
+msgid "Build Tree"
+msgstr ""
+
+#: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:155
+msgid "Buildable Qty"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:61
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:102
+msgid "Buildings"
+msgstr "Edifícios"
+
+#: erpnext/utilities/doctype/rename_tool/rename_tool.js:70
+msgid "Bulk Rename Jobs"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/bulk_transaction/doctype/bulk_transaction_log/bulk_transaction_log.json
+msgid "Bulk Transaction Log"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/bulk_transaction/doctype/bulk_transaction_log_detail/bulk_transaction_log_detail.json
+msgid "Bulk Transaction Log Detail"
+msgstr ""
+
+#. Label of the packed_items (Table) field in DocType 'Quotation'
+#. Label of the bundle_items_section (Section Break) field in DocType
+#. 'Quotation'
+#: erpnext/selling/doctype/quotation/quotation.json
+msgid "Bundle Items"
+msgstr ""
+
+#: erpnext/stock/report/product_bundle_balance/product_bundle_balance.py:95
+msgid "Bundle Qty"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Bushel (UK)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Bushel (US Dry Level)"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/designation.txt:6
+msgid "Business Analyst"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/designation.txt:7
+msgid "Business Development Manager"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Call Log'
+#: erpnext/telephony/doctype/call_log/call_log.json
+msgid "Busy"
+msgstr ""
+
+#: erpnext/stock/doctype/batch/batch_dashboard.py:8
+#: erpnext/stock/doctype/item/item_dashboard.py:22
+msgid "Buy"
+msgstr "Comprar"
+
+#. Description of a DocType
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Buyer of Goods and Services."
+msgstr ""
+
+#. Label of the buying (Check) field in DocType 'Pricing Rule'
+#. Label of the buying (Check) field in DocType 'Promotional Scheme'
+#. Option for the 'Shipping Rule Type' (Select) field in DocType 'Shipping
+#. Rule'
+#. Group in Subscription's connections
+#. Name of a Workspace
+#. Label of a Card Break in the Buying Workspace
+#. Group in Incoterm's connections
+#. Label of the buying (Check) field in DocType 'Terms and Conditions'
+#. Label of the buying (Check) field in DocType 'Item Price'
+#. Label of the buying (Check) field in DocType 'Price List'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
+#: erpnext/accounts/doctype/subscription/subscription.json
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/setup/doctype/incoterm/incoterm.json
+#: erpnext/setup/doctype/terms_and_conditions/terms_and_conditions.json
+#: erpnext/stock/doctype/item_price/item_price.json
+#: erpnext/stock/doctype/price_list/price_list.json
+msgid "Buying"
+msgstr "Compras"
+
+#. Label of the sales_settings (Section Break) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Buying & Selling Settings"
+msgstr ""
+
+#: erpnext/accounts/report/gross_profit/gross_profit.py:357
+msgid "Buying Amount"
+msgstr "Valor de Compra"
+
+#: erpnext/stock/report/item_price_stock/item_price_stock.py:40
+msgid "Buying Price List"
+msgstr "Lista de Preços de Compra"
+
+#: erpnext/stock/report/item_price_stock/item_price_stock.py:46
+msgid "Buying Rate"
+msgstr "Taxa de Compra"
+
+#. Name of a DocType
+#. Label of a Link in the Buying Workspace
+#. Label of a shortcut in the Settings Workspace
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/setup/workspace/settings/settings.json
+msgid "Buying Settings"
+msgstr "Configurações de Compras"
+
+#. Label of the buying_and_selling_tab (Tab Break) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Buying and Selling"
+msgstr ""
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:219
+msgid "Buying must be checked, if Applicable For is selected as {0}"
+msgstr ""
+
+#: erpnext/buying/doctype/buying_settings/buying_settings.js:13
+msgid "By default, the Supplier Name is set as per the Supplier Name entered. If you want Suppliers to be named by a <a href='https://docs.erpnext.com/docs/user/manual/en/setting-up/settings/naming-series' target='_blank'>Naming Series</a> choose the 'Naming Series' option."
+msgstr ""
+
+#. Label of the bypass_credit_limit_check (Check) field in DocType 'Customer
+#. Credit Limit'
+#: erpnext/selling/doctype/customer_credit_limit/customer_credit_limit.json
+msgid "Bypass Credit Limit Check at Sales Order"
+msgstr ""
+
+#: erpnext/selling/report/customer_credit_balance/customer_credit_balance.py:68
+msgid "Bypass credit check at Sales Order"
+msgstr ""
+
+#. Label of the cc_to (Table MultiSelect) field in DocType 'Process Statement
+#. Of Accounts'
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+msgid "CC To"
+msgstr ""
+
+#. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
+#: erpnext/stock/doctype/item_barcode/item_barcode.json
+msgid "CODE-39"
+msgstr ""
+
+#. Name of a report
+#: erpnext/stock/report/cogs_by_item_group/cogs_by_item_group.json
+msgid "COGS By Item Group"
+msgstr ""
+
+#: erpnext/stock/report/cogs_by_item_group/cogs_by_item_group.py:44
+msgid "COGS Debit"
+msgstr ""
+
+#. Name of a Workspace
+#. Label of a Card Break in the Home Workspace
+#: erpnext/crm/workspace/crm/crm.json erpnext/setup/workspace/home/home.json
+msgid "CRM"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/crm/doctype/crm_note/crm_note.json
+msgid "CRM Note"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Link in the CRM Workspace
+#: erpnext/crm/doctype/crm_settings/crm_settings.json
+#: erpnext/crm/workspace/crm/crm.json
+msgid "CRM Settings"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:67
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:117
+msgid "CWIP Account"
+msgstr "Conta do CWIP"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Caballeria"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Cable Length"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Cable Length (UK)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Cable Length (US)"
+msgstr ""
+
+#: erpnext/accounts/report/accounts_payable/accounts_payable.js:62
+#: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.js:28
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:91
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:28
+msgid "Calculate Ageing With"
+msgstr ""
+
+#. Label of the calculate_based_on (Select) field in DocType 'Shipping Rule'
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
+msgid "Calculate Based On"
+msgstr ""
+
+#. Label of the calculate_depreciation (Check) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Calculate Depreciation"
+msgstr ""
+
+#. Label of the calculate_arrival_time (Button) field in DocType 'Delivery
+#. Trip'
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.json
+msgid "Calculate Estimated Arrival Times"
+msgstr ""
+
+#. Label of the editable_bundle_item_rates (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Calculate Product Bundle Price based on Child Items' Rates"
+msgstr ""
+
+#. Description of the 'Hidden Line (Internal Use Only)' (Check) field in
+#. DocType 'Financial Report Row'
+#: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
+msgid "Calculate but don't show on final report"
+msgstr ""
+
+#. Label of the calculate_depr_using_total_days (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Calculate daily depreciation using total days in depreciation period"
+msgstr ""
+
+#. Option for the 'Data Source' (Select) field in DocType 'Financial Report
+#. Row'
+#: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
+msgid "Calculated Amount"
+msgstr ""
+
+#: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.py:53
+msgid "Calculated Bank Statement balance"
+msgstr "Saldo calculado do extrato bancário"
+
+#. Name of a report
+#: erpnext/accounts/report/calculated_discount_mismatch/calculated_discount_mismatch.json
+msgid "Calculated Discount Mismatch"
+msgstr ""
+
+#. Label of the section_break_11 (Section Break) field in DocType 'Supplier
+#. Scorecard Period'
+#: erpnext/buying/doctype/supplier_scorecard_period/supplier_scorecard_period.json
+msgid "Calculations"
+msgstr ""
+
+#. Label of the calendar_event (Link) field in DocType 'Appointment'
+#: erpnext/crm/doctype/appointment/appointment.json
+msgid "Calendar Event"
+msgstr ""
+
+#. Option for the 'Maintenance Type' (Select) field in DocType 'Asset
+#. Maintenance Task'
+#: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
+msgid "Calibration"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Calibre"
+msgstr ""
+
+#: erpnext/telephony/doctype/call_log/call_log.js:8
+msgid "Call Again"
+msgstr ""
+
+#: erpnext/public/js/call_popup/call_popup.js:41
+msgid "Call Connected"
+msgstr "Chamada Conectada"
+
+#. Label of the call_details_section (Section Break) field in DocType 'Call
+#. Log'
+#: erpnext/telephony/doctype/call_log/call_log.json
+msgid "Call Details"
+msgstr ""
+
+#. Description of the 'Duration' (Duration) field in DocType 'Call Log'
+#: erpnext/telephony/doctype/call_log/call_log.json
+msgid "Call Duration in seconds"
+msgstr ""
+
+#: erpnext/public/js/call_popup/call_popup.js:48
+msgid "Call Ended"
+msgstr ""
+
+#. Label of the call_handling_schedule (Table) field in DocType 'Incoming Call
+#. Settings'
+#: erpnext/telephony/doctype/incoming_call_settings/incoming_call_settings.json
+msgid "Call Handling Schedule"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/telephony/doctype/call_log/call_log.json
+msgid "Call Log"
+msgstr "Registro de Chamadas"
+
+#: erpnext/public/js/call_popup/call_popup.js:45
+msgid "Call Missed"
+msgstr "Chamada Perdida"
+
+#. Label of the call_received_by (Link) field in DocType 'Call Log'
+#: erpnext/telephony/doctype/call_log/call_log.json
+msgid "Call Received By"
+msgstr ""
+
+#. Label of the call_receiving_device (Select) field in DocType 'Voice Call
+#. Settings'
+#: erpnext/telephony/doctype/voice_call_settings/voice_call_settings.json
+msgid "Call Receiving Device"
+msgstr ""
+
+#. Label of the call_routing (Select) field in DocType 'Incoming Call Settings'
+#: erpnext/telephony/doctype/incoming_call_settings/incoming_call_settings.json
+msgid "Call Routing"
+msgstr ""
+
+#: erpnext/telephony/doctype/incoming_call_settings/incoming_call_settings.js:58
+#: erpnext/telephony/doctype/incoming_call_settings/incoming_call_settings.py:48
+msgid "Call Schedule Row {0}: To time slot should always be ahead of From time slot."
+msgstr ""
+
+#. Label of the section_break_11 (Section Break) field in DocType 'Call Log'
+#: erpnext/public/js/call_popup/call_popup.js:164
+#: erpnext/telephony/doctype/call_log/call_log.json
+#: erpnext/telephony/doctype/call_log/call_log.py:133
+msgid "Call Summary"
+msgstr "Resumo de Chamadas"
+
+#: erpnext/public/js/call_popup/call_popup.js:186
+msgid "Call Summary Saved"
+msgstr ""
+
+#. Label of the call_type (Data) field in DocType 'Telephony Call Type'
+#: erpnext/telephony/doctype/telephony_call_type/telephony_call_type.json
+msgid "Call Type"
+msgstr ""
+
+#: erpnext/telephony/doctype/call_log/call_log.js:8
+msgid "Callback"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Calorie (Food)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Calorie (It)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Calorie (Mean)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Calorie (Th)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Calorie/Seconds"
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the CRM Workspace
+#: erpnext/crm/report/campaign_efficiency/campaign_efficiency.json
+#: erpnext/crm/workspace/crm/crm.json
+msgid "Campaign Efficiency"
+msgstr "Eficiência da Campanha"
+
+#. Name of a DocType
+#: erpnext/crm/doctype/campaign_email_schedule/campaign_email_schedule.json
+msgid "Campaign Email Schedule"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/campaign_item/campaign_item.json
+msgid "Campaign Item"
+msgstr ""
+
+#. Label of the campaign_name (Data) field in DocType 'Campaign'
+#. Option for the 'Campaign Naming By' (Select) field in DocType 'CRM Settings'
+#: erpnext/crm/doctype/campaign/campaign.json
+#: erpnext/crm/doctype/crm_settings/crm_settings.json
+msgid "Campaign Name"
+msgstr ""
+
+#. Label of the campaign_naming_by (Select) field in DocType 'CRM Settings'
+#: erpnext/crm/doctype/crm_settings/crm_settings.json
+msgid "Campaign Naming By"
+msgstr ""
+
+#. Label of the campaign_schedules_section (Section Break) field in DocType
+#. 'Campaign'
+#. Label of the campaign_schedules (Table) field in DocType 'Campaign'
+#: erpnext/crm/doctype/campaign/campaign.json
+msgid "Campaign Schedules"
+msgstr ""

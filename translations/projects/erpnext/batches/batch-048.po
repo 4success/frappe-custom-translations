@@ -1,0 +1,916 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Label of the service_address (Small Text) field in DocType 'Warranty Claim'
+#: erpnext/support/doctype/warranty_claim/warranty_claim.json
+msgid "Service Address"
+msgstr ""
+
+#. Label of the service_cost_per_qty (Currency) field in DocType
+#. 'Subcontracting Order Item'
+#. Label of the service_cost_per_qty (Currency) field in DocType
+#. 'Subcontracting Receipt Item'
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Service Cost Per Qty"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/support/doctype/service_day/service_day.json
+msgid "Service Day"
+msgstr "Dia do Serviço"
+
+#. Label of the service_end_date (Date) field in DocType 'POS Invoice Item'
+#. Label of the end_date (Date) field in DocType 'Process Deferred Accounting'
+#. Label of the service_end_date (Date) field in DocType 'Purchase Invoice
+#. Item'
+#. Label of the service_end_date (Date) field in DocType 'Sales Invoice Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/process_deferred_accounting/process_deferred_accounting.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+msgid "Service End Date"
+msgstr ""
+
+#. Label of the service_expense_account (Link) field in DocType 'Company'
+#. Label of the service_expense_account (Link) field in DocType 'Subcontracting
+#. Receipt Item'
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Service Expense Account"
+msgstr ""
+
+#. Label of the service_items_total (Currency) field in DocType 'Asset
+#. Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid "Service Expense Total Amount"
+msgstr ""
+
+#. Label of the service_expenses_section (Section Break) field in DocType
+#. 'Asset Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid "Service Expenses"
+msgstr ""
+
+#. Label of the service_item (Link) field in DocType 'Subcontracting BOM'
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
+msgid "Service Item"
+msgstr ""
+
+#. Label of the service_item_qty (Float) field in DocType 'Subcontracting BOM'
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
+msgid "Service Item Qty"
+msgstr ""
+
+#. Description of the 'Conversion Factor' (Float) field in DocType
+#. 'Subcontracting BOM'
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
+msgid "Service Item Qty / Finished Good Qty"
+msgstr ""
+
+#. Label of the service_item_uom (Link) field in DocType 'Subcontracting BOM'
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
+msgid "Service Item UOM"
+msgstr ""
+
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.py:64
+msgid "Service Item {0} is disabled."
+msgstr ""
+
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.py:67
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.py:175
+msgid "Service Item {0} must be a non-stock item."
+msgstr ""
+
+#. Label of the service_items_section (Section Break) field in DocType
+#. 'Subcontracting Inward Order'
+#. Label of the service_items (Table) field in DocType 'Subcontracting Inward
+#. Order'
+#. Label of the service_items_section (Section Break) field in DocType
+#. 'Subcontracting Order'
+#. Label of the service_items (Table) field in DocType 'Subcontracting Order'
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Service Items"
+msgstr ""
+
+#. Label of the service_level_agreement (Link) field in DocType 'Issue'
+#. Name of a DocType
+#. Label of a Card Break in the Support Workspace
+#. Label of a Link in the Support Workspace
+#. Label of a shortcut in the Support Workspace
+#: erpnext/support/doctype/issue/issue.json
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
+#: erpnext/support/workspace/support/support.json
+msgid "Service Level Agreement"
+msgstr "Acordo de Nível de Serviço"
+
+#. Label of the service_level_agreement_creation (Datetime) field in DocType
+#. 'Issue'
+#: erpnext/support/doctype/issue/issue.json
+msgid "Service Level Agreement Creation"
+msgstr ""
+
+#. Label of the service_level_section (Section Break) field in DocType 'Issue'
+#: erpnext/support/doctype/issue/issue.json
+msgid "Service Level Agreement Details"
+msgstr ""
+
+#. Label of the agreement_status (Select) field in DocType 'Issue'
+#: erpnext/support/doctype/issue/issue.json
+msgid "Service Level Agreement Status"
+msgstr ""
+
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.py:176
+msgid "Service Level Agreement for {0} {1} already exists."
+msgstr ""
+
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.py:771
+msgid "Service Level Agreement has been changed to {0}."
+msgstr "O Acordo de Nível de Serviço foi alterado para {0}."
+
+#: erpnext/support/doctype/issue/issue.js:79
+msgid "Service Level Agreement was reset."
+msgstr "O Contrato de Nível de Serviço foi redefinido."
+
+#. Label of the sb_00 (Section Break) field in DocType 'Support Settings'
+#: erpnext/support/doctype/support_settings/support_settings.json
+msgid "Service Level Agreements"
+msgstr ""
+
+#. Label of the service_level (Data) field in DocType 'Service Level Agreement'
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
+msgid "Service Level Name"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/support/doctype/service_level_priority/service_level_priority.json
+msgid "Service Level Priority"
+msgstr "Prioridade de Nível de Serviço"
+
+#. Label of the service_provider (Select) field in DocType 'Currency Exchange
+#. Settings'
+#. Label of the service_provider (Data) field in DocType 'Shipment'
+#: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.json
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Service Provider"
+msgstr ""
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#: erpnext/accounts/doctype/account/account.json
+msgid "Service Received But Not Billed"
+msgstr ""
+
+#. Label of the service_start_date (Date) field in DocType 'POS Invoice Item'
+#. Label of the start_date (Date) field in DocType 'Process Deferred
+#. Accounting'
+#. Label of the service_start_date (Date) field in DocType 'Purchase Invoice
+#. Item'
+#. Label of the service_start_date (Date) field in DocType 'Sales Invoice Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/process_deferred_accounting/process_deferred_accounting.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+msgid "Service Start Date"
+msgstr ""
+
+#. Label of the service_stop_date (Date) field in DocType 'POS Invoice Item'
+#. Label of the service_stop_date (Date) field in DocType 'Purchase Invoice
+#. Item'
+#. Label of the service_stop_date (Date) field in DocType 'Sales Invoice Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+msgid "Service Stop Date"
+msgstr ""
+
+#: erpnext/accounts/deferred_revenue.py:45
+#: erpnext/public/js/controllers/transaction.js:1658
+msgid "Service Stop Date cannot be after Service End Date"
+msgstr "Data de parada de serviço não pode ser após a data de término do serviço"
+
+#: erpnext/accounts/deferred_revenue.py:42
+#: erpnext/public/js/controllers/transaction.js:1655
+msgid "Service Stop Date cannot be before Service Start Date"
+msgstr "A data de parada de serviço não pode ser anterior à data de início do serviço"
+
+#. Label of the service_items (Table) field in DocType 'Asset Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:52
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:204
+msgid "Services"
+msgstr "Serviços"
+
+#. Label of the set_warehouse (Link) field in DocType 'Purchase Invoice'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+msgid "Set Accepted Warehouse"
+msgstr ""
+
+#. Label of the allocate_advances_automatically (Check) field in DocType
+#. 'Purchase Invoice'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+msgid "Set Advances and Allocate (FIFO)"
+msgstr ""
+
+#. Label of the set_basic_rate_manually (Check) field in DocType 'Stock Entry
+#. Detail'
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "Set Basic Rate Manually"
+msgstr ""
+
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:180
+msgid "Set Default Supplier"
+msgstr ""
+
+#. Label of the set_delivery_warehouse (Link) field in DocType 'Subcontracting
+#. Inward Order'
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
+msgid "Set Delivery Warehouse"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/job_card/job_card.js:404
+#: erpnext/manufacturing/doctype/job_card/job_card.js:473
+msgid "Set Finished Good Quantity"
+msgstr ""
+
+#. Label of the set_from_warehouse (Link) field in DocType 'Purchase Invoice'
+#. Label of the set_from_warehouse (Link) field in DocType 'Purchase Order'
+#. Label of the set_from_warehouse (Link) field in DocType 'Purchase Receipt'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Set From Warehouse"
+msgstr ""
+
+#. Label of the set_grand_total_to_default_mop (Check) field in DocType 'POS
+#. Profile'
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+msgid "Set Grand Total to Default Payment Method"
+msgstr ""
+
+#. Description of the 'Territory Targets' (Section Break) field in DocType
+#. 'Territory'
+#: erpnext/setup/doctype/territory/territory.json
+msgid "Set Item Group-wise budgets on this Territory. You can also include seasonality by setting the Distribution."
+msgstr ""
+
+#. Label of the set_landed_cost_based_on_purchase_invoice_rate (Check) field in
+#. DocType 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Set Landed Cost Based on Purchase Invoice Rate"
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:1163
+msgid "Set Loyalty Program"
+msgstr ""
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:305
+msgid "Set New Release Date"
+msgstr "Definir Nova Data de Lançamento"
+
+#. Label of the set_op_cost_and_scrap_from_sub_assemblies (Check) field in
+#. DocType 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Set Operating Cost / Scrap Items From Sub-assemblies"
+msgstr ""
+
+#. Label of the set_cost_based_on_bom_qty (Check) field in DocType 'BOM
+#. Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Set Operating Cost Based On BOM Quantity"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:90
+msgid "Set Parent Row No in Items Table"
+msgstr ""
+
+#. Label of the set_posting_date (Check) field in DocType 'POS Opening Entry'
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.json
+msgid "Set Posting Date"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.js:974
+msgid "Set Process Loss Item Quantity"
+msgstr ""
+
+#: erpnext/projects/doctype/project/project.js:149
+#: erpnext/projects/doctype/project/project.js:157
+#: erpnext/projects/doctype/project/project.js:171
+msgid "Set Project Status"
+msgstr ""
+
+#: erpnext/projects/doctype/project/project.js:194
+msgid "Set Project and all Tasks to status {0}?"
+msgstr "Definir projeto e todas as tarefas para status {0}?"
+
+#. Label of the set_reserve_warehouse (Link) field in DocType 'Purchase Order'
+#. Label of the set_reserve_warehouse (Link) field in DocType 'Subcontracting
+#. Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Set Reserve Warehouse"
+msgstr ""
+
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.py:82
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.py:90
+msgid "Set Response Time for Priority {0} in row {1}."
+msgstr ""
+
+#. Label of the set_serial_and_batch_bundle_naming_based_on_naming_series
+#. (Check) field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Set Serial and Batch Bundle Naming Based on Naming Series"
+msgstr ""
+
+#. Label of the set_warehouse (Link) field in DocType 'Sales Order'
+#. Label of the set_warehouse (Link) field in DocType 'Delivery Note'
+#. Label of the set_from_warehouse (Link) field in DocType 'Material Request'
+#: erpnext/public/js/utils/sales_common.js:545
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/material_request/material_request.json
+msgid "Set Source Warehouse"
+msgstr ""
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:1594
+msgid "Set Supplier"
+msgstr ""
+
+#. Label of the set_target_warehouse (Link) field in DocType 'Sales Invoice'
+#. Label of the set_warehouse (Link) field in DocType 'Purchase Order'
+#. Label of the set_target_warehouse (Link) field in DocType 'Delivery Note'
+#. Label of the set_warehouse (Link) field in DocType 'Material Request'
+#. Label of the set_warehouse (Link) field in DocType 'Subcontracting Order'
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/public/js/utils/sales_common.js:542
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/material_request/material_request.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Set Target Warehouse"
+msgstr ""
+
+#. Label of the set_rate_based_on_warehouse (Check) field in DocType 'BOM
+#. Creator'
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+msgid "Set Valuation Rate Based on Source Warehouse"
+msgstr ""
+
+#. Label of the set_valuation_rate_for_rejected_materials (Check) field in
+#. DocType 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Set Valuation Rate for Rejected Materials"
+msgstr ""
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:256
+msgid "Set Warehouse"
+msgstr ""
+
+#: erpnext/crm/doctype/opportunity/opportunity_list.js:17
+#: erpnext/support/doctype/issue/issue_list.js:12
+msgid "Set as Closed"
+msgstr "Definir Como Fechado"
+
+#: erpnext/projects/doctype/task/task_list.js:20
+msgid "Set as Completed"
+msgstr "Definir Como Concluído"
+
+#: erpnext/public/js/utils/sales_common.js:569
+#: erpnext/selling/doctype/quotation/quotation.js:136
+msgid "Set as Lost"
+msgstr "Definir Como Perdido"
+
+#: erpnext/crm/doctype/opportunity/opportunity_list.js:13
+#: erpnext/projects/doctype/task/task_list.js:16
+#: erpnext/support/doctype/issue/issue_list.js:8
+msgid "Set as Open"
+msgstr "Definir Como Aberto"
+
+#. Label of the set_by_item_tax_template (Check) field in DocType 'Advance
+#. Taxes and Charges'
+#. Label of the set_by_item_tax_template (Check) field in DocType 'Purchase
+#. Taxes and Charges'
+#. Label of the set_by_item_tax_template (Check) field in DocType 'Sales Taxes
+#. and Charges'
+#: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
+#: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
+#: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
+msgid "Set by Item Tax Template"
+msgstr ""
+
+#: erpnext/setup/doctype/company/company.py:538
+msgid "Set default inventory account for perpetual inventory"
+msgstr "Defina a conta de inventário padrão para o inventário perpétuo"
+
+#: erpnext/setup/doctype/company/company.py:564
+msgid "Set default {0} account for non stock items"
+msgstr ""
+
+#. Description of the 'Fetch Value From' (Select) field in DocType 'Inventory
+#. Dimension'
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
+msgid "Set fieldname from which you want to fetch the data from the parent form."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.js:964
+msgid "Set quantity of process loss item:"
+msgstr ""
+
+#. Label of the set_rate_of_sub_assembly_item_based_on_bom (Check) field in
+#. DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Set rate of sub-assembly item based on BOM"
+msgstr ""
+
+#. Description of the 'Sales Person Targets' (Section Break) field in DocType
+#. 'Sales Person'
+#: erpnext/setup/doctype/sales_person/sales_person.json
+msgid "Set targets Item Group-wise for this Sales Person."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1178
+msgid "Set the Planned Start Date (an Estimated Date at which you want the Production to begin)"
+msgstr ""
+
+#. Description of the 'Manual Inspection' (Check) field in DocType 'Quality
+#. Inspection Reading'
+#: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
+msgid "Set the status manually."
+msgstr ""
+
+#: erpnext/regional/italy/setup.py:231
+msgid "Set this if the customer is a Public Administration company."
+msgstr "Defina isto se o cliente for uma empresa da Administração Pública."
+
+#: erpnext/assets/doctype/asset/asset.py:878
+msgid "Set {0} in asset category {1} for company {2}"
+msgstr ""
+
+#: erpnext/assets/doctype/asset/asset.py:1211
+msgid "Set {0} in asset category {1} or company {2}"
+msgstr "Defina {0} na categoria de recurso {1} ou na empresa {2}"
+
+#: erpnext/assets/doctype/asset/asset.py:1208
+msgid "Set {0} in company {1}"
+msgstr "Defina {0} na empresa {1}"
+
+#. Description of the 'Accepted Warehouse' (Link) field in DocType
+#. 'Subcontracting Receipt'
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Sets 'Accepted Warehouse' in each row of the Items table."
+msgstr ""
+
+#. Description of the 'Rejected Warehouse' (Link) field in DocType
+#. 'Subcontracting Receipt'
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Sets 'Rejected Warehouse' in each row of the Items table."
+msgstr ""
+
+#. Description of the 'Set Reserve Warehouse' (Link) field in DocType
+#. 'Subcontracting Order'
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Sets 'Reserve Warehouse' in each row of the Supplied Items table."
+msgstr ""
+
+#. Description of the 'Default Source Warehouse' (Link) field in DocType 'Stock
+#. Entry'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Sets 'Source Warehouse' in each row of the items table."
+msgstr ""
+
+#. Description of the 'Default Target Warehouse' (Link) field in DocType 'Stock
+#. Entry'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Sets 'Target Warehouse' in each row of the items table."
+msgstr ""
+
+#. Description of the 'Set Target Warehouse' (Link) field in DocType
+#. 'Subcontracting Order'
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Sets 'Warehouse' in each row of the Items table."
+msgstr ""
+
+#. Description of the 'Account Type' (Select) field in DocType 'Account'
+#: erpnext/accounts/doctype/account/account.json
+msgid "Setting Account Type helps in selecting this Account in transactions."
+msgstr ""
+
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:129
+msgid "Setting Events to {0}, since the Employee attached to the below Sales Persons does not have a User ID{1}"
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:95
+msgid "Setting Item Locations..."
+msgstr ""
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:34
+msgid "Setting defaults"
+msgstr "Configuração de padrões"
+
+#. Description of the 'Is Company Account' (Check) field in DocType 'Bank
+#. Account'
+#: erpnext/accounts/doctype/bank_account/bank_account.json
+msgid "Setting the account as a Company Account is necessary for Bank Reconciliation"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:29
+msgid "Setting up company"
+msgstr "Criação de empresa"
+
+#: erpnext/manufacturing/doctype/bom/bom.py:1127
+#: erpnext/manufacturing/doctype/work_order/work_order.py:1445
+msgid "Setting {0} is required"
+msgstr ""
+
+#. Description of a DocType
+#: erpnext/crm/doctype/crm_settings/crm_settings.json
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Settings for Selling Module"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Bank Transaction'
+#. Option for the 'Status' (Select) field in DocType 'Invoice Discounting'
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.json
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting_list.js:11
+msgid "Settled"
+msgstr "Liquidado"
+
+#: erpnext/public/js/setup_wizard.js:25
+msgid "Setup your organization"
+msgstr ""
+
+#. Name of a DocType
+#. Label of the section_break_3 (Section Break) field in DocType 'Shareholder'
+#. Label of the share_balance (Table) field in DocType 'Shareholder'
+#. Name of a report
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/share_balance/share_balance.json
+#: erpnext/accounts/doctype/shareholder/shareholder.js:21
+#: erpnext/accounts/doctype/shareholder/shareholder.json
+#: erpnext/accounts/report/share_balance/share_balance.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Share Balance"
+msgstr "Balanço de Ações"
+
+#. Name of a report
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/shareholder/shareholder.js:27
+#: erpnext/accounts/report/share_ledger/share_ledger.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Share Ledger"
+msgstr ""
+
+#. Label of a Card Break in the Accounting Workspace
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Share Management"
+msgstr "Gerenciamento de Ações"
+
+#. Name of a DocType
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/share_transfer/share_transfer.json
+#: erpnext/accounts/report/share_ledger/share_ledger.py:59
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Share Transfer"
+msgstr "Transferência de Ações"
+
+#. Label of the share_type (Link) field in DocType 'Share Balance'
+#. Label of the share_type (Link) field in DocType 'Share Transfer'
+#. Name of a DocType
+#: erpnext/accounts/doctype/share_balance/share_balance.json
+#: erpnext/accounts/doctype/share_transfer/share_transfer.json
+#: erpnext/accounts/doctype/share_type/share_type.json
+#: erpnext/accounts/report/share_balance/share_balance.py:58
+#: erpnext/accounts/report/share_ledger/share_ledger.py:54
+msgid "Share Type"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/shareholder/shareholder.json
+#: erpnext/accounts/report/share_balance/share_balance.js:16
+#: erpnext/accounts/report/share_balance/share_balance.py:57
+#: erpnext/accounts/report/share_ledger/share_ledger.js:16
+#: erpnext/accounts/report/share_ledger/share_ledger.py:51
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Shareholder"
+msgstr "Acionista"
+
+#. Label of the shelf_life_in_days (Int) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Shelf Life In Days"
+msgstr ""
+
+#: erpnext/stock/doctype/batch/batch.py:215
+msgid "Shelf Life in Days"
+msgstr ""
+
+#. Label of the shift (Link) field in DocType 'Depreciation Schedule'
+#: erpnext/assets/doctype/asset/asset.js:313
+#: erpnext/assets/doctype/depreciation_schedule/depreciation_schedule.json
+msgid "Shift"
+msgstr ""
+
+#. Label of the shift_factor (Float) field in DocType 'Asset Shift Factor'
+#: erpnext/assets/doctype/asset_shift_factor/asset_shift_factor.json
+msgid "Shift Factor"
+msgstr ""
+
+#. Label of the shift_name (Data) field in DocType 'Asset Shift Factor'
+#: erpnext/assets/doctype/asset_shift_factor/asset_shift_factor.json
+msgid "Shift Name"
+msgstr ""
+
+#. Label of the shift_time_in_hours (Int) field in DocType 'Item Lead Time'
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+msgid "Shift Time (In Hours)"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/stock/doctype/delivery_note/delivery_note.js:246
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Shipment"
+msgstr ""
+
+#. Label of the shipment_amount (Currency) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Shipment Amount"
+msgstr ""
+
+#. Label of the shipment_delivery_note (Table) field in DocType 'Shipment'
+#. Name of a DocType
+#: erpnext/stock/doctype/shipment/shipment.json
+#: erpnext/stock/doctype/shipment_delivery_note/shipment_delivery_note.json
+msgid "Shipment Delivery Note"
+msgstr ""
+
+#. Label of the shipment_id (Data) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Shipment ID"
+msgstr ""
+
+#. Label of the shipment_information_section (Section Break) field in DocType
+#. 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Shipment Information"
+msgstr ""
+
+#. Label of the shipment_parcel (Table) field in DocType 'Shipment'
+#. Name of a DocType
+#: erpnext/stock/doctype/shipment/shipment.json
+#: erpnext/stock/doctype/shipment_parcel/shipment_parcel.json
+msgid "Shipment Parcel"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/stock/doctype/shipment_parcel_template/shipment_parcel_template.json
+msgid "Shipment Parcel Template"
+msgstr ""
+
+#. Label of the shipment_type (Select) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Shipment Type"
+msgstr ""
+
+#. Label of the shipment_details_section (Section Break) field in DocType
+#. 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Shipment details"
+msgstr ""
+
+#: erpnext/stock/doctype/delivery_note/delivery_note.py:793
+msgid "Shipments"
+msgstr "Entregas"
+
+#. Label of the account (Link) field in DocType 'Shipping Rule'
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
+msgid "Shipping Account"
+msgstr ""
+
+#. Label of the shipping_address_display (Text Editor) field in DocType
+#. 'Purchase Order'
+#. Label of the shipping_address_display (Text Editor) field in DocType
+#. 'Supplier Quotation'
+#. Label of the shipping_address_display (Text Editor) field in DocType
+#. 'Subcontracting Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Shipping Address Details"
+msgstr ""
+
+#. Label of the shipping_address_name (Link) field in DocType 'POS Invoice'
+#. Label of the shipping_address_name (Link) field in DocType 'Sales Invoice'
+#. Label of the shipping_address_name (Link) field in DocType 'Sales Order'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+msgid "Shipping Address Name"
+msgstr ""
+
+#. Label of the shipping_address (Link) field in DocType 'Purchase Receipt'
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Shipping Address Template"
+msgstr ""
+
+#: erpnext/controllers/accounts_controller.py:575
+msgid "Shipping Address does not belong to the {0}"
+msgstr ""
+
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:129
+msgid "Shipping Address does not have country, which is required for this Shipping Rule"
+msgstr "O endereço de envio não tem país, o que é necessário para esta regra de envio"
+
+#. Label of the shipping_amount (Currency) field in DocType 'Shipping Rule'
+#. Label of the shipping_amount (Currency) field in DocType 'Shipping Rule
+#. Condition'
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
+#: erpnext/accounts/doctype/shipping_rule_condition/shipping_rule_condition.json
+msgid "Shipping Amount"
+msgstr ""
+
+#. Label of the shipping_city (Data) field in DocType 'Tax Rule'
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+msgid "Shipping City"
+msgstr ""
+
+#. Label of the shipping_country (Link) field in DocType 'Tax Rule'
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+msgid "Shipping Country"
+msgstr ""
+
+#. Label of the shipping_county (Data) field in DocType 'Tax Rule'
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+msgid "Shipping County"
+msgstr ""
+
+#. Label of the shipping_rule (Link) field in DocType 'POS Invoice'
+#. Label of the shipping_rule (Link) field in DocType 'Purchase Invoice'
+#. Label of the shipping_rule (Link) field in DocType 'Sales Invoice'
+#. Name of a DocType
+#. Label of the shipping_rule (Link) field in DocType 'Purchase Order'
+#. Label of the shipping_rule (Link) field in DocType 'Supplier Quotation'
+#. Label of the shipping_rule (Link) field in DocType 'Quotation'
+#. Label of the shipping_rule (Link) field in DocType 'Sales Order'
+#. Label of a Link in the Selling Workspace
+#. Label of the shipping_rule (Link) field in DocType 'Delivery Note'
+#. Label of the shipping_rule (Link) field in DocType 'Purchase Receipt'
+#. Label of a Link in the Stock Workspace
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/selling/workspace/selling/selling.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Shipping Rule"
+msgstr "Regra de Envio"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/shipping_rule_condition/shipping_rule_condition.json
+msgid "Shipping Rule Condition"
+msgstr "Regra Condições de Envio"
+
+#. Label of the rule_conditions_section (Section Break) field in DocType
+#. 'Shipping Rule'
+#. Label of the conditions (Table) field in DocType 'Shipping Rule'
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
+msgid "Shipping Rule Conditions"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/shipping_rule_country/shipping_rule_country.json
+msgid "Shipping Rule Country"
+msgstr "Regra Envio País"
+
+#. Label of the label (Data) field in DocType 'Shipping Rule'
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
+msgid "Shipping Rule Label"
+msgstr ""
+
+#. Label of the shipping_rule_type (Select) field in DocType 'Shipping Rule'
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
+msgid "Shipping Rule Type"
+msgstr ""
+
+#. Label of the shipping_state (Data) field in DocType 'Tax Rule'
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+msgid "Shipping State"
+msgstr ""
+
+#. Label of the shipping_zipcode (Data) field in DocType 'Tax Rule'
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+msgid "Shipping Zipcode"
+msgstr ""
+
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:133
+msgid "Shipping rule not applicable for country {0} in Shipping Address"
+msgstr "A regra de envio não se aplica ao país {0} no endereço de entrega"
+
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:152
+msgid "Shipping rule only applicable for Buying"
+msgstr "Regra de envio aplicável apenas para compra"
+
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:147
+msgid "Shipping rule only applicable for Selling"
+msgstr "Regra de envio aplicável apenas para venda"
+
+#. Option for the 'Order Type' (Select) field in DocType 'Quotation'
+#. Label of the shopping_cart_section (Section Break) field in DocType
+#. 'Quotation Item'
+#. Option for the 'Order Type' (Select) field in DocType 'Sales Order'
+#. Label of the shopping_cart_section (Section Break) field in DocType 'Sales
+#. Order Item'
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+msgid "Shopping Cart"
+msgstr ""
+
+#. Label of the short_name (Data) field in DocType 'Manufacturer'
+#: erpnext/stock/doctype/manufacturer/manufacturer.json
+msgid "Short Name"
+msgstr "Nome Curto"
+
+#. Label of the short_term_loan (Link) field in DocType 'Invoice Discounting'
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.json
+msgid "Short Term Loan Account"
+msgstr ""
+
+#. Description of the 'Bio / Cover Letter' (Text Editor) field in DocType
+#. 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Short biography for website and other publications."
+msgstr ""
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:35
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:55
+msgid "Short-term Investments"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:175
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:296
+msgid "Short-term Provisions"
+msgstr ""
+
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:225
+msgid "Shortage Qty"
+msgstr ""
+
+#: erpnext/selling/report/sales_analytics/sales_analytics.js:103
+msgid "Show Aggregate Value from Subsidiary Companies"
+msgstr ""
+
+#. Label of the show_balance_in_coa (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Show Balances in Chart Of Accounts"
+msgstr ""
+
+#. Label of the show_barcode_field (Check) field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Show Barcode Field in Stock Transactions"
+msgstr ""
+
+#: erpnext/accounts/report/general_ledger/general_ledger.js:192
+msgid "Show Cancelled Entries"
+msgstr "Mostrar Entradas Canceladas"
+
+#: erpnext/templates/pages/projects.js:61
+msgid "Show Completed"
+msgstr "Mostrar Concluído"
+
+#: erpnext/accounts/report/general_ledger/general_ledger.js:202
+msgid "Show Credit / Debit in Company Currency"
+msgstr ""
+
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.js:106
+msgid "Show Cumulative Amount"
+msgstr "Mostrar Montante Cumulativo"
+
+#: erpnext/stock/report/stock_balance/stock_balance.js:137
+msgid "Show Dimension Wise Stock"
+msgstr ""

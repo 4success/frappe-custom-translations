@@ -1,0 +1,1195 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Label of the target_asset (Link) field in DocType 'Asset Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid "Target Asset"
+msgstr ""
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:226
+msgid "Target Asset {0} cannot be cancelled"
+msgstr ""
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:224
+msgid "Target Asset {0} cannot be submitted"
+msgstr ""
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:220
+msgid "Target Asset {0} cannot be {1}"
+msgstr ""
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:230
+msgid "Target Asset {0} does not belong to company {1}"
+msgstr ""
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:209
+msgid "Target Asset {0} needs to be composite asset"
+msgstr ""
+
+#. Label of the target_batch_no (Link) field in DocType 'Asset Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid "Target Batch No"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/setup/doctype/target_detail/target_detail.json
+msgid "Target Detail"
+msgstr "Detalhe da Meta"
+
+#: erpnext/accounts/doctype/fiscal_year/fiscal_year_dashboard.py:11
+#: erpnext/accounts/doctype/monthly_distribution/monthly_distribution_dashboard.py:13
+msgid "Target Details"
+msgstr "Detalhes do Alvo"
+
+#. Label of the distribution_id (Link) field in DocType 'Target Detail'
+#: erpnext/setup/doctype/target_detail/target_detail.json
+msgid "Target Distribution"
+msgstr ""
+
+#. Label of the target_exchange_rate (Float) field in DocType 'Payment Entry'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+msgid "Target Exchange Rate"
+msgstr ""
+
+#. Label of the target_fieldname (Data) field in DocType 'Inventory Dimension'
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
+msgid "Target Fieldname (Stock Ledger Entry)"
+msgstr ""
+
+#. Label of the target_fixed_asset_account (Link) field in DocType 'Asset
+#. Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid "Target Fixed Asset Account"
+msgstr ""
+
+#. Label of the target_has_batch_no (Check) field in DocType 'Asset
+#. Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid "Target Has Batch No"
+msgstr ""
+
+#. Label of the target_has_serial_no (Check) field in DocType 'Asset
+#. Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid "Target Has Serial No"
+msgstr ""
+
+#. Label of the target_incoming_rate (Currency) field in DocType 'Asset
+#. Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid "Target Incoming Rate"
+msgstr ""
+
+#. Label of the target_is_fixed_asset (Check) field in DocType 'Asset
+#. Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid "Target Is Fixed Asset"
+msgstr ""
+
+#. Label of the target_item_code (Link) field in DocType 'Asset Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid "Target Item Code"
+msgstr ""
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:191
+msgid "Target Item {0} must be a Fixed Asset item"
+msgstr ""
+
+#. Label of the target_location (Link) field in DocType 'Asset Movement Item'
+#: erpnext/assets/doctype/asset_movement_item/asset_movement_item.json
+msgid "Target Location"
+msgstr ""
+
+#: erpnext/assets/doctype/asset_movement/asset_movement.py:70
+msgid "Target Location is required for transferring Asset {0}"
+msgstr ""
+
+#: erpnext/assets/doctype/asset_movement/asset_movement.py:76
+msgid "Target Location is required while receiving Asset {0}"
+msgstr ""
+
+#: erpnext/selling/report/sales_partner_target_variance_based_on_item_group/sales_partner_target_variance_based_on_item_group.js:41
+#: erpnext/selling/report/sales_person_target_variance_based_on_item_group/sales_person_target_variance_based_on_item_group.js:41
+#: erpnext/selling/report/territory_target_variance_based_on_item_group/territory_target_variance_based_on_item_group.js:41
+msgid "Target On"
+msgstr "Meta Em"
+
+#. Label of the target_qty (Float) field in DocType 'Asset Capitalization'
+#. Label of the target_qty (Float) field in DocType 'Target Detail'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+#: erpnext/setup/doctype/target_detail/target_detail.json
+msgid "Target Qty"
+msgstr ""
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:196
+msgid "Target Qty must be a positive number"
+msgstr ""
+
+#. Label of the target_serial_no (Small Text) field in DocType 'Asset
+#. Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid "Target Serial No"
+msgstr ""
+
+#. Label of the target_warehouse (Link) field in DocType 'Sales Invoice Item'
+#. Label of the warehouse (Link) field in DocType 'Purchase Order Item'
+#. Label of the target_warehouse (Link) field in DocType 'Job Card'
+#. Label of the fg_warehouse (Link) field in DocType 'Production Plan Sub
+#. Assembly Item'
+#. Label of the fg_warehouse (Link) field in DocType 'Work Order'
+#. Label of the target_warehouse (Link) field in DocType 'Delivery Note Item'
+#. Label of the warehouse (Link) field in DocType 'Material Request Item'
+#. Label of the t_warehouse (Link) field in DocType 'Stock Entry Detail'
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/stock/dashboard/item_dashboard.js:234
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:687
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "Target Warehouse"
+msgstr "Armazém de Destino"
+
+#. Label of the target_address_display (Text Editor) field in DocType 'Stock
+#. Entry'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Target Warehouse Address"
+msgstr ""
+
+#. Label of the target_warehouse_address (Link) field in DocType 'Stock Entry'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Target Warehouse Address Link"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:237
+msgid "Target Warehouse Reservation Error"
+msgstr ""
+
+#: erpnext/controllers/subcontracting_inward_controller.py:230
+msgid "Target Warehouse for Finished Good must be same as Finished Good Warehouse {1} in Work Order {2} linked to the Subcontracting Inward Order."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:737
+msgid "Target Warehouse is required before Submit"
+msgstr ""
+
+#: erpnext/controllers/selling_controller.py:865
+msgid "Target Warehouse is set for some items but the customer is not an internal customer."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:298
+msgid "Target Warehouse {0} must be same as Delivery Warehouse {1} in the Subcontracting Inward Order Item."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:753
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:760
+msgid "Target warehouse is mandatory for row {0}"
+msgstr ""
+
+#. Label of the targets (Table) field in DocType 'Sales Partner'
+#. Label of the targets (Table) field in DocType 'Sales Person'
+#. Label of the targets (Table) field in DocType 'Territory'
+#: erpnext/setup/doctype/sales_partner/sales_partner.json
+#: erpnext/setup/doctype/sales_person/sales_person.json
+#: erpnext/setup/doctype/territory/territory.json
+msgid "Targets"
+msgstr ""
+
+#. Label of the tariff_number (Data) field in DocType 'Customs Tariff Number'
+#: erpnext/stock/doctype/customs_tariff_number/customs_tariff_number.json
+msgid "Tariff Number"
+msgstr ""
+
+#. Label of the task_assignee_email (Data) field in DocType 'Asset Maintenance
+#. Log'
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
+msgid "Task Assignee Email"
+msgstr ""
+
+#. Option for the '% Complete Method' (Select) field in DocType 'Project'
+#: erpnext/projects/doctype/project/project.json
+msgid "Task Completion"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/projects/doctype/task_depends_on/task_depends_on.json
+msgid "Task Depends On"
+msgstr "Tarefa Depende De"
+
+#. Label of the description (Text Editor) field in DocType 'Task'
+#: erpnext/projects/doctype/task/task.json
+msgid "Task Description"
+msgstr ""
+
+#. Label of the task_name (Data) field in DocType 'Asset Maintenance Log'
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
+msgid "Task Name"
+msgstr ""
+
+#. Option for the '% Complete Method' (Select) field in DocType 'Project'
+#: erpnext/projects/doctype/project/project.json
+msgid "Task Progress"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/projects/doctype/task_type/task_type.json
+msgid "Task Type"
+msgstr ""
+
+#. Option for the '% Complete Method' (Select) field in DocType 'Project'
+#: erpnext/projects/doctype/project/project.json
+msgid "Task Weight"
+msgstr ""
+
+#: erpnext/projects/doctype/project_template/project_template.py:41
+msgid "Task {0} depends on Task {1}. Please add Task {1} to the Tasks list."
+msgstr ""
+
+#: erpnext/projects/report/project_summary/project_summary.py:68
+msgid "Tasks Completed"
+msgstr "Tarefas Concluídas"
+
+#: erpnext/projects/report/project_summary/project_summary.py:72
+msgid "Tasks Overdue"
+msgstr "Tarefas Em Atraso"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#. Label of the tax_type (Link) field in DocType 'Item Tax Template Detail'
+#. Label of the tax_tab (Tab Break) field in DocType 'Supplier'
+#. Label of the tax_tab (Tab Break) field in DocType 'Customer'
+#. Label of the item_tax_section_break (Tab Break) field in DocType 'Item'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/item_tax_template_detail/item_tax_template_detail.json
+#: erpnext/accounts/report/account_balance/account_balance.js:60
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/stock/doctype/item/item.json
+msgid "Tax"
+msgstr "Imposto"
+
+#. Label of the tax_account (Link) field in DocType 'Import Supplier Invoice'
+#: erpnext/regional/doctype/import_supplier_invoice/import_supplier_invoice.json
+msgid "Tax Account"
+msgstr ""
+
+#. Label of the amount (Currency) field in DocType 'Item Wise Tax Detail'
+#: erpnext/accounts/doctype/item_wise_tax_detail/item_wise_tax_detail.json
+#: erpnext/accounts/report/tds_computation_summary/tds_computation_summary.py:137
+msgid "Tax Amount"
+msgstr ""
+
+#. Label of the tax_amount_after_discount_amount (Currency) field in DocType
+#. 'Purchase Taxes and Charges'
+#. Label of the base_tax_amount_after_discount_amount (Currency) field in
+#. DocType 'Purchase Taxes and Charges'
+#. Label of the tax_amount_after_discount_amount (Currency) field in DocType
+#. 'Sales Taxes and Charges'
+#: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
+#: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
+msgid "Tax Amount After Discount Amount"
+msgstr ""
+
+#. Label of the base_tax_amount_after_discount_amount (Currency) field in
+#. DocType 'Sales Taxes and Charges'
+#: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
+msgid "Tax Amount After Discount Amount (Company Currency)"
+msgstr ""
+
+#. Description of the 'Round Tax Amount Row-wise' (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Tax Amount will be rounded on a row(items) level"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:41
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:69
+#: erpnext/setup/setup_wizard/operations/taxes_setup.py:256
+msgid "Tax Assets"
+msgstr "Ativo Fiscal"
+
+#. Label of the sec_tax_breakup (Section Break) field in DocType 'POS Invoice'
+#. Label of the sec_tax_breakup (Section Break) field in DocType 'Purchase
+#. Invoice'
+#. Label of the sec_tax_breakup (Section Break) field in DocType 'Sales
+#. Invoice'
+#. Label of the sec_tax_breakup (Section Break) field in DocType 'Purchase
+#. Order'
+#. Label of the tax_breakup (Section Break) field in DocType 'Supplier
+#. Quotation'
+#. Label of the sec_tax_breakup (Section Break) field in DocType 'Quotation'
+#. Label of the sec_tax_breakup (Section Break) field in DocType 'Sales Order'
+#. Label of the sec_tax_breakup (Section Break) field in DocType 'Delivery
+#. Note'
+#. Label of the sec_tax_breakup (Section Break) field in DocType 'Purchase
+#. Receipt'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Tax Breakup"
+msgstr ""
+
+#. Label of the tax_category (Link) field in DocType 'Address'
+#. Label of the tax_category (Link) field in DocType 'POS Invoice'
+#. Label of the tax_category (Link) field in DocType 'POS Profile'
+#. Label of the tax_category (Link) field in DocType 'Purchase Invoice'
+#. Label of the tax_category (Link) field in DocType 'Purchase Taxes and
+#. Charges Template'
+#. Label of the tax_category (Link) field in DocType 'Sales Invoice'
+#. Label of the tax_category (Link) field in DocType 'Sales Taxes and Charges
+#. Template'
+#. Name of a DocType
+#. Label of the tax_category (Link) field in DocType 'Tax Rule'
+#. Label of a Link in the Accounting Workspace
+#. Label of the tax_category (Link) field in DocType 'Purchase Order'
+#. Label of the tax_category (Link) field in DocType 'Supplier'
+#. Label of the tax_category (Link) field in DocType 'Supplier Quotation'
+#. Label of the tax_category (Link) field in DocType 'Customer'
+#. Label of the tax_category (Link) field in DocType 'Quotation'
+#. Label of the tax_category (Link) field in DocType 'Sales Order'
+#. Label of the tax_category (Link) field in DocType 'Delivery Note'
+#. Label of the tax_category (Link) field in DocType 'Item Tax'
+#. Label of the tax_category (Link) field in DocType 'Purchase Receipt'
+#: erpnext/accounts/custom/address.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.json
+#: erpnext/accounts/doctype/tax_category/tax_category.json
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/item_tax/item_tax.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Tax Category"
+msgstr "Categoria de Impostos"
+
+#: erpnext/controllers/buying_controller.py:258
+msgid "Tax Category has been changed to \"Total\" because all the Items are non-stock items"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:136
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:230
+msgid "Tax Expense"
+msgstr ""
+
+#. Label of the tax_id (Data) field in DocType 'Supplier'
+#. Label of the tax_id (Data) field in DocType 'Customer'
+#. Label of the tax_id (Data) field in DocType 'Company'
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/regional/report/irs_1099/irs_1099.py:82
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/setup/doctype/company/company.json
+msgid "Tax ID"
+msgstr "Cpf/cnpj"
+
+#. Label of the tax_id (Data) field in DocType 'POS Invoice'
+#. Label of the tax_id (Read Only) field in DocType 'Purchase Invoice'
+#. Label of the tax_id (Data) field in DocType 'Sales Invoice'
+#. Label of the tax_id (Data) field in DocType 'Sales Order'
+#. Label of the tax_id (Data) field in DocType 'Delivery Note'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.js:86
+#: erpnext/accounts/report/general_ledger/general_ledger.js:141
+#: erpnext/accounts/report/purchase_register/purchase_register.py:192
+#: erpnext/accounts/report/sales_register/sales_register.py:215
+#: erpnext/accounts/report/supplier_ledger_summary/supplier_ledger_summary.js:67
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+msgid "Tax Id"
+msgstr ""
+
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:19
+msgid "Tax Id: "
+msgstr ""
+
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:32
+msgid "Tax Id: {0}"
+msgstr ""
+
+#. Label of a Card Break in the Accounting Workspace
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Tax Masters"
+msgstr ""
+
+#. Label of the tax_rate (Float) field in DocType 'Account'
+#. Label of the rate (Float) field in DocType 'Advance Taxes and Charges'
+#. Label of the tax_rate (Float) field in DocType 'Item Tax Template Detail'
+#. Label of the rate (Float) field in DocType 'Item Wise Tax Detail'
+#. Label of the rate (Float) field in DocType 'Purchase Taxes and Charges'
+#. Label of the rate (Float) field in DocType 'Sales Taxes and Charges'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/account/account_tree.js:174
+#: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
+#: erpnext/accounts/doctype/item_tax_template_detail/item_tax_template_detail.json
+#: erpnext/accounts/doctype/item_wise_tax_detail/item_wise_tax_detail.json
+#: erpnext/accounts/doctype/pos_closing_entry/closing_voucher_details.html:66
+#: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
+#: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
+msgid "Tax Rate"
+msgstr "Alíquota do Imposto"
+
+#. Label of the taxes (Table) field in DocType 'Item Tax Template'
+#: erpnext/accounts/doctype/item_tax_template/item_tax_template.json
+msgid "Tax Rates"
+msgstr ""
+
+#: erpnext/regional/report/uae_vat_201/uae_vat_201.py:52
+msgid "Tax Refunds provided to Tourists under the Tax Refunds for Tourists Scheme"
+msgstr ""
+
+#. Label of the tax_row (Data) field in DocType 'Item Wise Tax Detail'
+#: erpnext/accounts/doctype/item_wise_tax_detail/item_wise_tax_detail.json
+msgid "Tax Row"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Tax Rule"
+msgstr "Regras de Aplicação de Impostos"
+
+#: erpnext/accounts/doctype/tax_rule/tax_rule.py:134
+msgid "Tax Rule Conflicts with {0}"
+msgstr "Conflitos regra fiscal com {0}"
+
+#. Label of the tax_settings_section (Section Break) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Tax Settings"
+msgstr ""
+
+#: erpnext/accounts/doctype/tax_rule/tax_rule.py:83
+msgid "Tax Template is mandatory."
+msgstr "Modelo de impostos é obrigatório."
+
+#: erpnext/accounts/report/sales_register/sales_register.py:295
+msgid "Tax Total"
+msgstr "Total do Imposto"
+
+#. Label of the tax_type (Select) field in DocType 'Tax Rule'
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+msgid "Tax Type"
+msgstr ""
+
+#. Label of the tax_withheld_vouchers_section (Section Break) field in DocType
+#. 'Purchase Invoice'
+#. Label of the tax_withheld_vouchers (Table) field in DocType 'Purchase
+#. Invoice'
+#. Name of a DocType
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/tax_withheld_vouchers/tax_withheld_vouchers.json
+msgid "Tax Withheld Vouchers"
+msgstr ""
+
+#: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:361
+msgid "Tax Withholding"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/tax_withholding_account/tax_withholding_account.json
+msgid "Tax Withholding Account"
+msgstr "Conta de Imposto Retido"
+
+#. Label of the tax_withholding_category (Link) field in DocType 'Journal
+#. Entry'
+#. Label of the tax_withholding_category (Link) field in DocType 'Payment
+#. Entry'
+#. Label of the tax_withholding_category (Link) field in DocType 'Purchase
+#. Invoice'
+#. Name of a DocType
+#. Label of a Link in the Accounting Workspace
+#. Label of the tax_withholding_category (Link) field in DocType 'Purchase
+#. Order'
+#. Label of the tax_withholding_category (Link) field in DocType 'Supplier'
+#. Label of the tax_withholding_category (Link) field in DocType 'Lower
+#. Deduction Certificate'
+#. Label of the tax_withholding_category (Link) field in DocType 'Customer'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Tax Withholding Category"
+msgstr "Categoria de Retenção Fiscal"
+
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.py:152
+msgid "Tax Withholding Category {} against Company {} for Customer {} should have Cumulative Threshold value."
+msgstr ""
+
+#. Name of a report
+#: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.json
+msgid "Tax Withholding Details"
+msgstr ""
+
+#. Label of the tax_withholding_net_total (Currency) field in DocType 'Purchase
+#. Invoice'
+#. Label of the tax_withholding_net_total (Currency) field in DocType 'Purchase
+#. Order'
+#. Label of the tax_withholding_net_total (Currency) field in DocType 'Purchase
+#. Receipt'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Tax Withholding Net Total"
+msgstr ""
+
+#. Name of a DocType
+#. Label of the tax_withholding_rate (Float) field in DocType 'Tax Withholding
+#. Rate'
+#: erpnext/accounts/doctype/tax_withholding_rate/tax_withholding_rate.json
+msgid "Tax Withholding Rate"
+msgstr "Taxa de Retenção Fiscal"
+
+#. Label of the section_break_8 (Section Break) field in DocType 'Tax
+#. Withholding Category'
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
+msgid "Tax Withholding Rates"
+msgstr ""
+
+#. Description of the 'Item Tax Rate' (Code) field in DocType 'Purchase Invoice
+#. Item'
+#. Description of the 'Item Tax Rate' (Code) field in DocType 'Purchase Order
+#. Item'
+#. Description of the 'Item Tax Rate' (Code) field in DocType 'Supplier
+#. Quotation Item'
+#. Description of the 'Item Tax Rate' (Code) field in DocType 'Purchase Receipt
+#. Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Tax detail table fetched from item master as a string and stored in this field.\n"
+"Used for Taxes and Charges"
+msgstr ""
+
+#. Description of the 'Only Deduct Tax On Excess Amount ' (Check) field in
+#. DocType 'Tax Withholding Category'
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
+msgid "Tax will be withheld only for amount exceeding the cumulative threshold"
+msgstr ""
+
+#. Label of the taxable_amount (Currency) field in DocType 'Item Wise Tax
+#. Detail'
+#. Label of the taxable_amount (Currency) field in DocType 'Tax Withheld
+#. Vouchers'
+#: erpnext/accounts/doctype/item_wise_tax_detail/item_wise_tax_detail.json
+#: erpnext/accounts/doctype/tax_withheld_vouchers/tax_withheld_vouchers.json
+#: erpnext/controllers/taxes_and_totals.py:1221
+msgid "Taxable Amount"
+msgstr "Valor Tributável"
+
+#. Label of the taxes (Table) field in DocType 'POS Closing Entry'
+#. Label of the sb_1 (Section Break) field in DocType 'Subscription'
+#. Label of the taxes_section (Section Break) field in DocType 'Sales Order'
+#. Label of the taxes (Table) field in DocType 'Item Group'
+#. Label of the taxes (Table) field in DocType 'Item'
+#: erpnext/accounts/doctype/pos_closing_entry/closing_voucher_details.html:60
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
+#: erpnext/accounts/doctype/subscription/subscription.json
+#: erpnext/accounts/doctype/tax_category/tax_category_dashboard.py:12
+#: erpnext/accounts/report/sales_payment_summary/sales_payment_summary.py:26
+#: erpnext/accounts/report/sales_payment_summary/sales_payment_summary.py:42
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/setup/doctype/item_group/item_group.json
+#: erpnext/stock/doctype/item/item.json
+msgid "Taxes"
+msgstr "Impostos"
+
+#. Label of the taxes_and_charges_section (Section Break) field in DocType
+#. 'Payment Entry'
+#. Label of the taxes_and_charges_section (Section Break) field in DocType 'POS
+#. Closing Entry'
+#. Label of the taxes_and_charges (Link) field in DocType 'POS Profile'
+#. Label of the taxes_section (Section Break) field in DocType 'Purchase
+#. Invoice'
+#. Label of the taxes_section (Section Break) field in DocType 'Sales Invoice'
+#. Label of the taxes_section (Section Break) field in DocType 'Purchase Order'
+#. Label of the taxes_section (Section Break) field in DocType 'Supplier
+#. Quotation'
+#. Label of the taxes_section (Section Break) field in DocType 'Quotation'
+#. Label of the taxes_section (Section Break) field in DocType 'Delivery Note'
+#. Label of the taxes_charges_section (Section Break) field in DocType
+#. 'Purchase Receipt'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.py:72
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Taxes and Charges"
+msgstr ""
+
+#. Label of the taxes_and_charges_added (Currency) field in DocType 'Purchase
+#. Invoice'
+#. Label of the taxes_and_charges_added (Currency) field in DocType 'Purchase
+#. Order'
+#. Label of the taxes_and_charges_added (Currency) field in DocType 'Supplier
+#. Quotation'
+#. Label of the taxes_and_charges_added (Currency) field in DocType 'Purchase
+#. Receipt'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Taxes and Charges Added"
+msgstr ""
+
+#. Label of the base_taxes_and_charges_added (Currency) field in DocType
+#. 'Purchase Invoice'
+#. Label of the base_taxes_and_charges_added (Currency) field in DocType
+#. 'Purchase Order'
+#. Label of the base_taxes_and_charges_added (Currency) field in DocType
+#. 'Supplier Quotation'
+#. Label of the base_taxes_and_charges_added (Currency) field in DocType
+#. 'Purchase Receipt'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Taxes and Charges Added (Company Currency)"
+msgstr ""
+
+#. Label of the other_charges_calculation (Text Editor) field in DocType 'POS
+#. Invoice'
+#. Label of the other_charges_calculation (Text Editor) field in DocType
+#. 'Purchase Invoice'
+#. Label of the other_charges_calculation (Text Editor) field in DocType 'Sales
+#. Invoice'
+#. Label of the other_charges_calculation (Text Editor) field in DocType
+#. 'Purchase Order'
+#. Label of the other_charges_calculation (Text Editor) field in DocType
+#. 'Supplier Quotation'
+#. Label of the other_charges_calculation (Text Editor) field in DocType
+#. 'Quotation'
+#. Label of the other_charges_calculation (Text Editor) field in DocType 'Sales
+#. Order'
+#. Label of the other_charges_calculation (Text Editor) field in DocType
+#. 'Delivery Note'
+#. Label of the other_charges_calculation (Text Editor) field in DocType
+#. 'Purchase Receipt'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Taxes and Charges Calculation"
+msgstr ""
+
+#. Label of the taxes_and_charges_deducted (Currency) field in DocType
+#. 'Purchase Invoice'
+#. Label of the taxes_and_charges_deducted (Currency) field in DocType
+#. 'Purchase Order'
+#. Label of the taxes_and_charges_deducted (Currency) field in DocType
+#. 'Supplier Quotation'
+#. Label of the taxes_and_charges_deducted (Currency) field in DocType
+#. 'Purchase Receipt'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Taxes and Charges Deducted"
+msgstr ""
+
+#. Label of the base_taxes_and_charges_deducted (Currency) field in DocType
+#. 'Purchase Invoice'
+#. Label of the base_taxes_and_charges_deducted (Currency) field in DocType
+#. 'Purchase Order'
+#. Label of the base_taxes_and_charges_deducted (Currency) field in DocType
+#. 'Supplier Quotation'
+#. Label of the base_taxes_and_charges_deducted (Currency) field in DocType
+#. 'Purchase Receipt'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Taxes and Charges Deducted (Company Currency)"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:352
+msgid "Taxes row #{0}: {1} cannot be smaller than {2}"
+msgstr ""
+
+#. Label of the section_break_2 (Section Break) field in DocType 'Asset
+#. Maintenance Team'
+#: erpnext/assets/doctype/asset_maintenance_team/asset_maintenance_team.json
+msgid "Team"
+msgstr ""
+
+#. Label of the team_member (Link) field in DocType 'Maintenance Team Member'
+#: erpnext/assets/doctype/maintenance_team_member/maintenance_team_member.json
+msgid "Team Member"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Teaspoon"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Technical Atmosphere"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:47
+msgid "Technology"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:48
+msgid "Telecommunications"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:127
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:213
+msgid "Telephone Expenses"
+msgstr "Despesas Com Telefone"
+
+#. Name of a DocType
+#: erpnext/telephony/doctype/telephony_call_type/telephony_call_type.json
+msgid "Telephony Call Type"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:49
+msgid "Television"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.js:383
+msgid "Template Item"
+msgstr ""
+
+#: erpnext/stock/get_item_details.py:338
+msgid "Template Item Selected"
+msgstr ""
+
+#. Label of the template_name (Data) field in DocType 'Financial Report
+#. Template'
+#. Label of the template_name (Data) field in DocType 'Payment Terms Template'
+#. Label of the template (Data) field in DocType 'Quality Feedback Template'
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.json
+#: erpnext/accounts/doctype/payment_terms_template/payment_terms_template.json
+#: erpnext/quality_management/doctype/quality_feedback_template/quality_feedback_template.json
+msgid "Template Name"
+msgstr ""
+
+#. Label of the template_task (Data) field in DocType 'Task'
+#: erpnext/projects/doctype/task/task.json
+msgid "Template Task"
+msgstr ""
+
+#. Label of the template_title (Data) field in DocType 'Journal Entry Template'
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+msgid "Template Title"
+msgstr ""
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js:29
+msgid "Temporarily on Hold"
+msgstr "Temporariamente Em Espera"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/report/account_balance/account_balance.js:61
+msgid "Temporary"
+msgstr "Temporário"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:73
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:129
+msgid "Temporary Accounts"
+msgstr "Contas Temporárias"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:74
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:130
+msgid "Temporary Opening"
+msgstr "Abertura Temporária"
+
+#. Label of the temporary_opening_account (Link) field in DocType 'Opening
+#. Invoice Creation Tool Item'
+#: erpnext/accounts/doctype/opening_invoice_creation_tool_item/opening_invoice_creation_tool_item.json
+msgid "Temporary Opening Account"
+msgstr ""
+
+#. Label of the terms (Text Editor) field in DocType 'Quotation'
+#: erpnext/selling/doctype/quotation/quotation.json
+msgid "Term Details"
+msgstr ""
+
+#. Label of the tc_name (Link) field in DocType 'POS Invoice'
+#. Label of the terms_tab (Tab Break) field in DocType 'POS Invoice'
+#. Label of the tc_name (Link) field in DocType 'Purchase Invoice'
+#. Label of the terms_tab (Tab Break) field in DocType 'Purchase Invoice'
+#. Label of the tc_name (Link) field in DocType 'Sales Invoice'
+#. Label of the terms_tab (Tab Break) field in DocType 'Sales Invoice'
+#. Label of the tc_name (Link) field in DocType 'Purchase Order'
+#. Label of the terms_tab (Tab Break) field in DocType 'Purchase Order'
+#. Label of the tc_name (Link) field in DocType 'Request for Quotation'
+#. Label of the terms_tab (Tab Break) field in DocType 'Supplier Quotation'
+#. Label of the tc_name (Link) field in DocType 'Blanket Order'
+#. Label of the tc_name (Link) field in DocType 'Quotation'
+#. Label of the terms_tab (Tab Break) field in DocType 'Quotation'
+#. Label of the payment_schedule_section (Tab Break) field in DocType 'Sales
+#. Order'
+#. Label of the tc_name (Link) field in DocType 'Sales Order'
+#. Label of the tc_name (Link) field in DocType 'Delivery Note'
+#. Label of the terms_tab (Tab Break) field in DocType 'Delivery Note'
+#. Label of the tc_name (Link) field in DocType 'Material Request'
+#. Label of the terms_tab (Tab Break) field in DocType 'Material Request'
+#. Label of the tc_name (Link) field in DocType 'Purchase Receipt'
+#. Label of the terms_tab (Tab Break) field in DocType 'Purchase Receipt'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/material_request/material_request.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Terms"
+msgstr ""
+
+#. Label of the terms_section_break (Section Break) field in DocType 'Purchase
+#. Order'
+#. Label of the terms_section_break (Section Break) field in DocType 'Sales
+#. Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+msgid "Terms & Conditions"
+msgstr ""
+
+#. Label of the tc_name (Link) field in DocType 'Supplier Quotation'
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+msgid "Terms Template"
+msgstr ""
+
+#. Label of the terms_section_break (Section Break) field in DocType 'POS
+#. Invoice'
+#. Label of the tc_name (Link) field in DocType 'POS Profile'
+#. Label of the terms_and_conditions (Link) field in DocType 'Process Statement
+#. Of Accounts'
+#. Label of the terms_section_break (Section Break) field in DocType 'Purchase
+#. Invoice'
+#. Label of the terms (Text Editor) field in DocType 'Purchase Invoice'
+#. Label of the terms_section_break (Section Break) field in DocType 'Sales
+#. Invoice'
+#. Label of a Link in the Accounting Workspace
+#. Label of the terms (Text Editor) field in DocType 'Purchase Order'
+#. Label of the terms_section_break (Section Break) field in DocType 'Request
+#. for Quotation'
+#. Label of the terms (Text Editor) field in DocType 'Request for Quotation'
+#. Label of the terms (Text Editor) field in DocType 'Supplier Quotation'
+#. Label of the terms_and_conditions_section (Section Break) field in DocType
+#. 'Blanket Order'
+#. Label of the terms_and_conditions (Text) field in DocType 'Blanket Order
+#. Item'
+#. Label of the terms_section_break (Section Break) field in DocType
+#. 'Quotation'
+#. Name of a DocType
+#. Label of the terms (Text Editor) field in DocType 'Terms and Conditions'
+#. Label of the terms (Text Editor) field in DocType 'Purchase Receipt'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/print_format/sales_invoice_print/sales_invoice_print.html:155
+#: erpnext/accounts/workspace/accounting/accounting.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
+#: erpnext/manufacturing/doctype/blanket_order_item/blanket_order_item.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/setup/doctype/terms_and_conditions/terms_and_conditions.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Terms and Conditions"
+msgstr "Termos e Condições"
+
+#. Label of the terms (Text Editor) field in DocType 'Material Request'
+#: erpnext/stock/doctype/material_request/material_request.json
+msgid "Terms and Conditions Content"
+msgstr ""
+
+#. Label of the terms (Text Editor) field in DocType 'POS Invoice'
+#. Label of the terms (Text Editor) field in DocType 'Sales Invoice'
+#. Label of the terms (Text Editor) field in DocType 'Blanket Order'
+#. Label of the terms (Text Editor) field in DocType 'Sales Order'
+#. Label of the terms (Text Editor) field in DocType 'Delivery Note'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+msgid "Terms and Conditions Details"
+msgstr ""
+
+#. Label of the terms_and_conditions_help (HTML) field in DocType 'Terms and
+#. Conditions'
+#: erpnext/setup/doctype/terms_and_conditions/terms_and_conditions.json
+msgid "Terms and Conditions Help"
+msgstr ""
+
+#. Label of a Link in the Buying Workspace
+#. Label of a Link in the Selling Workspace
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Terms and Conditions Template"
+msgstr ""
+
+#. Label of the territory (Link) field in DocType 'POS Invoice'
+#. Option for the 'Applicable For' (Select) field in DocType 'Pricing Rule'
+#. Label of the territory (Link) field in DocType 'Pricing Rule'
+#. Option for the 'Select Customers By' (Select) field in DocType 'Process
+#. Statement Of Accounts'
+#. Label of the territory (Link) field in DocType 'Process Statement Of
+#. Accounts'
+#. Option for the 'Applicable For' (Select) field in DocType 'Promotional
+#. Scheme'
+#. Label of the territory (Table MultiSelect) field in DocType 'Promotional
+#. Scheme'
+#. Label of the territory (Link) field in DocType 'Sales Invoice'
+#. Label of the territory (Link) field in DocType 'Territory Item'
+#. Label of the territory (Link) field in DocType 'Lead'
+#. Label of the territory (Link) field in DocType 'Opportunity'
+#. Label of the territory (Link) field in DocType 'Prospect'
+#. Label of a Link in the CRM Workspace
+#. Label of the territory (Link) field in DocType 'Maintenance Schedule'
+#. Label of the territory (Link) field in DocType 'Maintenance Visit'
+#. Label of the territory (Link) field in DocType 'Customer'
+#. Label of the territory (Link) field in DocType 'Installation Note'
+#. Label of the territory (Link) field in DocType 'Quotation'
+#. Label of the territory (Link) field in DocType 'Sales Order'
+#. Label of a Link in the Selling Workspace
+#. Label of the territory (Link) field in DocType 'Sales Partner'
+#. Name of a DocType
+#. Label of a Link in the Home Workspace
+#. Label of the territory (Link) field in DocType 'Delivery Note'
+#. Option for the 'Entity Type' (Select) field in DocType 'Service Level
+#. Agreement'
+#. Label of the territory (Link) field in DocType 'Warranty Claim'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+#: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/territory_item/territory_item.json
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:131
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1241
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:97
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:182
+#: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.js:68
+#: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.py:171
+#: erpnext/accounts/report/gross_profit/gross_profit.py:425
+#: erpnext/accounts/report/inactive_sales_items/inactive_sales_items.js:8
+#: erpnext/accounts/report/inactive_sales_items/inactive_sales_items.py:21
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:251
+#: erpnext/accounts/report/sales_register/sales_register.py:209
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/doctype/prospect/prospect.json
+#: erpnext/crm/report/lead_details/lead_details.js:46
+#: erpnext/crm/report/lead_details/lead_details.py:34
+#: erpnext/crm/report/lost_opportunity/lost_opportunity.js:36
+#: erpnext/crm/report/lost_opportunity/lost_opportunity.py:58
+#: erpnext/crm/workspace/crm/crm.json
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.json
+#: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
+#: erpnext/public/js/sales_trends_filters.js:27
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/selling/doctype/installation_note/installation_note.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/selling/report/customer_acquisition_and_loyalty/customer_acquisition_and_loyalty.py:103
+#: erpnext/selling/report/inactive_customers/inactive_customers.py:76
+#: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.py:87
+#: erpnext/selling/report/pending_so_items_for_purchase_request/pending_so_items_for_purchase_request.py:42
+#: erpnext/selling/report/sales_partner_commission_summary/sales_partner_commission_summary.js:47
+#: erpnext/selling/report/sales_partner_commission_summary/sales_partner_commission_summary.py:45
+#: erpnext/selling/report/sales_partner_transaction_summary/sales_partner_transaction_summary.js:59
+#: erpnext/selling/report/sales_partner_transaction_summary/sales_partner_transaction_summary.py:39
+#: erpnext/selling/report/sales_person_commission_summary/sales_person_commission_summary.js:46
+#: erpnext/selling/report/sales_person_commission_summary/sales_person_commission_summary.py:60
+#: erpnext/selling/report/sales_person_wise_transaction_summary/sales_person_wise_transaction_summary.js:59
+#: erpnext/selling/report/sales_person_wise_transaction_summary/sales_person_wise_transaction_summary.py:72
+#: erpnext/selling/report/territory_wise_sales/territory_wise_sales.py:22
+#: erpnext/selling/workspace/selling/selling.json
+#: erpnext/setup/doctype/sales_partner/sales_partner.json
+#: erpnext/setup/doctype/territory/territory.json
+#: erpnext/setup/workspace/home/home.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
+#: erpnext/support/doctype/warranty_claim/warranty_claim.json
+msgid "Territory"
+msgstr "Território"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/territory_item/territory_item.json
+msgid "Territory Item"
+msgstr ""
+
+#. Label of the territory_manager (Link) field in DocType 'Territory'
+#: erpnext/setup/doctype/territory/territory.json
+msgid "Territory Manager"
+msgstr ""
+
+#. Label of the territory_name (Data) field in DocType 'Territory'
+#: erpnext/setup/doctype/territory/territory.json
+msgid "Territory Name"
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the Selling Workspace
+#: erpnext/selling/report/territory_target_variance_based_on_item_group/territory_target_variance_based_on_item_group.json
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Territory Target Variance Based On Item Group"
+msgstr "Desvio Alvo do Território Baseado no Grupo de Itens"
+
+#. Label of the target_details_section_break (Section Break) field in DocType
+#. 'Territory'
+#: erpnext/setup/doctype/territory/territory.json
+msgid "Territory Targets"
+msgstr ""
+
+#. Label of a chart in the CRM Workspace
+#: erpnext/crm/workspace/crm/crm.json
+msgid "Territory Wise Sales"
+msgstr ""
+
+#. Name of a report
+#: erpnext/selling/report/territory_wise_sales/territory_wise_sales.json
+msgid "Territory-wise Sales"
+msgstr "Vendas Por Território"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Tesla"
+msgstr ""
+
+#. Description of the 'Display Name' (Data) field in DocType 'Financial Report
+#. Row'
+#: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
+msgid "Text displayed on the financial statement (e.g., 'Total Revenue', 'Cash and Cash Equivalents')"
+msgstr ""
+
+#: erpnext/stock/doctype/packing_slip/packing_slip.py:91
+msgid "The 'From Package No.' field must neither be empty nor it's value less than 1."
+msgstr ""
+
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:373
+msgid "The Access to Request for Quotation From Portal is Disabled. To Allow Access, Enable it in Portal Settings."
+msgstr "O Acesso À Solicitação de Cotação do Portal Está Desabilitado. Para Permitir o Acesso, Habilite-o Nas Configurações do Portal."
+
+#. Description of the 'Current BOM' (Link) field in DocType 'BOM Update Tool'
+#: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
+msgid "The BOM which will be replaced"
+msgstr ""
+
+#: erpnext/stock/serial_batch_bundle.py:1506
+msgid "The Batch {0} has negative batch quantity {1}. To fix this, go to the batch and click on Recalculate Batch Qty. If the issue still persists, create an inward entry."
+msgstr ""
+
+#: erpnext/crm/doctype/email_campaign/email_campaign.py:71
+msgid "The Campaign '{0}' already exists for the {1} '{2}'"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.py:74
+msgid "The Company {0} of Sales Forecast {1} does not match with the Company {2} of Master Production Schedule {3}."
+msgstr ""
+
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.py:206
+msgid "The Document Type {0} must have a Status field to configure Service Level Agreement"
+msgstr ""
+
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:332
+msgid "The Excluded Fee is bigger than the Deposit it is deducted from."
+msgstr ""
+
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:178
+msgid "The GL Entries and closing balances will be processed in the background, it can take a few minutes."
+msgstr ""
+
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:451
+msgid "The GL Entries will be cancelled in the background, it can take a few minutes."
+msgstr ""
+
+#: erpnext/accounts/doctype/loyalty_program/loyalty_program.py:178
+msgid "The Loyalty Program isn't valid for the selected company"
+msgstr "O programa de fidelidade não é válido para a empresa selecionada"
+
+#: erpnext/accounts/doctype/payment_request/payment_request.py:975
+msgid "The Payment Request {0} is already paid, cannot process payment twice"
+msgstr ""
+
+#: erpnext/accounts/doctype/payment_terms_template/payment_terms_template.py:50
+msgid "The Payment Term at row {0} is possibly a duplicate."
+msgstr "O termo de pagamento na linha {0} é possivelmente uma duplicata."
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:306
+msgid "The Pick List having Stock Reservation Entries cannot be updated. If you need to make changes, we recommend canceling the existing Stock Reservation Entries before updating the Pick List."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:2513
+msgid "The Process Loss Qty has reset as per job cards Process Loss Qty"
+msgstr ""
+
+#: erpnext/setup/doctype/sales_person/sales_person.py:102
+msgid "The Sales Person is linked with {0}"
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:172
+msgid "The Serial No at Row #{0}: {1} is not available in warehouse {2}."
+msgstr ""
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:2314
+msgid "The Serial No {0} is reserved against the {1} {2} and cannot be used for any other transaction."
+msgstr ""

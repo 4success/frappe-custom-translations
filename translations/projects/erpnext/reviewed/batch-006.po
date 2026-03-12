@@ -1,0 +1,858 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Arshin"
+msgstr ""
+
+#: erpnext/stock/report/serial_no_ledger/serial_no_ledger.js:57
+#: erpnext/stock/report/stock_ageing/stock_ageing.js:16
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:30
+msgid "As On Date"
+msgstr "Na data"
+
+#: erpnext/accounts/report/billed_items_to_be_received/billed_items_to_be_received.js:15
+#: erpnext/accounts/report/delivered_items_to_be_billed/delivered_items_to_be_billed.js:15
+#: erpnext/accounts/report/received_items_to_be_billed/received_items_to_be_billed.js:15
+msgid "As on Date"
+msgstr "Na data"
+
+#. Description of the 'Finished Good Quantity ' (Float) field in DocType 'Stock
+#. Entry'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "As per Stock UOM"
+msgstr "Conforme a UM de estoque"
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:189
+msgid "As the field {0} is enabled, the field {1} is mandatory."
+msgstr "Como o campo {0} está habilitado, o campo {1} é obrigatório."
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:197
+msgid "As the field {0} is enabled, the value of the field {1} should be more than 1."
+msgstr "Como o campo {0} está habilitado, o valor do campo {1} deve ser maior que 1."
+
+#: erpnext/stock/doctype/item/item.py:987
+msgid "As there are existing submitted transactions against item {0}, you can not change the value of {1}."
+msgstr "Como existem transações enviadas para o item {0}, não é possível alterar o valor de {1}."
+
+#: erpnext/stock/doctype/stock_settings/stock_settings.py:203
+msgid "As there are reserved stock, you cannot disable {0}."
+msgstr "Como há estoque reservado, não é possível desativar {0}."
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.py:1066
+msgid "As there are sufficient Sub Assembly Items, Work Order is not required for Warehouse {0}."
+msgstr "Como há itens de subconjunto suficientes, a ordem de produção não é necessária para o armazém {0}."
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.py:1802
+msgid "As there are sufficient raw materials, Material Request is not required for Warehouse {0}."
+msgstr "Como há matéria-prima suficiente, a Solicitação de Material não é necessária para o Armazém {0}."
+
+#: erpnext/stock/doctype/stock_settings/stock_settings.py:177
+#: erpnext/stock/doctype/stock_settings/stock_settings.py:189
+msgid "As {0} is enabled, you can not enable {1}."
+msgstr "Como {0} está habilitado, não é possível habilitar {1}."
+
+#. Label of the po_items (Table) field in DocType 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Assembly Items"
+msgstr "Itens de montagem"
+
+#. Option for the 'Root Type' (Select) field in DocType 'Account'
+#. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
+#. Account'
+#. Option for the 'Root Type' (Select) field in DocType 'Ledger Merge'
+#. Label of the asset (Link) field in DocType 'POS Invoice Item'
+#. Label of the asset (Link) field in DocType 'Sales Invoice Item'
+#. Name of a DocType
+#. Label of the asset (Link) field in DocType 'Asset Activity'
+#. Label of the asset (Link) field in DocType 'Asset Capitalization Asset Item'
+#. Label of the asset (Link) field in DocType 'Asset Depreciation Schedule'
+#. Label of the asset (Link) field in DocType 'Asset Movement Item'
+#. Label of the asset (Link) field in DocType 'Asset Repair'
+#. Label of the asset (Link) field in DocType 'Asset Shift Allocation'
+#. Label of the asset (Link) field in DocType 'Asset Value Adjustment'
+#. Label of a Link in the Assets Workspace
+#. Label of a shortcut in the Assets Workspace
+#. Label of the asset (Link) field in DocType 'Serial No'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+#: erpnext/accounts/doctype/ledger_merge/ledger_merge.json
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/report/account_balance/account_balance.js:25
+#: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.js:30
+#: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.py:141
+#: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.js:44
+#: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.py:581
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_activity/asset_activity.json
+#: erpnext/assets/doctype/asset_capitalization_asset_item/asset_capitalization_asset_item.json
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+#: erpnext/assets/doctype/asset_movement_item/asset_movement_item.json
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+#: erpnext/assets/doctype/asset_shift_allocation/asset_shift_allocation.json
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.json
+#: erpnext/assets/workspace/assets/assets.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:189
+#: erpnext/stock/doctype/serial_no/serial_no.json
+msgid "Asset"
+msgstr "Ativo"
+
+#. Label of the asset_account (Link) field in DocType 'Share Transfer'
+#: erpnext/accounts/doctype/share_transfer/share_transfer.json
+msgid "Asset Account"
+msgstr "Conta do ativo"
+
+#. Name of a DocType
+#. Name of a report
+#. Label of a Link in the Assets Workspace
+#: erpnext/assets/doctype/asset_activity/asset_activity.json
+#: erpnext/assets/report/asset_activity/asset_activity.json
+#: erpnext/assets/workspace/assets/assets.json
+msgid "Asset Activity"
+msgstr "Atividade do ativo"
+
+#. Group in Asset's connections
+#. Name of a DocType
+#. Label of a Link in the Assets Workspace
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+#: erpnext/assets/workspace/assets/assets.json
+msgid "Asset Capitalization"
+msgstr "Capitalizacao de ativo"
+
+#. Name of a DocType
+#: erpnext/assets/doctype/asset_capitalization_asset_item/asset_capitalization_asset_item.json
+msgid "Asset Capitalization Asset Item"
+msgstr "Item de ativo da capitalizacao de ativo"
+
+#. Name of a DocType
+#: erpnext/assets/doctype/asset_capitalization_service_item/asset_capitalization_service_item.json
+msgid "Asset Capitalization Service Item"
+msgstr "Item de serviço da capitalizacao de ativo"
+
+#. Name of a DocType
+#: erpnext/assets/doctype/asset_capitalization_stock_item/asset_capitalization_stock_item.json
+msgid "Asset Capitalization Stock Item"
+msgstr "Item de estoque da capitalizacao de ativo"
+
+#. Label of the asset_category (Link) field in DocType 'Purchase Invoice Item'
+#. Label of the asset_category (Link) field in DocType 'Asset'
+#. Name of a DocType
+#. Label of the asset_category (Read Only) field in DocType 'Asset Maintenance'
+#. Label of the asset_category (Read Only) field in DocType 'Asset Value
+#. Adjustment'
+#. Label of a Link in the Assets Workspace
+#. Label of a shortcut in the Assets Workspace
+#. Label of the asset_category (Link) field in DocType 'Item'
+#. Label of the asset_category (Link) field in DocType 'Purchase Receipt Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.js:36
+#: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.py:197
+#: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.js:37
+#: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.py:571
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_category/asset_category.json
+#: erpnext/assets/doctype/asset_maintenance/asset_maintenance.json
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.json
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.js:23
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:485
+#: erpnext/assets/workspace/assets/assets.json
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Asset Category"
+msgstr "Categoria de ativo"
+
+#. Name of a DocType
+#: erpnext/assets/doctype/asset_category_account/asset_category_account.json
+msgid "Asset Category Account"
+msgstr "Conta da categoria de ativo"
+
+#. Label of the asset_category_name (Data) field in DocType 'Asset Category'
+#: erpnext/assets/doctype/asset_category/asset_category.json
+msgid "Asset Category Name"
+msgstr "Nome da categoria de ativo"
+
+#: erpnext/stock/doctype/item/item.py:307
+msgid "Asset Category is mandatory for Fixed Asset item"
+msgstr "A categoria de ativo é obrigatória para item de ativo imobilizado"
+
+#. Label of the depreciation_cost_center (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Asset Depreciation Cost Center"
+msgstr "Centro de custo da depreciação do ativo"
+
+#. Name of a report
+#. Label of a Link in the Assets Workspace
+#: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.json
+#: erpnext/assets/workspace/assets/assets.json
+msgid "Asset Depreciation Ledger"
+msgstr "Livro-razão de depreciação de ativos"
+
+#. Name of a DocType
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+msgid "Asset Depreciation Schedule"
+msgstr "Cronograma de depreciação do ativo"
+
+#: erpnext/assets/doctype/asset_shift_allocation/asset_shift_allocation.py:179
+msgid "Asset Depreciation Schedule for Asset {0} and Finance Book {1} is not using shift based depreciation"
+msgstr "O cronograma de depreciação do ativo {0} e do Livro Contábil {1} não usa depreciação por turno"
+
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.py:247
+#: erpnext/assets/doctype/asset_shift_allocation/asset_shift_allocation.py:185
+msgid "Asset Depreciation Schedule not found for Asset {0} and Finance Book {1}"
+msgstr "Cronograma de depreciação não encontrado para o ativo {0} e o Livro Contábil {1}"
+
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.py:83
+msgid "Asset Depreciation Schedule {0} for Asset {1} already exists."
+msgstr "O cronograma de depreciação {0} para o ativo {1} já existe."
+
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.py:77
+msgid "Asset Depreciation Schedule {0} for Asset {1} and Finance Book {2} already exists."
+msgstr "O cronograma de depreciação {0} para o ativo {1} e o Livro Contábil {2} já existe."
+
+#: erpnext/assets/doctype/asset/asset.py:236
+msgid "Asset Depreciation Schedules created/updated:<br>{0}<br><br>Please check, edit if needed, and submit the Asset."
+msgstr "Cronogramas de depreciação criados/atualizados:<br>{0}<br><br>Verifique, edite se necessário e envie o ativo."
+
+#. Name of a report
+#. Label of a Link in the Assets Workspace
+#: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.json
+#: erpnext/assets/workspace/assets/assets.json
+msgid "Asset Depreciations and Balances"
+msgstr "Depreciação de Ativos e Saldos"
+
+#. Label of the asset_details (Section Break) field in DocType 'Serial No'
+#: erpnext/stock/doctype/serial_no/serial_no.json
+msgid "Asset Details"
+msgstr "Detalhes do ativo"
+
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Asset Disposal"
+msgstr "Baixa de ativo"
+
+#. Name of a DocType
+#: erpnext/assets/doctype/asset_finance_book/asset_finance_book.json
+msgid "Asset Finance Book"
+msgstr "Livro Contábil de Ativos"
+
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:477
+msgid "Asset ID"
+msgstr "ID do ativo"
+
+#. Label of the asset_location (Link) field in DocType 'Purchase Invoice Item'
+#. Label of the asset_location (Link) field in DocType 'Purchase Receipt Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Asset Location"
+msgstr "Localizacao do ativo"
+
+#. Name of a DocType
+#. Label of the asset_maintenance (Link) field in DocType 'Asset Maintenance
+#. Log'
+#. Name of a report
+#. Label of a Link in the Assets Workspace
+#: erpnext/assets/doctype/asset_maintenance/asset_maintenance.json
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log_calendar.js:18
+#: erpnext/assets/report/asset_maintenance/asset_maintenance.json
+#: erpnext/assets/workspace/assets/assets.json
+msgid "Asset Maintenance"
+msgstr "Manutenção de Ativos"
+
+#. Name of a DocType
+#. Label of a Link in the Assets Workspace
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
+#: erpnext/assets/workspace/assets/assets.json
+msgid "Asset Maintenance Log"
+msgstr "Registro de Manutenção de Ativos"
+
+#. Name of a DocType
+#: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
+msgid "Asset Maintenance Task"
+msgstr "Tarefa de Manutenção de Ativos"
+
+#. Name of a DocType
+#. Label of a Link in the Assets Workspace
+#: erpnext/assets/doctype/asset_maintenance_team/asset_maintenance_team.json
+#: erpnext/assets/workspace/assets/assets.json
+msgid "Asset Maintenance Team"
+msgstr "Equipe de Manutenção de Ativos"
+
+#. Name of a DocType
+#. Label of a Link in the Assets Workspace
+#: erpnext/assets/doctype/asset_movement/asset_movement.json
+#: erpnext/assets/workspace/assets/assets.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:200
+msgid "Asset Movement"
+msgstr "Movimentação de Ativos"
+
+#. Name of a DocType
+#: erpnext/assets/doctype/asset_movement_item/asset_movement_item.json
+msgid "Asset Movement Item"
+msgstr "Item de movimentacao de ativo"
+
+#: erpnext/assets/doctype/asset/asset.py:1163
+msgid "Asset Movement record {0} created"
+msgstr "Registro de Movimentação de Ativos {0} criado"
+
+#. Label of the asset_name (Data) field in DocType 'Asset'
+#. Label of the target_asset_name (Data) field in DocType 'Asset
+#. Capitalization'
+#. Label of the asset_name (Data) field in DocType 'Asset Capitalization Asset
+#. Item'
+#. Label of the asset_name (Link) field in DocType 'Asset Maintenance'
+#. Label of the asset_name (Read Only) field in DocType 'Asset Maintenance Log'
+#. Label of the asset_name (Data) field in DocType 'Asset Movement Item'
+#. Label of the asset_name (Read Only) field in DocType 'Asset Repair'
+#: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.py:148
+#: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.py:590
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+#: erpnext/assets/doctype/asset_capitalization_asset_item/asset_capitalization_asset_item.json
+#: erpnext/assets/doctype/asset_maintenance/asset_maintenance.json
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
+#: erpnext/assets/doctype/asset_movement_item/asset_movement_item.json
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:483
+msgid "Asset Name"
+msgstr "Nome do Ativo"
+
+#. Label of the asset_naming_series (Select) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Asset Naming Series"
+msgstr "Serie de nomenclatura do ativo"
+
+#. Label of the asset_owner (Select) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Asset Owner"
+msgstr "Proprietario do ativo"
+
+#. Label of the asset_owner_company (Link) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Asset Owner Company"
+msgstr "Empresa próprietaria do ativo"
+
+#. Label of the asset_quantity (Int) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Asset Quantity"
+msgstr "Quantidade de ativos"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#. Label of the asset_received_but_not_billed (Link) field in DocType 'Company'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:165
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:279
+#: erpnext/accounts/report/account_balance/account_balance.js:38
+#: erpnext/setup/doctype/company/company.json
+msgid "Asset Received But Not Billed"
+msgstr "Ativo recebido, mas não faturado"
+
+#. Name of a DocType
+#. Label of a Link in the Assets Workspace
+#. Option for the 'Type of Transaction' (Select) field in DocType 'Serial and
+#. Batch Bundle'
+#. Label of the asset_repair (Link) field in DocType 'Stock Entry'
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+#: erpnext/assets/workspace/assets/assets.json
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Asset Repair"
+msgstr "Reparo de Ativos"
+
+#. Name of a DocType
+#: erpnext/assets/doctype/asset_repair_consumed_item/asset_repair_consumed_item.json
+msgid "Asset Repair Consumed Item"
+msgstr "Item consumido no reparo do ativo"
+
+#. Name of a DocType
+#: erpnext/assets/doctype/asset_repair_purchase_invoice/asset_repair_purchase_invoice.json
+msgid "Asset Repair Purchase Invoice"
+msgstr "Fatura de Compra de Reparo do Ativo"
+
+#. Label of the asset_settings_section (Section Break) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Asset Settings"
+msgstr "Configuracoes de ativos"
+
+#. Name of a DocType
+#: erpnext/assets/doctype/asset_shift_allocation/asset_shift_allocation.json
+msgid "Asset Shift Allocation"
+msgstr "Alocacao de turno do ativo"
+
+#. Name of a DocType
+#: erpnext/assets/doctype/asset_shift_factor/asset_shift_factor.json
+msgid "Asset Shift Factor"
+msgstr "Fator de turno do ativo"
+
+#: erpnext/assets/doctype/asset_shift_factor/asset_shift_factor.py:32
+msgid "Asset Shift Factor {0} is set as default currently. Please change it first."
+msgstr "O Fator de Turno do Ativo {0} está definido como padrao no momento. Altere-o primeiro."
+
+#. Label of the asset_status (Select) field in DocType 'Serial No'
+#: erpnext/stock/doctype/serial_no/serial_no.json
+msgid "Asset Status"
+msgstr "Status do ativo"
+
+#. Label of the asset_value (Currency) field in DocType 'Asset Capitalization
+#. Asset Item'
+#: erpnext/assets/dashboard_fixtures.py:175
+#: erpnext/assets/doctype/asset/asset.js:434
+#: erpnext/assets/doctype/asset_capitalization_asset_item/asset_capitalization_asset_item.json
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:209
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:460
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:507
+msgid "Asset Value"
+msgstr "Valor do ativo"
+
+#. Name of a DocType
+#. Label of a Link in the Assets Workspace
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.json
+#: erpnext/assets/workspace/assets/assets.json
+msgid "Asset Value Adjustment"
+msgstr "Ajuste do Valor do Ativo"
+
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.py:53
+msgid "Asset Value Adjustment cannot be posted before Asset's purchase date <b>{0}</b>."
+msgstr "O ajuste do valor do ativo não pode ser lançado antes da data de compra do ativo <b>{0}</b>."
+
+#. Label of a chart in the Assets Workspace
+#: erpnext/assets/dashboard_fixtures.py:56
+#: erpnext/assets/workspace/assets/assets.json
+msgid "Asset Value Analytics"
+msgstr "Análise do Valor do Ativo"
+
+#: erpnext/assets/doctype/asset/asset.py:272
+msgid "Asset cancelled"
+msgstr "Ativo cancelado"
+
+#: erpnext/assets/doctype/asset/asset.py:712
+msgid "Asset cannot be cancelled, as it is already {0}"
+msgstr "O ativo não pode ser cancelado, pois já está {0}"
+
+#: erpnext/assets/doctype/asset/depreciation.py:391
+msgid "Asset cannot be scrapped before the last depreciation entry."
+msgstr "O ativo não pode ser baixado antes do ultimo lançamento de depreciação."
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:612
+msgid "Asset capitalized after Asset Capitalization {0} was submitted"
+msgstr "Ativo capitalizado apos o envio da Capitalizacao de Ativo {0}"
+
+#: erpnext/assets/doctype/asset/asset.py:281
+msgid "Asset created"
+msgstr "Ativo criado"
+
+#: erpnext/assets/doctype/asset/asset.py:1403
+msgid "Asset created after being split from Asset {0}"
+msgstr "Ativo criado apos ser desmembrado do ativo {0}"
+
+#: erpnext/assets/doctype/asset/asset.py:284
+msgid "Asset deleted"
+msgstr "Ativo excluido"
+
+#: erpnext/assets/doctype/asset_movement/asset_movement.py:168
+msgid "Asset issued to Employee {0}"
+msgstr "Ativo entregue ao funcionario {0}"
+
+#: erpnext/assets/doctype/asset_repair/asset_repair.py:179
+msgid "Asset out of order due to Asset Repair {0}"
+msgstr "Ativo indisponivel devido ao Reparo do Ativo {0}"
+
+#: erpnext/assets/doctype/asset_movement/asset_movement.py:155
+msgid "Asset received at Location {0} and issued to Employee {1}"
+msgstr "Ativo recebido no local {0} e entregue ao funcionário {1}"
+
+#: erpnext/assets/doctype/asset/depreciation.py:452
+msgid "Asset restored"
+msgstr "Ativo restaurado"
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:620
+msgid "Asset restored after Asset Capitalization {0} was cancelled"
+msgstr "Ativo restaurado apos o cancelamento da Capitalizacao de Ativo {0}"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1445
+msgid "Asset returned"
+msgstr "Ativo devolvido"
+
+#: erpnext/assets/doctype/asset/depreciation.py:439
+msgid "Asset scrapped"
+msgstr "Ativo baixado"
+
+#: erpnext/assets/doctype/asset/depreciation.py:441
+msgid "Asset scrapped via Journal Entry {0}"
+msgstr "Ativo baixado por meio do lançamento contábil {0}"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1445
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1448
+msgid "Asset sold"
+msgstr "Ativo vendido"
+
+#: erpnext/assets/doctype/asset/asset.py:259
+msgid "Asset submitted"
+msgstr "Ativo enviado"
+
+#: erpnext/assets/doctype/asset_movement/asset_movement.py:163
+msgid "Asset transferred to Location {0}"
+msgstr "Ativo transferido para o local {0}"
+
+#: erpnext/assets/doctype/asset/asset.py:1412
+msgid "Asset updated after being split into Asset {0}"
+msgstr "Ativo atualizado apos ser desmembrado no ativo {0}"
+
+#: erpnext/assets/doctype/asset_repair/asset_repair.py:442
+msgid "Asset updated due to Asset Repair {0} {1}."
+msgstr "Ativo atualizado devido ao Reparo do Ativo {0} {1}."
+
+#: erpnext/assets/doctype/asset/depreciation.py:373
+msgid "Asset {0} cannot be scrapped, as it is already {1}"
+msgstr "O ativo {0} não pode ser baixado, pois já está {1}"
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:213
+msgid "Asset {0} does not belong to Item {1}"
+msgstr "O ativo {0} não pertence ao item {1}"
+
+#: erpnext/assets/doctype/asset_movement/asset_movement.py:44
+msgid "Asset {0} does not belong to company {1}"
+msgstr "O ativo {0} não pertence à empresa {1}"
+
+#: erpnext/assets/doctype/asset_movement/asset_movement.py:92
+msgid "Asset {0} does not belong to the custodian {1}"
+msgstr "O ativo {0} não pertence ao custodiante {1}"
+
+#: erpnext/assets/doctype/asset_movement/asset_movement.py:64
+msgid "Asset {0} does not belong to the location {1}"
+msgstr "O ativo {0} não pertence ao local {1}"
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:672
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:765
+msgid "Asset {0} does not exist"
+msgstr "O ativo {0} não existe"
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:586
+msgid "Asset {0} has been updated. Please set the depreciation details if any and submit it."
+msgstr "O ativo {0} foi atualizado. Defina os detalhes de depreciação, se houver, e envie-o."
+
+#: erpnext/assets/doctype/asset_repair/asset_repair.py:75
+msgid "Asset {0} is in {1} status and cannot be repaired."
+msgstr "O ativo {0} está com status {1} e não pode ser reparado."
+
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.py:96
+msgid "Asset {0} is not set to calculate depreciation."
+msgstr "O ativo {0} não está configurado para calcular depreciação."
+
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.py:102
+msgid "Asset {0} is not submitted. Please submit the asset before proceeding."
+msgstr "O ativo {0} não foi enviado. Envie o ativo antes de continuar."
+
+#: erpnext/assets/doctype/asset/depreciation.py:371
+msgid "Asset {0} must be submitted"
+msgstr "O ativo {0} deve ser enviado"
+
+#: erpnext/controllers/buying_controller.py:1020
+msgid "Asset {assets_link} created for {item_code}"
+msgstr "Ativo {assets_link} criado para {item_code}"
+
+#: erpnext/assets/doctype/asset_shift_allocation/asset_shift_allocation.py:223
+msgid "Asset's depreciation schedule updated after Asset Shift Allocation {0}"
+msgstr "O cronograma de depreciação do ativo foi atualizado apos a Alocacao de Turno do Ativo {0}"
+
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.py:81
+msgid "Asset's value adjusted after cancellation of Asset Value Adjustment {0}"
+msgstr "O valor do ativo foi ajustado apos o cancelamento do Ajuste do Valor do Ativo {0}"
+
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.py:71
+msgid "Asset's value adjusted after submission of Asset Value Adjustment {0}"
+msgstr "O valor do ativo foi ajustado apos o envio do Ajuste do Valor do Ativo {0}"
+
+#. Label of the assets_tab (Tab Break) field in DocType 'Accounts Settings'
+#. Label of the asset_items (Table) field in DocType 'Asset Capitalization'
+#. Label of the assets (Table) field in DocType 'Asset Movement'
+#. Name of a Workspace
+#. Label of a Card Break in the Assets Workspace
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+#: erpnext/accounts/doctype/finance_book/finance_book_dashboard.py:9
+#: erpnext/accounts/report/balance_sheet/balance_sheet.py:249
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+#: erpnext/assets/doctype/asset_movement/asset_movement.json
+#: erpnext/assets/workspace/assets/assets.json
+msgid "Assets"
+msgstr "Ativos"
+
+#: erpnext/controllers/buying_controller.py:1038
+msgid "Assets not created for {item_code}. You will have to create asset manually."
+msgstr "Ativos não criados para {item_code}. Voce tera que criar o ativo manualmente."
+
+#: erpnext/controllers/buying_controller.py:1025
+msgid "Assets {assets_link} created for {item_code}"
+msgstr "Ativos {assets_link} criados para {item_code}"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.js:232
+msgid "Assign Job to Employee"
+msgstr "Atribuir tarefa ao funcionario"
+
+#. Label of the assign_to_name (Read Only) field in DocType 'Asset Maintenance
+#. Task'
+#: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
+msgid "Assign to Name"
+msgstr "Atribuir ao nome"
+
+#. Label of the filters_section (Section Break) field in DocType 'Service Level
+#. Agreement'
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
+msgid "Assignment Conditions"
+msgstr "Condicoes de atribuicao"
+
+#: erpnext/setup/setup_wizard/data/designation.txt:5
+msgid "Associate"
+msgstr "Associado"
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:124
+msgid "At Row #{0}: The picked quantity {1} for the item {2} is greater than available stock {3} for the batch {4} in the warehouse {5}. Please restock the item."
+msgstr "Na linha #{0}: a quantidade separada {1} do item {2} é maior que o estoque disponível {3} para o lote {4} no armazém {5}. Reponha o item."
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:149
+msgid "At Row #{0}: The picked quantity {1} for the item {2} is greater than available stock {3} in the warehouse {4}."
+msgstr "Na linha #{0}: a quantidade separada {1} do item {2} é maior que o estoque disponível {3} no armazém {4}."
+
+#: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:84
+msgid "At least one account with exchange gain or loss is required"
+msgstr "É necessária pelo menos uma conta com ganho ou perda cambial"
+
+#: erpnext/assets/doctype/asset/asset.py:1269
+msgid "At least one asset has to be selected."
+msgstr "Pelo menos um ativo deve ser selecionado."
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:1037
+msgid "At least one invoice has to be selected."
+msgstr "Pelo menos uma fatura deve ser selecionada."
+
+#: erpnext/controllers/sales_and_purchase_return.py:168
+msgid "At least one item should be entered with negative quantity in return document"
+msgstr "Pelo menos um item deve ser informado com quantidade negativa no documento de devolucao"
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:530
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:548
+msgid "At least one mode of payment is required for POS invoice."
+msgstr "É necessário pelo menos um modo de pagamento para a fatura POS."
+
+#: erpnext/setup/doctype/terms_and_conditions/terms_and_conditions.py:34
+msgid "At least one of the Applicable Modules should be selected"
+msgstr "Pelo menos um dos módulos aplicáveis deve ser selecionado"
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:204
+msgid "At least one of the Selling or Buying must be selected"
+msgstr "Pelo menos uma das opções Venda ou Compra deve ser selecionada"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:25
+msgid "At least one row is required for a financial report template"
+msgstr "Pelo menos uma linha é necessária para um modelo de relatório financeiro"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:773
+msgid "At least one warehouse is mandatory"
+msgstr "Pelo menos um armazém é obrigatório"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:686
+msgid "At row #{0}: the Difference Account must not be a Stock type account, please change the Account Type for the account {1} or select a different account"
+msgstr "Na linha #{0}: a conta de diferença não pode ser do tipo estoque. Altere o tipo de conta da conta {1} ou selecione outra conta"
+
+#: erpnext/manufacturing/doctype/routing/routing.py:50
+msgid "At row #{0}: the sequence id {1} cannot be less than previous row sequence id {2}"
+msgstr "Na linha #{0}: o ID de sequência {1} não pode ser menor que o ID de sequência da linha anterior {2}"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:697
+msgid "At row #{0}: you have selected the Difference Account {1}, which is a Cost of Goods Sold type account. Please select a different account"
+msgstr "Na linha #{0}: você selecionou a conta de diferença {1}, que é uma conta do tipo custo das mercadorias vendidas. Selecione outra conta"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1077
+msgid "At row {0}: Batch No is mandatory for Item {1}"
+msgstr "Na linha {0}: o No. do Lote é obrigatório para o item {1}"
+
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:95
+msgid "At row {0}: Parent Row No cannot be set for item {1}"
+msgstr "Na linha {0}: o No. da Linha Pai não pode ser definido para o item {1}"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1062
+msgid "At row {0}: Qty is mandatory for the batch {1}"
+msgstr "Na linha {0}: a qtd. é obrigatória para o lote {1}"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1069
+msgid "At row {0}: Serial No is mandatory for Item {1}"
+msgstr "Na linha {0}: o n.º de série é obrigatório para o item {1}"
+
+#: erpnext/controllers/stock_controller.py:631
+msgid "At row {0}: Serial and Batch Bundle {1} has already created. Please remove the values from the serial no or batch no fields."
+msgstr "Na linha {0}: o pacote de série e lote {1} já foi criado. Remova os valores dos campos n.º de série ou n.º de lote."
+
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:89
+msgid "At row {0}: set Parent Row No for item {1}"
+msgstr "Na linha {0}: defina o No. da Linha Pai para o item {1}"
+
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.py:225
+msgid "Atleast one raw material for Finished Good Item {0} should be customer provided."
+msgstr "Pelo menos uma matéria-prima do item de produto acabado {0} deve ser fornecida pelo cliente."
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Atmosphere"
+msgstr ""
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:244
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:73
+msgid "Attach CSV File"
+msgstr "Anexar arquivo CSV"
+
+#. Description of the 'File to Rename' (Attach) field in DocType 'Rename Tool'
+#: erpnext/utilities/doctype/rename_tool/rename_tool.json
+msgid "Attach a comma separated .csv file with two columns, one for the old name and one for the new name."
+msgstr "Anexe um arquivo .csv separado por vírgulas com duas colunas, uma para o nome antigo e outra para o novo nome."
+
+#. Label of the import_file (Attach) field in DocType 'Chart of Accounts
+#. Importer'
+#: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.json
+msgid "Attach custom Chart of Accounts file"
+msgstr "Anexar arquivo personalizado do Plano de Contas"
+
+#. Label of the attendance_and_leave_details (Tab Break) field in DocType
+#. 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Attendance & Leaves"
+msgstr "Presença e licenças"
+
+#. Label of the attendance_device_id (Data) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Attendance Device ID (Biometric/RF tag ID)"
+msgstr "ID do dispositivo de presenca (ID biometrico/tag RF)"
+
+#. Label of the attribute (Link) field in DocType 'Website Attribute'
+#. Label of the attribute (Link) field in DocType 'Item Variant Attribute'
+#: erpnext/portal/doctype/website_attribute/website_attribute.json
+#: erpnext/stock/doctype/item_variant_attribute/item_variant_attribute.json
+msgid "Attribute"
+msgstr "Atributo"
+
+#. Label of the attribute_name (Data) field in DocType 'Item Attribute'
+#: erpnext/stock/doctype/item_attribute/item_attribute.json
+msgid "Attribute Name"
+msgstr "Nome do atributo"
+
+#. Label of the attribute_value (Data) field in DocType 'Item Attribute Value'
+#. Label of the attribute_value (Data) field in DocType 'Item Variant
+#. Attribute'
+#: erpnext/stock/doctype/item_attribute_value/item_attribute_value.json
+#: erpnext/stock/doctype/item_variant_attribute/item_variant_attribute.json
+msgid "Attribute Value"
+msgstr "Valor do atributo"
+
+#: erpnext/stock/doctype/item/item.py:923
+msgid "Attribute table is mandatory"
+msgstr "A tabela de atributos é obrigatória"
+
+#: erpnext/stock/doctype/item_attribute/item_attribute.py:108
+msgid "Attribute value: {0} must appear only once"
+msgstr "Valor do atributo: {0} deve aparecer apenas uma vez"
+
+#: erpnext/stock/doctype/item/item.py:927
+msgid "Attribute {0} selected multiple times in Attributes Table"
+msgstr "Atributo {0} selecionado várias vezes na tabela de atributos"
+
+#: erpnext/stock/doctype/item/item.py:855
+msgid "Attributes"
+msgstr "Atributos"
+
+#. Name of a role
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/account_category/account_category.json
+#: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.json
+#: erpnext/accounts/doctype/advance_payment_ledger_entry/advance_payment_ledger_entry.json
+#: erpnext/accounts/doctype/cost_center/cost_center.json
+#: erpnext/accounts/doctype/finance_book/finance_book.json
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.json
+#: erpnext/accounts/doctype/fiscal_year/fiscal_year.json
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+#: erpnext/accounts/doctype/loyalty_point_entry/loyalty_point_entry.json
+#: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/regional/doctype/south_africa_vat_settings/south_africa_vat_settings.json
+#: erpnext/setup/doctype/company/company.json
+msgid "Auditor"
+msgstr "Auditor"
+
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_connector.py:68
+msgid "Authentication Failed"
+msgstr "Autenticação Falhou"
+
+#. Label of the authorised_by_section (Section Break) field in DocType
+#. 'Contract'
+#: erpnext/crm/doctype/contract/contract.json
+msgid "Authorised By"
+msgstr "Autorizado por"
+
+#. Name of a DocType
+#: erpnext/setup/doctype/authorization_control/authorization_control.json
+msgid "Authorization Control"
+msgstr "Controle de Autorização"
+
+#. Name of a DocType
+#: erpnext/setup/doctype/authorization_rule/authorization_rule.json
+msgid "Authorization Rule"
+msgstr "Regra de Autorização"
+
+#: erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html:27
+msgid "Authorized Signatory"
+msgstr "Signatário Autorizado"
+
+#. Label of the value (Float) field in DocType 'Authorization Rule'
+#: erpnext/setup/doctype/authorization_rule/authorization_rule.json
+msgid "Authorized Value"
+msgstr "Valor autorizado"
+
+#. Label of the auto_create_assets (Check) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Auto Create Assets on Purchase"
+msgstr "Criar ativos automaticamente na compra"
+
+#. Label of the auto_exchange_rate_revaluation (Check) field in DocType
+#. 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Auto Create Exchange Rate Revaluation"
+msgstr "Criar reavaliação cambial automaticamente"
+
+#. Label of the auto_create_purchase_receipt (Check) field in DocType 'Buying
+#. Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Auto Create Purchase Receipt"
+msgstr "Criar Recebimento de Compra automaticamente"
+
+#. Label of the auto_create_serial_and_batch_bundle_for_outward (Check) field
+#. in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Auto Create Serial and Batch Bundle For Outward"
+msgstr "Criar automaticamente pacote de série e lote para saída"
+
+#. Label of the auto_create_subcontracting_order (Check) field in DocType
+#. 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Auto Create Subcontracting Order"
+msgstr "Criar pedido de subcontratação automaticamente"

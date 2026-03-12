@@ -1,0 +1,836 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#: erpnext/setup/doctype/sales_person/sales_person.py:54
+msgid "Either target qty or target amount is mandatory."
+msgstr "A qtd. alvo ou o valor alvo e obrigatorio."
+
+#. Option for the 'Fuel Type' (Select) field in DocType 'Vehicle'
+#: erpnext/setup/doctype/vehicle/vehicle.json
+msgid "Electric"
+msgstr "Eletrico"
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:222
+msgid "Electrical"
+msgstr "Elétrico"
+
+#: erpnext/patches/v16_0/make_workstation_operating_components.py:47
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:314
+msgid "Electricity"
+msgstr "Eletricidade"
+
+#. Option for the 'Stop Reason' (Select) field in DocType 'Downtime Entry'
+#: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json
+msgid "Electricity down"
+msgstr "Falta de energia"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:48
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:82
+msgid "Electronic Equipment"
+msgstr "Equipamentos eletronicos"
+
+#. Name of a report
+#: erpnext/regional/report/electronic_invoice_register/electronic_invoice_register.json
+msgid "Electronic Invoice Register"
+msgstr "Registro de Fatura Eletrônica"
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:20
+msgid "Electronics"
+msgstr "Eletronicos"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Ells (UK)"
+msgstr ""
+
+#: erpnext/www/book_appointment/index.html:52
+msgid "Email Address (required)"
+msgstr "Endereco de e-mail (obrigatorio)"
+
+#: erpnext/crm/doctype/lead/lead.py:164
+msgid "Email Address must be unique, it is already used in {0}"
+msgstr "O endereco de e-mail deve ser unico; ele ja esta em uso em {0}"
+
+#. Name of a DocType
+#. Label of a Link in the CRM Workspace
+#: erpnext/crm/doctype/email_campaign/email_campaign.json
+#: erpnext/crm/workspace/crm/crm.json
+msgid "Email Campaign"
+msgstr "Campanha de e-mail"
+
+#. Label of the email_campaign_for (Select) field in DocType 'Email Campaign'
+#: erpnext/crm/doctype/email_campaign/email_campaign.json
+msgid "Email Campaign For "
+msgstr "Campanha de e-mail para"
+
+#. Label of the supplier_response_section (Section Break) field in DocType
+#. 'Request for Quotation'
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
+msgid "Email Details"
+msgstr "Detalhes do e-mail"
+
+#. Name of a DocType
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "Email Digest"
+msgstr "Resumo por e-mail"
+
+#. Name of a DocType
+#: erpnext/setup/doctype/email_digest_recipient/email_digest_recipient.json
+msgid "Email Digest Recipient"
+msgstr "Destinatario do resumo por e-mail"
+
+#. Label of the settings (Section Break) field in DocType 'Email Digest'
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "Email Digest Settings"
+msgstr "Configuracoes do resumo por e-mail"
+
+#: erpnext/setup/doctype/email_digest/email_digest.js:15
+msgid "Email Digest: {0}"
+msgstr "Resumo por e-mail: {0}"
+
+#: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:50
+msgid "Email Receipt"
+msgstr "Enviar recibo por e-mail"
+
+#. Label of the email_sent (Check) field in DocType 'Request for Quotation
+#. Supplier'
+#: erpnext/buying/doctype/request_for_quotation_supplier/request_for_quotation_supplier.json
+msgid "Email Sent"
+msgstr "E-mail enviado"
+
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:333
+msgid "Email Sent to Supplier {0}"
+msgstr "E-mail enviado ao fornecedor {0}"
+
+#: erpnext/stock/doctype/shipment/shipment.js:174
+msgid "Email or Phone/Mobile of the Contact are mandatory to continue."
+msgstr "O e-mail ou o telefone/celular do contato sao obrigatorios para continuar."
+
+#: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:322
+msgid "Email sent successfully."
+msgstr "E-mail enviado com sucesso."
+
+#. Label of the email_sent_to (Data) field in DocType 'Delivery Stop'
+#: erpnext/stock/doctype/delivery_stop/delivery_stop.json
+msgid "Email sent to"
+msgstr "E-mail enviado para"
+
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.py:442
+msgid "Email sent to {0}"
+msgstr "E-mail enviado para {0}"
+
+#: erpnext/crm/doctype/appointment/appointment.py:114
+msgid "Email verification failed."
+msgstr "Falha na verificacao do e-mail."
+
+#: erpnext/accounts/letterhead/company_letterhead.html:96
+#: erpnext/accounts/letterhead/company_letterhead_grey.html:114
+msgid "Email:"
+msgstr "E-mail:"
+
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.js:20
+msgid "Emails Queued"
+msgstr "E-mails na fila"
+
+#. Label of the emergency_contact_details (Section Break) field in DocType
+#. 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Emergency Contact"
+msgstr "Contato de emergencia"
+
+#. Label of the person_to_be_contacted (Data) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Emergency Contact Name"
+msgstr "Nome do contato de emergencia"
+
+#. Label of the emergency_phone_number (Data) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Emergency Phone"
+msgstr "Telefone de emergencia"
+
+#. Name of a role
+#. Label of the employee (Link) field in DocType 'Supplier Scorecard'
+#. Option for the 'Party Type' (Select) field in DocType 'Contract'
+#. Label of the employee (Table MultiSelect) field in DocType 'Job Card'
+#. Label of the employee (Link) field in DocType 'Job Card Time Log'
+#. Label of the employee (Link) field in DocType 'Activity Cost'
+#. Label of the employee (Link) field in DocType 'Timesheet'
+#. Label of the employee (Link) field in DocType 'Driver'
+#. Name of a DocType
+#. Label of the employee (Data) field in DocType 'Employee'
+#. Label of the section_break_00 (Section Break) field in DocType 'Employee
+#. Group'
+#. Label of the employee_list (Table) field in DocType 'Employee Group'
+#. Label of the employee (Link) field in DocType 'Employee Group Table'
+#. Label of the employee (Link) field in DocType 'Sales Person'
+#. Label of the employee (Link) field in DocType 'Vehicle'
+#. Label of the employee (Link) field in DocType 'Delivery Trip'
+#. Label of the employee (Link) field in DocType 'Serial No'
+#: erpnext/accounts/doctype/cost_center/cost_center.json
+#: erpnext/accounts/doctype/fiscal_year/fiscal_year.json
+#: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json
+#: erpnext/crm/doctype/appointment/appointment.json
+#: erpnext/crm/doctype/contract/contract.json
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/job_card/job_card_calendar.js:27
+#: erpnext/manufacturing/doctype/job_card_time_log/job_card_time_log.json
+#: erpnext/manufacturing/doctype/workstation/workstation.js:328
+#: erpnext/manufacturing/doctype/workstation/workstation.js:359
+#: erpnext/projects/doctype/activity_cost/activity_cost.json
+#: erpnext/projects/doctype/activity_type/activity_type.json
+#: erpnext/projects/doctype/project/project.json
+#: erpnext/projects/doctype/timesheet/timesheet.json
+#: erpnext/projects/doctype/timesheet/timesheet_calendar.js:28
+#: erpnext/projects/report/daily_timesheet_summary/daily_timesheet_summary.py:27
+#: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.js:10
+#: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.js:45
+#: erpnext/quality_management/doctype/non_conformance/non_conformance.json
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/setup/doctype/department/department.json
+#: erpnext/setup/doctype/driver/driver.json
+#: erpnext/setup/doctype/employee/employee.json
+#: erpnext/setup/doctype/employee_group/employee_group.json
+#: erpnext/setup/doctype/employee_group_table/employee_group_table.json
+#: erpnext/setup/doctype/sales_person/sales_person.json
+#: erpnext/setup/doctype/sales_person/sales_person_tree.js:7
+#: erpnext/setup/doctype/vehicle/vehicle.json
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.json
+#: erpnext/stock/doctype/serial_no/serial_no.json
+#: erpnext/telephony/doctype/call_log/call_log.json
+msgid "Employee"
+msgstr "Colaborador"
+
+#. Label of the employee_link (Link) field in DocType 'Supplier Scorecard
+#. Scoring Standing'
+#: erpnext/buying/doctype/supplier_scorecard_scoring_standing/supplier_scorecard_scoring_standing.json
+msgid "Employee "
+msgstr "Colaborador"
+
+#. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
+#. Account'
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+msgid "Employee Advance"
+msgstr "Adiantamento a colaborador"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:26
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:37
+msgid "Employee Advances"
+msgstr "Adiantamentos a colaboradores"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:184
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:322
+msgid "Employee Benefits Obligation"
+msgstr "Obrigacoes com beneficios a colaboradores"
+
+#. Label of the employee_detail (Section Break) field in DocType 'Timesheet'
+#: erpnext/projects/doctype/timesheet/timesheet.json
+msgid "Employee Detail"
+msgstr "Detalhes do colaborador"
+
+#. Name of a DocType
+#: erpnext/setup/doctype/employee_education/employee_education.json
+msgid "Employee Education"
+msgstr "Escolaridade do Colaborador"
+
+#. Label of the exit (Tab Break) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Employee Exit"
+msgstr "Desligamento do colaborador"
+
+#. Name of a DocType
+#: erpnext/setup/doctype/employee_external_work_history/employee_external_work_history.json
+msgid "Employee External Work History"
+msgstr "Histórico de Trabalho Externo do Colaborador"
+
+#. Label of the employee_group (Link) field in DocType 'Communication Medium
+#. Timeslot'
+#. Name of a DocType
+#: erpnext/communication/doctype/communication_medium_timeslot/communication_medium_timeslot.json
+#: erpnext/setup/doctype/employee_group/employee_group.json
+msgid "Employee Group"
+msgstr "Grupo de colaboradores"
+
+#. Name of a DocType
+#: erpnext/setup/doctype/employee_group_table/employee_group_table.json
+msgid "Employee Group Table"
+msgstr "Tabela de grupo de colaboradores"
+
+#: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.py:33
+msgid "Employee ID"
+msgstr "ID do colaborador"
+
+#. Name of a DocType
+#: erpnext/setup/doctype/employee_internal_work_history/employee_internal_work_history.json
+msgid "Employee Internal Work History"
+msgstr "Histórico de Trabalho Interno do Colaborador"
+
+#. Label of the employee_name (Data) field in DocType 'Activity Cost'
+#. Label of the employee_name (Data) field in DocType 'Timesheet'
+#. Label of the employee_name (Data) field in DocType 'Employee Group Table'
+#: erpnext/projects/doctype/activity_cost/activity_cost.json
+#: erpnext/projects/doctype/timesheet/timesheet.json
+#: erpnext/projects/report/daily_timesheet_summary/daily_timesheet_summary.py:28
+#: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.py:53
+#: erpnext/setup/doctype/employee_group_table/employee_group_table.json
+msgid "Employee Name"
+msgstr "Nome do Colaborador"
+
+#. Label of the employee_number (Data) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Employee Number"
+msgstr "Matricula do colaborador"
+
+#. Label of the employee_user_id (Link) field in DocType 'Call Log'
+#: erpnext/telephony/doctype/call_log/call_log.json
+msgid "Employee User Id"
+msgstr "ID do usuario do colaborador"
+
+#: erpnext/setup/doctype/employee/employee.py:214
+msgid "Employee cannot report to himself."
+msgstr "O colaborador nao pode responder a si mesmo."
+
+#: erpnext/assets/doctype/asset_movement/asset_movement.py:96
+msgid "Employee is required while issuing Asset {0}"
+msgstr "O colaborador e obrigatorio ao emitir o ativo {0}"
+
+#: erpnext/assets/doctype/asset_movement/asset_movement.py:79
+#: erpnext/assets/doctype/asset_movement/asset_movement.py:100
+msgid "Employee {0} does not belong to the company {1}"
+msgstr "O colaborador {0} nao pertence a empresa {1}"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:310
+msgid "Employee {0} is currently working on another workstation. Please assign another employee."
+msgstr "O colaborador {0} esta trabalhando em outro posto de trabalho no momento. Atribua outro colaborador."
+
+#: erpnext/manufacturing/doctype/workstation/workstation.js:351
+msgid "Employees"
+msgstr "Colaboradores"
+
+#: erpnext/stock/doctype/batch/batch_list.js:16
+msgid "Empty"
+msgstr "Vazio"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Ems(Pica)"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1720
+msgid "Enable Allow Partial Reservation in the Stock Settings to reserve partial stock."
+msgstr "Ative Permitir reserva parcial nas Configuracoes de estoque para reservar estoque parcial."
+
+#. Label of the enable_scheduling (Check) field in DocType 'Appointment Booking
+#. Settings'
+#: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
+msgid "Enable Appointment Scheduling"
+msgstr "Ativar agendamento de compromissos"
+
+#. Label of the enable_auto_email (Check) field in DocType 'Process Statement
+#. Of Accounts'
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+msgid "Enable Auto Email"
+msgstr "Ativar e-mail automatico"
+
+#: erpnext/stock/doctype/item/item.py:1062
+msgid "Enable Auto Re-Order"
+msgstr "Ativar Reordenação Automática"
+
+#. Label of the enable_party_matching (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Enable Automatic Party Matching"
+msgstr "Ativar conciliacao automatica de entidades"
+
+#. Label of the enable_cwip_accounting (Check) field in DocType 'Asset
+#. Category'
+#: erpnext/assets/doctype/asset_category/asset_category.json
+msgid "Enable Capital Work in Progress Accounting"
+msgstr "Ativar contabilizacao de ativo em andamento"
+
+#. Label of the enable_common_party_accounting (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Enable Common Party Accounting"
+msgstr "Ativar contabilizacao comum de entidades"
+
+#. Label of the enable_cutoff_date_on_bulk_delivery_note_creation (Check) field
+#. in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Enable Cut-Off Date on Bulk Delivery Note Creation"
+msgstr "Ativar data limite na criacao em massa de notas de entrega"
+
+#. Label of the enable_deferred_expense (Check) field in DocType 'Purchase
+#. Invoice Item'
+#. Label of the enable_deferred_expense (Check) field in DocType 'Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/stock/doctype/item/item.json
+msgid "Enable Deferred Expense"
+msgstr "Ativar despesa diferida"
+
+#. Label of the enable_deferred_revenue (Check) field in DocType 'POS Invoice
+#. Item'
+#. Label of the enable_deferred_revenue (Check) field in DocType 'Sales Invoice
+#. Item'
+#. Label of the enable_deferred_revenue (Check) field in DocType 'Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/stock/doctype/item/item.json
+msgid "Enable Deferred Revenue"
+msgstr "Ativar receita diferida"
+
+#. Label of the enable_discount_accounting (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Enable Discount Accounting for Selling"
+msgstr "Ativar contabilizacao de descontos em vendas"
+
+#. Label of the enable_european_access (Check) field in DocType 'Plaid
+#. Settings'
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.json
+msgid "Enable European Access"
+msgstr "Ativar acesso europeu"
+
+#. Label of the enable_fuzzy_matching (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Enable Fuzzy Matching"
+msgstr "Ativar correspondencia aproximada"
+
+#. Label of the enable_health_monitor (Check) field in DocType 'Ledger Health
+#. Monitor'
+#: erpnext/accounts/doctype/ledger_health_monitor/ledger_health_monitor.json
+msgid "Enable Health Monitor"
+msgstr "Ativar monitor de integridade"
+
+#. Label of the enable_immutable_ledger (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Enable Immutable Ledger"
+msgstr "Ativar razao imutavel"
+
+#. Label of the enable_item_wise_inventory_account (Check) field in DocType
+#. 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Enable Item-wise Inventory Account"
+msgstr "Ativar conta de estoque por item"
+
+#. Label of the enable_parallel_reposting (Check) field in DocType 'Stock
+#. Reposting Settings'
+#: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.json
+msgid "Enable Parallel Reposting"
+msgstr "Ativar repostagem paralela"
+
+#. Label of the enable_perpetual_inventory (Check) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Enable Perpetual Inventory"
+msgstr "Ativar estoque perpetuo"
+
+#. Label of the enable_provisional_accounting_for_non_stock_items (Check) field
+#. in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Enable Provisional Accounting For Non Stock Items"
+msgstr "Ativar contabilizacao provisoria para itens nao estocaveis"
+
+#. Label of the enable_stock_reservation (Check) field in DocType 'Stock
+#. Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Enable Stock Reservation"
+msgstr "Ativar reserva de estoque"
+
+#. Label of the enable_youtube_tracking (Check) field in DocType 'Video
+#. Settings'
+#: erpnext/utilities/doctype/video_settings/video_settings.json
+msgid "Enable YouTube Tracking"
+msgstr "Ativar rastreamento do YouTube"
+
+#. Description of the 'Consider Rejected Warehouses' (Check) field in DocType
+#. 'Pick List'
+#: erpnext/stock/doctype/pick_list/pick_list.json
+msgid "Enable it if users want to consider rejected materials to dispatch."
+msgstr "Ative se os usuarios quiserem considerar materiais rejeitados para expedicao."
+
+#. Description of the 'Has Priority' (Check) field in DocType 'Pricing Rule'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+msgid "Enable this checkbox even if you want to set the zero priority"
+msgstr "Ative esta caixa mesmo se quiser definir a prioridade zero"
+
+#. Description of the 'Calculate daily depreciation using total days in
+#. depreciation period' (Check) field in DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Enable this option to calculate daily depreciation by considering the total number of days in the entire depreciation period, (including leap years) while using daily pro-rata based depreciation"
+msgstr "Ative esta opcao para calcular a depreciacao diaria considerando o numero total de dias de todo o periodo de depreciacao (incluindo anos bissextos) ao usar depreciacao diaria proporcional"
+
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.js:34
+msgid "Enable to apply SLA on every {0}"
+msgstr "Ative para aplicar SLA em cada {0}"
+
+#. Description of the 'Fetch Timesheet in Sales Invoice' (Check) field in
+#. DocType 'Projects Settings'
+#: erpnext/projects/doctype/projects_settings/projects_settings.json
+msgid "Enabling the check box will fetch timesheet on select of a Project in Sales Invoice"
+msgstr "Ao ativar esta caixa, a planilha de horas sera buscada ao selecionar um projeto na fatura de venda"
+
+#. Description of the 'Enforce Time Logs' (Check) field in DocType
+#. 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Enabling this checkbox will force each Job Card Time Log to have From Time and To Time"
+msgstr "Ao ativar esta caixa, cada registro de tempo do cartao de trabalho devera ter Hora inicial e Hora final"
+
+#. Description of the 'Check Supplier Invoice Number Uniqueness' (Check) field
+#. in DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Enabling this ensures each Purchase Invoice has a unique value in Supplier Invoice No. field within a particular fiscal year"
+msgstr "Ao ativar, cada fatura de compra devera ter um valor unico no campo Nro. da fatura do fornecedor dentro do mesmo exercicio fiscal"
+
+#. Description of the 'Book Advance Payments in Separate Party Account' (Check)
+#. field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Enabling this option will allow you to record - <br><br> 1. Advances Received in a <b>Liability Account</b> instead of the <b>Asset Account</b><br><br>2. Advances Paid in an <b>Asset Account</b> instead of the <b> Liability Account</b>"
+msgstr "Ao ativar esta opcao, voce podera registrar - <br><br> 1. Adiantamentos recebidos em uma <b>Conta de passivo</b> em vez da <b>Conta de ativo</b><br><br>2. Adiantamentos pagos em uma <b>Conta de ativo</b> em vez da <b> Conta de passivo</b>"
+
+#. Description of the 'Allow multi-currency invoices against single party
+#. account ' (Check) field in DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Enabling this will allow creation of multi-currency invoices against single party account in company currency"
+msgstr "Ao ativar, sera possivel criar faturas em varias moedas para uma unica conta da parte na moeda da empresa"
+
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.js:11
+msgid "Enabling this will change the way how cancelled transactions are handled."
+msgstr "Ao ativar, a forma como as transacoes canceladas sao tratadas sera alterada."
+
+#. Label of the encashment_date (Date) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Encashment Date"
+msgstr "Data de conversao em dinheiro"
+
+#: erpnext/crm/doctype/contract/contract.py:70
+msgid "End Date cannot be before Start Date."
+msgstr "A data de término não pode ser anterior à data de início."
+
+#. Label of the end_time (Time) field in DocType 'Workstation Working Hour'
+#. Label of the end_time (Time) field in DocType 'Stock Reposting Settings'
+#. Label of the end_time (Time) field in DocType 'Service Day'
+#. Label of the end_time (Datetime) field in DocType 'Call Log'
+#: erpnext/manufacturing/doctype/job_card/job_card.js:375
+#: erpnext/manufacturing/doctype/job_card/job_card.js:445
+#: erpnext/manufacturing/doctype/workstation_working_hour/workstation_working_hour.json
+#: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.json
+#: erpnext/support/doctype/service_day/service_day.json
+#: erpnext/telephony/doctype/call_log/call_log.json
+msgid "End Time"
+msgstr "Hora final"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:292
+msgid "End Transit"
+msgstr "Encerrar transito"
+
+#: erpnext/accounts/report/consolidated_financial_statement/consolidated_financial_statement.js:80
+#: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.js:64
+#: erpnext/accounts/report/financial_ratios/financial_ratios.js:25
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.js:89
+#: erpnext/public/js/financial_statements.js:351
+msgid "End Year"
+msgstr "Ano Final"
+
+#: erpnext/accounts/report/financial_statements.py:133
+msgid "End Year cannot be before Start Year"
+msgstr "O ano final não pode ser antes do ano de início"
+
+#: erpnext/accounts/doctype/process_deferred_accounting/process_deferred_accounting.js:48
+#: erpnext/accounts/doctype/process_deferred_accounting/process_deferred_accounting.py:37
+msgid "End date cannot be before start date"
+msgstr "A data de término não pode ser anterior à data de início"
+
+#. Description of the 'To Date' (Date) field in DocType 'Purchase Invoice'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+msgid "End date of current invoice's period"
+msgstr "Data final do periodo da fatura atual"
+
+#. Label of the end_of_life (Date) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "End of Life"
+msgstr "Fim de vida util"
+
+#. Option for the 'Generate Invoice At' (Select) field in DocType
+#. 'Subscription'
+#: erpnext/accounts/doctype/subscription/subscription.json
+msgid "End of the current subscription period"
+msgstr "Fim do periodo atual da assinatura"
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:21
+msgid "Energy"
+msgstr "Energia"
+
+#. Label of the enforce_time_logs (Check) field in DocType 'Manufacturing
+#. Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Enforce Time Logs"
+msgstr "Exigir registros de tempo"
+
+#: erpnext/setup/setup_wizard/data/designation.txt:15
+msgid "Engineer"
+msgstr "Engenheiro"
+
+#: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.html:13
+#: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.html:23
+#: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py:30
+msgid "Enough Parts to Build"
+msgstr "Peças Suficientes Para Construir"
+
+#. Label of the ensure_delivery_based_on_produced_serial_no (Check) field in
+#. DocType 'Sales Order Item'
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+msgid "Ensure Delivery Based on Produced Serial No"
+msgstr "Garantir entrega com base no nro. de serie produzido"
+
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.py:279
+msgid "Enter API key in Google Settings."
+msgstr "Digite a Chave da API Nas Configurações do Google."
+
+#: erpnext/public/js/print.js:51
+msgid "Enter Company Details"
+msgstr "Informe os dados da empresa"
+
+#: erpnext/setup/doctype/employee/employee.js:108
+msgid "Enter First and Last name of Employee, based on Which Full Name will be updated. IN transactions, it will be Full Name which will be fetched."
+msgstr "Informe o nome e o sobrenome do colaborador, com base nos quais o nome completo sera atualizado. Nas transacoes, sera o nome completo que sera buscado."
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:201
+msgid "Enter Manually"
+msgstr "Inserir manualmente"
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:279
+msgid "Enter Serial Nos"
+msgstr "Inserir nros. de serie"
+
+#: erpnext/stock/doctype/material_request/material_request.js:425
+msgid "Enter Supplier"
+msgstr "Informe o fornecedor"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.js:402
+#: erpnext/manufacturing/doctype/job_card/job_card.js:471
+#: erpnext/manufacturing/doctype/workstation/workstation.js:312
+msgid "Enter Value"
+msgstr "Digite o Valor"
+
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.js:96
+msgid "Enter Visit Details"
+msgstr "Informe os detalhes da visita"
+
+#: erpnext/manufacturing/doctype/routing/routing.js:88
+msgid "Enter a name for Routing."
+msgstr "Informe um nome para o roteiro."
+
+#: erpnext/manufacturing/doctype/operation/operation.js:20
+msgid "Enter a name for the Operation, for example, Cutting."
+msgstr "Informe um nome para a operacao, por exemplo, Corte."
+
+#: erpnext/setup/doctype/holiday_list/holiday_list.js:50
+msgid "Enter a name for this Holiday List."
+msgstr "Informe um nome para esta lista de feriados."
+
+#: erpnext/selling/page/point_of_sale/pos_payment.js:616
+msgid "Enter amount to be redeemed."
+msgstr "Insira o valor a ser resgatado."
+
+#: erpnext/stock/doctype/item/item.js:1034
+msgid "Enter an Item Code, the name will be auto-filled the same as Item Code on clicking inside the Item Name field."
+msgstr "Informe um codigo do item; ao clicar no campo Nome do item, o nome sera preenchido automaticamente com o mesmo valor do codigo do item."
+
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:942
+msgid "Enter customer's email"
+msgstr "Informe o e-mail do cliente"
+
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:948
+msgid "Enter customer's phone number"
+msgstr "Insira o número de telefone do cliente"
+
+#: erpnext/assets/doctype/asset/asset.js:804
+msgid "Enter date to scrap asset"
+msgstr "Informe a data para sucatear o ativo"
+
+#: erpnext/assets/doctype/asset/asset.py:475
+msgid "Enter depreciation details"
+msgstr "Insira detalhes de depreciação"
+
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:408
+msgid "Enter discount percentage."
+msgstr "Insira a porcentagem de desconto."
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:282
+msgid "Enter each serial no in a new line"
+msgstr "Informe cada nro. de serie em uma nova linha"
+
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:51
+msgid "Enter the Bank Guarantee Number before submitting."
+msgstr "Informe o numero da garantia bancaria antes de enviar."
+
+#: erpnext/manufacturing/doctype/routing/routing.js:93
+msgid "Enter the Operation, the table will fetch the Operation details like Hourly Rate, Workstation automatically.\n\n"
+" After that, set the Operation Time in minutes and the table will calculate the Operation Costs based on the Hourly Rate and Operation Time."
+msgstr "Informe a operacao; a tabela buscara automaticamente os detalhes da operacao, como tarifa horaria e posto de trabalho.\n\n"
+" Depois disso, defina o tempo da operacao em minutos e a tabela calculara os custos da operacao com base na tarifa horaria e no tempo da operacao."
+
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:53
+msgid "Enter the name of the Beneficiary before submitting."
+msgstr "Informe o nome do beneficiario antes de enviar."
+
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:55
+msgid "Enter the name of the bank or lending institution before submitting."
+msgstr "Informe o nome do banco ou da instituicao financeira antes de enviar."
+
+#: erpnext/stock/doctype/item/item.js:1060
+msgid "Enter the opening stock units."
+msgstr "Informe as unidades do estoque inicial."
+
+#: erpnext/manufacturing/doctype/bom/bom.js:935
+msgid "Enter the quantity of the Item that will be manufactured from this Bill of Materials."
+msgstr "Informe a quantidade do item que sera fabricada a partir desta lista de materiais."
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1133
+msgid "Enter the quantity to manufacture. Raw material Items will be fetched only when this is set."
+msgstr "Informe a quantidade a fabricar. Os itens de materia-prima serao buscados somente quando este campo for definido."
+
+#: erpnext/selling/page/point_of_sale/pos_payment.js:539
+msgid "Enter {0} amount."
+msgstr "Insira o valor de {0}."
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:22
+msgid "Entertainment & Leisure"
+msgstr "Entretenimento e lazer"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:106
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:181
+msgid "Entertainment Expenses"
+msgstr "Despesas Com Entretenimento"
+
+#. Label of the entity (Dynamic Link) field in DocType 'Service Level
+#. Agreement'
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
+msgid "Entity"
+msgstr "Entidade"
+
+#. Label of the voucher_type (Select) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Entry Type"
+msgstr "Tipo de lancamento"
+
+#. Option for the 'Root Type' (Select) field in DocType 'Account'
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#. Option for the 'Root Type' (Select) field in DocType 'Ledger Merge'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:189
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:332
+#: erpnext/accounts/doctype/ledger_merge/ledger_merge.json
+#: erpnext/accounts/report/account_balance/account_balance.js:29
+#: erpnext/accounts/report/account_balance/account_balance.js:45
+#: erpnext/accounts/report/balance_sheet/balance_sheet.py:253
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:306
+msgid "Equity"
+msgstr "Patrimônio Líquido"
+
+#. Label of the equity_or_liability_account (Link) field in DocType 'Share
+#. Transfer'
+#: erpnext/accounts/doctype/share_transfer/share_transfer.json
+msgid "Equity/Liability Account"
+msgstr "Conta de patrimonio/passivo"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Erg"
+msgstr ""
+
+#. Label of the description (Long Text) field in DocType 'Asset Repair'
+#. Label of the error_description (Long Text) field in DocType 'Bulk
+#. Transaction Log Detail'
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+#: erpnext/bulk_transaction/doctype/bulk_transaction_log_detail/bulk_transaction_log_detail.json
+msgid "Error Description"
+msgstr "Descricao do erro"
+
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:277
+msgid "Error Occurred"
+msgstr "Ocorreu um erro"
+
+#: erpnext/telephony/doctype/call_log/call_log.py:195
+msgid "Error during caller information update"
+msgstr "Erro ao atualizar as informacoes do chamador"
+
+#: erpnext/buying/doctype/supplier_scorecard_criteria/supplier_scorecard_criteria.py:53
+msgid "Error evaluating the criteria formula"
+msgstr "Erro ao avaliar a fórmula de critérios"
+
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:307
+msgid "Error in party matching for Bank Transaction {0}"
+msgstr "Erro na conciliacao de partes da transacao bancaria {0}"
+
+#: erpnext/assets/doctype/asset/depreciation.py:317
+msgid "Error while posting depreciation entries"
+msgstr "Erro ao lancar os registros de depreciacao"
+
+#: erpnext/accounts/deferred_revenue.py:541
+msgid "Error while processing deferred accounting for {0}"
+msgstr "Erro ao processar a contabilizacao diferida de {0}"
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:516
+msgid "Error while reposting item valuation"
+msgstr "Erro ao refazer a avaliacao do item"
+
+#: erpnext/assets/doctype/asset_depreciation_schedule/deppreciation_schedule_controller.py:176
+msgid "Error: This asset already has {0} depreciation periods booked.\n"
+"\t\t\t\t\tThe `depreciation start` date must be at least {1} periods after the `available for use` date.\n"
+"\t\t\t\t\tPlease correct the dates accordingly."
+msgstr "Erro: Este ativo ja tem {0} periodos de depreciacao contabilizados.\n\t\t\t\t\tA data de `inicio da depreciacao` deve ser pelo menos {1} periodos apos a data `disponivel para uso`.\n\t\t\t\t\tCorrija as datas adequadamente."
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.js:962
+msgid "Error: {0} is mandatory field"
+msgstr "Erro: {0} é campo obrigatório"
+
+#. Label of the errors_notification_section (Section Break) field in DocType
+#. 'Stock Reposting Settings'
+#: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.json
+msgid "Errors Notification"
+msgstr "Notificacao de erros"
+
+#. Label of the estimated_arrival (Datetime) field in DocType 'Delivery Stop'
+#: erpnext/stock/doctype/delivery_stop/delivery_stop.json
+msgid "Estimated Arrival"
+msgstr "Chegada estimada"
+
+#. Label of the estimated_costing (Currency) field in DocType 'Project'
+#: erpnext/buying/report/procurement_tracker/procurement_tracker.py:96
+#: erpnext/projects/doctype/project/project.json
+msgid "Estimated Cost"
+msgstr "Custo Estimado"
+
+#. Label of the estimated_time_and_cost (Section Break) field in DocType 'Work
+#. Order Operation'
+#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
+msgid "Estimated Time and Cost"
+msgstr "Tempo e custo estimados"
+
+#. Label of the period (Select) field in DocType 'Supplier Scorecard'
+#: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json
+msgid "Evaluation Period"
+msgstr "Periodo de avaliacao"
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:48
+msgid "Even if there are multiple Pricing Rules with highest priority, then following internal priorities are applied:"
+msgstr "Mesmo que haja varias regras de precificacao com a maior prioridade, as seguintes prioridades internas serao aplicadas:"

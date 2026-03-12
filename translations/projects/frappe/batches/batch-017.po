@@ -1,0 +1,822 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:35+0000\n"
+"PO-Revision-Date: 2026-01-21 06:48\n"
+"Last-Translator: developers@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File-ID: 138\n"
+"Language: pt_BR\n"
+
+#: frappe/database/query.py:791
+msgid "Invalid filter field format: {0}. Use 'fieldname' or 'link_fieldname.target_fieldname'."
+msgstr ""
+
+#: frappe/public/js/frappe/ui/filters/filter_list.js:201
+msgid "Invalid filter: {0}"
+msgstr ""
+
+#: frappe/database/query.py:2003
+msgid "Invalid function argument type: {0}. Only strings, numbers, lists, and None are allowed."
+msgstr ""
+
+#: frappe/core/api/user_invitation.py:17
+msgid "Invalid input"
+msgstr ""
+
+#: frappe/desk/doctype/dashboard/dashboard.py:67
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:424
+msgid "Invalid json added in the custom options: {0}"
+msgstr ""
+
+#: frappe/core/api/user_invitation.py:115
+msgid "Invalid key"
+msgstr ""
+
+#: frappe/model/naming.py:498
+msgid "Invalid name type (integer) for varchar name column"
+msgstr ""
+
+#: frappe/model/naming.py:62
+msgid "Invalid naming series {}: dot (.) missing"
+msgstr ""
+
+#: frappe/model/naming.py:76
+msgid "Invalid naming series {}: dot (.) missing before the numeric placeholders. Kindly use a format like <b>ABCD.#####</b>."
+msgstr ""
+
+#: frappe/database/query.py:2075
+msgid "Invalid nested expression: dictionary must represent a function or operator"
+msgstr ""
+
+#: frappe/core/doctype/data_import/importer.py:453
+msgid "Invalid or corrupted content for import"
+msgstr ""
+
+#: frappe/website/doctype/website_settings/website_settings.py:139
+msgid "Invalid redirect regex in row #{}: {}"
+msgstr ""
+
+#: frappe/app.py:340
+msgid "Invalid request arguments"
+msgstr ""
+
+#: frappe/app.py:327
+msgid "Invalid request body"
+msgstr ""
+
+#: frappe/core/doctype/user_invitation/user_invitation.py:181
+msgid "Invalid role"
+msgstr ""
+
+#: frappe/database/query.py:744
+msgid "Invalid simple filter format: {0}"
+msgstr ""
+
+#: frappe/database/query.py:673
+msgid "Invalid start for filter condition: {0}. Expected a list or tuple."
+msgstr ""
+
+#: frappe/core/doctype/data_import/importer.py:430
+msgid "Invalid template file for import"
+msgstr ""
+
+#: frappe/integrations/doctype/connected_app/connected_app.py:208
+msgid "Invalid token state! Check if the token has been created by the OAuth user."
+msgstr ""
+
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.py:165
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.py:338
+msgid "Invalid username or password"
+msgstr ""
+
+#: frappe/model/naming.py:176
+msgid "Invalid value specified for UUID: {}"
+msgstr ""
+
+#: frappe/public/js/frappe/web_form/web_form.js:253
+msgctxt "Error message in web form"
+msgid "Invalid values for fields:"
+msgstr ""
+
+#: frappe/printing/page/print/print.js:673
+msgid "Invalid wkhtmltopdf version"
+msgstr ""
+
+#: frappe/core/doctype/doctype/doctype.py:1579
+msgid "Invalid {0} condition"
+msgstr ""
+
+#: frappe/database/query.py:1964
+msgid "Invalid {0} dictionary format"
+msgstr ""
+
+#. Option for the 'Style' (Select) field in DocType 'Workflow State'
+#: frappe/workflow/doctype/workflow_state/workflow_state.json
+msgid "Inverse"
+msgstr "Inverso"
+
+#: frappe/core/doctype/user_invitation/user_invitation.py:95
+msgid "Invitation already accepted"
+msgstr ""
+
+#: frappe/core/doctype/user_invitation/user_invitation.py:99
+msgid "Invitation already exists"
+msgstr ""
+
+#: frappe/core/api/user_invitation.py:84
+msgid "Invitation cannot be cancelled"
+msgstr ""
+
+#: frappe/core/doctype/user_invitation/user_invitation.py:127
+msgid "Invitation is cancelled"
+msgstr ""
+
+#: frappe/core/doctype/user_invitation/user_invitation.py:125
+msgid "Invitation is expired"
+msgstr ""
+
+#: frappe/core/api/user_invitation.py:73 frappe/core/api/user_invitation.py:78
+msgid "Invitation not found"
+msgstr ""
+
+#: frappe/core/doctype/user_invitation/user_invitation.py:59
+msgid "Invitation to join {0} cancelled"
+msgstr ""
+
+#: frappe/core/doctype/user_invitation/user_invitation.py:76
+msgid "Invitation to join {0} expired"
+msgstr ""
+
+#: frappe/contacts/doctype/contact/contact.js:30
+msgid "Invite as User"
+msgstr ""
+
+#. Label of the invited_by (Link) field in DocType 'User Invitation'
+#: frappe/core/doctype/user_invitation/user_invitation.json
+msgid "Invited By"
+msgstr ""
+
+#: frappe/public/js/frappe/ui/filters/filter.js:22
+msgid "Is"
+msgstr ""
+
+#. Label of the is_active (Check) field in DocType 'Workflow'
+#: frappe/workflow/doctype/workflow/workflow.json
+msgid "Is Active"
+msgstr ""
+
+#. Label of the is_attachments_folder (Check) field in DocType 'File'
+#: frappe/core/doctype/file/file.json
+msgid "Is Attachments Folder"
+msgstr "É Pasta de Anexos"
+
+#. Label of the is_calendar_and_gantt (Check) field in DocType 'DocType'
+#. Label of the is_calendar_and_gantt (Check) field in DocType 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Is Calendar and Gantt"
+msgstr ""
+
+#. Label of the istable (Check) field in DocType 'DocType'
+#. Label of the is_child_table (Check) field in DocType 'DocType Link'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/core/doctype/doctype/doctype_list.js:50
+#: frappe/core/doctype/doctype_link/doctype_link.json
+msgid "Is Child Table"
+msgstr ""
+
+#. Label of the is_complete (Check) field in DocType 'Module Onboarding'
+#. Label of the is_complete (Check) field in DocType 'Onboarding Step'
+#: frappe/desk/doctype/module_onboarding/module_onboarding.json
+#: frappe/desk/doctype/onboarding_step/onboarding_step.json
+msgid "Is Complete"
+msgstr "Está completo"
+
+#. Label of the is_completed (Check) field in DocType 'Email Flag Queue'
+#: frappe/email/doctype/email_flag_queue/email_flag_queue.json
+msgid "Is Completed"
+msgstr "Está completo"
+
+#. Label of the is_current (Check) field in DocType 'User Session Display'
+#: frappe/core/doctype/user_session_display/user_session_display.json
+msgid "Is Current"
+msgstr ""
+
+#. Label of the is_custom (Check) field in DocType 'Role'
+#. Label of the is_custom (Check) field in DocType 'User Document Type'
+#: frappe/core/doctype/role/role.json
+#: frappe/core/doctype/user_document_type/user_document_type.json
+msgid "Is Custom"
+msgstr ""
+
+#. Label of the is_custom_field (Check) field in DocType 'Customize Form Field'
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Is Custom Field"
+msgstr "É campo personalizado"
+
+#. Label of the is_default (Check) field in DocType 'Address Template'
+#. Label of the is_default (Check) field in DocType 'User Permission'
+#. Label of the is_default (Check) field in DocType 'Dashboard'
+#: frappe/contacts/doctype/address_template/address_template.json
+#: frappe/core/doctype/user_permission/user_permission.json
+#: frappe/core/doctype/user_permission/user_permission_list.js:69
+#: frappe/desk/doctype/dashboard/dashboard.json
+msgid "Is Default"
+msgstr ""
+
+#. Label of the is_dynamic_url (Check) field in DocType 'Webhook'
+#: frappe/integrations/doctype/webhook/webhook.json
+msgid "Is Dynamic URL?"
+msgstr ""
+
+#. Label of the is_folder (Check) field in DocType 'File'
+#: frappe/core/doctype/file/file.json
+msgid "Is Folder"
+msgstr "É Pasta"
+
+#: frappe/public/js/frappe/list/list_filter.js:95
+msgid "Is Global"
+msgstr ""
+
+#: frappe/public/js/frappe/views/treeview.js:418
+msgid "Is Group"
+msgstr ""
+
+#. Label of the is_hidden (Check) field in DocType 'Workspace'
+#: frappe/desk/doctype/workspace/workspace.json
+msgid "Is Hidden"
+msgstr ""
+
+#. Label of the is_home_folder (Check) field in DocType 'File'
+#: frappe/core/doctype/file/file.json
+msgid "Is Home Folder"
+msgstr ""
+
+#. Label of the reqd (Check) field in DocType 'Custom Field'
+#: frappe/custom/doctype/custom_field/custom_field.json
+msgid "Is Mandatory Field"
+msgstr "É campo obrigatório"
+
+#. Label of the is_optional_state (Check) field in DocType 'Workflow Document
+#. State'
+#: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
+msgid "Is Optional State"
+msgstr "É estado opcional"
+
+#. Label of the is_primary (Check) field in DocType 'Contact Email'
+#: frappe/contacts/doctype/contact_email/contact_email.json
+msgid "Is Primary"
+msgstr "É primário"
+
+#: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.py:43
+msgid "Is Primary Address"
+msgstr ""
+
+#. Label of the is_primary_contact (Check) field in DocType 'Contact'
+#: frappe/contacts/doctype/contact/contact.json
+#: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.py:49
+msgid "Is Primary Contact"
+msgstr "É o contato principal"
+
+#. Label of the is_primary_mobile_no (Check) field in DocType 'Contact Phone'
+#: frappe/contacts/doctype/contact_phone/contact_phone.json
+msgid "Is Primary Mobile"
+msgstr "É o celular principal"
+
+#. Label of the is_primary_phone (Check) field in DocType 'Contact Phone'
+#: frappe/contacts/doctype/contact_phone/contact_phone.json
+msgid "Is Primary Phone"
+msgstr "É o telefone principal"
+
+#. Label of the is_private (Check) field in DocType 'File'
+#: frappe/core/doctype/file/file.json
+msgid "Is Private"
+msgstr "É privada"
+
+#. Label of the is_public (Check) field in DocType 'Dashboard Chart'
+#. Label of the is_public (Check) field in DocType 'Number Card'
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+#: frappe/desk/doctype/number_card/number_card.json
+msgid "Is Public"
+msgstr "É público"
+
+#. Label of the is_published_field (Data) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "Is Published Field"
+msgstr "É Publicado campo"
+
+#: frappe/core/doctype/doctype/doctype.py:1530
+msgid "Is Published Field must be a valid fieldname"
+msgstr ""
+
+#. Label of the is_query_report (Check) field in DocType 'Workspace Link'
+#: frappe/desk/doctype/workspace_link/workspace_link.json
+#: frappe/public/js/frappe/widgets/widget_dialog.js:341
+msgid "Is Query Report"
+msgstr ""
+
+#. Label of the is_remote_request (Check) field in DocType 'Integration
+#. Request'
+#: frappe/integrations/doctype/integration_request/integration_request.json
+msgid "Is Remote Request?"
+msgstr ""
+
+#. Label of the is_setup_complete (Check) field in DocType 'Installed
+#. Application'
+#: frappe/core/doctype/installed_application/installed_application.json
+msgid "Is Setup Complete?"
+msgstr ""
+
+#. Label of the issingle (Check) field in DocType 'DocType'
+#. Label of the is_single (Check) field in DocType 'Onboarding Step'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/core/doctype/doctype/doctype_list.js:65
+#: frappe/desk/doctype/onboarding_step/onboarding_step.json
+msgid "Is Single"
+msgstr ""
+
+#. Label of the is_skipped (Check) field in DocType 'Onboarding Step'
+#: frappe/desk/doctype/onboarding_step/onboarding_step.json
+msgid "Is Skipped"
+msgstr "É pulado"
+
+#. Label of the is_spam (Check) field in DocType 'Email Rule'
+#: frappe/email/doctype/email_rule/email_rule.json
+msgid "Is Spam"
+msgstr ""
+
+#. Label of the is_standard (Check) field in DocType 'Navbar Item'
+#. Label of the is_standard (Select) field in DocType 'Report'
+#. Label of the is_standard (Check) field in DocType 'User Type'
+#. Label of the is_standard (Check) field in DocType 'Dashboard'
+#. Label of the is_standard (Check) field in DocType 'Dashboard Chart'
+#. Label of the is_standard (Check) field in DocType 'Form Tour'
+#. Label of the is_standard (Check) field in DocType 'Number Card'
+#. Label of the is_standard (Check) field in DocType 'Notification'
+#: frappe/core/doctype/navbar_item/navbar_item.json
+#: frappe/core/doctype/report/report.json
+#: frappe/core/doctype/user_type/user_type.json
+#: frappe/desk/doctype/dashboard/dashboard.json
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+#: frappe/desk/doctype/form_tour/form_tour.json
+#: frappe/desk/doctype/number_card/number_card.json
+#: frappe/email/doctype/notification/notification.json
+msgid "Is Standard"
+msgstr "É Padrão"
+
+#. Label of the is_submittable (Check) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/core/doctype/doctype/doctype_list.js:40
+msgid "Is Submittable"
+msgstr ""
+
+#. Label of the is_system_generated (Check) field in DocType 'Custom Field'
+#. Label of the is_system_generated (Check) field in DocType 'Customize Form
+#. Field'
+#. Label of the is_system_generated (Check) field in DocType 'Property Setter'
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/custom/doctype/property_setter/property_setter.json
+msgid "Is System Generated"
+msgstr ""
+
+#. Label of the istable (Check) field in DocType 'Customize Form'
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Is Table"
+msgstr "É Tabela"
+
+#. Label of the is_table_field (Check) field in DocType 'Form Tour Step'
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+msgid "Is Table Field"
+msgstr ""
+
+#. Label of the is_tree (Check) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "Is Tree"
+msgstr "É árvore"
+
+#. Label of the is_unique (Data) field in DocType 'Web Page View'
+#: frappe/website/doctype/web_page_view/web_page_view.json
+msgid "Is Unique"
+msgstr "É único"
+
+#. Label of the is_virtual (Check) field in DocType 'DocType'
+#. Label of the is_virtual (Check) field in DocType 'Custom Field'
+#. Label of the is_virtual (Check) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Is Virtual"
+msgstr ""
+
+#. Label of the is_standard (Check) field in DocType 'Web Form'
+#: frappe/website/doctype/web_form/web_form.json
+msgid "Is standard"
+msgstr ""
+
+#: frappe/core/doctype/file/utils.py:157 frappe/utils/file_manager.py:311
+msgid "It is risky to delete this file: {0}. Please contact your System Manager."
+msgstr ""
+
+#. Label of the item_label (Data) field in DocType 'Navbar Item'
+#: frappe/core/doctype/navbar_item/navbar_item.json
+msgid "Item Label"
+msgstr ""
+
+#. Label of the item_type (Select) field in DocType 'Navbar Item'
+#: frappe/core/doctype/navbar_item/navbar_item.json
+msgid "Item Type"
+msgstr ""
+
+#: frappe/utils/nestedset.py:229
+msgid "Item cannot be added to its own descendants"
+msgstr ""
+
+#. Label of the items (Table) field in DocType 'Workspace Sidebar'
+#: frappe/desk/doctype/workspace_sidebar/workspace_sidebar.json
+msgid "Items"
+msgstr "Itens"
+
+#. Option for the 'Print Format Type' (Select) field in DocType 'Print Format'
+#: frappe/printing/doctype/print_format/print_format.json
+msgid "JS"
+msgstr ""
+
+#. Label of the js_message (HTML) field in DocType 'Custom HTML Block'
+#: frappe/desk/doctype/custom_html_block/custom_html_block.json
+msgid "JS Message"
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Label of the json (Code) field in DocType 'Report'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Option for the 'Request Structure' (Select) field in DocType 'Webhook'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/report/report.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/integrations/doctype/webhook/webhook.json
+msgid "JSON"
+msgstr ""
+
+#. Label of the webhook_json (Code) field in DocType 'Webhook'
+#: frappe/integrations/doctype/webhook/webhook.json
+msgid "JSON Request Body"
+msgstr "Corpo da solicitação JSON"
+
+#: frappe/templates/signup.html:5
+msgid "Jane Doe"
+msgstr ""
+
+#. Label of the js (Code) field in DocType 'Website Theme'
+#: frappe/website/doctype/website_theme/website_theme.json
+msgid "JavaScript"
+msgstr ""
+
+#. Description of the 'Javascript' (Code) field in DocType 'Report'
+#: frappe/core/doctype/report/report.json
+msgid "JavaScript Format: frappe.query_reports['REPORTNAME'] = {}"
+msgstr ""
+
+#. Label of the javascript (Code) field in DocType 'Report'
+#. Label of the javascript_section (Section Break) field in DocType 'Custom
+#. HTML Block'
+#. Label of the javascript (Code) field in DocType 'Web Page'
+#. Label of the javascript (Code) field in DocType 'Website Script'
+#: frappe/core/doctype/report/report.json
+#: frappe/desk/doctype/custom_html_block/custom_html_block.json
+#: frappe/website/doctype/web_page/web_page.json
+#: frappe/website/doctype/website_script/website_script.json
+msgid "Javascript"
+msgstr ""
+
+#: frappe/www/login.html:74
+msgid "Javascript is disabled on your browser"
+msgstr ""
+
+#. Option for the 'Print Format Type' (Select) field in DocType 'Print Format'
+#: frappe/printing/doctype/print_format/print_format.json
+msgid "Jinja"
+msgstr ""
+
+#. Label of the job_id (Data) field in DocType 'Prepared Report'
+#. Label of the job_id (Data) field in DocType 'RQ Job'
+#: frappe/core/doctype/prepared_report/prepared_report.json
+#: frappe/core/doctype/rq_job/rq_job.json
+msgid "Job ID"
+msgstr ""
+
+#. Label of the job_id (Link) field in DocType 'Submission Queue'
+#: frappe/core/doctype/submission_queue/submission_queue.json
+msgid "Job Id"
+msgstr ""
+
+#. Label of the job_info_section (Section Break) field in DocType 'RQ Job'
+#: frappe/core/doctype/rq_job/rq_job.json
+msgid "Job Info"
+msgstr ""
+
+#. Label of the job_name (Data) field in DocType 'RQ Job'
+#: frappe/core/doctype/rq_job/rq_job.json
+msgid "Job Name"
+msgstr ""
+
+#. Label of the job_status_section (Section Break) field in DocType 'RQ Job'
+#: frappe/core/doctype/rq_job/rq_job.json
+msgid "Job Status"
+msgstr ""
+
+#: frappe/core/doctype/data_import/data_import.js:191
+#: frappe/core/doctype/rq_job/rq_job.js:24
+msgid "Job Stopped Successfully"
+msgstr ""
+
+#: frappe/core/doctype/rq_job/rq_job.py:121
+msgid "Job is in {0} state and can't be cancelled"
+msgstr ""
+
+#: frappe/core/doctype/data_import/data_import.py:182
+#: frappe/core/doctype/prepared_report/prepared_report.py:200
+#: frappe/core/doctype/rq_job/rq_job.py:113
+msgid "Job is not running."
+msgstr ""
+
+#: frappe/core/doctype/prepared_report/prepared_report.py:198
+msgid "Job stopped successfully"
+msgstr ""
+
+#: frappe/desk/doctype/event/event.js:55
+msgid "Join video conference with {0}"
+msgstr ""
+
+#: frappe/public/js/frappe/form/toolbar.js:431
+#: frappe/public/js/frappe/form/toolbar.js:866
+msgid "Jump to field"
+msgstr ""
+
+#: frappe/public/js/frappe/utils/number_systems.js:17
+#: frappe/public/js/frappe/utils/number_systems.js:31
+#: frappe/public/js/frappe/utils/number_systems.js:53
+msgctxt "Number system"
+msgid "K"
+msgstr ""
+
+#. Option for the 'Select List View' (Select) field in DocType 'Form Tour'
+#. Option for the 'DocType View' (Select) field in DocType 'Workspace Shortcut'
+#: frappe/desk/doctype/form_tour/form_tour.json
+#: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
+msgid "Kanban"
+msgstr ""
+
+#. Name of a DocType
+#. Label of the kanban_board (Link) field in DocType 'Workspace Shortcut'
+#: frappe/desk/doctype/kanban_board/kanban_board.json
+#: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
+#: frappe/public/js/frappe/widgets/widget_dialog.js:511
+msgid "Kanban Board"
+msgstr ""
+
+#. Name of a DocType
+#: frappe/desk/doctype/kanban_board_column/kanban_board_column.json
+msgid "Kanban Board Column"
+msgstr ""
+
+#. Label of the kanban_board_name (Data) field in DocType 'Kanban Board'
+#: frappe/desk/doctype/kanban_board/kanban_board.json
+#: frappe/public/js/frappe/views/kanban/kanban_view.js:402
+msgid "Kanban Board Name"
+msgstr ""
+
+#: frappe/public/js/frappe/views/kanban/kanban_view.js:279
+msgctxt "Button in kanban view menu"
+msgid "Kanban Settings"
+msgstr ""
+
+#: frappe/public/js/frappe/list/base_list.js:207
+msgid "Kanban View"
+msgstr ""
+
+#. Label of the keep_closed (Check) field in DocType 'Workspace Sidebar Item'
+#: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json
+msgid "Keep Closed"
+msgstr ""
+
+#. Description of a DocType
+#: frappe/core/doctype/activity_log/activity_log.json
+msgid "Keep track of all update feeds"
+msgstr ""
+
+#. Description of a DocType
+#: frappe/core/doctype/communication/communication.json
+msgid "Keeps track of all communications"
+msgstr ""
+
+#. Label of the defkey (Data) field in DocType 'DefaultValue'
+#. Label of the key (Data) field in DocType 'Document Share Key'
+#. Label of the key (Data) field in DocType 'User Invitation'
+#. Label of the key (Data) field in DocType 'Query Parameters'
+#. Label of the key (Data) field in DocType 'Webhook Data'
+#. Label of the key (Small Text) field in DocType 'Webhook Header'
+#. Label of the key (Data) field in DocType 'Website Meta Tag'
+#: frappe/core/doctype/defaultvalue/defaultvalue.json
+#: frappe/core/doctype/document_share_key/document_share_key.json
+#: frappe/core/doctype/user_invitation/user_invitation.json
+#: frappe/integrations/doctype/query_parameters/query_parameters.json
+#: frappe/integrations/doctype/webhook_data/webhook_data.json
+#: frappe/integrations/doctype/webhook_header/webhook_header.json
+#: frappe/website/doctype/website_meta_tag/website_meta_tag.json
+msgid "Key"
+msgstr "Chave"
+
+#. Label of a standard help item
+#. Type: Action
+#: frappe/hooks.py frappe/public/js/frappe/ui/keyboard.js:130
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#. Option for the 'Social Login Provider' (Select) field in DocType 'Social
+#. Login Key'
+#: frappe/integrations/doctype/social_login_key/social_login_key.json
+msgid "Keycloak"
+msgstr ""
+
+#: frappe/public/js/frappe/utils/number_systems.js:37
+msgctxt "Number system"
+msgid "Kh"
+msgstr ""
+
+#: frappe/website/doctype/help_article/help_article.py:80
+#: frappe/website/doctype/help_article/templates/help_article_list.html:2
+#: frappe/website/doctype/help_article/templates/help_article_list.html:11
+msgid "Knowledge Base"
+msgstr ""
+
+#. Name of a role
+#: frappe/website/doctype/help_article/help_article.json
+msgid "Knowledge Base Contributor"
+msgstr ""
+
+#. Name of a role
+#: frappe/website/doctype/help_article/help_article.json
+msgid "Knowledge Base Editor"
+msgstr ""
+
+#: frappe/public/js/frappe/utils/number_systems.js:27
+#: frappe/public/js/frappe/utils/number_systems.js:49
+msgctxt "Number system"
+msgid "L"
+msgstr ""
+
+#. Label of the ldap_auth_section (Section Break) field in DocType 'LDAP
+#. Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Auth"
+msgstr ""
+
+#. Label of the ldap_custom_settings_section (Section Break) field in DocType
+#. 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Custom Settings"
+msgstr ""
+
+#. Label of the ldap_email_field (Data) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Email Field"
+msgstr ""
+
+#. Label of the ldap_first_name_field (Data) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP First Name Field"
+msgstr "Campo Primeiro Nome do LDAP"
+
+#. Label of the ldap_group (Data) field in DocType 'LDAP Group Mapping'
+#: frappe/integrations/doctype/ldap_group_mapping/ldap_group_mapping.json
+msgid "LDAP Group"
+msgstr "Grupo LDAP"
+
+#. Label of the ldap_group_field (Data) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Group Field"
+msgstr "Campo do Grupo LDAP"
+
+#. Name of a DocType
+#: frappe/integrations/doctype/ldap_group_mapping/ldap_group_mapping.json
+msgid "LDAP Group Mapping"
+msgstr ""
+
+#. Label of the ldap_group_mappings_section (Section Break) field in DocType
+#. 'LDAP Settings'
+#. Label of the ldap_groups (Table) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Group Mappings"
+msgstr "Mapeamentos de grupo LDAP"
+
+#. Label of the ldap_group_member_attribute (Data) field in DocType 'LDAP
+#. Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Group Member attribute"
+msgstr ""
+
+#. Label of the ldap_last_name_field (Data) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Last Name Field"
+msgstr "Campo Sobrenome LDAP"
+
+#. Label of the ldap_middle_name_field (Data) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Middle Name Field"
+msgstr "Campo de nome do meio LDAP"
+
+#. Label of the ldap_mobile_field (Data) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Mobile Field"
+msgstr "Campo Móvel LDAP"
+
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.py:163
+msgid "LDAP Not Installed"
+msgstr ""
+
+#. Label of the ldap_phone_field (Data) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Phone Field"
+msgstr "Campo de telefone LDAP"
+
+#. Label of the ldap_search_string (Data) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Search String"
+msgstr "Palavra de Busca do LDAP"
+
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.py:130
+msgid "LDAP Search String must be enclosed in '()' and needs to contian the user placeholder {0}, eg sAMAccountName={0}"
+msgstr ""
+
+#. Label of the ldap_search_and_paths_section (Section Break) field in DocType
+#. 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Search and Paths"
+msgstr ""
+
+#. Label of the ldap_security (Section Break) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Security"
+msgstr "Segurança LDAP"
+
+#. Label of the ldap_server_settings_section (Section Break) field in DocType
+#. 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Server Settings"
+msgstr ""
+
+#. Label of the ldap_server_url (Data) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Server Url"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Link in the Integrations Workspace
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+#: frappe/integrations/workspace/integrations/integrations.json
+msgid "LDAP Settings"
+msgstr ""
+
+#. Label of the ldap_user_creation_and_mapping_section (Section Break) field in
+#. DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP User Creation and Mapping"
+msgstr "Criação e Mapeamento de Usuários LDAP"
+
+#. Label of the ldap_username_field (Data) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP Username Field"
+msgstr "Campo Nome de Usuário do LDAP"
+
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.py:310
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.py:429
+msgid "LDAP is not enabled."
+msgstr ""
+
+#. Label of the ldap_search_path_group (Data) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP search path for Groups"
+msgstr ""
+
+#. Label of the ldap_search_path_user (Data) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "LDAP search path for Users"
+msgstr ""
+
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.py:102
+msgid "LDAP settings incorrect. validation response was: {0}"
+msgstr ""

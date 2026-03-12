@@ -1,0 +1,651 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1666
+msgid "The Serial and Batch Bundle {0} is not valid for this transaction. The 'Type of Transaction' should be 'Outward' instead of 'Inward' in Serial and Batch Bundle {0}"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:17
+msgid "The Stock Entry of type 'Manufacture' is known as backflush. Raw materials being consumed to manufacture finished goods is known as backflushing. <br><br> When creating Manufacture Entry, raw-material items are backflushed based on BOM of production item. If you want raw-material items to be backflushed based on Material Transfer entry made against that Work Order instead, then you can set it under this field."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:2166
+msgid "The Work Order is mandatory for Disassembly Order"
+msgstr ""
+
+#. Description of the 'Closing Account Head' (Link) field in DocType 'Period
+#. Closing Voucher'
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.json
+msgid "The account head under Liability or Equity, in which Profit/Loss will be booked"
+msgstr ""
+
+#: erpnext/accounts/doctype/payment_request/payment_request.py:870
+msgid "The allocated amount is greater than the outstanding amount of Payment Request {0}"
+msgstr ""
+
+#: erpnext/accounts/doctype/payment_request/payment_request.py:172
+msgid "The amount of {0} set in this payment request is different from the calculated amount of all payment plans: {1}. Make sure this is correct before submitting the document."
+msgstr ""
+
+#: erpnext/controllers/stock_controller.py:1258
+msgid "The batch {0} is already reserved in {1} {2}. So, cannot proceed with the {3} {4}, which is created against the {5} {6}."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:1199
+msgid "The completed quantity {0} of an operation {1} cannot be greater than the completed quantity {2} of a previous operation {3}."
+msgstr ""
+
+#: erpnext/accounts/doctype/dunning/dunning.py:87
+msgid "The currency of invoice {} ({}) is different from the currency of this dunning ({})."
+msgstr ""
+
+#: erpnext/selling/page/point_of_sale/pos_controller.js:209
+msgid "The current POS opening entry is outdated. Please close it and create a new one."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1126
+msgid "The default BOM for that item will be fetched by the system. You can also change the BOM."
+msgstr ""
+
+#: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.py:69
+msgid "The difference between from time and To Time must be a multiple of Appointment"
+msgstr ""
+
+#: erpnext/accounts/doctype/share_transfer/share_transfer.py:177
+#: erpnext/accounts/doctype/share_transfer/share_transfer.py:185
+msgid "The field Asset Account cannot be blank"
+msgstr "O campo Conta do ativo não pode ficar em branco"
+
+#: erpnext/accounts/doctype/share_transfer/share_transfer.py:192
+msgid "The field Equity/Liability Account cannot be blank"
+msgstr "O campo Conta do patrimônio líquido / passivo não pode ficar em branco"
+
+#: erpnext/accounts/doctype/share_transfer/share_transfer.py:173
+msgid "The field From Shareholder cannot be blank"
+msgstr "O campo do Acionista não pode estar em branco"
+
+#: erpnext/accounts/doctype/share_transfer/share_transfer.py:181
+msgid "The field To Shareholder cannot be blank"
+msgstr "O campo Acionista não pode estar em branco"
+
+#: erpnext/stock/doctype/delivery_note/delivery_note.py:405
+msgid "The field {0} in row {1} is not set"
+msgstr ""
+
+#: erpnext/accounts/doctype/share_transfer/share_transfer.py:188
+msgid "The fields From Shareholder and To Shareholder cannot be blank"
+msgstr "Os campos do Acionista e do Acionista não podem estar em branco"
+
+#: erpnext/accounts/doctype/share_transfer/share_transfer.py:240
+msgid "The folio numbers are not matching"
+msgstr ""
+
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.py:305
+msgid "The following Items, having Putaway Rules, could not be accomodated:"
+msgstr ""
+
+#: erpnext/assets/doctype/asset_repair/asset_repair.py:138
+msgid "The following Purchase Invoices are not submitted:"
+msgstr ""
+
+#: erpnext/assets/doctype/asset/depreciation.py:342
+msgid "The following assets have failed to automatically post depreciation entries: {0}"
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:270
+msgid "The following batches are expired, please restock them: <br> {0}"
+msgstr ""
+
+#: erpnext/controllers/accounts_controller.py:426
+msgid "The following cancelled repost entries exist for <b>{0}</b>:<br><br>{1}<br><br>Kindly delete these entries before continuing."
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:842
+msgid "The following deleted attributes exist in Variants but not in the Template. You can either delete the Variants or keep the attribute(s) in template."
+msgstr ""
+
+#: erpnext/setup/doctype/employee/employee.py:176
+msgid "The following employees are currently still reporting to {0}:"
+msgstr "Os seguintes funcionários ainda estão subordinados a {0}:"
+
+#: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.py:185
+msgid "The following invalid Pricing Rules are deleted:"
+msgstr ""
+
+#: erpnext/assets/doctype/asset_repair/asset_repair.py:112
+msgid "The following rows are duplicates:"
+msgstr ""
+
+#: erpnext/stock/doctype/material_request/material_request.py:892
+msgid "The following {0} were created: {1}"
+msgstr "Os seguintes {0} foram criados: {1}"
+
+#. Description of the 'Gross Weight' (Float) field in DocType 'Packing Slip'
+#: erpnext/stock/doctype/packing_slip/packing_slip.json
+msgid "The gross weight of the package. Usually net weight + packaging material weight. (for print)"
+msgstr ""
+
+#: erpnext/setup/doctype/holiday_list/holiday_list.py:126
+msgid "The holiday on {0} is not between From Date and To Date"
+msgstr "O feriado em {0} não é entre de Data e To Date"
+
+#: erpnext/controllers/buying_controller.py:1236
+msgid "The item {item} is not marked as {type_of} item. You can enable it as {type_of} item from its Item master."
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:619
+msgid "The items {0} and {1} are present in the following {2} :"
+msgstr ""
+
+#: erpnext/controllers/buying_controller.py:1229
+msgid "The items {items} are not marked as {type_of} item. You can enable them as {type_of} item from their Item masters."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/workstation/workstation.py:549
+msgid "The job card {0} is in {1} state and you cannot complete."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/workstation/workstation.py:543
+msgid "The job card {0} is in {1} state and you cannot start it again."
+msgstr ""
+
+#: erpnext/public/js/utils/barcode_scanner.js:533
+msgid "The last scanned warehouse has been cleared and won't be set in the subsequently scanned items"
+msgstr ""
+
+#: erpnext/accounts/doctype/loyalty_program/loyalty_program.py:47
+msgid "The lowest tier must have a minimum spent amount of 0. Customers need to be part of a tier as soon as they are enrolled in the program."
+msgstr ""
+
+#. Description of the 'Net Weight' (Float) field in DocType 'Packing Slip'
+#: erpnext/stock/doctype/packing_slip/packing_slip.json
+msgid "The net weight of this package. (calculated automatically as sum of net weight of items)"
+msgstr ""
+
+#. Description of the 'New BOM' (Link) field in DocType 'BOM Update Tool'
+#: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
+msgid "The new BOM after replacement"
+msgstr ""
+
+#: erpnext/accounts/doctype/share_transfer/share_transfer.py:196
+msgid "The number of shares and the share numbers are inconsistent"
+msgstr "O número de ações e os números de compartilhamento são inconsistentes"
+
+#: erpnext/manufacturing/doctype/operation/operation.py:43
+msgid "The operation {0} can not add multiple times"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/operation/operation.py:48
+msgid "The operation {0} can not be the sub operation"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:107
+msgid "The original invoice should be consolidated before or along with the return invoice."
+msgstr ""
+
+#: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:229
+msgid "The parent account {0} does not exists in the uploaded template"
+msgstr "A conta pai {0} não existe no modelo enviado"
+
+#: erpnext/accounts/doctype/payment_request/payment_request.py:161
+msgid "The payment gateway account in plan {0} is different from the payment gateway account in this payment request"
+msgstr ""
+
+#. Description of the 'Over Billing Allowance (%)' (Currency) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "The percentage you are allowed to bill more against the amount ordered. For example, if the order value is $100 for an item and tolerance is set as 10%, then you are allowed to bill up to $110 "
+msgstr ""
+
+#. Description of the 'Over Picking Allowance' (Percent) field in DocType
+#. 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "The percentage you are allowed to pick more items in the pick list than the ordered quantity."
+msgstr ""
+
+#. Description of the 'Over Delivery/Receipt Allowance (%)' (Float) field in
+#. DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "The percentage you are allowed to receive or deliver more against the quantity ordered. For example, if you have ordered 100 units, and your Allowance is 10%, then you are allowed to receive 110 units."
+msgstr ""
+
+#. Description of the 'Over Transfer Allowance' (Float) field in DocType 'Stock
+#. Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "The percentage you are allowed to transfer more against the quantity ordered. For example, if you have ordered 100 units, and your Allowance is 10%, then you are allowed transfer 110 units."
+msgstr ""
+
+#: erpnext/public/js/utils.js:863
+msgid "The reserved stock will be released when you update items. Are you certain you wish to proceed?"
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:159
+msgid "The reserved stock will be released. Are you certain you wish to proceed?"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/account.py:218
+msgid "The root account {0} must be a group"
+msgstr "A conta raiz {0} deve ser um grupo"
+
+#: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.py:84
+msgid "The selected BOMs are not for the same item"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:539
+msgid "The selected change account {} doesn't belongs to Company {}."
+msgstr "A conta de alteração selecionada {} não pertence à Empresa {}."
+
+#: erpnext/stock/doctype/batch/batch.py:157
+msgid "The selected item cannot have Batch"
+msgstr ""
+
+#: erpnext/accounts/doctype/share_transfer/share_transfer.py:194
+msgid "The seller and the buyer cannot be the same"
+msgstr "O vendedor e o comprador não podem ser os mesmos"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:146
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:158
+msgid "The serial and batch bundle {0} not linked to {1} {2}"
+msgstr ""
+
+#: erpnext/stock/doctype/batch/batch.py:436
+msgid "The serial no {0} does not belong to item {1}"
+msgstr ""
+
+#: erpnext/accounts/doctype/share_transfer/share_transfer.py:230
+msgid "The shareholder does not belong to this company"
+msgstr "O acionista não pertence a esta empresa"
+
+#: erpnext/accounts/doctype/share_transfer/share_transfer.py:160
+msgid "The shares already exist"
+msgstr "As ações já existem"
+
+#: erpnext/accounts/doctype/share_transfer/share_transfer.py:166
+msgid "The shares don't exist with the {0}"
+msgstr "As ações não existem com o {0}"
+
+#: erpnext/stock/stock_ledger.py:810
+msgid "The stock for the item {0} in the {1} warehouse was negative on the {2}. You should create a positive entry {3} before the date {4} and time {5} to post the correct valuation rate. For more details, please read the <a href='https://docs.erpnext.com/docs/user/manual/en/stock-adjustment-cogs-with-negative-stock'>documentation<a>."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:713
+msgid "The stock has been reserved for the following Items and Warehouses, un-reserve the same to {0} the Stock Reconciliation: <br /><br /> {1}"
+msgstr ""
+
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:37
+msgid "The sync has started in the background, please check the {0} list for new records."
+msgstr ""
+
+#. Description of the 'Invoice Type Created via POS Screen' (Select) field in
+#. DocType 'POS Settings'
+#: erpnext/accounts/doctype/pos_settings/pos_settings.json
+msgid "The system will create a Sales Invoice or a POS Invoice from the POS interface based on this setting. For high-volume transactions, it is recommended to use POS Invoice."
+msgstr ""
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:179
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:186
+msgid "The task has been enqueued as a background job."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:1008
+msgid "The task has been enqueued as a background job. In case there is any issue on processing in background, the system will add a comment about the error on this Stock Reconciliation and revert to the Draft stage"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:1019
+msgid "The task has been enqueued as a background job. In case there is any issue on processing in background, the system will add a comment about the error on this Stock Reconciliation and revert to the Submitted stage"
+msgstr ""
+
+#: erpnext/stock/doctype/material_request/material_request.py:338
+msgid "The total Issue / Transfer quantity {0} in Material Request {1}  cannot be greater than allowed requested quantity {2} for Item {3}"
+msgstr ""
+
+#: erpnext/stock/doctype/material_request/material_request.py:345
+msgid "The total Issue / Transfer quantity {0} in Material Request {1} cannot be greater than requested quantity {2} for Item {3}"
+msgstr ""
+
+#: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.py:154
+msgid "The uploaded file does not appear to be in valid MT940 format."
+msgstr ""
+
+#: erpnext/edi/doctype/code_list/code_list_import.py:48
+msgid "The uploaded file does not match the selected Code List."
+msgstr ""
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:10
+msgid "The user cannot submit the Serial and Batch Bundle manually"
+msgstr ""
+
+#. Description of the 'Transfer Extra Raw Materials to WIP (%)' (Percent) field
+#. in DocType 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "The user will be able to transfer additional materials from the store to the Work in Progress (WIP) warehouse."
+msgstr ""
+
+#. Description of the 'Role Allowed to Edit Frozen Stock' (Link) field in
+#. DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "The users with this Role are allowed to create/modify a stock transaction, even though the transaction is frozen."
+msgstr ""
+
+#: erpnext/stock/doctype/item_alternative/item_alternative.py:55
+msgid "The value of {0} differs between Items {1} and {2}"
+msgstr "O valor de {0} difere entre Itens {1} e {2}"
+
+#: erpnext/controllers/item_variant.py:148
+msgid "The value {0} is already assigned to an existing Item {1}."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1154
+msgid "The warehouse where you store finished Items before they are shipped."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1147
+msgid "The warehouse where you store your raw materials. Each required item can have a separate source warehouse. Group warehouse also can be selected as source warehouse. On submission of the Work Order, the raw materials will be reserved in these warehouses for production usage."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1159
+msgid "The warehouse where your Items will be transferred when you begin production. Group Warehouse can also be selected as a Work in Progress warehouse."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:772
+msgid "The {0} ({1}) must be equal to {2} ({3})"
+msgstr "O {0} ({1}) deve ser igual a {2} ({3})"
+
+#: erpnext/public/js/controllers/transaction.js:3279
+msgid "The {0} contains Unit Price Items."
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:423
+msgid "The {0} prefix '{1}' already exists. Please change the Serial No Series, otherwise you will get a Duplicate Entry error."
+msgstr ""
+
+#: erpnext/stock/doctype/material_request/material_request.py:898
+msgid "The {0} {1} created successfully"
+msgstr ""
+
+#: erpnext/controllers/sales_and_purchase_return.py:42
+msgid "The {0} {1} does not match with the {0} {2} in the {3} {4}"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:875
+msgid "The {0} {1} is used to calculate the valuation cost for the finished good {2}."
+msgstr ""
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:44
+msgid "Then Pricing Rules are filtered out based on Customer, Customer Group, Territory, Supplier, Supplier Type, Campaign, Sales Partner etc."
+msgstr ""
+
+#: erpnext/assets/doctype/asset/asset.py:707
+msgid "There are active maintenance or repairs against the asset. You must complete all of them before cancelling the asset."
+msgstr ""
+
+#: erpnext/accounts/doctype/share_transfer/share_transfer.py:201
+msgid "There are inconsistencies between the rate, no of shares and the amount calculated"
+msgstr "Existem inconsistências entre a taxa, o número de ações e o valor calculado"
+
+#: erpnext/accounts/doctype/account/account.py:203
+msgid "There are ledger entries against this account. Changing {0} to non-{1} in live system will cause incorrect output in 'Accounts {2}' report"
+msgstr ""
+
+#: erpnext/utilities/bulk_transaction.py:67
+msgid "There are no Failed transactions"
+msgstr ""
+
+#: erpnext/setup/demo.py:108
+msgid "There are no active Fiscal Years for which Demo Data can be generated."
+msgstr ""
+
+#: erpnext/www/book_appointment/index.js:95
+msgid "There are no slots available on this date"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.js:1065
+msgid "There are two options to maintain valuation of stock. FIFO (first in - first out) and Moving Average. To understand this topic in detail please visit <a href='https://docs.erpnext.com/docs/v13/user/manual/en/stock/articles/item-valuation-fifo-and-moving-average' target='_blank'>Item Valuation, FIFO and Moving Average.</a>"
+msgstr ""
+
+#: erpnext/stock/report/item_variant_details/item_variant_details.py:25
+msgid "There aren't any item variants for the selected item"
+msgstr ""
+
+#: erpnext/accounts/doctype/loyalty_program/loyalty_program.js:10
+msgid "There can be multiple tiered collection factor based on the total spent. But the conversion factor for redemption will always be same for all the tier."
+msgstr ""
+
+#: erpnext/accounts/party.py:588
+msgid "There can only be 1 Account per Company in {0} {1}"
+msgstr ""
+
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:81
+msgid "There can only be one Shipping Rule Condition with 0 or blank value for \"To Value\""
+msgstr ""
+
+#: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.py:65
+msgid "There is already a valid Lower Deduction Certificate {0} for Supplier {1} against category {2} for this time period."
+msgstr ""
+
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.py:77
+msgid "There is already an active Subcontracting BOM {0} for the Finished Good {1}."
+msgstr ""
+
+#: erpnext/stock/doctype/batch/batch.py:444
+msgid "There is no batch found against the {0}: {1}"
+msgstr "Nenhum lote encontrado em {0}: {1}"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1603
+msgid "There must be atleast 1 Finished Good in this Stock Entry"
+msgstr ""
+
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:153
+msgid "There was an error creating Bank Account while linking with Plaid."
+msgstr ""
+
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:250
+msgid "There was an error syncing transactions."
+msgstr ""
+
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:175
+msgid "There was an error updating Bank Account {} while linking with Plaid."
+msgstr ""
+
+#: erpnext/accounts/doctype/bank/bank.js:115
+#: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:119
+msgid "There was an issue connecting to Plaid's authentication server. Check browser console for more information"
+msgstr ""
+
+#: erpnext/accounts/utils.py:1099
+msgid "There were issues unlinking payment entry {0}."
+msgstr ""
+
+#. Description of the 'Zero Balance' (Check) field in DocType 'Exchange Rate
+#. Revaluation Account'
+#: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
+msgid "This Account has '0' balance in either Base Currency or Account Currency"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.js:131
+msgid "This Item is a Template and cannot be used in transactions. Item attributes will be copied over into the variants unless 'No Copy' is set"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.js:190
+msgid "This Item is a Variant of {0} (Template)."
+msgstr "Este Item É Uma Variante de {0} (modelo)."
+
+#: erpnext/setup/doctype/email_digest/email_digest.py:187
+msgid "This Month's Summary"
+msgstr "Resumo Deste Mês"
+
+#: erpnext/buying/doctype/purchase_order/purchase_order.py:977
+msgid "This Purchase Order has been fully subcontracted."
+msgstr ""
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:2006
+msgid "This Sales Order has been fully subcontracted."
+msgstr ""
+
+#: erpnext/setup/doctype/email_digest/email_digest.py:184
+msgid "This Week's Summary"
+msgstr "Resumo da Semana"
+
+#: erpnext/accounts/doctype/subscription/subscription.js:63
+msgid "This action will stop future billing. Are you sure you want to cancel this subscription?"
+msgstr "Essa ação interromperá o faturamento futuro. Tem certeza de que deseja cancelar esta assinatura?"
+
+#: erpnext/accounts/doctype/bank_account/bank_account.js:35
+msgid "This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?"
+msgstr ""
+
+#: erpnext/assets/doctype/asset/asset.py:426
+msgid "This asset category is marked as non-depreciable. Please disable depreciation calculation or choose a different category."
+msgstr ""
+
+#: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard_dashboard.py:7
+msgid "This covers all scorecards tied to this Setup"
+msgstr ""
+
+#: erpnext/controllers/status_updater.py:456
+msgid "This document is over limit by {0} {1} for item {4}. Are you making another {3} against the same {2}?"
+msgstr ""
+
+#: erpnext/stock/doctype/delivery_note/delivery_note.js:487
+msgid "This field is used to set the 'Customer'."
+msgstr ""
+
+#. Description of the 'Bank / Cash Account' (Link) field in DocType 'Payment
+#. Reconciliation'
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+msgid "This filter will be applied to Journal Entry."
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:865
+msgid "This invoice has already been paid."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.js:241
+msgid "This is a Template BOM and will be used to make the work order for {0} of the item {1}"
+msgstr ""
+
+#. Description of the 'Target Warehouse' (Link) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "This is a location where final product stored."
+msgstr ""
+
+#. Description of the 'Work-in-Progress Warehouse' (Link) field in DocType
+#. 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "This is a location where operations are executed."
+msgstr ""
+
+#. Description of the 'Source Warehouse' (Link) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "This is a location where raw materials are available."
+msgstr ""
+
+#. Description of the 'Scrap Warehouse' (Link) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "This is a location where scraped materials are stored."
+msgstr ""
+
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:305
+msgid "This is a preview of the email to be sent. A PDF of the document will automatically be attached with the email."
+msgstr ""
+
+#: erpnext/accounts/doctype/account/account.js:35
+msgid "This is a root account and cannot be edited."
+msgstr ""
+
+#: erpnext/setup/doctype/customer_group/customer_group.js:44
+msgid "This is a root customer group and cannot be edited."
+msgstr "Este é um grupo de clientes de raiz e não pode ser editada."
+
+#: erpnext/setup/doctype/department/department.js:14
+msgid "This is a root department and cannot be edited."
+msgstr "Este é um departamento raiz e não pode ser editado."
+
+#: erpnext/setup/doctype/item_group/item_group.js:98
+msgid "This is a root item group and cannot be edited."
+msgstr "Este é um grupo de itens de raiz e não pode ser editada."
+
+#: erpnext/setup/doctype/sales_person/sales_person.js:46
+msgid "This is a root sales person and cannot be edited."
+msgstr "Esta é uma pessoa de vendas de raiz e não pode ser editado."
+
+#: erpnext/setup/doctype/supplier_group/supplier_group.js:43
+msgid "This is a root supplier group and cannot be edited."
+msgstr "Este é um grupo de fornecedores raiz e não pode ser editado."
+
+#: erpnext/setup/doctype/territory/territory.js:22
+msgid "This is a root territory and cannot be edited."
+msgstr "Este é um território de raiz e não pode ser editada."
+
+#: erpnext/stock/doctype/item/item_dashboard.py:7
+msgid "This is based on stock movement. See {0} for details"
+msgstr "Isto é baseado no movimento de estoque. Veja o {0} para maiores detalhes"
+
+#: erpnext/projects/doctype/project/project_dashboard.py:7
+msgid "This is based on the Time Sheets created against this project"
+msgstr "Isto é baseado nos Registros de Tempo relacionados a este Projeto"
+
+#: erpnext/setup/doctype/sales_person/sales_person_dashboard.py:7
+msgid "This is based on transactions against this Sales Person. See timeline below for details"
+msgstr "Isso é baseado em transações contra essa pessoa de vendas. Veja a linha do tempo abaixo para detalhes"
+
+#: erpnext/stock/doctype/stock_settings/stock_settings.js:42
+msgid "This is considered dangerous from accounting point of view."
+msgstr ""
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:538
+msgid "This is done to handle accounting for cases when Purchase Receipt is created after Purchase Invoice"
+msgstr "Isso é feito para lidar com a contabilidade de casos em que o recibo de compra é criado após a fatura de compra"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1140
+msgid "This is enabled by default. If you want to plan materials for sub-assemblies of the Item you're manufacturing leave this enabled. If you plan and manufacture the sub-assemblies separately, you can disable this checkbox."
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.js:1053
+msgid "This is for raw material Items that'll be used to create finished goods. If the Item is an additional service like 'washing' that'll be used in the BOM, keep this unchecked."
+msgstr ""
+
+#: erpnext/selling/doctype/party_specific_item/party_specific_item.py:35
+msgid "This item filter has already been applied for the {0}"
+msgstr ""
+
+#: erpnext/stock/doctype/delivery_note/delivery_note.js:500
+msgid "This option can be checked to edit the 'Posting Date' and 'Posting Time' fields."
+msgstr ""
+
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.py:201
+msgid "This schedule was created when Asset {0} was adjusted through Asset Value Adjustment {1}."
+msgstr ""
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:494
+msgid "This schedule was created when Asset {0} was consumed through Asset Capitalization {1}."
+msgstr ""
+
+#: erpnext/assets/doctype/asset_repair/asset_repair.py:435
+msgid "This schedule was created when Asset {0} was repaired through Asset Repair {1}."
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1425
+msgid "This schedule was created when Asset {0} was restored due to Sales Invoice {1} cancellation."
+msgstr ""
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:598
+msgid "This schedule was created when Asset {0} was restored on Asset Capitalization {1}'s cancellation."
+msgstr ""

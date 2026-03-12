@@ -1,0 +1,828 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: shariq@frappe.io\n"
+"POT-Creation-Date: 2026-03-08 09:43+0000\n"
+"PO-Revision-Date: 2026-03-10 00:36\n"
+"Last-Translator: shariq@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.crm] develop/crm/locale/main.pot\n"
+"X-Crowdin-File-ID: 97\n"
+"Language: pt_BR\n"
+
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.py:224
+msgid "Setup the Exchange Rate Provider as 'Exchangerate Host' in settings, as default provider does not support currency conversion for {0} to {1}."
+msgstr "Configure o provedor de taxa de cambio como 'Exchangerate Host' nas configuracoes, pois o provedor padrao nao oferece suporte a conversao de moeda de {0} para {1}."
+
+#: frontend/src/components/Layouts/AppSidebar.vue:338
+msgid "Setup your password"
+msgstr "Defina sua senha"
+
+#: frontend/src/components/Activities/Activities.vue:246
+msgid "Show"
+msgstr "Mostrar"
+
+#: frontend/src/components/FieldLayoutEditor.vue:352
+msgid "Show Border"
+msgstr "Mostrar borda"
+
+#: frontend/src/components/FieldLayoutEditor.vue:347
+msgid "Show Label"
+msgstr "Mostrar rotulo"
+
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:239
+msgid "Show Less"
+msgstr "Mostrar menos"
+
+#: frontend/src/components/Controls/Password.vue:19
+msgid "Show Password"
+msgstr "Mostrar senha"
+
+#: frontend/src/components/Controls/GridRowFieldsModal.vue:20
+#: frontend/src/components/Modals/DataFieldsModal.vue:20
+#: frontend/src/components/Modals/QuickEntryModal.vue:20
+#: frontend/src/components/Modals/SidePanelModal.vue:20
+msgid "Show Preview"
+msgstr "Mostrar visualizacao"
+
+#. Option for the 'Type' (Select) field in DocType 'CRM Fields Layout'
+#: crm/fcrm/doctype/crm_fields_layout/crm_fields_layout.json
+msgid "Side Panel"
+msgstr "Painel lateral"
+
+#. Option for the 'Type' (Select) field in DocType 'CRM Global Settings'
+#: crm/fcrm/doctype/crm_global_settings/crm_global_settings.json
+msgid "Sidebar Items"
+msgstr "Itens da barra lateral"
+
+#. Description of the 'Condition' (Code) field in DocType 'CRM Service Level
+#. Agreement'
+#: crm/fcrm/doctype/crm_service_level_agreement/crm_service_level_agreement.json
+msgid "Simple Python Expression, Example: doc.status == 'Open' and doc.lead_source == 'Ads'"
+msgstr "Expressao Python simples. Exemplo: doc.status == 'Open' and doc.lead_source == 'Ads'"
+
+#: frontend/src/components/AssignTo.vue:83
+msgid "Since you removed {0} from the assignee, the {0} has also been removed."
+msgstr "Como voce removeu {0} do responsavel, {0} tambem foi removido."
+
+#: frontend/src/components/AssignTo.vue:76
+msgid "Since you removed {0} from the assignee, the {0} has been changed to the next available assignee {1}."
+msgstr "Como voce removeu {0} do responsavel, {0} foi alterado para o proximo responsavel disponivel, {1}."
+
+#: frontend/src/components/Settings/Sla/SlaPolicyView.vue:439
+msgid "Some error occurred while creating SLA Policy"
+msgstr "Ocorreu um erro ao criar a politica de SLA"
+
+#: frontend/src/components/Settings/Sla/SlaPolicyView.vue:485
+msgid "Some error occurred while renaming SLA policy"
+msgstr "Ocorreu um erro ao renomear a politica de SLA"
+
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:766
+msgid "Some error occurred while renaming assignment rule"
+msgstr "Ocorreu um erro ao renomear a regra de atribuicao"
+
+#: frontend/src/components/Settings/Sla/SlaPolicyView.vue:476
+msgid "Some error occurred while updating SLA policy"
+msgstr "Ocorreu um erro ao atualizar a politica de SLA"
+
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:751
+msgid "Some error occurred while updating assignment rule"
+msgstr "Ocorreu um erro ao atualizar a regra de atribuicao"
+
+#: frontend/src/components/Settings/Users.vue:290
+#: frontend/src/components/Settings/Users.vue:303
+msgid "Something went wrong"
+msgstr "Algo deu errado"
+
+#: frontend/src/components/Settings/Sla/SlaPolicyList.vue:246
+msgid "Something went wrong, try again later"
+msgstr "Algo deu errado. Tente novamente mais tarde"
+
+#: frontend/src/components/SortBy.vue:10 frontend/src/components/SortBy.vue:24
+#: frontend/src/components/SortBy.vue:226
+msgid "Sort"
+msgstr "Ordenar"
+
+#. Label of the source (Link) field in DocType 'CRM Deal'
+#. Label of the source (Link) field in DocType 'CRM Lead'
+#. Label of the source (Link) field in DocType 'Failed Lead Sync Log'
+#: crm/fcrm/doctype/crm_deal/crm_deal.json
+#: crm/fcrm/doctype/crm_lead/crm_lead.json
+#: crm/lead_syncing/doctype/failed_lead_sync_log/failed_lead_sync_log.json
+#: frontend/src/components/Modals/EditValueModal.vue:9
+#: frontend/src/components/Settings/LeadSyncing/LeadSyncSources.vue:58
+msgid "Source"
+msgstr "Origem"
+
+#. Label of the source_name (Data) field in DocType 'CRM Lead Source'
+#: crm/fcrm/doctype/crm_lead_source/crm_lead_source.json
+#: frontend/src/components/Settings/LeadSyncing/LeadSyncSourceForm.vue:73
+msgid "Source Name"
+msgstr "Nome da origem"
+
+#: frontend/src/components/Settings/LeadSyncing/LeadSyncSourceForm.vue:56
+msgid "Source Type"
+msgstr "Tipo de Origem"
+
+#: frontend/src/components/Settings/LeadSyncing/LeadSyncSources.vue:160
+msgid "Source disabled successfully"
+msgstr "Origem desativada com sucesso"
+
+#: frontend/src/components/Settings/LeadSyncing/LeadSyncSources.vue:159
+msgid "Source enabled successfully"
+msgstr "Origem ativada com sucesso"
+
+#: frontend/src/components/Dashboard/AddChartModal.vue:68
+#: frontend/src/components/Dashboard/DashboardItem.vue:21
+msgid "Spacer"
+msgstr "Espacador"
+
+#: crm/api/dashboard.py:790 crm/api/dashboard.py:848
+msgid "Stage"
+msgstr "Etapa"
+
+#: crm/fcrm/doctype/crm_form_script/crm_form_script.js:15
+msgid "Standard Form Scripts can not be modified, duplicate the Form Script instead."
+msgstr "Scripts de formulario padrao nao podem ser modificados. Duplique o script do formulario."
+
+#. Label of the standard_rate (Currency) field in DocType 'CRM Product'
+#: crm/fcrm/doctype/crm_product/crm_product.json
+msgid "Standard Selling Rate"
+msgstr "Preco padrao de venda"
+
+#: frontend/src/components/ViewControls.vue:641
+msgid "Standard Views"
+msgstr "Visualizacoes padrao"
+
+#: frontend/src/composables/event.js:248
+msgid "Start & End Time Are Required"
+msgstr "Os horarios de inicio e fim sao obrigatorios"
+
+#. Label of the start_date (Date) field in DocType 'CRM Service Level
+#. Agreement'
+#. Label of the start_date (Date) field in DocType 'CRM Task'
+#: crm/fcrm/doctype/crm_service_level_agreement/crm_service_level_agreement.json
+#: crm/fcrm/doctype/crm_task/crm_task.json
+#: frontend/src/components/Settings/Sla/SlaPolicyView.vue:176
+msgid "Start Date"
+msgstr "Data de inicio"
+
+#: frontend/src/components/Settings/Sla/utils.js:160
+msgid "Start Date cannot be after end date"
+msgstr "A data de inicio nao pode ser posterior a data de termino"
+
+#. Label of the start_time (Datetime) field in DocType 'CRM Call Log'
+#. Label of the start_time (Time) field in DocType 'CRM Service Day'
+#: crm/fcrm/doctype/crm_call_log/crm_call_log.json
+#: crm/fcrm/doctype/crm_service_day/crm_service_day.json
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:337
+#: frontend/src/components/Modals/EventModal.vue:103
+#: frontend/src/components/Settings/Sla/SlaHolidays.vue:219
+#: frontend/src/components/Settings/Sla/WorkDayModal.vue:31
+#: frontend/src/components/Settings/Sla/WorkDayModal.vue:32
+msgid "Start Time"
+msgstr "Horário de Início"
+
+#: frontend/src/components/Settings/Sla/WorkDayModal.vue:186
+msgid "Start Time is required"
+msgstr "O horario de inicio e obrigatorio"
+
+#: frontend/src/pages/Welcome.vue:21
+msgid "Start with sample 10 leads"
+msgstr "Comece com 10 leads de exemplo"
+
+#. Label of the status (Select) field in DocType 'CRM Call Log'
+#. Label of the status (Data) field in DocType 'CRM Communication Status'
+#. Label of the status (Link) field in DocType 'CRM Deal'
+#. Label of the deal_status (Data) field in DocType 'CRM Deal Status'
+#. Label of the status (Select) field in DocType 'CRM Invitation'
+#. Label of the status (Link) field in DocType 'CRM Lead'
+#. Label of the lead_status (Data) field in DocType 'CRM Lead Status'
+#. Label of the status (Select) field in DocType 'CRM Rolling Response Time'
+#. Label of the status (Select) field in DocType 'CRM Task'
+#: crm/fcrm/doctype/crm_call_log/crm_call_log.json
+#: crm/fcrm/doctype/crm_communication_status/crm_communication_status.json
+#: crm/fcrm/doctype/crm_deal/crm_deal.json
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_invitation/crm_invitation.json
+#: crm/fcrm/doctype/crm_lead/crm_lead.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+#: crm/fcrm/doctype/crm_rolling_response_time/crm_rolling_response_time.json
+#: crm/fcrm/doctype/crm_task/crm_task.json frontend/src/pages/Contact.vue:526
+#: frontend/src/pages/MobileContact.vue:519
+#: frontend/src/pages/MobileOrganization.vue:468
+#: frontend/src/pages/Organization.vue:498
+msgid "Status"
+msgstr "Situação"
+
+#. Label of the status_change_log (Table) field in DocType 'CRM Deal'
+#. Label of the status_change_log (Table) field in DocType 'CRM Lead'
+#: crm/fcrm/doctype/crm_deal/crm_deal.json
+#: crm/fcrm/doctype/crm_lead/crm_lead.json
+msgid "Status Change Log"
+msgstr "Log de alteracoes de status"
+
+#: frontend/src/components/Modals/DealModal.vue:209
+#: frontend/src/components/Modals/LeadModal.vue:152
+msgid "Status is required"
+msgstr "O status e obrigatorio"
+
+#. Label of the subdomain (Data) field in DocType 'CRM Exotel Settings'
+#: crm/fcrm/doctype/crm_exotel_settings/crm_exotel_settings.json
+msgid "Subdomain"
+msgstr "Subdominio"
+
+#: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:68
+#: frontend/src/components/Settings/EmailTemplate/NewEmailTemplate.vue:68
+msgid "Subject"
+msgstr "Assunto"
+
+#: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:152
+#: frontend/src/components/Settings/EmailTemplate/NewEmailTemplate.vue:155
+msgid "Subject is required"
+msgstr "O assunto é obrigatório"
+
+#: frontend/src/components/Modals/EmailTemplateSelectorModal.vue:45
+msgid "Subject: {0}"
+msgstr "Assunto: {0}"
+
+#. Option for the 'Weekly Off' (Select) field in DocType 'CRM Holiday List'
+#. Option for the 'Workday' (Select) field in DocType 'CRM Service Day'
+#: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.json
+#: crm/fcrm/doctype/crm_service_day/crm_service_day.json
+msgid "Sunday"
+msgstr "Domingo"
+
+#: frontend/src/components/Settings/emailConfig.js:16
+msgid "Support / Sales"
+msgstr "Suporte / Vendas"
+
+#: frontend/src/components/FilesUploader/FilesUploader.vue:46
+msgid "Switch Camera"
+msgstr "Trocar camera"
+
+#: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.js:6
+#: frontend/src/components/Settings/LeadSyncing/LeadSyncSourceForm.vue:23
+msgid "Sync Now"
+msgstr "Sincronizar agora"
+
+#: frontend/src/components/Settings/LeadSyncing/FailureLogs.vue:132
+msgid "Sync Successful!"
+msgstr "Sincronizacao concluida com sucesso!"
+
+#: crm/lead_syncing/doctype/failed_lead_sync_log/failed_lead_sync_log.js:16
+msgid "Sync Successful, CRM Lead: {0}!"
+msgstr "Sincronizacao concluida com sucesso. Lead do CRM: {0}!"
+
+#: frontend/src/pages/Welcome.vue:32
+msgid "Sync your Contacts, Email and Calendars"
+msgstr "Sincronize seus contatos, e-mail e calendarios"
+
+#. Option for the 'Type' (Select) field in DocType 'Failed Lead Sync Log'
+#: crm/lead_syncing/doctype/failed_lead_sync_log/failed_lead_sync_log.json
+msgid "Synced"
+msgstr "Sincronizado"
+
+#. Label of the syncing_tab (Tab Break) field in DocType 'CRM Lead'
+#: crm/fcrm/doctype/crm_lead/crm_lead.json
+msgid "Syncing"
+msgstr "Sincronizacao"
+
+#: frontend/src/components/Settings/LeadSyncing/LeadSyncSourceForm.vue:402
+msgid "Syncing started in background"
+msgstr "A sincronizacao foi iniciada em segundo plano"
+
+#: frontend/src/components/Settings/Settings.vue:106
+msgid "System Configuration"
+msgstr "Configuracao do sistema"
+
+#. Name of a role
+#. Option for the 'Role' (Select) field in DocType 'CRM Invitation'
+#: crm/fcrm/doctype/crm_call_log/crm_call_log.json
+#: crm/fcrm/doctype/crm_communication_status/crm_communication_status.json
+#: crm/fcrm/doctype/crm_dashboard/crm_dashboard.json
+#: crm/fcrm/doctype/crm_deal/crm_deal.json
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_exotel_settings/crm_exotel_settings.json
+#: crm/fcrm/doctype/crm_fields_layout/crm_fields_layout.json
+#: crm/fcrm/doctype/crm_form_script/crm_form_script.json
+#: crm/fcrm/doctype/crm_global_settings/crm_global_settings.json
+#: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.json
+#: crm/fcrm/doctype/crm_industry/crm_industry.json
+#: crm/fcrm/doctype/crm_invitation/crm_invitation.json
+#: crm/fcrm/doctype/crm_lead/crm_lead.json
+#: crm/fcrm/doctype/crm_lead_source/crm_lead_source.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+#: crm/fcrm/doctype/crm_lost_reason/crm_lost_reason.json
+#: crm/fcrm/doctype/crm_notification/crm_notification.json
+#: crm/fcrm/doctype/crm_organization/crm_organization.json
+#: crm/fcrm/doctype/crm_product/crm_product.json
+#: crm/fcrm/doctype/crm_service_level_agreement/crm_service_level_agreement.json
+#: crm/fcrm/doctype/crm_task/crm_task.json
+#: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.json
+#: crm/fcrm/doctype/crm_territory/crm_territory.json
+#: crm/fcrm/doctype/crm_twilio_settings/crm_twilio_settings.json
+#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
+#: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.json
+#: crm/fcrm/doctype/fcrm_note/fcrm_note.json
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
+#: crm/lead_syncing/doctype/facebook_lead_form/facebook_lead_form.json
+#: crm/lead_syncing/doctype/facebook_page/facebook_page.json
+#: crm/lead_syncing/doctype/failed_lead_sync_log/failed_lead_sync_log.json
+#: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.json
+msgid "System Manager"
+msgstr "Gerente do sistema"
+
+#: frontend/src/components/EmailEditor.vue:22
+msgid "TO"
+msgstr "PARA"
+
+#: frontend/src/components/Telephony/ExotelCallUI.vue:148
+msgid "Take a note..."
+msgstr "Faca uma anotacao..."
+
+#. Option for the 'Type' (Select) field in DocType 'CRM Notification'
+#: crm/fcrm/doctype/crm_notification/crm_notification.json
+#: frontend/src/components/Activities/ActivityHeader.vue:151
+#: frontend/src/components/Layouts/AppSidebar.vue:562
+msgid "Task"
+msgstr "Tarefa"
+
+#: frontend/src/components/Modals/TaskModal.vue:193
+msgid "Task created"
+msgstr "Tarefa criada"
+
+#: frontend/src/pages/Deal.vue:580 frontend/src/pages/Lead.vue:431
+#: frontend/src/pages/MobileDeal.vue:456 frontend/src/pages/MobileLead.vue:301
+msgid "Tasks"
+msgstr "Tarefas"
+
+#: frontend/src/components/Settings/Settings.vue:195
+msgid "Telephony"
+msgstr "Telefonia"
+
+#. Label of the telephony_medium (Select) field in DocType 'CRM Call Log'
+#: crm/fcrm/doctype/crm_call_log/crm_call_log.json
+msgid "Telephony Medium"
+msgstr "Meio de telefonia"
+
+#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:9
+msgid "Telephony Settings"
+msgstr "Configuracoes de telefonia"
+
+#: frontend/src/components/Settings/EmailTemplate/EmailTemplates.vue:211
+msgid "Template Deleted Successfully"
+msgstr "Modelo excluido com sucesso"
+
+#: frontend/src/components/Settings/EmailTemplate/EmailTemplates.vue:79
+msgid "Template Name"
+msgstr "Nome do modelo"
+
+#: frontend/src/components/Settings/EmailTemplate/NewEmailTemplate.vue:172
+msgid "Template created successfully"
+msgstr "Modelo criado com sucesso"
+
+#: frontend/src/components/Settings/EmailTemplate/EmailTemplates.vue:195
+msgid "Template disabled successfully"
+msgstr "Modelo desativado com sucesso"
+
+#: frontend/src/components/Settings/EmailTemplate/EmailTemplates.vue:194
+msgid "Template enabled successfully"
+msgstr "Modelo ativado com sucesso"
+
+#: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:236
+msgid "Template renamed successfully"
+msgstr "Modelo renomeado com sucesso"
+
+#: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:201
+msgid "Template updated successfully"
+msgstr "Modelo atualizado com sucesso"
+
+#: frontend/src/components/Settings/Settings.vue:159
+msgid "Templates"
+msgstr "Modelos"
+
+#. Label of a shortcut in the Frappe CRM Workspace
+#: crm/fcrm/workspace/frappe_crm/frappe_crm.json
+msgid "Territories"
+msgstr "Territorios"
+
+#. Label of the territory (Link) field in DocType 'CRM Deal'
+#. Label of the territory (Link) field in DocType 'CRM Lead'
+#. Label of the territory (Link) field in DocType 'CRM Organization'
+#: crm/api/dashboard.py:1070 crm/fcrm/doctype/crm_deal/crm_deal.json
+#: crm/fcrm/doctype/crm_lead/crm_lead.json
+#: crm/fcrm/doctype/crm_organization/crm_organization.json
+msgid "Territory"
+msgstr "Território"
+
+#. Label of the territory_manager (Link) field in DocType 'CRM Territory'
+#: crm/fcrm/doctype/crm_territory/crm_territory.json
+msgid "Territory Manager"
+msgstr "Gestor do Território"
+
+#. Label of the territory_name (Data) field in DocType 'CRM Territory'
+#: crm/fcrm/doctype/crm_territory/crm_territory.json
+msgid "Territory Name"
+msgstr "Nome do Território"
+
+#: crm/templates/emails/helpdesk_invitation.html:16
+msgid "Thanks"
+msgstr "Obrigado"
+
+#: crm/fcrm/doctype/crm_service_level_agreement/crm_service_level_agreement.py:72
+msgid "The Condition '{0}' is invalid: {1}"
+msgstr "A condicao '{0}' e invalida: {1}"
+
+#: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.py:64
+msgid "The holiday on {0} is not between From Date and To Date"
+msgstr "O feriado em {0} nao esta entre a data inicial e a data final"
+
+#. Description of the 'Exchange Rate' (Float) field in DocType 'CRM Deal'
+#: crm/fcrm/doctype/crm_deal/crm_deal.json
+msgid "The rate used to convert the deal’s currency to your crm's base currency (set in CRM Settings). It is set once when the currency is first added and doesn't change automatically."
+msgstr "A taxa usada para converter a moeda da negociacao para a moeda base do seu CRM (definida em Configuracoes do CRM). Ela e definida uma vez quando a moeda e adicionada pela primeira vez e nao muda automaticamente."
+
+#. Description of the 'Exchange Rate' (Float) field in DocType 'CRM
+#. Organization'
+#: crm/fcrm/doctype/crm_organization/crm_organization.json
+msgid "The rate used to convert the organization’s currency to your crm's base currency (set in CRM Settings). It is set once when the currency is first added and doesn't change automatically."
+msgstr "A taxa usada para converter a moeda da organizacao para a moeda base do seu CRM (definida em Configuracoes do CRM). Ela e definida uma vez quando a moeda e adicionada pela primeira vez e nao muda automaticamente."
+
+#: crm/fcrm/doctype/crm_service_level_agreement/crm_service_level_agreement.js:29
+msgid "There can only be one default priority in Priorities table"
+msgstr "Pode haver apenas uma prioridade padrao na tabela de prioridades"
+
+#: frontend/src/components/Modals/AddressModal.vue:120
+#: frontend/src/components/Modals/CallLogModal.vue:121
+msgid "These fields are required: {0}"
+msgstr "Estes campos sao obrigatorios: {0}"
+
+#: frontend/src/components/Filter.vue:652
+msgid "This Month"
+msgstr "Este mes"
+
+#: frontend/src/components/Filter.vue:656
+msgid "This Quarter"
+msgstr "Este trimestre"
+
+#: frontend/src/components/Filter.vue:648
+msgid "This Week"
+msgstr "Esta semana"
+
+#: frontend/src/components/Filter.vue:660
+msgid "This Year"
+msgstr "Este ano"
+
+#: frontend/src/components/Settings/Sla/WorkDayModal.vue:177
+msgid "This field is required"
+msgstr "Este campo e obrigatorio"
+
+#: crm/www/crm.py:31
+msgid "This method is only meant for developer mode"
+msgstr "Esse método é destinado apenas ao modo de desenvolvedor"
+
+#: frontend/src/components/SidePanelLayoutEditor.vue:116
+msgid "This section is not editable"
+msgstr "Esta secao nao e editavel"
+
+#: frontend/src/components/BulkDeleteLinkedDocModal.vue:60
+msgid "This will delete selected items and items linked to it, are you sure?"
+msgstr "Isso excluira os itens selecionados e os itens vinculados a eles. Tem certeza?"
+
+#: frontend/src/components/BulkDeleteLinkedDocModal.vue:63
+msgid "This will delete selected items and unlink linked items to it, are you sure?"
+msgstr "Isso excluira os itens selecionados e desvinculara os itens vinculados a eles. Tem certeza?"
+
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.js:9
+msgid "This will restore (if not exist) all the default statuses, custom fields and layouts. Delete & Restore will delete default layouts and then restore them."
+msgstr "Isso restaurara (se nao existirem) todos os status padrao, campos personalizados e layouts. Excluir e restaurar excluira os layouts padrao e depois os restaurara."
+
+#. Option for the 'Weekly Off' (Select) field in DocType 'CRM Holiday List'
+#. Option for the 'Workday' (Select) field in DocType 'CRM Service Day'
+#: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.json
+#: crm/fcrm/doctype/crm_service_day/crm_service_day.json
+msgid "Thursday"
+msgstr "Quinta-feira"
+
+#. Description of the 'Default Event Notifications' (Section Break) field in
+#. DocType 'FCRM Settings'
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
+msgid "Time before the event when a reminder notification will be sent by default. This will be applied to all events unless a custom notification is set for a specific event."
+msgstr "Tempo antes do evento em que uma notificacao de lembrete sera enviada por padrao. Isso sera aplicado a todos os eventos, a menos que uma notificacao personalizada seja definida para um evento especifico."
+
+#: frontend/src/components/Filter.vue:348
+msgid "Timespan"
+msgstr "Periodo"
+
+#. Label of the title (Data) field in DocType 'CRM Task'
+#. Label of the title (Data) field in DocType 'FCRM Note'
+#: crm/fcrm/doctype/crm_task/crm_task.json
+#: crm/fcrm/doctype/fcrm_note/fcrm_note.json
+#: frontend/src/components/Modals/EventModal.vue:43
+#: frontend/src/components/Modals/NoteModal.vue:27
+#: frontend/src/components/Modals/TaskModal.vue:24
+msgid "Title"
+msgstr "Titulo"
+
+#. Label of the title_field (Data) field in DocType 'CRM View Settings'
+#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
+#: frontend/src/components/Kanban/KanbanSettings.vue:29
+msgid "Title Field"
+msgstr "Campo de titulo"
+
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:822
+#: frontend/src/components/Modals/EventModal.vue:376
+#: frontend/src/components/Modals/TaskModal.vue:167
+msgid "Title is required"
+msgstr "O titulo e obrigatorio"
+
+#. Label of the to (Data) field in DocType 'CRM Call Log'
+#. Label of the to (Data) field in DocType 'CRM Status Change Log'
+#: crm/fcrm/doctype/crm_call_log/crm_call_log.json
+#: crm/fcrm/doctype/crm_status_change_log/crm_status_change_log.json
+#: frontend/src/components/Activities/EmailArea.vue:53
+msgid "To"
+msgstr "Para"
+
+#. Label of the to_date (Date) field in DocType 'CRM Holiday List'
+#. Label of the to_date (Datetime) field in DocType 'CRM Status Change Log'
+#: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.json
+#: crm/fcrm/doctype/crm_status_change_log/crm_status_change_log.json
+msgid "To Date"
+msgstr "Data final"
+
+#: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.py:59
+msgid "To Date cannot be before From Date"
+msgstr "A data final nao pode ser anterior a data inicial"
+
+#. Label of the to_type (Data) field in DocType 'CRM Status Change Log'
+#: crm/fcrm/doctype/crm_status_change_log/crm_status_change_log.json
+msgid "To Type"
+msgstr "Tipo de destino"
+
+#. Label of the to_user (Link) field in DocType 'CRM Notification'
+#: crm/fcrm/doctype/crm_notification/crm_notification.json
+msgid "To User"
+msgstr "Para usuario"
+
+#: frontend/src/components/Settings/EmailEdit.vue:118
+msgid "To know more about setting up email accounts, click"
+msgstr "Para saber mais sobre como configurar contas de e-mail, clique"
+
+#: frontend/src/components/Filter.vue:640 frontend/src/pages/Calendar.vue:79
+msgid "Today"
+msgstr "Hoje"
+
+#. Option for the 'Status' (Select) field in DocType 'CRM Task'
+#: crm/fcrm/doctype/crm_task/crm_task.json
+msgid "Todo"
+msgstr "A fazer"
+
+#: frontend/src/components/Modals/SidePanelModal.vue:59
+msgid "Toggle on for Preview"
+msgstr "Ative para visualizar"
+
+#: frontend/src/components/Filter.vue:644
+msgid "Tomorrow"
+msgstr "Amanha"
+
+#: frontend/src/components/Modals/NoteModal.vue:41
+#: frontend/src/components/Modals/TaskModal.vue:43
+msgid "Took a call with John Doe and discussed the new project."
+msgstr "Fez uma chamada com John Doe e discutiu o novo projeto."
+
+#. Label of the total (Currency) field in DocType 'CRM Deal'
+#. Label of the total (Currency) field in DocType 'CRM Lead'
+#: crm/fcrm/doctype/crm_deal/crm_deal.json
+#: crm/fcrm/doctype/crm_lead/crm_lead.json
+msgid "Total"
+msgstr "Total"
+
+#. Label of the total_holidays (Int) field in DocType 'CRM Holiday List'
+#: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.json
+msgid "Total Holidays"
+msgstr "Total de feriados"
+
+#: frontend/src/components/Dashboard/AddChartModal.vue:76
+msgid "Total Leads"
+msgstr "Total de leads"
+
+#. Description of the 'Net Total' (Currency) field in DocType 'CRM Deal'
+#. Description of the 'Net Total' (Currency) field in DocType 'CRM Lead'
+#: crm/fcrm/doctype/crm_deal/crm_deal.json
+#: crm/fcrm/doctype/crm_lead/crm_lead.json
+msgid "Total after discount"
+msgstr "Total apos desconto"
+
+#: crm/api/dashboard.py:130
+msgid "Total leads"
+msgstr "Total de leads"
+
+#: crm/api/dashboard.py:131
+msgid "Total number of leads"
+msgstr "Numero total de leads"
+
+#: crm/api/dashboard.py:190
+msgid "Total number of non won/lost deals"
+msgstr "Numero total de negociacoes que nao foram ganhas nem perdidas"
+
+#: crm/api/dashboard.py:307
+msgid "Total number of won deals based on its closure date"
+msgstr "Numero total de negociacoes ganhas com base na data de fechamento"
+
+#. Label of the traceback (Code) field in DocType 'Failed Lead Sync Log'
+#: crm/lead_syncing/doctype/failed_lead_sync_log/failed_lead_sync_log.json
+#: frontend/src/components/Settings/LeadSyncing/FailureLogs.vue:50
+msgid "Traceback"
+msgstr "Traceback"
+
+#. Option for the 'Weekly Off' (Select) field in DocType 'CRM Holiday List'
+#. Option for the 'Workday' (Select) field in DocType 'CRM Service Day'
+#: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.json
+#: crm/fcrm/doctype/crm_service_day/crm_service_day.json
+msgid "Tuesday"
+msgstr "Terça-feira"
+
+#: frontend/src/components/ConditionsFilter/CFCondition.vue:159
+msgid "Turn into a Group"
+msgstr "Transformar em grupo"
+
+#. Label of the twiml_sid (Data) field in DocType 'CRM Twilio Settings'
+#: crm/fcrm/doctype/crm_twilio_settings/crm_twilio_settings.json
+msgid "TwiML SID"
+msgstr "SID do TwiML"
+
+#. Option for the 'Telephony Medium' (Select) field in DocType 'CRM Call Log'
+#. Label of the twilio (Check) field in DocType 'CRM Telephony Agent'
+#. Option for the 'Default Medium' (Select) field in DocType 'CRM Telephony
+#. Agent'
+#: crm/fcrm/doctype/crm_call_log/crm_call_log.json
+#: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.json
+#: frontend/src/components/Layouts/AppSidebar.vue:608
+#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:50
+#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:76
+msgid "Twilio"
+msgstr "Twilio"
+
+#: crm/fcrm/doctype/crm_twilio_settings/crm_twilio_settings.py:75
+#: crm/fcrm/doctype/crm_twilio_settings/crm_twilio_settings.py:76
+msgid "Twilio API credential creation error."
+msgstr "Erro ao criar credenciais da API da Twilio."
+
+#. Label of the twilio_number (Data) field in DocType 'CRM Telephony Agent'
+#: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.json
+msgid "Twilio Number"
+msgstr "Numero da Twilio"
+
+#: frontend/src/components/Settings/Telephony/TwilioSettings.vue:4
+msgid "Twilio Settings"
+msgstr "Configuracoes da Twilio"
+
+#: frontend/src/components/Settings/Telephony/TwilioSettings.vue:5
+msgid "Twilio Settings Updated"
+msgstr "Configuracoes da Twilio atualizadas"
+
+#: crm/integrations/twilio/api.py:15
+msgid "Twilio configuration is missing"
+msgstr "A configuracao da Twilio esta ausente"
+
+#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:168
+msgid "Twilio is not enabled"
+msgstr "A Twilio nao esta habilitada"
+
+#. Label of the type (Select) field in DocType 'CRM Call Log'
+#. Label of the type (Select) field in DocType 'CRM Deal Status'
+#. Label of the type (Select) field in DocType 'CRM Dropdown Item'
+#. Label of the type (Select) field in DocType 'CRM Fields Layout'
+#. Label of the type (Select) field in DocType 'CRM Global Settings'
+#. Label of the type (Select) field in DocType 'CRM Lead Status'
+#. Label of the type (Select) field in DocType 'CRM Notification'
+#. Label of the type (Select) field in DocType 'CRM View Settings'
+#. Label of the type (Data) field in DocType 'Facebook Lead Form Question'
+#. Label of the type (Select) field in DocType 'Failed Lead Sync Log'
+#. Label of the type (Select) field in DocType 'Lead Sync Source'
+#: crm/fcrm/doctype/crm_call_log/crm_call_log.json
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_dropdown_item/crm_dropdown_item.json
+#: crm/fcrm/doctype/crm_fields_layout/crm_fields_layout.json
+#: crm/fcrm/doctype/crm_global_settings/crm_global_settings.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+#: crm/fcrm/doctype/crm_notification/crm_notification.json
+#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
+#: crm/lead_syncing/doctype/facebook_lead_form_question/facebook_lead_form_question.json
+#: crm/lead_syncing/doctype/failed_lead_sync_log/failed_lead_sync_log.json
+#: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.json
+#: frontend/src/components/Settings/LeadSyncing/FailureLogs.vue:116
+msgid "Type"
+msgstr "Tipo"
+
+#: frontend/src/components/Calendar/Attendee.vue:212
+msgid "Type an email address to add attendee"
+msgstr "Digite um endereco de e-mail para adicionar um participante"
+
+#: frontend/src/components/Activities/WhatsAppBox.vue:96
+msgid "Type your message here..."
+msgstr "Digite sua mensagem aqui..."
+
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:454
+msgid "Unassign Conditions are invalid"
+msgstr "As condicoes de desatribuicao sao invalidas"
+
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:224
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:607
+msgid "Unassignment Condition"
+msgstr "Condicao de desatribuicao"
+
+#: crm/integrations/exotel/handler.py:169
+msgid "Unauthorized request"
+msgstr "Solicitacao nao autorizada"
+
+#: frontend/src/components/FieldLayoutEditor.vue:342
+msgid "Uncollapsible"
+msgstr "Nao recolhivel"
+
+#: frontend/src/components/ConditionsFilter/CFCondition.vue:169
+msgid "Ungroup Conditions"
+msgstr "Desagrupar condicoes"
+
+#: frontend/src/components/Telephony/TwilioCallUI.vue:24
+#: frontend/src/components/Telephony/TwilioCallUI.vue:123
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: frontend/src/components/BulkDeleteLinkedDocModal.vue:124
+msgid "Unlink"
+msgstr "Desvincular"
+
+#: frontend/src/components/BulkDeleteLinkedDocModal.vue:74
+msgid "Unlink & Delete"
+msgstr "Desvincular e excluir"
+
+#: frontend/src/components/BulkDeleteLinkedDocModal.vue:35
+msgid "Unlink & Delete {0} items"
+msgstr "Desvincular e excluir {0} itens"
+
+#: frontend/src/components/DeleteLinkedDocModal.vue:81
+msgid "Unlink All"
+msgstr "Desvincular tudo"
+
+#: frontend/src/components/DeleteLinkedDocModal.vue:236
+msgid "Unlink Linked Item"
+msgstr "Desvincular item vinculado"
+
+#: frontend/src/components/DeleteLinkedDocModal.vue:82
+msgid "Unlink {0} Item(s)"
+msgstr "Desvincular {0} item(ns)"
+
+#: frontend/src/components/ViewControls.vue:1102
+msgid "Unpin View"
+msgstr "Desafixar visualizacao"
+
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:575
+#: frontend/src/components/Settings/Sla/SlaPolicyView.vue:346
+msgid "Unsaved Changes"
+msgstr "Alterações não salvas"
+
+#: frontend/src/components/CollapsibleSection.vue:21
+#: frontend/src/components/FieldLayoutEditor.vue:26
+#: frontend/src/components/Modals/AddressModal.vue:8
+#: frontend/src/components/Modals/CallLogModal.vue:8
+#: frontend/src/components/Modals/CreateDocumentModal.vue:8
+#: frontend/src/components/SidePanelLayoutEditor.vue:19
+msgid "Untitled"
+msgstr "Sem titulo"
+
+#: frontend/src/components/ColumnSettings.vue:129
+#: frontend/src/components/Modals/AssignmentModal.vue:79
+#: frontend/src/components/Modals/ChangePasswordModal.vue:47
+#: frontend/src/components/Modals/EventModal.vue:212
+#: frontend/src/components/Modals/NoteModal.vue:52
+#: frontend/src/components/Modals/TaskModal.vue:103
+#: frontend/src/components/Settings/BrandSettings.vue:15
+#: frontend/src/components/Settings/CalendarSettings.vue:19
+#: frontend/src/components/Settings/CurrencySettings.vue:17
+#: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:21
+#: frontend/src/components/Settings/HomeActions.vue:15
+#: frontend/src/components/Settings/LeadSyncing/LeadSyncSourceForm.vue:30
+#: frontend/src/components/Settings/SettingsPage.vue:32
+#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:25
+#: frontend/src/components/Telephony/ExotelCallUI.vue:209
+msgid "Update"
+msgstr "Atualizar"
+
+#: frontend/src/components/Settings/EmailEdit.vue:74
+msgid "Update Account"
+msgstr "Atualizar conta"
+
+#: frontend/src/components/Modals/EditValueModal.vue:29
+msgid "Update {0} Records"
+msgstr "Atualizar {0} registros"

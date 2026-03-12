@@ -1,0 +1,1058 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Label of the delete_bin_data (Check) field in DocType 'Transaction Deletion
+#. Record'
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.json
+msgid "Delete Bins"
+msgstr "Excluir Saldos"
+
+#. Label of the delete_cancelled_entries (Check) field in DocType 'Repost
+#. Accounting Ledger'
+#: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.json
+msgid "Delete Cancelled Ledger Entries"
+msgstr "Excluir Lançamentos Cancelados do Razão"
+
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.js:66
+msgid "Delete Dimension"
+msgstr "Excluir Dimensão"
+
+#. Label of the delete_leads_and_addresses (Check) field in DocType
+#. 'Transaction Deletion Record'
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.json
+msgid "Delete Leads and Addresses"
+msgstr "Excluir Leads e Endereços"
+
+#. Label of the delete_transactions (Check) field in DocType 'Transaction
+#. Deletion Record'
+#: erpnext/setup/doctype/company/company.js:168
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.json
+msgid "Delete Transactions"
+msgstr "Excluir Transações"
+
+#: erpnext/setup/doctype/company/company.js:237
+msgid "Delete all the Transactions for this Company"
+msgstr "Excluir todas as transações desta empresa"
+
+#. Label of a Link in the Settings Workspace
+#: erpnext/setup/workspace/settings/settings.json
+msgid "Deleted Documents"
+msgstr "Documentos excluídos"
+
+#: erpnext/edi/doctype/code_list/code_list.js:28
+msgid "Deleting {0} and all associated Common Code documents..."
+msgstr "Excluindo {0} e todos os documentos de código comum associados..."
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:503
+msgid "Deletion in Progress!"
+msgstr "Exclusão em andamento!"
+
+#: erpnext/regional/__init__.py:14
+msgid "Deletion is not permitted for country {0}"
+msgstr "A exclusão não está permitida para o país {0}"
+
+#. Label of the delimiter_options (Data) field in DocType 'Bank Statement
+#. Import'
+#: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.json
+msgid "Delimiter options"
+msgstr "Opções de delimitador"
+
+#. Label of the deliver_scrap_items (Check) field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Deliver Scrap Items"
+msgstr "Entregar Itens de Sucata"
+
+#. Option for the 'Status' (Select) field in DocType 'Purchase Order'
+#. Option for the 'Status' (Select) field in DocType 'Serial No'
+#. Option for the 'Tracking Status' (Select) field in DocType 'Shipment'
+#. Option for the 'Status' (Select) field in DocType 'Stock Reservation Entry'
+#. Option for the 'Status' (Select) field in DocType 'Subcontracting Inward
+#. Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order.js:401
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/purchase_order/purchase_order_list.js:20
+#: erpnext/controllers/website_list_for_contact.py:209
+#: erpnext/stock/doctype/serial_no/serial_no.json
+#: erpnext/stock/doctype/shipment/shipment.json
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+#: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py:61
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
+msgid "Delivered"
+msgstr "Entregue"
+
+#: erpnext/stock/report/supplier_wise_sales_analytics/supplier_wise_sales_analytics.py:64
+msgid "Delivered Amount"
+msgstr "Valor Entregue"
+
+#. Title of an incoterm
+#: erpnext/setup/doctype/incoterm/incoterms.csv:10
+msgid "Delivered At Place"
+msgstr "Delivered At Place"
+
+#. Title of an incoterm
+#: erpnext/setup/doctype/incoterm/incoterms.csv:11
+msgid "Delivered At Place Unloaded"
+msgstr "Delivered At Place Unloaded"
+
+#. Label of the delivered_by_supplier (Check) field in DocType 'POS Invoice
+#. Item'
+#. Label of the delivered_by_supplier (Check) field in DocType 'Sales Invoice
+#. Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+msgid "Delivered By Supplier"
+msgstr "Entregue pelo Fornecedor"
+
+#. Title of an incoterm
+#: erpnext/setup/doctype/incoterm/incoterms.csv:12
+msgid "Delivered Duty Paid"
+msgstr "Delivered Duty Paid"
+
+#. Name of a report
+#. Label of a Link in the Receivables Workspace
+#: erpnext/accounts/report/delivered_items_to_be_billed/delivered_items_to_be_billed.json
+#: erpnext/accounts/workspace/receivables/receivables.json
+msgid "Delivered Items To Be Billed"
+msgstr "Itens Entregues a Faturar"
+
+#. Label of the delivered_qty (Float) field in DocType 'POS Invoice Item'
+#. Label of the delivered_qty (Float) field in DocType 'Sales Invoice Item'
+#. Label of the delivered_qty (Float) field in DocType 'Sales Order Item'
+#. Label of the delivered_qty (Float) field in DocType 'Serial and Batch Entry'
+#. Label of the delivered_qty (Float) field in DocType 'Stock Reservation
+#. Entry'
+#. Label of the delivered_qty (Float) field in DocType 'Subcontracting Inward
+#. Order Item'
+#. Label of the delivered_qty (Float) field in DocType 'Subcontracting Inward
+#. Order Scrap Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:262
+#: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+#: erpnext/stock/report/reserved_stock/reserved_stock.py:131
+#: erpnext/stock/report/supplier_wise_sales_analytics/supplier_wise_sales_analytics.py:63
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_item/subcontracting_inward_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_scrap_item/subcontracting_inward_order_scrap_item.json
+msgid "Delivered Qty"
+msgstr "Qtd. Entregue"
+
+#. Label of the delivered_qty (Float) field in DocType 'Pick List Item'
+#: erpnext/stock/doctype/pick_list_item/pick_list_item.json
+msgid "Delivered Qty (in Stock UOM)"
+msgstr "Qtd. Entregue (na UM de Estoque)"
+
+#: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.py:101
+msgid "Delivered Quantity"
+msgstr "Quantidade Entregue"
+
+#. Label of the delivered_by_supplier (Check) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Delivered by Supplier (Drop Ship)"
+msgstr "Entregue pelo Fornecedor (Entrega Direta)"
+
+#: erpnext/templates/pages/material_request_info.html:66
+msgid "Delivered: {0}"
+msgstr "Entregue: {0}"
+
+#. Option for the 'Purpose' (Select) field in DocType 'Pick List'
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:125
+#: erpnext/stock/doctype/pick_list/pick_list.json
+msgid "Delivery"
+msgstr "Entrega"
+
+#. Label of the delivery_date (Date) field in DocType 'Master Production
+#. Schedule Item'
+#. Label of the delivery_date (Date) field in DocType 'Sales Forecast Item'
+#. Label of the delivery_date (Date) field in DocType 'Delivery Schedule Item'
+#. Label of the delivery_date (Date) field in DocType 'Sales Order'
+#. Label of the delivery_date (Date) field in DocType 'Sales Order Item'
+#: erpnext/manufacturing/doctype/master_production_schedule_item/master_production_schedule_item.json
+#: erpnext/manufacturing/doctype/sales_forecast_item/sales_forecast_item.json
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1051
+#: erpnext/public/js/utils.js:791
+#: erpnext/selling/doctype/delivery_schedule_item/delivery_schedule_item.json
+#: erpnext/selling/doctype/sales_order/sales_order.js:624
+#: erpnext/selling/doctype/sales_order/sales_order.js:1478
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:321
+msgid "Delivery Date"
+msgstr "Data de Entrega"
+
+#. Label of the section_break_3 (Section Break) field in DocType 'Delivery
+#. Trip'
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.json
+msgid "Delivery Details"
+msgstr "Detalhes da Entrega"
+
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.js:119
+msgid "Delivery From Date"
+msgstr "Data Inicial de Entrega"
+
+#. Name of a role
+#: erpnext/setup/doctype/driver/driver.json
+#: erpnext/setup/doctype/vehicle/vehicle.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/delivery_settings/delivery_settings.json
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.json
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+msgid "Delivery Manager"
+msgstr "Gerente de Entrega"
+
+#. Label of the delivery_note (Link) field in DocType 'POS Invoice Item'
+#. Label of the delivery_note (Link) field in DocType 'Sales Invoice Item'
+#. Option for the 'Transaction' (Select) field in DocType 'Authorization Rule'
+#. Name of a DocType
+#. Label of the delivery_note (Link) field in DocType 'Delivery Stop'
+#. Label of the delivery_note (Link) field in DocType 'Packing Slip'
+#. Option for the 'Reference Type' (Select) field in DocType 'Quality
+#. Inspection'
+#. Label of the delivery_note (Link) field in DocType 'Shipment Delivery Note'
+#. Label of a Link in the Stock Workspace
+#. Label of a shortcut in the Stock Workspace
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:327
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice_list.js:36
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/report/delivered_items_to_be_billed/delivered_items_to_be_billed.js:22
+#: erpnext/accounts/report/delivered_items_to_be_billed/delivered_items_to_be_billed.py:21
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:283
+#: erpnext/accounts/report/sales_register/sales_register.py:245
+#: erpnext/selling/doctype/sales_order/sales_order.js:1042
+#: erpnext/selling/doctype/sales_order/sales_order_list.js:81
+#: erpnext/setup/doctype/authorization_rule/authorization_rule.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/delivery_stop/delivery_stop.json
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.js:52
+#: erpnext/stock/doctype/packing_slip/packing_slip.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:66
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+#: erpnext/stock/doctype/shipment_delivery_note/shipment_delivery_note.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Delivery Note"
+msgstr "Nota de Entrega"
+
+#. Label of the dn_detail (Data) field in DocType 'POS Invoice Item'
+#. Label of the dn_detail (Data) field in DocType 'Sales Invoice Item'
+#. Label of the items (Table) field in DocType 'Delivery Note'
+#. Name of a DocType
+#. Label of the dn_detail (Data) field in DocType 'Packing Slip Item'
+#. Label of the delivery_note_item (Data) field in DocType 'Purchase Receipt
+#. Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/packing_slip_item/packing_slip_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Delivery Note Item"
+msgstr "Item da Nota de Entrega"
+
+#. Label of the delivery_note_no (Link) field in DocType 'Stock Entry'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Delivery Note No"
+msgstr "Nº da Nota de Entrega"
+
+#. Label of the pi_detail (Data) field in DocType 'Packing Slip Item'
+#: erpnext/stock/doctype/packing_slip_item/packing_slip_item.json
+msgid "Delivery Note Packed Item"
+msgstr "Item Embalado da Nota de Entrega"
+
+#. Label of a Link in the Selling Workspace
+#. Name of a report
+#. Label of a Link in the Stock Workspace
+#: erpnext/selling/workspace/selling/selling.json
+#: erpnext/stock/report/delivery_note_trends/delivery_note_trends.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Delivery Note Trends"
+msgstr "Tendencias de Notas de Entrega"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1375
+msgid "Delivery Note {0} is not submitted"
+msgstr "A nota de entrega {0} não foi enviada"
+
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1239
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.js:73
+msgid "Delivery Notes"
+msgstr "Notas de Entrega"
+
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.py:91
+msgid "Delivery Notes should not be in draft state when submitting a Delivery Trip. The following Delivery Notes are still in draft state: {0}. Please submit them first."
+msgstr "As notas de entrega não devem estar em rascunho ao enviar uma viagem de entrega. As seguintes notas de entrega ainda estão em rascunho: {0}. Envie-as primeiro."
+
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.py:146
+msgid "Delivery Notes {0} updated"
+msgstr "Notas de entrega {0} atualizadas"
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:619
+#: erpnext/selling/doctype/sales_order/sales_order.js:646
+msgid "Delivery Schedule"
+msgstr "Programação de Entrega"
+
+#. Name of a DocType
+#: erpnext/selling/doctype/delivery_schedule_item/delivery_schedule_item.json
+msgid "Delivery Schedule Item"
+msgstr "Item da Programação de Entrega"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/delivery_settings/delivery_settings.json
+msgid "Delivery Settings"
+msgstr "Configurações de Entrega"
+
+#. Name of a DocType
+#. Label of the delivery_stops (Table) field in DocType 'Delivery Trip'
+#: erpnext/stock/doctype/delivery_stop/delivery_stop.json
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.json
+msgid "Delivery Stop"
+msgstr "Parada de Entrega"
+
+#. Label of the delivery_service_stops (Section Break) field in DocType
+#. 'Delivery Trip'
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.json
+msgid "Delivery Stops"
+msgstr "Paradas de Entrega"
+
+#. Label of the delivery_to (Data) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Delivery To"
+msgstr "Entregar para"
+
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.js:125
+msgid "Delivery To Date"
+msgstr "Data Final de Entrega"
+
+#. Label of the delivery_trip (Link) field in DocType 'Delivery Note'
+#. Name of a DocType
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/doctype/delivery_note/delivery_note.js:280
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Delivery Trip"
+msgstr "Viagem de Entrega"
+
+#. Name of a role
+#: erpnext/setup/doctype/driver/driver.json
+#: erpnext/setup/doctype/vehicle/vehicle.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.json
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+msgid "Delivery User"
+msgstr "Usuário de Entrega"
+
+#. Label of the warehouse (Link) field in DocType 'Sales Order Item'
+#. Label of the delivery_warehouse (Link) field in DocType 'Subcontracting
+#. Inward Order Item'
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_item/subcontracting_inward_order_item.json
+msgid "Delivery Warehouse"
+msgstr "Armazém de Entrega"
+
+#. Label of the heading_delivery_to (Heading) field in DocType 'Shipment'
+#. Label of the delivery_to_type (Select) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Delivery to"
+msgstr "Entrega para"
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:441
+msgid "Delivery warehouse required for stock item {0}"
+msgstr "Armazém de entrega obrigatório para o item de estoque {0}"
+
+#. Label of the sales_orders_and_material_requests_tab (Tab Break) field in
+#. DocType 'Master Production Schedule'
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
+#: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.py:233
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:311
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:376
+msgid "Demand"
+msgstr "Demanda"
+
+#. Label of the demand_qty (Float) field in DocType 'Sales Forecast Item'
+#: erpnext/manufacturing/doctype/sales_forecast_item/sales_forecast_item.json
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:999
+msgid "Demand Qty"
+msgstr "Qtd. de Demanda"
+
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:323
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:388
+msgid "Demand vs Supply"
+msgstr "Demanda x Oferta"
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:542
+msgid "Demo Bank Account"
+msgstr "Conta Bancária de Demonstração"
+
+#. Label of the demo_company (Link) field in DocType 'Global Defaults'
+#: erpnext/setup/doctype/global_defaults/global_defaults.json
+msgid "Demo Company"
+msgstr "Empresa de Demonstração"
+
+#: erpnext/public/js/utils/demo.js:28
+msgid "Demo data cleared"
+msgstr "Dados de demonstração removidos"
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:18
+msgid "Department Stores"
+msgstr "Lojas de Departamento"
+
+#. Label of the departure_time (Datetime) field in DocType 'Delivery Trip'
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.json
+msgid "Departure Time"
+msgstr "Hora de Saída"
+
+#. Label of the dependant_sle_voucher_detail_no (Data) field in DocType 'Stock
+#. Ledger Entry'
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
+msgid "Dependant SLE Voucher Detail No"
+msgstr "Nº do Detalhe do Comprovante SLE Dependente"
+
+#. Name of a DocType
+#: erpnext/projects/doctype/dependent_task/dependent_task.json
+msgid "Dependent Task"
+msgstr "Tarefa Dependente"
+
+#: erpnext/projects/doctype/task/task.py:178
+msgid "Dependent Task {0} is not a Template Task"
+msgstr "A tarefa dependente {0} não é uma tarefa de modelo"
+
+#. Label of the depends_on (Table) field in DocType 'Task'
+#: erpnext/projects/doctype/task/task.json
+msgid "Dependent Tasks"
+msgstr "Tarefas Dependentes"
+
+#. Label of the depends_on_tasks (Code) field in DocType 'Task'
+#: erpnext/projects/doctype/task/task.json
+msgid "Depends on Tasks"
+msgstr "Depende de Tarefas"
+
+#. Label of the deposit (Currency) field in DocType 'Bank Transaction'
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+#: erpnext/public/js/bank_reconciliation_tool/data_table_manager.js:60
+msgid "Deposit"
+msgstr "Depósito"
+
+#. Label of the daily_prorata_based (Check) field in DocType 'Asset
+#. Depreciation Schedule'
+#. Label of the daily_prorata_based (Check) field in DocType 'Asset Finance
+#. Book'
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+#: erpnext/assets/doctype/asset_finance_book/asset_finance_book.json
+msgid "Depreciate based on daily pro-rata"
+msgstr "Depreciar com base em pró-rata diária"
+
+#. Label of the shift_based (Check) field in DocType 'Asset Depreciation
+#. Schedule'
+#. Label of the shift_based (Check) field in DocType 'Asset Finance Book'
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+#: erpnext/assets/doctype/asset_finance_book/asset_finance_book.json
+msgid "Depreciate based on shifts"
+msgstr "Depreciar com base em turnos"
+
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:213
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:453
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:521
+msgid "Depreciated Amount"
+msgstr "Valor Depreciado"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#. Label of the depreciation_tab (Tab Break) field in DocType 'Asset'
+#. Group in Asset's connections
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:105
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:176
+#: erpnext/accounts/report/account_balance/account_balance.js:44
+#: erpnext/accounts/report/cash_flow/cash_flow.py:161
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Depreciation"
+msgstr "Depreciação"
+
+#. Label of the depreciation_amount (Currency) field in DocType 'Depreciation
+#. Schedule'
+#: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.py:172
+#: erpnext/assets/doctype/asset/asset.js:301
+#: erpnext/assets/doctype/depreciation_schedule/depreciation_schedule.json
+msgid "Depreciation Amount"
+msgstr "Valor de Depreciação"
+
+#: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.py:641
+msgid "Depreciation Amount during the period"
+msgstr "Total de Depreciação durante o período"
+
+#: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.py:154
+msgid "Depreciation Date"
+msgstr "Data da Depreciação"
+
+#. Label of the depreciation_details_section (Section Break) field in DocType
+#. 'Asset Depreciation Schedule'
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+msgid "Depreciation Details"
+msgstr "Detalhes da Depreciação"
+
+#: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.py:647
+msgid "Depreciation Eliminated due to disposal of assets"
+msgstr "A Depreciação foi Eliminada devido à alienação de ativos"
+
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#. Option for the 'Journal Entry Type' (Select) field in DocType 'Journal Entry
+#. Template'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+#: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.py:190
+msgid "Depreciation Entry"
+msgstr "Lançamento de Depreciação"
+
+#. Label of the depr_entry_posting_status (Select) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Depreciation Entry Posting Status"
+msgstr "Status de Lançamento da Depreciação"
+
+#: erpnext/assets/doctype/asset/asset.py:1237
+msgid "Depreciation Entry against asset {0}"
+msgstr "Lançamento de depreciação para o ativo {0}"
+
+#: erpnext/assets/doctype/asset/depreciation.py:253
+msgid "Depreciation Entry against {0} worth {1}"
+msgstr "Lançamento de depreciação para {0} no valor de {1}"
+
+#. Label of the depreciation_expense_account (Link) field in DocType 'Asset
+#. Category Account'
+#. Label of the depreciation_expense_account (Link) field in DocType 'Company'
+#: erpnext/assets/doctype/asset_category_account/asset_category_account.json
+#: erpnext/setup/doctype/company/company.json
+msgid "Depreciation Expense Account"
+msgstr "Conta de Despesa de Depreciação"
+
+#: erpnext/assets/doctype/asset/depreciation.py:300
+msgid "Depreciation Expense Account should be an Income or Expense Account."
+msgstr "A conta de despesa de depreciação deve ser uma conta de receita ou despesa."
+
+#. Label of the depreciation_method (Select) field in DocType 'Asset'
+#. Label of the depreciation_method (Select) field in DocType 'Asset
+#. Depreciation Schedule'
+#. Label of the depreciation_method (Select) field in DocType 'Asset Finance
+#. Book'
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+#: erpnext/assets/doctype/asset_finance_book/asset_finance_book.json
+msgid "Depreciation Method"
+msgstr "Método de Depreciação"
+
+#. Label of the depreciation_options (Section Break) field in DocType 'Asset
+#. Category'
+#: erpnext/assets/doctype/asset_category/asset_category.json
+msgid "Depreciation Options"
+msgstr "Opções de Depreciação"
+
+#. Label of the depreciation_start_date (Date) field in DocType 'Asset Finance
+#. Book'
+#: erpnext/assets/doctype/asset_finance_book/asset_finance_book.json
+msgid "Depreciation Posting Date"
+msgstr "Data de Lançamento da Depreciação"
+
+#: erpnext/assets/doctype/asset/asset.js:795
+msgid "Depreciation Posting Date cannot be before Available-for-use Date"
+msgstr "A data de lançamento da depreciação não pode ser anterior à data disponível para uso"
+
+#: erpnext/assets/doctype/asset/asset.py:382
+msgid "Depreciation Row {0}: Depreciation Posting Date cannot be before Available-for-use Date"
+msgstr "Linha de depreciação {0}: a data de lançamento da depreciação não pode ser anterior à data disponível para uso"
+
+#: erpnext/assets/doctype/asset/asset.py:697
+msgid "Depreciation Row {0}: Expected value after useful life must be greater than or equal to {1}"
+msgstr "Linha de depreciação {0}: o valor esperado após a vida útil deve ser maior ou igual a {1}"
+
+#. Label of the depreciation_schedule_sb (Section Break) field in DocType
+#. 'Asset'
+#. Label of the depreciation_schedule_section (Section Break) field in DocType
+#. 'Asset Depreciation Schedule'
+#. Label of the depreciation_schedule (Table) field in DocType 'Asset
+#. Depreciation Schedule'
+#. Label of the depreciation_schedule_section (Section Break) field in DocType
+#. 'Asset Shift Allocation'
+#. Label of the depreciation_schedule (Table) field in DocType 'Asset Shift
+#. Allocation'
+#. Name of a DocType
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+#: erpnext/assets/doctype/asset_shift_allocation/asset_shift_allocation.json
+#: erpnext/assets/doctype/depreciation_schedule/depreciation_schedule.json
+msgid "Depreciation Schedule"
+msgstr "Plano de Depreciação"
+
+#. Label of the depreciation_schedule_view (HTML) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Depreciation Schedule View"
+msgstr "Visualização do Plano de Depreciação"
+
+#: erpnext/assets/doctype/asset/asset.py:477
+msgid "Depreciation cannot be calculated for fully depreciated assets"
+msgstr "A depreciação não pode ser calculada para ativos totalmente depreciados"
+
+#: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.py:659
+msgid "Depreciation eliminated via reversal"
+msgstr "Depreciação eliminada por estorno"
+
+#. Label of the description_of_content (Small Text) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Description of Content"
+msgstr "Descrição do Conteúdo"
+
+#. Description of the 'Template Name' (Data) field in DocType 'Financial Report
+#. Template'
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.json
+msgid "Descriptive name for your template (e.g., 'Standard P&L', 'Detailed Balance Sheet')"
+msgstr "Nome descritivo para o seu modelo (ex.: 'DRE Padrão', 'Balanço Patrimonial Detalhado')"
+
+#: erpnext/setup/setup_wizard/data/designation.txt:14
+msgid "Designer"
+msgstr "Designer"
+
+#. Label of the order_lost_reason (Small Text) field in DocType 'Opportunity'
+#. Label of the order_lost_reason (Small Text) field in DocType 'Quotation'
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/public/js/utils/sales_common.js:589
+#: erpnext/selling/doctype/quotation/quotation.json
+msgid "Detailed Reason"
+msgstr "Motivo Detalhado"
+
+#. Label of the determine_address_tax_category_from (Select) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Determine Address Tax Category From"
+msgstr "Determinar Categoria Fiscal do Endereço a partir de"
+
+#. Option for the 'Fuel Type' (Select) field in DocType 'Vehicle'
+#: erpnext/setup/doctype/vehicle/vehicle.json
+msgid "Diesel"
+msgstr "Diesel"
+
+#. Label of the difference_heading (Heading) field in DocType 'Bisect
+#. Accounting Statements'
+#. Label of the difference (Float) field in DocType 'Bisect Nodes'
+#. Label of the difference (Currency) field in DocType 'POS Closing Entry
+#. Detail'
+#: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.json
+#: erpnext/accounts/doctype/bisect_nodes/bisect_nodes.json
+#: erpnext/accounts/doctype/pos_closing_entry_detail/pos_closing_entry_detail.json
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:171
+#: erpnext/public/js/bank_reconciliation_tool/number_card.js:30
+#: erpnext/stock/report/incorrect_balance_qty_after_transaction/incorrect_balance_qty_after_transaction.py:130
+#: erpnext/stock/report/stock_qty_vs_batch_qty/stock_qty_vs_batch_qty.py:35
+#: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.py:35
+msgid "Difference"
+msgstr "Diferença"
+
+#. Label of the difference (Currency) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Difference (Dr - Cr)"
+msgstr "Diferença (Db - Cr)"
+
+#. Label of the difference_account (Link) field in DocType 'Payment
+#. Reconciliation Allocation'
+#. Label of the difference_account (Link) field in DocType 'Process Payment
+#. Reconciliation Log Allocations'
+#. Label of the difference_account (Link) field in DocType 'Asset Value
+#. Adjustment'
+#. Label of the expense_account (Link) field in DocType 'Stock Entry Detail'
+#. Label of the expense_account (Link) field in DocType 'Stock Reconciliation'
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.js:314
+#: erpnext/accounts/doctype/payment_reconciliation_allocation/payment_reconciliation_allocation.json
+#: erpnext/accounts/doctype/process_payment_reconciliation_log_allocations/process_payment_reconciliation_log_allocations.json
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
+msgid "Difference Account"
+msgstr "Conta de Diferença"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:689
+msgid "Difference Account in Items Table"
+msgstr "Conta de Diferença na Tabela de Itens"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:678
+msgid "Difference Account must be a Asset/Liability type account (Temporary Opening), since this Stock Entry is an Opening Entry"
+msgstr "A conta de diferença deve ser do tipo Ativo/Passivo (abertura temporária), pois este lançamento de estoque é um lançamento de abertura"
+
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:967
+msgid "Difference Account must be a Asset/Liability type account, since this Stock Reconciliation is an Opening Entry"
+msgstr "A conta de diferença deve ser do tipo Ativo/Passivo, pois esta reconciliação de estoque é um lançamento de abertura"
+
+#. Label of the difference_amount (Currency) field in DocType 'Payment
+#. Reconciliation Allocation'
+#. Label of the difference_amount (Currency) field in DocType 'Payment
+#. Reconciliation Payment'
+#. Label of the difference_amount (Currency) field in DocType 'Process Payment
+#. Reconciliation Log Allocations'
+#. Label of the difference_amount (Currency) field in DocType 'Asset Value
+#. Adjustment'
+#. Label of the difference_amount (Currency) field in DocType 'Stock
+#. Reconciliation'
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.js:329
+#: erpnext/accounts/doctype/payment_reconciliation_allocation/payment_reconciliation_allocation.json
+#: erpnext/accounts/doctype/payment_reconciliation_payment/payment_reconciliation_payment.json
+#: erpnext/accounts/doctype/process_payment_reconciliation_log_allocations/process_payment_reconciliation_log_allocations.json
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.json
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
+msgid "Difference Amount"
+msgstr "Total da Diferença"
+
+#. Label of the difference_amount (Currency) field in DocType 'Payment Entry'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+msgid "Difference Amount (Company Currency)"
+msgstr "Valor da Diferença (Moeda da Empresa)"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:201
+msgid "Difference Amount must be zero"
+msgstr "O Valor da Diferença deve ser zero"
+
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.js:49
+msgid "Difference In"
+msgstr "Diferença em"
+
+#. Label of the gain_loss_posting_date (Date) field in DocType 'Payment
+#. Reconciliation Allocation'
+#. Label of the gain_loss_posting_date (Date) field in DocType 'Process Payment
+#. Reconciliation Log Allocations'
+#. Label of the difference_posting_date (Date) field in DocType 'Purchase
+#. Invoice Advance'
+#. Label of the difference_posting_date (Date) field in DocType 'Sales Invoice
+#. Advance'
+#: erpnext/accounts/doctype/payment_reconciliation_allocation/payment_reconciliation_allocation.json
+#: erpnext/accounts/doctype/process_payment_reconciliation_log_allocations/process_payment_reconciliation_log_allocations.json
+#: erpnext/accounts/doctype/purchase_invoice_advance/purchase_invoice_advance.json
+#: erpnext/accounts/doctype/sales_invoice_advance/sales_invoice_advance.json
+msgid "Difference Posting Date"
+msgstr "Data de Lançamento da Diferença"
+
+#: erpnext/manufacturing/report/bom_stock_calculated/bom_stock_calculated.py:100
+msgid "Difference Qty"
+msgstr "Qtd. de Diferença"
+
+#: erpnext/stock/report/incorrect_stock_value_report/incorrect_stock_value_report.py:136
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:134
+msgid "Difference Value"
+msgstr "Valor da Diferença"
+
+#: erpnext/stock/doctype/delivery_note/delivery_note.js:495
+msgid "Different 'Source Warehouse' and 'Target Warehouse' can be set for each row."
+msgstr "Armazéns de origem e destino diferentes podem ser definidos para cada linha."
+
+#: erpnext/stock/doctype/packing_slip/packing_slip.py:194
+msgid "Different UOM for items will lead to incorrect (Total) Net Weight value. Make sure that Net Weight of each item is in the same UOM."
+msgstr "UMs diferentes para os itens resultarão em um valor incorreto de peso líquido (total). Garanta que o peso líquido de cada item esteja na mesma UM."
+
+#. Label of the dimension_defaults (Table) field in DocType 'Accounting
+#. Dimension'
+#: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.json
+msgid "Dimension Defaults"
+msgstr "Padrões de Dimensão"
+
+#. Label of the dimension_details_tab (Tab Break) field in DocType 'Inventory
+#. Dimension'
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
+msgid "Dimension Details"
+msgstr "Detalhes da Dimensão"
+
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.js:92
+msgid "Dimension Filter"
+msgstr "Filtro de Dimensão"
+
+#. Label of the dimension_filter_help (HTML) field in DocType 'Accounting
+#. Dimension Filter'
+#: erpnext/accounts/doctype/accounting_dimension_filter/accounting_dimension_filter.json
+msgid "Dimension Filter Help"
+msgstr "Ajuda do Filtro de Dimensão"
+
+#. Label of the label (Data) field in DocType 'Accounting Dimension'
+#. Label of the dimension_name (Data) field in DocType 'Inventory Dimension'
+#: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.json
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
+msgid "Dimension Name"
+msgstr "Nome da Dimensão"
+
+#. Name of a report
+#: erpnext/accounts/report/dimension_wise_accounts_balance_report/dimension_wise_accounts_balance_report.json
+msgid "Dimension-wise Accounts Balance Report"
+msgstr "Relatório de Saldo de Contas por Dimensão"
+
+#. Label of the dimensions_section (Section Break) field in DocType 'GL Entry'
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+msgid "Dimensions"
+msgstr "Dimensões"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#: erpnext/accounts/doctype/account/account.json
+msgid "Direct Expense"
+msgstr "Despesa Direta"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:82
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:141
+msgid "Direct Expenses"
+msgstr "Despesas Diretas"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:141
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:237
+msgid "Direct Income"
+msgstr "Receita Direta"
+
+#. Label of the disabled (Check) field in DocType 'Account'
+#. Label of the disabled (Check) field in DocType 'Accounting Dimension'
+#. Label of the disable (Check) field in DocType 'Pricing Rule'
+#. Label of the disable (Check) field in DocType 'Promotional Scheme'
+#. Label of the disable (Check) field in DocType 'Promotional Scheme Price
+#. Discount'
+#. Label of the disable (Check) field in DocType 'Promotional Scheme Product
+#. Discount'
+#. Label of the disable (Check) field in DocType 'Putaway Rule'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.json
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
+#: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
+#: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.json
+msgid "Disable"
+msgstr "Desativar"
+
+#. Label of the disable_capacity_planning (Check) field in DocType
+#. 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Disable Capacity Planning"
+msgstr "Desativar Planejamento de Capacidade"
+
+#. Label of the disable_in_words (Check) field in DocType 'Global Defaults'
+#: erpnext/setup/doctype/global_defaults/global_defaults.json
+msgid "Disable In Words"
+msgstr "Desativar Valor por Extenso"
+
+#. Label of the disable_last_purchase_rate (Check) field in DocType 'Buying
+#. Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Disable Last Purchase Rate"
+msgstr "Desativar Ultimo Preco de Compra"
+
+#. Label of the disable_rounded_total (Check) field in DocType 'POS Profile'
+#. Label of the disable_rounded_total (Check) field in DocType 'Purchase
+#. Invoice'
+#. Label of the disable_rounded_total (Check) field in DocType 'Sales Invoice'
+#. Label of the disable_rounded_total (Check) field in DocType 'Purchase Order'
+#. Label of the disable_rounded_total (Check) field in DocType 'Supplier
+#. Quotation'
+#. Label of the disable_rounded_total (Check) field in DocType 'Quotation'
+#. Label of the disable_rounded_total (Check) field in DocType 'Sales Order'
+#. Label of the disable_rounded_total (Check) field in DocType 'Global
+#. Defaults'
+#. Label of the disable_rounded_total (Check) field in DocType 'Delivery Note'
+#. Label of the disable_rounded_total (Check) field in DocType 'Purchase
+#. Receipt'
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/setup/doctype/global_defaults/global_defaults.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Disable Rounded Total"
+msgstr "Desativar Total Arredondado"
+
+#. Label of the disable_serial_no_and_batch_selector (Check) field in DocType
+#. 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Disable Serial No And Batch Selector"
+msgstr "Desativar Seletor de Nº de Série e Lote"
+
+#. Description of the 'Disabled' (Check) field in DocType 'Financial Report
+#. Template'
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.json
+msgid "Disable template to prevent use in reports"
+msgstr "Desative o modelo para impedir o uso em relatórios"
+
+#: erpnext/accounts/general_ledger.py:149
+msgid "Disabled Account Selected"
+msgstr "Conta Desativada Selecionada"
+
+#: erpnext/stock/utils.py:450
+msgid "Disabled Warehouse {0} cannot be used for this transaction."
+msgstr "O armazém desativado {0} não pode ser usado nesta transação."
+
+#: erpnext/controllers/accounts_controller.py:903
+msgid "Disabled pricing rules since this {} is an internal transfer"
+msgstr "Regras de precificação desativadas, pois este {} é uma transferência interna"
+
+#: erpnext/controllers/accounts_controller.py:917
+msgid "Disabled tax included prices since this {} is an internal transfer"
+msgstr "Preços com impostos inclusos desativados, pois este {} é uma transferência interna"
+
+#: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.py:79
+msgid "Disabled template must not be default template"
+msgstr "O modelo desativado não pode ser o modelo padrão"
+
+#. Description of the 'Scan Mode' (Check) field in DocType 'Stock
+#. Reconciliation'
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
+msgid "Disables auto-fetching of existing quantity"
+msgstr "Desativa a busca automática da quantidade existente"
+
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry'
+#. Option for the 'Purpose' (Select) field in DocType 'Stock Entry Type'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+msgid "Disassemble"
+msgstr "Desmontar"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:232
+msgid "Disassemble Order"
+msgstr "Desmontar Ordem"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:443
+msgid "Disassemble Qty cannot be less than or equal to <b>0</b>."
+msgstr "A qtd. a desmontar não pode ser menor ou igual a <b>0</b>."
+
+#. Label of the disassembled_qty (Float) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Disassembled Qty"
+msgstr "Qtd. Desmontada"
+
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.js:64
+msgid "Disburse Loan"
+msgstr "Desembolsar Empréstimo"
+
+#. Option for the 'Status' (Select) field in DocType 'Invoice Discounting'
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.json
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting_list.js:9
+msgid "Disbursed"
+msgstr "Desembolsado"
+
+#. Option for the 'Action on New Invoice' (Select) field in DocType 'POS
+#. Profile'
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+msgid "Discard Changes and Load New Invoice"
+msgstr "Descartar Alterações e Carregar Nova Fatura"
+
+#. Label of the discount (Float) field in DocType 'Payment Schedule'
+#. Label of the discount (Float) field in DocType 'Payment Term'
+#. Label of the discount (Float) field in DocType 'Payment Terms Template
+#. Detail'
+#: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
+#: erpnext/accounts/doctype/payment_term/payment_term.json
+#: erpnext/accounts/doctype/payment_terms_template_detail/payment_terms_template_detail.json
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:406
+#: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:146
+#: erpnext/templates/form_grid/item_grid.html:71
+msgid "Discount"
+msgstr "Desconto"
+
+#: erpnext/selling/page/point_of_sale/pos_item_details.js:175
+msgid "Discount (%)"
+msgstr "Desconto (%)"
+
+#. Label of the discount_percentage (Percent) field in DocType 'POS Invoice
+#. Item'
+#. Label of the discount_percentage (Percent) field in DocType 'Sales Invoice
+#. Item'
+#. Label of the discount_percentage (Percent) field in DocType 'Quotation Item'
+#. Label of the discount_percentage (Percent) field in DocType 'Sales Order
+#. Item'
+#. Label of the discount_percentage (Float) field in DocType 'Delivery Note
+#. Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+msgid "Discount (%) on Price List Rate with Margin"
+msgstr "Desconto (%) sobre o preco da lista de precos com margem"
+
+#. Label of the additional_discount_account (Link) field in DocType 'Sales
+#. Invoice'
+#. Label of the discount_account (Link) field in DocType 'Sales Invoice Item'
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+msgid "Discount Account"
+msgstr "Conta de Desconto"
+
+#. Label of the discount_amount (Currency) field in DocType 'POS Invoice Item'
+#. Option for the 'Rate or Discount' (Select) field in DocType 'Pricing Rule'
+#. Label of the discount_amount (Currency) field in DocType 'Pricing Rule'
+#. Option for the 'Discount Type' (Select) field in DocType 'Promotional Scheme
+#. Price Discount'
+#. Label of the discount_amount (Currency) field in DocType 'Promotional Scheme
+#. Price Discount'
+#. Label of the discount_amount (Currency) field in DocType 'Purchase Invoice
+#. Item'
+#. Label of the discount_amount (Currency) field in DocType 'Sales Invoice
+#. Item'
+#. Label of the discount_amount (Currency) field in DocType 'Purchase Order
+#. Item'
+#. Label of the discount_amount (Currency) field in DocType 'Supplier Quotation
+#. Item'
+#. Label of the discount_amount (Currency) field in DocType 'Quotation Item'
+#. Label of the discount_amount (Currency) field in DocType 'Sales Order Item'
+#. Label of the discount_amount (Currency) field in DocType 'Delivery Note
+#. Item'
+#. Label of the discount_amount (Currency) field in DocType 'Purchase Receipt
+#. Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Discount Amount"
+msgstr "Valor do Desconto"
+
+#: erpnext/accounts/report/calculated_discount_mismatch/calculated_discount_mismatch.py:58
+msgid "Discount Amount in Transaction"
+msgstr "Valor do Desconto na Transação"
+
+#. Label of the discount_date (Date) field in DocType 'Payment Schedule'
+#: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
+msgid "Discount Date"
+msgstr "Data do Desconto"
+
+#. Option for the 'Rate or Discount' (Select) field in DocType 'Pricing Rule'
+#. Label of the discount_percentage (Float) field in DocType 'Pricing Rule'
+#. Option for the 'Discount Type' (Select) field in DocType 'Promotional Scheme
+#. Price Discount'
+#. Label of the discount_percentage (Float) field in DocType 'Promotional
+#. Scheme Price Discount'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
+msgid "Discount Percentage"
+msgstr "Percentual de Desconto"
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:42
+msgid "Discount Percentage can be applied either against a Price List or for all Price List."
+msgstr "O percentual de desconto pode ser aplicado a uma lista de preços específica ou a todas as listas de preços."
+
+#: erpnext/accounts/report/calculated_discount_mismatch/calculated_discount_mismatch.py:52
+msgid "Discount Percentage in Transaction"
+msgstr "Percentual de Desconto na Transação"

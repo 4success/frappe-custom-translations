@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:35+0000\n"
+"PO-Revision-Date: 2026-01-21 06:48\n"
+"Last-Translator: developers@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File-ID: 138\n"
+"Language: pt_BR\n"
+
+#: frappe/model/base_document.py:1088
+msgid "{0} {1} cannot be \"{2}\". It should be one of \"{3}\""
+msgstr "{0} {1} não pode ser \"{2}\". Deve ser um dos seguintes: \"{3}\""
+
+#: frappe/utils/nestedset.py:353
+msgid "{0} {1} cannot be a leaf node as it has children"
+msgstr "{0} {1} não pode ser um nó folha porque tem filhos"
+
+#: frappe/model/rename_doc.py:376
+msgid "{0} {1} does not exist, select a new target to merge"
+msgstr "{0} {1} não existe; selecione um novo destino para mesclar"
+
+#: frappe/public/js/frappe/form/form.js:954
+msgid "{0} {1} is linked with the following submitted documents: {2}"
+msgstr "{0} {1} está vinculado aos seguintes documentos enviados: {2}"
+
+#: frappe/model/document.py:278 frappe/permissions.py:586
+msgid "{0} {1} not found"
+msgstr "{0} {1} não encontrado"
+
+#: frappe/model/delete_doc.py:290
+msgid "{0} {1}: Submitted Record cannot be deleted. You must {2} Cancel {3} it first."
+msgstr "{0} {1}: o registro enviado não pode ser excluído. Primeiro, você deve {2}Cancelar{3}."
+
+#: frappe/model/base_document.py:1220
+msgid "{0}, Row {1}"
+msgstr "{0}, linha {1}"
+
+#: frappe/utils/print_format.py:148 frappe/utils/print_format.py:192
+msgid "{0}/{1} complete | Please leave this tab open until completion."
+msgstr "{0}/{1} concluído | Deixe esta aba aberta até a conclusão."
+
+#: frappe/model/base_document.py:1225
+msgid "{0}: '{1}' ({3}) will get truncated, as max characters allowed is {2}"
+msgstr "{0}: '{1}' ({3}) será truncado, pois o máximo de caracteres permitido é {2}"
+
+#: frappe/core/doctype/doctype/doctype.py:1835
+msgid "{0}: Cannot set Amend without Cancel"
+msgstr "{0}: não é possível definir Alterar sem Cancelar"
+
+#: frappe/core/doctype/doctype/doctype.py:1853
+msgid "{0}: Cannot set Assign Amend if not Submittable"
+msgstr "{0}: não é possível definir Atribuir alteração se não puder ser enviado"
+
+#: frappe/core/doctype/doctype/doctype.py:1851
+msgid "{0}: Cannot set Assign Submit if not Submittable"
+msgstr "{0}: não é possível definir Atribuir envio se não puder ser enviado"
+
+#: frappe/core/doctype/doctype/doctype.py:1830
+msgid "{0}: Cannot set Cancel without Submit"
+msgstr "{0}: não é possível definir Cancelar sem Enviar"
+
+#: frappe/core/doctype/doctype/doctype.py:1837
+msgid "{0}: Cannot set Import without Create"
+msgstr "{0}: não é possível definir Importar sem Criar"
+
+#: frappe/core/doctype/doctype/doctype.py:1833
+msgid "{0}: Cannot set Submit, Cancel, Amend without Write"
+msgstr "{0}: não é possível definir Enviar, Cancelar e Alterar sem Gravar"
+
+#: frappe/core/doctype/doctype/doctype.py:1857
+msgid "{0}: Cannot set import as {1} is not importable"
+msgstr "{0}: não é possível definir Importar, pois {1} não pode ser importado"
+
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:436
+msgid "{0}: Failed to attach new recurring document. To enable attaching document in the auto repeat notification email, enable {1} in Print Settings"
+msgstr "{0}: falhou ao anexar o novo documento recorrente. Para anexar o documento ao e-mail de notificação da repetição automática, ative {1} em Configurações de impressão"
+
+#: frappe/core/doctype/doctype/doctype.py:1441
+msgid "{0}: Field '{1}' cannot be set as Unique as it has non-unique values"
+msgstr "{0}: o campo '{1}' não pode ser definido como único porque tem valores duplicados"
+
+#: frappe/core/doctype/doctype/doctype.py:1349
+msgid "{0}: Field {1} in row {2} cannot be hidden and mandatory without default"
+msgstr "{0}: o campo {1} na linha {2} não pode ser oculto e obrigatório sem valor padrão"
+
+#: frappe/core/doctype/doctype/doctype.py:1308
+msgid "{0}: Field {1} of type {2} cannot be mandatory"
+msgstr "{0}: o campo {1} do tipo {2} não pode ser obrigatório"
+
+#: frappe/core/doctype/doctype/doctype.py:1296
+msgid "{0}: Fieldname {1} appears multiple times in rows {2}"
+msgstr "{0}: o nome do campo {1} aparece várias vezes nas linhas {2}"
+
+#: frappe/core/doctype/doctype/doctype.py:1428
+msgid "{0}: Fieldtype {1} for {2} cannot be unique"
+msgstr "{0}: o tipo de campo {1} para {2} não pode ser exclusivo"
+
+#: frappe/core/doctype/doctype/doctype.py:1790
+msgid "{0}: No basic permissions set"
+msgstr "{0}: nenhuma permissão básica definida"
+
+#: frappe/core/doctype/doctype/doctype.py:1804
+msgid "{0}: Only one rule allowed with the same Role, Level and {1}"
+msgstr "{0}: só é permitida uma regra com a mesma função, nível e {1}"
+
+#: frappe/core/doctype/doctype/doctype.py:1330
+msgid "{0}: Options must be a valid DocType for field {1} in row {2}"
+msgstr "{0}: Options deve ser um DocType válido para o campo {1} na linha {2}"
+
+#: frappe/core/doctype/doctype/doctype.py:1319
+msgid "{0}: Options required for Link or Table type field {1} in row {2}"
+msgstr "{0}: Options é obrigatório para o campo {1} do tipo Link ou Table na linha {2}"
+
+#: frappe/core/doctype/doctype/doctype.py:1337
+msgid "{0}: Options {1} must be the same as doctype name {2} for the field {3}"
+msgstr "{0}: Options {1} deve ser igual ao nome do DocType {2} para o campo {3}"
+
+#: frappe/public/js/frappe/form/workflow.js:45
+msgid "{0}: Other permission rules may also apply"
+msgstr "{0}: outras regras de permissão também podem se aplicar"
+
+#: frappe/core/doctype/doctype/doctype.py:1819
+msgid "{0}: Permission at level 0 must be set before higher levels are set"
+msgstr "{0}: a permissão no nível 0 deve ser definida antes dos níveis superiores"
+
+#: frappe/public/js/frappe/form/controls/data.js:51
+msgid "{0}: You can increase the limit for the field if required via {1}"
+msgstr "{0}: você pode aumentar o limite do campo, se necessário, em {1}"
+
+#: frappe/core/doctype/doctype/doctype.py:1283
+msgid "{0}: fieldname cannot be set to reserved keyword {1}"
+msgstr "{0}: o nome do campo não pode ser definido como a palavra reservada {1}"
+
+#: frappe/contacts/doctype/address/address.js:35
+#: frappe/contacts/doctype/contact/contact.js:88
+msgid "{0}: {1}"
+msgstr "{0}: {1}"
+
+#: frappe/workflow/doctype/workflow_action/workflow_action.py:172
+msgid "{0}: {1} is set to state {2}"
+msgstr "{0}: {1} está no estado {2}"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:1313
+msgid "{0}: {1} vs {2}"
+msgstr "{0}: {1} x {2}"
+
+#: frappe/core/doctype/doctype/doctype.py:1449
+msgid "{0}:Fieldtype {1} for {2} cannot be indexed"
+msgstr "{0}: o tipo de campo {1} para {2} não pode ser indexado"
+
+#: frappe/public/js/frappe/form/quick_entry.js:195
+msgid "{1} saved"
+msgstr "{1} salvo"
+
+#: frappe/public/js/frappe/utils/datatable.js:12
+msgid "{count} cell copied"
+msgstr "{count} célula copiada"
+
+#: frappe/public/js/frappe/utils/datatable.js:13
+msgid "{count} cells copied"
+msgstr "{count} células copiadas"
+
+#: frappe/public/js/frappe/utils/datatable.js:16
+msgid "{count} row selected"
+msgstr "{count} linha selecionada"
+
+#: frappe/public/js/frappe/utils/datatable.js:17
+msgid "{count} rows selected"
+msgstr "{count} linhas selecionadas"
+
+#: frappe/core/doctype/doctype/doctype.py:1503
+msgid "{{{0}}} is not a valid fieldname pattern. It should be {{field_name}}."
+msgstr "{{{0}}} não é um padrão de nome de campo válido. Deve ser {{field_name}}."
+
+#: frappe/public/js/frappe/form/form.js:524
+msgid "{} Complete"
+msgstr "{} concluído"
+
+#: frappe/utils/data.py:2614
+msgid "{} Invalid python code on line {}"
+msgstr "{} código Python inválido na linha {}"
+
+#: frappe/utils/data.py:2623
+msgid "{} Possibly invalid python code. <br>{}"
+msgstr "{} código Python possivelmente inválido. <br>{}"
+
+#: frappe/core/doctype/log_settings/log_settings.py:54
+msgid "{} does not support automated log clearing."
+msgstr "{} não oferece suporte à limpeza automática de logs."
+
+#: frappe/core/doctype/audit_trail/audit_trail.py:41
+msgid "{} field cannot be empty."
+msgstr "O campo {} não pode ficar vazio."
+
+#: frappe/email/doctype/email_account/email_account.py:223
+#: frappe/email/doctype/email_account/email_account.py:231
+msgid "{} has been disabled. It can only be enabled if {} is checked."
+msgstr "{} foi desativado. Só pode ser ativado se {} estiver marcado."
+
+#: frappe/utils/data.py:145
+msgid "{} is not a valid date string."
+msgstr "{} não é uma string de data válida."
+
+#: frappe/commands/utils.py:564
+msgid "{} not found in PATH! This is required to access the console."
+msgstr "{} não foi encontrado no PATH! Isso é necessário para acessar o console."
+
+#: frappe/database/db_manager.py:99
+msgid "{} not found in PATH! This is required to restore the database."
+msgstr "{} não foi encontrado no PATH! Isso é necessário para restaurar o banco de dados."
+
+#: frappe/utils/backups.py:466
+msgid "{} not found in PATH! This is required to take a backup."
+msgstr "{} não foi encontrado no PATH! Isso é necessário para fazer um backup."
+
+#: frappe/public/js/frappe/file_uploader/FileBrowser.vue:5
+#: frappe/public/js/frappe/file_uploader/WebLink.vue:4
+msgid "← Back to upload files"
+msgstr "← Voltar para enviar arquivos"

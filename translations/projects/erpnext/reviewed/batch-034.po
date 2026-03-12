@@ -1,0 +1,1099 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Label of the pos_setting_section (Section Break) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "POS Setting"
+msgstr "Configuracao de PDV"
+
+#. Name of a DocType
+#. Label of a Link in the Selling Workspace
+#: erpnext/accounts/doctype/pos_settings/pos_settings.json
+#: erpnext/selling/workspace/selling/selling.json
+msgid "POS Settings"
+msgstr "Configurações do PDV"
+
+#. Label of the pos_invoices (Table) field in DocType 'POS Closing Entry'
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
+msgid "POS Transactions"
+msgstr "Transacoes de PDV"
+
+#: erpnext/selling/page/point_of_sale/pos_controller.js:187
+msgid "POS has been closed at {0}. Please refresh the page."
+msgstr "O PDV foi fechado as {0}. Atualize a pagina."
+
+#: erpnext/selling/page/point_of_sale/pos_controller.js:491
+msgid "POS invoice {0} created successfully"
+msgstr "Fatura de PDV {0} criada com sucesso"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/psoa_cost_center/psoa_cost_center.json
+msgid "PSOA Cost Center"
+msgstr "Centro de Custo PSOA"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/psoa_project/psoa_project.json
+msgid "PSOA Project"
+msgstr "Projeto PSOA"
+
+#. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
+#: erpnext/stock/doctype/item_barcode/item_barcode.json
+msgid "PZN"
+msgstr ""
+
+#: erpnext/stock/doctype/packing_slip/packing_slip.py:116
+msgid "Package No(s) already in use. Try from Package No {0}"
+msgstr "Nº(s) de pacote ja em uso. Tente a partir do nº {0}"
+
+#. Label of the package_weight_details (Section Break) field in DocType
+#. 'Packing Slip'
+#: erpnext/stock/doctype/packing_slip/packing_slip.json
+msgid "Package Weight Details"
+msgstr "Detalhes do Peso do Pacote"
+
+#: erpnext/stock/doctype/delivery_note/delivery_note_list.js:71
+msgid "Packaging Slip From Delivery Note"
+msgstr "Lista de Embalagem da Nota de Entrega"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/packed_item/packed_item.json
+msgid "Packed Item"
+msgstr "Item Embalado"
+
+#. Label of the packed_items (Table) field in DocType 'POS Invoice'
+#. Label of the packed_items (Table) field in DocType 'Sales Invoice'
+#. Label of the packed_items (Table) field in DocType 'Sales Order'
+#. Label of the packed_items (Table) field in DocType 'Delivery Note'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+msgid "Packed Items"
+msgstr "Itens Embalados"
+
+#: erpnext/controllers/stock_controller.py:1511
+msgid "Packed Items cannot be transferred internally"
+msgstr "Itens embalados nao podem ser transferidos internamente"
+
+#. Label of the packed_qty (Float) field in DocType 'Delivery Note Item'
+#. Label of the packed_qty (Float) field in DocType 'Packed Item'
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/packed_item/packed_item.json
+msgid "Packed Qty"
+msgstr "Qtd. Embalada"
+
+#. Label of the packing_list (Section Break) field in DocType 'POS Invoice'
+#. Label of the packing_list (Section Break) field in DocType 'Sales Invoice'
+#. Label of the packing_list (Section Break) field in DocType 'Sales Order'
+#. Label of the packing_list (Section Break) field in DocType 'Delivery Note'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+msgid "Packing List"
+msgstr "Lista de Embalagem"
+
+#. Name of a DocType
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/doctype/delivery_note/delivery_note.js:296
+#: erpnext/stock/doctype/packing_slip/packing_slip.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Packing Slip"
+msgstr "Lista de Embalagem"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/packing_slip_item/packing_slip_item.json
+msgid "Packing Slip Item"
+msgstr "Item da Lista de Embalagem"
+
+#: erpnext/stock/doctype/delivery_note/delivery_note.py:647
+msgid "Packing Slip(s) cancelled"
+msgstr "Lista(s) de Embalagem cancelada(s)"
+
+#. Label of the packing_unit (Int) field in DocType 'Item Price'
+#: erpnext/stock/doctype/item_price/item_price.json
+msgid "Packing Unit"
+msgstr "Unidade de Embalagem"
+
+#. Label of the include_break (Check) field in DocType 'Process Statement Of
+#. Accounts'
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+msgid "Page Break After Each SoA"
+msgstr "Quebra de pagina apos cada extrato de contas"
+
+#. Option for the 'Status' (Select) field in DocType 'Payment Request'
+#. Option for the 'Status' (Select) field in DocType 'POS Invoice'
+#. Option for the 'Status' (Select) field in DocType 'Purchase Invoice'
+#. Option for the 'Status' (Select) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:283
+msgid "Paid"
+msgstr "Pago"
+
+#. Label of the paid_amount (Currency) field in DocType 'Overdue Payment'
+#. Label of the paid_amount (Currency) field in DocType 'Payment Entry'
+#. Label of the paid_amount (Currency) field in DocType 'Payment Schedule'
+#. Label of the paid_amount (Currency) field in DocType 'POS Invoice'
+#. Label of the paid_amount (Currency) field in DocType 'Purchase Invoice'
+#. Label of the paid_amount (Currency) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/overdue_payment/overdue_payment.json
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:311
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:173
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:146
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1214
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:165
+#: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.py:203
+#: erpnext/accounts/report/pos_register/pos_register.py:209
+#: erpnext/selling/page/point_of_sale/pos_payment.js:691
+#: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.py:56
+#: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.py:277
+msgid "Paid Amount"
+msgstr "Valor Pago"
+
+#. Label of the base_paid_amount (Currency) field in DocType 'Payment Entry'
+#. Label of the base_paid_amount (Currency) field in DocType 'Payment Schedule'
+#. Label of the base_paid_amount (Currency) field in DocType 'POS Invoice'
+#. Label of the base_paid_amount (Currency) field in DocType 'Purchase Invoice'
+#. Label of the base_paid_amount (Currency) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Paid Amount (Company Currency)"
+msgstr "Valor Pago (Moeda da Empresa)"
+
+#. Label of the paid_amount_after_tax (Currency) field in DocType 'Payment
+#. Entry'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+msgid "Paid Amount After Tax"
+msgstr "Valor Pago apos Impostos"
+
+#. Label of the base_paid_amount_after_tax (Currency) field in DocType 'Payment
+#. Entry'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+msgid "Paid Amount After Tax (Company Currency)"
+msgstr "Valor Pago apos Impostos (Moeda da Empresa)"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:2006
+msgid "Paid Amount cannot be greater than total negative outstanding amount {0}"
+msgstr "O valor pago não pode ser superior ao saldo devedor {0}"
+
+#. Label of the paid_from_account_type (Data) field in DocType 'Payment Entry'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+msgid "Paid From Account Type"
+msgstr "Tipo da Conta de Origem do Pagamento"
+
+#. Label of the paid_to_account_type (Data) field in DocType 'Payment Entry'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+msgid "Paid To Account Type"
+msgstr "Tipo da Conta de Destino do Pagamento"
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:327
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1127
+msgid "Paid amount + Write Off Amount can not be greater than Grand Total"
+msgstr "Valor pago + valor baixado nao pode ser maior que o total geral"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Pair"
+msgstr "Par"
+
+#. Label of the pallets (Select) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Pallets"
+msgstr "Paletes"
+
+#. Label of the parameter_group (Link) field in DocType 'Item Quality
+#. Inspection Parameter'
+#. Label of the parameter_group (Link) field in DocType 'Quality Inspection
+#. Parameter'
+#. Label of the parameter_group (Link) field in DocType 'Quality Inspection
+#. Reading'
+#: erpnext/stock/doctype/item_quality_inspection_parameter/item_quality_inspection_parameter.json
+#: erpnext/stock/doctype/quality_inspection_parameter/quality_inspection_parameter.json
+#: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
+msgid "Parameter Group"
+msgstr "Grupo de Parametros"
+
+#. Label of the group_name (Data) field in DocType 'Quality Inspection
+#. Parameter Group'
+#: erpnext/stock/doctype/quality_inspection_parameter_group/quality_inspection_parameter_group.json
+msgid "Parameter Group Name"
+msgstr "Nome do Grupo de Parametros"
+
+#. Label of the param_name (Data) field in DocType 'Supplier Scorecard Scoring
+#. Variable'
+#. Label of the param_name (Data) field in DocType 'Supplier Scorecard
+#. Variable'
+#: erpnext/buying/doctype/supplier_scorecard_scoring_variable/supplier_scorecard_scoring_variable.json
+#: erpnext/buying/doctype/supplier_scorecard_variable/supplier_scorecard_variable.json
+msgid "Parameter Name"
+msgstr "Nome do Parametro"
+
+#. Label of the req_params (Table) field in DocType 'Currency Exchange
+#. Settings'
+#. Label of the parameters (Table) field in DocType 'Quality Feedback'
+#. Label of the parameters (Table) field in DocType 'Quality Feedback Template'
+#: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.json
+#: erpnext/quality_management/doctype/quality_feedback/quality_feedback.json
+#: erpnext/quality_management/doctype/quality_feedback_template/quality_feedback_template.json
+msgid "Parameters"
+msgstr "Parametros"
+
+#. Label of the parcel_template (Link) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Parcel Template"
+msgstr "Modelo de Volume"
+
+#. Label of the parcel_template_name (Data) field in DocType 'Shipment Parcel
+#. Template'
+#: erpnext/stock/doctype/shipment_parcel_template/shipment_parcel_template.json
+msgid "Parcel Template Name"
+msgstr "Nome do Modelo de Volume"
+
+#: erpnext/stock/doctype/shipment/shipment.py:96
+msgid "Parcel weight cannot be 0"
+msgstr "O peso do volume nao pode ser 0"
+
+#. Label of the parcels_section (Section Break) field in DocType 'Shipment'
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Parcels"
+msgstr "Volumes"
+
+#. Label of the parent_account (Link) field in DocType 'Account'
+#: erpnext/accounts/doctype/account/account.json
+msgid "Parent Account"
+msgstr "Conta Pai"
+
+#: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:379
+msgid "Parent Account Missing"
+msgstr "Falta Conta Pai"
+
+#. Label of the parent_batch (Link) field in DocType 'Batch'
+#: erpnext/stock/doctype/batch/batch.json
+msgid "Parent Batch"
+msgstr "Lote Pai"
+
+#. Label of the parent_company (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Parent Company"
+msgstr "Empresa Pai"
+
+#: erpnext/setup/doctype/company/company.py:595
+msgid "Parent Company must be a group company"
+msgstr "A controladora deve ser uma empresa do grupo"
+
+#. Label of the parent_cost_center (Link) field in DocType 'Cost Center'
+#: erpnext/accounts/doctype/cost_center/cost_center.json
+msgid "Parent Cost Center"
+msgstr "Centro de Custo Pai"
+
+#. Label of the parent_customer_group (Link) field in DocType 'Customer Group'
+#: erpnext/setup/doctype/customer_group/customer_group.json
+msgid "Parent Customer Group"
+msgstr "Grupo de Clientes Pai"
+
+#. Label of the parent_department (Link) field in DocType 'Department'
+#: erpnext/setup/doctype/department/department.json
+msgid "Parent Department"
+msgstr "Departamento Pai"
+
+#. Label of the parent_detail_docname (Data) field in DocType 'Packed Item'
+#: erpnext/stock/doctype/packed_item/packed_item.json
+msgid "Parent Detail docname"
+msgstr "docname do Detalhe Pai"
+
+#. Label of the process_pr (Link) field in DocType 'Process Payment
+#. Reconciliation Log'
+#: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.json
+msgid "Parent Document"
+msgstr "Documento Pai"
+
+#. Label of the new_item_code (Link) field in DocType 'Product Bundle'
+#. Label of the parent_item (Link) field in DocType 'Packed Item'
+#: erpnext/selling/doctype/product_bundle/product_bundle.json
+#: erpnext/stock/doctype/packed_item/packed_item.json
+msgid "Parent Item"
+msgstr "Item Pai"
+
+#. Label of the parent_item_group (Link) field in DocType 'Item Group'
+#: erpnext/setup/doctype/item_group/item_group.json
+msgid "Parent Item Group"
+msgstr "Grupo de Itens Pai"
+
+#: erpnext/selling/doctype/product_bundle/product_bundle.py:81
+msgid "Parent Item {0} must not be a Fixed Asset"
+msgstr "O item pai {0} nao pode ser um ativo imobilizado"
+
+#: erpnext/selling/doctype/product_bundle/product_bundle.py:79
+msgid "Parent Item {0} must not be a Stock Item"
+msgstr "O item pai {0} nao pode ser um item de estoque"
+
+#. Label of the parent_location (Link) field in DocType 'Location'
+#: erpnext/assets/doctype/location/location.json
+msgid "Parent Location"
+msgstr "Local Pai"
+
+#. Label of the parent_quality_procedure (Link) field in DocType 'Quality
+#. Procedure'
+#: erpnext/quality_management/doctype/quality_procedure/quality_procedure.json
+msgid "Parent Procedure"
+msgstr "Procedimento Pai"
+
+#. Label of the parent_row_no (Data) field in DocType 'BOM Creator Item'
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+msgid "Parent Row No"
+msgstr "Nº da Linha Pai"
+
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:511
+msgid "Parent Row No not found for {0}"
+msgstr "Nº da linha pai nao encontrado para {0}"
+
+#. Label of the parent_sales_person (Link) field in DocType 'Sales Person'
+#: erpnext/setup/doctype/sales_person/sales_person.json
+msgid "Parent Sales Person"
+msgstr "Vendedor Pai"
+
+#. Label of the parent_supplier_group (Link) field in DocType 'Supplier Group'
+#: erpnext/setup/doctype/supplier_group/supplier_group.json
+msgid "Parent Supplier Group"
+msgstr "Grupo de Fornecedores Pai"
+
+#. Label of the parent_task (Link) field in DocType 'Task'
+#: erpnext/projects/doctype/task/task.json
+msgid "Parent Task"
+msgstr "Tarefa Pai"
+
+#: erpnext/projects/doctype/task/task.py:168
+msgid "Parent Task {0} is not a Template Task"
+msgstr "A tarefa pai {0} nao e uma tarefa modelo"
+
+#: erpnext/projects/doctype/task/task.py:191
+msgid "Parent Task {0} must be a Group Task"
+msgstr "A tarefa pai {0} deve ser uma tarefa de grupo"
+
+#. Label of the parent_territory (Link) field in DocType 'Territory'
+#: erpnext/setup/doctype/territory/territory.json
+msgid "Parent Territory"
+msgstr "Territorio Pai"
+
+#. Label of the parent_warehouse (Link) field in DocType 'Master Production
+#. Schedule'
+#. Label of the parent_warehouse (Link) field in DocType 'Sales Forecast'
+#. Label of the parent_warehouse (Link) field in DocType 'Warehouse'
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
+#: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.json
+#: erpnext/stock/doctype/warehouse/warehouse.json
+#: erpnext/stock/page/warehouse_capacity_summary/warehouse_capacity_summary.js:47
+msgid "Parent Warehouse"
+msgstr "Armazém Pai"
+
+#: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.py:167
+msgid "Parsed file is not in valid MT940 format or contains no transactions."
+msgstr "O arquivo processado nao esta em um formato MT940 valido ou nao contem transacoes."
+
+#: erpnext/edi/doctype/code_list/code_list_import.py:39
+msgid "Parsing Error"
+msgstr "Erro de Processamento"
+
+#. Option for the 'Status' (Select) field in DocType 'Subcontracting Order'
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Partial Material Transferred"
+msgstr "Material Transferido Parcialmente"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1150
+msgid "Partial Payment in POS Transactions are not allowed."
+msgstr "Pagamentos parciais nao sao permitidos em transacoes de PDV."
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1723
+msgid "Partial Stock Reservation"
+msgstr "Reserva Parcial de Estoque"
+
+#. Description of the 'Allow Partial Reservation' (Check) field in DocType
+#. 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Partial stock can be reserved. For example, If you have a Sales Order of 100 units and the Available Stock is 90 units then a Stock Reservation Entry will be created for 90 units. "
+msgstr "E possivel reservar estoque parcial. Por exemplo, se voce tiver um Pedido de Venda de 100 unidades e o Estoque Disponivel for 90 unidades, sera criada uma Entrada de Reserva de Estoque para 90 unidades. "
+
+#. Option for the 'Completion Status' (Select) field in DocType 'Maintenance
+#. Schedule Detail'
+#. Option for the 'Completion Status' (Select) field in DocType 'Maintenance
+#. Visit'
+#: erpnext/maintenance/doctype/maintenance_schedule_detail/maintenance_schedule_detail.json
+#: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
+msgid "Partially Completed"
+msgstr "Parcialmente Concluido"
+
+#. Option for the 'Status' (Select) field in DocType 'Stock Reservation Entry'
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+msgid "Partially Delivered"
+msgstr "Parcialmente Entregue"
+
+#. Option for the 'Status' (Select) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset/asset_list.js:8
+msgid "Partially Depreciated"
+msgstr "Parcialmente Depreciado"
+
+#. Option for the 'Fulfilment Status' (Select) field in DocType 'Contract'
+#: erpnext/crm/doctype/contract/contract.json
+msgid "Partially Fulfilled"
+msgstr "Parcialmente Atendido"
+
+#. Option for the 'Status' (Select) field in DocType 'Quotation'
+#. Option for the 'Status' (Select) field in DocType 'Material Request'
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/quotation/quotation_list.js:32
+#: erpnext/stock/doctype/material_request/material_request.json
+msgid "Partially Ordered"
+msgstr "Parcialmente Pedido"
+
+#. Option for the 'Status' (Select) field in DocType 'Payment Request'
+#. Option for the 'Advance Payment Status' (Select) field in DocType 'Purchase
+#. Order'
+#. Option for the 'Advance Payment Status' (Select) field in DocType 'Sales
+#. Order'
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+msgid "Partially Paid"
+msgstr "Parcialmente Pago"
+
+#. Option for the 'Status' (Select) field in DocType 'Material Request'
+#. Option for the 'Status' (Select) field in DocType 'Subcontracting Order'
+#: erpnext/stock/doctype/material_request/material_request.json
+#: erpnext/stock/doctype/material_request/material_request_list.js:16
+#: erpnext/stock/doctype/material_request/material_request_list.js:27
+#: erpnext/stock/doctype/material_request/material_request_list.js:36
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Partially Received"
+msgstr "Parcialmente Recebido"
+
+#. Option for the 'Status' (Select) field in DocType 'Process Payment
+#. Reconciliation'
+#. Option for the 'Status' (Select) field in DocType 'Process Payment
+#. Reconciliation Log'
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
+#: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.json
+msgid "Partially Reconciled"
+msgstr "Parcialmente Conciliado"
+
+#. Option for the 'Status' (Select) field in DocType 'Stock Reservation Entry'
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+msgid "Partially Reserved"
+msgstr "Parcialmente Reservado"
+
+#. Option for the 'Status' (Select) field in DocType 'Stock Reservation Entry'
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+msgid "Partially Used"
+msgstr "Parcialmente Utilizado"
+
+#: erpnext/stock/doctype/material_request/material_request_list.js:29
+msgid "Partially ordered"
+msgstr "Parcialmente pedido"
+
+#: erpnext/accounts/report/general_ledger/general_ledger.html:88
+msgid "Particulars"
+msgstr "Detalhes"
+
+#. Option for the 'Billing Status' (Select) field in DocType 'Sales Order'
+#. Option for the 'Status' (Select) field in DocType 'Purchase Receipt'
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt_list.js:23
+msgid "Partly Billed"
+msgstr "Parcialmente Faturado"
+
+#. Option for the 'Delivery Status' (Select) field in DocType 'Sales Order'
+#. Option for the 'Status' (Select) field in DocType 'Pick List'
+#. Option for the 'Delivery Status' (Select) field in DocType 'Pick List'
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/pick_list/pick_list.json
+msgid "Partly Delivered"
+msgstr "Parcialmente Entregue"
+
+#. Option for the 'Status' (Select) field in DocType 'POS Invoice'
+#. Option for the 'Status' (Select) field in DocType 'Purchase Invoice'
+#. Option for the 'Status' (Select) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Partly Paid"
+msgstr "Parcialmente Pago"
+
+#. Option for the 'Status' (Select) field in DocType 'POS Invoice'
+#. Option for the 'Status' (Select) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Partly Paid and Discounted"
+msgstr "Parcialmente Pago e com Desconto"
+
+#. Label of the partner_type (Link) field in DocType 'Sales Partner'
+#: erpnext/setup/doctype/sales_partner/sales_partner.json
+msgid "Partner Type"
+msgstr "Tipo de Parceiro"
+
+#. Label of the partner_website (Data) field in DocType 'Sales Partner'
+#: erpnext/setup/doctype/sales_partner/sales_partner.json
+msgid "Partner website"
+msgstr "Site do Parceiro"
+
+#. Option for the 'Supplier Type' (Select) field in DocType 'Supplier'
+#. Option for the 'Customer Type' (Select) field in DocType 'Customer'
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Partnership"
+msgstr "Sociedade"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Parts Per Million"
+msgstr "Partes por Milhao"
+
+#. Label of the party (Dynamic Link) field in DocType 'Bank Account'
+#. Group in Bank Account's connections
+#. Label of the party (Dynamic Link) field in DocType 'Bank Transaction'
+#. Label of the party (Dynamic Link) field in DocType 'Exchange Rate
+#. Revaluation Account'
+#. Label of the party (Dynamic Link) field in DocType 'GL Entry'
+#. Label of the party (Dynamic Link) field in DocType 'Journal Entry Account'
+#. Label of the party (Dynamic Link) field in DocType 'Opening Invoice Creation
+#. Tool Item'
+#. Label of the party (Dynamic Link) field in DocType 'Payment Entry'
+#. Label of the party (Dynamic Link) field in DocType 'Payment Ledger Entry'
+#. Label of the party (Dynamic Link) field in DocType 'Payment Reconciliation'
+#. Label of the party (Dynamic Link) field in DocType 'Payment Request'
+#. Label of the party (Dynamic Link) field in DocType 'Process Payment
+#. Reconciliation'
+#. Label of the party (Dynamic Link) field in DocType 'Subscription'
+#. Label of the party (Data) field in DocType 'Unreconcile Payment Entries'
+#. Label of the party (Dynamic Link) field in DocType 'Appointment'
+#. Label of the party_name (Dynamic Link) field in DocType 'Opportunity'
+#. Label of the party_name (Dynamic Link) field in DocType 'Quotation'
+#: erpnext/accounts/doctype/bank_account/bank_account.json
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+#: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+#: erpnext/accounts/doctype/opening_invoice_creation_tool_item/opening_invoice_creation_tool_item.json
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.json
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+#: erpnext/accounts/doctype/payment_terms_template/payment_terms_template_dashboard.py:16
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:167
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:196
+#: erpnext/accounts/doctype/subscription/subscription.json
+#: erpnext/accounts/doctype/tax_category/tax_category_dashboard.py:11
+#: erpnext/accounts/doctype/unreconcile_payment_entries/unreconcile_payment_entries.json
+#: erpnext/accounts/report/accounts_payable/accounts_payable.js:94
+#: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.js:71
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:142
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:159
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:54
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1151
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:71
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:147
+#: erpnext/accounts/report/general_and_payment_ledger_comparison/general_and_payment_ledger_comparison.py:228
+#: erpnext/accounts/report/general_ledger/general_ledger.js:74
+#: erpnext/accounts/report/general_ledger/general_ledger.py:754
+#: erpnext/accounts/report/payment_ledger/payment_ledger.js:51
+#: erpnext/accounts/report/payment_ledger/payment_ledger.py:161
+#: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.js:46
+#: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:89
+#: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.js:26
+#: erpnext/accounts/report/tds_computation_summary/tds_computation_summary.js:26
+#: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.js:57
+#: erpnext/crm/doctype/appointment/appointment.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/report/lost_opportunity/lost_opportunity.js:55
+#: erpnext/crm/report/lost_opportunity/lost_opportunity.py:31
+#: erpnext/public/js/bank_reconciliation_tool/data_table_manager.js:50
+#: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:135
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/stock/report/serial_no_ledger/serial_no_ledger.py:85
+msgid "Party"
+msgstr "Cadastro"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/party_account/party_account.json
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1162
+msgid "Party Account"
+msgstr "Conta do Cadastro"
+
+#. Label of the party_account_currency (Link) field in DocType 'Payment
+#. Request'
+#. Label of the party_account_currency (Link) field in DocType 'POS Invoice'
+#. Label of the party_account_currency (Link) field in DocType 'Purchase
+#. Invoice'
+#. Label of the party_account_currency (Link) field in DocType 'Sales Invoice'
+#. Label of the party_account_currency (Link) field in DocType 'Purchase Order'
+#. Label of the party_account_currency (Link) field in DocType 'Sales Order'
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+msgid "Party Account Currency"
+msgstr "Moeda da Conta do Cadastro"
+
+#. Label of the bank_party_account_number (Data) field in DocType 'Bank
+#. Transaction'
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+msgid "Party Account No. (Bank Statement)"
+msgstr "Nº da Conta do Cadastro (Extrato Bancario)"
+
+#: erpnext/controllers/accounts_controller.py:2449
+msgid "Party Account {0} currency ({1}) and document currency ({2}) should be same"
+msgstr "A moeda da conta do cadastro {0} ({1}) e a moeda do documento ({2}) devem ser iguais"
+
+#. Label of the party_bank_account (Link) field in DocType 'Payment Entry'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+msgid "Party Bank Account"
+msgstr "Conta Bancaria do Cadastro"
+
+#. Label of the section_break_11 (Section Break) field in DocType 'Bank
+#. Account'
+#. Label of the party_details (Section Break) field in DocType 'Payment
+#. Request'
+#: erpnext/accounts/doctype/bank_account/bank_account.json
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+msgid "Party Details"
+msgstr "Detalhes do Cadastro"
+
+#. Label of the party_full_name (Data) field in DocType 'Contract'
+#: erpnext/crm/doctype/contract/contract.json
+msgid "Party Full Name"
+msgstr "Nome Completo do Cadastro"
+
+#. Label of the bank_party_iban (Data) field in DocType 'Bank Transaction'
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+msgid "Party IBAN (Bank Statement)"
+msgstr "IBAN do Cadastro (Extrato Bancario)"
+
+#. Label of the section_break_7 (Section Break) field in DocType 'Pricing Rule'
+#. Label of the section_break_8 (Section Break) field in DocType 'Promotional
+#. Scheme'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
+msgid "Party Information"
+msgstr "Informacoes do Cadastro"
+
+#. Label of the party_item_code (Data) field in DocType 'Blanket Order Item'
+#: erpnext/manufacturing/doctype/blanket_order_item/blanket_order_item.json
+msgid "Party Item Code"
+msgstr "Codigo do Item do Cadastro"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/party_link/party_link.json
+msgid "Party Link"
+msgstr "Vinculo do Cadastro"
+
+#: erpnext/controllers/sales_and_purchase_return.py:49
+msgid "Party Mismatch"
+msgstr "Incompatibilidade de Cadastro"
+
+#. Label of the party_name (Data) field in DocType 'Payment Entry'
+#. Label of the party_name (Data) field in DocType 'Payment Request'
+#. Label of the party_name (Dynamic Link) field in DocType 'Contract'
+#. Label of the party (Dynamic Link) field in DocType 'Party Specific Item'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+#: erpnext/accounts/report/general_ledger/general_ledger.js:110
+#: erpnext/accounts/report/general_ledger/general_ledger.py:763
+#: erpnext/crm/doctype/contract/contract.json
+#: erpnext/selling/doctype/party_specific_item/party_specific_item.json
+#: erpnext/selling/report/address_and_contacts/address_and_contacts.js:22
+msgid "Party Name"
+msgstr "Nome do Cadastro"
+
+#. Label of the bank_party_name (Data) field in DocType 'Bank Transaction'
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+msgid "Party Name/Account Holder (Bank Statement)"
+msgstr "Nome do Cadastro/Titular da Conta (Extrato Bancario)"
+
+#. Label of the party_not_required (Check) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Party Not Required"
+msgstr "Cadastro nao obrigatorio"
+
+#. Name of a DocType
+#: erpnext/selling/doctype/party_specific_item/party_specific_item.json
+msgid "Party Specific Item"
+msgstr "Item Especifico do Cadastro"
+
+#. Label of the party_type (Link) field in DocType 'Bank Account'
+#. Label of the party_type (Link) field in DocType 'Bank Transaction'
+#. Label of the party_type (Link) field in DocType 'Exchange Rate Revaluation
+#. Account'
+#. Label of the party_type (Link) field in DocType 'GL Entry'
+#. Label of the party_type (Link) field in DocType 'Journal Entry Account'
+#. Label of the party_type (Link) field in DocType 'Opening Invoice Creation
+#. Tool Item'
+#. Label of the party_type (Link) field in DocType 'Payment Entry'
+#. Label of the party_type (Link) field in DocType 'Payment Ledger Entry'
+#. Label of the party_type (Link) field in DocType 'Payment Reconciliation'
+#. Label of the party_type (Link) field in DocType 'Payment Request'
+#. Label of the party_type (Link) field in DocType 'Process Payment
+#. Reconciliation'
+#. Label of the party_type (Link) field in DocType 'Subscription'
+#. Label of the party_type (Data) field in DocType 'Unreconcile Payment
+#. Entries'
+#. Label of the party_type (Select) field in DocType 'Contract'
+#. Label of the party_type (Select) field in DocType 'Party Specific Item'
+#. Name of a DocType
+#. Label of the party_type (Link) field in DocType 'Party Type'
+#: erpnext/accounts/doctype/bank_account/bank_account.json
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+#: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+#: erpnext/accounts/doctype/opening_invoice_creation_tool_item/opening_invoice_creation_tool_item.json
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.json
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
+#: erpnext/accounts/doctype/subscription/subscription.json
+#: erpnext/accounts/doctype/unreconcile_payment_entries/unreconcile_payment_entries.json
+#: erpnext/accounts/report/accounts_payable/accounts_payable.js:81
+#: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.js:58
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:41
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1145
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:58
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:141
+#: erpnext/accounts/report/general_and_payment_ledger_comparison/general_and_payment_ledger_comparison.py:219
+#: erpnext/accounts/report/general_ledger/general_ledger.js:65
+#: erpnext/accounts/report/general_ledger/general_ledger.py:753
+#: erpnext/accounts/report/payment_ledger/payment_ledger.js:41
+#: erpnext/accounts/report/payment_ledger/payment_ledger.py:157
+#: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.js:35
+#: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:86
+#: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.js:15
+#: erpnext/accounts/report/tds_computation_summary/tds_computation_summary.js:15
+#: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.js:49
+#: erpnext/crm/doctype/contract/contract.json
+#: erpnext/public/js/bank_reconciliation_tool/data_table_manager.js:45
+#: erpnext/selling/doctype/party_specific_item/party_specific_item.json
+#: erpnext/selling/report/address_and_contacts/address_and_contacts.js:9
+#: erpnext/setup/doctype/party_type/party_type.json
+#: erpnext/stock/report/serial_no_ledger/serial_no_ledger.py:79
+msgid "Party Type"
+msgstr "Tipo de Cadastro"
+
+#: erpnext/accounts/party.py:827
+msgid "Party Type and Party can only be set for Receivable / Payable account<br><br>{0}"
+msgstr "Tipo de cadastro e cadastro so podem ser definidos para conta a receber/a pagar<br><br>{0}"
+
+#: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:627
+msgid "Party Type and Party is mandatory for {0} account"
+msgstr "Tipo de cadastro e cadastro sao obrigatorios para a conta {0}"
+
+#: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.py:161
+msgid "Party Type and Party is required for Receivable / Payable account {0}"
+msgstr "Tipo de cadastro e cadastro sao obrigatorios para a conta a receber/a pagar {0}"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:514
+#: erpnext/accounts/party.py:428
+msgid "Party Type is mandatory"
+msgstr "Tipo de cadastro e obrigatorio"
+
+#. Label of the party_user (Link) field in DocType 'Contract'
+#: erpnext/crm/doctype/contract/contract.json
+msgid "Party User"
+msgstr "Usuario do Cadastro"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.js:456
+msgid "Party can only be one of {0}"
+msgstr "O cadastro so pode ser um dentre {0}"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:517
+msgid "Party is mandatory"
+msgstr "Cadastro e obrigatorio"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Pascal"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Quality Review'
+#. Option for the 'Status' (Select) field in DocType 'Quality Review Objective'
+#: erpnext/quality_management/doctype/quality_review/quality_review.json
+#: erpnext/quality_management/doctype/quality_review_objective/quality_review_objective.json
+msgid "Passed"
+msgstr "Aprovado"
+
+#. Label of the passport_details_section (Section Break) field in DocType
+#. 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Passport Details"
+msgstr "Detalhes do Passaporte"
+
+#. Label of the passport_number (Data) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Passport Number"
+msgstr "Numero do Passaporte"
+
+#. Option for the 'Status' (Select) field in DocType 'Subscription'
+#: erpnext/accounts/doctype/subscription/subscription.json
+#: erpnext/accounts/doctype/subscription/subscription_list.js:10
+msgid "Past Due Date"
+msgstr "Vencido"
+
+#: erpnext/public/js/templates/crm_activities.html:152
+msgid "Past Events"
+msgstr "Eventos Passados"
+
+#. Option for the 'Status' (Select) field in DocType 'Job Card Operation'
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.js:96
+#: erpnext/accounts/doctype/process_period_closing_voucher/process_period_closing_voucher.js:25
+#: erpnext/manufacturing/doctype/job_card_operation/job_card_operation.json
+#: erpnext/manufacturing/doctype/workstation/workstation_job_card.html:68
+msgid "Pause"
+msgstr "Pausa"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.js:255
+msgid "Pause Job"
+msgstr "Pausar Trabalho"
+
+#. Name of a DocType
+#: erpnext/support/doctype/pause_sla_on_status/pause_sla_on_status.json
+msgid "Pause SLA On Status"
+msgstr "Pausar SLA no Status"
+
+#. Option for the 'Status' (Select) field in DocType 'Process Payment
+#. Reconciliation'
+#. Option for the 'Status' (Select) field in DocType 'Process Payment
+#. Reconciliation Log'
+#. Option for the 'Status' (Select) field in DocType 'Process Period Closing
+#. Voucher'
+#. Option for the 'Status' (Select) field in DocType 'Process Period Closing
+#. Voucher Detail'
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
+#: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.json
+#: erpnext/accounts/doctype/process_period_closing_voucher/process_period_closing_voucher.json
+#: erpnext/accounts/doctype/process_period_closing_voucher_detail/process_period_closing_voucher_detail.json
+msgid "Paused"
+msgstr "Em Pausa"
+
+#. Option for the 'Payment Type' (Select) field in DocType 'Payment Entry'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+msgid "Pay"
+msgstr "Pagar"
+
+#: erpnext/templates/pages/order.html:43
+msgctxt "Amount"
+msgid "Pay"
+msgstr "Pagar"
+
+#. Label of the pay_to_recd_from (Data) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Pay To / Recd From"
+msgstr "Pago a / Recebido de"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#. Option for the 'Account Type' (Select) field in DocType 'Payment Ledger
+#. Entry'
+#. Option for the 'Account Type' (Select) field in DocType 'Party Type'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.json
+#: erpnext/accounts/report/account_balance/account_balance.js:54
+#: erpnext/setup/doctype/party_type/party_type.json
+msgid "Payable"
+msgstr "A Pagar"
+
+#: erpnext/accounts/report/accounts_payable/accounts_payable.js:39
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1160
+#: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.py:203
+#: erpnext/accounts/report/purchase_register/purchase_register.py:194
+#: erpnext/accounts/report/purchase_register/purchase_register.py:235
+msgid "Payable Account"
+msgstr "Conta a Pagar"
+
+#. Name of a Workspace
+#. Label of the payables (Check) field in DocType 'Email Digest'
+#: erpnext/accounts/workspace/payables/payables.json
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "Payables"
+msgstr "Contas a Pagar"
+
+#. Label of the payer_settings (Column Break) field in DocType 'Cheque Print
+#. Template'
+#: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
+msgid "Payer Settings"
+msgstr "Configuracoes do Pagador"
+
+#. Option for the 'Posting Date Inheritance for Exchange Gain / Loss' (Select)
+#. field in DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+#: erpnext/accounts/doctype/dunning/dunning.js:51
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting_dashboard.py:10
+#: erpnext/accounts/doctype/payment_request/payment_request_dashboard.py:12
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:82
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:119
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice_dashboard.py:20
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js:55
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:96
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice_dashboard.py:25
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice_list.js:42
+#: erpnext/buying/doctype/purchase_order/purchase_order.js:463
+#: erpnext/buying/doctype/purchase_order/purchase_order_dashboard.py:24
+#: erpnext/selling/doctype/sales_order/sales_order.js:1159
+#: erpnext/selling/doctype/sales_order/sales_order_dashboard.py:31
+msgid "Payment"
+msgstr "Pagamento"
+
+#. Label of the payment_account (Link) field in DocType 'Payment Gateway
+#. Account'
+#. Label of the payment_account (Read Only) field in DocType 'Payment Request'
+#: erpnext/accounts/doctype/payment_gateway_account/payment_gateway_account.json
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+msgid "Payment Account"
+msgstr "Conta de Pagamento"
+
+#. Label of the payment_amount (Currency) field in DocType 'Overdue Payment'
+#. Label of the payment_amount (Currency) field in DocType 'Payment Schedule'
+#: erpnext/accounts/doctype/overdue_payment/overdue_payment.json
+#: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
+#: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.py:50
+#: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.py:273
+msgid "Payment Amount"
+msgstr "Valor do Pagamento"
+
+#. Label of the base_payment_amount (Currency) field in DocType 'Payment
+#. Schedule'
+#: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
+msgid "Payment Amount (Company Currency)"
+msgstr "Valor do Pagamento (Moeda da Empresa)"
+
+#. Label of the payment_channel (Select) field in DocType 'Payment Gateway
+#. Account'
+#. Label of the payment_channel (Select) field in DocType 'Payment Request'
+#: erpnext/accounts/doctype/payment_gateway_account/payment_gateway_account.json
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+msgid "Payment Channel"
+msgstr "Canal de Pagamento"
+
+#. Label of the deductions (Table) field in DocType 'Payment Entry'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+msgid "Payment Deductions or Loss"
+msgstr "Deducoes ou Perdas do Pagamento"
+
+#. Label of the payment_document (Link) field in DocType 'Bank Clearance
+#. Detail'
+#. Label of the payment_document (Link) field in DocType 'Bank Transaction
+#. Payments'
+#: erpnext/accounts/doctype/bank_clearance_detail/bank_clearance_detail.json
+#: erpnext/accounts/doctype/bank_transaction_payments/bank_transaction_payments.json
+#: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.py:70
+#: erpnext/accounts/report/cheques_and_deposits_incorrectly_cleared/cheques_and_deposits_incorrectly_cleared.py:132
+#: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:81
+msgid "Payment Document"
+msgstr "Documento de Pagamento"
+
+#: erpnext/accounts/report/bank_clearance_summary/bank_clearance_summary.py:23
+#: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.py:64
+#: erpnext/accounts/report/cheques_and_deposits_incorrectly_cleared/cheques_and_deposits_incorrectly_cleared.py:126
+#: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:75
+msgid "Payment Document Type"
+msgstr "Tipo de Documento de Pagamento"
+
+#. Label of the due_date (Date) field in DocType 'POS Invoice'
+#. Label of the due_date (Date) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:110
+msgid "Payment Due Date"
+msgstr "Data de Vencimento"
+
+#. Label of the payment_entries (Table) field in DocType 'Bank Clearance'
+#. Label of the payment_entries (Table) field in DocType 'Bank Transaction'
+#: erpnext/accounts/doctype/bank_clearance/bank_clearance.json
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+msgid "Payment Entries"
+msgstr "Entradas de Pagamento"
+
+#: erpnext/accounts/utils.py:1114
+msgid "Payment Entries {0} are un-linked"
+msgstr "As Entradas de Pagamento {0} nao estao vinculadas"
+
+#. Label of the payment_entry (Dynamic Link) field in DocType 'Bank Clearance
+#. Detail'
+#. Label of the payment_entry (Dynamic Link) field in DocType 'Bank Transaction
+#. Payments'
+#. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
+#. Account'
+#. Name of a DocType
+#. Option for the 'Payment Order Type' (Select) field in DocType 'Payment
+#. Order'
+#. Label of a Link in the Accounting Workspace
+#. Label of a Link in the Payables Workspace
+#. Label of a shortcut in the Payables Workspace
+#. Label of a Link in the Receivables Workspace
+#. Label of a shortcut in the Receivables Workspace
+#: erpnext/accounts/doctype/bank_clearance_detail/bank_clearance_detail.json
+#: erpnext/accounts/doctype/bank_transaction_payments/bank_transaction_payments.json
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/payment_order/payment_order.js:27
+#: erpnext/accounts/doctype/payment_order/payment_order.json
+#: erpnext/accounts/print_format/bank_and_cash_payment_voucher/bank_and_cash_payment_voucher.html:12
+#: erpnext/accounts/report/bank_clearance_summary/bank_clearance_summary.py:29
+#: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.html:8
+#: erpnext/accounts/workspace/accounting/accounting.json
+#: erpnext/accounts/workspace/payables/payables.json
+#: erpnext/accounts/workspace/receivables/receivables.json
+msgid "Payment Entry"
+msgstr "Entrada de Pagamento"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/payment_entry_deduction/payment_entry_deduction.json
+msgid "Payment Entry Deduction"
+msgstr "Deducao da Entrada de Pagamento"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.json
+msgid "Payment Entry Reference"
+msgstr "Referencia da Entrada de Pagamento"
+
+#: erpnext/accounts/doctype/payment_request/payment_request.py:450
+msgid "Payment Entry already exists"
+msgstr "A Entrada de Pagamento ja existe"
+
+#: erpnext/accounts/utils.py:613
+msgid "Payment Entry has been modified after you pulled it. Please pull it again."
+msgstr "A Entrada de Pagamento foi modificada depois que voce a carregou. Carregue-a novamente."
+
+#: erpnext/accounts/doctype/payment_request/payment_request.py:128
+#: erpnext/accounts/doctype/payment_request/payment_request.py:553
+msgid "Payment Entry is already created"
+msgstr "A Entrada de Pagamento ja foi criada"

@@ -1,0 +1,937 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:35+0000\n"
+"PO-Revision-Date: 2026-01-21 06:48\n"
+"Last-Translator: developers@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File-ID: 138\n"
+"Language: pt_BR\n"
+
+#. Label of the cron_format (Data) field in DocType 'Scheduled Job Type'
+#. Label of the cron_format (Data) field in DocType 'Server Script'
+#: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json
+#: frappe/core/doctype/server_script/server_script.json
+msgid "Cron Format"
+msgstr "Formato Cron"
+
+#: frappe/core/doctype/scheduled_job_type/scheduled_job_type.py:62
+msgid "Cron format is required for job types with Cron frequency."
+msgstr "O formato Cron e obrigatorio para tipos de tarefa com frequencia Cron."
+
+#: frappe/public/js/frappe/file_uploader/ImageCropper.vue:34
+msgid "Crop"
+msgstr "Cortar"
+
+#: frappe/public/js/frappe/form/grid_row_form.js:44
+msgid "Ctrl + Down"
+msgstr "Ctrl + seta para baixo"
+
+#: frappe/public/js/frappe/form/grid_row_form.js:44
+msgid "Ctrl + Up"
+msgstr "Ctrl + seta para cima"
+
+#: frappe/templates/includes/comments/comments.html:32
+msgid "Ctrl+Enter to add comment"
+msgstr "Ctrl+Enter para adicionar comentario"
+
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Report Column'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Report Filter'
+#. Label of the currency (Link) field in DocType 'System Settings'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Label of the currency (Link) field in DocType 'Dashboard Chart'
+#. Label of the currency (Link) field in DocType 'Number Card'
+#. Name of a DocType
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/report_column/report_column.json
+#: frappe/core/doctype/report_filter/report_filter.json
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+#: frappe/desk/doctype/number_card/number_card.json
+#: frappe/desk/page/setup_wizard/setup_wizard.js:414
+#: frappe/geo/doctype/currency/currency.json
+#: frappe/website/doctype/web_form_field/web_form_field.json
+msgid "Currency"
+msgstr "Moeda"
+
+#. Label of the currency_name (Data) field in DocType 'Currency'
+#: frappe/geo/doctype/currency/currency.json
+msgid "Currency Name"
+msgstr "Nome da Moeda"
+
+#. Label of the currency_precision (Select) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Currency Precision"
+msgstr "Precisão de moeda"
+
+#. Description of a DocType
+#: frappe/geo/doctype/currency/currency.json
+msgid "Currency list stores the currency value, its symbol and fraction unit"
+msgstr "A lista de moedas armazena o valor da moeda, seu simbolo e a unidade fracionaria"
+
+#. Option for the 'Address Type' (Select) field in DocType 'Address'
+#: frappe/contacts/doctype/address/address.json
+msgid "Current"
+msgstr "Atual"
+
+#. Label of the current_job_id (Link) field in DocType 'RQ Worker'
+#: frappe/core/doctype/rq_worker/rq_worker.json
+msgid "Current Job ID"
+msgstr "ID do trabalho atual"
+
+#. Label of the current_value (Int) field in DocType 'Document Naming Settings'
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.json
+msgid "Current Value"
+msgstr "Valor atual"
+
+#: frappe/public/js/frappe/form/workflow.js:45
+msgid "Current status"
+msgstr "Status atual"
+
+#: frappe/public/js/frappe/form/form_viewers.js:5
+msgid "Currently Viewing"
+msgstr "Visualizando agora"
+
+#. Label of the custom (Check) field in DocType 'DocType Action'
+#. Label of the custom (Check) field in DocType 'DocType Link'
+#. Label of the custom (Check) field in DocType 'DocType State'
+#. Label of the custom (Check) field in DocType 'Module Def'
+#. Option for the 'Chart Type' (Select) field in DocType 'Dashboard Chart'
+#. Option for the 'Type' (Select) field in DocType 'Number Card'
+#. Option for the 'Send Alert On' (Select) field in DocType 'Notification'
+#. Option for the 'Directory Server' (Select) field in DocType 'LDAP Settings'
+#. Option for the 'Social Login Provider' (Select) field in DocType 'Social
+#. Login Key'
+#. Option for the 'PDF Page Size' (Select) field in DocType 'Print Settings'
+#: frappe/core/doctype/doctype_action/doctype_action.json
+#: frappe/core/doctype/doctype_link/doctype_link.json
+#: frappe/core/doctype/doctype_state/doctype_state.json
+#: frappe/core/doctype/module_def/module_def.json
+#: frappe/core/doctype/user_type/user_type_list.js:7
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+#: frappe/desk/doctype/number_card/number_card.json
+#: frappe/email/doctype/notification/notification.json
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+#: frappe/integrations/doctype/social_login_key/social_login_key.json
+#: frappe/printing/doctype/print_settings/print_settings.json
+#: frappe/public/js/frappe/form/reminders.js:20
+msgid "Custom"
+msgstr "Personalizado"
+
+#. Label of the custom_base_url (Check) field in DocType 'Social Login Key'
+#: frappe/integrations/doctype/social_login_key/social_login_key.json
+msgid "Custom Base URL"
+msgstr "URL base personalizada"
+
+#. Label of the custom_block_name (Link) field in DocType 'Workspace Custom
+#. Block'
+#: frappe/desk/doctype/workspace_custom_block/workspace_custom_block.json
+msgid "Custom Block Name"
+msgstr "Nome do bloco personalizado"
+
+#. Label of the custom_blocks_tab (Tab Break) field in DocType 'Workspace'
+#. Label of the custom_blocks (Table) field in DocType 'Workspace'
+#: frappe/desk/doctype/workspace/workspace.json
+msgid "Custom Blocks"
+msgstr "Blocos personalizados"
+
+#. Label of the css (Code) field in DocType 'Print Format'
+#. Label of the custom_css (Code) field in DocType 'Web Form'
+#: frappe/printing/doctype/print_format/print_format.json
+#: frappe/website/doctype/web_form/web_form.json
+msgid "Custom CSS"
+msgstr "CSS Personalizado"
+
+#. Label of the custom_configuration_section (Section Break) field in DocType
+#. 'Number Card'
+#: frappe/desk/doctype/number_card/number_card.json
+msgid "Custom Configuration"
+msgstr "Configuração Personalizada"
+
+#. Label of the custom_delimiters (Check) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Custom Delimiters"
+msgstr "Delimitadores personalizados"
+
+#. Name of a DocType
+#: frappe/core/doctype/custom_docperm/custom_docperm.json
+msgid "Custom DocPerm"
+msgstr "DocPerm personalizado"
+
+#. Label of the custom_select_doctypes (Table) field in DocType 'User Type'
+#: frappe/core/doctype/user_type/user_type.json
+msgid "Custom Document Types (Select Permission)"
+msgstr "Tipos de documento personalizados (selecionar permissao)"
+
+#: frappe/core/doctype/user_type/user_type.py:105
+msgid "Custom Document Types Limit Exceeded"
+msgstr "Limite de tipos de documento personalizados excedido"
+
+#: frappe/desk/desktop.py:524
+msgid "Custom Documents"
+msgstr "Documentos personalizados"
+
+#. Label of a Link in the Build Workspace
+#. Name of a DocType
+#: frappe/core/workspace/build/build.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+msgid "Custom Field"
+msgstr "Campo personalizado"
+
+#: frappe/custom/doctype/custom_field/custom_field.py:221
+msgid "Custom Field {0} is created by the Administrator and can only be deleted through the Administrator account."
+msgstr "O campo personalizado {0} foi criado pelo Administrador e so pode ser excluido pela conta do Administrador."
+
+#: frappe/custom/doctype/custom_field/custom_field.py:278
+msgid "Custom Fields can only be added to a standard DocType."
+msgstr "Campos personalizados so podem ser adicionados a um DocType padrao."
+
+#: frappe/custom/doctype/custom_field/custom_field.py:275
+msgid "Custom Fields cannot be added to core DocTypes."
+msgstr "Campos personalizados nao podem ser adicionados a DocTypes principais."
+
+#. Label of the custom_footer_section (Section Break) field in DocType 'Website
+#. Settings'
+#: frappe/website/doctype/website_settings/website_settings.json
+msgid "Custom Footer"
+msgstr "Rodape personalizado"
+
+#. Label of the custom_format (Check) field in DocType 'Print Format'
+#: frappe/printing/doctype/print_format/print_format.json
+msgid "Custom Format"
+msgstr "Formato Personalizado"
+
+#. Label of the ldap_custom_group_search (Data) field in DocType 'LDAP
+#. Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "Custom Group Search"
+msgstr "Pesquisa de grupo personalizada"
+
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.py:122
+msgid "Custom Group Search if filled needs to contain the user placeholder {0}, eg uid={0},ou=users,dc=example,dc=com"
+msgstr "Se preenchida, a Pesquisa de grupo personalizada precisa conter o placeholder de usuario {0}, por exemplo uid={0},ou=users,dc=example,dc=com"
+
+#: frappe/printing/page/print_format_builder/print_format_builder.js:190
+#: frappe/printing/page/print_format_builder/print_format_builder.js:728
+#: frappe/public/js/print_format_builder/PrintFormatControls.vue:162
+msgid "Custom HTML"
+msgstr "HTML personalizado"
+
+#. Name of a DocType
+#: frappe/desk/doctype/custom_html_block/custom_html_block.json
+msgid "Custom HTML Block"
+msgstr "Bloco HTML personalizado"
+
+#. Label of the custom_html_help (HTML) field in DocType 'Print Format'
+#: frappe/printing/doctype/print_format/print_format.json
+msgid "Custom HTML Help"
+msgstr "Ajuda HTML Personalizado"
+
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.py:114
+msgid "Custom LDAP Directoy Selected, please ensure 'LDAP Group Member attribute' and 'Group Object Class' are entered"
+msgstr "Diretorio LDAP personalizado selecionado. Verifique se 'Atributo de membro do grupo LDAP' e 'Classe de objeto do grupo' foram informados"
+
+#. Label of the label (Data) field in DocType 'Web Form Field'
+#. Label of the label (Data) field in DocType 'Web Form List Column'
+#: frappe/website/doctype/web_form_field/web_form_field.json
+#: frappe/website/doctype/web_form_list_column/web_form_list_column.json
+msgid "Custom Label"
+msgstr "Rotulo personalizado"
+
+#. Label of the custom_menu (Table) field in DocType 'Portal Settings'
+#: frappe/website/doctype/portal_settings/portal_settings.json
+msgid "Custom Menu Items"
+msgstr "Itens de menu personalizados"
+
+#. Label of the custom_options (Code) field in DocType 'Dashboard Chart'
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+msgid "Custom Options"
+msgstr "Opções Personalizadas"
+
+#. Label of the custom_overrides (Code) field in DocType 'Website Theme'
+#: frappe/website/doctype/website_theme/website_theme.json
+msgid "Custom Overrides"
+msgstr "Substituições personalizadas"
+
+#. Option for the 'Report Type' (Select) field in DocType 'Report'
+#: frappe/core/doctype/report/report.json
+msgid "Custom Report"
+msgstr "Relatório Personalizado"
+
+#: frappe/desk/desktop.py:525
+msgid "Custom Reports"
+msgstr "Relatorios personalizados"
+
+#. Name of a DocType
+#: frappe/core/doctype/custom_role/custom_role.json
+msgid "Custom Role"
+msgstr "Funcao personalizada"
+
+#. Label of the custom_scss (Code) field in DocType 'Website Theme'
+#: frappe/website/doctype/website_theme/website_theme.json
+msgid "Custom SCSS"
+msgstr "SCSS personalizado"
+
+#. Label of the custom_sidebar_menu (Section Break) field in DocType 'Portal
+#. Settings'
+#: frappe/website/doctype/portal_settings/portal_settings.json
+msgid "Custom Sidebar Menu"
+msgstr "Menu lateral personalizado"
+
+#. Label of a Link in the Build Workspace
+#: frappe/core/workspace/build/build.json
+msgid "Custom Translation"
+msgstr "Traducao personalizada"
+
+#: frappe/custom/doctype/custom_field/custom_field.py:424
+msgid "Custom field renamed to {0} successfully."
+msgstr "Campo personalizado renomeado para {0} com sucesso."
+
+#: frappe/api/v2.py:148
+msgid "Custom get_list method for {0} must return a QueryBuilder object or None, got {1}"
+msgstr "O metodo get_list personalizado para {0} deve retornar um objeto QueryBuilder ou None; recebeu {1}"
+
+#. Label of the custom (Check) field in DocType 'DocType'
+#. Label of the custom (Check) field in DocType 'Website Theme'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/core/doctype/doctype/doctype_list.js:83
+#: frappe/website/doctype/website_theme/website_theme.json
+msgid "Custom?"
+msgstr "Personalizado?"
+
+#. Group in DocType's connections
+#. Group in Module Def's connections
+#. Label of a Card Break in the Build Workspace
+#. Label of the customization_tab (Tab Break) field in DocType 'Web Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/core/doctype/module_def/module_def.json
+#: frappe/core/workspace/build/build.json
+#: frappe/website/doctype/web_form/web_form.json
+msgid "Customization"
+msgstr "Personalizacao"
+
+#: frappe/public/js/frappe/views/workspace/workspace.js:372
+msgid "Customizations Discarded"
+msgstr "Personalizacoes descartadas"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:465
+msgid "Customizations Reset"
+msgstr "Personalizacoes redefinidas"
+
+#: frappe/modules/utils.py:99
+msgid "Customizations for <b>{0}</b> exported to:<br>{1}"
+msgstr "Personalizacoes de <b>{0}</b> exportadas para:<br>{1}"
+
+#: frappe/printing/page/print/print.js:185
+#: frappe/public/js/frappe/form/templates/print_layout.html:39
+#: frappe/public/js/frappe/form/toolbar.js:633
+#: frappe/public/js/frappe/views/dashboard/dashboard_view.js:197
+msgid "Customize"
+msgstr "Personalizar"
+
+#: frappe/public/js/frappe/list/list_view.js:1950
+msgctxt "Button in list view menu"
+msgid "Customize"
+msgstr "Personalizar"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:89
+msgid "Customize Child Table"
+msgstr "Personalizar tabela filha"
+
+#: frappe/public/js/frappe/views/dashboard/dashboard_view.js:38
+msgid "Customize Dashboard"
+msgstr "Personalizar painel"
+
+#. Label of a Link in the Build Workspace
+#. Name of a DocType
+#: frappe/automation/doctype/auto_repeat/auto_repeat.js:33
+#: frappe/core/doctype/doctype/doctype.js:61
+#: frappe/core/workspace/build/build.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+#: frappe/public/js/frappe/views/kanban/kanban_view.js:357
+msgid "Customize Form"
+msgstr "Personalizar formulario"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:100
+msgid "Customize Form - {0}"
+msgstr "Personalizar formulario - {0}"
+
+#. Name of a DocType
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Customize Form Field"
+msgstr "Campo de personalizacao de formulario"
+
+#. Description of a Card Break in the Build Workspace
+#: frappe/core/workspace/build/build.json
+msgid "Customize properties, naming, fields and more for standard doctypes"
+msgstr "Personalize propriedades, nomeacao, campos e mais para DocTypes padrao"
+
+#: frappe/public/js/frappe/views/file/file_view.js:144
+msgid "Cut"
+msgstr "Recortar"
+
+#. Option for the 'Color' (Select) field in DocType 'DocType State'
+#. Option for the 'Indicator' (Select) field in DocType 'Kanban Board Column'
+#: frappe/core/doctype/doctype_state/doctype_state.json
+#: frappe/desk/doctype/kanban_board_column/kanban_board_column.json
+msgid "Cyan"
+msgstr "Ciano"
+
+#. Option for the 'Method' (Select) field in DocType 'Recorder'
+#. Option for the 'Request Method' (Select) field in DocType 'Webhook'
+#: frappe/core/doctype/recorder/recorder.json
+#: frappe/integrations/doctype/webhook/webhook.json
+msgid "DELETE"
+msgstr "DELETE"
+
+#. Option for the 'Default Sort Order' (Select) field in DocType 'DocType'
+#. Option for the 'Sort Order' (Select) field in DocType 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "DESC"
+msgstr "DESC"
+
+#. Option for the 'PDF Page Size' (Select) field in DocType 'Print Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "DLE"
+msgstr "DLE"
+
+#: frappe/templates/print_formats/standard_macros.html:211
+msgid "DRAFT"
+msgstr "RASCUNHO"
+
+#. Option for the 'Frequency' (Select) field in DocType 'Auto Repeat'
+#. Option for the 'Frequency' (Select) field in DocType 'Scheduled Job Type'
+#. Option for the 'Event Frequency' (Select) field in DocType 'Server Script'
+#. Option for the 'Frequency' (Select) field in DocType 'User'
+#. Option for the 'Time Interval' (Select) field in DocType 'Dashboard Chart'
+#. Option for the 'Repeat On' (Select) field in DocType 'Event'
+#. Option for the 'Stats Time Interval' (Select) field in DocType 'Number Card'
+#. Option for the 'Period' (Select) field in DocType 'Auto Email Report'
+#. Option for the 'Frequency' (Select) field in DocType 'Auto Email Report'
+#: frappe/automation/doctype/auto_repeat/auto_repeat.json
+#: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json
+#: frappe/core/doctype/server_script/server_script.json
+#: frappe/core/doctype/user/user.json
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+#: frappe/desk/doctype/event/event.json
+#: frappe/desk/doctype/number_card/number_card.json
+#: frappe/email/doctype/auto_email_report/auto_email_report.json
+#: frappe/public/js/frappe/utils/common.js:407
+#: frappe/website/report/website_analytics/website_analytics.js:23
+msgid "Daily"
+msgstr "Diario"
+
+#: frappe/templates/emails/upcoming_events.html:8
+msgid "Daily Event Digest is sent for Calendar Events where reminders are set."
+msgstr "O resumo diario de eventos e enviado para eventos do calendario com lembretes definidos."
+
+#: frappe/desk/doctype/event/event.py:104
+msgid "Daily Events should finish on the Same Day."
+msgstr "Eventos diarios devem terminar no mesmo dia."
+
+#. Option for the 'Frequency' (Select) field in DocType 'Scheduled Job Type'
+#. Option for the 'Event Frequency' (Select) field in DocType 'Server Script'
+#: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json
+#: frappe/core/doctype/server_script/server_script.json
+msgid "Daily Long"
+msgstr "Diario (longo)"
+
+#. Option for the 'Frequency' (Select) field in DocType 'Scheduled Job Type'
+#: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json
+msgid "Daily Maintenance"
+msgstr "Manutencao diaria"
+
+#. Option for the 'Button Color' (Select) field in DocType 'DocField'
+#. Option for the 'Button Color' (Select) field in DocType 'Custom Field'
+#. Option for the 'Button Color' (Select) field in DocType 'Customize Form
+#. Field'
+#. Option for the 'Style' (Select) field in DocType 'Workflow State'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/workflow/doctype/workflow_state/workflow_state.json
+msgid "Danger"
+msgstr "Perigo"
+
+#. Option for the 'Desk Theme' (Select) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Dark"
+msgstr "Escuro"
+
+#. Label of the dark_color (Link) field in DocType 'Website Theme'
+#: frappe/website/doctype/website_theme/website_theme.json
+msgid "Dark Color"
+msgstr "Cor Escura"
+
+#: frappe/public/js/frappe/ui/theme_switcher.js:65
+msgid "Dark Theme"
+msgstr "Tema escuro"
+
+#. Label of the dashboard (Check) field in DocType 'User'
+#. Label of a Link in the Build Workspace
+#. Name of a DocType
+#. Option for the 'Select List View' (Select) field in DocType 'Form Tour'
+#. Option for the 'Type' (Select) field in DocType 'Workspace Shortcut'
+#. Option for the 'DocType View' (Select) field in DocType 'Workspace Shortcut'
+#. Option for the 'Link Type' (Select) field in DocType 'Workspace Sidebar
+#. Item'
+#: frappe/core/doctype/user/user.json
+#: frappe/core/page/dashboard_view/dashboard_view.js:10
+#: frappe/core/workspace/build/build.json
+#: frappe/desk/doctype/dashboard/dashboard.json
+#: frappe/desk/doctype/form_tour/form_tour.json
+#: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
+#: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:606
+#: frappe/public/js/frappe/utils/utils.js:976
+msgid "Dashboard"
+msgstr "Painel"
+
+#. Label of a Link in the Build Workspace
+#. Name of a DocType
+#: frappe/core/workspace/build/build.json
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+#: frappe/desk/doctype/dashboard_chart_source/dashboard_chart_source.js:8
+msgid "Dashboard Chart"
+msgstr "Grafico do painel"
+
+#. Name of a DocType
+#: frappe/desk/doctype/dashboard_chart_field/dashboard_chart_field.json
+msgid "Dashboard Chart Field"
+msgstr "Campo do grafico do painel"
+
+#. Name of a DocType
+#: frappe/desk/doctype/dashboard_chart_link/dashboard_chart_link.json
+msgid "Dashboard Chart Link"
+msgstr "Vinculo do grafico do painel"
+
+#. Name of a DocType
+#: frappe/desk/doctype/dashboard_chart_source/dashboard_chart_source.json
+msgid "Dashboard Chart Source"
+msgstr "Fonte do grafico do painel"
+
+#. Name of a role
+#: frappe/desk/doctype/dashboard/dashboard.json
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+#: frappe/desk/doctype/number_card/number_card.json
+msgid "Dashboard Manager"
+msgstr "Gerente de painel"
+
+#. Label of the dashboard_name (Data) field in DocType 'Dashboard'
+#: frappe/desk/doctype/dashboard/dashboard.json
+msgid "Dashboard Name"
+msgstr "Nome do painel"
+
+#. Name of a DocType
+#: frappe/desk/doctype/dashboard_settings/dashboard_settings.json
+msgid "Dashboard Settings"
+msgstr "Configuracoes do painel"
+
+#: frappe/public/js/frappe/list/base_list.js:205
+msgid "Dashboard View"
+msgstr "Visualizacao de painel"
+
+#. Label of the tab_break_2 (Tab Break) field in DocType 'Workspace'
+#: frappe/desk/doctype/workspace/workspace.json
+msgid "Dashboards"
+msgstr "Paineis"
+
+#. Label of the data (Code) field in DocType 'Deleted Document'
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Report Column'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Report Filter'
+#. Label of the data (Code) field in DocType 'Version'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Label of the webhook_data (Table) field in DocType 'Webhook'
+#. Label of the data (Code) field in DocType 'Webhook Request Log'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Form Field'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Template Field'
+#: frappe/core/doctype/deleted_document/deleted_document.json
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/report_column/report_column.json
+#: frappe/core/doctype/report_filter/report_filter.json
+#: frappe/core/doctype/version/version.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/integrations/doctype/webhook/webhook.json
+#: frappe/integrations/doctype/webhook_request_log/webhook_request_log.json
+#: frappe/website/doctype/web_form_field/web_form_field.json
+#: frappe/website/doctype/web_template_field/web_template_field.json
+msgid "Data"
+msgstr "Dados"
+
+#: frappe/public/js/frappe/form/controls/data.js:59
+msgid "Data Clipped"
+msgstr "Dados truncados"
+
+#. Name of a DocType
+#: frappe/core/doctype/data_export/data_export.json
+msgid "Data Export"
+msgstr "Exportacao de dados"
+
+#. Name of a DocType
+#. Label of the data_import (Link) field in DocType 'Data Import Log'
+#: frappe/core/doctype/data_import/data_import.json
+#: frappe/core/doctype/data_import_log/data_import_log.json
+msgid "Data Import"
+msgstr "Importacao de dados"
+
+#. Name of a DocType
+#: frappe/core/doctype/data_import_log/data_import_log.json
+msgid "Data Import Log"
+msgstr "Log de importacao de dados"
+
+#: frappe/core/doctype/data_export/exporter.py:174
+msgid "Data Import Template"
+msgstr "Modelo de importacao de dados"
+
+#: frappe/core/doctype/data_import/data_import.py:76
+msgid "Data Import is not allowed for {0}. Enable 'Allow Import' in DocType settings."
+msgstr "A importacao de dados nao e permitida para {0}. Ative 'Permitir importacao' nas configuracoes do DocType."
+
+#: frappe/custom/doctype/customize_form/customize_form.py:619
+msgid "Data Too Long"
+msgstr "Dados longos demais"
+
+#. Label of the database (Data) field in DocType 'System Health Report'
+#. Label of the database_section (Section Break) field in DocType 'System
+#. Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Database"
+msgstr "Banco de dados"
+
+#. Label of the engine (Select) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "Database Engine"
+msgstr "Mecanismo do banco de dados"
+
+#. Label of the database_processes_section (Section Break) field in DocType
+#. 'System Console'
+#: frappe/desk/doctype/system_console/system_console.json
+msgid "Database Processes"
+msgstr "Processos do banco de dados"
+
+#: frappe/public/js/frappe/doctype/index.js:39
+msgid "Database Row Size Utilization"
+msgstr "Uso do tamanho de linha do banco de dados"
+
+#. Name of a report
+#: frappe/core/report/database_storage_usage_by_tables/database_storage_usage_by_tables.json
+msgid "Database Storage Usage By Tables"
+msgstr "Uso de armazenamento do banco de dados por tabelas"
+
+#: frappe/custom/doctype/customize_form/customize_form.py:251
+msgid "Database Table Row Size Limit"
+msgstr "Limite do tamanho de linha da tabela do banco de dados"
+
+#: frappe/public/js/frappe/doctype/index.js:41
+msgid "Database Table Row Size Utilization: {0}%, this limits number of fields you can add."
+msgstr "Uso do tamanho de linha da tabela do banco de dados: {0}%, isso limita a quantidade de campos que voce pode adicionar."
+
+#. Label of the database_version (Data) field in DocType 'System Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Database Version"
+msgstr "Versao do banco de dados"
+
+#. Label of the communication_date (Datetime) field in DocType 'Activity Log'
+#. Label of the communication_date (Datetime) field in DocType 'Communication'
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Report Column'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Report Filter'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Form Field'
+#: frappe/core/doctype/activity_log/activity_log.json
+#: frappe/core/doctype/communication/communication.json
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/report_column/report_column.json
+#: frappe/core/doctype/report_filter/report_filter.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/desk/report/todo/todo.py:38
+#: frappe/public/js/frappe/views/interaction.js:80
+#: frappe/website/doctype/web_form_field/web_form_field.json
+msgid "Date"
+msgstr "Data"
+
+#. Label of the date_format (Select) field in DocType 'Language'
+#. Label of the date_format (Select) field in DocType 'System Settings'
+#. Label of the date_format (Data) field in DocType 'Country'
+#: frappe/core/doctype/language/language.json
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/geo/doctype/country/country.json
+msgid "Date Format"
+msgstr "Formato de Data"
+
+#. Label of the section_break_dfrx (Section Break) field in DocType 'Audit
+#. Trail'
+#: frappe/core/doctype/audit_trail/audit_trail.json
+#: frappe/public/js/frappe/widgets/chart_widget.js:237
+msgid "Date Range"
+msgstr "Intervalo de datas"
+
+#. Label of the date_and_number_format (Section Break) field in DocType 'System
+#. Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Date and Number Format"
+msgstr "Formato de data e numero"
+
+#: frappe/public/js/frappe/form/controls/date.js:253
+msgid "Date {0} must be in format: {1}"
+msgstr "A data {0} deve estar no formato: {1}"
+
+#: frappe/utils/password_strength.py:129
+msgid "Dates are often easy to guess."
+msgstr "Datas costumam ser faceis de adivinhar."
+
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Report Column'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Report Filter'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/report_column/report_column.json
+#: frappe/core/doctype/report_filter/report_filter.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/website/doctype/web_form_field/web_form_field.json
+msgid "Datetime"
+msgstr "Data e Hora"
+
+#. Label of the day (Select) field in DocType 'Assignment Rule Day'
+#. Label of the day (Select) field in DocType 'Auto Repeat Day'
+#: frappe/automation/doctype/assignment_rule_day/assignment_rule_day.json
+#: frappe/automation/doctype/auto_repeat_day/auto_repeat_day.json
+#: frappe/public/js/frappe/views/calendar/calendar.js:277
+msgid "Day"
+msgstr "Dia"
+
+#. Label of the day_of_week (Select) field in DocType 'Auto Email Report'
+#: frappe/email/doctype/auto_email_report/auto_email_report.json
+msgid "Day of Week"
+msgstr "Dia da Semana"
+
+#: frappe/public/js/frappe/form/controls/duration.js:27
+msgctxt "Duration"
+msgid "Days"
+msgstr "Dias"
+
+#. Option for the 'Send Alert On' (Select) field in DocType 'Notification'
+#: frappe/email/doctype/notification/notification.json
+msgid "Days After"
+msgstr "Dias Após"
+
+#. Option for the 'Send Alert On' (Select) field in DocType 'Notification'
+#: frappe/email/doctype/notification/notification.json
+msgid "Days Before"
+msgstr "Dias Antes"
+
+#. Label of the days_in_advance (Int) field in DocType 'Notification'
+#: frappe/email/doctype/notification/notification.json
+msgid "Days Before or After"
+msgstr "Dias Antes ou Após"
+
+#: frappe/public/js/frappe/request.js:252
+msgid "Deadlock Occurred"
+msgstr "Ocorreu um deadlock"
+
+#: frappe/templates/emails/password_reset.html:1
+msgid "Dear"
+msgstr "Prezado(a)"
+
+#: frappe/templates/emails/administrator_logged_in.html:1
+msgid "Dear System Manager,"
+msgstr "Prezado(a) gerente do sistema,"
+
+#: frappe/templates/emails/account_deletion_notification.html:1
+#: frappe/templates/emails/delete_data_confirmation.html:1
+msgid "Dear User,"
+msgstr "Prezado(a) usuario(a),"
+
+#: frappe/templates/emails/download_data.html:1
+msgid "Dear {0}"
+msgstr "Prezado(a) {0}"
+
+#. Label of the debug_log (Code) field in DocType 'Scheduled Job Log'
+#: frappe/core/doctype/scheduled_job_log/scheduled_job_log.json
+msgid "Debug Log"
+msgstr "Log de depuracao"
+
+#: frappe/public/js/frappe/views/reports/report_utils.js:318
+msgid "Decimal Separator must be '.' when Quoting is set to Non-numeric"
+msgstr "O separador decimal deve ser '.' quando a opcao de citacao estiver definida como Nao numerico"
+
+#: frappe/public/js/frappe/views/reports/report_utils.js:310
+msgid "Decimal Separator must be a single character"
+msgstr "O separador decimal deve ter um unico caractere"
+
+#. Label of the default (Small Text) field in DocType 'DocField'
+#. Option for the 'Button Color' (Select) field in DocType 'DocField'
+#. Label of the default (Small Text) field in DocType 'Report Filter'
+#. Option for the 'Button Color' (Select) field in DocType 'Custom Field'
+#. Label of the default (Small Text) field in DocType 'Customize Form Field'
+#. Option for the 'Button Color' (Select) field in DocType 'Customize Form
+#. Field'
+#. Option for the 'Font' (Select) field in DocType 'Print Settings'
+#. Label of the default (Data) field in DocType 'Web Form Field'
+#. Label of the default (Small Text) field in DocType 'Web Template Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/report_filter/report_filter.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/printing/doctype/print_settings/print_settings.json
+#: frappe/templates/form_grid/fields.html:30
+#: frappe/website/doctype/web_form_field/web_form_field.json
+#: frappe/website/doctype/web_template_field/web_template_field.json
+msgid "Default"
+msgstr "Padrao"
+
+#: frappe/contacts/doctype/address_template/address_template.py:41
+msgid "Default Address Template cannot be deleted"
+msgstr "O modelo de endereco padrao nao pode ser excluido"
+
+#. Label of the default_amend_naming (Select) field in DocType 'Document Naming
+#. Settings'
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.json
+msgid "Default Amendment Naming"
+msgstr "Nomeacao padrao de alteracoes"
+
+#. Label of the default_app (Select) field in DocType 'System Settings'
+#. Label of the default_app (Select) field in DocType 'User'
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/core/doctype/user/user.json
+msgid "Default App"
+msgstr "Aplicativo padrao"
+
+#. Label of the default_email_template (Link) field in DocType 'DocType'
+#. Label of the default_email_template (Link) field in DocType 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Default Email Template"
+msgstr "Modelo de e-mail padrao"
+
+#: frappe/email/doctype/email_account/email_account_list.js:13
+msgid "Default Inbox"
+msgstr "Caixa de entrada padrao"
+
+#. Label of the default_incoming (Check) field in DocType 'Email Account'
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/email_account/email_account.py:224
+msgid "Default Incoming"
+msgstr "Entrada padrao"
+
+#. Label of the is_default (Check) field in DocType 'Letter Head'
+#: frappe/printing/doctype/letter_head/letter_head.json
+msgid "Default Letter Head"
+msgstr "Cabeçalho de Carta Padrão"
+
+#. Option for the 'Action' (Select) field in DocType 'Amended Document Naming
+#. Settings'
+#. Option for the 'Default Amendment Naming' (Select) field in DocType
+#. 'Document Naming Settings'
+#: frappe/core/doctype/amended_document_naming_settings/amended_document_naming_settings.json
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.json
+msgid "Default Naming"
+msgstr "Nomeacao padrao"
+
+#. Label of the default_outgoing (Check) field in DocType 'Email Account'
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/email_account/email_account.py:232
+msgid "Default Outgoing"
+msgstr "Saida padrao"
+
+#. Label of the default_portal_home (Data) field in DocType 'Portal Settings'
+#: frappe/website/doctype/portal_settings/portal_settings.json
+msgid "Default Portal Home"
+msgstr "Página inicial do portal padrão"
+
+#. Label of the default_print_format (Data) field in DocType 'DocType'
+#. Label of the default_print_format (Link) field in DocType 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Default Print Format"
+msgstr "Formato de impressão padrão"
+
+#. Label of the default_print_language (Link) field in DocType 'Print Format'
+#: frappe/printing/doctype/print_format/print_format.json
+msgid "Default Print Language"
+msgstr "Idioma de impressão padrão"
+
+#. Label of the default_redirect_uri (Data) field in DocType 'OAuth Client'
+#: frappe/integrations/doctype/oauth_client/oauth_client.json
+msgid "Default Redirect URI"
+msgstr "URI de redirecionamento padrao"
+
+#. Label of the default_role (Link) field in DocType 'Portal Settings'
+#: frappe/website/doctype/portal_settings/portal_settings.json
+msgid "Default Role at Time of Signup"
+msgstr "Função padrão no momento da inscrição"
+
+#: frappe/email/doctype/email_account/email_account_list.js:16
+msgid "Default Sending"
+msgstr "Envio padrao"
+
+#: frappe/email/doctype/email_account/email_account_list.js:7
+msgid "Default Sending and Inbox"
+msgstr "Envio e caixa de entrada padrao"
+
+#. Label of the sort_field (Data) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "Default Sort Field"
+msgstr "Campo de classificação padrão"
+
+#. Label of the sort_order (Select) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "Default Sort Order"
+msgstr "Ordem de classificação padrão"
+
+#. Label of the field (Data) field in DocType 'Print Format Field Template'
+#: frappe/printing/doctype/print_format_field_template/print_format_field_template.json
+msgid "Default Template For Field"
+msgstr "Modelo padrao para campo"
+
+#: frappe/website/doctype/website_theme/website_theme.js:28
+msgid "Default Theme"
+msgstr "Tema padrao"
+
+#. Label of the default_role (Link) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "Default User Role"
+msgstr "Funcao padrao do usuario"
+
+#. Label of the default_user_type (Link) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "Default User Type"
+msgstr "Tipo de usuario padrao"
+
+#. Label of the default (Text) field in DocType 'Custom Field'
+#. Label of the default_value (Data) field in DocType 'Property Setter'
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/property_setter/property_setter.json
+msgid "Default Value"
+msgstr "Valor padrão"
+
+#. Label of the default_view (Select) field in DocType 'DocType'
+#. Label of the default_view (Select) field in DocType 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Default View"
+msgstr "Visualizacao padrao"

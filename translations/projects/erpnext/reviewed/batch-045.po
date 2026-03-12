@@ -1,0 +1,797 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:73
+msgid "Row #{}: POS Invoice {} is not against customer {}"
+msgstr "Linha #{}: a fatura de PDV {} nao e do cliente {}"
+
+#: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:88
+msgid "Row #{}: POS Invoice {} is not submitted yet"
+msgstr "Linha #{}: a fatura de PDV {} ainda nao foi enviada"
+
+#: erpnext/assets/doctype/asset_maintenance/asset_maintenance.py:41
+msgid "Row #{}: Please assign task to a member."
+msgstr "Linha #{}: atribua a tarefa a um membro."
+
+#: erpnext/assets/doctype/asset/asset.py:408
+msgid "Row #{}: Please use a different Finance Book."
+msgstr "Linha #{}: use um Livro Financeiro diferente."
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:523
+msgid "Row #{}: Serial No {} cannot be returned since it was not transacted in original invoice {}"
+msgstr "Linha #{}: o no de serie {} nao pode ser devolvido, pois nao foi movimentado na fatura original {}"
+
+#: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:103
+msgid "Row #{}: The original Invoice {} of return invoice {} is not consolidated."
+msgstr "Linha #{}: a fatura original {} da fatura de devolucao {} nao esta consolidada."
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:496
+msgid "Row #{}: You cannot add positive quantities in a return invoice. Please remove item {} to complete the return."
+msgstr "Linha #{}: voce nao pode adicionar quantidades positivas em uma fatura de devolucao. Remova o item {} para concluir a devolucao."
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:198
+msgid "Row #{}: item {} has been picked already."
+msgstr "Linha #{}: o item {} ja foi separado."
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:140
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:205
+msgid "Row #{}: {}"
+msgstr "Linha #{}: {}"
+
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:110
+msgid "Row #{}: {} {} does not exist."
+msgstr "Linha #{}: {} {} nao existe."
+
+#: erpnext/stock/doctype/item/item.py:1401
+msgid "Row #{}: {} {} doesn't belong to Company {}. Please select valid {}."
+msgstr "Linha #{}: {} {} nao pertence a Empresa {}. Selecione um(a) {} valido(a)."
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:442
+msgid "Row No {0}: Warehouse is required. Please set a Default Warehouse for Item {1} and Company {2}"
+msgstr "Linha {0}: o armazem e obrigatorio. Defina um Armazem Padrao para o item {1} e a Empresa {2}"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:687
+msgid "Row {0} : Operation is required against the raw material item {1}"
+msgstr "Linha {0}: a operacao e obrigatoria para o item de materia-prima {1}"
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:228
+msgid "Row {0} picked quantity is less than the required quantity, additional {1} {2} required."
+msgstr "A quantidade separada na linha {0} e menor que a quantidade exigida; faltam mais {1} {2}."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1459
+msgid "Row {0}# Item {1} cannot be transferred more than {2} against {3} {4}"
+msgstr "Linha {0}# O item {1} nao pode ser transferido em quantidade maior que {2} para {3} {4}"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1483
+msgid "Row {0}# Item {1} not found in 'Raw Materials Supplied' table in {2} {3}"
+msgstr "Linha {0}# Item {1} nao encontrado na tabela 'Materias-primas fornecidas' em {2} {3}"
+
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:273
+msgid "Row {0}: Accepted Qty and Rejected Qty can't be zero at the same time."
+msgstr "Linha {0}: a qtd. aceita e a qtd. rejeitada nao podem ser zero ao mesmo tempo."
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:580
+msgid "Row {0}: Account {1} and Party Type {2} have different account types"
+msgstr "Linha {0}: a conta {1} e o tipo de participante {2} tem tipos de conta diferentes"
+
+#: erpnext/projects/doctype/timesheet/timesheet.py:151
+msgid "Row {0}: Activity Type is mandatory."
+msgstr "Linha {0}: o tipo de atividade e obrigatorio."
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:646
+msgid "Row {0}: Advance against Customer must be credit"
+msgstr "Linha {0}: adiantamento para Cliente deve ser credito"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:648
+msgid "Row {0}: Advance against Supplier must be debit"
+msgstr "Linha {0}: adiantamento para Fornecedor deve ser debito"
+
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.py:705
+msgid "Row {0}: Allocated amount {1} must be less than or equal to invoice outstanding amount {2}"
+msgstr "Linha {0}: o valor alocado {1} deve ser menor ou igual ao valor em aberto da fatura {2}"
+
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.py:697
+msgid "Row {0}: Allocated amount {1} must be less than or equal to remaining payment amount {2}"
+msgstr "Linha {0}: o valor alocado {1} deve ser menor ou igual ao valor restante do pagamento {2}"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1146
+msgid "Row {0}: As {1} is enabled, raw materials cannot be added to {2} entry. Use {3} entry to consume raw materials."
+msgstr "Linha {0}: como {1} esta ativado, materias-primas nao podem ser adicionadas ao lancamento {2}. Use o lancamento {3} para consumir materias-primas."
+
+#: erpnext/stock/doctype/material_request/material_request.py:882
+msgid "Row {0}: Bill of Materials not found for the Item {1}"
+msgstr "Linha {0}: BOM nao encontrada para o item {1}"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:899
+msgid "Row {0}: Both Debit and Credit values cannot be zero"
+msgstr "Linha {0}: os valores de debito e credito nao podem ser zero"
+
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:550
+msgid "Row {0}: Consumed Qty {1} {2} must be less than or equal to Available Qty For Consumption\n"
+"\t\t\t\t\t{3} {4} in Consumed Items Table."
+msgstr "Linha {0}: a qtd. consumida {1} {2} deve ser menor ou igual a qtd. disponivel para consumo\n\t\t\t\t\t{3} {4} na tabela de itens consumidos."
+
+#: erpnext/controllers/selling_controller.py:288
+msgid "Row {0}: Conversion Factor is mandatory"
+msgstr "Linha {0}: Fator de Conversao e obrigatorio"
+
+#: erpnext/controllers/accounts_controller.py:3221
+msgid "Row {0}: Cost Center {1} does not belong to Company {2}"
+msgstr "Linha {0}: o Centro de Custo {1} nao pertence a Empresa {2}"
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:152
+msgid "Row {0}: Cost center is required for an item {1}"
+msgstr "Linha {0}: o centro de custo e obrigatorio para o item {1}"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:745
+msgid "Row {0}: Credit entry can not be linked with a {1}"
+msgstr "Linha {0}: Lancamento de credito nao pode ser relacionado a uma {1}"
+
+#: erpnext/manufacturing/doctype/bom/bom.py:487
+msgid "Row {0}: Currency of the BOM #{1} should be equal to the selected currency {2}"
+msgstr "Linha {0}: a moeda da BOM #{1} deve ser igual a moeda selecionada {2}"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:740
+msgid "Row {0}: Debit entry can not be linked with a {1}"
+msgstr "Linha {0}: Lancamento de debito nao pode ser relacionado a uma {1}"
+
+#: erpnext/controllers/selling_controller.py:859
+msgid "Row {0}: Delivery Warehouse ({1}) and Customer Warehouse ({2}) can not be same"
+msgstr "Linha {0}: o Armazem de Entrega ({1}) e o Armazem do Cliente ({2}) nao podem ser o mesmo"
+
+#: erpnext/controllers/subcontracting_controller.py:158
+msgid "Row {0}: Delivery Warehouse cannot be same as Customer Warehouse for Item {1}."
+msgstr "Linha {0}: o Armazem de Entrega nao pode ser o mesmo que o Armazem do Cliente para o item {1}."
+
+#: erpnext/controllers/accounts_controller.py:2714
+msgid "Row {0}: Due Date in the Payment Terms table cannot be before Posting Date"
+msgstr "Linha {0}: a data de vencimento na tabela Condicoes de Pagamento nao pode ser anterior a data de lancamento"
+
+#: erpnext/stock/doctype/packing_slip/packing_slip.py:128
+msgid "Row {0}: Either Delivery Note Item or Packed Item reference is mandatory."
+msgstr "Linha {0}: a referencia do item da Nota de Entrega ou do Item Embalado e obrigatoria."
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:990
+#: erpnext/controllers/taxes_and_totals.py:1349
+msgid "Row {0}: Exchange Rate is mandatory"
+msgstr "Linha {0}: Taxa de Cambio e obrigatoria"
+
+#: erpnext/assets/doctype/asset/asset.py:602
+msgid "Row {0}: Expected Value After Useful Life must be less than Net Purchase Amount"
+msgstr "Linha {0}: o Valor Esperado apos a Vida Util deve ser menor que o Valor Liquido de Compra"
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:532
+msgid "Row {0}: Expense Head changed to {1} as no Purchase Receipt is created against Item {2}."
+msgstr "Linha {0}: a Conta de Despesa foi alterada para {1}, pois nao ha Recebimento de Compra criado para o item {2}."
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:489
+msgid "Row {0}: Expense Head changed to {1} because account {2} is not linked to warehouse {3} or it is not the default inventory account"
+msgstr "Linha {0}: a Conta de Despesa foi alterada para {1} porque a conta {2} nao esta vinculada ao armazem {3} ou nao e a conta padrao de estoque"
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:514
+msgid "Row {0}: Expense Head changed to {1} because expense is booked against this account in Purchase Receipt {2}"
+msgstr "Linha {0}: a Conta de Despesa foi alterada para {1} porque a despesa foi lancada nessa conta no Recebimento de Compra {2}"
+
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:127
+msgid "Row {0}: For Supplier {1}, Email Address is Required to send an email"
+msgstr "Linha {0}: para o Fornecedor {1}, o endereco de e-mail e obrigatorio para enviar um e-mail"
+
+#: erpnext/projects/doctype/timesheet/timesheet.py:148
+msgid "Row {0}: From Time and To Time is mandatory."
+msgstr "Linha {0}: Hora Inicial e Hora Final sao obrigatorias."
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:259
+#: erpnext/projects/doctype/timesheet/timesheet.py:212
+msgid "Row {0}: From Time and To Time of {1} is overlapping with {2}"
+msgstr "Linha {0}: Hora Inicial e Hora Final de {1} se sobrepoem a {2}"
+
+#: erpnext/controllers/stock_controller.py:1502
+msgid "Row {0}: From Warehouse is mandatory for internal transfers"
+msgstr "Linha {0}: o Armazem de Origem e obrigatorio para transferencias internas"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:250
+msgid "Row {0}: From time must be less than to time"
+msgstr "Linha {0}: a hora inicial deve ser menor que a hora final"
+
+#: erpnext/projects/doctype/timesheet/timesheet.py:154
+msgid "Row {0}: Hours value must be greater than zero."
+msgstr "Linha {0}: o valor de horas deve ser maior que zero."
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:765
+msgid "Row {0}: Invalid reference {1}"
+msgstr "Linha {0}: referencia invalida {1}"
+
+#: erpnext/controllers/taxes_and_totals.py:138
+msgid "Row {0}: Item Tax template updated as per validity and rate applied"
+msgstr "Linha {0}: o modelo de imposto do item foi atualizado conforme a validade e a aliquota aplicada"
+
+#: erpnext/controllers/selling_controller.py:624
+msgid "Row {0}: Item rate has been updated as per valuation rate since its an internal stock transfer"
+msgstr "Linha {0}: o preco do item foi atualizado conforme a taxa de valorizacao, pois esta e uma transferencia interna de estoque"
+
+#: erpnext/controllers/subcontracting_controller.py:151
+msgid "Row {0}: Item {1} must be a stock item."
+msgstr "Linha {0}: o item {1} deve ser um item de estoque."
+
+#: erpnext/controllers/subcontracting_controller.py:166
+msgid "Row {0}: Item {1} must be a subcontracted item."
+msgstr "Linha {0}: o item {1} deve ser um item subcontratado."
+
+#: erpnext/controllers/subcontracting_controller.py:187
+msgid "Row {0}: Item {1}'s quantity cannot be higher than the available quantity."
+msgstr "Linha {0}: a quantidade do item {1} nao pode ser maior que a quantidade disponivel."
+
+#: erpnext/stock/doctype/delivery_note/delivery_note.py:602
+msgid "Row {0}: Packed Qty must be equal to {1} Qty."
+msgstr "Linha {0}: a qtd. embalada deve ser igual a qtd. de {1}."
+
+#: erpnext/stock/doctype/packing_slip/packing_slip.py:147
+msgid "Row {0}: Packing Slip is already created for Item {1}."
+msgstr "Linha {0}: a Lista de Embalagem ja foi criada para o item {1}."
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:791
+msgid "Row {0}: Party / Account does not match with {1} / {2} in {3} {4}"
+msgstr "Linha {0}: Participante / Conta nao coincidem com {1} / {2} em {3} {4}"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:569
+msgid "Row {0}: Party Type and Party is required for Receivable / Payable account {1}"
+msgstr "Linha {0}: Tipo de Participante e Participante sao obrigatorios para a conta a Receber / a Pagar {1}"
+
+#: erpnext/accounts/doctype/payment_terms_template/payment_terms_template.py:45
+msgid "Row {0}: Payment Term is mandatory"
+msgstr "Linha {0}: a Condicao de Pagamento e obrigatoria"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:639
+msgid "Row {0}: Payment against Sales/Purchase Order should always be marked as advance"
+msgstr "Linha {0}: o pagamento relacionado a Pedidos de Compra/Venda deve ser sempre marcado como adiantamento"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:632
+msgid "Row {0}: Please check 'Is Advance' against Account {1} if this is an advance entry."
+msgstr "Linha {0}: marque 'E Adiantamento' na conta {1} se este for um lancamento de adiantamento."
+
+#: erpnext/stock/doctype/packing_slip/packing_slip.py:141
+msgid "Row {0}: Please provide a valid Delivery Note Item or Packed Item reference."
+msgstr "Linha {0}: informe uma referencia valida de item da Nota de Entrega ou de Item Embalado."
+
+#: erpnext/controllers/subcontracting_controller.py:212
+msgid "Row {0}: Please select a BOM for Item {1}."
+msgstr "Linha {0}: selecione uma BOM para o item {1}."
+
+#: erpnext/controllers/subcontracting_controller.py:200
+msgid "Row {0}: Please select an active BOM for Item {1}."
+msgstr "Linha {0}: selecione uma BOM ativa para o item {1}."
+
+#: erpnext/controllers/subcontracting_controller.py:206
+msgid "Row {0}: Please select an valid BOM for Item {1}."
+msgstr "Linha {0}: selecione uma BOM valida para o item {1}."
+
+#: erpnext/regional/italy/utils.py:283
+msgid "Row {0}: Please set at Tax Exemption Reason in Sales Taxes and Charges"
+msgstr "Linha {0}: defina um motivo de isencao fiscal em Impostos e Taxas sobre Vendas"
+
+#: erpnext/regional/italy/utils.py:310
+msgid "Row {0}: Please set the Mode of Payment in Payment Schedule"
+msgstr "Linha {0}: defina o Modo de Pagamento no Cronograma de Pagamento"
+
+#: erpnext/regional/italy/utils.py:315
+msgid "Row {0}: Please set the correct code on Mode of Payment {1}"
+msgstr "Linha {0}: defina o codigo correto no Modo de Pagamento {1}"
+
+#: erpnext/projects/doctype/timesheet_detail/timesheet_detail.py:114
+msgid "Row {0}: Project must be same as the one set in the Timesheet: {1}."
+msgstr "Linha {0}: o projeto deve ser o mesmo definido na Folha de Horas: {1}."
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:129
+msgid "Row {0}: Purchase Invoice {1} has no stock impact."
+msgstr "Linha {0}: a Fatura de Compra {1} nao tem impacto no estoque."
+
+#: erpnext/stock/doctype/packing_slip/packing_slip.py:153
+msgid "Row {0}: Qty cannot be greater than {1} for the Item {2}."
+msgstr "Linha {0}: a qtd. nao pode ser maior que {1} para o item {2}."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:525
+msgid "Row {0}: Qty in Stock UOM can not be zero."
+msgstr "Linha {0}: a qtd. na UDM de Estoque nao pode ser zero."
+
+#: erpnext/stock/doctype/packing_slip/packing_slip.py:124
+msgid "Row {0}: Qty must be greater than 0."
+msgstr "Linha {0}: a qtd. deve ser maior que 0."
+
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:124
+msgid "Row {0}: Quantity cannot be negative."
+msgstr "Linha {0}: a quantidade nao pode ser negativa."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:896
+msgid "Row {0}: Quantity not available for {4} in warehouse {1} at posting time of the entry ({2} {3})"
+msgstr "Linha {0}: quantidade nao disponivel para {4} no armazem {1} no momento do lancamento da movimentacao ({2} {3})"
+
+#: erpnext/assets/doctype/asset_shift_allocation/asset_shift_allocation.py:58
+msgid "Row {0}: Shift cannot be changed since the depreciation has already been processed"
+msgstr "Linha {0}: o turno nao pode ser alterado porque a depreciacao ja foi processada"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1496
+msgid "Row {0}: Subcontracted Item is mandatory for the raw material {1}"
+msgstr "Linha {0}: o item subcontratado e obrigatorio para a materia-prima {1}"
+
+#: erpnext/controllers/stock_controller.py:1493
+msgid "Row {0}: Target Warehouse is mandatory for internal transfers"
+msgstr "Linha {0}: o Armazem de Destino e obrigatorio para transferencias internas"
+
+#: erpnext/projects/doctype/timesheet_detail/timesheet_detail.py:125
+msgid "Row {0}: Task {1} does not belong to Project {2}"
+msgstr "Linha {0}: a Tarefa {1} nao pertence ao Projeto {2}"
+
+#: erpnext/assets/doctype/asset_repair/asset_repair.js:158
+msgid "Row {0}: The entire expense amount for account {1} in {2} has already been allocated."
+msgstr "Linha {0}: todo o valor da despesa da conta {1} em {2} ja foi alocado."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:571
+msgid "Row {0}: The item {1}, quantity must be positive number"
+msgstr "Linha {0}: a quantidade do item {1} deve ser um numero positivo"
+
+#: erpnext/controllers/accounts_controller.py:3198
+msgid "Row {0}: The {3} Account {1} does not belong to the company {2}"
+msgstr "Linha {0}: a conta {3} {1} nao pertence a empresa {2}"
+
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:217
+msgid "Row {0}: To set {1} periodicity, difference between from and to date must be greater than or equal to {2}"
+msgstr "Linha {0}: para definir a periodicidade {1}, a diferenca entre a data inicial e a data final deve ser maior ou igual a {2}"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:3243
+msgid "Row {0}: Transferred quantity cannot be greater than the requested quantity."
+msgstr "Linha {0}: a quantidade transferida nao pode ser maior que a quantidade solicitada."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:519
+msgid "Row {0}: UOM Conversion Factor is mandatory"
+msgstr "Linha {0}: Fator de Conversao da Unidade de Medida e obrigatorio"
+
+#: erpnext/manufacturing/doctype/bom/bom.py:1148
+#: erpnext/manufacturing/doctype/work_order/work_order.py:397
+msgid "Row {0}: Workstation or Workstation Type is mandatory for an operation {1}"
+msgstr "Linha {0}: Estacao de Trabalho ou Tipo de Estacao de Trabalho e obrigatorio para a operacao {1}"
+
+#: erpnext/controllers/accounts_controller.py:1169
+msgid "Row {0}: user has not applied the rule {1} on the item {2}"
+msgstr "Linha {0}: o usuario nao aplicou a regra {1} ao item {2}"
+
+#: erpnext/accounts/doctype/accounting_dimension_filter/accounting_dimension_filter.py:63
+msgid "Row {0}: {1} account already applied for Accounting Dimension {2}"
+msgstr "Linha {0}: a conta {1} ja foi aplicada para a Dimensao Contabil {2}"
+
+#: erpnext/assets/doctype/asset_category/asset_category.py:41
+msgid "Row {0}: {1} must be greater than 0"
+msgstr "Linha {0}: {1} deve ser maior que 0"
+
+#: erpnext/controllers/accounts_controller.py:781
+msgid "Row {0}: {1} {2} cannot be same as {3} (Party Account) {4}"
+msgstr "Linha {0}: {1} {2} nao pode ser o mesmo que {3} (Conta do Participante) {4}"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:805
+msgid "Row {0}: {1} {2} does not match with {3}"
+msgstr "Linha {0}: {1} {2} nao corresponde a {3}"
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:102
+msgid "Row {0}: {2} Item {1} does not exist in {2} {3}"
+msgstr "Linha {0}: o item {1} de {2} nao existe em {2} {3}"
+
+#: erpnext/utilities/transaction_base.py:558
+msgid "Row {1}: Quantity ({0}) cannot be a fraction. To allow this, disable '{2}' in UOM {3}."
+msgstr "Linha {1}: a Quantidade ({0}) nao pode ser fracionada. Para permitir isso, desative '{2}' na UDM {3}."
+
+#: erpnext/controllers/buying_controller.py:1032
+msgid "Row {idx}: Asset Naming Series is mandatory for the auto creation of assets for item {item_code}."
+msgstr "Linha {idx}: a Serie de Nomenclatura do Ativo e obrigatoria para a criacao automatica de ativos do item {item_code}."
+
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.py:84
+msgid "Row({0}): Outstanding Amount cannot be greater than actual Outstanding Amount {1} in {2}"
+msgstr "Linha({0}): o Valor em Aberto nao pode ser maior que o Valor em Aberto real {1} em {2}"
+
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.py:74
+msgid "Row({0}): {1} is already discounted in {2}"
+msgstr "Linha({0}): {1} ja esta descontado em {2}"
+
+#: erpnext/manufacturing/page/bom_comparison_tool/bom_comparison_tool.js:200
+msgid "Rows Added in {0}"
+msgstr "Linhas adicionadas em {0}"
+
+#: erpnext/manufacturing/page/bom_comparison_tool/bom_comparison_tool.js:201
+msgid "Rows Removed in {0}"
+msgstr "Linhas removidas em {0}"
+
+#. Description of the 'Merge Similar Account Heads' (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Rows with Same Account heads will be merged on Ledger"
+msgstr "Linhas com as mesmas contas contabeis serao mescladas no Livro Razao"
+
+#: erpnext/controllers/accounts_controller.py:2725
+msgid "Rows with duplicate due dates in other rows were found: {0}"
+msgstr "Foram encontradas linhas com datas de vencimento duplicadas em outras linhas: {0}"
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.js:128
+msgid "Rows: {0} have 'Payment Entry' as reference_type. This should not be set manually."
+msgstr "As linhas {0} tem 'Lancamento de Pagamento' como reference_type. Isso nao deve ser definido manualmente."
+
+#: erpnext/controllers/accounts_controller.py:281
+msgid "Rows: {0} in {1} section are Invalid. Reference Name should point to a valid Payment Entry or Journal Entry."
+msgstr "As linhas {0} na secao {1} sao invalidas. O Nome da Referencia deve apontar para um Lancamento de Pagamento ou Lancamento Contabil valido."
+
+#. Label of the rule_applied (Check) field in DocType 'Pricing Rule Detail'
+#: erpnext/accounts/doctype/pricing_rule_detail/pricing_rule_detail.json
+msgid "Rule Applied"
+msgstr "Regra aplicada"
+
+#. Label of the rule_description (Small Text) field in DocType 'Pricing Rule'
+#. Label of the rule_description (Small Text) field in DocType 'Promotional
+#. Scheme Price Discount'
+#. Label of the rule_description (Small Text) field in DocType 'Promotional
+#. Scheme Product Discount'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
+#: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
+msgid "Rule Description"
+msgstr "Descricao da regra"
+
+#. Description of the 'Job Capacity' (Int) field in DocType 'Workstation'
+#: erpnext/manufacturing/doctype/workstation/workstation.json
+msgid "Run parallel job cards in a workstation"
+msgstr "Executar job cards em paralelo em uma estacao de trabalho"
+
+#. Option for the 'Status' (Select) field in DocType 'Process Payment
+#. Reconciliation'
+#. Option for the 'Status' (Select) field in DocType 'Process Payment
+#. Reconciliation Log'
+#. Option for the 'Status' (Select) field in DocType 'Process Period Closing
+#. Voucher'
+#. Option for the 'Status' (Select) field in DocType 'Process Period Closing
+#. Voucher Detail'
+#. Option for the 'Status' (Select) field in DocType 'Transaction Deletion
+#. Record'
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
+#: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.json
+#: erpnext/accounts/doctype/process_period_closing_voucher/process_period_closing_voucher.json
+#: erpnext/accounts/doctype/process_period_closing_voucher_detail/process_period_closing_voucher_detail.json
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.json
+msgid "Running"
+msgstr "Em execucao"
+
+#: erpnext/selling/report/pending_so_items_for_purchase_request/pending_so_items_for_purchase_request.py:28
+msgid "S.O. No."
+msgstr "No do Pedido de Venda"
+
+#. Label of the scio_detail (Data) field in DocType 'Sales Invoice Item'
+#. Label of the scio_detail (Data) field in DocType 'Stock Entry Detail'
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "SCIO Detail"
+msgstr "Detalhe SCIO"
+
+#. Label of the sco_rm_detail (Data) field in DocType 'Stock Entry Detail'
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "SCO Supplied Item"
+msgstr "Item fornecido do SCO"
+
+#. Label of the sla_fulfilled_on (Table) field in DocType 'Service Level
+#. Agreement'
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
+msgid "SLA Fulfilled On"
+msgstr "SLA cumprido em"
+
+#. Name of a DocType
+#: erpnext/support/doctype/sla_fulfilled_on_status/sla_fulfilled_on_status.json
+msgid "SLA Fulfilled On Status"
+msgstr "Status de cumprimento do SLA"
+
+#. Label of the pause_sla_on (Table) field in DocType 'Service Level Agreement'
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
+msgid "SLA Paused On"
+msgstr "SLA pausado em"
+
+#: erpnext/public/js/utils.js:1151
+msgid "SLA is on hold since {0}"
+msgstr "SLA esta em espera desde {0}"
+
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.js:52
+msgid "SLA will be applied if {1} is set as {2}{3}"
+msgstr "O SLA sera aplicado se {1} estiver definido como {2}{3}"
+
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.js:32
+msgid "SLA will be applied on every {0}"
+msgstr "O SLA sera aplicado em cada {0}"
+
+#. Label of a Link in the CRM Workspace
+#. Name of a DocType
+#: erpnext/crm/workspace/crm/crm.json
+#: erpnext/selling/doctype/sms_center/sms_center.json
+msgid "SMS Center"
+msgstr "Centro de SMS"
+
+#: erpnext/selling/report/pending_so_items_for_purchase_request/pending_so_items_for_purchase_request.py:43
+msgid "SO Qty"
+msgstr "Qtd. do Pedido de Venda"
+
+#: erpnext/selling/report/sales_person_wise_transaction_summary/sales_person_wise_transaction_summary.py:107
+msgid "SO Total Qty"
+msgstr "Qtd. total do Pedido de Venda"
+
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:26
+#: erpnext/accounts/report/general_ledger/general_ledger.html:60
+msgid "STATEMENT OF ACCOUNTS"
+msgstr "EXTRATO DE CONTAS"
+
+#. Label of the swift_number (Read Only) field in DocType 'Payment Request'
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+msgid "SWIFT Number"
+msgstr "Numero SWIFT"
+
+#. Label of the swift_number (Data) field in DocType 'Bank'
+#. Label of the swift_number (Data) field in DocType 'Bank Guarantee'
+#: erpnext/accounts/doctype/bank/bank.json
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
+msgid "SWIFT number"
+msgstr "Numero SWIFT"
+
+#. Label of the safety_stock (Float) field in DocType 'Material Request Plan
+#. Item'
+#. Label of the safety_stock (Float) field in DocType 'Item'
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1036
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py:58
+msgid "Safety Stock"
+msgstr "Estoque de Seguranca"
+
+#. Label of the salary_information (Tab Break) field in DocType 'Employee'
+#. Label of the salary (Currency) field in DocType 'Employee External Work
+#. History'
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:125
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:211
+#: erpnext/setup/doctype/employee/employee.json
+#: erpnext/setup/doctype/employee_external_work_history/employee_external_work_history.json
+msgid "Salary"
+msgstr "Salario"
+
+#. Label of the salary_currency (Link) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Salary Currency"
+msgstr "Moeda do salario"
+
+#. Label of the salary_mode (Select) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Salary Mode"
+msgstr "Forma de pagamento do salario"
+
+#. Option for the 'Invoice Type' (Select) field in DocType 'Opening Invoice
+#. Creation Tool'
+#. Option for the 'Tax Type' (Select) field in DocType 'Tax Rule'
+#. Option for the 'Order Type' (Select) field in DocType 'Quotation'
+#. Option for the 'Order Type' (Select) field in DocType 'Sales Order'
+#. Label of the sales_details (Tab Break) field in DocType 'Item'
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:142
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:238
+#: erpnext/accounts/doctype/item_tax_template/item_tax_template_dashboard.py:9
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.json
+#: erpnext/accounts/doctype/payment_term/payment_term_dashboard.py:8
+#: erpnext/accounts/doctype/payment_terms_template/payment_terms_template_dashboard.py:14
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule_dashboard.py:10
+#: erpnext/accounts/doctype/tax_category/tax_category_dashboard.py:9
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+#: erpnext/crm/doctype/opportunity/opportunity.js:288
+#: erpnext/crm/doctype/opportunity/opportunity.py:158
+#: erpnext/projects/doctype/project/project_dashboard.py:15
+#: erpnext/regional/report/vat_audit_report/vat_audit_report.py:146
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/setup/doctype/company/company.py:448
+#: erpnext/setup/doctype/company/company.py:640
+#: erpnext/setup/doctype/company/company_dashboard.py:9
+#: erpnext/setup/doctype/sales_person/sales_person_dashboard.py:12
+#: erpnext/setup/install.py:341
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:297
+#: erpnext/stock/doctype/item/item.json
+msgid "Sales"
+msgstr "Vendas"
+
+#: erpnext/setup/doctype/company/company.py:640
+msgid "Sales Account"
+msgstr "Conta de Vendas"
+
+#. Label of a shortcut in the CRM Workspace
+#. Name of a report
+#. Label of a Link in the Selling Workspace
+#. Label of a shortcut in the Selling Workspace
+#: erpnext/crm/workspace/crm/crm.json
+#: erpnext/selling/report/sales_analytics/sales_analytics.json
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Sales Analytics"
+msgstr "Analise de Vendas"
+
+#. Label of the sales_team (Table) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Sales Contributions and Incentives"
+msgstr "Contribuicoes e incentivos de vendas"
+
+#. Label of the selling_defaults (Section Break) field in DocType 'Item
+#. Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Sales Defaults"
+msgstr "Padroes de vendas"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:126
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:212
+msgid "Sales Expenses"
+msgstr "Despesas com Vendas"
+
+#. Label of the sales_forecast (Link) field in DocType 'Master Production
+#. Schedule'
+#. Name of a DocType
+#. Label of a Link in the Manufacturing Workspace
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
+#: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.json
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+msgid "Sales Forecast"
+msgstr "Previsao de Vendas"
+
+#. Name of a DocType
+#: erpnext/manufacturing/doctype/sales_forecast_item/sales_forecast_item.json
+msgid "Sales Forecast Item"
+msgstr "Item da Previsao de Vendas"
+
+#. Label of a Link in the CRM Workspace
+#. Label of a Link in the Selling Workspace
+#: erpnext/crm/workspace/crm/crm.json
+#: erpnext/selling/page/sales_funnel/sales_funnel.js:7
+#: erpnext/selling/page/sales_funnel/sales_funnel.js:46
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Sales Funnel"
+msgstr "Funil de Vendas"
+
+#. Label of the sales_incoming_rate (Currency) field in DocType 'Purchase
+#. Invoice Item'
+#. Label of the sales_incoming_rate (Currency) field in DocType 'Purchase
+#. Receipt Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Sales Incoming Rate"
+msgstr "Preço de entrada da venda"
+
+#. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
+#. Account'
+#. Label of the sales_invoice (Data) field in DocType 'Loyalty Point Entry
+#. Redemption'
+#. Label of the sales_invoice (Link) field in DocType 'Overdue Payment'
+#. Option for the 'Invoice Type' (Select) field in DocType 'Payment
+#. Reconciliation Invoice'
+#. Option for the 'Invoice Type Created via POS Screen' (Select) field in
+#. DocType 'POS Settings'
+#. Name of a DocType
+#. Label of the sales_invoice (Link) field in DocType 'Sales Invoice Reference'
+#. Label of a Link in the Receivables Workspace
+#. Label of a shortcut in the Receivables Workspace
+#. Option for the 'Document Type' (Select) field in DocType 'Contract'
+#. Label of the sales_invoice (Link) field in DocType 'Timesheet'
+#. Label of the sales_invoice (Link) field in DocType 'Timesheet Detail'
+#. Label of a Link in the Selling Workspace
+#. Option for the 'Transaction' (Select) field in DocType 'Authorization Rule'
+#. Label of a shortcut in the Home Workspace
+#. Option for the 'Reference Type' (Select) field in DocType 'Quality
+#. Inspection'
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+#: erpnext/accounts/doctype/loyalty_point_entry_redemption/loyalty_point_entry_redemption.json
+#: erpnext/accounts/doctype/overdue_payment/overdue_payment.json
+#: erpnext/accounts/doctype/payment_reconciliation_invoice/payment_reconciliation_invoice.json
+#: erpnext/accounts/doctype/pos_settings/pos_settings.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_invoice_reference/sales_invoice_reference.json
+#: erpnext/accounts/print_format/sales_auditing_voucher/sales_auditing_voucher.html:5
+#: erpnext/accounts/report/gross_profit/gross_profit.js:30
+#: erpnext/accounts/report/gross_profit/gross_profit.py:276
+#: erpnext/accounts/report/gross_profit/gross_profit.py:283
+#: erpnext/accounts/workspace/receivables/receivables.json
+#: erpnext/crm/doctype/contract/contract.json
+#: erpnext/projects/doctype/timesheet/timesheet.json
+#: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
+#: erpnext/selling/doctype/quotation/quotation_list.js:22
+#: erpnext/selling/doctype/sales_order/sales_order.js:1063
+#: erpnext/selling/doctype/sales_order/sales_order_list.js:75
+#: erpnext/selling/workspace/selling/selling.json
+#: erpnext/setup/doctype/authorization_rule/authorization_rule.json
+#: erpnext/setup/workspace/home/home.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.js:347
+#: erpnext/stock/doctype/delivery_note/delivery_note_list.js:65
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+msgid "Sales Invoice"
+msgstr "Fatura de Venda"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/sales_invoice_advance/sales_invoice_advance.json
+msgid "Sales Invoice Advance"
+msgstr "Adiantamento da Fatura de Venda"
+
+#. Label of the sales_invoice_item (Data) field in DocType 'Purchase Invoice
+#. Item'
+#. Name of a DocType
+#. Label of the sales_invoice_item (Data) field in DocType 'Sales Invoice Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+msgid "Sales Invoice Item"
+msgstr "Item da Fatura de Venda"
+
+#. Label of the sales_invoice_no (Link) field in DocType 'Stock Entry'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Sales Invoice No"
+msgstr "No da Fatura de Venda"
+
+#. Label of the payments (Table) field in DocType 'POS Invoice'
+#. Label of the payments (Table) field in DocType 'Sales Invoice'
+#. Name of a DocType
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_invoice_payment/sales_invoice_payment.json
+msgid "Sales Invoice Payment"
+msgstr "Pagamento da Fatura de Venda"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/sales_invoice_reference/sales_invoice_reference.json
+msgid "Sales Invoice Reference"
+msgstr "Referencia da Fatura de Venda"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/sales_invoice_timesheet/sales_invoice_timesheet.json
+msgid "Sales Invoice Timesheet"
+msgstr "Registro de Tempo da Fatura de Venda"
+
+#. Label of the sales_invoices (Table) field in DocType 'POS Closing Entry'
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
+msgid "Sales Invoice Transactions"
+msgstr "Transacoes da Fatura de Venda"
+
+#. Name of a report
+#. Label of a Link in the Financial Reports Workspace
+#. Label of a Link in the Selling Workspace
+#: erpnext/accounts/report/sales_invoice_trends/sales_invoice_trends.json
+#: erpnext/accounts/workspace/financial_reports/financial_reports.json
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Sales Invoice Trends"
+msgstr "Tendencia de Faturamento de Vendas"
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:182
+msgid "Sales Invoice does not have Payments"
+msgstr "A Fatura de Venda nao tem pagamentos"
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:178
+msgid "Sales Invoice is already consolidated"
+msgstr "A Fatura de Venda ja esta consolidada"
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:184
+msgid "Sales Invoice is not created using POS"
+msgstr "A Fatura de Venda nao foi criada pelo PDV"
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:190
+msgid "Sales Invoice is not submitted"
+msgstr "A Fatura de Venda nao foi enviada"
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:193
+msgid "Sales Invoice isn't created by user {}"
+msgstr "A Fatura de Venda nao foi criada pelo usuario {}"
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:468
+msgid "Sales Invoice mode is activated in POS. Please create Sales Invoice instead."
+msgstr "O modo Fatura de Venda esta ativado no PDV. Crie uma Fatura de Venda."

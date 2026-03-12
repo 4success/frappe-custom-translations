@@ -1,0 +1,756 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:35+0000\n"
+"PO-Revision-Date: 2026-01-21 06:48\n"
+"Last-Translator: developers@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File-ID: 138\n"
+"Language: pt_BR\n"
+
+#. Label of the in_global_search (Check) field in DocType 'DocField'
+#. Label of the in_global_search (Check) field in DocType 'Custom Field'
+#. Label of the in_global_search (Check) field in DocType 'Customize Form
+#. Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "In Global Search"
+msgstr "Na Busca Global"
+
+#: frappe/core/doctype/doctype/doctype.js:88
+msgid "In Grid View"
+msgstr "Na visualização em grade"
+
+#. Label of the in_standard_filter (Check) field in DocType 'DocField'
+#: frappe/core/doctype/docfield/docfield.json
+msgid "In List Filter"
+msgstr "No filtro da lista"
+
+#. Label of the in_list_view (Check) field in DocType 'DocField'
+#. Label of the in_list_view (Check) field in DocType 'Custom Field'
+#. Label of the in_list_view (Check) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/doctype/doctype.js:89
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "In List View"
+msgstr "Na visualização em lista"
+
+#: frappe/core/report/prepared_report_analytics/prepared_report_analytics.js:19
+msgid "In Minutes"
+msgstr "Em minutos"
+
+#. Label of the in_preview (Check) field in DocType 'DocField'
+#. Label of the in_preview (Check) field in DocType 'Custom Field'
+#. Label of the in_preview (Check) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "In Preview"
+msgstr "Na pré-visualização"
+
+#: frappe/core/doctype/data_import/data_import.js:42
+msgid "In Progress"
+msgstr "Em andamento"
+
+#: frappe/database/database.py:288
+msgid "In Read Only Mode"
+msgstr "Em modo somente leitura"
+
+#. Label of the in_reply_to (Link) field in DocType 'Communication'
+#: frappe/core/doctype/communication/communication.json
+msgid "In Reply To"
+msgstr "Em resposta a"
+
+#. Label of the in_standard_filter (Check) field in DocType 'Custom Field'
+#. Label of the in_standard_filter (Check) field in DocType 'Customize Form
+#. Field'
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "In Standard Filter"
+msgstr "No filtro padrao"
+
+#. Description of the 'Font Size' (Float) field in DocType 'Print Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "In points. Default is 9."
+msgstr "Em pontos. O padrão é 9."
+
+#. Description of the 'Allow Login After Fail' (Int) field in DocType 'System
+#. Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "In seconds"
+msgstr "Em segundos"
+
+#: frappe/core/doctype/recorder/recorder_list.js:209
+msgid "Inactive"
+msgstr "Inativo"
+
+#. Option for the 'Select List View' (Select) field in DocType 'Form Tour'
+#: frappe/desk/doctype/form_tour/form_tour.json
+#: frappe/email/doctype/email_account/email_account_list.js:19
+msgid "Inbox"
+msgstr "Caixa de entrada"
+
+#. Name of a role
+#: frappe/core/doctype/communication/communication.json
+#: frappe/email/doctype/email_account/email_account.json
+msgid "Inbox User"
+msgstr "Usuário da caixa de entrada"
+
+#: frappe/public/js/frappe/list/base_list.js:210
+msgid "Inbox View"
+msgstr "Visualização da caixa de entrada"
+
+#: frappe/public/js/frappe/views/treeview.js:110
+msgid "Include Disabled"
+msgstr "Incluir desativados"
+
+#. Label of the include_name_field (Check) field in DocType 'Form Tour'
+#: frappe/desk/doctype/form_tour/form_tour.json
+msgid "Include Name Field"
+msgstr "Incluir campo de nome"
+
+#. Label of the navbar_search (Check) field in DocType 'Website Settings'
+#: frappe/website/doctype/website_settings/website_settings.json
+msgid "Include Search in Top Bar"
+msgstr "Incluir busca na barra superior"
+
+#: frappe/website/doctype/website_theme/website_theme.js:61
+msgid "Include Theme from Apps"
+msgstr "Incluir tema dos apps"
+
+#. Label of the attach_view_link (Check) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Include Web View Link in Email"
+msgstr "Incluir link da visualização web no e-mail"
+
+#: frappe/public/js/frappe/form/print_utils.js:59
+#: frappe/public/js/frappe/views/reports/query_report.js:1650
+msgid "Include filters"
+msgstr "Incluir filtros"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:1670
+msgid "Include hidden columns"
+msgstr "Incluir colunas ocultas"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:1642
+msgid "Include indentation"
+msgstr "Incluir indentação"
+
+#: frappe/public/js/frappe/form/controls/password.js:106
+msgid "Include symbols, numbers and capital letters in the password"
+msgstr "Inclua símbolos, números e letras maiúsculas na senha"
+
+#. Label of the incoming_popimap_tab (Tab Break) field in DocType 'Email
+#. Account'
+#: frappe/email/doctype/email_account/email_account.json
+msgid "Incoming"
+msgstr "Recebimento"
+
+#. Label of the mailbox_settings (Section Break) field in DocType 'Email
+#. Account'
+#: frappe/email/doctype/email_account/email_account.json
+msgid "Incoming (POP/IMAP) Settings"
+msgstr "Configurações de recebimento (POP/IMAP)"
+
+#. Label of the incoming_emails_last_7_days_column (Column Break) field in
+#. DocType 'System Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Incoming Emails (Last 7 days)"
+msgstr "E-mails recebidos (últimos 7 dias)"
+
+#. Label of the email_server (Data) field in DocType 'Email Account'
+#. Label of the email_server (Data) field in DocType 'Email Domain'
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/email_domain/email_domain.json
+msgid "Incoming Server"
+msgstr "Servidor de recebimento"
+
+#. Label of the mailbox_settings (Section Break) field in DocType 'Email
+#. Domain'
+#: frappe/email/doctype/email_domain/email_domain.json
+msgid "Incoming Settings"
+msgstr "Configurações de recebimento"
+
+#: frappe/email/doctype/email_domain/email_domain.py:32
+msgid "Incoming email account not correct"
+msgstr "A conta de e-mail de recebimento não está correta"
+
+#: frappe/model/virtual_doctype.py:79 frappe/model/virtual_doctype.py:92
+msgid "Incomplete Virtual Doctype Implementation"
+msgstr "Implementacao incompleta de DocType virtual"
+
+#: frappe/auth.py:261
+msgid "Incomplete login details"
+msgstr "Dados de login incompletos"
+
+#: frappe/email/smtp.py:104
+msgid "Incorrect Configuration"
+msgstr "Configuração incorreta"
+
+#: frappe/utils/csvutils.py:234
+msgid "Incorrect URL"
+msgstr "URL incorreta"
+
+#: frappe/utils/password.py:100
+msgid "Incorrect User or Password"
+msgstr "Usuário ou senha incorretos"
+
+#: frappe/twofactor.py:176 frappe/twofactor.py:188
+msgid "Incorrect Verification code"
+msgstr "Código de verificação incorreto"
+
+#: frappe/model/document.py:1604
+msgid "Incorrect value in row {0}:"
+msgstr "Valor incorreto na linha {0}:"
+
+#: frappe/model/document.py:1606
+msgid "Incorrect value:"
+msgstr "Valor incorreto:"
+
+#. Label of the indent (Check) field in DocType 'Workspace Sidebar Item'
+#: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json
+msgid "Indent"
+msgstr "Recuo"
+
+#. Label of the search_index (Check) field in DocType 'DocField'
+#. Label of the index (Int) field in DocType 'Recorder Query'
+#. Label of the search_index (Check) field in DocType 'Custom Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/recorder_query/recorder_query.json
+#: frappe/custom/doctype/custom_field/custom_field.json frappe/model/meta.py:55
+#: frappe/public/js/frappe/model/meta.js:211
+#: frappe/public/js/frappe/model/model.js:124
+#: frappe/public/js/frappe/views/reports/report_view.js:1004
+msgid "Index"
+msgstr "Índice"
+
+#. Label of the index_web_pages_for_search (Check) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "Index Web Pages for Search"
+msgstr "Indexar páginas web para busca"
+
+#: frappe/core/doctype/recorder/recorder.py:132
+msgid "Index created successfully on column {0} of doctype {1}"
+msgstr "Índice criado com sucesso na coluna {0} do doctype {1}"
+
+#. Label of the indexing_authorization_code (Data) field in DocType 'Website
+#. Settings'
+#: frappe/website/doctype/website_settings/website_settings.json
+msgid "Indexing authorization code"
+msgstr "Código de autorização de indexação"
+
+#. Label of the indexing_refresh_token (Data) field in DocType 'Website
+#. Settings'
+#: frappe/website/doctype/website_settings/website_settings.json
+msgid "Indexing refresh token"
+msgstr "Token de atualização de indexação"
+
+#. Label of the indicator (Select) field in DocType 'Kanban Board Column'
+#: frappe/desk/doctype/kanban_board_column/kanban_board_column.json
+msgid "Indicator"
+msgstr "Indicador"
+
+#. Label of the indicator_color (Select) field in DocType 'Workspace'
+#: frappe/desk/doctype/workspace/workspace.json
+msgid "Indicator Color"
+msgstr "Cor do indicador"
+
+#: frappe/public/js/frappe/views/workspace/workspace.js:477
+msgid "Indicator color"
+msgstr "Cor do indicador"
+
+#. Option for the 'Comment Type' (Select) field in DocType 'Comment'
+#. Option for the 'Button Color' (Select) field in DocType 'DocField'
+#. Option for the 'Button Color' (Select) field in DocType 'Custom Field'
+#. Option for the 'Button Color' (Select) field in DocType 'Customize Form
+#. Field'
+#. Option for the 'Style' (Select) field in DocType 'Workflow State'
+#: frappe/core/doctype/comment/comment.json
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/workflow/doctype/workflow_state/workflow_state.json
+msgid "Info"
+msgstr "Informativo"
+
+#: frappe/core/doctype/data_export/exporter.py:144
+msgid "Info:"
+msgstr "Informações:"
+
+#. Label of the initial_sync_count (Select) field in DocType 'Email Account'
+#: frappe/email/doctype/email_account/email_account.json
+msgid "Initial Sync Count"
+msgstr "Contagem de sincronização inicial"
+
+#. Option for the 'Database Engine' (Select) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "InnoDB"
+msgstr "InnoDB"
+
+#. Description of the 'New Role' (Data) field in DocType 'Role Replication'
+#: frappe/core/doctype/role_replication/role_replication.json
+msgid "Input existing role name if you would like to extend it with access of another role."
+msgstr "Informe o nome de uma função existente se quiser estendê-la com o acesso de outra função."
+
+#: frappe/core/doctype/data_import/data_import_list.js:35
+msgid "Insert"
+msgstr "Inserir"
+
+#: frappe/public/js/frappe/form/grid_row_form.js:44
+msgid "Insert Above"
+msgstr "Inserir acima"
+
+#. Label of the insert_after (Select) field in DocType 'Custom Field'
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/public/js/frappe/views/reports/query_report.js:1915
+msgid "Insert After"
+msgstr "Inserir após"
+
+#: frappe/custom/doctype/custom_field/custom_field.py:252
+msgid "Insert After cannot be set as {0}"
+msgstr "Inserir após não pode ser definido como {0}"
+
+#: frappe/custom/doctype/custom_field/custom_field.py:245
+msgid "Insert After field '{0}' mentioned in Custom Field '{1}', with label '{2}', does not exist"
+msgstr "O campo 'Inserir após' '{0}' mencionado no Campo Personalizado '{1}', com o rótulo '{2}', não existe"
+
+#: frappe/public/js/frappe/form/grid_row_form.js:44
+msgid "Insert Below"
+msgstr "Inserir abaixo"
+
+#: frappe/public/js/frappe/views/reports/report_view.js:389
+msgid "Insert Column Before {0}"
+msgstr "Inserir coluna antes de {0}"
+
+#: frappe/public/js/frappe/form/controls/markdown_editor.js:82
+msgid "Insert Image in Markdown"
+msgstr "Inserir imagem em Markdown"
+
+#. Option for the 'Import Type' (Select) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Insert New Records"
+msgstr "Inserir novos registros"
+
+#. Label of the insert_style (Check) field in DocType 'Web Page'
+#: frappe/website/doctype/web_page/web_page.json
+msgid "Insert Style"
+msgstr "Inserir Estilo"
+
+#: frappe/public/js/frappe/ui/toolbar/about.js:11
+msgid "Instagram"
+msgstr "Instagram"
+
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:715
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:716
+msgid "Install {0} from Marketplace"
+msgstr "Instalar {0} do Marketplace"
+
+#. Name of a DocType
+#: frappe/core/doctype/installed_application/installed_application.json
+msgid "Installed Application"
+msgstr "Aplicativo instalado"
+
+#. Name of a DocType
+#. Label of the installed_applications (Table) field in DocType 'Installed
+#. Applications'
+#: frappe/core/doctype/installed_applications/installed_applications.json
+msgid "Installed Applications"
+msgstr "Aplicativos instalados"
+
+#: frappe/core/doctype/installed_applications/installed_applications.js:18
+#: frappe/public/js/frappe/ui/toolbar/about.js:11
+msgid "Installed Apps"
+msgstr "Apps instalados"
+
+#. Label of the instructions (HTML) field in DocType 'Letter Head'
+#: frappe/printing/doctype/letter_head/letter_head.json
+msgid "Instructions"
+msgstr "Instruções"
+
+#: frappe/templates/includes/login/login.js:261
+msgid "Instructions Emailed"
+msgstr "Instruções enviadas por e-mail"
+
+#: frappe/permissions.py:855
+msgid "Insufficient Permission Level for {0}"
+msgstr "Nível de permissão insuficiente para {0}"
+
+#: frappe/database/query.py:1266
+msgid "Insufficient Permission for {0}"
+msgstr "Permissão insuficiente para {0}"
+
+#: frappe/desk/reportview.py:363
+msgid "Insufficient Permissions for deleting Report"
+msgstr "Permissoes insuficientes para excluir o relatorio"
+
+#: frappe/desk/reportview.py:334
+msgid "Insufficient Permissions for editing Report"
+msgstr "Permissoes insuficientes para editar o relatorio"
+
+#: frappe/core/doctype/doctype/doctype.py:447
+msgid "Insufficient attachment limit"
+msgstr "Limite de anexos insuficiente"
+
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Report Column'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Report Filter'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Form Field'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Template Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/report_column/report_column.json
+#: frappe/core/doctype/report_filter/report_filter.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/website/doctype/web_form_field/web_form_field.json
+#: frappe/website/doctype/web_template_field/web_template_field.json
+msgid "Int"
+msgstr "Inteiro"
+
+#. Name of a DocType
+#: frappe/integrations/doctype/integration_request/integration_request.json
+msgid "Integration Request"
+msgstr "Solicitação de integração"
+
+#. Group in User's connections
+#. Name of a Workspace
+#. Label of the integrations (Tab Break) field in DocType 'Website Settings'
+#: frappe/core/doctype/user/user.json
+#: frappe/integrations/workspace/integrations/integrations.json
+#: frappe/website/doctype/website_settings/website_settings.json
+msgid "Integrations"
+msgstr "Integrações"
+
+#. Description of the 'Delivery Status' (Select) field in DocType
+#. 'Communication'
+#: frappe/core/doctype/communication/communication.json
+msgid "Integrations can use this field to set email delivery status"
+msgstr "As integrações podem usar este campo para definir o status de entrega do e-mail"
+
+#. Option for the 'Font' (Select) field in DocType 'Print Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "Inter"
+msgstr "Inter"
+
+#. Label of the interest (Small Text) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Interests"
+msgstr "Interesses"
+
+#. Option for the 'Level' (Select) field in DocType 'Help Article'
+#: frappe/website/doctype/help_article/help_article.json
+msgid "Intermediate"
+msgstr "Intermediário"
+
+#: frappe/public/js/frappe/request.js:235
+msgid "Internal Server Error"
+msgstr "Erro interno do servidor"
+
+#. Description of a DocType
+#: frappe/core/doctype/docshare/docshare.json
+msgid "Internal record of document shares"
+msgstr "Registro interno dos compartilhamentos de documentos"
+
+#. Label of the intro_video_url (Data) field in DocType 'Onboarding Step'
+#: frappe/desk/doctype/onboarding_step/onboarding_step.json
+msgid "Intro Video URL"
+msgstr "URL do vídeo de introdução"
+
+#. Description of the 'Company Introduction' (Text Editor) field in DocType
+#. 'About Us Settings'
+#: frappe/website/doctype/about_us_settings/about_us_settings.json
+msgid "Introduce your company to the website visitor."
+msgstr "Apresente sua empresa para o visitante do site."
+
+#. Label of the introduction_section (Section Break) field in DocType 'Contact
+#. Us Settings'
+#. Label of the introduction (Text Editor) field in DocType 'Contact Us
+#. Settings'
+#. Label of the introduction_text (Text Editor) field in DocType 'Web Form'
+#: frappe/website/doctype/contact_us_settings/contact_us_settings.json
+#: frappe/website/doctype/web_form/web_form.json
+msgid "Introduction"
+msgstr "Introdução"
+
+#. Description of the 'Introduction' (Text Editor) field in DocType 'Contact Us
+#. Settings'
+#: frappe/website/doctype/contact_us_settings/contact_us_settings.json
+msgid "Introductory information for the Contact Us Page"
+msgstr "Informação introdutória para a página Fale Conosco"
+
+#. Label of the introspection_uri (Data) field in DocType 'Connected App'
+#: frappe/integrations/doctype/connected_app/connected_app.json
+msgid "Introspection URI"
+msgstr "URI de introspecção"
+
+#. Option for the 'Validity' (Select) field in DocType 'OAuth Authorization
+#. Code'
+#: frappe/integrations/doctype/oauth_authorization_code/oauth_authorization_code.json
+msgid "Invalid"
+msgstr "Inválido"
+
+#: frappe/public/js/form_builder/utils.js:221
+#: frappe/public/js/frappe/form/grid_row.js:849
+#: frappe/public/js/frappe/form/layout.js:835
+#: frappe/public/js/frappe/views/reports/report_view.js:715
+msgid "Invalid \"depends_on\" expression"
+msgstr "Expressão \"depends_on\" inválida"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:519
+msgid "Invalid \"depends_on\" expression set in filter {0}"
+msgstr "Expressão \"depends_on\" inválida definida no filtro {0}"
+
+#: frappe/public/js/frappe/form/save.js:219
+msgid "Invalid \"mandatory_depends_on\" expression"
+msgstr "Expressão \"mandatory_depends_on\" inválida"
+
+#: frappe/utils/nestedset.py:178
+msgid "Invalid Action"
+msgstr "Ação inválida"
+
+#: frappe/utils/csvutils.py:37
+msgid "Invalid CSV Format"
+msgstr "Formato CSV inválido"
+
+#: frappe/integrations/frappe_providers/frappecloud_billing.py:111
+msgid "Invalid Code. Please try again."
+msgstr "Código inválido. Tente novamente."
+
+#: frappe/integrations/doctype/webhook/webhook.py:91
+msgid "Invalid Condition: {}"
+msgstr "Condição inválida: {}"
+
+#: frappe/email/smtp.py:136
+msgid "Invalid Credentials"
+msgstr "Credenciais inválidas"
+
+#: frappe/email/smtp.py:138
+msgid "Invalid Credentials for Email Account: {0}"
+msgstr "Credenciais inválidas para a conta de e-mail: {0}"
+
+#: frappe/utils/data.py:146 frappe/utils/data.py:309
+msgid "Invalid Date"
+msgstr "Data inválida"
+
+#: frappe/www/list.py:30
+msgid "Invalid DocType"
+msgstr "DocType inválido"
+
+#: frappe/database/query.py:342
+msgid "Invalid DocType: {0}"
+msgstr "DocType inválido: {0}"
+
+#: frappe/email/doctype/email_group/email_group.py:51
+msgid "Invalid Doctype"
+msgstr "DocType invalido"
+
+#: frappe/core/doctype/doctype/doctype.py:1287
+msgid "Invalid Fieldname"
+msgstr "Nome do campo inválido"
+
+#: frappe/core/doctype/file/file.py:231
+msgid "Invalid File URL"
+msgstr "URL de arquivo inválida"
+
+#: frappe/database/query.py:768 frappe/database/query.py:795
+#: frappe/database/query.py:805 frappe/database/query.py:828
+msgid "Invalid Filter"
+msgstr "Filtro inválido"
+
+#: frappe/public/js/form_builder/store.js:221
+msgid "Invalid Filter Format for field {0} of type {1}. Try using filter icon on the field to set it correctly"
+msgstr "Formato de filtro inválido para o campo {0} do tipo {1}. Tente usar o ícone de filtro no campo para defini-lo corretamente"
+
+#: frappe/utils/dashboard.py:61
+msgid "Invalid Filter Value"
+msgstr "Valor de filtro inválido"
+
+#: frappe/website/doctype/website_settings/website_settings.py:83
+msgid "Invalid Home Page"
+msgstr "Página inicial inválida"
+
+#: frappe/utils/verified_command.py:48 frappe/www/update-password.html:178
+msgid "Invalid Link"
+msgstr "Link inválido"
+
+#: frappe/www/login.py:128
+msgid "Invalid Login Token"
+msgstr "Token de login inválido"
+
+#: frappe/templates/includes/login/login.js:290
+msgid "Invalid Login. Try again."
+msgstr "Login inválido. Tente novamente."
+
+#: frappe/email/receive.py:112 frappe/email/receive.py:149
+msgid "Invalid Mail Server. Please rectify and try again."
+msgstr "Servidor de e-mail inválido. Corrija e tente novamente."
+
+#: frappe/model/naming.py:109
+msgid "Invalid Naming Series: {}"
+msgstr "Série de nomenclatura inválida: {}"
+
+#: frappe/core/doctype/data_import/data_import.py:182
+#: frappe/core/doctype/prepared_report/prepared_report.py:200
+#: frappe/core/doctype/rq_job/rq_job.py:113
+#: frappe/core/doctype/rq_job/rq_job.py:122
+msgid "Invalid Operation"
+msgstr "Operação inválida"
+
+#: frappe/core/doctype/doctype/doctype.py:1656
+#: frappe/core/doctype/doctype/doctype.py:1664
+msgid "Invalid Option"
+msgstr "Opção inválida"
+
+#: frappe/email/smtp.py:103
+msgid "Invalid Outgoing Mail Server or Port: {0}"
+msgstr "Servidor de e-mail de saída ou porta inválidos: {0}"
+
+#: frappe/email/doctype/auto_email_report/auto_email_report.py:208
+msgid "Invalid Output Format"
+msgstr "Formato de saída inválido"
+
+#: frappe/model/base_document.py:126
+msgid "Invalid Override"
+msgstr "Substituição inválida"
+
+#: frappe/integrations/doctype/connected_app/connected_app.py:202
+msgid "Invalid Parameters."
+msgstr "Parâmetros inválidos."
+
+#: frappe/www/update-password.html:148 frappe/www/update-password.html:169
+#: frappe/www/update-password.html:171 frappe/www/update-password.html:272
+msgid "Invalid Password"
+msgstr "Senha inválida"
+
+#: frappe/utils/__init__.py:125
+msgid "Invalid Phone Number"
+msgstr "Número de telefone inválido"
+
+#: frappe/auth.py:97 frappe/utils/oauth.py:213 frappe/utils/oauth.py:220
+#: frappe/www/login.py:128
+msgid "Invalid Request"
+msgstr "Solicitação inválida"
+
+#: frappe/desk/search.py:27
+msgid "Invalid Search Field {0}"
+msgstr "Campo de busca inválido {0}"
+
+#: frappe/core/doctype/doctype/doctype.py:1229
+msgid "Invalid Table Fieldname"
+msgstr "Nome do campo de tabela inválido"
+
+#: frappe/public/js/workflow_builder/store.js:192
+msgid "Invalid Transition"
+msgstr "Transição inválida"
+
+#: frappe/core/doctype/file/file.py:242
+#: frappe/public/js/frappe/file_uploader/FileUploader.vue:551
+#: frappe/public/js/frappe/widgets/widget_dialog.js:602
+#: frappe/utils/csvutils.py:226 frappe/utils/csvutils.py:247
+msgid "Invalid URL"
+msgstr "URL inválida"
+
+#: frappe/email/receive.py:157
+msgid "Invalid User Name or Support Password. Please rectify and try again."
+msgstr "Nome de usuário ou senha de suporte inválidos. Corrija e tente novamente."
+
+#: frappe/public/js/frappe/ui/field_group.js:137
+msgid "Invalid Values"
+msgstr "Valores inválidos"
+
+#: frappe/integrations/doctype/webhook/webhook.py:120
+msgid "Invalid Webhook Secret"
+msgstr "Segredo do webhook inválido"
+
+#: frappe/desk/reportview.py:190
+msgid "Invalid aggregate function"
+msgstr "Função de agregação inválida"
+
+#: frappe/database/query.py:2157
+msgid "Invalid alias format: {0}. Alias must be a simple identifier."
+msgstr "Formato de alias inválido: {0}. O alias deve ser um identificador simples."
+
+#: frappe/core/doctype/user_invitation/user_invitation.py:195
+msgid "Invalid app"
+msgstr "App inválido"
+
+#: frappe/database/query.py:2118 frappe/database/query.py:2133
+msgid "Invalid argument format: {0}. Only quoted string literals or simple field names are allowed."
+msgstr "Formato de argumento inválido: {0}. Somente literais de string entre aspas ou nomes de campo simples são permitidos."
+
+#: frappe/database/query.py:2083
+msgid "Invalid argument type: {0}. Only strings, numbers, dicts, and None are allowed."
+msgstr "Tipo de argumento inválido: {0}. Somente strings, números, dicts e None são permitidos."
+
+#: frappe/database/query.py:801
+msgid "Invalid characters in fieldname: {0}. Only letters, numbers, and underscores are allowed."
+msgstr "Caracteres inválidos no nome do campo: {0}. Somente letras, números e sublinhados são permitidos."
+
+#: frappe/database/query.py:971
+msgid "Invalid characters in table name: {0}"
+msgstr "Caracteres inválidos no nome da tabela: {0}"
+
+#: frappe/public/js/frappe/views/reports/report_view.js:398
+msgid "Invalid column"
+msgstr "Coluna inválida"
+
+#: frappe/database/query.py:713
+msgid "Invalid condition type in nested filters: {0}"
+msgstr "Tipo de condição inválido em filtros aninhados: {0}"
+
+#: frappe/database/query.py:1244
+msgid "Invalid direction in Order By: {0}. Must be 'ASC' or 'DESC'."
+msgstr "Direção inválida em Order By: {0}. Deve ser 'ASC' ou 'DESC'."
+
+#: frappe/model/document.py:1065 frappe/model/document.py:1079
+msgid "Invalid docstatus"
+msgstr "Docstatus inválido"
+
+#: frappe/public/js/frappe/utils/dashboard_utils.js:229
+msgid "Invalid expression set in filter {0}"
+msgstr "Expressão inválida definida no filtro {0}"
+
+#: frappe/public/js/frappe/utils/dashboard_utils.js:219
+msgid "Invalid expression set in filter {0} ({1})"
+msgstr "Expressão inválida definida no filtro {0} ({1})"
+
+#: frappe/database/query.py:1886
+msgid "Invalid field format for SELECT: {0}. Field names must be simple, backticked, table-qualified, aliased, or '*'."
+msgstr "Formato de campo inválido para SELECT: {0}. Os nomes dos campos devem ser simples, entre crases, qualificados por tabela, com alias ou '*'."
+
+#: frappe/database/query.py:1184
+msgid "Invalid field format in {0}: {1}. Use 'field', 'link_field.field', or 'child_table.field'."
+msgstr "Formato de campo inválido em {0}: {1}. Use 'field', 'link_field.field' ou 'child_table.field'."
+
+#: frappe/utils/data.py:2288
+msgid "Invalid field name {0}"
+msgstr "Nome de campo inválido {0}"
+
+#: frappe/database/query.py:1070
+msgid "Invalid field type: {0}"
+msgstr "Tipo de campo inválido: {0}"
+
+#: frappe/core/doctype/doctype/doctype.py:1100
+msgid "Invalid fieldname '{0}' in autoname"
+msgstr "Nome de campo inválido '{0}' em autoname"
+
+#: frappe/deprecation_dumpster.py:283
+msgid "Invalid file path: {0}"
+msgstr "Caminho de arquivo inválido: {0}"
+
+#: frappe/database/query.py:696
+msgid "Invalid filter condition: {0}. Expected a list or tuple."
+msgstr "Condição de filtro inválida: {0}. Era esperada uma lista ou tupla."

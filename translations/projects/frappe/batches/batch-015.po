@@ -1,0 +1,908 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:35+0000\n"
+"PO-Revision-Date: 2026-01-21 06:48\n"
+"Last-Translator: developers@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File-ID: 138\n"
+"Language: pt_BR\n"
+
+#. Option for the 'Font' (Select) field in DocType 'Print Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "Helvetica Neue"
+msgstr ""
+
+#: frappe/public/js/frappe/utils/utils.js:1939
+msgid "Here's your tracking URL"
+msgstr ""
+
+#: frappe/www/qrcode.html:9
+msgid "Hi {0}"
+msgstr ""
+
+#. Label of the hidden (Check) field in DocType 'DocField'
+#. Label of the hidden (Check) field in DocType 'DocType Action'
+#. Label of the hidden (Check) field in DocType 'DocType Link'
+#. Label of the hidden (Check) field in DocType 'Navbar Item'
+#. Label of the hidden (Check) field in DocType 'Custom Field'
+#. Label of the hidden (Check) field in DocType 'Customize Form Field'
+#. Label of the hidden (Check) field in DocType 'Desktop Icon'
+#. Label of the hidden (Check) field in DocType 'Workspace Link'
+#. Label of the hidden (Check) field in DocType 'Web Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/doctype_action/doctype_action.json
+#: frappe/core/doctype/doctype_link/doctype_link.json
+#: frappe/core/doctype/navbar_item/navbar_item.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/desk/doctype/desktop_icon/desktop_icon.json
+#: frappe/desk/doctype/workspace_link/workspace_link.json
+#: frappe/printing/page/print_format_builder/print_format_builder_field.html:3
+#: frappe/website/doctype/web_form_field/web_form_field.json
+msgid "Hidden"
+msgstr ""
+
+#. Label of the section_break_13 (Section Break) field in DocType 'Form Tour
+#. Step'
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+msgid "Hidden Fields"
+msgstr ""
+
+#: frappe/public/js/frappe/views/reports/query_report.js:1672
+msgid "Hidden columns include: {0}"
+msgstr ""
+
+#. Option for the 'Page Number' (Select) field in DocType 'Print Format'
+#: frappe/printing/doctype/print_format/print_format.json
+#: frappe/public/js/frappe/widgets/base_widget.js:46
+#: frappe/public/js/frappe/widgets/base_widget.js:178
+#: frappe/public/js/print_format_builder/PrintFormatControls.vue:243
+#: frappe/templates/includes/login/login.js:82
+#: frappe/www/update-password.html:117
+msgid "Hide"
+msgstr ""
+
+#. Label of the hide_block (Check) field in DocType 'Web Page Block'
+#: frappe/website/doctype/web_page_block/web_page_block.json
+msgid "Hide Block"
+msgstr "Esconder o Bloco"
+
+#. Label of the hide_border (Check) field in DocType 'DocField'
+#. Label of the hide_border (Check) field in DocType 'Custom Field'
+#. Label of the hide_border (Check) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Hide Border"
+msgstr "Ocultar borda"
+
+#. Label of the hide_buttons (Check) field in DocType 'Form Tour Step'
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+msgid "Hide Buttons"
+msgstr ""
+
+#. Label of the allow_copy (Check) field in DocType 'DocType'
+#. Label of the allow_copy (Check) field in DocType 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Hide Copy"
+msgstr "Ocultar Cópia"
+
+#. Label of the hide_custom (Check) field in DocType 'Workspace'
+#: frappe/desk/doctype/workspace/workspace.json
+msgid "Hide Custom DocTypes and Reports"
+msgstr ""
+
+#. Label of the hide_days (Check) field in DocType 'DocField'
+#. Label of the hide_days (Check) field in DocType 'Custom Field'
+#. Label of the hide_days (Check) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Hide Days"
+msgstr "Ocultar dias"
+
+#. Label of the hide_descendants (Check) field in DocType 'User Permission'
+#: frappe/core/doctype/user_permission/user_permission.json
+#: frappe/core/doctype/user_permission/user_permission_list.js:96
+msgid "Hide Descendants"
+msgstr ""
+
+#. Label of the hide_empty_read_only_fields (Check) field in DocType 'System
+#. Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Hide Empty Read-Only Fields"
+msgstr ""
+
+#: frappe/www/error.html:62
+msgid "Hide Error"
+msgstr ""
+
+#: frappe/printing/page/print_format_builder/print_format_builder.js:488
+msgid "Hide Label"
+msgstr ""
+
+#. Label of the hide_login (Check) field in DocType 'Website Settings'
+#: frappe/website/doctype/website_settings/website_settings.json
+msgid "Hide Login"
+msgstr ""
+
+#: frappe/public/js/form_builder/form_builder.bundle.js:43
+#: frappe/public/js/print_format_builder/print_format_builder.bundle.js:54
+msgid "Hide Preview"
+msgstr ""
+
+#. Description of the 'Hide Buttons' (Check) field in DocType 'Form Tour Step'
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+msgid "Hide Previous, Next and Close button on highlight dialog."
+msgstr ""
+
+#. Label of the hide_seconds (Check) field in DocType 'DocField'
+#. Label of the hide_seconds (Check) field in DocType 'Custom Field'
+#. Label of the hide_seconds (Check) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Hide Seconds"
+msgstr "Ocultar segundos"
+
+#. Label of the hide_toolbar (Check) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "Hide Sidebar, Menu, and Comments"
+msgstr ""
+
+#. Label of the hide_standard_menu (Check) field in DocType 'Portal Settings'
+#: frappe/website/doctype/portal_settings/portal_settings.json
+msgid "Hide Standard Menu"
+msgstr ""
+
+#: frappe/public/js/frappe/views/calendar/calendar.js:179
+msgid "Hide Weekends"
+msgstr ""
+
+#. Description of the 'Hide Descendants' (Check) field in DocType 'User
+#. Permission'
+#: frappe/core/doctype/user_permission/user_permission.json
+msgid "Hide descendant records of <b>For Value</b>."
+msgstr ""
+
+#: frappe/public/js/frappe/form/layout.js:296
+msgid "Hide details"
+msgstr ""
+
+#. Label of the hide_footer (Check) field in DocType 'Web Form'
+#: frappe/website/doctype/web_form/web_form.json
+msgid "Hide footer"
+msgstr ""
+
+#. Label of the hide_footer_in_auto_email_reports (Check) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Hide footer in auto email reports"
+msgstr ""
+
+#. Label of the hide_footer_signup (Check) field in DocType 'Website Settings'
+#: frappe/website/doctype/website_settings/website_settings.json
+msgid "Hide footer signup"
+msgstr ""
+
+#. Label of the hide_navbar (Check) field in DocType 'Web Form'
+#: frappe/website/doctype/web_form/web_form.json
+msgid "Hide navbar"
+msgstr ""
+
+#. Option for the 'Priority' (Select) field in DocType 'ToDo'
+#: frappe/desk/doctype/todo/todo.json
+#: frappe/public/js/frappe/form/sidebar/assign_to.js:228
+msgid "High"
+msgstr ""
+
+#. Description of the 'Priority' (Int) field in DocType 'Assignment Rule'
+#: frappe/automation/doctype/assignment_rule/assignment_rule.json
+msgid "Higher priority rule will be applied first"
+msgstr "Regra de prioridade mais alta será aplicada primeiro"
+
+#. Label of the highlight (Text) field in DocType 'Company History'
+#: frappe/website/doctype/company_history/company_history.json
+msgid "Highlight"
+msgstr "Realçar"
+
+#: frappe/www/update-password.html:301
+msgid "Hint: Include symbols, numbers and capital letters in the password"
+msgstr ""
+
+#. Label of the home_tab (Tab Break) field in DocType 'Website Settings'
+#: frappe/public/js/frappe/file_uploader/FileBrowser.vue:38
+#: frappe/public/js/frappe/views/file/file_view.js:67
+#: frappe/public/js/frappe/views/file/file_view.js:88
+#: frappe/public/js/frappe/views/pageview.js:161 frappe/templates/doc.html:19
+#: frappe/templates/includes/navbar/navbar.html:9
+#: frappe/website/doctype/website_settings/website_settings.json
+#: frappe/website/web_template/primary_navbar/primary_navbar.html:9
+#: frappe/www/contact.py:25 frappe/www/login.html:170 frappe/www/me.html:76
+#: frappe/www/message.html:29
+msgid "Home"
+msgstr ""
+
+#. Label of the home_page (Data) field in DocType 'Role'
+#. Label of the home_page (Data) field in DocType 'Website Settings'
+#: frappe/core/doctype/role/role.json
+#: frappe/website/doctype/website_settings/website_settings.json
+msgid "Home Page"
+msgstr "Pagina inicial"
+
+#. Label of the home_settings (Code) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Home Settings"
+msgstr "Configurações iniciais"
+
+#: frappe/core/doctype/file/test_file.py:321
+#: frappe/core/doctype/file/test_file.py:323
+#: frappe/core/doctype/file/test_file.py:387
+msgid "Home/Test Folder 1"
+msgstr ""
+
+#: frappe/core/doctype/file/test_file.py:376
+msgid "Home/Test Folder 1/Test Folder 3"
+msgstr ""
+
+#: frappe/core/doctype/file/test_file.py:332
+msgid "Home/Test Folder 2"
+msgstr ""
+
+#. Option for the 'Frequency' (Select) field in DocType 'Scheduled Job Type'
+#. Option for the 'Event Frequency' (Select) field in DocType 'Server Script'
+#. Option for the 'Frequency' (Select) field in DocType 'User'
+#: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json
+#: frappe/core/doctype/server_script/server_script.json
+#: frappe/core/doctype/user/user.json
+msgid "Hourly"
+msgstr "De hora em hora"
+
+#. Option for the 'Frequency' (Select) field in DocType 'Scheduled Job Type'
+#. Option for the 'Event Frequency' (Select) field in DocType 'Server Script'
+#: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json
+#: frappe/core/doctype/server_script/server_script.json
+msgid "Hourly Long"
+msgstr "Por hora"
+
+#. Option for the 'Frequency' (Select) field in DocType 'Scheduled Job Type'
+#: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json
+msgid "Hourly Maintenance"
+msgstr ""
+
+#. Description of the 'Password Reset Link Generation Limit' (Int) field in
+#. DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Hourly rate limit for generating password reset links"
+msgstr "Limite de taxa por hora para gerar links de redefinição de senha"
+
+#: frappe/public/js/frappe/form/controls/duration.js:29
+msgctxt "Duration"
+msgid "Hours"
+msgstr "Horas"
+
+#. Description of the 'Number Format' (Select) field in DocType 'Currency'
+#: frappe/geo/doctype/currency/currency.json
+msgid "How should this currency be formatted? If not set, will use system defaults"
+msgstr "Como essa moeda deve ser formatada? Se não for definido, serão usados os padrões do sistema"
+
+#. Description of the 'Resource Name' (Data) field in DocType 'OAuth Settings'
+#: frappe/integrations/doctype/oauth_settings/oauth_settings.json
+msgid "Human-readable name intended for display to the end user."
+msgstr ""
+
+#. Paragraph text in the Welcome Workspace Workspace
+#: frappe/core/workspace/welcome_workspace/welcome_workspace.json
+msgid "I guess you don't have access to any workspace yet, but you can create one just for yourself. Click on the <b>Create Workspace</b> button to create one.<br>"
+msgstr ""
+
+#. Label of the id (Data) field in DocType 'User Session Display'
+#: frappe/core/doctype/data_import/importer.py:1173
+#: frappe/core/doctype/data_import/importer.py:1179
+#: frappe/core/doctype/data_import/importer.py:1244
+#: frappe/core/doctype/data_import/importer.py:1247
+#: frappe/core/doctype/user_session_display/user_session_display.json
+#: frappe/desk/report/todo/todo.py:36 frappe/model/meta.py:52
+#: frappe/public/js/frappe/data_import/data_exporter.js:330
+#: frappe/public/js/frappe/data_import/data_exporter.js:345
+#: frappe/public/js/frappe/list/list_settings.js:335
+#: frappe/public/js/frappe/list/list_view.js:387
+#: frappe/public/js/frappe/list/list_view.js:451
+#: frappe/public/js/frappe/list/list_view.js:2409
+#: frappe/public/js/frappe/model/meta.js:208
+#: frappe/public/js/frappe/model/model.js:122
+msgid "ID"
+msgstr ""
+
+#: frappe/desk/reportview.py:529
+#: frappe/public/js/frappe/views/reports/report_view.js:983
+msgctxt "Label of name column in report"
+msgid "ID"
+msgstr ""
+
+#: frappe/public/js/print_format_builder/PrintFormatControls.vue:169
+msgid "ID (name)"
+msgstr ""
+
+#. Description of the 'Field Name' (Data) field in DocType 'Property Setter'
+#: frappe/custom/doctype/property_setter/property_setter.json
+msgid "ID (name) of the entity whose property is to be set"
+msgstr ""
+
+#. Description of the 'Section ID' (Data) field in DocType 'Web Page Block'
+#: frappe/website/doctype/web_page_block/web_page_block.json
+msgid "IDs must contain only alphanumeric characters, not contain spaces, and should be unique."
+msgstr ""
+
+#. Label of the section_break_25 (Section Break) field in DocType 'Email
+#. Account'
+#: frappe/email/doctype/email_account/email_account.json
+msgid "IMAP Details"
+msgstr ""
+
+#. Label of the imap_folder (Data) field in DocType 'Communication'
+#. Label of the imap_folder (Table) field in DocType 'Email Account'
+#. Name of a DocType
+#: frappe/core/doctype/communication/communication.json
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/imap_folder/imap_folder.json
+msgid "IMAP Folder"
+msgstr ""
+
+#. Label of the ip_address (Data) field in DocType 'Activity Log'
+#. Label of the ip_address (Data) field in DocType 'Comment'
+#. Label of the ip_address (Data) field in DocType 'User Session Display'
+#: frappe/core/doctype/activity_log/activity_log.json
+#: frappe/core/doctype/comment/comment.json
+#: frappe/core/doctype/user_session_display/user_session_display.json
+msgid "IP Address"
+msgstr "Endereço de IP"
+
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Label of the icon (Icon) field in DocType 'DocField'
+#. Label of the icon (Data) field in DocType 'DocType'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Label of the icon (Icon) field in DocType 'Desktop Icon'
+#. Label of the icon (Icon) field in DocType 'Workspace'
+#. Label of the icon (Data) field in DocType 'Workspace Link'
+#. Label of the icon (Data) field in DocType 'Workspace Shortcut'
+#. Label of the icon (Icon) field in DocType 'Workspace Sidebar Item'
+#. Label of the icon (Data) field in DocType 'Social Login Key'
+#. Label of the icon (Select) field in DocType 'Workflow State'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/desk/doctype/desktop_icon/desktop_icon.json
+#: frappe/desk/doctype/workspace/workspace.json
+#: frappe/desk/doctype/workspace_link/workspace_link.json
+#: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
+#: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json
+#: frappe/integrations/doctype/social_login_key/social_login_key.json
+#: frappe/public/js/frappe/views/workspace/workspace.js:472
+#: frappe/workflow/doctype/workflow_state/workflow_state.json
+msgid "Icon"
+msgstr ""
+
+#. Label of the icon_style (Select) field in DocType 'Desktop Settings'
+#: frappe/desk/doctype/desktop_settings/desktop_settings.json
+msgid "Icon Style"
+msgstr ""
+
+#. Label of the icon_type (Select) field in DocType 'Desktop Icon'
+#: frappe/desk/doctype/desktop_icon/desktop_icon.json
+msgid "Icon Type"
+msgstr ""
+
+#. Description of the 'Icon' (Select) field in DocType 'Workflow State'
+#: frappe/workflow/doctype/workflow_state/workflow_state.json
+msgid "Icon will appear on the button"
+msgstr "O ícone aparecerá no botão"
+
+#. Label of the sb_identity_details (Section Break) field in DocType 'Social
+#. Login Key'
+#: frappe/integrations/doctype/social_login_key/social_login_key.json
+msgid "Identity Details"
+msgstr "Detalhes da identidade"
+
+#. Label of the idx (Int) field in DocType 'Desktop Icon'
+#: frappe/desk/doctype/desktop_icon/desktop_icon.json
+msgid "Idx"
+msgstr ""
+
+#. Description of the 'Apply Strict User Permissions' (Check) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "If Apply Strict User Permission is checked and User Permission is defined for a DocType for a User, then all the documents where value of the link is blank, will not be shown to that User"
+msgstr ""
+
+#. Description of the 'Don't Override Status' (Check) field in DocType
+#. 'Workflow'
+#. Description of the 'Don't Override Status' (Check) field in DocType
+#. 'Workflow Document State'
+#: frappe/workflow/doctype/workflow/workflow.json
+#: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
+msgid "If Checked workflow status will not override status in list view"
+msgstr ""
+
+#: frappe/core/doctype/doctype/doctype.py:1798
+#: frappe/core/report/user_doctype_permissions/user_doctype_permissions.py:45
+#: frappe/public/js/frappe/roles_editor.js:68
+msgid "If Owner"
+msgstr ""
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:25
+msgid "If a Role does not have access at Level 0, then higher levels are meaningless."
+msgstr ""
+
+#. Description of the 'Enable Action Confirmation' (Check) field in DocType
+#. 'Workflow'
+#: frappe/workflow/doctype/workflow/workflow.json
+msgid "If checked, a confirmation will be required before performing workflow actions."
+msgstr ""
+
+#. Description of the 'Is Active' (Check) field in DocType 'Workflow'
+#: frappe/workflow/doctype/workflow/workflow.json
+msgid "If checked, all other workflows become inactive."
+msgstr "Se marcada, todos os outros fluxos de trabalho tornam-se inativos."
+
+#. Description of the 'Show Absolute Values' (Check) field in DocType 'Print
+#. Format'
+#: frappe/printing/doctype/print_format/print_format.json
+msgid "If checked, negative numeric values of Currency, Quantity or Count would be shown as positive"
+msgstr ""
+
+#. Description of the 'Skip Authorization' (Check) field in DocType 'OAuth
+#. Client'
+#: frappe/integrations/doctype/oauth_client/oauth_client.json
+msgid "If checked, users will not see the Confirm Access dialog."
+msgstr ""
+
+#. Description of the 'Disabled' (Check) field in DocType 'Role'
+#: frappe/core/doctype/role/role.json
+msgid "If disabled, this role will be removed from all users."
+msgstr "Se esta função for desativada será removida em todos os usuários."
+
+#. Description of the 'Bypass Restricted IP Address Check If Two Factor Auth
+#. Enabled' (Check) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "If enabled,  user can login from any IP Address using Two Factor Auth, this can also be set for all users in System Settings"
+msgstr ""
+
+#. Description of the 'Anonymous responses' (Check) field in DocType 'Web Form'
+#: frappe/website/doctype/web_form/web_form.json
+msgid "If enabled, all responses on the web form will be submitted anonymously"
+msgstr ""
+
+#. Description of the 'Bypass restricted IP Address check If Two Factor Auth
+#. Enabled' (Check) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "If enabled, all users can login from any IP Address using Two Factor Auth. This can also be set only for specific user(s) in User Page"
+msgstr ""
+
+#. Description of the 'Track Changes' (Check) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "If enabled, changes to the document are tracked and shown in timeline"
+msgstr "Se ativado, as alterações no documento são rastreadas e mostradas na linha do tempo"
+
+#. Description of the 'Track Views' (Check) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "If enabled, document views are tracked, this can happen multiple times"
+msgstr "Se ativado, as visualizações de documentos são rastreadas, isso pode acontecer várias vezes"
+
+#. Description of the 'Only allow System Managers to upload public files'
+#. (Check) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "If enabled, only System Managers can upload public files. Other users can't see the checkbox <i>Is Private</i> in the upload dialog."
+msgstr ""
+
+#. Description of the 'Track Seen' (Check) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "If enabled, the document is marked as seen, the first time a user opens it"
+msgstr "Se ativado, o documento é marcado como visto, a primeira vez que um usuário o abre"
+
+#. Description of the 'Send System Notification' (Check) field in DocType
+#. 'Notification'
+#: frappe/email/doctype/notification/notification.json
+msgid "If enabled, the notification will show up in the notifications dropdown on the top right corner of the navigation bar."
+msgstr "Se ativada, a notificação aparecerá na lista suspensa de notificações no canto superior direito da barra de navegação."
+
+#. Description of the 'Enable Password Policy' (Check) field in DocType 'System
+#. Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "If enabled, the password strength will be enforced based on the Minimum Password Score value. A value of 1 being very weak and 4 being very strong."
+msgstr ""
+
+#. Description of the 'Bypass Two Factor Auth for users who login from
+#. restricted IP Address' (Check) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "If enabled, users who login from Restricted IP Address, won't be prompted for Two Factor Auth"
+msgstr ""
+
+#. Description of the 'Notify Users On Every Login' (Check) field in DocType
+#. 'Note'
+#: frappe/desk/doctype/note/note.json
+msgid "If enabled, users will be notified every time they login. If not enabled, users will only be notified once."
+msgstr "Se ativado, os usuários serão notificados sempre que iniciarem sessão. Se não estiver ativado, os usuários só serão notificados uma vez."
+
+#. Description of the 'Default Workspace' (Link) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "If left empty, the default workspace will be the last visited workspace"
+msgstr ""
+
+#. Description of the 'Port' (Data) field in DocType 'Email Domain'
+#: frappe/email/doctype/email_domain/email_domain.json
+msgid "If non standard port (e.g. 587)"
+msgstr "Se não for a porta padrão (por exemplo, 587)"
+
+#. Description of the 'Port' (Data) field in DocType 'Email Account'
+#: frappe/email/doctype/email_account/email_account.json
+msgid "If non standard port (e.g. 587). If on Google Cloud, try port 2525."
+msgstr ""
+
+#. Description of the 'Port' (Data) field in DocType 'Email Account'
+#. Description of the 'Port' (Data) field in DocType 'Email Domain'
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/email_domain/email_domain.json
+msgid "If non-standard port (e.g. POP3: 995/110, IMAP: 993/143)"
+msgstr ""
+
+#. Description of the 'Currency Precision' (Select) field in DocType 'System
+#. Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "If not set, the currency precision will depend on number format"
+msgstr "Se não for definido, a precisão da moeda dependerá do formato de número"
+
+#. Description of the 'Roles' (Table) field in DocType 'Dashboard Chart'
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+msgid "If set, only user with these roles can access this chart. If not set, DocType or Report permissions will be used."
+msgstr ""
+
+#. Description of the 'User Type' (Link) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "If the user has any role checked, then the user becomes a \"System User\". \"System User\" has access to the desktop"
+msgstr ""
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:38
+msgid "If these instructions where not helpful, please add in your suggestions on GitHub Issues."
+msgstr ""
+
+#: frappe/templates/emails/user_invitation_cancelled.html:8
+msgid "If this was a mistake or you need access again, please reach out to your team."
+msgstr ""
+
+#. Description of the 'Fetch on Save if Empty' (Check) field in DocType
+#. 'DocField'
+#. Description of the 'Fetch on Save if Empty' (Check) field in DocType 'Custom
+#. Field'
+#. Description of the 'Fetch on Save if Empty' (Check) field in DocType
+#. 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "If unchecked, the value will always be re-fetched on save."
+msgstr ""
+
+#. Label of the if_owner (Check) field in DocType 'Custom DocPerm'
+#. Label of the if_owner (Check) field in DocType 'DocPerm'
+#: frappe/core/doctype/custom_docperm/custom_docperm.json
+#: frappe/core/doctype/docperm/docperm.json
+msgid "If user is the owner"
+msgstr "Se o usuário é o proprietário"
+
+#: frappe/core/doctype/data_export/exporter.py:204
+msgid "If you are updating, please select \"Overwrite\" else existing rows will not be deleted."
+msgstr ""
+
+#: frappe/core/doctype/data_export/exporter.py:188
+msgid "If you are uploading new records, \"Naming Series\" becomes mandatory, if present."
+msgstr ""
+
+#: frappe/core/doctype/data_export/exporter.py:186
+msgid "If you are uploading new records, leave the \"name\" (ID) column blank."
+msgstr ""
+
+#: frappe/templates/emails/user_invitation.html:19
+msgid "If you have any questions, reach out to your system administrator."
+msgstr ""
+
+#: frappe/utils/password.py:213
+msgid "If you have recently restored the site, you may need to copy the site_config.json containing the original encryption key."
+msgstr ""
+
+#. Description of the 'Parent Label' (Select) field in DocType 'Top Bar Item'
+#: frappe/website/doctype/top_bar_item/top_bar_item.json
+msgid "If you set this, this Item will come in a drop-down under the selected parent."
+msgstr ""
+
+#: frappe/templates/emails/administrator_logged_in.html:3
+msgid "If you think this is unauthorized, please change the Administrator password."
+msgstr ""
+
+#. Description of the 'Delimiter Options' (Data) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "If your CSV uses a different delimiter, add that character here, ensuring no spaces or additional characters are included."
+msgstr ""
+
+#. Description of the 'Source Text' (Code) field in DocType 'Translation'
+#: frappe/core/doctype/translation/translation.json
+msgid "If your data is in HTML, please copy paste the exact HTML code with the tags."
+msgstr ""
+
+#. Label of the ignore_user_permissions (Check) field in DocType 'DocField'
+#. Label of the ignore_user_permissions (Check) field in DocType 'Custom Field'
+#. Label of the ignore_user_permissions (Check) field in DocType 'Customize
+#. Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Ignore User Permissions"
+msgstr ""
+
+#. Label of the ignore_xss_filter (Check) field in DocType 'DocField'
+#. Label of the ignore_xss_filter (Check) field in DocType 'Custom Field'
+#. Label of the ignore_xss_filter (Check) field in DocType 'Customize Form
+#. Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Ignore XSS Filter"
+msgstr "Ignorar Filtro XSS"
+
+#. Description of the 'Attachment Limit (MB)' (Int) field in DocType 'Email
+#. Account'
+#. Description of the 'Attachment Limit (MB)' (Int) field in DocType 'Email
+#. Domain'
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/email_domain/email_domain.json
+msgid "Ignore attachments over this size"
+msgstr "Ignorar anexos maiores que este tamanho"
+
+#. Label of the ignored_apps (Table) field in DocType 'Website Theme'
+#: frappe/website/doctype/website_theme/website_theme.json
+msgid "Ignored Apps"
+msgstr "Aplicativos ignorados"
+
+#: frappe/model/workflow.py:202
+msgid "Illegal Document Status for {0}"
+msgstr ""
+
+#: frappe/model/db_query.py:539 frappe/model/db_query.py:542
+#: frappe/model/db_query.py:1208
+msgid "Illegal SQL Query"
+msgstr ""
+
+#: frappe/utils/jinja.py:127
+msgid "Illegal template"
+msgstr ""
+
+#. Label of the image (Attach Image) field in DocType 'Contact'
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Option for the 'Select List View' (Select) field in DocType 'Form Tour'
+#. Option for the 'DocType View' (Select) field in DocType 'Workspace Shortcut'
+#. Option for the 'Letter Head Based On' (Select) field in DocType 'Letter
+#. Head'
+#. Label of the image (Attach Image) field in DocType 'Letter Head'
+#. Label of the footer_image (Attach Image) field in DocType 'Letter Head'
+#. Option for the 'Footer Based On' (Select) field in DocType 'Letter Head'
+#. Label of the meta_image (Attach Image) field in DocType 'Web Page'
+#. Label of the image (Attach) field in DocType 'Website Slideshow Item'
+#: frappe/contacts/doctype/contact/contact.json
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/desk/doctype/form_tour/form_tour.json
+#: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
+#: frappe/printing/doctype/letter_head/letter_head.json
+#: frappe/website/doctype/web_page/web_page.json
+#: frappe/website/doctype/website_slideshow_item/website_slideshow_item.json
+msgid "Image"
+msgstr "Imagem"
+
+#. Label of the image_field (Data) field in DocType 'DocType'
+#. Label of the image_field (Data) field in DocType 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Image Field"
+msgstr "Campo de Imagem"
+
+#. Label of the image_height (Float) field in DocType 'Letter Head'
+#. Label of the footer_image_height (Float) field in DocType 'Letter Head'
+#: frappe/printing/doctype/letter_head/letter_head.json
+msgid "Image Height"
+msgstr ""
+
+#. Label of the image_link (Attach) field in DocType 'About Us Team Member'
+#: frappe/website/doctype/about_us_team_member/about_us_team_member.json
+msgid "Image Link"
+msgstr "Link da Imagem"
+
+#: frappe/public/js/frappe/list/base_list.js:209
+msgid "Image View"
+msgstr ""
+
+#. Label of the image_width (Float) field in DocType 'Letter Head'
+#. Label of the footer_image_width (Float) field in DocType 'Letter Head'
+#: frappe/printing/doctype/letter_head/letter_head.json
+msgid "Image Width"
+msgstr ""
+
+#: frappe/core/doctype/doctype/doctype.py:1521
+msgid "Image field must be a valid fieldname"
+msgstr ""
+
+#: frappe/core/doctype/doctype/doctype.py:1523
+msgid "Image field must be of type Attach Image"
+msgstr ""
+
+#: frappe/core/doctype/file/utils.py:136
+msgid "Image link '{0}' is not valid"
+msgstr ""
+
+#: frappe/core/doctype/file/file.js:112
+msgid "Image optimized"
+msgstr ""
+
+#: frappe/core/doctype/file/utils.py:289
+msgid "Image: Corrupted Data Stream"
+msgstr ""
+
+#: frappe/public/js/frappe/views/image/image_view.js:13
+msgid "Images"
+msgstr ""
+
+#. Option for the 'Operation' (Select) field in DocType 'Activity Log'
+#: frappe/core/doctype/activity_log/activity_log.json
+#: frappe/core/doctype/user/user.js:379
+msgid "Impersonate"
+msgstr ""
+
+#: frappe/core/doctype/user/user.js:406
+msgid "Impersonate as {0}"
+msgstr ""
+
+#: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:357
+msgid "Impersonated by {0}"
+msgstr ""
+
+#: frappe/public/js/frappe/ui/toolbar/navbar.html:23
+msgid "Impersonating {0}"
+msgstr ""
+
+#: frappe/core/doctype/log_settings/log_settings.py:56
+msgid "Implement `clear_old_logs` method to enable auto error clearing."
+msgstr ""
+
+#. Option for the 'Grant Type' (Select) field in DocType 'OAuth Client'
+#: frappe/integrations/doctype/oauth_client/oauth_client.json
+msgid "Implicit"
+msgstr "Implícito"
+
+#. Label of the import (Check) field in DocType 'Custom DocPerm'
+#. Label of the import (Check) field in DocType 'DocPerm'
+#: frappe/core/doctype/custom_docperm/custom_docperm.json
+#: frappe/core/doctype/docperm/docperm.json
+#: frappe/core/doctype/recorder/recorder_list.js:16
+#: frappe/email/doctype/email_group/email_group.js:31
+msgid "Import"
+msgstr ""
+
+#: frappe/public/js/frappe/list/list_view.js:1914
+msgctxt "Button in list view menu"
+msgid "Import"
+msgstr ""
+
+#: frappe/email/doctype/email_group/email_group.js:14
+msgid "Import Email From"
+msgstr ""
+
+#. Label of the import_file (Attach) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Import File"
+msgstr "Importar arquivo"
+
+#. Label of the import_warnings_section (Section Break) field in DocType 'Data
+#. Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Import File Errors and Warnings"
+msgstr "Erros e avisos de importação de arquivos"
+
+#. Label of the import_log_section (Section Break) field in DocType 'Data
+#. Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Import Log"
+msgstr ""
+
+#. Label of the import_log_preview (HTML) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Import Log Preview"
+msgstr "Visualização do registro de importação"
+
+#. Label of the import_preview (HTML) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Import Preview"
+msgstr "Visualização de importação"
+
+#: frappe/core/doctype/data_import/data_import.js:41
+msgid "Import Progress"
+msgstr ""
+
+#: frappe/email/doctype/email_group/email_group.js:8
+#: frappe/email/doctype/email_group/email_group.js:30
+msgid "Import Subscribers"
+msgstr ""
+
+#. Label of the import_type (Select) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Import Type"
+msgstr ""
+
+#. Label of the import_warnings (HTML) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Import Warnings"
+msgstr "Avisos de importação"
+
+#: frappe/public/js/frappe/views/file/file_view.js:117
+msgid "Import Zip"
+msgstr ""
+
+#. Label of the google_sheets_url (Data) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Import from Google Sheets"
+msgstr "Importar do Planilhas Google"
+
+#: frappe/core/doctype/data_import/importer.py:612
+msgid "Import template should be of type .csv, .xlsx or .xls"
+msgstr ""
+
+#: frappe/core/doctype/data_import/importer.py:482
+msgid "Import template should contain a Header and atleast one row."
+msgstr ""
+
+#: frappe/core/doctype/data_import/data_import.js:171
+msgid "Import timed out, please re-try."
+msgstr ""
+
+#: frappe/core/doctype/data_import/data_import.py:71
+msgid "Importing {0} is not allowed."
+msgstr ""
+
+#: frappe/integrations/doctype/google_contacts/google_contacts.js:19
+msgid "Importing {0} of {1}"
+msgstr ""
+
+#: frappe/core/doctype/data_import/data_import.js:35
+msgid "Importing {0} of {1}, {2}"
+msgstr ""
+
+#: frappe/public/js/frappe/ui/filters/filter.js:20
+msgid "In"
+msgstr ""
+
+#. Description of the 'Force User to Reset Password' (Int) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "In Days"
+msgstr "Em dias"
+
+#. Label of the in_filter (Check) field in DocType 'DocField'
+#. Label of the in_filter (Check) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "In Filter"
+msgstr "No Filtro da Lista"

@@ -1,0 +1,745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:35+0000\n"
+"PO-Revision-Date: 2026-01-21 06:48\n"
+"Last-Translator: developers@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File-ID: 138\n"
+"Language: pt_BR\n"
+
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Table MultiSelect"
+msgstr "Tabela multisseleção"
+
+#: frappe/desk/search.py:271
+msgid "Table MultiSelect requires a table with at least one Link field, but none was found in {0}"
+msgstr "Table MultiSelect requer uma tabela com pelo menos um campo Link, mas nenhum foi encontrado em {0}"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:229
+msgid "Table Trimmed"
+msgstr "Tabela ajustada"
+
+#: frappe/public/js/frappe/form/grid.js:1192
+msgid "Table updated"
+msgstr "Tabela atualizada"
+
+#: frappe/model/document.py:1627
+msgid "Table {0} cannot be empty"
+msgstr "A tabela {0} não pode ficar vazia"
+
+#. Option for the 'PDF Page Size' (Select) field in DocType 'Print Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "Tabloid"
+msgstr "Tabloide"
+
+#. Name of a DocType
+#: frappe/desk/doctype/tag/tag.json
+msgid "Tag"
+msgstr "Tag"
+
+#. Name of a DocType
+#: frappe/desk/doctype/tag_link/tag_link.json
+msgid "Tag Link"
+msgstr "Vínculo de tag"
+
+#: frappe/model/meta.py:59
+#: frappe/public/js/frappe/form/templates/form_sidebar.html:102
+#: frappe/public/js/frappe/list/base_list.js:813
+#: frappe/public/js/frappe/list/base_list.js:996
+#: frappe/public/js/frappe/list/bulk_operations.js:430
+#: frappe/public/js/frappe/model/meta.js:215
+#: frappe/public/js/frappe/model/model.js:133
+#: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:233
+msgid "Tags"
+msgstr "Tags"
+
+#: frappe/public/js/frappe/ui/capture.js:220
+msgid "Take Photo"
+msgstr "Tirar foto"
+
+#. Label of the target (Data) field in DocType 'Portal Menu Item'
+#. Label of the target (Small Text) field in DocType 'Website Route Redirect'
+#: frappe/website/doctype/portal_menu_item/portal_menu_item.json
+#: frappe/website/doctype/website_route_redirect/website_route_redirect.json
+msgid "Target"
+msgstr "Destino"
+
+#. Label of the task (Select) field in DocType 'Workflow Transition Task'
+#: frappe/desk/doctype/todo/todo_calendar.js:19
+#: frappe/desk/doctype/todo/todo_calendar.js:25
+#: frappe/workflow/doctype/workflow_transition_task/workflow_transition_task.json
+msgid "Task"
+msgstr "Tarefa"
+
+#. Label of the tasks (Table) field in DocType 'Workflow Transition Tasks'
+#: frappe/workflow/doctype/workflow_transition_tasks/workflow_transition_tasks.json
+msgid "Tasks"
+msgstr "Tarefas"
+
+#. Label of the sb1 (Section Break) field in DocType 'About Us Settings'
+#. Label of the team_members (Table) field in DocType 'About Us Settings'
+#: frappe/website/doctype/about_us_settings/about_us_settings.json
+#: frappe/www/about.html:45
+msgid "Team Members"
+msgstr "Membros da equipe"
+
+#. Label of the team_members_heading (Data) field in DocType 'About Us
+#. Settings'
+#: frappe/website/doctype/about_us_settings/about_us_settings.json
+msgid "Team Members Heading"
+msgstr "Título de membros da equipe"
+
+#. Label of the team_members_subtitle (Small Text) field in DocType 'About Us
+#. Settings'
+#: frappe/website/doctype/about_us_settings/about_us_settings.json
+msgid "Team Members Subtitle"
+msgstr "Subtítulo de membros da equipe"
+
+#. Label of the telemetry_section (Section Break) field in DocType 'System
+#. Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Telemetry"
+msgstr "Telemetria"
+
+#. Label of the template (Link) field in DocType 'Auto Repeat'
+#. Label of the template (Code) field in DocType 'Address Template'
+#. Label of the template (Code) field in DocType 'Print Format Field Template'
+#. Label of the template (Code) field in DocType 'Web Template'
+#: frappe/automation/doctype/auto_repeat/auto_repeat.json
+#: frappe/contacts/doctype/address_template/address_template.json
+#: frappe/printing/doctype/print_format_field_template/print_format_field_template.json
+#: frappe/website/doctype/web_template/web_template.json
+msgid "Template"
+msgstr "Modelo"
+
+#: frappe/core/doctype/data_import/importer.py:483
+#: frappe/core/doctype/data_import/importer.py:610
+msgid "Template Error"
+msgstr "Erro no modelo"
+
+#. Label of the template_file (Data) field in DocType 'Print Format Field
+#. Template'
+#: frappe/printing/doctype/print_format_field_template/print_format_field_template.json
+msgid "Template File"
+msgstr "Arquivo do modelo"
+
+#. Label of the template_options (Code) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Template Options"
+msgstr "Opções de modelo"
+
+#. Label of the template_warnings (Code) field in DocType 'Data Import'
+#: frappe/core/doctype/data_import/data_import.json
+msgid "Template Warnings"
+msgstr "Avisos do modelo"
+
+#: frappe/public/js/frappe/views/workspace/blocks/paragraph.js:78
+msgid "Templates"
+msgstr "Modelos"
+
+#: frappe/core/doctype/user/user.py:1089
+msgid "Temporarily Disabled"
+msgstr "Desativado temporariamente"
+
+#: frappe/core/doctype/translation/test_translation.py:47
+#: frappe/core/doctype/translation/test_translation.py:54
+msgid "Test Data"
+msgstr "Dados de teste"
+
+#. Label of the test_job_id (Data) field in DocType 'System Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Test Job ID"
+msgstr "ID do job de teste"
+
+#: frappe/core/doctype/translation/test_translation.py:49
+#: frappe/core/doctype/translation/test_translation.py:57
+msgid "Test Spanish"
+msgstr "Espanhol de teste"
+
+#: frappe/core/doctype/file/test_file.py:379
+msgid "Test_Folder"
+msgstr "Test_Folder"
+
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Form Field'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Template Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/website/doctype/web_form_field/web_form_field.json
+#: frappe/website/doctype/web_template_field/web_template_field.json
+msgid "Text"
+msgstr "Texto"
+
+#. Label of the text_align (Select) field in DocType 'Web Page'
+#: frappe/website/doctype/web_page/web_page.json
+msgid "Text Align"
+msgstr "Alinhamento do texto"
+
+#. Label of the text_color (Link) field in DocType 'Website Theme'
+#: frappe/website/doctype/website_theme/website_theme.json
+msgid "Text Color"
+msgstr "Cor do texto"
+
+#. Label of the text_content (Code) field in DocType 'Communication'
+#: frappe/core/doctype/communication/communication.json
+msgid "Text Content"
+msgstr "Conteúdo do texto"
+
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/website/doctype/web_form_field/web_form_field.json
+msgid "Text Editor"
+msgstr "Editor de texto"
+
+#: frappe/templates/emails/password_reset.html:5
+msgid "Thank you"
+msgstr "Obrigado"
+
+#: frappe/www/contact.py:46
+msgid "Thank you for reaching out to us. We will get back to you at the earliest.\n\n\n"
+"Your query:\n\n"
+"{0}"
+msgstr "Obrigado por entrar em contato. Retornaremos o mais breve possível.\n\n\nSua solicitação:\n\n{0}"
+
+#: frappe/website/doctype/web_form/templates/web_form.html:147
+msgid "Thank you for spending your valuable time to fill this form"
+msgstr "Obrigado por dedicar seu tempo para preencher este formulário"
+
+#: frappe/templates/emails/auto_reply.html:1
+msgid "Thank you for your email"
+msgstr "Obrigado pelo seu e-mail"
+
+#: frappe/website/doctype/help_article/templates/help_article.html:27
+msgid "Thank you for your feedback!"
+msgstr "Obrigado pelo seu feedback!"
+
+#: frappe/templates/includes/contact.js:36
+msgid "Thank you for your message"
+msgstr "Obrigado pela sua mensagem"
+
+#: frappe/templates/emails/new_user.html:16
+msgid "Thanks"
+msgstr "Obrigado"
+
+#: frappe/templates/emails/auto_repeat_fail.html:3
+msgid "The Auto Repeat for this document has been disabled."
+msgstr "A repetição automática deste documento foi desativada."
+
+#: frappe/public/js/frappe/form/grid.js:1215
+msgid "The CSV format is case sensitive"
+msgstr "O formato CSV diferencia maiúsculas de minúsculas"
+
+#. Description of the 'Client ID' (Data) field in DocType 'Google Settings'
+#: frappe/integrations/doctype/google_settings/google_settings.json
+msgid "The Client ID obtained from the Google Cloud Console under <a href=\"https://console.cloud.google.com/apis/credentials\">\n"
+"\"APIs &amp; Services\" &gt; \"Credentials\"\n"
+"</a>"
+msgstr "O ID do cliente obtido no Google Cloud Console em <a href=\"https://console.cloud.google.com/apis/credentials\">\n"
+"\"APIs &amp; Services\" &gt; \"Credentials\"\n"
+"</a>"
+
+#: frappe/email/doctype/notification/notification.py:224
+msgid "The Condition '{0}' is invalid"
+msgstr "A condição '{0}' é inválida"
+
+#: frappe/core/doctype/file/file.py:230
+msgid "The File URL you've entered is incorrect"
+msgstr "A URL do arquivo informada está incorreta"
+
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:112
+msgid "The Next Scheduled Date cannot be later than the End Date."
+msgstr "A próxima data agendada não pode ser posterior à data final."
+
+#: frappe/integrations/doctype/push_notification_settings/push_notification_settings.py:29
+msgid "The Push Relay Server URL key (`push_relay_server_url`) is missing in your site config"
+msgstr "A chave de URL do servidor de retransmissão push (`push_relay_server_url`) está ausente na configuração do site"
+
+#: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:367
+msgid "The User record for this request has been auto-deleted due to inactivity by system admins."
+msgstr "O registro do usuário desta solicitação foi excluído automaticamente por inatividade pelos administradores do sistema."
+
+#: frappe/public/js/frappe/desk.js:162
+msgid "The application has been updated to a new version, please refresh this page"
+msgstr "O aplicativo foi atualizado para uma nova versão. Atualize esta página"
+
+#. Description of the 'Application Name' (Data) field in DocType 'System
+#. Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "The application name will be used in the Login page."
+msgstr "O nome do aplicativo será usado na página de login."
+
+#: frappe/public/js/frappe/views/interaction.js:323
+msgid "The attachments could not be correctly linked to the new document"
+msgstr "Os anexos não puderam ser vinculados corretamente ao novo documento"
+
+#. Description of the 'API Key' (Data) field in DocType 'Google Settings'
+#: frappe/integrations/doctype/google_settings/google_settings.json
+msgid "The browser API key obtained from the Google Cloud Console under <a href=\"https://console.cloud.google.com/apis/credentials\">\n"
+"\"APIs &amp; Services\" &gt; \"Credentials\"\n"
+"</a>"
+msgstr "A chave de API do navegador obtida no Google Cloud Console em <a href=\"https://console.cloud.google.com/apis/credentials\">\n"
+"\"APIs &amp; Services\" &gt; \"Credentials\"\n"
+"</a>"
+
+#: frappe/database/database.py:475
+msgid "The changes have been reverted."
+msgstr "As alterações foram revertidas."
+
+#: frappe/core/doctype/data_import/importer.py:1008
+msgid "The column {0} has {1} different date formats. Automatically setting {2} as the default format as it is the most common. Please change other values in this column to this format."
+msgstr "A coluna {0} tem {1} formatos de data diferentes. Definimos automaticamente {2} como formato padrão por ser o mais comum. Altere os outros valores desta coluna para esse formato."
+
+#: frappe/templates/includes/comments/comments.py:48
+msgid "The comment cannot be empty"
+msgstr "O comentário não pode ficar vazio"
+
+#: frappe/templates/emails/workflow_action.html:9
+msgid "The contents of this email are strictly confidential. Please do not forward this email to anyone."
+msgstr "O conteúdo deste e-mail é estritamente confidencial. Não encaminhe este e-mail para ninguém."
+
+#: frappe/public/js/frappe/list/list_view.js:688
+msgid "The count shown is an estimated count. Click here to see the accurate count."
+msgstr "A contagem exibida é estimada. Clique aqui para ver a contagem exata."
+
+#. Description of the 'Code' (Data) field in DocType 'Country'
+#: frappe/geo/doctype/country/country.json
+msgid "The country's ISO 3166 ALPHA-2 code."
+msgstr "O código ISO 3166 ALPHA-2 do país."
+
+#: frappe/public/js/frappe/views/interaction.js:301
+msgid "The document could not be correctly assigned"
+msgstr "Não foi possível atribuir o documento corretamente"
+
+#: frappe/public/js/frappe/views/interaction.js:295
+msgid "The document has been assigned to {0}"
+msgstr "O documento foi atribuído a {0}"
+
+#. Description of the 'Parent Document Type' (Link) field in DocType 'Dashboard
+#. Chart'
+#. Description of the 'Parent Document Type' (Link) field in DocType 'Number
+#. Card'
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+#: frappe/desk/doctype/number_card/number_card.json
+msgid "The document type selected is a child table, so the parent document type is required."
+msgstr "O tipo de documento selecionado é uma tabela filha, então o tipo de documento pai é obrigatório."
+
+#: frappe/desk/search.py:284
+msgid "The field {0} in {1} does not allow ignoring user permissions"
+msgstr "O campo {0} em {1} não permite ignorar as permissões do usuário"
+
+#: frappe/desk/search.py:294
+msgid "The field {0} in {1} links to {2} and not {3}"
+msgstr "O campo {0} em {1} aponta para {2}, e não para {3}"
+
+#: frappe/core/doctype/user_type/user_type.py:110
+msgid "The field {0} is mandatory"
+msgstr "O campo {0} é obrigatório"
+
+#: frappe/core/doctype/file/file.py:158
+msgid "The fieldname you've specified in Attached To Field is invalid"
+msgstr "O nome do campo informado em Anexado ao campo é inválido"
+
+#: frappe/automation/doctype/assignment_rule/assignment_rule.py:62
+msgid "The following Assignment Days have been repeated: {0}"
+msgstr "Os seguintes dias de atribuição foram repetidos: {0}"
+
+#: frappe/printing/doctype/letter_head/letter_head.js:30
+msgid "The following Header Script will add the current date to an element in 'Header HTML' with class 'header-content'"
+msgstr "O script de cabeçalho abaixo adicionará a data atual a um elemento em 'Header HTML' com a classe 'header-content'"
+
+#: frappe/core/doctype/data_import/importer.py:1088
+msgid "The following values are invalid: {0}. Values must be one of {1}"
+msgstr "Os seguintes valores são inválidos: {0}. Os valores devem ser um destes: {1}"
+
+#: frappe/core/doctype/data_import/importer.py:1045
+msgid "The following values do not exist for {0}: {1}"
+msgstr "Os seguintes valores não existem para {0}: {1}"
+
+#: frappe/core/doctype/user_type/user_type.py:89
+msgid "The limit has not set for the user type {0} in the site config file."
+msgstr "O limite não foi definido para o tipo de usuário {0} no arquivo de configuração do site."
+
+#: frappe/templates/emails/login_with_email_link.html:21
+msgid "The link will expire in {0} minutes"
+msgstr "O link expirará em {0} minutos"
+
+#: frappe/www/login.py:194
+msgid "The link you trying to login is invalid or expired."
+msgstr "O link que você está tentando usar para entrar é inválido ou expirou."
+
+#: frappe/website/doctype/web_page/web_page.js:125
+msgid "The meta description is an HTML attribute that provides a brief summary of a web page. Search engines such as Google often display the meta description in search results, which can influence click-through rates."
+msgstr "A meta description é um atributo HTML que fornece um breve resumo de uma página web. Mecanismos de busca como o Google costumam exibir a meta description nos resultados de pesquisa, o que pode influenciar a taxa de cliques."
+
+#: frappe/website/doctype/web_page/web_page.js:132
+msgid "The meta image is unique image representing the content of the page. Images for this Card should be at least 280px in width, and at least 150px in height."
+msgstr "A meta image é uma imagem exclusiva que representa o conteúdo da página. As imagens deste Card devem ter pelo menos 280 px de largura e 150 px de altura."
+
+#. Description of the 'Calendar Name' (Data) field in DocType 'Google Calendar'
+#: frappe/integrations/doctype/google_calendar/google_calendar.json
+msgid "The name that will appear in Google Calendar"
+msgstr "O nome que aparecerá no Google Calendar"
+
+#. Description of the 'Track Steps' (Check) field in DocType 'Form Tour'
+#: frappe/desk/doctype/form_tour/form_tour.json
+msgid "The next tour will start from where the user left off."
+msgstr "O próximo tour começará de onde o usuário parou."
+
+#. Description of the 'Request Timeout' (Int) field in DocType 'Webhook'
+#: frappe/integrations/doctype/webhook/webhook.json
+msgid "The number of seconds until the request expires"
+msgstr "Número de segundos até a expiração da solicitação"
+
+#: frappe/www/update-password.html:101
+msgid "The password of your account has expired."
+msgstr "A senha da sua conta expirou."
+
+#: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:398
+msgid "The process for deletion of {0} data associated with {1} has been initiated."
+msgstr "O processo de exclusão dos dados de {0} associados a {1} foi iniciado."
+
+#. Description of the 'App ID' (Data) field in DocType 'Google Settings'
+#: frappe/integrations/doctype/google_settings/google_settings.json
+msgid "The project number obtained from Google Cloud Console under <a href=\"https://console.cloud.google.com/iam-admin/settings\">\n"
+"\"IAM &amp; Admin\" &gt; \"Settings\"\n"
+"</a>"
+msgstr "O número do projeto obtido no Google Cloud Console em <a href=\"https://console.cloud.google.com/iam-admin/settings\">\n"
+"\"IAM &amp; Admin\" &gt; \"Settings\"\n"
+"</a>"
+
+#: frappe/desk/utils.py:106
+msgid "The report you requested has been generated.<br><br>Click here to download:<br><a href='{0}'>{0}</a><br><br>This link will expire in {1} hours."
+msgstr "O relatório solicitado foi gerado.<br><br>Clique aqui para baixar:<br><a href='{0}'>{0}</a><br><br>Este link expirará em {1} horas."
+
+#: frappe/core/doctype/user/user.py:1047
+msgid "The reset password link has been expired"
+msgstr "O link de redefinição de senha expirou"
+
+#: frappe/core/doctype/user/user.py:1049
+msgid "The reset password link has either been used before or is invalid"
+msgstr "O link de redefinição de senha já foi usado ou é inválido"
+
+#: frappe/app.py:391 frappe/public/js/frappe/request.js:149
+msgid "The resource you are looking for is not available"
+msgstr "O recurso que você procura não está disponível"
+
+#: frappe/core/doctype/user_type/user_type.py:114
+msgid "The role {0} should be a custom role."
+msgstr "A função {0} deve ser uma função personalizada."
+
+#: frappe/core/doctype/audit_trail/audit_trail.py:46
+msgid "The selected document {0} is not a {1}."
+msgstr "O documento selecionado {0} não é um {1}."
+
+#: frappe/utils/response.py:338
+msgid "The system is being updated. Please refresh again after a few moments."
+msgstr "O sistema está sendo atualizado. Atualize novamente em instantes."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:9
+msgid "The system provides many pre-defined roles. You can add new roles to set finer permissions."
+msgstr "O sistema fornece muitas funções predefinidas. Você pode adicionar novas funções para definir permissões mais específicas."
+
+#: frappe/core/doctype/user_type/user_type.py:97
+msgid "The total number of user document types limit has been crossed."
+msgstr "O limite total de tipos de documento do usuário foi excedido."
+
+#: frappe/public/js/frappe/form/controls/data.js:25
+msgid "The value you pasted was {0} characters long. Max allowed characters is {1}."
+msgstr "O valor colado tem {0} caracteres. O máximo permitido é {1}."
+
+#. Description of the 'Condition' (Small Text) field in DocType 'Webhook'
+#: frappe/integrations/doctype/webhook/webhook.json
+msgid "The webhook will be triggered if this expression is true"
+msgstr "O webhook será acionado se esta expressão for verdadeira"
+
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:183
+msgid "The {0} is already on auto repeat {1}"
+msgstr "{0} já está em repetição automática {1}"
+
+#. Label of the section_break_6 (Section Break) field in DocType 'Website
+#. Settings'
+#. Label of the theme (Data) field in DocType 'Website Theme'
+#. Label of the theme_scss (Code) field in DocType 'Website Theme'
+#: frappe/website/doctype/website_settings/website_settings.json
+#: frappe/website/doctype/website_theme/website_theme.json
+msgid "Theme"
+msgstr "Tema"
+
+#: frappe/public/js/frappe/ui/theme_switcher.js:130
+msgid "Theme Changed"
+msgstr "Tema alterado"
+
+#. Label of the bootstrap_theme_section (Tab Break) field in DocType 'Website
+#. Theme'
+#: frappe/website/doctype/website_theme/website_theme.json
+msgid "Theme Configuration"
+msgstr "Configuração do tema"
+
+#. Label of the theme_url (Data) field in DocType 'Website Theme'
+#: frappe/website/doctype/website_theme/website_theme.json
+msgid "Theme URL"
+msgstr "URL do tema"
+
+#: frappe/workflow/doctype/workflow/workflow.js:125
+msgid "There are documents which have workflow states that do not exist in this Workflow. It is recommended that you add these states to the Workflow and change their states before removing these states."
+msgstr "Existem documentos com estados de fluxo de trabalho que não existem neste fluxo de trabalho. Recomendamos adicionar esses estados ao fluxo de trabalho e alterar seus estados antes de removê-los."
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:473
+msgid "There are no upcoming events for you."
+msgstr "Não há eventos futuros para você."
+
+#: frappe/website/web_template/discussions/discussions.html:3
+msgid "There are no {0} for this {1}, why don't you start one!"
+msgstr "Não há {0} para este {1}. Que tal iniciar um?"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:976
+msgid "There are {0} with the same filters already in the queue:"
+msgstr "Há {0} com os mesmos filtros já na fila:"
+
+#: frappe/website/doctype/web_form/web_form.js:81
+#: frappe/website/doctype/web_form/web_form.js:334
+msgid "There can be only 9 Page Break fields in a Web Form"
+msgstr "Pode haver no máximo 9 campos de Quebra de página em um Formulário Web"
+
+#: frappe/core/doctype/doctype/doctype.py:1458
+msgid "There can be only one Fold in a form"
+msgstr "Pode haver apenas um Fold em um formulário"
+
+#: frappe/contacts/doctype/address/address.py:182
+msgid "There is an error in your Address Template {0}"
+msgstr "Há um erro no seu modelo de endereço {0}"
+
+#: frappe/core/doctype/data_export/exporter.py:162
+msgid "There is no data to be exported"
+msgstr "Não há dados para exportar"
+
+#: frappe/model/workflow.py:170
+msgid "There is no task called \"{}\""
+msgstr "Não existe tarefa chamada \"{}\""
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:523
+msgid "There is nothing new to show you right now."
+msgstr "Não há nada novo para mostrar agora."
+
+#: frappe/core/doctype/file/file.py:650 frappe/utils/file_manager.py:372
+msgid "There is some problem with the file url: {0}"
+msgstr "Há algum problema com a URL do arquivo: {0}"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:973
+msgid "There is {0} with the same filters already in the queue:"
+msgstr "Há {0} com os mesmos filtros já na fila:"
+
+#: frappe/core/page/permission_manager/permission_manager.py:166
+msgid "There must be atleast one permission rule."
+msgstr "Deve haver pelo menos uma regra de permissão."
+
+#: frappe/www/error.py:17
+msgid "There was an error building this page"
+msgstr "Houve um erro ao montar esta página"
+
+#: frappe/public/js/frappe/views/kanban/kanban_view.js:196
+msgid "There was an error saving filters"
+msgstr "Houve um erro ao salvar os filtros"
+
+#: frappe/public/js/frappe/form/sidebar/attachments.js:237
+msgid "There were errors"
+msgstr "Houve erros"
+
+#: frappe/public/js/frappe/views/interaction.js:277
+msgid "There were errors while creating the document. Please try again."
+msgstr "Houve erros ao criar o documento. Tente novamente."
+
+#: frappe/public/js/frappe/views/communication.js:834
+msgid "There were errors while sending email. Please try again."
+msgstr "Houve erros ao enviar o e-mail. Tente novamente."
+
+#: frappe/model/naming.py:502
+msgid "There were some errors setting the name, please contact the administrator"
+msgstr "Houve alguns erros ao definir o nome. Entre em contato com o administrador"
+
+#. Description of the 'Announcement Widget' (Text Editor) field in DocType
+#. 'Navbar Settings'
+#: frappe/core/doctype/navbar_settings/navbar_settings.json
+msgid "These announcements will appear inside a dismissible alert below the Navbar."
+msgstr "Esses anúncios aparecerão em um alerta dispensável abaixo da barra de navegação."
+
+#. Description of the 'Metadata' (Section Break) field in DocType 'OAuth
+#. Settings'
+#: frappe/integrations/doctype/oauth_settings/oauth_settings.json
+msgid "These fields are used to provide resource server metadata to clients querying the \"well known protected resource\" end point."
+msgstr "Estes campos são usados para fornecer metadados do servidor de recursos a clientes que consultam o endpoint \"well known protected resource\"."
+
+#. Description of the 'LDAP Custom Settings' (Section Break) field in DocType
+#. 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "These settings are required if 'Custom' LDAP Directory is used"
+msgstr "Essas configurações são obrigatórias se o diretório LDAP 'Custom' for usado"
+
+#. Description of the 'Defaults' (Section Break) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "These values will be automatically updated in transactions and also will be useful to restrict permissions for this user on transactions containing these values."
+msgstr "Esses valores serão atualizados automaticamente em transações e também serão úteis para restringir as permissões para este usuário em operações que contenham esses valores."
+
+#: frappe/www/third_party_apps.html:3 frappe/www/third_party_apps.html:14
+msgid "Third Party Apps"
+msgstr "Aplicativos de terceiros"
+
+#. Label of the third_party_authentication (Section Break) field in DocType
+#. 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Third Party Authentication"
+msgstr "Autenticação de terceiros"
+
+#: frappe/geo/doctype/currency/currency.js:8
+msgid "This Currency is disabled. Enable to use in transactions"
+msgstr "Esta moeda está desativada. Ative-a para usá-la em transações"
+
+#: frappe/public/js/frappe/views/kanban/kanban_view.js:405
+msgid "This Kanban Board will be private"
+msgstr "Este quadro Kanban será privado"
+
+#: frappe/public/js/frappe/ui/filters/filter.js:665
+msgid "This Month"
+msgstr "Este mês"
+
+#: frappe/core/doctype/file/file.py:406
+msgid "This PDF cannot be uploaded as it contains unsafe content."
+msgstr "Este PDF não pode ser enviado porque contém conteúdo inseguro."
+
+#: frappe/public/js/frappe/ui/filters/filter.js:669
+msgid "This Quarter"
+msgstr "Este trimestre"
+
+#: frappe/public/js/frappe/ui/filters/filter.js:661
+msgid "This Week"
+msgstr "Esta semana"
+
+#: frappe/public/js/frappe/ui/filters/filter.js:673
+msgid "This Year"
+msgstr "Este ano"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:220
+msgid "This action is irreversible. Do you wish to continue?"
+msgstr "Esta ação é irreversível. Deseja continuar?"
+
+#: frappe/__init__.py:545
+msgid "This action is only allowed for {}"
+msgstr "Esta ação é permitida apenas para {}"
+
+#: frappe/public/js/frappe/form/toolbar.js:128
+#: frappe/public/js/frappe/model/model.js:706
+msgid "This cannot be undone"
+msgstr "Não é possível desfazer isso"
+
+#: frappe/desk/doctype/number_card/number_card.js:484
+msgctxt "Number Card"
+msgid "This card is visible only to Administrator and System Managers by default. Set a DocType to share with users who have read access."
+msgstr "Este cartão é visível apenas para Administrator e Gerentes do sistema por padrão. Defina um DocType para compartilhá-lo com usuários que tenham acesso de leitura."
+
+#. Description of the 'Is Public' (Check) field in DocType 'Number Card'
+#: frappe/desk/doctype/number_card/number_card.json
+msgid "This card will be available to all Users if this is set"
+msgstr "Este cartão estará disponível para todos os usuários se estiver definido"
+
+#. Description of the 'Is Public' (Check) field in DocType 'Dashboard Chart'
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+msgid "This chart will be available to all Users if this is set"
+msgstr "Este gráfico estará disponível para todos os usuários se estiver definido"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:212
+msgid "This doctype has no orphan fields to trim"
+msgstr "Este doctype não tem campos órfãos para aparar"
+
+#: frappe/core/doctype/doctype/doctype.py:1069
+msgid "This doctype has pending migrations, run 'bench migrate' before modifying the doctype to avoid losing changes."
+msgstr "Este doctype tem migrações pendentes. Execute 'bench migrate' antes de modificá-lo para evitar perda de alterações."
+
+#: frappe/model/delete_doc.py:155
+msgid "This document can not be deleted right now as it's being modified by another user. Please try again after some time."
+msgstr "Este documento não pode ser excluído agora, pois está sendo modificado por outro usuário. Tente novamente mais tarde."
+
+#: frappe/core/doctype/submission_queue/submission_queue.py:171
+msgid "This document has already been queued for submission. You can track the progress over {0}."
+msgstr "Este documento já foi colocado na fila de envio. Você pode acompanhar o progresso em {0}."
+
+#: frappe/www/confirm_workflow_action.html:8
+msgid "This document has been modified after the email was sent."
+msgstr "Este documento foi modificado depois que o e-mail foi enviado."
+
+#: frappe/public/js/frappe/form/form.js:1317
+msgid "This document has unsaved changes which might not appear in final PDF. <br> Consider saving the document before printing."
+msgstr "Este documento tem alterações não salvas que podem não aparecer no PDF final. <br> Considere salvar o documento antes de imprimir."
+
+#: frappe/public/js/frappe/form/form.js:1105
+msgid "This document is already amended, you cannot ammend it again"
+msgstr "Este documento já foi corrigido; você não pode corrigi-lo novamente"
+
+#: frappe/model/document.py:509
+msgid "This document is currently locked and queued for execution. Please try again after some time."
+msgstr "Este documento está bloqueado no momento e na fila para execução. Tente novamente mais tarde."
+
+#: frappe/templates/emails/auto_repeat_fail.html:7
+msgid "This email is autogenerated"
+msgstr "Este e-mail é gerado automaticamente"
+
+#: frappe/printing/doctype/network_printer_settings/network_printer_settings.py:30
+msgid "This feature can not be used as dependencies are missing.\n"
+"\t\t\t\tPlease contact your system manager to enable this by installing pycups!"
+msgstr "Este recurso não pode ser usado porque faltam dependências.\n"
+"\t\t\t\tEntre em contato com seu gerente do sistema para habilitá-lo instalando pycups!"
+
+#: frappe/public/js/frappe/form/templates/form_sidebar.html:41
+msgid "This feature is brand new and still experimental"
+msgstr "Este recurso é novo e ainda é experimental"
+
+#. Description of the 'Depends On' (Code) field in DocType 'Customize Form
+#. Field'
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "This field will appear only if the fieldname defined here has value OR the rules are true (examples):\n"
+"myfield\n"
+"eval:doc.myfield=='My Value'\n"
+"eval:doc.age&gt;18"
+msgstr "Este campo aparecerá apenas se o fieldname definido aqui tiver valor OU se as regras forem verdadeiras (exemplos):\n"
+"myfield\n"
+"eval:doc.myfield=='My Value'\n"
+"eval:doc.age&gt;18"
+
+#: frappe/core/doctype/file/file.py:532
+msgid "This file is attached to a protected document and cannot be deleted."
+msgstr "Este arquivo está anexado a um documento protegido e não pode ser excluído."
+
+#: frappe/public/js/frappe/file_uploader/FilePreview.vue:83
+msgid "This file is public and can be accessed by anyone, even without logging in. Mark it private to limit access."
+msgstr "Este arquivo é público e pode ser acessado por qualquer pessoa, mesmo sem fazer login. Marque-o como privado para limitar o acesso."
+
+#: frappe/core/doctype/file/file.js:20
+msgid "This file is public. It can be accessed without authentication."
+msgstr "Este arquivo é público. Ele pode ser acessado sem autenticação."
+
+#: frappe/public/js/frappe/form/form.js:1211
+msgid "This form has been modified after you have loaded it"
+msgstr "Este formulário foi modificado depois que você o carregou"

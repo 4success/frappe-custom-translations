@@ -1,0 +1,914 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#: erpnext/assets/doctype/asset/depreciation.py:456
+msgid "This schedule was created when Asset {0} was restored."
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1421
+msgid "This schedule was created when Asset {0} was returned through Sales Invoice {1}."
+msgstr ""
+
+#: erpnext/assets/doctype/asset/depreciation.py:415
+msgid "This schedule was created when Asset {0} was scrapped."
+msgstr ""
+
+#: erpnext/assets/doctype/asset/asset.py:1484
+msgid "This schedule was created when Asset {0} was {1} into new Asset {2}."
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1397
+msgid "This schedule was created when Asset {0} was {1} through Sales Invoice {2}."
+msgstr ""
+
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.py:208
+msgid "This schedule was created when Asset {0}'s Asset Value Adjustment {1} was cancelled."
+msgstr ""
+
+#: erpnext/assets/doctype/asset_shift_allocation/asset_shift_allocation.py:207
+msgid "This schedule was created when Asset {0}'s shifts were adjusted through Asset Shift Allocation {1}."
+msgstr ""
+
+#. Description of the 'Dunning Letter' (Section Break) field in DocType
+#. 'Dunning Type'
+#: erpnext/accounts/doctype/dunning_type/dunning_type.json
+msgid "This section allows the user to set the Body and Closing text of the Dunning Letter for the Dunning Type based on language, which can be used in Print."
+msgstr ""
+
+#: erpnext/stock/doctype/delivery_note/delivery_note.js:493
+msgid "This table is used to set details about the 'Item', 'Qty', 'Basic Rate', etc."
+msgstr ""
+
+#. Description of a DocType
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
+msgid "This tool helps you to update or fix the quantity and valuation of stock in the system. It is typically used to synchronise the system values and what actually exists in your warehouses."
+msgstr ""
+
+#. Description of the 'Default Common Code' (Link) field in DocType 'Code List'
+#: erpnext/edi/doctype/code_list/code_list.json
+msgid "This value shall be used when no matching Common Code for a record is found."
+msgstr ""
+
+#. Description of the 'Abbreviation' (Data) field in DocType 'Item Attribute
+#. Value'
+#: erpnext/stock/doctype/item_attribute_value/item_attribute_value.json
+msgid "This will be appended to the Item Code of the variant. For example, if your abbreviation is \"SM\", and the item code is \"T-SHIRT\", the item code of the variant will be \"T-SHIRT-SM\""
+msgstr ""
+
+#. Description of the 'Create User Permission' (Check) field in DocType
+#. 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "This will restrict user access to other employee records"
+msgstr ""
+
+#: erpnext/controllers/selling_controller.py:866
+msgid "This {} will be treated as material transfer."
+msgstr ""
+
+#. Label of the threshold_percentage (Percent) field in DocType 'Promotional
+#. Scheme Price Discount'
+#. Label of the threshold_percentage (Percent) field in DocType 'Promotional
+#. Scheme Product Discount'
+#: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
+#: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
+msgid "Threshold for Suggestion"
+msgstr ""
+
+#. Label of the threshold_percentage (Percent) field in DocType 'Pricing Rule'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+msgid "Threshold for Suggestion (In Percentage)"
+msgstr ""
+
+#. Label of the thumbnail (Data) field in DocType 'BOM'
+#. Label of the thumbnail (Data) field in DocType 'BOM Website Operation'
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/bom_website_operation/bom_website_operation.json
+msgid "Thumbnail"
+msgstr ""
+
+#. Label of the tier_name (Data) field in DocType 'Loyalty Program Collection'
+#: erpnext/accounts/doctype/loyalty_program_collection/loyalty_program_collection.json
+msgid "Tier Name"
+msgstr ""
+
+#. Label of the time_in_mins (Float) field in DocType 'Job Card Scheduled Time'
+#: erpnext/manufacturing/doctype/job_card_scheduled_time/job_card_scheduled_time.json
+#: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.py:125
+msgid "Time (In Mins)"
+msgstr "Tempo (em Minutos)"
+
+#. Label of the mins_between_operations (Int) field in DocType 'Manufacturing
+#. Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Time Between Operations (Mins)"
+msgstr ""
+
+#. Label of the time_in_mins (Float) field in DocType 'Job Card Time Log'
+#: erpnext/manufacturing/doctype/job_card_time_log/job_card_time_log.json
+msgid "Time In Mins"
+msgstr ""
+
+#. Label of the time_logs (Table) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Time Logs"
+msgstr ""
+
+#: erpnext/manufacturing/report/job_card_summary/job_card_summary.py:182
+msgid "Time Required (In Mins)"
+msgstr "Tempo Necessário (em Minutos)"
+
+#. Label of the time_sheet (Link) field in DocType 'Sales Invoice Timesheet'
+#: erpnext/accounts/doctype/sales_invoice_timesheet/sales_invoice_timesheet.json
+msgid "Time Sheet"
+msgstr ""
+
+#. Label of the time_sheet_list (Section Break) field in DocType 'POS Invoice'
+#. Label of the time_sheet_list (Section Break) field in DocType 'Sales
+#. Invoice'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Time Sheet List"
+msgstr ""
+
+#. Label of the timesheets (Table) field in DocType 'POS Invoice'
+#. Label of the timesheets (Table) field in DocType 'Sales Invoice'
+#. Label of the time_logs (Table) field in DocType 'Timesheet'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/projects/doctype/timesheet/timesheet.json
+msgid "Time Sheets"
+msgstr ""
+
+#: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:324
+msgid "Time Taken to Deliver"
+msgstr ""
+
+#. Label of a Card Break in the Projects Workspace
+#: erpnext/config/projects.py:50
+#: erpnext/projects/workspace/projects/projects.json
+msgid "Time Tracking"
+msgstr "Controle de Tempo"
+
+#. Description of the 'Posting Time' (Time) field in DocType 'Subcontracting
+#. Receipt'
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Time at which materials were received"
+msgstr ""
+
+#. Description of the 'Operation Time' (Float) field in DocType 'Sub Operation'
+#: erpnext/manufacturing/doctype/sub_operation/sub_operation.json
+msgid "Time in mins"
+msgstr ""
+
+#. Description of the 'Total Operation Time' (Float) field in DocType
+#. 'Operation'
+#: erpnext/manufacturing/doctype/operation/operation.json
+msgid "Time in mins."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:751
+msgid "Time logs are required for {0} {1}"
+msgstr "Registros de tempo são necessários para {0} {1}"
+
+#: erpnext/crm/doctype/appointment/appointment.py:60
+msgid "Time slot is not available"
+msgstr ""
+
+#: erpnext/templates/generators/bom.html:71
+msgid "Time(in mins)"
+msgstr "Tempo (em minutos)"
+
+#: erpnext/manufacturing/doctype/workstation/workstation_job_card.html:36
+#: erpnext/public/js/projects/timer.js:5
+msgid "Timer"
+msgstr "Cronômetro"
+
+#: erpnext/public/js/projects/timer.js:151
+msgid "Timer exceeded the given hours."
+msgstr "O temporizador excedeu as horas dadas."
+
+#. Name of a DocType
+#. Label of a Link in the Projects Workspace
+#. Label of a shortcut in the Projects Workspace
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:1044
+#: erpnext/projects/doctype/timesheet/timesheet.json
+#: erpnext/projects/report/daily_timesheet_summary/daily_timesheet_summary.py:26
+#: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.py:59
+#: erpnext/projects/workspace/projects/projects.json
+#: erpnext/templates/pages/projects.html:65
+msgid "Timesheet"
+msgstr "Registro de Tempo"
+
+#. Name of a report
+#. Label of a Link in the Projects Workspace
+#: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.json
+#: erpnext/projects/workspace/projects/projects.json
+msgid "Timesheet Billing Summary"
+msgstr ""
+
+#. Label of the timesheet_detail (Data) field in DocType 'Sales Invoice
+#. Timesheet'
+#. Name of a DocType
+#: erpnext/accounts/doctype/sales_invoice_timesheet/sales_invoice_timesheet.json
+#: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
+msgid "Timesheet Detail"
+msgstr "Detalhes do Registro de Tempo"
+
+#: erpnext/config/projects.py:55
+msgid "Timesheet for tasks."
+msgstr "Registros de Tempo para tarefas."
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:868
+msgid "Timesheet {0} is already completed or cancelled"
+msgstr "O Registro de Tempo {0} está finalizado ou cancelado"
+
+#. Label of the timesheet_sb (Section Break) field in DocType 'Projects
+#. Settings'
+#: erpnext/projects/doctype/projects_settings/projects_settings.json
+#: erpnext/projects/doctype/timesheet/timesheet.py:559
+#: erpnext/templates/pages/projects.html:60
+msgid "Timesheets"
+msgstr "Registros de Tempo"
+
+#: erpnext/utilities/activation.py:125
+msgid "Timesheets help keep track of time, cost and billing for activities done by your team"
+msgstr ""
+
+#. Label of the timeslots_section (Section Break) field in DocType
+#. 'Communication Medium'
+#. Label of the timeslots (Table) field in DocType 'Communication Medium'
+#: erpnext/communication/doctype/communication_medium/communication_medium.json
+msgid "Timeslots"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Purchase Order'
+#. Option for the 'Sales Order Status' (Select) field in DocType 'Production
+#. Plan'
+#. Option for the 'Status' (Select) field in DocType 'Sales Order'
+#. Option for the 'Status' (Select) field in DocType 'Delivery Note'
+#. Option for the 'Status' (Select) field in DocType 'Purchase Receipt'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/purchase_order/purchase_order_list.js:39
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/selling/doctype/sales_order/sales_order_list.js:58
+#: erpnext/selling/doctype/sales_order/sales_order_list.js:60
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/delivery_note/delivery_note_list.js:22
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt_list.js:21
+msgid "To Bill"
+msgstr "Para Faturar"
+
+#. Label of the to_currency (Link) field in DocType 'Currency Exchange'
+#: erpnext/setup/doctype/currency_exchange/currency_exchange.json
+msgid "To Currency"
+msgstr ""
+
+#: erpnext/controllers/accounts_controller.py:625
+#: erpnext/setup/doctype/holiday_list/holiday_list.py:121
+msgid "To Date cannot be before From Date"
+msgstr "Até o momento não pode ser antes a partir da data"
+
+#: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:38
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:34
+#: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:39
+msgid "To Date cannot be before From Date."
+msgstr "A data de término não pode ser anterior à data de início."
+
+#: erpnext/accounts/report/financial_statements.py:141
+msgid "To Date cannot be less than From Date"
+msgstr "Até a data não pode ser menor que a partir da data"
+
+#: erpnext/crm/report/sales_pipeline_analytics/sales_pipeline_analytics.py:30
+msgid "To Date is mandatory"
+msgstr ""
+
+#: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.py:11
+#: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.py:11
+#: erpnext/selling/page/sales_funnel/sales_funnel.py:15
+msgid "To Date must be greater than From Date"
+msgstr ""
+
+#: erpnext/accounts/report/trial_balance/trial_balance.py:77
+msgid "To Date should be within the Fiscal Year. Assuming To Date = {0}"
+msgstr ""
+
+#: erpnext/projects/report/daily_timesheet_summary/daily_timesheet_summary.py:30
+msgid "To Datetime"
+msgstr "Até a Data e Hora"
+
+#. Option for the 'Sales Order Status' (Select) field in DocType 'Production
+#. Plan'
+#. Option for the 'Status' (Select) field in DocType 'Sales Order'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/selling/doctype/sales_order/sales_order_list.js:37
+#: erpnext/selling/doctype/sales_order/sales_order_list.js:50
+msgid "To Deliver"
+msgstr "Para Entregar"
+
+#. Option for the 'Sales Order Status' (Select) field in DocType 'Production
+#. Plan'
+#. Option for the 'Status' (Select) field in DocType 'Sales Order'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/selling/doctype/sales_order/sales_order_list.js:44
+msgid "To Deliver and Bill"
+msgstr "Para Entregar e Faturar"
+
+#. Label of the to_delivery_date (Date) field in DocType 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "To Delivery Date"
+msgstr ""
+
+#. Label of the to_doctype (Link) field in DocType 'Bulk Transaction Log
+#. Detail'
+#: erpnext/bulk_transaction/doctype/bulk_transaction_log_detail/bulk_transaction_log_detail.json
+msgid "To Doctype"
+msgstr ""
+
+#: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.js:83
+msgid "To Due Date"
+msgstr ""
+
+#. Label of the to_employee (Link) field in DocType 'Asset Movement Item'
+#: erpnext/assets/doctype/asset_movement_item/asset_movement_item.json
+msgid "To Employee"
+msgstr ""
+
+#. Label of the to_fiscal_year (Link) field in DocType 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.js:51
+msgid "To Fiscal Year"
+msgstr "Para o Ano Fiscal"
+
+#. Label of the to_folio_no (Data) field in DocType 'Share Transfer'
+#: erpnext/accounts/doctype/share_transfer/share_transfer.json
+msgid "To Folio No"
+msgstr ""
+
+#. Label of the to_invoice_date (Date) field in DocType 'Payment
+#. Reconciliation'
+#. Label of the to_invoice_date (Date) field in DocType 'Process Payment
+#. Reconciliation'
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
+msgid "To Invoice Date"
+msgstr ""
+
+#. Label of the to_no (Int) field in DocType 'Share Balance'
+#. Label of the to_no (Int) field in DocType 'Share Transfer'
+#: erpnext/accounts/doctype/share_balance/share_balance.json
+#: erpnext/accounts/doctype/share_transfer/share_transfer.json
+msgid "To No"
+msgstr ""
+
+#. Label of the to_case_no (Int) field in DocType 'Packing Slip'
+#: erpnext/stock/doctype/packing_slip/packing_slip.json
+msgid "To Package No."
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Sales Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order_list.js:22
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/selling/doctype/sales_order/sales_order_list.js:25
+msgid "To Pay"
+msgstr ""
+
+#. Label of the to_payment_date (Date) field in DocType 'Payment
+#. Reconciliation'
+#. Label of the to_payment_date (Date) field in DocType 'Process Payment
+#. Reconciliation'
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
+msgid "To Payment Date"
+msgstr ""
+
+#: erpnext/manufacturing/report/job_card_summary/job_card_summary.js:43
+#: erpnext/manufacturing/report/work_order_summary/work_order_summary.js:29
+msgid "To Posting Date"
+msgstr "Para Data de Postagem"
+
+#. Label of the to_range (Float) field in DocType 'Item Attribute'
+#. Label of the to_range (Float) field in DocType 'Item Variant Attribute'
+#: erpnext/stock/doctype/item_attribute/item_attribute.json
+#: erpnext/stock/doctype/item_variant_attribute/item_variant_attribute.json
+msgid "To Range"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Purchase Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/purchase_order/purchase_order_list.js:32
+msgid "To Receive"
+msgstr "Receber"
+
+#. Option for the 'Status' (Select) field in DocType 'Purchase Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/purchase_order/purchase_order_list.js:26
+msgid "To Receive and Bill"
+msgstr "Para Receber e Faturar"
+
+#. Label of the to_reference_date (Date) field in DocType 'Bank Reconciliation
+#. Tool'
+#: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.json
+msgid "To Reference Date"
+msgstr ""
+
+#. Label of the to_rename (Check) field in DocType 'GL Entry'
+#. Label of the to_rename (Check) field in DocType 'Stock Ledger Entry'
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
+msgid "To Rename"
+msgstr ""
+
+#. Label of the to_shareholder (Link) field in DocType 'Share Transfer'
+#: erpnext/accounts/doctype/share_transfer/share_transfer.json
+msgid "To Shareholder"
+msgstr ""
+
+#. Label of the time (Time) field in DocType 'Cashier Closing'
+#. Label of the to_time (Datetime) field in DocType 'Sales Invoice Timesheet'
+#. Label of the to_time (Time) field in DocType 'Communication Medium Timeslot'
+#. Label of the to_time (Time) field in DocType 'Appointment Booking Slots'
+#. Label of the to_time (Time) field in DocType 'Availability Of Slots'
+#. Label of the to_time (Datetime) field in DocType 'Downtime Entry'
+#. Label of the to_time (Datetime) field in DocType 'Job Card Scheduled Time'
+#. Label of the to_time (Datetime) field in DocType 'Job Card Time Log'
+#. Label of the to_time (Time) field in DocType 'Project'
+#. Label of the to_time (Datetime) field in DocType 'Timesheet Detail'
+#. Label of the to_time (Time) field in DocType 'Incoming Call Handling
+#. Schedule'
+#: erpnext/accounts/doctype/cashier_closing/cashier_closing.json
+#: erpnext/accounts/doctype/sales_invoice_timesheet/sales_invoice_timesheet.json
+#: erpnext/communication/doctype/communication_medium_timeslot/communication_medium_timeslot.json
+#: erpnext/crm/doctype/appointment_booking_slots/appointment_booking_slots.json
+#: erpnext/crm/doctype/availability_of_slots/availability_of_slots.json
+#: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json
+#: erpnext/manufacturing/doctype/job_card_scheduled_time/job_card_scheduled_time.json
+#: erpnext/manufacturing/doctype/job_card_time_log/job_card_time_log.json
+#: erpnext/manufacturing/report/downtime_analysis/downtime_analysis.py:92
+#: erpnext/manufacturing/report/job_card_summary/job_card_summary.py:180
+#: erpnext/projects/doctype/project/project.json
+#: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
+#: erpnext/telephony/doctype/incoming_call_handling_schedule/incoming_call_handling_schedule.json
+#: erpnext/templates/pages/timelog_info.html:34
+msgid "To Time"
+msgstr "Até o Horário"
+
+#: erpnext/projects/doctype/timesheet_detail/timesheet_detail.py:108
+msgid "To Time cannot be before from date"
+msgstr ""
+
+#. Description of the 'Referral Code' (Data) field in DocType 'Sales Partner'
+#: erpnext/setup/doctype/sales_partner/sales_partner.json
+msgid "To Track inbound purchase"
+msgstr ""
+
+#. Label of the to_value (Float) field in DocType 'Shipping Rule Condition'
+#: erpnext/accounts/doctype/shipping_rule_condition/shipping_rule_condition.json
+msgid "To Value"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:224
+#: erpnext/stock/doctype/batch/batch.js:114
+msgid "To Warehouse"
+msgstr ""
+
+#. Label of the target_warehouse (Link) field in DocType 'Packed Item'
+#: erpnext/stock/doctype/packed_item/packed_item.json
+msgid "To Warehouse (Optional)"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.js:942
+msgid "To add Operations tick the 'With Operations' checkbox."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:740
+msgid "To add subcontracted Item's raw materials if include exploded items is disabled."
+msgstr ""
+
+#: erpnext/controllers/status_updater.py:449
+msgid "To allow over billing, update \"Over Billing Allowance\" in Accounts Settings or the Item."
+msgstr ""
+
+#: erpnext/controllers/status_updater.py:445
+msgid "To allow over receipt / delivery, update \"Over Receipt/Delivery Allowance\" in Stock Settings or the Item."
+msgstr ""
+
+#. Description of the 'Mandatory Depends On' (Small Text) field in DocType
+#. 'Inventory Dimension'
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
+msgid "To apply condition on parent field use parent.field_name and to apply condition on child table use doc.field_name. Here field_name could be based on the actual column name of the respective field."
+msgstr ""
+
+#. Label of the delivered_by_supplier (Check) field in DocType 'Purchase Order
+#. Item'
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+msgid "To be Delivered to Customer"
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:560
+msgid "To cancel a {} you need to cancel the POS Closing Entry {}."
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:573
+msgid "To cancel this Sales Invoice you need to cancel the POS Closing Entry {}."
+msgstr ""
+
+#: erpnext/accounts/doctype/payment_request/payment_request.py:115
+msgid "To create a Payment Request reference document is required"
+msgstr "Para criar um documento de referência de Pedido de pagamento é necessário"
+
+#: erpnext/assets/doctype/asset_category/asset_category.py:110
+msgid "To enable Capital Work in Progress Accounting,"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:733
+msgid "To include non-stock items in the material request planning. i.e. Items for which 'Maintain Stock' checkbox is unticked."
+msgstr ""
+
+#. Description of the 'Set Operating Cost / Scrap Items From Sub-assemblies'
+#. (Check) field in DocType 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "To include sub-assembly costs and scrap items in Finished Goods on a work order without using a job card, when the 'Use Multi-Level BOM' option is enabled."
+msgstr ""
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:2309
+#: erpnext/controllers/accounts_controller.py:3231
+msgid "To include tax in row {0} in Item rate, taxes in rows {1} must also be included"
+msgstr "Para incluir impostos na linha {0} na taxa de Item, os impostos em linhas {1} também deve ser incluída"
+
+#: erpnext/stock/doctype/item/item.py:641
+msgid "To merge, following properties must be same for both items"
+msgstr ""
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:42
+msgid "To not apply Pricing Rule in a particular transaction, all applicable Pricing Rules should be disabled."
+msgstr ""
+
+#: erpnext/accounts/doctype/account/account.py:552
+msgid "To overrule this, enable '{0}' in company {1}"
+msgstr "Para anular isso, ative ';{0}'; na empresa {1}"
+
+#: erpnext/controllers/item_variant.py:151
+msgid "To still proceed with editing this Attribute Value, enable {0} in Item Variant Settings."
+msgstr ""
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:628
+msgid "To submit the invoice without purchase order please set {0} as {1} in {2}"
+msgstr ""
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:649
+msgid "To submit the invoice without purchase receipt please set {0} as {1} in {2}"
+msgstr ""
+
+#: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.py:48
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:234
+msgid "To use a different finance book, please uncheck 'Include Default FB Assets'"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_engine.py:683
+#: erpnext/accounts/report/financial_statements.py:624
+#: erpnext/accounts/report/general_ledger/general_ledger.py:310
+#: erpnext/accounts/report/trial_balance/trial_balance.py:310
+msgid "To use a different finance book, please uncheck 'Include Default FB Entries'"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Ton (Long)/Cubic Yard"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Ton (Short)/Cubic Yard"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Ton-Force (UK)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Ton-Force (US)"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Tonne"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Tonne-Force(Metric)"
+msgstr ""
+
+#: erpnext/accounts/report/financial_statements.html:6
+msgid "Too many columns. Export the report and print it using a spreadsheet application."
+msgstr ""
+
+#. Label of a Card Break in the Manufacturing Workspace
+#. Label of the tools (Column Break) field in DocType 'Email Digest'
+#. Label of a Card Break in the Stock Workspace
+#: erpnext/buying/doctype/purchase_order/purchase_order.js:641
+#: erpnext/buying/doctype/purchase_order/purchase_order.js:717
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:70
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:157
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:442
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:451
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.js:76
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:123
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/setup/doctype/email_digest/email_digest.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Tools"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Torr"
+msgstr ""
+
+#. Label of the base_total (Currency) field in DocType 'Advance Taxes and
+#. Charges'
+#. Label of the base_total (Currency) field in DocType 'POS Invoice'
+#. Label of the base_total (Currency) field in DocType 'Purchase Invoice'
+#. Label of the base_total (Currency) field in DocType 'Purchase Taxes and
+#. Charges'
+#. Label of the base_total (Currency) field in DocType 'Sales Invoice'
+#. Label of the base_total (Currency) field in DocType 'Sales Taxes and
+#. Charges'
+#. Label of the base_total (Currency) field in DocType 'Purchase Order'
+#. Label of the base_total (Currency) field in DocType 'Supplier Quotation'
+#. Label of the base_total (Currency) field in DocType 'Opportunity'
+#. Label of the base_total (Currency) field in DocType 'Quotation'
+#. Label of the base_total (Currency) field in DocType 'Sales Order'
+#. Label of the base_total (Currency) field in DocType 'Delivery Note'
+#. Label of the base_total (Currency) field in DocType 'Purchase Receipt'
+#: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Total (Company Currency)"
+msgstr ""
+
+#: erpnext/accounts/report/balance_sheet/balance_sheet.py:126
+#: erpnext/accounts/report/balance_sheet/balance_sheet.py:127
+msgid "Total (Credit)"
+msgstr "Total (crédito)"
+
+#: erpnext/templates/print_formats/includes/total.html:4
+msgid "Total (Without Tax)"
+msgstr "Total (sem Imposto)"
+
+#: erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py:137
+msgid "Total Achieved"
+msgstr "Total de Alcançados"
+
+#. Label of a number card in the Stock Workspace
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Total Active Items"
+msgstr ""
+
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:127
+msgid "Total Actual"
+msgstr "Total Atual"
+
+#. Label of the total_additional_costs (Currency) field in DocType 'Stock
+#. Entry'
+#. Label of the total_additional_costs (Currency) field in DocType
+#. 'Subcontracting Order'
+#. Label of the total_additional_costs (Currency) field in DocType
+#. 'Subcontracting Receipt'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Total Additional Costs"
+msgstr ""
+
+#. Label of the total_advance (Currency) field in DocType 'POS Invoice'
+#. Label of the total_advance (Currency) field in DocType 'Purchase Invoice'
+#. Label of the total_advance (Currency) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Total Advance"
+msgstr ""
+
+#. Label of the total_allocated_amount (Currency) field in DocType 'Payment
+#. Entry'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+msgid "Total Allocated Amount"
+msgstr ""
+
+#. Label of the base_total_allocated_amount (Currency) field in DocType
+#. 'Payment Entry'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+msgid "Total Allocated Amount (Company Currency)"
+msgstr ""
+
+#. Label of the total_allocations (Int) field in DocType 'Process Payment
+#. Reconciliation Log'
+#: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.json
+msgid "Total Allocations"
+msgstr ""
+
+#. Label of the total_amount (Currency) field in DocType 'Invoice Discounting'
+#. Label of the total_amount (Currency) field in DocType 'Journal Entry'
+#. Label of the total_amount (Float) field in DocType 'Serial and Batch Bundle'
+#. Label of the total_amount (Currency) field in DocType 'Stock Entry'
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.json
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:255
+#: erpnext/accounts/report/tds_computation_summary/tds_computation_summary.py:131
+#: erpnext/selling/page/sales_funnel/sales_funnel.py:167
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/report/supplier_wise_sales_analytics/supplier_wise_sales_analytics.py:66
+#: erpnext/templates/includes/order/order_taxes.html:54
+msgid "Total Amount"
+msgstr "Valor Total"
+
+#. Label of the total_amount_currency (Link) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Total Amount Currency"
+msgstr ""
+
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:174
+msgid "Total Amount Due"
+msgstr ""
+
+#. Label of the total_amount_in_words (Data) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Total Amount in Words"
+msgstr ""
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:218
+msgid "Total Applicable Charges in Purchase Receipt Items table must be same as Total Taxes and Charges"
+msgstr ""
+
+#: erpnext/accounts/report/balance_sheet/balance_sheet.py:216
+msgid "Total Asset"
+msgstr ""
+
+#. Label of the total_asset_cost (Currency) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Total Asset Cost"
+msgstr ""
+
+#: erpnext/assets/dashboard_fixtures.py:153
+msgid "Total Assets"
+msgstr "Total de Ativos"
+
+#. Label of the total_billable_amount (Currency) field in DocType 'Timesheet'
+#: erpnext/projects/doctype/timesheet/timesheet.json
+msgid "Total Billable Amount"
+msgstr ""
+
+#. Label of the total_billable_amount (Currency) field in DocType 'Project'
+#. Label of the total_billing_amount (Currency) field in DocType 'Task'
+#: erpnext/projects/doctype/project/project.json
+#: erpnext/projects/doctype/task/task.json
+msgid "Total Billable Amount (via Timesheet)"
+msgstr ""
+
+#. Label of the total_billable_hours (Float) field in DocType 'Timesheet'
+#: erpnext/projects/doctype/timesheet/timesheet.json
+msgid "Total Billable Hours"
+msgstr ""
+
+#. Label of the total_billed_amount (Currency) field in DocType 'Timesheet'
+#: erpnext/projects/doctype/timesheet/timesheet.json
+msgid "Total Billed Amount"
+msgstr ""
+
+#. Label of the total_billed_amount (Currency) field in DocType 'Project'
+#: erpnext/projects/doctype/project/project.json
+msgid "Total Billed Amount (via Sales Invoice)"
+msgstr ""
+
+#. Label of the total_billed_hours (Float) field in DocType 'Timesheet'
+#: erpnext/projects/doctype/timesheet/timesheet.json
+msgid "Total Billed Hours"
+msgstr ""
+
+#. Label of the total_billing_amount (Currency) field in DocType 'POS Invoice'
+#. Label of the total_billing_amount (Currency) field in DocType 'Sales
+#. Invoice'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Total Billing Amount"
+msgstr ""
+
+#. Label of the total_billing_hours (Float) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Total Billing Hours"
+msgstr ""
+
+#: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:127
+msgid "Total Budget"
+msgstr "Orçamento Total"
+
+#. Label of the total_characters (Int) field in DocType 'SMS Center'
+#: erpnext/selling/doctype/sms_center/sms_center.json
+msgid "Total Characters"
+msgstr ""
+
+#. Label of the total_commission (Currency) field in DocType 'POS Invoice'
+#. Label of the total_commission (Currency) field in DocType 'Sales Invoice'
+#. Label of the total_commission (Currency) field in DocType 'Sales Order'
+#. Label of the total_commission (Currency) field in DocType 'Delivery Note'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/selling/report/sales_partner_commission_summary/sales_partner_commission_summary.py:73
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+msgid "Total Commission"
+msgstr "Total da Comissão"
+
+#. Label of the total_completed_qty (Float) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/job_card/job_card.py:768
+#: erpnext/manufacturing/report/job_card_summary/job_card_summary.py:174
+msgid "Total Completed Qty"
+msgstr ""
+
+#. Label of the total_consumed_material_cost (Currency) field in DocType
+#. 'Project'
+#: erpnext/projects/doctype/project/project.json
+msgid "Total Consumed Material Cost (via Stock Entry)"
+msgstr ""
+
+#: erpnext/setup/doctype/sales_person/sales_person.js:17
+msgid "Total Contribution Amount Against Invoices: {0}"
+msgstr ""
+
+#: erpnext/setup/doctype/sales_person/sales_person.js:10
+msgid "Total Contribution Amount Against Orders: {0}"
+msgstr ""
+
+#. Label of the total_cost (Currency) field in DocType 'BOM'
+#. Label of the raw_material_cost (Currency) field in DocType 'BOM Creator'
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+msgid "Total Cost"
+msgstr ""
+
+#. Label of the base_total_cost (Currency) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Total Cost (Company Currency)"
+msgstr ""
+
+#. Label of the total_costing_amount (Currency) field in DocType 'Timesheet'
+#: erpnext/projects/doctype/timesheet/timesheet.json
+msgid "Total Costing Amount"
+msgstr ""
+
+#. Label of the total_costing_amount (Currency) field in DocType 'Project'
+#. Label of the total_costing_amount (Currency) field in DocType 'Task'
+#: erpnext/projects/doctype/project/project.json
+#: erpnext/projects/doctype/task/task.json
+msgid "Total Costing Amount (via Timesheet)"
+msgstr ""
+
+#. Label of the total_credit (Currency) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Total Credit"
+msgstr ""
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:326
+msgid "Total Credit/ Debit Amount should be same as linked Journal Entry"
+msgstr "O valor total de crédito / débito deve ser o mesmo que o lançamento no diário associado"
+
+#. Label of the total_debit (Currency) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Total Debit"
+msgstr ""

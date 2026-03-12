@@ -1,0 +1,932 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Label of the date_of_joining (Date) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Date of Joining"
+msgstr ""
+
+#: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:287
+msgid "Date of Transaction"
+msgstr "Data da Transação"
+
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:25
+msgid "Date: {0} to {1}"
+msgstr ""
+
+#. Label of the dates_section (Section Break) field in DocType 'GL Entry'
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+msgid "Dates"
+msgstr ""
+
+#. Label of the normal_balances (Table) field in DocType 'Process Period
+#. Closing Voucher'
+#: erpnext/accounts/doctype/process_period_closing_voucher/process_period_closing_voucher.json
+msgid "Dates to Process"
+msgstr ""
+
+#. Label of the day_of_week (Select) field in DocType 'Appointment Booking
+#. Slots'
+#. Label of the day_of_week (Select) field in DocType 'Availability Of Slots'
+#. Label of the day_of_week (Select) field in DocType 'Incoming Call Handling
+#. Schedule'
+#: erpnext/crm/doctype/appointment_booking_slots/appointment_booking_slots.json
+#: erpnext/crm/doctype/availability_of_slots/availability_of_slots.json
+#: erpnext/telephony/doctype/incoming_call_handling_schedule/incoming_call_handling_schedule.json
+msgid "Day Of Week"
+msgstr ""
+
+#. Label of the day_to_send (Select) field in DocType 'Project'
+#: erpnext/projects/doctype/project/project.json
+msgid "Day to Send"
+msgstr ""
+
+#. Option for the 'Due Date Based On' (Select) field in DocType 'Payment
+#. Schedule'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
+#. 'Payment Schedule'
+#. Option for the 'Due Date Based On' (Select) field in DocType 'Payment Term'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
+#. 'Payment Term'
+#. Option for the 'Due Date Based On' (Select) field in DocType 'Payment Terms
+#. Template Detail'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
+#. 'Payment Terms Template Detail'
+#: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
+#: erpnext/accounts/doctype/payment_term/payment_term.json
+#: erpnext/accounts/doctype/payment_terms_template_detail/payment_terms_template_detail.json
+msgid "Day(s) after invoice date"
+msgstr ""
+
+#. Option for the 'Due Date Based On' (Select) field in DocType 'Payment
+#. Schedule'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
+#. 'Payment Schedule'
+#. Option for the 'Due Date Based On' (Select) field in DocType 'Payment Term'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
+#. 'Payment Term'
+#. Option for the 'Due Date Based On' (Select) field in DocType 'Payment Terms
+#. Template Detail'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
+#. 'Payment Terms Template Detail'
+#: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
+#: erpnext/accounts/doctype/payment_term/payment_term.json
+#: erpnext/accounts/doctype/payment_terms_template_detail/payment_terms_template_detail.json
+msgid "Day(s) after the end of the invoice month"
+msgstr ""
+
+#. Option for the 'Book Deferred Entries Based On' (Select) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Days"
+msgstr ""
+
+#: erpnext/accounts/report/inactive_sales_items/inactive_sales_items.py:51
+#: erpnext/selling/report/inactive_customers/inactive_customers.js:8
+#: erpnext/selling/report/inactive_customers/inactive_customers.py:83
+msgid "Days Since Last Order"
+msgstr "Dias Desde a Última Compra"
+
+#: erpnext/accounts/report/inactive_sales_items/inactive_sales_items.js:34
+msgid "Days Since Last order"
+msgstr "Dias desde a última compra"
+
+#. Label of the days_until_due (Int) field in DocType 'Subscription'
+#: erpnext/accounts/doctype/subscription/subscription.json
+msgid "Days Until Due"
+msgstr ""
+
+#. Option for the 'Generate Invoice At' (Select) field in DocType
+#. 'Subscription'
+#: erpnext/accounts/doctype/subscription/subscription.json
+msgid "Days before the current subscription period"
+msgstr ""
+
+#. Label of the delinked (Check) field in DocType 'Advance Payment Ledger
+#. Entry'
+#. Label of the delinked (Check) field in DocType 'Payment Ledger Entry'
+#: erpnext/accounts/doctype/advance_payment_ledger_entry/advance_payment_ledger_entry.json
+#: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.json
+msgid "DeLinked"
+msgstr ""
+
+#. Label of the deal_owner (Data) field in DocType 'Prospect Opportunity'
+#: erpnext/crm/doctype/prospect_opportunity/prospect_opportunity.json
+msgid "Deal Owner"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/sales_partner_type.txt:3
+msgid "Dealer"
+msgstr ""
+
+#. Option for the 'Balance must be' (Select) field in DocType 'Account'
+#. Label of the debit_in_account_currency (Currency) field in DocType 'Journal
+#. Entry Account'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:38
+#: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.html:10
+#: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.py:77
+#: erpnext/accounts/report/cheques_and_deposits_incorrectly_cleared/cheques_and_deposits_incorrectly_cleared.py:139
+#: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.py:444
+#: erpnext/accounts/report/general_ledger/general_ledger.html:92
+#: erpnext/accounts/report/purchase_register/purchase_register.py:240
+#: erpnext/accounts/report/sales_register/sales_register.py:276
+#: erpnext/accounts/report/trial_balance/trial_balance.py:515
+#: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.py:205
+#: erpnext/accounts/report/voucher_wise_balance/voucher_wise_balance.py:27
+msgid "Debit"
+msgstr "Débito"
+
+#: erpnext/accounts/report/general_ledger/general_ledger.py:715
+msgid "Debit (Transaction)"
+msgstr ""
+
+#: erpnext/accounts/report/general_ledger/general_ledger.py:690
+msgid "Debit ({0})"
+msgstr "Débito ({0})"
+
+#. Label of the debit_or_credit_note_posting_date (Date) field in DocType
+#. 'Payment Reconciliation Allocation'
+#: erpnext/accounts/doctype/payment_reconciliation_allocation/payment_reconciliation_allocation.json
+msgid "Debit / Credit Note Posting Date"
+msgstr ""
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.js:596
+msgid "Debit Account"
+msgstr "Conta de Débito"
+
+#. Label of the debit (Currency) field in DocType 'Account Closing Balance'
+#. Label of the debit (Currency) field in DocType 'GL Entry'
+#: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.json
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+msgid "Debit Amount"
+msgstr ""
+
+#. Label of the debit_in_account_currency (Currency) field in DocType 'Account
+#. Closing Balance'
+#. Label of the debit_in_account_currency (Currency) field in DocType 'GL
+#. Entry'
+#: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.json
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+msgid "Debit Amount in Account Currency"
+msgstr ""
+
+#. Label of the debit_in_reporting_currency (Currency) field in DocType
+#. 'Account Closing Balance'
+#. Label of the debit_in_reporting_currency (Currency) field in DocType 'GL
+#. Entry'
+#: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.json
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+msgid "Debit Amount in Reporting Currency"
+msgstr ""
+
+#. Label of the debit_in_transaction_currency (Currency) field in DocType 'GL
+#. Entry'
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+msgid "Debit Amount in Transaction Currency"
+msgstr ""
+
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#. Option for the 'Journal Entry Type' (Select) field in DocType 'Journal Entry
+#. Template'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:178
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:147
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1219
+#: erpnext/controllers/sales_and_purchase_return.py:395
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:304
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:52
+msgid "Debit Note"
+msgstr "Nota de Débito"
+
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:205
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:162
+msgid "Debit Note Amount"
+msgstr "Valor da Nota de Débito"
+
+#. Option for the 'Status' (Select) field in DocType 'Purchase Invoice'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+msgid "Debit Note Issued"
+msgstr ""
+
+#. Description of the 'Update Outstanding for Self' (Check) field in DocType
+#. 'Purchase Invoice'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+msgid "Debit Note will update it's own outstanding amount, even if 'Return Against' is specified."
+msgstr ""
+
+#. Label of the debit_to (Link) field in DocType 'POS Invoice'
+#. Label of the debit_to (Link) field in DocType 'Sales Invoice'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:987
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:998
+#: erpnext/controllers/accounts_controller.py:2357
+msgid "Debit To"
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:983
+msgid "Debit To is required"
+msgstr "Para Débito é necessária"
+
+#: erpnext/accounts/general_ledger.py:530
+msgid "Debit and Credit not equal for {0} #{1}. Difference is {2}."
+msgstr ""
+
+#. Label of the debit (Currency) field in DocType 'Journal Entry Account'
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+msgid "Debit in Company Currency"
+msgstr ""
+
+#. Label of the debit_to (Link) field in DocType 'Discounted Invoice'
+#: erpnext/accounts/doctype/discounted_invoice/discounted_invoice.json
+msgid "Debit to"
+msgstr ""
+
+#. Label of the debit_credit_mismatch (Check) field in DocType 'Ledger Health
+#. Monitor'
+#: erpnext/accounts/doctype/ledger_health_monitor/ledger_health_monitor.json
+msgid "Debit-Credit Mismatch"
+msgstr ""
+
+#. Label of the debit_credit_mismatch (Check) field in DocType 'Ledger Health'
+#: erpnext/accounts/doctype/ledger_health/ledger_health.json
+msgid "Debit-Credit mismatch"
+msgstr ""
+
+#: erpnext/accounts/report/financial_ratios/financial_ratios.py:170
+msgid "Debt Equity Ratio"
+msgstr ""
+
+#: erpnext/accounts/report/financial_ratios/financial_ratios.py:212
+msgid "Debtor Turnover Ratio"
+msgstr ""
+
+#: erpnext/accounts/party.py:617
+msgid "Debtor/Creditor"
+msgstr ""
+
+#: erpnext/accounts/party.py:620
+msgid "Debtor/Creditor Advance"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:13
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:13
+msgid "Debtors"
+msgstr "Devedores"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Decigram/Litre"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Decilitre"
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Decimeter"
+msgstr ""
+
+#: erpnext/public/js/utils/sales_common.js:610
+msgid "Declare Lost"
+msgstr "Declarar Perdido"
+
+#. Option for the 'Add Or Deduct' (Select) field in DocType 'Advance Taxes and
+#. Charges'
+#. Option for the 'Add or Deduct' (Select) field in DocType 'Purchase Taxes and
+#. Charges'
+#: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
+#: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
+msgid "Deduct"
+msgstr ""
+
+#. Label of the section_break_3 (Section Break) field in DocType 'Lower
+#. Deduction Certificate'
+#: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
+msgid "Deductee Details"
+msgstr ""
+
+#. Label of the deductions_or_loss_section (Section Break) field in DocType
+#. 'Payment Entry'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+msgid "Deductions or Loss"
+msgstr ""
+
+#. Label of the default_account (Link) field in DocType 'Mode of Payment
+#. Account'
+#. Label of the account (Link) field in DocType 'Party Account'
+#: erpnext/accounts/doctype/mode_of_payment_account/mode_of_payment_account.json
+#: erpnext/accounts/doctype/party_account/party_account.json
+msgid "Default Account"
+msgstr ""
+
+#. Label of the default_accounts_section (Section Break) field in DocType
+#. 'Supplier'
+#. Label of the default_receivable_accounts (Section Break) field in DocType
+#. 'Customer'
+#. Label of the default_settings (Section Break) field in DocType 'Company'
+#. Label of the default_receivable_account (Section Break) field in DocType
+#. 'Customer Group'
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/setup/doctype/customer_group/customer_group.json
+msgid "Default Accounts"
+msgstr ""
+
+#: erpnext/projects/doctype/activity_cost/activity_cost.py:62
+msgid "Default Activity Cost exists for Activity Type - {0}"
+msgstr ""
+
+#. Label of the default_advance_account (Link) field in DocType 'Payment
+#. Reconciliation'
+#. Label of the default_advance_account (Link) field in DocType 'Process
+#. Payment Reconciliation'
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
+msgid "Default Advance Account"
+msgstr ""
+
+#. Label of the default_advance_paid_account (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/setup/doctype/company/company.py:307
+msgid "Default Advance Paid Account"
+msgstr ""
+
+#. Label of the default_advance_received_account (Link) field in DocType
+#. 'Company'
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/setup/doctype/company/company.py:296
+msgid "Default Advance Received Account"
+msgstr ""
+
+#. Label of the default_bom (Link) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Default BOM"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:436
+msgid "Default BOM ({0}) must be active for this item or its template"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:2179
+msgid "Default BOM for {0} not found"
+msgstr "Não foi encontrado a LDM Padrão para {0}"
+
+#: erpnext/controllers/accounts_controller.py:3938
+msgid "Default BOM not found for FG Item {0}"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:2176
+msgid "Default BOM not found for Item {0} and Project {1}"
+msgstr ""
+
+#. Label of the default_bank_account (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Bank Account"
+msgstr ""
+
+#. Label of the billing_rate (Currency) field in DocType 'Activity Type'
+#: erpnext/projects/doctype/activity_type/activity_type.json
+msgid "Default Billing Rate"
+msgstr ""
+
+#. Label of the buying_cost_center (Link) field in DocType 'Item Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Default Buying Cost Center"
+msgstr ""
+
+#. Label of the buying_price_list (Link) field in DocType 'Buying Settings'
+#. Label of the default_buying_price_list (Link) field in DocType 'Import
+#. Supplier Invoice'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+#: erpnext/regional/doctype/import_supplier_invoice/import_supplier_invoice.json
+msgid "Default Buying Price List"
+msgstr ""
+
+#. Label of the default_buying_terms (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Buying Terms"
+msgstr ""
+
+#. Label of the default_cogs_account (Link) field in DocType 'Item Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Default COGS Account"
+msgstr ""
+
+#. Label of the default_cash_account (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Cash Account"
+msgstr ""
+
+#. Label of the default_common_code (Link) field in DocType 'Code List'
+#: erpnext/edi/doctype/code_list/code_list.json
+msgid "Default Common Code"
+msgstr ""
+
+#. Label of the default_company (Link) field in DocType 'Global Defaults'
+#: erpnext/setup/doctype/global_defaults/global_defaults.json
+msgid "Default Company"
+msgstr ""
+
+#. Label of the default_bank_account (Link) field in DocType 'Supplier'
+#. Label of the default_bank_account (Link) field in DocType 'Customer'
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Default Company Bank Account"
+msgstr ""
+
+#. Label of the cost_center (Link) field in DocType 'Project'
+#. Label of the cost_center (Link) field in DocType 'Company'
+#: erpnext/projects/doctype/project/project.json
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Cost Center"
+msgstr ""
+
+#. Label of the default_expense_account (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Cost of Goods Sold Account"
+msgstr ""
+
+#. Label of the costing_rate (Currency) field in DocType 'Activity Type'
+#: erpnext/projects/doctype/activity_type/activity_type.json
+msgid "Default Costing Rate"
+msgstr ""
+
+#. Label of the default_currency (Link) field in DocType 'Company'
+#. Label of the default_currency (Link) field in DocType 'Global Defaults'
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/setup/doctype/global_defaults/global_defaults.json
+msgid "Default Currency"
+msgstr ""
+
+#. Label of the customer_group (Link) field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Default Customer Group"
+msgstr ""
+
+#. Label of the default_deferred_expense_account (Link) field in DocType
+#. 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Deferred Expense Account"
+msgstr ""
+
+#. Label of the default_deferred_revenue_account (Link) field in DocType
+#. 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Deferred Revenue Account"
+msgstr ""
+
+#. Label of the default_dimension (Dynamic Link) field in DocType 'Accounting
+#. Dimension Detail'
+#: erpnext/accounts/doctype/accounting_dimension_detail/accounting_dimension_detail.json
+msgid "Default Dimension"
+msgstr ""
+
+#. Label of the default_discount_account (Link) field in DocType 'Item Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Default Discount Account"
+msgstr ""
+
+#. Label of the default_distance_unit (Link) field in DocType 'Global Defaults'
+#: erpnext/setup/doctype/global_defaults/global_defaults.json
+msgid "Default Distance Unit"
+msgstr ""
+
+#. Label of the expense_account (Link) field in DocType 'Item Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Default Expense Account"
+msgstr ""
+
+#. Label of the default_finance_book (Link) field in DocType 'Asset'
+#. Label of the default_finance_book (Link) field in DocType 'Company'
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Finance Book"
+msgstr ""
+
+#. Label of the default_fg_warehouse (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Finished Goods Warehouse"
+msgstr ""
+
+#. Label of the default_holiday_list (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Holiday List"
+msgstr ""
+
+#. Label of the default_in_transit_warehouse (Link) field in DocType 'Company'
+#. Label of the default_in_transit_warehouse (Link) field in DocType
+#. 'Warehouse'
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/stock/doctype/warehouse/warehouse.json
+msgid "Default In-Transit Warehouse"
+msgstr ""
+
+#. Label of the default_income_account (Link) field in DocType 'Company'
+#. Label of the income_account (Link) field in DocType 'Item Default'
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Default Income Account"
+msgstr ""
+
+#. Label of the default_inventory_account (Link) field in DocType 'Company'
+#. Label of the default_inventory_account (Link) field in DocType 'Item
+#. Default'
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Default Inventory Account"
+msgstr ""
+
+#. Label of the item_group (Link) field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Default Item Group"
+msgstr ""
+
+#. Label of the default_item_manufacturer (Link) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Default Item Manufacturer"
+msgstr ""
+
+#. Label of the default_manufacturer_part_no (Data) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Default Manufacturer Part No"
+msgstr ""
+
+#. Label of the default_material_request_type (Select) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Default Material Request Type"
+msgstr ""
+
+#. Label of the default_operating_cost_account (Link) field in DocType
+#. 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Operating Cost Account"
+msgstr ""
+
+#. Label of the default_payable_account (Link) field in DocType 'Company'
+#. Label of the default_payable_account (Section Break) field in DocType
+#. 'Supplier Group'
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/setup/doctype/supplier_group/supplier_group.json
+msgid "Default Payable Account"
+msgstr ""
+
+#. Label of the default_discount_account (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Payment Discount Account"
+msgstr ""
+
+#. Label of the message (Small Text) field in DocType 'Payment Gateway Account'
+#: erpnext/accounts/doctype/payment_gateway_account/payment_gateway_account.json
+msgid "Default Payment Request Message"
+msgstr ""
+
+#. Label of the payment_terms (Link) field in DocType 'Supplier'
+#. Label of the payment_terms (Link) field in DocType 'Customer'
+#. Label of the payment_terms (Link) field in DocType 'Company'
+#. Label of the payment_terms (Link) field in DocType 'Customer Group'
+#. Label of the payment_terms (Link) field in DocType 'Supplier Group'
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/setup/doctype/customer_group/customer_group.json
+#: erpnext/setup/doctype/supplier_group/supplier_group.json
+msgid "Default Payment Terms Template"
+msgstr ""
+
+#. Label of the default_price_list (Link) field in DocType 'Customer'
+#. Label of the selling_price_list (Link) field in DocType 'Selling Settings'
+#. Label of the default_price_list (Link) field in DocType 'Customer Group'
+#. Label of the default_price_list (Link) field in DocType 'Item Default'
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+#: erpnext/setup/doctype/customer_group/customer_group.json
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Default Price List"
+msgstr ""
+
+#. Label of the default_priority (Link) field in DocType 'Service Level
+#. Agreement'
+#. Label of the default_priority (Check) field in DocType 'Service Level
+#. Priority'
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
+#: erpnext/support/doctype/service_level_priority/service_level_priority.json
+msgid "Default Priority"
+msgstr ""
+
+#. Label of the default_provisional_account (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Provisional Account"
+msgstr ""
+
+#. Label of the default_provisional_account (Link) field in DocType 'Item
+#. Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Default Provisional Account (Service)"
+msgstr ""
+
+#. Label of the purchase_uom (Link) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Default Purchase Unit of Measure"
+msgstr ""
+
+#. Label of the default_valid_till (Data) field in DocType 'CRM Settings'
+#: erpnext/crm/doctype/crm_settings/crm_settings.json
+msgid "Default Quotation Validity Days"
+msgstr ""
+
+#. Label of the default_receivable_account (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Receivable Account"
+msgstr ""
+
+#. Label of the default_sales_contact (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Sales Contact"
+msgstr ""
+
+#. Label of the sales_uom (Link) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Default Sales Unit of Measure"
+msgstr ""
+
+#. Label of the default_scrap_warehouse (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Scrap Warehouse"
+msgstr ""
+
+#. Label of the selling_cost_center (Link) field in DocType 'Item Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Default Selling Cost Center"
+msgstr ""
+
+#. Label of the default_selling_terms (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Selling Terms"
+msgstr ""
+
+#. Label of the default_service_level_agreement (Check) field in DocType
+#. 'Service Level Agreement'
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
+msgid "Default Service Level Agreement"
+msgstr ""
+
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.py:161
+msgid "Default Service Level Agreement for {0} already exists."
+msgstr ""
+
+#. Label of the default_source_warehouse (Link) field in DocType 'BOM'
+#. Label of the default_warehouse (Link) field in DocType 'BOM Creator'
+#. Label of the from_warehouse (Link) field in DocType 'Stock Entry'
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Default Source Warehouse"
+msgstr ""
+
+#. Label of the stock_uom (Link) field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Default Stock UOM"
+msgstr ""
+
+#. Label of the valuation_method (Select) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Stock Valuation Method"
+msgstr ""
+
+#. Label of the default_supplier (Link) field in DocType 'Item Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Default Supplier"
+msgstr ""
+
+#. Label of the supplier_group (Link) field in DocType 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Default Supplier Group"
+msgstr ""
+
+#. Label of the default_target_warehouse (Link) field in DocType 'BOM'
+#. Label of the to_warehouse (Link) field in DocType 'Stock Entry'
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Default Target Warehouse"
+msgstr ""
+
+#. Label of the territory (Link) field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Default Territory"
+msgstr ""
+
+#. Label of the stock_uom (Link) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Default Unit of Measure"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:1270
+msgid "Default Unit of Measure for Item {0} cannot be changed directly because you have already made some transaction(s) with another UOM. You need to either cancel the linked documents or create a new Item."
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:1253
+msgid "Default Unit of Measure for Item {0} cannot be changed directly because you have already made some transaction(s) with another UOM. You will need to create a new Item to use a different Default UOM."
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:901
+msgid "Default Unit of Measure for Variant '{0}' must be same as in Template '{1}'"
+msgstr "A unidade de medida padrão para a variante '{0}' deve ser o mesmo que no modelo '{1}'"
+
+#. Label of the valuation_method (Select) field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Default Valuation Method"
+msgstr ""
+
+#. Label of the default_warehouse (Link) field in DocType 'Item Default'
+#. Label of the section_break_jwgn (Section Break) field in DocType 'Stock
+#. Entry'
+#. Label of the set_warehouse (Link) field in DocType 'Stock Reconciliation'
+#. Label of the default_warehouse (Link) field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/item_default/item_default.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Default Warehouse"
+msgstr ""
+
+#. Label of the default_warehouse_for_sales_return (Link) field in DocType
+#. 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Default Warehouse for Sales Return"
+msgstr ""
+
+#. Label of the workstation (Link) field in DocType 'Operation'
+#: erpnext/manufacturing/doctype/operation/operation.json
+msgid "Default Workstation"
+msgstr ""
+
+#. Description of the 'Default Account' (Link) field in DocType 'Mode of
+#. Payment Account'
+#: erpnext/accounts/doctype/mode_of_payment_account/mode_of_payment_account.json
+msgid "Default account will be automatically updated in POS Invoice when this mode is selected."
+msgstr ""
+
+#. Description of a DocType
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Default settings for your stock-related transactions"
+msgstr ""
+
+#: erpnext/setup/doctype/company/company.js:191
+msgid "Default tax templates for sales, purchase and items are created."
+msgstr ""
+
+#. Description of the 'Time Between Operations (Mins)' (Int) field in DocType
+#. 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Default: 10 mins"
+msgstr ""
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:17
+msgid "Defense"
+msgstr ""
+
+#. Label of the deferred_accounting_section (Section Break) field in DocType
+#. 'Company'
+#. Label of the deferred_accounting_section (Section Break) field in DocType
+#. 'Item'
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/stock/doctype/item/item.json
+msgid "Deferred Accounting"
+msgstr ""
+
+#. Label of the deferred_accounting_defaults_section (Section Break) field in
+#. DocType 'Item Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Deferred Accounting Defaults"
+msgstr ""
+
+#. Label of the deferred_accounting_settings_section (Section Break) field in
+#. DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Deferred Accounting Settings"
+msgstr ""
+
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#. Label of the deferred_expense_section (Section Break) field in DocType
+#. 'Purchase Invoice Item'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+msgid "Deferred Expense"
+msgstr ""
+
+#. Label of the deferred_expense_account (Link) field in DocType 'Purchase
+#. Invoice Item'
+#. Label of the deferred_expense_account (Link) field in DocType 'Item Default'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Deferred Expense Account"
+msgstr ""
+
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#. Label of the deferred_revenue (Section Break) field in DocType 'POS Invoice
+#. Item'
+#. Label of the deferred_revenue (Section Break) field in DocType 'Sales
+#. Invoice Item'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+msgid "Deferred Revenue"
+msgstr ""
+
+#. Label of the deferred_revenue_account (Link) field in DocType 'POS Invoice
+#. Item'
+#. Label of the deferred_revenue_account (Link) field in DocType 'Sales Invoice
+#. Item'
+#. Label of the deferred_revenue_account (Link) field in DocType 'Item Default'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Deferred Revenue Account"
+msgstr ""
+
+#. Name of a report
+#: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.json
+msgid "Deferred Revenue and Expense"
+msgstr ""
+
+#: erpnext/accounts/deferred_revenue.py:543
+msgid "Deferred accounting failed for some invoices:"
+msgstr ""
+
+#: erpnext/config/projects.py:39
+msgid "Define Project type."
+msgstr ""
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Dekagram/Litre"
+msgstr ""
+
+#: erpnext/projects/report/delayed_tasks_summary/delayed_tasks_summary.py:130
+msgid "Delay (In Days)"
+msgstr ""
+
+#: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:322
+msgid "Delay (in Days)"
+msgstr "Atraso (em Dias)"
+
+#. Label of the stop_delay (Int) field in DocType 'Delivery Settings'
+#: erpnext/stock/doctype/delivery_settings/delivery_settings.json
+msgid "Delay between Delivery Stops"
+msgstr ""
+
+#: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:120
+msgid "Delay in payment (Days)"
+msgstr "Atraso no Pagamento (Dias)"
+
+#: erpnext/stock/report/delayed_item_report/delayed_item_report.py:157
+#: erpnext/stock/report/delayed_order_report/delayed_order_report.py:72
+msgid "Delayed Days"
+msgstr "Dias Atrasados"
+
+#. Name of a report
+#: erpnext/stock/report/delayed_item_report/delayed_item_report.json
+msgid "Delayed Item Report"
+msgstr "Relatório de Item Atrasado"
+
+#. Name of a report
+#: erpnext/stock/report/delayed_order_report/delayed_order_report.json
+msgid "Delayed Order Report"
+msgstr "Relatório de Pedidos Atrasados"
+
+#. Name of a report
+#. Label of a Link in the Projects Workspace
+#: erpnext/projects/report/delayed_tasks_summary/delayed_tasks_summary.json
+#: erpnext/projects/workspace/projects/projects.json
+msgid "Delayed Tasks Summary"
+msgstr ""
+
+#. Label of the delete_linked_ledger_entries (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Delete Accounting and Stock Ledger Entries on deletion of Transaction"
+msgstr ""

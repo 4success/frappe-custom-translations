@@ -1,0 +1,840 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:35+0000\n"
+"PO-Revision-Date: 2026-01-21 06:48\n"
+"Last-Translator: developers@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File-ID: 138\n"
+"Language: pt_BR\n"
+
+#: frappe/email/doctype/email_account/email_account.py:212
+msgid "SMTP Server is required"
+msgstr "Servidor SMTP é obrigatório"
+
+#. Option for the 'Type' (Select) field in DocType 'System Console'
+#: frappe/desk/doctype/system_console/system_console.json
+msgid "SQL"
+msgstr "SQL"
+
+#. Description of the 'Condition' (Small Text) field in DocType 'Bulk Update'
+#: frappe/desk/doctype/bulk_update/bulk_update.json
+msgid "SQL Conditions. Example: status=\"Open\""
+msgstr "Condições SQL. Exemplo: status=\"Open\""
+
+#. Label of the sql_explain_html (HTML) field in DocType 'Recorder Query'
+#: frappe/core/doctype/recorder/recorder.js:85
+#: frappe/core/doctype/recorder_query/recorder_query.json
+msgid "SQL Explain"
+msgstr "Plano SQL"
+
+#. Label of the sql_output (HTML) field in DocType 'System Console'
+#: frappe/desk/doctype/system_console/system_console.json
+msgid "SQL Output"
+msgstr "Saída SQL"
+
+#. Label of the sql_queries (Table) field in DocType 'Recorder'
+#: frappe/core/doctype/recorder/recorder.json
+msgid "SQL Queries"
+msgstr "Consultas SQL"
+
+#: frappe/database/query.py:1876
+msgid "SQL functions are not allowed as strings in SELECT: {0}. Use dict syntax like {{'COUNT': '*'}} instead."
+msgstr "Funções SQL não são permitidas como strings em SELECT: {0}. Use a sintaxe de dicionário como {{'COUNT': '*'}}."
+
+#. Label of the ssl_tls_mode (Select) field in DocType 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "SSL/TLS Mode"
+msgstr "Modo SSL / TLS"
+
+#: frappe/public/js/frappe/color_picker/color_picker.js:20
+msgid "SWATCHES"
+msgstr "AMOSTRAS"
+
+#. Name of a role
+#: frappe/contacts/doctype/contact/contact.json
+msgid "Sales Manager"
+msgstr "Gerente de vendas"
+
+#. Name of a role
+#: frappe/contacts/doctype/contact/contact.json
+msgid "Sales Master Manager"
+msgstr "Gerente mestre de vendas"
+
+#. Name of a role
+#: frappe/contacts/doctype/address/address.json
+#: frappe/contacts/doctype/contact/contact.json
+#: frappe/geo/doctype/currency/currency.json
+msgid "Sales User"
+msgstr "Usuário de vendas"
+
+#. Option for the 'Social Login Provider' (Select) field in DocType 'Social
+#. Login Key'
+#: frappe/integrations/doctype/social_login_key/social_login_key.json
+msgid "Salesforce"
+msgstr "Salesforce"
+
+#. Label of the salutation (Link) field in DocType 'Contact'
+#. Name of a DocType
+#. Label of the salutation (Data) field in DocType 'Salutation'
+#: frappe/contacts/doctype/contact/contact.json
+#: frappe/contacts/doctype/salutation/salutation.json
+msgid "Salutation"
+msgstr "Saudação"
+
+#: frappe/integrations/doctype/webhook/webhook.py:113
+msgid "Same Field is entered more than once"
+msgstr "O mesmo campo foi informado mais de uma vez"
+
+#. Label of the sample (HTML) field in DocType 'Client Script'
+#: frappe/custom/doctype/client_script/client_script.json
+msgid "Sample"
+msgstr "Amostra"
+
+#. Option for the 'Day' (Select) field in DocType 'Assignment Rule Day'
+#. Option for the 'Day' (Select) field in DocType 'Auto Repeat Day'
+#. Option for the 'First Day of the Week' (Select) field in DocType 'Language'
+#. Option for the 'First Day of the Week' (Select) field in DocType 'System
+#. Settings'
+#. Label of the saturday (Check) field in DocType 'Event'
+#. Option for the 'Day of Week' (Select) field in DocType 'Auto Email Report'
+#: frappe/automation/doctype/assignment_rule_day/assignment_rule_day.json
+#: frappe/automation/doctype/auto_repeat_day/auto_repeat_day.json
+#: frappe/core/doctype/language/language.json
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/desk/doctype/event/event.json
+#: frappe/email/doctype/auto_email_report/auto_email_report.json
+msgid "Saturday"
+msgstr "Sábado"
+
+#. Option for the 'Send Alert On' (Select) field in DocType 'Notification'
+#: cypress/integration/web_form.js:52
+#: frappe/core/doctype/data_import/data_import.js:119
+#: frappe/email/doctype/notification/notification.json
+#: frappe/printing/page/print/print.js:923
+#: frappe/printing/page/print_format_builder/print_format_builder.js:160
+#: frappe/public/js/frappe/form/footer/form_timeline.js:678
+#: frappe/public/js/frappe/form/quick_entry.js:185
+#: frappe/public/js/frappe/list/list_settings.js:37
+#: frappe/public/js/frappe/list/list_settings.js:245
+#: frappe/public/js/frappe/list/list_view.js:1998
+#: frappe/public/js/frappe/ui/toolbar/toolbar.js:267
+#: frappe/public/js/frappe/utils/common.js:452
+#: frappe/public/js/frappe/views/kanban/kanban_settings.js:45
+#: frappe/public/js/frappe/views/kanban/kanban_settings.js:189
+#: frappe/public/js/frappe/views/kanban/kanban_view.js:357
+#: frappe/public/js/frappe/views/reports/query_report.js:1987
+#: frappe/public/js/frappe/views/reports/report_view.js:1739
+#: frappe/public/js/frappe/views/workspace/workspace.js:350
+#: frappe/public/js/frappe/widgets/base_widget.js:142
+#: frappe/public/js/frappe/widgets/quick_list_widget.js:120
+#: frappe/public/js/print_format_builder/print_format_builder.bundle.js:15
+#: frappe/public/js/workflow_builder/workflow_builder.bundle.js:33
+msgid "Save"
+msgstr "Salvar"
+
+#: frappe/workflow/doctype/workflow/workflow.js:143
+msgid "Save Anyway"
+msgstr "Salvar mesmo assim"
+
+#: frappe/public/js/frappe/views/reports/report_view.js:1384
+#: frappe/public/js/frappe/views/reports/report_view.js:1746
+msgid "Save As"
+msgstr "Salvar como"
+
+#: frappe/public/js/frappe/views/dashboard/dashboard_view.js:63
+msgid "Save Customizations"
+msgstr "Salvar personalizações"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:1990
+msgid "Save Report"
+msgstr "Salvar relatório"
+
+#: frappe/public/js/frappe/views/kanban/kanban_view.js:107
+msgid "Save filters"
+msgstr "Salvar filtros"
+
+#. Label of the save_on_complete (Check) field in DocType 'Form Tour'
+#: frappe/desk/doctype/form_tour/form_tour.json
+msgid "Save on Completion"
+msgstr "Salvar ao concluir"
+
+#: frappe/public/js/frappe/form/form_tour.js:295
+msgid "Save the document."
+msgstr "Salve o documento."
+
+#: frappe/model/rename_doc.py:106
+#: frappe/printing/page/print_format_builder/print_format_builder.js:858
+#: frappe/public/js/frappe/form/toolbar.js:297
+#: frappe/public/js/frappe/views/kanban/kanban_board.bundle.js:917
+#: frappe/public/js/frappe/views/workspace/workspace.js:729
+msgid "Saved"
+msgstr "Salvo"
+
+#: frappe/public/js/frappe/list/list_filter.js:20
+msgid "Saved Filters"
+msgstr "Filtros salvos"
+
+#: frappe/public/js/frappe/list/list_settings.js:41
+#: frappe/public/js/frappe/views/kanban/kanban_settings.js:47
+#: frappe/public/js/frappe/views/workspace/workspace.js:362
+msgid "Saving"
+msgstr "Salvando"
+
+#: frappe/public/js/frappe/form/save.js:9
+msgctxt "Freeze message while saving a document"
+msgid "Saving"
+msgstr "Salvando"
+
+#: frappe/public/js/frappe/list/list_view.js:2009
+msgid "Saving Changes..."
+msgstr "Salvando alterações..."
+
+#: frappe/custom/doctype/customize_form/customize_form.js:411
+msgid "Saving Customization..."
+msgstr "Salvando personalização..."
+
+#: frappe/public/js/frappe/ui/sidebar/sidebar_editor.js:58
+msgid "Saving Sidebar"
+msgstr "Salvando barra lateral"
+
+#: frappe/desk/doctype/module_onboarding/module_onboarding.js:8
+msgid "Saving this will export this document as well as the steps linked here as json."
+msgstr "Ao salvar, este documento e as etapas vinculadas aqui serão exportados como JSON."
+
+#: frappe/public/js/form_builder/store.js:233
+#: frappe/public/js/print_format_builder/store.js:36
+#: frappe/public/js/workflow_builder/store.js:73
+msgid "Saving..."
+msgstr "Salvando..."
+
+#: frappe/public/js/frappe/scanner/index.js:72
+msgid "Scan QRCode"
+msgstr "Escanear QR Code"
+
+#: frappe/www/qrcode.html:14
+msgid "Scan the QR Code and enter the resulting code displayed."
+msgstr "Escaneie o QR Code e informe o código resultante exibido."
+
+#. Label of the section_break_10 (Tab Break) field in DocType 'Auto Repeat'
+#: frappe/automation/doctype/auto_repeat/auto_repeat.json
+msgid "Schedule"
+msgstr "Agendamento"
+
+#: frappe/public/js/frappe/views/communication.js:88
+msgid "Schedule Send At"
+msgstr "Agendar envio para"
+
+#. Option for the 'Delivery Status' (Select) field in DocType 'Communication'
+#. Option for the 'Status' (Select) field in DocType 'Scheduled Job Log'
+#: frappe/core/doctype/communication/communication.json
+#: frappe/core/doctype/scheduled_job_log/scheduled_job_log.json
+msgid "Scheduled"
+msgstr "Agendado"
+
+#. Label of the scheduled_against (Link) field in DocType 'Scheduler Event'
+#: frappe/core/doctype/scheduler_event/scheduler_event.json
+msgid "Scheduled Against"
+msgstr "Agendado para"
+
+#. Label of the scheduled_job_type (Link) field in DocType 'Scheduled Job Log'
+#: frappe/core/doctype/scheduled_job_log/scheduled_job_log.json
+msgid "Scheduled Job"
+msgstr "Tarefa agendada"
+
+#. Name of a DocType
+#: frappe/core/doctype/scheduled_job_log/scheduled_job_log.json
+msgid "Scheduled Job Log"
+msgstr "Log de tarefa agendada"
+
+#. Name of a DocType
+#. Label of a Link in the Build Workspace
+#. Label of the scheduled_job_type (Link) field in DocType 'System Health
+#. Report Failing Jobs'
+#: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json
+#: frappe/core/workspace/build/build.json
+#: frappe/desk/doctype/system_health_report_failing_jobs/system_health_report_failing_jobs.json
+msgid "Scheduled Job Type"
+msgstr "Tipo de tarefa agendada"
+
+#. Label of a Link in the Build Workspace
+#: frappe/core/workspace/build/build.json
+msgid "Scheduled Jobs Logs"
+msgstr "Logs de tarefas agendadas"
+
+#: frappe/core/doctype/server_script/server_script.py:157
+msgid "Scheduled execution for script {0} has updated"
+msgstr "A execução agendada do script {0} foi atualizada"
+
+#: frappe/email/doctype/auto_email_report/auto_email_report.js:26
+msgid "Scheduled to send"
+msgstr "Agendado para envio"
+
+#. Label of the scheduler_section (Section Break) field in DocType 'System
+#. Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Scheduler"
+msgstr "Agendador"
+
+#. Label of the scheduler_event (Link) field in DocType 'Scheduled Job Type'
+#. Name of a DocType
+#. Option for the 'Script Type' (Select) field in DocType 'Server Script'
+#: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json
+#: frappe/core/doctype/scheduler_event/scheduler_event.json
+#: frappe/core/doctype/server_script/server_script.json
+msgid "Scheduler Event"
+msgstr "Evento do agendador"
+
+#: frappe/core/doctype/data_import/data_import.py:124
+msgid "Scheduler Inactive"
+msgstr "Agendador inativo"
+
+#. Label of the scheduler_status (Data) field in DocType 'System Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Scheduler Status"
+msgstr "Status do agendador"
+
+#: frappe/utils/scheduler.py:247
+msgid "Scheduler can not be re-enabled when maintenance mode is active."
+msgstr "O agendador não pode ser reativado quando o modo de manutenção estiver ativo."
+
+#: frappe/core/doctype/data_import/data_import.py:124
+msgid "Scheduler is inactive. Cannot import data."
+msgstr "O agendador está inativo. Não é possível importar dados."
+
+#: frappe/core/doctype/rq_job/rq_job_list.js:28
+msgid "Scheduler: Active"
+msgstr "Agendador: ativo"
+
+#: frappe/core/doctype/rq_job/rq_job_list.js:30
+msgid "Scheduler: Inactive"
+msgstr "Agendador: inativo"
+
+#. Label of the scope (Data) field in DocType 'OAuth Scope'
+#: frappe/integrations/doctype/oauth_scope/oauth_scope.json
+msgid "Scope"
+msgstr "Escopo"
+
+#. Label of the sb_scope_section (Section Break) field in DocType 'Connected
+#. App'
+#. Label of the scopes (Table) field in DocType 'Connected App'
+#. Label of the scopes (Text) field in DocType 'OAuth Authorization Code'
+#. Label of the scopes (Text) field in DocType 'OAuth Bearer Token'
+#. Label of the scopes (Text) field in DocType 'OAuth Client'
+#. Label of the scopes (Table) field in DocType 'Token Cache'
+#: frappe/integrations/doctype/connected_app/connected_app.json
+#: frappe/integrations/doctype/oauth_authorization_code/oauth_authorization_code.json
+#: frappe/integrations/doctype/oauth_bearer_token/oauth_bearer_token.json
+#: frappe/integrations/doctype/oauth_client/oauth_client.json
+#: frappe/integrations/doctype/token_cache/token_cache.json
+msgid "Scopes"
+msgstr "Escopos"
+
+#. Label of the scopes_supported (Small Text) field in DocType 'OAuth Settings'
+#: frappe/integrations/doctype/oauth_settings/oauth_settings.json
+msgid "Scopes Supported"
+msgstr "Escopos suportados"
+
+#. Label of the report_script (Code) field in DocType 'Report'
+#. Label of the script (Code) field in DocType 'Server Script'
+#. Label of the script (Code) field in DocType 'Client Script'
+#. Label of the script (Code) field in DocType 'Console Log'
+#. Label of the custom_javascript (Section Break) field in DocType 'Web Page'
+#. Label of the custom_js_section (Tab Break) field in DocType 'Website Theme'
+#: frappe/core/doctype/report/report.json
+#: frappe/core/doctype/server_script/server_script.json
+#: frappe/custom/doctype/client_script/client_script.json
+#: frappe/desk/doctype/console_log/console_log.json
+#: frappe/website/doctype/web_page/web_page.json
+#: frappe/website/doctype/website_theme/website_theme.json
+msgid "Script"
+msgstr "Script"
+
+#. Name of a role
+#: frappe/core/doctype/server_script/server_script.json
+msgid "Script Manager"
+msgstr "Gerenciador de scripts"
+
+#. Option for the 'Report Type' (Select) field in DocType 'Report'
+#: frappe/core/doctype/report/report.json
+msgid "Script Report"
+msgstr "Relatório por script"
+
+#. Label of the script_type (Select) field in DocType 'Server Script'
+#: frappe/core/doctype/server_script/server_script.json
+msgid "Script Type"
+msgstr "Tipo de script"
+
+#. Description of a DocType
+#: frappe/website/doctype/website_script/website_script.json
+msgid "Script to attach to all web pages."
+msgstr "Script para anexar a todas as páginas web."
+
+#. Label of a Card Break in the Build Workspace
+#. Label of the scripting_tab (Tab Break) field in DocType 'Web Page'
+#: frappe/core/workspace/build/build.json
+#: frappe/website/doctype/web_page/web_page.json
+msgid "Scripting"
+msgstr "Scripts"
+
+#. Label of the section_break_6 (Section Break) field in DocType 'Web Form'
+#: frappe/website/doctype/web_form/web_form.json
+msgid "Scripting / Style"
+msgstr "Scripts / estilo"
+
+#. Label of the scripts_section (Section Break) field in DocType 'Letter Head'
+#: frappe/printing/doctype/letter_head/letter_head.json
+msgid "Scripts"
+msgstr "Scripts"
+
+#. Label of the search_section (Section Break) field in DocType 'System
+#. Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/desk/page/desktop/desktop.html:19
+#: frappe/public/js/frappe/form/link_selector.js:46
+#: frappe/public/js/frappe/list/list_sidebar_stat.html:4
+#: frappe/public/js/frappe/ui/address_autocomplete/autocomplete_dialog.js:20
+#: frappe/public/js/frappe/ui/sidebar/sidebar.js:246
+#: frappe/public/js/frappe/ui/toolbar/search.js:49
+#: frappe/public/js/frappe/ui/toolbar/search.js:68
+#: frappe/templates/discussions/search.html:2
+#: frappe/templates/includes/search_template.html:26
+msgid "Search"
+msgstr "Pesquisar"
+
+#. Label of the search_bar (Check) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Search Bar"
+msgstr "Barra de pesquisa"
+
+#. Label of the search_fields (Data) field in DocType 'DocType'
+#. Label of the search_fields (Data) field in DocType 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Search Fields"
+msgstr "Campos de pesquisa"
+
+#: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:253
+msgid "Search Help"
+msgstr "Ajuda da pesquisa"
+
+#. Label of the allowed_in_global_search (Table) field in DocType 'Global
+#. Search Settings'
+#: frappe/desk/doctype/global_search_settings/global_search_settings.json
+msgid "Search Priorities"
+msgstr "Prioridades de pesquisa"
+
+#: frappe/public/js/frappe/file_uploader/FileBrowser.vue:132
+msgid "Search Results"
+msgstr "Resultados da pesquisa"
+
+#: frappe/public/js/frappe/file_uploader/FileBrowser.vue:13
+msgid "Search by filename or extension"
+msgstr "Pesquisar por nome de arquivo ou extensão"
+
+#: frappe/core/doctype/doctype/doctype.py:1482
+msgid "Search field {0} is not valid"
+msgstr "O campo de pesquisa {0} não é válido"
+
+#: frappe/public/js/print_format_builder/PrintFormatControls.vue:87
+msgid "Search fields"
+msgstr "Campos de pesquisa"
+
+#: frappe/public/js/form_builder/components/AddFieldButton.vue:19
+msgid "Search fieldtypes..."
+msgstr "Pesquisar tipos de campo..."
+
+#: frappe/public/js/frappe/ui/toolbar/search.js:50
+#: frappe/public/js/frappe/ui/toolbar/search.js:69
+msgid "Search for anything"
+msgstr "Pesquisar qualquer coisa"
+
+#: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:367
+#: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:374
+msgid "Search for {0}"
+msgstr "Pesquisar por {0}"
+
+#: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:228
+msgid "Search in a document type"
+msgstr "Pesquisar em um tipo de documento"
+
+#: frappe/public/js/form_builder/components/SearchBox.vue:8
+msgid "Search properties..."
+msgstr "Pesquisar propriedades..."
+
+#: frappe/templates/includes/search_box.html:8
+msgid "Search results for"
+msgstr "Resultados da pesquisa para"
+
+#: frappe/templates/includes/navbar/navbar_search.html:6
+#: frappe/templates/includes/search_box.html:2
+#: frappe/templates/includes/search_template.html:23
+msgid "Search..."
+msgstr "Pesquisar..."
+
+#: frappe/public/js/frappe/ui/toolbar/search.js:210
+msgid "Searching ..."
+msgstr "Pesquisando ..."
+
+#: frappe/public/js/frappe/form/controls/duration.js:35
+msgctxt "Duration"
+msgid "Seconds"
+msgstr "Segundos"
+
+#. Option for the 'Type' (Select) field in DocType 'Web Template'
+#: frappe/public/js/form_builder/components/Section.vue:263
+#: frappe/website/doctype/web_template/web_template.json
+msgid "Section"
+msgstr "Seção"
+
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Option for the 'Type' (Select) field in DocType 'Workspace Sidebar Item'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Form Field'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Template Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json
+#: frappe/website/doctype/web_form_field/web_form_field.json
+#: frappe/website/doctype/web_template_field/web_template_field.json
+msgid "Section Break"
+msgstr "Quebra de seção"
+
+#: frappe/printing/page/print_format_builder/print_format_builder.js:421
+msgid "Section Heading"
+msgstr "Cabeçalho da seção"
+
+#. Label of the section_id (Data) field in DocType 'Web Page Block'
+#: frappe/website/doctype/web_page_block/web_page_block.json
+msgid "Section ID"
+msgstr "ID da seção"
+
+#: frappe/public/js/form_builder/components/Section.vue:28
+#: frappe/public/js/print_format_builder/PrintFormatSection.vue:8
+msgid "Section Title"
+msgstr "Título da seção"
+
+#: frappe/public/js/form_builder/components/Section.vue:217
+#: frappe/public/js/form_builder/components/Section.vue:240
+msgid "Section must have at least one column"
+msgstr "A seção deve ter pelo menos uma coluna"
+
+#. Label of the sb3 (Section Break) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Security Settings"
+msgstr "Configurações de segurança"
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:340
+msgid "See all Activity"
+msgstr "Ver toda a atividade"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:866
+msgid "See all past reports."
+msgstr "Ver todos os relatórios anteriores."
+
+#: frappe/public/js/frappe/form/form.js:1247
+#: frappe/website/doctype/contact_us_settings/contact_us_settings.js:4
+msgid "See on Website"
+msgstr "Ver no site"
+
+#: frappe/website/doctype/web_form/templates/web_form.html:160
+msgctxt "Button in web form"
+msgid "See previous responses"
+msgstr "Ver respostas anteriores"
+
+#: frappe/integrations/doctype/slack_webhook_url/slack_webhook_url.py:49
+msgid "See the document at {0}"
+msgstr "Veja o documento em {0}"
+
+#. Label of the seen (Check) field in DocType 'Comment'
+#. Label of the seen (Check) field in DocType 'Communication'
+#. Label of the seen (Check) field in DocType 'Error Log'
+#. Label of the seen (Check) field in DocType 'Notification Settings'
+#: frappe/core/doctype/comment/comment.json
+#: frappe/core/doctype/communication/communication.json
+#: frappe/core/doctype/error_log/error_log.json
+#: frappe/core/doctype/error_log/error_log_list.js:5
+#: frappe/desk/doctype/notification_settings/notification_settings.json
+msgid "Seen"
+msgstr "Visto"
+
+#. Label of the seen_by_section (Section Break) field in DocType 'Note'
+#: frappe/desk/doctype/note/note.json
+msgid "Seen By"
+msgstr "Visto por"
+
+#. Label of the seen_by (Table) field in DocType 'Note'
+#: frappe/desk/doctype/note/note.json
+msgid "Seen By Table"
+msgstr "Visto por tabela"
+
+#. Label of the select (Check) field in DocType 'Custom DocPerm'
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Label of the select (Check) field in DocType 'DocPerm'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Report Column'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Report Filter'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Form Field'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Template Field'
+#: frappe/core/doctype/custom_docperm/custom_docperm.json
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/docperm/docperm.json
+#: frappe/core/doctype/report_column/report_column.json
+#: frappe/core/doctype/report_filter/report_filter.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/printing/page/print/print.js:661
+#: frappe/website/doctype/web_form_field/web_form_field.json
+#: frappe/website/doctype/web_template_field/web_template_field.json
+msgid "Select"
+msgstr "Selecionar"
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:149
+#: frappe/public/js/frappe/form/controls/multicheck.js:167
+#: frappe/public/js/frappe/form/controls/multiselect_list.js:6
+#: frappe/public/js/frappe/form/grid_row.js:497
+#: frappe/public/js/frappe/views/reports/report_view.js:1605
+msgid "Select All"
+msgstr "Selecionar tudo"
+
+#: frappe/public/js/frappe/views/communication.js:168
+#: frappe/public/js/frappe/views/communication.js:592
+#: frappe/public/js/frappe/views/interaction.js:93
+#: frappe/public/js/frappe/views/interaction.js:155
+msgid "Select Attachments"
+msgstr "Selecionar anexos"
+
+#: frappe/custom/doctype/client_script/client_script.js:27
+#: frappe/custom/doctype/client_script/client_script.js:30
+msgid "Select Child Table"
+msgstr "Selecionar tabela filha"
+
+#: frappe/public/js/frappe/views/reports/report_view.js:382
+msgid "Select Column"
+msgstr "Selecionar coluna"
+
+#: frappe/printing/page/print_format_builder/print_format_builder_field.html:42
+#: frappe/public/js/frappe/form/print_utils.js:73
+msgid "Select Columns"
+msgstr "Selecionar colunas"
+
+#: frappe/desk/page/setup_wizard/setup_wizard.js:399
+msgid "Select Country"
+msgstr "Selecionar país"
+
+#: frappe/desk/page/setup_wizard/setup_wizard.js:415
+msgid "Select Currency"
+msgstr "Selecionar moeda"
+
+#. Label of the dashboard_name (Link) field in DocType 'Form Tour'
+#: frappe/desk/doctype/form_tour/form_tour.json
+#: frappe/public/js/frappe/utils/dashboard_utils.js:246
+msgid "Select Dashboard"
+msgstr "Selecionar painel"
+
+#. Option for the 'Timespan' (Select) field in DocType 'Dashboard Chart'
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+msgid "Select Date Range"
+msgstr "Selecionar período"
+
+#. Label of the doc_type (Link) field in DocType 'Web Form'
+#: frappe/public/js/form_builder/components/controls/FetchFromControl.vue:28
+#: frappe/public/js/frappe/doctype/index.js:178
+#: frappe/website/doctype/web_form/web_form.json
+msgid "Select DocType"
+msgstr "Selecionar DocType"
+
+#. Label of the reference_doctype (Link) field in DocType 'Data Export'
+#: frappe/core/doctype/data_export/data_export.json
+msgid "Select Doctype"
+msgstr "Selecionar DocType"
+
+#: frappe/printing/page/print_format_builder_beta/print_format_builder_beta.js:50
+#: frappe/workflow/page/workflow_builder/workflow_builder.js:50
+msgid "Select Document Type"
+msgstr "Selecionar tipo de documento"
+
+#: frappe/core/page/permission_manager/permission_manager.js:179
+msgid "Select Document Type or Role to start."
+msgstr "Selecione um tipo de documento ou função para começar."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:34
+msgid "Select Document Types to set which User Permissions are used to limit access."
+msgstr "Selecione os tipos de documento para definir quais permissões de usuário serão usadas para limitar o acesso."
+
+#: frappe/public/js/form_builder/components/controls/FetchFromControl.vue:33
+#: frappe/public/js/frappe/doctype/index.js:207
+#: frappe/public/js/frappe/form/toolbar.js:871
+msgid "Select Field"
+msgstr "Selecionar campo"
+
+#: frappe/public/js/frappe/ui/group_by/group_by.html:35
+#: frappe/public/js/frappe/ui/group_by/group_by.js:141
+msgid "Select Field..."
+msgstr "Selecionar campo..."
+
+#: frappe/public/js/frappe/form/grid_row.js:489
+#: frappe/public/js/frappe/views/kanban/kanban_settings.js:181
+msgid "Select Fields"
+msgstr "Selecionar campos"
+
+#: frappe/public/js/frappe/list/list_settings.js:234
+msgid "Select Fields (Up to {0})"
+msgstr "Selecionar campos (até {0})"
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:147
+msgid "Select Fields To Insert"
+msgstr "Selecionar campos para inserir"
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:148
+msgid "Select Fields To Update"
+msgstr "Selecionar campos para atualizar"
+
+#: frappe/public/js/frappe/list/list_view.js:1994
+msgid "Select Filters"
+msgstr "Selecionar filtros"
+
+#: frappe/desk/doctype/event/event.py:107
+msgid "Select Google Calendar to which event should be synced."
+msgstr "Selecione o Google Calendar com o qual o evento deve ser sincronizado."
+
+#: frappe/contacts/doctype/contact/contact.py:77
+msgid "Select Google Contacts to which contact should be synced."
+msgstr "Selecione o Google Contacts com o qual o contato deve ser sincronizado."
+
+#: frappe/public/js/frappe/ui/group_by/group_by.html:10
+msgid "Select Group By..."
+msgstr "Selecionar agrupamento..."
+
+#: frappe/public/js/frappe/list/list_view_select.js:167
+msgid "Select Kanban"
+msgstr "Selecionar Kanban"
+
+#: frappe/desk/page/setup_wizard/setup_wizard.js:391
+msgid "Select Language"
+msgstr "Selecionar idioma"
+
+#. Label of the list_name (Select) field in DocType 'Form Tour'
+#: frappe/desk/doctype/form_tour/form_tour.json
+msgid "Select List View"
+msgstr "Selecionar visualização de lista"
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:158
+msgid "Select Mandatory"
+msgstr "Selecionar obrigatórios"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:280
+msgid "Select Module"
+msgstr "Selecionar módulo"
+
+#: frappe/printing/page/print/print.js:189
+#: frappe/printing/page/print/print.js:644
+msgid "Select Network Printer"
+msgstr "Selecionar impressora de rede"
+
+#. Label of the page_name (Link) field in DocType 'Form Tour'
+#: frappe/desk/doctype/form_tour/form_tour.json
+msgid "Select Page"
+msgstr "Selecionar página"
+
+#: frappe/printing/page/print_format_builder_beta/print_format_builder_beta.js:68
+#: frappe/public/js/frappe/views/communication.js:151
+msgid "Select Print Format"
+msgstr "Selecionar formato de impressão"
+
+#: frappe/printing/page/print_format_builder/print_format_builder.js:82
+msgid "Select Print Format to Edit"
+msgstr "Selecionar formato de impressão para editar"
+
+#. Label of the report_name (Link) field in DocType 'Form Tour'
+#: frappe/desk/doctype/form_tour/form_tour.json
+msgid "Select Report"
+msgstr "Selecionar relatório"
+
+#: frappe/printing/page/print_format_builder/print_format_builder.js:631
+msgid "Select Table Columns for {0}"
+msgstr "Selecionar colunas da tabela para {0}"
+
+#: frappe/desk/page/setup_wizard/setup_wizard.js:408
+msgid "Select Time Zone"
+msgstr "Selecionar fuso horário"
+
+#. Label of the transaction_type (Autocomplete) field in DocType 'Document
+#. Naming Settings'
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.json
+msgid "Select Transaction"
+msgstr "Selecionar transação"
+
+#: frappe/workflow/page/workflow_builder/workflow_builder.js:68
+msgid "Select Workflow"
+msgstr "Selecionar fluxo de trabalho"
+
+#. Label of the workspace_name (Link) field in DocType 'Form Tour'
+#: frappe/desk/doctype/form_tour/form_tour.json
+msgid "Select Workspace"
+msgstr "Selecionar workspace"
+
+#. Label of the select_workspaces_section (Section Break) field in DocType
+#. 'Workspace Settings'
+#: frappe/desk/doctype/workspace_settings/workspace_settings.json
+msgid "Select Workspaces"
+msgstr "Selecionar workspaces"
+
+#: frappe/website/doctype/website_settings/website_settings.js:23
+msgid "Select a Brand Image first."
+msgstr "Selecione primeiro uma imagem da marca."
+
+#: frappe/printing/page/print_format_builder/print_format_builder.js:108
+msgid "Select a DocType to make a new format"
+msgstr "Selecione um DocType para criar um novo formato"
+
+#: frappe/public/js/form_builder/components/Sidebar.vue:53
+msgid "Select a field to edit its properties."
+msgstr "Selecione um campo para editar suas propriedades."
+
+#: frappe/public/js/frappe/views/treeview.js:358
+msgid "Select a group {0} first."
+msgstr "Selecione primeiro um grupo {0}."
+
+#: frappe/core/doctype/doctype/doctype.py:1977
+msgid "Select a valid Sender Field for creating documents from Email"
+msgstr "Selecione um campo de remetente válido para criar documentos a partir de e-mail"
+
+#: frappe/core/doctype/doctype/doctype.py:1961
+msgid "Select a valid Subject field for creating documents from Email"
+msgstr "Selecione um campo de assunto válido para criar documentos a partir de e-mail"
+
+#: frappe/public/js/frappe/form/form_tour.js:321
+msgid "Select an Image"
+msgstr "Selecionar imagem"
+
+#: frappe/printing/page/print_format_builder/print_format_builder_start.html:2
+msgid "Select an existing format to edit or start a new format."
+msgstr "Selecione um formato existente para editar ou inicie um novo formato."
+
+#. Description of the 'Brand Image' (Attach Image) field in DocType 'Website
+#. Settings'
+#: frappe/website/doctype/website_settings/website_settings.json
+msgid "Select an image of approx width 150px with a transparent background for best results."
+msgstr "Selecione uma imagem com largura aproximada de 150px e fundo transparente para melhores resultados."
+
+#: frappe/public/js/frappe/list/bulk_operations.js:36
+msgid "Select atleast 1 record for printing"
+msgstr "Selecione pelo menos 1 registro para impressão"
+
+#: frappe/core/doctype/success_action/success_action.js:18
+msgid "Select atleast 2 actions"
+msgstr "Selecione pelo menos 2 ações"

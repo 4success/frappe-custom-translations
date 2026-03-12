@@ -1,0 +1,853 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Label of the include_safety_stock (Check) field in DocType 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Include Safety Stock in Required Qty Calculation"
+msgstr "Incluir estoque de seguranca no calculo da qtd. necessaria"
+
+#: erpnext/manufacturing/report/production_planning_report/production_planning_report.js:87
+msgid "Include Sub-assembly Raw Materials"
+msgstr "Incluir materias-primas dos subconjuntos"
+
+#. Label of the include_subcontracted_items (Check) field in DocType
+#. 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Include Subcontracted Items"
+msgstr "Incluir itens subcontratados"
+
+#: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.js:52
+msgid "Include Timesheets in Draft Status"
+msgstr "Incluir apontamentos em rascunho"
+
+#: erpnext/stock/report/stock_balance/stock_balance.js:109
+#: erpnext/stock/report/stock_ledger/stock_ledger.js:108
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.js:51
+msgid "Include UOM"
+msgstr "Incluir UM"
+
+#: erpnext/stock/report/stock_balance/stock_balance.js:131
+msgid "Include Zero Stock Items"
+msgstr "Incluir itens sem estoque"
+
+#. Label of the include_in_charts (Check) field in DocType 'Financial Report
+#. Row'
+#: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
+msgid "Include in Charts"
+msgstr "Incluir nos graficos"
+
+#. Label of the include_in_gross (Check) field in DocType 'Account'
+#: erpnext/accounts/doctype/account/account.json
+msgid "Include in gross"
+msgstr "Incluir no bruto"
+
+#. Label of the included_fee (Currency) field in DocType 'Bank Transaction'
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+msgid "Included Fee"
+msgstr "Tarifa incluida"
+
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:322
+msgid "Included fee is bigger than the withdrawal itself."
+msgstr "A tarifa incluida e maior que o proprio saque."
+
+#: erpnext/accounts/report/gross_and_net_profit_report/gross_and_net_profit_report.py:74
+#: erpnext/accounts/report/gross_and_net_profit_report/gross_and_net_profit_report.py:75
+msgid "Included in Gross Profit"
+msgstr "Incluído no Lucro Bruto"
+
+#. Description of the 'Use Multi-Level BOM' (Check) field in DocType 'Stock
+#. Entry'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Including items for sub assemblies"
+msgstr "Incluindo itens dos subconjuntos"
+
+#. Option for the 'Root Type' (Select) field in DocType 'Account'
+#. Option for the 'Root Type' (Select) field in DocType 'Ledger Merge'
+#. Option for the 'Type' (Select) field in DocType 'Process Deferred
+#. Accounting'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:140
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:236
+#: erpnext/accounts/doctype/ledger_merge/ledger_merge.json
+#: erpnext/accounts/doctype/process_deferred_accounting/process_deferred_accounting.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:414
+#: erpnext/accounts/report/account_balance/account_balance.js:27
+#: erpnext/accounts/report/financial_statements.py:776
+#: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py:182
+#: erpnext/accounts/report/profitability_analysis/profitability_analysis.py:183
+msgid "Income"
+msgstr "Receita"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#. Label of the income_account (Link) field in DocType 'Dunning'
+#. Label of the income_account (Link) field in DocType 'Dunning Type'
+#. Label of the income_account (Link) field in DocType 'POS Invoice Item'
+#. Label of the income_account (Link) field in DocType 'POS Profile'
+#. Label of the income_account (Link) field in DocType 'Sales Invoice Item'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/dunning/dunning.json
+#: erpnext/accounts/doctype/dunning_type/dunning_type.json
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/report/account_balance/account_balance.js:53
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.js:77
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:290
+msgid "Income Account"
+msgstr "Conta de receita"
+
+#. Name of a DocType
+#: erpnext/telephony/doctype/incoming_call_handling_schedule/incoming_call_handling_schedule.json
+msgid "Incoming Call Handling Schedule"
+msgstr "Agenda de atendimento de chamadas recebidas"
+
+#. Name of a DocType
+#: erpnext/telephony/doctype/incoming_call_settings/incoming_call_settings.json
+msgid "Incoming Call Settings"
+msgstr "Configuracoes de chamadas recebidas"
+
+#. Label of the incoming_rate (Currency) field in DocType 'Delivery Note Item'
+#. Label of the incoming_rate (Currency) field in DocType 'Packed Item'
+#. Label of the purchase_rate (Float) field in DocType 'Serial No'
+#. Label of the incoming_rate (Currency) field in DocType 'Stock Ledger Entry'
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/packed_item/packed_item.json
+#: erpnext/stock/doctype/serial_no/serial_no.json
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
+#: erpnext/stock/report/available_serial_no/available_serial_no.py:146
+#: erpnext/stock/report/serial_and_batch_summary/serial_and_batch_summary.py:167
+#: erpnext/stock/report/stock_ledger/stock_ledger.py:280
+#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:193
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:96
+msgid "Incoming Rate"
+msgstr "Custo de entrada"
+
+#. Label of the incoming_rate (Currency) field in DocType 'Sales Invoice Item'
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+msgid "Incoming Rate (Costing)"
+msgstr "Custo de entrada (custeio)"
+
+#: erpnext/public/js/call_popup/call_popup.js:38
+msgid "Incoming call from {0}"
+msgstr "Chamada recebida de {0}"
+
+#: erpnext/stock/doctype/stock_settings/stock_settings.js:68
+msgid "Incompatible Setting Detected"
+msgstr "Configuracao incompativel detectada"
+
+#. Name of a report
+#: erpnext/stock/report/incorrect_balance_qty_after_transaction/incorrect_balance_qty_after_transaction.json
+msgid "Incorrect Balance Qty After Transaction"
+msgstr "Qtd. de saldo incorreta apos a transacao"
+
+#: erpnext/controllers/subcontracting_controller.py:1044
+msgid "Incorrect Batch Consumed"
+msgstr "Lote consumido incorreto"
+
+#: erpnext/stock/doctype/item/item.py:532
+msgid "Incorrect Check in (group) Warehouse for Reorder"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:935
+msgid "Incorrect Component Quantity"
+msgstr "Quantidade do componente incorreta"
+
+#: erpnext/assets/doctype/asset/asset.py:385
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.py:56
+msgid "Incorrect Date"
+msgstr "Data Incorreta"
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:135
+msgid "Incorrect Invoice"
+msgstr "Fatura incorreta"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:354
+msgid "Incorrect Payment Type"
+msgstr "Tipo de pagamento incorreto"
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:108
+msgid "Incorrect Reference Document (Purchase Receipt Item)"
+msgstr "Documento de referencia incorreto (item do recebimento de compra)"
+
+#. Name of a report
+#: erpnext/stock/report/incorrect_serial_no_valuation/incorrect_serial_no_valuation.json
+msgid "Incorrect Serial No Valuation"
+msgstr "Valorizacao incorreta do numero de serie"
+
+#: erpnext/controllers/subcontracting_controller.py:1057
+msgid "Incorrect Serial Number Consumed"
+msgstr "Numero de serie consumido incorreto"
+
+#. Name of a report
+#: erpnext/stock/report/incorrect_serial_and_batch_bundle/incorrect_serial_and_batch_bundle.json
+msgid "Incorrect Serial and Batch Bundle"
+msgstr ""
+
+#. Name of a report
+#: erpnext/stock/report/incorrect_stock_value_report/incorrect_stock_value_report.json
+msgid "Incorrect Stock Value Report"
+msgstr "Relatorio de valor de estoque incorreto"
+
+#: erpnext/stock/serial_batch_bundle.py:136
+msgid "Incorrect Type of Transaction"
+msgstr "Tipo de transacao incorreto"
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:175
+#: erpnext/stock/doctype/stock_settings/stock_settings.py:122
+msgid "Incorrect Warehouse"
+msgstr "Armazém Incorreto"
+
+#: erpnext/accounts/general_ledger.py:62
+msgid "Incorrect number of General Ledger Entries found. You might have selected a wrong Account in the transaction."
+msgstr "Foi encontrado um numero incorreto de lancamentos no razao geral. Voce pode ter selecionado uma conta errada na transacao."
+
+#. Label of the incoterm (Link) field in DocType 'Purchase Invoice'
+#. Label of the incoterm (Link) field in DocType 'Sales Invoice'
+#. Label of the incoterm (Link) field in DocType 'Purchase Order'
+#. Label of the incoterm (Link) field in DocType 'Request for Quotation'
+#. Label of the incoterm (Link) field in DocType 'Supplier Quotation'
+#. Label of the incoterm (Link) field in DocType 'Quotation'
+#. Label of the incoterm (Link) field in DocType 'Sales Order'
+#. Name of a DocType
+#. Label of the incoterm (Link) field in DocType 'Delivery Note'
+#. Label of the incoterm (Link) field in DocType 'Purchase Receipt'
+#. Label of the incoterm (Link) field in DocType 'Shipment'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/setup/doctype/incoterm/incoterm.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "Incoterm"
+msgstr "Incoterm"
+
+#. Label of the increase_in_asset_life (Int) field in DocType 'Asset Finance
+#. Book'
+#: erpnext/assets/doctype/asset_finance_book/asset_finance_book.json
+msgid "Increase In Asset Life (Months)"
+msgstr "Aumento da vida util do ativo (meses)"
+
+#. Label of the increase_in_asset_life (Int) field in DocType 'Asset Repair'
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+msgid "Increase In Asset Life(Months)"
+msgstr "Aumento da vida util do ativo (meses)"
+
+#. Label of the increment (Float) field in DocType 'Item Attribute'
+#. Label of the increment (Float) field in DocType 'Item Variant Attribute'
+#: erpnext/stock/doctype/item_attribute/item_attribute.json
+#: erpnext/stock/doctype/item_variant_attribute/item_variant_attribute.json
+msgid "Increment"
+msgstr "Incremento"
+
+#: erpnext/stock/doctype/item_attribute/item_attribute.py:99
+msgid "Increment cannot be 0"
+msgstr "Incremento não pode ser 0"
+
+#: erpnext/controllers/item_variant.py:113
+msgid "Increment for Attribute {0} cannot be 0"
+msgstr "O incremento do atributo {0} nao pode ser 0"
+
+#. Label of the indentation_level (Int) field in DocType 'Financial Report Row'
+#: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
+msgid "Indent Level"
+msgstr "Nivel de recuo"
+
+#. Description of the 'Indent Level' (Int) field in DocType 'Financial Report
+#. Row'
+#: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
+msgid "Indentation level: 0 = Main heading, 1 = Sub-category, 2 = Individual accounts, etc."
+msgstr "Nivel de recuo: 0 = cabecalho principal, 1 = subcategoria, 2 = contas individuais etc."
+
+#. Description of the 'Delivery Note' (Link) field in DocType 'Packing Slip'
+#: erpnext/stock/doctype/packing_slip/packing_slip.json
+msgid "Indicates that the package is a part of this delivery (Only Draft)"
+msgstr "Indica que o pacote faz parte desta entrega (somente rascunho)"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#: erpnext/accounts/doctype/account/account.json
+msgid "Indirect Expense"
+msgstr "Despesa indireta"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:102
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:167
+msgid "Indirect Expenses"
+msgstr "Despesas Indiretas"
+
+#. Option for the 'Account Type' (Select) field in DocType 'Account'
+#: erpnext/accounts/doctype/account/account.json
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:145
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:242
+msgid "Indirect Income"
+msgstr "Receita Indireta"
+
+#. Option for the 'Supplier Type' (Select) field in DocType 'Supplier'
+#. Option for the 'Customer Type' (Select) field in DocType 'Customer'
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:172
+msgid "Individual"
+msgstr "Pessoa Física"
+
+#: erpnext/accounts/doctype/gl_entry/gl_entry.py:327
+msgid "Individual GL Entry cannot be cancelled."
+msgstr "O lancamento contabil individual nao pode ser cancelado."
+
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:347
+msgid "Individual Stock Ledger Entry cannot be cancelled."
+msgstr "O lancamento individual de estoque nao pode ser cancelado."
+
+#. Label of the industry (Link) field in DocType 'Lead'
+#. Label of the industry (Link) field in DocType 'Opportunity'
+#. Label of the industry (Link) field in DocType 'Prospect'
+#. Label of the industry (Link) field in DocType 'Customer'
+#. Label of the industry (Data) field in DocType 'Industry Type'
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/doctype/prospect/prospect.json
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/selling/doctype/industry_type/industry_type.json
+msgid "Industry"
+msgstr "Setor"
+
+#. Name of a DocType
+#: erpnext/selling/doctype/industry_type/industry_type.json
+msgid "Industry Type"
+msgstr "Tipo de setor"
+
+#. Label of the email_notification_sent (Check) field in DocType 'Delivery
+#. Trip'
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.json
+msgid "Initial Email Notification Sent"
+msgstr "Notificacao inicial por e-mail enviada"
+
+#. Label of the initialize_doctypes_table (Check) field in DocType 'Transaction
+#. Deletion Record'
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.json
+msgid "Initialize Summary Table"
+msgstr "Inicializar tabela de resumo"
+
+#. Option for the 'Payment Order Status' (Select) field in DocType 'Payment
+#. Entry'
+#. Option for the 'Status' (Select) field in DocType 'Payment Request'
+#. Option for the 'Advance Payment Status' (Select) field in DocType 'Purchase
+#. Order'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+msgid "Initiated"
+msgstr "Iniciado"
+
+#. Label of the inspected_by (Link) field in DocType 'Quality Inspection'
+#: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.js:33
+#: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:109
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+msgid "Inspected By"
+msgstr "Inspecionado por"
+
+#: erpnext/controllers/stock_controller.py:1440
+msgid "Inspection Rejected"
+msgstr "Inspecao rejeitada"
+
+#. Label of the inspection_required (Check) field in DocType 'Stock Entry'
+#: erpnext/controllers/stock_controller.py:1410
+#: erpnext/controllers/stock_controller.py:1412
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Inspection Required"
+msgstr "Inspeção Obrigatória"
+
+#. Label of the inspection_required_before_delivery (Check) field in DocType
+#. 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Inspection Required before Delivery"
+msgstr "Inspecao obrigatoria antes da entrega"
+
+#. Label of the inspection_required_before_purchase (Check) field in DocType
+#. 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Inspection Required before Purchase"
+msgstr "Inspecao obrigatoria antes da compra"
+
+#: erpnext/controllers/stock_controller.py:1425
+msgid "Inspection Submission"
+msgstr "Envio da inspecao"
+
+#. Label of the inspection_type (Select) field in DocType 'Quality Inspection'
+#: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:95
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+msgid "Inspection Type"
+msgstr "Tipo de inspecao"
+
+#. Label of the inst_date (Date) field in DocType 'Installation Note'
+#: erpnext/selling/doctype/installation_note/installation_note.json
+msgid "Installation Date"
+msgstr "Data de instalacao"
+
+#. Name of a DocType
+#. Label of the installation_note (Section Break) field in DocType
+#. 'Installation Note'
+#. Label of a Link in the Stock Workspace
+#: erpnext/selling/doctype/installation_note/installation_note.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.js:260
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Installation Note"
+msgstr "Nota de Instalação"
+
+#. Name of a DocType
+#: erpnext/selling/doctype/installation_note_item/installation_note_item.json
+msgid "Installation Note Item"
+msgstr "Item da nota de instalacao"
+
+#: erpnext/stock/doctype/delivery_note/delivery_note.py:631
+msgid "Installation Note {0} has already been submitted"
+msgstr "A nota de instalação {0} já foi enviada"
+
+#. Label of the installation_status (Select) field in DocType 'Delivery Note'
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+msgid "Installation Status"
+msgstr "Status da instalacao"
+
+#. Label of the inst_time (Time) field in DocType 'Installation Note'
+#: erpnext/selling/doctype/installation_note/installation_note.json
+msgid "Installation Time"
+msgstr "Hora da instalacao"
+
+#: erpnext/selling/doctype/installation_note/installation_note.py:115
+msgid "Installation date cannot be before delivery date for Item {0}"
+msgstr "A data de instalacao nao pode ser anterior a data de entrega do item {0}"
+
+#. Label of the qty (Float) field in DocType 'Installation Note Item'
+#. Label of the installed_qty (Float) field in DocType 'Delivery Note Item'
+#: erpnext/selling/doctype/installation_note_item/installation_note_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+msgid "Installed Qty"
+msgstr "Qtd. instalada"
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:24
+msgid "Installing presets"
+msgstr "Instalando predefinições"
+
+#. Label of the instruction (Small Text) field in DocType 'BOM Creator Item'
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+msgid "Instruction"
+msgstr "Instrucao"
+
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.py:82
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.py:325
+msgid "Insufficient Capacity"
+msgstr "Capacidade insuficiente"
+
+#: erpnext/controllers/accounts_controller.py:3834
+#: erpnext/controllers/accounts_controller.py:3858
+msgid "Insufficient Permissions"
+msgstr "Permissões Insuficientes"
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:462
+#: erpnext/stock/doctype/pick_list/pick_list.py:134
+#: erpnext/stock/doctype/pick_list/pick_list.py:152
+#: erpnext/stock/doctype/pick_list/pick_list.py:1032
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:910
+#: erpnext/stock/serial_batch_bundle.py:1186 erpnext/stock/stock_ledger.py:1714
+#: erpnext/stock/stock_ledger.py:2202
+msgid "Insufficient Stock"
+msgstr "Estoque Insuficiente"
+
+#: erpnext/stock/stock_ledger.py:2217
+msgid "Insufficient Stock for Batch"
+msgstr "Estoque insuficiente para o lote"
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:440
+msgid "Insufficient Stock for Product Bundle Items"
+msgstr "Estoque insuficiente para itens do pacote de produtos"
+
+#. Label of the insurance_details_tab (Tab Break) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Insurance"
+msgstr "Seguro"
+
+#. Label of the insurance_company (Data) field in DocType 'Vehicle'
+#: erpnext/setup/doctype/vehicle/vehicle.json
+msgid "Insurance Company"
+msgstr "Seguradora"
+
+#. Label of the insurance_details (Section Break) field in DocType 'Vehicle'
+#: erpnext/setup/doctype/vehicle/vehicle.json
+msgid "Insurance Details"
+msgstr "Detalhes do seguro"
+
+#. Label of the insurance_end_date (Date) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Insurance End Date"
+msgstr "Data final do seguro"
+
+#. Label of the insurance_start_date (Date) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Insurance Start Date"
+msgstr "Data inicial do seguro"
+
+#: erpnext/setup/doctype/vehicle/vehicle.py:44
+msgid "Insurance Start date should be less than Insurance End date"
+msgstr "A data inicial do seguro deve ser anterior a data final do seguro"
+
+#. Label of the insured_value (Data) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Insured value"
+msgstr "Valor segurado"
+
+#. Label of the insurer (Data) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Insurer"
+msgstr "Seguradora"
+
+#. Label of the integration_details_section (Section Break) field in DocType
+#. 'Bank Account'
+#: erpnext/accounts/doctype/bank_account/bank_account.json
+msgid "Integration Details"
+msgstr "Detalhes da integracao"
+
+#. Label of the integration_id (Data) field in DocType 'Bank Account'
+#: erpnext/accounts/doctype/bank_account/bank_account.json
+msgid "Integration ID"
+msgstr "ID da integracao"
+
+#. Label of the inter_company_invoice_reference (Link) field in DocType 'POS
+#. Invoice'
+#. Label of the inter_company_invoice_reference (Link) field in DocType
+#. 'Purchase Invoice'
+#. Label of the inter_company_invoice_reference (Link) field in DocType 'Sales
+#. Invoice'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+msgid "Inter Company Invoice Reference"
+msgstr "Referencia da fatura entre empresas"
+
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#. Option for the 'Journal Entry Type' (Select) field in DocType 'Journal Entry
+#. Template'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+msgid "Inter Company Journal Entry"
+msgstr "Lancamento entre empresas"
+
+#. Label of the inter_company_journal_entry_reference (Link) field in DocType
+#. 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Inter Company Journal Entry Reference"
+msgstr "Referencia do lancamento entre empresas"
+
+#. Label of the inter_company_order_reference (Link) field in DocType 'Purchase
+#. Order'
+#. Label of the inter_company_order_reference (Link) field in DocType 'Sales
+#. Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+msgid "Inter Company Order Reference"
+msgstr "Referencia do pedido entre empresas"
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:1137
+msgid "Inter Company Purchase Order"
+msgstr "Pedido de compra entre empresas"
+
+#. Label of the inter_company_reference (Link) field in DocType 'Delivery Note'
+#. Label of the inter_company_reference (Link) field in DocType 'Purchase
+#. Receipt'
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Inter Company Reference"
+msgstr "Referencia entre empresas"
+
+#: erpnext/buying/doctype/purchase_order/purchase_order.js:486
+msgid "Inter Company Sales Order"
+msgstr "Pedido de venda entre empresas"
+
+#. Label of the inter_transfer_reference_section (Section Break) field in
+#. DocType 'Sales Order Item'
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+msgid "Inter Transfer Reference"
+msgstr "Referencia da transferencia interna"
+
+#. Label of the inter_warehouse_transfer_settings_section (Section Break) field
+#. in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Inter Warehouse Transfer Settings"
+msgstr "Configuracoes de transferencia entre armazens"
+
+#. Label of the interest (Currency) field in DocType 'Overdue Payment'
+#: erpnext/accounts/doctype/overdue_payment/overdue_payment.json
+msgid "Interest"
+msgstr "Juros"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:132
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:218
+msgid "Interest Expense"
+msgstr "Despesa de juros"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:146
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:243
+msgid "Interest Income"
+msgstr "Receita de juros"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:3053
+msgid "Interest and/or dunning fee"
+msgstr "Juros e/ou taxa de cobranca"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:147
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:244
+msgid "Interest on Fixed Deposits"
+msgstr "Juros sobre depositos a prazo"
+
+#. Option for the 'Status' (Select) field in DocType 'Lead'
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/crm/report/lead_details/lead_details.js:39
+msgid "Interested"
+msgstr "Interessado"
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:300
+msgid "Internal"
+msgstr "Interno"
+
+#. Label of the internal_customer_section (Section Break) field in DocType
+#. 'Customer'
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Internal Customer"
+msgstr "Cliente interno"
+
+#: erpnext/selling/doctype/customer/customer.py:224
+msgid "Internal Customer for company {0} already exists"
+msgstr "Ja existe um cliente interno para a empresa {0}"
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:1136
+msgid "Internal Purchase Order"
+msgstr "Pedido de compra interno"
+
+#: erpnext/controllers/accounts_controller.py:803
+msgid "Internal Sale or Delivery Reference missing."
+msgstr "Falta a referencia de venda ou entrega interna."
+
+#: erpnext/buying/doctype/purchase_order/purchase_order.js:485
+msgid "Internal Sales Order"
+msgstr "Pedido de venda interno"
+
+#: erpnext/controllers/accounts_controller.py:805
+msgid "Internal Sales Reference Missing"
+msgstr "Falta a referencia de venda interna"
+
+#. Label of the internal_supplier_section (Section Break) field in DocType
+#. 'Supplier'
+#: erpnext/buying/doctype/supplier/supplier.json
+msgid "Internal Supplier"
+msgstr "Fornecedor interno"
+
+#: erpnext/buying/doctype/supplier/supplier.py:180
+msgid "Internal Supplier for company {0} already exists"
+msgstr "Ja existe um fornecedor interno para a empresa {0}"
+
+#. Option for the 'Payment Type' (Select) field in DocType 'Payment Entry'
+#. Option for the 'Status' (Select) field in DocType 'Purchase Invoice'
+#. Option for the 'Status' (Select) field in DocType 'Sales Invoice'
+#. Label of the internal_transfer_section (Section Break) field in DocType
+#. 'Sales Invoice Item'
+#. Label of the internal_transfer_section (Section Break) field in DocType
+#. 'Delivery Note Item'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/stock/doctype/delivery_note/delivery_note_dashboard.py:27
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/material_request/material_request_dashboard.py:19
+msgid "Internal Transfer"
+msgstr "Transferência Interna"
+
+#: erpnext/controllers/accounts_controller.py:814
+msgid "Internal Transfer Reference Missing"
+msgstr "Falta a referencia da transferencia interna"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice_dashboard.py:37
+msgid "Internal Transfers"
+msgstr "Transferencias internas"
+
+#. Label of the internal_work_history (Table) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Internal Work History"
+msgstr "Historico interno de trabalho"
+
+#: erpnext/controllers/stock_controller.py:1507
+msgid "Internal transfers can only be done in company's default currency"
+msgstr "Transferencias internas so podem ser feitas na moeda padrao da empresa"
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:28
+msgid "Internet Publishing"
+msgstr "Publicacao na internet"
+
+#. Description of the 'Auto Reconciliation Job Trigger' (Int) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Interval should be between 1 to 59 MInutes"
+msgstr "O intervalo deve estar entre 1 e 59 minutos"
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:378
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:386
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:993
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1003
+#: erpnext/assets/doctype/asset_category/asset_category.py:69
+#: erpnext/assets/doctype/asset_category/asset_category.py:97
+#: erpnext/controllers/accounts_controller.py:3201
+#: erpnext/controllers/accounts_controller.py:3209
+msgid "Invalid Account"
+msgstr "Conta Inválida"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:394
+#: erpnext/accounts/doctype/payment_request/payment_request.py:873
+msgid "Invalid Allocated Amount"
+msgstr "Valor alocado invalido"
+
+#: erpnext/accounts/doctype/payment_request/payment_request.py:121
+msgid "Invalid Amount"
+msgstr "Valor invalido"
+
+#: erpnext/controllers/item_variant.py:128
+msgid "Invalid Attribute"
+msgstr "Atributo Inválido"
+
+#: erpnext/controllers/accounts_controller.py:625
+msgid "Invalid Auto Repeat Date"
+msgstr "Data de repeticao automatica invalida"
+
+#: erpnext/stock/doctype/quick_stock_balance/quick_stock_balance.py:40
+msgid "Invalid Barcode. There is no Item attached to this barcode."
+msgstr "Codigo de barras invalido. Nao ha item vinculado a este codigo de barras."
+
+#: erpnext/public/js/controllers/transaction.js:3087
+msgid "Invalid Blanket Order for the selected Customer and Item"
+msgstr ""
+
+#: erpnext/quality_management/doctype/quality_procedure/quality_procedure.py:72
+msgid "Invalid Child Procedure"
+msgstr "Procedimento filho invalido"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2279
+msgid "Invalid Company for Inter Company Transaction."
+msgstr "Empresa Inválida Para Transação Entre Empresas."
+
+#: erpnext/assets/doctype/asset/asset.py:356
+#: erpnext/assets/doctype/asset/asset.py:363
+#: erpnext/controllers/accounts_controller.py:3224
+msgid "Invalid Cost Center"
+msgstr "Centro de custo invalido"
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:405
+msgid "Invalid Delivery Date"
+msgstr "Data de entrega invalida"
+
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:414
+msgid "Invalid Discount"
+msgstr "Desconto invalido"
+
+#: erpnext/controllers/taxes_and_totals.py:812
+msgid "Invalid Discount Amount"
+msgstr "Valor de desconto invalido"
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:122
+msgid "Invalid Document"
+msgstr "Documento invalido"
+
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.py:200
+msgid "Invalid Document Type"
+msgstr "Tipo de documento invalido"
+
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.py:319
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.py:324
+msgid "Invalid Formula"
+msgstr "Formula invalida"
+
+#: erpnext/selling/report/lost_quotations/lost_quotations.py:65
+msgid "Invalid Group By"
+msgstr "Agrupamento invalido"
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:499
+#: erpnext/manufacturing/doctype/production_plan/production_plan.py:934
+msgid "Invalid Item"
+msgstr "Item invalido"
+
+#: erpnext/stock/doctype/item/item.py:1408
+msgid "Invalid Item Defaults"
+msgstr "Padroes do item invalidos"
+
+#. Name of a report
+#: erpnext/accounts/report/invalid_ledger_entries/invalid_ledger_entries.json
+msgid "Invalid Ledger Entries"
+msgstr "Lancamentos contabeis invalidos"
+
+#: erpnext/assets/doctype/asset/asset.py:557
+msgid "Invalid Net Purchase Amount"
+msgstr "Valor liquido de compra invalido"
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:77
+#: erpnext/accounts/general_ledger.py:803
+msgid "Invalid Opening Entry"
+msgstr "Entrada de Abertura Inválida"
+
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:142
+msgid "Invalid POS Invoices"
+msgstr "Faturas de PDV inválidas"
+
+#: erpnext/accounts/doctype/account/account.py:387
+msgid "Invalid Parent Account"
+msgstr "Conta Pai Inválida"
+
+#: erpnext/public/js/controllers/buying.js:426
+msgid "Invalid Part Number"
+msgstr "Número de Peça Inválido"
+
+#: erpnext/utilities/transaction_base.py:34
+msgid "Invalid Posting Time"
+msgstr "Tempo de Lançamento Inválido"
+
+#: erpnext/accounts/doctype/party_link/party_link.py:30
+msgid "Invalid Primary Role"
+msgstr "Perfil principal inválido"
+
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:121
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:123
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:126
+msgid "Invalid Print Format"
+msgstr "Formato de impressao invalido"
+
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.py:61
+msgid "Invalid Priority"
+msgstr "Prioridade invalida"
+
+#: erpnext/manufacturing/doctype/bom/bom.py:1169
+msgid "Invalid Process Loss Configuration"
+msgstr "Configuracao de perda de processo invalida"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:701
+msgid "Invalid Purchase Invoice"
+msgstr "Fatura de compra invalida"
+
+#: erpnext/controllers/accounts_controller.py:3878
+msgid "Invalid Qty"
+msgstr "Qtd. invalida"

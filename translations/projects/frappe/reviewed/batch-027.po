@@ -1,0 +1,858 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:35+0000\n"
+"PO-Revision-Date: 2026-01-21 06:48\n"
+"Last-Translator: developers@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File-ID: 138\n"
+"Language: pt_BR\n"
+
+#: frappe/core/doctype/doctype/doctype.py:1844
+msgid "Report cannot be set for Single types"
+msgstr "Relatório não pode ser definido para tipos Single"
+
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:208
+#: frappe/desk/doctype/number_card/number_card.js:194
+msgid "Report has no data, please modify the filters or change the Report Name"
+msgstr "O relatório não tem dados. Altere os filtros ou mude o nome do relatório"
+
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:196
+#: frappe/desk/doctype/number_card/number_card.js:189
+msgid "Report has no numeric fields, please change the Report Name"
+msgstr "O relatório não tem campos numéricos. Mude o nome do relatório"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:1024
+msgid "Report initiated, click to view status"
+msgstr "Relatório iniciado, clique para ver o status"
+
+#: frappe/email/doctype/auto_email_report/auto_email_report.py:110
+msgid "Report limit reached"
+msgstr "Limite de relatórios atingido"
+
+#: frappe/core/doctype/prepared_report/prepared_report.py:248
+msgid "Report timed out."
+msgstr "Tempo limite do relatório excedido."
+
+#: frappe/desk/query_report.py:686
+msgid "Report updated successfully"
+msgstr "Relatório atualizado com sucesso"
+
+#: frappe/public/js/frappe/views/reports/report_view.js:1353
+msgid "Report was not saved (there were errors)"
+msgstr "O relatório não foi salvo (houve erros)"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:2033
+msgid "Report with more than 10 columns looks better in Landscape mode."
+msgstr "Relatório com mais de 10 colunas fica melhor no modo paisagem."
+
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:286
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:287
+msgid "Report {0}"
+msgstr "Relatório {0}"
+
+#: frappe/desk/reportview.py:367
+msgid "Report {0} deleted"
+msgstr "Relatório {0} excluído"
+
+#: frappe/desk/query_report.py:55
+msgid "Report {0} is disabled"
+msgstr "Relatório {0} está desativado"
+
+#: frappe/desk/reportview.py:344
+msgid "Report {0} saved"
+msgstr "Relatório {0} salvo"
+
+#: frappe/public/js/frappe/views/reports/report_view.js:20
+msgid "Report:"
+msgstr "Relatório:"
+
+#. Label of the prepared_report_section (Section Break) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:591
+msgid "Reports"
+msgstr "Relatórios"
+
+#: frappe/patches/v14_0/update_workspace2.py:50
+msgid "Reports & Masters"
+msgstr "Relatórios e cadastros"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:940
+msgid "Reports already in Queue"
+msgstr "Relatórios já na fila"
+
+#. Description of a DocType
+#: frappe/core/doctype/user/user.json
+msgid "Represents a User in the system."
+msgstr "Representa um usuário no sistema."
+
+#. Description of a DocType
+#: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
+msgid "Represents the states allowed in one document and role assigned to change the state."
+msgstr "Representa os estados permitidos em um documento e a função atribuída para alterar o estado."
+
+#: frappe/integrations/doctype/webhook/webhook.js:101
+msgid "Request Body"
+msgstr "Corpo da solicitação"
+
+#. Label of the data (Code) field in DocType 'Integration Request'
+#. Title of the request-data Web Form
+#. Button label of the request-data Web Form
+#: frappe/integrations/doctype/integration_request/integration_request.json
+#: frappe/website/web_form/request_data/request_data.json
+msgid "Request Data"
+msgstr "Dados da solicitação"
+
+#. Label of the request_description (Data) field in DocType 'Integration
+#. Request'
+#: frappe/integrations/doctype/integration_request/integration_request.json
+msgid "Request Description"
+msgstr "Descrição da solicitação"
+
+#. Label of the request_headers (Code) field in DocType 'Recorder'
+#. Label of the request_headers (Code) field in DocType 'Integration Request'
+#: frappe/core/doctype/recorder/recorder.json
+#: frappe/integrations/doctype/integration_request/integration_request.json
+msgid "Request Headers"
+msgstr "Cabeçalhos da solicitação"
+
+#. Label of the request_id (Data) field in DocType 'Integration Request'
+#: frappe/integrations/doctype/integration_request/integration_request.json
+msgid "Request ID"
+msgstr "ID da solicitação"
+
+#. Label of the rate_limit_count (Int) field in DocType 'Server Script'
+#: frappe/core/doctype/server_script/server_script.json
+msgid "Request Limit"
+msgstr "Limite de solicitações"
+
+#. Label of the request_method (Select) field in DocType 'Webhook'
+#: frappe/integrations/doctype/webhook/webhook.json
+msgid "Request Method"
+msgstr "Método da solicitação"
+
+#. Label of the request_structure (Select) field in DocType 'Webhook'
+#: frappe/integrations/doctype/webhook/webhook.json
+msgid "Request Structure"
+msgstr "Estrutura da solicitação"
+
+#: frappe/public/js/frappe/request.js:231
+msgid "Request Timed Out"
+msgstr "Tempo limite da solicitação excedido"
+
+#. Label of the timeout (Int) field in DocType 'Webhook'
+#: frappe/integrations/doctype/webhook/webhook.json
+#: frappe/public/js/frappe/request.js:244
+msgid "Request Timeout"
+msgstr "Tempo limite da solicitação"
+
+#. Label of the request_url (Small Text) field in DocType 'Webhook'
+#: frappe/integrations/doctype/webhook/webhook.json
+msgid "Request URL"
+msgstr "URL da solicitação"
+
+#. Title of the request-to-delete-data Web Form
+#: frappe/website/web_form/request_to_delete_data/request_to_delete_data.json
+msgid "Request for Account Deletion"
+msgstr "Solicitação de exclusão da conta"
+
+#. Label of the requested_numbers (Code) field in DocType 'SMS Log'
+#: frappe/core/doctype/sms_log/sms_log.json
+msgid "Requested Numbers"
+msgstr "Números solicitados"
+
+#. Label of the require_trusted_certificate (Select) field in DocType 'LDAP
+#. Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "Require Trusted Certificate"
+msgstr "Exigir certificado confiável"
+
+#. Description of the 'LDAP search path for Groups' (Data) field in DocType
+#. 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "Requires any valid fdn path. i.e. ou=groups,dc=example,dc=com"
+msgstr "Requer qualquer caminho fdn válido, por exemplo: ou=groups,dc=example,dc=com"
+
+#. Description of the 'LDAP search path for Users' (Data) field in DocType
+#. 'LDAP Settings'
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+msgid "Requires any valid fdn path. i.e. ou=users,dc=example,dc=com"
+msgstr "Requer qualquer caminho fdn válido, por exemplo: ou=users,dc=example,dc=com"
+
+#: frappe/core/doctype/communication/communication.js:279
+msgid "Res: {0}"
+msgstr "Re: {0}"
+
+#: frappe/desk/doctype/form_tour/form_tour.js:101
+#: frappe/desk/doctype/global_search_settings/global_search_settings.js:19
+#: frappe/desk/doctype/module_onboarding/module_onboarding.js:17
+#: frappe/website/doctype/portal_settings/portal_settings.js:19
+msgid "Reset"
+msgstr "Redefinir"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:136
+msgid "Reset All Customizations"
+msgstr "Redefinir todas as personalizações"
+
+#: frappe/public/js/print_format_builder/print_format_builder.bundle.js:21
+#: frappe/public/js/workflow_builder/workflow_builder.bundle.js:37
+msgid "Reset Changes"
+msgstr "Redefinir alterações"
+
+#: frappe/public/js/frappe/widgets/chart_widget.js:306
+msgid "Reset Chart"
+msgstr "Redefinir gráfico"
+
+#: frappe/public/js/frappe/views/dashboard/dashboard_view.js:39
+msgid "Reset Dashboard Customizations"
+msgstr "Redefinir personalizações do painel"
+
+#: frappe/public/js/frappe/list/list_settings.js:228
+msgid "Reset Fields"
+msgstr "Redefinir campos"
+
+#: frappe/core/doctype/user/user.js:177 frappe/core/doctype/user/user.js:180
+msgid "Reset LDAP Password"
+msgstr "Redefinir senha LDAP"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:128
+msgid "Reset Layout"
+msgstr "Redefinir layout"
+
+#: frappe/core/doctype/user/user.js:228
+msgid "Reset OTP Secret"
+msgstr "Redefinir segredo OTP"
+
+#: frappe/core/doctype/user/user.js:161 frappe/www/login.html:194
+#: frappe/www/me.html:48 frappe/www/update-password.html:3
+#: frappe/www/update-password.html:32
+msgid "Reset Password"
+msgstr "Redefinir senha"
+
+#. Label of the reset_password_key (Data) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Reset Password Key"
+msgstr "Chave de redefinição de senha"
+
+#. Label of the reset_password_link_expiry_duration (Duration) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Reset Password Link Expiry Duration"
+msgstr "Duração de expiração do link de redefinição de senha"
+
+#. Label of the reset_password_template (Link) field in DocType 'System
+#. Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Reset Password Template"
+msgstr "Modelo de redefinição de senha"
+
+#: frappe/core/page/permission_manager/permission_manager.js:116
+msgid "Reset Permissions for {0}?"
+msgstr "Redefinir permissões para {0}?"
+
+#: frappe/public/js/form_builder/components/Field.vue:111
+msgid "Reset To Default"
+msgstr "Redefinir para o padrão"
+
+#: frappe/public/js/frappe/utils/datatable.js:8
+msgid "Reset sorting"
+msgstr "Redefinir ordenação"
+
+#: frappe/public/js/frappe/form/grid_row.js:433
+msgid "Reset to default"
+msgstr "Redefinir para o padrão"
+
+#: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.js:19
+msgid "Reset to defaults"
+msgstr "Redefinir para os padrões"
+
+#: frappe/templates/emails/password_reset.html:3
+msgid "Reset your password"
+msgstr "Redefina sua senha"
+
+#. Label of the resource_tab (Tab Break) field in DocType 'OAuth Settings'
+#: frappe/integrations/doctype/oauth_settings/oauth_settings.json
+msgid "Resource"
+msgstr "Recurso"
+
+#. Label of the resource_documentation (Data) field in DocType 'OAuth Settings'
+#: frappe/integrations/doctype/oauth_settings/oauth_settings.json
+msgid "Resource Documentation"
+msgstr "Documentação do recurso"
+
+#. Label of the resource_name (Data) field in DocType 'OAuth Settings'
+#: frappe/integrations/doctype/oauth_settings/oauth_settings.json
+msgid "Resource Name"
+msgstr "Nome do recurso"
+
+#. Label of the resource_policy_uri (Data) field in DocType 'OAuth Settings'
+#: frappe/integrations/doctype/oauth_settings/oauth_settings.json
+msgid "Resource Policy URI"
+msgstr "URI da política do recurso"
+
+#. Label of the resource_tos_uri (Data) field in DocType 'OAuth Settings'
+#: frappe/integrations/doctype/oauth_settings/oauth_settings.json
+msgid "Resource TOS URI"
+msgstr "URI dos termos de serviço do recurso"
+
+#. Label of the response (Text Editor) field in DocType 'Email Template'
+#. Label of the response_html (Code) field in DocType 'Email Template'
+#. Label of the response_section (Section Break) field in DocType 'Integration
+#. Request'
+#. Label of the response (Code) field in DocType 'Webhook Request Log'
+#: frappe/email/doctype/email_template/email_template.json
+#: frappe/integrations/doctype/integration_request/integration_request.json
+#: frappe/integrations/doctype/webhook_request_log/webhook_request_log.json
+msgid "Response"
+msgstr "Resposta"
+
+#. Label of the response_headers (Code) field in DocType 'Integration Request'
+#: frappe/integrations/doctype/integration_request/integration_request.json
+msgid "Response Headers"
+msgstr "Cabeçalhos da resposta"
+
+#. Label of the response_type (Select) field in DocType 'OAuth Client'
+#: frappe/integrations/doctype/oauth_client/oauth_client.json
+msgid "Response Type"
+msgstr "Tipo de resposta"
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:445
+msgid "Rest of the day"
+msgstr "Restante do dia"
+
+#: frappe/core/doctype/deleted_document/deleted_document.js:11
+#: frappe/core/doctype/deleted_document/deleted_document_list.js:48
+msgid "Restore"
+msgstr "Restaurar"
+
+#: frappe/core/page/permission_manager/permission_manager.js:559
+msgid "Restore Original Permissions"
+msgstr "Restaurar permissões originais"
+
+#: frappe/website/doctype/portal_settings/portal_settings.js:20
+msgid "Restore to default settings?"
+msgstr "Restaurar para as configurações padrão?"
+
+#. Label of the restored (Check) field in DocType 'Deleted Document'
+#: frappe/core/doctype/deleted_document/deleted_document.json
+msgid "Restored"
+msgstr "Restaurado"
+
+#: frappe/core/doctype/deleted_document/deleted_document.py:74
+msgid "Restoring Deleted Document"
+msgstr "Restaurando documento excluído"
+
+#. Label of the restrict_ip (Small Text) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Restrict IP"
+msgstr "Restringir IP"
+
+#. Label of the restrict_to_domain (Link) field in DocType 'DocType'
+#. Label of the restrict_to_domain (Link) field in DocType 'Module Def'
+#. Label of the restrict_to_domain (Link) field in DocType 'Page'
+#. Label of the restrict_to_domain (Link) field in DocType 'Role'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/core/doctype/module_def/module_def.json
+#: frappe/core/doctype/page/page.json frappe/core/doctype/role/role.json
+msgid "Restrict To Domain"
+msgstr "Restringir ao domínio"
+
+#. Label of the restrict_to_domain (Link) field in DocType 'Workspace'
+#. Label of the restrict_to_domain (Link) field in DocType 'Workspace Shortcut'
+#: frappe/desk/doctype/workspace/workspace.json
+#: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
+msgid "Restrict to Domain"
+msgstr "Restringir ao domínio"
+
+#. Description of the 'Restrict IP' (Small Text) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Restrict user from this IP address only. Multiple IP addresses can be added by separating with commas. Also accepts partial IP addresses like (111.111.111)"
+msgstr "Restringe o usuário somente a este endereço IP. Vários endereços IP podem ser adicionados separados por vírgulas. Também aceita endereços IP parciais como (111.111.111)"
+
+#: frappe/public/js/frappe/list/list_view.js:199
+msgctxt "Title of message showing restrictions in list view"
+msgid "Restrictions"
+msgstr "Restrições"
+
+#: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:455
+#: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:470
+msgid "Result"
+msgstr "Resultado"
+
+#: frappe/email/doctype/email_queue/email_queue_list.js:27
+msgid "Resume Sending"
+msgstr "Retomar envio"
+
+#. Label of the retry (Int) field in DocType 'Email Queue'
+#: frappe/core/doctype/data_import/data_import.js:111
+#: frappe/desk/page/setup_wizard/setup_wizard.js:297
+#: frappe/email/doctype/email_queue/email_queue.json
+msgid "Retry"
+msgstr "Tentar novamente"
+
+#: frappe/email/doctype/email_queue/email_queue_list.js:47
+msgid "Retry Sending"
+msgstr "Tentar enviar novamente"
+
+#: frappe/www/qrcode.html:15
+msgid "Return to the Verification screen and enter the code displayed by your authentication app"
+msgstr "Volte para a tela de verificação e insira o código exibido pelo seu aplicativo de autenticação"
+
+#: frappe/database/schema.py:165
+msgid "Reverting length to {0} for '{1}' in '{2}'. Setting the length as {3} will cause truncation of data."
+msgstr "Revertendo o comprimento para {0} de '{1}' em '{2}'. Definir o comprimento como {3} causará truncamento de dados."
+
+#. Label of the revocation_uri (Data) field in DocType 'Connected App'
+#: frappe/integrations/doctype/connected_app/connected_app.json
+msgid "Revocation URI"
+msgstr "URI de revogação"
+
+#: frappe/www/third_party_apps.html:47
+msgid "Revoke"
+msgstr "Revogar"
+
+#. Option for the 'Status' (Select) field in DocType 'OAuth Bearer Token'
+#: frappe/integrations/doctype/oauth_bearer_token/oauth_bearer_token.json
+msgid "Revoked"
+msgstr "Revogado"
+
+#. Option for the 'Content Type' (Select) field in DocType 'Web Page'
+#: frappe/website/doctype/web_page/web_page.js:92
+#: frappe/website/doctype/web_page/web_page.json
+msgid "Rich Text"
+msgstr "Texto formatado"
+
+#. Option for the 'Position' (Select) field in DocType 'Form Tour Step'
+#. Option for the 'Align' (Select) field in DocType 'Letter Head'
+#. Option for the 'Text Align' (Select) field in DocType 'Web Page'
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+#: frappe/printing/doctype/letter_head/letter_head.json
+#: frappe/website/doctype/web_page/web_page.json
+msgid "Right"
+msgstr "Direita"
+
+#: frappe/printing/page/print_format_builder/print_format_builder.js:484
+#: frappe/public/js/print_format_builder/PrintFormatControls.vue:156
+msgctxt "alignment"
+msgid "Right"
+msgstr "Direita"
+
+#. Option for the 'Position' (Select) field in DocType 'Form Tour Step'
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+msgid "Right Bottom"
+msgstr "Inferior direita"
+
+#. Option for the 'Position' (Select) field in DocType 'Form Tour Step'
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+msgid "Right Center"
+msgstr "Centro à direita"
+
+#. Label of the robots_txt (Code) field in DocType 'Website Settings'
+#: frappe/website/doctype/website_settings/website_settings.json
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#. Label of the role (Link) field in DocType 'Custom DocPerm'
+#. Label of the roles (Table) field in DocType 'Custom Role'
+#. Label of the role (Link) field in DocType 'DocPerm'
+#. Label of the role (Link) field in DocType 'Has Role'
+#. Name of a DocType
+#. Label of the role (Link) field in DocType 'User Role'
+#. Label of the role (Link) field in DocType 'User Type'
+#. Label of a Link in the Users Workspace
+#. Label of a shortcut in the Users Workspace
+#. Label of the role (Link) field in DocType 'Onboarding Permission'
+#. Label of the role (Link) field in DocType 'ToDo'
+#. Label of the role (Link) field in DocType 'OAuth Client Role'
+#. Label of the role (Link) field in DocType 'Portal Menu Item'
+#. Label of the role (Link) field in DocType 'Workflow Action Permitted Role'
+#: frappe/core/doctype/custom_docperm/custom_docperm.json
+#: frappe/core/doctype/custom_role/custom_role.json
+#: frappe/core/doctype/docperm/docperm.json
+#: frappe/core/doctype/has_role/has_role.json
+#: frappe/core/doctype/role/role.json
+#: frappe/core/doctype/user_role/user_role.json
+#: frappe/core/doctype/user_type/user_type.json
+#: frappe/core/doctype/user_type/user_type.py:110
+#: frappe/core/page/permission_manager/permission_manager.js:219
+#: frappe/core/page/permission_manager/permission_manager.js:506
+#: frappe/core/workspace/users/users.json
+#: frappe/desk/doctype/onboarding_permission/onboarding_permission.json
+#: frappe/desk/doctype/todo/todo.json
+#: frappe/integrations/doctype/oauth_client_role/oauth_client_role.json
+#: frappe/website/doctype/portal_menu_item/portal_menu_item.json
+#: frappe/workflow/doctype/workflow_action_permitted_role/workflow_action_permitted_role.json
+msgid "Role"
+msgstr "Função"
+
+#: frappe/core/doctype/role/role.js:8
+msgid "Role 'All' will be given to all system + website users."
+msgstr "A função 'All' será atribuída a todos os usuários do sistema e do site."
+
+#: frappe/core/doctype/role/role.js:13
+msgid "Role 'Desk User' will be given to all system users."
+msgstr "A função 'Desk User' será atribuída a todos os usuários do sistema."
+
+#. Label of the role_name (Data) field in DocType 'Role'
+#. Label of the role_profile (Data) field in DocType 'Role Profile'
+#: frappe/core/doctype/role/role.json
+#: frappe/core/doctype/role_profile/role_profile.json
+msgid "Role Name"
+msgstr "Nome da função"
+
+#. Name of a DocType
+#. Label of a Link in the Users Workspace
+#: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
+#: frappe/core/workspace/users/users.json
+msgid "Role Permission for Page and Report"
+msgstr "Permissão de função para página e relatório"
+
+#. Label of the permissions_section (Section Break) field in DocType 'User
+#. Document Type'
+#: frappe/core/doctype/user_document_type/user_document_type.json
+#: frappe/public/js/frappe/roles_editor.js:114
+msgid "Role Permissions"
+msgstr "Permissões de função"
+
+#. Label of a Link in the Users Workspace
+#: frappe/core/page/permission_manager/permission_manager.js:4
+#: frappe/core/workspace/users/users.json
+msgid "Role Permissions Manager"
+msgstr "Gerenciador de permissões de função"
+
+#: frappe/public/js/frappe/list/list_view.js:1936
+msgctxt "Button in list view menu"
+msgid "Role Permissions Manager"
+msgstr "Gerenciador de permissões de função"
+
+#. Name of a DocType
+#. Label of the role_profile_name (Link) field in DocType 'User'
+#. Label of the role_profile (Link) field in DocType 'User Role Profile'
+#. Label of a Link in the Users Workspace
+#: frappe/core/doctype/role_profile/role_profile.json
+#: frappe/core/doctype/user/user.json
+#: frappe/core/doctype/user_role_profile/user_role_profile.json
+#: frappe/core/workspace/users/users.json
+msgid "Role Profile"
+msgstr "Perfil de função"
+
+#. Label of the role_profiles (Table MultiSelect) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Role Profiles"
+msgstr "Perfis de função"
+
+#. Name of a DocType
+#: frappe/core/doctype/role_replication/role_replication.json
+msgid "Role Replication"
+msgstr "Replicação de função"
+
+#. Label of the role_and_level (Section Break) field in DocType 'Custom
+#. DocPerm'
+#. Label of the role_and_level (Section Break) field in DocType 'DocPerm'
+#: frappe/core/doctype/custom_docperm/custom_docperm.json
+#: frappe/core/doctype/docperm/docperm.json
+msgid "Role and Level"
+msgstr "Função e nível"
+
+#: frappe/core/doctype/user/user.py:403
+msgid "Role has been set as per the user type {0}"
+msgstr "A função foi definida de acordo com o tipo de usuário {0}"
+
+#. Label of the roles (Table) field in DocType 'Page'
+#. Label of the roles (Table) field in DocType 'Report'
+#. Label of the roles (Table) field in DocType 'Role Permission for Page and
+#. Report'
+#. Label of the sb1 (Section Break) field in DocType 'User'
+#. Label of the roles (Table MultiSelect) field in DocType 'User Invitation'
+#. Label of the roles_section (Section Break) field in DocType 'Custom HTML
+#. Block'
+#. Label of the roles (Table) field in DocType 'Custom HTML Block'
+#. Label of the roles (Table) field in DocType 'Dashboard Chart'
+#. Label of the roles_tab (Tab Break) field in DocType 'Desktop Icon'
+#. Label of the roles (Table) field in DocType 'Desktop Icon'
+#. Label of the roles (Table) field in DocType 'Workspace'
+#. Label of the roles_tab (Tab Break) field in DocType 'Workspace'
+#: frappe/core/doctype/page/page.json frappe/core/doctype/report/report.json
+#: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
+#: frappe/core/doctype/user/user.json
+#: frappe/core/doctype/user_invitation/user_invitation.json
+#: frappe/core/page/permission_manager/permission_manager.js:66
+#: frappe/desk/doctype/custom_html_block/custom_html_block.json
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+#: frappe/desk/doctype/desktop_icon/desktop_icon.json
+#: frappe/desk/doctype/workspace/workspace.json
+msgid "Roles"
+msgstr "Funções"
+
+#. Label of the roles_permissions_tab (Tab Break) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Roles & Permissions"
+msgstr "Funções e permissões"
+
+#. Label of the roles (Table) field in DocType 'Role Profile'
+#. Label of the roles (Table) field in DocType 'User'
+#: frappe/core/doctype/role_profile/role_profile.json
+#: frappe/core/doctype/user/user.json
+msgid "Roles Assigned"
+msgstr "Funções atribuídas"
+
+#. Label of the roles_html (HTML) field in DocType 'Role Profile'
+#. Label of the roles_html (HTML) field in DocType 'User'
+#: frappe/core/doctype/role_profile/role_profile.json
+#: frappe/core/doctype/user/user.json
+msgid "Roles HTML"
+msgstr "Funções HTML"
+
+#. Label of the roles_html (HTML) field in DocType 'Role Permission for Page
+#. and Report'
+#: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
+msgid "Roles Html"
+msgstr "HTML de funções"
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:7
+msgid "Roles can be set for users from their User page."
+msgstr "As funções podem ser definidas para os usuários na página Usuário."
+
+#: frappe/utils/nestedset.py:293
+msgid "Root {0} cannot be deleted"
+msgstr "A raiz {0} não pode ser excluída"
+
+#. Option for the 'Rule' (Select) field in DocType 'Assignment Rule'
+#: frappe/automation/doctype/assignment_rule/assignment_rule.json
+msgid "Round Robin"
+msgstr "Rodízio"
+
+#. Label of the rounding_method (Select) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Rounding Method"
+msgstr "Método de arredondamento"
+
+#. Label of the route (Data) field in DocType 'DocType'
+#. Option for the 'Action Type' (Select) field in DocType 'DocType Action'
+#. Option for the 'Item Type' (Select) field in DocType 'Navbar Item'
+#. Label of the route (Data) field in DocType 'Navbar Item'
+#. Label of the route (Data) field in DocType 'DocType Layout'
+#. Label of the route (Data) field in DocType 'Route History'
+#. Label of the route (Data) field in DocType 'Help Article'
+#. Label of the route (Data) field in DocType 'Help Category'
+#. Label of the route (Data) field in DocType 'Portal Menu Item'
+#. Label of the route (Data) field in DocType 'Web Form'
+#. Label of the route (Data) field in DocType 'Web Page'
+#. Label of the route (Data) field in DocType 'Website Sidebar Item'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/core/doctype/doctype_action/doctype_action.json
+#: frappe/core/doctype/navbar_item/navbar_item.json
+#: frappe/custom/doctype/doctype_layout/doctype_layout.json
+#: frappe/desk/doctype/route_history/route_history.json
+#: frappe/website/doctype/help_article/help_article.json
+#: frappe/website/doctype/help_category/help_category.json
+#: frappe/website/doctype/portal_menu_item/portal_menu_item.json
+#: frappe/website/doctype/web_form/web_form.json
+#: frappe/website/doctype/web_page/web_page.json
+#: frappe/website/doctype/website_sidebar_item/website_sidebar_item.json
+msgid "Route"
+msgstr "Rota"
+
+#. Name of a DocType
+#: frappe/desk/doctype/route_history/route_history.json
+msgid "Route History"
+msgstr "Histórico de rotas"
+
+#. Label of the route_options (Code) field in DocType 'Workspace Sidebar Item'
+#: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json
+msgid "Route Options"
+msgstr "Opções de rota"
+
+#. Label of the route_redirects (Table) field in DocType 'Website Settings'
+#: frappe/website/doctype/website_settings/website_settings.json
+msgid "Route Redirects"
+msgstr "Redirecionamentos de rota"
+
+#. Description of the 'Home Page' (Data) field in DocType 'Role'
+#: frappe/core/doctype/role/role.json
+msgid "Route: Example \"/app\""
+msgstr "Rota: exemplo \"/app\""
+
+#: frappe/model/base_document.py:953 frappe/model/document.py:822
+msgid "Row"
+msgstr "Linha"
+
+#: frappe/core/doctype/version/version_view.html:74
+msgid "Row #"
+msgstr "Linha #"
+
+#: frappe/core/doctype/doctype/doctype.py:1866
+#: frappe/core/doctype/doctype/doctype.py:1876
+msgid "Row # {0}: Non administrator user can not set the role {1} to the custom doctype"
+msgstr "Linha # {0}: Usuário não administrador não pode definir a função {1} para o DocType personalizado"
+
+#: frappe/model/base_document.py:1083
+msgid "Row #{0}:"
+msgstr "Linha #{0}:"
+
+#: frappe/core/doctype/doctype/doctype.py:505
+msgid "Row #{}: Fieldname is required"
+msgstr "Linha #{}: o nome do campo é obrigatório"
+
+#. Label of the row_format (Select) field in DocType 'DocType'
+#: frappe/core/doctype/doctype/doctype.json
+msgid "Row Format"
+msgstr "Formato da linha"
+
+#. Label of the row_indexes (Code) field in DocType 'Data Import Log'
+#: frappe/core/doctype/data_import_log/data_import_log.json
+msgid "Row Indexes"
+msgstr "Índices de linha"
+
+#. Label of the row_name (Data) field in DocType 'Property Setter'
+#: frappe/custom/doctype/property_setter/property_setter.json
+msgid "Row Name"
+msgstr "Nome da linha"
+
+#: frappe/core/doctype/data_import/data_import.js:509
+msgid "Row Number"
+msgstr "Número da linha"
+
+#: frappe/core/doctype/version/version_view.html:69
+msgid "Row Values Changed"
+msgstr "Valores da linha alterados"
+
+#: frappe/core/doctype/data_import/data_import.js:393
+msgid "Row {0}"
+msgstr "Linha {0}"
+
+#: frappe/custom/doctype/customize_form/customize_form.py:357
+msgid "Row {0}: Not allowed to disable Mandatory for standard fields"
+msgstr "Linha {0}: não é permitido desativar Obrigatório para campos padrão"
+
+#: frappe/custom/doctype/customize_form/customize_form.py:346
+msgid "Row {0}: Not allowed to enable Allow on Submit for standard fields"
+msgstr "Linha {0}: não é permitido ativar Permitir ao enviar para campos padrão"
+
+#. Label of the rows_added_section (Section Break) field in DocType 'Audit
+#. Trail'
+#: frappe/core/doctype/audit_trail/audit_trail.json
+#: frappe/core/doctype/version/version_view.html:33
+msgid "Rows Added"
+msgstr "Linhas adicionadas"
+
+#. Label of the rows_removed_section (Section Break) field in DocType 'Audit
+#. Trail'
+#: frappe/core/doctype/audit_trail/audit_trail.json
+#: frappe/core/doctype/version/version_view.html:33
+msgid "Rows Removed"
+msgstr "Linhas removidas"
+
+#. Label of the rows_threshold_for_grid_search (Int) field in DocType 'DocType'
+#. Label of the rows_threshold_for_grid_search (Int) field in DocType
+#. 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Rows Threshold for Grid Search"
+msgstr "Limite de linhas para pesquisa na grade"
+
+#. Label of the rule (Select) field in DocType 'Assignment Rule'
+#: frappe/automation/doctype/assignment_rule/assignment_rule.json
+msgid "Rule"
+msgstr "Regra"
+
+#. Label of the section_break_3 (Section Break) field in DocType 'Document
+#. Naming Rule'
+#: frappe/core/doctype/document_naming_rule/document_naming_rule.json
+msgid "Rule Conditions"
+msgstr "Condições da regra"
+
+#: frappe/permissions.py:681
+msgid "Rule for this doctype, role, permlevel and if-owner combination already exists."
+msgstr "Já existe uma regra para esta combinação de doctype, função, nível de permissão e se for proprietário."
+
+#. Group in DocType's connections
+#: frappe/core/doctype/doctype/doctype.json
+msgid "Rules"
+msgstr "Regras"
+
+#. Description of the 'Transitions' (Table) field in DocType 'Workflow'
+#: frappe/workflow/doctype/workflow/workflow.json
+msgid "Rules defining transition of state in the workflow."
+msgstr "Regras que definem a transição de estado no fluxo de trabalho."
+
+#. Description of the 'Transition Rules' (Section Break) field in DocType
+#. 'Workflow'
+#: frappe/workflow/doctype/workflow/workflow.json
+msgid "Rules for how states are transitions, like next state and which role is allowed to change state etc."
+msgstr "Regras de transição entre estados, como o próximo estado e qual função pode alterar o estado etc."
+
+#. Description of the 'Priority' (Int) field in DocType 'Document Naming Rule'
+#: frappe/core/doctype/document_naming_rule/document_naming_rule.json
+msgid "Rules with higher priority number will be applied first."
+msgstr "Regras com número de prioridade mais alta serão aplicadas primeiro."
+
+#. Label of the dormant_days (Int) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Run Jobs only Daily if Inactive For (Days)"
+msgstr "Executar trabalhos apenas diariamente se inativo por (dias)"
+
+#. Description of the 'Enable Scheduled Jobs' (Check) field in DocType 'System
+#. Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Run scheduled jobs only if checked"
+msgstr "As tarefas agendadas somente serão executadas se a opção estiver marcada"
+
+#: frappe/core/report/prepared_report_analytics/prepared_report_analytics.py:57
+msgid "Runtime in Minutes"
+msgstr "Tempo de execução em minutos"
+
+#: frappe/core/report/prepared_report_analytics/prepared_report_analytics.py:57
+msgid "Runtime in Seconds"
+msgstr "Tempo de execução em segundos"
+
+#. Option for the 'Type' (Select) field in DocType 'Communication'
+#. Option for the 'Two Factor Authentication method' (Select) field in DocType
+#. 'System Settings'
+#. Option for the 'Channel' (Select) field in DocType 'Notification'
+#: frappe/core/doctype/communication/communication.json
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/email/doctype/notification/notification.json
+msgid "SMS"
+msgstr "SMS"
+
+#. Label of the sms_gateway_url (Small Text) field in DocType 'SMS Settings'
+#: frappe/core/doctype/sms_settings/sms_settings.json
+msgid "SMS Gateway URL"
+msgstr "URL do gateway de SMS"
+
+#. Name of a DocType
+#: frappe/core/doctype/sms_log/sms_log.json
+msgid "SMS Log"
+msgstr "Log de SMS"
+
+#. Name of a DocType
+#: frappe/core/doctype/sms_parameter/sms_parameter.json
+msgid "SMS Parameter"
+msgstr "Parâmetro de SMS"
+
+#. Name of a DocType
+#. Label of a Link in the Integrations Workspace
+#: frappe/core/doctype/sms_settings/sms_settings.json
+#: frappe/integrations/workspace/integrations/integrations.json
+msgid "SMS Settings"
+msgstr "Configurações de SMS"
+
+#: frappe/core/doctype/sms_settings/sms_settings.py:114
+msgid "SMS sent successfully"
+msgstr "SMS enviado com sucesso"
+
+#: frappe/templates/includes/login/login.js:369
+msgid "SMS was not sent. Please contact Administrator."
+msgstr "O SMS não foi enviado. Entre em contato com o administrador."

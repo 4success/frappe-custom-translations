@@ -1,0 +1,900 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:35+0000\n"
+"PO-Revision-Date: 2026-01-21 06:48\n"
+"Last-Translator: developers@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File-ID: 138\n"
+"Language: pt_BR\n"
+
+#. Name of a report
+#: frappe/core/report/prepared_report_analytics/prepared_report_analytics.json
+msgid "Prepared Report Analytics"
+msgstr "Análise de relatórios preparados"
+
+#. Name of a role
+#: frappe/core/doctype/prepared_report/prepared_report.json
+msgid "Prepared Report User"
+msgstr "Usuário de relatório preparado"
+
+#: frappe/desk/query_report.py:309
+msgid "Prepared report render failed"
+msgstr "Falha ao renderizar o relatório preparado"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:478
+msgid "Preparing Report"
+msgstr "Preparando relatório"
+
+#: frappe/public/js/frappe/views/communication.js:425
+msgid "Prepend the template to the email message"
+msgstr "Adicionar o modelo no início da mensagem de e-mail"
+
+#: frappe/public/js/frappe/ui/keyboard.js:139
+msgid "Press Alt Key to trigger additional shortcuts in Menu and Sidebar"
+msgstr "Pressione Alt para acionar atalhos adicionais no menu e na barra lateral"
+
+#: frappe/public/js/frappe/list/list_filter.js:87
+msgid "Press Enter to save"
+msgstr "Pressione Enter para salvar"
+
+#. Label of the section_import_preview (Section Break) field in DocType 'Data
+#. Import'
+#. Label of the preview (Section Break) field in DocType 'File'
+#. Label of the preview_section (Section Break) field in DocType 'Custom HTML
+#. Block'
+#. Label of the preview (Attach Image) field in DocType 'Print Style'
+#: frappe/core/doctype/data_import/data_import.json
+#: frappe/core/doctype/file/file.json
+#: frappe/desk/doctype/custom_html_block/custom_html_block.json
+#: frappe/email/doctype/notification/notification.js:204
+#: frappe/integrations/doctype/webhook/webhook.js:90
+#: frappe/printing/doctype/print_style/print_style.json
+#: frappe/public/js/frappe/form/controls/markdown_editor.js:17
+#: frappe/public/js/frappe/form/controls/markdown_editor.js:31
+#: frappe/public/js/frappe/ui/capture.js:236
+msgid "Preview"
+msgstr "Visualização"
+
+#. Label of the preview_html (HTML) field in DocType 'File'
+#: frappe/core/doctype/file/file.json
+msgid "Preview HTML"
+msgstr "Pré-visualização de HTML"
+
+#. Label of the preview_message (Button) field in DocType 'Auto Repeat'
+#: frappe/automation/doctype/auto_repeat/auto_repeat.json
+msgid "Preview Message"
+msgstr "Visualizar mensagem"
+
+#: frappe/public/js/form_builder/form_builder.bundle.js:83
+msgid "Preview Mode"
+msgstr "Modo de visualização"
+
+#. Label of the series_preview (Text) field in DocType 'Document Naming
+#. Settings'
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.json
+msgid "Preview of generated names"
+msgstr "Visualização dos nomes gerados"
+
+#: frappe/public/js/frappe/views/render_preview.js:19
+msgid "Preview on {0}"
+msgstr "Visualizar em {0}"
+
+#: frappe/public/js/print_format_builder/Preview.vue:103
+msgid "Preview type"
+msgstr "Tipo de visualização"
+
+#: frappe/email/doctype/email_group/email_group.js:81
+msgid "Preview:"
+msgstr "Visualização:"
+
+#: frappe/public/js/frappe/form/form_tour.js:15
+#: frappe/public/js/frappe/web_form/web_form.js:97
+#: frappe/public/js/onboarding_tours/onboarding_tours.js:16
+#: frappe/templates/includes/slideshow.html:34
+#: frappe/website/web_template/slideshow/slideshow.html:40
+msgid "Previous"
+msgstr "Anterior"
+
+#: frappe/public/js/frappe/ui/slides.js:351
+msgctxt "Go to previous slide"
+msgid "Previous"
+msgstr "Anterior"
+
+#: frappe/public/js/frappe/form/toolbar.js:328
+msgid "Previous Document"
+msgstr "Documento anterior"
+
+#: frappe/public/js/frappe/form/form.js:2232
+msgid "Previous Submission"
+msgstr "Envio anterior"
+
+#. Option for the 'Button Color' (Select) field in DocType 'DocField'
+#. Option for the 'Button Color' (Select) field in DocType 'Custom Field'
+#. Option for the 'Button Color' (Select) field in DocType 'Customize Form
+#. Field'
+#. Option for the 'Style' (Select) field in DocType 'Workflow State'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/workflow/doctype/workflow_state/workflow_state.json
+msgid "Primary"
+msgstr "Primário"
+
+#: frappe/public/js/frappe/form/templates/address_list.html:27
+msgid "Primary Address"
+msgstr "Endereço principal"
+
+#. Label of the primary_color (Link) field in DocType 'Website Theme'
+#: frappe/website/doctype/website_theme/website_theme.json
+msgid "Primary Color"
+msgstr "Cor primária"
+
+#: frappe/public/js/frappe/form/templates/contact_list.html:23
+msgid "Primary Contact"
+msgstr "Contato principal"
+
+#: frappe/public/js/frappe/form/templates/contact_list.html:69
+msgid "Primary Email"
+msgstr "E-mail principal"
+
+#: frappe/public/js/frappe/form/templates/contact_list.html:49
+msgid "Primary Mobile"
+msgstr "Celular principal"
+
+#: frappe/public/js/frappe/form/templates/contact_list.html:41
+msgid "Primary Phone"
+msgstr "Telefone principal"
+
+#: frappe/database/mariadb/schema.py:156 frappe/database/postgres/schema.py:202
+#: frappe/database/sqlite/schema.py:141
+msgid "Primary key of doctype {0} can not be changed as there are existing values."
+msgstr "A chave primária do tipo de documento {0} não pode ser alterada porque já existem valores."
+
+#. Label of the print (Check) field in DocType 'Custom DocPerm'
+#. Label of the print (Check) field in DocType 'DocPerm'
+#. Label of the print (Check) field in DocType 'User Document Type'
+#: frappe/core/doctype/custom_docperm/custom_docperm.json
+#: frappe/core/doctype/docperm/docperm.json
+#: frappe/core/doctype/success_action/success_action.js:58
+#: frappe/core/doctype/user_document_type/user_document_type.json
+#: frappe/printing/page/print/print.js:79
+#: frappe/public/js/frappe/form/success_action.js:81
+#: frappe/public/js/frappe/form/templates/print_layout.html:46
+#: frappe/public/js/frappe/form/toolbar.js:393
+#: frappe/public/js/frappe/form/toolbar.js:405
+#: frappe/public/js/frappe/list/bulk_operations.js:95
+#: frappe/public/js/frappe/views/reports/query_report.js:1819
+#: frappe/public/js/frappe/views/reports/report_view.js:1533
+#: frappe/public/js/frappe/views/treeview.js:492 frappe/www/printview.html:18
+msgid "Print"
+msgstr "Imprimir"
+
+#: frappe/public/js/frappe/list/list_view.js:2243
+msgctxt "Button in list view actions menu"
+msgid "Print"
+msgstr "Imprimir"
+
+#: frappe/public/js/frappe/list/bulk_operations.js:48
+msgid "Print Documents"
+msgstr "Imprimir documentos"
+
+#. Label of the print_format (Link) field in DocType 'Auto Repeat'
+#. Label of a Link in the Build Workspace
+#. Label of the print_format (Link) field in DocType 'Notification'
+#. Name of a DocType
+#. Label of the print_format (Link) field in DocType 'Web Form'
+#: frappe/automation/doctype/auto_repeat/auto_repeat.json
+#: frappe/core/workspace/build/build.json
+#: frappe/email/doctype/notification/notification.json
+#: frappe/printing/doctype/print_format/print_format.json
+#: frappe/printing/page/print/print.js:108
+#: frappe/printing/page/print/print.js:886
+#: frappe/public/js/frappe/list/bulk_operations.js:59
+#: frappe/website/doctype/web_form/web_form.json
+msgid "Print Format"
+msgstr "Formato de impressão"
+
+#. Label of the print_format_builder (Check) field in DocType 'Print Format'
+#: frappe/printing/doctype/print_format/print_format.json
+#: frappe/printing/page/print_format_builder/print_format_builder.js:44
+#: frappe/printing/page/print_format_builder/print_format_builder.js:67
+#: frappe/printing/page/print_format_builder_beta/print_format_builder_beta.js:4
+msgid "Print Format Builder"
+msgstr "Construtor de formato de impressão"
+
+#. Label of the print_format_builder_beta (Check) field in DocType 'Print
+#. Format'
+#: frappe/printing/doctype/print_format/print_format.json
+msgid "Print Format Builder Beta"
+msgstr "Construtor de formato de impressão Beta"
+
+#: frappe/utils/pdf.py:64
+msgid "Print Format Error"
+msgstr "Erro no formato de impressão"
+
+#. Name of a DocType
+#: frappe/printing/doctype/print_format_field_template/print_format_field_template.json
+msgid "Print Format Field Template"
+msgstr "Modelo de campo de formato de impressão"
+
+#. Label of the print_format_for (Select) field in DocType 'Print Format'
+#: frappe/printing/doctype/print_format/print_format.json
+msgid "Print Format For"
+msgstr "Formato de impressão para"
+
+#. Label of the print_format_help (HTML) field in DocType 'Print Format'
+#: frappe/printing/doctype/print_format/print_format.json
+msgid "Print Format Help"
+msgstr "Ajuda sobre formato de impressão"
+
+#. Label of the print_format_type (Select) field in DocType 'Print Format'
+#: frappe/printing/doctype/print_format/print_format.json
+msgid "Print Format Type"
+msgstr "Tipo de formato de impressão"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:1608
+msgid "Print Format not found"
+msgstr "Formato de impressão não encontrado"
+
+#: frappe/www/printview.py:443
+msgid "Print Format {0} is disabled"
+msgstr "O formato de impressão {0} está desativado"
+
+#. Name of a DocType
+#. Label of the print_heading (Data) field in DocType 'Print Heading'
+#: frappe/printing/doctype/print_heading/print_heading.json
+msgid "Print Heading"
+msgstr "Cabeçalho de impressão"
+
+#. Label of the print_hide (Check) field in DocType 'DocField'
+#. Label of the print_hide (Check) field in DocType 'Custom Field'
+#. Label of the print_hide (Check) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Print Hide"
+msgstr "Ocultar na impressão"
+
+#. Label of the print_hide_if_no_value (Check) field in DocType 'DocField'
+#. Label of the print_hide_if_no_value (Check) field in DocType 'Custom Field'
+#. Label of the print_hide_if_no_value (Check) field in DocType 'Customize Form
+#. Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Print Hide If No Value"
+msgstr "Ocultar na impressão se não houver valor"
+
+#: frappe/public/js/frappe/views/communication.js:159
+msgid "Print Language"
+msgstr "Idioma de impressão"
+
+#: frappe/public/js/frappe/form/print_utils.js:225
+msgid "Print Sent to the printer!"
+msgstr "Impressão enviada para a impressora!"
+
+#. Label of the server_printer (Section Break) field in DocType 'Print
+#. Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "Print Server"
+msgstr "Servidor de impressão"
+
+#. Name of a DocType
+#: frappe/printing/doctype/print_settings/print_settings.json
+#: frappe/printing/doctype/print_style/print_style.js:6
+#: frappe/printing/page/print/print.js:174
+#: frappe/public/js/frappe/form/print_utils.js:99
+#: frappe/public/js/frappe/form/templates/print_layout.html:35
+msgid "Print Settings"
+msgstr "Configurações de impressão"
+
+#. Label of the print_style_section (Section Break) field in DocType 'Print
+#. Settings'
+#. Label of the print_style (Link) field in DocType 'Print Settings'
+#. Name of a DocType
+#: frappe/printing/doctype/print_settings/print_settings.json
+#: frappe/printing/doctype/print_style/print_style.json
+msgid "Print Style"
+msgstr "Estilo de impressão"
+
+#. Label of the print_style_name (Data) field in DocType 'Print Style'
+#: frappe/printing/doctype/print_style/print_style.json
+msgid "Print Style Name"
+msgstr "Nome do estilo de impressão"
+
+#. Label of the print_style_preview (HTML) field in DocType 'Print Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "Print Style Preview"
+msgstr "Visualização do estilo de impressão"
+
+#. Label of the print_width (Data) field in DocType 'DocField'
+#. Label of the print_width (Data) field in DocType 'Custom Field'
+#. Label of the print_width (Data) field in DocType 'Customize Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Print Width"
+msgstr "Largura de impressão"
+
+#. Description of the 'Print Width' (Data) field in DocType 'Customize Form
+#. Field'
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Print Width of the field, if the field is a column in a table"
+msgstr "Largura de impressão do campo, se o campo é uma coluna na tabela"
+
+#: frappe/public/js/frappe/form/form.js:171
+msgid "Print document"
+msgstr "Imprimir documento"
+
+#. Label of the with_letterhead (Check) field in DocType 'Print Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "Print with letterhead"
+msgstr "Imprimir com o timbre"
+
+#: frappe/printing/page/print/print.js:895
+msgid "Printer"
+msgstr "Impressora"
+
+#: frappe/printing/page/print/print.js:872
+msgid "Printer Mapping"
+msgstr "Mapeamento de impressoras"
+
+#. Label of the printer_name (Select) field in DocType 'Network Printer
+#. Settings'
+#: frappe/printing/doctype/network_printer_settings/network_printer_settings.json
+msgid "Printer Name"
+msgstr "Nome da impressora"
+
+#: frappe/printing/page/print/print.js:864
+msgid "Printer Settings"
+msgstr "Configurações da impressora"
+
+#: frappe/printing/page/print/print.js:607
+msgid "Printer mapping not set."
+msgstr "Mapeamento de impressoras não configurado."
+
+#: frappe/utils/print_format.py:294
+msgid "Printing failed"
+msgstr "Falha na impressão"
+
+#. Label of the priority (Int) field in DocType 'Assignment Rule'
+#. Label of the priority (Int) field in DocType 'Document Naming Rule'
+#. Label of the priority (Select) field in DocType 'ToDo'
+#. Label of the priority (Int) field in DocType 'Email Queue'
+#. Label of the idx (Int) field in DocType 'Web Page'
+#: frappe/automation/doctype/assignment_rule/assignment_rule.json
+#: frappe/core/doctype/document_naming_rule/document_naming_rule.json
+#: frappe/desk/doctype/todo/todo.json frappe/desk/report/todo/todo.py:37
+#: frappe/email/doctype/email_queue/email_queue.json
+#: frappe/public/js/frappe/form/sidebar/assign_to.js:214
+#: frappe/website/doctype/web_page/web_page.json
+msgid "Priority"
+msgstr "Prioridade"
+
+#. Label of the private (Check) field in DocType 'Custom HTML Block'
+#. Option for the 'Event Type' (Select) field in DocType 'Event'
+#. Label of the private (Check) field in DocType 'Kanban Board'
+#: frappe/desk/doctype/custom_html_block/custom_html_block.json
+#: frappe/desk/doctype/event/event.json
+#: frappe/desk/doctype/kanban_board/kanban_board.json
+#: frappe/desk/doctype/note/note_list.js:8
+#: frappe/public/js/frappe/file_uploader/FilePreview.vue:42
+msgid "Private"
+msgstr "Privado"
+
+#. Label of the private_files_size (Float) field in DocType 'System Health
+#. Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Private Files (MB)"
+msgstr "Arquivos privados (MB)"
+
+#: frappe/templates/emails/file_backup_notification.html:6
+msgid "Private Files Backup:"
+msgstr "Backup de arquivos privados:"
+
+#. Description of the 'Auto Reply Message' (Text Editor) field in DocType
+#. 'Email Account'
+#: frappe/email/doctype/email_account/email_account.json
+msgid "ProTip: Add <code>Reference: {{ reference_doctype }} {{ reference_name }}</code> to send document reference"
+msgstr "Dica: adicione <code>Reference: {{ reference_doctype }} {{ reference_name }}</code> para enviar a referência do documento"
+
+#: frappe/core/doctype/document_naming_rule/document_naming_rule.js:22
+msgid "Proceed"
+msgstr "Prosseguir"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:943
+msgid "Proceed Anyway"
+msgstr "Prosseguir mesmo assim"
+
+#: frappe/public/js/frappe/form/controls/table.js:104
+msgid "Processing"
+msgstr "Processando"
+
+#: frappe/email/doctype/email_queue/email_queue_list.js:52
+msgid "Processing..."
+msgstr "Processando..."
+
+#: frappe/desk/page/setup_wizard/install_fixtures.py:51
+msgid "Prof"
+msgstr "Prof."
+
+#. Group in User's connections
+#: frappe/core/doctype/user/user.json
+msgid "Profile"
+msgstr "Perfil"
+
+#. Label of a field in the edit-profile Web Form
+#: frappe/core/web_form/edit_profile/edit_profile.json
+msgid "Profile Picture"
+msgstr "Foto do perfil"
+
+#. Success message of the edit-profile Web Form
+#: frappe/core/web_form/edit_profile/edit_profile.json
+msgid "Profile updated successfully."
+msgstr "Perfil atualizado com sucesso."
+
+#: frappe/public/js/frappe/socketio_client.js:82
+msgid "Progress"
+msgstr "Progresso"
+
+#: frappe/public/js/frappe/views/kanban/kanban_view.js:422
+msgid "Project"
+msgstr "Projeto"
+
+#. Label of the property (Data) field in DocType 'Property Setter'
+#: frappe/core/doctype/version/version_view.html:13
+#: frappe/core/doctype/version/version_view.html:38
+#: frappe/core/doctype/version/version_view.html:75
+#: frappe/custom/doctype/property_setter/property_setter.json
+msgid "Property"
+msgstr "Propriedade"
+
+#. Label of the property_depends_on_section (Section Break) field in DocType
+#. 'Customize Form Field'
+#. Label of the property_depends_on_section (Section Break) field in DocType
+#. 'Web Form Field'
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/website/doctype/web_form_field/web_form_field.json
+msgid "Property Depends On"
+msgstr "Depende da propriedade"
+
+#. Name of a DocType
+#: frappe/custom/doctype/property_setter/property_setter.json
+msgid "Property Setter"
+msgstr "Definidor de propriedade"
+
+#. Description of a DocType
+#: frappe/custom/doctype/property_setter/property_setter.json
+msgid "Property Setter overrides a standard DocType or Field property"
+msgstr "O Definidor de Propriedade substitui uma propriedade padrão de DocType ou campo"
+
+#. Label of the property_type (Data) field in DocType 'Property Setter'
+#: frappe/custom/doctype/property_setter/property_setter.json
+msgid "Property Type"
+msgstr "Tipo de propriedade"
+
+#. Label of the protect_attached_files (Check) field in DocType 'DocType'
+#. Label of the protect_attached_files (Check) field in DocType 'Customize
+#. Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Protect Attached Files"
+msgstr "Proteger arquivos anexados"
+
+#: frappe/core/doctype/file/file.py:533
+msgid "Protected File"
+msgstr "Arquivo protegido"
+
+#. Description of the 'Allowed File Extensions' (Small Text) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Provide a list of allowed file extensions for file uploads. Each line should contain one allowed file type. If unset, all file extensions are allowed. Example: <br>CSV<br>JPG<br>PNG"
+msgstr "Forneça uma lista de extensões de arquivo permitidas para envio de arquivos. Cada linha deve conter um tipo de arquivo permitido. Se não for definido, todas as extensões de arquivo serão permitidas. Exemplo: <br>CSV<br>JPG<br>PNG"
+
+#. Label of the provider (Data) field in DocType 'User Social Login'
+#. Label of the provider (Select) field in DocType 'Geolocation Settings'
+#: frappe/core/doctype/user_social_login/user_social_login.json
+#: frappe/integrations/doctype/geolocation_settings/geolocation_settings.json
+msgid "Provider"
+msgstr "Provedor"
+
+#. Label of the provider_name (Data) field in DocType 'Connected App'
+#. Label of the provider_name (Data) field in DocType 'Social Login Key'
+#. Label of the provider_name (Data) field in DocType 'Token Cache'
+#: frappe/integrations/doctype/connected_app/connected_app.json
+#: frappe/integrations/doctype/social_login_key/social_login_key.json
+#: frappe/integrations/doctype/token_cache/token_cache.json
+msgid "Provider Name"
+msgstr "Nome do provedor"
+
+#. Option for the 'Event Type' (Select) field in DocType 'Event'
+#. Label of the public (Check) field in DocType 'Note'
+#. Label of the public (Check) field in DocType 'Workspace'
+#: frappe/desk/doctype/event/event.json frappe/desk/doctype/note/note.json
+#: frappe/desk/doctype/note/note_list.js:6
+#: frappe/desk/doctype/workspace/workspace.json
+#: frappe/public/js/frappe/views/interaction.js:78
+#: frappe/public/js/frappe/views/workspace/workspace.js:454
+msgid "Public"
+msgstr "Público"
+
+#. Label of the public_files_size (Float) field in DocType 'System Health
+#. Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Public Files (MB)"
+msgstr "Arquivos públicos (MB)"
+
+#: frappe/templates/emails/file_backup_notification.html:5
+msgid "Public Files Backup:"
+msgstr "Backup de arquivos públicos:"
+
+#. Label of the publish (Check) field in DocType 'Package Release'
+#: frappe/core/doctype/package_release/package_release.json
+#: frappe/public/js/frappe/form/footer/form_timeline.js:633
+#: frappe/website/doctype/web_form/web_form.js:86
+msgid "Publish"
+msgstr "Publicar"
+
+#. Label of the published (Check) field in DocType 'Comment'
+#. Label of the published (Check) field in DocType 'Help Article'
+#. Label of the published (Check) field in DocType 'Help Category'
+#. Label of the published (Check) field in DocType 'Web Form'
+#. Label of the published (Check) field in DocType 'Web Page'
+#: frappe/core/doctype/comment/comment.json
+#: frappe/public/js/frappe/form/templates/timeline_message_box.html:42
+#: frappe/website/doctype/help_article/help_article.json
+#: frappe/website/doctype/help_category/help_category.json
+#: frappe/website/doctype/web_form/web_form.json
+#: frappe/website/doctype/web_form/web_form_list.js:5
+#: frappe/website/doctype/web_page/web_page.json
+#: frappe/website/doctype/web_page/web_page_list.js:5
+msgid "Published"
+msgstr "Publicado"
+
+#. Label of a number card in the Website Workspace
+#: frappe/website/workspace/website/website.json
+msgid "Published Web Forms"
+msgstr "Formulários web publicados"
+
+#. Label of a number card in the Website Workspace
+#: frappe/website/workspace/website/website.json
+msgid "Published Web Pages"
+msgstr "Páginas web publicadas"
+
+#. Label of the publishing_dates_section (Section Break) field in DocType 'Web
+#. Page'
+#: frappe/website/doctype/web_page/web_page.json
+msgid "Publishing Dates"
+msgstr "Datas de publicação"
+
+#: frappe/email/doctype/email_account/email_account.js:208
+msgid "Pull Emails"
+msgstr "Buscar e-mails"
+
+#. Label of the pull_from_google_calendar (Check) field in DocType 'Google
+#. Calendar'
+#: frappe/integrations/doctype/google_calendar/google_calendar.json
+msgid "Pull from Google Calendar"
+msgstr "Importar do Google Calendar"
+
+#. Label of the pull_from_google_contacts (Check) field in DocType 'Google
+#. Contacts'
+#: frappe/integrations/doctype/google_contacts/google_contacts.json
+msgid "Pull from Google Contacts"
+msgstr "Importar do Google Contacts"
+
+#. Label of the pulled_from_google_calendar (Check) field in DocType 'Event'
+#: frappe/desk/doctype/event/event.json
+msgid "Pulled from Google Calendar"
+msgstr "Importado do Google Calendar"
+
+#. Label of the pulled_from_google_contacts (Check) field in DocType 'Contact'
+#: frappe/contacts/doctype/contact/contact.json
+msgid "Pulled from Google Contacts"
+msgstr "Importado do Google Contacts"
+
+#: frappe/email/doctype/email_account/email_account.js:209
+msgid "Pulling emails..."
+msgstr "Buscando e-mails..."
+
+#. Name of a role
+#: frappe/contacts/doctype/contact/contact.json
+msgid "Purchase Manager"
+msgstr "Gerente de compras"
+
+#. Name of a role
+#: frappe/contacts/doctype/contact/contact.json
+msgid "Purchase Master Manager"
+msgstr "Gerente mestre de compras"
+
+#. Name of a role
+#: frappe/contacts/doctype/address/address.json
+#: frappe/contacts/doctype/contact/contact.json
+#: frappe/geo/doctype/currency/currency.json
+msgid "Purchase User"
+msgstr "Usuário de compras"
+
+#. Option for the 'Color' (Select) field in DocType 'DocType State'
+#. Option for the 'Indicator' (Select) field in DocType 'Kanban Board Column'
+#: frappe/core/doctype/doctype_state/doctype_state.json
+#: frappe/desk/doctype/kanban_board_column/kanban_board_column.json
+msgid "Purple"
+msgstr "Roxo"
+
+#. Name of a DocType
+#. Label of a Link in the Integrations Workspace
+#: frappe/integrations/doctype/push_notification_settings/push_notification_settings.json
+#: frappe/integrations/workspace/integrations/integrations.json
+msgid "Push Notification Settings"
+msgstr "Configurações de notificações push"
+
+#. Label of a Card Break in the Integrations Workspace
+#: frappe/integrations/workspace/integrations/integrations.json
+msgid "Push Notifications"
+msgstr "Notificações push"
+
+#. Label of the push_to_google_calendar (Check) field in DocType 'Google
+#. Calendar'
+#: frappe/integrations/doctype/google_calendar/google_calendar.json
+msgid "Push to Google Calendar"
+msgstr "Enviar para o Google Calendar"
+
+#. Label of the push_to_google_contacts (Check) field in DocType 'Google
+#. Contacts'
+#: frappe/integrations/doctype/google_contacts/google_contacts.json
+msgid "Push to Google Contacts"
+msgstr "Enviar para o Google Contacts"
+
+#: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.js:23
+msgid "Put on Hold"
+msgstr "Colocar em espera"
+
+#. Option for the 'Type' (Select) field in DocType 'System Console'
+#. Option for the 'Condition Type' (Select) field in DocType 'Notification'
+#: frappe/desk/doctype/system_console/system_console.json
+#: frappe/email/doctype/notification/notification.json
+msgid "Python"
+msgstr "Python"
+
+#: frappe/www/qrcode.html:3
+msgid "QR Code"
+msgstr "QR Code"
+
+#: frappe/www/qrcode.html:6
+msgid "QR Code for Login Verification"
+msgstr "QR Code para verificação de login"
+
+#: frappe/public/js/frappe/form/print_utils.js:234
+msgid "QZ Tray Failed:"
+msgstr "Falha na bandeja QZ:"
+
+#. Option for the 'Frequency' (Select) field in DocType 'Auto Repeat'
+#. Option for the 'Time Interval' (Select) field in DocType 'Dashboard Chart'
+#. Option for the 'Repeat On' (Select) field in DocType 'Event'
+#. Option for the 'Period' (Select) field in DocType 'Auto Email Report'
+#: frappe/automation/doctype/auto_repeat/auto_repeat.json
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+#: frappe/desk/doctype/event/event.json
+#: frappe/email/doctype/auto_email_report/auto_email_report.json
+#: frappe/public/js/frappe/utils/common.js:410
+msgid "Quarterly"
+msgstr "Trimestral"
+
+#. Label of the query (Data) field in DocType 'Recorder Query'
+#. Label of the query (Code) field in DocType 'Report'
+#: frappe/core/doctype/recorder_query/recorder_query.json
+#: frappe/core/doctype/report/report.json
+msgid "Query"
+msgstr "Consulta"
+
+#. Label of the section_break_6 (Section Break) field in DocType 'Report'
+#: frappe/core/doctype/report/report.json
+msgid "Query / Script"
+msgstr "Consulta / Script"
+
+#. Label of the query_options (Small Text) field in DocType 'Contact Us
+#. Settings'
+#: frappe/website/doctype/contact_us_settings/contact_us_settings.json
+msgid "Query Options"
+msgstr "Opções de Consulta"
+
+#. Label of the query_parameters (Table) field in DocType 'Connected App'
+#. Name of a DocType
+#: frappe/integrations/doctype/connected_app/connected_app.json
+#: frappe/integrations/doctype/query_parameters/query_parameters.json
+msgid "Query Parameters"
+msgstr "Parâmetros da consulta"
+
+#. Option for the 'Report Type' (Select) field in DocType 'Report'
+#: frappe/core/doctype/report/report.json
+#: frappe/public/js/frappe/views/reports/query_report.js:17
+msgid "Query Report"
+msgstr "Relatório de consulta"
+
+#: frappe/core/doctype/recorder/recorder.py:188
+msgid "Query analysis complete. Check suggested indexes."
+msgstr "Análise da consulta concluída. Verifique os índices sugeridos."
+
+#: frappe/utils/safe_exec.py:497
+msgid "Query must be of SELECT or read-only WITH type."
+msgstr "A consulta deve ser do tipo SELECT ou WITH somente leitura."
+
+#. Label of the queue (Select) field in DocType 'RQ Job'
+#. Label of the queue (Data) field in DocType 'System Health Report Queue'
+#: frappe/core/doctype/rq_job/rq_job.json
+#: frappe/desk/doctype/system_health_report_queue/system_health_report_queue.json
+msgid "Queue"
+msgstr "Fila"
+
+#: frappe/utils/background_jobs.py:738
+msgid "Queue Overloaded"
+msgstr "Fila sobrecarregada"
+
+#. Label of the queue_status (Table) field in DocType 'System Health Report'
+#: frappe/desk/doctype/system_health_report/system_health_report.json
+msgid "Queue Status"
+msgstr "Status da fila"
+
+#. Label of the queue_type (Select) field in DocType 'RQ Worker'
+#: frappe/core/doctype/rq_worker/rq_worker.json
+msgid "Queue Type(s)"
+msgstr "Tipo(s) de fila"
+
+#. Label of the queue_in_background (Check) field in DocType 'DocType'
+#. Label of the queue_in_background (Check) field in DocType 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Queue in Background (BETA)"
+msgstr "Enfileirar em segundo plano (BETA)"
+
+#: frappe/utils/background_jobs.py:563
+msgid "Queue should be one of {0}"
+msgstr "A fila deve ser uma destas: {0}"
+
+#. Label of the queue (Data) field in DocType 'RQ Worker'
+#: frappe/core/doctype/rq_worker/rq_worker.json
+msgid "Queue(s)"
+msgstr "Fila(s)"
+
+#. Option for the 'Status' (Select) field in DocType 'Prepared Report'
+#. Option for the 'Status' (Select) field in DocType 'Submission Queue'
+#. Option for the 'Status' (Select) field in DocType 'Integration Request'
+#: frappe/core/doctype/prepared_report/prepared_report.json
+#: frappe/core/doctype/submission_queue/submission_queue.json
+#: frappe/integrations/doctype/integration_request/integration_request.json
+msgid "Queued"
+msgstr "Na fila"
+
+#. Label of the queued_at (Datetime) field in DocType 'Prepared Report'
+#: frappe/core/doctype/prepared_report/prepared_report.json
+msgid "Queued At"
+msgstr "Enfileirado em"
+
+#. Label of the queued_by (Data) field in DocType 'Prepared Report'
+#: frappe/core/doctype/prepared_report/prepared_report.json
+msgid "Queued By"
+msgstr "Enfileirado por"
+
+#: frappe/core/doctype/submission_queue/submission_queue.py:186
+msgid "Queued for Submission. You can track the progress over {0}."
+msgstr "Enfileirado para envio. Você pode acompanhar o progresso em {0}."
+
+#: frappe/desk/page/backups/backups.py:96
+msgid "Queued for backup. You will receive an email with the download link"
+msgstr "Enfileirado para backup. Você receberá um e-mail com o link de download"
+
+#. Label of the queues (Data) field in DocType 'System Health Report Workers'
+#: frappe/desk/doctype/system_health_report_workers/system_health_report_workers.json
+msgid "Queues"
+msgstr "Filas"
+
+#: frappe/desk/doctype/bulk_update/bulk_update.py:85
+msgid "Queuing {0} for Submission"
+msgstr "Enfileirando {0} para envio"
+
+#. Label of the quick_entry (Check) field in DocType 'DocType'
+#. Label of the quick_entry (Check) field in DocType 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Quick Entry"
+msgstr "Entrada rápida"
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:3
+msgid "Quick Help for Setting Permissions"
+msgstr "Ajuda rápida para configurar permissões"
+
+#. Label of the quick_list_filter (Code) field in DocType 'Workspace Quick
+#. List'
+#: frappe/desk/doctype/workspace_quick_list/workspace_quick_list.json
+msgid "Quick List Filter"
+msgstr "Filtro de lista rápida"
+
+#. Label of the quick_lists_tab (Tab Break) field in DocType 'Workspace'
+#. Label of the quick_lists (Table) field in DocType 'Workspace'
+#: frappe/desk/doctype/workspace/workspace.json
+msgid "Quick Lists"
+msgstr "Listas rápidas"
+
+#: frappe/public/js/frappe/views/reports/report_utils.js:314
+msgid "Quoting must be between 0 and 3"
+msgstr "O valor de quoting deve estar entre 0 e 3"
+
+#. Label of the raw_information_log_section (Section Break) field in DocType
+#. 'Access Log'
+#: frappe/core/doctype/access_log/access_log.json
+msgid "RAW Information Log"
+msgstr "Registro de informações RAW"
+
+#. Name of a DocType
+#: frappe/core/doctype/rq_job/rq_job.json
+msgid "RQ Job"
+msgstr "RQ Job"
+
+#. Name of a DocType
+#: frappe/core/doctype/rq_worker/rq_worker.json
+msgid "RQ Worker"
+msgstr "RQ Worker"
+
+#. Option for the 'Naming Rule' (Select) field in DocType 'DocType'
+#. Option for the 'Naming Rule' (Select) field in DocType 'Customize Form'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/custom/doctype/customize_form/customize_form.json
+msgid "Random"
+msgstr "Aleatório"
+
+#: frappe/website/report/website_analytics/website_analytics.js:20
+msgid "Range"
+msgstr "Intervalo"
+
+#. Label of the rate_limiting_section (Section Break) field in DocType 'Server
+#. Script'
+#: frappe/core/doctype/server_script/server_script.json
+msgid "Rate Limiting"
+msgstr "Limitação de taxa"
+
+#. Label of the rate_limit_email_link_login (Int) field in DocType 'System
+#. Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Rate limit for email link login"
+msgstr "Limite de taxa para login por link de e-mail"
+
+#. Option for the 'Type' (Select) field in DocType 'DocField'
+#. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
+#. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
+#. Option for the 'Fieldtype' (Select) field in DocType 'Web Form Field'
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#: frappe/website/doctype/web_form_field/web_form_field.json
+msgid "Rating"
+msgstr "Avaliação"
+
+#. Label of the raw_commands (Code) field in DocType 'Print Format'
+#: frappe/printing/doctype/print_format/print_format.json
+#: frappe/printing/doctype/print_format/print_format.py:98
+msgid "Raw Commands"
+msgstr "Comandos RAW"
+
+#. Label of the raw (Code) field in DocType 'Unhandled Email'
+#: frappe/email/doctype/unhandled_email/unhandled_email.json
+msgid "Raw Email"
+msgstr "E-mail bruto"
+
+#. Label of the raw_printing (Check) field in DocType 'Print Format'
+#. Label of the raw_printing_section (Section Break) field in DocType 'Print
+#. Settings'
+#: frappe/printing/doctype/print_format/print_format.json
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "Raw Printing"
+msgstr "Impressão RAW"

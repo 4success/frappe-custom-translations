@@ -1,0 +1,1567 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Label of the item_code (Link) field in DocType 'POS Invoice Item'
+#. Label of the item_code (Link) field in DocType 'Purchase Invoice Item'
+#. Label of the item_code (Link) field in DocType 'Sales Invoice Item'
+#. Label of the item (Link) field in DocType 'Subscription Plan'
+#. Label of the item (Link) field in DocType 'Tax Rule'
+#. Label of the item_code (Link) field in DocType 'Asset Repair Consumed Item'
+#. Label of a Link in the Buying Workspace
+#. Label of a shortcut in the Buying Workspace
+#. Label of the items (Table) field in DocType 'Blanket Order'
+#. Label of the item (Link) field in DocType 'BOM'
+#. Label of a Link in the Manufacturing Workspace
+#. Option for the 'Restrict Items Based On' (Select) field in DocType 'Party
+#. Specific Item'
+#. Label of the item_code (Link) field in DocType 'Product Bundle Item'
+#. Label of a Link in the Selling Workspace
+#. Label of a shortcut in the Selling Workspace
+#. Option for the 'Customer or Item' (Select) field in DocType 'Authorization
+#. Rule'
+#. Label of a Link in the Home Workspace
+#. Label of a shortcut in the Home Workspace
+#. Label of the item (Link) field in DocType 'Batch'
+#. Name of a DocType
+#. Label of the item_code (Link) field in DocType 'Pick List Item'
+#. Label of the item_code (Link) field in DocType 'Putaway Rule'
+#. Label of a Link in the Stock Workspace
+#. Label of a shortcut in the Stock Workspace
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+#: erpnext/accounts/report/inactive_sales_items/inactive_sales_items.js:15
+#: erpnext/accounts/report/inactive_sales_items/inactive_sales_items.py:32
+#: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.js:22
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.js:59
+#: erpnext/assets/doctype/asset_repair_consumed_item/asset_repair_consumed_item.json
+#: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.js:36
+#: erpnext/buying/report/procurement_tracker/procurement_tracker.py:60
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.js:49
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:33
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.py:204
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/controllers/taxes_and_totals.py:1221
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
+#: erpnext/manufacturing/doctype/bom/bom.js:1028
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:109
+#: erpnext/manufacturing/doctype/workstation/workstation_job_card.html:25
+#: erpnext/manufacturing/report/bom_stock_calculated/bom_stock_calculated.py:50
+#: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.html:9
+#: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.html:19
+#: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py:22
+#: erpnext/manufacturing/report/cost_of_poor_quality_report/cost_of_poor_quality_report.js:68
+#: erpnext/manufacturing/report/process_loss_report/process_loss_report.js:15
+#: erpnext/manufacturing/report/process_loss_report/process_loss_report.py:74
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:234
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:385
+#: erpnext/public/js/purchase_trends_filters.js:48
+#: erpnext/public/js/purchase_trends_filters.js:63
+#: erpnext/public/js/sales_trends_filters.js:23
+#: erpnext/public/js/sales_trends_filters.js:39
+#: erpnext/public/js/stock_analytics.js:92
+#: erpnext/selling/doctype/party_specific_item/party_specific_item.json
+#: erpnext/selling/doctype/product_bundle_item/product_bundle_item.json
+#: erpnext/selling/doctype/sales_order/sales_order.js:1623
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:46
+#: erpnext/selling/report/customer_wise_item_price/customer_wise_item_price.js:14
+#: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.js:36
+#: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.js:61
+#: erpnext/selling/workspace/selling/selling.json
+#: erpnext/setup/doctype/authorization_rule/authorization_rule.json
+#: erpnext/setup/workspace/home/home.json
+#: erpnext/stock/dashboard/item_dashboard.js:220
+#: erpnext/stock/doctype/batch/batch.json erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/pick_list_item/pick_list_item.json
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.json
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.py:323
+#: erpnext/stock/page/stock_balance/stock_balance.js:23
+#: erpnext/stock/page/warehouse_capacity_summary/warehouse_capacity_summary.js:36
+#: erpnext/stock/page/warehouse_capacity_summary/warehouse_capacity_summary_header.html:7
+#: erpnext/stock/report/available_batch_report/available_batch_report.js:24
+#: erpnext/stock/report/available_serial_no/available_serial_no.js:42
+#: erpnext/stock/report/available_serial_no/available_serial_no.py:93
+#: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.js:24
+#: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.py:32
+#: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.py:76
+#: erpnext/stock/report/item_price_stock/item_price_stock.js:8
+#: erpnext/stock/report/item_prices/item_prices.py:50
+#: erpnext/stock/report/item_shortage_report/item_shortage_report.py:88
+#: erpnext/stock/report/item_variant_details/item_variant_details.js:10
+#: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py:53
+#: erpnext/stock/report/product_bundle_balance/product_bundle_balance.js:24
+#: erpnext/stock/report/product_bundle_balance/product_bundle_balance.py:82
+#: erpnext/stock/report/reserved_stock/reserved_stock.js:30
+#: erpnext/stock/report/reserved_stock/reserved_stock.py:103
+#: erpnext/stock/report/serial_and_batch_summary/serial_and_batch_summary.js:28
+#: erpnext/stock/report/stock_ageing/stock_ageing.js:46
+#: erpnext/stock/report/stock_analytics/stock_analytics.js:15
+#: erpnext/stock/report/stock_analytics/stock_analytics.py:29
+#: erpnext/stock/report/stock_balance/stock_balance.py:398
+#: erpnext/stock/report/stock_ledger/stock_ledger.py:207
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.js:27
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:51
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.js:28
+#: erpnext/stock/report/stock_qty_vs_batch_qty/stock_qty_vs_batch_qty.js:8
+#: erpnext/stock/report/supplier_wise_sales_analytics/supplier_wise_sales_analytics.py:57
+#: erpnext/stock/report/total_stock_summary/total_stock_summary.py:21
+#: erpnext/stock/report/warehouse_wise_item_balance_age_and_value/warehouse_wise_item_balance_age_and_value.js:40
+#: erpnext/stock/report/warehouse_wise_item_balance_age_and_value/warehouse_wise_item_balance_age_and_value.py:97
+#: erpnext/stock/workspace/stock/stock.json
+#: erpnext/templates/emails/reorder_item.html:8
+#: erpnext/templates/form_grid/material_request_grid.html:6
+#: erpnext/templates/form_grid/stock_entry_grid.html:8
+#: erpnext/templates/generators/bom.html:19
+#: erpnext/templates/pages/material_request_info.html:42
+#: erpnext/templates/pages/order.html:94
+msgid "Item"
+msgstr ""
+
+#: erpnext/stock/report/bom_search/bom_search.js:8
+msgid "Item 1"
+msgstr "Número 1"
+
+#: erpnext/stock/report/bom_search/bom_search.js:14
+msgid "Item 2"
+msgstr "Número 2"
+
+#: erpnext/stock/report/bom_search/bom_search.js:20
+msgid "Item 3"
+msgstr ""
+
+#: erpnext/stock/report/bom_search/bom_search.js:26
+msgid "Item 4"
+msgstr ""
+
+#: erpnext/stock/report/bom_search/bom_search.js:32
+msgid "Item 5"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/doctype/item_alternative/item_alternative.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Item Alternative"
+msgstr "Alternativa de Itens"
+
+#. Option for the 'Variant Based On' (Select) field in DocType 'Item'
+#. Name of a DocType
+#. Label of the item_attribute (Link) field in DocType 'Item Variant'
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/item_attribute/item_attribute.json
+#: erpnext/stock/doctype/item_variant/item_variant.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Item Attribute"
+msgstr "Atributos do Item"
+
+#. Name of a DocType
+#. Label of the item_attribute_value (Data) field in DocType 'Item Variant'
+#: erpnext/stock/doctype/item_attribute_value/item_attribute_value.json
+#: erpnext/stock/doctype/item_variant/item_variant.json
+msgid "Item Attribute Value"
+msgstr ""
+
+#. Label of the item_attribute_values (Table) field in DocType 'Item Attribute'
+#: erpnext/stock/doctype/item_attribute/item_attribute.json
+msgid "Item Attribute Values"
+msgstr ""
+
+#. Name of a report
+#: erpnext/stock/report/item_balance/item_balance.json
+msgid "Item Balance (Simple)"
+msgstr "Balanço de Itens (simples)"
+
+#. Name of a DocType
+#. Label of the item_barcode (Data) field in DocType 'Quick Stock Balance'
+#: erpnext/stock/doctype/item_barcode/item_barcode.json
+#: erpnext/stock/doctype/quick_stock_balance/quick_stock_balance.json
+msgid "Item Barcode"
+msgstr "Código de Barras do Item"
+
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:46
+msgid "Item Cart"
+msgstr ""
+
+#. Option for the 'Apply On' (Select) field in DocType 'Pricing Rule'
+#. Option for the 'Apply Rule On Other' (Select) field in DocType 'Pricing
+#. Rule'
+#. Label of the other_item_code (Link) field in DocType 'Pricing Rule'
+#. Label of the item_code (Data) field in DocType 'Pricing Rule Detail'
+#. Label of the item_code (Link) field in DocType 'Pricing Rule Item Code'
+#. Option for the 'Apply On' (Select) field in DocType 'Promotional Scheme'
+#. Option for the 'Apply Rule On Other' (Select) field in DocType 'Promotional
+#. Scheme'
+#. Label of the other_item_code (Link) field in DocType 'Promotional Scheme'
+#. Label of the free_item (Link) field in DocType 'Promotional Scheme Product
+#. Discount'
+#. Label of the item_code (Link) field in DocType 'Asset'
+#. Label of the item_code (Link) field in DocType 'Asset Capitalization Asset
+#. Item'
+#. Label of the item_code (Link) field in DocType 'Asset Capitalization Service
+#. Item'
+#. Label of the item_code (Link) field in DocType 'Asset Capitalization Stock
+#. Item'
+#. Label of the item_code (Read Only) field in DocType 'Asset Maintenance'
+#. Label of the item_code (Read Only) field in DocType 'Asset Maintenance Log'
+#. Label of the item_code (Link) field in DocType 'Purchase Order Item'
+#. Label of the main_item_code (Link) field in DocType 'Purchase Order Item
+#. Supplied'
+#. Label of the main_item_code (Link) field in DocType 'Purchase Receipt Item
+#. Supplied'
+#. Label of the item_code (Link) field in DocType 'Request for Quotation Item'
+#. Label of the item_code (Link) field in DocType 'Supplier Quotation Item'
+#. Label of the item_code (Link) field in DocType 'Opportunity Item'
+#. Label of the item_code (Link) field in DocType 'Maintenance Schedule Detail'
+#. Label of the item_code (Link) field in DocType 'Maintenance Schedule Item'
+#. Label of the item_code (Link) field in DocType 'Maintenance Visit Purpose'
+#. Label of the item_code (Link) field in DocType 'Blanket Order Item'
+#. Label of the item_code (Link) field in DocType 'BOM Creator Item'
+#. Label of the item_code (Link) field in DocType 'BOM Explosion Item'
+#. Label of the item_code (Link) field in DocType 'BOM Item'
+#. Label of the item_code (Link) field in DocType 'BOM Scrap Item'
+#. Label of the item_code (Link) field in DocType 'BOM Website Item'
+#. Label of the item_code (Link) field in DocType 'Job Card Item'
+#. Label of the item_code (Link) field in DocType 'Master Production Schedule
+#. Item'
+#. Label of the item_code (Link) field in DocType 'Material Request Plan Item'
+#. Label of the item_code (Link) field in DocType 'Production Plan'
+#. Label of the item_code (Link) field in DocType 'Production Plan Item'
+#. Label of the item_code (Link) field in DocType 'Sales Forecast Item'
+#. Label of the item_code (Link) field in DocType 'Work Order Item'
+#. Label of the item_code (Link) field in DocType 'Import Supplier Invoice'
+#. Label of the item_code (Link) field in DocType 'Delivery Schedule Item'
+#. Label of the item_code (Link) field in DocType 'Installation Note Item'
+#. Label of the item_code (Link) field in DocType 'Quotation Item'
+#. Label of the item_code (Link) field in DocType 'Sales Order Item'
+#. Label of the item_code (Link) field in DocType 'Bin'
+#. Label of the item_code (Link) field in DocType 'Delivery Note Item'
+#. Label of the item_code (Data) field in DocType 'Item'
+#. Label of the item_code (Link) field in DocType 'Item Alternative'
+#. Label of the item_code (Link) field in DocType 'Item Lead Time'
+#. Label of the item_code (Link) field in DocType 'Item Manufacturer'
+#. Label of the item_code (Link) field in DocType 'Item Price'
+#. Label of the item_code (Link) field in DocType 'Landed Cost Item'
+#. Label of the item_code (Link) field in DocType 'Material Request Item'
+#. Label of the item_code (Link) field in DocType 'Packed Item'
+#. Label of the item_code (Link) field in DocType 'Packing Slip Item'
+#. Label of the item_code (Link) field in DocType 'Purchase Receipt Item'
+#. Label of the item_code (Link) field in DocType 'Quality Inspection'
+#. Label of the item (Link) field in DocType 'Quick Stock Balance'
+#. Label of the item_code (Link) field in DocType 'Repost Item Valuation'
+#. Label of the item_code (Link) field in DocType 'Serial and Batch Bundle'
+#. Label of the item_code (Link) field in DocType 'Serial No'
+#. Label of the item_code (Link) field in DocType 'Stock Closing Balance'
+#. Label of the item_code (Link) field in DocType 'Stock Entry Detail'
+#. Label of the item_code (Link) field in DocType 'Stock Ledger Entry'
+#. Label of the item_code (Link) field in DocType 'Stock Reconciliation Item'
+#. Label of the item_code (Link) field in DocType 'Stock Reservation Entry'
+#. Option for the 'Item Naming By' (Select) field in DocType 'Stock Settings'
+#. Label of the item_code (Link) field in DocType 'Subcontracting Inward Order
+#. Item'
+#. Label of the main_item_code (Link) field in DocType 'Subcontracting Inward
+#. Order Received Item'
+#. Label of the item_code (Link) field in DocType 'Subcontracting Inward Order
+#. Scrap Item'
+#. Label of the item_code (Link) field in DocType 'Subcontracting Inward Order
+#. Service Item'
+#. Label of the item_code (Link) field in DocType 'Subcontracting Order Item'
+#. Label of the item_code (Link) field in DocType 'Subcontracting Order Service
+#. Item'
+#. Label of the main_item_code (Link) field in DocType 'Subcontracting Order
+#. Supplied Item'
+#. Label of the item_code (Link) field in DocType 'Subcontracting Receipt Item'
+#. Label of the main_item_code (Link) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
+#. Label of the item_code (Link) field in DocType 'Warranty Claim'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/pricing_rule_detail/pricing_rule_detail.json
+#: erpnext/accounts/doctype/pricing_rule_item_code/pricing_rule_item_code.json
+#: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
+#: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:1056
+#: erpnext/accounts/report/billed_items_to_be_received/billed_items_to_be_received.py:68
+#: erpnext/accounts/report/delivered_items_to_be_billed/delivered_items_to_be_billed.py:37
+#: erpnext/accounts/report/gross_profit/gross_profit.py:301
+#: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.py:142
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:159
+#: erpnext/accounts/report/received_items_to_be_billed/received_items_to_be_billed.py:37
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_capitalization_asset_item/asset_capitalization_asset_item.json
+#: erpnext/assets/doctype/asset_capitalization_service_item/asset_capitalization_service_item.json
+#: erpnext/assets/doctype/asset_capitalization_stock_item/asset_capitalization_stock_item.json
+#: erpnext/assets/doctype/asset_maintenance/asset_maintenance.json
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
+#: erpnext/buying/doctype/purchase_receipt_item_supplied/purchase_receipt_item_supplied.json
+#: erpnext/buying/doctype/request_for_quotation_item/request_for_quotation_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.py:26
+#: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:229
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:198
+#: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.py:36
+#: erpnext/crm/doctype/opportunity_item/opportunity_item.json
+#: erpnext/maintenance/doctype/maintenance_schedule_detail/maintenance_schedule_detail.json
+#: erpnext/maintenance/doctype/maintenance_schedule_item/maintenance_schedule_item.json
+#: erpnext/maintenance/doctype/maintenance_visit_purpose/maintenance_visit_purpose.json
+#: erpnext/manufacturing/doctype/blanket_order_item/blanket_order_item.json
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+#: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+#: erpnext/manufacturing/doctype/bom_scrap_item/bom_scrap_item.json
+#: erpnext/manufacturing/doctype/bom_website_item/bom_website_item.json
+#: erpnext/manufacturing/doctype/job_card_item/job_card_item.json
+#: erpnext/manufacturing/doctype/master_production_schedule_item/master_production_schedule_item.json
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+#: erpnext/manufacturing/doctype/production_plan_item/production_plan_item.json
+#: erpnext/manufacturing/doctype/sales_forecast_item/sales_forecast_item.json
+#: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
+#: erpnext/manufacturing/doctype/workstation/workstation.js:471
+#: erpnext/manufacturing/page/bom_comparison_tool/bom_comparison_tool.js:155
+#: erpnext/manufacturing/report/bom_explorer/bom_explorer.py:60
+#: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.js:8
+#: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.py:103
+#: erpnext/manufacturing/report/cost_of_poor_quality_report/cost_of_poor_quality_report.py:100
+#: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.js:75
+#: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.py:166
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.js:30
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:935
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:971
+#: erpnext/manufacturing/report/production_planning_report/production_planning_report.py:364
+#: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.js:27
+#: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:86
+#: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:119
+#: erpnext/projects/doctype/timesheet/timesheet.js:214
+#: erpnext/public/js/controllers/transaction.js:2783
+#: erpnext/public/js/stock_reservation.js:112
+#: erpnext/public/js/stock_reservation.js:318 erpnext/public/js/utils.js:488
+#: erpnext/public/js/utils.js:644
+#: erpnext/regional/doctype/import_supplier_invoice/import_supplier_invoice.json
+#: erpnext/selling/doctype/delivery_schedule_item/delivery_schedule_item.json
+#: erpnext/selling/doctype/installation_note_item/installation_note_item.json
+#: erpnext/selling/doctype/quotation/quotation.js:289
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order/sales_order.js:368
+#: erpnext/selling/doctype/sales_order/sales_order.js:476
+#: erpnext/selling/doctype/sales_order/sales_order.js:1241
+#: erpnext/selling/doctype/sales_order/sales_order.js:1392
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/selling/report/customer_wise_item_price/customer_wise_item_price.py:29
+#: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.py:27
+#: erpnext/selling/report/pending_so_items_for_purchase_request/pending_so_items_for_purchase_request.py:19
+#: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:241
+#: erpnext/selling/report/sales_partner_transaction_summary/sales_partner_transaction_summary.py:47
+#: erpnext/selling/report/sales_person_wise_transaction_summary/sales_person_wise_transaction_summary.py:87
+#: erpnext/stock/doctype/bin/bin.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/item_alternative/item_alternative.json
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+#: erpnext/stock/doctype/item_manufacturer/item_manufacturer.json
+#: erpnext/stock/doctype/item_price/item_price.json
+#: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/doctype/packed_item/packed_item.json
+#: erpnext/stock/doctype/packing_slip_item/packing_slip_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+#: erpnext/stock/doctype/quick_stock_balance/quick_stock_balance.json
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+#: erpnext/stock/doctype/serial_no/serial_no.json
+#: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
+#: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+#: erpnext/stock/report/available_batch_report/available_batch_report.py:22
+#: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.js:32
+#: erpnext/stock/report/delayed_item_report/delayed_item_report.py:147
+#: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:119
+#: erpnext/stock/report/incorrect_balance_qty_after_transaction/incorrect_balance_qty_after_transaction.js:15
+#: erpnext/stock/report/incorrect_balance_qty_after_transaction/incorrect_balance_qty_after_transaction.py:105
+#: erpnext/stock/report/incorrect_serial_and_batch_bundle/incorrect_serial_and_batch_bundle.js:8
+#: erpnext/stock/report/incorrect_serial_no_valuation/incorrect_serial_no_valuation.js:7
+#: erpnext/stock/report/incorrect_serial_no_valuation/incorrect_serial_no_valuation.py:175
+#: erpnext/stock/report/incorrect_stock_value_report/incorrect_stock_value_report.py:115
+#: erpnext/stock/report/item_price_stock/item_price_stock.py:18
+#: erpnext/stock/report/serial_and_batch_summary/serial_and_batch_summary.py:125
+#: erpnext/stock/report/serial_no_and_batch_traceability/serial_no_and_batch_traceability.js:8
+#: erpnext/stock/report/serial_no_and_batch_traceability/serial_no_and_batch_traceability.py:429
+#: erpnext/stock/report/serial_no_ledger/serial_no_ledger.js:7
+#: erpnext/stock/report/stock_ageing/stock_ageing.py:132
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:104
+#: erpnext/stock/report/stock_qty_vs_batch_qty/stock_qty_vs_batch_qty.py:25
+#: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.py:26
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_item/subcontracting_inward_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_scrap_item/subcontracting_inward_order_scrap_item.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_service_item/subcontracting_inward_order_service_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:253
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:352
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_service_item/subcontracting_order_service_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
+#: erpnext/support/doctype/warranty_claim/warranty_claim.json
+#: erpnext/templates/includes/products_as_list.html:14
+msgid "Item Code"
+msgstr "Código do Item"
+
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.js:61
+msgid "Item Code (Final Product)"
+msgstr ""
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:50
+msgid "Item Code > Item Group > Brand"
+msgstr ""
+
+#: erpnext/stock/doctype/serial_no/serial_no.py:83
+msgid "Item Code cannot be changed for Serial No."
+msgstr ""
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:453
+msgid "Item Code required at Row No {0}"
+msgstr ""
+
+#: erpnext/selling/page/point_of_sale/pos_controller.js:849
+#: erpnext/selling/page/point_of_sale/pos_item_details.js:275
+msgid "Item Code: {0} is not available under warehouse {1}."
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/stock/doctype/item_customer_detail/item_customer_detail.json
+msgid "Item Customer Detail"
+msgstr "Detalhe do Cliente do Item"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Item Default"
+msgstr ""
+
+#. Label of the item_defaults (Table) field in DocType 'Item'
+#. Label of the item_defaults_section (Section Break) field in DocType 'Stock
+#. Settings'
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Item Defaults"
+msgstr ""
+
+#. Label of the description (Small Text) field in DocType 'BOM'
+#. Label of the description (Text Editor) field in DocType 'BOM Item'
+#. Label of the description (Text Editor) field in DocType 'BOM Website Item'
+#. Label of the item_details (Section Break) field in DocType 'Material Request
+#. Plan Item'
+#. Label of the description (Small Text) field in DocType 'Work Order'
+#. Label of the item_description (Text) field in DocType 'Item Price'
+#. Label of the item_description (Small Text) field in DocType 'Quick Stock
+#. Balance'
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+#: erpnext/manufacturing/doctype/bom_website_item/bom_website_item.json
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/stock/doctype/item_price/item_price.json
+#: erpnext/stock/doctype/quick_stock_balance/quick_stock_balance.json
+msgid "Item Description"
+msgstr ""
+
+#. Label of the section_break_19 (Section Break) field in DocType 'Production
+#. Plan Sub Assembly Item'
+#. Label of the item_details_tab (Tab Break) field in DocType 'Item Lead Time'
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/selling/page/point_of_sale/pos_item_details.js:29
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+msgid "Item Details"
+msgstr ""
+
+#. Label of the item_group (Link) field in DocType 'POS Invoice Item'
+#. Label of the item_group (Link) field in DocType 'POS Item Group'
+#. Option for the 'Apply On' (Select) field in DocType 'Pricing Rule'
+#. Option for the 'Apply Rule On Other' (Select) field in DocType 'Pricing
+#. Rule'
+#. Label of the other_item_group (Link) field in DocType 'Pricing Rule'
+#. Label of the item_group (Link) field in DocType 'Pricing Rule Item Group'
+#. Option for the 'Apply On' (Select) field in DocType 'Promotional Scheme'
+#. Option for the 'Apply Rule On Other' (Select) field in DocType 'Promotional
+#. Scheme'
+#. Label of the other_item_group (Link) field in DocType 'Promotional Scheme'
+#. Label of the item_group (Link) field in DocType 'Purchase Invoice Item'
+#. Label of the item_group (Link) field in DocType 'Sales Invoice Item'
+#. Label of the item_group (Link) field in DocType 'Tax Rule'
+#. Label of the item_group (Link) field in DocType 'Purchase Order Item'
+#. Label of the item_group (Link) field in DocType 'Request for Quotation Item'
+#. Label of the item_group (Link) field in DocType 'Supplier Quotation Item'
+#. Label of a Link in the Buying Workspace
+#. Label of the item_group (Link) field in DocType 'Opportunity Item'
+#. Label of the item_group (Link) field in DocType 'BOM Creator'
+#. Label of the item_group (Link) field in DocType 'BOM Creator Item'
+#. Label of the item_group (Link) field in DocType 'Job Card Item'
+#. Option for the 'Restrict Items Based On' (Select) field in DocType 'Party
+#. Specific Item'
+#. Label of the item_group (Link) field in DocType 'Quotation Item'
+#. Label of the item_group (Link) field in DocType 'Sales Order Item'
+#. Label of a Link in the Selling Workspace
+#. Option for the 'Customer or Item' (Select) field in DocType 'Authorization
+#. Rule'
+#. Name of a DocType
+#. Label of the item_group (Link) field in DocType 'Target Detail'
+#. Label of the item_group (Link) field in DocType 'Website Item Group'
+#. Label of the item_group (Link) field in DocType 'Delivery Note Item'
+#. Label of the item_group (Link) field in DocType 'Item'
+#. Label of the item_group (Link) field in DocType 'Material Request Item'
+#. Label of the item_group (Data) field in DocType 'Pick List Item'
+#. Label of the item_group (Link) field in DocType 'Purchase Receipt Item'
+#. Label of the item_group (Link) field in DocType 'Serial and Batch Bundle'
+#. Label of the item_group (Link) field in DocType 'Serial No'
+#. Label of the item_group (Link) field in DocType 'Stock Closing Balance'
+#. Label of the item_group (Data) field in DocType 'Stock Entry Detail'
+#. Label of the item_group (Link) field in DocType 'Stock Reconciliation Item'
+#. Label of a Link in the Stock Workspace
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/pos_item_group/pos_item_group.json
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/pricing_rule_item_group/pricing_rule_item_group.json
+#: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+#: erpnext/accounts/report/gross_profit/gross_profit.js:44
+#: erpnext/accounts/report/gross_profit/gross_profit.py:314
+#: erpnext/accounts/report/inactive_sales_items/inactive_sales_items.js:21
+#: erpnext/accounts/report/inactive_sales_items/inactive_sales_items.py:28
+#: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.js:28
+#: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.py:156
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.js:65
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:173
+#: erpnext/accounts/report/purchase_register/purchase_register.js:58
+#: erpnext/accounts/report/sales_register/sales_register.js:70
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/request_for_quotation_item/request_for_quotation_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.js:30
+#: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.py:39
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/crm/doctype/opportunity_item/opportunity_item.json
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+#: erpnext/manufacturing/doctype/job_card_item/job_card_item.json
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:128
+#: erpnext/public/js/purchase_trends_filters.js:49
+#: erpnext/public/js/sales_trends_filters.js:24
+#: erpnext/selling/doctype/party_specific_item/party_specific_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/selling/page/point_of_sale/pos_item_selector.js:188
+#: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.js:30
+#: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.py:35
+#: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.js:54
+#: erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py:89
+#: erpnext/selling/report/sales_partner_transaction_summary/sales_partner_transaction_summary.js:41
+#: erpnext/selling/report/sales_partner_transaction_summary/sales_partner_transaction_summary.py:54
+#: erpnext/selling/report/sales_person_wise_transaction_summary/sales_person_wise_transaction_summary.js:41
+#: erpnext/selling/report/sales_person_wise_transaction_summary/sales_person_wise_transaction_summary.py:94
+#: erpnext/selling/workspace/selling/selling.json
+#: erpnext/setup/doctype/authorization_rule/authorization_rule.json
+#: erpnext/setup/doctype/item_group/item_group.json
+#: erpnext/setup/doctype/target_detail/target_detail.json
+#: erpnext/setup/doctype/website_item_group/website_item_group.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/doctype/pick_list_item/pick_list_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+#: erpnext/stock/doctype/serial_no/serial_no.json
+#: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
+#: erpnext/stock/page/stock_balance/stock_balance.js:35
+#: erpnext/stock/report/cogs_by_item_group/cogs_by_item_group.py:43
+#: erpnext/stock/report/delayed_item_report/delayed_item_report.js:48
+#: erpnext/stock/report/delayed_order_report/delayed_order_report.js:48
+#: erpnext/stock/report/item_prices/item_prices.py:52
+#: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.js:20
+#: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py:55
+#: erpnext/stock/report/product_bundle_balance/product_bundle_balance.js:37
+#: erpnext/stock/report/product_bundle_balance/product_bundle_balance.py:100
+#: erpnext/stock/report/stock_ageing/stock_ageing.py:141
+#: erpnext/stock/report/stock_analytics/stock_analytics.js:8
+#: erpnext/stock/report/stock_analytics/stock_analytics.py:38
+#: erpnext/stock/report/stock_balance/stock_balance.js:32
+#: erpnext/stock/report/stock_balance/stock_balance.py:406
+#: erpnext/stock/report/stock_ledger/stock_ledger.js:71
+#: erpnext/stock/report/stock_ledger/stock_ledger.py:265
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.js:39
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:113
+#: erpnext/stock/report/warehouse_wise_item_balance_age_and_value/warehouse_wise_item_balance_age_and_value.js:33
+#: erpnext/stock/report/warehouse_wise_item_balance_age_and_value/warehouse_wise_item_balance_age_and_value.py:99
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Item Group"
+msgstr "Grupo de Itens"
+
+#. Label of the item_group_defaults (Table) field in DocType 'Item Group'
+#: erpnext/setup/doctype/item_group/item_group.json
+msgid "Item Group Defaults"
+msgstr ""
+
+#. Label of the item_group_name (Data) field in DocType 'Item Group'
+#: erpnext/setup/doctype/item_group/item_group.json
+msgid "Item Group Name"
+msgstr ""
+
+#: erpnext/setup/doctype/item_group/item_group.js:82
+msgid "Item Group Tree"
+msgstr "Árvore de Grupos do Item"
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:526
+msgid "Item Group not mentioned in item master for item {0}"
+msgstr ""
+
+#. Option for the 'Based On' (Select) field in DocType 'Authorization Rule'
+#: erpnext/setup/doctype/authorization_rule/authorization_rule.json
+msgid "Item Group wise Discount"
+msgstr ""
+
+#. Label of the item_groups (Table) field in DocType 'POS Profile'
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+msgid "Item Groups"
+msgstr ""
+
+#. Description of the 'Website Image' (Attach Image) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Item Image (if not slideshow)"
+msgstr ""
+
+#. Label of the item_information_section (Section Break) field in DocType
+#. 'Stock Reservation Entry'
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+msgid "Item Information"
+msgstr ""
+
+#. Label of a Link in the Manufacturing Workspace
+#. Name of a DocType
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+msgid "Item Lead Time"
+msgstr ""
+
+#. Label of the locations (Table) field in DocType 'Pick List'
+#: erpnext/stock/doctype/pick_list/pick_list.json
+msgid "Item Locations"
+msgstr ""
+
+#. Name of a role
+#: erpnext/setup/doctype/brand/brand.json
+#: erpnext/setup/doctype/item_group/item_group.json
+#: erpnext/setup/doctype/uom/uom.json erpnext/stock/doctype/batch/batch.json
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/item_alternative/item_alternative.json
+#: erpnext/stock/doctype/item_attribute/item_attribute.json
+#: erpnext/stock/doctype/item_manufacturer/item_manufacturer.json
+#: erpnext/stock/doctype/item_variant_settings/item_variant_settings.json
+#: erpnext/stock/doctype/packing_slip/packing_slip.json
+#: erpnext/stock/doctype/serial_no/serial_no.json
+#: erpnext/stock/doctype/warehouse/warehouse.json
+#: erpnext/stock/doctype/warehouse_type/warehouse_type.json
+msgid "Item Manager"
+msgstr "Gerente de Item"
+
+#. Name of a DocType
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/doctype/item_manufacturer/item_manufacturer.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Item Manufacturer"
+msgstr ""
+
+#. Label of the item_name (Data) field in DocType 'Opening Invoice Creation
+#. Tool Item'
+#. Label of the item_name (Data) field in DocType 'POS Invoice Item'
+#. Label of the item_name (Data) field in DocType 'Purchase Invoice Item'
+#. Label of the item_name (Data) field in DocType 'Sales Invoice Item'
+#. Label of the item_name (Read Only) field in DocType 'Asset'
+#. Label of the item_name (Data) field in DocType 'Asset Capitalization Asset
+#. Item'
+#. Label of the item_name (Data) field in DocType 'Asset Capitalization Service
+#. Item'
+#. Label of the item_name (Data) field in DocType 'Asset Capitalization Stock
+#. Item'
+#. Label of the item_name (Read Only) field in DocType 'Asset Maintenance'
+#. Label of the item_name (Read Only) field in DocType 'Asset Maintenance Log'
+#. Label of the item_name (Data) field in DocType 'Purchase Order Item'
+#. Label of the item_name (Data) field in DocType 'Purchase Receipt Item
+#. Supplied'
+#. Label of the item_name (Data) field in DocType 'Request for Quotation Item'
+#. Label of the item_name (Data) field in DocType 'Supplier Quotation Item'
+#. Label of the item_name (Data) field in DocType 'Opportunity Item'
+#. Label of the item_name (Data) field in DocType 'Maintenance Schedule Detail'
+#. Label of the item_name (Data) field in DocType 'Maintenance Schedule Item'
+#. Label of the item_name (Data) field in DocType 'Maintenance Visit Purpose'
+#. Label of the item_name (Data) field in DocType 'Blanket Order Item'
+#. Label of the item_name (Data) field in DocType 'BOM'
+#. Label of the item_name (Data) field in DocType 'BOM Creator'
+#. Label of the item_name (Data) field in DocType 'BOM Creator Item'
+#. Label of the item_name (Data) field in DocType 'BOM Explosion Item'
+#. Label of the item_name (Data) field in DocType 'BOM Item'
+#. Label of the item_name (Data) field in DocType 'BOM Scrap Item'
+#. Label of the item_name (Data) field in DocType 'BOM Website Item'
+#. Label of the item_name (Read Only) field in DocType 'Job Card'
+#. Label of the item_name (Data) field in DocType 'Job Card Item'
+#. Label of the item_name (Data) field in DocType 'Master Production Schedule
+#. Item'
+#. Label of the item_name (Data) field in DocType 'Material Request Plan Item'
+#. Label of the item_name (Data) field in DocType 'Production Plan Sub Assembly
+#. Item'
+#. Label of the item_name (Data) field in DocType 'Sales Forecast Item'
+#. Label of the item_name (Data) field in DocType 'Work Order'
+#. Label of the item_name (Data) field in DocType 'Work Order Item'
+#. Label of the item_name (Data) field in DocType 'Quotation Item'
+#. Label of the item_name (Data) field in DocType 'Sales Order Item'
+#. Label of the item_name (Data) field in DocType 'Batch'
+#. Label of the item_name (Data) field in DocType 'Delivery Note Item'
+#. Label of the item_name (Data) field in DocType 'Item'
+#. Label of the item_name (Read Only) field in DocType 'Item Alternative'
+#. Label of the item_name (Data) field in DocType 'Item Lead Time'
+#. Label of the item_name (Data) field in DocType 'Item Manufacturer'
+#. Label of the item_name (Data) field in DocType 'Item Price'
+#. Label of the item_name (Data) field in DocType 'Material Request Item'
+#. Label of the item_name (Data) field in DocType 'Packed Item'
+#. Label of the item_name (Data) field in DocType 'Packing Slip Item'
+#. Label of the item_name (Data) field in DocType 'Pick List Item'
+#. Label of the item_name (Data) field in DocType 'Purchase Receipt Item'
+#. Label of the item_name (Data) field in DocType 'Putaway Rule'
+#. Label of the item_name (Data) field in DocType 'Quality Inspection'
+#. Label of the item_name (Data) field in DocType 'Quick Stock Balance'
+#. Label of the item_name (Data) field in DocType 'Serial and Batch Bundle'
+#. Label of the item_name (Data) field in DocType 'Serial No'
+#. Label of the item_name (Data) field in DocType 'Stock Closing Balance'
+#. Label of the item_name (Data) field in DocType 'Stock Entry Detail'
+#. Label of the item_name (Data) field in DocType 'Stock Reconciliation Item'
+#. Label of the item_name (Data) field in DocType 'Subcontracting Inward Order
+#. Item'
+#. Label of the item_name (Data) field in DocType 'Subcontracting Inward Order
+#. Service Item'
+#. Label of the item_name (Data) field in DocType 'Subcontracting Order Item'
+#. Label of the item_name (Data) field in DocType 'Subcontracting Order Service
+#. Item'
+#. Label of the item_name (Data) field in DocType 'Subcontracting Receipt Item'
+#. Label of the item_name (Data) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
+#. Label of the item_name (Data) field in DocType 'Warranty Claim'
+#: erpnext/accounts/doctype/opening_invoice_creation_tool_item/opening_invoice_creation_tool_item.json
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/report/billed_items_to_be_received/billed_items_to_be_received.py:74
+#: erpnext/accounts/report/delivered_items_to_be_billed/delivered_items_to_be_billed.py:71
+#: erpnext/accounts/report/gross_profit/gross_profit.py:308
+#: erpnext/accounts/report/inactive_sales_items/inactive_sales_items.py:33
+#: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.py:148
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:165
+#: erpnext/accounts/report/received_items_to_be_billed/received_items_to_be_billed.py:71
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_capitalization_asset_item/asset_capitalization_asset_item.json
+#: erpnext/assets/doctype/asset_capitalization_service_item/asset_capitalization_service_item.json
+#: erpnext/assets/doctype/asset_capitalization_stock_item/asset_capitalization_stock_item.json
+#: erpnext/assets/doctype/asset_maintenance/asset_maintenance.json
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/purchase_receipt_item_supplied/purchase_receipt_item_supplied.json
+#: erpnext/buying/doctype/request_for_quotation_item/request_for_quotation_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.py:33
+#: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:204
+#: erpnext/crm/doctype/opportunity_item/opportunity_item.json
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.js:101
+#: erpnext/maintenance/doctype/maintenance_schedule_detail/maintenance_schedule_detail.json
+#: erpnext/maintenance/doctype/maintenance_schedule_item/maintenance_schedule_item.json
+#: erpnext/maintenance/doctype/maintenance_visit_purpose/maintenance_visit_purpose.json
+#: erpnext/manufacturing/doctype/blanket_order_item/blanket_order_item.json
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+#: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+#: erpnext/manufacturing/doctype/bom_scrap_item/bom_scrap_item.json
+#: erpnext/manufacturing/doctype/bom_website_item/bom_website_item.json
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/job_card_item/job_card_item.json
+#: erpnext/manufacturing/doctype/master_production_schedule_item/master_production_schedule_item.json
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/manufacturing/doctype/sales_forecast_item/sales_forecast_item.json
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
+#: erpnext/manufacturing/notification/material_request_receipt_notification/material_request_receipt_notification.html:8
+#: erpnext/manufacturing/report/bom_explorer/bom_explorer.py:66
+#: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.py:109
+#: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py:23
+#: erpnext/manufacturing/report/cost_of_poor_quality_report/cost_of_poor_quality_report.py:106
+#: erpnext/manufacturing/report/job_card_summary/job_card_summary.py:158
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:942
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:978
+#: erpnext/manufacturing/report/production_plan_summary/production_plan_summary.py:153
+#: erpnext/manufacturing/report/production_planning_report/production_planning_report.py:371
+#: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:92
+#: erpnext/manufacturing/report/work_order_consumed_materials/work_order_consumed_materials.py:138
+#: erpnext/public/js/controllers/transaction.js:2789
+#: erpnext/public/js/utils.js:734
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order/sales_order.js:1247
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/selling/report/customer_wise_item_price/customer_wise_item_price.py:35
+#: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.py:33
+#: erpnext/selling/report/pending_so_items_for_purchase_request/pending_so_items_for_purchase_request.py:25
+#: erpnext/stock/doctype/batch/batch.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/item_alternative/item_alternative.json
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+#: erpnext/stock/doctype/item_manufacturer/item_manufacturer.json
+#: erpnext/stock/doctype/item_price/item_price.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/doctype/packed_item/packed_item.json
+#: erpnext/stock/doctype/packing_slip_item/packing_slip_item.json
+#: erpnext/stock/doctype/pick_list_item/pick_list_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.json
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+#: erpnext/stock/doctype/quick_stock_balance/quick_stock_balance.json
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+#: erpnext/stock/doctype/serial_no/serial_no.json
+#: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
+#: erpnext/stock/report/available_batch_report/available_batch_report.py:33
+#: erpnext/stock/report/available_serial_no/available_serial_no.py:99
+#: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.py:33
+#: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.py:77
+#: erpnext/stock/report/delayed_item_report/delayed_item_report.py:153
+#: erpnext/stock/report/item_price_stock/item_price_stock.py:24
+#: erpnext/stock/report/item_prices/item_prices.py:51
+#: erpnext/stock/report/item_shortage_report/item_shortage_report.py:143
+#: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py:54
+#: erpnext/stock/report/serial_and_batch_summary/serial_and_batch_summary.py:131
+#: erpnext/stock/report/serial_no_and_batch_traceability/serial_no_and_batch_traceability.py:436
+#: erpnext/stock/report/stock_ageing/stock_ageing.py:138
+#: erpnext/stock/report/stock_analytics/stock_analytics.py:31
+#: erpnext/stock/report/stock_balance/stock_balance.py:404
+#: erpnext/stock/report/stock_ledger/stock_ledger.py:213
+#: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:110
+#: erpnext/stock/report/stock_qty_vs_batch_qty/stock_qty_vs_batch_qty.py:31
+#: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.py:32
+#: erpnext/stock/report/supplier_wise_sales_analytics/supplier_wise_sales_analytics.py:58
+#: erpnext/stock/report/warehouse_wise_item_balance_age_and_value/warehouse_wise_item_balance_age_and_value.py:98
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_item/subcontracting_inward_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_service_item/subcontracting_inward_order_service_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_service_item/subcontracting_order_service_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
+#: erpnext/support/doctype/warranty_claim/warranty_claim.json
+msgid "Item Name"
+msgstr "Nome do Item"
+
+#. Label of the item_naming_by (Select) field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Item Naming By"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:451
+msgid "Item Out of Stock"
+msgstr ""
+
+#. Label of a Link in the Buying Workspace
+#. Label of the item_price_tab (Tab Break) field in DocType 'Selling Settings'
+#. Label of a Link in the Selling Workspace
+#. Name of a DocType
+#. Label of a Link in the Stock Workspace
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+#: erpnext/selling/workspace/selling/selling.json
+#: erpnext/stock/doctype/item_price/item_price.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Item Price"
+msgstr "Preço do Item"
+
+#. Label of the item_price_settings_section (Section Break) field in DocType
+#. 'Accounts Settings'
+#. Label of the item_price_settings_section (Section Break) field in DocType
+#. 'Selling Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Item Price Settings"
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/report/item_price_stock/item_price_stock.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Item Price Stock"
+msgstr "Preço do Item Preço"
+
+#: erpnext/stock/get_item_details.py:1101
+msgid "Item Price added for {0} in Price List {1}"
+msgstr ""
+
+#: erpnext/stock/doctype/item_price/item_price.py:140
+msgid "Item Price appears multiple times based on Price List, Supplier/Customer, Currency, Item, Batch, UOM, Qty, and Dates."
+msgstr ""
+
+#: erpnext/stock/get_item_details.py:1080
+msgid "Item Price updated for {0} in Price List {1}"
+msgstr "O Preço do Item foi atualizado para {0} na Lista de Preços {1}"
+
+#. Name of a report
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/report/item_prices/item_prices.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Item Prices"
+msgstr "Preços de Itens"
+
+#. Name of a DocType
+#. Label of the item_quality_inspection_parameter (Table) field in DocType
+#. 'Quality Inspection Template'
+#: erpnext/stock/doctype/item_quality_inspection_parameter/item_quality_inspection_parameter.json
+#: erpnext/stock/doctype/quality_inspection_template/quality_inspection_template.json
+msgid "Item Quality Inspection Parameter"
+msgstr "Parâmetro de Inspeção de Qualidade do Item"
+
+#. Label of the item_reference (Link) field in DocType 'Maintenance Schedule
+#. Detail'
+#. Label of the item_reference (Data) field in DocType 'Production Plan Item'
+#. Label of the item_reference (Data) field in DocType 'Production Plan Item
+#. Reference'
+#: erpnext/maintenance/doctype/maintenance_schedule_detail/maintenance_schedule_detail.json
+#: erpnext/manufacturing/doctype/production_plan_item/production_plan_item.json
+#: erpnext/manufacturing/doctype/production_plan_item_reference/production_plan_item_reference.json
+msgid "Item Reference"
+msgstr ""
+
+#. Name of a DocType
+#. Label of the item_reorder_section (Section Break) field in DocType 'Material
+#. Request Item'
+#: erpnext/stock/doctype/item_reorder/item_reorder.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+msgid "Item Reorder"
+msgstr "Reposição de Item"
+
+#. Label of the item_row (Data) field in DocType 'Item Wise Tax Detail'
+#: erpnext/accounts/doctype/item_wise_tax_detail/item_wise_tax_detail.json
+msgid "Item Row"
+msgstr ""
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:145
+msgid "Item Row {0}: {1} {2} does not exist in above '{1}' table"
+msgstr "Linha do Item {0}: {1} {2} não existe na tabela ';{1}'; acima"
+
+#. Label of the item_serial_no (Link) field in DocType 'Quality Inspection'
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+msgid "Item Serial No"
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/report/item_shortage_report/item_shortage_report.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Item Shortage Report"
+msgstr "Relatório de Itens Em Falta no Estoque"
+
+#. Name of a DocType
+#: erpnext/stock/doctype/item_supplier/item_supplier.json
+msgid "Item Supplier"
+msgstr "Fornecedor do Item"
+
+#. Label of the sec_break_taxes (Section Break) field in DocType 'Item Group'
+#. Name of a DocType
+#: erpnext/setup/doctype/item_group/item_group.json
+#: erpnext/stock/doctype/item_tax/item_tax.json
+msgid "Item Tax"
+msgstr "Imposto do Item"
+
+#. Label of the item_tax_amount (Currency) field in DocType 'Purchase Invoice
+#. Item'
+#. Label of the item_tax_amount (Currency) field in DocType 'Purchase Receipt
+#. Item'
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Item Tax Amount Included in Value"
+msgstr ""
+
+#. Label of the item_tax_rate (Small Text) field in DocType 'POS Invoice Item'
+#. Label of the item_tax_rate (Code) field in DocType 'Purchase Invoice Item'
+#. Label of the item_tax_rate (Small Text) field in DocType 'Sales Invoice
+#. Item'
+#. Label of the item_tax_rate (Code) field in DocType 'Purchase Order Item'
+#. Label of the item_tax_rate (Code) field in DocType 'Supplier Quotation Item'
+#. Label of the item_tax_rate (Code) field in DocType 'Quotation Item'
+#. Label of the item_tax_rate (Code) field in DocType 'Sales Order Item'
+#. Label of the item_tax_rate (Small Text) field in DocType 'Delivery Note
+#. Item'
+#. Label of the item_tax_rate (Code) field in DocType 'Purchase Receipt Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Item Tax Rate"
+msgstr ""
+
+#: erpnext/accounts/doctype/item_tax_template/item_tax_template.py:61
+msgid "Item Tax Row {0} must have account of type Tax or Income or Expense or Chargeable"
+msgstr ""
+
+#: erpnext/accounts/doctype/item_tax_template/item_tax_template.py:48
+msgid "Item Tax Row {0}: Account must belong to Company - {1}"
+msgstr ""
+
+#. Name of a DocType
+#. Label of the item_tax_template (Link) field in DocType 'POS Invoice Item'
+#. Label of the item_tax_template (Link) field in DocType 'Purchase Invoice
+#. Item'
+#. Label of the item_tax_template (Link) field in DocType 'Sales Invoice Item'
+#. Label of a Link in the Accounting Workspace
+#. Label of the item_tax_template (Link) field in DocType 'Purchase Order Item'
+#. Label of the item_tax_template (Link) field in DocType 'Supplier Quotation
+#. Item'
+#. Label of the item_tax_template (Link) field in DocType 'Quotation Item'
+#. Label of the item_tax_template (Link) field in DocType 'Sales Order Item'
+#. Label of the item_tax_template (Link) field in DocType 'Delivery Note Item'
+#. Label of the item_tax_template (Link) field in DocType 'Item Tax'
+#. Label of the item_tax_template (Link) field in DocType 'Purchase Receipt
+#. Item'
+#: erpnext/accounts/doctype/item_tax_template/item_tax_template.json
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/item_tax/item_tax.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Item Tax Template"
+msgstr "Modelo de Impostos Por Item"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/item_tax_template_detail/item_tax_template_detail.json
+msgid "Item Tax Template Detail"
+msgstr "Detalhe do Modelo de Imposto de Item"
+
+#. Label of the production_item (Link) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Item To Manufacture"
+msgstr ""
+
+#. Label of the uom (Link) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Item UOM"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/stock/doctype/item_variant/item_variant.json
+msgid "Item Variant"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/stock/doctype/item_variant_attribute/item_variant_attribute.json
+msgid "Item Variant Attribute"
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/report/item_variant_details/item_variant_details.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Item Variant Details"
+msgstr ""
+
+#. Name of a DocType
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/doctype/item/item.js:146
+#: erpnext/stock/doctype/item_variant_settings/item_variant_settings.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Item Variant Settings"
+msgstr "Configurações da Variante de Item"
+
+#: erpnext/stock/doctype/item/item.js:895
+msgid "Item Variant {0} already exists with same attributes"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:771
+msgid "Item Variants updated"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.py:85
+msgid "Item Warehouse based reposting has been enabled."
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/stock/doctype/item_website_specification/item_website_specification.json
+msgid "Item Website Specification"
+msgstr "Especificação do Site do Item"
+
+#. Label of the section_break_18 (Section Break) field in DocType 'POS Invoice
+#. Item'
+#. Label of the item_weight_details (Section Break) field in DocType 'Purchase
+#. Invoice Item'
+#. Label of the section_break_18 (Section Break) field in DocType 'Sales
+#. Invoice Item'
+#. Label of the item_weight_details (Section Break) field in DocType 'Purchase
+#. Order Item'
+#. Label of the item_weight_details (Section Break) field in DocType 'Supplier
+#. Quotation Item'
+#. Label of the item_weight_details (Section Break) field in DocType 'Quotation
+#. Item'
+#. Label of the item_weight_details (Section Break) field in DocType 'Sales
+#. Order Item'
+#. Label of the item_weight_details (Section Break) field in DocType 'Delivery
+#. Note Item'
+#. Label of the item_weight_details (Section Break) field in DocType 'Purchase
+#. Receipt Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Item Weight Details"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/item_wise_tax_detail/item_wise_tax_detail.json
+msgid "Item Wise Tax Detail"
+msgstr ""
+
+#. Label of the item_wise_tax_details (Table) field in DocType 'POS Invoice'
+#. Label of the item_wise_tax_details (Table) field in DocType 'Purchase
+#. Invoice'
+#. Label of the item_wise_tax_details (Table) field in DocType 'Sales Invoice'
+#. Label of the item_wise_tax_details (Table) field in DocType 'Purchase Order'
+#. Label of the item_wise_tax_details (Table) field in DocType 'Supplier
+#. Quotation'
+#. Label of the item_wise_tax_details (Table) field in DocType 'Quotation'
+#. Label of the item_wise_tax_details (Table) field in DocType 'Sales Order'
+#. Label of the item_wise_tax_details (Table) field in DocType 'Delivery Note'
+#. Label of the item_wise_tax_details (Table) field in DocType 'Purchase
+#. Receipt'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Item Wise Tax Details"
+msgstr ""
+
+#: erpnext/controllers/taxes_and_totals.py:542
+msgid "Item Wise Tax Details do not match with Taxes and Charges at the following rows:"
+msgstr ""
+
+#. Label of the section_break_rrrx (Section Break) field in DocType 'Sales
+#. Forecast'
+#. Option for the 'Based On' (Select) field in DocType 'Repost Item Valuation'
+#: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.json
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+msgid "Item and Warehouse"
+msgstr ""
+
+#. Label of the issue_details (Section Break) field in DocType 'Warranty Claim'
+#: erpnext/support/doctype/warranty_claim/warranty_claim.json
+msgid "Item and Warranty Details"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:3148
+msgid "Item for row {0} does not match Material Request"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:788
+msgid "Item has variants."
+msgstr ""
+
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:436
+msgid "Item is mandatory in Raw Materials table."
+msgstr ""
+
+#: erpnext/selling/page/point_of_sale/pos_item_details.js:110
+msgid "Item is removed since no serial / batch no selected."
+msgstr ""
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:141
+msgid "Item must be added using 'Get Items from Purchase Receipts' button"
+msgstr "O artigo deve ser adicionado usando \"Obter itens de recibos de compra 'botão"
+
+#: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.py:42
+#: erpnext/selling/doctype/sales_order/sales_order.js:1630
+msgid "Item name"
+msgstr ""
+
+#. Label of the operation (Link) field in DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid "Item operation"
+msgstr ""
+
+#: erpnext/controllers/accounts_controller.py:3916
+msgid "Item qty can not be updated as raw materials are already processed."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1074
+msgid "Item rate has been updated to zero as Allow Zero Valuation Rate is checked for item {0}"
+msgstr ""
+
+#. Label of the finished_good (Link) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Item to Manufacture"
+msgstr ""
+
+#. Description of the 'Item' (Link) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Item to be manufactured or repacked"
+msgstr ""
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:9
+msgid "Item valuation rate is recalculated considering landed cost voucher amount"
+msgstr ""
+
+#: erpnext/stock/utils.py:559
+msgid "Item valuation reposting in progress. Report might show incorrect item valuation."
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:945
+msgid "Item variant {0} exists with same attributes"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:85
+msgid "Item {0} cannot be added as a sub-assembly of itself"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:197
+msgid "Item {0} cannot be ordered more than {1} against Blanket Order {2}."
+msgstr ""
+
+#: erpnext/assets/doctype/asset/asset.py:338
+#: erpnext/stock/doctype/item/item.py:635
+msgid "Item {0} does not exist"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:619
+msgid "Item {0} does not exist in the system or has expired"
+msgstr ""
+
+#: erpnext/controllers/stock_controller.py:515
+msgid "Item {0} does not exist."
+msgstr ""
+
+#: erpnext/controllers/selling_controller.py:835
+msgid "Item {0} entered multiple times."
+msgstr ""
+
+#: erpnext/controllers/sales_and_purchase_return.py:221
+msgid "Item {0} has already been returned"
+msgstr ""
+
+#: erpnext/assets/doctype/asset/asset.py:340
+msgid "Item {0} has been disabled"
+msgstr ""
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:778
+msgid "Item {0} has no Serial No. Only serialized items can have delivery based on Serial No"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:1124
+msgid "Item {0} has reached its end of life on {1}"
+msgstr ""
+
+#: erpnext/stock/stock_ledger.py:118
+msgid "Item {0} ignored since it is not a stock item"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:608
+msgid "Item {0} is already reserved/delivered against Sales Order {1}."
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:1144
+msgid "Item {0} is cancelled"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:1128
+msgid "Item {0} is disabled"
+msgstr ""
+
+#: erpnext/selling/doctype/installation_note/installation_note.py:79
+msgid "Item {0} is not a serialized Item"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:1136
+msgid "Item {0} is not a stock Item"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.py:933
+msgid "Item {0} is not a subcontracted item"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:2055
+msgid "Item {0} is not active or end of life has been reached"
+msgstr ""
+
+#: erpnext/assets/doctype/asset/asset.py:342
+msgid "Item {0} must be a Fixed Asset Item"
+msgstr "O Item {0} deve ser um Item de Ativo Imobilizado"
+
+#: erpnext/stock/get_item_details.py:347
+msgid "Item {0} must be a Non-Stock Item"
+msgstr ""
+
+#: erpnext/stock/get_item_details.py:344
+msgid "Item {0} must be a Sub-contracted Item"
+msgstr ""
+
+#: erpnext/assets/doctype/asset/asset.py:344
+msgid "Item {0} must be a non-stock item"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1407
+msgid "Item {0} not found in 'Raw Materials Supplied' table in {1} {2}"
+msgstr ""
+
+#: erpnext/stock/doctype/item_price/item_price.py:56
+msgid "Item {0} not found."
+msgstr ""
+
+#: erpnext/buying/doctype/purchase_order/purchase_order.py:362
+msgid "Item {0}: Ordered qty {1} cannot be less than minimum order qty {2} (defined in Item)."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:573
+msgid "Item {0}: {1} qty produced. "
+msgstr ""
+
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:1434
+msgid "Item {} does not exist."
+msgstr ""
+
+#. Name of a report
+#: erpnext/stock/report/item_wise_price_list_rate/item_wise_price_list_rate.json
+msgid "Item-wise Price List Rate"
+msgstr "Lista de Preços Por Item"
+
+#. Name of a report
+#. Label of a Link in the Buying Workspace
+#: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.json
+#: erpnext/buying/workspace/buying/buying.json
+msgid "Item-wise Purchase History"
+msgstr "Histórico de Compras Por Item"
+
+#. Name of a report
+#. Label of a Link in the Payables Workspace
+#: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.json
+#: erpnext/accounts/workspace/payables/payables.json
+msgid "Item-wise Purchase Register"
+msgstr "Registro de Compras Por Item"
+
+#. Name of a report
+#. Label of a Link in the Selling Workspace
+#: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.json
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Item-wise Sales History"
+msgstr "Histórico de Vendas Por Item"
+
+#. Name of a report
+#. Label of a Link in the Receivables Workspace
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.json
+#: erpnext/accounts/workspace/receivables/receivables.json
+msgid "Item-wise Sales Register"
+msgstr "Registro de Vendas Por Item"
+
+#: erpnext/stock/get_item_details.py:714
+msgid "Item/Item Code required to get Item Tax Template."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:361
+msgid "Item: {0} does not exist in the system"
+msgstr ""
+
+#. Label of a Card Break in the Buying Workspace
+#: erpnext/buying/workspace/buying/buying.json
+msgid "Items & Pricing"
+msgstr ""
+
+#. Label of a Card Break in the Stock Workspace
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Items Catalogue"
+msgstr ""
+
+#: erpnext/stock/report/item_prices/item_prices.js:8
+msgid "Items Filter"
+msgstr "Filtro de Itens"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.py:1653
+#: erpnext/selling/doctype/sales_order/sales_order.js:1668
+msgid "Items Required"
+msgstr "Itens Necessários"
+
+#. Label of a Link in the Buying Workspace
+#. Name of a report
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/stock/report/items_to_be_requested/items_to_be_requested.json
+msgid "Items To Be Requested"
+msgstr "Itens Para Requisitar"
+
+#. Label of a Card Break in the Selling Workspace
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Items and Pricing"
+msgstr "Itens e Preços"
+
+#: erpnext/controllers/accounts_controller.py:4169
+msgid "Items cannot be updated as Subcontracting Inward Order(s) exist against this Subcontracted Sales Order."
+msgstr ""
+
+#: erpnext/controllers/accounts_controller.py:4162
+msgid "Items cannot be updated as Subcontracting Order is created against the Purchase Order {0}."
+msgstr ""
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:1428
+msgid "Items for Raw Material Request"
+msgstr "Itens Para Solicitação de Matéria-prima"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1070
+msgid "Items rate has been updated to zero as Allow Zero Valuation Rate is checked for the following items: {0}"
+msgstr ""
+
+#. Label of the items_to_be_repost (Code) field in DocType 'Repost Item
+#. Valuation'
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+msgid "Items to Be Repost"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.py:1652
+msgid "Items to Manufacture are required to pull the Raw Materials associated with it."
+msgstr "Os itens a fabricar são necessários para extrair as matérias-primas associadas a eles."
+
+#. Label of a Link in the Buying Workspace
+#: erpnext/buying/workspace/buying/buying.json
+msgid "Items to Order and Receive"
+msgstr ""
+
+#: erpnext/public/js/stock_reservation.js:72
+#: erpnext/selling/doctype/sales_order/sales_order.js:327
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:226
+msgid "Items to Reserve"
+msgstr ""
+
+#. Description of the 'Warehouse' (Link) field in DocType 'Pick List'
+#: erpnext/stock/doctype/pick_list/pick_list.json
+msgid "Items under this warehouse will be suggested"
+msgstr ""
+
+#: erpnext/controllers/stock_controller.py:125
+msgid "Items {0} do not exist in the Item master."
+msgstr ""
+
+#. Option for the 'Based On' (Select) field in DocType 'Authorization Rule'
+#: erpnext/setup/doctype/authorization_rule/authorization_rule.json
+msgid "Itemwise Discount"
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the Stock Workspace
+#: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.json
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Itemwise Recommended Reorder Level"
+msgstr ""
+
+#. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
+#: erpnext/stock/doctype/item_barcode/item_barcode.json
+msgid "JAN"
+msgstr ""
+
+#. Label of the production_capacity (Int) field in DocType 'Workstation'
+#: erpnext/manufacturing/doctype/workstation/workstation.json
+msgid "Job Capacity"
+msgstr ""
+
+#. Label of the job_card (Link) field in DocType 'Purchase Order Item'
+#. Option for the 'Transfer Material Against' (Select) field in DocType 'BOM'
+#. Name of a DocType
+#. Label of the job_card_section (Section Break) field in DocType 'Operation'
+#. Option for the 'Transfer Material Against' (Select) field in DocType 'Work
+#. Order'
+#. Label of a Link in the Manufacturing Workspace
+#. Label of a shortcut in the Manufacturing Workspace
+#. Label of the job_card (Link) field in DocType 'Material Request'
+#. Option for the 'Reference Type' (Select) field in DocType 'Quality
+#. Inspection'
+#. Label of the job_card (Link) field in DocType 'Stock Entry'
+#. Label of the job_card (Link) field in DocType 'Subcontracting Order Item'
+#. Label of the job_card (Link) field in DocType 'Subcontracting Receipt Item'
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/job_card/job_card.py:877
+#: erpnext/manufacturing/doctype/operation/operation.json
+#: erpnext/manufacturing/doctype/work_order/work_order.js:396
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/manufacturing/report/cost_of_poor_quality_report/cost_of_poor_quality_report.js:29
+#: erpnext/manufacturing/report/cost_of_poor_quality_report/cost_of_poor_quality_report.py:86
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/stock/doctype/material_request/material_request.json
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Job Card"
+msgstr "Cartão de Trabalho"
+
+#: erpnext/manufacturing/dashboard_fixtures.py:167
+msgid "Job Card Analysis"
+msgstr "Análise de Carteira de Trabalho"
+
+#. Name of a DocType
+#. Label of the job_card_item (Data) field in DocType 'Material Request Item'
+#. Label of the job_card_item (Data) field in DocType 'Stock Entry Detail'
+#: erpnext/manufacturing/doctype/job_card_item/job_card_item.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "Job Card Item"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/manufacturing/doctype/job_card_operation/job_card_operation.json
+msgid "Job Card Operation"
+msgstr ""

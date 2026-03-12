@@ -1,0 +1,999 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#. Label of the minimum_net_rate (Float) field in DocType 'Item Tax'
+#: erpnext/stock/doctype/item_tax/item_tax.json
+msgid "Minimum Net Rate"
+msgstr "Preço Líquido Mínimo"
+
+#. Label of the min_order_qty (Float) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Minimum Order Qty"
+msgstr "Qtd. Mín. do Pedido"
+
+#. Label of the min_order_qty (Float) field in DocType 'Material Request Plan
+#. Item'
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+msgid "Minimum Order Quantity"
+msgstr "Quantidade Mínima do Pedido"
+
+#. Label of the minimum_payment_amount (Currency) field in DocType 'Payment
+#. Reconciliation'
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+msgid "Minimum Payment Amount"
+msgstr "Valor Mínimo do Pagamento"
+
+#: erpnext/stock/report/product_bundle_balance/product_bundle_balance.py:97
+msgid "Minimum Qty"
+msgstr "Qtd. Mín."
+
+#. Label of the min_spent (Currency) field in DocType 'Loyalty Program
+#. Collection'
+#: erpnext/accounts/doctype/loyalty_program_collection/loyalty_program_collection.json
+msgid "Minimum Total Spent"
+msgstr "Gasto Total Mínimo"
+
+#. Label of the min_value (Float) field in DocType 'Item Quality Inspection
+#. Parameter'
+#. Label of the min_value (Float) field in DocType 'Quality Inspection Reading'
+#: erpnext/stock/doctype/item_quality_inspection_parameter/item_quality_inspection_parameter.json
+#: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
+msgid "Minimum Value"
+msgstr "Valor Mínimo"
+
+#. Description of the 'Minimum Order Qty' (Float) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Minimum quantity should be as per Stock UOM"
+msgstr "A quantidade mínima deve seguir a UM de estoque"
+
+#. Label of the minute (Text Editor) field in DocType 'Quality Meeting Minutes'
+#. Name of a UOM
+#: erpnext/quality_management/doctype/quality_meeting_minutes/quality_meeting_minutes.json
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Minute"
+msgstr ""
+
+#. Label of the minutes (Table) field in DocType 'Quality Meeting'
+#: erpnext/quality_management/doctype/quality_meeting/quality_meeting.json
+msgid "Minutes"
+msgstr "Atas"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:116
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:224
+msgid "Miscellaneous Expenses"
+msgstr "Despesas Diversas"
+
+#: erpnext/controllers/buying_controller.py:709
+msgid "Mismatch"
+msgstr "Incompatibilidade"
+
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:1435
+msgid "Missing"
+msgstr "Ausente"
+
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:97
+#: erpnext/accounts/doctype/pos_profile/pos_profile.py:200
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:595
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2345
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2948
+#: erpnext/assets/doctype/asset_category/asset_category.py:116
+msgid "Missing Account"
+msgstr "Conta Ausente"
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:405
+msgid "Missing Asset"
+msgstr "Ativo Ausente"
+
+#: erpnext/accounts/doctype/gl_entry/gl_entry.py:186
+#: erpnext/assets/doctype/asset/asset.py:372
+msgid "Missing Cost Center"
+msgstr "Centro de Custo Ausente"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:1213
+msgid "Missing Default in Company"
+msgstr "Padrão Ausente na Empresa"
+
+#: erpnext/stock/report/serial_no_and_batch_traceability/serial_no_and_batch_traceability.py:44
+msgid "Missing Filters"
+msgstr "Filtros Ausentes"
+
+#: erpnext/assets/doctype/asset/asset.py:417
+msgid "Missing Finance Book"
+msgstr "Livro Financeiro Ausente"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1604
+msgid "Missing Finished Good"
+msgstr "Produto Acabado Ausente"
+
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.py:304
+msgid "Missing Formula"
+msgstr "Fórmula Ausente"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:942
+msgid "Missing Item"
+msgstr "Item Ausente"
+
+#: erpnext/utilities/__init__.py:53
+msgid "Missing Payments App"
+msgstr "App Payments Ausente"
+
+#: erpnext/assets/doctype/asset_repair/asset_repair.py:297
+msgid "Missing Serial No Bundle"
+msgstr "Pacote de Números de Série Ausente"
+
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.js:154
+msgid "Missing email template for dispatch. Please set one in Delivery Settings."
+msgstr "Modelo de e-mail de expedição ausente. Defina um em Configurações de Entrega."
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_engine.py:223
+msgid "Missing required filter: {0}"
+msgstr "Filtro obrigatório ausente: {0}"
+
+#: erpnext/manufacturing/doctype/bom/bom.py:1128
+#: erpnext/manufacturing/doctype/work_order/work_order.py:1446
+msgid "Missing value"
+msgstr "Valor ausente"
+
+#. Label of the mixed_conditions (Check) field in DocType 'Pricing Rule'
+#. Label of the mixed_conditions (Check) field in DocType 'Promotional Scheme'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
+msgid "Mixed Conditions"
+msgstr "Condições Mistas"
+
+#: erpnext/accounts/print_format/sales_invoice_print/sales_invoice_print.html:58
+msgid "Mobile: "
+msgstr "Celular: "
+
+#: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.py:210
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:240
+#: erpnext/accounts/report/purchase_register/purchase_register.py:201
+#: erpnext/accounts/report/sales_register/sales_register.py:224
+msgid "Mode Of Payment"
+msgstr "Forma de Pagamento"
+
+#. Label of the mode_of_payment (Link) field in DocType 'Cashier Closing
+#. Payments'
+#. Label of the mode_of_payment (Link) field in DocType 'Journal Entry'
+#. Name of a DocType
+#. Label of the mode_of_payment (Data) field in DocType 'Mode of Payment'
+#. Label of the mode_of_payment (Link) field in DocType 'Overdue Payment'
+#. Label of the mode_of_payment (Link) field in DocType 'Payment Entry'
+#. Label of the mode_of_payment (Link) field in DocType 'Payment Order
+#. Reference'
+#. Label of the mode_of_payment (Link) field in DocType 'Payment Request'
+#. Label of the mode_of_payment (Link) field in DocType 'Payment Schedule'
+#. Label of the mode_of_payment (Link) field in DocType 'Payment Term'
+#. Label of the mode_of_payment (Link) field in DocType 'Payment Terms Template
+#. Detail'
+#. Label of the mode_of_payment (Link) field in DocType 'POS Closing Entry
+#. Detail'
+#. Label of the mode_of_payment (Link) field in DocType 'POS Opening Entry
+#. Detail'
+#. Label of the mode_of_payment (Link) field in DocType 'POS Payment Method'
+#. Label of the mode_of_payment (Link) field in DocType 'Purchase Invoice'
+#. Label of the mode_of_payment (Link) field in DocType 'Sales Invoice Payment'
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/cashier_closing_payments/cashier_closing_payments.json
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/mode_of_payment/mode_of_payment.json
+#: erpnext/accounts/doctype/overdue_payment/overdue_payment.json
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/payment_order/payment_order.js:126
+#: erpnext/accounts/doctype/payment_order_reference/payment_order_reference.json
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+#: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
+#: erpnext/accounts/doctype/payment_term/payment_term.json
+#: erpnext/accounts/doctype/payment_terms_template_detail/payment_terms_template_detail.json
+#: erpnext/accounts/doctype/pos_closing_entry/closing_voucher_details.html:40
+#: erpnext/accounts/doctype/pos_closing_entry_detail/pos_closing_entry_detail.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:244
+#: erpnext/accounts/doctype/pos_opening_entry_detail/pos_opening_entry_detail.json
+#: erpnext/accounts/doctype/pos_payment_method/pos_payment_method.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice_payment/sales_invoice_payment.json
+#: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.js:47
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.js:35
+#: erpnext/accounts/report/purchase_register/purchase_register.js:40
+#: erpnext/accounts/report/sales_register/sales_register.js:40
+#: erpnext/accounts/workspace/accounting/accounting.json
+#: erpnext/selling/page/point_of_sale/pos_controller.js:33
+msgid "Mode of Payment"
+msgstr "Forma de Pagamento"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/mode_of_payment_account/mode_of_payment_account.json
+msgid "Mode of Payment Account"
+msgstr "Conta da Forma de Pagamento"
+
+#: erpnext/accounts/doctype/pos_closing_entry/closing_voucher_details.html:35
+msgid "Mode of Payments"
+msgstr "Formas de Pagamento"
+
+#. Label of the model (Data) field in DocType 'Vehicle'
+#: erpnext/setup/doctype/vehicle/vehicle.json
+msgid "Model"
+msgstr "Modelo"
+
+#. Label of the section_break_11 (Section Break) field in DocType 'POS Closing
+#. Entry'
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
+msgid "Modes of Payment"
+msgstr "Formas de Pagamento"
+
+#: erpnext/templates/pages/projects.html:69
+msgid "Modified By"
+msgstr "Modificado Por"
+
+#: erpnext/templates/pages/projects.html:49
+#: erpnext/templates/pages/projects.html:70
+msgid "Modified On"
+msgstr "Modificado Em"
+
+#. Label of the module (Link) field in DocType 'Financial Report Template'
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.json
+msgid "Module (for Export)"
+msgstr "Módulo (para Exportação)"
+
+#. Label of the monitor_progress (Section Break) field in DocType 'Project'
+#: erpnext/projects/doctype/project/project.json
+msgid "Monitor Progress"
+msgstr "Monitorar Progresso"
+
+#. Label of the monitor_for_last_x_days (Int) field in DocType 'Ledger Health
+#. Monitor'
+#: erpnext/accounts/doctype/ledger_health_monitor/ledger_health_monitor.json
+msgid "Monitor for Last 'X' days"
+msgstr "Monitorar os Últimos 'X' Dias"
+
+#. Label of the frequency (Select) field in DocType 'Quality Goal'
+#: erpnext/quality_management/doctype/quality_goal/quality_goal.json
+msgid "Monitoring Frequency"
+msgstr "Frequência de Monitoramento"
+
+#. Option for the 'Due Date Based On' (Select) field in DocType 'Payment
+#. Schedule'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
+#. 'Payment Schedule'
+#. Option for the 'Due Date Based On' (Select) field in DocType 'Payment Term'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
+#. 'Payment Term'
+#. Option for the 'Due Date Based On' (Select) field in DocType 'Payment Terms
+#. Template Detail'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
+#. 'Payment Terms Template Detail'
+#: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
+#: erpnext/accounts/doctype/payment_term/payment_term.json
+#: erpnext/accounts/doctype/payment_terms_template_detail/payment_terms_template_detail.json
+msgid "Month(s) after the end of the invoice month"
+msgstr "Mês(es) após o fim do mês da fatura"
+
+#: erpnext/manufacturing/dashboard_fixtures.py:215
+msgid "Monthly Completed Work Orders"
+msgstr "Ordens de Serviço Concluídas Mensalmente"
+
+#. Name of a DocType
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/cost_center/cost_center_tree.js:69
+#: erpnext/accounts/doctype/monthly_distribution/monthly_distribution.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Monthly Distribution"
+msgstr "Distribuição Mensal"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/monthly_distribution_percentage/monthly_distribution_percentage.json
+msgid "Monthly Distribution Percentage"
+msgstr "Distribuição Percentual Mensal"
+
+#. Label of the percentages (Table) field in DocType 'Monthly Distribution'
+#: erpnext/accounts/doctype/monthly_distribution/monthly_distribution.json
+msgid "Monthly Distribution Percentages"
+msgstr "Percentuais de Distribuição Mensal"
+
+#: erpnext/manufacturing/dashboard_fixtures.py:244
+msgid "Monthly Quality Inspections"
+msgstr "Inspeções Mensais de Qualidade"
+
+#. Option for the 'Subscription Price Based On' (Select) field in DocType
+#. 'Subscription Plan'
+#: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
+msgid "Monthly Rate"
+msgstr "Valor Mensal"
+
+#. Label of the monthly_sales_target (Currency) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Monthly Sales Target"
+msgstr "Meta Mensal de Vendas"
+
+#: erpnext/manufacturing/dashboard_fixtures.py:198
+msgid "Monthly Total Work Orders"
+msgstr "Total Mensal de Ordens de Serviço"
+
+#. Option for the 'Book Deferred Entries Based On' (Select) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Months"
+msgstr "Meses"
+
+#. Description of the 'Is Short/Long Year' (Check) field in DocType 'Fiscal
+#. Year'
+#: erpnext/accounts/doctype/fiscal_year/fiscal_year.json
+msgid "More/Less than 12 months."
+msgstr "Mais/Menos de 12 meses."
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:32
+msgid "Motion Picture & Video"
+msgstr "Cinema e Vídeo"
+
+#: erpnext/stock/dashboard/item_dashboard.js:216
+msgid "Move Item"
+msgstr "Mover Item"
+
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:239
+msgid "Move Stock"
+msgstr "Movimentar Estoque"
+
+#: erpnext/templates/includes/macros.html:169
+msgid "Move to Cart"
+msgstr "Mover para o Carrinho"
+
+#: erpnext/assets/doctype/asset/asset_dashboard.py:7
+msgid "Movement"
+msgstr "Movimentação"
+
+#. Option for the 'Default Stock Valuation Method' (Select) field in DocType
+#. 'Company'
+#. Option for the 'Valuation Method' (Select) field in DocType 'Item'
+#. Option for the 'Default Valuation Method' (Select) field in DocType 'Stock
+#. Settings'
+#: erpnext/setup/doctype/company/company.json
+#: erpnext/stock/doctype/item/item.json
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Moving Average"
+msgstr "Média Móvel"
+
+#: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.js:82
+msgid "Moving up in tree ..."
+msgstr "Movendo para cima na árvore ..."
+
+#. Label of the multi_currency (Check) field in DocType 'Journal Entry'
+#. Label of the multi_currency (Check) field in DocType 'Journal Entry
+#. Template'
+#. Label of a Card Break in the Accounting Workspace
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Multi Currency"
+msgstr "Multimoeda"
+
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.js:42
+msgid "Multi-level BOM Creator"
+msgstr "Criador de LDM Multinível"
+
+#: erpnext/selling/doctype/customer/customer.py:393
+msgid "Multiple Loyalty Programs found for Customer {}. Please select manually."
+msgstr "Vários programas de fidelidade encontrados para o cliente {}. Selecione manualmente."
+
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1170
+msgid "Multiple POS Opening Entry"
+msgstr "Múltiplas Aberturas de PDV"
+
+#: erpnext/accounts/doctype/pricing_rule/utils.py:346
+msgid "Multiple Price Rules exists with same criteria, please resolve conflict by assigning priority. Price Rules: {0}"
+msgstr "Existem várias regras de preço com os mesmos critérios; resolva o conflito definindo a prioridade. Regras de preço: {0}"
+
+#. Option for the 'Loyalty Program Type' (Select) field in DocType 'Loyalty
+#. Program'
+#: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
+msgid "Multiple Tier Program"
+msgstr "Programa com Múltiplas Faixas"
+
+#: erpnext/stock/doctype/item/item.js:170
+msgid "Multiple Variants"
+msgstr "Variantes Múltiplas"
+
+#: erpnext/stock/doctype/warehouse/warehouse.py:152
+msgid "Multiple Warehouse Accounts"
+msgstr "Múltiplas Contas de Armazém"
+
+#: erpnext/controllers/accounts_controller.py:1299
+msgid "Multiple fiscal years exist for the date {0}. Please set company in Fiscal Year"
+msgstr "Existem vários exercícios fiscais para a data {0}. Defina a empresa no exercício fiscal"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1611
+msgid "Multiple items cannot be marked as finished item"
+msgstr "Não é possível marcar vários itens como produto acabado"
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:33
+msgid "Music"
+msgstr "Música"
+
+#. Label of the must_be_whole_number (Check) field in DocType 'UOM'
+#: erpnext/manufacturing/doctype/work_order/work_order.py:1393
+#: erpnext/setup/doctype/uom/uom.json
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:267
+#: erpnext/utilities/transaction_base.py:563
+msgid "Must be Whole Number"
+msgstr "Deve ser um número inteiro"
+
+#. Description of the 'Import from Google Sheets' (Data) field in DocType 'Bank
+#. Statement Import'
+#: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.json
+msgid "Must be a publicly accessible Google Sheets URL and adding Bank Account column is necessary for importing via Google Sheets"
+msgstr "Deve ser uma URL do Google Sheets acessível publicamente, e adicionar a coluna Conta Bancária é necessário para importar via Google Sheets"
+
+#. Label of the mute_email (Check) field in DocType 'Payment Request'
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+msgid "Mute Email"
+msgstr "Silenciar E-mail"
+
+#. Option for the 'Fulfilment Status' (Select) field in DocType 'Contract'
+#: erpnext/crm/doctype/contract/contract.json
+msgid "N/A"
+msgstr "N/D"
+
+#. Label of the name_and_employee_id (Section Break) field in DocType 'Sales
+#. Person'
+#: erpnext/setup/doctype/sales_person/sales_person.json
+msgid "Name and Employee ID"
+msgstr "Nome e ID do Empregado"
+
+#. Label of the name_of_beneficiary (Data) field in DocType 'Bank Guarantee'
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
+msgid "Name of Beneficiary"
+msgstr "Nome do Beneficiário"
+
+#: erpnext/accounts/doctype/account/account_tree.js:125
+msgid "Name of new Account. Note: Please don't create accounts for Customers and Suppliers"
+msgstr "Nome da nova conta. Nota: não crie contas para clientes e fornecedores"
+
+#. Description of the 'Distribution Name' (Data) field in DocType 'Monthly
+#. Distribution'
+#: erpnext/accounts/doctype/monthly_distribution/monthly_distribution.json
+msgid "Name of the Monthly Distribution"
+msgstr "Nome da Distribuição Mensal"
+
+#. Label of the named_place (Data) field in DocType 'Purchase Invoice'
+#. Label of the named_place (Data) field in DocType 'Sales Invoice'
+#. Label of the named_place (Data) field in DocType 'Purchase Order'
+#. Label of the named_place (Data) field in DocType 'Request for Quotation'
+#. Label of the named_place (Data) field in DocType 'Supplier Quotation'
+#. Label of the named_place (Data) field in DocType 'Quotation'
+#. Label of the named_place (Data) field in DocType 'Sales Order'
+#. Label of the named_place (Data) field in DocType 'Delivery Note'
+#. Label of the named_place (Data) field in DocType 'Purchase Receipt'
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Named Place"
+msgstr "Local Designado"
+
+#. Label of the naming_series_prefix (Data) field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Naming Series Prefix"
+msgstr "Prefixo da Série de Nomenclatura"
+
+#. Label of the supplier_and_price_defaults_section (Tab Break) field in
+#. DocType 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Naming Series and Price Defaults"
+msgstr "Séries de Nomenclatura e Padrões de Preço"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:94
+msgid "Naming Series is mandatory"
+msgstr "A série de nomenclatura é obrigatória"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Nanocoulomb"
+msgstr "Nanocoulomb"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Nanogram/Litre"
+msgstr "Nanograma/Litro"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Nanohertz"
+msgstr "Nanohertz"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Nanometer"
+msgstr "Nanômetro"
+
+#. Name of a UOM
+#: erpnext/setup/setup_wizard/data/uom_data.json
+msgid "Nanosecond"
+msgstr "Nanossegundo"
+
+#. Option for the 'Fuel Type' (Select) field in DocType 'Vehicle'
+#: erpnext/setup/doctype/vehicle/vehicle.json
+msgid "Natural Gas"
+msgstr "Gás Natural"
+
+#: erpnext/setup/setup_wizard/data/sales_stage.txt:3
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:434
+msgid "Needs Analysis"
+msgstr "Análise de Necessidades"
+
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:620
+msgid "Negative Quantity is not allowed"
+msgstr "Quantidade negativa não é permitida"
+
+#: erpnext/stock/serial_batch_bundle.py:1509
+msgid "Negative Stock Error"
+msgstr "Erro de Estoque Negativo"
+
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:625
+msgid "Negative Valuation Rate is not allowed"
+msgstr "Taxa de Avaliação negativa não é permitida"
+
+#: erpnext/setup/setup_wizard/data/sales_stage.txt:8
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:439
+msgid "Negotiation/Review"
+msgstr "Negociação / Revisão"
+
+#. Label of the net_amount (Currency) field in DocType 'Advance Taxes and
+#. Charges'
+#. Label of the net_amount (Float) field in DocType 'Cashier Closing'
+#. Label of the net_amount (Currency) field in DocType 'POS Invoice Item'
+#. Label of the net_amount (Currency) field in DocType 'Purchase Invoice Item'
+#. Label of the net_amount (Currency) field in DocType 'Purchase Taxes and
+#. Charges'
+#. Label of the net_amount (Currency) field in DocType 'Sales Invoice Item'
+#. Label of the net_amount (Currency) field in DocType 'Sales Taxes and
+#. Charges'
+#. Label of the net_amount (Currency) field in DocType 'Purchase Order Item'
+#. Label of the net_amount (Currency) field in DocType 'Supplier Quotation
+#. Item'
+#. Label of the net_amount (Currency) field in DocType 'Quotation Item'
+#. Label of the net_amount (Currency) field in DocType 'Sales Order Item'
+#. Label of the net_amount (Currency) field in DocType 'Delivery Note Item'
+#. Label of the net_amount (Currency) field in DocType 'Purchase Receipt Item'
+#: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
+#: erpnext/accounts/doctype/cashier_closing/cashier_closing.json
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Net Amount"
+msgstr "Valor Líquido"
+
+#. Label of the base_net_amount (Currency) field in DocType 'Advance Taxes and
+#. Charges'
+#. Label of the base_net_amount (Currency) field in DocType 'POS Invoice Item'
+#. Label of the base_net_amount (Currency) field in DocType 'Purchase Invoice
+#. Item'
+#. Label of the base_net_amount (Currency) field in DocType 'Purchase Taxes and
+#. Charges'
+#. Label of the base_net_amount (Currency) field in DocType 'Sales Invoice
+#. Item'
+#. Label of the base_net_amount (Currency) field in DocType 'Sales Taxes and
+#. Charges'
+#. Label of the base_net_amount (Currency) field in DocType 'Purchase Order
+#. Item'
+#. Label of the base_net_amount (Currency) field in DocType 'Supplier Quotation
+#. Item'
+#. Label of the base_net_amount (Currency) field in DocType 'Quotation Item'
+#. Label of the base_net_amount (Currency) field in DocType 'Sales Order Item'
+#. Label of the base_net_amount (Currency) field in DocType 'Delivery Note
+#. Item'
+#. Label of the base_net_amount (Currency) field in DocType 'Purchase Receipt
+#. Item'
+#: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Net Amount (Company Currency)"
+msgstr "Valor Líquido (Moeda da Empresa)"
+
+#: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.py:665
+#: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.py:671
+msgid "Net Asset value as on"
+msgstr "Valor Líquido do Ativo em"
+
+#: erpnext/accounts/report/cash_flow/cash_flow.py:177
+msgid "Net Cash from Financing"
+msgstr "Caixa líquido das atividades de financiamento"
+
+#: erpnext/accounts/report/cash_flow/cash_flow.py:170
+msgid "Net Cash from Investing"
+msgstr "Caixa líquido das atividades de investimento"
+
+#: erpnext/accounts/report/cash_flow/cash_flow.py:158
+msgid "Net Cash from Operations"
+msgstr "Caixa líquido das atividades operacionais"
+
+#: erpnext/accounts/report/cash_flow/cash_flow.py:163
+msgid "Net Change in Accounts Payable"
+msgstr "Variação Líquida em Contas a Pagar"
+
+#: erpnext/accounts/report/cash_flow/cash_flow.py:162
+msgid "Net Change in Accounts Receivable"
+msgstr "Variação Líquida em Contas a Receber"
+
+#: erpnext/accounts/report/cash_flow/cash_flow.py:134
+#: erpnext/accounts/report/consolidated_financial_statement/consolidated_financial_statement.py:254
+msgid "Net Change in Cash"
+msgstr "Variação Líquida em Caixa"
+
+#: erpnext/accounts/report/cash_flow/cash_flow.py:179
+msgid "Net Change in Equity"
+msgstr "Variação Líquida no Patrimônio Líquido"
+
+#: erpnext/accounts/report/cash_flow/cash_flow.py:172
+msgid "Net Change in Fixed Asset"
+msgstr "Variação Líquida do Ativo Imobilizado"
+
+#: erpnext/accounts/report/cash_flow/cash_flow.py:164
+msgid "Net Change in Inventory"
+msgstr "Variação Líquida no Estoque"
+
+#. Label of the hour_rate (Currency) field in DocType 'Workstation'
+#. Label of the hour_rate (Currency) field in DocType 'Workstation Type'
+#: erpnext/manufacturing/doctype/workstation/workstation.json
+#: erpnext/manufacturing/doctype/workstation_type/workstation_type.json
+msgid "Net Hour Rate"
+msgstr "Taxa Líquida por Hora"
+
+#: erpnext/accounts/report/gross_and_net_profit_report/gross_and_net_profit_report.py:214
+#: erpnext/accounts/report/gross_and_net_profit_report/gross_and_net_profit_report.py:215
+#: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py:120
+msgid "Net Profit"
+msgstr "Lucro Líquido"
+
+#: erpnext/accounts/report/financial_ratios/financial_ratios.py:172
+msgid "Net Profit Ratio"
+msgstr "Margem de Lucro Líquido"
+
+#: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py:186
+msgid "Net Profit/Loss"
+msgstr "Lucro/Prejuízo Líquido"
+
+#. Label of the net_purchase_amount (Currency) field in DocType 'Asset'
+#. Label of the net_purchase_amount (Currency) field in DocType 'Asset
+#. Depreciation Schedule'
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:439
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:500
+msgid "Net Purchase Amount"
+msgstr "Valor Líquido de Compra"
+
+#: erpnext/assets/doctype/asset/asset.py:445
+msgid "Net Purchase Amount is mandatory"
+msgstr "O valor líquido de compra é obrigatório"
+
+#: erpnext/assets/doctype/asset/asset.py:552
+msgid "Net Purchase Amount should be <b>equal</b> to purchase amount of one single Asset."
+msgstr "O valor líquido de compra deve ser <b>igual</b> ao valor de compra de um único ativo."
+
+#: erpnext/assets/doctype/asset_depreciation_schedule/deppreciation_schedule_controller.py:388
+msgid "Net Purchase Amount {0} cannot be depreciated over {1} cycles."
+msgstr "O valor líquido de compra {0} não pode ser depreciado em {1} ciclos."
+
+#. Label of the net_rate (Currency) field in DocType 'POS Invoice Item'
+#. Label of the net_rate (Currency) field in DocType 'Purchase Invoice Item'
+#. Label of the net_rate (Currency) field in DocType 'Sales Invoice Item'
+#. Label of the net_rate (Currency) field in DocType 'Purchase Order Item'
+#. Label of the net_rate (Currency) field in DocType 'Supplier Quotation Item'
+#. Label of the net_rate (Currency) field in DocType 'Quotation Item'
+#. Label of the net_rate (Currency) field in DocType 'Sales Order Item'
+#. Label of the net_rate (Currency) field in DocType 'Delivery Note Item'
+#. Label of the net_rate (Currency) field in DocType 'Purchase Receipt Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Net Rate"
+msgstr "Preço Líquido"
+
+#. Label of the base_net_rate (Currency) field in DocType 'POS Invoice Item'
+#. Label of the base_net_rate (Currency) field in DocType 'Purchase Invoice
+#. Item'
+#. Label of the base_net_rate (Currency) field in DocType 'Sales Invoice Item'
+#. Label of the base_net_rate (Currency) field in DocType 'Purchase Order Item'
+#. Label of the base_net_rate (Currency) field in DocType 'Supplier Quotation
+#. Item'
+#. Label of the base_net_rate (Currency) field in DocType 'Quotation Item'
+#. Label of the base_net_rate (Currency) field in DocType 'Sales Order Item'
+#. Label of the base_net_rate (Currency) field in DocType 'Delivery Note Item'
+#. Label of the base_net_rate (Currency) field in DocType 'Purchase Receipt
+#. Item'
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/selling/doctype/quotation_item/quotation_item.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+msgid "Net Rate (Company Currency)"
+msgstr "Preço Líquido (Moeda da Empresa)"
+
+#. Label of the net_total (Currency) field in DocType 'POS Closing Entry'
+#. Label of the net_total (Currency) field in DocType 'POS Invoice'
+#. Option for the 'Apply Additional Discount On' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Apply Discount On' (Select) field in DocType 'POS Profile'
+#. Option for the 'Apply Discount On' (Select) field in DocType 'Pricing Rule'
+#. Label of the net_total (Currency) field in DocType 'Purchase Invoice'
+#. Option for the 'Apply Additional Discount On' (Select) field in DocType
+#. 'Purchase Invoice'
+#. Label of the net_total (Currency) field in DocType 'Sales Invoice'
+#. Option for the 'Apply Additional Discount On' (Select) field in DocType
+#. 'Sales Invoice'
+#. Option for the 'Calculate Based On' (Select) field in DocType 'Shipping
+#. Rule'
+#. Option for the 'Apply Additional Discount On' (Select) field in DocType
+#. 'Subscription'
+#. Label of the net_total (Currency) field in DocType 'Purchase Order'
+#. Option for the 'Apply Additional Discount On' (Select) field in DocType
+#. 'Purchase Order'
+#. Label of the net_total (Currency) field in DocType 'Supplier Quotation'
+#. Option for the 'Apply Additional Discount On' (Select) field in DocType
+#. 'Supplier Quotation'
+#. Label of the net_total (Currency) field in DocType 'Quotation'
+#. Option for the 'Apply Additional Discount On' (Select) field in DocType
+#. 'Quotation'
+#. Label of the net_total (Currency) field in DocType 'Sales Order'
+#. Option for the 'Apply Additional Discount On' (Select) field in DocType
+#. 'Sales Order'
+#. Label of the net_total (Currency) field in DocType 'Delivery Note'
+#. Option for the 'Apply Additional Discount On' (Select) field in DocType
+#. 'Delivery Note'
+#. Label of the net_total (Currency) field in DocType 'Purchase Receipt'
+#. Option for the 'Apply Additional Discount On' (Select) field in DocType
+#. 'Purchase Receipt'
+#: erpnext/accounts/doctype/pos_closing_entry/closing_voucher_details.html:19
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
+#: erpnext/accounts/doctype/subscription/subscription.json
+#: erpnext/accounts/report/purchase_register/purchase_register.py:253
+#: erpnext/accounts/report/sales_register/sales_register.py:285
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:92
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:522
+#: erpnext/selling/page/point_of_sale/pos_item_cart.js:526
+#: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:156
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/templates/includes/order/order_taxes.html:5
+msgid "Net Total"
+msgstr "Total Líquido"
+
+#. Label of the base_net_total (Currency) field in DocType 'POS Invoice'
+#. Label of the base_net_total (Currency) field in DocType 'Purchase Invoice'
+#. Label of the base_net_total (Currency) field in DocType 'Sales Invoice'
+#. Label of the base_net_total (Currency) field in DocType 'Purchase Order'
+#. Label of the base_net_total (Currency) field in DocType 'Supplier Quotation'
+#. Label of the base_net_total (Currency) field in DocType 'Quotation'
+#. Label of the base_net_total (Currency) field in DocType 'Sales Order'
+#. Label of the base_net_total (Currency) field in DocType 'Delivery Note'
+#. Label of the base_net_total (Currency) field in DocType 'Purchase Receipt'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Net Total (Company Currency)"
+msgstr "Total Líquido (Moeda da Empresa)"
+
+#. Option for the 'Calculate Based On' (Select) field in DocType 'Shipping
+#. Rule'
+#. Label of the net_weight_pkg (Float) field in DocType 'Packing Slip'
+#. Label of the net_weight (Float) field in DocType 'Packing Slip Item'
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
+#: erpnext/stock/doctype/packing_slip/packing_slip.json
+#: erpnext/stock/doctype/packing_slip_item/packing_slip_item.json
+msgid "Net Weight"
+msgstr "Peso Líquido"
+
+#. Label of the net_weight_uom (Link) field in DocType 'Packing Slip'
+#: erpnext/stock/doctype/packing_slip/packing_slip.json
+msgid "Net Weight UOM"
+msgstr "UM do Peso Líquido"
+
+#: erpnext/controllers/accounts_controller.py:1659
+msgid "Net total calculation precision loss"
+msgstr "Perda de precisão no cálculo do total líquido"
+
+#: erpnext/accounts/doctype/account/account_tree.js:123
+msgid "New Account Name"
+msgstr "Nome da Nova Conta"
+
+#. Label of the new_asset_value (Currency) field in DocType 'Asset Value
+#. Adjustment'
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.json
+msgid "New Asset Value"
+msgstr "Novo Valor do Ativo"
+
+#: erpnext/assets/dashboard_fixtures.py:164
+msgid "New Assets (This Year)"
+msgstr "Novos Ativos (este Ano)"
+
+#. Label of the new_bom (Link) field in DocType 'BOM Update Log'
+#. Label of the new_bom (Link) field in DocType 'BOM Update Tool'
+#: erpnext/manufacturing/doctype/bom/bom_tree.js:62
+#: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.json
+#: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
+msgid "New BOM"
+msgstr "Nova LDM"
+
+#. Label of the new_balance_in_account_currency (Currency) field in DocType
+#. 'Exchange Rate Revaluation Account'
+#: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
+msgid "New Balance In Account Currency"
+msgstr "Novo Saldo na Moeda da Conta"
+
+#. Label of the new_balance_in_base_currency (Currency) field in DocType
+#. 'Exchange Rate Revaluation Account'
+#: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
+msgid "New Balance In Base Currency"
+msgstr "Novo Saldo na Moeda Base"
+
+#: erpnext/stock/doctype/batch/batch.js:167
+msgid "New Batch ID (Optional)"
+msgstr "Novo ID do Lote (opcional)"
+
+#: erpnext/stock/doctype/batch/batch.js:161
+msgid "New Batch Qty"
+msgstr "Nova Quantidade de Lote"
+
+#: erpnext/accounts/doctype/account/account_tree.js:112
+#: erpnext/accounts/doctype/cost_center/cost_center_tree.js:18
+#: erpnext/setup/doctype/company/company_tree.js:23
+msgid "New Company"
+msgstr "Nova Empresa"
+
+#: erpnext/accounts/doctype/cost_center/cost_center_tree.js:26
+msgid "New Cost Center Name"
+msgstr "Nome do Novo Centro de Custo"
+
+#: erpnext/selling/report/customer_acquisition_and_loyalty/customer_acquisition_and_loyalty.py:30
+msgid "New Customer Revenue"
+msgstr "Receita Com Novos Clientes"
+
+#: erpnext/selling/report/customer_acquisition_and_loyalty/customer_acquisition_and_loyalty.py:15
+msgid "New Customers"
+msgstr "Clientes Novos"
+
+#: erpnext/setup/doctype/department/department_tree.js:18
+msgid "New Department"
+msgstr "Novo Departamento"
+
+#: erpnext/setup/doctype/employee/employee_tree.js:29
+msgid "New Employee"
+msgstr "Novo Funcionário"
+
+#. Label of the new_exchange_rate (Float) field in DocType 'Exchange Rate
+#. Revaluation Account'
+#: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
+msgid "New Exchange Rate"
+msgstr "Nova Taxa de Câmbio"
+
+#. Label of the expenses_booked (Check) field in DocType 'Email Digest'
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "New Expenses"
+msgstr "Novas Despesas"
+
+#. Label of the income (Check) field in DocType 'Email Digest'
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "New Income"
+msgstr "Novas Receitas"
+
+#: erpnext/selling/page/point_of_sale/pos_controller.js:259
+msgid "New Invoice"
+msgstr "Nova Fatura"
+
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.js:337
+msgid "New Journal Entry will be posted for the difference amount. The Posting Date can be modified."
+msgstr "Um novo lançamento contábil será lançado para o valor da diferença. A data de lançamento pode ser alterada."
+
+#: erpnext/assets/doctype/location/location_tree.js:23
+msgid "New Location"
+msgstr "Nova Localização"
+
+#: erpnext/public/js/templates/crm_notes.html:7
+msgid "New Note"
+msgstr "Nova Nota"
+
+#. Label of the purchase_invoice (Check) field in DocType 'Email Digest'
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "New Purchase Invoice"
+msgstr "Nova Fatura de Compra"
+
+#. Label of the purchase_order (Check) field in DocType 'Email Digest'
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "New Purchase Orders"
+msgstr "Novos Pedidos de Compra"
+
+#: erpnext/quality_management/doctype/quality_procedure/quality_procedure_tree.js:24
+msgid "New Quality Procedure"
+msgstr "Novo Procedimento de Qualidade"
+
+#. Label of the new_quotations (Check) field in DocType 'Email Digest'
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "New Quotations"
+msgstr "Novas Cotações"
+
+#. Label of the sales_invoice (Check) field in DocType 'Email Digest'
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "New Sales Invoice"
+msgstr "Nova Fatura de Venda"
+
+#. Label of the sales_order (Check) field in DocType 'Email Digest'
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "New Sales Orders"
+msgstr "Novos Pedidos de Venda"
+
+#: erpnext/setup/doctype/sales_person/sales_person_tree.js:3
+msgid "New Sales Person Name"
+msgstr "Nome do Novo Vendedor"
+
+#: erpnext/stock/doctype/serial_no/serial_no.py:70
+msgid "New Serial No cannot have Warehouse. Warehouse must be set by Stock Entry or Purchase Receipt"
+msgstr "Novo Nº de Série não pode ter armazém. O armazém deve ser definido por uma entrada de estoque ou recebimento de compra"
+
+#: erpnext/public/js/templates/crm_activities.html:8
+#: erpnext/public/js/utils/crm_activities.js:69
+msgid "New Task"
+msgstr "Nova Tarefa"

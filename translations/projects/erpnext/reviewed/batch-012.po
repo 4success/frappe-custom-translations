@@ -1,0 +1,1107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2025-12-21 09:37+0000\n"
+"PO-Revision-Date: 2025-12-22 03:08\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 46\n"
+"Language: pt_BR\n"
+
+#: erpnext/accounts/doctype/account/account.py:509
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1289
+msgid "Company {0} does not exist"
+msgstr "A Empresa {0} não existe"
+
+#: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:83
+msgid "Company {0} is added more than once"
+msgstr "A empresa {0} foi adicionada mais de uma vez"
+
+#: erpnext/setup/setup_wizard/operations/taxes_setup.py:14
+msgid "Company {} does not exist yet. Taxes setup aborted."
+msgstr "A empresa {} ainda nao existe. A configuracao de impostos foi cancelada."
+
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:574
+msgid "Company {} does not match with POS Profile Company {}"
+msgstr "A empresa {} nao corresponde a empresa {} do Perfil de PDV"
+
+#. Name of a DocType
+#. Label of the competitor (Link) field in DocType 'Competitor Detail'
+#: erpnext/crm/doctype/competitor/competitor.json
+#: erpnext/crm/doctype/competitor_detail/competitor_detail.json
+#: erpnext/selling/report/lost_quotations/lost_quotations.py:24
+msgid "Competitor"
+msgstr "Concorrente"
+
+#. Name of a DocType
+#: erpnext/crm/doctype/competitor_detail/competitor_detail.json
+msgid "Competitor Detail"
+msgstr "Detalhe do concorrente"
+
+#. Label of the competitor_name (Data) field in DocType 'Competitor'
+#: erpnext/crm/doctype/competitor/competitor.json
+msgid "Competitor Name"
+msgstr "Nome do concorrente"
+
+#. Label of the competitors (Table MultiSelect) field in DocType 'Opportunity'
+#. Label of the competitors (Table MultiSelect) field in DocType 'Quotation'
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/public/js/utils/sales_common.js:583
+#: erpnext/selling/doctype/quotation/quotation.json
+msgid "Competitors"
+msgstr "Concorrentes"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.js:269
+#: erpnext/manufacturing/doctype/workstation/workstation.js:151
+msgid "Complete Job"
+msgstr "Concluir trabalho"
+
+#: erpnext/selling/page/point_of_sale/pos_payment.js:24
+msgid "Complete Order"
+msgstr "Concluir pedido"
+
+#. Label of the completed_by (Link) field in DocType 'Task'
+#: erpnext/projects/doctype/task/task.json
+msgid "Completed By"
+msgstr "Concluido por"
+
+#. Label of the completed_on (Date) field in DocType 'Task'
+#: erpnext/projects/doctype/task/task.json
+msgid "Completed On"
+msgstr "Concluido em"
+
+#: erpnext/projects/doctype/task/task.py:185
+msgid "Completed On cannot be greater than Today"
+msgstr "Concluido em nao pode ser maior que hoje"
+
+#: erpnext/manufacturing/dashboard_fixtures.py:76
+msgid "Completed Operation"
+msgstr "Operação Concluída"
+
+#. Label of a chart in the Projects Workspace
+#: erpnext/projects/workspace/projects/projects.json
+msgid "Completed Projects"
+msgstr "Projetos concluidos"
+
+#. Label of the completed_qty (Float) field in DocType 'Job Card Operation'
+#. Label of the completed_qty (Float) field in DocType 'Job Card Time Log'
+#. Label of the completed_qty (Float) field in DocType 'Work Order Operation'
+#. Label of the ordered_qty (Float) field in DocType 'Material Request Item'
+#: erpnext/manufacturing/doctype/job_card_operation/job_card_operation.json
+#: erpnext/manufacturing/doctype/job_card_time_log/job_card_time_log.json
+#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+msgid "Completed Qty"
+msgstr "Qtd. concluida"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:1334
+msgid "Completed Qty cannot be greater than 'Qty to Manufacture'"
+msgstr "A qtd. concluida nao pode ser maior que 'Qtd. a fabricar'"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.js:317
+#: erpnext/manufacturing/doctype/job_card/job_card.js:438
+#: erpnext/manufacturing/doctype/workstation/workstation.js:296
+msgid "Completed Quantity"
+msgstr "Quantidade Concluída"
+
+#: erpnext/projects/report/project_summary/project_summary.py:136
+#: erpnext/public/js/templates/crm_activities.html:64
+msgid "Completed Tasks"
+msgstr "Tarefas concluidas"
+
+#. Label of the completed_time (Data) field in DocType 'Job Card Operation'
+#: erpnext/manufacturing/doctype/job_card_operation/job_card_operation.json
+msgid "Completed Time"
+msgstr "Tempo concluido"
+
+#. Name of a report
+#: erpnext/manufacturing/report/completed_work_orders/completed_work_orders.json
+msgid "Completed Work Orders"
+msgstr "Ordens de Trabalho Concluídas"
+
+#: erpnext/projects/report/project_summary/project_summary.py:73
+msgid "Completion"
+msgstr "Conclusão"
+
+#. Label of the completion_by (Date) field in DocType 'Quality Action
+#. Resolution'
+#: erpnext/quality_management/doctype/quality_action_resolution/quality_action_resolution.json
+msgid "Completion By"
+msgstr "Concluir ate"
+
+#. Label of the completion_date (Date) field in DocType 'Asset Maintenance Log'
+#. Label of the completion_date (Datetime) field in DocType 'Asset Repair'
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+#: erpnext/projects/report/project_wise_stock_tracking/project_wise_stock_tracking.py:48
+msgid "Completion Date"
+msgstr "Data de Conclusão"
+
+#: erpnext/assets/doctype/asset_repair/asset_repair.py:83
+msgid "Completion Date can not be before Failure Date. Please adjust the dates accordingly."
+msgstr "A data de conclusao nao pode ser anterior a data da falha. Ajuste as datas."
+
+#. Label of the completion_status (Select) field in DocType 'Maintenance
+#. Schedule Detail'
+#. Label of the completion_status (Select) field in DocType 'Maintenance Visit'
+#: erpnext/maintenance/doctype/maintenance_schedule_detail/maintenance_schedule_detail.json
+#: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
+msgid "Completion Status"
+msgstr "Status da conclusao"
+
+#. Label of the accounts (Table) field in DocType 'Workstation Operating
+#. Component'
+#: erpnext/manufacturing/doctype/workstation_operating_component/workstation_operating_component.json
+msgid "Component Expense Account"
+msgstr "Conta de despesa do componente"
+
+#. Label of the component_name (Data) field in DocType 'Workstation Operating
+#. Component'
+#: erpnext/manufacturing/doctype/workstation_operating_component/workstation_operating_component.json
+msgid "Component Name"
+msgstr "Nome do componente"
+
+#. Label of the comprehensive_insurance (Data) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Comprehensive Insurance"
+msgstr "Seguro total"
+
+#. Option for the 'Call Receiving Device' (Select) field in DocType 'Voice Call
+#. Settings'
+#: erpnext/setup/setup_wizard/data/industry_type.txt:13
+#: erpnext/telephony/doctype/voice_call_settings/voice_call_settings.json
+msgid "Computer"
+msgstr "Computador"
+
+#. Label of the condition (Code) field in DocType 'Inventory Dimension'
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
+msgid "Conditional Rule"
+msgstr "Regra condicional"
+
+#. Label of the conditional_rule_examples_section (Section Break) field in
+#. DocType 'Inventory Dimension'
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
+msgid "Conditional Rule Examples"
+msgstr "Exemplos de regras condicionais"
+
+#. Description of the 'Mixed Conditions' (Check) field in DocType 'Pricing
+#. Rule'
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+msgid "Conditions will be applied on all the selected items combined. "
+msgstr "As condicoes serao aplicadas a todos os itens selecionados em conjunto. "
+
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:56
+msgid "Configure Product Assembly"
+msgstr "Configurar montagem do produto"
+
+#. Description of the 'Action If Same Rate is Not Maintained' (Select) field in
+#. DocType 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Configure the action to stop the transaction or just warn if the same rate is not maintained."
+msgstr "Configure a acao para interromper a transacao ou apenas avisar se o mesmo preco nao for mantido."
+
+#: erpnext/buying/doctype/buying_settings/buying_settings.js:20
+msgid "Configure the default Price List when creating a new Purchase transaction. Item prices will be fetched from this Price List."
+msgstr "Configure a Lista de Precos padrao ao criar uma nova transacao de compra. Os precos dos itens serao buscados dessa Lista de Precos."
+
+#. Label of the confirm_before_resetting_posting_date (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Confirm before resetting posting date"
+msgstr "Confirmar antes de redefinir a data de lancamento"
+
+#. Label of the final_confirmation_date (Date) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Confirmation Date"
+msgstr "Data de confirmacao"
+
+#: erpnext/accounts/report/general_ledger/general_ledger.js:175
+msgid "Consider Accounting Dimensions"
+msgstr "Considere as Dimensões Contábeis"
+
+#. Label of the consider_party_ledger_amount (Check) field in DocType 'Tax
+#. Withholding Category'
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
+msgid "Consider Entire Party Ledger Amount"
+msgstr "Considerar todo o valor do livro razao da entidade"
+
+#. Label of the consider_minimum_order_qty (Check) field in DocType 'Production
+#. Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Consider Minimum Order Qty"
+msgstr "Considerar qtd. minima do pedido"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:993
+msgid "Consider Process Loss"
+msgstr "Considerar perda de processo"
+
+#. Label of the skip_available_sub_assembly_item (Check) field in DocType
+#. 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Consider Projected Qty in Calculation"
+msgstr "Considerar qtd. projetada no calculo"
+
+#. Label of the ignore_existing_ordered_qty (Check) field in DocType
+#. 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Consider Projected Qty in Calculation (RM)"
+msgstr "Considerar qtd. projetada no calculo (RM)"
+
+#. Label of the consider_rejected_warehouses (Check) field in DocType 'Pick
+#. List'
+#: erpnext/stock/doctype/pick_list/pick_list.json
+msgid "Consider Rejected Warehouses"
+msgstr "Considerar depositos rejeitados"
+
+#. Label of the category (Select) field in DocType 'Purchase Taxes and Charges'
+#: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
+msgid "Consider Tax or Charge for"
+msgstr "Considerar imposto ou encargo para"
+
+#. Label of the included_in_paid_amount (Check) field in DocType 'Advance Taxes
+#. and Charges'
+#. Label of the included_in_paid_amount (Check) field in DocType 'Purchase
+#. Taxes and Charges'
+#. Label of the included_in_paid_amount (Check) field in DocType 'Sales Taxes
+#. and Charges'
+#: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
+#: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
+#: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
+msgid "Considered In Paid Amount"
+msgstr "Considerado no valor pago"
+
+#. Label of the combine_items (Check) field in DocType 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Consolidate Sales Order Items"
+msgstr "Consolidar itens do pedido de venda"
+
+#. Label of the combine_sub_items (Check) field in DocType 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Consolidate Sub Assembly Items"
+msgstr "Consolidar itens de submontagem"
+
+#. Option for the 'Status' (Select) field in DocType 'POS Invoice'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+msgid "Consolidated"
+msgstr "Consolidado"
+
+#. Label of the consolidated_credit_note (Link) field in DocType 'POS Invoice
+#. Merge Log'
+#: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.json
+msgid "Consolidated Credit Note"
+msgstr "Nota de credito consolidada"
+
+#. Name of a report
+#. Label of a Link in the Financial Reports Workspace
+#: erpnext/accounts/report/consolidated_financial_statement/consolidated_financial_statement.json
+#: erpnext/accounts/workspace/financial_reports/financial_reports.json
+msgid "Consolidated Financial Statement"
+msgstr "Demonstrativo financeiro consolidado"
+
+#. Label of the consolidated_invoice (Link) field in DocType 'POS Invoice'
+#. Label of the consolidated_invoice (Link) field in DocType 'POS Invoice Merge
+#. Log'
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:561
+msgid "Consolidated Sales Invoice"
+msgstr "Fatura de venda consolidada"
+
+#. Name of a report
+#: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.json
+msgid "Consolidated Trial Balance"
+msgstr "Balancete consolidado"
+
+#: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.py:71
+msgid "Consolidated Trial Balance can be generated for Companies having same root Company."
+msgstr "O balancete consolidado pode ser gerado para empresas que tenham a mesma empresa raiz."
+
+#: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.py:153
+msgid "Consolidated Trial balance could not be generated as Exchange Rate from {0} to {1} is not available for {2}."
+msgstr "O balancete consolidado nao pode ser gerado, pois a taxa de cambio de {0} para {1} nao esta disponivel para {2}."
+
+#. Option for the 'Lead Type' (Select) field in DocType 'Lead'
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/setup/setup_wizard/data/designation.txt:8
+msgid "Consultant"
+msgstr "Consultor"
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:14
+msgid "Consulting"
+msgstr "Consultoria"
+
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:64
+msgid "Consumable"
+msgstr "Consumivel"
+
+#: erpnext/patches/v16_0/make_workstation_operating_components.py:48
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:315
+msgid "Consumables"
+msgstr "Consumiveis"
+
+#. Option for the 'Status' (Select) field in DocType 'Serial No'
+#: erpnext/stock/doctype/serial_no/serial_no.json
+#: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py:60
+msgid "Consumed"
+msgstr "Consumido"
+
+#: erpnext/stock/report/supplier_wise_sales_analytics/supplier_wise_sales_analytics.py:62
+msgid "Consumed Amount"
+msgstr "Valor consumido"
+
+#. Label of the asset_items_total (Currency) field in DocType 'Asset
+#. Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid "Consumed Asset Total Value"
+msgstr "Valor total dos ativos consumidos"
+
+#. Label of the section_break_26 (Section Break) field in DocType 'Asset
+#. Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid "Consumed Assets"
+msgstr "Ativos consumidos"
+
+#. Label of the supplied_items (Table) field in DocType 'Purchase Receipt'
+#. Label of the supplied_items (Table) field in DocType 'Subcontracting
+#. Receipt'
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Consumed Items"
+msgstr "Itens consumidos"
+
+#. Label of the consumed_items_cost (Currency) field in DocType 'Asset Repair'
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+msgid "Consumed Items Cost"
+msgstr "Custo dos itens consumidos"
+
+#. Label of the consumed_qty (Float) field in DocType 'Purchase Order Item
+#. Supplied'
+#. Label of the consumed_qty (Float) field in DocType 'Job Card Item'
+#. Label of the consumed_qty (Float) field in DocType 'Work Order Item'
+#. Label of the consumed_qty (Float) field in DocType 'Stock Reservation Entry'
+#. Label of the consumed_qty (Float) field in DocType 'Subcontracting Inward
+#. Order Received Item'
+#. Label of the consumed_qty (Float) field in DocType 'Subcontracting Order
+#. Supplied Item'
+#. Label of the consumed_qty (Float) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
+#: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
+#: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.py:153
+#: erpnext/manufacturing/doctype/job_card_item/job_card_item.json
+#: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
+#: erpnext/manufacturing/report/bom_variance_report/bom_variance_report.py:59
+#: erpnext/manufacturing/report/work_order_consumed_materials/work_order_consumed_materials.py:146
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+#: erpnext/stock/report/supplier_wise_sales_analytics/supplier_wise_sales_analytics.py:61
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
+msgid "Consumed Qty"
+msgstr "Qtd. consumida"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:1712
+msgid "Consumed Qty cannot be greater than Reserved Qty for item {0}"
+msgstr "A qtd. consumida nao pode ser maior que a qtd. reservada do item {0}"
+
+#. Label of the consumed_quantity (Data) field in DocType 'Asset Repair
+#. Consumed Item'
+#: erpnext/assets/doctype/asset_repair_consumed_item/asset_repair_consumed_item.json
+msgid "Consumed Quantity"
+msgstr "Quantidade consumida"
+
+#. Label of the section_break_16 (Section Break) field in DocType 'Asset
+#. Capitalization'
+#. Label of the stock_consumption_details_section (Section Break) field in
+#. DocType 'Asset Repair'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+msgid "Consumed Stock Items"
+msgstr "Itens de estoque consumidos"
+
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:303
+msgid "Consumed Stock Items, Consumed Asset Items or Consumed Service Items is mandatory for Capitalization"
+msgstr "Itens de estoque consumidos, itens de ativo consumidos ou itens de servico consumidos sao obrigatorios para a capitalizacao"
+
+#. Label of the stock_items_total (Currency) field in DocType 'Asset
+#. Capitalization'
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid "Consumed Stock Total Value"
+msgstr "Valor total do estoque consumido"
+
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.py:118
+msgid "Consumed quantity of item {0} exceeds transferred quantity."
+msgstr "A quantidade consumida do item {0} excede a quantidade transferida."
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:15
+msgid "Consumer Products"
+msgstr "Produtos de consumo"
+
+#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:198
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:101
+msgid "Consumption Rate"
+msgstr "Taxa de consumo"
+
+#. Label of the contact_desc (HTML) field in DocType 'Sales Partner'
+#: erpnext/setup/doctype/sales_partner/sales_partner.json
+msgid "Contact Desc"
+msgstr "Descricao do contato"
+
+#. Label of the contact_html (HTML) field in DocType 'Bank'
+#. Label of the contact_html (HTML) field in DocType 'Bank Account'
+#. Label of the contact_html (HTML) field in DocType 'Shareholder'
+#. Label of the contact_html (HTML) field in DocType 'Supplier'
+#. Label of the contact_html (HTML) field in DocType 'Lead'
+#. Label of the contact_html (HTML) field in DocType 'Opportunity'
+#. Label of the contact_html (HTML) field in DocType 'Prospect'
+#. Label of the contact_html (HTML) field in DocType 'Customer'
+#. Label of the contact_html (HTML) field in DocType 'Sales Partner'
+#. Label of the contact_html (HTML) field in DocType 'Manufacturer'
+#. Label of the contact_html (HTML) field in DocType 'Warehouse'
+#: erpnext/accounts/doctype/bank/bank.json
+#: erpnext/accounts/doctype/bank_account/bank_account.json
+#: erpnext/accounts/doctype/shareholder/shareholder.json
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/doctype/prospect/prospect.json
+#: erpnext/selling/doctype/customer/customer.json
+#: erpnext/setup/doctype/sales_partner/sales_partner.json
+#: erpnext/stock/doctype/manufacturer/manufacturer.json
+#: erpnext/stock/doctype/warehouse/warehouse.json
+msgid "Contact HTML"
+msgstr "HTML do contato"
+
+#. Label of the contact_info_tab (Section Break) field in DocType 'Lead'
+#. Label of the contact_info (Section Break) field in DocType 'Maintenance
+#. Schedule'
+#. Label of the contact_info_section (Section Break) field in DocType
+#. 'Maintenance Visit'
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.json
+#: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
+msgid "Contact Info"
+msgstr "Informacoes de contato"
+
+#. Label of the section_break_7 (Section Break) field in DocType 'Delivery
+#. Stop'
+#: erpnext/stock/doctype/delivery_stop/delivery_stop.json
+msgid "Contact Information"
+msgstr "Informacoes de contato"
+
+#. Label of the contact_list (Code) field in DocType 'Shareholder'
+#: erpnext/accounts/doctype/shareholder/shareholder.json
+msgid "Contact List"
+msgstr "Lista de contatos"
+
+#. Label of the contact_mobile (Data) field in DocType 'Opportunity'
+#: erpnext/crm/doctype/opportunity/opportunity.json
+msgid "Contact Mobile"
+msgstr "Celular de contato"
+
+#. Label of the contact_mobile (Small Text) field in DocType 'Purchase Order'
+#. Label of the contact_mobile (Small Text) field in DocType 'Subcontracting
+#. Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Contact Mobile No"
+msgstr "Nº do celular de contato"
+
+#. Label of the contact_display (Small Text) field in DocType 'Purchase Order'
+#. Label of the contact (Link) field in DocType 'Delivery Stop'
+#. Label of the contact_display (Small Text) field in DocType 'Subcontracting
+#. Order'
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/stock/doctype/delivery_stop/delivery_stop.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "Contact Name"
+msgstr "Nome do contato"
+
+#. Label of the contact_no (Data) field in DocType 'Sales Team'
+#: erpnext/selling/doctype/sales_team/sales_team.json
+msgid "Contact No."
+msgstr "Nº de contato"
+
+#. Label of the contact_person (Link) field in DocType 'Dunning'
+#. Label of the contact_person (Link) field in DocType 'POS Invoice'
+#. Label of the contact_person (Link) field in DocType 'Purchase Invoice'
+#. Label of the contact_person (Link) field in DocType 'Sales Invoice'
+#. Label of the contact_person (Link) field in DocType 'Supplier Quotation'
+#. Label of the contact_person (Link) field in DocType 'Opportunity'
+#. Label of the contact_person (Link) field in DocType 'Prospect Opportunity'
+#. Label of the contact_person (Link) field in DocType 'Maintenance Schedule'
+#. Label of the contact_person (Link) field in DocType 'Maintenance Visit'
+#. Label of the contact_person (Link) field in DocType 'Installation Note'
+#. Label of the contact_person (Link) field in DocType 'Quotation'
+#. Label of the contact_person (Link) field in DocType 'Sales Order'
+#. Label of the contact_person (Link) field in DocType 'Delivery Note'
+#. Label of the contact_person (Link) field in DocType 'Purchase Receipt'
+#. Label of the contact_person (Link) field in DocType 'Subcontracting Receipt'
+#. Label of the contact_person (Link) field in DocType 'Warranty Claim'
+#: erpnext/accounts/doctype/dunning/dunning.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/doctype/prospect_opportunity/prospect_opportunity.json
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.json
+#: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
+#: erpnext/selling/doctype/installation_note/installation_note.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+#: erpnext/support/doctype/warranty_claim/warranty_claim.json
+msgid "Contact Person"
+msgstr "Pessoa de contato"
+
+#: erpnext/controllers/accounts_controller.py:585
+msgid "Contact Person does not belong to the {0}"
+msgstr "A pessoa de contato nao pertence a {0}"
+
+#: erpnext/accounts/letterhead/company_letterhead.html:101
+#: erpnext/accounts/letterhead/company_letterhead_grey.html:119
+msgid "Contact:"
+msgstr "Contato:"
+
+#: erpnext/accounts/print_format/sales_invoice_print/sales_invoice_print.html:55
+msgid "Contact: "
+msgstr "Contato: "
+
+#. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
+#. Option for the 'Journal Entry Type' (Select) field in DocType 'Journal Entry
+#. Template'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+msgid "Contra Entry"
+msgstr "Lancamento de contrapartida"
+
+#. Name of a DocType
+#. Label of a Link in the CRM Workspace
+#: erpnext/crm/doctype/contract/contract.json
+#: erpnext/crm/workspace/crm/crm.json
+msgid "Contract"
+msgstr "Contrato"
+
+#. Label of the sb_contract (Section Break) field in DocType 'Contract'
+#: erpnext/crm/doctype/contract/contract.json
+msgid "Contract Details"
+msgstr "Detalhes do contrato"
+
+#. Label of the contract_end_date (Date) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Contract End Date"
+msgstr "Data de termino do contrato"
+
+#. Name of a DocType
+#: erpnext/crm/doctype/contract_fulfilment_checklist/contract_fulfilment_checklist.json
+msgid "Contract Fulfilment Checklist"
+msgstr "Lista de Verificação de Cumprimento do Contrato"
+
+#. Label of the sb_terms (Section Break) field in DocType 'Contract'
+#: erpnext/crm/doctype/contract/contract.json
+msgid "Contract Period"
+msgstr "Periodo do contrato"
+
+#. Label of the contract_template (Link) field in DocType 'Contract'
+#. Name of a DocType
+#: erpnext/crm/doctype/contract/contract.json
+#: erpnext/crm/doctype/contract_template/contract_template.json
+msgid "Contract Template"
+msgstr "Modelo de Contrato"
+
+#. Name of a DocType
+#: erpnext/crm/doctype/contract_template_fulfilment_terms/contract_template_fulfilment_terms.json
+msgid "Contract Template Fulfilment Terms"
+msgstr "Termos de Cumprimento do Modelo de Contrato"
+
+#. Label of the contract_template_help (HTML) field in DocType 'Contract
+#. Template'
+#: erpnext/crm/doctype/contract_template/contract_template.json
+msgid "Contract Template Help"
+msgstr "Ajuda do modelo de contrato"
+
+#. Label of the contract_terms (Text Editor) field in DocType 'Contract'
+#: erpnext/crm/doctype/contract/contract.json
+msgid "Contract Terms"
+msgstr "Termos do contrato"
+
+#. Label of the contract_terms (Text Editor) field in DocType 'Contract
+#. Template'
+#: erpnext/crm/doctype/contract_template/contract_template.json
+msgid "Contract Terms and Conditions"
+msgstr "Termos e condicoes do contrato"
+
+#: erpnext/selling/report/sales_person_commission_summary/sales_person_commission_summary.py:76
+#: erpnext/selling/report/sales_person_wise_transaction_summary/sales_person_wise_transaction_summary.py:122
+msgid "Contribution %"
+msgstr "Contribuicao %"
+
+#. Label of the allocated_percentage (Float) field in DocType 'Sales Team'
+#: erpnext/selling/doctype/sales_team/sales_team.json
+msgid "Contribution (%)"
+msgstr "Contribuicao (%)"
+
+#: erpnext/selling/report/sales_person_commission_summary/sales_person_commission_summary.py:88
+#: erpnext/selling/report/sales_person_wise_transaction_summary/sales_person_wise_transaction_summary.py:130
+msgid "Contribution Amount"
+msgstr "Valor da contribuicao"
+
+#: erpnext/selling/report/sales_person_wise_transaction_summary/sales_person_wise_transaction_summary.py:124
+msgid "Contribution Qty"
+msgstr "Qtd. de contribuicao"
+
+#. Label of the allocated_amount (Currency) field in DocType 'Sales Team'
+#: erpnext/selling/doctype/sales_team/sales_team.json
+msgid "Contribution to Net Total"
+msgstr "Contribuicao para o total liquido"
+
+#. Label of the section_break_6 (Section Break) field in DocType 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+msgid "Control Action"
+msgstr "Acao de controle"
+
+#. Label of the control_action_for_cumulative_expense_section (Section Break)
+#. field in DocType 'Budget'
+#: erpnext/accounts/doctype/budget/budget.json
+msgid "Control Action for Cumulative Expense"
+msgstr "Acao de controle para despesa acumulada"
+
+#. Label of the control_historical_stock_transactions_section (Section Break)
+#. field in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Control Historical Stock Transactions"
+msgstr "Controlar transacoes historicas de estoque"
+
+#. Label of the conversion_factor (Float) field in DocType 'Loyalty Program'
+#. Label of the conversion_factor (Float) field in DocType 'Purchase Order Item
+#. Supplied'
+#. Label of the conversion_factor (Float) field in DocType 'Purchase Receipt
+#. Item Supplied'
+#. Label of the conversion_factor (Float) field in DocType 'BOM Creator Item'
+#. Label of the conversion_factor (Float) field in DocType 'BOM Item'
+#. Label of the conversion_factor (Float) field in DocType 'Material Request
+#. Plan Item'
+#. Label of the conversion_factor (Float) field in DocType 'Delivery Schedule
+#. Item'
+#. Label of the conversion_factor (Float) field in DocType 'Packed Item'
+#. Label of the conversion_factor (Float) field in DocType 'Purchase Receipt
+#. Item'
+#. Label of the conversion_factor (Float) field in DocType 'Putaway Rule'
+#. Label of the conversion_factor (Float) field in DocType 'Stock Entry Detail'
+#. Label of the conversion_factor (Float) field in DocType 'UOM Conversion
+#. Detail'
+#. Label of the conversion_factor (Float) field in DocType 'Subcontracting BOM'
+#. Label of the conversion_factor (Float) field in DocType 'Subcontracting
+#. Inward Order Item'
+#. Label of the conversion_factor (Float) field in DocType 'Subcontracting
+#. Order Item'
+#. Label of the conversion_factor (Float) field in DocType 'Subcontracting
+#. Order Supplied Item'
+#. Label of the conversion_factor (Float) field in DocType 'Subcontracting
+#. Receipt Item'
+#. Label of the conversion_factor (Float) field in DocType 'Subcontracting
+#. Receipt Supplied Item'
+#: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
+#: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
+#: erpnext/buying/doctype/purchase_receipt_item_supplied/purchase_receipt_item_supplied.json
+#: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+#: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/public/js/utils.js:798
+#: erpnext/selling/doctype/delivery_schedule_item/delivery_schedule_item.json
+#: erpnext/stock/doctype/packed_item/packed_item.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/stock/doctype/uom_conversion_detail/uom_conversion_detail.json
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_item/subcontracting_inward_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
+msgid "Conversion Factor"
+msgstr "Fator de Conversão"
+
+#. Label of the conversion_rate (Float) field in DocType 'Dunning'
+#. Label of the conversion_rate (Float) field in DocType 'BOM'
+#. Label of the conversion_rate (Float) field in DocType 'BOM Creator'
+#: erpnext/accounts/doctype/dunning/dunning.json
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.js:86
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+msgid "Conversion Rate"
+msgstr "Taxa de Conversão"
+
+#: erpnext/stock/doctype/item/item.py:393
+msgid "Conversion factor for default Unit of Measure must be 1 in row {0}"
+msgstr "Fator de conversão de unidade de medida padrão deve ser 1 na linha {0}"
+
+#: erpnext/controllers/stock_controller.py:86
+msgid "Conversion factor for item {0} has been reset to 1.0 as the uom {1} is same as stock uom {2}."
+msgstr "O fator de conversao do item {0} foi redefinido para 1,0, pois a UDM {1} e igual a UDM de estoque {2}."
+
+#: erpnext/controllers/accounts_controller.py:2955
+msgid "Conversion rate cannot be 0"
+msgstr "A taxa de conversao nao pode ser 0"
+
+#: erpnext/controllers/accounts_controller.py:2962
+msgid "Conversion rate is 1.00, but document currency is different from company currency"
+msgstr "A taxa de conversao e 1,00, mas a moeda do documento e diferente da moeda da empresa"
+
+#: erpnext/controllers/accounts_controller.py:2958
+msgid "Conversion rate must be 1.00 if document currency is same as company currency"
+msgstr "A taxa de conversao deve ser 1,00 se a moeda do documento for igual a moeda da empresa"
+
+#. Label of the clean_description_html (Check) field in DocType 'Stock
+#. Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Convert Item Description to Clean HTML in Transactions"
+msgstr "Converter descricao do item em HTML limpo nas transacoes"
+
+#: erpnext/accounts/doctype/account/account.js:106
+#: erpnext/accounts/doctype/cost_center/cost_center.js:123
+msgid "Convert to Group"
+msgstr "Converter Em Grupo"
+
+#: erpnext/stock/doctype/warehouse/warehouse.js:53
+msgctxt "Warehouse"
+msgid "Convert to Group"
+msgstr "Converter Em Grupo"
+
+#: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.js:10
+msgid "Convert to Item Based Reposting"
+msgstr "Converter para repostagem baseada em item"
+
+#: erpnext/stock/doctype/warehouse/warehouse.js:52
+msgctxt "Warehouse"
+msgid "Convert to Ledger"
+msgstr "Converter em nao-grupo"
+
+#: erpnext/accounts/doctype/account/account.js:78
+#: erpnext/accounts/doctype/cost_center/cost_center.js:121
+msgid "Convert to Non-Group"
+msgstr "Converter Para Não-grupo"
+
+#. Option for the 'Status' (Select) field in DocType 'Lead'
+#. Option for the 'Status' (Select) field in DocType 'Opportunity'
+#: erpnext/crm/doctype/lead/lead.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/crm/report/lead_details/lead_details.js:40
+#: erpnext/selling/page/sales_funnel/sales_funnel.py:58
+msgid "Converted"
+msgstr "Convertido"
+
+#. Label of the copied_from (Data) field in DocType 'Project'
+#: erpnext/projects/doctype/project/project.json
+msgid "Copied From"
+msgstr "Copiado de"
+
+#. Label of the copy_fields_to_variant (Section Break) field in DocType 'Item
+#. Variant Settings'
+#: erpnext/stock/doctype/item_variant_settings/item_variant_settings.json
+msgid "Copy Fields to Variant"
+msgstr "Copiar campos para a variante"
+
+#. Option for the 'Corrective/Preventive' (Select) field in DocType 'Quality
+#. Action'
+#: erpnext/quality_management/doctype/quality_action/quality_action.json
+msgid "Corrective"
+msgstr "Corretiva"
+
+#. Label of the corrective_action (Text Editor) field in DocType 'Non
+#. Conformance'
+#: erpnext/quality_management/doctype/non_conformance/non_conformance.json
+msgid "Corrective Action"
+msgstr "Acao corretiva"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.js:495
+msgid "Corrective Job Card"
+msgstr "Cartao de trabalho corretivo"
+
+#. Label of the corrective_operation_section (Tab Break) field in DocType 'Job
+#. Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.js:502
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Corrective Operation"
+msgstr "Operacao corretiva"
+
+#. Label of the corrective_operation_cost (Currency) field in DocType 'Work
+#. Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Corrective Operation Cost"
+msgstr "Custo da operacao corretiva"
+
+#. Label of the corrective_preventive (Select) field in DocType 'Quality
+#. Action'
+#: erpnext/quality_management/doctype/quality_action/quality_action.json
+msgid "Corrective/Preventive"
+msgstr "Corretiva/Preventiva"
+
+#: erpnext/setup/setup_wizard/data/industry_type.txt:16
+msgid "Cosmetics"
+msgstr "Cosmeticos"
+
+#. Label of the cost (Currency) field in DocType 'Subscription Plan'
+#: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
+msgid "Cost"
+msgstr "Custo"
+
+#. Label of the cost_center (Link) field in DocType 'Account Closing Balance'
+#. Label of the cost_center (Link) field in DocType 'Advance Taxes and Charges'
+#. Option for the 'Budget Against' (Select) field in DocType 'Budget'
+#. Label of the cost_center (Link) field in DocType 'Budget'
+#. Name of a DocType
+#. Label of the cost_center (Link) field in DocType 'Cost Center Allocation
+#. Percentage'
+#. Label of the cost_center (Link) field in DocType 'Dunning'
+#. Label of the cost_center (Link) field in DocType 'Dunning Type'
+#. Label of the cost_center (Link) field in DocType 'GL Entry'
+#. Label of the cost_center (Link) field in DocType 'Journal Entry Account'
+#. Label of the cost_center (Link) field in DocType 'Loyalty Program'
+#. Label of the cost_center (Link) field in DocType 'Opening Invoice Creation
+#. Tool'
+#. Label of the cost_center (Link) field in DocType 'Opening Invoice Creation
+#. Tool Item'
+#. Label of the cost_center (Link) field in DocType 'Payment Entry'
+#. Label of the cost_center (Link) field in DocType 'Payment Entry Deduction'
+#. Label of the cost_center (Link) field in DocType 'Payment Ledger Entry'
+#. Label of the cost_center (Link) field in DocType 'Payment Reconciliation'
+#. Label of the cost_center (Link) field in DocType 'Payment Reconciliation
+#. Allocation'
+#. Label of the cost_center (Link) field in DocType 'Payment Reconciliation
+#. Payment'
+#. Label of the cost_center (Link) field in DocType 'Payment Request'
+#. Label of the cost_center (Link) field in DocType 'POS Invoice'
+#. Label of the cost_center (Link) field in DocType 'POS Invoice Item'
+#. Label of the cost_center (Link) field in DocType 'POS Profile'
+#. Label of the cost_center (Link) field in DocType 'Process Payment
+#. Reconciliation'
+#. Label of the cost_center (Table MultiSelect) field in DocType 'Process
+#. Statement Of Accounts'
+#. Label of the cost_center_name (Link) field in DocType 'PSOA Cost Center'
+#. Label of the cost_center (Link) field in DocType 'Purchase Invoice'
+#. Label of the cost_center (Link) field in DocType 'Purchase Invoice Item'
+#. Label of the cost_center (Link) field in DocType 'Purchase Taxes and
+#. Charges'
+#. Label of the cost_center (Link) field in DocType 'Sales Invoice'
+#. Label of the cost_center (Link) field in DocType 'Sales Invoice Item'
+#. Label of the cost_center (Link) field in DocType 'Sales Taxes and Charges'
+#. Label of the cost_center (Link) field in DocType 'Shipping Rule'
+#. Label of the cost_center (Link) field in DocType 'Subscription'
+#. Label of the cost_center (Link) field in DocType 'Subscription Plan'
+#. Label of a shortcut in the Receivables Workspace
+#. Label of the cost_center (Link) field in DocType 'Asset'
+#. Label of the cost_center (Link) field in DocType 'Asset Capitalization'
+#. Label of the cost_center (Link) field in DocType 'Asset Capitalization Asset
+#. Item'
+#. Label of the cost_center (Link) field in DocType 'Asset Capitalization
+#. Service Item'
+#. Label of the cost_center (Link) field in DocType 'Asset Capitalization Stock
+#. Item'
+#. Label of the cost_center (Link) field in DocType 'Asset Repair'
+#. Label of the cost_center (Link) field in DocType 'Asset Value Adjustment'
+#. Label of the cost_center (Link) field in DocType 'Purchase Order'
+#. Label of the cost_center (Link) field in DocType 'Purchase Order Item'
+#. Label of the cost_center (Link) field in DocType 'Supplier Quotation'
+#. Label of the cost_center (Link) field in DocType 'Supplier Quotation Item'
+#. Label of the cost_center (Link) field in DocType 'Sales Order'
+#. Label of the cost_center (Link) field in DocType 'Sales Order Item'
+#. Label of the cost_center (Link) field in DocType 'Delivery Note'
+#. Label of the cost_center (Link) field in DocType 'Delivery Note Item'
+#. Label of the cost_center (Link) field in DocType 'Landed Cost Item'
+#. Label of the cost_center (Link) field in DocType 'Material Request Item'
+#. Label of the cost_center (Link) field in DocType 'Purchase Receipt'
+#. Label of the cost_center (Link) field in DocType 'Purchase Receipt Item'
+#. Label of the cost_center (Link) field in DocType 'Stock Entry Detail'
+#. Label of the cost_center (Link) field in DocType 'Stock Reconciliation'
+#. Label of the cost_center (Link) field in DocType 'Subcontracting Order'
+#. Label of the cost_center (Link) field in DocType 'Subcontracting Order Item'
+#. Label of the cost_center (Link) field in DocType 'Subcontracting Receipt'
+#. Label of the cost_center (Link) field in DocType 'Subcontracting Receipt
+#. Item'
+#. Label of the cost_center (Link) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
+#: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.json
+#: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
+#: erpnext/accounts/doctype/budget/budget.json
+#: erpnext/accounts/doctype/cost_center/cost_center.json
+#: erpnext/accounts/doctype/cost_center_allocation_percentage/cost_center_allocation_percentage.json
+#: erpnext/accounts/doctype/dunning/dunning.json
+#: erpnext/accounts/doctype/dunning_type/dunning_type.json
+#: erpnext/accounts/doctype/gl_entry/gl_entry.json
+#: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
+#: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
+#: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.json
+#: erpnext/accounts/doctype/opening_invoice_creation_tool_item/opening_invoice_creation_tool_item.json
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/payment_entry_deduction/payment_entry_deduction.json
+#: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.json
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+#: erpnext/accounts/doctype/payment_reconciliation_allocation/payment_reconciliation_allocation.json
+#: erpnext/accounts/doctype/payment_reconciliation_payment/payment_reconciliation_payment.json
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+#: erpnext/accounts/doctype/psoa_cost_center/psoa_cost_center.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+#: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
+#: erpnext/accounts/doctype/subscription/subscription.json
+#: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
+#: erpnext/accounts/report/accounts_payable/accounts_payable.js:28
+#: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.js:47
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:30
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1193
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:47
+#: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.js:42
+#: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.py:204
+#: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.js:98
+#: erpnext/accounts/report/general_ledger/general_ledger.js:153
+#: erpnext/accounts/report/general_ledger/general_ledger.py:778
+#: erpnext/accounts/report/gross_profit/gross_profit.js:68
+#: erpnext/accounts/report/gross_profit/gross_profit.py:384
+#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:297
+#: erpnext/accounts/report/purchase_register/purchase_register.js:46
+#: erpnext/accounts/report/sales_payment_summary/sales_payment_summary.py:29
+#: erpnext/accounts/report/sales_register/sales_register.js:52
+#: erpnext/accounts/report/sales_register/sales_register.py:252
+#: erpnext/accounts/report/supplier_ledger_summary/supplier_ledger_summary.js:79
+#: erpnext/accounts/report/trial_balance/trial_balance.js:49
+#: erpnext/accounts/workspace/receivables/receivables.json
+#: erpnext/assets/doctype/asset/asset.json
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+#: erpnext/assets/doctype/asset_capitalization_asset_item/asset_capitalization_asset_item.json
+#: erpnext/assets/doctype/asset_capitalization_service_item/asset_capitalization_service_item.json
+#: erpnext/assets/doctype/asset_capitalization_stock_item/asset_capitalization_stock_item.json
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.json
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.js:29
+#: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:528
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
+#: erpnext/buying/report/procurement_tracker/procurement_tracker.js:15
+#: erpnext/buying/report/procurement_tracker/procurement_tracker.py:32
+#: erpnext/public/js/financial_statements.js:382
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
+#: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
+#: erpnext/stock/doctype/material_request_item/material_request_item.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+#: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
+msgid "Cost Center"
+msgstr "Centro de custo"
+
+#. Name of a DocType
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.json
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Cost Center Allocation"
+msgstr "Alocacao de centro de custo"
+
+#. Name of a DocType
+#: erpnext/accounts/doctype/cost_center_allocation_percentage/cost_center_allocation_percentage.json
+msgid "Cost Center Allocation Percentage"
+msgstr "Percentual de alocacao de centro de custo"
+
+#. Label of the allocation_percentages (Table) field in DocType 'Cost Center
+#. Allocation'
+#: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.json
+msgid "Cost Center Allocation Percentages"
+msgstr "Percentuais de alocacao de centro de custo"
+
+#. Label of the cost_center_name (Data) field in DocType 'Cost Center'
+#: erpnext/accounts/doctype/cost_center/cost_center.json
+msgid "Cost Center Name"
+msgstr "Nome do centro de custo"
+
+#. Label of the cost_center_number (Data) field in DocType 'Cost Center'
+#: erpnext/accounts/doctype/cost_center/cost_center.json
+#: erpnext/accounts/doctype/cost_center/cost_center_tree.js:38
+msgid "Cost Center Number"
+msgstr "Número do Centro de Custo"
+
+#. Label of a Card Break in the Accounting Workspace
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Cost Center and Budgeting"
+msgstr "Centro de Custo e Orçamento"
+
+#: erpnext/public/js/utils/sales_common.js:517
+msgid "Cost Center for Item rows has been updated to {0}"
+msgstr "O centro de custo das linhas de item foi atualizado para {0}"
+
+#: erpnext/accounts/doctype/cost_center/cost_center.py:75
+msgid "Cost Center is a part of Cost Center Allocation, hence cannot be converted to a group"
+msgstr "O centro de custo faz parte de uma alocacao de centro de custo, por isso nao pode ser convertido em grupo"
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1430
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:898
+msgid "Cost Center is required in row {0} in Taxes table for type {1}"
+msgstr "O centro de custo e obrigatorio na linha {0} da tabela de impostos para o tipo {1}"
+
+#: erpnext/accounts/doctype/cost_center/cost_center.py:72
+msgid "Cost Center with Allocation records can not be converted to a group"
+msgstr "O centro de custo com registros de alocacao nao pode ser convertido em grupo"
+
+#: erpnext/accounts/doctype/cost_center/cost_center.py:78
+msgid "Cost Center with existing transactions can not be converted to group"
+msgstr "O centro de custo com transacoes existentes nao pode ser convertido em grupo"
+
+#: erpnext/accounts/doctype/cost_center/cost_center.py:63
+msgid "Cost Center with existing transactions can not be converted to ledger"
+msgstr "O centro de custo com transacoes existentes nao pode ser convertido em nao-grupo"
+
+#: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.py:152
+msgid "Cost Center {0} cannot be used for allocation as it is used as main cost center in other allocation record."
+msgstr "O centro de custo {0} nao pode ser usado na alocacao, pois e usado como centro de custo principal em outro registro de alocacao."
+
+#: erpnext/assets/doctype/asset/asset.py:353
+msgid "Cost Center {} doesn't belong to Company {}"
+msgstr "O centro de custo {} nao pertence a empresa {}"
+
+#: erpnext/assets/doctype/asset/asset.py:360
+msgid "Cost Center {} is a group cost center and group cost centers cannot be used in transactions"
+msgstr "O centro de custo {} e um centro de custo de grupo, e centros de custo de grupo nao podem ser usados em transacoes"
+
+#: erpnext/accounts/report/financial_statements.py:661
+msgid "Cost Center: {0} does not exist"
+msgstr "Centro de custo: {0} não existe"
+
+#: erpnext/setup/doctype/company/company.js:113
+msgid "Cost Centers"
+msgstr "Centros de Custo"
+
+#. Label of the currency_detail (Section Break) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Cost Configuration"
+msgstr "Configuracao de custos"
