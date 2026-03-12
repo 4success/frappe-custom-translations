@@ -54,7 +54,13 @@ Este repositório foi pensado para quem quer manter overrides de tradução com 
    python3 scripts/check_po.py --project frappe
    ```
 
-7. Use o arquivo gerado no ambiente de destino:
+7. Se quiser atualizar a pasta `output/` com os artefatos finais prontos para distribuição, sincronize os arquivos:
+
+   ```bash
+   python3 scripts/sync_output.py
+   ```
+
+8. Use o arquivo gerado no ambiente de destino:
 
    ```text
    translations/projects/<project>/overrides/messages.po
@@ -119,6 +125,26 @@ Depois da compilação e da limpeza de cache:
 - `/review-batch translations/projects/frappe/reviewed/batch-001.po`
 - `/build-overrides frappe`
 
+## 📤 Exportar para `output/`
+
+Para evitar esquecer a sincronização dos artefatos finais, use:
+
+```bash
+python3 scripts/sync_output.py
+```
+
+Ou apenas para um projeto específico:
+
+```bash
+python3 scripts/sync_output.py --project frappe
+```
+
+Esse script:
+
+- copia `translations/projects/<project>/overrides/messages.po` para `output/<project>/messages.po`
+- atualiza as contagens em `output/README.md`
+- mantém a pasta `output/` alinhada com os overrides mais recentes
+
 ## 🗂️ Estrutura de saída
 
 Depois do bootstrap, cada projeto usa esta estrutura:
@@ -138,4 +164,4 @@ translations/projects/<project>/
 - `crm` e `helpdesk` atualmente usam `main` por padrão em `translations/projects.json`, porque esses repositórios publicam traduções compatíveis com v16 nessa branch
 - edite o glossário em `translations/glossary.md` antes de grandes rodadas de revisão
 - o arquivo de override é o artefato que você pode distribuir dentro do seu app customizado
-- depois de atualizar os lotes revisados, rode `scripts/merge_batches.py`, `scripts/build_overrides.py` e `scripts/check_po.py` antes de exportar os arquivos para importação
+- depois de atualizar os lotes revisados, rode `scripts/merge_batches.py`, `scripts/build_overrides.py`, `scripts/check_po.py` e `scripts/sync_output.py` antes de exportar os arquivos para importação
