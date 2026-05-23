@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: shariq@frappe.io\n"
-"POT-Creation-Date: 2026-03-08 09:43+0000\n"
-"PO-Revision-Date: 2026-03-10 00:36\n"
+"POT-Creation-Date: 2026-04-26 09:49+0000\n"
+"PO-Revision-Date: 2026-04-27 02:48\n"
 "Last-Translator: shariq@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -18,13 +18,211 @@ msgstr ""
 "X-Crowdin-File-ID: 97\n"
 "Language: pt_BR\n"
 
+#: frontend/src/components/Settings/Telephony/ExotelSettings.vue:108
+msgid "Exotel Integration Disabled"
+msgstr ""
+
+#. Label of the exotel_number (Data) field in DocType 'CRM Telephony Agent'
+#: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.json
+msgid "Exotel Number"
+msgstr "Número do Exotel"
+
+#: crm/integrations/exotel/handler.py:84
+msgid "Exotel Number Missing"
+msgstr "Número do Exotel ausente"
+
+#: crm/integrations/exotel/handler.py:88
+msgid "Exotel Number {0} is not valid"
+msgstr "O número do Exotel {0} não é válido"
+
+#: frontend/src/components/Settings/Telephony/ExotelSettings.vue:4
+msgid "Exotel Settings"
+msgstr "Configurações do Exotel"
+
+#: frontend/src/components/Layouts/AppSidebar.vue:105
+msgid "Expand"
+msgstr "Expandir"
+
+#. Label of the expected_closure_date (Date) field in DocType 'CRM Deal'
+#: crm/fcrm/doctype/crm_deal/crm_deal.json
+msgid "Expected Closure Date"
+msgstr "Data prevista de fechamento"
+
+#. Label of the expected_deal_value (Currency) field in DocType 'CRM Deal'
+#: crm/fcrm/doctype/crm_deal/crm_deal.json
+msgid "Expected Deal Value"
+msgstr "Valor previsto do negócio"
+
+#: crm/fcrm/doctype/crm_deal/crm_deal.py:237
+msgid "Expected closure date is required."
+msgstr "A data prevista de fechamento é obrigatória."
+
+#: crm/fcrm/doctype/crm_deal/crm_deal.py:235
+msgid "Expected deal value is required."
+msgstr "O valor previsto do negócio é obrigatório."
+
+#. Option for the 'Status' (Select) field in DocType 'CRM Invitation'
+#: crm/fcrm/doctype/crm_invitation/crm_invitation.json
+msgid "Expired"
+msgstr "Expirado"
+
+#: frontend/src/components/ViewControls.vue:215
+#: frontend/src/components/ViewControls.vue:263
+msgid "Export"
+msgstr "Exportar"
+
+#: frontend/src/components/ViewControls.vue:277
+msgid "Export Type"
+msgstr "Tipo de exportação"
+
+#: frontend/src/components/ViewControls.vue:295
+msgid "Export all {0} record(s)"
+msgstr "Exportar todos os {0} registro(s)"
+
+#. Name of a DocType
+#: crm/fcrm/doctype/fcrm_note/fcrm_note.json
+msgid "FCRM Note"
+msgstr "FCRM Note"
+
+#. Name of a DocType
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
+msgid "FCRM Settings"
+msgstr "FCRM Settings"
+
+#: frontend/src/components/EmailEditor.vue:25
+msgid "FROM"
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'Lead Sync Source'
+#. Label of the facebook_section (Section Break) field in DocType 'Lead Sync
+#. Source'
+#: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.json
+msgid "Facebook"
+msgstr "Facebook"
+
+#. Label of the facebook_form_id (Data) field in DocType 'CRM Lead'
+#: crm/fcrm/doctype/crm_lead/crm_lead.json
+msgid "Facebook Form ID"
+msgstr "ID do formulário do Facebook"
+
+#. Name of a DocType
+#. Label of the facebook_lead_form (Link) field in DocType 'Lead Sync Source'
+#: crm/lead_syncing/doctype/facebook_lead_form/facebook_lead_form.json
+#: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.json
+msgid "Facebook Lead Form"
+msgstr "Formulário de leads do Facebook"
+
+#. Name of a DocType
+#: crm/lead_syncing/doctype/facebook_lead_form_question/facebook_lead_form_question.json
+msgid "Facebook Lead Form Question"
+msgstr "Pergunta do formulário de leads do Facebook"
+
+#. Label of the facebook_lead_id (Data) field in DocType 'CRM Lead'
+#: crm/fcrm/doctype/crm_lead/crm_lead.json
+msgid "Facebook Lead ID"
+msgstr "ID do lead do Facebook"
+
+#. Name of a DocType
+#. Label of the facebook_page (Link) field in DocType 'Lead Sync Source'
+#: crm/lead_syncing/doctype/facebook_page/facebook_page.json
+#: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.json
+msgid "Facebook Page"
+msgstr "Página do Facebook"
+
+#. Option for the 'Status' (Select) field in DocType 'CRM Call Log'
+#. Option for the 'SLA Status' (Select) field in DocType 'CRM Deal'
+#. Option for the 'SLA Status' (Select) field in DocType 'CRM Lead'
+#. Option for the 'Status' (Select) field in DocType 'CRM Rolling Response
+#. Time'
+#: crm/fcrm/doctype/crm_call_log/crm_call_log.json
+#: crm/fcrm/doctype/crm_deal/crm_deal.json
+#: crm/fcrm/doctype/crm_lead/crm_lead.json
+#: crm/fcrm/doctype/crm_rolling_response_time/crm_rolling_response_time.json
+#: frontend/src/utils/callLog.js:67
+msgid "Failed"
+msgstr "Falha"
+
+#. Name of a DocType
+#: crm/lead_syncing/doctype/failed_lead_sync_log/failed_lead_sync_log.json
+msgid "Failed Lead Sync Log"
+msgstr "Log de falha de sincronização de lead"
+
+#: frontend/src/components/Modals/AddExistingUserModal.vue:111
+msgid "Failed to Add Users"
+msgstr "Falha ao adicionar usuários"
+
+#: frontend/src/components/Activities/WhatsAppArea.vue:243
+msgid "Failed to add reaction to the message"
+msgstr "Falha ao adicionar reação à mensagem"
+
+#: crm/integrations/twilio/api.py:150
+msgid "Failed to capture Twilio recording"
+msgstr "Falha ao capturar gravação do Twilio"
+
+#: frontend/src/components/Settings/EmailAdd.vue:147
+msgid "Failed to create Email Account, Invalid credentials"
+msgstr "Falha ao criar conta de e-mail. Credenciais inválidas"
+
+#: frontend/src/components/Settings/EmailTemplate/NewEmailTemplate.vue:176
+msgid "Failed to create template"
+msgstr "Falha ao criar modelo"
+
+#: frontend/src/components/Settings/LeadSyncing/LeadSyncSources.vue:179
+msgid "Failed to delete lead sync source"
+msgstr "Falha ao excluir fonte de sincronização de leads"
+
+#: frontend/src/components/Activities/NoteArea.vue:76
+msgid "Failed to delete note"
+msgstr "Falha ao excluir nota"
+
+#: frontend/src/components/Settings/EmailTemplate/EmailTemplates.vue:214
+msgid "Failed to delete template"
+msgstr "Falha ao excluir modelo"
+
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.py:230
+msgid "Failed to fetch exchange rate from {0} to {1} on {2}. Please check your internet connection or try again later."
+msgstr "Falha ao buscar a taxa de câmbio de {0} para {1} em {2}. Verifique sua conexão com a internet ou tente novamente mais tarde."
+
+#: frontend/src/components/Modals/FieldLayoutDialog.vue:172
+msgid "Failed to load fields layout"
+msgstr ""
+
+#: frontend/src/data/script.js:106
+msgid "Failed to load form controller: {0}"
+msgstr "Falha ao carregar o controlador do formulário: {0}"
+
+#: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:239
+msgid "Failed to rename template"
+msgstr "Falha ao renomear modelo"
+
+#: frontend/src/components/Settings/DefaultsSettings.vue:169
+#: frontend/src/components/Settings/ERPNextSettings.vue:305
+msgid "Failed to save settings"
+msgstr ""
+
+#: frontend/src/components/Settings/Sla/WorkDayModal.vue:265
+msgid "Failed to save workday: {0}"
+msgstr "Falha ao salvar dia de trabalho: {0}"
+
+#: frontend/src/components/Activities/WhatsAppBox.vue:139
+msgid "Failed to send WhatsApp message"
+msgstr "Falha ao enviar mensagem do WhatsApp"
+
+#: frontend/src/components/Activities/Activities.vue:598
+msgid "Failed to send WhatsApp template"
+msgstr "Falha ao enviar modelo do WhatsApp"
+
+#: frontend/src/components/CommunicationArea.vue:275
+msgid "Failed to send comment!"
+msgstr "Falha ao enviar comentário!"
+
 #: frontend/src/components/CommunicationArea.vue:259
 msgid "Failed to send email!"
 msgstr "Falha ao enviar e-mail!"
 
 #: frontend/src/components/Settings/EmailEdit.vue:213
 msgid "Failed to update Email Account, Invalid credentials"
-msgstr "Falha ao atualizar a conta de e-mail, credenciais inválidas"
+msgstr "Falha ao atualizar a conta de e-mail. Credenciais inválidas"
 
 #: crm/integrations/twilio/api.py:177
 msgid "Failed to update Twilio call status"
@@ -34,9 +232,9 @@ msgstr "Falha ao atualizar o status da chamada do Twilio"
 msgid "Failed to update attending status"
 msgstr "Falha ao atualizar o status de participação"
 
-#: frontend/src/components/Settings/ProfileSettings.vue:207
-msgid "Failed to update profile"
-msgstr "Falha ao atualizar o perfil"
+#: frontend/src/components/Modals/ChangePasswordModal.vue:106
+msgid "Failed to update password"
+msgstr "Falha ao atualizar a senha"
 
 #: frontend/src/components/Settings/LeadSyncing/LeadSyncSources.vue:164
 msgid "Failed to update source"
@@ -70,7 +268,7 @@ msgstr "Campo"
 #: frontend/src/components/Controls/GridFieldsEditorModal.vue:19
 #: frontend/src/components/Kanban/KanbanSettings.vue:48
 msgid "Fields Order"
-msgstr "Ordem dos Campos"
+msgstr "Ordem dos campos"
 
 #: frontend/src/components/FilesUploader/FilesUploaderArea.vue:327
 msgid "File \"{0}\" was skipped because of invalid file type"
@@ -78,11 +276,11 @@ msgstr "O arquivo \"{0}\" foi ignorado porque o tipo de arquivo é inválido"
 
 #: frontend/src/components/FilesUploader/FilesUploaderArea.vue:348
 msgid "File \"{0}\" was skipped because only {1} uploads are allowed"
-msgstr "O arquivo \"{0}\" foi ignorado porque apenas {1} uploads são permitidos"
+msgstr "O arquivo \"{0}\" foi ignorado porque apenas {1} arquivos podem ser carregados"
 
 #: frontend/src/components/FilesUploader/FilesUploaderArea.vue:353
 msgid "File \"{0}\" was skipped because only {1} uploads are allowed for DocType \"{2}\""
-msgstr "O arquivo \"{0}\" foi ignorado porque apenas {1} uploads são permitidos para o DocType \"{2}\""
+msgstr "O arquivo \"{0}\" foi ignorado porque apenas {1} arquivos podem ser carregados para o DocType \"{2}\""
 
 #: frontend/src/components/Filter.vue:6
 msgid "Filter"
@@ -143,6 +341,10 @@ msgstr "Tempo da Primeira Resposta"
 msgid "First name"
 msgstr "Nome"
 
+#: frontend/src/components/Settings/DefaultsSettings.vue:92
+msgid "Float Precision"
+msgstr "Precisão decimal"
+
 #: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:48
 #: frontend/src/components/Settings/EmailTemplate/EmailTemplates.vue:80
 #: frontend/src/components/Settings/EmailTemplate/NewEmailTemplate.vue:48
@@ -155,24 +357,11 @@ msgstr "Para eventos de dia inteiro, <b>defina um horário</b> para enviar lembr
 
 #: frontend/src/components/Dashboard/AddChartModal.vue:95
 msgid "Forecasted Revenue"
-msgstr "Receita Prevista"
+msgstr "Receita prevista"
 
 #: crm/api/dashboard.py:718
 msgid "Forecasted revenue"
 msgstr "Receita prevista"
-
-#: frontend/src/components/Settings/ForecastingSettings.vue:5
-#: frontend/src/components/Settings/Settings.vue:109
-msgid "Forecasting"
-msgstr "Previsão"
-
-#: frontend/src/components/Settings/ForecastingSettings.vue:76
-msgid "Forecasting disabled successfully"
-msgstr "Previsão desativada com sucesso"
-
-#: frontend/src/components/Settings/ForecastingSettings.vue:75
-msgid "Forecasting enabled successfully"
-msgstr "Previsão ativada com sucesso"
 
 #. Option for the 'Apply To' (Select) field in DocType 'CRM Form Script'
 #: crm/fcrm/doctype/crm_form_script/crm_form_script.json
@@ -182,7 +371,7 @@ msgstr "Formulário"
 #. Label of the form_name (Data) field in DocType 'Facebook Lead Form'
 #: crm/lead_syncing/doctype/facebook_lead_form/facebook_lead_form.json
 msgid "Form Name"
-msgstr "Nome do Formulário"
+msgstr "Nome do formulário"
 
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.js:18
 msgid "Form Script updated successfully"
@@ -220,12 +409,17 @@ msgstr "De"
 #: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.json
 #: crm/fcrm/doctype/crm_status_change_log/crm_status_change_log.json
 msgid "From Date"
-msgstr "Data Inicial"
+msgstr "Data inicial"
+
+#. Label of the from (Data) field in DocType 'CRM Call Log'
+#: crm/fcrm/doctype/crm_call_log/crm_call_log.json
+msgid "From Number"
+msgstr ""
 
 #. Label of the from_type (Data) field in DocType 'CRM Status Change Log'
 #: crm/fcrm/doctype/crm_status_change_log/crm_status_change_log.json
 msgid "From Type"
-msgstr "Tipo de Origem"
+msgstr "Tipo de origem"
 
 #. Label of the from_user (Link) field in DocType 'CRM Notification'
 #: crm/fcrm/doctype/crm_notification/crm_notification.json
@@ -270,6 +464,14 @@ msgstr "GMT+5:30"
 msgid "Gender"
 msgstr "Gênero"
 
+#: frontend/src/components/Settings/Settings.vue:118
+msgid "General"
+msgstr "Geral"
+
+#: frontend/src/components/Settings/GeneralSettings.vue:5
+msgid "General Settings"
+msgstr ""
+
 #: crm/api/dashboard.py:1068
 msgid "Geographic distribution of deals and revenue"
 msgstr "Distribuição geográfica de negócios e receita"
@@ -293,6 +495,14 @@ msgstr "Ir para o site"
 #: frontend/src/components/Calendar/CalendarEventPanel.vue:523
 msgid "Going?"
 msgstr "Vai participar?"
+
+#: frontend/src/components/Filter.vue:366
+msgid "Greater than"
+msgstr ""
+
+#: frontend/src/components/Filter.vue:368
+msgid "Greater than or equal to"
+msgstr ""
 
 #. Option for the 'Type' (Select) field in DocType 'CRM Fields Layout'
 #: crm/fcrm/doctype/crm_fields_layout/crm_fields_layout.json
@@ -423,6 +633,10 @@ msgstr "ID"
 msgid "Icon"
 msgstr "Ícone"
 
+#: frontend/src/components/Settings/emailConfig.js:61
+msgid "If enabled, a lead will be automatically created when an incoming email is received from an unknown contact."
+msgstr ""
+
 #: frontend/src/components/Settings/emailConfig.js:53
 msgid "If enabled, all outgoing emails will be sent from this account. Note: Only one account can be default outgoing."
 msgstr "Se ativado, todos os e-mails de saída serão enviados desta conta. Observação: apenas uma conta pode ser a conta de saída padrão."
@@ -486,6 +700,10 @@ msgstr "Recebida"
 msgid "Incoming call..."
 msgstr "Chamada recebida..."
 
+#: crm/api/user.py:32
+msgid "Incorrect current password. Please try again."
+msgstr ""
+
 #. Label of a shortcut in the Frappe CRM Workspace
 #: crm/fcrm/workspace/frappe_crm/frappe_crm.json
 msgid "Industries"
@@ -529,6 +747,10 @@ msgstr "Integração"
 msgid "Integration Not Enabled"
 msgstr "Integração não ativada"
 
+#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:144
+msgid "Integrations"
+msgstr "Integrações"
+
 #: frontend/src/components/Settings/Settings.vue:192
 msgctxt "FCRM"
 msgid "Integrations"
@@ -542,236 +764,3 @@ msgstr "Introdução"
 #: crm/fcrm/doctype/crm_twilio_settings/crm_twilio_settings.py:50
 msgid "Invalid Account SID or Auth Token."
 msgstr "SID da conta ou token de autenticação inválido."
-
-#: frontend/src/components/Modals/ContactModal.vue:114
-msgid "Invalid Email Address"
-msgstr "Endereço de e-mail inválido"
-
-#: frontend/src/stores/session.js:22
-msgid "Invalid Email or Password"
-msgstr "E-mail ou senha inválidos"
-
-#: crm/integrations/exotel/handler.py:88
-msgid "Invalid Exotel Number"
-msgstr "Número do Exotel inválido"
-
-#: frontend/src/composables/event.js:253
-msgid "Invalid Start Or End Time"
-msgstr "Hora inicial ou final inválida"
-
-#: crm/integrations/twilio/api.py:19
-msgid "Invalid Twilio account"
-msgstr "Conta do Twilio inválida"
-
-#: crm/integrations/twilio/api.py:24
-msgid "Invalid Twilio application"
-msgstr "Aplicação do Twilio inválida"
-
-#: frontend/src/utils/index.js:272
-msgid "Invalid Website URL"
-msgstr "URL do site inválida"
-
-#: crm/lead_syncing/doctype/lead_sync_source/facebook.py:149
-msgid "Invalid access token provided for Facebook."
-msgstr "O token de acesso informado para o Facebook é inválido."
-
-#: crm/api/dashboard.py:88
-msgid "Invalid chart name"
-msgstr "Nome do gráfico inválido"
-
-#: crm/fcrm/doctype/crm_exotel_settings/crm_exotel_settings.py:42
-msgid "Invalid credentials"
-msgstr "Credenciais inválidas"
-
-#: frontend/src/components/Settings/emailConfig.js:176
-msgid "Invalid email ID"
-msgstr "ID de e-mail inválido"
-
-#: frontend/src/components/Modals/DealModal.vue:205
-#: frontend/src/components/Modals/LeadModal.vue:148
-msgid "Invalid email address"
-msgstr "Endereço de e-mail inválido"
-
-#: crm/api/contact.py:81 crm/api/contact.py:109
-msgid "Invalid field"
-msgstr "Campo inválido"
-
-#: frontend/src/components/Settings/Sla/SlaPolicyView.vue:391
-msgid "Invalid fields, check if all are filled in and values are correct."
-msgstr "Campos inválidos, verifique se todos estão preenchidos e se os valores estão corretos."
-
-#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:631
-msgid "Invalid fields: {0}"
-msgstr "Campos inválidos: {0}"
-
-#: crm/fcrm/doctype/crm_call_log/crm_call_log.py:254
-msgid "Invalid lead details supplied."
-msgstr "Os detalhes do lead informados são inválidos."
-
-#: crm/api/__init__.py:81 crm/api/__init__.py:85
-#: crm/fcrm/doctype/crm_invitation/crm_invitation.py:61
-msgid "Invalid or expired key"
-msgstr "Chave inválida ou expirada"
-
-#: frontend/src/pages/InvalidPage.vue:6
-msgid "Invalid page or not permitted to access"
-msgstr "Página inválida ou sem permissão de acesso"
-
-#: frontend/src/components/Settings/InviteUserPage.vue:189
-msgid "Invitations sent successfully"
-msgstr "Convites enviados com sucesso"
-
-#: frontend/src/components/Settings/AssignmentRules/AssigneeSearch.vue:78
-#: frontend/src/components/Settings/AssignmentRules/AssigneeSearch.vue:149
-msgid "Invite Agent"
-msgstr "Convidar Agente"
-
-#: frontend/src/components/Settings/InviteUserPage.vue:53
-msgid "Invite As"
-msgstr "Convidar como"
-
-#: frontend/src/components/Settings/InviteUserPage.vue:32
-msgid "Invite By Email"
-msgstr "Convidar por E-mail"
-
-#: frontend/src/components/Settings/Users.vue:25
-msgid "Invite New User"
-msgstr "Convidar Novo Usuário"
-
-#: frontend/src/components/Settings/Settings.vue:141
-msgid "Invite User"
-msgstr "Convidar Usuário"
-
-#: frontend/src/components/Layouts/AppSidebar.vue:550
-msgid "Invite Users"
-msgstr "Convidar Usuários"
-
-#: frontend/src/components/Settings/InviteUserPage.vue:10
-msgid "Invite users to access CRM. Specify their roles to control access and permissions"
-msgstr "Convide usuários para acessar o CRM. Especifique as funções para controlar acesso e permissões"
-
-#: frontend/src/components/Layouts/AppSidebar.vue:360
-msgid "Invite your team"
-msgstr "Convide sua equipe"
-
-#. Label of the invited_by (Link) field in DocType 'CRM Invitation'
-#: crm/fcrm/doctype/crm_invitation/crm_invitation.json
-msgid "Invited By"
-msgstr "Convidado por"
-
-#: frontend/src/components/Filter.vue:270
-#: frontend/src/components/Filter.vue:279
-#: frontend/src/components/Filter.vue:291
-#: frontend/src/components/Filter.vue:306
-#: frontend/src/components/Filter.vue:319
-#: frontend/src/components/Filter.vue:333
-#: frontend/src/components/Filter.vue:342
-msgid "Is"
-msgstr "É"
-
-#. Label of the is_default (Check) field in DocType 'CRM View Settings'
-#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
-msgid "Is Default"
-msgstr "É padrão"
-
-#. Label of the is_erpnext_in_different_site (Check) field in DocType 'ERPNext
-#. CRM Settings'
-#: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.json
-msgid "Is ERPNext installed on a different site?"
-msgstr "O ERPNext está instalado em outro site?"
-
-#. Label of the is_group (Check) field in DocType 'CRM Territory'
-#: crm/fcrm/doctype/crm_territory/crm_territory.json
-msgid "Is Group"
-msgstr "É grupo"
-
-#. Label of the is_primary (Check) field in DocType 'CRM Contacts'
-#. Label of the is_primary (Check) field in DocType 'CRM Telephony Phone'
-#: crm/fcrm/doctype/crm_contacts/crm_contacts.json
-#: crm/fcrm/doctype/crm_telephony_phone/crm_telephony_phone.json
-msgid "Is Primary"
-msgstr "É principal"
-
-#. Label of the is_standard (Check) field in DocType 'CRM Dropdown Item'
-#. Label of the is_standard (Check) field in DocType 'CRM Form Script'
-#. Label of the is_standard (Check) field in DocType 'CRM View Settings'
-#: crm/fcrm/doctype/crm_dropdown_item/crm_dropdown_item.json
-#: crm/fcrm/doctype/crm_form_script/crm_form_script.json
-#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
-msgid "Is Standard"
-msgstr "É padrão"
-
-#: frontend/src/components/ListViews/EmptyState.vue:43
-msgid "It appears that there are currently no {0} available. You can create more {0} by using the Create button."
-msgstr "Parece que não há {0} disponíveis no momento. Você pode criar mais {0} usando o botão Criar."
-
-#. Description of the 'Enable Forecasting' (Check) field in DocType 'FCRM
-#. Settings'
-#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
-msgid "It will make deal's \"Expected Closure Date\" & \"Expected Deal Value\" mandatory to get accurate forecasting insights"
-msgstr "Isso tornará \"Data Prevista de Fechamento\" & \"Valor Esperado do Negócio\" obrigatórios no negócio para obter previsões mais precisas"
-
-#: crm/api/doc.py:889
-msgid "Items are required"
-msgstr "Itens são obrigatórios"
-
-#: crm/api/doc.py:893
-msgid "Items must be a list"
-msgstr "Itens devem ser uma lista"
-
-#. Label of the json (JSON) field in DocType 'CRM Global Settings'
-#: crm/fcrm/doctype/crm_global_settings/crm_global_settings.json
-msgid "JSON"
-msgstr "JSON"
-
-#. Label of the job_title (Data) field in DocType 'CRM Deal'
-#. Label of the job_title (Data) field in DocType 'CRM Lead'
-#: crm/fcrm/doctype/crm_deal/crm_deal.json
-#: crm/fcrm/doctype/crm_lead/crm_lead.json
-msgid "Job Title"
-msgstr "Cargo"
-
-#: frontend/src/components/AssignToBody.vue:10
-#: frontend/src/components/Filter.vue:570
-#: frontend/src/components/Modals/AssignmentModal.vue:12
-#: frontend/src/components/Modals/TaskModal.vue:60
-#: frontend/src/components/Telephony/TaskPanel.vue:46
-#: frontend/src/pages/Calendar.vue:103
-msgid "John Doe"
-msgstr "João da Silva"
-
-#: frontend/src/components/Filter.vue:549
-msgid "John, Jane, Doe"
-msgstr "João, Maria, Silva"
-
-#. Label of the kanban_tab (Tab Break) field in DocType 'CRM View Settings'
-#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
-#: frontend/src/components/ViewControls.vue:391
-#: frontend/src/components/ViewControls.vue:607 frontend/src/utils/view.js:20
-msgid "Kanban"
-msgstr "Kanban"
-
-#. Label of the kanban_columns (Code) field in DocType 'CRM View Settings'
-#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
-msgid "Kanban Columns"
-msgstr "Colunas do Kanban"
-
-#. Label of the kanban_fields (Code) field in DocType 'CRM View Settings'
-#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
-msgid "Kanban Fields"
-msgstr "Campos do Kanban"
-
-#: frontend/src/components/Kanban/KanbanSettings.vue:8
-msgid "Kanban Settings"
-msgstr "Configurações do Kanban"
-
-#: frontend/src/components/Kanban/KanbanSettings.vue:3
-msgid "Kanban settings"
-msgstr "Configurações do Kanban"
-
-#. Label of the key (Data) field in DocType 'CRM Invitation'
-#. Label of the key (Data) field in DocType 'Facebook Lead Form Question'
-#: crm/fcrm/doctype/crm_invitation/crm_invitation.json
-#: crm/lead_syncing/doctype/facebook_lead_form_question/facebook_lead_form_question.json
-msgid "Key"
-msgstr "Chave"

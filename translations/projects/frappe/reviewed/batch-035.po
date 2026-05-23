@@ -27,7 +27,7 @@ msgstr "Use este nome de campo para gerar o título"
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Use this, for example, if all sent emails should also be send to an archive."
-msgstr "Use isto, por exemplo, se todos os e-mails enviados também devem ser enviados para um arquivo."
+msgstr "Use isto, por exemplo, se todos os e-mails enviados também precisarem ser enviados para um arquivo."
 
 #. Label of the used_oauth (Check) field in DocType 'User Email'
 #: frappe/core/doctype/user_email/user_email.json
@@ -268,12 +268,12 @@ msgstr "Perfil de acesso do usuário"
 #. Name of a DocType
 #: frappe/core/doctype/user_select_document_type/user_select_document_type.json
 msgid "User Select Document Type"
-msgstr "Selecao de tipo de documento do usuário"
+msgstr "Seleção de tipo de documento do usuário"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_session_display/user_session_display.json
 msgid "User Session Display"
-msgstr "Exibição da sessao do usuário"
+msgstr "Exibição da sessão do usuário"
 
 #. Label of a standard navbar item
 #. Type: Action
@@ -304,19 +304,19 @@ msgstr "Tipo de usuário"
 #: frappe/core/doctype/user_type/user_type.json
 #: frappe/core/doctype/user_type_module/user_type_module.json
 msgid "User Type Module"
-msgstr "Modulo de tipo de usuário"
+msgstr "Módulo de tipo de usuário"
 
 #. Description of the 'Allow Login using Mobile Number' (Check) field in
 #. DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "User can login using Email id or Mobile number"
-msgstr "O usuário pode entrar usando o ID de e-mail ou o número de celular"
+msgstr "O usuário pode entrar usando o e-mail ou o número de celular"
 
 #. Description of the 'Allow Login using User Name' (Check) field in DocType
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "User can login using Email id or User Name"
-msgstr "O usuário pode entrar usando o ID de e-mail ou o nome de usuário"
+msgstr "O usuário pode entrar usando o e-mail ou o nome de usuário"
 
 #: frappe/templates/includes/login/login.js:292
 msgid "User does not exist."
@@ -332,7 +332,7 @@ msgstr "Usuário desativado"
 
 #: frappe/core/doctype/docshare/docshare.py:56
 msgid "User is mandatory for Share"
-msgstr "O usuário e obrigatório para o compartilhamento"
+msgstr "O usuário é obrigatório para o compartilhamento"
 
 #. Label of the user_must_always_select (Check) field in DocType 'Document
 #. Naming Settings'
@@ -350,7 +350,7 @@ msgstr "O usuário com o endereço de e-mail {0} não existe"
 
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:225
 msgid "User with email: {0} does not exist in the system. Please ask 'System Administrator' to create the user for you."
-msgstr "O usuário com o e-mail {0} não existe no sistema. Peca ao 'System Administrator' para criar o usuário para você."
+msgstr "O usuário com o e-mail {0} não existe no sistema. Peça ao 'Administrador do sistema' para criar o usuário para você."
 
 #: frappe/core/doctype/user/user.py:576
 msgid "User {0} cannot be deleted"
@@ -434,7 +434,7 @@ msgstr "Usuários"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Users are only able to delete attached files if the document is either in draft or if the document is canceled and they are also able to delete the document."
-msgstr "Os usuários so podem excluir arquivos anexados se o documento estiver em rascunho ou cancelado e se eles também puderem excluir o documento."
+msgstr "Os usuários só podem excluir arquivos anexados se o documento estiver em rascunho ou cancelado e se também puderem excluir o documento."
 
 #: frappe/public/js/frappe/ui/theme_switcher.js:70
 msgid "Uses system's theme to switch between light and dark mode"
@@ -459,12 +459,12 @@ msgstr "Utilização %"
 #. Code'
 #: frappe/integrations/doctype/oauth_authorization_code/oauth_authorization_code.json
 msgid "Valid"
-msgstr "Valido"
+msgstr "Válido"
 
 #: frappe/templates/includes/login/login.js:52
 #: frappe/templates/includes/login/login.js:65
 msgid "Valid Login id required."
-msgstr "E necessario um ID de login válido."
+msgstr "É necessário um ID de login válido."
 
 #: frappe/templates/includes/login/login.js:39
 msgid "Valid email and name required"
@@ -566,7 +566,7 @@ msgstr "O valor de um campo de verificação pode ser 0 ou 1"
 
 #: frappe/custom/doctype/customize_form/customize_form.py:616
 msgid "Value for field {0} is too long in {1}. Length should be lesser than {2} characters"
-msgstr "O valor do campo {0} e muito longo em {1}. O tamanho deve ser menor que {2} caracteres"
+msgstr "O valor do campo {0} é muito longo em {1}. O tamanho deve ser menor que {2} caracteres"
 
 #: frappe/model/base_document.py:526
 msgid "Value for {0} cannot be a list"
@@ -576,7 +576,7 @@ msgstr "O valor de {0} não pode ser uma lista"
 #. Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
 msgid "Value from this field will be set as the due date in the ToDo"
-msgstr "O valor deste campo será definido como a data de vencimento na ToDo"
+msgstr "O valor deste campo será definido como a data de vencimento na tarefa A fazer"
 
 #: frappe/core/doctype/data_import/importer.py:713
 msgid "Value must be one of {0}"
@@ -625,7 +625,7 @@ msgstr "Verificação"
 
 #: frappe/templates/includes/login/login.js:336 frappe/twofactor.py:366
 msgid "Verification Code"
-msgstr "Codigo de verificação"
+msgstr "Código de verificação"
 
 #: frappe/templates/emails/delete_data_confirmation.html:10
 msgid "Verification Link"
@@ -660,11 +660,11 @@ msgstr "Verificando..."
 #. Name of a DocType
 #: frappe/core/doctype/version/version.json
 msgid "Version"
-msgstr "Versao"
+msgstr "Versão"
 
 #: frappe/public/js/frappe/desk.js:166
 msgid "Version Updated"
-msgstr "Versao atualizada"
+msgstr "Versão atualizada"
 
 #. Label of the video_url (Data) field in DocType 'Onboarding Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
@@ -760,7 +760,7 @@ msgstr "Ver relatório no navegador"
 
 #: frappe/templates/emails/print_link.html:2
 msgid "View this in your browser"
-msgstr "Ver isto no navegador"
+msgstr "Ver no navegador"
 
 #: frappe/public/js/frappe/web_form/web_form.js:478
 msgctxt "Button in web form"
@@ -792,11 +792,11 @@ msgstr "Virtual"
 
 #: frappe/model/virtual_doctype.py:76
 msgid "Virtual DocType {} requires a static method called {} found {}"
-msgstr "O DocType virtual {} requer um metodo estatico chamado {}; encontrado {}"
+msgstr "O DocType virtual {} requer um método estático chamado {}; encontrado {}"
 
 #: frappe/model/virtual_doctype.py:89
 msgid "Virtual DocType {} requires overriding an instance method called {} found {}"
-msgstr "O DocType virtual {} requer a substituicao de um metodo de instancia chamado {}; encontrado {}"
+msgstr "O DocType virtual {} requer a substituição de um método de instância chamado {}; encontrado {}"
 
 #: frappe/core/doctype/doctype/doctype.py:1672
 msgid "Virtual tables must be virtual fields"
@@ -809,7 +809,7 @@ msgstr "Visibilidade"
 
 #: frappe/public/js/frappe/form/templates/timeline_message_box.html:41
 msgid "Visible to website/portal users."
-msgstr "Visivel para usuários do site/portal."
+msgstr "Visível para usuários do site/portal."
 
 #. Option for the 'Type' (Select) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json

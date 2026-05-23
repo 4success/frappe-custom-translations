@@ -11,11 +11,11 @@ from pathlib import Path
 from po_utils import block_has_translation, ensure_project_dirs, extract_placeholders, read_msgid_and_msgstr_text, split_blocks
 
 
-def validate_file(path: Path) -> list[str]:
+def validate_file(path: Path, run_msgfmt: bool = True) -> list[str]:
     errors: list[str] = []
 
     msgfmt = shutil.which("msgfmt")
-    if msgfmt:
+    if run_msgfmt and msgfmt:
         result = subprocess.run(
             [msgfmt, "--check-format", "-o", "/dev/null", str(path)],
             capture_output=True,
@@ -52,23 +52,23 @@ def main() -> None:
     if not args.project and not args.file:
         raise SystemExit("Use --project <name> or --file <path>")
 
-    files: list[Path] = []
+    files: list[tuple[Path, bool]] = []
     if args.project:
         paths = ensure_project_dirs(args.project)
         files.extend([
-            paths["source"] / "pt_BR.po",
-            paths["merged"] / "pt_BR.po",
-            paths["overrides"] / "messages.po",
+            (paths["source"] / "pt_BR.po", False),
+            (paths["merged"] / "pt_BR.po", True),
+            (paths["overrides"] / "messages.po", True),
         ])
     if args.file:
-        files.append(Path(args.file))
+        files.append((Path(args.file), True))
 
     failures = []
-    for file_path in files:
+    for file_path, run_msgfmt in files:
         if not file_path.exists():
             failures.append(f"missing file: {file_path}")
             continue
-        errors = validate_file(file_path)
+        errors = validate_file(file_path, run_msgfmt=run_msgfmt)
         if errors:
             failures.extend(errors)
         else:

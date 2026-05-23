@@ -25,11 +25,11 @@ msgstr ""
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Table MultiSelect"
-msgstr "Tabela multisseleção"
+msgstr "Tabela de multisseleção"
 
 #: frappe/desk/search.py:271
 msgid "Table MultiSelect requires a table with at least one Link field, but none was found in {0}"
-msgstr "Table MultiSelect requer uma tabela com pelo menos um campo Link, mas nenhum foi encontrado em {0}"
+msgstr "Tabela de multisseleção requer uma tabela com pelo menos um campo Link, mas nenhum foi encontrado em {0}"
 
 #: frappe/custom/doctype/customize_form/customize_form.js:229
 msgid "Table Trimmed"
@@ -461,7 +461,7 @@ msgstr "O sistema está sendo atualizado. Atualize novamente em instantes."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:9
 msgid "The system provides many pre-defined roles. You can add new roles to set finer permissions."
-msgstr "O sistema fornece muitas funções predefinidas. Você pode adicionar novas funções para definir permissões mais específicas."
+msgstr "O sistema fornece muitos perfis predefinidos. Você pode adicionar novos perfis para definir permissões mais específicas."
 
 #: frappe/core/doctype/user_type/user_type.py:97
 msgid "The total number of user document types limit has been crossed."
@@ -663,16 +663,16 @@ msgstr "Este cartão é visível apenas para Administrator e Gerentes do sistema
 #. Description of the 'Is Public' (Check) field in DocType 'Number Card'
 #: frappe/desk/doctype/number_card/number_card.json
 msgid "This card will be available to all Users if this is set"
-msgstr "Este cartão estará disponível para todos os usuários se estiver definido"
+msgstr "Este cartão ficará disponível para todos os usuários se esta opção estiver marcada"
 
 #. Description of the 'Is Public' (Check) field in DocType 'Dashboard Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 msgid "This chart will be available to all Users if this is set"
-msgstr "Este gráfico estará disponível para todos os usuários se estiver definido"
+msgstr "Este gráfico ficará disponível para todos os usuários se esta opção estiver marcada"
 
 #: frappe/custom/doctype/customize_form/customize_form.js:212
 msgid "This doctype has no orphan fields to trim"
-msgstr "Este doctype não tem campos órfãos para aparar"
+msgstr "Este doctype não tem campos órfãos para remover"
 
 #: frappe/core/doctype/doctype/doctype.py:1069
 msgid "This doctype has pending migrations, run 'bench migrate' before modifying the doctype to avoid losing changes."
@@ -723,7 +723,7 @@ msgid "This field will appear only if the fieldname defined here has value OR th
 "myfield\n"
 "eval:doc.myfield=='My Value'\n"
 "eval:doc.age&gt;18"
-msgstr "Este campo aparecerá apenas se o fieldname definido aqui tiver valor OU se as regras forem verdadeiras (exemplos):\n"
+msgstr "Este campo aparecerá apenas se o nome do campo definido aqui tiver valor OU se as regras forem verdadeiras (exemplos):\n"
 "myfield\n"
 "eval:doc.myfield=='My Value'\n"
 "eval:doc.age&gt;18"

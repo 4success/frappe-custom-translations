@@ -20,7 +20,7 @@ msgstr ""
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:733
 msgid "References {0} of type {1} had no outstanding amount left before submitting the Payment Entry. Now they have a negative outstanding amount."
-msgstr "As referências {0} do tipo {1} não tinham mais valor em aberto antes do envio da Entrada de Pagamento. Agora elas tem valor em aberto negativo."
+msgstr "As referências {0} do tipo {1} não tinham mais valor em aberto antes do envio do lançamento de pagamento. Agora elas têm valor em aberto negativo."
 
 #. Label of the referral_code (Data) field in DocType 'Sales Partner'
 #: erpnext/setup/doctype/sales_partner/sales_partner.json
@@ -87,7 +87,7 @@ msgstr "Quantidade Rejeitada"
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Rejected Serial No"
-msgstr "Nº de Serie Rejeitado"
+msgstr "Nº de série rejeitado"
 
 #. Label of the rejected_serial_and_batch_bundle (Link) field in DocType
 #. 'Purchase Invoice Item'
@@ -99,7 +99,7 @@ msgstr "Nº de Serie Rejeitado"
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Rejected Serial and Batch Bundle"
-msgstr "Pacote de Series e Lotes Rejeitados"
+msgstr "Pacote de séries e lotes rejeitados"
 
 #. Label of the rejected_warehouse (Link) field in DocType 'Purchase Invoice'
 #. Label of the rejected_warehouse (Link) field in DocType 'Purchase Invoice
@@ -122,7 +122,7 @@ msgstr "Depósito de Rejeitados"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:657
 msgid "Rejected Warehouse and Accepted Warehouse cannot be same."
-msgstr "O depósito de rejeitados e o depósito aceito não podem ser o mesmo."
+msgstr "O depósito de rejeitados e o depósito de aceitos não podem ser o mesmo."
 
 #: erpnext/buying/doctype/purchase_order/purchase_order_dashboard.py:23
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation_dashboard.py:14
@@ -315,13 +315,13 @@ msgstr "Alugado"
 #: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py:64
 #: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:211
 msgid "Reorder Level"
-msgstr "Estoque Minimo"
+msgstr "Nível de reposição"
 
 #. Label of the reorder_qty (Float) field in DocType 'Material Request Item'
 #: erpnext/stock/doctype/material_request_item/material_request_item.json
 #: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:218
 msgid "Reorder Qty"
-msgstr "Qtd. de Reposicao"
+msgstr "Qtd. de reposição"
 
 #. Label of the reorder_levels (Table) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -389,8 +389,8 @@ msgstr "Substituir BOM"
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
 msgid "Replace a particular BOM in all other BOMs where it is used. It will replace the old BOM link, update cost and regenerate \"BOM Explosion Item\" table as per new BOM.\n"
 "It also updates latest price in all the BOMs."
-msgstr "Substitua uma BOM especifica em todas as outras BOMs em que ela e usada. Isso substituira o link da BOM antiga, atualizara o custo e recriara a tabela \"BOM Explosion Item\" conforme a nova BOM.\n"
-"Tambem atualiza o preço mais recente em todas as BOMs."
+msgstr "Substitua uma BOM específica em todas as outras BOMs em que ela é usada. Isso substituirá o link da BOM antiga, atualizará o custo e recriará a tabela \"BOM Explosion Item\" conforme a nova BOM.\n"
+"Também atualiza o preço mais recente em todas as BOMs."
 
 #. Label of the report_date (Date) field in DocType 'Quality Inspection'
 #: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:75
@@ -582,7 +582,7 @@ msgstr "Representa um exercício fiscal. Todos os lançamentos contábeis e outr
 
 #: erpnext/templates/form_grid/material_request_grid.html:25
 msgid "Reqd By Date"
-msgstr "Data Necessaria"
+msgstr "Data necessária"
 
 #. Label of the required_bom_qty (Float) field in DocType 'Material Request
 #. Plan Item'
@@ -592,11 +592,11 @@ msgstr "Qtd. Necessaria (BOM)"
 
 #: erpnext/public/js/utils.js:791
 msgid "Reqd by date"
-msgstr "Data necessaria"
+msgstr "Data necessária"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.js:489
 msgid "Reqired Qty"
-msgstr "Qtd. Necessaria"
+msgstr "Qtd. necessária"
 
 #: erpnext/crm/doctype/opportunity/opportunity.js:89
 msgid "Request For Quotation"
@@ -606,7 +606,7 @@ msgstr "Solicitação de Cotação"
 #. Exchange Settings'
 #: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.json
 msgid "Request Parameters"
-msgstr "Parametros da Requisicao"
+msgstr "Parâmetros da requisição"
 
 #. Label of the request_type (Select) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
@@ -656,7 +656,7 @@ msgstr "Fornecedor da Solicitação de Cotação"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1084
 msgid "Request for Raw Materials"
-msgstr "Solicitação de Materias-primas"
+msgstr "Solicitação de matérias-primas"
 
 #. Option for the 'Status' (Select) field in DocType 'Payment Request'
 #. Option for the 'Advance Payment Status' (Select) field in DocType 'Sales
@@ -671,7 +671,7 @@ msgstr "Solicitado"
 #: erpnext/stock/report/requested_items_to_be_transferred/requested_items_to_be_transferred.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Requested Items To Be Transferred"
-msgstr "Itens Solicitados para Transferencia"
+msgstr "Itens solicitados para transferência"
 
 #. Name of a report
 #: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.json
@@ -726,7 +726,7 @@ msgstr "Solicitante"
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Required By"
-msgstr "Necessario em"
+msgstr "Necessário em"
 
 #. Label of the schedule_date (Date) field in DocType 'Request for Quotation'
 #. Label of the schedule_date (Date) field in DocType 'Request for Quotation
@@ -743,11 +743,11 @@ msgstr "Data Necessaria"
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
 msgid "Required Items"
-msgstr "Itens Necessarios"
+msgstr "Itens necessários"
 
 #: erpnext/templates/form_grid/material_request_grid.html:7
 msgid "Required On"
-msgstr "Necessario em"
+msgstr "Necessário em"
 
 #. Label of the required_qty (Float) field in DocType 'Purchase Order Item
 #. Supplied'
@@ -780,12 +780,12 @@ msgstr "Necessario em"
 #: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
 msgid "Required Qty"
-msgstr "Qtd. Necessaria"
+msgstr "Qtd. necessária"
 
 #: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.py:44
 #: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.py:37
 msgid "Required Quantity"
-msgstr "Quantidade Necessaria"
+msgstr "Quantidade necessária"
 
 #. Label of the requirement (Data) field in DocType 'Contract Fulfilment
 #. Checklist'
@@ -874,7 +874,7 @@ msgstr "Reservar"
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:278
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 msgid "Reserve Stock"
-msgstr "Reservar Estoque"
+msgstr "Reservar estoque"
 
 #. Label of the reserve_warehouse (Link) field in DocType 'Purchase Order Item
 #. Supplied'
@@ -887,11 +887,11 @@ msgstr "Depósito de Reserva"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:287
 msgid "Reserve for Raw Materials"
-msgstr "Reservar para Materias-primas"
+msgstr "Reservar para matérias-primas"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:261
 msgid "Reserve for Sub-assembly"
-msgstr "Reservar para Submontagem"
+msgstr "Reservar para subconjunto"
 
 #. Option for the 'Status' (Select) field in DocType 'Stock Reservation Entry'
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
@@ -960,11 +960,11 @@ msgstr "Quantidade Reservada"
 
 #: erpnext/stock/report/item_shortage_report/item_shortage_report.py:123
 msgid "Reserved Quantity for Production"
-msgstr "Quantidade Reservada Para Produção"
+msgstr "Quantidade reservada para produção"
 
 #: erpnext/stock/stock_ledger.py:2317
 msgid "Reserved Serial No."
-msgstr "Nº de Serie Reservado"
+msgstr "Nº de série reservado"
 
 #. Label of the reserved_stock (Float) field in DocType 'Bin'
 #. Name of a report
@@ -990,11 +990,11 @@ msgstr "Estoque Reservado para Lote"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:301
 msgid "Reserved Stock for Raw Materials"
-msgstr "Estoque Reservado para Materias-primas"
+msgstr "Estoque reservado para matérias-primas"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:275
 msgid "Reserved Stock for Sub-assembly"
-msgstr "Estoque Reservado para Submontagem"
+msgstr "Estoque reservado para subconjunto"
 
 #: erpnext/controllers/buying_controller.py:645
 msgid "Reserved Warehouse is mandatory for the Item {item_code} in Raw Materials supplied."

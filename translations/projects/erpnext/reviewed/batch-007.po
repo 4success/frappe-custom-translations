@@ -63,7 +63,7 @@ msgstr "Requisição de material automática"
 
 #: erpnext/stock/reorder_item.py:337
 msgid "Auto Material Requests Generated"
-msgstr "Requisições de Material Geradas Automaticamente"
+msgstr "Solicitações de material geradas automaticamente"
 
 #. Label of the auto_opt_in (Check) field in DocType 'Loyalty Program'
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
@@ -136,7 +136,7 @@ msgstr "Fechar automaticamente a oportunidade respondida após o n.º de dias in
 #. DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Auto match and set the Party in Bank Transactions"
-msgstr "Identificar e definir automaticamente a parte nas transações bancárias"
+msgstr "Identificar e definir automaticamente o cadastro nas transações bancárias"
 
 #. Label of the reorder_section (Section Break) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -214,14 +214,14 @@ msgstr "Disponível"
 #. Label of the actual_batch_qty (Float) field in DocType 'Delivery Note Item'
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 msgid "Available Batch Qty at From Warehouse"
-msgstr "Qtd. de lote disponível no depósito de origem"
+msgstr "Qtd. de lote disponível no armazém de origem"
 
 #. Label of the actual_batch_qty (Float) field in DocType 'POS Invoice Item'
 #. Label of the actual_batch_qty (Float) field in DocType 'Sales Invoice Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
 msgid "Available Batch Qty at Warehouse"
-msgstr "Qtd. de lote disponível no depósito"
+msgstr "Qtd. de lote disponível no armazém"
 
 #. Name of a report
 #: erpnext/stock/report/available_batch_report/available_batch_report.json
@@ -264,23 +264,23 @@ msgstr "Qtd. disponível na empresa"
 #. 'Work Order Item'
 #: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
 msgid "Available Qty at Source Warehouse"
-msgstr "Qtd. disponível no depósito de origem"
+msgstr "Qtd. disponível no armazém de origem"
 
 #. Label of the actual_qty (Float) field in DocType 'Purchase Order Item'
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
 msgid "Available Qty at Target Warehouse"
-msgstr "Qtd. disponível no depósito de destino"
+msgstr "Qtd. disponível no armazém de destino"
 
 #. Label of the available_qty_at_wip_warehouse (Float) field in DocType 'Work
 #. Order Item'
 #: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
 msgid "Available Qty at WIP Warehouse"
-msgstr "Qtd. disponível no depósito de produção em andamento"
+msgstr "Qtd. disponível no armazém de trabalho em andamento"
 
 #. Label of the actual_qty (Float) field in DocType 'POS Invoice Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 msgid "Available Qty at Warehouse"
-msgstr "Qtd. disponível no depósito"
+msgstr "Qtd. disponível no armazém"
 
 #. Label of the available_qty (Float) field in DocType 'Stock Reservation
 #. Entry'
@@ -344,7 +344,7 @@ msgstr "A data disponível para uso deve ser posterior à data de compra"
 #: erpnext/stock/report/stock_ageing/stock_ageing.py:204
 #: erpnext/stock/report/stock_balance/stock_balance.py:515
 msgid "Average Age"
-msgstr "Idade Média"
+msgstr "Idade média"
 
 #: erpnext/projects/report/project_summary/project_summary.py:124
 msgid "Average Completion"
@@ -362,7 +362,7 @@ msgstr "Valor médio dos pedidos"
 
 #: erpnext/accounts/report/share_balance/share_balance.py:60
 msgid "Average Rate"
-msgstr "Taxa Média"
+msgstr "Preço médio"
 
 #. Label of the avg_response_time (Duration) field in DocType 'Issue'
 #: erpnext/support/doctype/issue/issue.json
@@ -376,29 +376,29 @@ msgstr "Tempo médio de entrega do fornecedor"
 
 #: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py:63
 msgid "Avg Daily Outgoing"
-msgstr "Média Diária de Saída"
+msgstr "Saída média diária"
 
 #. Label of the avg_rate (Float) field in DocType 'Serial and Batch Bundle'
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
 msgid "Avg Rate"
-msgstr "Valor médio"
+msgstr "Preço médio"
 
 #: erpnext/stock/report/available_serial_no/available_serial_no.py:154
 #: erpnext/stock/report/stock_ledger/stock_ledger.py:288
 msgid "Avg Rate (Balance Stock)"
-msgstr "Valor médio (estoque em saldo)"
+msgstr "Preço médio (estoque em saldo)"
 
 #: erpnext/stock/report/item_variant_details/item_variant_details.py:96
 msgid "Avg. Buying Price List Rate"
-msgstr "Valor Médio de Lista de Preços de Compra"
+msgstr "Preço médio da lista de preços de compra"
 
 #: erpnext/stock/report/item_variant_details/item_variant_details.py:102
 msgid "Avg. Selling Price List Rate"
-msgstr "Valor Médio na Lista de Preços de Venda"
+msgstr "Preço médio da lista de preços de venda"
 
 #: erpnext/accounts/report/gross_profit/gross_profit.py:336
 msgid "Avg. Selling Rate"
-msgstr "Valor Médio de Venda"
+msgstr "Preço médio de venda"
 
 #. Option for the 'Blood Group' (Select) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -754,7 +754,7 @@ msgstr "A criação das BOMs foi enfileirada. Verifique o status daqui a pouco"
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:344
 msgid "Backdated Stock Entry"
-msgstr "Entrada de Estoque Retroativa"
+msgstr "Movimento de estoque retroativo"
 
 #. Label of the backflush_from_wip_warehouse (Check) field in DocType 'BOM
 #. Operation'
@@ -767,7 +767,7 @@ msgstr "Entrada de Estoque Retroativa"
 #: erpnext/manufacturing/doctype/work_order/work_order.js:368
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 msgid "Backflush Materials From WIP Warehouse"
-msgstr "Baixar materiais do depósito de produção em andamento"
+msgstr "Baixar materiais do armazém de trabalho em andamento"
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:16
 msgid "Backflush Raw Materials"
@@ -782,7 +782,7 @@ msgstr "Baixar matérias-primas com base em"
 #. Label of the from_wip_warehouse (Check) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Backflush Raw Materials From Work-in-Progress Warehouse"
-msgstr "Baixar matérias-primas do depósito de produção em andamento"
+msgstr "Baixar matérias-primas do armazém de trabalho em andamento"
 
 #. Label of the backflush_raw_materials_of_subcontract_based_on (Select) field
 #. in DocType 'Buying Settings'

@@ -37,7 +37,7 @@ msgstr "Salve primeiro"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:859
 msgid "Please save the Sales Order before adding a delivery schedule."
-msgstr "Salve o Pedido de venda antes de adicionar uma programação de entrega."
+msgstr "Salve o pedido de venda antes de adicionar uma programação de entrega."
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.js:79
 msgid "Please select <b>Template Type</b> to download template"
@@ -50,15 +50,15 @@ msgstr "Selecione Aplicar desconto em"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:1741
 msgid "Please select BOM against item {0}"
-msgstr "Selecione a LDM para o item {0}"
+msgstr "Selecione a BOM para o item {0}"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:187
 msgid "Please select BOM for Item in Row {0}"
-msgstr "Selecione a LDM do item na linha {0}"
+msgstr "Selecione a BOM do item na linha {0}"
 
 #: erpnext/controllers/buying_controller.py:636
 msgid "Please select BOM in BOM field for Item {item_code}."
-msgstr "Selecione a LDM no campo LDM para o item {item_code}."
+msgstr "Selecione a BOM no campo BOM para o item {item_code}."
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.js:68
 msgid "Please select Bank Account"
@@ -122,7 +122,7 @@ msgstr "Selecione o status da manutenção como Concluído ou remova a data de c
 #: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.js:63
 #: erpnext/selling/report/address_and_contacts/address_and_contacts.js:27
 msgid "Please select Party Type first"
-msgstr "Selecione primeiro o tipo de entidade"
+msgstr "Selecione primeiro o tipo de cadastro"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:251
 msgid "Please select Periodic Accounting Entry Difference Account"
@@ -130,7 +130,7 @@ msgstr "Selecione a conta de diferença do lançamento contábil periódico"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:498
 msgid "Please select Posting Date before selecting Party"
-msgstr "Selecione a data de lançamento antes de selecionar a entidade"
+msgstr "Selecione a data de lançamento antes de selecionar o cadastro"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.js:702
 msgid "Please select Posting Date first"
@@ -146,7 +146,7 @@ msgstr "Selecione a quantidade do item {0}"
 
 #: erpnext/stock/doctype/item/item.py:320
 msgid "Please select Sample Retention Warehouse in Stock Settings first"
-msgstr "Selecione primeiro o almoxarifado de retencao de amostras em Configurações de estoque"
+msgstr "Selecione primeiro o almoxarifado de retenção de amostras em Configurações de estoque"
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:451
 msgid "Please select Serial/Batch Nos to reserve or change Reservation Based On to Qty."
@@ -162,7 +162,7 @@ msgstr "Selecione a conta de ativo de estoque"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1528
 msgid "Please select Subcontracting Order instead of Purchase Order {0}"
-msgstr "Selecione a Ordem de subcontratação em vez do Pedido de compra {0}"
+msgstr "Selecione a ordem de subcontratação em vez do pedido de compra {0}"
 
 #: erpnext/controllers/accounts_controller.py:2801
 msgid "Please select Unrealized Profit / Loss account or add default Unrealized Profit / Loss account account for company {0}"
@@ -170,7 +170,7 @@ msgstr "Selecione a conta de Lucro/Prejuizo não realizado ou adicione a conta p
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1430
 msgid "Please select a BOM"
-msgstr "Selecione uma LDM"
+msgstr "Selecione uma BOM"
 
 #: erpnext/accounts/party.py:430
 #: erpnext/stock/doctype/pick_list/pick_list.py:1607
@@ -187,7 +187,7 @@ msgstr "Selecione uma empresa primeiro."
 
 #: erpnext/selling/report/customer_wise_item_price/customer_wise_item_price.py:18
 msgid "Please select a Customer"
-msgstr "Selecione um Cliente"
+msgstr "Selecione um cliente"
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.js:16
 msgid "Please select a Delivery Note"
@@ -195,7 +195,7 @@ msgstr "Selecione uma nota de entrega"
 
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.py:163
 msgid "Please select a Subcontracting Purchase Order."
-msgstr "Selecione um Pedido de compra de subcontratação."
+msgstr "Selecione um pedido de compra de subcontratação."
 
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.js:83
 msgid "Please select a Supplier"
@@ -211,7 +211,7 @@ msgstr "Selecione uma ordem de produção primeiro."
 
 #: erpnext/setup/doctype/holiday_list/holiday_list.py:89
 msgid "Please select a country"
-msgstr "Selecione um pais"
+msgstr "Selecione um país"
 
 #: erpnext/accounts/report/sales_register/sales_register.py:36
 msgid "Please select a customer for fetching payments."
@@ -223,7 +223,7 @@ msgstr "Selecione uma data"
 
 #: erpnext/www/book_appointment/index.js:52
 msgid "Please select a date and time"
-msgstr "Selecione uma data e horario"
+msgstr "Selecione uma data e horário"
 
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:179
 msgid "Please select a default mode of payment"
@@ -231,16 +231,16 @@ msgstr "Selecione um modo de pagamento padrão"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:816
 msgid "Please select a field to edit from numpad"
-msgstr "Selecione um campo para editar no teclado numerico"
+msgstr "Selecione um campo para editar no teclado numérico"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:709
 msgid "Please select a frequency for delivery schedule"
-msgstr "Selecione uma frequencia para a programação de entrega"
+msgstr "Selecione uma frequência para a programação de entrega"
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.js:135
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.js:73
 msgid "Please select a row to create a Reposting Entry"
-msgstr "Selecione uma linha para criar um Lancamento de repostagem"
+msgstr "Selecione uma linha para criar um lançamento de repostagem"
 
 #: erpnext/accounts/report/purchase_register/purchase_register.py:35
 msgid "Please select a supplier for fetching payments."
@@ -248,15 +248,15 @@ msgstr "Selecione um fornecedor para buscar pagamentos."
 
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.py:152
 msgid "Please select a valid Purchase Order that has Service Items."
-msgstr "Selecione um Pedido de compra válido com itens de servico."
+msgstr "Selecione um pedido de compra válido com itens de serviço."
 
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.py:149
 msgid "Please select a valid Purchase Order that is configured for Subcontracting."
-msgstr "Selecione um Pedido de compra válido configurado para subcontratação."
+msgstr "Selecione um pedido de compra válido configurado para subcontratação."
 
 #: erpnext/selling/doctype/quotation/quotation.js:237
 msgid "Please select a value for {0} quotation_to {1}"
-msgstr ""
+msgstr "Selecione um valor para {0} quotation_to {1}"
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.js:194
 msgid "Please select an item code before setting the warehouse."
@@ -264,7 +264,7 @@ msgstr "Selecione um código de item antes de definir o almoxarifado."
 
 #: erpnext/stock/report/serial_no_and_batch_traceability/serial_no_and_batch_traceability.py:43
 msgid "Please select at least one filter: Item Code, Batch, or Serial No."
-msgstr "Selecione pelo menos um filtro: Codigo do item, Lote ou N de série."
+msgstr "Selecione pelo menos um filtro: Código do item, Lote ou N° de série."
 
 #: erpnext/stock/report/incorrect_serial_and_batch_bundle/incorrect_serial_and_batch_bundle.js:33
 msgid "Please select at least one row to fix"
@@ -313,12 +313,12 @@ msgstr "Selecione itens para cancelar a reserva."
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.js:75
 msgid "Please select only one row to create a Reposting Entry"
-msgstr "Selecione apenas uma linha para criar um Lancamento de repostagem"
+msgstr "Selecione apenas uma linha para criar um lançamento de repostagem"
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:59
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.js:107
 msgid "Please select rows to create Reposting Entries"
-msgstr "Selecione linhas para criar Lancamentos de repostagem"
+msgstr "Selecione linhas para criar lançamentos de repostagem"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:92
 msgid "Please select the Company"
@@ -409,11 +409,11 @@ msgstr "Defina a empresa"
 
 #: erpnext/regional/united_arab_emirates/utils.py:26
 msgid "Please set Customer Address to determine if the transaction is an export."
-msgstr "Defina o endereço do cliente para determinar se a transação e uma exportação."
+msgstr "Defina o endereço do cliente para determinar se a transação é uma exportação."
 
 #: erpnext/assets/doctype/asset/depreciation.py:743
 msgid "Please set Depreciation related Accounts in Asset Category {0} or Company {1}"
-msgstr "Defina as contas relacionadas a depreciação na Categoria de ativo {0} ou na empresa {1}"
+msgstr "Defina as contas relacionadas à depreciação na Categoria de ativo {0} ou na empresa {1}"
 
 #: erpnext/stock/doctype/shipment/shipment.js:176
 msgid "Please set Email/Phone for the contact"
@@ -439,7 +439,7 @@ msgstr "Defina a conta de ativo imobilizado em {} para {}."
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:256
 msgid "Please set Parent Row No for item {0}"
-msgstr "Defina o no. da linha pai para o item {0}"
+msgstr "Defina o nº da linha pai para o item {0}"
 
 #: erpnext/controllers/buying_controller.py:352
 msgid "Please set Purchase Expense Contra Account in Company {0}"
@@ -481,7 +481,7 @@ msgstr "Defina uma lista de feriados padrão para a empresa {0}"
 
 #: erpnext/setup/doctype/employee/employee.py:273
 msgid "Please set a default Holiday List for Employee {0} or Company {1}"
-msgstr "Defina uma lista de feriados padrão para o funcionario {0} ou a empresa {1}"
+msgstr "Defina uma lista de feriados padrão para o funcionário {0} ou a empresa {1}"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1113
 msgid "Please set account in Warehouse {0}"
@@ -618,7 +618,7 @@ msgstr "Defina {0} para o endereço {1}"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:209
 msgid "Please set {0} in BOM Creator {1}"
-msgstr "Defina {0} no Criador de LDM {1}"
+msgstr "Defina {0} no Criador de BOM {1}"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1210
 msgid "Please set {0} in Company {1} to account for Exchange Gain / Loss"
@@ -669,7 +669,7 @@ msgstr "Informe o intervalo de/de ate"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:41
 msgid "Please supply the specified items at the best possible rates"
-msgstr "Forneca os itens especificados com os melhores preços possiveis"
+msgstr "Forneça os itens especificados com os melhores preços possíveis"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:247
 msgid "Please try again in an hour."

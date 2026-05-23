@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: shariq@frappe.io\n"
-"POT-Creation-Date: 2026-03-08 09:43+0000\n"
-"PO-Revision-Date: 2026-03-10 00:36\n"
+"POT-Creation-Date: 2026-04-26 09:49+0000\n"
+"PO-Revision-Date: 2026-04-27 02:48\n"
 "Last-Translator: shariq@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,602 @@ msgstr ""
 "X-Crowdin-File: /[frappe.crm] develop/crm/locale/main.pot\n"
 "X-Crowdin-File-ID: 97\n"
 "Language: pt_BR\n"
+
+#: frontend/src/pages/Welcome.vue:4
+msgid "Welcome {0}, lets add your first lead"
+msgstr "Bem-vindo(a), {0}. Vamos adicionar seu primeiro lead"
+
+#. Option for the 'Type' (Select) field in DocType 'CRM Notification'
+#: crm/fcrm/doctype/crm_notification/crm_notification.json
+#: frontend/src/components/Layouts/AppSidebar.vue:610
+#: frontend/src/components/Settings/Settings.vue:201
+#: frontend/src/pages/Deal.vue:595 frontend/src/pages/Lead.vue:446
+#: frontend/src/pages/MobileDeal.vue:471 frontend/src/pages/MobileLead.vue:316
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: frontend/src/components/Activities/ActivityHeader.vue:161
+msgid "WhatsApp Message"
+msgstr "Mensagem do WhatsApp"
+
+#: frontend/src/components/Modals/WhatsappTemplateSelectorModal.vue:4
+msgid "WhatsApp Templates"
+msgstr "Modelos do WhatsApp"
+
+#: frontend/src/components/ConditionsFilter/CFCondition.vue:20
+#: frontend/src/components/Filter.vue:43 frontend/src/components/Filter.vue:83
+msgid "Where"
+msgstr "Onde"
+
+#: frontend/src/components/ColumnSettings.vue:109
+msgid "Width"
+msgstr "Largura"
+
+#: frontend/src/components/ColumnSettings.vue:113
+msgid "Width can be in number, pixel or rem (eg. 3, 30px, 10rem)"
+msgstr "A largura pode ser em número, pixel ou rem (ex.: 3, 30px, 10rem)"
+
+#. Option for the 'Type' (Select) field in DocType 'CRM Deal Status'
+#. Option for the 'Type' (Select) field in DocType 'CRM Lead Status'
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+msgid "Won"
+msgstr "Ganho"
+
+#: frontend/src/components/Dashboard/AddChartModal.vue:79
+msgid "Won Deals"
+msgstr "Negócios ganhos"
+
+#: crm/api/dashboard.py:306
+msgid "Won deals"
+msgstr "Negócios ganhos"
+
+#: frontend/src/components/Settings/Sla/SlaHolidays.vue:5
+msgid "Work Schedule & Holidays"
+msgstr "Horários de trabalho e feriados"
+
+#. Label of the workday (Select) field in DocType 'CRM Service Day'
+#: crm/fcrm/doctype/crm_service_day/crm_service_day.json
+#: frontend/src/components/Settings/Sla/WorkDayModal.vue:16
+msgid "Workday"
+msgstr "Dia de trabalho"
+
+#. Label of the section_break_rmgo (Section Break) field in DocType 'CRM
+#. Service Level Agreement'
+#. Label of the working_hours (Table) field in DocType 'CRM Service Level
+#. Agreement'
+#: crm/fcrm/doctype/crm_service_level_agreement/crm_service_level_agreement.json
+msgid "Working Hours"
+msgstr "Horários de trabalho"
+
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:530
+#: frontend/src/components/Filter.vue:564
+msgid "Yes"
+msgstr "Sim"
+
+#: frontend/src/components/Filter.vue:636
+msgid "Yesterday"
+msgstr "Ontem"
+
+#: crm/api/whatsapp.py:65 crm/api/whatsapp.py:219 crm/api/whatsapp.py:233
+#: frontend/src/components/Activities/WhatsAppArea.vue:40
+#: frontend/src/components/Activities/WhatsAppBox.vue:16
+msgid "You"
+msgstr "Você"
+
+#: crm/api/__init__.py:106
+msgid "You are not allowed to invite Sales Managers"
+msgstr ""
+
+#: crm/api/__init__.py:103
+msgid "You are not allowed to invite System Managers"
+msgstr "Você não tem permissão para convidar Gerentes do sistema"
+
+#: crm/api/session.py:11
+msgid "You are not permitted to access CRM resources."
+msgstr "Você não tem permissão para acessar recursos do CRM."
+
+#: crm/utils/__init__.py:262
+msgid "You are not permitted to access this resource."
+msgstr "Você não tem permissão para acessar este recurso."
+
+#: crm/fcrm/doctype/crm_call_log/crm_call_log.py:250
+msgid "You are not permitted to create leads."
+msgstr "Você não tem permissão para criar leads."
+
+#: crm/fcrm/doctype/crm_call_log/crm_call_log.py:247
+msgid "You are not permitted to update this call log."
+msgstr "Você não tem permissão para atualizar este registro de chamada."
+
+#: crm/templates/emails/helpdesk_invitation.html:22
+msgid "You can also copy-paste following link in your browser"
+msgstr "Você também pode copiar e colar o link a seguir no seu navegador"
+
+#: frontend/src/components/Telephony/CallUI.vue:39
+msgid "You can change the default calling medium from the settings"
+msgstr "Você pode alterar o meio de chamada padrão nas configurações"
+
+#: frontend/src/components/Settings/CurrencySettings.vue:100
+msgid "You can get your Access Key from "
+msgstr "Você pode obter sua chave de acesso em "
+
+#: frontend/src/components/Settings/InviteUserPage.vue:37
+msgid "You can invite multiple users by comma separating their email addresses"
+msgstr "Você pode convidar vários usuários separando os endereços de e-mail por vírgula"
+
+#: crm/api/user.py:76
+msgid "You cannot remove yourself."
+msgstr "Você não pode remover a si mesmo."
+
+#: crm/integrations/exotel/handler.py:84
+msgid "You do not have Exotel Number set in your Telephony Agent"
+msgstr "Você não definiu um número Exotel no seu agente de telefonia"
+
+#: frontend/src/pages/NotPermitted.vue:12
+msgid "You do not have enough permissions to access Frappe CRM. Please contact your administrator if you believe this is an error."
+msgstr "Você não tem permissões suficientes para acessar o Frappe CRM. Entre em contato com o administrador se acredita que isso é um erro."
+
+#: crm/integrations/exotel/handler.py:92
+msgid "You do not have mobile number set in your Telephony Agent"
+msgstr "Você não definiu um número de celular no seu agente de telefonia"
+
+#: crm/www/crm.py:18
+msgid "You do not have permission to access Frappe CRM"
+msgstr "Você não tem permissão para acessar o Frappe CRM"
+
+#: frontend/src/data/document.js:35
+msgid "You do not have permission to access this document"
+msgstr "Você não tem permissão para acessar este documento"
+
+#: crm/api/__init__.py:143
+msgid "You don't have permission to delete this attachment"
+msgstr ""
+
+#: crm/api/user.py:17
+msgid "You must be logged in to change your password"
+msgstr ""
+
+#: crm/fcrm/doctype/crm_form_script/crm_form_script.py:39
+msgid "You need to be in developer mode to edit a Standard Form Script"
+msgstr "Você precisa estar no modo de desenvolvedor para editar um script de formulário padrão"
+
+#: frontend/src/components/Settings/AssignmentRules/AssigneeSearch.vue:150
+msgid "You will be redirected to invite user page, unsaved changes will be lost."
+msgstr "Você será redirecionado para a página de convite de usuários; as alterações não salvas serão perdidas."
+
+#: frontend/src/components/Settings/LeadSyncing/leadSyncSourceConfig.js:8
+msgid "You will need a Meta developer account and an access token to sync leads from Facebook. Read more"
+msgstr "Você precisará de uma conta de desenvolvedor Meta e um token de acesso para sincronizar leads do Facebook. Leia mais"
+
+#: crm/api/todo.py:100
+msgid "Your assignment on task {0} has been removed by {1}"
+msgstr "Sua atribuição na tarefa {0} foi removida por {1}"
+
+#: crm/api/todo.py:37 crm/api/todo.py:78
+msgid "Your assignment on {0} {1} has been removed by {2}"
+msgstr "Sua atribuição em {0} {1} foi removida por {2}"
+
+#: crm/templates/emails/helpdesk_invitation.html:6
+msgid "Your login id is"
+msgstr "Seu ID de login é"
+
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:641
+msgid "Your old condition will be overwritten. Are you sure you want to save?"
+msgstr "Sua condição antiga será substituída. Tem certeza de que deseja salvar?"
+
+#: frontend/src/components/Settings/Sla/SlaPolicyView.vue:401
+msgid "Your old conditions will be overwritten. Are you sure you want to save?"
+msgstr "Suas condições antigas serão substituídas. Tem certeza de que deseja salvar?"
+
+#: frontend/src/components/Activities/CommentArea.vue:9
+msgid "added a"
+msgstr "adicionou um"
+
+#. Option for the 'Color' (Select) field in DocType 'CRM Deal Status'
+#. Option for the 'Color' (Select) field in DocType 'CRM Lead Status'
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+msgid "amber"
+msgstr "âmbar"
+
+#: crm/api/todo.py:109
+msgid "assigned a new task {0} to you"
+msgstr "atribuiu uma nova tarefa {0} a você"
+
+#: crm/api/todo.py:89
+msgid "assigned a {0} {1} to you"
+msgstr "atribuiu {0} {1} a você"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:33
+msgid "at"
+msgstr "às"
+
+#: frontend/src/components/Settings/CalendarSettings.vue:220
+msgid "before at"
+msgstr "antes das"
+
+#. Option for the 'Color' (Select) field in DocType 'CRM Deal Status'
+#. Option for the 'Color' (Select) field in DocType 'CRM Lead Status'
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+msgid "black"
+msgstr "preto"
+
+#. Option for the 'Color' (Select) field in DocType 'CRM Deal Status'
+#. Option for the 'Color' (Select) field in DocType 'CRM Lead Status'
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+msgid "blue"
+msgstr "azul"
+
+#: frontend/src/components/Activities/Activities.vue:249
+msgid "changes from"
+msgstr "alterou de"
+
+#: frontend/src/components/Activities/CommentArea.vue:11
+msgid "comment"
+msgstr "comentário"
+
+#: crm/api/activities.py:54
+msgid "converted the lead to this deal"
+msgstr "converteu o lead para este negócio"
+
+#: crm/api/activities.py:50
+msgid "created this deal"
+msgstr "criou este negócio"
+
+#: crm/api/activities.py:202
+msgid "created this lead"
+msgstr "criou este lead"
+
+#. Option for the 'Color' (Select) field in DocType 'CRM Deal Status'
+#. Option for the 'Color' (Select) field in DocType 'CRM Lead Status'
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+msgid "cyan"
+msgstr "ciano"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:244
+#: frontend/src/components/Settings/CalendarSettings.vue:119
+#: frontend/src/components/Settings/CalendarSettings.vue:208
+msgid "day"
+msgstr "dia"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:175
+#: frontend/src/components/Calendar/EventNotifications.vue:194
+msgid "day before"
+msgstr "um dia antes"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:244
+#: frontend/src/components/Settings/CalendarSettings.vue:119
+#: frontend/src/components/Settings/CalendarSettings.vue:208
+msgid "days"
+msgstr "dias"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:175
+#: frontend/src/components/Calendar/EventNotifications.vue:194
+msgid "days before"
+msgstr "dias antes"
+
+#: frontend/src/components/Settings/AssignmentRules/AssigneeRules.vue:131
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:380
+msgid "deals"
+msgstr "negócios"
+
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:190
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:274
+msgid "desk"
+msgstr "desk"
+
+#. Option for the 'Service Provider' (Select) field in DocType 'FCRM Settings'
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
+msgid "exchangerate-api"
+msgstr ""
+
+#. Option for the 'Service Provider' (Select) field in DocType 'FCRM Settings'
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
+#: frontend/src/components/Settings/CurrencySettings.vue:106
+msgid "exchangerate.host"
+msgstr "exchangerate.host"
+
+#. Option for the 'Service Provider' (Select) field in DocType 'FCRM Settings'
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
+msgid "fawazahmed-exchange-api"
+msgstr ""
+
+#: frontend/src/components/FieldLayoutEditor.vue:157
+msgid "field"
+msgstr "campo"
+
+#: frontend/src/components/FieldLayoutEditor.vue:158
+msgid "fields"
+msgstr "campos"
+
+#. Option for the 'Service Provider' (Select) field in DocType 'FCRM Settings'
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
+msgid "frankfurter.app"
+msgstr "frankfurter.app"
+
+#. Option for the 'Color' (Select) field in DocType 'CRM Deal Status'
+#. Option for the 'Color' (Select) field in DocType 'CRM Lead Status'
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+msgid "gray"
+msgstr "cinza"
+
+#. Option for the 'Color' (Select) field in DocType 'CRM Deal Status'
+#. Option for the 'Color' (Select) field in DocType 'CRM Lead Status'
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+msgid "green"
+msgstr "verde"
+
+#. Option for the 'Type' (Select) field in DocType 'CRM View Settings'
+#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
+msgid "group_by"
+msgstr "Agrupar por"
+
+#: frontend/src/components/Activities/CallArea.vue:16
+msgid "has made a call"
+msgstr "fez uma chamada"
+
+#: frontend/src/components/Activities/CallArea.vue:15
+msgid "has reached out"
+msgstr "entrou em contato"
+
+#: frontend/src/components/Settings/EmailAdd.vue:36
+#: frontend/src/components/Settings/EmailEdit.vue:25
+msgid "here"
+msgstr "aqui"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:241
+#: frontend/src/components/Settings/CalendarSettings.vue:115
+msgid "hour"
+msgstr "hora"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:190
+msgid "hour before"
+msgstr "uma hora antes"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:241
+#: frontend/src/components/Settings/CalendarSettings.vue:115
+msgid "hours"
+msgstr "horas"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:190
+msgid "hours before"
+msgstr "horas antes"
+
+#: frontend/src/utils/index.js:146
+msgid "in 1 hour"
+msgstr "em 1 hora"
+
+#: frontend/src/utils/index.js:142
+msgid "in 1 minute"
+msgstr "em 1 minuto"
+
+#: frontend/src/utils/index.js:160
+msgid "in 1 year"
+msgstr "em 1 ano"
+
+#: frontend/src/utils/index.js:111
+msgid "in {0} M"
+msgstr "em {0} M"
+
+#: frontend/src/utils/index.js:107
+msgid "in {0} d"
+msgstr "em {0} d"
+
+#: frontend/src/utils/index.js:154
+msgid "in {0} days"
+msgstr "em {0} dias"
+
+#: frontend/src/utils/index.js:101
+msgid "in {0} h"
+msgstr "em {0} h"
+
+#: frontend/src/utils/index.js:148
+msgid "in {0} hours"
+msgstr "em {0} horas"
+
+#: frontend/src/utils/index.js:99
+msgid "in {0} m"
+msgstr "em {0} min"
+
+#: frontend/src/utils/index.js:144
+msgid "in {0} minutes"
+msgstr "em {0} minutos"
+
+#: frontend/src/utils/index.js:158
+msgid "in {0} months"
+msgstr "em {0} meses"
+
+#: frontend/src/utils/index.js:109
+msgid "in {0} w"
+msgstr "em {0} sem"
+
+#: frontend/src/utils/index.js:156
+msgid "in {0} weeks"
+msgstr "em {0} semanas"
+
+#: frontend/src/utils/index.js:113
+msgid "in {0} y"
+msgstr "em {0} a"
+
+#: frontend/src/utils/index.js:162
+msgid "in {0} years"
+msgstr "em {0} anos"
+
+#: frontend/src/components/Modals/AddExistingUserModal.vue:29
+msgid "john@doe.com"
+msgstr "john@doe.com"
+
+#: frontend/src/utils/index.js:140 frontend/src/utils/index.js:166
+msgid "just now"
+msgstr "agora mesmo"
+
+#. Option for the 'Type' (Select) field in DocType 'CRM View Settings'
+#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
+msgid "kanban"
+msgstr "kanban"
+
+#: crm/api/doc.py:46 crm/api/doc.py:164 crm/api/doc.py:509
+msgid "label"
+msgstr "rótulo"
+
+#: frontend/src/components/Settings/AssignmentRules/AssigneeRules.vue:130
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:379
+msgid "leads"
+msgstr "leads"
+
+#. Option for the 'Type' (Select) field in DocType 'CRM View Settings'
+#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
+msgid "list"
+msgstr "lista"
+
+#: crm/api/comment.py:39 frontend/src/components/Notifications.vue:60
+#: frontend/src/pages/MobileNotification.vue:46
+msgid "mentioned you in {0}"
+msgstr "mencionou você em {0}"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:238
+#: frontend/src/components/Settings/CalendarSettings.vue:111
+msgid "minute"
+msgstr "minuto"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:186
+msgid "minute before"
+msgstr "um minuto antes"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:59
+#: frontend/src/components/Calendar/EventNotifications.vue:120
+#: frontend/src/components/Calendar/EventNotifications.vue:238
+#: frontend/src/components/Settings/CalendarSettings.vue:111
+#: frontend/src/components/Settings/CalendarSettings.vue:127
+#: frontend/src/components/Settings/CalendarSettings.vue:216
+msgid "minutes"
+msgstr "minutos"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:186
+msgid "minutes before"
+msgstr "minutos antes"
+
+#: frontend/src/components/FieldLayoutEditor.vue:366
+msgid "next"
+msgstr "próximo"
+
+#: frontend/src/utils/index.js:97 frontend/src/utils/index.js:117
+msgid "now"
+msgstr "agora"
+
+#: crm/api/activities.py:109 crm/api/activities.py:250
+msgid "old_value"
+msgstr "valor_antigo"
+
+#. Option for the 'Color' (Select) field in DocType 'CRM Deal Status'
+#. Option for the 'Color' (Select) field in DocType 'CRM Lead Status'
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+msgid "orange"
+msgstr "laranja"
+
+#. Option for the 'Color' (Select) field in DocType 'CRM Deal Status'
+#. Option for the 'Color' (Select) field in DocType 'CRM Lead Status'
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+msgid "pink"
+msgstr "rosa"
+
+#: frontend/src/components/FieldLayoutEditor.vue:366
+msgid "previous"
+msgstr "anterior"
+
+#: frontend/src/components/Activities/AttachmentArea.vue:97
+msgid "private"
+msgstr "privado"
+
+#: frontend/src/components/Activities/AttachmentArea.vue:97
+msgid "public"
+msgstr "público"
+
+#. Option for the 'Color' (Select) field in DocType 'CRM Deal Status'
+#. Option for the 'Color' (Select) field in DocType 'CRM Lead Status'
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+msgid "purple"
+msgstr "roxo"
+
+#: crm/api/whatsapp.py:66
+msgid "received a whatsapp message in {0}"
+msgstr "recebeu uma mensagem do WhatsApp em {0}"
+
+#. Option for the 'Color' (Select) field in DocType 'CRM Deal Status'
+#. Option for the 'Color' (Select) field in DocType 'CRM Lead Status'
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+msgid "red"
+msgstr "vermelho"
+
+#. Option for the 'Color' (Select) field in DocType 'CRM Deal Status'
+#. Option for the 'Color' (Select) field in DocType 'CRM Lead Status'
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+msgid "teal"
+msgstr "verde-azulado"
+
+#: frontend/src/components/Activities/Activities.vue:288
+#: frontend/src/components/Activities/Activities.vue:355
+msgid "to"
+msgstr "para"
+
+#: frontend/src/utils/index.js:105 frontend/src/utils/index.js:152
+msgid "tomorrow"
+msgstr "amanhã"
+
+#: crm/api/activities.py:106 crm/api/activities.py:247
+msgid "value"
+msgstr "valor"
+
+#. Option for the 'Color' (Select) field in DocType 'CRM Deal Status'
+#. Option for the 'Color' (Select) field in DocType 'CRM Lead Status'
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+msgid "violet"
+msgstr "violeta"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:247
+#: frontend/src/components/Settings/CalendarSettings.vue:123
+#: frontend/src/components/Settings/CalendarSettings.vue:212
+msgid "week"
+msgstr "semana"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:179
+#: frontend/src/components/Calendar/EventNotifications.vue:198
+msgid "week before"
+msgstr "uma semana antes"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:247
+#: frontend/src/components/Settings/CalendarSettings.vue:123
+#: frontend/src/components/Settings/CalendarSettings.vue:212
+msgid "weeks"
+msgstr "semanas"
+
+#: frontend/src/components/Calendar/EventNotifications.vue:179
+#: frontend/src/components/Calendar/EventNotifications.vue:198
+msgid "weeks before"
+msgstr "semanas antes"
+
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:193
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:277
+msgid "which are not compatible with this UI, you will need to recreate the conditions here if you want to manage and add new conditions from this UI."
+msgstr "que não são compatíveis com esta interface. Você precisará recriar as condições aqui se quiser gerenciar e adicionar novas condições por esta interface."
+
+#. Option for the 'Color' (Select) field in DocType 'CRM Deal Status'
+#. Option for the 'Color' (Select) field in DocType 'CRM Lead Status'
+#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+msgid "yellow"
+msgstr "amarelo"
 
 #: frontend/src/utils/index.js:179
 msgid "yesterday"
@@ -32,7 +628,7 @@ msgstr "{0} M"
 
 #: crm/api/todo.py:41
 msgid "{0} assigned a {1} {2} to you"
-msgstr "{0} atribuiu um(a) {1} {2} a você"
+msgstr "{0} atribuiu {1} {2} a você"
 
 #: frontend/src/components/Calendar/CalendarEventPanel.vue:134
 msgid "{0} attendees"
@@ -82,7 +678,7 @@ msgstr "{0} é um endereço de e-mail inválido"
 #: frontend/src/components/Modals/ContactModal.vue:110
 #: frontend/src/components/Modals/ConvertToDealModal.vue:169
 msgid "{0} is required"
-msgstr "{0} é obrigatório"
+msgstr "É obrigatório informar {0}"
 
 #: frontend/src/utils/index.js:119
 msgid "{0} m"
@@ -110,7 +706,7 @@ msgstr "{0} recusados"
 
 #: frontend/src/utils/index.js:128
 msgid "{0} w"
-msgstr "{0} s"
+msgstr "{0} sem"
 
 #: frontend/src/utils/index.js:185
 msgid "{0} weeks ago"
@@ -119,31 +715,3 @@ msgstr "há {0} semanas"
 #: frontend/src/utils/index.js:132
 msgid "{0} y"
 msgstr "{0} a"
-
-#: frontend/src/utils/index.js:193
-msgid "{0} years ago"
-msgstr "há {0} anos"
-
-#: frontend/src/components/Calendar/CalendarEventPanel.vue:644
-msgid "{0} yes"
-msgstr "{0} confirmados"
-
-#: frontend/src/data/script.js:326
-msgid "⚠️ Avoid using \"trigger\" as a field name — it conflicts with the built-in trigger() method."
-msgstr "⚠️ Evite usar \"trigger\" como nome de campo — ele entra em conflito com o método trigger() interno."
-
-#: frontend/src/data/script.js:338
-msgid "⚠️ Method \"{0}\" not found in class."
-msgstr "⚠️ Método \"{0}\" não encontrado na classe."
-
-#: frontend/src/data/script.js:83
-msgid "⚠️ No class found for doctype: {0}, it is mandatory to have a class for the parent doctype. it can be empty, but it should be present."
-msgstr "⚠️ Nenhuma classe encontrada para o doctype: {0}. É obrigatório ter uma classe para o doctype pai. Ela pode estar vazia, mas deve existir."
-
-#: frontend/src/data/script.js:180
-msgid "⚠️ No data found for parent field: {0}"
-msgstr "⚠️ Nenhum dado encontrado para o campo pai: {0}"
-
-#: frontend/src/data/script.js:188
-msgid "⚠️ No row found for idx: {0} in parent field: {1}"
-msgstr "⚠️ Nenhuma linha encontrada para o idx: {0} no campo pai: {1}"

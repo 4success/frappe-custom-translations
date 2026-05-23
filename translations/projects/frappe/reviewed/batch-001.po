@@ -88,7 +88,7 @@ msgstr "'Na visualização de lista' não é permitido para o tipo {0} na linha 
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:164
 msgid "'Recipients' not specified"
-msgstr "'Destinatarios' não especificado"
+msgstr "'Destinatários' não especificados"
 
 #: frappe/utils/__init__.py:268
 msgid "'{0}' is not a valid IBAN"
@@ -139,14 +139,14 @@ msgstr "0 - fácil demais de adivinhar: senha arriscada.\n"
 "<br>\n"
 "2 - relativamente fácil de adivinhar: proteção contra ataques online sem limitação.\n"
 "<br>\n"
-"3 - dificil de adivinhar com segurança: proteção moderada contra cenário offline com hash lento.\n"
+"3 - difícil de adivinhar com segurança: proteção moderada contra cenário offline com hash lento.\n"
 "<br>\n"
-"4 - muito dificil de adivinhar: forte proteção contra cenário offline com hash lento."
+"4 - muito difícil de adivinhar: forte proteção contra cenário offline com hash lento."
 
 #. Description of the 'Priority' (Int) field in DocType 'Web Page'
 #: frappe/website/doctype/web_page/web_page.json
 msgid "0 is highest"
-msgstr "0 é o mais alto"
+msgstr "0 é a maior prioridade"
 
 #: frappe/public/js/frappe/form/grid_row.js:892
 msgid "1 = True & 0 = False"
@@ -348,7 +348,7 @@ msgid "<div class=\"well\">\n"
 "    </ul>\n"
 "</div>\n"
 "<br>\n"
-msgstr "<div class=\"well\">\n    Edite a lista de séries na caixa. Regras:\n    <ul>\n        <li>Cada prefixo de série em uma nova linha.</li>\n        <li>Os caracteres especiais permitidos são \"/\" e \"-\"</li>\n        <li>\n            Opcionalmente, defina o número de dígitos da série usando ponto (.)\n            seguido de cerquilhas (#). Por exemplo, \".####\" significa que a série\n            tera quatro dígitos. O padrão e cinco dígitos.\n        </li>\n        <li>\n            Você também pode usar variáveis no nome da série colocando-as\n            entre pontos (.)\n            <br>\n            Variáveis suportadas:\n            <ul>\n                <li><code>.YYYY.</code> - Ano com 4 dígitos</li>\n                <li><code>.YY.</code> - Ano com 2 dígitos</li>\n                <li><code>.MM.</code> - Mês</li>\n                <li><code>.DD.</code> - Dia do mês</li>\n                <li><code>.WW.</code> - Semana do ano</li>\n                <li>\n                    <code>.{fieldname}.</code> - nome do campo no documento, por exemplo\n                    <code>branch</code>\n                </li>\n                <li><code>.FY.</code> - Ano fiscal (requer ERPNext instalado)</li>\n                <li><code>.ABBR.</code> - Abreviação da empresa (requer ERPNext instalado)</li>\n            </ul>\n        </li>\n    </ul>\n    Exemplos:\n    <ul>\n        <li>INV-</li>\n        <li>INV-10-</li>\n        <li>INVK-</li>\n        <li>INV-.YYYY.-.{branch}.-.MM.-.####</li>\n    </ul>\n</div>\n<br>\n"
+msgstr "<div class=\"well\">\n    Edite a lista de séries na caixa. Regras:\n    <ul>\n        <li>Cada prefixo de série em uma nova linha.</li>\n        <li>Os caracteres especiais permitidos são \"/\" e \"-\"</li>\n        <li>\n            Opcionalmente, defina o número de dígitos da série usando ponto (.)\n            seguido de cerquilhas (#). Por exemplo, \".####\" significa que a série\n            terá quatro dígitos. O padrão é cinco dígitos.\n        </li>\n        <li>\n            Você também pode usar variáveis no nome da série colocando-as\n            entre pontos (.)\n            <br>\n            Variáveis suportadas:\n            <ul>\n                <li><code>.YYYY.</code> - Ano com 4 dígitos</li>\n                <li><code>.YY.</code> - Ano com 2 dígitos</li>\n                <li><code>.MM.</code> - Mês</li>\n                <li><code>.DD.</code> - Dia do mês</li>\n                <li><code>.WW.</code> - Semana do ano</li>\n                <li>\n                    <code>.{fieldname}.</code> - nome do campo no documento, por exemplo\n                    <code>branch</code>\n                </li>\n                <li><code>.FY.</code> - Ano fiscal (requer ERPNext instalado)</li>\n                <li><code>.ABBR.</code> - Abreviação da empresa (requer ERPNext instalado)</li>\n            </ul>\n        </li>\n    </ul>\n    Exemplos:\n    <ul>\n        <li>INV-</li>\n        <li>INV-10-</li>\n        <li>INVK-</li>\n        <li>INV-.YYYY.-.{branch}.-.MM.-.####</li>\n    </ul>\n</div>\n<br>\n"
 
 #. Content of the 'Custom HTML Help' (HTML) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
@@ -375,9 +375,9 @@ msgstr "<h3>Ajuda de CSS personalizado</h3>\n\n"
 "<li>Todas as quebras de coluna recebem a classe <code>column-break</code></li>\n"
 "</ol>\n\n"
 "<h4>Exemplos</h4>\n\n"
-"<p>1. Alinhar inteiros a esquerda</p>\n\n"
+"<p>1. Alinhar inteiros à esquerda</p>\n\n"
 "<pre><code>[data-fieldtype=\"Int\"] .value { text-align: left; }</code></pre>\n\n"
-"<p>1. Adicionar borda as seções, exceto a ultima seção</p>\n\n"
+"<p>1. Adicionar borda às seções, exceto à última seção</p>\n\n"
 "<pre><code>.section-break { padding: 30px 0px; border-bottom: 1px solid #eee; }\n"
 ".section-break:last-child { padding-bottom: 0px; border-bottom: 0px;  }</code></pre>\n"
 
@@ -490,7 +490,7 @@ msgstr "<h4>Exemplo de resposta por e-mail</h4>\n\n"
 "- Valor: {{ grand_total }}\n"
 "</pre>\n\n"
 "<h4>Como obter nomes de campos</h4>\n\n"
-"<p>Os nomes de campos que você pode usar no template de e-mail são os campos do documento do qual você esta enviando o e-mail. Você pode ver os campos de qualquer documento em Configuração &gt; Personalizar formulário e selecionando o tipo de documento (por exemplo, Sales Invoice)</p>\n\n"
+"<p>Os nomes de campos que você pode usar no template de e-mail são os campos do documento do qual você está enviando o e-mail. Você pode ver os campos de qualquer documento em Configuração &gt; Personalizar formulário e selecionando o tipo de documento (por exemplo, Sales Invoice)</p>\n\n"
 "<h4>Template</h4>\n\n"
 "<p>Os templates são compilados usando a linguagem de template Jinja. Para saber mais sobre Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">leia esta documentação.</a></p>\n"
 
@@ -515,7 +515,7 @@ msgid "<h5>Message Example</h5>\n\n"
 "&lt;li&gt;Amount: {{ doc.grand_total }}\n"
 "&lt;/ul&gt;\n"
 "</pre>"
-msgstr "<h5>Exemplo de mensagem</h5>\n\n<pre>&lt;h3&gt;Atraso no pedido&lt;/h3&gt;\n\n&lt;p&gt;A transação {{ doc.name }} ultrapassou a data de vencimento. Tome as ações necessárias.&lt;/p&gt;\n\n&lt;!-- show last comment --&gt;\n{% if comments %}\nUltimo comentário: {{ comments[-1].comment }} por {{ comments[-1].by }}\n{% endif %}\n\n&lt;h4&gt;Detalhes&lt;/h4&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Cliente: {{ doc.customer }}\n&lt;li&gt;Valor: {{ doc.grand_total }}\n&lt;/ul&gt;\n</pre>"
+msgstr "<h5>Exemplo de mensagem</h5>\n\n<pre>&lt;h3&gt;Atraso no pedido&lt;/h3&gt;\n\n&lt;p&gt;A transação {{ doc.name }} ultrapassou a data de vencimento. Tome as ações necessárias.&lt;/p&gt;\n\n&lt;!-- show last comment --&gt;\n{% if comments %}\nÚltimo comentário: {{ comments[-1].comment }} por {{ comments[-1].by }}\n{% endif %}\n\n&lt;h4&gt;Detalhes&lt;/h4&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Cliente: {{ doc.customer }}\n&lt;li&gt;Valor: {{ doc.grand_total }}\n&lt;/ul&gt;\n</pre>"
 
 #. Content of the 'html_7' (HTML) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
@@ -540,9 +540,9 @@ msgstr "<p><strong>Exemplos de condição:</strong></p>\n"
 msgid "<p>Multiple webforms can be created for a single doctype. Add filters specific to this webform to display correct record after submission.</p><p>For Example:</p>\n"
 "<p>If you create a separate webform every year to capture feedback from employees add a \n"
 " field named year in doctype and add a filter <b>year = 2023</b></p>\n"
-msgstr "<p>Varios formulários web podem ser criados para um único doctype. Adicione filtros específicos a este formulário web para exibir o registro correto após o envio.</p><p>Por exemplo:</p>\n"
-"<p>Se você criar um formulário web separado a cada ano para coletar feedback dos funcionarios, adicione um \n"
-" campo chamado year no doctype é um filtro <b>year = 2023</b></p>\n"
+msgstr "<p>Vários formulários web podem ser criados para um único DocType. Adicione filtros específicos a este formulário web para exibir o registro correto após o envio.</p><p>Por exemplo:</p>\n"
+"<p>Se você criar um formulário web separado a cada ano para coletar feedback dos funcionários, adicione um \n"
+" campo chamado year no DocType e um filtro <b>year = 2023</b></p>\n"
 
 #. Description of the 'Context Script' (Code) field in DocType 'Web Page'
 #: frappe/website/doctype/web_page/web_page.json
@@ -561,14 +561,14 @@ msgid "<p>To interact with above HTML you will have to use `root_element` as a p
 "let some_class_element = root_element.querySelector('.some-class');\n"
 "some_class_element.textContent = \"New content\";\n"
 "</code></pre>"
-msgstr "<p>Para interagir com o HTML acima, você precisara usar `root_element` como seletor pai.</p><p>Por exemplo:</p><pre class=\"p-3 bg-gray-100 border-radius rounded-sm mb-0\" style=\"width: fit-content;\"><code>// here root_element is provided by default\n"
+msgstr "<p>Para interagir com o HTML acima, você precisará usar `root_element` como seletor pai.</p><p>Por exemplo:</p><pre class=\"p-3 bg-gray-100 border-radius rounded-sm mb-0\" style=\"width: fit-content;\"><code>// here root_element is provided by default\n"
 "let some_class_element = root_element.querySelector('.some-class');\n"
 "some_class_element.textContent = \"New content\";\n"
 "</code></pre>"
 
 #: frappe/twofactor.py:460
 msgid "<p>Your OTP secret on {0} has been reset. If you did not perform this reset and did not request it, please contact your System Administrator immediately.</p>"
-msgstr "<p>Sua chave OTP em {0} foi redefinida. Se você não fez essa redefinicao nem a solicitou, entre em contato com o Administrador do sistema imediatamente.</p>"
+msgstr "<p>Sua chave OTP em {0} foi redefinida. Se você não fez essa redefinição nem a solicitou, entre em contato com o Administrador do sistema imediatamente.</p>"
 
 #. Description of the 'Cron Format' (Data) field in DocType 'Scheduled Job
 #. Type'
@@ -590,7 +590,7 @@ msgid "<pre>*  *  *  *  *\n"
 msgstr "<pre>*  *  *  *  *\n"
 "┬  ┬  ┬  ┬  ┬\n"
 "│  │  │  │  │\n"
-"│  │  │  │  └ dia da semana (0 - 6) (0 e domingo)\n"
+"│  │  │  │  └ dia da semana (0 - 6) (0 é domingo)\n"
 "│  │  │  └───── mês (1 - 12)\n"
 "│  │  └────────── dia do mês (1 - 31)\n"
 "│  └─────────────── hora (0 - 23)\n"
@@ -616,8 +616,8 @@ msgid "<pre><code>doc.grand_total &gt; 0</code></pre>\n\n"
 "</ul>\n"
 "<p>Example: </p><pre><code>doc.creation &gt; frappe.utils.add_to_date(frappe.utils.now_datetime(), days=-5, as_string=True, as_datetime=True) </code></pre><p></p>"
 msgstr "<pre><code>doc.grand_total &gt; 0</code></pre>\n\n"
-"<p>As condicoes devem ser escritas em Python simples. Use apenas propriedades disponíveis no formulário.</p>\n"
-"<p>Funcoes permitidas:\n"
+"<p>As condições devem ser escritas em Python simples. Use apenas propriedades disponíveis no formulário.</p>\n"
+"<p>Funções permitidas:\n"
 "</p><ul>\n"
 "<li>frappe.db.get_value</li>\n"
 "<li>frappe.db.get_list</li>\n"
@@ -663,7 +663,7 @@ msgstr "O nome de um DocType deve começar com uma letra e pode conter apenas le
 #. Description of a DocType
 #: frappe/integrations/doctype/oauth_settings/oauth_settings.json
 msgid "A Frappe Framework instance can function as an OAuth Client, Resource, or Authorization server. This DocType contains settings related to all three."
-msgstr "Uma instancia do Frappe Framework pode funcionar como servidor OAuth Client, Resource ou Authorization. Este DocType contém configurações relacionadas aos tres."
+msgstr "Uma instância do Frappe Framework pode funcionar como servidor OAuth Client, Resource ou Authorization. Este DocType contém configurações relacionadas aos três."
 
 #. Success message of the request-data Web Form
 #: frappe/website/web_form/request_data/request_data.json
@@ -681,7 +681,7 @@ msgstr "Já existe um arquivo com o mesmo nome {}"
 #. Description of the 'Scopes' (Text) field in DocType 'OAuth Client'
 #: frappe/integrations/doctype/oauth_client/oauth_client.json
 msgid "A list of resources which the Client App will have access to after the user allows it.<br> e.g. project"
-msgstr "Uma lista de recursos aos quais o aplicativo cliente tera acesso após a autorização do usuário.<br> Por exemplo: project"
+msgstr "Uma lista de recursos aos quais o aplicativo cliente terá acesso após a autorização do usuário.<br> Por exemplo: project"
 
 #: frappe/templates/emails/new_user.html:5
 msgid "A new account has been created for you at {0}"
@@ -689,7 +689,7 @@ msgstr "Uma nova conta foi criada para você em {0}"
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:431
 msgid "A recurring {0} {1} has been created for you via Auto Repeat {2}."
-msgstr "Um(a) {0} recorrente {1} foi criado(a) para você via Repeticao automática {2}."
+msgstr "Um(a) {0} recorrente {1} foi criado(a) para você via Repetição automática {2}."
 
 #. Description of the 'Symbol' (Data) field in DocType 'Currency'
 #: frappe/geo/doctype/currency/currency.json
@@ -711,7 +711,7 @@ msgstr "Uma string identificadora de versão para o software cliente.\n"
 
 #: frappe/utils/password_strength.py:169
 msgid "A word by itself is easy to guess."
-msgstr "Uma palavra sozinha e fácil de adivinhar."
+msgstr "Uma palavra sozinha é fácil de adivinhar."
 
 #. Option for the 'PDF Page Size' (Select) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -776,7 +776,7 @@ msgstr "API"
 #. Label of the api_access (Section Break) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "API Access"
-msgstr "Acesso API"
+msgstr "Acesso à API"
 
 #. Label of the api_endpoint (Data) field in DocType 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
@@ -835,7 +835,7 @@ msgstr "Método API"
 #. Name of a DocType
 #: frappe/core/doctype/api_request_log/api_request_log.json
 msgid "API Request Log"
-msgstr "Log de requisicoes da API"
+msgstr "Log de requisições da API"
 
 #. Label of the api_secret (Password) field in DocType 'User'
 #. Label of the api_secret (Password) field in DocType 'Email Account'
@@ -862,19 +862,19 @@ msgstr "Sobre"
 
 #: frappe/www/about.html:11 frappe/www/about.html:18
 msgid "About Us"
-msgstr "Sobre nos"
+msgstr "Sobre nós"
 
 #. Name of a DocType
 #. Label of a Link in the Website Workspace
 #: frappe/website/doctype/about_us_settings/about_us_settings.json
 #: frappe/website/workspace/website/website.json
 msgid "About Us Settings"
-msgstr "Configurações de Sobre nos"
+msgstr "Configurações de Sobre nós"
 
 #. Name of a DocType
 #: frappe/website/doctype/about_us_team_member/about_us_team_member.json
 msgid "About Us Team Member"
-msgstr "Membro da equipe de Sobre nos"
+msgstr "Membro da equipe de Sobre nós"
 
 #: frappe/core/doctype/data_import/data_import.js:27
 msgid "About {0} minute remaining"
@@ -979,7 +979,7 @@ msgstr "Não foi possível obter a contagem exata; clique aqui para ver todos os
 #: frappe/workflow/doctype/workflow_transition/workflow_transition.json
 #: frappe/workflow/page/workflow_builder/workflow_builder.js:37
 msgid "Action"
-msgstr "Acao"
+msgstr "Ação"
 
 #. Label of the action (Small Text) field in DocType 'DocType Action'
 #: frappe/core/doctype/doctype_action/doctype_action.json
@@ -989,7 +989,7 @@ msgstr "Ação / Rota"
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:305
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:376
 msgid "Action Complete"
-msgstr "Acao concluida"
+msgstr "Ação concluída"
 
 #: frappe/model/document.py:1941
 msgid "Action Failed"
@@ -1003,7 +1003,7 @@ msgstr "Etiqueta de ação"
 #. Label of the action_timeout (Int) field in DocType 'Success Action'
 #: frappe/core/doctype/success_action/success_action.json
 msgid "Action Timeout (Seconds)"
-msgstr "Tempo Limite de Ação (Segundos)"
+msgstr "Tempo limite da ação (segundos)"
 
 #. Label of the action_type (Select) field in DocType 'DocType Action'
 #: frappe/core/doctype/doctype_action/doctype_action.json
@@ -1012,7 +1012,7 @@ msgstr "Tipo de ação"
 
 #: frappe/core/doctype/submission_queue/submission_queue.py:120
 msgid "Action {0} completed successfully on {1} {2}. View it {3}"
-msgstr "A ação {0} foi concluida com sucesso em {1} {2}. Veja {3}"
+msgstr "A ação {0} foi concluída com sucesso em {1} {2}. Veja {3}"
 
 #: frappe/core/doctype/submission_queue/submission_queue.py:116
 msgid "Action {0} failed on {1} {2}. View it {3}"
@@ -1048,7 +1048,7 @@ msgstr "A ação {0} falhou em {1} {2}. Veja {3}"
 #: frappe/public/js/frappe/views/reports/query_report.js:214
 #: frappe/public/js/frappe/views/reports/query_report.js:853
 msgid "Actions"
-msgstr "Acoes"
+msgstr "Ações"
 
 #. Label of the activate (Check) field in DocType 'Package Import'
 #: frappe/core/doctype/package_import/package_import.json

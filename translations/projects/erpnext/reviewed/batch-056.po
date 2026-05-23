@@ -21,7 +21,7 @@ msgstr ""
 #. Label of a Link in the Quality Workspace
 #: erpnext/quality_management/workspace/quality/quality.json
 msgid "Tree of Procedures"
-msgstr "Arvore de Procedimentos"
+msgstr "Árvore de procedimentos"
 
 #. Name of a report
 #. Label of a Link in the Financial Reports Workspace
@@ -40,7 +40,7 @@ msgstr "Balancete (simples)"
 #: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.json
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json
 msgid "Trial Balance for Party"
-msgstr "Balancete Por Parceiro"
+msgstr "Balancete por cadastro"
 
 #. Label of the trial_period_end (Date) field in DocType 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
@@ -77,7 +77,7 @@ msgstr "Trunca a coluna 'Observações' no tamanho de caracteres definido"
 #: erpnext/accounts/report/financial_ratios/financial_ratios.js:55
 #: erpnext/accounts/report/financial_ratios/financial_ratios.py:198
 msgid "Turnover Ratios"
-msgstr "Indices de Giro"
+msgstr "Índices de giro"
 
 #. Option for the 'Frequency To Collect Progress' (Select) field in DocType
 #. 'Project'
@@ -338,12 +338,12 @@ msgstr "UOMs"
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
 msgid "UPC"
-msgstr ""
+msgstr "UPC"
 
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
 msgid "UPC-A"
-msgstr ""
+msgstr "UPC-A"
 
 #: erpnext/utilities/doctype/video/video.py:114
 msgid "URL can only be a string"
@@ -379,11 +379,11 @@ msgstr "Não foi possível encontrar uma pontuação iniciando em {0}. Você pre
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1013
 msgid "Unable to find the time slot in the next {0} days for the operation {1}. Please increase the 'Capacity Planning For (Days)' in the {2}."
-msgstr "Não foi possível encontrar um intervalo de tempo nos proximos {0} dias para a operação {1}. Aumente 'Planejamento de Capacidade para (Dias)' em {2}."
+msgstr "Não foi possível encontrar um intervalo de tempo nos próximos {0} dias para a operação {1}. Aumente 'Planejamento de Capacidade para (Dias)' em {2}."
 
 #: erpnext/buying/doctype/supplier_scorecard_criteria/supplier_scorecard_criteria.py:98
 msgid "Unable to find variable:"
-msgstr "Não foi possível encontrar a variavel:"
+msgstr "Não foi possível encontrar a variável:"
 
 #. Label of the unallocated_amount (Currency) field in DocType 'Bank
 #. Transaction'
@@ -396,7 +396,7 @@ msgstr "Valor Não Alocado"
 
 #: erpnext/stock/doctype/putaway_rule/putaway_rule.py:323
 msgid "Unassigned Qty"
-msgstr "Qtd. Não Atribuida"
+msgstr "Qtd. não atribuída"
 
 #: erpnext/accounts/doctype/budget/budget.py:649
 msgid "Unbilled Orders"
@@ -419,7 +419,7 @@ msgstr "Lucro / Prejuízo (crédito) de Anos Fiscais Não Encerrados"
 #: erpnext/stock/doctype/serial_no/serial_no.json
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Under AMC"
-msgstr "Sob Contrato de Manutencao"
+msgstr "Sob contrato de manutenção"
 
 #. Option for the 'Level' (Select) field in DocType 'Employee Education'
 #: erpnext/setup/doctype/employee_education/employee_education.json
@@ -432,11 +432,11 @@ msgstr "Graduação"
 #: erpnext/stock/doctype/serial_no/serial_no.json
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Under Warranty"
-msgstr "Na Garantia"
+msgstr "Em garantia"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.js:78
 msgid "Under Working Hours table, you can add start and end times for a Workstation. For example, a Workstation may be active from 9 am to 1 pm, then 2 pm to 5 pm. You can also specify the working hours based on shifts. While scheduling a Work Order, the system will check for the availability of the Workstation based on the working hours specified."
-msgstr "Na tabela Horario de Trabalho, você pode adicionar horarios de início e fim para um Posto de Trabalho. Por exemplo, um Posto de Trabalho pode ficar ativo das 9h as 13h e depois das 14h as 17h. Você também pode definir o horario de trabalho com base em turnos. Ao programar uma Ordem de Trabalho, o sistema verificara a disponibilidade do Posto de Trabalho com base no horario informado."
+msgstr "Na tabela Horário de Trabalho, você pode adicionar horários de início e fim para um Posto de Trabalho. Por exemplo, um Posto de Trabalho pode ficar ativo das 9h às 13h e depois das 14h às 17h. Você também pode definir o horário de trabalho com base em turnos. Ao programar uma Ordem de Trabalho, o sistema verificará a disponibilidade do Posto de Trabalho com base no horário informado."
 
 #. Option for the 'Fulfilment Status' (Select) field in DocType 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
@@ -450,7 +450,7 @@ msgstr "Unidade"
 
 #: erpnext/controllers/accounts_controller.py:4041
 msgid "Unit Price"
-msgstr "Preço Unitario"
+msgstr "Preço unitário"
 
 #: erpnext/buying/report/procurement_tracker/procurement_tracker.py:68
 msgid "Unit of Measure"
@@ -521,7 +521,7 @@ msgstr "Não Pago e Descontado"
 #. Option for the 'Stop Reason' (Select) field in DocType 'Downtime Entry'
 #: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json
 msgid "Unplanned machine maintenance"
-msgstr "Manutencao não planejada da maquina"
+msgstr "Manutenção não planejada da máquina"
 
 #. Option for the 'Qualification Status' (Select) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
@@ -544,19 +544,19 @@ msgstr "Conta de Ganho/Perda Cambial Não Realizado"
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 #: erpnext/setup/doctype/company/company.json
 msgid "Unrealized Profit / Loss Account"
-msgstr "Conta de Lucro / Prejuizo Não Realizado"
+msgstr "Conta de Lucro / Prejuízo Não Realizado"
 
 #. Description of the 'Unrealized Profit / Loss Account' (Link) field in
 #. DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Unrealized Profit / Loss account for intra-company transfers"
-msgstr "Conta de Lucro / Prejuizo Não Realizado para transferências entre empresas"
+msgstr "Conta de Lucro / Prejuízo Não Realizado para transferências entre empresas"
 
 #. Description of the 'Unrealized Profit / Loss Account' (Link) field in
 #. DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Unrealized Profit/Loss account for intra-company transfers"
-msgstr "Conta de Lucro/Prejuizo Não Realizado para transferências entre empresas"
+msgstr "Conta de Lucro/Prejuízo Não Realizado para transferências entre empresas"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/unreconcile_payment/unreconcile_payment.json
@@ -608,7 +608,7 @@ msgstr "Cancelar Reserva de Estoque"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:295
 msgid "Unreserve for Raw Materials"
-msgstr "Cancelar Reserva de Materias-Primas"
+msgstr "Cancelar reserva de matérias-primas"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:269
 msgid "Unreserve for Sub-assembly"
@@ -649,7 +649,7 @@ msgstr "Não Assinado"
 
 #: erpnext/setup/doctype/email_digest/email_digest.py:128
 msgid "Unsubscribe from this Email Digest"
-msgstr "Cancelar inscricao neste resumo por e-mail"
+msgstr "Cancelar inscrição neste resumo por e-mail"
 
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:24
 msgid "Until"
@@ -671,11 +671,11 @@ msgstr "Acima"
 #. Label of the calendar_events (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Upcoming Calendar Events"
-msgstr "Proximos Eventos do Calendario"
+msgstr "Próximos eventos do calendário"
 
 #: erpnext/setup/doctype/email_digest/templates/default.html:97
 msgid "Upcoming Calendar Events "
-msgstr "Proximos Eventos do Calendario "
+msgstr "Próximos eventos do calendário "
 
 #: erpnext/accounts/doctype/account/account.js:52
 msgid "Update Account Name / Number"
@@ -711,7 +711,7 @@ msgstr "Atualizar Informações Adicionais"
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "Update Auto Repeat Reference"
-msgstr "Atualizar Referência de Repeticao Automatica"
+msgstr "Atualizar referência de repetição automática"
 
 #. Label of the update_bom_costs_automatically (Check) field in DocType
 #. 'Manufacturing Settings'
@@ -763,7 +763,7 @@ msgstr "Atualizar Valor Faturado no Pedido de Venda"
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.js:42
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.js:44
 msgid "Update Clearance Date"
-msgstr "Atualizar Data Liquidação"
+msgstr "Atualizar Data de Compensação"
 
 #. Label of the update_consumed_material_cost_in_project (Check) field in
 #. DocType 'Work Order'
@@ -816,7 +816,7 @@ msgstr "Atualizar Itens"
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 #: erpnext/controllers/accounts_controller.py:196
 msgid "Update Outstanding for Self"
-msgstr "Atualizar Saldo Pendente para a Propria Empresa"
+msgstr "Atualizar Saldo Pendente para a Própria Empresa"
 
 #. Label of the update_price_list_based_on (Select) field in DocType 'Stock
 #. Settings'
@@ -857,13 +857,13 @@ msgstr "Tipo de Atualização"
 #. Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Update frequency of Project"
-msgstr "Frequencia de atualização do Projeto"
+msgstr "Frequência de atualização do projeto"
 
 #. Label of the update_latest_price_in_all_boms (Button) field in DocType 'BOM
 #. Update Tool'
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
 msgid "Update latest price in all BOMs"
-msgstr "Atualizar o ultimo preço em todas as BOMs"
+msgstr "Atualizar o último preço em todas as BOMs"
 
 #: erpnext/assets/doctype/asset/asset.py:466
 msgid "Update stock must be enabled for the purchase invoice {0}"
@@ -913,13 +913,13 @@ msgstr "Atualizando detalhes."
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.js:48
 msgid "Upload Bank Statement"
-msgstr "Enviar Extrato Bancario"
+msgstr "Carregar extrato bancário"
 
 #. Label of the upload_xml_invoices_section (Section Break) field in DocType
 #. 'Import Supplier Invoice'
 #: erpnext/regional/doctype/import_supplier_invoice/import_supplier_invoice.json
 msgid "Upload XML Invoices"
-msgstr "Enviar Faturas XML"
+msgstr "Carregar Faturas XML"
 
 #. Description of the 'Submit ERR Journals?' (Check) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
@@ -946,7 +946,7 @@ msgstr "Urgente"
 
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.js:36
 msgid "Use 'Repost in background' button to trigger background job. Job can only be triggered when document is in Queued or Failed status."
-msgstr "Use o botao 'Repost in background' para acionar a tarefa em segundo plano. A tarefa só pode ser acionada quando o documento estiver com status Em fila ou Falhou."
+msgstr "Use o botão 'Repost in background' para acionar a tarefa em segundo plano. A tarefa só pode ser acionada quando o documento estiver com status Em fila ou Falhou."
 
 #. Description of the 'Advanced Filtering' (Check) field in DocType 'Financial
 #. Report Row'

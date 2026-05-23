@@ -147,7 +147,7 @@ msgstr "HTML do módulo"
 #. Label of the module_name (Data) field in DocType 'Module Def'
 #: frappe/core/doctype/module_def/module_def.json
 msgid "Module Name"
-msgstr "Nome do Módulo"
+msgstr "Nome do módulo"
 
 #. Label of a Link in the Build Workspace
 #. Name of a DocType
@@ -378,13 +378,13 @@ msgstr "Não são permitidos vários nós raiz."
 #. Import'
 #: frappe/core/doctype/data_import/data_import.json
 msgid "Must be a publicly accessible Google Sheets URL"
-msgstr "Deve ser um URL de planilhas do Google acessível publicamente"
+msgstr "Deve ser uma URL do Google Sheets acessível publicamente"
 
 #. Description of the 'LDAP Search String' (Data) field in DocType 'LDAP
 #. Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "Must be enclosed in '()' and include '{0}', which is a placeholder for the user/login name. i.e. (&(objectclass=user)(uid={0}))"
-msgstr "Deve estar entre '()' e incluir '{0}', que e um placeholder para o usuário/nome de login. Ex.: (&(objectclass=user)(uid={0}))"
+msgstr "Deve estar entre '()' e incluir '{0}', que é um placeholder para o usuário/nome de login. Ex.: (&(objectclass=user)(uid={0}))"
 
 #. Description of the 'Image Field' (Data) field in DocType 'DocType'
 #. Description of the 'Image Field' (Data) field in DocType 'Customize Form'
@@ -404,7 +404,7 @@ msgstr "É necessário informar uma query para executar"
 #. Label of the mute_sounds (Check) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Mute Sounds"
-msgstr "Desativar Sons"
+msgstr "Desativar sons"
 
 #: frappe/desk/page/setup_wizard/install_fixtures.py:45
 msgid "Mx"
@@ -428,7 +428,7 @@ msgstr "MyISAM"
 
 #: frappe/workflow/doctype/workflow/workflow.js:19
 msgid "NOTE: If you add states or transitions in the table, it will be reflected in the Workflow Builder but you will have to position them manually. Also Workflow Builder is currently in <b>BETA</b>."
-msgstr "OBS.: Se você adicionar estados ou transições na tabela, isso será refletido no Construtor de fluxo de trabalho, mas você tera que posicioná-los manualmente. Alem disso, o Construtor de fluxo de trabalho está em <b>BETA</b>."
+msgstr "OBS.: Se você adicionar estados ou transições na tabela, isso será refletido no Construtor de fluxo de trabalho, mas você terá que posicioná-los manualmente. Além disso, o Construtor de fluxo de trabalho está em <b>BETA</b>."
 
 #. Description of the 'LDAP Group Field' (Data) field in DocType 'LDAP
 #. Settings'
@@ -479,7 +479,7 @@ msgstr "O nome de {0} não pode ser {1}"
 
 #: frappe/utils/password_strength.py:174
 msgid "Names and surnames by themselves are easy to guess."
-msgstr "Nomes e sobrenomes sozinhos sao faceis de adivinhar."
+msgstr "Nomes e sobrenomes, sozinhos, são fáceis de adivinhar."
 
 #. Label of the sb1 (Tab Break) field in DocType 'DocType'
 #. Label of the naming_section (Section Break) field in DocType 'Document
@@ -499,8 +499,8 @@ msgid "Naming Options:\n"
 "<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.</li></ol>"
 msgstr ""
 "Opções de nomeação:\n"
-"<ol><li><b>field:[fieldname]</b> - Por campo</li><li><b>naming_séries:</b> - Por série de nomeação (o campo chamado naming_séries deve estar presente)</li><li><b>Prompt</b> - Solicitar um nome ao usuário</li><li><b>[séries]</b> - Serie por prefixo (separada por ponto); por exemplo PRE.#####</li>\n"
-"<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Substitui todas as palavras entre chaves (nomes de campo, partes de data (DD, MM, YY), séries) pelos respectivos valores. Fora das chaves, qualquer caractere pode ser usado.</li></ol>"
+"<ol><li><b>field:[fieldname]</b> - Por campo</li><li><b>naming_series:</b> - Por série de nomeação (o campo chamado naming_series deve estar presente)</li><li><b>Prompt</b> - Solicitar um nome ao usuário</li><li><b>[series]</b> - Série por prefixo (separada por ponto); por exemplo PRE.#####</li>\n"
+"<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Substitua todas as palavras entre chaves (nomes de campo, partes de data (DD, MM, YY), séries) pelos respectivos valores. Fora das chaves, qualquer caractere pode ser usado.</li></ol>"
 
 #. Label of the naming_rule (Select) field in DocType 'DocType'
 #. Label of the naming_rule (Select) field in DocType 'Customize Form'
@@ -513,11 +513,11 @@ msgstr "Regra de nomeação"
 #. Settings'
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Naming Series"
-msgstr "Serie de nomeação"
+msgstr "Série de nomeação"
 
 #: frappe/model/naming.py:268
 msgid "Naming Series mandatory"
-msgstr "Serie de nomeação obrigatória"
+msgstr "Série de nomeação obrigatória"
 
 #. Option for the 'Type' (Select) field in DocType 'Web Template'
 #. Label of the top_bar (Section Break) field in DocType 'Website Settings'
@@ -569,7 +569,7 @@ msgstr "Navegar para cima na lista"
 
 #: frappe/public/js/frappe/ui/page.js:180
 msgid "Navigate to main content"
-msgstr "Ir para o conteudo principal"
+msgstr "Ir para o conteúdo principal"
 
 #. Label of the navigation_settings_section (Section Break) field in DocType
 #. 'User'
@@ -583,7 +583,7 @@ msgstr "Precisa de ajuda?"
 
 #: frappe/desk/doctype/workspace/workspace.py:356
 msgid "Need Workspace Manager role to edit private workspace of other users"
-msgstr "E necessario o perfil Workspace Manager para editar o espaço de trabalho privado de outros usuários"
+msgstr "É necessário o perfil Workspace Manager para editar o espaço de trabalho privado de outros usuários"
 
 #: frappe/model/document.py:837
 msgid "Negative Value"
@@ -633,7 +633,7 @@ msgstr "Novo endereço"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:58
 msgid "New Chart"
-msgstr "Novo grafico"
+msgstr "Novo gráfico"
 
 #: frappe/public/js/frappe/form/templates/contact_list.html:3
 msgid "New Contact"
@@ -646,12 +646,12 @@ msgstr "Novo bloco personalizado"
 #: frappe/printing/page/print/print.js:327
 #: frappe/printing/page/print/print.js:374
 msgid "New Custom Print Format"
-msgstr "Novo formato de impressao personalizado"
+msgstr "Novo formato de impressão personalizado"
 
 #. Label of the new_document_form (Check) field in DocType 'Form Tour'
 #: frappe/desk/doctype/form_tour/form_tour.json
 msgid "New Document Form"
-msgstr "Formulario de novo documento"
+msgstr "Formulário de novo documento"
 
 #: frappe/desk/doctype/notification_log/notification_log.py:154
 msgid "New Document Shared {0}"
@@ -660,12 +660,12 @@ msgstr "Novo documento compartilhado {0}"
 #: frappe/public/js/frappe/form/footer/form_timeline.js:27
 #: frappe/public/js/frappe/views/communication.js:23
 msgid "New Email"
-msgstr "Novo email"
+msgstr "Novo e-mail"
 
 #: frappe/public/js/frappe/list/list_view_select.js:98
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:177
 msgid "New Email Account"
-msgstr "Nova conta de email"
+msgstr "Nova conta de e-mail"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:47
 msgid "New Event"
@@ -685,11 +685,11 @@ msgstr "Novos links"
 
 #: frappe/desk/doctype/notification_log/notification_log.py:152
 msgid "New Mention on {0}"
-msgstr "Nova mencao em {0}"
+msgstr "Nova menção em {0}"
 
 #: frappe/www/contact.py:68
 msgid "New Message from Website Contact Page"
-msgstr "Nova mensagem da pagina de contato do site"
+msgstr "Nova mensagem da página de contato do site"
 
 #. Label of the new_name (Read Only) field in DocType 'Deleted Document'
 #: frappe/core/doctype/deleted_document/deleted_document.json
@@ -704,7 +704,7 @@ msgstr "Nova notificação"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:64
 msgid "New Number Card"
-msgstr "Novo cartão numerico"
+msgstr "Novo cartão numérico"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:66
 msgid "New Onboarding"
@@ -718,11 +718,11 @@ msgstr "Nova senha"
 #: frappe/printing/page/print/print.js:353
 #: frappe/printing/page/print_format_builder_beta/print_format_builder_beta.js:61
 msgid "New Print Format Name"
-msgstr "Nome do novo formato de impressao"
+msgstr "Nome do novo formato de impressão"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:68
 msgid "New Quick List"
-msgstr "Nova lista rapida"
+msgstr "Nova lista rápida"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:1380
 msgid "New Report name"
@@ -740,7 +740,7 @@ msgstr "Novo atalho"
 #. Label of the new_users (Int) field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 msgid "New Users (Last 30 days)"
-msgstr "Novos usuários (ultimos 30 dias)"
+msgstr "Novos usuários (últimos 30 dias)"
 
 #: frappe/core/doctype/version/version_view.html:15
 #: frappe/core/doctype/version/version_view.html:77

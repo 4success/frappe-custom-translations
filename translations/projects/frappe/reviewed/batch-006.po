@@ -24,7 +24,7 @@ msgstr "Não é possível definir a permissão 'Report' se a permissão 'Only If
 
 #: frappe/email/doctype/notification/notification.py:240
 msgid "Cannot set Notification with event {0} on Document Type {1}"
-msgstr "Não é possível definir notificação com o evento {0} no tipo de documento {1}"
+msgstr "Não é possível definir notificação para o evento {0} no tipo de documento {1}"
 
 #: frappe/core/doctype/docshare/docshare.py:67
 msgid "Cannot share {0} with submit permission as the doctype {1} is not submittable"
@@ -131,7 +131,7 @@ msgstr "Alterar rótulo (via tradução personalizada)"
 #: frappe/public/js/print_format_builder/LetterHeadEditor.vue:45
 #: frappe/public/js/print_format_builder/LetterHeadEditor.vue:141
 msgid "Change Letter Head"
-msgstr "Alterar timbre"
+msgstr "Alterar papel timbrado"
 
 #. Label of the change_password (Section Break) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
@@ -270,7 +270,7 @@ msgstr "Marque esta opção se não quiser que os usuários criem uma conta no s
 #. 'Document Naming Settings'
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Check this if you want to force the user to select a series before saving. There will be no default if you check this."
-msgstr "Marque esta opção se você deseja forçar o usuário a selecionar uma série antes de salvar. Não haverá nenhum padrão se você marcar isso."
+msgstr "Marque esta opção se quiser forçar o usuário a selecionar uma série antes de salvar. Não haverá padrão se marcar isso."
 
 #. Description of the 'Show Full Number' (Check) field in DocType 'Number Card'
 #: frappe/desk/doctype/number_card/number_card.json
@@ -279,34 +279,34 @@ msgstr "Marque para exibir o valor numérico completo (por exemplo, 1.234.567 em
 
 #: frappe/public/js/frappe/desk.js:235
 msgid "Checking one moment"
-msgstr "Verificando, um momento"
+msgstr "Verificando, aguarde"
 
 #: frappe/website/doctype/website_settings/website_settings.js:140
 msgid "Checking this will enable tracking page views for blogs, web pages, etc."
-msgstr "Marcar esta opção habilitará o rastreamento de visualizações de página para blogs, páginas da web etc."
+msgstr "Marque esta opção para habilitar o rastreamento de visualizações de página para blogs, páginas da web etc."
 
 #. Description of the 'Hide Custom DocTypes and Reports' (Check) field in
 #. DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
 msgid "Checking this will hide custom doctypes and reports cards in Links section"
-msgstr "Marcar esta opção ocultará os cartões de doctypes e relatórios personalizados na seção Links"
+msgstr "Marque esta opção para ocultar os cartões de DocTypes e relatórios personalizados na seção Links"
 
 #: frappe/website/doctype/web_page/web_page.js:78
 msgid "Checking this will publish the page on your website and it'll be visible to everyone."
-msgstr "Marcar esta opção publicará a página no seu site e ela ficará visível para todos."
+msgstr "Marque esta opção para publicar a página no seu site e deixá-la visível para todos."
 
 #: frappe/website/doctype/web_page/web_page.js:104
 msgid "Checking this will show a text area where you can write custom javascript that will run on this page."
-msgstr "Marcar esta opção exibirá uma área de texto onde você poderá escrever JavaScript personalizado que será executado nesta página."
+msgstr "Marque esta opção para exibir uma área de texto onde você poderá escrever JavaScript personalizado que será executado nesta página."
 
 #: frappe/www/list.py:30
 msgid "Child DocTypes are not allowed"
-msgstr "DocTypes filho não são permitidos"
+msgstr "DocTypes filhos não são permitidos"
 
 #. Label of the child_doctype (Data) field in DocType 'Form Tour Step'
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json
 msgid "Child Doctype"
-msgstr "Doctype filho"
+msgstr "DocType filho"
 
 #. Label of the child (Check) field in DocType 'Workspace Sidebar Item'
 #: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json
@@ -415,7 +415,7 @@ msgstr "Limpar a mensagem de e-mail e adicionar o modelo"
 
 #: frappe/website/doctype/web_page/web_page.py:215
 msgid "Clearing end date, as it cannot be in the past for published pages."
-msgstr "Limpando a data final, pois ela não pode estar no passado para páginas públicadas."
+msgstr "Limpando a data final, pois ela não pode estar no passado para páginas publicadas."
 
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:194
 msgid "Click On Customize to add your first widget"

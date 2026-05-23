@@ -67,7 +67,7 @@ msgstr "Detalhes do Gateway de Pagamento"
 #. Name of a report
 #: erpnext/accounts/report/payment_ledger/payment_ledger.json
 msgid "Payment Ledger"
-msgstr "Razao de pagamentos"
+msgstr "Razão de pagamentos"
 
 #: erpnext/accounts/report/general_and_payment_ledger_comparison/general_and_payment_ledger_comparison.py:248
 msgid "Payment Ledger Balance"
@@ -76,12 +76,12 @@ msgstr "Saldo da razão de pagamentos"
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.json
 msgid "Payment Ledger Entry"
-msgstr "Lancamento da razão de pagamentos"
+msgstr "Lançamento da razão de pagamentos"
 
 #. Label of the payment_limit (Int) field in DocType 'Payment Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 msgid "Payment Limit"
-msgstr "Limite de Pagamentos"
+msgstr "Limite de pagamentos"
 
 #: erpnext/accounts/report/pos_register/pos_register.js:50
 #: erpnext/accounts/report/pos_register/pos_register.py:126
@@ -168,17 +168,17 @@ msgstr "Pagamento Recebido"
 #: erpnext/accounts/workspace/payables/payables.json
 #: erpnext/accounts/workspace/receivables/receivables.json
 msgid "Payment Reconciliation"
-msgstr "Conciliação de Pagamento"
+msgstr "Conciliação de pagamento"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_reconciliation_allocation/payment_reconciliation_allocation.json
 msgid "Payment Reconciliation Allocation"
-msgstr "Alocação da Conciliação de Pagamento"
+msgstr "Alocação da conciliação de pagamento"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_reconciliation_invoice/payment_reconciliation_invoice.json
 msgid "Payment Reconciliation Invoice"
-msgstr "Fatura da Conciliação de Pagamento"
+msgstr "Fatura da conciliação de pagamento"
 
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.js:139
 msgid "Payment Reconciliation Job: {0} is running for this party. Can't reconcile now."
@@ -187,13 +187,13 @@ msgstr "Tarefa de conciliação de pagamento: {0} está em execução para este 
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_reconciliation_payment/payment_reconciliation_payment.json
 msgid "Payment Reconciliation Payment"
-msgstr "Pagamento da Conciliação de Pagamento"
+msgstr "Pagamento da conciliação de pagamento"
 
 #. Label of the section_break_jpd0 (Section Break) field in DocType 'Accounts
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Payment Reconciliation Settings"
-msgstr "Configurações da Conciliação de Pagamento"
+msgstr "Configurações da conciliação de pagamento"
 
 #. Label of the payment_reference (Data) field in DocType 'Payment Order
 #. Reference'
@@ -283,7 +283,7 @@ msgstr "Não é possível criar pedidos de pagamento para: {0}"
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "Payment Schedule"
-msgstr "Cronograma de Pagamento"
+msgstr "Cronograma de pagamento"
 
 #: erpnext/accounts/print_format/sales_invoice_print/sales_invoice_print.html:123
 msgid "Payment Status"
@@ -306,18 +306,18 @@ msgstr "Status do Pagamento"
 #: erpnext/accounts/workspace/accounting/accounting.json
 #: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.py:30
 msgid "Payment Term"
-msgstr "Condicao de Pagamento"
+msgstr "Condição de pagamento"
 
 #. Label of the payment_term_name (Data) field in DocType 'Payment Term'
 #: erpnext/accounts/doctype/payment_term/payment_term.json
 msgid "Payment Term Name"
-msgstr "Nome da Condicao de Pagamento"
+msgstr "Nome da condição de pagamento"
 
 #. Label of the payment_term_outstanding (Float) field in DocType 'Payment
 #. Entry Reference'
 #: erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.json
 msgid "Payment Term Outstanding"
-msgstr "Valor em Aberto da Condicao de Pagamento"
+msgstr "Valor em aberto da condição de pagamento"
 
 #. Label of the terms (Table) field in DocType 'Payment Terms Template'
 #. Label of the payment_schedule_section (Section Break) field in DocType 'POS
@@ -341,12 +341,12 @@ msgstr "Valor em Aberto da Condicao de Pagamento"
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "Payment Terms"
-msgstr "Condicoes de Pagamento"
+msgstr "Condições de pagamento"
 
 #. Name of a report
 #: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.json
 msgid "Payment Terms Status for Sales Order"
-msgstr "Status das Condicoes de Pagamento do Pedido de Venda"
+msgstr "Status das condições de pagamento do pedido de venda"
 
 #. Name of a DocType
 #. Label of the payment_terms_template (Link) field in DocType 'POS Invoice'
@@ -373,22 +373,22 @@ msgstr "Status das Condicoes de Pagamento do Pedido de Venda"
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "Payment Terms Template"
-msgstr "Modelo de Condicoes de Pagamento"
+msgstr "Modelo de condições de pagamento"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_terms_template_detail/payment_terms_template_detail.json
 msgid "Payment Terms Template Detail"
-msgstr "Detalhe do Modelo de Condicoes de Pagamento"
+msgstr "Detalhe do modelo de condições de pagamento"
 
 #. Description of the 'Automatically Fetch Payment Terms from Order' (Check)
 #. field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Payment Terms from orders will be fetched into the invoices as is"
-msgstr "As condicoes de pagamento dos pedidos serão copiadas para as faturas sem alterações"
+msgstr "As condições de pagamento dos pedidos serão copiadas para as faturas sem alterações"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:45
 msgid "Payment Terms:"
-msgstr "Condicoes de Pagamento:"
+msgstr "Condições de pagamento:"
 
 #. Label of the payment_type (Select) field in DocType 'Payment Entry'
 #. Label of the payment_type (Data) field in DocType 'Payment Entry Reference'
@@ -442,7 +442,7 @@ msgstr "Falha no pedido de pagamento"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:817
 msgid "Payment term {0} not used in {1}"
-msgstr "A condicao de pagamento {0} não é usada em {1}"
+msgstr "A condição de pagamento {0} não é usada em {1}"
 
 #. Label of the payments (Table) field in DocType 'Cashier Closing'
 #. Label of the payments (Table) field in DocType 'Payment Reconciliation'
@@ -488,7 +488,7 @@ msgstr "Pagamentos atualizados."
 #. Account'
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 msgid "Payroll Entry"
-msgstr "Lancamento da Folha de Pagamento"
+msgstr "Lançamento da folha de pagamento"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:156
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:262
@@ -602,7 +602,7 @@ msgstr "Por Dia\n"
 #. Scorecard'
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json
 msgid "Per Month"
-msgstr "Por Mes"
+msgstr "Por mês"
 
 #. Label of the per_received (Percent) field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -677,18 +677,18 @@ msgstr "Período Baseado Em"
 
 #: erpnext/accounts/general_ledger.py:814
 msgid "Period Closed"
-msgstr "Periodo Encerrado"
+msgstr "Período encerrado"
 
 #: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.js:69
 #: erpnext/accounts/report/trial_balance/trial_balance.js:89
 msgid "Period Closing Entry For Current Period"
-msgstr "Lancamento de Encerramento do Periodo Atual"
+msgstr "Lançamento de encerramento do período atual"
 
 #. Label of the period_closing_settings_section (Section Break) field in
 #. DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Period Closing Settings"
-msgstr "Configurações de Encerramento de Periodo"
+msgstr "Configurações de encerramento de período"
 
 #. Label of the period_closing_voucher (Link) field in DocType 'Account Closing
 #. Balance'
@@ -712,7 +712,7 @@ msgstr "Falha ao processar o lançamento contábil do comprovante de encerrament
 #. Closing Entry'
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
 msgid "Period Details"
-msgstr "Detalhes do Periodo"
+msgstr "Detalhes do período"
 
 #. Label of the period_end_date (Date) field in DocType 'Period Closing
 #. Voucher'
@@ -722,7 +722,7 @@ msgstr "Detalhes do Periodo"
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.json
 msgid "Period End Date"
-msgstr "Data Final do Periodo"
+msgstr "Data final do período"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:69
 msgid "Period End Date cannot be greater than Fiscal Year End Date"
@@ -737,13 +737,13 @@ msgstr "Movimento do Período (Débitos - Créditos)"
 #. Label of the period_name (Data) field in DocType 'Accounting Period'
 #: erpnext/accounts/doctype/accounting_period/accounting_period.json
 msgid "Period Name"
-msgstr "Nome do Periodo"
+msgstr "Nome do período"
 
 #. Label of the total_score (Percent) field in DocType 'Supplier Scorecard
 #. Period'
 #: erpnext/buying/doctype/supplier_scorecard_period/supplier_scorecard_period.json
 msgid "Period Score"
-msgstr "Pontuação do Periodo"
+msgstr "Pontuação do período"
 
 #. Label of the section_break_23 (Section Break) field in DocType 'Pricing
 #. Rule'
@@ -752,7 +752,7 @@ msgstr "Pontuação do Periodo"
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
 msgid "Period Settings"
-msgstr "Configurações do Periodo"
+msgstr "Configurações do período"
 
 #. Label of the period_start_date (Date) field in DocType 'Period Closing
 #. Voucher'
@@ -764,7 +764,7 @@ msgstr "Configurações do Periodo"
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.json
 msgid "Period Start Date"
-msgstr "Data Inicial do Periodo"
+msgstr "Data inicial do período"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:66
 msgid "Period Start Date cannot be greater than Period End Date"
@@ -777,11 +777,11 @@ msgstr "A data inicial do período deve ser {0}"
 #. Label of the period_to_date (Datetime) field in DocType 'Bisect Nodes'
 #: erpnext/accounts/doctype/bisect_nodes/bisect_nodes.json
 msgid "Period To Date"
-msgstr "Data Final do Periodo"
+msgstr "Data final do período"
 
 #: erpnext/public/js/purchase_trends_filters.js:35
 msgid "Period based On"
-msgstr "Periodo baseado em"
+msgstr "Período baseado em"
 
 #. Label of the period_from_date (Datetime) field in DocType 'Bisect Nodes'
 #: erpnext/accounts/doctype/bisect_nodes/bisect_nodes.json
@@ -792,22 +792,22 @@ msgstr "Data inicial do período"
 #. Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 msgid "Periodic Accounting"
-msgstr "Contabilidade Periodica"
+msgstr "Contabilidade periódica"
 
 #. Option for the 'Entry Type' (Select) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 msgid "Periodic Accounting Entry"
-msgstr "Lancamento Contabil Periodico"
+msgstr "Lançamento contábil periódico"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:245
 msgid "Periodic Accounting Entry is not allowed for company {0} with perpetual inventory enabled"
-msgstr "Lancamento contábil periodico não é permitido para a empresa {0} com inventario perpetuo ativado"
+msgstr "Lançamento contábil periódico não é permitido para a empresa {0} com inventário perpétuo ativado"
 
 #. Label of the periodic_entry_difference_account (Link) field in DocType
 #. 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 msgid "Periodic Entry Difference Account"
-msgstr "Conta de Diferenca do Lancamento Periodico"
+msgstr "Conta de diferença do lançamento periódico"
 
 #. Label of the periodicity (Data) field in DocType 'Asset Maintenance Log'
 #. Label of the periodicity (Select) field in DocType 'Asset Maintenance Task'

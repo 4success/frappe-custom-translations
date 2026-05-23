@@ -1,7 +1,422 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2026-05-03 10:46+0000\n"
+"PO-Revision-Date: 2026-05-04 05:14\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.helpdesk] develop/helpdesk/locale/main.pot\n"
+"X-Crowdin-File-ID: 118\n"
 "Language: pt_BR\n"
+
+msgid "Search for \"{0}\""
+msgstr "Pesquisar por \"{0}\""
+
+msgid "Search index does not exist. Please build the index first."
+msgstr "O índice de pesquisa não existe. Gere o índice primeiro."
+
+msgid "Search index not available. Please contact administrator."
+msgstr "Índice de pesquisa indisponível. Entre em contato com o administrador."
+
+msgid "Search query must be at least 2 characters"
+msgstr "A consulta de pesquisa deve ter pelo menos 2 caracteres"
+
+msgid "Search ticket"
+msgstr "Pesquisar chamado"
+
+msgid "Search tickets, comments, and communications..."
+msgstr "Pesquise chamados, comentários e comunicações..."
+
+msgid "Search tickets, emails, comments, or #234 to navigate to ticket"
+msgstr "Pesquise chamados, e-mails, comentários ou #234 para ir para o chamado"
+
+msgid "Searched for:"
+msgstr "Pesquisado por:"
+
+#: desk/src/pages/SearchAgent.vue:111
+msgid "Searching..."
+msgstr "Procurando..."
+
+#: desk/src/pages/home/components/PendingTickets.vue:138
+msgid "See all {0} tickets"
+msgstr "Ver todos os {0} chamados"
+
+msgid "Select"
+msgstr "Selecionar"
+
+msgid "Select Category"
+msgstr "Selecionar categoria"
+
+msgid "Select Range"
+msgstr "Selecionar intervalo"
+
+msgid "Select a Default Priority."
+msgstr "Selecione uma prioridade padrão."
+
+msgid "Select a rating"
+msgstr "Selecione uma avaliação"
+
+msgid "Select teams"
+msgstr "Selecionar equipes"
+
+msgid "Select ticket to preview"
+msgstr "Selecione o chamado para pré-visualização"
+
+msgid "Select what type all tickets get by default."
+msgstr "Selecione qual tipo todos os chamados receberão por padrão."
+
+msgid "Select your weekly off day"
+msgstr "Selecione seu dia de folga semanal"
+
+msgid "Send"
+msgstr "Enviar"
+
+msgid "Send Invites"
+msgstr "Enviar convites"
+
+msgid "Send feedback when"
+msgstr "Enviar feedback quando"
+
+#: desk/src/components/Settings/EmailNotifications/NotificationList.vue:78
+msgid "Sent to all of the agents assigned to the ticket whenever a contact has replied."
+msgstr "Enviado a todos os agentes atribuídos ao chamado sempre que um contato responder."
+
+#: desk/src/components/Settings/EmailNotifications/NotificationList.vue:85
+msgid "Sent to all of the recipients associated with the ticket whenever an agent has replied."
+msgstr "Enviado a todos os destinatários associados ao chamado sempre que um agente responder."
+
+#: desk/src/components/Settings/EmailNotifications/NotificationList.vue:73
+msgid "Sent to the user right after creating an email ticket."
+msgstr "Enviado ao usuário logo após a criação de um chamado por e-mail."
+
+#: desk/src/components/Settings/EmailNotifications/NotificationList.vue:66
+msgid "Sent to the user who has raised the ticket after the ticket is closed or resolved."
+msgstr "Enviado ao usuário que abriu o chamado após o fechamento ou a resolução do chamado."
+
+msgid "Service Level Agreements (SLAs)"
+msgstr "Acordos de Nível de Serviço (SLAs)"
+
+msgid "Service Level Name"
+msgstr "Nome do nível de serviço"
+
+msgid "Service not supported"
+msgstr "Serviço não suportado"
+
+msgid "Set Phone Number"
+msgstr "Definir número de telefone"
+
+msgid "Set Resolution Time for Priority {0} in row {1}."
+msgstr "Defina o tempo de resolução para a prioridade {0} na linha {1}."
+
+msgid "Set Response Time for Priority {0} in row {1}."
+msgstr "Defina o tempo de resposta para a prioridade {0} na linha {1}."
+
+msgid "Set as default SLA"
+msgstr "Definir como SLA padrão"
+
+msgid "Set the default status assigned when a ticket is created, and the status to apply when a ticket is reopened. If not specified, the default status from HD Settings will be used."
+msgstr "Defina o status padrão atribuído quando um chamado for criado e o status a aplicar quando um chamado for reaberto. Se não for informado, será usado o status padrão de HD Settings."
+
+#: desk/src/components/Settings/Sla/SlaHolidays.vue:9
+msgid "Set working days, hours, and holidays by selecting a predefined schedule or creating a new one."
+msgstr "Defina dias úteis, horas e feriados selecionando uma agenda predefinida ou criando uma nova."
+
+msgid "Set your team’s working days, hours, and holidays using a template or custom schedule."
+msgstr "Defina os dias úteis, horários e feriados da sua equipe usando um modelo ou uma agenda personalizada."
+
+msgid "Setting <strong>{0}</strong> as the default SLA removes <strong>{1}</strong> as the default SLA. You’ll need to add a condition in <strong>{1}</strong> for the SLA to work."
+msgstr "Definir <strong>{0}</strong> como SLA padrão remove <strong>{1}</strong> como SLA padrão. Você precisará adicionar uma condição em <strong>{1}</strong> para que o SLA funcione."
+
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "Settings updated"
+msgstr "Configurações atualizadas"
+
+#: desk/src/components/Settings/EmailNotifications/Acknowledgement.vue:47
+#: desk/src/components/Settings/EmailNotifications/ReplyToAgents.vue:47
+#: desk/src/components/Settings/EmailNotifications/ReplyViaAgent.vue:47
+#: desk/src/components/Settings/EmailNotifications/ShareFeedback.vue:77
+msgid "Settings updated successfully."
+msgstr "Configurações atualizadas com sucesso."
+
+msgid "Setup"
+msgstr "Configuração"
+
+msgid "Setup Email"
+msgstr "Configurar e-mail"
+
+msgid "Setup SLA"
+msgstr "Configurar SLA"
+
+msgid "Share"
+msgstr "Compartilhar"
+
+msgid "Share Feedback"
+msgstr "Compartilhar feedback"
+
+msgid "Share feedback"
+msgstr "Compartilhar feedback"
+
+msgid "Shortcuts"
+msgstr "Atalhos"
+
+msgid "Show end users a different view"
+msgstr "Mostrar uma visualização diferente para os usuários finais"
+
+#: desk/src/pages/ticket/Tickets.vue:428
+msgid "Show in sidebar"
+msgstr "Mostrar na barra lateral"
+
+msgid "Show keyboard shortcuts"
+msgstr "Mostrar atalhos de teclado"
+
+#: desk/src/components/Settings/Profile/UserEmailSettings.vue:37
+msgid "Signature"
+msgstr "Assinatura"
+
+msgid "Simple Python Expression, Example: doc.status == 'Open' and doc.ticket_type == 'Bug'"
+msgstr "Expressão Python simples. Exemplo: doc.status == 'Open' and doc.ticket_type == 'Bug'"
+
+msgid "Skip e-mail workflow"
+msgstr "Ignorar fluxo de e-mail"
+
+msgid "Skip email workflow"
+msgstr "Ignorar fluxo de e-mail"
+
+msgid "Some error occurred while renaming assignment rule"
+msgstr "Ocorreu um erro ao renomear a regra de atribuição"
+
+msgid "Some error occurred while renaming holiday list"
+msgstr "Ocorreu um erro ao renomear a lista de feriados"
+
+msgid "Some error occurred while renaming saved reply"
+msgstr "Ocorreu um erro ao renomear a resposta salva"
+
+msgid "Some error occurred while updating assignment rule"
+msgstr "Ocorreu um erro ao atualizar a regra de atribuição"
+
+msgid "Some error occurred while updating holiday list"
+msgstr "Ocorreu um erro ao atualizar a lista de feriados"
+
+msgid "Source DocType"
+msgstr "DocType de origem"
+
+msgid "Source Name"
+msgstr "Nome da origem"
+
+msgid "Source Type"
+msgstr "Tipo de origem"
+
+msgid "Source and target category cannot be same"
+msgstr "A categoria de origem e a de destino não podem ser iguais"
+
+msgid "Source and target ticket cannot be same"
+msgstr "O chamado de origem e o de destino não podem ser iguais"
+
+#: desk/src/components/ticket/TicketMergeModal.vue:44
+msgid "Source and target tickets which are to be merged cannot be the same."
+msgstr "Os chamados de origem e destino que serão mesclados não podem ser os mesmos."
+
+msgid "Source ticket does not exist"
+msgstr "O chamado de origem não existe"
+
+msgid "Split and Merge"
+msgstr "Dividir e mesclar"
+
+msgid "Standard Form Scripts can't be modified, duplicate the script instead."
+msgstr "Scripts de formulário padrão não podem ser modificados. Duplique o script."
+
+#: helpdesk/helpdesk/doctype/hd_view/hd_view.py:55
+msgid "Standard Views cannot be deleted."
+msgstr "Visualizações padrão não podem ser excluídas."
+
+msgid "Start Date"
+msgstr "Data de início"
+
+#. Label of the start_time (Time) field in DocType 'HD Service Day'
+#: helpdesk/helpdesk/doctype/hd_service_day/hd_service_day.json
+msgid "Start Time"
+msgstr "Hora de início"
+
+msgid "Start Time can't be greater than or equal to End Time in row <u>{0}</u>."
+msgstr "A hora de início não pode ser maior ou igual à hora de término na linha <u>{0}</u>."
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Status "
+msgstr "Status "
+
+msgid "Status Category"
+msgstr "Categoria do status"
+
+msgid "Status Details"
+msgstr "Detalhes do status"
+
+msgid "Status is required"
+msgstr "O status é obrigatório"
+
+msgid "Status of the ticket, when a customer replies on the ticket with this SLA.\n\n"
+"If not selected, the value will be takes from HD Settings DocType."
+msgstr "Status do chamado quando um cliente responde ao chamado com este SLA.\n\n"
+"Se não for selecionado, o valor será obtido do DocType HD Settings."
+
+msgid "Status of the ticket, when a customer replies on the ticket."
+msgstr "Status do chamado quando um cliente responde ao chamado."
+
+msgid "Status of the ticket, when it is created in the system with this SLA.\n"
+"If not selected, the value will be taken from HD Settings DocType"
+msgstr "Status do chamado quando ele é criado no sistema com este SLA.\n"
+"Se não for selecionado, o valor será obtido do DocType HD Settings"
+
+msgid "Status of the ticket, when it is created in the system."
+msgstr "Status do chamado quando ele é criado no sistema."
+
+msgid "Subject"
+msgstr "Assunto"
+
+msgid "Subject Weight"
+msgstr "Peso do assunto"
+
+#: desk/src/components/ticket/TicketSplitModal.vue:74
+msgid "Subject is required"
+msgstr "O assunto é obrigatório"
+
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "Summary"
+msgstr "Resumo"
+
+#. Option for the 'Workday' (Select) field in DocType 'HD Service Day'
+#. Option for the 'Weekly Off' (Select) field in DocType 'HD Service Holiday
+#. List'
+#: helpdesk/helpdesk/doctype/hd_service_day/hd_service_day.json
+#: helpdesk/helpdesk/doctype/hd_service_holiday_list/hd_service_holiday_list.json
+msgid "Sunday"
+msgstr "Domingo"
+
+msgid "Support"
+msgstr "Suporte"
+
+#. Name of a report
+#: helpdesk/helpdesk/report/support_hour_distribution/support_hour_distribution.json
+msgid "Support Hour Distribution"
+msgstr "Distribuição de Horas de Suporte"
+
+msgid "Support Policy"
+msgstr "Política de suporte"
+
+msgid "Support Team"
+msgstr "Equipe de suporte"
+
+#: desk/src/components/Settings/Profile/UserEmailSettings.vue:59
+msgid "Switch between outgoing email accounts when sending emails from your configured accounts."
+msgstr "Alterne entre contas de e-mail de saída ao enviar e-mails das contas configuradas."
+
+msgid "Synonyms"
+msgstr "Sinônimos"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "System Manager"
+msgstr "Gerente do sistema"
+
+msgid "System types can not be deleted"
+msgstr "Tipos do sistema não podem ser excluídos"
+
+msgid "Tampered Access"
+msgstr "Acesso adulterado"
+
+msgid "Target ticket does not exist"
+msgstr "O chamado de destino não existe"
+
+#. Option for the 'Color' (Select) field in DocType 'HD Ticket Status'
+#: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.json
+msgid "Teal"
+msgstr "Azul-petróleo"
+
+msgid "Team"
+msgstr "Equipe"
+
+msgid "Team Name"
+msgstr "Nome da equipe"
+
+msgid "Team Restrictions"
+msgstr "Restrições de equipe"
+
+msgid "Team created"
+msgstr "Equipe criada"
+
+#: desk/src/components/Settings/Teams/NewTeam.vue:139
+msgid "Team created successfully."
+msgstr "Equipe criada com sucesso."
+
+#: desk/src/components/Settings/Teams/TeamEdit.vue:189
+#: desk/src/components/Settings/Teams/TeamsList.vue:190
+msgid "Team deleted successfully."
+msgstr "Equipe excluída com sucesso."
+
+msgid "Team name"
+msgstr "Nome da equipe"
+
+#: desk/src/components/Settings/Teams/RenameTeamModal.vue:51
+#: desk/src/components/Settings/Teams/TeamEdit.vue:268
+msgid "Team renamed successfully."
+msgstr "Equipe renomeada com sucesso."
+
+msgid "Teams"
+msgstr "Equipes"
+
+msgid "Telephony"
+msgstr "Telefonia"
+
+#: desk/src/components/Settings/Telephony/ExotelSettings.vue:296
+#: desk/src/components/Settings/Telephony/Telephony.vue:257
+#: desk/src/components/Settings/Telephony/TwilioSettings.vue:248
+msgid "Telephony settings updated successfully."
+msgstr "Configurações de telefonia atualizadas com sucesso."
+
+msgid "Tell us more"
+msgstr "Conte mais"
+
+msgid "Template"
+msgstr "Modelo"
+
+msgid "Template Name"
+msgstr "Nome do modelo"
+
+msgid "The 'Closed' status cannot be renamed."
+msgstr "O status 'Closed' não pode ser renomeado."
+
+msgid "The Assign Condition JSON '{0}' is invalid: </br> {1}"
+msgstr "O JSON da condição de atribuição '{0}' é inválido: </br> {1}"
+
+msgid "The Unassign Condition JSON '{0}' is invalid: </br> {1}"
+msgstr "O JSON da condição de desatribuição '{0}' é inválido: </br> {1}"
+
+msgid "The assignment condition '{0}' is invalid: {1}"
+msgstr "A condição de atribuição '{0}' é inválida: {1}"
+
+msgid "The assignment condition json '{0}' is invalid: {1}"
+msgstr "O JSON da condição de atribuição '{0}' é inválido: {1}"
+
+msgid "The feedback dialog will be shown, when a user tries to close a ticket from the customer portal."
+msgstr "A caixa de diálogo de feedback será exibida quando um usuário tentar encerrar um chamado pelo portal do cliente."
+
+msgid "The holiday on {0} is not between From Date and To Date"
+msgstr "O feriado em {0} não está entre a data inicial e a data final"
 
 msgid "The number of days must be 1 or more"
 msgstr "O número de dias deve ser 1 ou mais"
@@ -11,6 +426,15 @@ msgstr "O status para envio de feedback deve ser da categoria <u>Resolvido</u>."
 
 msgid "The ticket status will automatically change whenever the agent respond to a ticket."
 msgstr "O status do chamado será alterado automaticamente sempre que o agente responder a um chamado."
+
+#: desk/src/components/knowledge-base/CategoryFolderContainer.vue:18
+msgid "There are no categories published at the moment."
+msgstr "Não há categorias publicadas no momento."
+
+#: desk/src/components/ticket/TicketMergeModal.vue:83
+#: desk/src/components/ticket/TicketSplitModal.vue:24
+msgid "This action is irreversible."
+msgstr "Esta ação é irreversível."
 
 msgid "This date is calculated based on configured SLAs, working hours, and holidays."
 msgstr "Esta data é calculada com base nos SLAs, horários de atendimento e feriados configurados."
@@ -33,14 +457,23 @@ msgstr "Este chamado (#{0}) foi mesclado com o chamado <a href = '/helpdesk/tick
 msgid "This ticket has been split to a new ticket. Please follow up on ticket <a href={0}>#{1}</a>."
 msgstr "Este chamado foi dividido em um novo chamado. Acompanhe o chamado <a href={0}>#{1}</a>."
 
-msgid "This view is currently public. Changing it to private will hide it for all the users."
-msgstr "Esta visualização está pública no momento. Ao torná-la privada, ela será ocultada para todos os usuários."
-
 msgid "This view is public, and will be removed for all users."
 msgstr "Esta visualização é pública e será removida para todos os usuários."
 
+#: desk/src/components/ListViewBuilder.vue:636
+msgid "This view is public. Changes made will be visible to everyone."
+msgstr "Esta visualização é pública. As alterações feitas ficarão visíveis para todos."
+
 msgid "This will reset the content to the default message."
 msgstr "Isso redefinirá o conteúdo para a mensagem padrão."
+
+#. Option for the 'Workday' (Select) field in DocType 'HD Service Day'
+#. Option for the 'Weekly Off' (Select) field in DocType 'HD Service Holiday
+#. List'
+#: helpdesk/helpdesk/doctype/hd_service_day/hd_service_day.json
+#: helpdesk/helpdesk/doctype/hd_service_holiday_list/hd_service_holiday_list.json
+msgid "Thursday"
+msgstr "Quinta"
 
 msgid "Ticket"
 msgstr "Chamado"
@@ -53,6 +486,10 @@ msgstr "Análise de chamados"
 
 msgid "Ticket Configuration"
 msgstr "Configuração de chamados"
+
+#: desk/src/components/ticket-agent/TicketDetailsTab.vue:55
+msgid "Ticket Info"
+msgstr "Informações do chamado"
 
 msgid "Ticket Management"
 msgstr "Gerenciamento de chamados"
@@ -72,323 +509,12 @@ msgstr "Status de reabertura do chamado"
 msgid "Ticket Routing"
 msgstr "Roteamento de chamados"
 
+#: desk/src/components/Settings/General/components/TicketSettings.vue:4
+msgid "Ticket Settings"
+msgstr "Configurações de chamados"
+
 msgid "Ticket Split From"
 msgstr "Chamado dividido de"
 
 msgid "Ticket Summary"
 msgstr "Resumo de chamados"
-
-msgid "Ticket Trend"
-msgstr "Tendência de chamados"
-
-msgid "Ticket Type"
-msgstr "Tipo de chamado"
-
-msgid "Ticket closed"
-msgstr "Chamado encerrado"
-
-msgid "Ticket does not exist."
-msgstr "O chamado não existe."
-
-msgid "Ticket must be resolved with a feedback"
-msgstr "O chamado deve ser resolvido com feedback"
-
-msgid "Ticket not found"
-msgstr "Chamado não encontrado"
-
-msgid "Ticket not found for the provided key."
-msgstr "Chamado não encontrado para a chave informada."
-
-msgid "Ticket raised outside working hours"
-msgstr "Chamado aberto fora do horário de atendimento"
-
-msgid "Ticket settings"
-msgstr "Configurações do chamado"
-
-msgid "Ticket status"
-msgstr "Status do chamado"
-
-msgid "Ticket type"
-msgstr "Tipo de chamado"
-
-msgid "Ticket updated"
-msgstr "Chamado atualizado"
-
-msgid "Ticket-Search Analysis"
-msgstr "Análise de pesquisa de chamados"
-
-msgid "Tickets"
-msgstr "Chamados"
-
-msgid "Tickets by Channel"
-msgstr "Chamados por canal"
-
-msgid "Tickets by Priority"
-msgstr "Chamados por prioridade"
-
-msgid "Tickets by Team"
-msgstr "Chamados por equipe"
-
-msgid "Tickets by Type"
-msgstr "Chamados por tipo"
-
-msgid "Tickets can only be assigned to agents"
-msgstr "Chamados só podem ser atribuídos a agentes"
-
-msgid "Timezone"
-msgstr "Fuso horário"
-
-msgid "Timezone updated"
-msgstr "Fuso horário atualizado"
-
-msgid "Title"
-msgstr "Título"
-
-msgid "Title Slug"
-msgstr "Slug do título"
-
-msgid "Title is required"
-msgstr "O título é obrigatório"
-
-msgid "To"
-msgstr "Para"
-
-msgid "To Date"
-msgstr "Data final"
-
-msgid "To Date cannot be before From Date"
-msgstr "A data final não pode ser anterior à data inicial"
-
-msgid "To date"
-msgstr "Até"
-
-msgid "To is required"
-msgstr "O campo Para é obrigatório"
-
-msgid "To know more about setting up email accounts, click"
-msgstr "Para saber mais sobre a configuração de contas de e-mail, clique"
-
-msgid "Today"
-msgstr "Hoje"
-
-msgid "Top Result"
-msgstr "Principal resultado"
-
-msgid "Total Hold Time"
-msgstr "Tempo total em espera"
-
-msgid "Total Ticket"
-msgstr "Total de chamados"
-
-msgid "Total Tickets by Priority"
-msgstr "Total de chamados por prioridade"
-
-msgid "Total Tickets by Team"
-msgstr "Total de chamados por equipe"
-
-msgid "Total Tickets by Type"
-msgstr "Total de chamados por tipo"
-
-msgid "Total number of tickets created"
-msgstr "Número total de chamados criados"
-
-msgid "Type"
-msgstr "Tipo"
-
-msgid "Type a message"
-msgstr "Digite uma mensagem"
-
-msgid "Type is required"
-msgstr "O tipo e obrigatório"
-
-msgid "URL/Method"
-msgstr "URL/Método"
-
-msgid "Unable to send email. Please setup default outgoing email account."
-msgstr "Não foi possível enviar o e-mail. Configure a conta padrão de e-mail de saída."
-
-msgid "Unauthorized Access"
-msgstr "Acesso não autorizado"
-
-msgid "Unauthorized access."
-msgstr "Acesso não autorizado."
-
-msgid "Unpin View"
-msgstr "Desafixar visualização"
-
-msgid "Unpublish"
-msgstr "Cancelar publicação"
-
-msgid "Unsaved"
-msgstr "Não salvo"
-
-msgid "Unsaved changes"
-msgstr "Alterações não salvas"
-
-msgid "Untitled"
-msgstr "Sem título"
-
-msgid "Update"
-msgstr "Atualizar"
-
-msgid "Update Account"
-msgstr "Atualizar conta"
-
-msgid "Update status to"
-msgstr "Atualizar status para"
-
-msgid "Updated successfully"
-msgstr "Atualizado com sucesso"
-
-msgid "Upload"
-msgstr "Carregar"
-
-msgid "Upload image"
-msgstr "Carregar imagem"
-
-msgid "Upload photo"
-msgstr "Carregar foto"
-
-msgid "Uploading {0}%"
-msgstr "Carregando {0}%"
-
-msgid "User"
-msgstr "Usuário"
-
-msgid "User Not found"
-msgstr "Usuário não encontrado"
-
-msgid "User Resolution Time"
-msgstr "Tempo de resolução do usuário"
-
-msgid "User signup"
-msgstr "Cadastro de usuário"
-
-msgid "Users"
-msgstr "Usuários"
-
-msgid "Valid From"
-msgstr "Válido a partir de"
-
-msgid "Valid from"
-msgstr "Válido a partir de"
-
-msgid "Via Customer Portal"
-msgstr "Via portal do cliente"
-
-msgid "View Assignment rule"
-msgstr "Ver regra de atribuição"
-
-msgid "View {0}"
-msgstr "Ver {0}"
-
-msgid "Views"
-msgstr "Visualizações"
-
-msgid "Violet"
-msgstr "Violeta"
-
-msgid "Weekly"
-msgstr "Semanal"
-
-msgid "When enabled, the ticket status will automatically change to the status selected below whenever the agent responds to a ticket.\n"
-msgstr "Quando ativado, o status do chamado será alterado automaticamente para o status selecionado abaixo sempre que o agente responder a um chamado.\n"
-
-msgid "Word"
-msgstr "Palavra"
-
-msgid "Work schedule and holidays"
-msgstr "Agenda de trabalho e feriados"
-
-msgid "Workflow & knowledge base settings"
-msgstr "Configurações de fluxo de trabalho e base de conhecimento"
-
-msgid "Write your article here..."
-msgstr "Escreva seu artigo aqui..."
-
-msgid "Yearly"
-msgstr "Anual"
-
-msgid "You are not allowed to view this dashboard data."
-msgstr "Você não tem permissão para ver estes dados do painel."
-
-msgid "You are not permitted to access this resource."
-msgstr "Você não tem permissão para acessar este recurso."
-
-msgid "You are not permitted to add a comment"
-msgstr "Você não tem permissão para adicionar um comentário"
-
-msgid "You are now offline"
-msgstr "Você está offline"
-
-msgid "You are now online"
-msgstr "Você está online"
-
-msgid "You can change the default calling medium from the settings"
-msgstr "Você pode alterar o meio de chamada padrão nas configurações"
-
-msgid "You cannot disable the default SLA."
-msgstr "Você não pode desativar o SLA padrão."
-
-msgid "You cannot set more than one Default Priority."
-msgstr "Você não pode definir mais de uma prioridade padrão."
-
-msgid "You do not have permission to access Assignment Rules"
-msgstr "Você não tem permissão para acessar as regras de atribuição"
-
-msgid "You have already provided feedback for this ticket."
-msgstr "Você já enviou feedback para este chamado."
-
-msgid "You must set one SLA as Default. Please check the Default SLA option."
-msgstr "Você deve definir um SLA como padrão. Marque a opção de SLA padrão."
-
-msgid "Your old conditions will be overwritten. Are you sure you want to save?"
-msgstr "Suas condições antigas serão substituídas. Tem certeza de que deseja salvar?"
-
-msgid "assigned you a ticket"
-msgstr "atribuiu um chamado a você"
-
-msgid "back to email event list"
-msgstr "voltar para a lista de eventos de e-mail"
-
-msgid "created"
-msgstr "criado"
-
-msgid "customize {0}"
-msgstr "personalizar {0}"
-
-msgid "group_by"
-msgstr "group_by"
-
-msgid "has made a call"
-msgstr "fez uma chamada"
-
-msgid "has reached out"
-msgstr "entrou em contato"
-
-msgid "has reopened the ticket"
-msgstr "reabriu o chamado"
-
-msgid "here"
-msgstr "aqui"
-
-msgid "list"
-msgstr "lista"
-
-msgid "mentioned you in ticket"
-msgstr "mencionou você no chamado"
-
-msgid "purple"
-msgstr "roxo"
-
-msgid "stars"
-msgstr "estrelas"
-
-msgid "synonym"
-msgstr "sinônimo"
-
-msgid "viewed this"
-msgstr "viu isto"
-
-msgid "{0} matches"
-msgstr "{0} correspondências"

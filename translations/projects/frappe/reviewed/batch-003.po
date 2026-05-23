@@ -171,7 +171,7 @@ msgstr "Permite que clientes vejam isto como um servidor de autorização ao con
 #. field in DocType 'OAuth Settings'
 #: frappe/integrations/doctype/oauth_settings/oauth_settings.json
 msgid "Allows enabled Social Login Key Base URL to be shown as authorization server."
-msgstr "Permite mostrar a URL base da Social Login Key habilitada como servidor de autorização."
+msgstr "Permite mostrar a URL base da chave de login social habilitada como servidor de autorização."
 
 #. Description of the 'Skip Authorization' (Check) field in DocType 'OAuth
 #. Settings'
@@ -209,7 +209,7 @@ msgstr "Sempre"
 #. Label of the always_bcc (Data) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Always BCC Address"
-msgstr "Endereço CCO sempre"
+msgstr "Endereço CCO fixo"
 
 #. Label of the add_draft_heading (Check) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -427,7 +427,7 @@ msgstr "Adicionar a"
 
 #: frappe/email/doctype/email_account/email_account.py:202
 msgid "Append To can be one of {0}"
-msgstr "Adicionar a pode ser um destes: {0}"
+msgstr "\"Adicionar a\" pode ser um destes: {0}"
 
 #. Description of the 'Append To' (Link) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
@@ -454,7 +454,7 @@ msgstr "Logo do aplicativo"
 #: frappe/core/doctype/installed_application/installed_application.json
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Application Name"
-msgstr "Nome da Aplicação"
+msgstr "Nome do aplicativo"
 
 #. Label of the app_version (Data) field in DocType 'Installed Application'
 #: frappe/core/doctype/installed_application/installed_application.json

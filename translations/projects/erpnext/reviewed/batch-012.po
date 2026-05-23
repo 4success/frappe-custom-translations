@@ -73,16 +73,16 @@ msgstr "Concluir pedido"
 #. Label of the completed_by (Link) field in DocType 'Task'
 #: erpnext/projects/doctype/task/task.json
 msgid "Completed By"
-msgstr "Concluido por"
+msgstr "Concluído por"
 
 #. Label of the completed_on (Date) field in DocType 'Task'
 #: erpnext/projects/doctype/task/task.json
 msgid "Completed On"
-msgstr "Concluido em"
+msgstr "Concluído em"
 
 #: erpnext/projects/doctype/task/task.py:185
 msgid "Completed On cannot be greater than Today"
-msgstr "Concluido em não pode ser maior que hoje"
+msgstr "Concluído em não pode ser maior que hoje"
 
 #: erpnext/manufacturing/dashboard_fixtures.py:76
 msgid "Completed Operation"
@@ -91,7 +91,7 @@ msgstr "Operação Concluída"
 #. Label of a chart in the Projects Workspace
 #: erpnext/projects/workspace/projects/projects.json
 msgid "Completed Projects"
-msgstr "Projetos concluidos"
+msgstr "Projetos concluídos"
 
 #. Label of the completed_qty (Float) field in DocType 'Job Card Operation'
 #. Label of the completed_qty (Float) field in DocType 'Job Card Time Log'
@@ -102,11 +102,11 @@ msgstr "Projetos concluidos"
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 #: erpnext/stock/doctype/material_request_item/material_request_item.json
 msgid "Completed Qty"
-msgstr "Qtd. concluida"
+msgstr "Qtd. concluída"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1334
 msgid "Completed Qty cannot be greater than 'Qty to Manufacture'"
-msgstr "A qtd. concluida não pode ser maior que 'Qtd. a fabricar'"
+msgstr "A qtd. concluída não pode ser maior que 'Qtd. a fabricar'"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:317
 #: erpnext/manufacturing/doctype/job_card/job_card.js:438
@@ -117,12 +117,12 @@ msgstr "Quantidade Concluída"
 #: erpnext/projects/report/project_summary/project_summary.py:136
 #: erpnext/public/js/templates/crm_activities.html:64
 msgid "Completed Tasks"
-msgstr "Tarefas concluidas"
+msgstr "Tarefas concluídas"
 
 #. Label of the completed_time (Data) field in DocType 'Job Card Operation'
 #: erpnext/manufacturing/doctype/job_card_operation/job_card_operation.json
 msgid "Completed Time"
-msgstr "Tempo concluido"
+msgstr "Tempo concluído"
 
 #. Name of a report
 #: erpnext/manufacturing/report/completed_work_orders/completed_work_orders.json
@@ -212,7 +212,7 @@ msgstr "Configure a ação para interromper a transação ou apenas avisar se o 
 
 #: erpnext/buying/doctype/buying_settings/buying_settings.js:20
 msgid "Configure the default Price List when creating a new Purchase transaction. Item prices will be fetched from this Price List."
-msgstr "Configure a Lista de Precos padrão ao criar uma nova transação de compra. Os preços dos itens serão buscados dessa Lista de Precos."
+msgstr "Configure a lista de preços padrão ao criar uma nova transação de compra. Os preços dos itens serão buscados dessa lista de preços."
 
 #. Label of the confirm_before_resetting_posting_date (Check) field in DocType
 #. 'Accounts Settings'
@@ -233,7 +233,7 @@ msgstr "Considere as Dimensões Contábeis"
 #. Withholding Category'
 #: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
 msgid "Consider Entire Party Ledger Amount"
-msgstr "Considerar todo o valor do livro razão da entidade"
+msgstr "Considerar todo o valor do razão do cadastro"
 
 #. Label of the consider_minimum_order_qty (Check) field in DocType 'Production
 #. Plan'
@@ -249,19 +249,19 @@ msgstr "Considerar perda de processo"
 #. 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Consider Projected Qty in Calculation"
-msgstr "Considerar qtd. projetada no calculo"
+msgstr "Considerar qtd. projetada no cálculo"
 
 #. Label of the ignore_existing_ordered_qty (Check) field in DocType
 #. 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Consider Projected Qty in Calculation (RM)"
-msgstr "Considerar qtd. projetada no calculo (RM)"
+msgstr "Considerar qtd. projetada no cálculo (RM)"
 
 #. Label of the consider_rejected_warehouses (Check) field in DocType 'Pick
 #. List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
 msgid "Consider Rejected Warehouses"
-msgstr "Considerar depositos rejeitados"
+msgstr "Considerar depósitos rejeitados"
 
 #. Label of the category (Select) field in DocType 'Purchase Taxes and Charges'
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
@@ -342,12 +342,12 @@ msgstr "Consultoria"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:64
 msgid "Consumable"
-msgstr "Consumivel"
+msgstr "Consumível"
 
 #: erpnext/patches/v16_0/make_workstation_operating_components.py:48
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:315
 msgid "Consumables"
-msgstr "Consumiveis"
+msgstr "Consumíveis"
 
 #. Option for the 'Status' (Select) field in DocType 'Serial No'
 #: erpnext/stock/doctype/serial_no/serial_no.json
@@ -751,7 +751,7 @@ msgstr "Fator de conversão de unidade de medida padrão deve ser 1 na linha {0}
 
 #: erpnext/controllers/stock_controller.py:86
 msgid "Conversion factor for item {0} has been reset to 1.0 as the uom {1} is same as stock uom {2}."
-msgstr "O fator de conversão do item {0} foi redefinido para 1,0, pois a UDM {1} e igual a UDM de estoque {2}."
+msgstr "O fator de conversão do item {0} foi redefinido para 1,0, pois a UDM {1} é igual à UDM de estoque {2}."
 
 #: erpnext/controllers/accounts_controller.py:2955
 msgid "Conversion rate cannot be 0"
@@ -759,7 +759,7 @@ msgstr "A taxa de conversão não pode ser 0"
 
 #: erpnext/controllers/accounts_controller.py:2962
 msgid "Conversion rate is 1.00, but document currency is different from company currency"
-msgstr "A taxa de conversão e 1,00, mas a moeda do documento e diferente da moeda da empresa"
+msgstr "A taxa de conversão é 1,00, mas a moeda do documento é diferente da moeda da empresa"
 
 #: erpnext/controllers/accounts_controller.py:2958
 msgid "Conversion rate must be 1.00 if document currency is same as company currency"
@@ -774,12 +774,12 @@ msgstr "Converter descrição do item em HTML limpo nas transações"
 #: erpnext/accounts/doctype/account/account.js:106
 #: erpnext/accounts/doctype/cost_center/cost_center.js:123
 msgid "Convert to Group"
-msgstr "Converter Em Grupo"
+msgstr "Converter em grupo"
 
 #: erpnext/stock/doctype/warehouse/warehouse.js:53
 msgctxt "Warehouse"
 msgid "Convert to Group"
-msgstr "Converter Em Grupo"
+msgstr "Converter em grupo"
 
 #: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.js:10
 msgid "Convert to Item Based Reposting"
@@ -793,7 +793,7 @@ msgstr "Converter em não-grupo"
 #: erpnext/accounts/doctype/account/account.js:78
 #: erpnext/accounts/doctype/cost_center/cost_center.js:121
 msgid "Convert to Non-Group"
-msgstr "Converter Para Não-grupo"
+msgstr "Converter em não grupo"
 
 #. Option for the 'Status' (Select) field in DocType 'Lead'
 #. Option for the 'Status' (Select) field in DocType 'Opportunity'

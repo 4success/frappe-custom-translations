@@ -36,7 +36,7 @@ msgstr "Conta de adiantamento: {0} deve estar na moeda de cobrança do cliente: 
 #: erpnext/accounts/doctype/purchase_invoice_advance/purchase_invoice_advance.json
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:163
 msgid "Advance Amount"
-msgstr "Valor Adiantado"
+msgstr "Valor do adiantamento"
 
 #. Label of the advance_paid (Currency) field in DocType 'Purchase Order'
 #. Label of the advance_paid (Currency) field in DocType 'Sales Order'
@@ -197,7 +197,7 @@ msgstr "Conta de contrapartida"
 #: erpnext/selling/doctype/quotation_item/quotation_item.json
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 msgid "Against Blanket Order"
-msgstr "Contra pedido guarda-chuva"
+msgstr "Referente ao pedido guarda-chuva"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1076
 msgid "Against Customer Order {0}"
@@ -356,7 +356,7 @@ msgstr "Idade ({0})"
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:84
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:21
 msgid "Ageing Based On"
-msgstr "Análise por idade com base em"
+msgstr "Análise de vencimento com base em"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:69
 #: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.js:35
@@ -364,7 +364,7 @@ msgstr "Análise por idade com base em"
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:35
 #: erpnext/stock/report/stock_ageing/stock_ageing.js:58
 msgid "Ageing Range"
-msgstr "Faixa de idade"
+msgstr "Faixa de vencimento"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:104
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:352
@@ -421,7 +421,7 @@ msgstr "Agentes"
 #. Description of a DocType
 #: erpnext/selling/doctype/product_bundle/product_bundle.json
 msgid "Aggregate a group of Items into another Item. This is useful if you are maintaining the stock of the packed items and not the bundled item"
-msgstr "Agrupa um conjunto de itens em outro item. Isso é útil se você controla o estoque dos itens embalados, é não do item agrupado"
+msgstr "Agrupa um conjunto de itens em outro item. Isso é útil se você controla o estoque dos itens embalados, e não do item agrupado"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:4
 msgid "Agriculture"
@@ -442,7 +442,7 @@ msgstr "Algoritmo"
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:166
 #: erpnext/accounts/utils.py:1490 erpnext/public/js/setup_wizard.js:184
 msgid "All Accounts"
-msgstr "Todas as Contas"
+msgstr "Todas as contas"
 
 #. Label of the all_activities_section (Section Break) field in DocType 'Lead'
 #. Label of the all_activities_section (Section Break) field in DocType
@@ -486,7 +486,7 @@ msgstr "Todos os contatos de clientes"
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:186
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:192
 msgid "All Customer Groups"
-msgstr "Todos os Grupos de Clientes"
+msgstr "Todos os grupos de clientes"
 
 #: erpnext/patches/v11_0/create_department_records_for_each_company.py:23
 #: erpnext/patches/v11_0/update_department_lft_rgt.py:9
@@ -508,7 +508,7 @@ msgstr "Todos os Grupos de Clientes"
 #: erpnext/setup/doctype/company/company.py:503
 #: erpnext/setup/doctype/company/company.py:509
 msgid "All Departments"
-msgstr "Todos os Departamentos"
+msgstr "Todos os departamentos"
 
 #. Option for the 'Send To' (Select) field in DocType 'SMS Center'
 #: erpnext/selling/doctype/sms_center/sms_center.json
@@ -524,7 +524,7 @@ msgstr "Todos os colaboradores (ativos)"
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:60
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:66
 msgid "All Item Groups"
-msgstr "Todos os Grupos de Itens"
+msgstr "Todos os grupos de itens"
 
 #: erpnext/selling/page/point_of_sale/pos_item_selector.js:25
 msgid "All Items"
@@ -533,7 +533,7 @@ msgstr "Todos os itens"
 #. Option for the 'Send To' (Select) field in DocType 'SMS Center'
 #: erpnext/selling/doctype/sms_center/sms_center.json
 msgid "All Lead (Open)"
-msgstr "Todos os Leads (abertos)"
+msgstr "Todos os leads (abertos)"
 
 #: erpnext/accounts/report/general_ledger/general_ledger.html:68
 msgid "All Parties "
@@ -552,7 +552,7 @@ msgstr "Todos os vendedores"
 #. Description of a DocType
 #: erpnext/setup/doctype/sales_person/sales_person.json
 msgid "All Sales Transactions can be tagged against multiple Sales Persons so that you can set and monitor targets."
-msgstr "Todas as transações de venda podem ser vinculadas a vários vendedores para que você possa definir é acompanhar metas."
+msgstr "Todas as transações de venda podem ser vinculadas a vários vendedores para que você possa definir e acompanhar metas."
 
 #. Option for the 'Send To' (Select) field in DocType 'SMS Center'
 #: erpnext/selling/doctype/sms_center/sms_center.json
@@ -572,7 +572,7 @@ msgstr "Todos os contatos de fornecedores"
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:236
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:242
 msgid "All Supplier Groups"
-msgstr "Todos os Grupos de Fornecedores"
+msgstr "Todos os grupos de fornecedores"
 
 #: erpnext/patches/v13_0/remove_bad_selling_defaults.py:12
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:145
@@ -800,7 +800,7 @@ msgstr "Permitir entrega de qtd. produzida em excesso"
 #. field in DocType 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Allow Editing of Items and Quantities in Work Order"
-msgstr "Permitir edição de itens é quantidades na ordem de produção"
+msgstr "Permitir edição de itens e quantidades na Ordem de Trabalho"
 
 #. Label of the job_card_excess_transfer (Check) field in DocType
 #. 'Manufacturing Settings'
@@ -858,7 +858,7 @@ msgstr "Permitir transferência de material do recebimento de compra para a fatu
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:9
 msgid "Allow Multiple Material Consumption"
-msgstr "Permitir o Consumo de Vários Materiais"
+msgstr "Permitir consumo múltiplo de material"
 
 #. Label of the allow_against_multiple_purchase_orders (Check) field in DocType
 #. 'Selling Settings'

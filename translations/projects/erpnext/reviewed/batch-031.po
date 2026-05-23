@@ -55,11 +55,11 @@ msgstr "Novo orçamento revisado criado com sucesso"
 
 #: erpnext/templates/pages/projects.html:37
 msgid "New task"
-msgstr "Nova Tarefa"
+msgstr "Nova tarefa"
 
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.py:254
 msgid "New {0} pricing rules are created"
-msgstr "Novas {0} regras de precificação são criadas"
+msgstr "Novas regras de precificação de {0} foram criadas"
 
 #. Label of a Link in the CRM Workspace
 #: erpnext/crm/workspace/crm/crm.json
@@ -100,7 +100,7 @@ msgstr "Nenhuma conta corresponde a esses filtros: {}"
 
 #: erpnext/quality_management/doctype/quality_review/quality_review_list.js:5
 msgid "No Action"
-msgstr "Nenhuma Ação"
+msgstr "Nenhuma ação"
 
 #. Option for the 'Status' (Select) field in DocType 'Call Log'
 #: erpnext/telephony/doctype/call_log/call_log.json
@@ -138,11 +138,11 @@ msgstr "Nenhum item selecionado para transferência."
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1226
 msgid "No Items with Bill of Materials to Manufacture"
-msgstr "Não há itens com Lista de Materiais para Fabricação"
+msgstr "Não há itens com BOM para fabricar"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1364
 msgid "No Items with Bill of Materials."
-msgstr "Não há itens com lista de materiais."
+msgstr "Não há itens com BOM."
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.js:15
 msgid "No Matching Bank Transactions Found"
@@ -165,7 +165,7 @@ msgstr "Nenhum perfil de PDV encontrado. Crie primeiro um novo perfil de PDV"
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1840
 #: erpnext/stock/doctype/item/item.py:1369
 msgid "No Permission"
-msgstr "Nenhuma Permissão"
+msgstr "Sem permissão"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:771
 msgid "No Purchase Orders were created"
@@ -179,7 +179,7 @@ msgstr "Nenhum registro para essas configurações."
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:337
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1081
 msgid "No Remarks"
-msgstr "Sem Observações"
+msgstr "Sem observações"
 
 #: erpnext/public/js/utils/unreconcile.js:147
 msgid "No Selection"
@@ -220,7 +220,7 @@ msgstr "Nenhum pagamento não conciliado encontrado para este cadastro"
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:768
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.py:249
 msgid "No Work Orders were created"
-msgstr "Nenhuma ordem de produção foi criada"
+msgstr "Nenhuma ordem de trabalho foi criada"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:828
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:860
@@ -229,7 +229,7 @@ msgstr "Nenhum lançamento contábil para os seguintes armazéns"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:784
 msgid "No active BOM found for item {0}. Delivery by Serial No cannot be ensured"
-msgstr "Nenhuma lista de materiais ativa encontrada para o item {0}. A entrega por nº de série não pode ser garantida"
+msgstr "Nenhum BOM ativo encontrado para o item {0}. A entrega por nº de série não pode ser garantida"
 
 #: erpnext/stock/doctype/item_variant_settings/item_variant_settings.js:46
 msgid "No additional fields available"
@@ -478,7 +478,7 @@ msgstr "Nº de funcionários"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.js:66
 msgid "No. of parallel job cards which can be allowed on this workstation. Example: 2 would mean this workstation can process production for two Work Orders at a time."
-msgstr "Nº de cartões de trabalho paralelos permitidos nesta estação de trabalho. Exemplo: 2 significa que esta estação de trabalho pode processar a produção de duas ordens de produção ao mesmo tempo."
+msgstr "Nº de cartões de trabalho paralelos permitidos nesta estação de trabalho. Exemplo: 2 significa que esta estação de trabalho pode processar a produção de duas ordens de trabalho ao mesmo tempo."
 
 #. Label of a number card in the Projects Workspace
 #: erpnext/projects/workspace/projects/projects.json
@@ -491,7 +491,7 @@ msgstr "Tarefas não concluídas"
 #: erpnext/quality_management/doctype/non_conformance/non_conformance.json
 #: erpnext/quality_management/workspace/quality/quality.json
 msgid "Non Conformance"
-msgstr "Não Conformidade"
+msgstr "Não conformidade"
 
 #. Label of the non_depreciable_category (Check) field in DocType 'Asset
 #. Category'
@@ -536,7 +536,7 @@ msgstr "Não se aplica"
 #: erpnext/selling/page/point_of_sale/pos_controller.js:848
 #: erpnext/selling/page/point_of_sale/pos_controller.js:877
 msgid "Not Available"
-msgstr "Não Disponível"
+msgstr "Não disponível"
 
 #. Option for the 'Billing Status' (Select) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -581,7 +581,7 @@ msgstr "Não especificado"
 #: erpnext/stock/doctype/material_request/material_request.json
 #: erpnext/stock/doctype/material_request/material_request_list.js:9
 msgid "Not Started"
-msgstr "Não Iniciado"
+msgstr "Não iniciado"
 
 #: erpnext/accounts/report/cash_flow/cash_flow.py:405
 msgid "Not able to find the earliest Fiscal Year for the given company."
@@ -639,7 +639,7 @@ msgstr "Observação: se você quiser usar o produto acabado {0} como matéria-p
 
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:94
 msgid "Note: Item {0} added multiple times"
-msgstr "Nota: Item {0} adicionado várias vezes"
+msgstr "Observação: item {0} adicionado várias vezes"
 
 #: erpnext/controllers/accounts_controller.py:711
 msgid "Note: Payment Entry will not be created since 'Cash or Bank Account' was not specified"

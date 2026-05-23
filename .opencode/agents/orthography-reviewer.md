@@ -1,7 +1,7 @@
 ---
 description: Audits reviewed PO batches for orthography, accents, contractions, and obvious UI phrasing issues
 mode: subagent
-model: openai/gpt-5.1-codex-mini
+model: openai/gpt-5.4-mini
 temperature: 0.05
 tools:
   write: false

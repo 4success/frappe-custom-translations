@@ -97,7 +97,7 @@ msgstr "Ocultar botões"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Hide Copy"
-msgstr "Ocultar cópia"
+msgstr "Ocultar opção de copiar"
 
 #. Label of the hide_custom (Check) field in DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
@@ -175,7 +175,7 @@ msgstr "Ocultar fins de semana"
 #. Permission'
 #: frappe/core/doctype/user_permission/user_permission.json
 msgid "Hide descendant records of <b>For Value</b>."
-msgstr "Ocultar registros descendentes de <b>Para valor</b>."
+msgstr "Ocultar registros descendentes de <b>Para o valor</b>."
 
 #: frappe/public/js/frappe/form/layout.js:296
 msgid "Hide details"
@@ -245,7 +245,7 @@ msgstr "Página inicial"
 #. Label of the home_settings (Code) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Home Settings"
-msgstr "Configurações iniciais"
+msgstr "Configurações da página inicial"
 
 #: frappe/core/doctype/file/test_file.py:321
 #: frappe/core/doctype/file/test_file.py:323
@@ -286,7 +286,7 @@ msgstr "De hora em hora - manutenção"
 #. DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Hourly rate limit for generating password reset links"
-msgstr "Limite de taxa por hora para gerar links de redefinição de senha"
+msgstr "Limite por hora para gerar links de redefinição de senha"
 
 #: frappe/public/js/frappe/form/controls/duration.js:29
 msgctxt "Duration"
@@ -507,7 +507,7 @@ msgstr "Se ativado, as visualizações de documentos são rastreadas, isso pode 
 #. (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "If enabled, only System Managers can upload public files. Other users can't see the checkbox <i>Is Private</i> in the upload dialog."
-msgstr "Se ativado, apenas Gerentes do sistema podem enviar arquivos públicos. Outros usuários não podem ver a caixa de seleção <i>É privada</i> na caixa de diálogo de upload."
+msgstr "Se ativado, apenas Gerentes do sistema podem enviar arquivos públicos. Outros usuários não podem ver a caixa de seleção <i>Is Private</i> na caixa de diálogo de upload."
 
 #. Description of the 'Track Seen' (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -578,7 +578,7 @@ msgstr "Se o usuário tiver qualquer perfil marcado, ele se tornará um \"System
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:38
 msgid "If these instructions where not helpful, please add in your suggestions on GitHub Issues."
-msgstr "Se estas instruções não foram úteis, adicione suas sugestões no GitHub Issues."
+msgstr "Se estas instruções não ajudaram, adicione suas sugestões no GitHub Issues."
 
 #: frappe/templates/emails/user_invitation_cancelled.html:8
 msgid "If this was a mistake or you need access again, please reach out to your team."
@@ -660,7 +660,7 @@ msgstr "Ignorar permissões do usuário"
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Ignore XSS Filter"
-msgstr "Ignorar Filtro XSS"
+msgstr "Ignorar filtro XSS"
 
 #. Description of the 'Attachment Limit (MB)' (Int) field in DocType 'Email
 #. Account'
@@ -674,7 +674,7 @@ msgstr "Ignorar anexos maiores que este tamanho"
 #. Label of the ignored_apps (Table) field in DocType 'Website Theme'
 #: frappe/website/doctype/website_theme/website_theme.json
 msgid "Ignored Apps"
-msgstr "Aplicativos ignorados"
+msgstr "Apps ignorados"
 
 #: frappe/model/workflow.py:202
 msgid "Illegal Document Status for {0}"
@@ -809,7 +809,7 @@ msgstr "Importar"
 
 #: frappe/email/doctype/email_group/email_group.js:14
 msgid "Import Email From"
-msgstr "Importar e-mail de"
+msgstr "Importar e-mails de"
 
 #. Label of the import_file (Attach) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
@@ -826,12 +826,12 @@ msgstr "Erros e avisos do arquivo de importação"
 #. Import'
 #: frappe/core/doctype/data_import/data_import.json
 msgid "Import Log"
-msgstr "Registro de importação"
+msgstr "Log de importação"
 
 #. Label of the import_log_preview (HTML) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
 msgid "Import Log Preview"
-msgstr "Visualização do registro de importação"
+msgstr "Visualização do log de importação"
 
 #. Label of the import_preview (HTML) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
@@ -905,4 +905,4 @@ msgstr "Em dias"
 #: frappe/core/doctype/docfield/docfield.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "In Filter"
-msgstr "No filtro da lista"
+msgstr "No filtro"

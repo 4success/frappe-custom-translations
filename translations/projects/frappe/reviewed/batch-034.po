@@ -54,7 +54,7 @@ msgstr "Traduzir {0}"
 #. Label of the translated_text (Code) field in DocType 'Translation'
 #: frappe/core/doctype/translation/translation.json
 msgid "Translated Text"
-msgstr "Texto Traduzido"
+msgstr "Texto traduzido"
 
 #. Name of a DocType
 #: frappe/core/doctype/translation/translation.json
@@ -107,7 +107,7 @@ msgstr "Acionar ação principal"
 
 #: frappe/tests/test_translate.py:55
 msgid "Trigger caching"
-msgstr "Disparar cacheamento"
+msgstr "Acionar cache"
 
 #. Description of the 'Trigger Method' (Data) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
@@ -126,7 +126,7 @@ msgstr "Tentar novamente"
 #. Settings'
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Try a Naming Series"
-msgstr "Experimente uma série de nomenclatura"
+msgstr "Teste uma série de nomenclatura"
 
 #: frappe/printing/page/print/print.js:204
 #: frappe/printing/page/print/print.js:210
@@ -209,7 +209,7 @@ msgstr "Digite uma resposta / comentário"
 
 #: frappe/templates/includes/search_template.html:51
 msgid "Type something in the search box to search"
-msgstr "Digite algo na caixa de pesquisa para pesquisar"
+msgstr "Digite algo na caixa de pesquisa"
 
 #: frappe/templates/discussions/comment_box.html:8
 #: frappe/templates/discussions/reply_section.html:53
@@ -301,7 +301,7 @@ msgstr "A URL deve começar com http:// ou https://"
 #. Settings'
 #: frappe/integrations/doctype/oauth_settings/oauth_settings.json
 msgid "URL of a human-readable page with info that developers might need."
-msgstr "URL de uma página legível por humanos com informações que os desenvolvedores possam precisar."
+msgstr "URL de uma página legível por pessoas com informações que os desenvolvedores possam precisar."
 
 #. Description of the 'Client URI' (Data) field in DocType 'OAuth Client'
 #: frappe/integrations/doctype/oauth_client/oauth_client.json
@@ -312,13 +312,13 @@ msgstr "URL de uma página da web com informações sobre o cliente."
 #. Settings'
 #: frappe/integrations/doctype/oauth_settings/oauth_settings.json
 msgid "URL of human-readable page with info about the protected resource's terms of service."
-msgstr "URL de uma página legível por humanos com informações sobre os termos de serviço do recurso protegido."
+msgstr "URL de uma página legível por pessoas com informações sobre os termos de serviço do recurso protegido."
 
 #. Description of the 'Resource Policy URI' (Data) field in DocType 'OAuth
 #. Settings'
 #: frappe/integrations/doctype/oauth_settings/oauth_settings.json
 msgid "URL of human-readable page with info on requirements about how the client can use the data."
-msgstr "URL de uma página legível por humanos com informações sobre os requisitos de uso dos dados pelo cliente."
+msgstr "URL de uma página legível por pessoas com informações sobre os requisitos de uso dos dados pelo cliente."
 
 #: frappe/website/doctype/web_page/web_page.js:84
 msgid "URL of the page"
@@ -337,7 +337,7 @@ msgstr "URL que aponta para um documento de termos de serviço legível por huma
 #. Description of the 'Logo URI' (Data) field in DocType 'OAuth Client'
 #: frappe/integrations/doctype/oauth_client/oauth_client.json
 msgid "URL that references a logo for the client."
-msgstr "URL que referência um logotipo do cliente."
+msgstr "URL que faz referência a um logotipo do cliente."
 
 #. Description of the 'URL' (Data) field in DocType 'Website Slideshow Item'
 #: frappe/website/doctype/website_slideshow_item/website_slideshow_item.json
@@ -411,7 +411,7 @@ msgstr "Exceção não tratada"
 
 #: frappe/public/js/frappe/form/toolbar.js:114
 msgid "Unchanged"
-msgstr "Sem alterações"
+msgstr "Inalterado"
 
 #: frappe/public/js/frappe/form/toolbar.js:551
 msgid "Undo"
@@ -481,7 +481,7 @@ msgstr "Desbloquear documento de referência"
 #: frappe/public/js/frappe/form/footer/form_timeline.js:633
 #: frappe/website/doctype/web_form/web_form.js:86
 msgid "Unpublish"
-msgstr "Cancelar públicação"
+msgstr "Cancelar publicação"
 
 #. Option for the 'Action' (Select) field in DocType 'Email Flag Queue'
 #: frappe/email/doctype/email_flag_queue/email_flag_queue.json
@@ -507,7 +507,7 @@ msgstr "Desmarcar tudo"
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json
 msgid "Unshared"
-msgstr "Não Compartilhado"
+msgstr "Não compartilhado"
 
 #: frappe/email/queue.py:67
 msgid "Unsubscribe"
@@ -516,7 +516,7 @@ msgstr "Cancelar inscrição"
 #. Label of the unsubscribe_method (Data) field in DocType 'Email Queue'
 #: frappe/email/doctype/email_queue/email_queue.json
 msgid "Unsubscribe Method"
-msgstr "Método de Cancelamento de Inscrição"
+msgstr "Método de cancelamento de inscrição"
 
 #. Label of the unsubscribe_params (Code) field in DocType 'Email Queue'
 #: frappe/email/doctype/email_queue/email_queue.json
@@ -636,7 +636,7 @@ msgstr "Atualizar traduções"
 #: frappe/desk/doctype/bulk_update/bulk_update.json
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
 msgid "Update Value"
-msgstr "Atualizar Valor"
+msgstr "Atualizar valor"
 
 #: frappe/utils/change_log.py:381
 msgid "Update from Frappe Cloud"
@@ -742,12 +742,12 @@ msgstr "Carregado para o Google Drive"
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
 #, python-format
 msgid "Use % for any non empty value."
-msgstr "Use % for qualquer valor não vazio."
+msgstr ""
 
 #. Label of the ascii_encode_password (Check) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Use ASCII encoding for password"
-msgstr "Use codificação ASCII para senha"
+msgstr "Usar codificação ASCII para a senha"
 
 #. Label of the use_first_day_of_period (Check) field in DocType 'Auto Email
 #. Report'

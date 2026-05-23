@@ -108,33 +108,33 @@ msgstr "Linha #{0}: o ativo consumido {1} não pode ser {2}"
 
 #: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:276
 msgid "Row #{0}: Consumed Asset {1} does not belong to company {2}"
-msgstr "Linha #{0}: o ativo consumido {1} não pertence a empresa {2}"
+msgstr "Linha #{0}: o ativo consumido {1} não pertence à empresa {2}"
 
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.py:110
 msgid "Row #{0}: Cost Center {1} does not belong to company {2}"
-msgstr "Linha #{0}: o centro de custo {1} não pertence a empresa {2}"
+msgstr "Linha #{0}: o centro de custo {1} não pertence à empresa {2}"
 
 #: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.py:76
 msgid "Row #{0}: Cumulative threshold cannot be less than Single Transaction threshold"
-msgstr "Linha #{0}: o limite acumulado não pode ser menor que o limite de transação unica"
+msgstr "Linha #{0}: o limite acumulado não pode ser menor que o limite de transação única"
 
 #: erpnext/controllers/subcontracting_inward_controller.py:88
 msgid "Row #{0}: Customer Provided Item {1} against Subcontracting Inward Order Item {2} ({3}) cannot be added multiple times."
-msgstr "Linha #{0}: o item fornecido pelo cliente {1} para o item {2} ({3}) da ordem de entrada de subcontratação não pode ser adicionado varias vezes."
+msgstr "Linha #{0}: o item fornecido pelo cliente {1} para o item {2} ({3}) da ordem de entrada de subcontratação não pode ser adicionado várias vezes."
 
 #: erpnext/controllers/subcontracting_inward_controller.py:176
 #: erpnext/controllers/subcontracting_inward_controller.py:301
 #: erpnext/controllers/subcontracting_inward_controller.py:349
 msgid "Row #{0}: Customer Provided Item {1} cannot be added multiple times in the Subcontracting Inward process."
-msgstr "Linha #{0}: o item fornecido pelo cliente {1} não pode ser adicionado varias vezes no processo de entrada de subcontratação."
+msgstr "Linha #{0}: o item fornecido pelo cliente {1} não pode ser adicionado várias vezes no processo de entrada de subcontratação."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:334
 msgid "Row #{0}: Customer Provided Item {1} cannot be added multiple times."
-msgstr "Linha #{0}: o item fornecido pelo cliente {1} não pode ser adicionado varias vezes."
+msgstr "Linha #{0}: o item fornecido pelo cliente {1} não pode ser adicionado várias vezes."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:359
 msgid "Row #{0}: Customer Provided Item {1} does not exist in the Required Items table linked to the Subcontracting Inward Order."
-msgstr "Linha #{0}: o item fornecido pelo cliente {1} não existe na tabela de itens obrigatórios vinculada a ordem de entrada de subcontratação."
+msgstr "Linha #{0}: o item fornecido pelo cliente {1} não existe na tabela de itens obrigatórios vinculada à ordem de entrada de subcontratação."
 
 #: erpnext/controllers/subcontracting_inward_controller.py:285
 msgid "Row #{0}: Customer Provided Item {1} exceeds quantity available through Subcontracting Inward Order"
@@ -171,7 +171,7 @@ msgstr "Linha #{0}: entrada duplicada em referências {1} {2}"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:318
 msgid "Row #{0}: Expected Delivery Date cannot be before Purchase Order Date"
-msgstr "Linha #{0}: a data prevista de entrega não pode ser anterior a data do pedido de compra"
+msgstr "Linha #{0}: a data prevista de entrega não pode ser anterior à data do pedido de compra"
 
 #: erpnext/controllers/stock_controller.py:874
 msgid "Row #{0}: Expense Account not set for the Item {1}. {2}"
@@ -219,7 +219,7 @@ msgstr "Linha #{0}: para {1}, você pode selecionar o documento de referência s
 
 #: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.py:48
 msgid "Row #{0}: From Date cannot be before To Date"
-msgstr "Linha #{0}: a data inicial não pode ser anterior a data final"
+msgstr "Linha #{0}: a data inicial não pode ser anterior à data final"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:759
 msgid "Row #{0}: From Time and To Time fields are required"
@@ -255,7 +255,7 @@ msgstr "Linha #{0}: o item {1} não é um item fornecido pelo cliente."
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:742
 msgid "Row #{0}: Item {1} is not a Serialized/Batched Item. It cannot have a Serial No/Batch No against it."
-msgstr "Linha #{0}: o item {1} não é um item serializado/com lote. Ele não pode ter n.o de série/lote vinculado."
+msgstr "Linha #{0}: o item {1} não é um item serializado/com lote. Ele não pode ter nº de série/lote vinculado."
 
 #: erpnext/controllers/subcontracting_inward_controller.py:113
 #: erpnext/controllers/subcontracting_inward_controller.py:491
@@ -272,11 +272,11 @@ msgstr "Linha #{0}: o item {1} não é um item de estoque"
 
 #: erpnext/controllers/subcontracting_inward_controller.py:77
 msgid "Row #{0}: Item {1} mismatch. Changing of item code is not permitted, add another row instead."
-msgstr "Linha #{0}: divergencia no item {1}. Não é permitido alterar o código do item; adicione outra linha."
+msgstr "Linha #{0}: divergência no item {1}. Não é permitido alterar o código do item; adicione outra linha."
 
 #: erpnext/controllers/subcontracting_inward_controller.py:126
 msgid "Row #{0}: Item {1} mismatch. Changing of item code is not permitted."
-msgstr "Linha #{0}: divergencia no item {1}. Não é permitido alterar o código do item."
+msgstr "Linha #{0}: divergência no item {1}. Não é permitido alterar o código do item."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:759
 msgid "Row #{0}: Journal Entry {1} does not have account {2} or already matched against another voucher"
@@ -284,11 +284,11 @@ msgstr "Linha #{0}: o lançamento contábil {1} não possui a conta {2} ou já f
 
 #: erpnext/assets/doctype/asset/asset.py:655
 msgid "Row #{0}: Next Depreciation Date cannot be before Available-for-use Date"
-msgstr "Linha #{0}: a próxima data de depreciação não pode ser anterior a data disponível para uso"
+msgstr "Linha #{0}: a próxima data de depreciação não pode ser anterior à data disponível para uso"
 
 #: erpnext/assets/doctype/asset/asset.py:650
 msgid "Row #{0}: Next Depreciation Date cannot be before Purchase Date"
-msgstr "Linha #{0}: a próxima data de depreciação não pode ser anterior a data de compra"
+msgstr "Linha #{0}: a próxima data de depreciação não pode ser anterior à data de compra"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:657
 msgid "Row #{0}: Not allowed to change Supplier as Purchase Order already exists"
@@ -304,7 +304,7 @@ msgstr "Linha #{0}: a depreciação acumulada de abertura deve ser menor ou igua
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:822
 msgid "Row #{0}: Operation {1} is not completed for {2} qty of finished goods in Work Order {3}. Please update operation status via Job Card {4}."
-msgstr "Linha #{0}: a operação {1} não foi concluida para a qtd. {2} de produtos acabados na ordem de trabalho {3}. Atualize o status da operação pelo cartão de trabalho {4}."
+msgstr "Linha #{0}: a operação {1} não foi concluída para a qtd. {2} de produtos acabados na ordem de trabalho {3}. Atualize o status da operação pelo cartão de trabalho {4}."
 
 #: erpnext/controllers/subcontracting_inward_controller.py:206
 #: erpnext/controllers/subcontracting_inward_controller.py:339
@@ -346,7 +346,7 @@ msgstr "Linha #{0}: a qtd. deve ser um número positivo"
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:429
 msgid "Row #{0}: Qty should be less than or equal to Available Qty to Reserve (Actual Qty - Reserved Qty) {1} for Iem {2} against Batch {3} in Warehouse {4}."
-msgstr "Linha #{0}: a qtd. deve ser menor ou igual a qtd. disponível para reserva (qtd. atual - qtd. reservada) {1} para o item {2} no lote {3} no armazém {4}."
+msgstr "Linha #{0}: a qtd. deve ser menor ou igual à qtd. disponível para reserva (qtd. atual - qtd. reservada) {1} para o item {2} no lote {3} no armazém {4}."
 
 #: erpnext/controllers/stock_controller.py:1406
 msgid "Row #{0}: Quality Inspection is required for Item {1}"
@@ -429,27 +429,27 @@ msgstr "Linha #{0}: o preço de venda do item {1} é menor que {2}.\n\t\t\t\t\tO
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:263
 msgid "Row #{0}: Sequence ID must be {1} or {2} for Operation {3}."
-msgstr "Linha #{0}: o ID da sequencia deve ser {1} ou {2} para a operação {3}."
+msgstr "Linha #{0}: o ID da sequência deve ser {1} ou {2} para a operação {3}."
 
 #: erpnext/controllers/stock_controller.py:261
 msgid "Row #{0}: Serial No {1} does not belong to Batch {2}"
-msgstr "Linha #{0}: o n.o de série {1} não pertence ao lote {2}"
+msgstr "Linha #{0}: o nº de série {1} não pertence ao lote {2}"
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:378
 msgid "Row #{0}: Serial No {1} for Item {2} is not available in {3} {4} or might be reserved in another {5}."
-msgstr "Linha #{0}: o n.o de série {1} do item {2} não está disponível em {3} {4} ou pode estar reservado em outro {5}."
+msgstr "Linha #{0}: o nº de série {1} do item {2} não está disponível em {3} {4} ou pode estar reservado em outro {5}."
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:394
 msgid "Row #{0}: Serial No {1} is already selected."
-msgstr "Linha #{0}: o n.o de série {1} já está selecionado."
+msgstr "Linha #{0}: o nº de série {1} já está selecionado."
 
 #: erpnext/controllers/subcontracting_inward_controller.py:419
 msgid "Row #{0}: Serial No(s) {1} are not a part of the linked Subcontracting Inward Order. Please select valid Serial No(s)."
-msgstr "Linha #{0}: o(s) n.o(s) de série {1} não faz(em) parte da ordem de entrada de subcontratação vinculada. Selecione n.o(s) de série válido(s)."
+msgstr "Linha #{0}: o(s) nº(s) de série {1} não faz(em) parte da ordem de entrada de subcontratação vinculada. Selecione nº(s) de série válido(s)."
 
 #: erpnext/controllers/accounts_controller.py:644
 msgid "Row #{0}: Service End Date cannot be before Invoice Posting Date"
-msgstr "Linha #{0}: a data final do serviço não pode ser anterior a data de lançamento da fatura"
+msgstr "Linha #{0}: a data final do serviço não pode ser anterior à data de lançamento da fatura"
 
 #: erpnext/controllers/accounts_controller.py:638
 msgid "Row #{0}: Service Start Date cannot be greater than Service End Date"
@@ -550,7 +550,7 @@ msgstr "Linha #{0}: o armazém {1} não é um armazém filho do armazém de grup
 
 #: erpnext/manufacturing/doctype/workstation/workstation.py:181
 msgid "Row #{0}: Timings conflicts with row {1}"
-msgstr "Linha #{0}: os horarios entram em conflito com a linha {1}"
+msgstr "Linha #{0}: os horários entram em conflito com a linha {1}"
 
 #: erpnext/assets/doctype/asset/asset.py:640
 msgid "Row #{0}: Total Number of Depreciations cannot be less than or equal to Opening Number of Booked Depreciations"
@@ -574,7 +574,7 @@ msgstr "Linha #{0}: {1} não pode ser negativo para o item {2}"
 
 #: erpnext/stock/doctype/quality_inspection/quality_inspection.py:316
 msgid "Row #{0}: {1} is not a valid reading field. Please refer to the field description."
-msgstr "Linha #{0}: {1} não é um campo de leitura válido. Consulte a descricao do campo."
+msgstr "Linha #{0}: {1} não é um campo de leitura válido. Consulte a descrição do campo."
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:115
 msgid "Row #{0}: {1} is required to create the Opening {2} Invoices"
@@ -626,7 +626,7 @@ msgstr "Linha #{idx}: {schedule_date} não pode ser anterior a {transaction_date
 
 #: erpnext/assets/doctype/asset_category/asset_category.py:66
 msgid "Row #{}: Currency of {} - {} doesn't matches company currency."
-msgstr "Linha #{}: a moeda de {} - {} não corresponde a moeda da empresa."
+msgstr "Linha #{}: a moeda de {} - {} não corresponde à moeda da empresa."
 
 #: erpnext/assets/doctype/asset/asset.py:416
 msgid "Row #{}: Finance Book should not be empty since you're using multiple."

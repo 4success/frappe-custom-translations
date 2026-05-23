@@ -49,7 +49,7 @@ msgstr "N.o da conta bancária"
 #: erpnext/accounts/report/cheques_and_deposits_incorrectly_cleared/cheques_and_deposits_incorrectly_cleared.js:16
 #: erpnext/accounts/workspace/accounting/accounting.json
 msgid "Bank Account"
-msgstr "Conta Bancária"
+msgstr "Conta bancária"
 
 #. Label of the bank_account_details (Section Break) field in DocType 'Payment
 #. Order Reference'
@@ -80,7 +80,7 @@ msgstr "N.o da conta bancária"
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank_account_subtype/bank_account_subtype.json
 msgid "Bank Account Subtype"
-msgstr "Subtipo de Conta Bancária"
+msgstr "Subtipo de conta bancária"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank_account_type/bank_account_type.json
@@ -94,7 +94,7 @@ msgstr "A conta bancária {} na transação bancária {} não corresponde à con
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:15
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:20
 msgid "Bank Accounts"
-msgstr "Contas Bancárias"
+msgstr "Contas bancárias"
 
 #. Label of the bank_balance (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -143,7 +143,7 @@ msgstr "Saldo credor bancário"
 #: erpnext/accounts/doctype/bank/bank_dashboard.py:7
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Bank Details"
-msgstr "Detalhes Bancários"
+msgstr "Detalhes bancários"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:260
 msgid "Bank Draft"
@@ -160,7 +160,7 @@ msgstr "Lançamento bancário"
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
 msgid "Bank Guarantee"
-msgstr "Garantia Bancária"
+msgstr "Garantia bancária"
 
 #. Label of the bank_guarantee_number (Data) field in DocType 'Bank Guarantee'
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
@@ -214,19 +214,19 @@ msgstr "Saldo do extrato bancário conforme o razão geral"
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:32
 msgid "Bank Transaction"
-msgstr "Transação Bancária"
+msgstr "Transação bancária"
 
 #. Label of the bank_transaction_mapping (Table) field in DocType 'Bank'
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank/bank.json
 #: erpnext/accounts/doctype/bank_transaction_mapping/bank_transaction_mapping.json
 msgid "Bank Transaction Mapping"
-msgstr "Mapeamento de Transações Bancárias"
+msgstr "Mapeamento de transações bancárias"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank_transaction_payments/bank_transaction_payments.json
 msgid "Bank Transaction Payments"
-msgstr "Pagamentos de Transações Bancárias"
+msgstr "Pagamentos de transações bancárias"
 
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:493
 msgid "Bank Transaction {0} Matched"
@@ -280,7 +280,7 @@ msgstr "A conta bancária/caixa {0} não pertence à empresa {1}"
 #: erpnext/accounts/workspace/accounting/accounting.json
 #: erpnext/setup/setup_wizard/data/industry_type.txt:8
 msgid "Banking"
-msgstr "Bancos"
+msgstr "Bancário"
 
 #. Label of the barcode_type (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
@@ -314,7 +314,7 @@ msgstr "Barril (óleo)"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Barrel(Beer)"
-msgstr "Barril (cervejá)"
+msgstr "Barril (cerveja)"
 
 #. Label of the base_amount (Currency) field in DocType 'BOM Creator Item'
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
@@ -346,7 +346,7 @@ msgstr "Taxa horária base (moeda da empresa)"
 #. Label of the base_rate (Currency) field in DocType 'BOM Creator Item'
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
 msgid "Base Rate"
-msgstr "Taxa base"
+msgstr "Preço base"
 
 #. Label of the base_tax_withholding_net_total (Currency) field in DocType
 #. 'Purchase Invoice'
@@ -437,12 +437,12 @@ msgstr "Valor básico (moeda da empresa)"
 #: erpnext/manufacturing/doctype/bom_scrap_item/bom_scrap_item.json
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 msgid "Basic Rate (Company Currency)"
-msgstr "Taxa básica (moeda da empresa)"
+msgstr "Preço base (moeda da empresa)"
 
 #. Label of the basic_rate (Currency) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Basic Rate (as per Stock UOM)"
-msgstr "Taxa básica (conforme a UM de estoque)"
+msgstr "Preço base (conforme a UM de estoque)"
 
 #. Name of a DocType
 #. Label of a Link in the Stock Workspace
@@ -694,7 +694,7 @@ msgstr "Os planos de assinatura abaixo estão em moeda diferente da moeda padrã
 #: erpnext/accounts/report/purchase_register/purchase_register.py:214
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Bill Date"
-msgstr "Data de Faturamento"
+msgstr "Data da fatura"
 
 #. Label of the bill_no (Data) field in DocType 'Journal Entry'
 #. Label of the bill_no (Data) field in DocType 'Subcontracting Receipt'
@@ -718,7 +718,7 @@ msgstr "Faturar quantidade rejeitada na fatura de compra"
 #: erpnext/stock/doctype/material_request/material_request.js:127
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:657
 msgid "Bill of Materials"
-msgstr "Lista de Materiais"
+msgstr "BOM"
 
 #. Option for the 'Status' (Select) field in DocType 'Timesheet'
 #: erpnext/controllers/website_list_for_contact.py:203
@@ -738,7 +738,7 @@ msgstr "Faturado"
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:209
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:298
 msgid "Billed Amount"
-msgstr "Total Faturado"
+msgstr "Valor faturado"
 
 #. Label of the billed_amt (Currency) field in DocType 'Sales Order Item'
 #. Label of the billed_amt (Currency) field in DocType 'Delivery Note Item'
@@ -760,7 +760,7 @@ msgstr "Itens faturados a receber"
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:276
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
 msgid "Billed Qty"
-msgstr "Quantidade Faturada"
+msgstr "Qtd. faturada"
 
 #. Label of the section_break_56 (Section Break) field in DocType 'Purchase
 #. Order Item'
@@ -830,7 +830,7 @@ msgstr "O endereço de faturamento não pertence a {0}"
 #: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.py:73
 #: erpnext/selling/report/territory_wise_sales/territory_wise_sales.py:50
 msgid "Billing Amount"
-msgstr "Total Para Faturamento"
+msgstr "Valor de faturamento"
 
 #. Label of the billing_city (Data) field in DocType 'Tax Rule'
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
@@ -856,7 +856,7 @@ msgstr "Moeda de faturamento"
 
 #: erpnext/public/js/purchase_trends_filters.js:39
 msgid "Billing Date"
-msgstr "Data de Cobrança"
+msgstr "Data de faturamento"
 
 #. Label of the billing_details (Section Break) field in DocType 'Timesheet'
 #: erpnext/projects/doctype/timesheet/timesheet.json

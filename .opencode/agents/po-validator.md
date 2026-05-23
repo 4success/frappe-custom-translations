@@ -1,7 +1,7 @@
 ---
 description: Validates PO files with syntax and placeholder checks
 mode: subagent
-model: openai/gpt-5.1-codex-mini
+model: openai/gpt-5.4-mini
 temperature: 0
 permission:
   bash:

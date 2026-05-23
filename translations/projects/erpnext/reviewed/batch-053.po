@@ -24,11 +24,11 @@ msgstr "O pacote de série e lote {0} não é válido para esta transação. Em 
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:17
 msgid "The Stock Entry of type 'Manufacture' is known as backflush. Raw materials being consumed to manufacture finished goods is known as backflushing. <br><br> When creating Manufacture Entry, raw-material items are backflushed based on BOM of production item. If you want raw-material items to be backflushed based on Material Transfer entry made against that Work Order instead, then you can set it under this field."
-msgstr "O Lançamento de estoque do tipo 'Fabricação' é conhecido como backflush. O consumo de matérias-primas para fabricar produtos acabados é chamado de backflushing. <br><br> Ao criar um Lançamento de fabricação, os itens de matéria-prima são baixados por backflush com base na BOM do item de produção. Se quiser que os itens de matéria-prima sejam baixados por backflush com base na entrada de Transferência de material feita para essa Ordem de produção, defina isso neste campo."
+msgstr "O Movimento de estoque do tipo 'Fabricação' é conhecido como backflush. O consumo de matérias-primas para fabricar produtos acabados é chamado de backflushing. <br><br> Ao criar um Movimento de fabricação, os itens de matéria-prima são baixados por backflush com base na BOM do item de produção. Se quiser que os itens de matéria-prima sejam baixados por backflush com base na entrada de Transferência de material feita para essa Ordem de Trabalho, defina isso neste campo."
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:2166
 msgid "The Work Order is mandatory for Disassembly Order"
-msgstr "A Ordem de produção é obrigatória para a Ordem de desmontagem"
+msgstr "A Ordem de Trabalho é obrigatória para a Ordem de desmontagem"
 
 #. Description of the 'Closing Account Head' (Link) field in DocType 'Period
 #. Closing Voucher'
@@ -99,11 +99,11 @@ msgstr "Os números de fólio não conferem"
 
 #: erpnext/stock/doctype/putaway_rule/putaway_rule.py:305
 msgid "The following Items, having Putaway Rules, could not be accomodated:"
-msgstr "Não foi possível acomodar os seguintes Itens com Regras de armazenagem:"
+msgstr "Não foi possível alocar os seguintes itens com regras de armazenagem:"
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.py:138
 msgid "The following Purchase Invoices are not submitted:"
-msgstr "As seguintes Faturas de compra não foram enviadas:"
+msgstr "As seguintes faturas de compra não foram enviadas:"
 
 #: erpnext/assets/doctype/asset/depreciation.py:342
 msgid "The following assets have failed to automatically post depreciation entries: {0}"
@@ -119,7 +119,7 @@ msgstr "Existem as seguintes entradas de repost canceladas para <b>{0}</b>:<br><
 
 #: erpnext/stock/doctype/item/item.py:842
 msgid "The following deleted attributes exist in Variants but not in the Template. You can either delete the Variants or keep the attribute(s) in template."
-msgstr "Os seguintes atributos excluídos existem nas Variantes, mas não no Modelo. Você pode excluir as Variantes ou manter os atributos no modelo."
+msgstr "Os seguintes atributos excluídos existem nas variantes, mas não no modelo. Você pode excluir as variantes ou manter os atributos no modelo."
 
 #: erpnext/setup/doctype/employee/employee.py:176
 msgid "The following employees are currently still reporting to {0}:"
@@ -127,7 +127,7 @@ msgstr "Os seguintes funcionários ainda estão subordinados a {0}:"
 
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.py:185
 msgid "The following invalid Pricing Rules are deleted:"
-msgstr "As seguintes Regras de preço inválidas foram excluídas:"
+msgstr "As seguintes regras de preço inválidas foram excluídas:"
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.py:112
 msgid "The following rows are duplicates:"
@@ -160,11 +160,11 @@ msgstr "Os itens {items} não estão marcados como itens de {type_of}. Você pod
 
 #: erpnext/manufacturing/doctype/workstation/workstation.py:549
 msgid "The job card {0} is in {1} state and you cannot complete."
-msgstr "O Cartão de trabalho {0} está no status {1} e não pode ser concluído."
+msgstr "O cartão de trabalho {0} está no status {1} e não pode ser concluído."
 
 #: erpnext/manufacturing/doctype/workstation/workstation.py:543
 msgid "The job card {0} is in {1} state and you cannot start it again."
-msgstr "O Cartão de trabalho {0} está no status {1} e não pode ser iniciado novamente."
+msgstr "O cartão de trabalho {0} está no status {1} e não pode ser iniciado novamente."
 
 #: erpnext/public/js/utils/barcode_scanner.js:533
 msgid "The last scanned warehouse has been cleared and won't be set in the subsequently scanned items"
@@ -250,7 +250,7 @@ msgstr "As BOMs selecionadas não são do mesmo item"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:539
 msgid "The selected change account {} doesn't belongs to Company {}."
-msgstr "A conta de alteração selecionada {} não pertence à Empresa {}."
+msgstr "A conta de troco selecionada {} não pertence à Empresa {}."
 
 #: erpnext/stock/doctype/batch/batch.py:157
 msgid "The selected item cannot have Batch"
@@ -297,7 +297,7 @@ msgstr "A sincronização foi iniciada em segundo plano. Verifique a lista de {0
 #. DocType 'POS Settings'
 #: erpnext/accounts/doctype/pos_settings/pos_settings.json
 msgid "The system will create a Sales Invoice or a POS Invoice from the POS interface based on this setting. For high-volume transactions, it is recommended to use POS Invoice."
-msgstr "Com base nesta configuração, o sistema criará uma Fatura de venda ou uma Fatura de PDV pela interface do PDV. Para transações em alto volume, recomenda-se usar Fatura de PDV."
+msgstr "Com base nesta configuração, o sistema criará uma Fatura de venda ou uma Fatura de PDV pela interface do PDV. Para transações de alto volume, recomenda-se usar Fatura de PDV."
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:179
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:186
@@ -342,7 +342,7 @@ msgstr "O usuário poderá transferir materiais adicionais do almoxarifado para 
 #. DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "The users with this Role are allowed to create/modify a stock transaction, even though the transaction is frozen."
-msgstr "Usuários com esta Função podem criar/modificar uma transação de estoque, mesmo com a transação congelada."
+msgstr "Usuários com este Perfil podem criar/modificar uma transação de estoque, mesmo com a transação congelada."
 
 #: erpnext/stock/doctype/item_alternative/item_alternative.py:55
 msgid "The value of {0} differs between Items {1} and {2}"
@@ -354,7 +354,7 @@ msgstr "O valor {0} já está atribuído ao Item existente {1}."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1154
 msgid "The warehouse where you store finished Items before they are shipped."
-msgstr "O armazém onde você guarda os Itens acabados antes do envio."
+msgstr "O armazém onde você guarda os itens acabados antes do envio."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1147
 msgid "The warehouse where you store your raw materials. Each required item can have a separate source warehouse. Group warehouse also can be selected as source warehouse. On submission of the Work Order, the raw materials will be reserved in these warehouses for production usage."
@@ -362,7 +362,7 @@ msgstr "O armazém onde você guarda suas matérias-primas. Cada item necessári
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1159
 msgid "The warehouse where your Items will be transferred when you begin production. Group Warehouse can also be selected as a Work in Progress warehouse."
-msgstr "O armazém para o qual seus Itens serão transferidos quando a produção começar. Um Armazém de grupo também pode ser selecionado como armazém de Trabalho em andamento."
+msgstr "O armazém para o qual seus itens serão transferidos quando a produção começar. Um armazém de grupo também pode ser selecionado como armazém de trabalho em andamento."
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:772
 msgid "The {0} ({1}) must be equal to {2} ({3})"
@@ -390,7 +390,7 @@ msgstr "{0} {1} é usado para calcular o custo de avaliação do produto acabado
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:44
 msgid "Then Pricing Rules are filtered out based on Customer, Customer Group, Territory, Supplier, Supplier Type, Campaign, Sales Partner etc."
-msgstr "Em seguida, as Regras de preço são filtradas com base em Cliente, Grupo de clientes, Território, Fornecedor, Tipo de fornecedor, Campanha, Parceiro de vendas etc."
+msgstr "Em seguida, as regras de preço são filtradas com base em Cliente, Grupo de clientes, Território, Fornecedor, Tipo de fornecedor, Campanha, Parceiro de vendas etc."
 
 #: erpnext/assets/doctype/asset/asset.py:707
 msgid "There are active maintenance or repairs against the asset. You must complete all of them before cancelling the asset."
@@ -410,7 +410,7 @@ msgstr "Não há transações com falha"
 
 #: erpnext/setup/demo.py:108
 msgid "There are no active Fiscal Years for which Demo Data can be generated."
-msgstr "Não há Anos fiscais ativos para os quais dados de demonstração possam ser gerados."
+msgstr "Não há anos fiscais ativos para os quais dados de demonstração possam ser gerados."
 
 #: erpnext/www/book_appointment/index.js:95
 msgid "There are no slots available on this date"
@@ -450,7 +450,7 @@ msgstr "Nenhum lote encontrado em {0}: {1}"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1603
 msgid "There must be atleast 1 Finished Good in this Stock Entry"
-msgstr "Deve haver pelo menos 1 Produto acabado neste Lançamento de estoque"
+msgstr "Deve haver pelo menos 1 produto acabado neste Movimento de estoque"
 
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:153
 msgid "There was an error creating Bank Account while linking with Plaid."
@@ -612,7 +612,7 @@ msgstr "Isso é considerado perigoso do ponto de vista contábil."
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:538
 msgid "This is done to handle accounting for cases when Purchase Receipt is created after Purchase Invoice"
-msgstr "Isso é feito para lidar com a contábilidade de casos em que o recibo de compra é criado após a fatura de compra"
+msgstr "Isso é feito para tratar a contabilização de casos em que o recebimento de compra é criado após a fatura de compra"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1140
 msgid "This is enabled by default. If you want to plan materials for sub-assemblies of the Item you're manufacturing leave this enabled. If you plan and manufacture the sub-assemblies separately, you can disable this checkbox."

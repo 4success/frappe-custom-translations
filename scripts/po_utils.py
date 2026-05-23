@@ -95,7 +95,7 @@ def write_po(path: Path, header: str, entries: list[str]) -> None:
     path.write_text("\n".join(parts).strip() + "\n", encoding="utf-8")
 
 
-PERCENT_RE = re.compile(r"%(?:\([^)]+\))?[#0 +\-]?(?:\d+|\*)?(?:\.\d+)?[a-zA-Z]")
+PERCENT_RE = re.compile(r"%(?:\([^)]+\))?[#0+\-]?(?:\d+|\*)?(?:\.\d+)?[diouxXeEfFgGcrs%]")
 BRACE_RE = re.compile(r"\{[a-zA-Z0-9_]+\}")
 
 

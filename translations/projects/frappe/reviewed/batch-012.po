@@ -183,7 +183,7 @@ msgstr "Especialista"
 #: frappe/integrations/doctype/oauth_authorization_code/oauth_authorization_code.json
 #: frappe/integrations/doctype/oauth_bearer_token/oauth_bearer_token.json
 msgid "Expiration time"
-msgstr "Data de expiração"
+msgstr "Data e hora de expiração"
 
 #. Label of the expire_notification_on (Datetime) field in DocType 'Note'
 #: frappe/desk/doctype/note/note.json
@@ -314,7 +314,7 @@ msgstr "As permissões exportadas serão sincronizadas à força em cada migraç
 #. Label of the expose_recipients (Data) field in DocType 'Email Queue'
 #: frappe/email/doctype/email_queue/email_queue.json
 msgid "Expose Recipients"
-msgstr "Exibir destinatários"
+msgstr "Expor destinatários"
 
 #. Option for the 'Naming Rule' (Select) field in DocType 'DocType'
 #. Option for the 'Naming Rule' (Select) field in DocType 'Customize Form'
@@ -374,7 +374,7 @@ msgstr "Falha"
 #: frappe/core/doctype/submission_queue/submission_queue.json
 #: frappe/integrations/doctype/integration_request/integration_request.json
 msgid "Failed"
-msgstr "Falhou"
+msgstr "Falha"
 
 #. Label of the failed_emails (Int) field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
@@ -425,7 +425,7 @@ msgstr "Falha ao conectar ao servidor"
 
 #: frappe/auth.py:704
 msgid "Failed to decode token, please provide a valid base64-encoded token."
-msgstr "Falha ao decodificar o token; forneca um token válido codificado em base64."
+msgstr "Falha ao decodificar o token; forneça um token válido codificado em base64."
 
 #: frappe/utils/password.py:210
 msgid "Failed to decrypt key {0}"
@@ -470,7 +470,7 @@ msgstr "Falha ao obter as informações do site"
 
 #: frappe/model/virtual_doctype.py:63
 msgid "Failed to import virtual doctype {}, is controller file present?"
-msgstr "Falha ao importar o tipo de documento virtual {}, o arquivo do controlador está presente?"
+msgstr "Falha ao importar o tipo de documento virtual {}. O arquivo do controlador está presente?"
 
 #: frappe/utils/image.py:75
 msgid "Failed to optimize image: {0}"
@@ -568,7 +568,7 @@ msgstr "Buscar ao salvar se estiver vazio"
 
 #: frappe/desk/doctype/global_search_settings/global_search_settings.py:61
 msgid "Fetching default Global Search documents."
-msgstr "Buscando documentos padrão da Busca global."
+msgstr "Buscando documentos padrão da pesquisa global."
 
 #: frappe/website/doctype/web_form/web_form.js:168
 msgid "Fetching fields from {0}..."
@@ -655,7 +655,7 @@ msgstr "Campo não permitido na consulta"
 #. Description of the 'Workflow State Field' (Data) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Field that represents the Workflow State of the transaction (if field is not present, a new hidden Custom Field will be created)"
-msgstr "Campo que representa o estado do fluxo de trabalho da transação (se o campo não existir, um novo Campo personalizado oculto será criado)"
+msgstr "Campo que representa o estado do fluxo de trabalho da transação (se o campo não existir, um novo campo personalizado oculto será criado)"
 
 #. Label of the track_field (Select) field in DocType 'Milestone Tracker'
 #: frappe/automation/doctype/milestone_tracker/milestone_tracker.json
@@ -723,7 +723,7 @@ msgstr "Nome do campo não definido para Campo personalizado"
 
 #: frappe/custom/doctype/custom_field/custom_field.js:107
 msgid "Fieldname which will be the DocType for this link field."
-msgstr "Nome do campo que será o DocType para este campo de link."
+msgstr "Nome do campo que será o DocType deste campo de link."
 
 #: frappe/public/js/form_builder/store.js:175
 msgid "Fieldname {0} appears multiple times"

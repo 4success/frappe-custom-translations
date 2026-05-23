@@ -124,8 +124,8 @@ msgid "Numeric Values"
 msgstr "Valores numéricos"
 
 #: erpnext/regional/doctype/import_supplier_invoice/import_supplier_invoice.py:88
-msgid "Número has not set in the XML file"
-msgstr "A tag Número não foi definida no arquivo XML"
+msgid "Numero has not set in the XML file"
+msgstr "Número não foi definido no arquivo XML"
 
 #. Option for the 'Blood Group' (Select) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -168,12 +168,12 @@ msgstr "Equipamentos de escritório"
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:120
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:196
 msgid "Office Maintenance Expenses"
-msgstr "Despesas Com Manutenção de Escritório"
+msgstr "Despesas com manutenção de escritório"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:121
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:200
 msgid "Office Rent"
-msgstr "Aluguel do Escritório"
+msgstr "Aluguel do escritório"
 
 #. Label of the offsetting_account (Link) field in DocType 'Accounting
 #. Dimension Detail'
@@ -430,7 +430,7 @@ msgstr "HTML das atividades em aberto"
 
 #: erpnext/manufacturing/doctype/bom/bom_item_preview.html:24
 msgid "Open BOM {0}"
-msgstr "Abrir lista de materiais {0}"
+msgstr "Abrir BOM {0}"
 
 #: erpnext/public/js/templates/call_link.html:11
 msgid "Open Call Log"
@@ -493,7 +493,7 @@ msgstr "Projetos em aberto "
 #. Label of the pending_quotations (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Open Quotations"
-msgstr "Cotações em aberto"
+msgstr "Orçamentos em aberto"
 
 #: erpnext/stock/report/item_variant_details/item_variant_details.py:110
 msgid "Open Sales Orders"
@@ -625,7 +625,7 @@ msgstr "O lançamento de abertura não pode ser criado depois que o comprovante 
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:286
 msgid "Opening Invoice Creation In Progress"
-msgstr "Criação de Fatura Em Andamento"
+msgstr "Criação de fatura em andamento"
 
 #. Name of a DocType
 #. Label of a Link in the Accounting Workspace
@@ -635,7 +635,7 @@ msgstr "Criação de Fatura Em Andamento"
 #: erpnext/accounts/workspace/accounting/accounting.json
 #: erpnext/setup/workspace/home/home.json
 msgid "Opening Invoice Creation Tool"
-msgstr "Ferramenta de Criação de Fatura de Abertura"
+msgstr "Ferramenta de criação de fatura de abertura"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/opening_invoice_creation_tool_item/opening_invoice_creation_tool_item.json
@@ -657,7 +657,7 @@ msgstr "Faturas de abertura"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:140
 msgid "Opening Invoices Summary"
-msgstr "Resumo Das Faturas de Abertura"
+msgstr "Resumo das faturas de abertura"
 
 #. Label of the opening_number_of_booked_depreciations (Int) field in DocType
 #. 'Asset'
@@ -733,11 +733,11 @@ msgstr "Custo operacional (moeda da empresa)"
 #. 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Operating Cost Per BOM Quantity"
-msgstr "Custo operacional por quantidade da lista de materiais"
+msgstr "Custo operacional por quantidade da BOM"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1602
 msgid "Operating Cost as per Work Order / BOM"
-msgstr "Custo operacional conforme ordem de produção / lista de materiais"
+msgstr "Custo operacional conforme ordem de produção / BOM"
 
 #. Label of the base_operating_cost (Currency) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
@@ -813,7 +813,7 @@ msgstr "Tempo de operação"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1452
 msgid "Operation Time must be greater than 0 for Operation {0}"
-msgstr "Tempo de Operação deve ser maior que 0 para a operação {0}"
+msgstr "O tempo de operação deve ser maior que 0 para a operação {0}"
 
 #. Description of the 'Completed Qty' (Float) field in DocType 'Work Order
 #. Operation'
@@ -828,11 +828,11 @@ msgstr "O tempo de operação não depende da quantidade a produzir"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:578
 msgid "Operation {0} added multiple times in the work order {1}"
-msgstr "Operação {0} adicionada várias vezes na ordem de serviço {1}"
+msgstr "Operação {0} adicionada várias vezes na ordem de trabalho {1}"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1126
 msgid "Operation {0} does not belong to the work order {1}"
-msgstr "A operação {0} não pertence à ordem de serviço {1}"
+msgstr "A operação {0} não pertence à ordem de trabalho {1}"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.py:432
 msgid "Operation {0} longer than any available working hours in workstation {1}, break down the operation into multiple operations"

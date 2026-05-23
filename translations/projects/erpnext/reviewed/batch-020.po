@@ -32,7 +32,7 @@ msgstr "O Exercício Fiscal Começa em"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Financial reports will be generated using GL Entry doctypes (should be enabled if Period Closing Voucher is not posted for all years sequentially or missing) "
-msgstr "Os relatórios financeiros serão gerados usando DocTypes de GL Entry (deve ser ativado se o Comprovante de Fechamento de Período não tiver sido lançado para todos os anos em sequência ou estiver faltando) "
+msgstr "Os relatórios financeiros serão gerados usando lançamentos GL Entry (deve ser ativado se o comprovante de fechamento de período não tiver sido lançado para todos os anos em sequência ou estiver faltando) "
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:853
 #: erpnext/manufacturing/doctype/work_order/work_order.js:868
@@ -61,7 +61,7 @@ msgstr "Produto Acabado"
 #. Label of the finished_good_bom (Link) field in DocType 'Subcontracting BOM'
 #: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
 msgid "Finished Good BOM"
-msgstr "BOM do Produto Acabado"
+msgstr "BOM do produto acabado"
 
 #. Label of the fg_item (Link) field in DocType 'Subcontracting Inward Order
 #. Service Item'
@@ -78,7 +78,7 @@ msgstr "Item do Produto Acabado"
 #: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.py:37
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_scrap_item/subcontracting_inward_order_scrap_item.json
 msgid "Finished Good Item Code"
-msgstr "Código de Item Acabado"
+msgstr "Código do item de produto acabado"
 
 #: erpnext/public/js/utils.js:835
 msgid "Finished Good Item Qty"
@@ -158,7 +158,7 @@ msgstr "Custo Operacional com Base em Produtos Acabados"
 #. Label of the fg_item (Link) field in DocType 'BOM Creator Item'
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
 msgid "Finished Goods Item"
-msgstr "Item de Produtos Acabados"
+msgstr "Item de produto acabado"
 
 #. Label of the fg_reference_id (Data) field in DocType 'BOM Creator Item'
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
@@ -392,12 +392,12 @@ msgstr "Gerente de Frota"
 #. Label of the details_tab (Tab Break) field in DocType 'Plant Floor'
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.json
 msgid "Floor"
-msgstr "Chao de Fabrica"
+msgstr "Chão de fábrica"
 
 #. Label of the floor_name (Data) field in DocType 'Plant Floor'
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.json
 msgid "Floor Name"
-msgstr "Nome do Chao de Fabrica"
+msgstr "Nome do chão de fábrica"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json

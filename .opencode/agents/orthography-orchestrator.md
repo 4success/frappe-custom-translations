@@ -1,7 +1,7 @@
 ---
 description: Orchestrates batch-by-batch orthography cleanup for reviewed pt-BR PO files across Frappe projects
 mode: subagent
-model: openai/gpt-5.1-codex
+model: openai/gpt-5.4-mini
 temperature: 0.05
 permission:
   task:

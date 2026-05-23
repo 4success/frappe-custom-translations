@@ -26,7 +26,7 @@ msgstr "Ex.: smsgateway.com/api/send_sms.cgi"
 
 #: frappe/rate_limiter.py:152
 msgid "Either key or IP flag is required."
-msgstr "A chave ou o indicador de IP é obrigatório."
+msgstr "É necessário informar a chave ou a flag de IP."
 
 #. Label of the element_selector (Data) field in DocType 'Form Tour Step'
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json
@@ -174,18 +174,18 @@ msgstr "Cabeçalho do e-mail"
 #: frappe/core/doctype/user_email/user_email.json
 #: frappe/email/doctype/email_rule/email_rule.json
 msgid "Email ID"
-msgstr "ID do e-mail"
+msgstr "Endereço de e-mail"
 
 #. Label of the email_ids (Table) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
 msgid "Email IDs"
-msgstr "IDs de e-mail"
+msgstr "Endereços de e-mail"
 
 #. Label of the email_id (Data) field in DocType 'Contact Us Settings'
 #: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.py:48
 #: frappe/website/doctype/contact_us_settings/contact_us_settings.json
 msgid "Email Id"
-msgstr "ID do e-mail"
+msgstr "Endereço de e-mail"
 
 #. Label of the email_inbox (Section Break) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json
@@ -294,7 +294,7 @@ msgstr "O e-mail foi movido para a lixeira"
 
 #: frappe/core/doctype/user/user.js:273
 msgid "Email is mandatory to create User Email"
-msgstr "O e-mail é obrigatório para criar E-mail do usuário"
+msgstr "O e-mail é obrigatório para criar um e-mail de usuário"
 
 #: frappe/public/js/frappe/views/communication.js:813
 msgid "Email not sent to {0} (unsubscribed / disabled)"
@@ -470,7 +470,7 @@ msgstr "Ativar relatório"
 #. Label of the enable_scheduler (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Enable Scheduled Jobs"
-msgstr "Ativar Tarefas Agendadas"
+msgstr "Ativar tarefas agendadas"
 
 #: frappe/core/doctype/rq_job/rq_job_list.js:32
 msgid "Enable Scheduler"
@@ -683,7 +683,7 @@ msgstr "Digite o valor"
 
 #: frappe/public/js/frappe/form/form_tour.js:60
 msgid "Enter a name for this {0}"
-msgstr "Digite um nome para este {0}"
+msgstr "Digite um nome para {0}"
 
 #. Description of the 'User Defaults' (Table) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
@@ -804,7 +804,7 @@ msgstr "Erro no script do cliente."
 
 #: frappe/printing/doctype/letter_head/letter_head.js:21
 msgid "Error in Header/Footer Script"
-msgstr "Erro no script de cabeçalho/rodape"
+msgstr "Erro no script de cabeçalho/rodapé"
 
 #: frappe/email/doctype/notification/notification.py:677
 #: frappe/email/doctype/notification/notification.py:816

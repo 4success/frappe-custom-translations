@@ -21,7 +21,7 @@ msgstr ""
 #. Label of the workstations_tab (Tab Break) field in DocType 'Plant Floor'
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.json
 msgid "Workstations"
-msgstr "Estações de trabalho"
+msgstr "Postos de trabalho"
 
 #. Label of the write_off (Section Break) field in DocType 'Journal Entry'
 #. Label of the column_break4 (Section Break) field in DocType 'POS Invoice'
@@ -190,7 +190,7 @@ msgstr "Você não tem permissão para atualizar conforme as condições definid
 
 #: erpnext/accounts/general_ledger.py:793
 msgid "You are not authorized to add or update entries before {0}"
-msgstr "Você não está autorizado para adicionar ou atualizar entradas antes de {0}"
+msgstr "Você não tem permissão para adicionar ou atualizar lançamentos antes de {0}"
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:338
 msgid "You are not authorized to make/edit Stock Transactions for Item {0} under warehouse {1} before this time."
@@ -222,7 +222,7 @@ msgstr "Você pode alterar a conta pai para uma conta patrimonial ou selecionar 
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:681
 msgid "You can not enter current voucher in 'Against Journal Entry' column"
-msgstr "Você não pode lançar o comprovante atual na coluna 'Contra Entrada do Livro Diário'"
+msgstr "Você não pode informar o comprovante atual na coluna 'Against Journal Entry'"
 
 #: erpnext/accounts/doctype/subscription/subscription.py:174
 msgid "You can only have Plans with the same billing cycle in a Subscription"
@@ -431,7 +431,7 @@ msgstr "[Importante] [ERPNext] Erros de reordenamento automático"
 
 #: erpnext/controllers/status_updater.py:287
 msgid "`Allow Negative rates for Items`"
-msgstr "`Permitir taxas negativas para itens`"
+msgstr "`Permitir preços negativos para itens`"
 
 #: erpnext/stock/stock_ledger.py:2041
 msgid "after"
@@ -735,7 +735,7 @@ msgstr "via ferramenta de atualização de BOM"
 
 #: erpnext/assets/doctype/asset_category/asset_category.py:111
 msgid "you must select Capital Work in Progress Account in accounts table"
-msgstr "você deve selecionar a conta de ativo em andamento na tabela de contas"
+msgstr "você deve selecionar a conta de imobilizado em andamento (CWIP) na tabela de contas"
 
 #: erpnext/controllers/accounts_controller.py:1279
 msgid "{0} '{1}' is disabled"

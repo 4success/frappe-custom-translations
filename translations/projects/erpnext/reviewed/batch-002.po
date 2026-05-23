@@ -69,7 +69,7 @@ msgstr "O cliente deve ter um e-mail de contato principal."
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.py:55
 msgid "A driver must be set to submit."
-msgstr "E preciso definir um motorista para enviar."
+msgstr "É preciso definir um motorista para enviar."
 
 #. Description of a DocType
 #: erpnext/stock/doctype/warehouse/warehouse.json
@@ -121,14 +121,14 @@ msgstr ""
 
 #: erpnext/stock/report/serial_no_and_batch_traceability/serial_no_and_batch_traceability.py:548
 msgid "AMC Expiry (Serial)"
-msgstr ""
+msgstr "Vencimento do AMC (série)"
 
 #. Label of the amc_expiry_date (Date) field in DocType 'Serial No'
 #. Label of the amc_expiry_date (Date) field in DocType 'Warranty Claim'
 #: erpnext/stock/doctype/serial_no/serial_no.json
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "AMC Expiry Date"
-msgstr ""
+msgstr "Data de vencimento do AMC"
 
 #. Label of the api_details_section (Section Break) field in DocType 'Currency
 #. Exchange Settings'
@@ -139,7 +139,7 @@ msgstr "Detalhes da API"
 #. Label of the awb_number (Data) field in DocType 'Shipment'
 #: erpnext/stock/doctype/shipment/shipment.json
 msgid "AWB Number"
-msgstr ""
+msgstr "Número AWB"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -149,12 +149,12 @@ msgstr ""
 #. Label of the abbr (Data) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Abbr"
-msgstr ""
+msgstr "Abrev."
 
 #. Label of the abbr (Data) field in DocType 'Item Attribute Value'
 #: erpnext/stock/doctype/item_attribute_value/item_attribute_value.json
 msgid "Abbreviation"
-msgstr ""
+msgstr "Abreviação"
 
 #: erpnext/setup/doctype/company/company.py:230
 msgid "Abbreviation already used for another company"
@@ -217,7 +217,7 @@ msgstr "Qtd. aceita na UM de estoque"
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Accepted Quantity"
-msgstr "Quantidade Aceita"
+msgstr "Quantidade aceita"
 
 #. Label of the warehouse (Link) field in DocType 'Purchase Invoice Item'
 #. Label of the set_warehouse (Link) field in DocType 'Purchase Receipt'
@@ -330,7 +330,7 @@ msgstr "Dados da conta"
 #: erpnext/accounts/report/custom_financial_statement/custom_financial_statement.js:21
 #: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.js:20
 msgid "Account Detail Level"
-msgstr "Nivel de detalhe da conta"
+msgstr "Nível de detalhe da conta"
 
 #. Label of the account_details_section (Section Break) field in DocType 'Bank
 #. Account'
@@ -385,7 +385,7 @@ msgstr "Nome da conta"
 
 #: erpnext/accounts/doctype/account/account.py:373
 msgid "Account Not Found"
-msgstr "Conta Não Encontrada"
+msgstr "Conta não encontrada"
 
 #. Label of the account_number (Data) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
@@ -394,7 +394,7 @@ msgstr "Conta Não Encontrada"
 #: erpnext/accounts/report/financial_statements.py:688
 #: erpnext/accounts/report/trial_balance/trial_balance.py:487
 msgid "Account Number"
-msgstr "Número da Conta"
+msgstr "Número da conta"
 
 #: erpnext/accounts/doctype/account/account.py:359
 msgid "Account Number {0} already used in account {1}"
@@ -449,7 +449,7 @@ msgstr "Tipo de conta"
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:128
 msgid "Account Value"
-msgstr "Valor da Conta"
+msgstr "Valor da conta"
 
 #: erpnext/accounts/doctype/account/account.py:328
 msgid "Account balance already in Credit, you are not allowed to set 'Balance Must Be' as 'Debit'"
@@ -487,19 +487,19 @@ msgstr "Conta não encontrada"
 
 #: erpnext/accounts/doctype/account/account.py:427
 msgid "Account with child nodes cannot be converted to ledger"
-msgstr "Uma conta com nos filhos não pode ser convertida em razão"
+msgstr "Uma conta com nós filhos não pode ser convertida em razão"
 
 #: erpnext/accounts/doctype/account/account.py:279
 msgid "Account with child nodes cannot be set as ledger"
-msgstr "Uma conta com nos filhos não pode ser definida como razão"
+msgstr "Uma conta com nós filhos não pode ser definida como razão"
 
 #: erpnext/accounts/doctype/account/account.py:438
 msgid "Account with existing transaction can not be converted to group."
-msgstr "Contas com a transações existentes não pode ser convertidas em um grupo."
+msgstr "Contas com transações existentes não podem ser convertidas em grupo."
 
 #: erpnext/accounts/doctype/account/account.py:467
 msgid "Account with existing transaction can not be deleted"
-msgstr "Contas com transações existentes não pode ser excluídas"
+msgstr "Contas com transações existentes não podem ser excluídas"
 
 #: erpnext/accounts/doctype/account/account.py:273
 #: erpnext/accounts/doctype/account/account.py:429
@@ -508,7 +508,7 @@ msgstr "Contas com transações existentes não podem ser convertidas em livro-r
 
 #: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.py:67
 msgid "Account {0} added multiple times"
-msgstr "A conta {0} foi adicionada varias vezes"
+msgstr "A conta {0} foi adicionada várias vezes"
 
 #: erpnext/accounts/doctype/account/account.py:291
 msgid "Account {0} cannot be converted to Group as it is already set as {1} for {2}."
@@ -520,7 +520,7 @@ msgstr "A conta {0} não pode ser desativada, pois já está definida como {1} p
 
 #: erpnext/accounts/doctype/budget/budget.py:159
 msgid "Account {0} does not belong to company {1}"
-msgstr "A conta {0} não pertence a empresa {1}"
+msgstr "A conta {0} não pertence à empresa {1}"
 
 #: erpnext/setup/doctype/company/company.py:277
 msgid "Account {0} does not belong to company: {1}"
@@ -544,7 +544,7 @@ msgstr "A conta {0} não coincide com a Empresa {1} no Modo de Conta: {2}"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:138
 msgid "Account {0} doesn't belong to Company {1}"
-msgstr "A conta {0} não pertence a empresa {1}"
+msgstr "A conta {0} não pertence à empresa {1}"
 
 #: erpnext/accounts/doctype/account/account.py:544
 msgid "Account {0} exists in parent company {1}."
@@ -552,7 +552,7 @@ msgstr "A conta {0} existe na empresa-mãe {1}."
 
 #: erpnext/accounts/doctype/account/account.py:411
 msgid "Account {0} is added in the child company {1}"
-msgstr "Conta {0} é adicionada na empresa filha {1}"
+msgstr "A conta {0} foi adicionada na empresa filha {1}"
 
 #: erpnext/setup/doctype/company/company.py:266
 msgid "Account {0} is disabled."
@@ -560,7 +560,7 @@ msgstr "A conta {0} está desativada."
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:430
 msgid "Account {0} is frozen"
-msgstr "A Conta {0} está congelada"
+msgstr "A conta {0} está congelada"
 
 #: erpnext/controllers/accounts_controller.py:1464
 msgid "Account {0} is invalid. Account Currency must be {1}"
@@ -572,15 +572,15 @@ msgstr "A conta {0} deve ser do tipo Despesa"
 
 #: erpnext/accounts/doctype/account/account.py:152
 msgid "Account {0}: Parent account {1} can not be a ledger"
-msgstr "Conta {0}: a Conta Superior {1} não pode ser um livro-razão"
+msgstr "Conta {0}: a conta pai {1} não pode ser uma conta de razão"
 
 #: erpnext/accounts/doctype/account/account.py:158
 msgid "Account {0}: Parent account {1} does not belong to company: {2}"
-msgstr "Conta {0}: a Conta Superior {1} não pertence à empresa: {2}"
+msgstr "Conta {0}: a conta pai {1} não pertence à empresa: {2}"
 
 #: erpnext/accounts/doctype/account/account.py:146
 msgid "Account {0}: Parent account {1} does not exist"
-msgstr "Conta {0}: a Conta Superior {1} não existe"
+msgstr "Conta {0}: a conta pai {1} não existe"
 
 #: erpnext/accounts/doctype/account/account.py:149
 msgid "Account {0}: You can not assign itself as parent account"
@@ -685,7 +685,7 @@ msgstr "Detalhes contábeis"
 #: erpnext/accounts/report/profitability_analysis/profitability_analysis.js:32
 #: erpnext/accounts/workspace/accounting/accounting.json
 msgid "Accounting Dimension"
-msgstr "Dimensão Contábil"
+msgstr "Dimensão contábil"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:215
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.py:151
@@ -695,12 +695,12 @@ msgstr "A dimensão contábil <b>{0}</b> é obrigatória para a conta de 'Balan�
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:201
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.py:138
 msgid "Accounting Dimension <b>{0}</b> is required for 'Profit and Loss' account {1}."
-msgstr "A dimensão contábil <b>{0}</b> é obrigatória para a conta de 'Lucros é perdas' {1}."
+msgstr "A dimensão contábil <b>{0}</b> é obrigatória para a conta de 'Lucros e perdas' {1}."
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/accounting_dimension_detail/accounting_dimension_detail.json
 msgid "Accounting Dimension Detail"
-msgstr "Detalhe da Dimensão Contábil"
+msgstr "Detalhe da dimensão contábil"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/accounting_dimension_filter/accounting_dimension_filter.json
@@ -841,7 +841,7 @@ msgstr "Filtro de dimensão contábil"
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
 msgid "Accounting Dimensions"
-msgstr "Dimensões Contábeis"
+msgstr "Dimensões contábeis"
 
 #. Label of the accounting_dimensions_section (Section Break) field in DocType
 #. 'Purchase Invoice'
@@ -856,7 +856,7 @@ msgstr "Dimensões Contábeis"
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Accounting Dimensions "
-msgstr "Dimensoes contábeis "
+msgstr "Dimensões contábeis "
 
 #. Label of the accounting_dimensions_section (Section Break) field in DocType
 #. 'Payment Reconciliation'
@@ -875,7 +875,7 @@ msgstr "Lançamentos contábeis"
 #: erpnext/assets/doctype/asset/asset.py:932
 #: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:562
 msgid "Accounting Entry for Asset"
-msgstr "Entrada Contábil de Ativo"
+msgstr "Lançamento contábil do ativo"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1883
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1903
@@ -888,7 +888,7 @@ msgstr "Lançamento contábil para voucher de custo adicional do SCR {0}"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:839
 msgid "Accounting Entry for Service"
-msgstr "Lançamento Contábil Para Serviço"
+msgstr "Lançamento contábil para serviço"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1013
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1034
@@ -906,7 +906,7 @@ msgstr "Lançamento Contábil Para Serviço"
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1842
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:708
 msgid "Accounting Entry for Stock"
-msgstr "Lançamento Contábil de Estoque"
+msgstr "Lançamento contábil do estoque"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:736
 msgid "Accounting Entry for {0}"
@@ -940,7 +940,7 @@ msgstr "Período Contábil"
 
 #: erpnext/accounts/doctype/accounting_period/accounting_period.py:68
 msgid "Accounting Period overlaps with {0}"
-msgstr "O período contábil se sobrepoe a {0}"
+msgstr "O período contábil se sobrepõe a {0}"
 
 #. Description of the 'Accounts Frozen Till Date' (Date) field in DocType
 #. 'Company'
@@ -996,7 +996,7 @@ msgstr "Contas bloqueadas até a data"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:192
 msgid "Accounts Included in Report"
-msgstr "Contas incluidas no relatório"
+msgstr "Contas incluídas no relatório"
 
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:362
 msgid "Accounts Missing Error"
@@ -1052,7 +1052,7 @@ msgstr "Contas a Receber"
 #. field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Accounts Receivable / Payable Tuning"
-msgstr "Ajustes de contas a receber é a pagar"
+msgstr "Ajustes de contas a receber e a pagar"
 
 #. Label of the accounts_receivable_credit (Link) field in DocType 'Invoice
 #. Discounting'
@@ -1115,7 +1115,7 @@ msgstr "Despesas provisionadas"
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:112
 #: erpnext/accounts/report/account_balance/account_balance.js:37
 msgid "Accumulated Depreciation"
-msgstr "Depreciação Acumulada"
+msgstr "Depreciação acumulada"
 
 #. Label of the accumulated_depreciation_account (Link) field in DocType 'Asset
 #. Category Account'

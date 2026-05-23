@@ -115,7 +115,7 @@ msgstr "Ano fiscal inicial não pode ser maior que o ano fiscal final"
 #. Label of the from_folio_no (Data) field in DocType 'Share Transfer'
 #: erpnext/accounts/doctype/share_transfer/share_transfer.json
 msgid "From Folio No"
-msgstr ""
+msgstr "Do nº do fólio"
 
 #. Label of the from_invoice_date (Date) field in DocType 'Payment
 #. Reconciliation'
@@ -165,7 +165,7 @@ msgstr "Data inicial de lançamento"
 #. Label of the prospect_name (Link) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "From Prospect"
-msgstr "Do Prospect"
+msgstr "Do prospect"
 
 #. Label of the from_range (Float) field in DocType 'Item Attribute'
 #. Label of the from_range (Float) field in DocType 'Item Variant Attribute'
@@ -242,7 +242,7 @@ msgstr "Valor inicial"
 #. Reservation Entry'
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
 msgid "From Voucher Detail No"
-msgstr ""
+msgstr "Do nº do detalhe do comprovante"
 
 #. Label of the from_voucher_no (Dynamic Link) field in DocType 'Stock
 #. Reservation Entry'
@@ -250,7 +250,7 @@ msgstr ""
 #: erpnext/stock/report/reserved_stock/reserved_stock.js:103
 #: erpnext/stock/report/reserved_stock/reserved_stock.py:164
 msgid "From Voucher No"
-msgstr "Do no. do comprovante"
+msgstr "Do nº do comprovante"
 
 #. Label of the from_voucher_type (Select) field in DocType 'Stock Reservation
 #. Entry'
@@ -356,7 +356,7 @@ msgstr "Termos e condições de cumprimento"
 #. Account'
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 msgid "Full and Final Statement"
-msgstr ""
+msgstr "Demonstrativo final"
 
 #. Option for the 'Billing Status' (Select) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -421,13 +421,13 @@ msgstr "Novos nós só podem ser criados sob nós do tipo 'Group'"
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1231
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:177
 msgid "Future Payment Amount"
-msgstr "Valor do Pagamento Futuro"
+msgstr "Valor do pagamento futuro"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:187
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:154
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1230
 msgid "Future Payment Ref"
-msgstr "Referência de Pagamento Futuro"
+msgstr "Referência do pagamento futuro"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:123
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:102
@@ -656,7 +656,7 @@ msgstr "Buscar adiantamentos recebidos"
 #. Label of the get_allocations (Button) field in DocType 'Unreconcile Payment'
 #: erpnext/accounts/doctype/unreconcile_payment/unreconcile_payment.json
 msgid "Get Allocations"
-msgstr ""
+msgstr "Buscar alocações"
 
 #. Label of the get_balance_for_periodic_accounting (Button) field in DocType
 #. 'Journal Entry'
@@ -674,7 +674,7 @@ msgstr "Buscar estoque atual"
 
 #: erpnext/selling/doctype/customer/customer.js:189
 msgid "Get Customer Group Details"
-msgstr ""
+msgstr "Buscar detalhes do grupo de clientes"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:608
 msgid "Get Delivery Schedule"
@@ -695,16 +695,16 @@ msgstr "Buscar produtos acabados"
 #. 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Get Finished Goods for Manufacture"
-msgstr ""
+msgstr "Buscar produtos acabados para fabricação"
 
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.js:57
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.js:159
 msgid "Get Invoices"
-msgstr "Obter Faturas"
+msgstr "Buscar faturas"
 
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.js:104
 msgid "Get Invoices based on Filters"
-msgstr "Obter faturas com base em filtros"
+msgstr "Buscar faturas com base nos filtros"
 
 #. Label of the get_item_locations (Button) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
@@ -752,18 +752,18 @@ msgstr "Buscar itens de"
 #. Label of the transfer_materials (Button) field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Get Items for Purchase / Transfer"
-msgstr ""
+msgstr "Buscar itens para compra / transferência"
 
 #. Label of the get_items_for_mr (Button) field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Get Items for Purchase Only"
-msgstr ""
+msgstr "Buscar itens apenas para compra"
 
 #: erpnext/stock/doctype/material_request/material_request.js:334
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:697
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:710
 msgid "Get Items from BOM"
-msgstr "Obter itens da LDM"
+msgstr "Buscar itens da BOM"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:405
 msgid "Get Items from Material Requests against this Supplier"
@@ -773,16 +773,16 @@ msgstr "Buscar itens de solicitações de material para este fornecedor"
 #. 'Purchase Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 msgid "Get Items from Open Material Requests"
-msgstr ""
+msgstr "Buscar itens de solicitações de material em aberto"
 
 #: erpnext/public/js/controllers/buying.js:604
 msgid "Get Items from Product Bundle"
-msgstr "Obter Itens do Pacote de Produtos"
+msgstr "Buscar itens do pacote de produtos"
 
 #. Label of the get_latest_query (Data) field in DocType 'Support Settings'
 #: erpnext/support/doctype/support_settings/support_settings.json
 msgid "Get Latest Query"
-msgstr ""
+msgstr "Buscar última consulta"
 
 #. Label of the get_material_request (Button) field in DocType 'Production
 #. Plan'
@@ -817,7 +817,7 @@ msgstr "Buscar pedidos em aberto"
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.js:40
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.js:43
 msgid "Get Payment Entries"
-msgstr "Obter Lançamentos de Pagamentos"
+msgstr "Buscar lançamentos de pagamento"
 
 #: erpnext/accounts/doctype/payment_order/payment_order.js:23
 #: erpnext/accounts/doctype/payment_order/payment_order.js:31
@@ -828,7 +828,7 @@ msgstr "Buscar pagamentos de"
 #. 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Get Raw Materials Cost from Consumption Entry"
-msgstr ""
+msgstr "Buscar custo de matérias-primas do lançamento de consumo"
 
 #. Label of the get_sales_orders (Button) field in DocType 'Master Production
 #. Schedule'
@@ -844,12 +844,12 @@ msgstr "Buscar pedidos de venda"
 #. Receipt'
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Get Scrap Items"
-msgstr ""
+msgstr "Buscar itens de sucata"
 
 #. Label of the get_started_sections (Code) field in DocType 'Support Settings'
 #: erpnext/support/doctype/support_settings/support_settings.json
 msgid "Get Started Sections"
-msgstr ""
+msgstr "Seções iniciais"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:552
 msgid "Get Stock"
@@ -859,16 +859,16 @@ msgstr "Buscar estoque"
 #. Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Get Sub Assembly Items"
-msgstr ""
+msgstr "Buscar itens de subconjunto"
 
 #: erpnext/buying/doctype/supplier/supplier.js:115
 msgid "Get Supplier Group Details"
-msgstr ""
+msgstr "Buscar detalhes do grupo de fornecedores"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:447
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:467
 msgid "Get Suppliers"
-msgstr "Obter Fornecedores"
+msgstr "Buscar fornecedores"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:471
 msgid "Get Suppliers By"
@@ -885,11 +885,11 @@ msgstr "Buscar apontamentos de horas"
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.js:102
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.js:107
 msgid "Get Unreconciled Entries"
-msgstr "Obter Lançamentos Não Conciliados"
+msgstr "Buscar lançamentos não conciliados"
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.js:69
 msgid "Get stops from"
-msgstr ""
+msgstr "Buscar paradas de"
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:194
 msgid "Getting Scrap Items"

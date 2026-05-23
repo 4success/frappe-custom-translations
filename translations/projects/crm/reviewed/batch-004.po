@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: shariq@frappe.io\n"
-"POT-Creation-Date: 2026-03-08 09:43+0000\n"
-"PO-Revision-Date: 2026-03-10 00:36\n"
+"POT-Creation-Date: 2026-04-26 09:49+0000\n"
+"PO-Revision-Date: 2026-04-27 02:48\n"
 "Last-Translator: shariq@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -18,6 +18,167 @@ msgstr ""
 "X-Crowdin-File-ID: 97\n"
 "Language: pt_BR\n"
 
+#: frontend/src/components/ViewControls.vue:1121
+#: frontend/src/components/ViewControls.vue:1129
+msgid "Delete View"
+msgstr "Excluir visualização"
+
+#: frontend/src/components/DeleteLinkedDocModal.vue:14
+msgid "Delete or unlink linked documents"
+msgstr "Excluir ou desvincular documentos vinculados"
+
+#: frontend/src/components/DeleteLinkedDocModal.vue:26
+msgid "Delete or unlink these linked documents before deleting this document"
+msgstr "Exclua ou desvincule estes documentos vinculados antes de excluir este documento"
+
+#: frontend/src/components/DeleteLinkedDocModal.vue:70
+msgid "Delete {0} Item(s)"
+msgstr "Excluir {0} item(ns)"
+
+#: frontend/src/components/BulkDeleteLinkedDocModal.vue:28
+msgid "Delete {0} items"
+msgstr "Excluir {0} itens"
+
+#: frontend/src/components/Activities/NoteArea.vue:74
+msgid "Deleting note..."
+msgstr "Excluindo nota..."
+
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.js:58
+msgid "Demo data restored successfully."
+msgstr ""
+
+#. Label of the description (Text Editor) field in DocType 'CRM Holiday'
+#. Label of the description (Text Editor) field in DocType 'CRM Lost Reason'
+#. Label of the description (Text Editor) field in DocType 'CRM Product'
+#. Label of the description (Text Editor) field in DocType 'CRM Task'
+#: crm/fcrm/doctype/crm_holiday/crm_holiday.json
+#: crm/fcrm/doctype/crm_lost_reason/crm_lost_reason.json
+#: crm/fcrm/doctype/crm_product/crm_product.json
+#: crm/fcrm/doctype/crm_task/crm_task.json
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:253
+#: frontend/src/components/Modals/EventModal.vue:172
+#: frontend/src/components/Modals/TaskModal.vue:34
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:113
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:114
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:604
+msgid "Description"
+msgstr "Descrição"
+
+#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:426
+msgid "Description is required"
+msgstr "A descrição é obrigatória"
+
+#: frontend/src/components/Apps.vue:61
+msgid "Desk"
+msgstr "Desk"
+
+#. Label of the details (Tab Break) field in DocType 'CRM Lead'
+#. Label of the details (Text Editor) field in DocType 'CRM Lead Source'
+#: crm/fcrm/doctype/crm_lead/crm_lead.json
+#: crm/fcrm/doctype/crm_lead_source/crm_lead_source.json
+#: frontend/src/components/Settings/LeadSyncing/LeadSyncSourceForm.vue:198
+#: frontend/src/pages/MobileContact.vue:289
+#: frontend/src/pages/MobileDeal.vue:424 frontend/src/pages/MobileLead.vue:270
+#: frontend/src/pages/MobileOrganization.vue:332
+msgid "Details"
+msgstr "Detalhes"
+
+#. Label of the call_receiving_device (Select) field in DocType 'CRM Telephony
+#. Agent'
+#: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.json
+#: frontend/src/components/FilesUploader/FilesUploaderArea.vue:39
+msgid "Device"
+msgstr "Dispositivo"
+
+#: crm/fcrm/doctype/crm_form_script/crm_form_script.js:30
+msgid "Disable"
+msgstr "Desativar"
+
+#: frontend/src/components/Settings/ERPNextSettings.vue:397
+msgid "Disable ERPNext Integration"
+msgstr ""
+
+#. Label of the disabled (Check) field in DocType 'CRM Product'
+#: crm/fcrm/doctype/crm_product/crm_product.json
+msgid "Disabled"
+msgstr "Desativado"
+
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:922
+#: frontend/src/components/CommentBox.vue:74
+#: frontend/src/components/EmailEditor.vue:161
+msgid "Discard"
+msgstr "Descartar"
+
+#: frontend/src/components/Settings/Telephony/ExotelSettings.vue:25
+#: frontend/src/components/Settings/Telephony/TwilioSettings.vue:25
+msgid "Discard Changes"
+msgstr ""
+
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:910
+msgid "Discard Unsaved Changes?"
+msgstr "Descartar alterações não salvas?"
+
+#. Label of the discount_percentage (Percent) field in DocType 'CRM Products'
+#: crm/fcrm/doctype/crm_products/crm_products.json
+msgid "Discount %"
+msgstr "Desconto %"
+
+#. Label of the discount_amount (Currency) field in DocType 'CRM Products'
+#: crm/fcrm/doctype/crm_products/crm_products.json
+msgid "Discount Amount"
+msgstr "Valor do desconto"
+
+#: frontend/src/components/Settings/DefaultsSettings.vue:114
+msgid "Display format for dates across the system"
+msgstr ""
+
+#. Label of the dt (Link) field in DocType 'CRM Form Script'
+#. Label of the dt (Link) field in DocType 'CRM Global Settings'
+#. Label of the dt (Link) field in DocType 'CRM View Settings'
+#: crm/fcrm/doctype/crm_form_script/crm_form_script.json
+#: crm/fcrm/doctype/crm_global_settings/crm_global_settings.json
+#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
+msgid "DocType"
+msgstr "DocType"
+
+#: crm/api/doc.py:886
+msgid "Doctype is required"
+msgstr "O DocType é obrigatório"
+
+#: frontend/src/pages/MobileLead.vue:195
+msgid "Document Not Found"
+msgstr "Documento não encontrado"
+
+#. Label of the dt (Link) field in DocType 'CRM Fields Layout'
+#: crm/fcrm/doctype/crm_fields_layout/crm_fields_layout.json
+msgid "Document Type"
+msgstr "Tipo de documento"
+
+#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:236
+msgid "Document created successfully"
+msgstr ""
+
+#: frontend/src/data/document.js:31
+msgid "Document does not exist"
+msgstr "O documento não existe"
+
+#: crm/api/activities.py:20 frontend/src/pages/MobileDeal.vue:347
+msgid "Document not found"
+msgstr "Documento não encontrado"
+
+#: frontend/src/data/document.js:46
+msgid "Document updated successfully"
+msgstr "Documento atualizado com sucesso"
+
+#: frontend/src/components/Modals/AboutModal.vue:60
+msgid "Documentation"
+msgstr "Documentação"
+
+#. Option for the 'Status' (Select) field in DocType 'CRM Task'
+#: crm/fcrm/doctype/crm_task/crm_task.json
+msgid "Done"
+msgstr "Concluído"
+
 #: frontend/src/components/Dashboard/AddChartModal.vue:33
 #: frontend/src/components/Dashboard/AddChartModal.vue:71
 msgid "Donut Chart"
@@ -31,6 +192,10 @@ msgstr "Baixar"
 #: frontend/src/components/FilesUploader/FilesUploaderArea.vue:24
 msgid "Drag & Drop files here or upload from"
 msgstr "Arraste e solte arquivos aqui ou carregue de"
+
+#: frontend/src/components/FieldLayoutEditor.vue:250
+msgid "Drag a section or a field here to get started"
+msgstr ""
 
 #: frontend/src/components/FilesUploader/FilesUploaderArea.vue:56
 msgid "Drop files here"
@@ -63,7 +228,7 @@ msgstr "Duplicar"
 
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleListItem.vue:47
 msgid "Duplicate Assignment Rule"
-msgstr "Duplicar Regra de Atribuição"
+msgstr "Duplicar regra de atribuição"
 
 #: frontend/src/components/Calendar/CalendarEventPanel.vue:33
 #: frontend/src/components/Calendar/CalendarEventPanel.vue:512
@@ -112,24 +277,24 @@ msgstr "Configurações do CRM do ERPNext"
 msgid "ERPNext Settings"
 msgstr "Configurações do ERPNext"
 
-#: frontend/src/components/Settings/ERPNextSettings.vue:5
-msgid "ERPNext Settings Updated"
-msgstr "Configurações do ERPNext atualizadas"
-
 #. Label of the section_break_oubd (Section Break) field in DocType 'ERPNext
 #. CRM Settings'
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.json
 msgid "ERPNext Site API's"
-msgstr "APIs do site ERPNext"
+msgstr "APIs do site do ERPNext"
 
 #. Label of the erpnext_site_url (Data) field in DocType 'ERPNext CRM Settings'
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.json
 msgid "ERPNext Site URL"
-msgstr "URL do site ERPNext"
+msgstr "URL do site do ERPNext"
 
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:44
 msgid "ERPNext is not installed in the current site"
 msgstr "O ERPNext não está instalado no site atual"
+
+#: frontend/src/components/Settings/ERPNextSettings.vue:71
+msgid "ERPNext is not installed on this site either install it or enter the URL of your ERPNext site to connect"
+msgstr ""
 
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:132
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:164
@@ -255,6 +420,10 @@ msgstr "Editando linha {0}"
 msgid "Email"
 msgstr "E-mail"
 
+#: frontend/src/components/Settings/Profile/UserEmailSettings.vue:67
+msgid "Email Account"
+msgstr "Conta de e-mail"
+
 #: frontend/src/components/Settings/EmailAdd.vue:143
 msgid "Email Account created successfully"
 msgstr "Conta de e-mail criada com sucesso"
@@ -292,6 +461,10 @@ msgstr "O e-mail é obrigatório"
 msgid "Email Sent At"
 msgstr "E-mail enviado em"
 
+#: frontend/src/components/Settings/Profile/UserEmailSettings.vue:8
+msgid "Email Settings"
+msgstr "Configurações de e-mail"
+
 #: frontend/src/components/Layouts/AppSidebar.vue:564
 msgid "Email Template"
 msgstr "Modelo de e-mail"
@@ -305,14 +478,22 @@ msgstr "Modelos de e-mail"
 msgid "Email already exists"
 msgstr "O e-mail já existe"
 
-#: frontend/src/components/CommunicationArea.vue:258
-msgid "Email sent!"
-msgstr "E-mail enviado!"
+#: frontend/src/components/CommunicationArea.vue:259
+msgid "Email sent"
+msgstr "Email enviado"
+
+#: frontend/src/components/Settings/Profile/UserEmailSettings.vue:181
+msgid "Email settings updated successfully"
+msgstr ""
 
 #: frontend/src/pages/Deal.vue:555 frontend/src/pages/Lead.vue:406
 #: frontend/src/pages/MobileDeal.vue:435 frontend/src/pages/MobileLead.vue:281
 msgid "Emails"
 msgstr "E-mails"
+
+#: frontend/src/components/Settings/Profile/ProfileSettings.vue:92
+msgid "Emails & Signature"
+msgstr ""
 
 #: frontend/src/components/ListViews/ListRows.vue:12
 msgid "Empty"
@@ -330,6 +511,10 @@ msgstr "Vazio - escolha um campo para ordenar"
 msgid "Enable"
 msgstr "Ativar"
 
+#: frontend/src/components/Settings/Telephony/ExotelSettings.vue:112
+msgid "Enable Exotel integration to make and receive calls directly from your CRM"
+msgstr ""
+
 #. Label of the enable_forecasting (Check) field in DocType 'FCRM Settings'
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 #: frontend/src/components/Settings/ForecastingSettings.vue:20
@@ -338,11 +523,24 @@ msgstr "Ativar previsão"
 
 #: frontend/src/components/Settings/emailConfig.js:28
 msgid "Enable Incoming"
-msgstr "Ativar entrada"
+msgstr "Ativar recebimento"
 
 #: frontend/src/components/Settings/emailConfig.js:34
 msgid "Enable Outgoing"
-msgstr "Ativar saída"
+msgstr "Ativar envio"
+
+#: frontend/src/components/Settings/Telephony/TwilioSettings.vue:119
+msgid "Enable Twilio integration to make and receive calls directly from your CRM"
+msgstr ""
+
+#: frontend/src/components/Settings/Telephony/ExotelSettings.vue:90
+#: frontend/src/components/Settings/Telephony/TwilioSettings.vue:97
+msgid "Enable call recording for incoming and outgoing calls"
+msgstr ""
+
+#: frontend/src/components/Settings/ERPNextSettings.vue:250
+msgid "Enable the integration to create quotations and auto create customers in ERPNext."
+msgstr ""
 
 #. Label of the enabled (Check) field in DocType 'CRM Exotel Settings'
 #. Label of the enabled (Check) field in DocType 'CRM Form Script'
@@ -421,9 +619,21 @@ msgstr "Informe o token de acesso"
 msgid "Enter Brand Name"
 msgstr "Informe o nome da marca"
 
+#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:109
+msgid "Enter Exotel Number"
+msgstr ""
+
+#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:134
+msgid "Enter Personal Mobile No."
+msgstr ""
+
 #: frontend/src/components/Settings/LeadSyncing/LeadSyncSourceForm.vue:74
 msgid "Enter Source Name"
 msgstr "Informe o nome da origem"
+
+#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:84
+msgid "Enter Twilio Number"
+msgstr ""
 
 #: frontend/src/components/Filter.vue:572
 msgid "Enter Value"
@@ -432,6 +642,10 @@ msgstr "Digite o valor"
 #: frontend/src/components/Settings/LeadSyncing/leadSyncSourceConfig.js:31
 msgid "Enter your Facebook Access Token"
 msgstr "Informe seu token de acesso do Facebook"
+
+#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:124
+msgid "Enter your personal mobile number used by Exotel to make calls"
+msgstr ""
 
 #: frontend/src/components/FieldLayout/Field.vue:367
 msgid "Enter {0}"
@@ -483,24 +697,6 @@ msgstr "Erro ao atualizar a fonte de sincronização de leads"
 #: frontend/src/pages/MobileDeal.vue:612 frontend/src/pages/MobileLead.vue:351
 msgid "Error updating field"
 msgstr "Erro ao atualizar campo"
-
-#: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:90
-msgid "Error while creating custom field in ERPNext, check error log for more details"
-msgstr "Erro ao criar campo personalizado no ERPNext. Verifique o log de erros para mais detalhes"
-
-#: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:323
-#: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:326
-#: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:339
-msgid "Error while creating customer in ERPNext, check error log for more details"
-msgstr "Erro ao criar cliente no ERPNext. Verifique o log de erros para mais detalhes"
-
-#: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:231
-msgid "Error while creating prospect in ERPNext, check error log for more details"
-msgstr "Erro ao criar prospect no ERPNext. Verifique o log de erros para mais detalhes"
-
-#: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:157
-msgid "Error while fetching customer in ERPNext, check error log for more details"
-msgstr "Erro ao buscar cliente no ERPNext. Verifique o log de erros para mais detalhes"
 
 #: frontend/src/components/Calendar/CalendarEventPanel.vue:671
 msgid "Event Details"
@@ -585,192 +781,3 @@ msgstr "Exotel"
 #: crm/integrations/exotel/handler.py:113
 msgid "Exotel Exception"
 msgstr "Exceção do Exotel"
-
-#. Label of the exotel_number (Data) field in DocType 'CRM Telephony Agent'
-#: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.json
-msgid "Exotel Number"
-msgstr "Número do Exotel"
-
-#: crm/integrations/exotel/handler.py:84
-msgid "Exotel Number Missing"
-msgstr "Número do Exotel ausente"
-
-#: crm/integrations/exotel/handler.py:88
-msgid "Exotel Number {0} is not valid"
-msgstr "O número do Exotel {0} não é válido"
-
-#: frontend/src/components/Settings/Telephony/ExotelSettings.vue:4
-msgid "Exotel Settings"
-msgstr "Configurações do Exotel"
-
-#: frontend/src/components/Settings/Telephony/ExotelSettings.vue:5
-msgid "Exotel Settings Updated"
-msgstr "Configurações do Exotel atualizadas"
-
-#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:172
-msgid "Exotel is not enabled"
-msgstr "O Exotel não está ativado"
-
-#: frontend/src/components/Layouts/AppSidebar.vue:105
-msgid "Expand"
-msgstr "Expandir"
-
-#. Label of the expected_closure_date (Date) field in DocType 'CRM Deal'
-#: crm/fcrm/doctype/crm_deal/crm_deal.json
-msgid "Expected Closure Date"
-msgstr "Data prevista de fechamento"
-
-#. Label of the expected_deal_value (Currency) field in DocType 'CRM Deal'
-#: crm/fcrm/doctype/crm_deal/crm_deal.json
-msgid "Expected Deal Value"
-msgstr "Valor previsto do negócio"
-
-#: crm/fcrm/doctype/crm_deal/crm_deal.py:237
-msgid "Expected closure date is required."
-msgstr "A data prevista de fechamento é obrigatória."
-
-#: crm/fcrm/doctype/crm_deal/crm_deal.py:235
-msgid "Expected deal value is required."
-msgstr "O valor previsto do negócio é obrigatório."
-
-#. Option for the 'Status' (Select) field in DocType 'CRM Invitation'
-#: crm/fcrm/doctype/crm_invitation/crm_invitation.json
-msgid "Expired"
-msgstr "Expirado"
-
-#: frontend/src/components/ViewControls.vue:215
-#: frontend/src/components/ViewControls.vue:263
-msgid "Export"
-msgstr "Exportar"
-
-#: frontend/src/components/ViewControls.vue:277
-msgid "Export Type"
-msgstr "Tipo de exportação"
-
-#: frontend/src/components/ViewControls.vue:295
-msgid "Export all {0} record(s)"
-msgstr "Exportar {0} registro(s)"
-
-#. Name of a DocType
-#: crm/fcrm/doctype/fcrm_note/fcrm_note.json
-msgid "FCRM Note"
-msgstr "FCRM Note"
-
-#. Name of a DocType
-#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
-msgid "FCRM Settings"
-msgstr "FCRM Settings"
-
-#. Option for the 'Type' (Select) field in DocType 'Lead Sync Source'
-#. Label of the facebook_section (Section Break) field in DocType 'Lead Sync
-#. Source'
-#: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.json
-msgid "Facebook"
-msgstr "Facebook"
-
-#. Label of the facebook_form_id (Data) field in DocType 'CRM Lead'
-#: crm/fcrm/doctype/crm_lead/crm_lead.json
-msgid "Facebook Form ID"
-msgstr "ID do formulário do Facebook"
-
-#. Name of a DocType
-#. Label of the facebook_lead_form (Link) field in DocType 'Lead Sync Source'
-#: crm/lead_syncing/doctype/facebook_lead_form/facebook_lead_form.json
-#: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.json
-msgid "Facebook Lead Form"
-msgstr "Formulário de leads do Facebook"
-
-#. Name of a DocType
-#: crm/lead_syncing/doctype/facebook_lead_form_question/facebook_lead_form_question.json
-msgid "Facebook Lead Form Question"
-msgstr "Pergunta do formulário de leads do Facebook"
-
-#. Label of the facebook_lead_id (Data) field in DocType 'CRM Lead'
-#: crm/fcrm/doctype/crm_lead/crm_lead.json
-msgid "Facebook Lead ID"
-msgstr "ID do lead do Facebook"
-
-#. Name of a DocType
-#. Label of the facebook_page (Link) field in DocType 'Lead Sync Source'
-#: crm/lead_syncing/doctype/facebook_page/facebook_page.json
-#: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.json
-msgid "Facebook Page"
-msgstr "Página do Facebook"
-
-#. Option for the 'Status' (Select) field in DocType 'CRM Call Log'
-#. Option for the 'SLA Status' (Select) field in DocType 'CRM Deal'
-#. Option for the 'SLA Status' (Select) field in DocType 'CRM Lead'
-#. Option for the 'Status' (Select) field in DocType 'CRM Rolling Response
-#. Time'
-#: crm/fcrm/doctype/crm_call_log/crm_call_log.json
-#: crm/fcrm/doctype/crm_deal/crm_deal.json
-#: crm/fcrm/doctype/crm_lead/crm_lead.json
-#: crm/fcrm/doctype/crm_rolling_response_time/crm_rolling_response_time.json
-#: frontend/src/utils/callLog.js:67
-msgid "Failed"
-msgstr "Falha"
-
-#. Name of a DocType
-#: crm/lead_syncing/doctype/failed_lead_sync_log/failed_lead_sync_log.json
-msgid "Failed Lead Sync Log"
-msgstr "Log de falha de sincronização de lead"
-
-#: frontend/src/components/Modals/AddExistingUserModal.vue:111
-msgid "Failed to Add Users"
-msgstr "Falha ao adicionar usuários"
-
-#: frontend/src/components/Activities/WhatsAppArea.vue:243
-msgid "Failed to add reaction to the message"
-msgstr "Falha ao adicionar reação à mensagem"
-
-#: crm/integrations/twilio/api.py:150
-msgid "Failed to capture Twilio recording"
-msgstr "Falha ao capturar gravação do Twilio"
-
-#: frontend/src/components/Settings/EmailAdd.vue:147
-msgid "Failed to create Email Account, Invalid credentials"
-msgstr "Falha ao criar conta de e-mail. Credenciais inválidas"
-
-#: frontend/src/components/Settings/EmailTemplate/NewEmailTemplate.vue:176
-msgid "Failed to create template"
-msgstr "Falha ao criar modelo"
-
-#: frontend/src/components/Settings/LeadSyncing/LeadSyncSources.vue:179
-msgid "Failed to delete lead sync source"
-msgstr "Falha ao excluir fonte de sincronização de leads"
-
-#: frontend/src/components/Activities/NoteArea.vue:76
-msgid "Failed to delete note"
-msgstr "Falha ao excluir nota"
-
-#: frontend/src/components/Settings/EmailTemplate/EmailTemplates.vue:214
-msgid "Failed to delete template"
-msgstr "Falha ao excluir modelo"
-
-#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.py:230
-msgid "Failed to fetch exchange rate from {0} to {1} on {2}. Please check your internet connection or try again later."
-msgstr "Falha ao buscar a taxa de câmbio de {0} para {1} em {2}. Verifique sua conexão com a internet ou tente novamente mais tarde."
-
-#: frontend/src/data/script.js:106
-msgid "Failed to load form controller: {0}"
-msgstr "Falha ao carregar o controlador do formulário: {0}"
-
-#: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:239
-msgid "Failed to rename template"
-msgstr "Falha ao renomear modelo"
-
-#: frontend/src/components/Settings/Sla/WorkDayModal.vue:265
-msgid "Failed to save workday: {0}"
-msgstr "Falha ao salvar dia de trabalho: {0}"
-
-#: frontend/src/components/Activities/WhatsAppBox.vue:139
-msgid "Failed to send WhatsApp message"
-msgstr "Falha ao enviar mensagem do WhatsApp"
-
-#: frontend/src/components/Activities/Activities.vue:598
-msgid "Failed to send WhatsApp template"
-msgstr "Falha ao enviar modelo do WhatsApp"
-
-#: frontend/src/components/CommunicationArea.vue:275
-msgid "Failed to send comment!"
-msgstr "Falha ao enviar comentário!"

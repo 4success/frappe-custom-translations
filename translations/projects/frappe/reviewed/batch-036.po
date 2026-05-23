@@ -184,7 +184,7 @@ msgstr "Cabeçalhos do webhook"
 #. Label of the sb_webhook (Section Break) field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
 msgid "Webhook Request"
-msgstr "Requisição do webhook"
+msgstr "Solicitação do webhook"
 
 #. Label of a Link in the Build Workspace
 #. Name of a DocType
@@ -334,7 +334,7 @@ msgstr "Link da imagem do tema do site"
 #. Label of a number card in the Website Workspace
 #: frappe/website/workspace/website/website.json
 msgid "Website Themes Available"
-msgstr "Temas do site disponiveis"
+msgstr "Temas do site disponíveis"
 
 #. Label of a chart in the Website Workspace
 #: frappe/website/workspace/website/website.json
@@ -439,7 +439,7 @@ msgstr "Novidades"
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "When enabled this will allow guests to upload files to your application, You can enable this if you wish to collect files from user without having them to log in, for example in job applications web form."
-msgstr "Quando ativado, isso permitira que convidados enviem arquivos para sua aplicação. Você pode ativar isso se quiser receber arquivos de usuários sem exigir login, por exemplo, em um formulario Web de candidatura a vaga."
+msgstr "Quando ativado, isso permitirá que convidados enviem arquivos para sua aplicação. Você pode ativar isso se quiser receber arquivos de usuários sem exigir login, por exemplo, em um formulário web de candidatura a vaga."
 
 #. Description of the 'Store Attached PDF Document' (Check) field in DocType
 #. 'System Settings'
@@ -451,11 +451,11 @@ msgstr "Ao enviar um documento por e-mail, armazene o PDF em Communication. Avis
 #. DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "When uploading files, force the use of the web-based image capture. If this is unchecked, the default behavior is to use the mobile native camera when use from a mobile is detected."
-msgstr "Ao carregar arquivos, force o uso da captura de imagem baseada na web. Se isso estiver desmarcado, o comportamento padrão será usar a camera nativa do celular quando o acesso por um dispositivo movel for detectado."
+msgstr "Ao carregar arquivos, force o uso da captura de imagem baseada na web. Se isso estiver desmarcado, o comportamento padrão será usar a câmera nativa do celular quando o acesso por um dispositivo móvel for detectado."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:18
 msgid "When you Amend a document after Cancel and save it, it will get a new number that is a version of the old number."
-msgstr "Quando você retificar um documento apos cancelá-lo e salvá-lo, ele recebera um novo número que e uma versao do número antigo."
+msgstr "Quando você retificar um documento após cancelá-lo e salvá-lo, ele receberá um novo número que é uma versão do número antigo."
 
 #. Description of the 'DocType View' (Select) field in DocType 'Workspace
 #. Shortcut'
@@ -492,21 +492,21 @@ msgstr "Filtro curinga"
 #. Filter'
 #: frappe/core/doctype/report_filter/report_filter.json
 msgid "Will add \"%\" before and after the query"
-msgstr "Adicionara \"%\" antes e depois da consulta"
+msgstr "Adicionará \"%\" antes e depois da consulta"
 
 #: frappe/desk/page/setup_wizard/setup_wizard.js:485
 msgid "Will be your login ID"
-msgstr "Sera seu ID de login"
+msgstr "Será seu ID de login"
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:424
 msgid "Will only be shown if section headings are enabled"
-msgstr "So será exibido se os títulos de seção estiverem ativados"
+msgstr "Só será exibido se os títulos de seção estiverem ativados"
 
 #. Description of the 'Run Jobs only Daily if Inactive For (Days)' (Int) field
 #. in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Will run scheduled jobs only once a day for inactive sites. Set it to 0 to avoid automatically disabling the scheduler."
-msgstr "Executara jobs agendados apenas uma vez por dia para sites inativos. Defina como 0 para evitar desativar automaticamente o scheduler."
+msgstr "Executará jobs agendados apenas uma vez por dia para sites inativos. Defina como 0 para evitar desativar automaticamente o agendador."
 
 #: frappe/public/js/frappe/form/print_utils.js:45
 msgid "With Letter head"
@@ -537,13 +537,13 @@ msgstr "Fluxo de trabalho"
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 #: frappe/workflow/doctype/workflow_action/workflow_action.py:446
 msgid "Workflow Action"
-msgstr "Acao do fluxo de trabalho"
+msgstr "Ação do fluxo de trabalho"
 
 #. Name of a DocType
 #. Description of a DocType
 #: frappe/workflow/doctype/workflow_action_master/workflow_action_master.json
 msgid "Workflow Action Master"
-msgstr "Acao mestre do fluxo de trabalho"
+msgstr "Ação mestre do fluxo de trabalho"
 
 #. Label of the workflow_action_name (Data) field in DocType 'Workflow Action
 #. Master'
@@ -579,7 +579,7 @@ msgstr "ID do construtor de fluxo de trabalho"
 
 #: frappe/workflow/doctype/workflow/workflow.js:11
 msgid "Workflow Builder allows you to create workflows visually. You can drag and drop states and link them to create transitions. Also you can update their properties from the sidebar."
-msgstr "O construtor de fluxo de trabalho permite criar fluxos visualmente. Você pode arrastar e soltar estados e conecta-los para criar transições. Tambem pode atualizar as propriedades deles pela barra lateral."
+msgstr "O construtor de fluxo de trabalho permite criar fluxos visualmente. Você pode arrastar e soltar estados e conectá-los para criar transições. Também pode atualizar as propriedades deles pela barra lateral."
 
 #. Label of the workflow_data (JSON) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
@@ -618,7 +618,7 @@ msgstr "Estado do fluxo de trabalho não definido"
 
 #: frappe/model/workflow.py:260 frappe/model/workflow.py:268
 msgid "Workflow State transition not allowed from {0} to {1}"
-msgstr "Transicao de estado do fluxo de trabalho não permitida de {0} para {1}"
+msgstr "Transição de estado do fluxo de trabalho não permitida de {0} para {1}"
 
 #: frappe/workflow/doctype/workflow/workflow.js:140
 msgid "Workflow States Don't Exist"
@@ -636,17 +636,17 @@ msgstr "Tarefa do fluxo de trabalho"
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_transition/workflow_transition.json
 msgid "Workflow Transition"
-msgstr "Transicao do fluxo de trabalho"
+msgstr "Transição do fluxo de trabalho"
 
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_transition_task/workflow_transition_task.json
 msgid "Workflow Transition Task"
-msgstr "Tarefa de transicao do fluxo de trabalho"
+msgstr "Tarefa de transição do fluxo de trabalho"
 
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_transition_tasks/workflow_transition_tasks.json
 msgid "Workflow Transition Tasks"
-msgstr "Tarefas de transicao do fluxo de trabalho"
+msgstr "Tarefas de transição do fluxo de trabalho"
 
 #. Description of a DocType
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
@@ -762,7 +762,7 @@ msgstr "Deseja publicar este comentário? Isso significa que ele ficará visíve
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:761
 msgid "Would you like to unpublish this comment? This means it will no longer be visible to website/portal users."
-msgstr "Deseja remover a públicação deste comentário? Isso significa que ele não ficará mais visível para usuários do site/portal."
+msgstr "Deseja cancelar a publicação deste comentário? Isso significa que ele não ficará mais visível para usuários do site/portal."
 
 #: frappe/desk/page/setup_wizard/setup_wizard.py:41
 msgid "Wrapping up"
@@ -778,7 +778,7 @@ msgstr "Finalizando"
 #: frappe/core/doctype/user_document_type/user_document_type.json
 #: frappe/public/js/frappe/form/templates/set_sharing.html:3
 msgid "Write"
-msgstr "Gravar"
+msgstr "Gravação"
 
 #: frappe/model/base_document.py:1055
 msgid "Wrong Fetch From value"

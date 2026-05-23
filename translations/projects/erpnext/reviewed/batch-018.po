@@ -20,12 +20,12 @@ msgstr ""
 
 #: erpnext/setup/doctype/sales_person/sales_person.py:54
 msgid "Either target qty or target amount is mandatory."
-msgstr "A qtd. alvo ou o valor alvo e obrigatório."
+msgstr "A qtd. alvo ou o valor alvo é obrigatório."
 
 #. Option for the 'Fuel Type' (Select) field in DocType 'Vehicle'
 #: erpnext/setup/doctype/vehicle/vehicle.json
 msgid "Electric"
-msgstr "Eletrico"
+msgstr "Elétrico"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:222
 msgid "Electrical"
@@ -44,7 +44,7 @@ msgstr "Falta de energia"
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:48
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:82
 msgid "Electronic Equipment"
-msgstr "Equipamentos eletronicos"
+msgstr "Equipamentos eletrônicos"
 
 #. Name of a report
 #: erpnext/regional/report/electronic_invoice_register/electronic_invoice_register.json
@@ -53,7 +53,7 @@ msgstr "Registro de Fatura Eletrônica"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:20
 msgid "Electronics"
-msgstr "Eletronicos"
+msgstr "Eletrônicos"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -94,7 +94,7 @@ msgstr "Resumo por e-mail"
 #. Name of a DocType
 #: erpnext/setup/doctype/email_digest_recipient/email_digest_recipient.json
 msgid "Email Digest Recipient"
-msgstr "Destinatario do resumo por e-mail"
+msgstr "Destinatário do resumo por e-mail"
 
 #. Label of the settings (Section Break) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -153,17 +153,17 @@ msgstr "E-mails na fila"
 #. 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Emergency Contact"
-msgstr "Contato de emergencia"
+msgstr "Contato de emergência"
 
 #. Label of the person_to_be_contacted (Data) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Emergency Contact Name"
-msgstr "Nome do contato de emergencia"
+msgstr "Nome do contato de emergência"
 
 #. Label of the emergency_phone_number (Data) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Emergency Phone"
-msgstr "Telefone de emergencia"
+msgstr "Telefone de emergência"
 
 #. Name of a role
 #. Label of the employee (Link) field in DocType 'Supplier Scorecard'
@@ -237,7 +237,7 @@ msgstr "Adiantamentos a colaboradores"
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:184
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:322
 msgid "Employee Benefits Obligation"
-msgstr "Obrigações com beneficios a colaboradores"
+msgstr "Obrigações com benefícios a colaboradores"
 
 #. Label of the employee_detail (Section Break) field in DocType 'Timesheet'
 #: erpnext/projects/doctype/timesheet/timesheet.json
@@ -295,7 +295,7 @@ msgstr "Nome do Colaborador"
 #. Label of the employee_number (Data) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Employee Number"
-msgstr "Matricula do colaborador"
+msgstr "Matrícula do colaborador"
 
 #. Label of the employee_user_id (Link) field in DocType 'Call Log'
 #: erpnext/telephony/doctype/call_log/call_log.json
@@ -362,13 +362,13 @@ msgstr "Ativar conciliação automática de entidades"
 #. Category'
 #: erpnext/assets/doctype/asset_category/asset_category.json
 msgid "Enable Capital Work in Progress Accounting"
-msgstr "Ativar contábilização de ativo em andamento"
+msgstr "Ativar contabilização de imobilizado em andamento (CWIP)"
 
 #. Label of the enable_common_party_accounting (Check) field in DocType
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Enable Common Party Accounting"
-msgstr "Ativar contábilização comum de entidades"
+msgstr "Ativar contabilização comum de cadastros"
 
 #. Label of the enable_cutoff_date_on_bulk_delivery_note_creation (Check) field
 #. in DocType 'Selling Settings'
@@ -423,7 +423,7 @@ msgstr "Ativar monitor de integridade"
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Enable Immutable Ledger"
-msgstr "Ativar razão imutavel"
+msgstr "Ativar razão imutável"
 
 #. Label of the enable_item_wise_inventory_account (Check) field in DocType
 #. 'Company'
@@ -440,13 +440,13 @@ msgstr "Ativar repostagem paralela"
 #. Label of the enable_perpetual_inventory (Check) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Enable Perpetual Inventory"
-msgstr "Ativar estoque perpetuo"
+msgstr "Ativar estoque perpétuo"
 
 #. Label of the enable_provisional_accounting_for_non_stock_items (Check) field
 #. in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Enable Provisional Accounting For Non Stock Items"
-msgstr "Ativar contábilização provisoria para itens não estocaveis"
+msgstr "Ativar contabilização provisória para itens não estocáveis"
 
 #. Label of the enable_stock_reservation (Check) field in DocType 'Stock
 #. Settings'
@@ -509,7 +509,7 @@ msgstr "Ao ativar esta opção, você podera registrar - <br><br> 1. Adiantament
 #. account ' (Check) field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Enabling this will allow creation of multi-currency invoices against single party account in company currency"
-msgstr "Ao ativar, será possível criar faturas em varias moedas para uma unica conta da parte na moeda da empresa"
+msgstr "Ao ativar, será possível criar faturas em várias moedas para uma única conta do cadastro na moeda da empresa"
 
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.js:11
 msgid "Enabling this will change the way how cancelled transactions are handled."
@@ -539,7 +539,7 @@ msgstr "Hora final"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:292
 msgid "End Transit"
-msgstr "Encerrar transito"
+msgstr "Encerrar trânsito"
 
 #: erpnext/accounts/report/consolidated_financial_statement/consolidated_financial_statement.js:80
 #: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.js:64
@@ -779,7 +779,7 @@ msgstr "Erro ao avaliar a fórmula de critérios"
 
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:307
 msgid "Error in party matching for Bank Transaction {0}"
-msgstr "Erro na conciliação de partes da transação bancaria {0}"
+msgstr "Erro na conciliação de cadastros da transação bancária {0}"
 
 #: erpnext/assets/doctype/asset/depreciation.py:317
 msgid "Error while posting depreciation entries"

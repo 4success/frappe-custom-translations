@@ -54,7 +54,7 @@ msgstr "Esta seção permite que o usuário defina os textos de corpo e encerram
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.js:493
 msgid "This table is used to set details about the 'Item', 'Qty', 'Basic Rate', etc."
-msgstr "Esta tabela é usada para definir detalhes sobre 'Item', 'Qtd.', 'Taxa básica' etc."
+msgstr "Esta tabela é usada para definir detalhes sobre 'Item', 'Qtd.', 'Preço básico' etc."
 
 #. Description of a DocType
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
@@ -405,7 +405,7 @@ msgstr "Até a data de pagamento"
 #: erpnext/manufacturing/report/job_card_summary/job_card_summary.js:43
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.js:29
 msgid "To Posting Date"
-msgstr "Ate a data de lançamento"
+msgstr "Até a data de lançamento"
 
 #. Label of the to_range (Float) field in DocType 'Item Attribute'
 #. Label of the to_range (Float) field in DocType 'Item Variant Attribute'
@@ -418,7 +418,7 @@ msgstr "Até o intervalo"
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/buying/doctype/purchase_order/purchase_order_list.js:32
 msgid "To Receive"
-msgstr "Receber"
+msgstr "Para receber"
 
 #. Option for the 'Status' (Select) field in DocType 'Purchase Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
@@ -539,7 +539,7 @@ msgstr "Para criar uma Solicitação de pagamento, é necessário um documento d
 
 #: erpnext/assets/doctype/asset_category/asset_category.py:110
 msgid "To enable Capital Work in Progress Accounting,"
-msgstr "Para ativar a contábilidade de Capital em andamento,"
+msgstr "Para ativar a contabilização de imobilizado em andamento (CWIP),"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:733
 msgid "To include non-stock items in the material request planning. i.e. Items for which 'Maintain Stock' checkbox is unticked."
@@ -554,7 +554,7 @@ msgstr "Para incluir custos de subconjuntos e itens de sucata nos Produtos acaba
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:2309
 #: erpnext/controllers/accounts_controller.py:3231
 msgid "To include tax in row {0} in Item rate, taxes in rows {1} must also be included"
-msgstr "Para incluir o imposto da linha {0} na taxa do Item, os impostos das linhas {1} também devem ser incluídos"
+msgstr "Para incluir o imposto da linha {0} no preço do Item, os impostos das linhas {1} também devem ser incluídos"
 
 #: erpnext/stock/doctype/item/item.py:641
 msgid "To merge, following properties must be same for both items"
@@ -865,7 +865,7 @@ msgstr "Qtd. total concluída"
 #. 'Project'
 #: erpnext/projects/doctype/project/project.json
 msgid "Total Consumed Material Cost (via Stock Entry)"
-msgstr "Custo total do material consumido (via Lançamento de estoque)"
+msgstr "Custo total do material consumido (via Movimento de estoque)"
 
 #: erpnext/setup/doctype/sales_person/sales_person.js:17
 msgid "Total Contribution Amount Against Invoices: {0}"

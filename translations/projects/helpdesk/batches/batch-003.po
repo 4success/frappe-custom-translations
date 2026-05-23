@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-03-01 10:40+0000\n"
-"PO-Revision-Date: 2026-03-06 19:45\n"
+"POT-Creation-Date: 2026-05-03 10:46+0000\n"
+"PO-Revision-Date: 2026-05-04 05:14\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -18,6 +18,245 @@ msgstr ""
 "X-Crowdin-File-ID: 118\n"
 "Language: pt_BR\n"
 
+#. Label of the default_ticket_status (Link) field in DocType 'HD Service Level
+#. Agreement'
+#: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.json
+msgid "Default Ticket Status"
+msgstr ""
+
+#: desk/src/pages/ticket/Tickets.vue:301 desk/src/pages/ticket/Tickets.vue:394
+msgid "Default Views"
+msgstr ""
+
+#: desk/src/components/ticket-agent/TicketHeader.vue:265
+#: desk/src/components/ticket-agent/TicketHeader.vue:276
+msgid "Default actions"
+msgstr ""
+
+#: desk/src/components/Settings/Telephony/Telephony.vue:49
+msgid "Default calling medium for logged in user"
+msgstr "Meio de chamada padrão para o usuário logado"
+
+#: desk/src/components/Settings/Telephony/Telephony.vue:46
+msgid "Default medium"
+msgstr "Meio padrão"
+
+#. Label of the default_priority (Link) field in DocType 'HD Settings'
+#: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
+msgid "Default priority"
+msgstr ""
+
+#: helpdesk/helpdesk/doctype/hd_ticket_template/hd_ticket_template.py:63
+msgid "Default template can not be deleted"
+msgstr ""
+
+#. Label of the default_ticket_status (Link) field in DocType 'HD Settings'
+#: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
+msgid "Default ticket status"
+msgstr ""
+
+#. Label of the default_ticket_type (Link) field in DocType 'HD Settings'
+#: desk/src/components/Settings/General/components/TicketSettings.vue:129
+#: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
+msgid "Default ticket type"
+msgstr ""
+
+#: desk/src/components/Settings/Assignment Rules/AssigneeRules.vue:9
+msgid "Define who receives the tickets and how they’re distributed among agents."
+msgstr ""
+
+#: desk/src/components/ListViewBuilder.vue:233
+#: desk/src/components/ListViewBuilder.vue:237
+#: desk/src/components/ListViewBuilder.vue:243
+#: desk/src/components/Settings/Teams/TeamEdit.vue:348
+#: desk/src/components/Settings/Teams/TeamEdit.vue:350
+#: desk/src/components/ticket-agent/TicketHeader.vue:209
+#: desk/src/components/ticket-agent/TicketHeader.vue:280
+#: desk/src/components/ticket-agent/TicketHeader.vue:282
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:176
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:195
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:204
+#: desk/src/pages/ticket/Tickets.vue:481
+msgid "Delete"
+msgstr "Excluir"
+
+#: desk/src/pages/ticket/Tickets.vue:477
+msgid "Delete View"
+msgstr ""
+
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:200
+msgid "Delete articles"
+msgstr "Excluir artigos"
+
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:317
+msgid "Delete category?"
+msgstr ""
+
+#: desk/src/pages/ticket/Tickets.vue:486
+msgid "Delete {0}"
+msgstr ""
+
+#. Label of the description (Text) field in DocType 'HD Article Category'
+#. Label of the description (Text Editor) field in DocType 'HD Holiday'
+#. Label of the description (Data) field in DocType 'HD Service Holiday List'
+#. Label of the description (Data) field in DocType 'HD Service Level
+#. Agreement'
+#. Label of the description (Text Editor) field in DocType 'HD Ticket'
+#. Label of the description (Small Text) field in DocType 'HD Ticket Priority'
+#. Label of the description (Small Text) field in DocType 'HD Ticket Type'
+#. Label of a field in the tickets Web Form
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:121
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:122
+#: desk/src/components/Settings/Holiday/HolidayView.vue:69
+#: desk/src/components/Settings/Holiday/HolidayView.vue:70
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:72
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:73
+#: helpdesk/helpdesk/doctype/hd_article_category/hd_article_category.json
+#: helpdesk/helpdesk/doctype/hd_holiday/hd_holiday.json
+#: helpdesk/helpdesk/doctype/hd_service_holiday_list/hd_service_holiday_list.json
+#: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.json
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
+#: helpdesk/helpdesk/doctype/hd_ticket_priority/hd_ticket_priority.json
+#: helpdesk/helpdesk/doctype/hd_ticket_type/hd_ticket_type.json
+#: helpdesk/helpdesk/web_form/tickets/tickets.json
+msgid "Description"
+msgstr "Descrição"
+
+#. Label of the description_template (Text Editor) field in DocType 'HD Ticket
+#. Template'
+#: helpdesk/helpdesk/doctype/hd_ticket_template/hd_ticket_template.json
+msgid "Description Template"
+msgstr ""
+
+#. Label of the description_weight (Int) field in DocType 'HD Settings'
+#: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
+msgid "Description Weight"
+msgstr ""
+
+#: desk/src/pages/ticket/TicketNew.vue:90
+#: desk/src/pages/ticket/TicketNew.vue:115
+msgid "Detailed explanation"
+msgstr ""
+
+#. Label of the details_section (Section Break) field in DocType 'HD
+#. Notification'
+#. Label of the sb_details (Section Break) field in DocType 'HD Ticket'
+#: desk/src/pages/ticket/MobileTicketAgent.vue:79
+#: desk/src/pages/ticket/MobileTicketAgent.vue:440
+#: helpdesk/helpdesk/doctype/hd_notification/hd_notification.json
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
+msgid "Details"
+msgstr "Detalhes"
+
+#: desk/src/components/Settings/Teams/TeamEdit.vue:299
+msgid "Disable Bypass Restrictions"
+msgstr ""
+
+#: desk/src/components/Settings/General/components/TicketSettings.vue:67
+msgid "Disable global saved replies"
+msgstr ""
+
+#. Label of the disable_saved_replies_global_scope (Check) field in DocType 'HD
+#. Settings'
+#: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
+msgid "Disable saved replies with scope 'Global'"
+msgstr ""
+
+#: desk/src/components/Settings/General/General.vue:55
+msgid "Disable signup"
+msgstr ""
+
+#. Label of the disabled (Check) field in DocType 'HD Ticket Feedback Option'
+#. Label of the disabled (Check) field in DocType 'HD Ticket Priority'
+#. Label of the disabled (Check) field in DocType 'HD Ticket Type'
+#: helpdesk/helpdesk/doctype/hd_ticket_feedback_option/hd_ticket_feedback_option.json
+#: helpdesk/helpdesk/doctype/hd_ticket_priority/hd_ticket_priority.json
+#: helpdesk/helpdesk/doctype/hd_ticket_type/hd_ticket_type.json
+msgid "Disabled"
+msgstr "Desativado"
+
+#: desk/src/components/Settings/General/components/WorkflowKnowledgebaseSettings.vue:29
+msgid "Disables all email notifications for the ticket - including creation, updates, and alerts."
+msgstr ""
+
+#: desk/src/pages/knowledge-base/NewArticle.vue:29
+msgid "Discard"
+msgstr "Descartar"
+
+#: desk/src/pages/knowledge-base/NewArticle.vue:145
+msgid "Discard Article"
+msgstr ""
+
+#: desk/src/pages/knowledge-base/Article.vue:146
+msgid "Discard changes?"
+msgstr ""
+
+#: desk/src/components/Settings/General/components/TicketSettings.vue:203
+msgid "Display a customizable banner message when customers raise tickets outside your working hours."
+msgstr ""
+
+#. Description of the 'Ignore Restrictions' (Check) field in DocType 'HD Team'
+#: helpdesk/helpdesk/doctype/hd_team/hd_team.json
+msgid "Do not apply filters and restrictions to agents of this team"
+msgstr ""
+
+#. Label of the do_not_restrict_tickets_without_an_agent_group (Check) field in
+#. DocType 'HD Settings'
+#: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
+msgid "Do not restrict tickets without a Team"
+msgstr ""
+
+#: desk/src/components/Settings/General/components/TicketSettings.vue:52
+msgid "Do not restrict tickets without a team"
+msgstr ""
+
+#. Label of the dt (Link) field in DocType 'HD Form Script'
+#. Label of the dt (Link) field in DocType 'HD View'
+#: helpdesk/helpdesk/doctype/hd_form_script/hd_form_script.json
+#: helpdesk/helpdesk/doctype/hd_view/hd_view.json
+msgid "DocType"
+msgstr ""
+
+#: desk/src/components/layouts/Sidebar.vue:347
+msgid "Docs"
+msgstr ""
+
+#. Label of the document_type (Link) field in DocType 'HD Field Layout'
+#: helpdesk/helpdesk/doctype/hd_field_layout/hd_field_layout.json
+msgid "Document Type"
+msgstr "Tipo de Documento"
+
+#. Label of the domain (Data) field in DocType 'HD Customer'
+#: helpdesk/helpdesk/doctype/hd_customer/hd_customer.json
+msgid "Domain"
+msgstr "Domínio"
+
+#: desk/src/components/ticket/ExportModal.vue:32
+msgid "Download"
+msgstr "Baixar"
+
+#. Option for the 'Status' (Select) field in DocType 'HD Article'
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:443
+#: helpdesk/helpdesk/doctype/hd_article/hd_article.json
+msgid "Draft"
+msgstr "Rascunho"
+
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleListItem.vue:72
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleListItem.vue:138
+#: desk/src/components/Settings/Holiday/HolidayListItem.vue:48
+#: desk/src/components/Settings/Holiday/HolidayListItem.vue:88
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:202
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:266
+#: desk/src/components/Settings/Sla/SlaPolicyListItem.vue:61
+#: desk/src/components/Settings/Sla/SlaPolicyListItem.vue:102
+#: desk/src/pages/ticket/Tickets.vue:398
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleListItem.vue:53
+msgid "Duplicate Assignment Rule"
+msgstr "Duplicar Regra de Atribuição"
+
 #: desk/src/components/Settings/Holiday/HolidayListItem.vue:28
 msgid "Duplicate Holiday List"
 msgstr ""
@@ -26,14 +265,14 @@ msgstr ""
 msgid "Duplicate SLA Policy"
 msgstr ""
 
-#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:186
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:183
 msgid "Duplicate Saved reply"
 msgstr ""
 
 #: desk/src/pages/call-logs/CallLogModal.vue:64
 #: desk/src/pages/call-logs/CallLogModal.vue:68
 msgid "Duration"
-msgstr ""
+msgstr "Duração"
 
 #: desk/src/pages/call-logs/CallLogModal.vue:388
 msgid "Duration is required"
@@ -43,10 +282,11 @@ msgstr ""
 msgid "Easily invite new agents, managers, or admins."
 msgstr ""
 
-#: desk/src/pages/knowledge-base/Article.vue:391
-#: desk/src/pages/ticket/Tickets.vue:374
+#: desk/src/pages/home/Home.vue:36
+#: desk/src/pages/knowledge-base/Article.vue:624
+#: desk/src/pages/ticket/Tickets.vue:466
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: desk/src/pages/call-logs/CallLogModal.vue:221
 msgid "Edit Call Log"
@@ -61,7 +301,7 @@ msgstr ""
 msgid "Edit Email"
 msgstr ""
 
-#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:140
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:143
 msgid "Edit Title"
 msgstr ""
 
@@ -70,7 +310,7 @@ msgid "Edit your email account"
 msgstr ""
 
 #. Label of the email (Data) field in DocType 'HD Desk Account Request'
-#: desk/src/components/ticket/ActivityHeader.vue:95
+#: desk/src/components/Settings/Profile/UserEmailSettings.vue:74
 #: desk/src/pages/SearchAgent.vue:184
 #: helpdesk/helpdesk/doctype/hd_desk_account_request/hd_desk_account_request.json
 msgid "Email"
@@ -78,14 +318,11 @@ msgstr "E-Mail"
 
 #. Label of the email_account (Link) field in DocType 'HD Ticket'
 #. Label of a Link in the Helpdesk Workspace
+#: desk/src/components/Settings/Profile/UserEmailSettings.vue:73
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
 #: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
 msgid "Email Account"
-msgstr ""
-
-#: desk/src/components/Settings/EmailAccountList.vue:26
-msgid "Email Account name"
-msgstr ""
+msgstr "Conta de e-mail"
 
 #: desk/src/components/Settings/EmailAccountList.vue:3
 msgid "Email Accounts"
@@ -98,14 +335,14 @@ msgstr ""
 #. Settings'
 #. Label of the reply_via_agent_email_content (Text) field in DocType 'HD
 #. Settings'
-#: desk/src/components/Settings/EmailNotifications/Notification.vue:67
+#: desk/src/components/Settings/EmailNotifications/Notification.vue:68
 #: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
 msgid "Email Content"
 msgstr ""
 
 #: desk/src/components/desk/global/NewContactDialog.vue:110
 msgid "Email Id"
-msgstr ""
+msgstr "ID de e-mail"
 
 #. Label of the email_customisations_tab (Tab Break) field in DocType 'HD
 #. Settings'
@@ -114,22 +351,39 @@ msgstr ""
 msgid "Email Notifications"
 msgstr ""
 
+#: desk/src/components/Settings/Profile/UserEmailSettings.vue:8
+msgid "Email Settings"
+msgstr "Configurações de e-mail"
+
 #: desk/src/components/Settings/EmailAdd.vue:307
 msgid "Email account created"
+msgstr ""
+
+#: desk/src/components/Settings/EmailAccountList.vue:26
+msgid "Email account name"
 msgstr ""
 
 #: desk/src/components/Settings/EmailEdit.vue:471
 msgid "Email account updated successfully"
 msgstr ""
 
+#: desk/src/components/Settings/Profile/UserEmailSettings.vue:221
+msgid "Email settings updated successfully."
+msgstr ""
+
 #: desk/src/components/desk/global/NewContactDialog.vue:234
 msgid "Email should not be empty"
 msgstr ""
 
+#: desk/src/components/Settings/Profile/UserEmailSettings.vue:55
 #: desk/src/pages/SearchAgent.vue:352
 #: desk/src/pages/desk/contact/ContactDialog.vue:43
-#: desk/src/pages/ticket/MobileTicketAgent.vue:364
+#: desk/src/pages/ticket/MobileTicketAgent.vue:451
 msgid "Emails"
+msgstr "E-mails"
+
+#: desk/src/components/Settings/Profile/Profile.vue:124
+msgid "Emails & Signature"
 msgstr ""
 
 #: desk/src/components/Settings/EmailEdit.vue:417
@@ -170,15 +424,15 @@ msgstr ""
 #. Settings'
 #. Label of the enabled (Check) field in DocType 'HD Stopword'
 #. Label of the enabled (Check) field in DocType 'HD Ticket Status'
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:31
-#: desk/src/components/Settings/Assignment Rules/AssignmentRulesListView.vue:37
-#: desk/src/components/Settings/EmailNotifications/Notification.vue:37
-#: desk/src/components/Settings/FieldDependency/FieldDependency.vue:22
-#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:84
-#: desk/src/components/Settings/Sla/SlaPolicyList.vue:40
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:30
-#: desk/src/components/Settings/Telephony/Telephony.vue:102
-#: desk/src/components/Settings/Telephony/Telephony.vue:177
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:32
+#: desk/src/components/Settings/Assignment Rules/AssignmentRulesListView.vue:31
+#: desk/src/components/Settings/EmailNotifications/Notification.vue:38
+#: desk/src/components/Settings/FieldDependency/FieldDependency.vue:26
+#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:80
+#: desk/src/components/Settings/Sla/SlaPolicyList.vue:34
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:31
+#: desk/src/components/Settings/Telephony/ExotelSettings.vue:40
+#: desk/src/components/Settings/Telephony/TwilioSettings.vue:39
 #: helpdesk/helpdesk/doctype/hd_action/hd_action.json
 #: helpdesk/helpdesk/doctype/hd_escalation_rule/hd_escalation_rule.json
 #: helpdesk/helpdesk/doctype/hd_form_script/hd_form_script.json
@@ -187,12 +441,12 @@ msgstr ""
 #: helpdesk/helpdesk/doctype/hd_stopword/hd_stopword.json
 #: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.json
 msgid "Enabled"
-msgstr ""
+msgstr "Ativado"
 
 #. Label of the end_date (Date) field in DocType 'HD Service Level Agreement'
 #: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.json
 msgid "End Date"
-msgstr ""
+msgstr "Data de término"
 
 #. Label of the end_time (Time) field in DocType 'HD Service Day'
 #: helpdesk/helpdesk/doctype/hd_service_day/hd_service_day.json
@@ -220,17 +474,21 @@ msgstr ""
 msgid "Enter the new name for the team"
 msgstr ""
 
-#: helpdesk/api/knowledge_base.py:80
+#: helpdesk/api/knowledge_base.py:86
 msgid "Error moving article to category"
 msgstr ""
 
-#: helpdesk/overrides/email_account.py:43
+#: helpdesk/overrides/email_account.py:93
 msgid "Error processing email at index {0}, message: {1}"
 msgstr ""
 
-#: helpdesk/overrides/email_account.py:92
-msgid "Error while connecting to email account {0}"
+#: desk/src/pages/desk/customer/CustomerDialog.vue:76
+msgid "Error updating customer"
 msgstr ""
+
+#: helpdesk/overrides/email_account.py:142
+msgid "Error while connecting to email account {0}"
+msgstr "Erro ao conectar à conta de e-mail {0}"
 
 #: helpdesk/helpdesk/doctype/hd_escalation_rule/hd_escalation_rule.py:43
 msgid "Escalation rule already exists for this criteria"
@@ -241,18 +499,23 @@ msgstr ""
 msgid "Excel"
 msgstr ""
 
-#: desk/src/components/layouts/Sidebar.vue:134
-msgid "Expand"
+#: desk/src/components/Settings/Telephony/ExotelSettings.vue:10
+#: desk/src/components/Settings/Telephony/Telephony.vue:97
+msgid "Exotel"
 msgstr ""
 
-#: desk/src/components/layouts/Sidebar.vue:516
+#: desk/src/components/layouts/Sidebar.vue:136
+msgid "Expand"
+msgstr "Expandir"
+
+#: desk/src/components/layouts/Sidebar.vue:530
 msgid "Explore customer portal"
 msgstr ""
 
 #: desk/src/components/ticket/ExportModal.vue:2
-#: desk/src/pages/ticket/Tickets.vue:105
+#: desk/src/pages/ticket/Tickets.vue:101
 msgid "Export"
-msgstr ""
+msgstr "Exportar"
 
 #: desk/src/components/ticket/ExportModal.vue:26
 msgid "Export All {0} Record(s)"
@@ -260,7 +523,7 @@ msgstr ""
 
 #: desk/src/components/ticket/ExportModal.vue:7
 msgid "Export Type"
-msgstr ""
+msgstr "Tipo de exportação"
 
 #. Label of the is_external_link (Check) field in DocType 'HD Action'
 #: helpdesk/helpdesk/doctype/hd_action/hd_action.json
@@ -269,17 +532,27 @@ msgstr ""
 
 #. Option for the 'SLA Status' (Select) field in DocType 'HD Ticket'
 #: desk/src/pages/call-logs/CallLogModal.vue:211
-#: desk/src/pages/ticket/Tickets.vue:182 desk/src/pages/ticket/Tickets.vue:195
-#: desk/src/pages/ticket/Tickets.vue:226
+#: desk/src/pages/ticket/Tickets.vue:188 desk/src/pages/ticket/Tickets.vue:201
+#: desk/src/pages/ticket/Tickets.vue:232
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
 msgid "Failed"
+msgstr "Falhou"
+
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:274
+msgid "Failed to create category"
 msgstr ""
 
 #: desk/src/components/Settings/EmailAdd.vue:313
 msgid "Failed to create email account, Invalid credentials"
 msgstr ""
 
-#: desk/src/components/Settings/Telephony/Telephony.vue:317
+#: desk/src/components/ticket-agent/TicketHeader.vue:223
+msgid "Failed to delete ticket."
+msgstr ""
+
+#: desk/src/components/Settings/Telephony/ExotelSettings.vue:209
+#: desk/src/components/Settings/Telephony/Telephony.vue:192
+#: desk/src/components/Settings/Telephony/TwilioSettings.vue:187
 msgid "Failed to load telephony agent"
 msgstr ""
 
@@ -287,12 +560,27 @@ msgstr ""
 msgid "Failed to pull emails"
 msgstr ""
 
-#: desk/src/components/Settings/Telephony/Telephony.vue:361
+#: desk/src/components/Settings/Telephony/ExotelSettings.vue:274
+#: desk/src/components/Settings/Telephony/Telephony.vue:235
 msgid "Failed to save Exotel settings"
 msgstr ""
 
-#: desk/src/components/Settings/Telephony/Telephony.vue:353
+#: desk/src/components/Settings/Telephony/ExotelSettings.vue:266
+#: desk/src/components/Settings/Telephony/Telephony.vue:227
+#: desk/src/components/Settings/Telephony/TwilioSettings.vue:230
 msgid "Failed to save Twilio settings"
+msgstr ""
+
+#: desk/src/components/ticket-agent/AssignTo.vue:443
+msgid "Failed to update Assignee's."
+msgstr ""
+
+#: desk/src/components/ticket-agent/AssignTo.vue:495
+msgid "Failed to update Assignees."
+msgstr ""
+
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:308
+msgid "Failed to update category."
 msgstr ""
 
 #: desk/src/components/Settings/EmailEdit.vue:476
@@ -308,6 +596,7 @@ msgstr ""
 #. Label of the feedback (Select) field in DocType 'HD Article Feedback'
 #. Label of the feedback_section (Section Break) field in DocType 'HD Settings'
 #. Label of the feedback_tab (Tab Break) field in DocType 'HD Ticket'
+#: desk/src/pages/home/components/RecentFeedback.vue:156
 #: helpdesk/helpdesk/doctype/hd_article_feedback/hd_article_feedback.json
 #: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
@@ -347,8 +636,12 @@ msgstr ""
 msgid "Feedback Trend"
 msgstr ""
 
-#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:170
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:168
 msgid "Feedback email has been sent to the customer"
+msgstr ""
+
+#: desk/src/components/knowledge-base/ArticleFeedback.vue:77
+msgid "Feedback submitted successfully."
 msgstr ""
 
 #. Label of the fieldname (Data) field in DocType 'HD Ticket Template Field'
@@ -360,11 +653,11 @@ msgstr ""
 msgid "Field Dependencies"
 msgstr ""
 
-#: desk/src/components/Settings/FieldDependency/FieldDependency.vue:307
+#: desk/src/components/Settings/FieldDependency/FieldDependency.vue:312
 msgid "Field Dependency created successfully"
 msgstr ""
 
-#: desk/src/components/Settings/FieldDependency/FieldDependency.vue:308
+#: desk/src/components/Settings/FieldDependency/FieldDependency.vue:313
 msgid "Field Dependency updated successfully"
 msgstr ""
 
@@ -376,31 +669,30 @@ msgstr ""
 msgid "Field `{0}` is not allowed in Ticket Template"
 msgstr ""
 
-#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:177
-msgid "Field dependency deleted successfully"
-msgstr ""
+#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:172
+msgid "Field dependency deleted successfully."
+msgstr "Dependência de campo excluída com sucesso."
 
-#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:193
+#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:188
 msgid "Field dependency updated successfully."
 msgstr ""
 
 #. Label of the fields (Table) field in DocType 'HD Ticket Template'
 #: helpdesk/helpdesk/doctype/hd_ticket_template/hd_ticket_template.json
 msgid "Fields"
-msgstr ""
+msgstr "Campos"
 
 #. Label of the filters_tab (Tab Break) field in DocType 'HD View'
 #. Label of the filters (Code) field in DocType 'HD View'
 #: helpdesk/helpdesk/doctype/hd_view/hd_view.json
 msgid "Filters"
-msgstr ""
+msgstr "Filtros"
 
-#: desk/src/components/Settings/EmailNotifications/Notification.vue:76
+#: desk/src/components/Settings/EmailNotifications/Notification.vue:77
 #: desk/src/components/Settings/General/components/TicketSettings.vue:229
 msgid "Find out all of the variables that can be used in the content"
 msgstr ""
 
-#: desk/src/components/Settings/Profile/Profile.vue:107
 #: desk/src/components/desk/global/NewContactDialog.vue:118
 msgid "First Name"
 msgstr "Nome"
@@ -435,7 +727,7 @@ msgstr ""
 #. Option for the 'Apply To' (Select) field in DocType 'HD Form Script'
 #: helpdesk/helpdesk/doctype/hd_form_script/hd_form_script.json
 msgid "Form"
-msgstr ""
+msgstr "Formulário"
 
 #. Option for the 'Workday' (Select) field in DocType 'HD Service Day'
 #. Option for the 'Weekly Off' (Select) field in DocType 'HD Service Holiday
@@ -446,10 +738,11 @@ msgid "Friday"
 msgstr "Sexta"
 
 #. Label of the user_from (Link) field in DocType 'HD Notification'
+#: desk/src/components/EmailEditor.vue:23
 #: desk/src/pages/call-logs/CallLogModal.vue:44
 #: helpdesk/helpdesk/doctype/hd_notification/hd_notification.json
 msgid "From"
-msgstr ""
+msgstr "De"
 
 #. Label of the from_date (Date) field in DocType 'HD Service Holiday List'
 #: helpdesk/helpdesk/doctype/hd_service_holiday_list/hd_service_holiday_list.json
@@ -458,10 +751,10 @@ msgstr ""
 #: helpdesk/helpdesk/report/ticket_analytics/ticket_analytics.js:17
 #: helpdesk/helpdesk/report/ticket_summary/ticket_summary.js:17
 msgid "From Date"
-msgstr ""
+msgstr "A partir da data"
 
-#: desk/src/components/Settings/Holiday/HolidayView.vue:86
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:155
+#: desk/src/components/Settings/Holiday/HolidayView.vue:87
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:156
 msgid "From date"
 msgstr ""
 
@@ -470,35 +763,40 @@ msgid "From is required"
 msgstr ""
 
 #. Option for the 'SLA Status' (Select) field in DocType 'HD Ticket'
-#: desk/src/pages/ticket/Tickets.vue:189 desk/src/pages/ticket/Tickets.vue:220
+#: desk/src/pages/ticket/Tickets.vue:195 desk/src/pages/ticket/Tickets.vue:226
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
 msgid "Fulfilled"
 msgstr "Cumprido"
 
 #: desk/src/components/Settings/General/General.vue:6
-#: desk/src/components/layouts/Sidebar.vue:487
+#: desk/src/components/layouts/Sidebar.vue:501
 #: desk/src/components/modals/ShortcutsModal.vue:79
 msgid "General"
-msgstr ""
+msgstr "Geral"
 
 #. Label of a Link in the Helpdesk Workspace
 #: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
 msgid "General Settings"
 msgstr ""
 
-#: helpdesk/helpdesk/doctype/hd_article_category/hd_article_category.py:24
+#: helpdesk/helpdesk/doctype/hd_article_category/hd_article_category.py:40
 msgid "General category can't be deleted"
 msgstr ""
 
-#: helpdesk/helpdesk/doctype/hd_article_category/hd_article_category.py:20
+#: helpdesk/helpdesk/doctype/hd_article_category/hd_article_category.py:36
 msgid "General category name can't be changed"
+msgstr ""
+
+#: helpdesk/api/knowledge_base.py:56
+#: helpdesk/helpdesk/doctype/hd_article_category/hd_article_category.py:23
+msgid "General is a reserved category name. Please use a different name to proceed."
 msgstr ""
 
 #. Option for the 'Scope' (Select) field in DocType 'HD Saved Reply'
 #: desk/src/components/SavedRepliesSelectorModal.vue:174
-#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:346
-#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:380
-#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:233
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:349
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:383
+#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:234
 #: helpdesk/helpdesk/doctype/hd_saved_reply/hd_saved_reply.json
 msgid "Global"
 msgstr ""
@@ -512,286 +810,16 @@ msgstr ""
 msgid "Gray"
 msgstr "Cinza"
 
+#: desk/src/pages/home/components/PendingTickets.vue:232
+msgid "Great! All your tickets are within SLA"
+msgstr ""
+
 #. Option for the 'Color' (Select) field in DocType 'HD Ticket Status'
 #: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.json
 msgid "Green"
-msgstr ""
+msgstr "Verde"
 
 #. Label of the group_by_tab (Tab Break) field in DocType 'HD View'
 #: helpdesk/helpdesk/doctype/hd_view/hd_view.json
 msgid "Group By"
-msgstr ""
-
-#. Label of the group_by_field (Data) field in DocType 'HD View'
-#: helpdesk/helpdesk/doctype/hd_view/hd_view.json
-msgid "Group By Field"
-msgstr ""
-
-#. Name of a role
-#: helpdesk/helpdesk/doctype/hd_article/hd_article.json
-#: helpdesk/helpdesk/doctype/hd_article_category/hd_article_category.json
-#: helpdesk/helpdesk/doctype/hd_view/hd_view.json
-msgid "Guest"
-msgstr "Convidado"
-
-#: desk/src/components/Settings/General/components/WorkflowKnowledgebaseSettings.vue:13
-msgid "Guide users to articles before tickets."
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_action/hd_action.json
-msgid "HD Action"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_agent/hd_agent.json
-msgid "HD Agent"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_article/hd_article.json
-msgid "HD Article"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_article_category/hd_article_category.json
-msgid "HD Article Category"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_article_feedback/hd_article_feedback.json
-msgid "HD Article Feedback"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_comment_reaction/hd_comment_reaction.json
-msgid "HD Comment Reaction"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_customer/hd_customer.json
-msgid "HD Customer"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_desk_account_request/hd_desk_account_request.json
-msgid "HD Desk Account Request"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_email_feedback/hd_email_feedback.json
-msgid "HD Email Feedback"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_escalation_rule/hd_escalation_rule.json
-msgid "HD Escalation Rule"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_form_script/hd_form_script.json
-msgid "HD Form Script"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_holiday/hd_holiday.json
-msgid "HD Holiday"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_notification/hd_notification.json
-msgid "HD Notification"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_organization/hd_organization.json
-msgid "HD Organization"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_organization_contact_item/hd_organization_contact_item.json
-msgid "HD Organization Contact Item"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_portal_signup_request/hd_portal_signup_request.json
-msgid "HD Portal Signup Request"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_saved_reply/hd_saved_reply.json
-msgid "HD Saved Reply"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_saved_reply_team/hd_saved_reply_team.json
-msgid "HD Saved Reply Team"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_service_day/hd_service_day.json
-msgid "HD Service Day"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_service_holiday_list/hd_service_holiday_list.json
-#: helpdesk/helpdesk/doctype/hd_service_holiday_list/hd_service_holiday_list_calendar.js:20
-msgid "HD Service Holiday List"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.json
-msgid "HD Service Level Agreement"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_service_level_priority/hd_service_level_priority.json
-msgid "HD Service Level Priority"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
-msgid "HD Settings"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_stopword/hd_stopword.json
-msgid "HD Stopword"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_support_search_source/hd_support_search_source.json
-msgid "HD Support Search Source"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_synonym/hd_synonym.json
-msgid "HD Synonym"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_synonyms/hd_synonyms.json
-msgid "HD Synonyms"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_team/hd_team.json
-msgid "HD Team"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_team_member/hd_team_member.json
-msgid "HD Team Member"
-msgstr ""
-
-#. Name of a DocType
-#. Label of the ticket (Link) field in DocType 'HD Ticket Activity'
-#: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement_dashboard.py:7
-#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
-#: helpdesk/helpdesk/doctype/hd_ticket_activity/hd_ticket_activity.json
-msgid "HD Ticket"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_ticket_activity/hd_ticket_activity.json
-msgid "HD Ticket Activity"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_ticket_comment/hd_ticket_comment.json
-msgid "HD Ticket Comment"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_ticket_feedback_option/hd_ticket_feedback_option.json
-msgid "HD Ticket Feedback Option"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_ticket_priority/hd_ticket_priority.json
-msgid "HD Ticket Priority"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.json
-msgid "HD Ticket Status"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_ticket_template/hd_ticket_template.json
-msgid "HD Ticket Template"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_ticket_template_field/hd_ticket_template_field.json
-msgid "HD Ticket Template Field"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_ticket_type/hd_ticket_type.json
-msgid "HD Ticket Type"
-msgstr ""
-
-#. Name of a DocType
-#: helpdesk/helpdesk/doctype/hd_view/hd_view.json
-msgid "HD View"
-msgstr ""
-
-#. Label of the headings_weight (Int) field in DocType 'HD Settings'
-#: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
-msgid "Headings Weight"
-msgstr ""
-
-#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:133
-msgid "Hello {{ contact }}, \\n\\nWe are sorry for the inconvenience, we will get back to you soon. \\n\\nRegards, \\n{{ full_name }}"
-msgstr ""
-
-#: desk/src/components/layouts/Sidebar.vue:120
-msgid "Help"
-msgstr ""
-
-#: helpdesk/config/desktop.py:11
-msgid "HelpDesk"
-msgstr ""
-
-#. Name of a Workspace
-#: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
-msgid "Helpdesk"
-msgstr "Central de Ajuda"
-
-#. Name of a role
-#: helpdesk/helpdesk/doctype/hd_ticket_priority/hd_ticket_priority.json
-#: helpdesk/helpdesk/doctype/hd_ticket_type/hd_ticket_type.json
-msgid "Helpdesk Contact"
-msgstr ""
-
-#. Label of a Card Break in the Helpdesk Workspace
-#: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
-msgid "Helpdesk Reports"
-msgstr ""
-
-#: helpdesk/helpdesk/doctype/hd_service_holiday_list/hd_service_holiday_list.js:53
-msgid "Here, your weekly offs are pre-populated based on the previous selections. You can add more rows to also add public and national holidays individually."
-msgstr ""
-
-#. Label of the cond_hidden (Code) field in DocType 'HD Action'
-#: helpdesk/helpdesk/doctype/hd_action/hd_action.json
-msgid "Hide condition"
-msgstr ""
-
-#. Label of the hide_from_customer (Check) field in DocType 'HD Ticket Template
-#. Field'
-#: helpdesk/helpdesk/doctype/hd_ticket_template_field/hd_ticket_template_field.json
-msgid "Hide from customer"
-msgstr ""
-
-#. Option in a Select field in the tickets Web Form
-#: helpdesk/helpdesk/web_form/tickets/tickets.json
-msgid "Hold"
-msgstr "Segurar"
-
-#. Label of the holiday_list (Link) field in DocType 'HD Service Level
-#. Agreement'
-#: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.json
-msgid "Holiday List"
-msgstr "Lista de Feriados"
+msgstr "Agrupar por"

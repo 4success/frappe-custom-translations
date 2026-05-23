@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: shariq@frappe.io\n"
-"POT-Creation-Date: 2026-03-08 09:43+0000\n"
-"PO-Revision-Date: 2026-03-10 00:36\n"
+"POT-Creation-Date: 2026-04-26 09:49+0000\n"
+"PO-Revision-Date: 2026-04-27 02:48\n"
 "Last-Translator: shariq@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,69 @@ msgstr ""
 "X-Crowdin-File: /[frappe.crm] develop/crm/locale/main.pot\n"
 "X-Crowdin-File-ID: 97\n"
 "Language: pt_BR\n"
+
+#. Label of the column_field (Data) field in DocType 'CRM View Settings'
+#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
+#: frontend/src/components/Kanban/KanbanSettings.vue:12
+msgid "Column Field"
+msgstr "Campo da coluna"
+
+#. Label of the columns (Code) field in DocType 'CRM View Settings'
+#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
+#: frontend/src/components/ColumnSettings.vue:4
+msgid "Columns"
+msgstr "Colunas"
+
+#. Label of the comment (Link) field in DocType 'CRM Notification'
+#: crm/fcrm/doctype/crm_notification/crm_notification.json
+#: frontend/src/components/Activities/ActivityHeader.vue:125
+#: frontend/src/components/CommentBox.vue:78
+#: frontend/src/components/CommunicationArea.vue:15
+#: frontend/src/components/Layouts/AppSidebar.vue:586
+msgid "Comment"
+msgstr "Comentário"
+
+#: frontend/src/components/CommunicationArea.vue:275
+msgid "Comment sent"
+msgstr "Comentário enviado"
+
+#: frontend/src/pages/Deal.vue:560 frontend/src/pages/Lead.vue:411
+#: frontend/src/pages/MobileDeal.vue:440 frontend/src/pages/MobileLead.vue:286
+msgid "Comments"
+msgstr "Comentários"
+
+#: crm/api/dashboard.py:938
+msgid "Common reasons for losing deals"
+msgstr "Motivos comuns para perder negócios"
+
+#. Label of the communication_status (Link) field in DocType 'CRM Deal'
+#. Label of the communication_status (Link) field in DocType 'CRM Lead'
+#: crm/fcrm/doctype/crm_deal/crm_deal.json
+#: crm/fcrm/doctype/crm_lead/crm_lead.json
+msgid "Communication Status"
+msgstr "Status da comunicação"
+
+#. Label of a shortcut in the Frappe CRM Workspace
+#: crm/fcrm/workspace/frappe_crm/frappe_crm.json
+msgid "Communication Statuses"
+msgstr "Status de comunicação"
+
+#: frontend/src/components/Settings/ERPNextSettings.vue:130
+msgid "Company Name"
+msgstr "Nome da Empresa"
+
+#. Label of the erpnext_company (Data) field in DocType 'ERPNext CRM Settings'
+#: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.json
+msgid "Company in ERPNext site"
+msgstr "Empresa no site do ERPNext"
+
+#: frontend/src/components/Settings/ERPNextSettings.vue:476
+msgid "Company name is required"
+msgstr ""
+
+#: crm/templates/emails/helpdesk_invitation.html:10
+msgid "Complete Registration"
+msgstr "Concluir cadastro"
 
 #. Option for the 'Status' (Select) field in DocType 'CRM Call Log'
 #: crm/fcrm/doctype/crm_call_log/crm_call_log.json
@@ -43,21 +106,31 @@ msgstr "Condição"
 msgid "Conditions for this rule were created from"
 msgstr "As condições desta regra foram criadas a partir de"
 
+#: frontend/src/components/Settings/Profile/ProfileSettings.vue:103
+#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:162
+#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:187
+msgid "Configure"
+msgstr ""
+
 #: frontend/src/components/Settings/Telephony/TelephonySettings.vue:18
 msgid "Configure Telephony Settings for your CRM"
-msgstr "Configure as configurações de telefonia do seu CRM"
+msgstr "Configure a telefonia do seu CRM"
 
 #: frontend/src/components/Settings/HomeActions.vue:10
 msgid "Configure actions that appear on the home dropdown"
 msgstr "Configure as ações exibidas no menu da página inicial"
 
-#: frontend/src/components/Settings/ForecastingSettings.vue:9
-msgid "Configure forecasting feature to help predict sales performance and growth"
-msgstr "Configure o recurso de previsão para ajudar a prever o desempenho e o crescimento das vendas"
+#: frontend/src/components/Settings/DefaultsSettings.vue:10
+msgid "Configure default settings for your CRM system, including default currency, date formats, and other system-wide preferences to ensure consistency across your system."
+msgstr ""
 
-#: frontend/src/components/Settings/CurrencySettings.vue:11
-msgid "Configure the Currency and Exchange Rate Provider for your CRM"
-msgstr "Configure a moeda e o provedor de taxa de câmbio do seu CRM"
+#: frontend/src/components/Settings/GeneralSettings.vue:8
+msgid "Configure general settings for your application"
+msgstr ""
+
+#: frontend/src/components/Settings/DashboardSettings.vue:10
+msgid "Configure how your dashboard calculates, formats, and displays key metrics, including forecasting, deal values, and currency settings"
+msgstr ""
 
 #: frontend/src/components/Settings/CurrencySettings.vue:63
 msgid "Configure the Exchange Rate Provider for your CRM"
@@ -69,7 +142,7 @@ msgstr "Configure o nome da marca, o logotipo e o favicon"
 
 #: frontend/src/components/Settings/CalendarSettings.vue:11
 msgid "Configure your Calendar Settings like Default View and Event Notifications here"
-msgstr "Configure aqui as configurações do calendário, como a visualização padrão e as notificações de eventos"
+msgstr "Configure aqui o calendário, como a visualização padrão e as notificações de eventos"
 
 #: frontend/src/components/Settings/Telephony/TelephonySettings.vue:103
 msgid "Configure your Exotel Telephony Integration Settings here"
@@ -101,9 +174,13 @@ msgstr "Confirmar sobrescrita"
 msgid "Confirm Password"
 msgstr "Confirmar senha"
 
-#: frontend/src/components/Settings/Users.vue:225
-msgid "Confirm Remove"
-msgstr "Confirmar remoção"
+#: frontend/src/utils/index.js:822 frontend/src/utils/index.js:825
+msgid "Confirm {0}"
+msgstr ""
+
+#: frontend/src/components/Settings/ERPNextSettings.vue:246
+msgid "Connect ERPNext to Frappe CRM"
+msgstr ""
 
 #: frontend/src/pages/Welcome.vue:35
 msgid "Connect your Email"
@@ -195,6 +272,10 @@ msgstr "Tipo de conteúdo"
 msgid "Content is required"
 msgstr "O conteúdo é obrigatório"
 
+#: frontend/src/components/Settings/DefaultsSettings.vue:75
+msgid "Controls how numbers are displayed (e.g., commas, decimal separators)"
+msgstr ""
+
 #: frontend/src/components/Layouts/AppSidebar.vue:382
 #: frontend/src/components/ListBulkActions.vue:86
 #: frontend/src/components/Modals/ConvertToDealModal.vue:83
@@ -268,6 +349,10 @@ msgstr "Criar evento"
 msgid "Create Lead"
 msgstr "Criar lead"
 
+#: frontend/src/components/Settings/emailConfig.js:58
+msgid "Create Lead from Incoming Emails"
+msgstr ""
+
 #: frontend/src/components/Controls/Link.vue:50
 #: frontend/src/components/Modals/EmailTemplateSelectorModal.vue:69
 #: frontend/src/components/Modals/WhatsappTemplateSelectorModal.vue:45
@@ -296,11 +381,19 @@ msgstr "Criar visualização"
 msgid "Create an Event"
 msgstr "Criar um evento"
 
+#: frontend/src/components/Settings/ERPNextSettings.vue:189
+msgid "Create customer in ERPNext when the deal status is changed"
+msgstr ""
+
 #. Label of the create_customer_on_status_change (Check) field in DocType
 #. 'ERPNext CRM Settings'
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.json
 msgid "Create customer on status change"
 msgstr "Criar cliente ao alterar o status"
+
+#: frontend/src/components/Settings/ERPNextSettings.vue:398
+msgid "Create quotation button on deal page and auto customer creation on deal status change will be disabled. Are you sure?"
+msgstr ""
 
 #: frontend/src/components/Layouts/AppSidebar.vue:349
 msgid "Create your first lead"
@@ -325,17 +418,17 @@ msgstr "Crie sua primeira tarefa"
 msgid "Currency"
 msgstr "Moeda"
 
-#: frontend/src/components/Settings/Settings.vue:114
-msgid "Currency & Exchange Rate"
-msgstr "Moeda e taxa de câmbio"
-
-#: frontend/src/components/Settings/CurrencySettings.vue:7
-msgid "Currency & Exchange Rate Provider"
-msgstr "Moeda e provedor de taxa de câmbio"
+#: frontend/src/components/Settings/DefaultsSettings.vue:52
+msgid "Currency Precision"
+msgstr "Precisão da moeda"
 
 #: frontend/src/components/Settings/CurrencySettings.vue:179
 msgid "Currency set as {0} successfully"
 msgstr "Moeda definida como {0} com sucesso"
+
+#: frontend/src/components/Modals/ChangePasswordModal.vue:8
+msgid "Current Password"
+msgstr ""
 
 #: crm/api/dashboard.py:896
 msgid "Current pipeline distribution"
@@ -392,9 +485,26 @@ msgstr "Diário"
 msgid "Daily performance of leads, deals, and wins"
 msgstr "Desempenho diário de leads, negócios e negócios ganhos"
 
+#: frontend/src/components/Settings/ThemeSwitcher.vue:89
+msgid "Dark"
+msgstr "Escuro"
+
+#: frontend/src/components/Settings/DashboardSettings.vue:6
+#: frontend/src/components/Settings/Settings.vue:123
+msgid "Dashboard"
+msgstr "Painel"
+
+#: frontend/src/components/Settings/DashboardSettings.vue:70
+msgid "Dashboard Currency"
+msgstr ""
+
 #: frontend/src/components/Settings/CurrencySettings.vue:35
 msgid "Dashboard number cards & charts will show currency in the selected format. Once set, cannot be edited."
 msgstr "Os cartões numéricos e gráficos do dashboard mostrarão a moeda no formato selecionado. Depois de definido, não poderá ser editado."
+
+#: frontend/src/components/Settings/DashboardSettings.vue:224
+msgid "Dashboard settings updated successfully"
+msgstr ""
 
 #: frontend/src/components/Activities/DataFields.vue:6
 #: frontend/src/components/Layouts/AppSidebar.vue:587
@@ -420,6 +530,10 @@ msgstr "Data"
 #: frontend/src/components/Modals/EventModal.vue:78
 msgid "Date & Time"
 msgstr "Data e hora"
+
+#: frontend/src/components/Settings/DefaultsSettings.vue:111
+msgid "Date Format"
+msgstr "Formato de Data"
 
 #: frontend/src/components/Settings/Sla/SlaHolidays.vue:214
 #: frontend/src/pages/Calendar.vue:91
@@ -465,6 +579,10 @@ msgstr "Valor do negócio"
 #: crm/api/dashboard.py:1023
 msgid "Deal generation channel analysis"
 msgstr "Análise dos canais de geração de negócios"
+
+#: frontend/src/components/Settings/ERPNextSettings.vue:481
+msgid "Deal status is required"
+msgstr ""
 
 #: crm/api/dashboard.py:1078 crm/api/dashboard.py:1141
 msgid "Deal value"
@@ -537,10 +655,6 @@ msgstr "Padrão"
 msgid "Default Calendar View"
 msgstr "Visualização padrão do calendário"
 
-#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:155
-msgid "Default Calling Medium Updated Successfully"
-msgstr "Canal de chamada padrão atualizado com sucesso"
-
 #: frontend/src/components/Settings/Telephony/TelephonySettings.vue:40
 msgid "Default Calling Medium for Logged In User"
 msgstr "Canal de chamada padrão para o usuário conectado"
@@ -600,6 +714,14 @@ msgstr "Canal de chamada padrão definido com sucesso como {0}"
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.js:30
 msgid "Default statuses, custom fields and layouts restored successfully."
 msgstr "Status padrão, campos personalizados e layouts restaurados com sucesso."
+
+#: frontend/src/components/Settings/Settings.vue:128
+msgid "Defaults"
+msgstr "Valores padrão"
+
+#: frontend/src/components/Settings/DefaultsSettings.vue:35
+msgid "Defines the default currency for all records, can be overridden at the field level"
+msgstr ""
 
 #: frontend/src/components/Activities/AttachmentArea.vue:131
 #: frontend/src/components/Activities/NoteArea.vue:12
@@ -673,143 +795,3 @@ msgstr "Excluir organização"
 #: frontend/src/components/Activities/TaskArea.vue:59
 msgid "Delete Task"
 msgstr "Excluir tarefa"
-
-#: frontend/src/components/ViewControls.vue:1121
-#: frontend/src/components/ViewControls.vue:1129
-msgid "Delete View"
-msgstr "Excluir visualização"
-
-#: frontend/src/components/DeleteLinkedDocModal.vue:14
-msgid "Delete or unlink linked documents"
-msgstr "Excluir ou desvincular documentos vinculados"
-
-#: frontend/src/components/DeleteLinkedDocModal.vue:26
-msgid "Delete or unlink these linked documents before deleting this document"
-msgstr "Exclua ou desvincule estes documentos vinculados antes de excluir este documento"
-
-#: frontend/src/components/DeleteLinkedDocModal.vue:70
-msgid "Delete {0} Item(s)"
-msgstr "Excluir {0} item(ns)"
-
-#: frontend/src/components/BulkDeleteLinkedDocModal.vue:28
-msgid "Delete {0} items"
-msgstr "Excluir {0} itens"
-
-#: frontend/src/components/Activities/NoteArea.vue:74
-msgid "Deleting note..."
-msgstr "Excluindo nota..."
-
-#. Label of the description (Text Editor) field in DocType 'CRM Holiday'
-#. Label of the description (Text Editor) field in DocType 'CRM Lost Reason'
-#. Label of the description (Text Editor) field in DocType 'CRM Product'
-#. Label of the description (Text Editor) field in DocType 'CRM Task'
-#: crm/fcrm/doctype/crm_holiday/crm_holiday.json
-#: crm/fcrm/doctype/crm_lost_reason/crm_lost_reason.json
-#: crm/fcrm/doctype/crm_product/crm_product.json
-#: crm/fcrm/doctype/crm_task/crm_task.json
-#: frontend/src/components/Calendar/CalendarEventPanel.vue:253
-#: frontend/src/components/Modals/EventModal.vue:172
-#: frontend/src/components/Modals/TaskModal.vue:34
-#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:113
-#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:114
-#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:604
-msgid "Description"
-msgstr "Descrição"
-
-#: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:426
-msgid "Description is required"
-msgstr "A descrição é obrigatória"
-
-#: frontend/src/components/Apps.vue:61
-msgid "Desk"
-msgstr "Desk"
-
-#. Label of the details (Tab Break) field in DocType 'CRM Lead'
-#. Label of the details (Text Editor) field in DocType 'CRM Lead Source'
-#: crm/fcrm/doctype/crm_lead/crm_lead.json
-#: crm/fcrm/doctype/crm_lead_source/crm_lead_source.json
-#: frontend/src/components/Settings/LeadSyncing/LeadSyncSourceForm.vue:198
-#: frontend/src/pages/MobileContact.vue:289
-#: frontend/src/pages/MobileDeal.vue:424 frontend/src/pages/MobileLead.vue:270
-#: frontend/src/pages/MobileOrganization.vue:332
-msgid "Details"
-msgstr "Detalhes"
-
-#. Label of the call_receiving_device (Select) field in DocType 'CRM Telephony
-#. Agent'
-#: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.json
-#: frontend/src/components/FilesUploader/FilesUploaderArea.vue:39
-msgid "Device"
-msgstr "Dispositivo"
-
-#: crm/fcrm/doctype/crm_form_script/crm_form_script.js:30
-msgid "Disable"
-msgstr "Desativar"
-
-#. Label of the disabled (Check) field in DocType 'CRM Product'
-#: crm/fcrm/doctype/crm_product/crm_product.json
-msgid "Disabled"
-msgstr "Desativado"
-
-#: frontend/src/components/Calendar/CalendarEventPanel.vue:922
-#: frontend/src/components/CommentBox.vue:74
-#: frontend/src/components/EmailEditor.vue:161
-msgid "Discard"
-msgstr "Descartar"
-
-#: frontend/src/components/Calendar/CalendarEventPanel.vue:910
-msgid "Discard Unsaved Changes?"
-msgstr "Descartar alterações não salvas?"
-
-#. Label of the discount_percentage (Percent) field in DocType 'CRM Products'
-#: crm/fcrm/doctype/crm_products/crm_products.json
-msgid "Discount %"
-msgstr "Desconto %"
-
-#. Label of the discount_amount (Currency) field in DocType 'CRM Products'
-#: crm/fcrm/doctype/crm_products/crm_products.json
-msgid "Discount Amount"
-msgstr "Valor do Desconto"
-
-#. Label of the dt (Link) field in DocType 'CRM Form Script'
-#. Label of the dt (Link) field in DocType 'CRM Global Settings'
-#. Label of the dt (Link) field in DocType 'CRM View Settings'
-#: crm/fcrm/doctype/crm_form_script/crm_form_script.json
-#: crm/fcrm/doctype/crm_global_settings/crm_global_settings.json
-#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
-msgid "DocType"
-msgstr "DocType"
-
-#: crm/api/doc.py:886
-msgid "Doctype is required"
-msgstr "O DocType é obrigatório"
-
-#: frontend/src/pages/MobileLead.vue:195
-msgid "Document Not Found"
-msgstr "Documento não encontrado"
-
-#. Label of the dt (Link) field in DocType 'CRM Fields Layout'
-#: crm/fcrm/doctype/crm_fields_layout/crm_fields_layout.json
-msgid "Document Type"
-msgstr "Tipo de documento"
-
-#: frontend/src/data/document.js:31
-msgid "Document does not exist"
-msgstr "O documento não existe"
-
-#: crm/api/activities.py:20 frontend/src/pages/MobileDeal.vue:347
-msgid "Document not found"
-msgstr "Documento não encontrado"
-
-#: frontend/src/data/document.js:46
-msgid "Document updated successfully"
-msgstr "Documento atualizado com sucesso"
-
-#: frontend/src/components/Modals/AboutModal.vue:60
-msgid "Documentation"
-msgstr "Documentação"
-
-#. Option for the 'Status' (Select) field in DocType 'CRM Task'
-#: crm/fcrm/doctype/crm_task/crm_task.json
-msgid "Done"
-msgstr "Concluído"

@@ -22,22 +22,22 @@ msgstr ""
 #. Account'
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 msgid "If Income or Expense"
-msgstr ""
+msgstr "Se for receita ou despesa"
 
 #: erpnext/manufacturing/doctype/operation/operation.js:32
 msgid "If an operation is divided into sub operations, they can be added here."
-msgstr ""
+msgstr "Se uma operação for dividida em suboperações, elas podem ser adicionadas aqui."
 
 #. Description of the 'Account' (Link) field in DocType 'Warehouse'
 #: erpnext/stock/doctype/warehouse/warehouse.json
 msgid "If blank, parent Warehouse Account or company default will be considered in transactions"
-msgstr ""
+msgstr "Se ficar em branco, a conta do armazém pai ou o padrão da empresa será considerada nas transações"
 
 #. Description of the 'Bill for Rejected Quantity in Purchase Invoice' (Check)
 #. field in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "If checked, Rejected Quantity will be included while making Purchase Invoice from Purchase Receipt."
-msgstr ""
+msgstr "Se marcado, a quantidade rejeitada será incluída ao criar a fatura de compra a partir do recebimento de compra."
 
 #. Description of the 'Reserve Stock' (Check) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -69,7 +69,7 @@ msgstr "Se marcado, o valor do imposto será considerado como já incluído no p
 
 #: erpnext/public/js/setup_wizard.js:56
 msgid "If checked, we will create demo data for you to explore the system. This demo data can be erased later."
-msgstr ""
+msgstr "Se marcado, criaremos dados de demonstração para você explorar o sistema. Esses dados podem ser apagados depois."
 
 #. Description of the 'Service Address' (Small Text) field in DocType 'Warranty
 #. Claim'
@@ -93,12 +93,12 @@ msgstr "Se desativado, o campo 'Total arredondado' não ficará visível em nenh
 #. List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
 msgid "If enabled then system won't apply the pricing rule on the delivery note which will be create from the pick list"
-msgstr ""
+msgstr "Se ativado, o sistema não aplicará a regra de precificação na nota de entrega que será criada a partir da lista de separação"
 
 #. Description of the 'Pick Manually' (Check) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
 msgid "If enabled then system won't override the picked qty / batches / serial numbers / warehouse."
-msgstr ""
+msgstr "Se ativado, o sistema não substituirá a qtd. separada / lotes / números de série / armazém."
 
 #. Description of the 'Send Document Print' (Check) field in DocType 'Request
 #. for Quotation'
@@ -110,7 +110,7 @@ msgstr "Se ativado, uma impressão deste documento será anexada a cada e-mail"
 #. DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "If enabled, additional ledger entries will be made for discounts in a separate Discount Account"
-msgstr ""
+msgstr "Se ativado, lançamentos contábeis adicionais serão feitos para descontos em uma conta de desconto separada"
 
 #. Description of the 'Send Attached Files' (Check) field in DocType 'Request
 #. for Quotation'
@@ -123,39 +123,41 @@ msgstr "Se ativado, todos os arquivos anexados a este documento serão anexados 
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "If enabled, do not update serial / batch values in the stock transactions on creation of auto Serial \n"
 " / Batch Bundle. "
-msgstr ""
+msgstr "Se ativado, não atualize os valores de série / lote nas transações de estoque ao criar o pacote automático de série / lote. "
 
 #. Description of the 'Consider Projected Qty in Calculation' (Check) field in
 #. DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "If enabled, formula for <b>Qty to Order</b>: <br>\n"
 "Required Qty (BOM) - <a href=\"https://docs.frappe.io/erpnext/user/manual/en/projected-quantity\">Projected Qty</a>. <br> This helps avoid over-ordering."
-msgstr ""
+msgstr "Se ativado, a fórmula de <b>Qtd. a pedir</b> será: <br>\n"
+"Qtd. necessária (BOM) - <a href=\"https://docs.frappe.io/erpnext/user/manual/en/projected-quantity\">Qtd. projetada</a>. <br> Isso ajuda a evitar pedidos em excesso."
 
 #. Description of the 'Consider Projected Qty in Calculation (RM)' (Check)
 #. field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "If enabled, formula for <b>Required Qty</b>: <br>\n"
 "Required Qty (BOM) - <a href=\"https://docs.frappe.io/erpnext/user/manual/en/projected-quantity\">Projected Qty</a>. <br> This helps avoid over-ordering."
-msgstr ""
+msgstr "Se ativado, a fórmula de <b>Qtd. necessária</b> será: <br>\n"
+"Qtd. necessária (BOM) - <a href=\"https://docs.frappe.io/erpnext/user/manual/en/projected-quantity\">Qtd. projetada</a>. <br> Isso ajuda a evitar pedidos em excesso."
 
 #. Description of the 'Create Ledger Entries for Change Amount' (Check) field
 #. in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "If enabled, ledger entries will be posted for change amount in POS transactions"
-msgstr ""
+msgstr "Se ativado, lançamentos contábeis serão gerados para o valor de troco nas transações de PDV"
 
 #. Description of the 'Allow Delivery of Overproduced Qty' (Check) field in
 #. DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "If enabled, system will allow user to deliver the entire quantity of the finished goods produced against the Subcontracting Inward Order. If disabled, system will allow delivery of only the ordered quantity."
-msgstr ""
+msgstr "Se ativado, o sistema permitirá entregar toda a quantidade de produtos acabados produzida para o pedido de entrada de subcontratação. Se desativado, o sistema permitirá entregar apenas a quantidade pedida."
 
 #. Description of the 'Deliver Scrap Items' (Check) field in DocType 'Selling
 #. Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "If enabled, the Scrap Item generated against a Finished Good will also be added in the Stock Entry when delivering that Finished Good."
-msgstr ""
+msgstr "Se ativado, o item de sucata gerado para um produto acabado também será adicionado ao movimento de estoque ao entregar esse produto acabado."
 
 #. Description of the 'Disable Rounded Total' (Check) field in DocType 'POS
 #. Profile'
@@ -167,43 +169,43 @@ msgstr "Se ativado, as faturas consolidadas ficarão com o total arredondado des
 #. field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "If enabled, the item rate won't adjust to the valuation rate during internal transfers, but accounting will still use the valuation rate."
-msgstr ""
+msgstr "Se ativado, o preço do item não será ajustado ao preço de avaliação durante transferências internas, mas a contabilidade continuará usando o preço de avaliação."
 
 #. Description of the 'Validate Material Transfer Warehouses' (Check) field in
 #. DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "If enabled, the source and target warehouse in the Material Transfer Stock Entry must be different else an error will be thrown. If inventory dimensions are present, same source and target warehouse can be allowed but atleast any one of the inventory dimension fields must be different."
-msgstr ""
+msgstr "Se ativado, os armazéns de origem e destino no movimento de estoque de transferência de material devem ser diferentes; caso contrário, será gerado um erro. Se houver dimensões de estoque, o mesmo armazém de origem e destino poderá ser permitido, mas pelo menos um dos campos de dimensão de estoque deverá ser diferente."
 
 #. Description of the 'Allow UOM with Conversion Rate Defined in Item' (Check)
 #. field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "If enabled, the system will allow selecting UOMs in sales and purchase transactions only if the conversion rate is set in the item master."
-msgstr ""
+msgstr "Se ativado, o sistema permitirá selecionar UMs em transações de compra e venda somente se a taxa de conversão estiver definida no cadastro do item."
 
 #. Description of the 'Allow Editing of Items and Quantities in Work Order'
 #. (Check) field in DocType 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "If enabled, the system will allow users to edit the raw materials and their quantities in the Work Order. The system will not reset the quantities as per the BOM, if the user has changed them."
-msgstr ""
+msgstr "Se ativado, o sistema permitirá que os usuários editem as matérias-primas e suas quantidades na Ordem de Trabalho. O sistema não redefinirá as quantidades conforme a BOM se o usuário as tiver alterado."
 
 #. Description of the 'Set Valuation Rate for Rejected Materials' (Check) field
 #. in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "If enabled, the system will generate an accounting entry for materials rejected in the Purchase Receipt."
-msgstr ""
+msgstr "Se ativado, o sistema gerará um lançamento contábil para materiais rejeitados no recebimento de compra."
 
 #. Description of the 'Enable Item-wise Inventory Account' (Check) field in
 #. DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "If enabled, the system will use the inventory account set in the Item Master or Item Group or Brand. Otherwise, it will use the inventory account set in the Warehouse."
-msgstr ""
+msgstr "Se ativado, o sistema usará a conta de estoque definida no cadastro do item, no grupo de itens ou na marca. Caso contrário, usará a conta de estoque definida no armazém."
 
 #. Description of the 'Do Not Use Batch-wise Valuation' (Check) field in
 #. DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "If enabled, the system will use the moving average valuation method to calculate the valuation rate for the batched items and will not consider the individual batch-wise incoming rate."
-msgstr ""
+msgstr "Se ativado, o sistema usará o método de avaliação por média móvel para calcular o preço de avaliação dos itens com lote e não considerará o preço de entrada individual por lote."
 
 #. Description of the 'Validate Applied Rule' (Check) field in DocType 'Pricing
 #. Rule'
@@ -221,24 +223,24 @@ msgstr "Se ativado, os valores desta linha serão exibidos nos gráficos finance
 #. DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "If enabled, user will be alerted before resetting posting date to current date in relevant transactions"
-msgstr ""
+msgstr "Se ativado, o usuário será avisado antes de redefinir a data de lançamento para a data atual nas transações relevantes"
 
 #. Description of the 'Variant Of' (Link) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "If item is a variant of another item then description, image, pricing, taxes etc will be set from the template unless explicitly specified"
-msgstr ""
+msgstr "Se o item for uma variante de outro item, a descrição, imagem, preços, impostos etc. serão definidos a partir do modelo, salvo se forem informados explicitamente"
 
 #. Description of the 'Get Items for Purchase / Transfer' (Button) field in
 #. DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "If items in stock, proceed with Material Transfer or Purchase."
-msgstr "Se houver itens em estoque, prossiga com a transferencia de material ou compra."
+msgstr "Se houver itens em estoque, prossiga com a transferência de material ou compra."
 
 #. Description of the 'Role Allowed to Create/Edit Back-dated Transactions'
 #. (Link) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "If mentioned, the system will allow only the users with this Role to create or modify any stock transaction earlier than the latest stock transaction for a specific item and warehouse. If set as blank, it allows all users to create/edit back-dated transactions."
-msgstr ""
+msgstr "Se informado, o sistema permitirá que apenas usuários com este Perfil criem ou alterem qualquer transação de estoque anterior à transação de estoque mais recente para um item e armazém específicos. Se ficar em branco, todos os usuários poderão criar/editar transações retroativas."
 
 #. Description of the 'To Package No.' (Int) field in DocType 'Packing Slip'
 #: erpnext/stock/doctype/packing_slip/packing_slip.json
@@ -247,13 +249,13 @@ msgstr "Se houver mais de uma embalagem do mesmo tipo (para impressão)"
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:50
 msgid "If multiple Pricing Rules continue to prevail, users are asked to set Priority manually to resolve conflict."
-msgstr ""
+msgstr "Se várias regras de precificação continuarem válidas, os usuários deverão definir a prioridade manualmente para resolver o conflito."
 
 #. Description of the 'Automatically Add Taxes from Taxes and Charges Template'
 #. (Check) field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "If no taxes are set, and Taxes and Charges Template is selected, the system will automatically apply the taxes from the chosen template."
-msgstr "Se nenhum imposto estiver definido e um Modelo de Impostos e Encargos for selecionado, o sistema aplicara automaticamente os impostos do modelo escolhido."
+msgstr "Se nenhum imposto estiver definido e um modelo de impostos e encargos for selecionado, o sistema aplicará automaticamente os impostos do modelo escolhido."
 
 #: erpnext/stock/stock_ledger.py:2040
 msgid "If not, you can Cancel / Submit this entry"
@@ -267,13 +269,13 @@ msgstr "Se o preço for zero, o item será tratado como \"Item Grátis\""
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:40
 msgid "If selected Pricing Rule is made for 'Rate', it will overwrite Price List. Pricing Rule rate is the final rate, so no further discount should be applied. Hence, in transactions like Sales Order, Purchase Order etc, it will be fetched in 'Rate' field, rather than 'Price List Rate' field."
-msgstr ""
+msgstr "Se a regra de precificação selecionada for para 'Rate', ela substituirá a lista de preços. O preço da regra de precificação é o preço final, portanto nenhum desconto adicional deve ser aplicado. Assim, em transações como pedido de venda, pedido de compra etc., ele será buscado no campo 'Rate', e não no campo 'Price List Rate'."
 
 #. Description of the 'Fixed Outgoing Email Account' (Link) field in DocType
 #. 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "If set, the system does not use the user's Email or the standard outgoing Email account for sending request for quotations."
-msgstr ""
+msgstr "Se definido, o sistema não usará o e-mail do usuário nem a conta de e-mail de saída padrão para enviar solicitações de cotação."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1166
 msgid "If the BOM results in Scrap material, the Scrap Warehouse needs to be selected."
@@ -286,7 +288,7 @@ msgstr "Se a conta estiver congelada, os lançamentos serão permitidos apenas p
 
 #: erpnext/stock/stock_ledger.py:2033
 msgid "If the item is transacting as a Zero Valuation Rate item in this entry, please enable 'Allow Zero Valuation Rate' in the {0} Item table."
-msgstr ""
+msgstr "Se o item estiver sendo movimentado com preço de avaliação zero neste lançamento, ative 'Permitir preço de avaliação zero' na tabela de itens de {0}."
 
 #. Description of the 'Projected On Hand' (Float) field in DocType 'Material
 #. Request Item'
@@ -296,13 +298,13 @@ msgstr ""
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1185
 msgid "If the selected BOM has Operations mentioned in it, the system will fetch all Operations from BOM, these values can be changed."
-msgstr ""
+msgstr "Se a BOM selecionada tiver operações informadas, o sistema buscará todas as operações da BOM; esses valores podem ser alterados."
 
 #. Description of the 'Catch All' (Link) field in DocType 'Communication
 #. Medium'
 #: erpnext/communication/doctype/communication_medium/communication_medium.json
 msgid "If there is no assigned timeslot, then communication will be handled by this group"
-msgstr "Se não houver horario atribuido, a comunicação será tratada por este grupo"
+msgstr "Se não houver horário atribuído, a comunicação será tratada por este grupo"
 
 #: erpnext/edi/doctype/code_list/code_list_import.js:23
 msgid "If there is no title column, use the code column for the title."
@@ -312,34 +314,34 @@ msgstr "Se não houver coluna de título, use a coluna de código como título."
 #. in DocType 'Payment Terms Template'
 #: erpnext/accounts/doctype/payment_terms_template/payment_terms_template.json
 msgid "If this checkbox is checked, paid amount will be splitted and allocated as per the amounts in payment schedule against each payment term"
-msgstr ""
+msgstr "Se esta caixa de seleção estiver marcada, o valor pago será dividido e alocado conforme os valores no cronograma de pagamento para cada condição de pagamento"
 
 #. Description of the 'Follow Calendar Months' (Check) field in DocType
 #. 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
 msgid "If this is checked subsequent new invoices will be created on calendar  month and quarter start dates irrespective of current invoice start date"
-msgstr ""
+msgstr "Se esta opção estiver marcada, as novas faturas subsequentes serão criadas nas datas de início do mês e do trimestre do calendário, independentemente da data de início da fatura atual"
 
 #. Description of the 'Submit Journal Entries' (Check) field in DocType
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "If this is unchecked Journal Entries will be saved in a Draft state and will have to be submitted manually"
-msgstr ""
+msgstr "Se esta opção estiver desmarcada, os lançamentos contábeis serão salvos como rascunho e terão de ser enviados manualmente"
 
 #. Description of the 'Book Deferred Entries Via Journal Entry' (Check) field
 #. in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "If this is unchecked, direct GL entries will be created to book deferred revenue or expense"
-msgstr ""
+msgstr "Se esta opção estiver desmarcada, lançamentos diretos no Livro Razão serão criados para contabilizar a receita ou despesa diferida"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:740
 msgid "If this is undesirable please cancel the corresponding Payment Entry."
-msgstr ""
+msgstr "Se isso não for desejável, cancele o lançamento de pagamento correspondente."
 
 #. Description of the 'Has Variants' (Check) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "If this item has variants, then it cannot be selected in sales orders etc."
-msgstr ""
+msgstr "Se este item tiver variantes, ele não poderá ser selecionado em pedidos de venda etc."
 
 #: erpnext/buying/doctype/buying_settings/buying_settings.js:27
 msgid "If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice or Receipt without creating a Purchase Order first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Order' checkbox in the Supplier master."
@@ -355,39 +357,39 @@ msgstr "Se marcado, vários materiais podem ser usados em uma única Ordem de Tr
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:24
 msgid "If ticked, the BOM cost will be automatically updated based on Valuation Rate / Price List Rate / last purchase rate of raw materials."
-msgstr ""
+msgstr "Se marcado, o custo da BOM será atualizado automaticamente com base no preço de avaliação / preço da lista / último preço de compra das matérias-primas."
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:46
 msgid "If two or more Pricing Rules are found based on the above conditions, Priority is applied. Priority is a number between 0 to 20 while default value is zero (blank). Higher number means it will take precedence if there are multiple Pricing Rules with same conditions."
-msgstr ""
+msgstr "Se duas ou mais regras de precificação forem encontradas com base nas condições acima, a prioridade será aplicada. A prioridade é um número entre 0 e 20, e o valor padrão é zero (em branco). Um número maior significa que ela terá precedência se houver várias regras de precificação com as mesmas condições."
 
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.js:14
 msgid "If unlimited expiry for the Loyalty Points, keep the Expiry Duration empty or 0."
-msgstr ""
+msgstr "Se os pontos de fidelidade tiverem validade ilimitada, deixe a duração da validade em branco ou 0."
 
 #. Description of the 'Is Rejected Warehouse' (Check) field in DocType
 #. 'Warehouse'
 #: erpnext/stock/doctype/warehouse/warehouse.json
 msgid "If yes, then this warehouse will be used to store rejected materials"
-msgstr ""
+msgstr "Se sim, este armazém será usado para armazenar materiais rejeitados"
 
 #: erpnext/stock/doctype/item/item.js:1046
 msgid "If you are maintaining stock of this Item in your Inventory, ERPNext will make a stock ledger entry for each transaction of this item."
-msgstr ""
+msgstr "Se você controla o estoque deste item no seu inventário, o ERPNext fará um lançamento no razão de estoque para cada transação deste item."
 
 #. Description of the 'Unreconciled Entries' (Section Break) field in DocType
 #. 'Payment Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 msgid "If you need to reconcile particular transactions against each other, then please select accordingly. If not, all the transactions will be allocated in FIFO order."
-msgstr ""
+msgstr "Se você precisar conciliar transações específicas entre si, selecione-as conforme necessário. Caso contrário, todas as transações serão alocadas em ordem FIFO."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:1071
 msgid "If you still want to proceed, please disable 'Skip Available Sub Assembly Items' checkbox."
-msgstr ""
+msgstr "Se ainda quiser prosseguir, desative a caixa de seleção 'Skip Available Sub Assembly Items'."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:1807
 msgid "If you still want to proceed, please enable {0}."
-msgstr ""
+msgstr "Se ainda quiser prosseguir, ative {0}."
 
 #: erpnext/accounts/doctype/pricing_rule/utils.py:376
 msgid "If you {0} {1} quantities of the item {2}, the scheme {3} will be applied on the item."
@@ -434,24 +436,24 @@ msgstr "Ignorar saldo de fechamento"
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Ignore Default Payment Terms Template"
-msgstr "Ignorar modelo padrão de condicoes de pagamento"
+msgstr "Ignorar modelo padrão de condições de pagamento"
 
 #. Label of the ignore_employee_time_overlap (Check) field in DocType 'Projects
 #. Settings'
 #: erpnext/projects/doctype/projects_settings/projects_settings.json
 msgid "Ignore Employee Time Overlap"
-msgstr ""
+msgstr "Ignorar sobreposição de horas do funcionário"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.js:143
 msgid "Ignore Empty Stock"
-msgstr ""
+msgstr "Ignorar estoque vazio"
 
 #. Label of the ignore_exchange_rate_revaluation_journals (Check) field in
 #. DocType 'Process Statement Of Accounts'
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
 #: erpnext/accounts/report/general_ledger/general_ledger.js:217
 msgid "Ignore Exchange Rate Revaluation and Gain / Loss Journals"
-msgstr ""
+msgstr "Ignorar reavaliação cambial e lançamentos de ganho/perda"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1382
 msgid "Ignore Existing Ordered Qty"
@@ -465,7 +467,7 @@ msgstr "Ignorar quantidade projetada existente"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Ignore Is Opening check for reporting"
-msgstr ""
+msgstr "Ignorar verificação de abertura nos relatórios"
 
 #. Label of the ignore_pricing_rule (Check) field in DocType 'POS Invoice'
 #. Label of the ignore_pricing_rule (Check) field in DocType 'POS Profile'
@@ -495,7 +497,7 @@ msgstr "Ignorar regra de precificação"
 
 #: erpnext/selling/page/point_of_sale/pos_payment.js:335
 msgid "Ignore Pricing Rule is enabled. Cannot apply coupon code."
-msgstr "Ignorar regra de precificação esta ativado. Não é possível aplicar código de cupom."
+msgstr "Ignorar regra de precificação está ativado. Não é possível aplicar o código do cupom."
 
 #. Label of the ignore_cr_dr_notes (Check) field in DocType 'Process Statement
 #. Of Accounts'
@@ -503,36 +505,36 @@ msgstr "Ignorar regra de precificação esta ativado. Não é possível aplicar 
 #: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.js:120
 #: erpnext/accounts/report/general_ledger/general_ledger.js:222
 msgid "Ignore System Generated Credit / Debit Notes"
-msgstr ""
+msgstr "Ignorar notas de crédito / débito geradas pelo sistema"
 
 #. Label of the ignore_user_time_overlap (Check) field in DocType 'Projects
 #. Settings'
 #: erpnext/projects/doctype/projects_settings/projects_settings.json
 msgid "Ignore User Time Overlap"
-msgstr ""
+msgstr "Ignorar sobreposição de horas do usuário"
 
 #. Description of the 'Add Manually' (Check) field in DocType 'Repost Payment
 #. Ledger'
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.json
 msgid "Ignore Voucher Type filter and Select Vouchers Manually"
-msgstr ""
+msgstr "Ignorar o filtro de tipo de comprovante e selecionar comprovantes manualmente"
 
 #. Label of the ignore_workstation_time_overlap (Check) field in DocType
 #. 'Projects Settings'
 #: erpnext/projects/doctype/projects_settings/projects_settings.json
 msgid "Ignore Workstation Time Overlap"
-msgstr ""
+msgstr "Ignorar sobreposição de horas da estação de trabalho"
 
 #. Description of the 'Ignore Is Opening check for reporting' (Check) field in
 #. DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Ignores legacy Is Opening field in GL Entry that allows adding opening balance post the system is in use while generating reports"
-msgstr ""
+msgstr "Ignora o campo legado Is Opening no lançamento do Livro Razão, que permite adicionar saldo de abertura após o sistema já estar em uso ao gerar relatórios"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:135
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:229
 msgid "Impairment"
-msgstr ""
+msgstr "Perda por redução ao valor recuperável"
 
 #: erpnext/setup/setup_wizard/data/sales_partner_type.txt:6
 msgid "Implementation Partner"
@@ -554,7 +556,7 @@ msgstr "Importar dados"
 #: erpnext/edi/doctype/code_list/code_list_list.js:3
 #: erpnext/edi/doctype/common_code/common_code_list.js:3
 msgid "Import Genericode File"
-msgstr ""
+msgstr "Importar arquivo Genericode"
 
 #. Label of the import_invoices (Button) field in DocType 'Import Supplier
 #. Invoice'
@@ -618,13 +620,13 @@ msgstr "Em min"
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:135
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:167
 msgid "In Party Currency"
-msgstr ""
+msgstr "Na moeda do cadastro"
 
 #. Description of the 'Rate of Depreciation' (Percent) field in DocType 'Asset
 #. Depreciation Schedule'
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
 msgid "In Percentage"
-msgstr ""
+msgstr "Em porcentagem"
 
 #. Option for the 'Qualification Status' (Select) field in DocType 'Lead'
 #. Option for the 'Status' (Select) field in DocType 'Production Plan'
@@ -670,7 +672,7 @@ msgstr "Em Trânsito"
 
 #: erpnext/stock/doctype/material_request/material_request.js:487
 msgid "In Transit Transfer"
-msgstr "Transferencia em transito"
+msgstr "Transferência em trânsito"
 
 #: erpnext/stock/doctype/material_request/material_request.js:456
 msgid "In Transit Warehouse"
@@ -770,7 +772,7 @@ msgstr "Em minutos"
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.js:8
 msgid "In row {0} of Appointment Booking Slots: \"To Time\" must be later than \"From Time\"."
-msgstr ""
+msgstr "Na linha {0} dos horários de agendamento: \"Até\" deve ser posterior a \"De\"."
 
 #: erpnext/templates/includes/products_as_grid.html:18
 msgid "In stock"
@@ -836,23 +838,23 @@ msgstr ""
 
 #: erpnext/accounts/report/payment_ledger/payment_ledger.js:77
 msgid "Include Account Currency"
-msgstr ""
+msgstr "Incluir moeda da conta"
 
 #. Label of the include_ageing (Check) field in DocType 'Process Statement Of
 #. Accounts'
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
 msgid "Include Ageing Summary"
-msgstr ""
+msgstr "Incluir resumo de vencimentos"
 
 #: erpnext/buying/report/purchase_order_trends/purchase_order_trends.js:8
 #: erpnext/selling/report/sales_order_trends/sales_order_trends.js:8
 msgid "Include Closed Orders"
-msgstr ""
+msgstr "Incluir pedidos encerrados"
 
 #: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.js:54
 #: erpnext/assets/report/fixed_asset_register/fixed_asset_register.js:54
 msgid "Include Default FB Assets"
-msgstr ""
+msgstr "Incluir ativos FB padrão"
 
 #: erpnext/accounts/report/balance_sheet/balance_sheet.js:45
 #: erpnext/accounts/report/cash_flow/cash_flow.js:37
@@ -863,7 +865,7 @@ msgstr ""
 #: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.js:46
 #: erpnext/accounts/report/trial_balance/trial_balance.js:105
 msgid "Include Default FB Entries"
-msgstr "Incluir Entradas de Livro Padrão"
+msgstr "Incluir lançamentos FB padrão"
 
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:90
 msgid "Include Expired"

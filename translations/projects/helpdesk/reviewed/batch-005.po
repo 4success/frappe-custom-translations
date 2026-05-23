@@ -1,7 +1,337 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: frappe\n"
+"Report-Msgid-Bugs-To: hello@frappe.io\n"
+"POT-Creation-Date: 2026-05-03 10:46+0000\n"
+"PO-Revision-Date: 2026-05-04 05:14\n"
+"Last-Translator: hello@frappe.io\n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: frappe\n"
+"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[frappe.helpdesk] develop/helpdesk/locale/main.pot\n"
+"X-Crowdin-File-ID: 118\n"
 "Language: pt_BR\n"
+
+msgid "Lower the Integer value, higher is the priority of the issue"
+msgstr "Quanto menor o valor inteiro, maior a prioridade do chamado"
+
+msgid "Make Private"
+msgstr "Tornar privado"
+
+msgid "Make Public"
+msgstr "Tornar público"
+
+msgid "Make a Call"
+msgstr "Fazer chamada"
+
+msgid "Make feedback mandatory"
+msgstr "Tornar o feedback obrigatório"
+
+#: desk/src/pages/ticket/Tickets.vue:456
+msgid "Make view private"
+msgstr "Tornar visualização privada"
+
+msgid "Manage general settings of your app."
+msgstr "Gerencie as configurações gerais do aplicativo."
+
+msgid "Manage pre-defined responses that can be used to respond to customer queries."
+msgstr "Gerencie respostas predefinidas que podem ser usadas para responder às dúvidas dos clientes."
+
+#: desk/src/components/Settings/Profile/Profile.vue:128
+msgid "Manage your account emails and email signature for communication."
+msgstr "Gerencie os e-mails da sua conta e a assinatura usada na comunicação."
+
+msgid "Manage your email accounts and configure incoming and outgoing settings."
+msgstr "Gerencie suas contas de e-mail e configure as opções de entrada e saída."
+
+#: desk/src/components/Settings/Profile/UserEmailSettings.vue:40
+msgid "Manage your email signature."
+msgstr "Gerencie sua assinatura de e-mail."
+
+msgid "Manage your profile information."
+msgstr "Gerencie as informações do seu perfil."
+
+msgid "Mark all as read"
+msgstr "Marcar tudo como lido"
+
+msgid "Members"
+msgstr "Membros"
+
+msgid "Members ({0})"
+msgstr "Membros ({0})"
+
+msgid "Members of this team will be able to see the tickets assigned to all the teams"
+msgstr "Os membros desta equipe poderão ver os chamados atribuídos a todas as equipes"
+
+msgid "Members of this team will see the tickets assigned to this team only"
+msgstr "Os membros desta equipe verão apenas os chamados atribuídos a esta equipe"
+
+msgid "Mention"
+msgstr "Menção"
+
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:154
+msgid "Merge"
+msgstr "Mesclar"
+
+msgid "Merge Ticket"
+msgstr "Mesclar chamado"
+
+msgid "Merged With"
+msgstr "Mesclado com"
+
+msgid "Message"
+msgstr "Mensagem"
+
+msgid "Misc"
+msgstr "Diversos"
+
+#. Option for the 'Workday' (Select) field in DocType 'HD Service Day'
+#. Option for the 'Weekly Off' (Select) field in DocType 'HD Service Holiday
+#. List'
+#: helpdesk/helpdesk/doctype/hd_service_day/hd_service_day.json
+#: helpdesk/helpdesk/doctype/hd_service_holiday_list/hd_service_holiday_list.json
+msgid "Monday"
+msgstr "Segunda"
+
+msgid "Monthly"
+msgstr "Mensal"
+
+msgid "Move To"
+msgstr "Mover para"
+
+#: desk/src/pages/dashboard/Dashboard.vue:243
+msgid "My Dashboard"
+msgstr "Meu painel"
+
+msgid "My Team"
+msgstr "Minha equipe"
+
+#: desk/src/pages/home/Home.vue:293
+#: desk/src/pages/home/components/AgentTicketsCard.vue:4
+msgid "My Tickets"
+msgstr "Meus chamados"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Name Weight"
+msgstr "Peso do nome"
+
+msgid "Name shown on the customer portal<br> (e.g., Replied → Awaiting Response)."
+msgstr "Nome exibido no portal do cliente<br> (ex.: Respondido → Aguardando resposta)."
+
+msgid "Navigation"
+msgstr "Navegação"
+
+#: desk/src/pages/home/components/RecentFeedback.vue:308
+#: desk/src/pages/home/components/RecentFeedback.vue:325
+msgid "Negative first"
+msgstr "Negativas primeiro"
+
+msgid "New"
+msgstr "Novo"
+
+msgid "New Article"
+msgstr "Novo artigo"
+
+msgid "New Assignment Rule"
+msgstr "Nova regra de atribuição"
+
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleListItem.vue:59
+msgid "New Assignment Rule Name"
+msgstr "Novo nome da regra de atribuição"
+
+msgid "New Business Holiday"
+msgstr "Novo feriado"
+
+msgid "New Call Log"
+msgstr "Novo registro de chamada"
+
+msgid "New Field Dependency"
+msgstr "Nova dependência de campo"
+
+msgid "New Holiday List Name"
+msgstr "Novo nome da lista de feriados"
+
+msgid "New Password"
+msgstr "Nova senha"
+
+msgid "New SLA Policy"
+msgstr "Nova política de SLA"
+
+msgid "New SLA Policy Name"
+msgstr "Novo nome da política de SLA"
+
+msgid "New Saved Reply"
+msgstr "Nova resposta salva"
+
+msgid "New Saved reply Name"
+msgstr "Novo nome da resposta salva"
+
+msgid "New Subject"
+msgstr "Novo assunto"
+
+msgid "New Team"
+msgstr "Nova equipe"
+
+msgid "New Ticket"
+msgstr "Novo chamado"
+
+msgid "New and old title cannot be same"
+msgstr "O novo e o antigo título não podem ser iguais"
+
+msgid "New team"
+msgstr "Nova equipe"
+
+msgid "New title is required"
+msgstr "O novo título é obrigatório"
+
+#: desk/src/components/Settings/General/General.vue:58
+msgid "New users will have to be manually registered by system managers."
+msgstr "Novos usuários terão que ser registrados manualmente pelos gerentes do sistema."
+
+msgid "Next ticket"
+msgstr "Próximo chamado"
+
+msgid "No Answer"
+msgstr "Sem resposta"
+
+msgid "No Data Found"
+msgstr "Nenhum dado encontrado"
+
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:590
+msgid "No Email Account found for {0}"
+msgstr "Nenhuma conta de e-mail encontrada para {0}"
+
+msgid "No Holiday list found"
+msgstr "Nenhuma lista de feriados encontrada"
+
+msgid "No SLA found"
+msgstr "Nenhum SLA encontrado"
+
+msgid "No Team"
+msgstr "Sem equipe"
+
+#: desk/src/pages/home/components/RecentFeedback.vue:163
+msgid "No additional comments"
+msgstr "Sem comentários adicionais"
+
+msgid "No agent found"
+msgstr "Nenhum agente encontrado"
+
+#: desk/src/components/ticket-agent/AssignTo.vue:122
+msgid "No agents found"
+msgstr "Nenhum agente encontrado"
+
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:421
+msgid "No articles found for the applied filters. Try adjusting or clearing your filters."
+msgstr "Nenhum artigo encontrado para os filtros aplicados. Tente ajustar ou limpar os filtros."
+
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:424
+msgid "No articles found in the following category."
+msgstr "Nenhum artigo encontrado na categoria a seguir."
+
+msgid "No assignment rule found"
+msgstr "Nenhuma regra de atribuição encontrada"
+
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:34
+msgid "No average metrics"
+msgstr "Sem métricas médias"
+
+#: desk/src/components/knowledge-base/CategoryFolderContainer.vue:17
+msgid "No categories available"
+msgstr "Nenhuma categoria disponível"
+
+msgid "No changes made"
+msgstr "Nenhuma alteração feita"
+
+msgid "No changes to save"
+msgstr "Nenhuma alteração para salvar"
+
+#: desk/src/pages/home/Home.vue:88
+msgid "No charts added"
+msgstr "Nenhum gráfico adicionado"
+
+#: desk/src/pages/desk/contact/Contacts.vue:82
+msgid "No contacts found for the applied filters. Try adjusting or clearing your filters."
+msgstr "Nenhum contato encontrado para os filtros aplicados. Tente ajustar ou limpar os filtros."
+
+#: desk/src/pages/desk/customer/Customers.vue:90
+msgid "No customers found for the applied filters. Try adjusting or clearing your filters."
+msgstr "Nenhum cliente encontrado para os filtros aplicados. Tente ajustar ou limpar os filtros."
+
+msgid "No email account found"
+msgstr "Nenhuma conta de e-mail encontrada"
+
+#: desk/src/pages/home/components/RecentFeedback.vue:211
+msgid "No feedback"
+msgstr "Sem feedback"
+
+msgid "No field dependency found"
+msgstr "Nenhuma dependencia de campo encontrada"
+
+msgid "No members found"
+msgstr "Nenhum membro encontrado"
+
+msgid "No new notifications"
+msgstr "Nenhuma notificação nova"
+
+#: desk/src/pages/home/components/PendingTickets.vue:236
+msgid "No new tickets assigned to you in the last 24 hours"
+msgstr "Nenhum novo chamado atribuído a você nas últimas 24 horas"
+
+#: desk/src/components/ticket-agent/TicketNavigation.vue:22
+msgid "No next ticket"
+msgstr "Nenhum próximo chamado"
+
+#: desk/src/components/ticket-agent/AssignTo.vue:33
+msgid "No one"
+msgstr "Ninguém"
+
+#: desk/src/pages/home/components/PendingTickets.vue:239
+msgid "No pending tickets"
+msgstr "Nenhum chamado pendente"
+
+#: desk/src/components/ticket-agent/TicketNavigation.vue:7
+msgid "No previous ticket"
+msgstr "Nenhum chamado anterior"
+
+#: desk/src/pages/home/components/PendingTickets.vue:86
+msgid "No reason"
+msgstr "Sem motivo"
+
+#: desk/src/pages/home/components/PendingTickets.vue:235
+msgid "No recently assigned tickets"
+msgstr "Nenhum chamado atribuído recentemente"
+
+msgid "No results found"
+msgstr "Nenhum resultado encontrado"
+
+#: desk/src/components/SavedRepliesSelectorModal.vue:107
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:95
+msgid "No saved replies found"
+msgstr "Nenhuma resposta salva encontrada"
+
+msgid "No team found"
+msgstr "Nenhuma equipe encontrada"
+
+#: desk/src/pages/ticket/Tickets.vue:163
+msgid "No tickets found"
+msgstr "Nenhum chamado encontrado"
+
+#: desk/src/pages/ticket/Tickets.vue:173
+msgid "No tickets found for the applied filters. Try adjusting or clearing your filters."
+msgstr "Nenhum chamado encontrado para os filtros aplicados. Tente ajustar ou limpar os filtros."
+
+#: desk/src/pages/ticket/Tickets.vue:169
+msgid "No tickets found for this view. Try adjusting your filters or creating a new view."
+msgstr "Nenhum chamado encontrado para esta visualização. Tente ajustar os filtros ou criar uma nova visualização."
 
 msgid "No tickets found to preview."
 msgstr "Nenhum chamado encontrado para pré-visualização."
@@ -9,11 +339,31 @@ msgstr "Nenhum chamado encontrado para pré-visualização."
 msgid "Not Allowed"
 msgstr "Não permitido"
 
+#: desk/src/pages/home/components/PendingTickets.vue:61
+msgid "Not Assigned"
+msgstr "Não atribuído"
+
 msgid "Not Saved"
 msgstr "Não salvo"
 
+#: helpdesk/helpdesk/report/ticket_analytics/ticket_analytics.py:250
+#: helpdesk/helpdesk/report/ticket_summary/ticket_summary.py:270
+#: helpdesk/helpdesk/report/ticket_summary/ticket_summary.py:363
+msgid "Not Specified"
+msgstr "Não especificado"
+
+#. Label of a Link in the Helpdesk Workspace
+#: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
+msgid "Notification Settings"
+msgstr "Configurações de notificação"
+
 msgid "Notifications"
 msgstr "Notificações"
+
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:162
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:243
+msgid "Old Condition"
+msgstr "Condição antiga"
 
 msgid "Old Conditions"
 msgstr "Condições antigas"
@@ -21,17 +371,25 @@ msgstr "Condições antigas"
 msgid "On Hold Since"
 msgstr "Em espera desde"
 
-msgid "On Ticket Status"
-msgstr "No status do chamado"
-
 msgid "On click (Javascript)"
 msgstr "Ao clicar (Javascript)"
+
+#: desk/src/components/Settings/EmailNotifications/ShareFeedback.vue:20
+msgid "On ticket status"
+msgstr "No status do chamado"
 
 msgid "Only one default view is allowed per user for {0}"
 msgstr "Apenas uma visualização padrão é permitida por usuário para {0}"
 
 msgid "Only the 'color' and 'order' fields of the 'Closed' status can be modified."
 msgstr "Apenas os campos 'color' e 'order' do status 'Closed' podem ser modificados."
+
+#. Option for the 'Category' (Select) field in DocType 'HD Ticket Status'
+#. Option in a Select field in the tickets Web Form
+#: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.json
+#: helpdesk/helpdesk/web_form/tickets/tickets.json
+msgid "Open"
+msgstr "Aberto"
 
 msgid "Open command palette"
 msgstr "Abrir paleta de comandos"
@@ -64,8 +422,23 @@ msgstr "Data de abertura"
 msgid "Opening Time"
 msgstr "Hora de abertura"
 
+#. Option for the 'Color' (Select) field in DocType 'HD Ticket Status'
+#: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.json
+msgid "Orange"
+msgstr "Laranja"
+
 msgid "Order"
 msgstr "Ordem"
+
+#. Label of the order_by_tab (Tab Break) field in DocType 'HD View'
+#. Label of the order_by (Code) field in DocType 'HD View'
+#: helpdesk/helpdesk/doctype/hd_view/hd_view.json
+msgid "Order By"
+msgstr "Ordenar Por"
+
+#: desk/src/pages/dashboard/Dashboard.vue:243
+msgid "Organization Dashboard"
+msgstr "Painel da organização"
 
 msgid "Other"
 msgstr "Outro"
@@ -79,6 +452,18 @@ msgstr "Saída"
 msgid "Outside working hours notice"
 msgstr "Aviso fora do horário de atendimento"
 
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:113
+msgid "Owner"
+msgstr "Proprietário"
+
+#: desk/src/pages/InvalidPage.vue:11
+msgid "Page not found"
+msgstr "Página não encontrada"
+
+#: desk/src/components/Settings/FieldDependency/FieldDependencyFieldsSelection.vue:5
+msgid "Parent field"
+msgstr "Campo pai"
+
 msgid "Parent field, child field, and parent-child mapping are required."
 msgstr "Campo pai, campo filho e mapeamento pai-filho são obrigatórios."
 
@@ -91,8 +476,9 @@ msgstr "A senha deve ter pelo menos 8 caracteres"
 msgid "Password must contain lowercase, uppercase, number, and symbol"
 msgstr "A senha deve conter letra minúscula, maiúscula, número e símbolo"
 
-msgid "Password updated successfully"
-msgstr "Senha atualizada com sucesso"
+#: desk/src/components/Settings/Profile/components/ChangePasswordModal.vue:87
+msgid "Password updated successfully."
+msgstr "Senha atualizada com sucesso."
 
 msgid "Passwords do not match"
 msgstr "As senhas não coincidem"
@@ -103,19 +489,33 @@ msgstr "As senhas coincidem"
 msgid "Paused"
 msgstr "Pausado"
 
+#: desk/src/pages/home/components/PendingTickets.vue:200
+msgid "Pending"
+msgstr "Pendente"
+
 msgid "Pending Invites"
 msgstr "Convites pendentes"
 
-msgid "Percentage of Total Tickets by Channel"
+#: desk/src/pages/home/Home.vue:353
+#: desk/src/pages/home/components/PendingTickets.vue:212
+#: desk/src/pages/home/components/PendingTickets.vue:216
+msgid "Pending Tickets"
+msgstr "Chamados pendentes"
+
+#: helpdesk/api/dashboard.py:554
+msgid "Percentage of total tickets by channel"
 msgstr "Percentual do total de chamados por canal"
 
-msgid "Percentage of Total Tickets by Priority"
+#: helpdesk/api/dashboard.py:514
+msgid "Percentage of total tickets by priority"
 msgstr "Percentual do total de chamados por prioridade"
 
-msgid "Percentage of Total Tickets by Team"
+#: helpdesk/api/dashboard.py:448
+msgid "Percentage of total tickets by team"
 msgstr "Percentual do total de chamados por equipe"
 
-msgid "Percentage of Total Tickets by Type"
+#: helpdesk/api/dashboard.py:481
+msgid "Percentage of total tickets by type"
 msgstr "Percentual do total de chamados por tipo"
 
 msgid "Period"
@@ -127,6 +527,11 @@ msgstr "Pessoal"
 msgid "Personal mobile no"
 msgstr "Celular pessoal"
 
+#: desk/src/components/desk/global/NewContactDialog.vue:133
+#: desk/src/components/ticket/SetContactPhoneModal.vue:27
+msgid "Phone"
+msgstr "Telefone"
+
 msgid "Phone Nos"
 msgstr "Números de telefone"
 
@@ -136,272 +541,7 @@ msgstr "Escolha uma opção"
 msgid "Pin View"
 msgstr "Fixar visualização"
 
-msgid "Pinned"
-msgstr "Fixado"
-
-msgid "Placeholder"
-msgstr "Texto de exemplo"
-
-msgid "Please add this priority in the <a href='/app/hd-service-level-agreement'>required SLA documents</a>"
-msgstr "Adicione esta prioridade aos <a href='/app/hd-service-level-agreement'>SLAs obrigatórios</a>"
-
-msgid "Please add {0} priority in {1} SLA"
-msgstr "Adicione a prioridade {0} no SLA {1}"
-
-msgid "Please enter a subject to continue"
-msgstr "Digite um assunto para continuar"
-
-msgid "Please enter a valid phone number"
-msgstr "Digite um número de telefone válido"
-
-msgid "Please enter first name at least"
-msgstr "Digite pelo menos o primeiro nome"
-
-msgid "Please fill all required fields"
-msgstr "Preencha todos os campos obrigatórios"
-
-msgid "Please fill all required fields for Exotel"
-msgstr "Preencha todos os campos obrigatórios do Exotel"
-
-msgid "Please fill all required fields for Twilio"
-msgstr "Preencha todos os campos obrigatórios do Twilio"
-
-msgid "Please fill all the required fields"
-msgstr "Preencha todos os campos obrigatórios"
-
-msgid "Please provide saved_reply_id"
-msgstr "Informe saved_reply_id"
-
-msgid "Please select weekly off day"
-msgstr "Selecione o dia de folga semanal"
-
-msgid "Policy Name"
-msgstr "Nome da política"
-
-msgid "Post Description Key"
-msgstr "Chave da descrição da postagem"
-
-msgid "Post Route Key List"
-msgstr "Lista de chaves da rota da postagem"
-
-msgid "Post Route String"
-msgstr "String da rota da postagem"
-
-msgid "Post Title Key"
-msgstr "Chave do título da postagem"
-
-msgid "Prefer knowledge base"
-msgstr "Preferir base de conhecimento"
-
-msgid "Presets"
-msgstr "Predefinições"
-
-msgid "Press enter to search"
-msgstr "Pressione Enter para pesquisar"
-
-msgid "Preview"
-msgstr "Pre-visualização"
-
-msgid "Previous ticket"
-msgstr "Chamado anterior"
-
-msgid "Priority"
-msgstr "Prioridade"
-
-msgid "Priority <u>{0}</u> must be included in the SLA {1}."
-msgstr "A prioridade <u>{0}</u> deve ser incluida no SLA {1}."
-
-msgid "Private Views"
-msgstr "Visualizações privadas"
-
-msgid "Product Experts"
-msgstr "Especialistas do produto"
-
-msgid "Product experts"
-msgstr "Especialistas do produto"
-
-msgid "Profile"
-msgstr "Perfil"
-
-msgid "Profile updated"
-msgstr "Perfil atualizado"
-
-msgid "Public"
-msgstr "Público"
-
-msgid "Public Views"
-msgstr "Visualizações públicas"
-
-msgid "Publish"
-msgstr "Publicar"
-
-msgid "Published"
-msgstr "Publicado"
-
-msgid "Published articles must have content."
-msgstr "Artigos publicados devem ter conteúdo."
-
-msgid "Pull Emails"
-msgstr "Buscar e-mails"
-
-msgid "Pulling emails, this may take a few minutes."
-msgstr "Buscando e-mails. Isso pode levar alguns minutos."
-
-msgid "Quarterly"
-msgstr "Trimestral"
-
-msgid "Query Options"
-msgstr "Opções de consulta"
-
-msgid "Query Route String"
-msgstr "String da rota da consulta"
-
-msgid "Queued"
-msgstr "Na fila"
-
-msgid "Raised By (Email)"
-msgstr "Aberto por (e-mail)"
-
-msgid "Range"
-msgstr "Intervalo"
-
-msgid "Rate Your Support Experience"
-msgstr "Avalie sua experiência com o suporte"
-
-msgid "Rate this ticket"
-msgstr "Avalie este chamado"
-
-msgid "Rated Tickets"
-msgstr "Chamados avaliados"
-
-msgid "Rating must be between 0.2 and 1.0"
-msgstr "A avaliação deve estar entre 0.2 e 1.0"
-
-msgid "Rating {0} is not allowed"
-msgstr "A avaliação {0} não é permitida"
-
-msgid "Reaction"
-msgstr "Reação"
-
-msgid "Reactions"
-msgstr "Reações"
-
-msgid "Read"
-msgstr "Lido"
-
-msgid "Record Calls"
-msgstr "Gravar chamadas"
-
-msgid "Recurring holidays"
-msgstr "Feriados recorrentes"
-
-msgid "Red"
-msgstr "Vermelho"
-
-msgid "Reference"
-msgstr "Referência"
-
-msgid "Reference Ticket"
-msgstr "Chamado de referência"
-
-msgid "Refresh Apps"
-msgstr "Atualizar aplicativos"
-
-msgid "Regenerate Search Index"
-msgstr "Regenerar índice de pesquisa"
-
-msgid "Remove"
-msgstr "Remover"
-
-msgid "Remove Logo"
-msgstr "Remover logotipo"
-
-msgid "Remove image"
-msgstr "Remover imagem"
-
-msgid "Remove photo"
-msgstr "Remover foto"
-
-msgid "Rename"
-msgstr "Renomear"
-
-msgid "Rename team"
-msgstr "Renomear equipe"
-
-msgid "Reply From Agent"
-msgstr "Resposta do agente"
-
-msgid "Reply From Contact"
-msgstr "Resposta do contato"
-
-msgid "Reply from agent"
-msgstr "Resposta do agente"
-
-msgid "Reply from contact"
-msgstr "Resposta do contato"
-
-msgid "Reply on a ticket"
-msgstr "Responder em um chamado"
-
-msgid "Request Key"
-msgstr "Chave da solicitação"
-
-msgid "Required"
-msgstr "Obrigatório"
-
-msgid "Required for exotel integration"
-msgstr "Obrigatório para a integração com Exotel"
-
-msgid "Reset"
-msgstr "Redefinir"
-
-msgid "Reset Content"
-msgstr "Redefinir conteúdo"
-
-msgid "Reset content"
-msgstr "Redefinir conteúdo"
-
-msgid "Resolution"
-msgstr "Resolução"
-
-msgid "Resolution By"
-msgstr "Resolver até"
-
-msgid "Resolution Date"
-msgstr "Data de resolução"
-
-msgid "Resolution Details"
-msgstr "Detalhes da resolução"
-
-msgid "Resolution Due"
-msgstr "Prazo de resolução"
-
-msgid "Resolution Time"
-msgstr "Tempo de resolução"
-
-msgid "Response"
-msgstr "Resposta"
-
-msgid "Response By"
-msgstr "Responder até"
-
-msgid "Response Options"
-msgstr "Opções de resposta"
-
-msgid "Response Result Key Path"
-msgstr "Caminho da chave do resultado da resposta"
-
-msgid "Response and Resolution"
-msgstr "Resposta e resolução"
-
-msgid "Response and resolution"
-msgstr "Resposta e resolução"
-
-msgid "Response is required"
-msgstr "A resposta é obrigatória"
-
-msgid "Restrict agent assignment to selected Team"
-msgstr "Restringir a atribuição de agentes à equipe selecionada"
-
-msgid "Restrict agent assignment to selected team"
-msgstr "Restringir a atribuição de agentes à equipe selecionada"
+#. Option for the 'Color' (Select) field in DocType 'HD Ticket Status'
+#: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.json
+msgid "Pink"
+msgstr "Rosa"

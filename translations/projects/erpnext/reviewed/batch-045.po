@@ -36,7 +36,7 @@ msgstr "Linha #{}: use um Livro Financeiro diferente."
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:523
 msgid "Row #{}: Serial No {} cannot be returned since it was not transacted in original invoice {}"
-msgstr "Linha #{}: o no de série {} não pode ser devolvido, pois não foi movimentado na fatura original {}"
+msgstr "Linha #{}: o nº de série {} não pode ser devolvido, pois não foi movimentado na fatura original {}"
 
 #: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:103
 msgid "Row #{}: The original Invoice {} of return invoice {} is not consolidated."
@@ -61,11 +61,11 @@ msgstr "Linha #{}: {} {} não existe."
 
 #: erpnext/stock/doctype/item/item.py:1401
 msgid "Row #{}: {} {} doesn't belong to Company {}. Please select valid {}."
-msgstr "Linha #{}: {} {} não pertence a Empresa {}. Selecione um(a) {} válido(a)."
+msgstr "Linha #{}: {} {} não pertence à empresa {}. Selecione um(a) {} válido(a)."
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:442
 msgid "Row No {0}: Warehouse is required. Please set a Default Warehouse for Item {1} and Company {2}"
-msgstr "Linha {0}: o armazém é obrigatório. Defina um Armazém Padrão para o item {1} e a Empresa {2}"
+msgstr "Linha {0}: o armazém é obrigatório. Defina um armazém padrão para o item {1} e a empresa {2}"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:687
 msgid "Row {0} : Operation is required against the raw material item {1}"
@@ -73,7 +73,7 @@ msgstr "Linha {0}: a operação é obrigatória para o item de matéria-prima {1
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:228
 msgid "Row {0} picked quantity is less than the required quantity, additional {1} {2} required."
-msgstr "A quantidade separada na linha {0} e menor que a quantidade exigida; faltam mais {1} {2}."
+msgstr "A quantidade separada na linha {0} é menor que a quantidade exigida; faltam {1} {2}."
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1459
 msgid "Row {0}# Item {1} cannot be transferred more than {2} against {3} {4}"
@@ -81,7 +81,7 @@ msgstr "Linha {0}# O item {1} não pode ser transferido em quantidade maior que 
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1483
 msgid "Row {0}# Item {1} not found in 'Raw Materials Supplied' table in {2} {3}"
-msgstr "Linha {0}# Item {1} não encontrado na tabela 'Materias-primas fornecidas' em {2} {3}"
+msgstr "Linha {0}# Item {1} não encontrado na tabela 'Matérias-primas fornecidas' em {2} {3}"
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:273
 msgid "Row {0}: Accepted Qty and Rejected Qty can't be zero at the same time."
@@ -97,11 +97,11 @@ msgstr "Linha {0}: o tipo de atividade é obrigatório."
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:646
 msgid "Row {0}: Advance against Customer must be credit"
-msgstr "Linha {0}: adiantamento para Cliente deve ser crédito"
+msgstr "Linha {0}: adiantamento para cliente deve ser crédito"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:648
 msgid "Row {0}: Advance against Supplier must be debit"
-msgstr "Linha {0}: adiantamento para Fornecedor deve ser débito"
+msgstr "Linha {0}: adiantamento para fornecedor deve ser débito"
 
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.py:705
 msgid "Row {0}: Allocated amount {1} must be less than or equal to invoice outstanding amount {2}"
@@ -130,11 +130,11 @@ msgstr "Linha {0}: a qtd. consumida {1} {2} deve ser menor ou igual a qtd. dispo
 
 #: erpnext/controllers/selling_controller.py:288
 msgid "Row {0}: Conversion Factor is mandatory"
-msgstr "Linha {0}: Fator de Conversão é obrigatório"
+msgstr "Linha {0}: o fator de conversão é obrigatório"
 
 #: erpnext/controllers/accounts_controller.py:3221
 msgid "Row {0}: Cost Center {1} does not belong to Company {2}"
-msgstr "Linha {0}: o Centro de Custo {1} não pertence a Empresa {2}"
+msgstr "Linha {0}: o centro de custo {1} não pertence à empresa {2}"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:152
 msgid "Row {0}: Cost center is required for an item {1}"
@@ -142,7 +142,7 @@ msgstr "Linha {0}: o centro de custo é obrigatório para o item {1}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:745
 msgid "Row {0}: Credit entry can not be linked with a {1}"
-msgstr "Linha {0}: Lançamento de crédito não pode ser relacionado a uma {1}"
+msgstr "Linha {0}: o lançamento de crédito não pode ser vinculado a {1}"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:487
 msgid "Row {0}: Currency of the BOM #{1} should be equal to the selected currency {2}"
@@ -150,19 +150,19 @@ msgstr "Linha {0}: a moeda da BOM #{1} deve ser igual a moeda selecionada {2}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:740
 msgid "Row {0}: Debit entry can not be linked with a {1}"
-msgstr "Linha {0}: Lançamento de débito não pode ser relacionado a uma {1}"
+msgstr "Linha {0}: o lançamento de débito não pode ser vinculado a {1}"
 
 #: erpnext/controllers/selling_controller.py:859
 msgid "Row {0}: Delivery Warehouse ({1}) and Customer Warehouse ({2}) can not be same"
-msgstr "Linha {0}: o Armazém de Entrega ({1}) e o Armazém do Cliente ({2}) não podem ser o mesmo"
+msgstr "Linha {0}: o armazém de entrega ({1}) e o armazém do cliente ({2}) não podem ser o mesmo"
 
 #: erpnext/controllers/subcontracting_controller.py:158
 msgid "Row {0}: Delivery Warehouse cannot be same as Customer Warehouse for Item {1}."
-msgstr "Linha {0}: o Armazém de Entrega não pode ser o mesmo que o Armazém do Cliente para o item {1}."
+msgstr "Linha {0}: o armazém de entrega não pode ser o mesmo que o armazém do cliente para o item {1}."
 
 #: erpnext/controllers/accounts_controller.py:2714
 msgid "Row {0}: Due Date in the Payment Terms table cannot be before Posting Date"
-msgstr "Linha {0}: a data de vencimento na tabela Condicoes de Pagamento não pode ser anterior a data de lançamento"
+msgstr "Linha {0}: a data de vencimento na tabela Condições de Pagamento não pode ser anterior à data de lançamento"
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:128
 msgid "Row {0}: Either Delivery Note Item or Packed Item reference is mandatory."
@@ -171,7 +171,7 @@ msgstr "Linha {0}: a referência do item da Nota de Entrega ou do Item Embalado 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:990
 #: erpnext/controllers/taxes_and_totals.py:1349
 msgid "Row {0}: Exchange Rate is mandatory"
-msgstr "Linha {0}: Taxa de Câmbio é obrigatória"
+msgstr "Linha {0}: a taxa de câmbio é obrigatória"
 
 #: erpnext/assets/doctype/asset/asset.py:602
 msgid "Row {0}: Expected Value After Useful Life must be less than Net Purchase Amount"
@@ -187,24 +187,24 @@ msgstr "Linha {0}: a Conta de Despesa foi alterada para {1} porque a conta {2} n
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:514
 msgid "Row {0}: Expense Head changed to {1} because expense is booked against this account in Purchase Receipt {2}"
-msgstr "Linha {0}: a Conta de Despesa foi alterada para {1} porque a despesa foi lancada nessa conta no Recebimento de Compra {2}"
+msgstr "Linha {0}: a conta de despesa foi alterada para {1} porque a despesa foi lançada nessa conta no recebimento de compra {2}"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:127
 msgid "Row {0}: For Supplier {1}, Email Address is Required to send an email"
-msgstr "Linha {0}: para o Fornecedor {1}, o endereço de e-mail é obrigatório para enviar um e-mail"
+msgstr "Linha {0}: para o fornecedor {1}, o endereço de e-mail é obrigatório para enviar um e-mail"
 
 #: erpnext/projects/doctype/timesheet/timesheet.py:148
 msgid "Row {0}: From Time and To Time is mandatory."
-msgstr "Linha {0}: Hora Inicial e Hora Final são obrigatórias."
+msgstr "Linha {0}: hora inicial e hora final são obrigatórias."
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:259
 #: erpnext/projects/doctype/timesheet/timesheet.py:212
 msgid "Row {0}: From Time and To Time of {1} is overlapping with {2}"
-msgstr "Linha {0}: Hora Inicial e Hora Final de {1} se sobrepoem a {2}"
+msgstr "Linha {0}: hora inicial e hora final de {1} se sobrepõem a {2}"
 
 #: erpnext/controllers/stock_controller.py:1502
 msgid "Row {0}: From Warehouse is mandatory for internal transfers"
-msgstr "Linha {0}: o Armazém de Origem é obrigatório para transferências internas"
+msgstr "Linha {0}: o armazém de origem é obrigatório para transferências internas"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:250
 msgid "Row {0}: From time must be less than to time"
@@ -252,7 +252,7 @@ msgstr "Linha {0}: Cadastro / Conta não coincidem com {1} / {2} em {3} {4}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:569
 msgid "Row {0}: Party Type and Party is required for Receivable / Payable account {1}"
-msgstr "Linha {0}: Tipo de cadastro e Cadastro são obrigatórios para a conta a Receber / a Pagar {1}"
+msgstr "Linha {0}: tipo de cadastro e cadastro são obrigatórios para a conta a receber / a pagar {1}"
 
 #: erpnext/accounts/doctype/payment_terms_template/payment_terms_template.py:45
 msgid "Row {0}: Payment Term is mandatory"
@@ -264,7 +264,7 @@ msgstr "Linha {0}: o pagamento relacionado a Pedidos de Compra/Venda deve ser se
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:632
 msgid "Row {0}: Please check 'Is Advance' against Account {1} if this is an advance entry."
-msgstr "Linha {0}: marque 'E Adiantamento' na conta {1} se este for um lançamento de adiantamento."
+msgstr "Linha {0}: marque 'É adiantamento' na conta {1} se este for um lançamento de adiantamento."
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:141
 msgid "Row {0}: Please provide a valid Delivery Note Item or Packed Item reference."
@@ -284,7 +284,7 @@ msgstr "Linha {0}: selecione uma BOM válida para o item {1}."
 
 #: erpnext/regional/italy/utils.py:283
 msgid "Row {0}: Please set at Tax Exemption Reason in Sales Taxes and Charges"
-msgstr "Linha {0}: defina um motivo de isencao fiscal em Impostos e Taxas sobre Vendas"
+msgstr "Linha {0}: defina um motivo de isenção fiscal em Impostos e Taxas sobre Vendas"
 
 #: erpnext/regional/italy/utils.py:310
 msgid "Row {0}: Please set the Mode of Payment in Payment Schedule"
@@ -332,7 +332,7 @@ msgstr "Linha {0}: o item subcontratado é obrigatório para a matéria-prima {1
 
 #: erpnext/controllers/stock_controller.py:1493
 msgid "Row {0}: Target Warehouse is mandatory for internal transfers"
-msgstr "Linha {0}: o Armazém de Destino é obrigatório para transferências internas"
+msgstr "Linha {0}: o armazém de destino é obrigatório para transferências internas"
 
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.py:125
 msgid "Row {0}: Task {1} does not belong to Project {2}"
@@ -397,7 +397,7 @@ msgstr "Linha {1}: a Quantidade ({0}) não pode ser fracionada. Para permitir is
 
 #: erpnext/controllers/buying_controller.py:1032
 msgid "Row {idx}: Asset Naming Series is mandatory for the auto creation of assets for item {item_code}."
-msgstr "Linha {idx}: a Serie de Nomenclatura do Ativo é obrigatória para a criação automática de ativos do item {item_code}."
+msgstr "Linha {idx}: a série de nomenclatura do ativo é obrigatória para a criação automática de ativos do item {item_code}."
 
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.py:84
 msgid "Row({0}): Outstanding Amount cannot be greater than actual Outstanding Amount {1} in {2}"
@@ -427,7 +427,7 @@ msgstr "Foram encontradas linhas com datas de vencimento duplicadas em outras li
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.js:128
 msgid "Rows: {0} have 'Payment Entry' as reference_type. This should not be set manually."
-msgstr "As linhas {0} tem 'Lançamento de Pagamento' como reference_type. Isso não deve ser definido manualmente."
+msgstr "As linhas {0} têm 'Lançamento de Pagamento' como reference_type. Isso não deve ser definido manualmente."
 
 #: erpnext/controllers/accounts_controller.py:281
 msgid "Rows: {0} in {1} section are Invalid. Reference Name should point to a valid Payment Entry or Journal Entry."
@@ -621,18 +621,18 @@ msgstr "Conta de Vendas"
 #: erpnext/selling/report/sales_analytics/sales_analytics.json
 #: erpnext/selling/workspace/selling/selling.json
 msgid "Sales Analytics"
-msgstr "Analise de Vendas"
+msgstr "Análise de Vendas"
 
 #. Label of the sales_team (Table) field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Sales Contributions and Incentives"
-msgstr "Contribuicoes e incentivos de vendas"
+msgstr "Contribuições e incentivos de vendas"
 
 #. Label of the selling_defaults (Section Break) field in DocType 'Item
 #. Default'
 #: erpnext/stock/doctype/item_default/item_default.json
 msgid "Sales Defaults"
-msgstr "Padroes de vendas"
+msgstr "Padrões de vendas"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:126
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:212
@@ -647,12 +647,12 @@ msgstr "Despesas com Vendas"
 #: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "Sales Forecast"
-msgstr "Previsao de Vendas"
+msgstr "Previsão de Vendas"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/sales_forecast_item/sales_forecast_item.json
 msgid "Sales Forecast Item"
-msgstr "Item da Previsao de Vendas"
+msgstr "Item da Previsão de Vendas"
 
 #. Label of a Link in the CRM Workspace
 #. Label of a Link in the Selling Workspace
@@ -737,7 +737,7 @@ msgstr "Item da Fatura de Venda"
 #. Label of the sales_invoice_no (Link) field in DocType 'Stock Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Sales Invoice No"
-msgstr "No da Fatura de Venda"
+msgstr "Nº da Fatura de Venda"
 
 #. Label of the payments (Table) field in DocType 'POS Invoice'
 #. Label of the payments (Table) field in DocType 'Sales Invoice'
@@ -770,7 +770,7 @@ msgstr "Transações da Fatura de Venda"
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json
 #: erpnext/selling/workspace/selling/selling.json
 msgid "Sales Invoice Trends"
-msgstr "Tendencia de Faturamento de Vendas"
+msgstr "Tendência de Faturamento de Vendas"
 
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:182
 msgid "Sales Invoice does not have Payments"

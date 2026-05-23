@@ -22,13 +22,13 @@ msgstr ""
 #. in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allow Sales Order Creation For Expired Quotation"
-msgstr "Permitir criar Pedido de Venda para Cotação expirada"
+msgstr "Permitir criar pedido de venda para orçamento expirado"
 
 #. Label of the allow_zero_qty_in_sales_order (Check) field in DocType 'Selling
 #. Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allow Sales Order with Zero Quantity"
-msgstr "Permitir Pedido de Venda com quantidade zero"
+msgstr "Permitir pedido de venda com quantidade zero"
 
 #. Label of the allow_stale (Check) field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
@@ -39,7 +39,7 @@ msgstr "Permitir taxas de câmbio desatualizadas"
 #. 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Allow Supplier Quotation with Zero Quantity"
-msgstr "Permitir Cotação de Fornecedor com quantidade zero"
+msgstr "Permitir cotação de fornecedor com quantidade zero"
 
 #. Label of the allow_uom_with_conversion_rate_defined_in_item (Check) field in
 #. DocType 'Stock Settings'
@@ -109,13 +109,13 @@ msgstr "Permitir fabricar/receber novamente um No. de Série existente"
 #. DocType 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Allow material consumptions without immediately manufacturing finished goods against a Work Order"
-msgstr "Permitir consumo de materiais sem fabricar imediatamente os produtos acabados para uma Ordem de Producao"
+msgstr "Permitir consumo de materiais sem fabricar imediatamente produtos acabados para uma Ordem de Trabalho"
 
 #. Label of the allow_multi_currency_invoices_against_single_party_account
 #. (Check) field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Allow multi-currency invoices against single party account "
-msgstr "Permitir faturas em varias moedas para uma unica conta da parte "
+msgstr "Permitir faturas em várias moedas para uma única conta do cadastro "
 
 #. Label of the allow_to_edit_stock_uom_qty_for_purchase (Check) field in
 #. DocType 'Stock Settings'
@@ -133,7 +133,7 @@ msgstr "Permitir editar a qtd. da UM de estoque em documentos de venda"
 #. (Check) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Allow to Make Quality Inspection after Purchase / Delivery"
-msgstr "Permitir fazer Inspeção de Qualidade após compra / entrega"
+msgstr "Permitir fazer inspeção de qualidade após compra / entrega"
 
 #. Description of the 'Allow Excess Material Transfer' (Check) field in DocType
 #. 'Manufacturing Settings'
@@ -176,37 +176,37 @@ msgstr "Os papéis principais permitidos são 'Cliente' e 'Fornecedor'. Selecion
 #. 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Allows to keep aside a specific quantity of inventory for a particular order."
-msgstr "Permite reservar uma quantidade especifica do estoque para um pedido especifico."
+msgstr "Permite reservar uma quantidade específica do estoque para um pedido específico."
 
 #. Description of the 'Allow Purchase Order with Zero Quantity' (Check) field
 #. in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Allows users to submit Purchase Orders with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar Pedidos de Compra com quantidade zero. Útil quando as taxas são fixas, mas as quantidades não. Ex.: contratos de preço."
+msgstr "Permite enviar pedidos de compra com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
 
 #. Description of the 'Allow Quotation with Zero Quantity' (Check) field in
 #. DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allows users to submit Quotations with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar Cotações com quantidade zero. Útil quando as taxas são fixas, mas as quantidades não. Ex.: contratos de preço."
+msgstr "Permite enviar orçamentos com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
 
 #. Description of the 'Allow Request for Quotation with Zero Quantity' (Check)
 #. field in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Allows users to submit Request for Quotations with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar Solicitações de Cotação com quantidade zero. Útil quando as taxas são fixas, mas as quantidades não. Ex.: contratos de preço."
+msgstr "Permite enviar solicitações de cotação com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
 
 #. Description of the 'Allow Sales Order with Zero Quantity' (Check) field in
 #. DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allows users to submit Sales Orders with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar Pedidos de Venda com quantidade zero. Útil quando as taxas são fixas, mas as quantidades não. Ex.: contratos de preço."
+msgstr "Permite enviar pedidos de venda com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
 
 #. Description of the 'Allow Supplier Quotation with Zero Quantity' (Check)
 #. field in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Allows users to submit Supplier Quotations with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar Cotações de Fornecedor com quantidade zero. Útil quando as taxas são fixas, mas as quantidades não. Ex.: contratos de preço."
+msgstr "Permite enviar cotações de fornecedor com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:1024
 msgid "Already Picked"
@@ -222,7 +222,7 @@ msgstr "Já existe padrão definido no perfil de PDV {0} para o usuário {1}; de
 
 #: erpnext/stock/doctype/item/item.js:20
 msgid "Also you can't switch back to FIFO after setting the valuation method to Moving Average for this item."
-msgstr "Tambem não é possível voltar para FIFO depois de definir o metodo de avaliação como Media Movel para este item."
+msgstr "Também não é possível voltar para FIFO depois de definir o método de avaliação como média móvel para este item."
 
 #: erpnext/manufacturing/doctype/bom/bom.js:222
 #: erpnext/manufacturing/doctype/work_order/work_order.js:165
@@ -254,7 +254,7 @@ msgstr "O item alternativo não pode ser o mesmo código do item"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:378
 msgid "Alternatively, you can download the template and fill your data in."
-msgstr "Ou você pode baixar o modelo é preencher com seus dados."
+msgstr "Como alternativa, você pode baixar o modelo e preenchê-lo com seus dados."
 
 #. Option for the 'Action on New Invoice' (Select) field in DocType 'POS
 #. Profile'
@@ -515,13 +515,13 @@ msgstr "Valor entregue"
 #. Reconciliation Item'
 #: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
 msgid "Amount Difference"
-msgstr "Diferenca de valor"
+msgstr "Diferença de valor"
 
 #. Label of the amount_difference_with_purchase_invoice (Currency) field in
 #. DocType 'Purchase Receipt Item'
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Amount Difference with Purchase Invoice"
-msgstr "Diferenca de valor com a Fatura de Compra"
+msgstr "Diferença de valor com a fatura de compra"
 
 #. Label of the amount_eligible_for_commission (Currency) field in DocType 'POS
 #. Invoice'
@@ -619,7 +619,7 @@ msgstr ""
 #: erpnext/controllers/trends.py:269 erpnext/controllers/trends.py:281
 #: erpnext/controllers/trends.py:290
 msgid "Amt"
-msgstr "Total"
+msgstr "Valor"
 
 #. Description of a DocType
 #: erpnext/setup/doctype/item_group/item_group.json
@@ -628,7 +628,7 @@ msgstr "Um Grupo de Itens é uma forma de classificar itens por tipo."
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:520
 msgid "An error has been appeared while reposting item valuation via {0}"
-msgstr "Ocorreu um erro ao relancar a avaliação do item via {0}"
+msgstr "Ocorreu um erro ao reprocessar a avaliação do item via {0}"
 
 #: erpnext/public/js/controllers/buying.js:380
 #: erpnext/public/js/utils/sales_common.js:489
@@ -637,11 +637,11 @@ msgstr "Ocorreu um erro durante o processo de atualização"
 
 #: erpnext/stock/reorder_item.py:386
 msgid "An error occurred for certain Items while creating Material Requests based on Re-order level. Please rectify these issues :"
-msgstr "Ocorreu um erro para alguns itens ao criar Solicitações de Material com base no nivel de reposicao. Corrijá estes problemas:"
+msgstr "Ocorreu um erro para alguns itens ao criar solicitações de material com base no nível de reposição. Corrija estes problemas:"
 
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.html:124
 msgid "Analysis Chart"
-msgstr "Grafico de analise"
+msgstr "Gráfico de análise"
 
 #: erpnext/setup/setup_wizard/data/designation.txt:4
 msgid "Analyst"
@@ -653,11 +653,11 @@ msgstr "Faturamento anual: {0}"
 
 #: erpnext/controllers/budget_controller.py:449
 msgid "Annual Budget for Account {0} against {1} {2} is {3}. It will be collectively ({4}) exceeded by {5}"
-msgstr "O orcamento anual da conta {0} para {1} {2} é {3}. Ele será excedido coletivamente ({4}) em {5}"
+msgstr "O orçamento anual da conta {0} para {1} {2} é {3}. Ele será excedido no total ({4}) em {5}"
 
 #: erpnext/controllers/budget_controller.py:314
 msgid "Annual Budget for Account {0} against {1}: {2} is {3}. It will be exceeded by {4}"
-msgstr "O orcamento anual da conta {0} para {1}: {2} é {3}. Ele será excedido em {4}"
+msgstr "O orçamento anual da conta {0} para {1}: {2} é {3}. Ele será excedido em {4}"
 
 #. Label of the expense_year_to_date (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
