@@ -22,7 +22,7 @@ msgstr ""
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
 msgid "Eg. smsgateway.com/api/send_sms.cgi"
-msgstr ""
+msgstr "Ex.: smsgateway.com/api/send_sms.cgi"
 
 #: frappe/rate_limiter.py:152
 msgid "Either key or IP flag is required."
@@ -141,7 +141,7 @@ msgstr "Domínio de e-mail"
 #. Name of a DocType
 #: frappe/email/doctype/email_flag_queue/email_flag_queue.json
 msgid "Email Flag Queue"
-msgstr ""
+msgstr "Fila de sinalização de e-mail"
 
 #. Label of the email_footer_address (Small Text) field in DocType 'System
 #. Settings'
@@ -200,7 +200,7 @@ msgstr "Fila de e-mail"
 #. Name of a DocType
 #: frappe/email/doctype/email_queue_recipient/email_queue_recipient.json
 msgid "Email Queue Recipient"
-msgstr ""
+msgstr "Destinatário da fila de e-mail"
 
 #: frappe/email/queue.py:161
 msgid "Email Queue flushing aborted due to too many failures."
@@ -282,7 +282,7 @@ msgstr "E-mail para"
 #. Name of a DocType
 #: frappe/email/doctype/email_unsubscribe/email_unsubscribe.json
 msgid "Email Unsubscribe"
-msgstr ""
+msgstr "Cancelamento de e-mail"
 
 #: frappe/core/doctype/communication/communication.js:342
 msgid "Email has been marked as spam"
@@ -564,14 +564,14 @@ msgstr "Ativa as visualizações Calendário e Gantt."
 
 #: frappe/email/doctype/email_account/email_account.js:295
 msgid "Enabling auto reply on an incoming email account will send automated replies to all the synchronized emails. Do you wish to continue?"
-msgstr ""
+msgstr "Ativar a resposta automática em uma conta de e-mail de entrada enviará respostas automáticas para todos os e-mails sincronizados. Deseja continuar?"
 
 #. Description of a DocType
 #. Description of the 'Relay Settings' (Section Break) field in DocType 'Push
 #. Notification Settings'
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.json
 msgid "Enabling this will register your site on a central relay server to send push notifications for all installed apps through Firebase Cloud Messaging. This server only stores user tokens and error logs, and no messages are saved."
-msgstr ""
+msgstr "Ao ativar isso, seu site será registrado em um servidor central de retransmissão para enviar notificações push de todos os aplicativos instalados por meio do Firebase Cloud Messaging. Esse servidor armazena apenas tokens de usuário e logs de erro, e nenhuma mensagem é salva."
 
 #. Description of the 'Queue in Background (BETA)' (Check) field in DocType
 #. 'DocType'
@@ -580,7 +580,7 @@ msgstr ""
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Enabling this will submit documents in background"
-msgstr ""
+msgstr "Ao ativar isso, os documentos serão enviados em segundo plano"
 
 #. Label of the encrypt_backup (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -688,7 +688,7 @@ msgstr "Informe um nome para este {0}"
 #. Description of the 'User Defaults' (Table) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Enter default value fields (keys) and values. If you add multiple values for a field, the first one will be picked. These defaults are also used to set \"match\" permission rules. To see list of fields, go to \"Customize Form\"."
-msgstr ""
+msgstr "Informe os campos de valor padrão (chaves) e os valores. Se você adicionar vários valores para um campo, o primeiro será usado. Esses padrões também são usados para definir regras de permissão de \"correspondência\". Para ver a lista de campos, vá para \"Customize Form\"."
 
 #: frappe/public/js/frappe/views/file/file_view.js:111
 msgid "Enter folder name"
@@ -698,19 +698,19 @@ msgstr "Informe o nome da pasta"
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
 msgid "Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)"
-msgstr ""
+msgstr "Informe aqui os parâmetros estáticos da URL (Ex.: sender=ERPNext, username=ERPNext, password=1234 etc.)"
 
 #. Description of the 'Message Parameter' (Data) field in DocType 'SMS
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
 msgid "Enter url parameter for message"
-msgstr ""
+msgstr "Informe o parâmetro de URL para a mensagem"
 
 #. Description of the 'Receiver Parameter' (Data) field in DocType 'SMS
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
 msgid "Enter url parameter for receiver nos"
-msgstr ""
+msgstr "Informe o parâmetro de URL para os números dos destinatários"
 
 #: frappe/public/js/frappe/ui/messages.js:341
 msgid "Enter your password"
@@ -780,7 +780,7 @@ msgstr "Mensagem de erro"
 
 #: frappe/public/js/frappe/form/print_utils.js:156
 msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
-msgstr ""
+msgstr "Erro ao conectar ao aplicativo QZ Tray...<br><br> Você precisa ter o aplicativo QZ Tray instalado e em execução para usar o recurso de impressão bruta.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Clique aqui para baixar e instalar o QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">Clique aqui para saber mais sobre impressão bruta</a>."
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 msgid "Error connecting via IMAP/POP3: {e}"

@@ -428,13 +428,13 @@ msgstr ""
 
 #: frappe/workflow/doctype/workflow/workflow.js:19
 msgid "NOTE: If you add states or transitions in the table, it will be reflected in the Workflow Builder but you will have to position them manually. Also Workflow Builder is currently in <b>BETA</b>."
-msgstr ""
+msgstr "OBS.: se você adicionar estados ou transições na tabela, isso será refletido no Workflow Builder, mas você terá que posicioná-los manualmente. Além disso, o Workflow Builder está em <b>BETA</b> no momento."
 
 #. Description of the 'LDAP Group Field' (Data) field in DocType 'LDAP
 #. Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "NOTE: This box is due for depreciation. Please re-setup LDAP to work with the newer settings"
-msgstr ""
+msgstr "OBS.: este campo está programado para descontinuação. Reconfigure o LDAP para funcionar com as configurações mais recentes"
 
 #. Label of the fieldname (Data) field in DocType 'DocField'
 #. Label of the fieldname (Data) field in DocType 'Customize Form Field'
@@ -463,23 +463,23 @@ msgstr "Nome já em uso. Defina um novo nome"
 
 #: frappe/model/naming.py:512
 msgid "Name cannot contain special characters like {0}"
-msgstr ""
+msgstr "O nome não pode conter caracteres especiais como {0}"
 
 #: frappe/custom/doctype/custom_field/custom_field.js:91
 msgid "Name of the Document Type (DocType) you want this field to be linked to. e.g. Customer"
-msgstr ""
+msgstr "Nome do tipo de documento (DocType) ao qual você deseja vincular este campo. Ex.: Customer"
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:117
 msgid "Name of the new Print Format"
-msgstr ""
+msgstr "Nome do novo formato de impressão"
 
 #: frappe/model/naming.py:507
 msgid "Name of {0} cannot be {1}"
-msgstr ""
+msgstr "O nome de {0} não pode ser {1}"
 
 #: frappe/utils/password_strength.py:174
 msgid "Names and surnames by themselves are easy to guess."
-msgstr ""
+msgstr "Nomes e sobrenomes sozinhos são fáceis de adivinhar."
 
 #. Label of the sb1 (Tab Break) field in DocType 'DocType'
 #. Label of the naming_section (Section Break) field in DocType 'Document
@@ -497,7 +497,9 @@ msgstr "Nomeação"
 msgid "Naming Options:\n"
 "<ol><li><b>field:[fieldname]</b> - By Field</li><li><b>naming_series:</b> - By Naming Series (field called naming_series must be present)</li><li><b>Prompt</b> - Prompt user for a name</li><li><b>[series]</b> - Series by prefix (separated by a dot); for example PRE.#####</li>\n"
 "<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.</li></ol>"
-msgstr ""
+msgstr "Opções de nomenclatura:\n"
+"<ol><li><b>field:[fieldname]</b> - Por campo</li><li><b>naming_series:</b> - Por série de nomenclatura (o campo chamado naming_series deve estar presente)</li><li><b>Prompt</b> - Solicita um nome ao usuário</li><li><b>[series]</b> - Série por prefixo (separada por ponto); por exemplo PRE.#####</li>\n"
+"<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Substitui todas as palavras entre chaves (nomes de campo, palavras de data (DD, MM, YY), séries) pelos seus valores. Fora das chaves, qualquer caractere pode ser usado.</li></ol>"
 
 #. Label of the naming_rule (Select) field in DocType 'DocType'
 #. Label of the naming_rule (Select) field in DocType 'Customize Form'
@@ -580,7 +582,7 @@ msgstr "Precisa de ajuda?"
 
 #: frappe/desk/doctype/workspace/workspace.py:356
 msgid "Need Workspace Manager role to edit private workspace of other users"
-msgstr ""
+msgstr "É necessário o perfil Workspace Manager para editar o espaço de trabalho privado de outros usuários"
 
 #: frappe/model/document.py:837
 msgid "Negative Value"
@@ -588,7 +590,7 @@ msgstr "Valor negativo"
 
 #: frappe/database/query.py:665
 msgid "Nested filters must be provided as a list or tuple."
-msgstr ""
+msgstr "Os filtros aninhados devem ser informados como lista ou tupla."
 
 #: frappe/utils/nestedset.py:94
 msgid "Nested set error. Please contact the Administrator."
@@ -652,7 +654,7 @@ msgstr "Formulário de novo documento"
 
 #: frappe/desk/doctype/notification_log/notification_log.py:154
 msgid "New Document Shared {0}"
-msgstr ""
+msgstr "Novo documento compartilhado {0}"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:27
 #: frappe/public/js/frappe/views/communication.js:23
@@ -682,7 +684,7 @@ msgstr "Novos links"
 
 #: frappe/desk/doctype/notification_log/notification_log.py:152
 msgid "New Mention on {0}"
-msgstr ""
+msgstr "Nova menção em {0}"
 
 #: frappe/www/contact.py:68
 msgid "New Message from Website Contact Page"
@@ -697,7 +699,7 @@ msgstr "Novo nome"
 
 #: frappe/desk/doctype/notification_log/notification_log.py:151
 msgid "New Notification"
-msgstr ""
+msgstr "Nova notificação"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:64
 msgid "New Number Card"
@@ -758,18 +760,20 @@ msgstr "Novo espaço de trabalho"
 msgid "New line separated list of allowed public client URLs (eg <code>https://frappe.io</code>), or <code>*</code> to accept all.\n"
 "<br>\n"
 "Public clients are restricted by default."
-msgstr ""
+msgstr "Lista de URLs de clientes públicos permitidas, separadas por quebra de linha (ex.: <code>https://frappe.io</code>), ou <code>*</code> para aceitar todas.\n"
+"<br>\n"
+"Clientes públicos são restritos por padrão."
 
 #. Description of the 'Scopes Supported' (Small Text) field in DocType 'OAuth
 #. Settings'
 #: frappe/integrations/doctype/oauth_settings/oauth_settings.json
 msgid "New line separated list of scope values."
-msgstr ""
+msgstr "Lista de valores de escopo separados por quebra de linha."
 
 #. Description of the 'Contacts' (Small Text) field in DocType 'OAuth Client'
 #: frappe/integrations/doctype/oauth_client/oauth_client.json
 msgid "New lines separated list of strings representing ways to contact people responsible for this client, typically email addresses."
-msgstr ""
+msgstr "Lista de textos separados por quebra de linha que representam formas de contatar as pessoas responsáveis por este cliente, normalmente endereços de e-mail."
 
 #: frappe/www/update-password.html:92
 msgid "New password cannot be same as old password"
@@ -783,7 +787,7 @@ msgstr "Novas atualizações estão disponíveis"
 #. Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "New users will have to be manually registered by system managers."
-msgstr ""
+msgstr "Novos usuários terão que ser cadastrados manualmente pelos gerentes do sistema."
 
 #. Description of the 'Set Value' (Small Text) field in DocType 'Property
 #. Setter'
@@ -810,34 +814,34 @@ msgstr "Novo {0}"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:393
 msgid "New {0} Created"
-msgstr ""
+msgstr "Novo {0} criado"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:385
 msgid "New {0} {1} added to Dashboard {2}"
-msgstr ""
+msgstr "Novo {0} {1} adicionado ao painel {2}"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:390
 msgid "New {0} {1} created"
-msgstr ""
+msgstr "Novo {0} {1} criado"
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:416
 msgid "New {0}: {1}"
-msgstr ""
+msgstr "Novo {0}: {1}"
 
 #: frappe/utils/change_log.py:375
 msgid "New {} releases for the following apps are available"
-msgstr ""
+msgstr "Novas {} versões para os seguintes apps estão disponíveis"
 
 #: frappe/core/doctype/user/user.py:853
 msgid "Newly created user {0} has no roles enabled."
-msgstr ""
+msgstr "O usuário recém-criado {0} não tem perfis ativados."
 
 #. Name of a role
 #: frappe/email/doctype/email_group/email_group.json
 #: frappe/email/doctype/email_group_member/email_group_member.json
 #: frappe/website/doctype/utm_campaign/utm_campaign.json
 msgid "Newsletter Manager"
-msgstr ""
+msgstr "Gerente de newsletter"
 
 #: frappe/public/js/frappe/form/form_tour.js:14
 #: frappe/public/js/frappe/form/form_tour.js:324

@@ -42,12 +42,12 @@ msgstr "Saudações,"
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.js:27
 msgid "Regenerate Stock Closing Entry"
-msgstr ""
+msgstr "Regenerar lançamento de fechamento de estoque"
 
 #. Label of a Card Break in the Buying Workspace
 #: erpnext/buying/workspace/buying/buying.json
 msgid "Regional"
-msgstr ""
+msgstr "Regional"
 
 #. Label of the registration_details (Code) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
@@ -58,7 +58,7 @@ msgstr "Detalhes do registro"
 #. Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
 msgid "Regular"
-msgstr ""
+msgstr "Regular"
 
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.py:198
 msgid "Rejected "
@@ -99,7 +99,7 @@ msgstr "Nº de série rejeitado"
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Rejected Serial and Batch Bundle"
-msgstr ""
+msgstr "Pacote de séries e lotes rejeitados"
 
 #. Label of the rejected_warehouse (Link) field in DocType 'Purchase Invoice'
 #. Label of the rejected_warehouse (Link) field in DocType 'Purchase Invoice
@@ -250,11 +250,11 @@ msgstr "Observações:"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:96
 msgid "Remove Parent Row No in Items Table"
-msgstr ""
+msgstr "Remover nº da linha pai na tabela de itens"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:9
 msgid "Remove item if charges is not applicable to that item"
-msgstr ""
+msgstr "Remover o item se os encargos não se aplicarem a ele"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:561
 msgid "Removed items with no change in quantity or value."
@@ -262,13 +262,13 @@ msgstr "Itens removidos sem nenhuma alteração na quantidade ou valor."
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:87
 msgid "Removing rows without exchange gain or loss"
-msgstr ""
+msgstr "Removendo linhas sem ganho ou perda cambial"
 
 #. Description of the 'Allow Rename Attribute Value' (Check) field in DocType
 #. 'Item Variant Settings'
 #: erpnext/stock/doctype/item_variant_settings/item_variant_settings.json
 msgid "Rename Attribute Value in Item Attribute."
-msgstr ""
+msgstr "Renomear valor do atributo em Atributo do item."
 
 #. Label of the rename_log (HTML) field in DocType 'Rename Tool'
 #: erpnext/utilities/doctype/rename_tool/rename_tool.json
@@ -357,7 +357,7 @@ msgstr "Custo do reparo"
 #. Repair'
 #: erpnext/assets/doctype/asset_repair/asset_repair.json
 msgid "Repair Purchase Invoices"
-msgstr ""
+msgstr "Faturas de compra de reparo"
 
 #. Label of the repair_status (Select) field in DocType 'Asset Repair'
 #: erpnext/assets/doctype/asset_repair/asset_repair.json
@@ -389,7 +389,8 @@ msgstr "Substituir BOM"
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
 msgid "Replace a particular BOM in all other BOMs where it is used. It will replace the old BOM link, update cost and regenerate \"BOM Explosion Item\" table as per new BOM.\n"
 "It also updates latest price in all the BOMs."
-msgstr ""
+msgstr "Substitua uma BOM específica em todas as outras BOMs em que ela é usada. O link da BOM antiga será substituído, o custo será atualizado e a tabela \"BOM Explosion Item\" será regenerada conforme a nova BOM.\n"
+"Também atualiza o preço mais recente em todas as BOMs."
 
 #. Label of the report_date (Date) field in DocType 'Quality Inspection'
 #: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:75
@@ -448,109 +449,109 @@ msgstr "Reporta-se a"
 #. Name of a DocType
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.json
 msgid "Repost Accounting Ledger"
-msgstr ""
+msgstr "Reprocessar razão contábil"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/repost_accounting_ledger_items/repost_accounting_ledger_items.json
 msgid "Repost Accounting Ledger Items"
-msgstr ""
+msgstr "Itens de reprocessamento do razão contábil"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/repost_accounting_ledger_settings/repost_accounting_ledger_settings.json
 msgid "Repost Accounting Ledger Settings"
-msgstr ""
+msgstr "Configurações de reprocessamento do razão contábil"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/repost_allowed_types/repost_allowed_types.json
 msgid "Repost Allowed Types"
-msgstr ""
+msgstr "Tipos permitidos para reprocessamento"
 
 #. Label of the repost_error_log (Long Text) field in DocType 'Repost Payment
 #. Ledger'
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.json
 msgid "Repost Error Log"
-msgstr ""
+msgstr "Log de erros do reprocessamento"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Repost Item Valuation"
-msgstr ""
+msgstr "Reprocessar avaliação de item"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:337
 msgid "Repost Item Valuation restarted for selected failed records."
-msgstr ""
+msgstr "O reprocessamento da avaliação de item foi reiniciado para os registros com falha selecionados."
 
 #. Label of the repost_only_accounting_ledgers (Check) field in DocType 'Repost
 #. Item Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Repost Only Accounting Ledgers"
-msgstr ""
+msgstr "Reprocessar apenas razões contábeis"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.json
 msgid "Repost Payment Ledger"
-msgstr ""
+msgstr "Reprocessar razão de pagamentos"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/repost_payment_ledger_items/repost_payment_ledger_items.json
 msgid "Repost Payment Ledger Items"
-msgstr ""
+msgstr "Itens de reprocessamento da razão de pagamentos"
 
 #. Label of the repost_status (Select) field in DocType 'Repost Payment Ledger'
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.json
 msgid "Repost Status"
-msgstr ""
+msgstr "Status do reprocessamento"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:146
 msgid "Repost has started in the background"
-msgstr ""
+msgstr "O reprocessamento foi iniciado em segundo plano"
 
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.js:40
 msgid "Repost in background"
-msgstr ""
+msgstr "Reprocessar em segundo plano"
 
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.py:118
 msgid "Repost started in the background"
-msgstr ""
+msgstr "O reprocessamento foi iniciado em segundo plano"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.js:119
 msgid "Reposting Completed {0}%"
-msgstr ""
+msgstr "Reprocessamento concluído: {0}%"
 
 #. Label of the reposting_data_file (Attach) field in DocType 'Repost Item
 #. Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Reposting Data File"
-msgstr ""
+msgstr "Arquivo de dados do reprocessamento"
 
 #. Label of the reposting_info_section (Section Break) field in DocType 'Repost
 #. Item Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Reposting Info"
-msgstr ""
+msgstr "Informações do reprocessamento"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.js:127
 msgid "Reposting Progress"
-msgstr ""
+msgstr "Progresso do reprocessamento"
 
 #. Label of the reposting_reference (Data) field in DocType 'Repost Item
 #. Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Reposting Reference"
-msgstr ""
+msgstr "Referência do reprocessamento"
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:182
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:327
 msgid "Reposting entries created: {0}"
-msgstr ""
+msgstr "Entradas de reprocessamento criadas: {0}"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.js:103
 msgid "Reposting has been started in the background."
-msgstr ""
+msgstr "O reprocessamento foi iniciado em segundo plano."
 
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.js:49
 msgid "Reposting in the background."
-msgstr ""
+msgstr "Reprocessando em segundo plano."
 
 #. Label of the represents_company (Link) field in DocType 'Purchase Invoice'
 #. Label of the represents_company (Link) field in DocType 'Sales Invoice'
@@ -572,12 +573,12 @@ msgstr ""
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Represents Company"
-msgstr ""
+msgstr "Representa a empresa"
 
 #. Description of a DocType
 #: erpnext/accounts/doctype/fiscal_year/fiscal_year.json
 msgid "Represents a Financial Year. All accounting entries and other major transactions are tracked against the Fiscal Year."
-msgstr ""
+msgstr "Representa um exercício fiscal. Todos os lançamentos contábeis e outras transações principais são rastreados em relação ao exercício fiscal."
 
 #: erpnext/templates/form_grid/material_request_grid.html:25
 msgid "Reqd By Date"
@@ -615,7 +616,7 @@ msgstr "Tipo de solicitação"
 #. Label of the warehouse (Link) field in DocType 'Item Reorder'
 #: erpnext/stock/doctype/item_reorder/item_reorder.json
 msgid "Request for"
-msgstr ""
+msgstr "Solicitar para"
 
 #. Option for the 'Request Type' (Select) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
@@ -882,7 +883,7 @@ msgstr "Reservar estoque"
 #: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
 #: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
 msgid "Reserve Warehouse"
-msgstr ""
+msgstr "Armazém de reserva"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:287
 msgid "Reserve for Raw Materials"
@@ -934,7 +935,7 @@ msgstr "Qtd. reservada para plano de produção"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
 msgid "Reserved Qty for Production: Raw materials quantity to make manufacturing items."
-msgstr ""
+msgstr "Qtd. reservada para produção: quantidade de matérias-primas para fabricar os itens."
 
 #. Label of the reserved_qty_for_sub_contract (Float) field in DocType 'Bin'
 #: erpnext/stock/doctype/bin/bin.json
@@ -943,7 +944,7 @@ msgstr "Qtd. reservada para subcontratação"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
 msgid "Reserved Qty for Subcontract: Raw materials quantity to make subcontracted items."
-msgstr ""
+msgstr "Qtd. reservada para subcontratação: quantidade de matérias-primas para produzir os itens subcontratados."
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:649
 msgid "Reserved Qty should be greater than Delivered Qty."
@@ -951,7 +952,7 @@ msgstr "A qtd. reservada deve ser maior que a qtd. entregue."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
 msgid "Reserved Qty: Quantity ordered for sale, but not delivered."
-msgstr ""
+msgstr "Qtd. reservada: quantidade pedida para venda, mas não entregue."
 
 #: erpnext/stock/report/item_shortage_report/item_shortage_report.py:116
 msgid "Reserved Quantity"

@@ -20,15 +20,15 @@ msgstr ""
 
 #: frappe/database/query.py:791
 msgid "Invalid filter field format: {0}. Use 'fieldname' or 'link_fieldname.target_fieldname'."
-msgstr ""
+msgstr "Formato de campo de filtro inválido: {0}. Use 'fieldname' ou 'link_fieldname.target_fieldname'."
 
 #: frappe/public/js/frappe/ui/filters/filter_list.js:201
 msgid "Invalid filter: {0}"
-msgstr ""
+msgstr "Filtro inválido: {0}"
 
 #: frappe/database/query.py:2003
 msgid "Invalid function argument type: {0}. Only strings, numbers, lists, and None are allowed."
-msgstr ""
+msgstr "Tipo de argumento de função inválido: {0}. Somente strings, números, listas e None são permitidos."
 
 #: frappe/core/api/user_invitation.py:17
 msgid "Invalid input"
@@ -37,7 +37,7 @@ msgstr "Entrada inválida"
 #: frappe/desk/doctype/dashboard/dashboard.py:67
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:424
 msgid "Invalid json added in the custom options: {0}"
-msgstr ""
+msgstr "JSON inválido adicionado nas opções personalizadas: {0}"
 
 #: frappe/core/api/user_invitation.py:115
 msgid "Invalid key"
@@ -45,19 +45,19 @@ msgstr "Chave inválida"
 
 #: frappe/model/naming.py:498
 msgid "Invalid name type (integer) for varchar name column"
-msgstr ""
+msgstr "Tipo de nome inválido (integer) para a coluna de nome varchar"
 
 #: frappe/model/naming.py:62
 msgid "Invalid naming series {}: dot (.) missing"
-msgstr ""
+msgstr "Série de nomeação inválida {}: ponto (.) ausente"
 
 #: frappe/model/naming.py:76
 msgid "Invalid naming series {}: dot (.) missing before the numeric placeholders. Kindly use a format like <b>ABCD.#####</b>."
-msgstr ""
+msgstr "Série de nomeação inválida {}: falta ponto (.) antes dos marcadores numéricos. Use um formato como <b>ABCD.#####</b>."
 
 #: frappe/database/query.py:2075
 msgid "Invalid nested expression: dictionary must represent a function or operator"
-msgstr ""
+msgstr "Expressão aninhada inválida: o dicionário deve representar uma função ou operador"
 
 #: frappe/core/doctype/data_import/importer.py:453
 msgid "Invalid or corrupted content for import"
@@ -65,7 +65,7 @@ msgstr "Conteúdo inválido ou corrompido para importação"
 
 #: frappe/website/doctype/website_settings/website_settings.py:139
 msgid "Invalid redirect regex in row #{}: {}"
-msgstr ""
+msgstr "Regex de redirecionamento inválida na linha #{}: {}"
 
 #: frappe/app.py:340
 msgid "Invalid request arguments"
@@ -81,19 +81,19 @@ msgstr "Perfil inválido"
 
 #: frappe/database/query.py:744
 msgid "Invalid simple filter format: {0}"
-msgstr ""
+msgstr "Formato de filtro simples inválido: {0}"
 
 #: frappe/database/query.py:673
 msgid "Invalid start for filter condition: {0}. Expected a list or tuple."
-msgstr ""
+msgstr "Início inválido para a condição de filtro: {0}. Era esperada uma lista ou tupla."
 
 #: frappe/core/doctype/data_import/importer.py:430
 msgid "Invalid template file for import"
-msgstr ""
+msgstr "Arquivo de modelo inválido para importação"
 
 #: frappe/integrations/doctype/connected_app/connected_app.py:208
 msgid "Invalid token state! Check if the token has been created by the OAuth user."
-msgstr ""
+msgstr "Estado do token inválido! Verifique se o token foi criado pelo usuário OAuth."
 
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:165
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:338
@@ -102,7 +102,7 @@ msgstr "Nome de usuário ou senha inválidos"
 
 #: frappe/model/naming.py:176
 msgid "Invalid value specified for UUID: {}"
-msgstr ""
+msgstr "Valor inválido especificado para UUID: {}"
 
 #: frappe/public/js/frappe/web_form/web_form.js:253
 msgctxt "Error message in web form"
@@ -111,15 +111,15 @@ msgstr "Valores inválidos para os campos:"
 
 #: frappe/printing/page/print/print.js:673
 msgid "Invalid wkhtmltopdf version"
-msgstr ""
+msgstr "Versão inválida do wkhtmltopdf"
 
 #: frappe/core/doctype/doctype/doctype.py:1579
 msgid "Invalid {0} condition"
-msgstr ""
+msgstr "Condição inválida de {0}"
 
 #: frappe/database/query.py:1964
 msgid "Invalid {0} dictionary format"
-msgstr ""
+msgstr "Formato de dicionário inválido para {0}"
 
 #. Option for the 'Style' (Select) field in DocType 'Workflow State'
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
@@ -318,7 +318,7 @@ msgstr "É campo publicado"
 
 #: frappe/core/doctype/doctype/doctype.py:1530
 msgid "Is Published Field must be a valid fieldname"
-msgstr ""
+msgstr "O campo Is Published deve ser um nome de campo válido"
 
 #. Label of the is_query_report (Check) field in DocType 'Workspace Link'
 #: frappe/desk/doctype/workspace_link/workspace_link.json
@@ -427,7 +427,7 @@ msgstr "É padrão"
 
 #: frappe/core/doctype/file/utils.py:157 frappe/utils/file_manager.py:311
 msgid "It is risky to delete this file: {0}. Please contact your System Manager."
-msgstr ""
+msgstr "É arriscado excluir este arquivo: {0}. Entre em contato com o Gerente do Sistema."
 
 #. Label of the item_label (Data) field in DocType 'Navbar Item'
 #: frappe/core/doctype/navbar_item/navbar_item.json
@@ -451,7 +451,7 @@ msgstr "Itens"
 #. Option for the 'Print Format Type' (Select) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
 msgid "JS"
-msgstr ""
+msgstr "JS"
 
 #. Label of the js_message (HTML) field in DocType 'Custom HTML Block'
 #: frappe/desk/doctype/custom_html_block/custom_html_block.json
@@ -469,7 +469,7 @@ msgstr "Mensagem JS"
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 #: frappe/integrations/doctype/webhook/webhook.json
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #. Label of the webhook_json (Code) field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
@@ -478,7 +478,7 @@ msgstr "Corpo da solicitação JSON"
 
 #: frappe/templates/signup.html:5
 msgid "Jane Doe"
-msgstr ""
+msgstr "Fulana de Tal"
 
 #. Label of the js (Code) field in DocType 'Website Theme'
 #: frappe/website/doctype/website_theme/website_theme.json
@@ -488,7 +488,7 @@ msgstr "JavaScript"
 #. Description of the 'Javascript' (Code) field in DocType 'Report'
 #: frappe/core/doctype/report/report.json
 msgid "JavaScript Format: frappe.query_reports['REPORTNAME'] = {}"
-msgstr ""
+msgstr "Formato JavaScript: frappe.query_reports['REPORTNAME'] = {}"
 
 #. Label of the javascript (Code) field in DocType 'Report'
 #. Label of the javascript_section (Section Break) field in DocType 'Custom
@@ -509,7 +509,7 @@ msgstr "O Javascript está desativado no seu navegador"
 #. Option for the 'Print Format Type' (Select) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
 msgid "Jinja"
-msgstr ""
+msgstr "Jinja"
 
 #. Label of the job_id (Data) field in DocType 'Prepared Report'
 #. Label of the job_id (Data) field in DocType 'RQ Job'
@@ -545,7 +545,7 @@ msgstr "Job interrompido com sucesso"
 
 #: frappe/core/doctype/rq_job/rq_job.py:121
 msgid "Job is in {0} state and can't be cancelled"
-msgstr ""
+msgstr "O job está no estado {0} e não pode ser cancelado"
 
 #: frappe/core/doctype/data_import/data_import.py:182
 #: frappe/core/doctype/prepared_report/prepared_report.py:200
@@ -819,4 +819,4 @@ msgstr "Caminho de busca LDAP para usuários"
 
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:102
 msgid "LDAP settings incorrect. validation response was: {0}"
-msgstr ""
+msgstr "As configurações de LDAP estão incorretas. A resposta da validação foi: {0}"

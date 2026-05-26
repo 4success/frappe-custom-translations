@@ -54,7 +54,7 @@ msgstr "Todos"
 #. Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 msgid "Ex: \"colors\": [\"#d1d8dd\", \"#ff5858\"]"
-msgstr ""
+msgstr "Ex.: \"colors\": [\"#d1d8dd\", \"#ff5858\"]"
 
 #. Label of the exact_copies (Int) field in DocType 'Recorder Query'
 #: frappe/core/doctype/recorder_query/recorder_query.json
@@ -86,13 +86,13 @@ msgstr "Exemplo: 00001"
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Example: Setting this to 24:00 will log out a user if they are not active for 24:00 hours."
-msgstr ""
+msgstr "Exemplo: definir isso como 24:00 desconectará um usuário se ele ficar inativo por 24:00 horas."
 
 #. Description of the 'Description' (Small Text) field in DocType 'Assignment
 #. Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
 msgid "Example: {{ subject }}"
-msgstr ""
+msgstr "Exemplo: {{ subject }}"
 
 #. Option for the 'File Type' (Select) field in DocType 'Data Export'
 #: frappe/core/doctype/data_export/data_export.json
@@ -403,7 +403,7 @@ msgstr "Transações com falha"
 
 #: frappe/utils/synchronization.py:46
 msgid "Failed to aquire lock: {}. Lock may be held by another process."
-msgstr ""
+msgstr "Falha ao adquirir bloqueio: {}. O bloqueio pode estar em uso por outro processo."
 
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:362
 msgid "Failed to change password."
@@ -416,7 +416,7 @@ msgstr "Falha ao concluir a configuração"
 
 #: frappe/integrations/doctype/webhook/webhook.py:141
 msgid "Failed to compute request body: {}"
-msgstr ""
+msgstr "Falha ao calcular o corpo da requisição: {}"
 
 #: frappe/printing/doctype/network_printer_settings/network_printer_settings.py:46
 #: frappe/printing/doctype/network_printer_settings/network_printer_settings.py:48
@@ -425,7 +425,7 @@ msgstr "Falha ao conectar ao servidor"
 
 #: frappe/auth.py:704
 msgid "Failed to decode token, please provide a valid base64-encoded token."
-msgstr ""
+msgstr "Falha ao decodificar o token. Informe um token válido codificado em base64."
 
 #: frappe/utils/password.py:210
 msgid "Failed to decrypt key {0}"
@@ -442,7 +442,7 @@ msgstr "Falha ao ativar o agendador: {0}"
 #: frappe/email/doctype/notification/notification.py:107
 #: frappe/integrations/doctype/webhook/webhook.py:131
 msgid "Failed to evaluate conditions: {}"
-msgstr ""
+msgstr "Falha ao avaliar as condições: {}"
 
 #: frappe/types/exporter.py:205
 msgid "Failed to export python type hints"
@@ -458,11 +458,11 @@ msgstr "Falha ao gerar a prévia da série"
 
 #: frappe/handler.py:77
 msgid "Failed to get method for command {0} with {1}"
-msgstr ""
+msgstr "Falha ao obter o método para o comando {0} com {1}"
 
 #: frappe/api/v2.py:46
 msgid "Failed to get method {0} with {1}"
-msgstr ""
+msgstr "Falha ao obter o método {0} com {1}"
 
 #: frappe/integrations/frappe_providers/frappecloud_billing.py:59
 msgid "Failed to get site info"
@@ -470,7 +470,7 @@ msgstr "Falha ao obter informações do site"
 
 #: frappe/model/virtual_doctype.py:63
 msgid "Failed to import virtual doctype {}, is controller file present?"
-msgstr ""
+msgstr "Falha ao importar o doctype virtual {}. O arquivo do controlador está presente?"
 
 #: frappe/utils/image.py:75
 msgid "Failed to optimize image: {0}"
@@ -478,11 +478,11 @@ msgstr "Falha ao otimizar a imagem: {0}"
 
 #: frappe/email/doctype/notification/notification.py:124
 msgid "Failed to render message: {}"
-msgstr ""
+msgstr "Falha ao renderizar a mensagem: {}"
 
 #: frappe/email/doctype/notification/notification.py:142
 msgid "Failed to render subject: {}"
-msgstr ""
+msgstr "Falha ao renderizar o assunto: {}"
 
 #: frappe/integrations/frappe_providers/frappecloud_billing.py:94
 msgid "Failed to request login to Frappe Cloud"
@@ -490,7 +490,7 @@ msgstr "Falha ao solicitar login no Frappe Cloud"
 
 #: frappe/email/doctype/email_queue/email_queue.py:300
 msgid "Failed to send email with subject:"
-msgstr ""
+msgstr "Falha ao enviar e-mail com o assunto:"
 
 #: frappe/desk/doctype/notification_log/notification_log.py:43
 msgid "Failed to send notification email"
@@ -502,7 +502,7 @@ msgstr "Falha ao atualizar as configurações globais"
 
 #: frappe/integrations/frappe_providers/frappecloud_billing.py:74
 msgid "Failed while calling API {0}"
-msgstr ""
+msgstr "Falha ao chamar a API {0}"
 
 #. Label of the failing_scheduled_jobs (Table) field in DocType 'System Health
 #. Report'
@@ -599,19 +599,19 @@ msgstr "Campo"
 
 #: frappe/core/doctype/doctype/doctype.py:419
 msgid "Field \"route\" is mandatory for Web Views"
-msgstr ""
+msgstr "O campo \"route\" é obrigatório para Web Views"
 
 #: frappe/core/doctype/doctype/doctype.py:1541
 msgid "Field \"title\" is mandatory if \"Website Search Field\" is set."
-msgstr ""
+msgstr "O campo \"title\" é obrigatório se \"Website Search Field\" estiver definido."
 
 #: frappe/desk/doctype/bulk_update/bulk_update.js:17
 msgid "Field \"value\" is mandatory. Please specify value to be updated"
-msgstr ""
+msgstr "O campo \"value\" é obrigatório. Informe o valor a ser atualizado"
 
 #: frappe/desk/search.py:255
 msgid "Field <code>{0}</code> not found in {1}"
-msgstr ""
+msgstr "Campo <code>{0}</code> não encontrado em {1}"
 
 #. Label of the description (Text) field in DocType 'Custom Field'
 #: frappe/custom/doctype/custom_field/custom_field.json
@@ -650,12 +650,12 @@ msgstr "Tipo de campo"
 
 #: frappe/desk/reportview.py:204
 msgid "Field not permitted in query"
-msgstr ""
+msgstr "Campo não permitido na consulta"
 
 #. Description of the 'Workflow State Field' (Data) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Field that represents the Workflow State of the transaction (if field is not present, a new hidden Custom Field will be created)"
-msgstr ""
+msgstr "Campo que representa o estado do fluxo de trabalho da transação (se o campo não existir, um novo Custom Field oculto será criado)"
 
 #. Label of the track_field (Select) field in DocType 'Milestone Tracker'
 #: frappe/automation/doctype/milestone_tracker/milestone_tracker.json
@@ -664,27 +664,27 @@ msgstr "Campo para rastrear"
 
 #: frappe/custom/doctype/property_setter/property_setter.py:52
 msgid "Field type cannot be changed for {0}"
-msgstr ""
+msgstr "O tipo de campo não pode ser alterado para {0}"
 
 #: frappe/database/database.py:919
 msgid "Field {0} does not exist on {1}"
-msgstr ""
+msgstr "O campo {0} não existe em {1}"
 
 #: frappe/desk/form/meta.py:187
 msgid "Field {0} is referring to non-existing doctype {1}."
-msgstr ""
+msgstr "O campo {0} está se referindo ao doctype inexistente {1}."
 
 #: frappe/core/doctype/doctype/doctype.py:1669
 msgid "Field {0} must be a virtual field to support virtual doctype."
-msgstr ""
+msgstr "O campo {0} deve ser um campo virtual para dar suporte a doctype virtual."
 
 #: frappe/public/js/frappe/form/form.js:1768
 msgid "Field {0} not found."
-msgstr ""
+msgstr "Campo {0} não encontrado."
 
 #: frappe/email/doctype/notification/notification.py:564
 msgid "Field {0} on document {1} is neither a Mobile number field nor a Customer or User link"
-msgstr ""
+msgstr "O campo {0} no documento {1} não é nem um campo de número de celular nem um link para Cliente ou Usuário"
 
 #. Label of the fieldname (Data) field in DocType 'Report Column'
 #. Label of the fieldname (Data) field in DocType 'Report Filter'
@@ -707,40 +707,40 @@ msgstr "Nome do campo"
 
 #: frappe/core/doctype/doctype/doctype.py:272
 msgid "Fieldname '{0}' conflicting with a {1} of the name {2} in {3}"
-msgstr ""
+msgstr "O nome de campo '{0}' está em conflito com um(a) {1} de nome {2} em {3}"
 
 #: frappe/core/doctype/doctype/doctype.py:1091
 msgid "Fieldname called {0} must exist to enable autonaming"
-msgstr ""
+msgstr "O nome de campo {0} deve existir para ativar a nomeação automática"
 
 #: frappe/database/schema.py:131 frappe/database/schema.py:408
 msgid "Fieldname is limited to 64 characters ({0})"
-msgstr ""
+msgstr "O nome do campo é limitado a 64 caracteres ({0})"
 
 #: frappe/custom/doctype/custom_field/custom_field.py:198
 msgid "Fieldname not set for Custom Field"
-msgstr ""
+msgstr "Nome do campo não definido para o Custom Field"
 
 #: frappe/custom/doctype/custom_field/custom_field.js:107
 msgid "Fieldname which will be the DocType for this link field."
-msgstr ""
+msgstr "Nome do campo que será o DocType deste campo de link."
 
 #: frappe/public/js/form_builder/store.js:175
 msgid "Fieldname {0} appears multiple times"
-msgstr ""
+msgstr "O nome do campo {0} aparece várias vezes"
 
 #: frappe/database/schema.py:398
 msgid "Fieldname {0} cannot have special characters like {1}"
-msgstr ""
+msgstr "O nome do campo {0} não pode ter caracteres especiais como {1}"
 
 #: frappe/core/doctype/doctype/doctype.py:1942
 msgid "Fieldname {0} conflicting with meta object"
-msgstr ""
+msgstr "O nome do campo {0} está em conflito com um meta objeto"
 
 #: frappe/core/doctype/doctype/doctype.py:510
 #: frappe/public/js/form_builder/utils.js:302
 msgid "Fieldname {0} is restricted"
-msgstr ""
+msgstr "O nome do campo {0} é restrito"
 
 #. Label of the fields (Table) field in DocType 'DocType'
 #. Label of the fields_section (Section Break) field in DocType 'DocType'
@@ -775,20 +775,20 @@ msgstr "Campos de múltipla seleção"
 
 #: frappe/core/doctype/file/file.py:441
 msgid "Fields `file_name` or `file_url` must be set for File"
-msgstr ""
+msgstr "Os campos `file_name` ou `file_url` devem ser definidos para Arquivo"
 
 #: frappe/model/db_query.py:167
 msgid "Fields must be a list or tuple when as_list is enabled"
-msgstr ""
+msgstr "Os campos devem ser uma lista ou tupla quando as_list estiver ativado"
 
 #: frappe/database/query.py:1011
 msgid "Fields must be a string, list, tuple, pypika Field, or pypika Function"
-msgstr ""
+msgstr "Os campos devem ser uma string, lista, tupla, pypika Field ou pypika Function"
 
 #. Description of the 'Search Fields' (Data) field in DocType 'Customize Form'
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Fields separated by comma (,) will be included in the \"Search By\" list of Search dialog box"
-msgstr ""
+msgstr "Os campos separados por vírgula (,) serão incluídos na lista \"Pesquisar por\" da caixa de diálogo de pesquisa"
 
 #. Label of the fieldtype (Select) field in DocType 'Report Column'
 #. Label of the fieldtype (Select) field in DocType 'Report Filter'
@@ -807,11 +807,11 @@ msgstr "Tipo de campo"
 
 #: frappe/custom/doctype/custom_field/custom_field.py:194
 msgid "Fieldtype cannot be changed from {0} to {1}"
-msgstr ""
+msgstr "O tipo de campo não pode ser alterado de {0} para {1}"
 
 #: frappe/custom/doctype/customize_form/customize_form.py:593
 msgid "Fieldtype cannot be changed from {0} to {1} in row {2}"
-msgstr ""
+msgstr "O tipo de campo não pode ser alterado de {0} para {1} na linha {2}"
 
 #. Name of a DocType
 #. Option for the 'Select List View' (Select) field in DocType 'Form Tour'

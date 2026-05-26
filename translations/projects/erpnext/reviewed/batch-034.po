@@ -57,7 +57,7 @@ msgstr "Projeto PSOA"
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
 msgid "PZN"
-msgstr ""
+msgstr "PZN"
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:116
 msgid "Package No(s) already in use. Try from Package No {0}"
@@ -71,7 +71,7 @@ msgstr "Detalhes do peso do pacote"
 
 #: erpnext/stock/doctype/delivery_note/delivery_note_list.js:71
 msgid "Packaging Slip From Delivery Note"
-msgstr ""
+msgstr "Lista de embalagem a partir da nota de entrega"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/packed_item/packed_item.json
@@ -328,7 +328,7 @@ msgstr "Departamento pai"
 #. Label of the parent_detail_docname (Data) field in DocType 'Packed Item'
 #: erpnext/stock/doctype/packed_item/packed_item.json
 msgid "Parent Detail docname"
-msgstr ""
+msgstr "docname do detalhe pai"
 
 #. Label of the process_pr (Link) field in DocType 'Process Payment
 #. Reconciliation Log'
@@ -417,7 +417,7 @@ msgstr "Armazém Pai"
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.py:167
 msgid "Parsed file is not in valid MT940 format or contains no transactions."
-msgstr ""
+msgstr "O arquivo processado não está em um formato MT940 válido ou não contém transações."
 
 #: erpnext/edi/doctype/code_list/code_list_import.py:39
 msgid "Parsing Error"
@@ -440,7 +440,7 @@ msgstr "Reserva parcial de estoque"
 #. 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Partial stock can be reserved. For example, If you have a Sales Order of 100 units and the Available Stock is 90 units then a Stock Reservation Entry will be created for 90 units. "
-msgstr ""
+msgstr "O estoque parcial pode ser reservado. Por exemplo, se você tiver um pedido de venda de 100 unidades e o estoque disponível for 90 unidades, será criada uma entrada de reserva de estoque para 90 unidades. "
 
 #. Option for the 'Completion Status' (Select) field in DocType 'Maintenance
 #. Schedule Detail'
@@ -575,7 +575,7 @@ msgstr "Sociedade"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Parts Per Million"
-msgstr ""
+msgstr "Partes por milhão"
 
 #. Label of the party (Dynamic Link) field in DocType 'Bank Account'
 #. Group in Bank Account's connections
@@ -670,11 +670,11 @@ msgstr "Moeda da conta do cadastro"
 #. Transaction'
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
 msgid "Party Account No. (Bank Statement)"
-msgstr ""
+msgstr "Nº da conta do cadastro (extrato bancário)"
 
 #: erpnext/controllers/accounts_controller.py:2449
 msgid "Party Account {0} currency ({1}) and document currency ({2}) should be same"
-msgstr ""
+msgstr "A moeda da conta do cadastro {0} ({1}) e a moeda do documento ({2}) devem ser iguais"
 
 #. Label of the party_bank_account (Link) field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
@@ -698,7 +698,7 @@ msgstr "Nome completo do cadastro"
 #. Label of the bank_party_iban (Data) field in DocType 'Bank Transaction'
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
 msgid "Party IBAN (Bank Statement)"
-msgstr ""
+msgstr "IBAN do cadastro (extrato bancário)"
 
 #. Label of the section_break_7 (Section Break) field in DocType 'Pricing Rule'
 #. Label of the section_break_8 (Section Break) field in DocType 'Promotional
@@ -716,7 +716,7 @@ msgstr "Código do item no cadastro"
 #. Name of a DocType
 #: erpnext/accounts/doctype/party_link/party_link.json
 msgid "Party Link"
-msgstr ""
+msgstr "Vínculo de cadastro"
 
 #: erpnext/controllers/sales_and_purchase_return.py:49
 msgid "Party Mismatch"
@@ -739,7 +739,7 @@ msgstr "Nome do cadastro"
 #. Label of the bank_party_name (Data) field in DocType 'Bank Transaction'
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
 msgid "Party Name/Account Holder (Bank Statement)"
-msgstr ""
+msgstr "Nome do cadastro/titular da conta (extrato bancário)"
 
 #. Label of the party_not_required (Check) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
@@ -749,7 +749,7 @@ msgstr "Cadastro não obrigatório"
 #. Name of a DocType
 #: erpnext/selling/doctype/party_specific_item/party_specific_item.json
 msgid "Party Specific Item"
-msgstr ""
+msgstr "Item específico do cadastro"
 
 #. Label of the party_type (Link) field in DocType 'Bank Account'
 #. Label of the party_type (Link) field in DocType 'Bank Transaction'
@@ -812,15 +812,15 @@ msgstr "Tipo de cadastro"
 
 #: erpnext/accounts/party.py:827
 msgid "Party Type and Party can only be set for Receivable / Payable account<br><br>{0}"
-msgstr ""
+msgstr "O tipo de cadastro e o cadastro só podem ser definidos para conta a receber / a pagar<br><br>{0}"
 
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:627
 msgid "Party Type and Party is mandatory for {0} account"
-msgstr ""
+msgstr "O tipo de cadastro e o cadastro são obrigatórios para a conta {0}"
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.py:161
 msgid "Party Type and Party is required for Receivable / Payable account {0}"
-msgstr ""
+msgstr "O tipo de cadastro e o cadastro são obrigatórios para a conta a receber / a pagar {0}"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:514
 #: erpnext/accounts/party.py:428
@@ -830,11 +830,11 @@ msgstr "O tipo de cadastro é obrigatório"
 #. Label of the party_user (Link) field in DocType 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
 msgid "Party User"
-msgstr ""
+msgstr "Usuário do cadastro"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:456
 msgid "Party can only be one of {0}"
-msgstr ""
+msgstr "O cadastro só pode ser um destes: {0}"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:517
 msgid "Party is mandatory"
@@ -843,7 +843,7 @@ msgstr "O cadastro é obrigatório"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Pascal"
-msgstr ""
+msgstr "Pascal"
 
 #. Option for the 'Status' (Select) field in DocType 'Quality Review'
 #. Option for the 'Status' (Select) field in DocType 'Quality Review Objective'
@@ -871,7 +871,7 @@ msgstr "Vencido"
 
 #: erpnext/public/js/templates/crm_activities.html:152
 msgid "Past Events"
-msgstr ""
+msgstr "Eventos passados"
 
 #. Option for the 'Status' (Select) field in DocType 'Job Card Operation'
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.js:96
@@ -888,7 +888,7 @@ msgstr "Pausar tarefa"
 #. Name of a DocType
 #: erpnext/support/doctype/pause_sla_on_status/pause_sla_on_status.json
 msgid "Pause SLA On Status"
-msgstr ""
+msgstr "Pausar SLA no status"
 
 #. Option for the 'Status' (Select) field in DocType 'Process Payment
 #. Reconciliation'

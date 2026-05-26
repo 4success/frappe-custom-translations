@@ -181,15 +181,15 @@ msgstr "Saldo de fechamento de estoque"
 #: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.json
 msgid "Stock Closing Entry"
-msgstr ""
+msgstr "Lançamento de fechamento de estoque"
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:77
 msgid "Stock Closing Entry {0} already exists for the selected date range"
-msgstr ""
+msgstr "O lançamento de fechamento de estoque {0} já existe para o intervalo de datas selecionado"
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:98
 msgid "Stock Closing Entry {0} has been queued for processing, system will take sometime to complete it."
-msgstr ""
+msgstr "O lançamento de fechamento de estoque {0} foi enfileirado para processamento. O sistema levará algum tempo para concluí-lo."
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry_dashboard.py:9
 msgid "Stock Closing Log"
@@ -240,7 +240,7 @@ msgstr "Movimento de estoque (GIT de saída)"
 #. Label of the ste_detail (Data) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Stock Entry Child"
-msgstr ""
+msgstr "Filho do movimento de estoque"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
@@ -283,7 +283,7 @@ msgstr "Despesas Com Estoque"
 #. Label of the stock_frozen_upto (Date) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Stock Frozen Up To"
-msgstr ""
+msgstr "Estoque bloqueado até"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:37
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:60
@@ -312,7 +312,7 @@ msgstr "Razão de estoque"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:9
 msgid "Stock Ledger Entries and GL Entries are reposted for the selected Purchase Receipts"
-msgstr "As entradas do razão de estoque e do razão contábil são reprocessadas para os recibos de compra selecionados"
+msgstr "Os lançamentos do razão de estoque e os lançamentos contábeis são reprocessados para os recibos de compra selecionados."
 
 #. Name of a DocType
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
@@ -341,7 +341,7 @@ msgstr "Variação do razão de estoque"
 #. 'Repost Item Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Stock Ledgers won’t be reposted."
-msgstr ""
+msgstr "Os razões de estoque não serão reprocessados."
 
 #: erpnext/stock/doctype/batch/batch.js:79
 #: erpnext/stock/doctype/item/item.js:561
@@ -554,19 +554,19 @@ msgstr "Entrada de reserva de estoque"
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:571
 msgid "Stock Reservation Entry cannot be updated as it has been delivered."
-msgstr ""
+msgstr "A entrada de reserva de estoque não pode ser atualizada, pois já foi entregue."
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:565
 msgid "Stock Reservation Entry created against a Pick List cannot be updated. If you need to make changes, we recommend canceling the existing entry and creating a new one."
-msgstr ""
+msgstr "A entrada de reserva de estoque criada a partir de uma lista de separação não pode ser atualizada. Se você precisar fazer alterações, recomendamos cancelar a entrada existente e criar uma nova."
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.py:555
 msgid "Stock Reservation Warehouse Mismatch"
-msgstr ""
+msgstr "Incompatibilidade de depósito na reserva de estoque"
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:683
 msgid "Stock Reservation can only be created against {0}."
-msgstr ""
+msgstr "A reserva de estoque só pode ser criada para {0}."
 
 #. Option for the 'Status' (Select) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
@@ -869,7 +869,7 @@ msgstr "As transações de estoque anteriores ao número de dias informado não 
 #. field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Stock will be reserved on submission of <b>Purchase Receipt</b> created against Material Request for Sales Order."
-msgstr "O estoque será reservado ao enviar o <b>Purchase Receipt</b> criado a partir de uma solicitação de material para pedido de venda."
+msgstr "O estoque será reservado ao enviar o <b>recibo de compra</b> criado a partir de uma solicitação de material para pedido de venda."
 
 #: erpnext/stock/utils.py:576
 msgid "Stock/Accounts can not be frozen as processing of backdated entries is going on. Please try again later."
@@ -981,7 +981,7 @@ msgstr "Faltam referências dos itens de subconjunto. Busque os subconjuntos e a
 
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.py:127
 msgid "Sub-assembly BOM Count"
-msgstr ""
+msgstr "Contagem de BOMs de subconjunto"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order_dashboard.py:34
 msgid "Sub-contracting"
@@ -999,14 +999,14 @@ msgstr "Subcontratar"
 #. 'Purchase Receipt Item'
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Subcontract BOM"
-msgstr ""
+msgstr "BOM de subcontratação"
 
 #: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.js:36
 #: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.py:128
 #: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.py:22
 #: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.py:22
 msgid "Subcontract Order"
-msgstr ""
+msgstr "Ordem de subcontratação"
 
 #. Name of a report
 #. Label of a Link in the Manufacturing Workspace
@@ -1015,11 +1015,11 @@ msgstr ""
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 #: erpnext/subcontracting/workspace/subcontracting/subcontracting.json
 msgid "Subcontract Order Summary"
-msgstr ""
+msgstr "Resumo da ordem de subcontratação"
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:83
 msgid "Subcontract Return"
-msgstr ""
+msgstr "Devolução de subcontratação"
 
 #. Label of the subcontracted_item (Link) field in DocType 'Stock Entry Detail'
 #: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.py:136
@@ -1042,7 +1042,7 @@ msgstr "Item subcontratado a receber"
 
 #: erpnext/stock/doctype/material_request/material_request.js:212
 msgid "Subcontracted Purchase Order"
-msgstr ""
+msgstr "Pedido de compra subcontratado"
 
 #. Label of the subcontracted_qty (Float) field in DocType 'Purchase Order
 #. Item'
@@ -1112,7 +1112,7 @@ msgstr "Entrega para subcontratação"
 #: erpnext/selling/doctype/sales_order/sales_order_dashboard.py:33
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Subcontracting Inward"
-msgstr ""
+msgstr "Entrada de subcontratação"
 
 #. Label of the subcontracting_inward_order (Link) field in DocType 'Work
 #. Order'
@@ -1132,12 +1132,12 @@ msgstr ""
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
 #: erpnext/subcontracting/workspace/subcontracting/subcontracting.json
 msgid "Subcontracting Inward Order"
-msgstr ""
+msgstr "Ordem de entrada de subcontratação"
 
 #. Label of a number card in the Subcontracting Workspace
 #: erpnext/subcontracting/workspace/subcontracting/subcontracting.json
 msgid "Subcontracting Inward Order Count"
-msgstr ""
+msgstr "Contagem de ordens de entrada de subcontratação"
 
 #. Label of the subcontracting_inward_order_item (Data) field in DocType 'Work
 #. Order'
@@ -1145,28 +1145,28 @@ msgstr ""
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_item/subcontracting_inward_order_item.json
 msgid "Subcontracting Inward Order Item"
-msgstr ""
+msgstr "Item da ordem de entrada de subcontratação"
 
 #. Name of a DocType
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
 msgid "Subcontracting Inward Order Received Item"
-msgstr ""
+msgstr "Item recebido da ordem de entrada de subcontratação"
 
 #. Name of a DocType
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_scrap_item/subcontracting_inward_order_scrap_item.json
 msgid "Subcontracting Inward Order Scrap Item"
-msgstr ""
+msgstr "Item de sucata da ordem de entrada de subcontratação"
 
 #. Name of a DocType
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_service_item/subcontracting_inward_order_service_item.json
 msgid "Subcontracting Inward Order Service Item"
-msgstr ""
+msgstr "Item de serviço da ordem de entrada de subcontratação"
 
 #. Label of the section_break_zwh6 (Section Break) field in DocType 'Selling
 #. Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Subcontracting Inward Settings"
-msgstr ""
+msgstr "Configurações de entrada de subcontratação"
 
 #. Label of a Link in the Manufacturing Workspace
 #. Label of the subcontracting_order (Link) field in DocType 'Stock Entry'

@@ -45,7 +45,7 @@ msgstr "Preço de Venda Inválido"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1669
 msgid "Invalid Serial and Batch Bundle"
-msgstr ""
+msgstr "Pacote inválido de número de série e lote"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:969
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:991
@@ -369,7 +369,7 @@ msgstr "Entrada"
 #. Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
 msgid "Is Account Payable"
-msgstr ""
+msgstr "É conta a pagar"
 
 #. Label of the is_additional_item (Check) field in DocType 'Work Order Item'
 #. Label of the is_additional_item (Check) field in DocType 'Subcontracting
@@ -377,19 +377,19 @@ msgstr ""
 #: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
 msgid "Is Additional Item"
-msgstr ""
+msgstr "É item adicional"
 
 #. Label of the is_additional_transfer_entry (Check) field in DocType 'Stock
 #. Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Is Additional Transfer Entry"
-msgstr ""
+msgstr "É lançamento de transferência adicional"
 
 #. Label of the is_adjustment_entry (Check) field in DocType 'Stock Ledger
 #. Entry'
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
 msgid "Is Adjustment Entry"
-msgstr ""
+msgstr "É lançamento de ajuste"
 
 #. Label of the is_advance (Select) field in DocType 'GL Entry'
 #. Label of the is_advance (Select) field in DocType 'Journal Entry Account'
@@ -405,23 +405,23 @@ msgstr ""
 #: erpnext/accounts/doctype/payment_reconciliation_payment/payment_reconciliation_payment.json
 #: erpnext/accounts/doctype/process_payment_reconciliation_log_allocations/process_payment_reconciliation_log_allocations.json
 msgid "Is Advance"
-msgstr ""
+msgstr "É adiantamento"
 
 #. Label of the is_alternative (Check) field in DocType 'Quotation Item'
 #: erpnext/selling/doctype/quotation/quotation.js:315
 #: erpnext/selling/doctype/quotation_item/quotation_item.json
 msgid "Is Alternative"
-msgstr ""
+msgstr "É alternativo"
 
 #. Label of the is_billable (Check) field in DocType 'Timesheet Detail'
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
 msgid "Is Billable"
-msgstr ""
+msgstr "É faturável"
 
 #. Label of the is_billing_contact (Check) field in DocType 'Contact'
 #: erpnext/erpnext_integrations/custom/contact.json
 msgid "Is Billing Contact"
-msgstr ""
+msgstr "É contato de cobrança"
 
 #. Label of the is_cancelled (Check) field in DocType 'GL Entry'
 #. Label of the is_cancelled (Check) field in DocType 'Serial and Batch Bundle'
@@ -431,62 +431,62 @@ msgstr ""
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
 #: erpnext/stock/report/incorrect_serial_and_batch_bundle/incorrect_serial_and_batch_bundle.py:57
 msgid "Is Cancelled"
-msgstr ""
+msgstr "Está cancelado"
 
 #. Label of the is_cash_or_non_trade_discount (Check) field in DocType 'Sales
 #. Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Is Cash or Non Trade Discount"
-msgstr ""
+msgstr "É desconto à vista ou não comercial"
 
 #. Label of the is_company (Check) field in DocType 'Share Balance'
 #. Label of the is_company (Check) field in DocType 'Shareholder'
 #: erpnext/accounts/doctype/share_balance/share_balance.json
 #: erpnext/accounts/doctype/shareholder/shareholder.json
 msgid "Is Company"
-msgstr ""
+msgstr "É empresa"
 
 #. Label of the is_company_account (Check) field in DocType 'Bank Account'
 #: erpnext/accounts/doctype/bank_account/bank_account.json
 msgid "Is Company Account"
-msgstr ""
+msgstr "É conta da empresa"
 
 #. Label of the is_composite_asset (Check) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
 msgid "Is Composite Asset"
-msgstr ""
+msgstr "É ativo composto"
 
 #. Label of the is_composite_component (Check) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
 msgid "Is Composite Component"
-msgstr ""
+msgstr "É componente composto"
 
 #. Label of the is_consolidated (Check) field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Is Consolidated"
-msgstr ""
+msgstr "Está consolidado"
 
 #. Label of the is_container (Check) field in DocType 'Location'
 #: erpnext/assets/doctype/location/location.json
 msgid "Is Container"
-msgstr ""
+msgstr "É contêiner"
 
 #. Label of the is_corrective_job_card (Check) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 msgid "Is Corrective Job Card"
-msgstr ""
+msgstr "É cartão de trabalho corretivo"
 
 #. Label of the is_corrective_operation (Check) field in DocType 'Operation'
 #: erpnext/manufacturing/doctype/operation/operation.json
 msgid "Is Corrective Operation"
-msgstr ""
+msgstr "É operação corretiva"
 
 #. Label of the is_cumulative (Check) field in DocType 'Pricing Rule'
 #. Label of the is_cumulative (Check) field in DocType 'Promotional Scheme'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
 msgid "Is Cumulative"
-msgstr ""
+msgstr "É cumulativo"
 
 #. Label of the is_customer_provided_item (Check) field in DocType 'Work Order
 #. Item'
@@ -497,56 +497,56 @@ msgstr ""
 #: erpnext/stock/doctype/item/item.json
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
 msgid "Is Customer Provided Item"
-msgstr ""
+msgstr "É item fornecido pelo cliente"
 
 #. Label of the is_default (Check) field in DocType 'Bank Account'
 #: erpnext/accounts/doctype/bank_account/bank_account.json
 msgid "Is Default Account"
-msgstr ""
+msgstr "É conta padrão"
 
 #. Label of the is_default_language (Check) field in DocType 'Dunning Letter
 #. Text'
 #: erpnext/accounts/doctype/dunning_letter_text/dunning_letter_text.json
 msgid "Is Default Language"
-msgstr ""
+msgstr "É idioma padrão"
 
 #. Label of the dn_required (Select) field in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Is Delivery Note Required for Sales Invoice Creation?"
-msgstr ""
+msgstr "A nota de entrega é obrigatória para criar a fatura de venda?"
 
 #. Label of the is_discounted (Check) field in DocType 'POS Invoice'
 #. Label of the is_discounted (Check) field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Is Discounted"
-msgstr ""
+msgstr "Tem desconto"
 
 #. Label of the is_exchange_gain_loss (Check) field in DocType 'Payment Entry
 #. Deduction'
 #: erpnext/accounts/doctype/payment_entry_deduction/payment_entry_deduction.json
 msgid "Is Exchange Gain / Loss?"
-msgstr ""
+msgstr "É ganho/perda cambial?"
 
 #. Label of the is_existing_asset (Check) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
 msgid "Is Existing Asset"
-msgstr ""
+msgstr "É ativo existente"
 
 #. Label of the is_expandable (Check) field in DocType 'BOM Creator Item'
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
 msgid "Is Expandable"
-msgstr ""
+msgstr "É expansível"
 
 #. Label of the is_final_finished_good (Check) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Is Final Finished Good"
-msgstr ""
+msgstr "É produto acabado final"
 
 #. Label of the is_finished_item (Check) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Is Finished Item"
-msgstr ""
+msgstr "É item acabado"
 
 #. Label of the is_fixed_asset (Check) field in DocType 'POS Invoice Item'
 #. Label of the is_fixed_asset (Check) field in DocType 'Purchase Invoice Item'
@@ -563,7 +563,7 @@ msgstr ""
 #: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Is Fixed Asset"
-msgstr ""
+msgstr "É ativo imobilizado"
 
 #. Label of the is_free_item (Check) field in DocType 'POS Invoice Item'
 #. Label of the is_free_item (Check) field in DocType 'Purchase Invoice Item'
@@ -584,7 +584,7 @@ msgstr ""
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Is Free Item"
-msgstr ""
+msgstr "É item grátis"
 
 #. Label of the is_frozen (Check) field in DocType 'Supplier'
 #. Label of the is_frozen (Check) field in DocType 'Customer'
@@ -597,19 +597,19 @@ msgstr "Está bloqueado"
 #. Label of the is_fully_depreciated (Check) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
 msgid "Is Fully Depreciated"
-msgstr ""
+msgstr "Está totalmente depreciado"
 
 #. Label of the is_group (Check) field in DocType 'Warehouse'
 #: erpnext/stock/doctype/warehouse/warehouse.json
 msgid "Is Group Warehouse"
-msgstr ""
+msgstr "É armazém de grupo"
 
 #. Label of the is_half_day (Check) field in DocType 'Holiday'
 #. Label of the is_half_day (Check) field in DocType 'Holiday List'
 #: erpnext/setup/doctype/holiday/holiday.json
 #: erpnext/setup/doctype/holiday_list/holiday_list.json
 msgid "Is Half Day"
-msgstr ""
+msgstr "É meio período"
 
 #. Label of the is_internal_customer (Check) field in DocType 'Sales Invoice'
 #. Label of the is_internal_customer (Check) field in DocType 'Customer'
@@ -620,7 +620,7 @@ msgstr ""
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Is Internal Customer"
-msgstr ""
+msgstr "É cliente interno"
 
 #. Label of the is_internal_supplier (Check) field in DocType 'Purchase
 #. Invoice'
@@ -633,17 +633,17 @@ msgstr ""
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Is Internal Supplier"
-msgstr ""
+msgstr "É fornecedor interno"
 
 #. Label of the is_mandatory (Check) field in DocType 'Applicable On Account'
 #: erpnext/accounts/doctype/applicable_on_account/applicable_on_account.json
 msgid "Is Mandatory"
-msgstr ""
+msgstr "É obrigatório"
 
 #. Label of the is_milestone (Check) field in DocType 'Task'
 #: erpnext/projects/doctype/task/task.json
 msgid "Is Milestone"
-msgstr ""
+msgstr "É marco"
 
 #. Label of the is_old_subcontracting_flow (Check) field in DocType 'Purchase
 #. Invoice'
@@ -655,7 +655,7 @@ msgstr ""
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Is Old Subcontracting Flow"
-msgstr ""
+msgstr "É fluxo antigo de subcontratação"
 
 #. Label of the is_opening (Select) field in DocType 'GL Entry'
 #. Label of the is_opening (Select) field in DocType 'Journal Entry'
@@ -668,7 +668,7 @@ msgstr ""
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Is Opening"
-msgstr ""
+msgstr "É abertura"
 
 #. Label of the is_opening (Select) field in DocType 'POS Invoice'
 #. Label of the is_opening (Select) field in DocType 'Purchase Invoice'
@@ -677,38 +677,38 @@ msgstr ""
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Is Opening Entry"
-msgstr ""
+msgstr "É lançamento de abertura"
 
 #. Label of the is_outward (Check) field in DocType 'Serial and Batch Entry'
 #: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
 msgid "Is Outward"
-msgstr ""
+msgstr "É saída"
 
 #. Label of the is_packed (Check) field in DocType 'Serial and Batch Bundle'
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
 msgid "Is Packed"
-msgstr ""
+msgstr "Está embalado"
 
 #. Label of the is_paid (Check) field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Is Paid"
-msgstr ""
+msgstr "Está pago"
 
 #. Label of the is_paused (Check) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 msgid "Is Paused"
-msgstr ""
+msgstr "Está pausado"
 
 #. Label of the is_period_closing_voucher_entry (Check) field in DocType
 #. 'Account Closing Balance'
 #: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.json
 msgid "Is Period Closing Voucher Entry"
-msgstr ""
+msgstr "É lançamento de encerramento do período"
 
 #. Label of the is_phantom_bom (Check) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Is Phantom BOM"
-msgstr ""
+msgstr "É BOM fantasma"
 
 #. Label of the is_phantom_item (Check) field in DocType 'BOM Creator Item'
 #. Label of the is_phantom_item (Check) field in DocType 'BOM Item'
@@ -716,22 +716,22 @@ msgstr ""
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 #: erpnext/manufacturing/report/bom_explorer/bom_explorer.py:68
 msgid "Is Phantom Item"
-msgstr ""
+msgstr "É item fantasma"
 
 #. Label of the po_required (Select) field in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Is Purchase Order Required for Purchase Invoice & Receipt Creation?"
-msgstr ""
+msgstr "O pedido de compra é obrigatório para criar a fatura e o recebimento de compra?"
 
 #. Label of the pr_required (Select) field in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Is Purchase Receipt Required for Purchase Invoice Creation?"
-msgstr ""
+msgstr "O recebimento de compra é obrigatório para criar a fatura de compra?"
 
 #. Label of the is_debit_note (Check) field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Is Rate Adjustment Entry (Debit Note)"
-msgstr ""
+msgstr "É lançamento de ajuste de preço (nota de débito)"
 
 #. Label of the is_recursive (Check) field in DocType 'Pricing Rule'
 #. Label of the is_recursive (Check) field in DocType 'Promotional Scheme
@@ -739,17 +739,17 @@ msgstr ""
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
 msgid "Is Recursive"
-msgstr ""
+msgstr "É recursivo"
 
 #. Label of the is_rejected (Check) field in DocType 'Serial and Batch Bundle'
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
 msgid "Is Rejected"
-msgstr ""
+msgstr "Está rejeitado"
 
 #. Label of the is_rejected_warehouse (Check) field in DocType 'Warehouse'
 #: erpnext/stock/doctype/warehouse/warehouse.json
 msgid "Is Rejected Warehouse"
-msgstr ""
+msgstr "É armazém de rejeitados"
 
 #. Label of the is_return (Check) field in DocType 'POS Invoice Reference'
 #. Label of the is_return (Check) field in DocType 'Sales Invoice Reference'
@@ -773,17 +773,17 @@ msgstr "É Devolução"
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Is Return (Credit Note)"
-msgstr ""
+msgstr "É devolução (nota de crédito)"
 
 #. Label of the is_return (Check) field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Is Return (Debit Note)"
-msgstr ""
+msgstr "É devolução (nota de débito)"
 
 #. Label of the so_required (Select) field in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Is Sales Order Required for Sales Invoice & Delivery Note Creation?"
-msgstr ""
+msgstr "O pedido de venda é obrigatório para criar a fatura de venda e a nota de entrega?"
 
 #. Label of the is_scrap_item (Check) field in DocType 'Stock Entry Detail'
 #. Label of the is_scrap_item (Check) field in DocType 'Subcontracting Receipt
@@ -791,19 +791,19 @@ msgstr ""
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Is Scrap Item"
-msgstr ""
+msgstr "É item de sucata"
 
 #. Label of the is_short_year (Check) field in DocType 'Fiscal Year'
 #: erpnext/accounts/doctype/fiscal_year/fiscal_year.json
 msgid "Is Short/Long Year"
-msgstr ""
+msgstr "É ano curto/longo"
 
 #. Label of the is_stock_item (Check) field in DocType 'BOM Item'
 #. Label of the is_stock_item (Check) field in DocType 'Sales Order Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 msgid "Is Stock Item"
-msgstr ""
+msgstr "É item de estoque"
 
 #. Label of the is_sub_assembly_item (Check) field in DocType 'BOM Explosion
 #. Item'
@@ -811,7 +811,7 @@ msgstr ""
 #: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Is Sub Assembly Item"
-msgstr ""
+msgstr "É item de subconjunto"
 
 #. Label of the is_subcontracted (Check) field in DocType 'Purchase Invoice'
 #. Label of the is_subcontracted (Check) field in DocType 'Purchase Order'
@@ -831,12 +831,12 @@ msgstr ""
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Is Subcontracted"
-msgstr ""
+msgstr "É subcontratado"
 
 #. Label of the is_sub_contracted_item (Check) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Is Subcontracted Item"
-msgstr ""
+msgstr "É item subcontratado"
 
 #. Label of the is_tax_withholding_account (Check) field in DocType 'Journal
 #. Entry Account'
@@ -845,32 +845,32 @@ msgstr ""
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
 msgid "Is Tax Withholding Account"
-msgstr ""
+msgstr "É conta de retenção de imposto"
 
 #. Label of the is_template (Check) field in DocType 'Task'
 #: erpnext/projects/doctype/task/task.json
 msgid "Is Template"
-msgstr ""
+msgstr "É modelo"
 
 #. Label of the is_transporter (Check) field in DocType 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
 msgid "Is Transporter"
-msgstr ""
+msgstr "É transportadora"
 
 #. Label of the is_your_company_address (Check) field in DocType 'Address'
 #: erpnext/accounts/custom/address.json
 msgid "Is Your Company Address"
-msgstr ""
+msgstr "É o endereço da sua empresa"
 
 #. Label of the is_a_subscription (Check) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Is a Subscription"
-msgstr ""
+msgstr "É uma assinatura"
 
 #. Label of the is_created_using_pos (Check) field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Is created using POS"
-msgstr ""
+msgstr "É criado pelo PDV"
 
 #. Label of the included_in_print_rate (Check) field in DocType 'Purchase Taxes
 #. and Charges'
@@ -879,7 +879,7 @@ msgstr ""
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
 #: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
 msgid "Is this Tax included in Basic Rate?"
-msgstr ""
+msgstr "Este imposto está incluído no preço base?"
 
 #. Option for the 'Transfer Type' (Select) field in DocType 'Share Transfer'
 #. Option for the 'Status' (Select) field in DocType 'Asset'

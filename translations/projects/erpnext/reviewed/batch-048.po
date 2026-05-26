@@ -21,7 +21,7 @@ msgstr ""
 #. Label of the service_address (Small Text) field in DocType 'Warranty Claim'
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Service Address"
-msgstr ""
+msgstr "Endereço de atendimento"
 
 #. Label of the service_cost_per_qty (Currency) field in DocType
 #. 'Subcontracting Order Item'
@@ -221,19 +221,19 @@ msgstr "Serviços"
 #. Label of the set_warehouse (Link) field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Set Accepted Warehouse"
-msgstr ""
+msgstr "Definir depósito aceito"
 
 #. Label of the allocate_advances_automatically (Check) field in DocType
 #. 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Set Advances and Allocate (FIFO)"
-msgstr ""
+msgstr "Definir adiantamentos e alocar (FIFO)"
 
 #. Label of the set_basic_rate_manually (Check) field in DocType 'Stock Entry
 #. Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Set Basic Rate Manually"
-msgstr ""
+msgstr "Definir preço básico manualmente"
 
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:180
 msgid "Set Default Supplier"
@@ -263,19 +263,19 @@ msgstr "Definir depósito de origem"
 #. Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 msgid "Set Grand Total to Default Payment Method"
-msgstr ""
+msgstr "Definir total geral para a forma de pagamento padrão"
 
 #. Description of the 'Territory Targets' (Section Break) field in DocType
 #. 'Territory'
 #: erpnext/setup/doctype/territory/territory.json
 msgid "Set Item Group-wise budgets on this Territory. You can also include seasonality by setting the Distribution."
-msgstr ""
+msgstr "Defina orçamentos por grupo de itens neste território. Você também pode incluir sazonalidade ao definir a distribuição."
 
 #. Label of the set_landed_cost_based_on_purchase_invoice_rate (Check) field in
 #. DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Set Landed Cost Based on Purchase Invoice Rate"
-msgstr ""
+msgstr "Definir custo de aquisição com base no preço da fatura de compra"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:1163
 msgid "Set Loyalty Program"
@@ -289,32 +289,32 @@ msgstr "Definir Nova Data de Lançamento"
 #. DocType 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Set Operating Cost / Scrap Items From Sub-assemblies"
-msgstr ""
+msgstr "Definir custo operacional / itens de sucata a partir dos subconjuntos"
 
 #. Label of the set_cost_based_on_bom_qty (Check) field in DocType 'BOM
 #. Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Set Operating Cost Based On BOM Quantity"
-msgstr ""
+msgstr "Definir custo operacional com base na quantidade da BOM"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:90
 msgid "Set Parent Row No in Items Table"
-msgstr ""
+msgstr "Definir nº da linha pai na tabela de itens"
 
 #. Label of the set_posting_date (Check) field in DocType 'POS Opening Entry'
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.json
 msgid "Set Posting Date"
-msgstr ""
+msgstr "Definir data de lançamento"
 
 #: erpnext/manufacturing/doctype/bom/bom.js:974
 msgid "Set Process Loss Item Quantity"
-msgstr ""
+msgstr "Definir quantidade do item de perda de processo"
 
 #: erpnext/projects/doctype/project/project.js:149
 #: erpnext/projects/doctype/project/project.js:157
 #: erpnext/projects/doctype/project/project.js:171
 msgid "Set Project Status"
-msgstr ""
+msgstr "Definir status do projeto"
 
 #: erpnext/projects/doctype/project/project.js:194
 msgid "Set Project and all Tasks to status {0}?"
@@ -337,7 +337,7 @@ msgstr "Defina o tempo de resposta para a prioridade {0} na linha {1}."
 #. (Check) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Set Serial and Batch Bundle Naming Based on Naming Series"
-msgstr ""
+msgstr "Definir nomenclatura do pacote de série e lote com base na série de nomenclatura"
 
 #. Label of the set_warehouse (Link) field in DocType 'Sales Order'
 #. Label of the set_warehouse (Link) field in DocType 'Delivery Note'
@@ -371,13 +371,13 @@ msgstr "Definir depósito de destino"
 #. Creator'
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
 msgid "Set Valuation Rate Based on Source Warehouse"
-msgstr ""
+msgstr "Definir preço de avaliação com base no depósito de origem"
 
 #. Label of the set_valuation_rate_for_rejected_materials (Check) field in
 #. DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Set Valuation Rate for Rejected Materials"
-msgstr ""
+msgstr "Definir preço de avaliação para materiais rejeitados"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:256
 msgid "Set Warehouse"
@@ -413,7 +413,7 @@ msgstr "Definir Como Aberto"
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
 #: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
 msgid "Set by Item Tax Template"
-msgstr ""
+msgstr "Definir pelo modelo de imposto do item"
 
 #: erpnext/setup/doctype/company/company.py:538
 msgid "Set default inventory account for perpetual inventory"
@@ -421,39 +421,39 @@ msgstr "Defina a conta de inventário padrão para o inventário perpétuo"
 
 #: erpnext/setup/doctype/company/company.py:564
 msgid "Set default {0} account for non stock items"
-msgstr ""
+msgstr "Defina a conta padrão de {0} para itens não estocáveis"
 
 #. Description of the 'Fetch Value From' (Select) field in DocType 'Inventory
 #. Dimension'
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
 msgid "Set fieldname from which you want to fetch the data from the parent form."
-msgstr ""
+msgstr "Defina o nome do campo do qual você deseja buscar os dados do formulário principal."
 
 #: erpnext/manufacturing/doctype/bom/bom.js:964
 msgid "Set quantity of process loss item:"
-msgstr ""
+msgstr "Defina a quantidade do item de perda de processo:"
 
 #. Label of the set_rate_of_sub_assembly_item_based_on_bom (Check) field in
 #. DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Set rate of sub-assembly item based on BOM"
-msgstr ""
+msgstr "Definir preço do item de subconjunto com base na BOM"
 
 #. Description of the 'Sales Person Targets' (Section Break) field in DocType
 #. 'Sales Person'
 #: erpnext/setup/doctype/sales_person/sales_person.json
 msgid "Set targets Item Group-wise for this Sales Person."
-msgstr ""
+msgstr "Defina metas por grupo de itens para este vendedor."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1178
 msgid "Set the Planned Start Date (an Estimated Date at which you want the Production to begin)"
-msgstr ""
+msgstr "Defina a data de início planejada (uma data estimada em que você deseja que a produção comece)"
 
 #. Description of the 'Manual Inspection' (Check) field in DocType 'Quality
 #. Inspection Reading'
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Set the status manually."
-msgstr ""
+msgstr "Defina o status manualmente."
 
 #: erpnext/regional/italy/setup.py:231
 msgid "Set this if the customer is a Public Administration company."
@@ -461,7 +461,7 @@ msgstr "Defina isto se o cliente for uma empresa da Administração Pública."
 
 #: erpnext/assets/doctype/asset/asset.py:878
 msgid "Set {0} in asset category {1} for company {2}"
-msgstr ""
+msgstr "Defina {0} na categoria de ativo {1} para a empresa {2}"
 
 #: erpnext/assets/doctype/asset/asset.py:1211
 msgid "Set {0} in asset category {1} or company {2}"
@@ -475,50 +475,50 @@ msgstr "Defina {0} na empresa {1}"
 #. 'Subcontracting Receipt'
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Sets 'Accepted Warehouse' in each row of the Items table."
-msgstr ""
+msgstr "Define 'Accepted Warehouse' em cada linha da tabela de itens."
 
 #. Description of the 'Rejected Warehouse' (Link) field in DocType
 #. 'Subcontracting Receipt'
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Sets 'Rejected Warehouse' in each row of the Items table."
-msgstr ""
+msgstr "Define 'Rejected Warehouse' em cada linha da tabela de itens."
 
 #. Description of the 'Set Reserve Warehouse' (Link) field in DocType
 #. 'Subcontracting Order'
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 msgid "Sets 'Reserve Warehouse' in each row of the Supplied Items table."
-msgstr ""
+msgstr "Define 'Reserve Warehouse' em cada linha da tabela de itens fornecidos."
 
 #. Description of the 'Default Source Warehouse' (Link) field in DocType 'Stock
 #. Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Sets 'Source Warehouse' in each row of the items table."
-msgstr ""
+msgstr "Define 'Source Warehouse' em cada linha da tabela de itens."
 
 #. Description of the 'Default Target Warehouse' (Link) field in DocType 'Stock
 #. Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Sets 'Target Warehouse' in each row of the items table."
-msgstr ""
+msgstr "Define 'Target Warehouse' em cada linha da tabela de itens."
 
 #. Description of the 'Set Target Warehouse' (Link) field in DocType
 #. 'Subcontracting Order'
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 msgid "Sets 'Warehouse' in each row of the Items table."
-msgstr ""
+msgstr "Define 'Warehouse' em cada linha da tabela de itens."
 
 #. Description of the 'Account Type' (Select) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
 msgid "Setting Account Type helps in selecting this Account in transactions."
-msgstr ""
+msgstr "Definir o tipo de conta ajuda a selecionar esta conta nas transações."
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:129
 msgid "Setting Events to {0}, since the Employee attached to the below Sales Persons does not have a User ID{1}"
-msgstr ""
+msgstr "Definindo eventos como {0}, pois o funcionário vinculado aos vendedores abaixo não tem um ID de usuário{1}"
 
 #: erpnext/stock/doctype/pick_list/pick_list.js:95
 msgid "Setting Item Locations..."
-msgstr ""
+msgstr "Definindo locais dos itens..."
 
 #: erpnext/setup/setup_wizard/setup_wizard.py:34
 msgid "Setting defaults"
@@ -528,7 +528,7 @@ msgstr "Configuração de padrões"
 #. Account'
 #: erpnext/accounts/doctype/bank_account/bank_account.json
 msgid "Setting the account as a Company Account is necessary for Bank Reconciliation"
-msgstr ""
+msgstr "Definir a conta como conta da empresa é necessário para a conciliação bancária"
 
 #: erpnext/setup/setup_wizard/setup_wizard.py:29
 msgid "Setting up company"
@@ -537,13 +537,13 @@ msgstr "Criação de empresa"
 #: erpnext/manufacturing/doctype/bom/bom.py:1127
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1445
 msgid "Setting {0} is required"
-msgstr ""
+msgstr "A configuração {0} é obrigatória"
 
 #. Description of a DocType
 #: erpnext/crm/doctype/crm_settings/crm_settings.json
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Settings for Selling Module"
-msgstr ""
+msgstr "Configurações do módulo de vendas"
 
 #. Option for the 'Status' (Select) field in DocType 'Bank Transaction'
 #. Option for the 'Status' (Select) field in DocType 'Invoice Discounting'
@@ -576,7 +576,7 @@ msgstr "Balanço de Ações"
 #: erpnext/accounts/report/share_ledger/share_ledger.json
 #: erpnext/accounts/workspace/accounting/accounting.json
 msgid "Share Ledger"
-msgstr ""
+msgstr "Razão de ações"
 
 #. Label of a Card Break in the Accounting Workspace
 #: erpnext/accounts/workspace/accounting/accounting.json
@@ -600,7 +600,7 @@ msgstr "Transferência de Ações"
 #: erpnext/accounts/report/share_balance/share_balance.py:58
 #: erpnext/accounts/report/share_ledger/share_ledger.py:54
 msgid "Share Type"
-msgstr ""
+msgstr "Tipo de ação"
 
 #. Name of a DocType
 #. Label of a Link in the Accounting Workspace
@@ -616,32 +616,32 @@ msgstr "Acionista"
 #. Label of the shelf_life_in_days (Int) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Shelf Life In Days"
-msgstr ""
+msgstr "Prazo de validade em dias"
 
 #: erpnext/stock/doctype/batch/batch.py:215
 msgid "Shelf Life in Days"
-msgstr ""
+msgstr "Prazo de validade em dias"
 
 #. Label of the shift (Link) field in DocType 'Depreciation Schedule'
 #: erpnext/assets/doctype/asset/asset.js:313
 #: erpnext/assets/doctype/depreciation_schedule/depreciation_schedule.json
 msgid "Shift"
-msgstr ""
+msgstr "Turno"
 
 #. Label of the shift_factor (Float) field in DocType 'Asset Shift Factor'
 #: erpnext/assets/doctype/asset_shift_factor/asset_shift_factor.json
 msgid "Shift Factor"
-msgstr ""
+msgstr "Fator de turno"
 
 #. Label of the shift_name (Data) field in DocType 'Asset Shift Factor'
 #: erpnext/assets/doctype/asset_shift_factor/asset_shift_factor.json
 msgid "Shift Name"
-msgstr ""
+msgstr "Nome do turno"
 
 #. Label of the shift_time_in_hours (Int) field in DocType 'Item Lead Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "Shift Time (In Hours)"
-msgstr ""
+msgstr "Tempo de turno (em horas)"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/delivery_note/delivery_note.js:246
@@ -702,7 +702,7 @@ msgstr "Remessas"
 #. Label of the account (Link) field in DocType 'Shipping Rule'
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
 msgid "Shipping Account"
-msgstr ""
+msgstr "Conta de envio"
 
 #. Label of the shipping_address_display (Text Editor) field in DocType
 #. 'Purchase Order'
@@ -744,22 +744,22 @@ msgstr "O endereço de envio não tem país, o que é necessário para esta regr
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
 #: erpnext/accounts/doctype/shipping_rule_condition/shipping_rule_condition.json
 msgid "Shipping Amount"
-msgstr ""
+msgstr "Valor do envio"
 
 #. Label of the shipping_city (Data) field in DocType 'Tax Rule'
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
 msgid "Shipping City"
-msgstr ""
+msgstr "Cidade de entrega"
 
 #. Label of the shipping_country (Link) field in DocType 'Tax Rule'
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
 msgid "Shipping Country"
-msgstr ""
+msgstr "País de entrega"
 
 #. Label of the shipping_county (Data) field in DocType 'Tax Rule'
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
 msgid "Shipping County"
-msgstr ""
+msgstr "Condado de entrega"
 
 #. Label of the shipping_rule (Link) field in DocType 'POS Invoice'
 #. Label of the shipping_rule (Link) field in DocType 'Purchase Invoice'
@@ -818,12 +818,12 @@ msgstr "Tipo de regra de envio"
 #. Label of the shipping_state (Data) field in DocType 'Tax Rule'
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
 msgid "Shipping State"
-msgstr ""
+msgstr "Estado de entrega"
 
 #. Label of the shipping_zipcode (Data) field in DocType 'Tax Rule'
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
 msgid "Shipping Zipcode"
-msgstr ""
+msgstr "CEP de entrega"
 
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:133
 msgid "Shipping rule not applicable for country {0} in Shipping Address"
@@ -858,42 +858,42 @@ msgstr "Nome Curto"
 #. Label of the short_term_loan (Link) field in DocType 'Invoice Discounting'
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.json
 msgid "Short Term Loan Account"
-msgstr ""
+msgstr "Conta de empréstimo de curto prazo"
 
 #. Description of the 'Bio / Cover Letter' (Text Editor) field in DocType
 #. 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Short biography for website and other publications."
-msgstr ""
+msgstr "Breve biografia para o site e outras publicações."
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:35
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:55
 msgid "Short-term Investments"
-msgstr ""
+msgstr "Investimentos de curto prazo"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:175
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:296
 msgid "Short-term Provisions"
-msgstr ""
+msgstr "Provisões de curto prazo"
 
 #: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:225
 msgid "Shortage Qty"
-msgstr ""
+msgstr "Qtd. em falta"
 
 #: erpnext/selling/report/sales_analytics/sales_analytics.js:103
 msgid "Show Aggregate Value from Subsidiary Companies"
-msgstr ""
+msgstr "Mostrar valor consolidado das empresas subsidiárias"
 
 #. Label of the show_balance_in_coa (Check) field in DocType 'Accounts
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Show Balances in Chart Of Accounts"
-msgstr ""
+msgstr "Mostrar saldos no plano de contas"
 
 #. Label of the show_barcode_field (Check) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Show Barcode Field in Stock Transactions"
-msgstr ""
+msgstr "Mostrar campo de código de barras nas transações de estoque"
 
 #: erpnext/accounts/report/general_ledger/general_ledger.js:192
 msgid "Show Cancelled Entries"
@@ -905,7 +905,7 @@ msgstr "Mostrar Concluído"
 
 #: erpnext/accounts/report/general_ledger/general_ledger.js:202
 msgid "Show Credit / Debit in Company Currency"
-msgstr ""
+msgstr "Mostrar crédito / débito na moeda da empresa"
 
 #: erpnext/accounts/report/budget_variance_report/budget_variance_report.js:106
 msgid "Show Cumulative Amount"

@@ -174,7 +174,7 @@ msgstr "% do total geral"
 #. Label of the per_ordered (Percent) field in DocType 'Material Request'
 #: erpnext/stock/doctype/material_request/material_request.json
 msgid "% Ordered"
-msgstr ""
+msgstr "% do pedido"
 
 #. Label of the per_picked (Percent) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -367,18 +367,18 @@ msgstr "(D) Valor do estoque em saldo"
 #. Description of the 'Capacity' (Int) field in DocType 'Item Lead Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "(Daily Yield * No of Units Produced) / 100"
-msgstr ""
+msgstr "(Rendimento diário * Nº de unidades produzidas) / 100"
 
 #: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:199
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:238
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:141
 msgid "(E) Balance Stock Value in Queue"
-msgstr ""
+msgstr "(E) Valor do estoque em saldo na fila"
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:248
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:151
 msgid "(F) Change in Stock Value"
-msgstr ""
+msgstr "(F) Alteração no valor do estoque"
 
 #: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.py:192
 msgid "(Forecast)"
@@ -393,66 +393,66 @@ msgstr "(G) Soma da alteração no valor do estoque"
 #. Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "(Good Units Produced / Total Units Produced) × 100"
-msgstr ""
+msgstr "(Unidades boas produzidas / Total de unidades produzidas) × 100"
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:263
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:166
 msgid "(H) Change in Stock Value (FIFO Queue)"
-msgstr ""
+msgstr "(H) Alteração no valor do estoque (fila FIFO)"
 
 #: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:209
 msgid "(H) Valuation Rate"
-msgstr ""
+msgstr "(H) Taxa de avaliação"
 
 #. Description of the 'Actual Operating Cost' (Currency) field in DocType 'Work
 #. Order Operation'
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 msgid "(Hour Rate / 60) * Actual Operation Time"
-msgstr ""
+msgstr "(Preço por hora / 60) * Tempo real da operação"
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:273
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:176
 msgid "(I) Valuation Rate"
-msgstr ""
+msgstr "(I) Taxa de avaliação"
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:278
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:181
 msgid "(J) Valuation Rate as per FIFO"
-msgstr ""
+msgstr "(J) Taxa de avaliação conforme FIFO"
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:288
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:191
 msgid "(K) Valuation = Value (D) ÷ Qty (A)"
-msgstr ""
+msgstr "(K) Avaliação = Valor (D) ÷ Qtd. (A)"
 
 #. Description of the 'Applicable on Cumulative Expense' (Check) field in
 #. DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "(Purchase Order + Material Request + Actual Expense)"
-msgstr ""
+msgstr "(Pedido de compra + solicitação de material + despesa real)"
 
 #. Description of the 'No of Units Produced' (Int) field in DocType 'Item Lead
 #. Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "(Total Workstation Time / Manufacturing Time) * 60"
-msgstr ""
+msgstr "(Tempo total do posto de trabalho / Tempo de fabricação) * 60"
 
 #. Description of the 'From No' (Int) field in DocType 'Share Transfer'
 #. Description of the 'To No' (Int) field in DocType 'Share Transfer'
 #: erpnext/accounts/doctype/share_transfer/share_transfer.json
 msgid "(including)"
-msgstr ""
+msgstr "(inclusive)"
 
 #. Description of the 'Sales Taxes and Charges' (Table) field in DocType 'Sales
 #. Taxes and Charges Template'
 #: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.json
 msgid "* Will be calculated in the transaction."
-msgstr ""
+msgstr "* Será calculado na transação."
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:112
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:360
 msgid "0 - 30 Days"
-msgstr ""
+msgstr "0 - 30 dias"
 
 #: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:114
 msgid "0-30"
@@ -460,18 +460,18 @@ msgstr ""
 
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
 msgid "0-30 Days"
-msgstr ""
+msgstr "0-30 dias"
 
 #. Description of the 'Conversion Factor' (Float) field in DocType 'Loyalty
 #. Program'
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
 msgid "1 Loyalty Points = How much base currency?"
-msgstr ""
+msgstr "1 ponto de fidelidade = quanto na moeda base?"
 
 #. Option for the 'Frequency' (Select) field in DocType 'Video Settings'
 #: erpnext/utilities/doctype/video_settings/video_settings.json
 msgid "1 hr"
-msgstr ""
+msgstr "1 h"
 
 #. Option for the 'No of Employees' (Select) field in DocType 'Lead'
 #. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
@@ -509,7 +509,7 @@ msgstr ""
 #. Task'
 #: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
 msgid "2 Yearly"
-msgstr ""
+msgstr "A cada 2 anos"
 
 #. Option for the 'No of Employees' (Select) field in DocType 'Lead'
 #. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
@@ -524,17 +524,17 @@ msgstr ""
 #. Task'
 #: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
 msgid "3 Yearly"
-msgstr ""
+msgstr "A cada 3 anos"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:113
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:361
 msgid "30 - 60 Days"
-msgstr ""
+msgstr "30 - 60 dias"
 
 #. Option for the 'Frequency' (Select) field in DocType 'Video Settings'
 #: erpnext/utilities/doctype/video_settings/video_settings.json
 msgid "30 mins"
-msgstr ""
+msgstr "30 min"
 
 #: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:115
 msgid "30-60"
@@ -542,7 +542,7 @@ msgstr ""
 
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
 msgid "30-60 Days"
-msgstr ""
+msgstr "30-60 dias"
 
 #. Option for the 'No of Employees' (Select) field in DocType 'Lead'
 #. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
@@ -565,12 +565,12 @@ msgstr ""
 #. Option for the 'Frequency' (Select) field in DocType 'Video Settings'
 #: erpnext/utilities/doctype/video_settings/video_settings.json
 msgid "6 hrs"
-msgstr ""
+msgstr "6 h"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:114
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:362
 msgid "60 - 90 Days"
-msgstr ""
+msgstr "60 - 90 dias"
 
 #: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:116
 msgid "60-90"
@@ -578,29 +578,29 @@ msgstr ""
 
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
 msgid "60-90 Days"
-msgstr ""
+msgstr "60-90 dias"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:115
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:363
 msgid "90 - 120 Days"
-msgstr ""
+msgstr "90 - 120 dias"
 
 #: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:117
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
 msgid "90 Above"
-msgstr ""
+msgstr "Acima de 90"
 
 #: erpnext/assets/doctype/asset/asset.py:533
 msgid "<b>Cannot create asset.</b><br><br>You're trying to create <b>{0} asset(s)</b> from {2} {3}.<br>However, only <b>{1} item(s)</b> were purchased and <b>{4} asset(s)</b> already exist against {5}."
-msgstr ""
+msgstr "<b>Não foi possível criar o ativo.</b><br><br>Você está tentando criar <b>{0} ativo(s)</b> a partir de {2} {3}.<br>No entanto, apenas <b>{1} item(s)</b> foram comprados e <b>{4} ativo(s)</b> já existem para {5}."
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.py:61
 msgid "<b>From Time</b> cannot be later than <b>To Time</b> for {0}"
-msgstr ""
+msgstr "<b>Hora inicial</b> não pode ser posterior à <b>Hora final</b> para {0}"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:432
 msgid "<b>Row #{0}:</b> Bundle {1} in warehouse {2} has insufficient packed items:<br><div style='margin-top: 15px;'><ul style='line-height: 0.8;'>{3}</ul></div>"
-msgstr ""
+msgstr "<b>Linha #{0}:</b> O pacote {1} no armazém {2} não tem itens embalados suficientes:<br><div style='margin-top: 15px;'><ul style='line-height: 0.8;'>{3}</ul></div>"
 
 #. Content of the 'Help Text' (HTML) field in DocType 'Process Statement Of
 #. Accounts'
@@ -622,7 +622,22 @@ msgid "<br>\n"
 "<pre><code>Hello {{ customer.customer_name }},<br>PFA your Statement Of Accounts from {{ doc.from_date }} to {{ doc.to_date }}.</code> </pre></li>\n"
 "</ul>\n"
 "<!-- {% endraw %} -->"
-msgstr ""
+msgstr "<br>\n"
+"<h4>Observação</h4>\n"
+"<ul>\n"
+"<li>\n"
+"Você pode usar <a href=\"https://jinja.palletsprojects.com/en/2.11.x/\" target=\"_blank\">tags Jinja</a> nos campos <b>Assunto</b> e <b>Corpo</b> para valores dinâmicos.\n"
+"</li><li>\n"
+"    Todos os campos deste doctype estão disponíveis no objeto <b>doc</b> e todos os campos do cliente que receberá o e-mail estão disponíveis no objeto <b>customer</b>.\n"
+"</li></ul>\n"
+"<h4> Exemplos</h4>\n"
+"<!-- {% raw %} -->\n"
+"<ul>\n"
+"    <li><b>Assunto</b>:<br><br><pre><code>Extrato de contas de {{ customer.customer_name }}</code></pre><br></li>\n"
+"    <li><b>Corpo</b>: <br><br>\n"
+"<pre><code>Olá {{ customer.customer_name }},<br>Segue em anexo seu extrato de contas de {{ doc.from_date }} a {{ doc.to_date }}.</code> </pre></li>\n"
+"</ul>\n"
+"<!-- {% endraw %} -->"
 
 #. Content of the 'Other Details' (HTML) field in DocType 'Purchase Receipt'
 #. Content of the 'Other Details' (HTML) field in DocType 'Subcontracting
@@ -630,13 +645,13 @@ msgstr ""
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "<div class=\"columnHeading\">Other Details</div>"
-msgstr ""
+msgstr "<div class=\"columnHeading\">Outros detalhes</div>"
 
 #. Content of the 'no_bank_transactions' (HTML) field in DocType 'Bank
 #. Reconciliation Tool'
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.json
 msgid "<div class=\"text-muted text-center\">No Matching Bank Transactions Found</div>"
-msgstr ""
+msgstr "<div class=\"text-muted text-center\">Nenhuma transação bancária correspondente encontrada</div>"
 
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:262
 msgid "<div class=\"text-muted text-center\">{0}</div>"
@@ -647,7 +662,9 @@ msgstr ""
 msgid "<div>\n"
 "<h3> All dimensions in centimeter only </h3>\n"
 "</div>"
-msgstr ""
+msgstr "<div>\n"
+"<h3> Todas as dimensões devem estar em centímetros </h3>\n"
+"</div>"
 
 #. Content of the 'about' (HTML) field in DocType 'Product Bundle'
 #: erpnext/selling/doctype/product_bundle/product_bundle.json
@@ -656,7 +673,11 @@ msgid "<h3>About Product Bundle</h3>\n\n"
 "<p>The package <b>Item</b> will have <code>Is Stock Item</code> as <b>No</b> and <code>Is Sales Item</code> as <b>Yes</b>.</p>\n"
 "<h4>Example:</h4>\n"
 "<p>If you are selling Laptops and Backpacks separately and have a special price if the customer buys both, then the Laptop + Backpack will be a new Product Bundle Item.</p>"
-msgstr ""
+msgstr "<h3>Sobre o pacote de produtos</h3>\n\n"
+"<p>Agrupe vários <b>Itens</b> em outro <b>Item</b>. Isso é útil se você estiver reunindo certos <b>Itens</b> em um pacote e controlar o estoque dos <b>Itens</b> embalados, e não do <b>Item</b> agregado.</p>\n"
+"<p>O <b>Item</b> do pacote terá <code>É item de estoque</code> como <b>Não</b> e <code>É item de venda</code> como <b>Sim</b>.</p>\n"
+"<h4>Exemplo:</h4>\n"
+"<p>Se você vende notebooks e mochilas separadamente e tem um preço especial quando o cliente compra ambos, então Notebook + Mochila será um novo Item de pacote de produtos.</p>"
 
 #. Content of the 'Help' (HTML) field in DocType 'Currency Exchange Settings'
 #: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.json
@@ -664,7 +685,10 @@ msgid "<h3>Currency Exchange Settings Help</h3>\n"
 "<p>There are 3 variables that could be used within the endpoint, result key and in values of the parameter.</p>\n"
 "<p>Exchange rate between {from_currency} and {to_currency} on {transaction_date} is fetched by the API.</p>\n"
 "<p>Example: If your endpoint is exchange.com/2021-08-01, then, you will have to input exchange.com/{transaction_date}</p>"
-msgstr ""
+msgstr "<h3>Ajuda das configurações de câmbio</h3>\n"
+"<p>Há 3 variáveis que podem ser usadas no endpoint, na chave do resultado e nos valores do parâmetro.</p>\n"
+"<p>A taxa de câmbio entre {from_currency} e {to_currency} em {transaction_date} é buscada pela API.</p>\n"
+"<p>Exemplo: se o seu endpoint for exchange.com/2021-08-01, então você deverá informar exchange.com/{transaction_date}</p>"
 
 #. Content of the 'Body and Closing Text Help' (HTML) field in DocType 'Dunning
 #. Letter Text'
@@ -675,7 +699,12 @@ msgid "<h4>Body Text and Closing Text Example</h4>\n\n"
 "<p>The fieldnames you can use in your template are the fields in the document. You can find out the fields of any documents via Setup &gt; Customize Form View and selecting the document type (e.g. Sales Invoice)</p>\n\n"
 "<h4>Templating</h4>\n\n"
 "<p>Templates are compiled using the Jinja Templating Language. To learn more about Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">read this documentation.</a></p>"
-msgstr ""
+msgstr "<h4>Exemplo de texto do corpo e texto de fechamento</h4>\n\n"
+"<div>Notamos que você ainda não pagou a fatura {{sales_invoice}} no valor de {{frappe.db.get_value(\"Currency\", currency, \"symbol\")}} {{outstanding_amount}}. Este é um lembrete amigável de que a fatura venceu em {{due_date}}. Pague o valor em aberto imediatamente para evitar novos custos de cobrança.</div>\n\n"
+"<h4>Como obter nomes de campos</h4>\n\n"
+"<p>Os nomes de campos que você pode usar no seu modelo são os campos do documento. Você pode localizar os campos de qualquer documento em Configuração &gt; Personalizar formulário e selecionando o tipo de documento (ex.: Fatura de venda)</p>\n\n"
+"<h4>Modelos</h4>\n\n"
+"<p>Os modelos são compilados usando a linguagem de template Jinja. Para saber mais sobre Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">leia esta documentação.</a></p>"
 
 #. Content of the 'Contract Template Help' (HTML) field in DocType 'Contract
 #. Template'
@@ -689,7 +718,15 @@ msgid "<h4>Contract Template Example</h4>\n\n"
 "<p>The field names you can use in your Contract Template are the fields in the Contract for which you are creating the template. You can find out the fields of any documents via Setup &gt; Customize Form View and selecting the document type (e.g. Contract)</p>\n\n"
 "<h4>Templating</h4>\n\n"
 "<p>Templates are compiled using the Jinja Templating Language. To learn more about Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">read this documentation.</a></p>"
-msgstr ""
+msgstr "<h4>Exemplo de modelo de contrato</h4>\n\n"
+"<pre>Contrato do cliente {{ party_name }}\n\n"
+"-Data de início : {{ start_date }} \n"
+"-Data de término : {{ end_date }}\n"
+"</pre>\n\n"
+"<h4>Como obter nomes de campos</h4>\n\n"
+"<p>Os nomes de campos que você pode usar no seu modelo de contrato são os campos do Contrato para o qual você está criando o modelo. Você pode localizar os campos de qualquer documento em Configuração &gt; Personalizar formulário e selecionando o tipo de documento (ex.: Contrato)</p>\n\n"
+"<h4>Modelos</h4>\n\n"
+"<p>Os modelos são compilados usando a linguagem de template Jinja. Para saber mais sobre Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">leia esta documentação.</a></p>"
 
 #. Content of the 'Terms and Conditions Help' (HTML) field in DocType 'Terms
 #. and Conditions'
@@ -703,53 +740,61 @@ msgid "<h4>Standard Terms and Conditions Example</h4>\n\n"
 "<p>The fieldnames you can use in your email template are the fields in the document from which you are sending the email. You can find out the fields of any documents via Setup &gt; Customize Form View and selecting the document type (e.g. Sales Invoice)</p>\n\n"
 "<h4>Templating</h4>\n\n"
 "<p>Templates are compiled using the Jinja Templating Language. To learn more about Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">read this documentation.</a></p>"
-msgstr ""
+msgstr "<h4>Exemplo padrão de termos e condições</h4>\n\n"
+"<pre>Termos de entrega do pedido número {{ name }}\n\n"
+"-Data do pedido : {{ transaction_date }} \n"
+"-Data prevista de entrega : {{ delivery_date }}\n"
+"</pre>\n\n"
+"<h4>Como obter nomes de campos</h4>\n\n"
+"<p>Os nomes de campos que você pode usar no seu modelo de e-mail são os campos do documento do qual você está enviando o e-mail. Você pode localizar os campos de qualquer documento em Configuração &gt; Personalizar formulário e selecionando o tipo de documento (ex.: Fatura de venda)</p>\n\n"
+"<h4>Modelos</h4>\n\n"
+"<p>Os modelos são compilados usando a linguagem de template Jinja. Para saber mais sobre Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">leia esta documentação.</a></p>"
 
 #. Content of the 'account_no_settings' (HTML) field in DocType 'Cheque Print
 #. Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
 msgid "<label class=\"control-label\" style=\"margin-bottom: 0px;\">Account Number Settings</label>"
-msgstr ""
+msgstr "<label class=\"control-label\" style=\"margin-bottom: 0px;\">Configurações do número da conta</label>"
 
 #. Content of the 'html_19' (HTML) field in DocType 'Cheque Print Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
 msgid "<label class=\"control-label\" style=\"margin-bottom: 0px;\">Amount In Words</label>"
-msgstr ""
+msgstr "<label class=\"control-label\" style=\"margin-bottom: 0px;\">Valor por extenso</label>"
 
 #. Content of the 'Date Settings' (HTML) field in DocType 'Cheque Print
 #. Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
 msgid "<label class=\"control-label\" style=\"margin-bottom: 0px;\">Date Settings</label>"
-msgstr ""
+msgstr "<label class=\"control-label\" style=\"margin-bottom: 0px;\">Configurações de data</label>"
 
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:123
 msgid "<li>Clearance date must be after cheque date for row(s): {0}</li>"
-msgstr ""
+msgstr "<li>A data de compensação deve ser posterior à data do cheque para a(s) linha(s): {0}</li>"
 
 #: erpnext/controllers/accounts_controller.py:2261
 msgid "<li>Item {0} in row(s) {1} billed more than {2}</li>"
-msgstr ""
+msgstr "<li>O item {0} na(s) linha(s) {1} foi faturado acima de {2}</li>"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:423
 msgid "<li>Packed Item {0}: Required {1}, Available {2}</li>"
-msgstr ""
+msgstr "<li>Item embalado {0}: necessário {1}, disponível {2}</li>"
 
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:118
 msgid "<li>Payment document required for row(s): {0}</li>"
-msgstr ""
+msgstr "<li>Documento de pagamento obrigatório para a(s) linha(s): {0}</li>"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:163
 #: erpnext/utilities/bulk_transaction.py:35
 msgid "<li>{}</li>"
-msgstr ""
+msgstr "<li>{}</li>"
 
 #: erpnext/controllers/accounts_controller.py:2258
 msgid "<p>Cannot overbill for the following Items:</p>"
-msgstr ""
+msgstr "<p>Não é possível faturar além do valor para os seguintes itens:</p>"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:157
 msgid "<p>Following {0}s doesn't belong to Company {1} :</p>"
-msgstr ""
+msgstr "<p>Os seguintes {0}s não pertencem à empresa {1}:</p>"
 
 #. Content of the 'html_llwp' (HTML) field in DocType 'Request for Quotation'
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
@@ -777,11 +822,11 @@ msgstr ""
 
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:116
 msgid "<p>Please correct the following row(s):</p><ul>"
-msgstr ""
+msgstr "<p>Corrija a(s) seguinte(s) linha(s):</p><ul>"
 
 #: erpnext/controllers/buying_controller.py:121
 msgid "<p>Posting Date {0} cannot be before Purchase Order date for the following:</p><ul>"
-msgstr ""
+msgstr "<p>A data de lançamento {0} não pode ser anterior à data do pedido de compra para os seguintes:</p><ul>"
 
 #: erpnext/stock/doctype/stock_settings/stock_settings.js:69
 msgid "<p>Price List Rate has not been set as editable in Selling Settings. In this scenario, setting <strong>Update Price List Based On</strong> to <strong>Price List Rate</strong> will prevent auto-updation of Item Price.</p>Are you sure you want to continue?"
@@ -789,7 +834,7 @@ msgstr ""
 
 #: erpnext/controllers/accounts_controller.py:2270
 msgid "<p>To allow over-billing, please set allowance in Accounts Settings.</p>"
-msgstr ""
+msgstr "<p>Para permitir superfaturamento, defina a tolerância nas Configurações de contas.</p>"
 
 #. Content of the 'Message Examples' (HTML) field in DocType 'Payment Gateway
 #. Account'
@@ -814,19 +859,19 @@ msgstr ""
 #. Header text in the Stock Workspace
 #: erpnext/stock/workspace/stock/stock.json
 msgid "<span class=\"h4\"><b>Masters &amp; Reports</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>Cadastros &amp; Relatórios</b></span>"
 
 #. Header text in the Selling Workspace
 #. Header text in the Stock Workspace
 #: erpnext/selling/workspace/selling/selling.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "<span class=\"h4\"><b>Quick Access</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>Acesso rápido</b></span>"
 
 #. Header text in the Assets Workspace
 #: erpnext/assets/workspace/assets/assets.json
 msgid "<span class=\"h4\"><b>Reports & Masters</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>Relatórios e cadastros</b></span>"
 
 #. Header text in the Accounting Workspace
 #. Header text in the Payables Workspace
@@ -851,19 +896,19 @@ msgstr ""
 #: erpnext/setup/workspace/home/home.json
 #: erpnext/support/workspace/support/support.json
 msgid "<span class=\"h4\"><b>Reports &amp; Masters</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>Relatórios &amp; cadastros</b></span>"
 
 #. Header text in the Payables Workspace
 #. Header text in the Receivables Workspace
 #: erpnext/accounts/workspace/payables/payables.json
 #: erpnext/accounts/workspace/receivables/receivables.json
 msgid "<span class=\"h4\"><b>Shortcuts</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>Atalhos</b></span>"
 
 #. Header text in the Subcontracting Workspace
 #: erpnext/subcontracting/workspace/subcontracting/subcontracting.json
 msgid "<span class=\"h4\"><b>Subcontracting Inward and Outward</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>Subcontratação de entrada e saída</b></span>"
 
 #. Header text in the Settings Workspace
 #: erpnext/setup/workspace/settings/settings.json
@@ -874,7 +919,13 @@ msgid "<span class=\"h4\"><b>Your Shortcuts\n"
 "\t\t\n"
 "\t\t\t\n"
 "\t\t</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>Seus atalhos\n"
+"\t\t\t\n"
+"\t\t\n"
+"\t\t\t\n"
+"\t\t\n"
+"\t\t\t\n"
+"\t\t</b></span>"
 
 #. Header text in the Assets Workspace
 #. Header text in the Buying Workspace
@@ -893,15 +944,15 @@ msgstr ""
 #: erpnext/setup/workspace/home/home.json
 #: erpnext/support/workspace/support/support.json
 msgid "<span class=\"h4\"><b>Your Shortcuts</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>Seus atalhos</b></span>"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:1002
 msgid "<strong>Grand Total:</strong> {0}"
-msgstr ""
+msgstr "<strong>Total geral:</strong> {0}"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:1003
 msgid "<strong>Outstanding Amount:</strong> {0}"
-msgstr ""
+msgstr "<strong>Valor em aberto:</strong> {0}"
 
 #. Content of the 'html_19' (HTML) field in DocType 'Inventory Dimension'
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
@@ -931,7 +982,32 @@ msgid "<table class=\"table table-bordered table-condensed\">\n"
 "</tr>\n\n"
 "</tbody>\n"
 "</table>\n\n\n\n\n\n\n"
-msgstr ""
+msgstr "<table class=\"table table-bordered table-condensed\">\n"
+"<thead>\n"
+"  <tr>\n"
+"         <th class=\"table-sr\" style=\"width: 50%;\">Documento filho</th>\n"
+"         <th class=\"table-sr\" style=\"width: 50%;\">Documento não filho</th>\n"
+"   </tr>\n"
+"</thead>\n"
+"<tbody>\n"
+"<tr>\n"
+"         <td>\n"
+"                  <p> Para acessar um campo do documento pai, use parent.fieldname e, para acessar um campo do documento da tabela filha, use doc.fieldname </p>\n\n"
+"         </td>\n"
+"         <td>\n"
+"                    <p>Para acessar um campo do documento, use doc.fieldname </p>\n"
+"         </td>\n"
+"</tr>\n"
+"<tr>\n"
+"        <td>\n"
+"                   <p><b>Exemplo: </b> parent.doctype == \"Stock Entry\" and doc.item_code == \"Test\" </p>\n\n"
+"        </td>\n"
+"         <td>\n"
+"                   <p><b>Exemplo: </b> doc.doctype == \"Stock Entry\" and doc.purpose == \"Manufacture\"</p>    \n"
+"          </td>\n"
+"</tr>\n\n"
+"</tbody>\n"
+"</table>\n\n\n\n\n\n\n"
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:213
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:116

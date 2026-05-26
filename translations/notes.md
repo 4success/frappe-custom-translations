@@ -62,6 +62,102 @@ Use this file to capture ambiguous strings, terminology conflicts, and decisions
 
 ## Open Notes
 
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-025.po`
+- `msgid`: `Invalid Serial and Batch Bundle` / `Is Short/Long Year` / `Is Opening`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: `Pacote inválido de número de série e lote` / `É ano curto/longo` / `É abertura`
+- Why this is ambiguous: ainda falta padronizar a família `Serial and Batch Bundle` (`pacote` vs `conjunto`), decidir se `Fiscal Year` deve preferir `ano` ou `exercício`, e alinhar `Is Opening` com a família já usada em `lançamento de abertura`.
+- Decision: aplicar as traduções acima nesta passada por contexto local, mas revisar se o projeto fechar uma convenção mais ampla.
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-027.po`
+- `msgid`: `Joule`, `Kelvin`, `Kg`, `Kip`, `LIFO`, `Lft`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: mistura nomes canonicos de unidade, sigla contábil/metodológica e abreviacao tecnica (`Lft`) em que localizar pode piorar a consistencia ou inventar significado.
+- Decision: mantidos vazios nesta passada por seguranca; revisar apenas se o projeto adotar convencao explicita para esses identificadores
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-045.po`
+- `msgid`: `SCIO Detail` / `SCO Supplied Item`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: siglas tecnicas internas sem expansao clara no contexto do campo; traduzir arrisca inventar o significado.
+- Decision: manter sem traducao por seguranca ate haver definicao funcional oficial
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-048.po`
+- `msgid`: `Shipping County`
+- Current `msgstr`: `Condado de entrega`
+- Proposed `msgstr`: manter como esta por enquanto
+- Why this is ambiguous: `county` e divisao administrativa pouco natural em pt-BR e a melhor adaptacao depende do mercado/pais alvo da tela fiscal.
+- Decision: manter `Condado de entrega` nesta passada e revisar se o projeto preferir outro termo neutro
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-049.po`
+- `msgid`: `Skip Material Transfer to WIP` / `Skip Material Transfer to WIP Warehouse`
+- Current `msgstr`: `Ignorar transferência de material para WIP` / `Ignorar transferência de material para o depósito WIP`
+- Proposed `msgstr`: manter como esta por enquanto
+- Why this is ambiguous: o glossario recomenda expandir `Work in Progress` quando possivel, mas aqui a sigla pode ser a convencao visivel do produto e a area de tela pode pedir brevidade.
+- Decision: manter `WIP` por ora; revisar se o projeto padronizar a expansao nesses rotulos
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-036.po`, `batch-038.po`, `batch-039.po`, `batch-040.po`
+- `msgid`: `Pint (UK)`, `Pint (US)`, `Pint, Dry (US)`, `Pint, Liquid (US)`, `Pond`, `Pood`, `Pound`, `Pound-Force`, `Pound/Cubic Foot`, `Pound/Cubic Inch`, `Pound/Cubic Yard`, `Pound/Gallon (UK)`, `Pound/Gallon (US)`, `Poundal`, `Psi/1000 Feet`, `Quart (UK)`, `Quart Dry (US)`, `Quart Liquid (US)`, `Private Equity`, `Please enable Use Old Serial / Batch Fields to make_bundle`, `Progress % for a task cannot be more than 100.`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: mistura nomes padronizados de UOM, termo de mercado normalmente mantido em ingles, uma mensagem com identificador code-like (`make_bundle`) e um texto com `python-format` inconsistente no source (`Progress % ...`), em que traduzir aumenta o risco ou quebra a validacao.
+- Decision: mantidos vazios nesta passada por seguranca; revisar apenas se surgir convencao explicita do produto ou correcao do source
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-009.po`
+- `msgid`: `Bisecting Right ...` / `Bisecting To`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: `bisect` parece tecnico e o contexto funcional nao basta para escolher uma traducao natural e segura em pt-BR.
+- Decision: manter sem alteracao por ora ate haver contexto de produto mais claro
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-001.po`
+- `msgid`: `A - B` / `A - C`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: sao expressoes de formula/abreviacao em relatorio tecnico; traduzir nao agrega valor e pode quebrar a leitura do relatorio.
+- Decision: manter sem alteracao por seguranca
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-021.po`
+- `msgid`: `G - D`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: abreviacao de formula em relatorio tecnico sem contexto suficiente para localizar com seguranca.
+- Decision: manter sem alteracao por seguranca
+
+- Project: frappe
+- File: `translations/projects/frappe/reviewed/batch-018.po`, `batch-019.po`, `batch-020.po`, `batch-033.po`, `batch-038.po`
+- `msgid`: `Ledger`, `Legal`, `Master`, `Message-id`, `Mx`, `MyISAM`, `Timeless Launchpad`, `Timeless Night`, `login_required`, `nonce`, `old_parent`, `plain`, `s256`, `{0} ${skip_list ? "" : type}`, `{0} ${type}`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: mistura tamanhos padronizados de papel, honorificos, identificadores tecnicos/protocolares, nomes de tema e expressoes JS em que traduzir aumenta o risco.
+- Decision: mantidos vazios nesta passada por seguranca; revisar apenas se surgir convencao explicita do produto
+
+- Project: frappe
+- File: `translations/projects/frappe/reviewed/batch-013.po`
+- `msgid`: `Folio`
+- Current `msgstr`: `Fólio`
+- Proposed `msgstr`: manter como está por enquanto
+- Why this is ambiguous: em contexto de tamanho de página/PDF, `Folio` pode funcionar como nome técnico do formato de papel e alguns projetos optam por não localizar esse tipo de rótulo.
+- Decision: manter `Fólio` por ora; revisar se o projeto quiser padronizar nomes de formatos de papel em inglês
+
+- Project: frappe
+- File: `translations/projects/frappe/reviewed/batch-016.po`
+- `msgid`: `Introspection URI`
+- Current `msgstr`: `Introspection URI`
+- Proposed `msgstr`: manter como está
+- Why this is ambiguous: trata-se de rótulo técnico de OAuth/OpenID e traduzir `Introspection` pode colidir com terminologia de protocolo.
+- Decision: manter em inglês por segurança terminológica
+
 - Project: crm
 - File: `translations/projects/crm/reviewed/batch-008.po`
 - `msgid`: `Rolling Response Due` / `Rolling Responses`
@@ -109,6 +205,38 @@ Use this file to capture ambiguous strings, terminology conflicts, and decisions
 - Proposed `msgstr`: manter sem alteracao por ora
 - Why this is ambiguous: em SLA pode funcionar como status, prazo vencido ou rotulo de prazo de resolucao.
 - Decision: manter sem alteracao por ora para nao fixar um termo incorreto no fluxo de suporte
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-022.po`
+- `msgid`: `H - F` / `I - J` / `I - K`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: parecem marcadores tecnicos de relatorio/formula por faixa de letras; traduzir nao agrega valor e pode atrapalhar a leitura do relatorio.
+- Decision: manter sem traducao por seguranca
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-041.po`
+- `msgid`: `Raw Material Voucher No` / `Raw Material Voucher Type`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: `Nº do comprovante de matéria-prima` / `Tipo de comprovante de matéria-prima`
+- Why this is ambiguous: `Voucher` no ERPNext pode oscilar entre `comprovante`, `documento` e `lancamento` conforme o relatorio.
+- Decision: usar a familia `comprovante` por consistencia com outras entradas de `Voucher No` / `Voucher Type`; revisar se este relatorio adotar outra convencao
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-042.po`
+- `msgid`: `Request for`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: `Solicitar para`
+- Why this is ambiguous: como rotulo do campo `warehouse` em `Item Reorder`, o texto-fonte e curto demais e pode pedir formulacoes como `Solicitar para`, `Solicitar de` ou `Solicitar ao atingir` dependendo da UX.
+- Decision: usar `Solicitar para` por enquanto e revisar se surgir contexto de tela mais claro
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-043.po`
+- `msgid`: `Resolution Due`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: `Prazo de resolução`
+- Why this is ambiguous: em SLA pode representar status, prazo de resolucao ou estado de vencimento, e o source sozinho nao fixa isso.
+- Decision: usar `Prazo de resolução` por proximidade com a familia `Response By` / `Resolution Time`; revisar se o produto exigir leitura mais claramente status
 
 - Project: `erpnext`
 - File: `translations/projects/erpnext/reviewed/batch-047.po`
@@ -173,6 +301,7 @@ Use this file to capture ambiguous strings, terminology conflicts, and decisions
 - Proposed `msgstr`: manter sem alteracao por ora
 - Why this is ambiguous: o mesmo `msgid` cobre a unidade de medida `Minute` e tambem o campo singular de ata/reuniao; o contexto agrupado nao permite uma traducao unica sem risco.
 - Decision: mantido sem alteracao por ora
+
 
 - Project: `erpnext`
 - File: `translations/projects/erpnext/reviewed/batch-028.po`

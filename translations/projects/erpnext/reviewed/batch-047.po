@@ -79,7 +79,7 @@ msgstr "Selecione os itens até a data de entrega"
 #. Receipt'
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Select Job Worker Address"
-msgstr ""
+msgstr "Selecione o endereço do terceirizado"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:1151
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:955
@@ -135,7 +135,7 @@ msgstr "Selecione a visualização"
 
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:251
 msgid "Select Vouchers to Match"
-msgstr ""
+msgstr "Selecione os comprovantes para conciliar"
 
 #: erpnext/public/js/stock_analytics.js:72
 msgid "Select Warehouse..."
@@ -143,7 +143,7 @@ msgstr "Selecione o depósito..."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:551
 msgid "Select Warehouses to get Stock for Materials Planning"
-msgstr ""
+msgstr "Selecione os armazéns para obter o estoque no planejamento de materiais"
 
 #: erpnext/public/js/communication.js:80
 msgid "Select a Company"
@@ -226,7 +226,7 @@ msgstr "Selecione a conta bancária para conciliar."
 
 #: erpnext/manufacturing/doctype/operation/operation.js:25
 msgid "Select the Default Workstation where the Operation will be performed. This will be fetched in BOMs and Work Orders."
-msgstr ""
+msgstr "Selecione o posto de trabalho padrão onde a operação será executada. Isso será buscado nas BOMs e ordens de trabalho."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1121
 msgid "Select the Item to be manufactured."
@@ -234,7 +234,7 @@ msgstr "Selecione o item a ser fabricado."
 
 #: erpnext/manufacturing/doctype/bom/bom.js:928
 msgid "Select the Item to be manufactured. The Item name, UoM, Company, and Currency will be fetched automatically."
-msgstr ""
+msgstr "Selecione o item a ser fabricado. O nome do item, a UOM, a empresa e a moeda serão buscados automaticamente."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:432
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:445
@@ -255,7 +255,7 @@ msgstr "Selecione a data e seu fuso horário"
 
 #: erpnext/manufacturing/doctype/bom/bom.js:947
 msgid "Select the raw materials (Items) required to manufacture the Item"
-msgstr ""
+msgstr "Selecione as matérias-primas (itens) necessárias para fabricar o item"
 
 #: erpnext/manufacturing/doctype/bom/bom.js:459
 msgid "Select variant item code for the template item {0}"
@@ -264,7 +264,8 @@ msgstr "Selecione o código do item variante para o item modelo {0}"
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:707
 msgid "Select whether to get items from a Sales Order or a Material Request. For now select <b>Sales Order</b>.\n"
 " A Production Plan can also be created manually where you can select the Items to manufacture."
-msgstr ""
+msgstr "Selecione se os itens devem vir de um pedido de venda ou de uma solicitação de material. Por enquanto, selecione <b>Pedido de Venda</b>.\n"
+" Um plano de produção também pode ser criado manualmente, no qual você pode selecionar os itens a fabricar."
 
 #: erpnext/setup/doctype/holiday_list/holiday_list.js:65
 msgid "Select your weekly off day"
@@ -274,7 +275,7 @@ msgstr "Selecione seu dia de folga semanal"
 #. DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Select, to make the customer searchable with these fields"
-msgstr ""
+msgstr "Selecione para tornar o cliente pesquisável por estes campos"
 
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:77
 msgid "Selected POS Opening Entry should be open."
@@ -290,13 +291,13 @@ msgstr "O formato de impressão selecionado não existe."
 
 #: erpnext/stock/report/incorrect_serial_and_batch_bundle/incorrect_serial_and_batch_bundle.py:163
 msgid "Selected Serial and Batch Bundle entries have been fixed."
-msgstr ""
+msgstr "As entradas selecionadas do pacote de série e lote foram corrigidas."
 
 #. Label of the repost_vouchers (Table) field in DocType 'Repost Payment
 #. Ledger'
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.json
 msgid "Selected Vouchers"
-msgstr ""
+msgstr "Comprovantes selecionados"
 
 #: erpnext/www/book_appointment/index.html:43
 msgid "Selected date is"
@@ -309,7 +310,7 @@ msgstr "O documento selecionado deve estar no estado enviado"
 #. Option for the 'Pickup Type' (Select) field in DocType 'Shipment'
 #: erpnext/stock/doctype/shipment/shipment.json
 msgid "Self delivery"
-msgstr ""
+msgstr "Entrega própria"
 
 #: erpnext/stock/doctype/batch/batch_dashboard.py:9
 #: erpnext/stock/doctype/item/item_dashboard.py:20
@@ -443,7 +444,7 @@ msgstr "Envia relatórios de resumo periódicos por e-mail."
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
 msgid "Send to Subcontractor"
-msgstr ""
+msgstr "Enviar para subcontratado"
 
 #. Label of the send_with_attachment (Check) field in DocType 'Delivery
 #. Settings'
@@ -468,13 +469,13 @@ msgstr "Sequencial"
 #. 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Serial & Batch Item"
-msgstr ""
+msgstr "Item de série e lote"
 
 #. Label of the section_break_7 (Section Break) field in DocType 'Stock
 #. Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Serial & Batch Item Settings"
-msgstr ""
+msgstr "Configurações de item de série e lote"
 
 #. Label of the serial_and_batch_bundle (Link) field in DocType 'Stock
 #. Reconciliation Item'
@@ -483,21 +484,21 @@ msgstr ""
 #: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
 msgid "Serial / Batch Bundle"
-msgstr ""
+msgstr "Pacote de série / lote"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:487
 msgid "Serial / Batch Bundle Missing"
-msgstr ""
+msgstr "Pacote de série / lote ausente"
 
 #. Label of the serial_no_and_batch_no_tab (Section Break) field in DocType
 #. 'Serial and Batch Bundle'
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
 msgid "Serial / Batch No"
-msgstr ""
+msgstr "Nº de série / lote"
 
 #: erpnext/public/js/utils.js:126
 msgid "Serial / Batch Nos"
-msgstr ""
+msgstr "Nºs de série / lote"
 
 #. Label of the serial_no (Text) field in DocType 'POS Invoice Item'
 #. Label of the serial_no (Text) field in DocType 'Purchase Invoice Item'
@@ -576,17 +577,17 @@ msgstr "Número de série"
 
 #: erpnext/stock/report/available_serial_no/available_serial_no.py:140
 msgid "Serial No (In/Out)"
-msgstr ""
+msgstr "Nº de série (entrada/saída)"
 
 #. Label of the serial_no_batch (Section Break) field in DocType 'Stock Entry
 #. Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Serial No / Batch"
-msgstr ""
+msgstr "Nº de série / lote"
 
 #: erpnext/controllers/selling_controller.py:106
 msgid "Serial No Already Assigned"
-msgstr ""
+msgstr "Número de série já atribuído"
 
 #: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.py:33
 msgid "Serial No Count"
@@ -597,40 +598,40 @@ msgstr "Contagem de números de série"
 #: erpnext/stock/report/serial_no_ledger/serial_no_ledger.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Serial No Ledger"
-msgstr ""
+msgstr "Razão de números de série"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:259
 msgid "Serial No Range"
-msgstr ""
+msgstr "Faixa de números de série"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:2317
 msgid "Serial No Reserved"
-msgstr ""
+msgstr "Número de série reservado"
 
 #: erpnext/stock/doctype/item/item.py:426
 msgid "Serial No Series Overlap"
-msgstr ""
+msgstr "Sobreposição de série de números de série"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
 #: erpnext/stock/report/serial_no_service_contract_expiry/serial_no_service_contract_expiry.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Serial No Service Contract Expiry"
-msgstr ""
+msgstr "Vencimento do contrato de serviço do número de série"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
 #: erpnext/stock/report/serial_no_status/serial_no_status.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Serial No Status"
-msgstr ""
+msgstr "Status do número de série"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
 #: erpnext/stock/report/serial_no_warranty_expiry/serial_no_warranty_expiry.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Serial No Warranty Expiry"
-msgstr ""
+msgstr "Vencimento da garantia do número de série"
 
 #. Label of the serial_no_and_batch_section (Section Break) field in DocType
 #. 'Pick List Item'
@@ -645,71 +646,71 @@ msgstr "Número de Série e Lote"
 
 #: erpnext/stock/doctype/stock_settings/stock_settings.js:28
 msgid "Serial No and Batch Selector cannot be use when Use Serial / Batch Fields is enabled."
-msgstr ""
+msgstr "O seletor de número de série e lote não pode ser usado quando Usar campos de série / lote estiver habilitado."
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
 #: erpnext/stock/report/serial_no_and_batch_traceability/serial_no_and_batch_traceability.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Serial No and Batch Traceability"
-msgstr ""
+msgstr "Rastreabilidade de número de série e lote"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1072
 msgid "Serial No is mandatory"
-msgstr ""
+msgstr "O número de série é obrigatório"
 
 #: erpnext/selling/doctype/installation_note/installation_note.py:77
 msgid "Serial No is mandatory for Item {0}"
-msgstr ""
+msgstr "O número de série é obrigatório para o item {0}"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:590
 msgid "Serial No {0} already exists"
-msgstr ""
+msgstr "O número de série {0} já existe"
 
 #: erpnext/public/js/utils/barcode_scanner.js:342
 msgid "Serial No {0} already scanned"
-msgstr ""
+msgstr "O número de série {0} já foi lido"
 
 #: erpnext/selling/doctype/installation_note/installation_note.py:94
 msgid "Serial No {0} does not belong to Delivery Note {1}"
-msgstr ""
+msgstr "O número de série {0} não pertence à nota de entrega {1}"
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:321
 msgid "Serial No {0} does not belong to Item {1}"
-msgstr ""
+msgstr "O número de série {0} não pertence ao item {1}"
 
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.py:52
 #: erpnext/selling/doctype/installation_note/installation_note.py:84
 msgid "Serial No {0} does not exist"
-msgstr ""
+msgstr "O número de série {0} não existe"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:3025
 msgid "Serial No {0} does not exists"
-msgstr ""
+msgstr "O número de série {0} não existe"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:327
 msgid "Serial No {0} is already Delivered. You cannot use them again in Manufacture / Repack entry."
-msgstr ""
+msgstr "O número de série {0} já foi entregue. Você não pode usá-lo novamente em uma entrada de fabricação / reembalagem."
 
 #: erpnext/public/js/utils/barcode_scanner.js:435
 msgid "Serial No {0} is already added"
-msgstr ""
+msgstr "O número de série {0} já foi adicionado"
 
 #: erpnext/controllers/selling_controller.py:103
 msgid "Serial No {0} is already assigned to customer {1}. Can only be returned against the customer {1}"
-msgstr ""
+msgstr "O número de série {0} já está atribuído ao cliente {1}. Ele só pode ser devolvido para o cliente {1}"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:399
 msgid "Serial No {0} is not present in the {1} {2}, hence you can't return it against the {1} {2}"
-msgstr ""
+msgstr "O número de série {0} não está presente em {1} {2}; portanto, você não pode devolvê-lo para {1} {2}"
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:338
 msgid "Serial No {0} is under maintenance contract upto {1}"
-msgstr ""
+msgstr "O número de série {0} está sob contrato de manutenção até {1}"
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:331
 msgid "Serial No {0} is under warranty upto {1}"
-msgstr ""
+msgstr "O número de série {0} está na garantia até {1}"
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:317
 msgid "Serial No {0} not found"
@@ -724,34 +725,34 @@ msgstr "Número de série: {0} já foi transacionado para outra fatura de PDV."
 #: erpnext/public/js/utils/serial_no_batch_selector.js:190
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:50
 msgid "Serial Nos"
-msgstr ""
+msgstr "Números de série"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:20
 #: erpnext/public/js/utils/serial_no_batch_selector.js:194
 msgid "Serial Nos / Batch Nos"
-msgstr ""
+msgstr "Números de série / números de lote"
 
 #. Label of the serial_nos_and_batches (Section Break) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Serial Nos and Batches"
-msgstr ""
+msgstr "Números de série e lotes"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1636
 msgid "Serial Nos are created successfully"
-msgstr ""
+msgstr "Os números de série foram criados com sucesso"
 
 #: erpnext/stock/stock_ledger.py:2307
 msgid "Serial Nos are reserved in Stock Reservation Entries, you need to unreserve them before proceeding."
-msgstr ""
+msgstr "Os números de série estão reservados em entradas de reserva de estoque; você precisa cancelar a reserva antes de prosseguir."
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:333
 msgid "Serial Nos {0} are already Delivered. You cannot use them again in Manufacture / Repack entry."
-msgstr ""
+msgstr "Os números de série {0} já foram entregues. Você não pode usá-los novamente em uma entrada de fabricação / reembalagem."
 
 #. Label of the serial_no_series (Data) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Serial Number Series"
-msgstr ""
+msgstr "Série de números de série"
 
 #. Label of the item_details_tab (Tab Break) field in DocType 'Serial and Batch
 #. Bundle'
@@ -760,7 +761,7 @@ msgstr ""
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
 msgid "Serial and Batch"
-msgstr ""
+msgstr "Série e lote"
 
 #. Label of the serial_and_batch_bundle (Link) field in DocType 'POS Invoice
 #. Item'
@@ -816,34 +817,34 @@ msgstr ""
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:177
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Serial and Batch Bundle"
-msgstr ""
+msgstr "Pacote de série e lote"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1858
 msgid "Serial and Batch Bundle created"
-msgstr ""
+msgstr "Pacote de série e lote criado"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1930
 msgid "Serial and Batch Bundle updated"
-msgstr ""
+msgstr "Pacote de série e lote atualizado"
 
 #: erpnext/controllers/stock_controller.py:155
 msgid "Serial and Batch Bundle {0} is already used in {1} {2}."
-msgstr ""
+msgstr "O pacote de série e lote {0} já é usado em {1} {2}."
 
 #: erpnext/stock/serial_batch_bundle.py:351
 msgid "Serial and Batch Bundle {0} is not submitted"
-msgstr ""
+msgstr "O pacote de série e lote {0} não foi enviado"
 
 #. Label of the section_break_45 (Section Break) field in DocType
 #. 'Subcontracting Receipt Item'
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Serial and Batch Details"
-msgstr ""
+msgstr "Detalhes de série e lote"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
 msgid "Serial and Batch Entry"
-msgstr ""
+msgstr "Entrada de série e lote"
 
 #. Label of the section_break_40 (Section Break) field in DocType 'Delivery
 #. Note Item'
@@ -852,17 +853,17 @@ msgstr ""
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Serial and Batch No"
-msgstr ""
+msgstr "Nº de série e lote"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:53
 msgid "Serial and Batch Nos"
-msgstr ""
+msgstr "Nºs de série e lote"
 
 #. Description of the 'Auto Reserve Serial and Batch Nos' (Check) field in
 #. DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Serial and Batch Nos will be auto-reserved based on <b>Pick Serial / Batch Based On</b>"
-msgstr ""
+msgstr "Os números de série e lote serão reservados automaticamente com base em <b>Separar série / lote com base em</b>"
 
 #. Label of the serial_and_batch_reservation_section (Tab Break) field in
 #. DocType 'Stock Reservation Entry'
@@ -871,12 +872,12 @@ msgstr ""
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Serial and Batch Reservation"
-msgstr ""
+msgstr "Reserva de série e lote"
 
 #. Name of a report
 #: erpnext/stock/report/serial_and_batch_summary/serial_and_batch_summary.json
 msgid "Serial and Batch Summary"
-msgstr ""
+msgstr "Resumo de série e lote"
 
 #: erpnext/stock/utils.py:423
 msgid "Serial number {0} entered more than once"
@@ -884,7 +885,7 @@ msgstr "Número de série {0} informado mais de uma vez"
 
 #: erpnext/selling/page/point_of_sale/pos_item_details.js:449
 msgid "Serial numbers unavailable for Item {0} under warehouse {1}. Please try changing warehouse."
-msgstr ""
+msgstr "Números de série indisponíveis para o item {0} no armazém {1}. Tente alterar o armazém."
 
 #. Label of the naming_series (Select) field in DocType 'Bank Transaction'
 #. Label of the naming_series (Select) field in DocType 'Budget'
@@ -998,7 +999,7 @@ msgstr "Série"
 #. Label of the series_for_depreciation_entry (Data) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Series for Asset Depreciation Entry (Journal Entry)"
-msgstr ""
+msgstr "Série para lançamento de depreciação de ativo (lançamento contábil)"
 
 #: erpnext/buying/doctype/supplier/supplier.py:140
 msgid "Series is mandatory"
