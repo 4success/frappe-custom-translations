@@ -21,18 +21,18 @@ msgstr ""
 #. Description of the 'Title Field' (Data) field in DocType 'Customize Form'
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Use this fieldname to generate title"
-msgstr "Use este nome de campo para gerar o título"
+msgstr "Utilize este campo para gerar o título"
 
 #. Description of the 'Always BCC Address' (Data) field in DocType 'Email
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Use this, for example, if all sent emails should also be send to an archive."
-msgstr "Use isto, por exemplo, se todos os e-mails enviados também precisarem ser enviados para um arquivo."
+msgstr "Use isto, por exemplo, se todos os e-mails enviados também devem ser enviados para um arquivo."
 
 #. Label of the used_oauth (Check) field in DocType 'User Email'
 #: frappe/core/doctype/user_email/user_email.json
 msgid "Used OAuth"
-msgstr "Usa OAuth"
+msgstr "OAuth usado"
 
 #. Label of the user (Link) field in DocType 'Assignment Rule User'
 #. Label of the user (Link) field in DocType 'Auto Repeat User'
@@ -110,24 +110,24 @@ msgstr "Relatório de atividade do usuário"
 #. Name of a DocType
 #: frappe/core/doctype/report/user_activity_report_without_sort.json
 msgid "User Activity Report Without Sort"
-msgstr "Relatório de atividade do usuário sem ordenação"
+msgstr "Relatório de atividade do usuário sem classificação"
 
 #. Label of the user_agent (Small Text) field in DocType 'User Session Display'
 #. Label of the user_agent (Data) field in DocType 'Web Page View'
 #: frappe/core/doctype/user_session_display/user_session_display.json
 #: frappe/website/doctype/web_page_view/web_page_view.json
 msgid "User Agent"
-msgstr "Agente do usuário"
+msgstr "Agente de usuário"
 
 #. Label of the in_create (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
 msgid "User Cannot Create"
-msgstr "Usuário não pode criar"
+msgstr "O Usuário não pode criar"
 
 #. Label of the read_only (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
 msgid "User Cannot Search"
-msgstr "Usuário não pode pesquisar"
+msgstr "O Usuário não pode pesquisar"
 
 #: frappe/public/js/frappe/desk.js:550
 msgid "User Changed"
@@ -210,7 +210,7 @@ msgstr "O campo de ID do usuário é obrigatório no tipo de usuário {0}"
 #. Label of the user_image (Attach Image) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "User Image"
-msgstr "Imagem do usuário"
+msgstr "Imagem do Usuário"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_invitation/user_invitation.json
@@ -225,12 +225,12 @@ msgstr "Menu do usuário"
 #. Request'
 #: frappe/website/doctype/personal_data_download_request/personal_data_download_request.json
 msgid "User Name"
-msgstr "Nome do usuário"
+msgstr "Nome de usuário"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_permission/user_permission.json
 msgid "User Permission"
-msgstr "Permissão de usuário"
+msgstr "Permissão do usuário"
 
 #. Label of a Link in the Users Workspace
 #: frappe/core/page/permission_manager/permission_manager_help.html:30
@@ -238,20 +238,20 @@ msgstr "Permissão de usuário"
 #: frappe/public/js/frappe/views/reports/query_report.js:1974
 #: frappe/public/js/frappe/views/reports/report_view.js:1765
 msgid "User Permissions"
-msgstr "Permissões de usuário"
+msgstr "Permissões do usuário"
 
 #: frappe/public/js/frappe/list/list_view.js:1925
 msgctxt "Button in list view menu"
 msgid "User Permissions"
-msgstr "Permissões de usuário"
+msgstr "Permissões do usuário"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:32
 msgid "User Permissions are used to limit users to specific records."
-msgstr "Permissões de usuário são usadas para limitar usuários a registros específicos."
+msgstr "As permissões do usuário são usadas para limitar usuários a registros específicos."
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:124
 msgid "User Permissions created successfully"
-msgstr "Permissões de usuário criadas com sucesso"
+msgstr "Permissões do usuário criadas com sucesso"
 
 #. Name of a DocType
 #. Label of the erpnext_role (Link) field in DocType 'LDAP Group Mapping'
@@ -268,7 +268,7 @@ msgstr "Perfil de acesso do usuário"
 #. Name of a DocType
 #: frappe/core/doctype/user_select_document_type/user_select_document_type.json
 msgid "User Select Document Type"
-msgstr "Seleção de tipo de documento do usuário"
+msgstr "Seleção do tipo de documento do usuário"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_session_display/user_session_display.json
@@ -304,19 +304,19 @@ msgstr "Tipo de usuário"
 #: frappe/core/doctype/user_type/user_type.json
 #: frappe/core/doctype/user_type_module/user_type_module.json
 msgid "User Type Module"
-msgstr "Módulo de tipo de usuário"
+msgstr "Módulo do tipo de usuário"
 
 #. Description of the 'Allow Login using Mobile Number' (Check) field in
 #. DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "User can login using Email id or Mobile number"
-msgstr "O usuário pode entrar usando o e-mail ou o número de celular"
+msgstr "O usuário pode entrar usando e-mail ou número de celular"
 
 #. Description of the 'Allow Login using User Name' (Check) field in DocType
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "User can login using Email id or User Name"
-msgstr "O usuário pode entrar usando o e-mail ou o nome de usuário"
+msgstr "O usuário pode entrar usando e-mail ou nome de usuário"
 
 #: frappe/templates/includes/login/login.js:292
 msgid "User does not exist."
@@ -328,7 +328,7 @@ msgstr "O usuário não tem permissão para criar o novo {0}"
 
 #: frappe/core/doctype/user_invitation/user_invitation.py:102
 msgid "User is disabled"
-msgstr "Usuário desativado"
+msgstr "O usuário está desativado"
 
 #: frappe/core/doctype/docshare/docshare.py:56
 msgid "User is mandatory for Share"
@@ -338,11 +338,11 @@ msgstr "O usuário é obrigatório para o compartilhamento"
 #. Naming Settings'
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "User must always select"
-msgstr "O usuário deve sempre selecionar"
+msgstr "O Usuário deve sempre selecionar"
 
 #: frappe/core/doctype/user_permission/user_permission.py:60
 msgid "User permission already exists"
-msgstr "A permissão de usuário já existe"
+msgstr "A permissão do usuário já existe"
 
 #: frappe/www/login.py:171
 msgid "User with email address {0} does not exist"
@@ -370,7 +370,7 @@ msgstr "O usuário {0} não tem acesso a este documento"
 
 #: frappe/permissions.py:165
 msgid "User {0} does not have doctype access via role permission for document {1}"
-msgstr "O usuário {0} não tem acesso ao DocType via permissão de perfil para o documento {1}"
+msgstr "O usuário {0} não tem acesso ao DocType por permissão de perfil para o documento {1}"
 
 #: frappe/desk/doctype/workspace/workspace.py:306
 msgid "User {0} does not have the permission to create a Workspace."
@@ -434,7 +434,7 @@ msgstr "Usuários"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Users are only able to delete attached files if the document is either in draft or if the document is canceled and they are also able to delete the document."
-msgstr "Os usuários só podem excluir arquivos anexados se o documento estiver em rascunho ou cancelado e se também puderem excluir o documento."
+msgstr "Os usuários só podem excluir arquivos anexados se o documento estiver em rascunho ou se o documento estiver cancelado e eles também puderem excluir o documento."
 
 #: frappe/public/js/frappe/ui/theme_switcher.js:70
 msgid "Uses system's theme to switch between light and dark mode"
@@ -468,12 +468,12 @@ msgstr "É necessário um ID de login válido."
 
 #: frappe/templates/includes/login/login.js:39
 msgid "Valid email and name required"
-msgstr "E-mail e nome válidos são obrigatórios"
+msgstr "É necessário um e-mail e nome válidos"
 
 #. Label of the validate_action (Check) field in DocType 'Onboarding Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
 msgid "Validate Field"
-msgstr "Validar campo"
+msgstr "Validar Campo"
 
 #. Label of the validate_frappe_mail_settings (Button) field in DocType 'Email
 #. Account'
@@ -531,7 +531,7 @@ msgstr "Valor"
 #. Label of the value_based_on (Select) field in DocType 'Dashboard Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 msgid "Value Based On"
-msgstr "Valor baseado em"
+msgstr "Valor Baseado em"
 
 #. Option for the 'Send Alert On' (Select) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
@@ -541,7 +541,7 @@ msgstr "Alteração de valor"
 #. Label of the value_changed (Select) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
 msgid "Value Changed"
-msgstr "Valor alterado"
+msgstr "Valor Alterado"
 
 #. Label of the property_value (Data) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
@@ -562,7 +562,7 @@ msgstr "O valor não pode ser negativo para {0}: {1}"
 
 #: frappe/custom/doctype/property_setter/property_setter.js:7
 msgid "Value for a check field can be either 0 or 1"
-msgstr "O valor de um campo de verificação pode ser 0 ou 1"
+msgstr "O valor de um campo de marcação pode ser apenas 0 ou 1"
 
 #: frappe/custom/doctype/customize_form/customize_form.py:616
 msgid "Value for field {0} is too long in {1}. Length should be lesser than {2} characters"
@@ -576,7 +576,7 @@ msgstr "O valor de {0} não pode ser uma lista"
 #. Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
 msgid "Value from this field will be set as the due date in the ToDo"
-msgstr "O valor deste campo será definido como a data de vencimento na tarefa A fazer"
+msgstr "O valor deste campo será definido como a data de vencimento na tarefa"
 
 #: frappe/core/doctype/data_import/importer.py:713
 msgid "Value must be one of {0}"
@@ -586,12 +586,12 @@ msgstr "O valor deve ser um destes: {0}"
 #. 'OAuth Client'
 #: frappe/integrations/doctype/oauth_client/oauth_client.json
 msgid "Value of \"None\" implies a public client. In such a case Client Secret is not given to the client and token exchange makes use of PKCE."
-msgstr "O valor \"None\" indica um cliente público. Nesse caso, o Client Secret não é fornecido ao cliente e a troca de token usa PKCE."
+msgstr "O valor \"None\" implica um cliente público. Nesse caso, o Client Secret não é fornecido ao cliente e a troca de token usa PKCE."
 
 #. Label of the value_to_validate (Data) field in DocType 'Onboarding Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
 msgid "Value to Validate"
-msgstr "Valor para validar"
+msgstr "Valor para Validar"
 
 #: frappe/model/base_document.py:1229
 msgid "Value too big"
@@ -637,7 +637,7 @@ msgstr "O e-mail com o código de verificação não foi enviado. Entre em conta
 
 #: frappe/twofactor.py:248
 msgid "Verification code has been sent to your registered email address."
-msgstr "O código de verificação foi enviado para o seu endereço de e-mail cadastrado."
+msgstr "O código de verificação foi enviado para seu endereço de e-mail cadastrado."
 
 #. Option for the 'Contribution Status' (Select) field in DocType 'Translation'
 #: frappe/core/doctype/translation/translation.json
@@ -651,7 +651,7 @@ msgstr "Verificar"
 
 #: frappe/public/js/frappe/ui/messages.js:358
 msgid "Verify Password"
-msgstr "Confirmar senha"
+msgstr "Verificar senha"
 
 #: frappe/templates/includes/login/login.js:171
 msgid "Verifying..."
@@ -715,7 +715,7 @@ msgstr "Ver documentos permitidos"
 #. Label of the view_properties (Button) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
 msgid "View Properties (via Customize Form)"
-msgstr "Ver propriedades (via Customize Form)"
+msgstr "Exibir Propriedades (via Personalizar Formulário)"
 
 #. Option for the 'Action' (Select) field in DocType 'Onboarding Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
@@ -760,7 +760,7 @@ msgstr "Ver relatório no navegador"
 
 #: frappe/templates/emails/print_link.html:2
 msgid "View this in your browser"
-msgstr "Ver no navegador"
+msgstr "Ver isto no navegador"
 
 #: frappe/public/js/frappe/web_form/web_form.js:478
 msgctxt "Button in web form"
@@ -796,7 +796,7 @@ msgstr "O DocType virtual {} requer um método estático chamado {}; encontrado 
 
 #: frappe/model/virtual_doctype.py:89
 msgid "Virtual DocType {} requires overriding an instance method called {} found {}"
-msgstr "O DocType virtual {} requer a substituição de um método de instância chamado {}; encontrado {}"
+msgstr "O DocType virtual {} requer a sobrescrita de um método de instância chamado {}; encontrado {}"
 
 #: frappe/core/doctype/doctype/doctype.py:1672
 msgid "Virtual tables must be virtual fields"
@@ -818,11 +818,11 @@ msgstr "Visita"
 
 #: frappe/desk/doctype/desktop_settings/desktop_settings.js:6
 msgid "Visit Desktop"
-msgstr "Acessar o Desk"
+msgstr "Ir para o Desk"
 
 #: frappe/website/doctype/website_route_meta/website_route_meta.js:7
 msgid "Visit Web Page"
-msgstr "Acessar página web"
+msgstr "Visitar página da web"
 
 #. Label of the visitor_id (Data) field in DocType 'Web Page View'
 #: frappe/website/doctype/web_page_view/web_page_view.json

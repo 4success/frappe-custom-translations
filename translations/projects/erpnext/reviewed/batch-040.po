@@ -133,7 +133,7 @@ msgstr "Finalidade"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:478
 msgid "Purpose must be one of {0}"
-msgstr "A finalidade deve ser uma das seguintes: {0}"
+msgstr "A finalidade deve ser uma das {0}"
 
 #. Label of the purposes (Table) field in DocType 'Maintenance Visit'
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
@@ -142,7 +142,7 @@ msgstr "Finalidades"
 
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.py:56
 msgid "Purposes Required"
-msgstr "Finalidades Obrigatórias"
+msgstr "Finalidades obrigatórias"
 
 #. Label of the putaway_rule (Link) field in DocType 'Purchase Receipt Item'
 #. Name of a DocType
@@ -155,7 +155,7 @@ msgstr "Regra de Armazenagem"
 
 #: erpnext/stock/doctype/putaway_rule/putaway_rule.py:53
 msgid "Putaway Rule already exists for Item {0} in Warehouse {1}."
-msgstr "Já existe uma regra de armazenagem para o item {0} no armazém {1}."
+msgstr "A regra de armazenagem já existe para o item {0} no armazém {1}."
 
 #. Label of the free_qty (Float) field in DocType 'Pricing Rule'
 #. Label of the free_qty (Float) field in DocType 'Promotional Scheme Product
@@ -277,13 +277,13 @@ msgstr "Qtd. (Armazém)"
 #. Label of the stock_qty (Float) field in DocType 'Pick List Item'
 #: erpnext/stock/doctype/pick_list_item/pick_list_item.json
 msgid "Qty (in Stock UOM)"
-msgstr "Qtd. (na UM de Estoque)"
+msgstr "Qtd. (na UOM de estoque)"
 
 #. Label of the qty_after_transaction (Float) field in DocType 'Stock Ledger
 #. Entry'
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
 msgid "Qty After Transaction"
-msgstr "Qtd. Após a Transação"
+msgstr "Qtd. após a transação"
 
 #. Label of the actual_qty (Float) field in DocType 'Stock Closing Balance'
 #. Label of the actual_qty (Float) field in DocType 'Stock Ledger Entry'
@@ -301,17 +301,17 @@ msgstr "Variação de Qtd."
 #: erpnext/manufacturing/doctype/bom_explosion_item/bom_explosion_item.json
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Qty Consumed Per Unit"
-msgstr "Qtd. Consumida por Unidade"
+msgstr "Qtd. consumida por unidade"
 
 #. Label of the actual_qty (Float) field in DocType 'Material Request Plan
 #. Item'
 #: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
 msgid "Qty In Stock"
-msgstr "Qtd. em Estoque"
+msgstr "Qtd. em estoque"
 
 #: erpnext/manufacturing/report/bom_stock_calculated/bom_stock_calculated.py:82
 msgid "Qty Per Unit"
-msgstr "Qtd. por Unidade"
+msgstr "Qtd. por unidade"
 
 #. Label of the for_quantity (Float) field in DocType 'Job Card'
 #. Label of the qty (Float) field in DocType 'Work Order'
@@ -320,24 +320,24 @@ msgstr "Qtd. por Unidade"
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 #: erpnext/manufacturing/report/process_loss_report/process_loss_report.py:82
 msgid "Qty To Manufacture"
-msgstr "Qtd. a Fabricar"
+msgstr "Qtd. a fabricar"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1389
 msgid "Qty To Manufacture ({0}) cannot be a fraction for the UOM {2}. To allow this, disable '{1}' in the UOM {2}."
-msgstr "A Qtd. a Fabricar ({0}) não pode ser fracionada para a UM {2}. Para permitir isso, desative '{1}' na UM {2}."
+msgstr "A Qtd. a fabricar ({0}) não pode ser fracionada para a UOM {2}. Para permitir isso, desative '{1}' na UOM {2}."
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:224
 msgid "Qty To Manufacture in the job card cannot be greater than Qty To Manufacture in the work order for the operation {0}. <br><br><b>Solution: </b> Either you can reduce the Qty To Manufacture in the job card or set the 'Overproduction Percentage For Work Order' in the {1}."
-msgstr "A Qtd. a Fabricar no cartão de trabalho não pode ser maior que a Qtd. a Fabricar na ordem de serviço para a operação {0}. <br><br><b>Solução: </b>Você pode reduzir a Qtd. a Fabricar no cartão de trabalho ou definir 'Percentual de Superprodução para Ordem de Serviço' em {1}."
+msgstr "A Qtd. a fabricar no cartão de trabalho não pode ser maior que a Qtd. a fabricar na ordem de trabalho para a operação {0}. <br><br><b>Solução: </b>Você pode reduzir a Qtd. a fabricar no cartão de trabalho ou definir 'Percentual de superprodução para ordem de trabalho' em {1}."
 
 #. Label of the qty_to_produce (Float) field in DocType 'Batch'
 #: erpnext/stock/doctype/batch/batch.json
 msgid "Qty To Produce"
-msgstr "Qtd. a Produzir"
+msgstr "Qtd. a produzir"
 
 #: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:56
 msgid "Qty Wise Chart"
-msgstr "Gráfico por Qtd."
+msgstr "Gráfico por Quantidade"
 
 #. Label of the section_break_6 (Section Break) field in DocType 'Asset
 #. Capitalization Service Item'
@@ -349,7 +349,7 @@ msgstr "Qtd. e Preço"
 #. Receipt Item'
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Qty as Per Stock UOM"
-msgstr "Qtd. conforme a UM de Estoque"
+msgstr "Qtd. conforme a UOM de estoque"
 
 #. Label of the stock_qty (Float) field in DocType 'POS Invoice Item'
 #. Label of the stock_qty (Float) field in DocType 'Sales Invoice Item'
@@ -366,7 +366,7 @@ msgstr "Qtd. conforme a UM de Estoque"
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Qty as per Stock UOM"
-msgstr "Qtd. conforme a UM de Estoque"
+msgstr "Qtd. conforme a UOM de estoque"
 
 #. Description of the 'Apply Recursion Over (As Per Transaction UOM)' (Float)
 #. field in DocType 'Pricing Rule'
@@ -379,7 +379,7 @@ msgstr "Qtd. para a qual a recursão não se aplica."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:983
 msgid "Qty for {0}"
-msgstr "Qtd. de {0}"
+msgstr "Qtd. para {0}"
 
 #. Label of the stock_qty (Float) field in DocType 'Purchase Order Item'
 #. Label of the stock_qty (Float) field in DocType 'Delivery Note Item'
@@ -387,51 +387,51 @@ msgstr "Qtd. de {0}"
 #: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:231
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 msgid "Qty in Stock UOM"
-msgstr "Qtd. na UM de Estoque"
+msgstr "Qtd. na UOM de estoque"
 
 #. Label of the for_qty (Float) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.js:196
 #: erpnext/stock/doctype/pick_list/pick_list.json
 msgid "Qty of Finished Goods Item"
-msgstr "Qtd. do Item Acabado"
+msgstr "Quantidade do item de produto acabado"
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:624
 msgid "Qty of Finished Goods Item should be greater than 0."
-msgstr "A Qtd. do Item Acabado deve ser maior que 0."
+msgstr "A quantidade do item de produto acabado deve ser maior que 0."
 
 #. Description of the 'Qty of Finished Goods Item' (Float) field in DocType
 #. 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
 msgid "Qty of raw materials will be decided based on the qty of the Finished Goods Item"
-msgstr "A qtd. de matérias-primas será definida com base na qtd. do Item Acabado"
+msgstr "A quantidade de matérias-primas será definida com base na quantidade do item de produto acabado"
 
 #. Label of the consumed_qty (Float) field in DocType 'Purchase Receipt Item
 #. Supplied'
 #: erpnext/buying/doctype/purchase_receipt_item_supplied/purchase_receipt_item_supplied.json
 msgid "Qty to Be Consumed"
-msgstr "Qtd. a Consumir"
+msgstr "Qtd. a consumir"
 
 #: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:268
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:283
 msgid "Qty to Bill"
-msgstr "Qtd. a Faturar"
+msgstr "Qtd. a faturar"
 
 #: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:133
 msgid "Qty to Build"
-msgstr "Qtd. a Montar"
+msgstr "Qtd. a montar"
 
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:269
 msgid "Qty to Deliver"
-msgstr "Qtd. a Entregar"
+msgstr "Qtd. a entregar"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:373
 msgid "Qty to Fetch"
-msgstr "Qtd. a Buscar"
+msgstr "Qtd. a buscar"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:304
 #: erpnext/manufacturing/doctype/job_card/job_card.py:769
 msgid "Qty to Manufacture"
-msgstr "Qtd. a Fabricar"
+msgstr "Qtd. a fabricar"
 
 #. Label of the qty (Float) field in DocType 'Production Plan Sub Assembly
 #. Item'
@@ -439,18 +439,18 @@ msgstr "Qtd. a Fabricar"
 #: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:259
 #: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
 msgid "Qty to Order"
-msgstr "Qtd. a Pedir"
+msgstr "Qtd. a pedir"
 
 #. Label of the finished_good_qty (Float) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 #: erpnext/manufacturing/report/work_order_consumed_materials/work_order_consumed_materials.py:129
 msgid "Qty to Produce"
-msgstr "Qtd. a Produzir"
+msgstr "Qtd. a produzir"
 
 #: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:171
 #: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.py:252
 msgid "Qty to Receive"
-msgstr "Qtd. a Receber"
+msgstr "Qtd. a receber"
 
 #. Label of the qualification_tab (Section Break) field in DocType 'Lead'
 #. Label of the qualification (Data) field in DocType 'Employee Education'
@@ -474,7 +474,7 @@ msgstr "Qualificado"
 #. Label of the qualified_by (Link) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
 msgid "Qualified By"
-msgstr "Qualificado Por"
+msgstr "Qualificado por"
 
 #. Label of the qualified_on (Date) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
@@ -595,7 +595,7 @@ msgstr "Parâmetro de Inspeção de Qualidade"
 #. Name of a DocType
 #: erpnext/stock/doctype/quality_inspection_parameter_group/quality_inspection_parameter_group.json
 msgid "Quality Inspection Parameter Group"
-msgstr "Grupo de Parâmetros da Inspeção de Qualidade"
+msgstr "Grupo de Parâmetros de Inspeção de Qualidade"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
@@ -815,7 +815,7 @@ msgstr "Quantidade"
 #. Description of the 'Packing Unit' (Int) field in DocType 'Item Price'
 #: erpnext/stock/doctype/item_price/item_price.json
 msgid "Quantity  that must be bought or sold per UOM"
-msgstr "Quantidade que deve ser comprada ou vendida por UM"
+msgstr "Quantidade que deve ser comprada ou vendida por UOM"
 
 #. Label of the quantity (Section Break) field in DocType 'Request for
 #. Quotation Item'
@@ -907,16 +907,16 @@ msgstr "A quantidade deve ser maior que zero e menor ou igual a {0}"
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1013
 #: erpnext/stock/doctype/pick_list/pick_list.js:204
 msgid "Quantity must not be more than {0}"
-msgstr "A quantidade não pode ser maior que {0}"
+msgstr "A quantidade não deve ser maior que {0}"
 
 #. Description of the 'Quantity' (Float) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Quantity of item obtained after manufacturing / repacking from given quantities of raw materials"
-msgstr "Quantidade do item obtida após a fabricação/reembalagem a partir das quantidades informadas de matérias-primas"
+msgstr "Quantidade do item obtida após fabricação / reembalagem a partir das quantidades informadas de matérias-primas"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:683
 msgid "Quantity required for Item {0} in row {1}"
-msgstr "Quantidade obrigatória para o Item {0} na linha {1}"
+msgstr "Quantidade obrigatória para o item {0} na linha {1}"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:627
 #: erpnext/manufacturing/doctype/job_card/job_card.js:385
@@ -927,7 +927,7 @@ msgstr "A quantidade deve ser maior que 0"
 
 #: erpnext/manufacturing/report/bom_stock_calculated/bom_stock_calculated.js:21
 msgid "Quantity to Make"
-msgstr "Quantidade a Produzir"
+msgstr "Quantidade a Fazer"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:343
 msgid "Quantity to Manufacture"
@@ -943,7 +943,7 @@ msgstr "A quantidade a fabricar deve ser maior que 0."
 
 #: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.js:24
 msgid "Quantity to Produce"
-msgstr "Quantidade a produzir"
+msgstr "Quantidade para produzir"
 
 #: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py:37
 msgid "Quantity to Produce should be greater than zero."
@@ -951,7 +951,7 @@ msgstr "A quantidade a produzir deve ser maior que zero."
 
 #: erpnext/public/js/utils/barcode_scanner.js:257
 msgid "Quantity to Scan"
-msgstr "Quantidade a Ler"
+msgstr "Quantidade a escanear"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -976,7 +976,7 @@ msgstr "Trimestre {0} {1}"
 #. Label of the query_route (Data) field in DocType 'Support Search Source'
 #: erpnext/support/doctype/support_search_source/support_search_source.json
 msgid "Query Route String"
-msgstr "String da Rota de Consulta"
+msgstr "String da rota de consulta"
 
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.py:139
 msgid "Queue Size should be between 5 and 100"
@@ -984,7 +984,7 @@ msgstr "O tamanho da fila deve estar entre 5 e 100"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.js:590
 msgid "Quick Journal Entry"
-msgstr "Lançamento contábil rápido"
+msgstr "Lançamento rápido no livro diário"
 
 #: erpnext/accounts/report/financial_ratios/financial_ratios.py:152
 msgid "Quick Ratio"
@@ -1000,7 +1000,7 @@ msgstr "Balanço Rápido de Estoque"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Quintal"
-msgstr ""
+msgstr "Quintal"
 
 #: erpnext/crm/report/campaign_efficiency/campaign_efficiency.py:22
 #: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:28
@@ -1010,7 +1010,7 @@ msgstr "Contagem de Orçamentos"
 #: erpnext/crm/report/campaign_efficiency/campaign_efficiency.py:26
 #: erpnext/crm/report/lead_owner_efficiency/lead_owner_efficiency.py:32
 msgid "Quot/Lead %"
-msgstr "Perc. Orç./Lead"
+msgstr "Orç./Lead %"
 
 #. Option for the 'Document Type' (Select) field in DocType 'Contract'
 #. Label of the quotation_section (Section Break) field in DocType 'CRM
@@ -1056,12 +1056,12 @@ msgstr "Item do Orçamento"
 #: erpnext/setup/doctype/quotation_lost_reason/quotation_lost_reason.json
 #: erpnext/setup/doctype/quotation_lost_reason_detail/quotation_lost_reason_detail.json
 msgid "Quotation Lost Reason"
-msgstr "Motivo da Perda do Orçamento"
+msgstr "Motivo da perda do orçamento"
 
 #. Name of a DocType
 #: erpnext/setup/doctype/quotation_lost_reason_detail/quotation_lost_reason_detail.json
 msgid "Quotation Lost Reason Detail"
-msgstr "Detalhe do Motivo da Perda do Orçamento"
+msgstr "Detalhe do motivo da perda do orçamento"
 
 #. Label of the quotation_number (Data) field in DocType 'Supplier Quotation'
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
@@ -1095,7 +1095,7 @@ msgstr "Orçamentos"
 
 #: erpnext/utilities/activation.py:87
 msgid "Quotations are proposals, bids you have sent to your customers"
-msgstr "Orçamentos são propostas enviadas aos seus clientes"
+msgstr "Orçamentos são propostas que você enviou aos seus clientes"
 
 #: erpnext/templates/pages/rfq.html:73
 msgid "Quotations: "
@@ -1109,26 +1109,26 @@ msgstr "Status da Cotação"
 
 #: erpnext/selling/report/quotation_trends/quotation_trends.py:57
 msgid "Quoted Amount"
-msgstr "Valor Orçado"
+msgstr "Valor Cotado"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:104
 msgid "RFQs are not allowed for {0} due to a scorecard standing of {1}"
-msgstr "Solicitações de Cotação não são permitidas para {0} devido à classificação no scorecard de {1}"
+msgstr "As solicitações de cotação não são permitidas para {0} devido a uma classificação de scorecard de {1}"
 
 #. Label of the auto_indent (Check) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Raise Material Request When Stock Reaches Re-order Level"
-msgstr "Criar Solicitação de Material quando o estoque atingir o nível de reposição"
+msgstr "Criar requisição de material quando o estoque atingir o nível de reposição"
 
 #. Label of the complaint_raised_by (Data) field in DocType 'Warranty Claim'
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Raised By"
-msgstr "Informado Por"
+msgstr "Aberto por"
 
 #. Label of the raised_by (Data) field in DocType 'Issue'
 #: erpnext/support/doctype/issue/issue.json
 msgid "Raised By (Email)"
-msgstr "Informado Por (E-mail)"
+msgstr "Aberto por (e-mail)"
 
 #. Label of the rate (Currency) field in DocType 'POS Invoice Item'
 #. Option for the 'Rate or Discount' (Select) field in DocType 'Pricing Rule'
@@ -1257,25 +1257,25 @@ msgstr "Preço e Valor"
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Rate (Company Currency)"
-msgstr "Preço (Moeda da Empresa)"
+msgstr "Preço (moeda da empresa)"
 
 #. Label of the rm_cost_as_per (Select) field in DocType 'BOM'
 #. Label of the rm_cost_as_per (Select) field in DocType 'BOM Creator'
 #: erpnext/manufacturing/doctype/bom/bom.json
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
 msgid "Rate Of Materials Based On"
-msgstr "Base do preço dos materiais"
+msgstr "Preço dos materiais com base em"
 
 #. Label of the rate (Percent) field in DocType 'Lower Deduction Certificate'
 #: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
 msgid "Rate Of TDS As Per Certificate"
-msgstr "Alíquota de TDS Conforme o Certificado"
+msgstr "Alíquota de TDS conforme o certificado"
 
 #. Label of the section_break_6 (Section Break) field in DocType 'Serial and
 #. Batch Entry'
 #: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
 msgid "Rate Section"
-msgstr "Seção de preços"
+msgstr "Seção de Preço"
 
 #. Label of the rate_with_margin (Currency) field in DocType 'POS Invoice Item'
 #. Label of the rate_with_margin (Currency) field in DocType 'Purchase Invoice
@@ -1329,7 +1329,7 @@ msgstr "Preço com Margem"
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Rate With Margin (Company Currency)"
-msgstr "Preço com Margem (Moeda da Empresa)"
+msgstr "Preço com Margem (moeda da empresa)"
 
 #. Label of the rate_and_amount (Section Break) field in DocType 'Purchase
 #. Receipt Item'

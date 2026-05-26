@@ -18,11 +18,11 @@ msgstr ""
 "X-Crowdin-File-ID: 97\n"
 "Language: pt_BR\n"
 
-#: frontend/src/components/Calendar/CalendarEventPanel.vue:150
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:151
 msgid "Organizer"
 msgstr "Organizador"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:582
+#: frontend/src/components/Layouts/AppSidebar.vue:599
 msgid "Other Features"
 msgstr "Outros recursos"
 
@@ -38,14 +38,14 @@ msgstr "Chamada de saída"
 #. Option for the 'Type' (Select) field in DocType 'CRM Call Log'
 #: crm/fcrm/doctype/crm_call_log/crm_call_log.json
 msgid "Outgoing"
-msgstr "De saída"
+msgstr "Saída"
 
 #. Label of the log_owner (Link) field in DocType 'CRM Status Change Log'
 #: crm/fcrm/doctype/crm_status_change_log/crm_status_change_log.json
 msgid "Owner"
 msgstr "Responsável"
 
-#: frontend/src/components/Calendar/CalendarEventPanel.vue:145
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:146
 msgid "Owner: {0}"
 msgstr "Responsável: {0}"
 
@@ -57,52 +57,52 @@ msgstr "Página"
 #. Label of the page_name (Data) field in DocType 'Facebook Page'
 #: crm/lead_syncing/doctype/facebook_page/facebook_page.json
 msgid "Page Name"
-msgstr "Nome da página"
+msgstr "Nome da Página"
 
 #. Label of the parent_crm_territory (Link) field in DocType 'CRM Territory'
 #: crm/fcrm/doctype/crm_territory/crm_territory.json
 msgid "Parent CRM Territory"
-msgstr "Território de CRM pai"
+msgstr "Território CRM pai"
 
-#: frontend/src/components/Settings/ProfileSettings.vue:112
-#: frontend/src/components/Settings/emailConfig.js:62
+#: frontend/src/components/Settings/Profile/ProfileSettings.vue:110
+#: frontend/src/components/Settings/emailConfig.js:71
 msgid "Password"
 msgstr "Senha"
 
 #: crm/api/user.py:46
 msgid "Password Updated Successfully"
-msgstr ""
+msgstr "Senha atualizada com sucesso"
 
-#: crm/api/demo.py:21 crm/api/demo.py:29
+#: crm/api/live_demo.py:24 crm/api/live_demo.py:32
 msgid "Password cannot be reset by Demo User {}"
 msgstr "A senha não pode ser redefinida pelo usuário de demonstração {}"
 
-#: frontend/src/components/Settings/emailConfig.js:179
+#: frontend/src/components/Settings/emailConfig.js:188
 msgid "Password is required"
 msgstr "A senha é obrigatória"
 
 #: crm/api/user.py:43
 msgid "Password is too weak. {0}"
-msgstr ""
+msgstr "A senha é muito fraca. {0}"
 
-#: frontend/src/components/Modals/ChangePasswordModal.vue:106
+#: frontend/src/components/Modals/ChangePasswordModal.vue:130
 msgid "Password must be at least 8 characters"
 msgstr "A senha deve ter pelo menos 8 caracteres"
 
-#: frontend/src/components/Modals/ChangePasswordModal.vue:109
+#: frontend/src/components/Modals/ChangePasswordModal.vue:133
 msgid "Password must contain lowercase, uppercase, number, and symbol"
-msgstr "A senha deve conter letra minúscula, letra maiúscula, número e símbolo"
+msgstr "A senha deve conter letra minúscula, maiúscula, número e símbolo"
 
-#: frontend/src/components/Modals/ChangePasswordModal.vue:89
+#: frontend/src/components/Modals/ChangePasswordModal.vue:98
 msgid "Password updated successfully"
 msgstr "Senha atualizada com sucesso"
 
-#: frontend/src/components/Modals/ChangePasswordModal.vue:119
+#: frontend/src/components/Modals/ChangePasswordModal.vue:143
 msgid "Passwords do not match"
 msgstr "As senhas não coincidem"
 
-#: frontend/src/components/Modals/ChangePasswordModal.vue:36
-#: frontend/src/components/Modals/ChangePasswordModal.vue:125
+#: frontend/src/components/Modals/ChangePasswordModal.vue:47
+#: frontend/src/components/Modals/ChangePasswordModal.vue:149
 msgid "Passwords match"
 msgstr "As senhas coincidem"
 
@@ -142,7 +142,7 @@ msgstr "Pessoa"
 
 #: frontend/src/components/Settings/Telephony/TelephonySettings.vue:120
 msgid "Personal Mobile No."
-msgstr ""
+msgstr "Celular pessoal"
 
 #. Label of the phone (Data) field in DocType 'CRM Contacts'
 #. Label of the phone (Data) field in DocType 'CRM Lead'
@@ -150,8 +150,8 @@ msgstr ""
 #: crm/fcrm/doctype/crm_contacts/crm_contacts.json
 #: crm/fcrm/doctype/crm_lead/crm_lead.json
 #: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.json
-#: frontend/src/pages/MobileOrganization.vue:506
-#: frontend/src/pages/Organization.vue:536
+#: frontend/src/pages/MobileOrganization.vue:511
+#: frontend/src/pages/Organization.vue:541
 msgid "Phone"
 msgstr "Telefone"
 
@@ -160,7 +160,7 @@ msgstr "Telefone"
 msgid "Phone Numbers"
 msgstr "Números de telefone"
 
-#: frontend/src/components/ViewControls.vue:1102
+#: frontend/src/components/ViewControls.vue:1096
 msgid "Pin View"
 msgstr "Fixar visualização"
 
@@ -169,7 +169,7 @@ msgstr "Fixar visualização"
 msgid "Pinned"
 msgstr "Fixado"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:578
+#: frontend/src/components/Layouts/AppSidebar.vue:595
 msgid "Pinned View"
 msgstr "Visualização fixada"
 
@@ -189,7 +189,7 @@ msgstr "Verifique seu token de acesso"
 msgid "Please enable twilio settings before making a call."
 msgstr "Ative as configurações do Twilio antes de fazer uma chamada."
 
-#: frontend/src/components/FilesUploader/FilesUploader.vue:159
+#: frontend/src/components/FilesUploader/FilesUploader.vue:161
 msgid "Please enter a valid URL"
 msgstr "Insira uma URL válida"
 
@@ -197,11 +197,11 @@ msgstr "Insira uma URL válida"
 msgid "Please fix the errors in the form"
 msgstr "Corrija os erros no formulário"
 
-#: frontend/src/components/Settings/Sla/EditResponseResolutionModal.vue:108
+#: frontend/src/components/Settings/Sla/EditResponseResolutionModal.vue:93
 msgid "Please select a Priority"
 msgstr "Selecione uma prioridade"
 
-#: frontend/src/components/Settings/CurrencySettings.vue:143
+#: frontend/src/components/Settings/DashboardSettings.vue:213
 msgid "Please select a currency before saving."
 msgstr "Selecione uma moeda antes de salvar."
 
@@ -235,23 +235,23 @@ msgstr "Defina um endereço de e-mail para enviar e-mails"
 
 #: crm/integrations/exotel/handler.py:72
 msgid "Please setup Exotel intergration"
-msgstr "Configure a integração com o Exotel"
+msgstr "Configure a integração do Exotel"
 
-#: crm/fcrm/doctype/crm_deal/crm_deal.py:245
+#: crm/fcrm/doctype/crm_deal/crm_deal.py:261
 msgid "Please specify a reason for losing the deal."
-msgstr "Informe um motivo para a perda do negócio."
+msgstr "Informe um motivo para perder o negócio."
 
 #: crm/fcrm/doctype/crm_lead/crm_lead.py:153
 msgid "Please specify a reason for losing the lead."
-msgstr ""
+msgstr "Informe um motivo para perder o lead."
 
-#: crm/fcrm/doctype/crm_deal/crm_deal.py:247
+#: crm/fcrm/doctype/crm_deal/crm_deal.py:263
 msgid "Please specify the reason for losing the deal."
 msgstr "Informe o motivo da perda do negócio."
 
 #: crm/fcrm/doctype/crm_lead/crm_lead.py:155
 msgid "Please specify the reason for losing the lead."
-msgstr ""
+msgstr "Informe o motivo da perda do lead."
 
 #: frontend/src/components/Settings/Sla/SlaPolicyList.vue:62
 msgid "Policy Name"
@@ -267,17 +267,17 @@ msgstr "Posição"
 #: frontend/src/components/Settings/PreferencesSettings.vue:4
 #: frontend/src/components/Settings/Settings.vue:108
 msgid "Preferences"
-msgstr ""
+msgstr "Preferências"
 
 #: frontend/src/components/Settings/PreferencesSettings.vue:115
 msgid "Preferences Updated Successfully"
-msgstr ""
+msgstr "Preferências atualizadas com sucesso"
 
 #: frontend/src/pages/Deal.vue:215 frontend/src/pages/MobileDeal.vue:153
 msgid "Primary"
-msgstr "Principal"
+msgstr "Primário"
 
-#: frontend/src/pages/Deal.vue:691 frontend/src/pages/MobileDeal.vue:566
+#: frontend/src/pages/Deal.vue:703 frontend/src/pages/MobileDeal.vue:574
 msgid "Primary Contact Set"
 msgstr "Contato principal definido"
 
@@ -313,7 +313,7 @@ msgstr "As prioridades devem ser únicas"
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:64
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRulesList.vue:17
 #: frontend/src/components/Settings/Sla/EditResponseResolutionModal.vue:16
-#: frontend/src/components/Settings/Sla/SlaPriorityList.vue:184
+#: frontend/src/components/Settings/Sla/SlaPriorityList.vue:171
 msgid "Priority"
 msgstr "Prioridade"
 
@@ -327,13 +327,13 @@ msgstr "Prioridade {0}: o tempo de resposta é obrigatório"
 
 #. Label of the private (Check) field in DocType 'CRM Dashboard'
 #: crm/fcrm/doctype/crm_dashboard/crm_dashboard.json
-#: frontend/src/components/Calendar/CalendarEventPanel.vue:478
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:479
 #: frontend/src/components/FilesUploader/FilesUploaderArea.vue:89
 #: frontend/src/components/Modals/EventModal.vue:143
 msgid "Private"
 msgstr "Privado"
 
-#: frontend/src/components/Calendar/CalendarEventPanel.vue:487
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:488
 #: frontend/src/components/Modals/EventModal.vue:152
 msgid "Private or Public"
 msgstr "Privado ou público"
@@ -371,28 +371,28 @@ msgstr "Nome do produto"
 msgid "Products"
 msgstr "Produtos"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:547
-#: frontend/src/components/Settings/ProfileSettings.vue:3
-#: frontend/src/components/Settings/Settings.vue:94
+#: frontend/src/components/Layouts/AppSidebar.vue:564
+#: frontend/src/components/Settings/Profile/ProfileSettings.vue:4
+#: frontend/src/components/Settings/Settings.vue:98
 msgid "Profile"
 msgstr "Perfil"
 
 #: frontend/src/components/Settings/Profile/ProfileSettings.vue:190
 msgid "Profile Updated Successfully"
-msgstr ""
+msgstr "Perfil atualizado com sucesso"
 
 #: crm/api/dashboard.py:719
 msgid "Projected vs actual revenue based on deal probability"
-msgstr "Receita projetada vs. receita real com base na probabilidade do negócio"
+msgstr "Receita projetada vs. real com base na probabilidade do negócio"
 
 #. Label of the public (Check) field in DocType 'CRM View Settings'
 #: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
-#: frontend/src/components/Calendar/CalendarEventPanel.vue:482
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:483
 #: frontend/src/components/Modals/EventModal.vue:147
 msgid "Public"
 msgstr "Público"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:577
+#: frontend/src/components/Layouts/AppSidebar.vue:594
 msgid "Public View"
 msgstr "Visualização pública"
 
@@ -421,7 +421,7 @@ msgstr "Na fila"
 msgid "Quick Entry"
 msgstr "Entrada rápida"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:601
+#: frontend/src/components/Layouts/AppSidebar.vue:618
 msgid "Quick Entry Layout"
 msgstr "Layout de entrada rápida"
 
@@ -437,12 +437,12 @@ msgstr "Filtros rápidos atualizados com sucesso"
 #. Label of the rate (Currency) field in DocType 'CRM Products'
 #: crm/fcrm/doctype/crm_products/crm_products.json
 msgid "Rate"
-msgstr "Preço"
+msgstr "Preço Unitário"
 
 #. Label of the read (Check) field in DocType 'CRM Notification'
 #: crm/fcrm/doctype/crm_notification/crm_notification.json
 msgid "Read"
-msgstr "Lido"
+msgstr "Leitura"
 
 #: crm/api/dashboard.py:940
 #: frontend/src/components/Settings/LeadSyncing/FailureLogs.vue:30
@@ -451,6 +451,8 @@ msgstr "Motivo"
 
 #. Label of the record_calls (Check) field in DocType 'CRM Twilio Settings'
 #: crm/fcrm/doctype/crm_twilio_settings/crm_twilio_settings.json
+#: frontend/src/components/Settings/Telephony/ExotelSettings.vue:86
+#: frontend/src/components/Settings/Telephony/TwilioSettings.vue:93
 msgid "Record Calls"
 msgstr "Gravar chamadas"
 
@@ -459,14 +461,14 @@ msgstr "Gravar chamadas"
 msgid "Record Outgoing Calls"
 msgstr "Gravar chamadas de saída"
 
-#. Label of the recording_url (Data) field in DocType 'CRM Call Log'
+#. Label of the recording_url (Small Text) field in DocType 'CRM Call Log'
 #: crm/fcrm/doctype/crm_call_log/crm_call_log.json
 msgid "Recording URL"
 msgstr "URL da gravação"
 
 #: crm/integrations/api.py:160
 msgid "Recording URL not found"
-msgstr ""
+msgstr "URL da gravação não encontrada"
 
 #. Label of the reference_name (Dynamic Link) field in DocType 'CRM
 #. Notification'
@@ -481,7 +483,7 @@ msgstr "Documento de referência"
 #. Label of the reference_doctype (Link) field in DocType 'CRM Notification'
 #: crm/fcrm/doctype/crm_notification/crm_notification.json
 msgid "Reference Doctype"
-msgstr "Tipo de documento de referência"
+msgstr "DocType de Referência"
 
 #. Label of the reference_doctype (Link) field in DocType 'CRM Call Log'
 #. Label of the reference_doctype (Link) field in DocType 'CRM Task'
@@ -496,7 +498,7 @@ msgstr "Tipo de documento de referência"
 #. Log'
 #: crm/fcrm/doctype/crm_call_log/crm_call_log.json
 msgid "Reference Name"
-msgstr "Nome de referência"
+msgstr "Nome de Referência"
 
 #: crm/api/whatsapp.py:21
 msgid "Reference document {0} {1} does not exist."
@@ -504,7 +506,7 @@ msgstr "O documento de referência {0} {1} não existe."
 
 #: crm/api/whatsapp.py:270 crm/api/whatsapp.py:322
 msgid "Referenced WhatsApp message does not exist."
-msgstr ""
+msgstr "A mensagem do WhatsApp referenciada não existe."
 
 #: frontend/src/components/ViewControls.vue:26
 #: frontend/src/components/ViewControls.vue:159
@@ -514,32 +516,36 @@ msgstr "Atualizar"
 
 #: frontend/src/components/Settings/Telephony/TwilioSettings.vue:78
 msgid "Refresh Apps"
-msgstr ""
+msgstr "Atualizar aplicativos"
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:157
 msgid "Refresh Companies"
-msgstr ""
+msgstr "Atualizar empresas"
 
 #: frontend/src/components/Telephony/TwilioCallUI.vue:97
 msgid "Reject"
-msgstr "Rejeitar"
+msgstr "Recusar"
 
 #: frontend/src/components/Telephony/TwilioCallUI.vue:163
 msgid "Reject Call"
-msgstr "Rejeitar chamada"
+msgstr "Recusar chamada"
 
 #: frontend/src/components/Kanban/KanbanView.vue:165
 msgid "Reload Columns"
-msgstr ""
+msgstr "Recarregar colunas"
 
-#: frontend/src/components/Settings/CalendarSettings.vue:66
+#: frontend/src/components/Settings/CalendarSettings.vue:67
 msgid "Reminders will be sent <b>before the event starts</b>, based on the configured time"
 msgstr "Os lembretes serão enviados <b>antes do início do evento</b>, com base no horário configurado"
 
 #: frontend/src/components/ConditionsFilter/CFCondition.vue:178
 #: frontend/src/components/Controls/ImageUploader.vue:21
-#: frontend/src/components/Settings/Users.vue:215
-#: frontend/src/pages/Deal.vue:640
+#: frontend/src/components/FieldLayoutEditor.vue:434
+#: frontend/src/components/FieldLayoutEditor.vue:492
+#: frontend/src/components/FieldLayoutEditor.vue:587
+#: frontend/src/components/Settings/Profile/UserEmailSettings.vue:84
+#: frontend/src/components/Settings/Users.vue:218
+#: frontend/src/pages/Deal.vue:652
 msgid "Remove"
 msgstr "Remover"
 
@@ -551,7 +557,6 @@ msgstr "Remover tudo"
 msgid "Remove Group"
 msgstr "Remover grupo"
 
-#: frontend/src/components/Settings/ProfileSettings.vue:35
 #: frontend/src/pages/Contact.vue:53 frontend/src/pages/Lead.vue:98
 #: frontend/src/pages/MobileContact.vue:43
 #: frontend/src/pages/MobileOrganization.vue:43
@@ -562,21 +567,23 @@ msgstr "Remover imagem"
 #: frontend/src/components/FieldLayoutEditor.vue:574
 #: frontend/src/components/FieldLayoutEditor.vue:580
 msgid "Remove Last Column"
-msgstr ""
+msgstr "Remover última coluna"
 
 #: frontend/src/components/FieldLayoutEditor.vue:604
 msgid "Remove Last Column (move fields to previous)"
-msgstr ""
+msgstr "Remover última coluna (mover campos para a anterior)"
 
 #: frontend/src/components/Settings/Profile/ProfileSettings.vue:157
 msgid "Remove Photo"
-msgstr ""
+msgstr "Remover foto"
 
-#: frontend/src/components/FieldLayoutEditor.vue:357
+#: frontend/src/components/FieldLayoutEditor.vue:477
+#: frontend/src/components/FieldLayoutEditor.vue:485
 msgid "Remove Section"
 msgstr "Remover seção"
 
-#: frontend/src/components/FieldLayoutEditor.vue:316
+#: frontend/src/components/FieldLayoutEditor.vue:419
+#: frontend/src/components/FieldLayoutEditor.vue:427
 msgid "Remove Tab"
 msgstr "Remover aba"
 
@@ -585,7 +592,7 @@ msgstr "Remover aba"
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 #: frontend/src/components/Settings/GeneralSettings.vue:60
 msgid "Reopen lead/deal on new communication"
-msgstr ""
+msgstr "Reabrir lead/negócio com nova comunicação"
 
 #: frontend/src/components/Activities/EmailArea.vue:34
 #: frontend/src/components/CommunicationArea.vue:9
@@ -598,7 +605,7 @@ msgstr "Responder a todos"
 
 #: frontend/src/components/Modals/AboutModal.vue:65
 msgid "Report an Issue"
-msgstr "Reportar um problema"
+msgstr "Relatar um problema"
 
 #. Option for the 'Type' (Select) field in DocType 'CRM Fields Layout'
 #: crm/fcrm/doctype/crm_fields_layout/crm_fields_layout.json
@@ -624,7 +631,7 @@ msgstr "Redefinir script de formulário do ERPNext"
 #: frontend/src/components/ColumnSettings.vue:86
 #: frontend/src/pages/Dashboard.vue:28
 msgid "Reset to Default"
-msgstr "Redefinir para o padrão"
+msgstr "Restaurar padrão"
 
 #. Label of the responded_on (Datetime) field in DocType 'CRM Rolling Response
 #. Time'
@@ -661,7 +668,7 @@ msgstr "Detalhes da resposta"
 msgid "Response Time"
 msgstr "Tempo de resposta"
 
-#: frontend/src/components/Settings/Sla/EditResponseResolutionModal.vue:114
+#: frontend/src/components/Settings/Sla/EditResponseResolutionModal.vue:99
 msgid "Response Time is required"
 msgstr "O tempo de resposta é obrigatório"
 
@@ -672,12 +679,13 @@ msgstr "O tempo de resposta é obrigatório"
 msgid "Restart the SLA each time the customer replies (status changes to Open) and fulfill it when marked as Replied"
 msgstr "Reinicie o SLA sempre que o cliente responder (o status muda para Aberto) e conclua-o quando for marcado como Respondido"
 
-#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.js:14
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.js:22
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.js:54
 msgid "Restore"
 msgstr "Restaurar"
 
 #. Label of the restore_defaults (Button) field in DocType 'FCRM Settings'
-#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.js:13
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.js:21
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 msgid "Restore Defaults"
 msgstr "Restaurar padrões"
@@ -686,16 +694,16 @@ msgstr "Restaurar padrões"
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.js:53
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 msgid "Restore Demo Data"
-msgstr ""
+msgstr "Restaurar dados de demonstração"
 
 #: frontend/src/components/FilesUploader/FilesUploader.vue:51
 msgid "Retake"
-msgstr "Tirar novamente"
+msgstr "Capturar novamente"
 
 #: crm/lead_syncing/doctype/failed_lead_sync_log/failed_lead_sync_log.js:6
 #: frontend/src/components/Settings/LeadSyncing/FailureLogs.vue:16
 msgid "Retry Sync"
-msgstr "Sincronizar novamente"
+msgstr "Tentar sincronizar novamente"
 
 #: crm/api/dashboard.py:727
 msgid "Revenue"
@@ -704,7 +712,7 @@ msgstr "Receita"
 #: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:81
 #: frontend/src/components/Settings/EmailTemplate/NewEmailTemplate.vue:81
 msgid "Rich Text"
-msgstr "Texto formatado"
+msgstr "Texto Enriquecido"
 
 #. Label of the rgt (Int) field in DocType 'CRM Territory'
 #: crm/fcrm/doctype/crm_territory/crm_territory.json
@@ -715,7 +723,7 @@ msgstr "Direita"
 #: crm/fcrm/doctype/crm_call_log/crm_call_log.json
 #: frontend/src/utils/callLog.js:70
 msgid "Ringing"
-msgstr "Tocando"
+msgstr "Toque"
 
 #: frontend/src/components/Telephony/TwilioCallUI.vue:38
 #: frontend/src/components/Telephony/TwilioCallUI.vue:140
@@ -733,7 +741,7 @@ msgstr "Perfil"
 #: crm/fcrm/doctype/crm_deal/crm_deal.json
 #: crm/fcrm/doctype/crm_lead/crm_lead.json
 msgid "Rolling Response Due"
-msgstr "Prazo de resposta contínua"
+msgstr ""
 
 #. Label of the rolling_responses (Table) field in DocType 'CRM Deal'
 #. Label of the rolling_responses (Table) field in DocType 'CRM Lead'
@@ -744,7 +752,7 @@ msgstr "Prazo de resposta contínua"
 #: crm/fcrm/doctype/crm_service_level_agreement/crm_service_level_agreement.json
 #: frontend/src/components/Settings/Sla/SlaPolicyView.vue:89
 msgid "Rolling Responses"
-msgstr "Respostas contínuas"
+msgstr ""
 
 #. Option for the 'Type' (Select) field in DocType 'CRM Dropdown Item'
 #. Label of the route (Data) field in DocType 'CRM Dropdown Item'

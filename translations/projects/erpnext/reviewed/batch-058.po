@@ -118,7 +118,7 @@ msgstr "Nº do comprovante"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1298
 msgid "Voucher No is mandatory"
-msgstr "Nº do comprovante é obrigatório"
+msgstr "O nº do comprovante é obrigatório"
 
 #. Label of the voucher_qty (Float) field in DocType 'Stock Reservation Entry'
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
@@ -214,7 +214,7 @@ msgstr "Comprovantes"
 
 #: erpnext/patches/v15_0/remove_exotel_integration.py:32
 msgid "WARNING: Exotel app has been separated from ERPNext, please install the app to continue using Exotel integration."
-msgstr "AVISO: o app Exotel foi separado do ERPNext. Instale o app para continuar usando a integração com o Exotel."
+msgstr "AVISO: o aplicativo Exotel foi separado do ERPNext. Instale o aplicativo para continuar usando a integração com o Exotel."
 
 #. Label of the wip_composite_asset (Link) field in DocType 'Purchase Invoice
 #. Item'
@@ -234,7 +234,7 @@ msgstr "Ativo composto em andamento"
 #. Label of the wip_warehouse (Link) field in DocType 'Work Order Operation'
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 msgid "WIP WH"
-msgstr "Armazém de WIP"
+msgstr "Arm. WIP"
 
 #. Label of the wip_warehouse (Link) field in DocType 'BOM Operation'
 #. Label of the wip_warehouse (Link) field in DocType 'Job Card'
@@ -269,7 +269,7 @@ msgstr "Resumo da capacidade do armazém"
 
 #: erpnext/stock/doctype/putaway_rule/putaway_rule.py:79
 msgid "Warehouse Capacity for Item '{0}' must be greater than the existing stock level of {1} {2}."
-msgstr "A capacidade do armazém para o item '{0}' deve ser maior que o nível de estoque existente de {1} {2}."
+msgstr "A capacidade do armazém para o item '{0}' deve ser maior que o nível de estoque atual de {1} {2}."
 
 #. Label of the warehouse_contact_info (Section Break) field in DocType
 #. 'Warehouse'
@@ -346,7 +346,7 @@ msgstr "Armazém e referência"
 
 #: erpnext/stock/doctype/warehouse/warehouse.py:100
 msgid "Warehouse can not be deleted as stock ledger entry exists for this warehouse."
-msgstr "O armazém não pode ser excluído, pois há lançamento no livro razão de estoque para este armazém."
+msgstr "O armazém não pode ser excluído, pois há lançamento no razão de estoque para este armazém."
 
 #: erpnext/stock/doctype/serial_no/serial_no.py:85
 msgid "Warehouse cannot be changed for Serial No."
@@ -388,7 +388,7 @@ msgstr "O armazém {0} não existe"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:234
 msgid "Warehouse {0} is not allowed for Sales Order {1}, it should be {2}"
-msgstr "O armazém {0} não é permitido para o pedido de venda {1}; deve ser {2}"
+msgstr "O armazém {0} não é permitido para o Pedido de Venda {1}; deve ser {2}"
 
 #: erpnext/controllers/stock_controller.py:771
 msgid "Warehouse {0} is not linked to any account, please mention the account in the warehouse record or set default inventory account in company {1}."
@@ -396,7 +396,7 @@ msgstr "O armazém {0} não está vinculado a nenhuma conta. Informe a conta no 
 
 #: erpnext/stock/doctype/warehouse/warehouse.py:144
 msgid "Warehouse's Stock Value has already been booked in the following accounts:"
-msgstr "O valor de estoque do armazém já foi contábilizado nas seguintes contas:"
+msgstr "O valor de estoque do armazém já foi contabilizado nas seguintes contas:"
 
 #: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.py:20
 msgid "Warehouse: {0} does not belong to {1}"
@@ -497,7 +497,7 @@ msgstr "Aviso - Linha {0}: as horas faturáveis são maiores que as horas reais"
 
 #: erpnext/stock/stock_ledger.py:820
 msgid "Warning on Negative Stock"
-msgstr "Aviso de estoque negativo"
+msgstr "Aviso sobre estoque negativo"
 
 #: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.py:114
 msgid "Warning!"
@@ -505,15 +505,15 @@ msgstr "Aviso!"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1290
 msgid "Warning: Another {0} # {1} exists against stock entry {2}"
-msgstr "Aviso: Outra {0} # {1} existe para o movimento de estoque {2}"
+msgstr "Aviso: já existe outro(a) {0} # {1} para o movimento de estoque {2}"
 
 #: erpnext/stock/doctype/material_request/material_request.js:544
 msgid "Warning: Material Requested Qty is less than Minimum Order Qty"
-msgstr "Aviso: a qtd. solicitada de material é menor que a qtd. mínima do pedido"
+msgstr "Aviso: a quantidade solicitada de material é menor que a quantidade mínima do pedido"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1430
 msgid "Warning: Quantity exceeds maximum producible quantity based on quantity of raw materials received through the Subcontracting Inward Order {0}."
-msgstr "Aviso: a quantidade excede a quantidade máxima produzível com base na quantidade de matérias-primas recebidas pela ordem de entrada de subcontratação {0}."
+msgstr "Aviso: a quantidade excede a quantidade máxima produzível com base na quantidade de matérias-primas recebidas pela Ordem de Entrada de Subcontratação {0}."
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:335
 msgid "Warning: Sales Order {0} already exists against Customer's Purchase Order {1}"
@@ -547,7 +547,7 @@ msgstr "Status da garantia / AMC"
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 #: erpnext/support/workspace/support/support.json
 msgid "Warranty Claim"
-msgstr "Chamado de garantia"
+msgstr "Solicitação de Garantia"
 
 #: erpnext/stock/report/serial_no_and_batch_traceability/serial_no_and_batch_traceability.py:542
 msgid "Warranty Expiry (Serial)"
@@ -607,7 +607,7 @@ msgstr "Atributo do Site"
 #. Label of the web_long_description (Text Editor) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Website Description"
-msgstr "Descrição do site"
+msgstr "Descrição no site"
 
 #. Name of a DocType
 #: erpnext/portal/doctype/website_filter_field/website_filter_field.json
@@ -617,7 +617,7 @@ msgstr "Campo de Filtro do Site"
 #. Label of the website_image (Attach Image) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Website Image"
-msgstr "Imagem do site"
+msgstr "Imagem no site"
 
 #. Name of a DocType
 #: erpnext/setup/doctype/website_item_group/website_item_group.json
@@ -627,7 +627,7 @@ msgstr "Grupo de Itens do Site"
 #. Label of the sb_web_spec (Section Break) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Website Specifications"
-msgstr "Especificações do site"
+msgstr "Especificações no site"
 
 #: erpnext/accounts/letterhead/company_letterhead.html:91
 #: erpnext/accounts/letterhead/company_letterhead_grey.html:109
@@ -747,7 +747,7 @@ msgstr "Rodas"
 #. 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "When a parent warehouse is chosen, the system conducts Project Qty checks against the associated child warehouses"
-msgstr "Quando um armazém pai é escolhido, o sistema faz verificações de qtd. do projeto nos armazéns filhos associados"
+msgstr "Quando um armazém pai é selecionado, o sistema verifica a qtd. do projeto nos armazéns filhos associados"
 
 #: erpnext/stock/doctype/item/item.js:1072
 msgid "When creating an Item, entering a value for this field will automatically create an Item Price at the backend."
@@ -755,7 +755,7 @@ msgstr "Ao criar um item, informar um valor neste campo criará automaticamente 
 
 #: erpnext/accounts/doctype/account/account.py:380
 msgid "While creating account for Child Company {0}, parent account {1} found as a ledger account."
-msgstr "Ao criar a conta para a empresa filha {0}, a conta pai {1} foi encontrada como conta de razão."
+msgstr "Ao criar a conta para a empresa filha {0}, a conta pai {1} foi encontrada como conta razão."
 
 #: erpnext/accounts/doctype/account/account.py:370
 msgid "While creating account for Child Company {0}, parent account {1} not found. Please create the parent account in corresponding COA"
@@ -765,7 +765,7 @@ msgstr "Ao criar a conta para a empresa filha {0}, a conta pai {1} não foi enco
 #. DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "While making Purchase Invoice from Purchase Order, use Exchange Rate on Invoice's transaction date rather than inheriting it from Purchase Order. Only applies for Purchase Invoice."
-msgstr "Ao criar uma fatura de compra a partir de um pedido de compra, use a taxa de câmbio da data da transação da fatura em vez de herdá-la do pedido de compra. Aplica-se somente à fatura de compra."
+msgstr "Ao criar a fatura de compra a partir do pedido de compra, use a taxa de câmbio na data da transação da fatura em vez de herdá-la do pedido de compra. Aplica-se apenas à fatura de compra."
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:286
 msgid "White"
@@ -793,13 +793,13 @@ msgstr "Largura do valor por extenso"
 #. Description of the 'Taxes' (Table) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Will also apply for variants"
-msgstr "Também será aplicado às variantes"
+msgstr "Também se aplicará às variantes"
 
 #. Description of the 'Reorder level based on Warehouse' (Table) field in
 #. DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Will also apply for variants unless overridden"
-msgstr "Também será aplicado às variantes, salvo substituição"
+msgstr "Também se aplicará às variantes, a menos que seja substituído"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:259
 msgid "Wire Transfer"
@@ -813,7 +813,7 @@ msgstr "Com operações"
 #: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.js:63
 #: erpnext/accounts/report/trial_balance/trial_balance.js:83
 msgid "With Period Closing Entry For Opening Balances"
-msgstr "Com lançamento de encerramento do período para saldos iniciais"
+msgstr "Com lançamento de encerramento de período para saldos de abertura"
 
 #. Label of the withdrawal (Currency) field in DocType 'Bank Transaction'
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
@@ -825,7 +825,7 @@ msgstr "Saque"
 #. Purpose'
 #: erpnext/maintenance/doctype/maintenance_visit_purpose/maintenance_visit_purpose.json
 msgid "Work Done"
-msgstr "Trabalho executado"
+msgstr "Trabalho realizado"
 
 #. Option for the 'Status' (Select) field in DocType 'Asset'
 #. Option for the 'Status' (Select) field in DocType 'Job Card'
@@ -889,14 +889,14 @@ msgstr "Ordem de trabalho / pedido de compra de subcontratação"
 
 #: erpnext/manufacturing/dashboard_fixtures.py:93
 msgid "Work Order Analysis"
-msgstr "Análise de Ordem de Trabalho"
+msgstr "Análise da ordem de trabalho"
 
 #. Name of a report
 #. Label of a Link in the Manufacturing Workspace
 #: erpnext/manufacturing/report/work_order_consumed_materials/work_order_consumed_materials.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "Work Order Consumed Materials"
-msgstr "Materiais consumidos da ordem de trabalho"
+msgstr "Materiais consumidos na ordem de trabalho"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
@@ -906,7 +906,7 @@ msgstr "Item da ordem de trabalho"
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 msgid "Work Order Operation"
-msgstr "Operação de Ordem de Trabalho"
+msgstr "Operação da ordem de trabalho"
 
 #. Label of the work_order_qty (Float) field in DocType 'Sales Order Item'
 #. Label of the work_order_qty (Float) field in DocType 'Subcontracting Inward
@@ -918,12 +918,12 @@ msgstr "Qtd. da ordem de trabalho"
 
 #: erpnext/manufacturing/dashboard_fixtures.py:152
 msgid "Work Order Qty Analysis"
-msgstr "Análise da qtd. da ordem de trabalho"
+msgstr "Análise da quantidade da ordem de trabalho"
 
 #. Name of a report
 #: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.json
 msgid "Work Order Stock Report"
-msgstr "Relatório de Estoque de Ordem de Trabalho"
+msgstr "Relatório de estoque da ordem de trabalho"
 
 #. Name of a report
 #. Label of a Link in the Manufacturing Workspace
@@ -934,11 +934,11 @@ msgstr "Resumo da ordem de trabalho"
 
 #: erpnext/stock/doctype/material_request/material_request.py:905
 msgid "Work Order cannot be created for following reason: <br> {0}"
-msgstr "A Ordem de Trabalho não pode ser criada pelo seguinte motivo: <br> {0}"
+msgstr "A ordem de trabalho não pode ser criada pelo seguinte motivo:<br> {0}"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1374
 msgid "Work Order cannot be raised against a Item Template"
-msgstr "Não é possível criar ordem de trabalho para um modelo de item"
+msgstr "A ordem de trabalho não pode ser criada para um modelo de item"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:2381
 #: erpnext/manufacturing/doctype/work_order/work_order.py:2461
@@ -947,7 +947,7 @@ msgstr "A ordem de trabalho foi {0}"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1225
 msgid "Work Order not created"
-msgstr "Ordem de Trabalho não criada"
+msgstr "Ordem de trabalho não criada"
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1372
 msgid "Work Order {0} created"
@@ -955,7 +955,7 @@ msgstr "Ordem de trabalho {0} criada"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:814
 msgid "Work Order {0}: Job Card not found for the operation {1}"
-msgstr "Ordem de Trabalho {0}: Cartao de Trabalho não encontrado para a operação {1}"
+msgstr "Ordem de trabalho {0}: cartão de trabalho não encontrado para a operação {1}"
 
 #: erpnext/manufacturing/report/job_card_summary/job_card_summary.js:56
 #: erpnext/stock/doctype/material_request/material_request.py:893
@@ -964,19 +964,19 @@ msgstr "Ordens de Trabalho"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1310
 msgid "Work Orders Created: {0}"
-msgstr "Ordens de Trabalho criadas: {0}"
+msgstr "Ordens de trabalho criadas: {0}"
 
 #. Name of a report
 #: erpnext/manufacturing/report/work_orders_in_progress/work_orders_in_progress.json
 msgid "Work Orders in Progress"
-msgstr "Ordens de Trabalho em andamento"
+msgstr "Ordens de trabalho em andamento"
 
 #. Option for the 'Status' (Select) field in DocType 'Work Order Operation'
 #. Label of the work_in_progress (Column Break) field in DocType 'Email Digest'
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Work in Progress"
-msgstr "Trabalho em andamento"
+msgstr "Em andamento"
 
 #. Label of the wip_warehouse (Link) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
@@ -1017,7 +1017,7 @@ msgstr "Em andamento"
 #: erpnext/projects/workspace/projects/projects.json
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
 msgid "Working Hours"
-msgstr "Horas de trabalho"
+msgstr "Horas de Trabalho"
 
 #. Label of the workstation (Link) field in DocType 'BOM Operation'
 #. Label of the workstation (Link) field in DocType 'BOM Website Operation'
@@ -1043,43 +1043,43 @@ msgstr "Horas de trabalho"
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 #: erpnext/templates/generators/bom.html:70
 msgid "Workstation"
-msgstr "Posto de Trabalho"
+msgstr "Estação de Trabalho"
 
 #. Label of the workstation (Link) field in DocType 'Downtime Entry'
 #: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json
 msgid "Workstation / Machine"
-msgstr "Posto de Trabalho / máquina"
+msgstr "Estação de trabalho / máquina"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/workstation_cost/workstation_cost.json
 msgid "Workstation Cost"
-msgstr "Custo do posto de trabalho"
+msgstr "Custo da estação de trabalho"
 
 #. Label of the workstation_dashboard (HTML) field in DocType 'Workstation'
 #: erpnext/manufacturing/doctype/workstation/workstation.json
 msgid "Workstation Dashboard"
-msgstr "Painel do posto de trabalho"
+msgstr "Painel da estação de trabalho"
 
 #. Label of the workstation_name (Data) field in DocType 'Workstation'
 #: erpnext/manufacturing/doctype/workstation/workstation.json
 msgid "Workstation Name"
-msgstr "Nome do posto de trabalho"
+msgstr "Nome da estação de trabalho"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/workstation_operating_component/workstation_operating_component.json
 msgid "Workstation Operating Component"
-msgstr "Componente operacional do posto de trabalho"
+msgstr "Componente operacional da estação de trabalho"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/workstation_operating_component_account/workstation_operating_component_account.json
 msgid "Workstation Operating Component Account"
-msgstr "Conta do componente operacional do posto de trabalho"
+msgstr "Conta do componente operacional da estação de trabalho"
 
 #. Label of the workstation_status_tab (Tab Break) field in DocType
 #. 'Workstation'
 #: erpnext/manufacturing/doctype/workstation/workstation.json
 msgid "Workstation Status"
-msgstr "Status do posto de trabalho"
+msgstr "Status da estação de trabalho"
 
 #. Label of the workstation_type (Link) field in DocType 'BOM Operation'
 #. Label of the workstation_type (Link) field in DocType 'Job Card'
@@ -1095,13 +1095,13 @@ msgstr "Status do posto de trabalho"
 #: erpnext/manufacturing/doctype/workstation_type/workstation_type.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "Workstation Type"
-msgstr "Tipo de posto de trabalho"
+msgstr "Tipo de estação de trabalho"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/workstation_working_hour/workstation_working_hour.json
 msgid "Workstation Working Hour"
-msgstr "Horário de trabalho do posto de trabalho"
+msgstr "Hora de Trabalho da Estação de Trabalho"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.py:452
 msgid "Workstation is closed on the following dates as per Holiday List: {0}"
-msgstr "O posto de trabalho está fechado nas seguintes datas, conforme a lista de feriados: {0}"
+msgstr "A estação de trabalho está fechada nas seguintes datas conforme a lista de feriados: {0}"

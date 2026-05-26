@@ -6,6 +6,7 @@ msgstr ""
 "PO-Revision-Date: 2026-01-21 06:48\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +17,6 @@ msgstr ""
 "X-Crowdin-Language: pt-BR\n"
 "X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
 "X-Crowdin-File-ID: 138\n"
-"Language: pt_BR\n"
 
 #: frappe/core/doctype/doctype/doctype.py:1844
 msgid "Report cannot be set for Single types"
@@ -25,7 +25,8 @@ msgstr "Não é possível definir relatório para tipos Single"
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:208
 #: frappe/desk/doctype/number_card/number_card.js:194
 msgid "Report has no data, please modify the filters or change the Report Name"
-msgstr "O relatório não tem dados. Altere os filtros ou mude o nome do relatório"
+msgstr ""
+"O relatório não tem dados. Altere os filtros ou mude o nome do relatório"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:196
 #: frappe/desk/doctype/number_card/number_card.js:189
@@ -99,8 +100,12 @@ msgstr "Representa um usuário no sistema."
 
 #. Description of a DocType
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
-msgid "Represents the states allowed in one document and role assigned to change the state."
-msgstr "Representa os estados permitidos em um documento e o perfil atribuído para alterar o estado."
+msgid ""
+"Represents the states allowed in one document and role assigned to change "
+"the state."
+msgstr ""
+"Representa os estados permitidos em um documento e o perfil atribuído para "
+"alterar o estado."
 
 #: frappe/integrations/doctype/webhook/webhook.js:101
 msgid "Request Body"
@@ -112,7 +117,7 @@ msgstr "Corpo da solicitação"
 #: frappe/integrations/doctype/integration_request/integration_request.json
 #: frappe/website/web_form/request_data/request_data.json
 msgid "Request Data"
-msgstr "Dados da solicitação"
+msgstr "Solicitação de dados"
 
 #. Label of the request_description (Data) field in DocType 'Integration
 #. Request'
@@ -182,13 +187,15 @@ msgstr "Exigir certificado confiável"
 #. 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "Requires any valid fdn path. i.e. ou=groups,dc=example,dc=com"
-msgstr "Requer qualquer caminho FDN válido, por exemplo: ou=groups,dc=example,dc=com"
+msgstr ""
+"Requer qualquer caminho FDN válido, por exemplo: ou=groups,dc=example,dc=com"
 
 #. Description of the 'LDAP search path for Users' (Data) field in DocType
 #. 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "Requires any valid fdn path. i.e. ou=users,dc=example,dc=com"
-msgstr "Requer qualquer caminho FDN válido, por exemplo: ou=users,dc=example,dc=com"
+msgstr ""
+"Requer qualquer caminho FDN válido, por exemplo: ou=users,dc=example,dc=com"
 
 #: frappe/core/doctype/communication/communication.js:279
 msgid "Res: {0}"
@@ -377,8 +384,14 @@ msgstr "Restringir ao domínio"
 
 #. Description of the 'Restrict IP' (Small Text) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
-msgid "Restrict user from this IP address only. Multiple IP addresses can be added by separating with commas. Also accepts partial IP addresses like (111.111.111)"
-msgstr "Restringe o usuário somente a este endereço IP. Vários endereços IP podem ser adicionados separados por vírgulas. Também aceita endereços IP parciais como (111.111.111)"
+msgid ""
+"Restrict user from this IP address only. Multiple IP addresses can be added "
+"by separating with commas. Also accepts partial IP addresses like "
+"(111.111.111)"
+msgstr ""
+"Restringe o usuário somente a este endereço IP. Vários endereços IP podem "
+"ser adicionados separados por vírgulas. Também aceita endereços IP parciais "
+"como (111.111.111)"
 
 #: frappe/public/js/frappe/list/list_view.js:199
 msgctxt "Title of message showing restrictions in list view"
@@ -406,12 +419,20 @@ msgid "Retry Sending"
 msgstr "Tentar enviar novamente"
 
 #: frappe/www/qrcode.html:15
-msgid "Return to the Verification screen and enter the code displayed by your authentication app"
-msgstr "Volte para a tela de verificação e insira o código exibido pelo seu aplicativo de autenticação"
+msgid ""
+"Return to the Verification screen and enter the code displayed by your "
+"authentication app"
+msgstr ""
+"Volte para a tela de verificação e insira o código exibido pelo seu "
+"aplicativo de autenticação"
 
 #: frappe/database/schema.py:165
-msgid "Reverting length to {0} for '{1}' in '{2}'. Setting the length as {3} will cause truncation of data."
-msgstr "Revertendo o comprimento para {0} de '{1}' em '{2}'. Definir o comprimento como {3} causará truncamento de dados."
+msgid ""
+"Reverting length to {0} for '{1}' in '{2}'. Setting the length as {3} will "
+"cause truncation of data."
+msgstr ""
+"Revertendo o tamanho para {0} de \"{1}\" em \"{2}\". Definir o tamanho como "
+"{3} causará truncamento de dados."
 
 #. Label of the revocation_uri (Data) field in DocType 'Connected App'
 #: frappe/integrations/doctype/connected_app/connected_app.json
@@ -451,12 +472,12 @@ msgstr "Direita"
 #. Option for the 'Position' (Select) field in DocType 'Form Tour Step'
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json
 msgid "Right Bottom"
-msgstr "Inferior direita"
+msgstr "Inferior direito"
 
 #. Option for the 'Position' (Select) field in DocType 'Form Tour Step'
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json
 msgid "Right Center"
-msgstr "Centro à direita"
+msgstr "Centro direito"
 
 #. Label of the robots_txt (Code) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -498,7 +519,8 @@ msgstr "Perfil"
 
 #: frappe/core/doctype/role/role.js:8
 msgid "Role 'All' will be given to all system + website users."
-msgstr "O perfil 'All' será atribuído a todos os usuários do sistema e do site."
+msgstr ""
+"O perfil 'All' será atribuído a todos os usuários do sistema e do site."
 
 #: frappe/core/doctype/role/role.js:13
 msgid "Role 'Desk User' will be given to all system users."
@@ -694,8 +716,12 @@ msgstr "Linha #"
 
 #: frappe/core/doctype/doctype/doctype.py:1866
 #: frappe/core/doctype/doctype/doctype.py:1876
-msgid "Row # {0}: Non administrator user can not set the role {1} to the custom doctype"
-msgstr "Linha # {0}: Usuário não administrador não pode definir o perfil {1} para o DocType personalizado"
+msgid ""
+"Row # {0}: Non administrator user can not set the role {1} to the custom "
+"doctype"
+msgstr ""
+"Linha # {0}: Usuário não administrador não pode definir o perfil {1} para o "
+"DocType personalizado"
 
 #: frappe/model/base_document.py:1083
 msgid "Row #{0}:"
@@ -738,7 +764,8 @@ msgstr "Linha {0}: não é permitido desativar Obrigatório para campos padrão"
 
 #: frappe/custom/doctype/customize_form/customize_form.py:346
 msgid "Row {0}: Not allowed to enable Allow on Submit for standard fields"
-msgstr "Linha {0}: não é permitido ativar Permitir ao enviar para campos padrão"
+msgstr ""
+"Linha {0}: não é permitido ativar Permitir ao enviar para campos padrão"
 
 #. Label of the rows_added_section (Section Break) field in DocType 'Audit
 #. Trail'
@@ -774,8 +801,12 @@ msgid "Rule Conditions"
 msgstr "Condições da regra"
 
 #: frappe/permissions.py:681
-msgid "Rule for this doctype, role, permlevel and if-owner combination already exists."
-msgstr "Já existe uma regra para esta combinação de doctype, perfil, nível de permissão e se for proprietário."
+msgid ""
+"Rule for this doctype, role, permlevel and if-owner combination already "
+"exists."
+msgstr ""
+"Já existe uma regra para esta combinação de doctype, perfil, nível de "
+"permissão e se for proprietário."
 
 #. Group in DocType's connections
 #: frappe/core/doctype/doctype/doctype.json
@@ -790,8 +821,12 @@ msgstr "Regras que definem a transição de estado no fluxo de trabalho."
 #. Description of the 'Transition Rules' (Section Break) field in DocType
 #. 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
-msgid "Rules for how states are transitions, like next state and which role is allowed to change state etc."
-msgstr "Regras de transição entre estados, como o próximo estado e qual perfil pode alterar o estado etc."
+msgid ""
+"Rules for how states are transitions, like next state and which role is "
+"allowed to change state etc."
+msgstr ""
+"Regras de transição entre estados, como o próximo estado e qual perfil pode "
+"alterar o estado etc."
 
 #. Description of the 'Priority' (Int) field in DocType 'Document Naming Rule'
 #: frappe/core/doctype/document_naming_rule/document_naming_rule.json
@@ -807,7 +842,8 @@ msgstr "Executar tarefas apenas diariamente se inativo por (dias)"
 #. Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Run scheduled jobs only if checked"
-msgstr "As tarefas agendadas somente serão executadas se a opção estiver marcada"
+msgstr ""
+"As tarefas agendadas somente serão executadas se a opção estiver marcada"
 
 #: frappe/core/report/prepared_report_analytics/prepared_report_analytics.py:57
 msgid "Runtime in Minutes"

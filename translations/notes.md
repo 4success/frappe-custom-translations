@@ -62,7 +62,85 @@ Use this file to capture ambiguous strings, terminology conflicts, and decisions
 
 ## Open Notes
 
-- Nenhum item permanece aberto para decisao terminologica neste arquivo; os casos ambiguos foram fechados de forma conservadora.
+- Project: crm
+- File: `translations/projects/crm/reviewed/batch-008.po`
+- `msgid`: `Rolling Response Due` / `Rolling Responses`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: o recurso de SLA reinicia a resposta a cada nova interacao do cliente, mas `rolling` pode pedir `recorrente`, `continua` ou outra formulacao de produto; sem padrao local, qualquer escolha arrisca soar artificial.
+- Decision: manter sem traducao por enquanto e revisar quando houver contexto funcional ou decisao terminologica do produto
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-041.po`
+- `msgid`: `Raw Material Voucher No` / `Raw Material Voucher Type`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: `Voucher` pode significar `documento`, `comprovante` ou `lancamento` conforme o relatorio.
+- Decision: manter sem alteracao por ora ate haver contexto mais claro do uso no relatorio
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-001.po`
+- `msgid`: `'From Date' must be after 'To Date'`
+- Current `msgstr`: `A 'Data inicial' deve ser posterior à 'Data final'`
+- Proposed `msgstr`: manter como está por enquanto
+- Why this is ambiguous: o texto-fonte em inglês parece invertido em relação ao sentido esperado; reinterpretar a tradução para “corrigir” o source aumentaria o risco.
+- Decision: manter tradução literal/coerente com o original e tratar como provável inconsistência do texto-fonte
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-003.po`
+- `msgid`: `Add Quote`
+- Current `msgstr`: `Adicionar citação`
+- Proposed `msgstr`: manter como está por enquanto
+- Why this is ambiguous: neste contexto pode significar citação/frase editorial, não cotação comercial; sem contexto adicional, forçar a família `cotação` seria arriscado.
+- Decision: manter `Adicionar citação`
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-006.po`
+- `msgid`: `Arshin`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteração por ora
+- Why this is ambiguous: unidade de medida obscura; não ficou claro se deve permanecer como nome técnico internacional ou receber equivalente localizado.
+- Decision: manter sem alteração por ora
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-043.po`
+- `msgid`: `Resolution Due`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: em SLA pode funcionar como status, prazo vencido ou rotulo de prazo de resolucao.
+- Decision: manter sem alteracao por ora para nao fixar um termo incorreto no fluxo de suporte
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-047.po`
+- `msgid`: `Select Job Worker Address`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: `Job Worker` pode pedir `terceirizado`, `prestador` ou outro termo especifico de subcontratacao no projeto.
+- Decision: manter sem alteracao por ora ate confirmar a terminologia dominante no modulo
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-048.po`
+- `msgid`: `Service Address`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: no contexto de garantia pode ser `endereco de atendimento`, `endereco do servico` ou `endereco da assistencia`.
+- Decision: manter sem alteracao por ora
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-049.po`
+- `msgid`: `Show in Bucket View`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: `bucket` pode significar `faixa`, `intervalo` ou `periodo`, dependendo do relatorio.
+- Decision: manter sem alteracao por ora
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-050.po`
+- `msgid`: `Stock Closing Entry`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: o DocType pode pedir `entrada`, `registro` ou `lancamento` de fechamento de estoque conforme a convencao interna.
+- Decision: manter sem alteracao por ora
 
 ## Consolidated In Glossary
 
@@ -119,6 +197,14 @@ Use this file to capture ambiguous strings, terminology conflicts, and decisions
 - Proposed `msgstr`: manter sem alteracao por ora
 - Why this is ambiguous: o texto-fonte parece truncado ou tecnicamente estranho; `Check in` nao deixa claro se se refere a validacao, configuracao ou campo especifico do armazem de grupo para reposicao.
 - Decision: manter sem alteracao por ora; o texto-fonte parece truncado ou malformado
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-024.po`
+- `msgid`: `Invalid Blanket Order for the selected Customer and Item`
+- Current `msgstr`: ``
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: `Blanket Order` ainda nao tem decisao terminologica estavel no projeto; pode ser `pedido em aberto`, `pedido guarda-chuva` ou `contrato aberto`, e a escolha afeta varias telas.
+- Decision: manter sem alteracao por ora; precisa de decisao terminologica antes de padronizar
 
 - Project: `frappe`
 - File: `translations/projects/frappe/reviewed/batch-001.po`
@@ -215,6 +301,22 @@ Use this file to capture ambiguous strings, terminology conflicts, and decisions
 - Proposed `msgstr`: `Leitura`
 - Why this is ambiguous: o mesmo `msgid` cobre status de entrega ("Read" = "Lido") e também permissão/ação de interface ("Read" = "Leitura"). O gettext agrupa tudo em uma única entrada.
 - Decision: ja resolvido no glossario; manter `Leitura` por ser a opcao mais segura nas entradas compartilhadas de permissao/UI
+
+- Project: `frappe`
+- File: `translations/projects/frappe/reviewed/batch-036.po`
+- `msgid`: `Weekly Long`
+- Current `msgstr`: `Weekly Long`
+- Proposed `msgstr`: manter sem alteracao por ora
+- Why this is ambiguous: o rótulo isolado não deixa claro se `Long` é nome técnico de fila/processo, frequência estendida ou outro identificador interno do scheduler.
+- Decision: manter em inglês por ora para evitar uma localização especulativa
+
+- Project: `frappe`
+- File: `translations/projects/frappe/reviewed/batch-034.po`
+- `msgid`: `Use % for any non empty value.`
+- Current `msgstr`: `Use % for qualquer valor não vazio.`
+- Proposed `msgstr`: manter esta forma por ora
+- Why this is ambiguous: a entrada está marcada como `python-format`; traduções naturais em pt-BR quebram a validação porque o `%` literal passa a ser interpretado como placeholder inválido.
+- Decision: manter a sequência `% for` para preservar a validação gettext; o ideal seria corrigir a marcação ou o texto-fonte
 
 - Project: `erpnext`
 - File: `translations/projects/erpnext/reviewed/batch-042.po`
@@ -515,6 +617,46 @@ Use this file to capture ambiguous strings, terminology conflicts, and decisions
 - Project: `helpdesk`
 - File: `translations/projects/helpdesk/reviewed/batch-006.po`
 - `msgid`: `Role`
+
+- Project: `frappe`
+- File: `translations/projects/frappe/reviewed/batch-022.po`
+- `msgid`: `Open Documents`
+- Current `msgstr`: `Documentos abertos`
+- Proposed `msgstr`: manter por enquanto
+- Why this is ambiguous: no campo `subscribed_documents`, nao fica claro se o sentido e `documentos abertos`, `documentos acompanhados` ou outro nome interno da feature.
+- Decision: manter por ora e revisar quando houver contexto funcional mais claro
+
+- Project: `frappe`
+- File: `translations/projects/frappe/reviewed/batch-023.po`
+- `msgid`: `Password Email Sent`
+- Current `msgstr`: `E-mail de senha enviado`
+- Proposed `msgstr`: manter por enquanto
+- Why this is ambiguous: sem contexto adicional, nao fica claro se e e-mail de redefinicao de senha, envio de credenciais ou outra notificacao ligada a senha.
+- Decision: manter por ora
+
+- Project: `frappe`
+- File: `translations/projects/frappe/reviewed/batch-025.po`
+- `msgid`: `Quoting must be between 0 and 3`
+- Current `msgstr`: `O valor de quoting deve estar entre 0 e 3`
+- Proposed `msgstr`: manter por enquanto
+- Why this is ambiguous: `quoting` e tecnico e o contexto nao mostra se ha termo localizado melhor sem risco.
+- Decision: manter o termo tecnico por ora
+
+- Project: `frappe`
+- File: `translations/projects/frappe/reviewed/batch-026.po`
+- `msgid`: `Reference Owner`
+- Current `msgstr`: revisado de forma conservadora no lote
+- Proposed `msgstr`: manter por enquanto
+- Why this is ambiguous: pode significar tanto o proprietario da referencia quanto o dono do documento referenciado.
+- Decision: manter por ora ate haver contexto mais claro
+
+- Project: `frappe`
+- File: `translations/projects/frappe/reviewed/batch-027.po`
+- `msgid`: `Request Data`
+- Current `msgstr`: `Solicitação de dados`
+- Proposed `msgstr`: manter por enquanto
+- Why this is ambiguous: o mesmo `msgid` cobre rotulo tecnico e tambem titulo/botao de web form; a forma nominal funciona melhor no conjunto, mas o botao isolado poderia pedir verbo.
+- Decision: manter `Solicitação de dados` por ora por ser a opcao mais segura para o contexto compartilhado
 - Current `msgstr`: `Funcao`
 - Proposed `msgstr`: `Perfil`
 - Why this is ambiguous: em Frappe/Helpdesk, `Role` pode precisar seguir uma convencao global como `perfil`, `papel` ou manutencao tecnica, e o repositorio ainda nao tem decisao estavel.

@@ -30,7 +30,7 @@ msgstr "Moeda de exibição padrão"
 
 #: frappe/core/doctype/doctype/doctype.py:1391
 msgid "Default for 'Check' type of field {0} must be either '0' or '1'"
-msgstr "O padrão para o campo do tipo 'Check' {0} deve ser '0' ou '1'"
+msgstr "O padrão do campo {0} do tipo 'Check' deve ser '0' ou '1'"
 
 #: frappe/core/doctype/doctype/doctype.py:1404
 msgid "Default value for {0} must be in the list of options."
@@ -38,7 +38,7 @@ msgstr "O valor padrão de {0} deve estar na lista de opções."
 
 #: frappe/core/doctype/session_default_settings/session_default_settings.py:38
 msgid "Default {0}"
-msgstr "Padrão de {0}"
+msgstr "{0} padrão"
 
 #. Description of the 'Heading' (Data) field in DocType 'Contact Us Settings'
 #: frappe/website/doctype/contact_us_settings/contact_us_settings.json
@@ -48,7 +48,7 @@ msgstr "Padrão: \"Fale Conosco\""
 #. Name of a DocType
 #: frappe/core/doctype/defaultvalue/defaultvalue.json
 msgid "DefaultValue"
-msgstr "DefaultValue"
+msgstr ""
 
 #. Label of the defaults_section (Section Break) field in DocType 'DocField'
 #. Label of the sb2 (Section Break) field in DocType 'User'
@@ -64,18 +64,18 @@ msgstr "Padrões atualizados"
 #. Description of a DocType
 #: frappe/workflow/doctype/workflow_transition/workflow_transition.json
 msgid "Defines actions on states and the next step and allowed roles."
-msgstr "Define as ações nos estados, a próxima etapa e os perfis permitidos."
+msgstr "Define ações para estados, a próxima etapa e os perfis permitidos."
 
 #. Description of the 'Delete Background Exported Reports After (Hours)' (Int)
 #. field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Defines how long exported reports sent via email are kept in the system. Older files will be automatically deleted."
-msgstr "Define por quanto tempo os relatórios exportados enviados por e-mail são mantidos no sistema. Arquivos antigos serão excluídos automaticamente."
+msgstr "Define por quanto tempo os relatórios exportados enviados por e-mail são mantidos no sistema. Arquivos mais antigos serão excluídos automaticamente."
 
 #. Description of a DocType
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "Defines workflow states and rules for a document."
-msgstr "Define os estados e as regras do fluxo de trabalho para um documento."
+msgstr "Define os estados e as regras do fluxo de trabalho de um documento."
 
 #. Option for the 'Delivery Status' (Select) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json
@@ -164,17 +164,17 @@ msgstr "Excluir comentário?"
 #: frappe/public/js/form_builder/components/Section.vue:205
 msgctxt "Button text"
 msgid "Delete entire column with fields"
-msgstr "Excluir coluna inteira com campos"
+msgstr "Excluir toda a coluna com os campos"
 
 #: frappe/public/js/form_builder/components/Section.vue:134
 msgctxt "Button text"
 msgid "Delete entire section with fields"
-msgstr "Excluir seção inteira com campos"
+msgstr "Excluir toda a seção com os campos"
 
 #: frappe/public/js/form_builder/components/Tabs.vue:73
 msgctxt "Button text"
 msgid "Delete entire tab with fields"
-msgstr "Excluir aba inteira com campos"
+msgstr "Excluir toda a aba com os campos"
 
 #: frappe/public/js/form_builder/components/Section.vue:132
 msgctxt "Button text"
@@ -193,12 +193,12 @@ msgstr "Exclua este registro para permitir o envio para este endereço de e-mail
 #: frappe/public/js/frappe/list/list_view.js:2256
 msgctxt "Title of confirmation dialog"
 msgid "Delete {0} item permanently?"
-msgstr "Excluir permanentemente {0} item?"
+msgstr "Excluir {0} item permanentemente?"
 
 #: frappe/public/js/frappe/list/list_view.js:2262
 msgctxt "Title of confirmation dialog"
 msgid "Delete {0} items permanently?"
-msgstr "Excluir permanentemente {0} itens?"
+msgstr "Excluir {0} itens permanentemente?"
 
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
 #. Option for the 'Status' (Select) field in DocType 'Personal Data Deletion
@@ -224,7 +224,7 @@ msgstr "Documento excluído"
 #. Label of the deleted_name (Data) field in DocType 'Deleted Document'
 #: frappe/core/doctype/deleted_document/deleted_document.json
 msgid "Deleted Name"
-msgstr "Nome excluído"
+msgstr "Nome Excluído"
 
 #: frappe/desk/reportview.py:644
 msgid "Deleted all documents successfully"
@@ -269,7 +269,7 @@ msgstr "Falha ao detectar o delimitador. Tente ativar delimitadores personalizad
 
 #: frappe/public/js/frappe/views/reports/report_utils.js:306
 msgid "Delimiter must be a single character"
-msgstr "O delimitador deve ter um único caractere"
+msgstr "O delimitador deve ser um único caractere"
 
 #. Label of the delivery_status (Select) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json
@@ -360,7 +360,7 @@ msgstr "Descrição"
 #. 'Onboarding Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
 msgid "Description to inform the user about any action that is going to be performed"
-msgstr "Descrição para informar ao usuário sobre a ação que será executada"
+msgstr "Descrição para informar ao usuário sobre qualquer ação que será executada"
 
 #. Label of the designation (Data) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
@@ -512,7 +512,7 @@ msgstr "Desativar contagem de comentários"
 #. Label of the disable_count (Check) field in DocType 'List View Settings'
 #: frappe/desk/doctype/list_view_settings/list_view_settings.json
 msgid "Disable Count"
-msgstr "Desativar contagem"
+msgstr "Desativar Contagem"
 
 #. Label of the disable_document_sharing (Check) field in DocType 'System
 #. Settings'
@@ -544,7 +544,7 @@ msgstr "Desativar rolagem"
 #. Settings'
 #: frappe/desk/doctype/list_view_settings/list_view_settings.json
 msgid "Disable Sidebar Stats"
-msgstr "Desativar estatísticas da barra lateral"
+msgstr "Desativar Estatísticas da Barra Lateral"
 
 #: frappe/website/doctype/website_settings/website_settings.js:146
 msgid "Disable Signup for your site"
@@ -642,7 +642,7 @@ msgstr "Descartado"
 #. Description of the 'Suggested Indexes' (Table) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json
 msgid "Disclaimer: These indexes are suggested based on data and queries performed during this recording. These suggestions may or may not help."
-msgstr "Aviso: estes índices são sugeridos com base nos dados e nas consultas executadas durante este registro. Essas sugestões podem ajudar ou não."
+msgstr "Aviso: estes índices são sugeridos com base nos dados e nas consultas executadas durante este registro. Essas sugestões podem ou não ajudar."
 
 #. Name of a DocType
 #: frappe/website/doctype/discussion_reply/discussion_reply.json
@@ -658,12 +658,12 @@ msgstr "Tópico da discussão"
 #: frappe/templates/discussions/reply_card.html:16
 #: frappe/templates/discussions/reply_section.html:29
 msgid "Dismiss"
-msgstr "Dispensar"
+msgstr "Fechar"
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:572
 msgctxt "Stop showing the onboarding widget."
 msgid "Dismiss"
-msgstr "Dispensar"
+msgstr "Fechar"
 
 #. Label of the display (Section Break) field in DocType 'DocField'
 #. Label of the updates_tab (Tab Break) field in DocType 'System Settings'
@@ -680,7 +680,7 @@ msgstr "Exibição"
 #. Label of the depends_on (Code) field in DocType 'Web Form Field'
 #: frappe/website/doctype/web_form_field/web_form_field.json
 msgid "Display Depends On"
-msgstr "Exibir depende de"
+msgstr "Exibição depende de"
 
 #. Label of the depends_on (Code) field in DocType 'DocField'
 #. Label of the display_depends_on (Code) field in DocType 'Workspace Sidebar
@@ -688,7 +688,7 @@ msgstr "Exibir depende de"
 #: frappe/core/doctype/docfield/docfield.json
 #: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json
 msgid "Display Depends On (JS)"
-msgstr "Exibir depende de (JS)"
+msgstr "Exibição depende de (JS)"
 
 #: frappe/public/js/print_format_builder/PrintFormatControls.vue:180
 msgid "Divider"
@@ -703,11 +703,11 @@ msgstr "Não criar novo usuário"
 #. Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "Do not create new user if user with email does not exist in the system"
-msgstr "Não criar novo usuário se não existir um usuário com este e-mail no sistema"
+msgstr "Não criar novo usuário se um usuário com este e-mail não existir no sistema"
 
 #: frappe/public/js/frappe/form/grid.js:1216
 msgid "Do not edit headers which are preset in the template"
-msgstr "Não edite cabeçalhos predefinidos no modelo"
+msgstr "Não edite cabeçalhos já definidos no modelo"
 
 #: frappe/public/js/frappe/router.js:624
 msgid "Do not warn me again about {0}"
@@ -715,7 +715,7 @@ msgstr "Não me avise novamente sobre {0}"
 
 #: frappe/core/doctype/system_settings/system_settings.js:71
 msgid "Do you still want to proceed?"
-msgstr "Ainda deseja continuar?"
+msgstr "Deseja continuar mesmo assim?"
 
 #: frappe/public/js/frappe/form/form.js:961
 msgid "Do you want to cancel all linked documents?"
@@ -741,25 +741,24 @@ msgstr "Status do documento"
 #: frappe/core/doctype/docfield/docfield.json
 #: frappe/custom/doctype/property_setter/property_setter.json
 msgid "DocField"
-msgstr "DocField"
+msgstr ""
 
 #. Name of a DocType
 #: frappe/core/doctype/docperm/docperm.json
 msgid "DocPerm"
-msgstr "DocPerm"
+msgstr ""
 
 #. Name of a DocType
 #: frappe/core/doctype/docshare/docshare.json
 msgid "DocShare"
-msgstr "DocShare"
+msgstr ""
 
 #: frappe/workflow/doctype/workflow/workflow.js:264
 msgid "DocStatus of the following states have changed:<br><strong>{0}</strong><br>\n"
 "\t\t\t\tDo you want to update the docstatus of existing documents in those states?<br>\n"
 "\t\t\t\tThis does not undo any effect bought in by the document's existing docstatus.\n"
 "\t\t\t\t"
-msgstr ""
-"O DocStatus dos estados a seguir foi alterado:<br><strong>{0}</strong><br>\n"
+msgstr "O DocStatus dos seguintes estados foi alterado:<br><strong>{0}</strong><br>\n"
 "\t\t\t\tDeseja atualizar o docstatus dos documentos existentes nesses estados?<br>\n"
 "\t\t\t\tIsso não desfaz nenhum efeito causado pelo docstatus atual do documento.\n"
 "\t\t\t\t"
@@ -810,7 +809,7 @@ msgstr ""
 #: frappe/public/js/frappe/widgets/widget_dialog.js:164
 #: frappe/website/doctype/website_slideshow/website_slideshow.js:18
 msgid "DocType"
-msgstr "DocType"
+msgstr ""
 
 #: frappe/core/doctype/doctype/doctype.py:1592
 msgid "DocType <b>{0}</b> provided for the field <b>{1}</b> must have atleast one Link field"
@@ -821,30 +820,30 @@ msgstr "O DocType <b>{0}</b> informado para o campo <b>{1}</b> deve ter pelo men
 #: frappe/core/doctype/doctype_action/doctype_action.json
 #: frappe/custom/doctype/property_setter/property_setter.json
 msgid "DocType Action"
-msgstr "Ação de DocType"
+msgstr ""
 
 #. Option for the 'Script Type' (Select) field in DocType 'Server Script'
 #. Label of the doctype_event (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
 msgid "DocType Event"
-msgstr "Evento de DocType"
+msgstr ""
 
 #. Name of a DocType
 #: frappe/custom/doctype/doctype_layout/doctype_layout.json
 msgid "DocType Layout"
-msgstr "Layout de DocType"
+msgstr ""
 
 #. Name of a DocType
 #: frappe/custom/doctype/doctype_layout_field/doctype_layout_field.json
 msgid "DocType Layout Field"
-msgstr "Campo de layout de DocType"
+msgstr ""
 
 #. Name of a DocType
 #. Option for the 'Applied On' (Select) field in DocType 'Property Setter'
 #: frappe/core/doctype/doctype_link/doctype_link.json
 #: frappe/custom/doctype/property_setter/property_setter.json
 msgid "DocType Link"
-msgstr "Link de DocType"
+msgstr ""
 
 #: frappe/public/js/form_builder/components/Field.vue:159
 msgid "DocType Missing"
@@ -855,13 +854,13 @@ msgstr "DocType ausente"
 #: frappe/core/doctype/doctype_state/doctype_state.json
 #: frappe/custom/doctype/property_setter/property_setter.json
 msgid "DocType State"
-msgstr "Estado de DocType"
+msgstr ""
 
 #. Label of the doc_view (Select) field in DocType 'Workspace Shortcut'
 #: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
 #: frappe/public/js/frappe/widgets/widget_dialog.js:479
 msgid "DocType View"
-msgstr "Visualização de DocType"
+msgstr ""
 
 #: frappe/core/doctype/doctype/doctype.py:670
 msgid "DocType can not be merged"
@@ -874,7 +873,7 @@ msgstr "O DocType só pode ser renomeado pelo Administrador"
 #. Description of a DocType
 #: frappe/core/doctype/doctype/doctype.json
 msgid "DocType is a Table / Form in the application."
-msgstr "DocType é uma tabela/formulário no aplicativo."
+msgstr "DocType é uma Tabela / Formulário no aplicativo."
 
 #: frappe/integrations/doctype/webhook/webhook.py:83
 msgid "DocType must be Submittable for the selected Doc Event"
@@ -882,7 +881,7 @@ msgstr "O DocType deve permitir envio para o evento de documento selecionado"
 
 #: frappe/client.py:406
 msgid "DocType must be a string"
-msgstr "DocType deve ser uma string"
+msgstr "O DocType deve ser uma string"
 
 #: frappe/public/js/form_builder/store.js:154
 msgid "DocType must have atleast one field"
@@ -890,7 +889,7 @@ msgstr "O DocType deve ter pelo menos um campo"
 
 #: frappe/core/doctype/log_settings/log_settings.py:57
 msgid "DocType not supported by Log Settings."
-msgstr "DocType não é compatível com Configurações de log."
+msgstr "DocType não suportado por Configurações de log."
 
 #. Description of the 'Document Type' (Link) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
@@ -911,7 +910,7 @@ msgstr "DocType {} não encontrado"
 
 #: frappe/core/doctype/doctype/doctype.py:1043
 msgid "DocType's name should not start or end with whitespace"
-msgstr "O nome do DocType não deve começar nem terminar com espaços em branco"
+msgstr "O nome do DocType não deve começar nem terminar com espaço em branco"
 
 #: frappe/core/doctype/doctype/doctype.js:67
 msgid "DocTypes cannot be modified, please use {0} instead"
@@ -952,7 +951,7 @@ msgstr "Documento"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Document Actions"
-msgstr "Ações do documento"
+msgstr "Ações do Documento"
 
 #. Label of the document_follow_notifications_section (Section Break) field in
 #. DocType 'User'

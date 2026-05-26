@@ -25,7 +25,7 @@ msgstr "Incluir estoque de segurança no cálculo da qtd. necessária"
 
 #: erpnext/manufacturing/report/production_planning_report/production_planning_report.js:87
 msgid "Include Sub-assembly Raw Materials"
-msgstr "Incluir matérias-primas dos subconjuntos"
+msgstr "Incluir matérias-primas de subconjuntos"
 
 #. Label of the include_subcontracted_items (Check) field in DocType
 #. 'Production Plan'
@@ -41,7 +41,7 @@ msgstr "Incluir apontamentos em rascunho"
 #: erpnext/stock/report/stock_ledger/stock_ledger.js:108
 #: erpnext/stock/report/stock_projected_qty/stock_projected_qty.js:51
 msgid "Include UOM"
-msgstr "Incluir UM"
+msgstr "Incluir UOM"
 
 #: erpnext/stock/report/stock_balance/stock_balance.js:131
 msgid "Include Zero Stock Items"
@@ -65,18 +65,18 @@ msgstr "Tarifa incluída"
 
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:322
 msgid "Included fee is bigger than the withdrawal itself."
-msgstr "A tarifa incluída é maior que o próprio saque."
+msgstr "A tarifa incluída é maior do que o próprio saque."
 
 #: erpnext/accounts/report/gross_and_net_profit_report/gross_and_net_profit_report.py:74
 #: erpnext/accounts/report/gross_and_net_profit_report/gross_and_net_profit_report.py:75
 msgid "Included in Gross Profit"
-msgstr "Incluído no lucro bruto"
+msgstr "Incluído no Lucro Bruto"
 
 #. Description of the 'Use Multi-Level BOM' (Check) field in DocType 'Stock
 #. Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Including items for sub assemblies"
-msgstr "Incluindo itens dos subconjuntos"
+msgstr "Incluindo itens de subconjuntos"
 
 #. Option for the 'Root Type' (Select) field in DocType 'Account'
 #. Option for the 'Root Type' (Select) field in DocType 'Ledger Merge'
@@ -163,16 +163,16 @@ msgstr "Lote consumido incorreto"
 
 #: erpnext/stock/doctype/item/item.py:532
 msgid "Incorrect Check in (group) Warehouse for Reorder"
-msgstr "Verificação incorreta no armazém de grupo para reposição"
+msgstr "Verificação incorreta no armazém (grupo) para reposição"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:935
 msgid "Incorrect Component Quantity"
-msgstr "Quantidade do componente incorreta"
+msgstr "Quantidade incorreta do componente"
 
 #: erpnext/assets/doctype/asset/asset.py:385
 #: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.py:56
 msgid "Incorrect Date"
-msgstr "Data incorreta"
+msgstr "Data Incorreta"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:135
 msgid "Incorrect Invoice"
@@ -189,7 +189,7 @@ msgstr "Documento de referência incorreto (item do recebimento de compra)"
 #. Name of a report
 #: erpnext/stock/report/incorrect_serial_no_valuation/incorrect_serial_no_valuation.json
 msgid "Incorrect Serial No Valuation"
-msgstr "Valorização incorreta do número de série"
+msgstr "Avaliação incorreta do nº de série"
 
 #: erpnext/controllers/subcontracting_controller.py:1057
 msgid "Incorrect Serial Number Consumed"
@@ -198,12 +198,12 @@ msgstr "Número de série consumido incorreto"
 #. Name of a report
 #: erpnext/stock/report/incorrect_serial_and_batch_bundle/incorrect_serial_and_batch_bundle.json
 msgid "Incorrect Serial and Batch Bundle"
-msgstr "Pacote de série e lote incorreto"
+msgstr "Pacote incorreto de nº de série e lote"
 
 #. Name of a report
 #: erpnext/stock/report/incorrect_stock_value_report/incorrect_stock_value_report.json
 msgid "Incorrect Stock Value Report"
-msgstr "Relatório de valor de estoque incorreto"
+msgstr "Relatório incorreto de valor de estoque"
 
 #: erpnext/stock/serial_batch_bundle.py:136
 msgid "Incorrect Type of Transaction"
@@ -212,11 +212,11 @@ msgstr "Tipo de transação incorreto"
 #: erpnext/stock/doctype/pick_list/pick_list.py:175
 #: erpnext/stock/doctype/stock_settings/stock_settings.py:122
 msgid "Incorrect Warehouse"
-msgstr "Armazém incorreto"
+msgstr "Armazém Incorreto"
 
 #: erpnext/accounts/general_ledger.py:62
 msgid "Incorrect number of General Ledger Entries found. You might have selected a wrong Account in the transaction."
-msgstr "Foi encontrado um número incorreto de lançamentos no Livro Razão. Você pode ter selecionado uma conta errada na transação."
+msgstr "Foi encontrado um número incorreto de lançamentos no razão geral. Você pode ter selecionado uma conta errada na transação."
 
 #. Label of the incoterm (Link) field in DocType 'Purchase Invoice'
 #. Label of the incoterm (Link) field in DocType 'Sales Invoice'
@@ -263,7 +263,7 @@ msgstr "Incremento"
 
 #: erpnext/stock/doctype/item_attribute/item_attribute.py:99
 msgid "Increment cannot be 0"
-msgstr "Incremento não pode ser 0"
+msgstr "O incremento não pode ser 0"
 
 #: erpnext/controllers/item_variant.py:113
 msgid "Increment for Attribute {0} cannot be 0"
@@ -278,12 +278,12 @@ msgstr "Nível de recuo"
 #. Row'
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
 msgid "Indentation level: 0 = Main heading, 1 = Sub-category, 2 = Individual accounts, etc."
-msgstr "Nível de recuo: 0 = cabeçalho principal, 1 = subcategoria, 2 = contas individuais etc."
+msgstr "Nível de recuo: 0 = título principal, 1 = subcategoria, 2 = contas individuais etc."
 
 #. Description of the 'Delivery Note' (Link) field in DocType 'Packing Slip'
 #: erpnext/stock/doctype/packing_slip/packing_slip.json
 msgid "Indicates that the package is a part of this delivery (Only Draft)"
-msgstr "Indica que o pacote faz parte desta entrega (somente rascunho)"
+msgstr "Indica que o volume faz parte desta entrega (somente rascunho)"
 
 #. Option for the 'Account Type' (Select) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
@@ -312,11 +312,11 @@ msgstr "Pessoa Física"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:327
 msgid "Individual GL Entry cannot be cancelled."
-msgstr "O lançamento contábil individual não pode ser cancelado."
+msgstr "Um lançamento individual do razão geral não pode ser cancelado."
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:347
 msgid "Individual Stock Ledger Entry cannot be cancelled."
-msgstr "O lançamento individual de estoque não pode ser cancelado."
+msgstr "Um lançamento individual do razão de estoque não pode ser cancelado."
 
 #. Label of the industry (Link) field in DocType 'Lead'
 #. Label of the industry (Link) field in DocType 'Opportunity'
@@ -375,7 +375,7 @@ msgstr "Inspeção rejeitada"
 #: erpnext/controllers/stock_controller.py:1412
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Inspection Required"
-msgstr "Inspeção obrigatória"
+msgstr "Inspeção Obrigatória"
 
 #. Label of the inspection_required_before_delivery (Check) field in DocType
 #. 'Item'
@@ -435,7 +435,7 @@ msgstr "Hora da instalação"
 
 #: erpnext/selling/doctype/installation_note/installation_note.py:115
 msgid "Installation date cannot be before delivery date for Item {0}"
-msgstr "A data de instalação não pode ser anterior a data de entrega do item {0}"
+msgstr "A data de instalação não pode ser anterior à data de entrega do item {0}"
 
 #. Label of the qty (Float) field in DocType 'Installation Note Item'
 #. Label of the installed_qty (Float) field in DocType 'Delivery Note Item'
@@ -508,7 +508,7 @@ msgstr "Data inicial do seguro"
 
 #: erpnext/setup/doctype/vehicle/vehicle.py:44
 msgid "Insurance Start date should be less than Insurance End date"
-msgstr "A data inicial do seguro deve ser anterior a data final do seguro"
+msgstr "A data inicial do seguro deve ser anterior à data final do seguro"
 
 #. Label of the insured_value (Data) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
@@ -549,13 +549,13 @@ msgstr "Referência da fatura entre empresas"
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
 msgid "Inter Company Journal Entry"
-msgstr "Lançamento entre empresas"
+msgstr "Lançamento contábil entre empresas"
 
 #. Label of the inter_company_journal_entry_reference (Link) field in DocType
 #. 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 msgid "Inter Company Journal Entry Reference"
-msgstr "Referência do lançamento entre empresas"
+msgstr "Referência do lançamento contábil entre empresas"
 
 #. Label of the inter_company_order_reference (Link) field in DocType 'Purchase
 #. Order'
@@ -602,7 +602,7 @@ msgstr "Juros"
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:132
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:218
 msgid "Interest Expense"
-msgstr "Despesa de juros"
+msgstr "Despesa com juros"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:146
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:243
@@ -611,12 +611,12 @@ msgstr "Receita de juros"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:3053
 msgid "Interest and/or dunning fee"
-msgstr "Juros e/ou taxa de cobrança"
+msgstr "Juros e/ou tarifa de cobrança"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:147
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:244
 msgid "Interest on Fixed Deposits"
-msgstr "Juros sobre depositos a prazo"
+msgstr "Juros sobre depósitos a prazo"
 
 #. Option for the 'Status' (Select) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
@@ -679,11 +679,11 @@ msgstr "Já existe um fornecedor interno para a empresa {0}"
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/material_request/material_request_dashboard.py:19
 msgid "Internal Transfer"
-msgstr "Transferência interna"
+msgstr "Transferência Interna"
 
 #: erpnext/controllers/accounts_controller.py:814
 msgid "Internal Transfer Reference Missing"
-msgstr "Falta a referência da transferência interna"
+msgstr "Falta a referência de transferência interna"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice_dashboard.py:37
 msgid "Internal Transfers"
@@ -692,7 +692,7 @@ msgstr "Transferências internas"
 #. Label of the internal_work_history (Table) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Internal Work History"
-msgstr "Histórico interno de trabalho"
+msgstr "Histórico profissional interno"
 
 #: erpnext/controllers/stock_controller.py:1507
 msgid "Internal transfers can only be done in company's default currency"
@@ -717,7 +717,7 @@ msgstr "O intervalo deve estar entre 1 e 59 minutos"
 #: erpnext/controllers/accounts_controller.py:3201
 #: erpnext/controllers/accounts_controller.py:3209
 msgid "Invalid Account"
-msgstr "Conta inválida"
+msgstr "Conta Inválida"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:394
 #: erpnext/accounts/doctype/payment_request/payment_request.py:873
@@ -730,7 +730,7 @@ msgstr "Valor inválido"
 
 #: erpnext/controllers/item_variant.py:128
 msgid "Invalid Attribute"
-msgstr "Atributo inválido"
+msgstr "Atributo Inválido"
 
 #: erpnext/controllers/accounts_controller.py:625
 msgid "Invalid Auto Repeat Date"
@@ -742,7 +742,7 @@ msgstr "Código de barras inválido. Não há item vinculado a este código de b
 
 #: erpnext/public/js/controllers/transaction.js:3087
 msgid "Invalid Blanket Order for the selected Customer and Item"
-msgstr "Ordem guarda-chuva inválida para o cliente e item selecionados"
+msgstr ""
 
 #: erpnext/quality_management/doctype/quality_procedure/quality_procedure.py:72
 msgid "Invalid Child Procedure"
@@ -750,7 +750,7 @@ msgstr "Procedimento filho inválido"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2279
 msgid "Invalid Company for Inter Company Transaction."
-msgstr "Empresa Inválida Para Transação Entre Empresas."
+msgstr "Empresa inválida para transação entre empresas."
 
 #: erpnext/assets/doctype/asset/asset.py:356
 #: erpnext/assets/doctype/asset/asset.py:363
@@ -799,7 +799,7 @@ msgstr "Padrões do item inválidos"
 #. Name of a report
 #: erpnext/accounts/report/invalid_ledger_entries/invalid_ledger_entries.json
 msgid "Invalid Ledger Entries"
-msgstr "Lançamentos contábeis inválidos"
+msgstr "Lançamentos do razão inválidos"
 
 #: erpnext/assets/doctype/asset/asset.py:557
 msgid "Invalid Net Purchase Amount"
@@ -816,15 +816,15 @@ msgstr "Faturas de PDV inválidas"
 
 #: erpnext/accounts/doctype/account/account.py:387
 msgid "Invalid Parent Account"
-msgstr "Conta pai inválida"
+msgstr "Conta Pai Inválida"
 
 #: erpnext/public/js/controllers/buying.js:426
 msgid "Invalid Part Number"
-msgstr "Número de peça inválido"
+msgstr "Número de Peça Inválido"
 
 #: erpnext/utilities/transaction_base.py:34
 msgid "Invalid Posting Time"
-msgstr "Hora de lançamento inválida"
+msgstr "Tempo de Lançamento Inválido"
 
 #: erpnext/accounts/doctype/party_link/party_link.py:30
 msgid "Invalid Primary Role"
@@ -842,7 +842,7 @@ msgstr "Prioridade inválida"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1169
 msgid "Invalid Process Loss Configuration"
-msgstr "Configuração de perda de processo inválida"
+msgstr "Configuração inválida de perda no processo"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:701
 msgid "Invalid Purchase Invoice"

@@ -11,10 +11,10 @@ Esta pasta contem os arquivos finais de override prontos para uso em outro proje
 
 ## Contagem de entradas
 
-- `frappe`: 5436 entradas
-- `erpnext`: 7737 entradas
-- `crm`: 1319 entradas
-- `helpdesk`: 1051 entradas
+- `frappe`: 4998 entradas
+- `erpnext`: 6664 entradas
+- `crm`: 1219 entradas
+- `helpdesk`: 926 entradas
 
 ## O que estes arquivos sao
 

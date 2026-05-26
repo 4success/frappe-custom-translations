@@ -38,7 +38,7 @@ msgstr "Notificar por e-mail"
 #. Label of the reorder_email_notify (Check) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Notify by Email on Creation of Automatic Material Request"
-msgstr "Notificar por e-mail ao criar solicitação automática de material"
+msgstr "Notificar por e-mail ao criar solicitação de material automática"
 
 #. Description of the 'Notify Via Email' (Check) field in DocType 'Appointment
 #. Booking Settings'
@@ -68,7 +68,7 @@ msgstr "Número de pedidos"
 #. Label of the demand_number (Int) field in DocType 'Sales Forecast'
 #: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.json
 msgid "Number of Weeks / Months"
-msgstr "Número de semanas/meses"
+msgstr "Número de semanas / meses"
 
 #. Description of the 'Grace Period' (Int) field in DocType 'Subscription
 #. Settings'
@@ -80,7 +80,7 @@ msgstr "Número de dias após a data da fatura antes de cancelar a assinatura ou
 #. Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "Number of days appointments can be booked in advance"
-msgstr "Número de dias de antecedência para agendar compromissos"
+msgstr "Número de dias de antecedência para agendar"
 
 #. Description of the 'Days Until Due' (Int) field in DocType 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
@@ -91,7 +91,7 @@ msgstr "Número de dias que o assinante tem para pagar as faturas geradas por es
 #. 'Subscription Plan'
 #: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
 msgid "Number of intervals for the interval field e.g if Interval is 'Days' and Billing Interval Count is 3, invoices will be generated every 3 days"
-msgstr "Número de intervalos para o campo Intervalo. Ex.: se o intervalo for 'Dias' e a contagem do intervalo de faturamento for 3, as faturas serão geradas a cada 3 dias"
+msgstr "Número de intervalos para o campo de intervalo. Ex.: se o intervalo for 'Days' e a contagem do intervalo de faturamento for 3, as faturas serão geradas a cada 3 dias"
 
 #: erpnext/accounts/doctype/account/account_tree.js:133
 msgid "Number of new Account, it will be included in the account name as a prefix"
@@ -153,7 +153,7 @@ msgstr "Objetivos"
 #. Label of the last_odometer (Int) field in DocType 'Vehicle'
 #: erpnext/setup/doctype/vehicle/vehicle.json
 msgid "Odometer Value (Last)"
-msgstr "Valor do odômetro (último)"
+msgstr "Valor do hodômetro (último)"
 
 #. Label of the scheduled_confirmation_date (Date) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -183,7 +183,7 @@ msgstr "Conta de contrapartida"
 
 #: erpnext/accounts/general_ledger.py:92
 msgid "Offsetting for Accounting Dimension"
-msgstr "Contrapartida para dimensão contábil"
+msgstr "Contrapartida da dimensão contábil"
 
 #. Label of the old_parent (Data) field in DocType 'Account'
 #. Label of the old_parent (Data) field in DocType 'Location'
@@ -266,11 +266,11 @@ msgstr "No prazo"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "On enabling this cancellation entries will be posted on the actual cancellation date and reports will consider cancelled entries as well"
-msgstr "Ao ativar esta opção, os lançamentos de cancelamento serão feitos na data real do cancelamento e os relatórios também considerarão os lançamentos cancelados"
+msgstr "Ao habilitar esta opção, os lançamentos de cancelamento serão contabilizados na data real do cancelamento e os relatórios também considerarão os lançamentos cancelados"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:726
 msgid "On expanding a row in the Items to Manufacture table, you'll see an option to 'Include Exploded Items'. Ticking this includes raw materials of the sub-assembly items in the production process."
-msgstr "Ao expandir uma linha na tabela Itens a fabricar, você verá a opção 'Incluir itens explodidos'. Ao marcá-la, as matérias-primas dos itens de subconjunto serão incluídas no processo de produção."
+msgstr "Ao expandir uma linha na tabela Itens a fabricar, você verá a opção 'Include Exploded Items'. Ao marcá-la, as matérias-primas dos itens de submontagem serão incluídas no processo de produção."
 
 #. Description of the 'Excluded Fee' (Currency) field in DocType 'Bank
 #. Transaction'
@@ -282,12 +282,12 @@ msgstr "Ao salvar, a taxa excluída será convertida em taxa incluída."
 #. 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "On submission of the stock transaction, system will auto create the Serial and Batch Bundle based on the Serial No / Batch fields."
-msgstr "Ao enviar a transação de estoque, o sistema criará automaticamente o pacote de série e lote com base nos campos Nº de série/Lote."
+msgstr "Ao enviar a transação de estoque, o sistema criará automaticamente o pacote de números de série e lotes com base nos campos Serial No / Batch."
 
 #. Option for the 'Stop Reason' (Select) field in DocType 'Downtime Entry'
 #: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json
 msgid "On-machine press checks"
-msgstr "Verificações de impressão na máquina"
+msgstr "Verificações da prensa na máquina"
 
 #. Description of the 'Release Date' (Date) field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -296,7 +296,7 @@ msgstr "Depois de definida, esta fatura ficará em espera até a data informada"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:717
 msgid "Once the Work Order is Closed. It can't be resumed."
-msgstr "Depois que a ordem de produção for fechada, ela não poderá ser retomada."
+msgstr "Depois que a ordem de trabalho for encerrada, ela não poderá ser retomada."
 
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.js:16
 msgid "One customer can be part of only single Loyalty Program."
@@ -328,11 +328,11 @@ msgstr "Leilões online"
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
 #: erpnext/setup/doctype/company/company.json
 msgid "Only 'Payment Entries' made against this advance account are supported."
-msgstr "Somente 'Lançamentos de pagamento' feitos nesta conta de adiantamento são compatíveis."
+msgstr "Apenas 'Payment Entries' feitos nesta conta de adiantamento são suportados."
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:105
 msgid "Only CSV and Excel files can be used to for importing data. Please check the file format you are trying to upload"
-msgstr "Somente arquivos CSV e Excel podem ser usados para importar dados. Verifique o formato do arquivo que você está tentando enviar"
+msgstr "Somente arquivos CSV e Excel podem ser usados para importar dados. Verifique o formato do arquivo que você está tentando carregar"
 
 #. Label of the tax_on_excess_amount (Check) field in DocType 'Tax Withholding
 #. Category'
@@ -380,17 +380,17 @@ msgstr "Somente nós folha são permitidos na transação"
 
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:337
 msgid "Only one of Deposit or Withdrawal should be non-zero when applying an Excluded Fee."
-msgstr "Somente um entre Depósito ou Saque deve ser diferente de zero ao aplicar uma taxa excluída."
+msgstr "Apenas um entre depósito ou saque deve ser diferente de zero ao aplicar uma taxa excluída."
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1166
 msgid "Only one {0} entry can be created against the Work Order {1}"
-msgstr "Somente um lançamento de {0} pode ser criado para a ordem de produção {1}"
+msgstr "Apenas um lançamento de {0} pode ser criado para a ordem de trabalho {1}"
 
 #. Description of the 'Consider Entire Party Ledger Amount' (Check) field in
 #. DocType 'Tax Withholding Category'
 #: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
 msgid "Only payment entries with apply tax withholding unchecked will be considered for checking cumulative threshold breach"
-msgstr "Somente lançamentos de pagamento com a opção aplicar retenção de imposto desmarcada serão considerados na verificação de extrapolação do limite acumulado"
+msgstr "Apenas lançamentos de pagamento com a opção de aplicar retenção de imposto desmarcada serão considerados para verificar o rompimento do limite acumulado"
 
 #. Description of the 'Customer Groups' (Table) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
@@ -405,7 +405,7 @@ msgstr "Mostrar apenas itens destes grupos de itens"
 #. Description of the 'Customer' (Link) field in DocType 'Warehouse'
 #: erpnext/stock/doctype/warehouse/warehouse.json
 msgid "Only to be used for Subcontracting Inward."
-msgstr "Uso apenas para recebimento de subcontratação."
+msgstr "Usar apenas para recebimento de subcontratação."
 
 #. Description of the 'Rounding Loss Allowance' (Float) field in DocType
 #. 'Exchange Rate Revaluation'
@@ -413,11 +413,11 @@ msgstr "Uso apenas para recebimento de subcontratação."
 msgid "Only values between [0,1) are allowed. Like {0.00, 0.04, 0.09, ...}\n"
 "Ex: If allowance is set at 0.07, accounts that have balance of 0.07 in either of the currencies will be considered as zero balance account"
 msgstr "Somente valores entre [0,1) são permitidos. Como {0.00, 0.04, 0.09, ...}\n"
-"Ex.: se a tolerância for definida como 0.07, as contas que tiverem saldo de 0.07 em qualquer uma das moedas serão consideradas contas com saldo zero"
+"Ex.: se a tolerância for definida como 0.07, contas com saldo de 0.07 em qualquer uma das moedas serão consideradas contas com saldo zero"
 
 #: erpnext/accounts/doctype/unreconcile_payment/unreconcile_payment.py:43
 msgid "Only {0} are supported"
-msgstr "Somente {0} são compatíveis"
+msgstr "Apenas {0} são suportados"
 
 #. Label of the open_activities_html (HTML) field in DocType 'Lead'
 #. Label of the open_activities_html (HTML) field in DocType 'Opportunity'
@@ -451,7 +451,7 @@ msgstr "Eventos em aberto"
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:252
 msgid "Open Form View"
-msgstr "Abrir visualização de formulário"
+msgstr "Abrir visualização do formulário"
 
 #. Label of the issue (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -519,14 +519,14 @@ msgstr "Afazeres em aberto "
 
 #: erpnext/manufacturing/doctype/work_order/work_order_preview.html:24
 msgid "Open Work Order {0}"
-msgstr "Abrir ordem de produção {0}"
+msgstr "Abrir ordem de trabalho {0}"
 
 #. Name of a report
 #. Label of a number card in the Manufacturing Workspace
 #: erpnext/manufacturing/report/open_work_orders/open_work_orders.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "Open Work Orders"
-msgstr "Ordens de produção em aberto"
+msgstr "Ordens de trabalho em aberto"
 
 #: erpnext/templates/pages/help.html:60
 msgid "Open a new ticket"
@@ -581,13 +581,13 @@ msgstr "Valor de abertura"
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
 #: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.py:189
 msgid "Opening Balance"
-msgstr "Saldo de abertura"
+msgstr "Saldo Inicial"
 
 #. Description of the 'Balance Type' (Select) field in DocType 'Financial
 #. Report Row'
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
 msgid "Opening Balance = Start of period, Closing Balance = End of period, Period Movement = Net change during period"
-msgstr "Saldo de abertura = início do período, saldo de fechamento = fim do período, movimentação do período = variação líquida durante o período"
+msgstr "Saldo inicial = início do período, saldo final = fim do período, movimentação do período = variação líquida durante o período"
 
 #. Label of the balance_details (Table) field in DocType 'POS Opening Entry'
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.json
@@ -621,11 +621,11 @@ msgstr "Lançamento de abertura"
 
 #: erpnext/accounts/general_ledger.py:802
 msgid "Opening Entry can not be created after Period Closing Voucher is created."
-msgstr "O lançamento de abertura não pode ser criado depois que o comprovante de fechamento do período for criado."
+msgstr "O lançamento de abertura não pode ser criado após a criação do comprovante de encerramento do período."
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:286
 msgid "Opening Invoice Creation In Progress"
-msgstr "Criação de fatura em andamento"
+msgstr "Criação de Fatura Em Andamento"
 
 #. Name of a DocType
 #. Label of a Link in the Accounting Workspace
@@ -635,7 +635,7 @@ msgstr "Criação de fatura em andamento"
 #: erpnext/accounts/workspace/accounting/accounting.json
 #: erpnext/setup/workspace/home/home.json
 msgid "Opening Invoice Creation Tool"
-msgstr "Ferramenta de criação de fatura de abertura"
+msgstr "Ferramenta de Criação de Fatura de Abertura"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/opening_invoice_creation_tool_item/opening_invoice_creation_tool_item.json
@@ -644,12 +644,12 @@ msgstr "Item da ferramenta de criação de fatura de abertura"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:100
 msgid "Opening Invoice Item"
-msgstr "Item da fatura de abertura"
+msgstr "Item de fatura de abertura"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1644
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1914
 msgid "Opening Invoice has rounding adjustment of {0}.<br><br> '{1}' account is required to post these values. Please set it in Company: {2}.<br><br> Or, '{3}' can be enabled to not post any rounding adjustment."
-msgstr "A fatura de abertura tem ajuste de arredondamento de {0}.<br><br> A conta '{1}' é necessária para lançar esses valores. Defina-a na empresa: {2}.<br><br> Ou '{3}' pode ser ativado para não lançar nenhum ajuste de arredondamento."
+msgstr "A fatura de abertura tem ajuste de arredondamento de {0}.<br><br> A conta '{1}' é necessária para lançar esses valores. Defina-a em Empresa: {2}.<br><br> Ou '{3}' pode ser habilitado para não lançar nenhum ajuste de arredondamento."
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool_dashboard.html:8
 msgid "Opening Invoices"
@@ -657,7 +657,7 @@ msgstr "Faturas de abertura"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:140
 msgid "Opening Invoices Summary"
-msgstr "Resumo das faturas de abertura"
+msgstr "Resumo Das Faturas de Abertura"
 
 #. Label of the opening_number_of_booked_depreciations (Int) field in DocType
 #. 'Asset'
@@ -666,7 +666,7 @@ msgstr "Resumo das faturas de abertura"
 #: erpnext/assets/doctype/asset/asset.json
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
 msgid "Opening Number of Booked Depreciations"
-msgstr "Número inicial de depreciações lançadas"
+msgstr "Número inicial de depreciações contabilizadas"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:35
 msgid "Opening Purchase Invoices have been created."
@@ -722,27 +722,27 @@ msgstr "Custo dos componentes operacionais"
 #: erpnext/manufacturing/doctype/workstation_cost/workstation_cost.json
 #: erpnext/manufacturing/report/cost_of_poor_quality_report/cost_of_poor_quality_report.py:124
 msgid "Operating Cost"
-msgstr "Custo operacional"
+msgstr "Custo de Operação"
 
 #. Label of the base_operating_cost (Currency) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Operating Cost (Company Currency)"
-msgstr "Custo operacional (moeda da empresa)"
+msgstr "Custo de operação (moeda da empresa)"
 
 #. Label of the operating_cost_per_bom_quantity (Currency) field in DocType
 #. 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Operating Cost Per BOM Quantity"
-msgstr "Custo operacional por quantidade da BOM"
+msgstr "Custo de operação por quantidade da BOM"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1602
 msgid "Operating Cost as per Work Order / BOM"
-msgstr "Custo operacional conforme ordem de produção / BOM"
+msgstr "Custo de operação conforme ordem de trabalho / BOM"
 
 #. Label of the base_operating_cost (Currency) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Operating Cost(Company Currency)"
-msgstr "Custo operacional (moeda da empresa)"
+msgstr "Custo de operação (moeda da empresa)"
 
 #. Label of the over_heads (Tab Break) field in DocType 'Workstation'
 #: erpnext/manufacturing/doctype/workstation/workstation.json
@@ -813,7 +813,7 @@ msgstr "Tempo de operação"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1452
 msgid "Operation Time must be greater than 0 for Operation {0}"
-msgstr "O tempo de operação deve ser maior que 0 para a operação {0}"
+msgstr "Tempo de operação deve ser maior que 0 para a operação {0}"
 
 #. Description of the 'Completed Qty' (Float) field in DocType 'Work Order
 #. Operation'
@@ -836,7 +836,7 @@ msgstr "A operação {0} não pertence à ordem de trabalho {1}"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.py:432
 msgid "Operation {0} longer than any available working hours in workstation {1}, break down the operation into multiple operations"
-msgstr "A operação {0} é maior do que qualquer horário de trabalho disponível na estação de trabalho {1}; divida a operação em várias operações"
+msgstr "A operação {0} é mais longa do que qualquer horário de trabalho disponível na estação de trabalho {1}; divida a operação em várias operações"
 
 #. Label of the operations (Table) field in DocType 'BOM'
 #. Label of the operations_section_section (Section Break) field in DocType

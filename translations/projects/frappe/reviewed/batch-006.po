@@ -20,15 +20,15 @@ msgstr ""
 
 #: frappe/core/page/permission_manager/permission_manager.py:142
 msgid "Cannot set 'Report' permission if 'Only If Creator' permission is set"
-msgstr "Não é possível definir a permissão 'Report' se a permissão 'Only If Creator' estiver definida"
+msgstr "Não é possível definir a permissão 'Relatório' se a permissão 'Somente se for o criador' estiver definida"
 
 #: frappe/email/doctype/notification/notification.py:240
 msgid "Cannot set Notification with event {0} on Document Type {1}"
-msgstr "Não é possível definir notificação para o evento {0} no tipo de documento {1}"
+msgstr "Não é possível definir a notificação com o evento {0} no tipo de documento {1}"
 
 #: frappe/core/doctype/docshare/docshare.py:67
 msgid "Cannot share {0} with submit permission as the doctype {1} is not submittable"
-msgstr "Não é possível compartilhar {0} com permissão de envio, pois o doctype {1} não pode ser enviado"
+msgstr "Não é possível compartilhar {0} com permissão de envio, pois o tipo de documento {1} não permite envio"
 
 #: frappe/public/js/frappe/list/bulk_operations.js:291
 msgid "Cannot submit {0}."
@@ -53,7 +53,7 @@ msgstr "Não é possível {0} {1}."
 
 #: frappe/utils/password_strength.py:181
 msgid "Capitalization doesn't help very much."
-msgstr "Usar maiúsculas não ajuda muito."
+msgstr "Usar letras maiúsculas não ajuda muito."
 
 #: frappe/public/js/frappe/ui/capture.js:294
 msgid "Capture"
@@ -91,23 +91,23 @@ msgstr "Categoria"
 #. Label of the category_description (Text) field in DocType 'Help Category'
 #: frappe/website/doctype/help_category/help_category.json
 msgid "Category Description"
-msgstr "Descrição da categoria"
+msgstr "Descrição da Categoria"
 
 #. Label of the category_name (Data) field in DocType 'Help Category'
 #: frappe/website/doctype/help_category/help_category.json
 msgid "Category Name"
-msgstr "Nome da categoria"
+msgstr "Nome da Categoria"
 
 #. Option for the 'Align' (Select) field in DocType 'Letter Head'
 #. Option for the 'Text Align' (Select) field in DocType 'Web Page'
 #: frappe/printing/doctype/letter_head/letter_head.json
 #: frappe/website/doctype/web_page/web_page.json
 msgid "Center"
-msgstr "Centro"
+msgstr "Centralizado"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:16
 msgid "Certain documents, like an Invoice, should not be changed once final. The final state for such documents is called Submitted. You can restrict which roles can Submit."
-msgstr "Certos documentos, como uma fatura, não devem ser alterados depois de finalizados. O estado final desses documentos é chamado Enviado. Você pode restringir quais perfis podem enviar."
+msgstr "Alguns documentos, como uma fatura, não devem ser alterados depois de finalizados. O estado final desses documentos é chamado de Enviado. Você pode restringir quais perfis podem Enviar."
 
 #: frappe/public/js/frappe/form/templates/form_sidebar.html:11
 #: frappe/tests/test_translate.py:111
@@ -136,7 +136,7 @@ msgstr "Alterar papel timbrado"
 #. Label of the change_password (Section Break) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Change Password"
-msgstr "Alterar senha"
+msgstr "Alterar Senha"
 
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:27
 msgid "Change Print Format"
@@ -147,8 +147,7 @@ msgstr "Alterar formato de impressão"
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Change the starting / current sequence number of an existing series. <br>\n\n"
 "Warning: Incorrectly updating counters can prevent documents from getting created."
-msgstr "Altere o número de sequência inicial / atual de uma série existente. <br>\n\n"
-"Aviso: Atualizar os contadores incorretamente pode impedir a criação de documentos."
+msgstr "Altere o número de sequência inicial/atual de uma série existente. <br>\n\nAviso: A atualização incorreta de contadores pode impedir que os documentos sejam criados."
 
 #. Label of the changed_at (Datetime) field in DocType 'Permission Log'
 #: frappe/core/doctype/permission_log/permission_log.json
@@ -191,7 +190,7 @@ msgstr "Gráfico"
 #. Label of the chart_config (Code) field in DocType 'Dashboard Settings'
 #: frappe/desk/doctype/dashboard_settings/dashboard_settings.json
 msgid "Chart Configuration"
-msgstr "Configuração do gráfico"
+msgstr "Configuração de Gráfico"
 
 #. Label of the chart_name (Data) field in DocType 'Dashboard Chart'
 #. Label of the chart_name (Link) field in DocType 'Workspace Chart'
@@ -260,53 +259,53 @@ msgstr "Marque as colunas para selecionar e arraste para definir a ordem."
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:485
 msgid "Check the Error Log for more information: {0}"
-msgstr "Verifique o log de erros para mais informações: {0}"
+msgstr "Verifique o registro de erros para mais informações: {0}"
 
 #: frappe/website/doctype/website_settings/website_settings.js:147
 msgid "Check this if you don't want users to sign up for an account on your site. Users won't get desk access unless you explicitly provide it."
-msgstr "Marque esta opção se não quiser que os usuários criem uma conta no seu site. Eles não terão acesso ao Desk a menos que você o conceda explicitamente."
+msgstr "Marque esta opção se você não quiser que os usuários criem uma conta no seu site. Os usuários não terão acesso ao Desk a menos que você o conceda explicitamente."
 
 #. Description of the 'User must always select' (Check) field in DocType
 #. 'Document Naming Settings'
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Check this if you want to force the user to select a series before saving. There will be no default if you check this."
-msgstr "Marque esta opção se quiser forçar o usuário a selecionar uma série antes de salvar. Não haverá padrão se marcar isso."
+msgstr "Marque esta opção se você deseja forçar o usuário a selecionar uma série antes de salvar. Não haverá nenhum padrão se você marcar isso."
 
 #. Description of the 'Show Full Number' (Check) field in DocType 'Number Card'
 #: frappe/desk/doctype/number_card/number_card.json
 msgid "Check to display the full numeric value (e.g., 1,234,567 instead of 1.2M)."
-msgstr "Marque para exibir o valor numérico completo (por exemplo, 1.234.567 em vez de 1,2M)."
+msgstr "Marque para exibir o valor numérico completo (por exemplo, 1,234,567 em vez de 1.2M)."
 
 #: frappe/public/js/frappe/desk.js:235
 msgid "Checking one moment"
-msgstr "Verificando, aguarde"
+msgstr "Verificando, aguarde um momento"
 
 #: frappe/website/doctype/website_settings/website_settings.js:140
 msgid "Checking this will enable tracking page views for blogs, web pages, etc."
-msgstr "Marque esta opção para habilitar o rastreamento de visualizações de página para blogs, páginas da web etc."
+msgstr "Marcar esta opção ativará o rastreamento de visualizações de página para blogs, páginas da web etc."
 
 #. Description of the 'Hide Custom DocTypes and Reports' (Check) field in
 #. DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
 msgid "Checking this will hide custom doctypes and reports cards in Links section"
-msgstr "Marque esta opção para ocultar os cartões de DocTypes e relatórios personalizados na seção Links"
+msgstr "Marcar esta opção ocultará os cartões de tipos de documento personalizados e relatórios na seção Links"
 
 #: frappe/website/doctype/web_page/web_page.js:78
 msgid "Checking this will publish the page on your website and it'll be visible to everyone."
-msgstr "Marque esta opção para publicar a página no seu site e deixá-la visível para todos."
+msgstr "Marcar esta opção publicará a página no seu site e ela ficará visível para todos."
 
 #: frappe/website/doctype/web_page/web_page.js:104
 msgid "Checking this will show a text area where you can write custom javascript that will run on this page."
-msgstr "Marque esta opção para exibir uma área de texto onde você poderá escrever JavaScript personalizado que será executado nesta página."
+msgstr "Marcar esta opção exibirá uma área de texto onde você poderá escrever JavaScript personalizado que será executado nesta página."
 
 #: frappe/www/list.py:30
 msgid "Child DocTypes are not allowed"
-msgstr "DocTypes filhos não são permitidos"
+msgstr "Tipos de documento filho não são permitidos"
 
 #. Label of the child_doctype (Data) field in DocType 'Form Tour Step'
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json
 msgid "Child Doctype"
-msgstr "DocType filho"
+msgstr "Tipo de documento filho"
 
 #. Label of the child (Check) field in DocType 'Workspace Sidebar Item'
 #: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json
@@ -321,15 +320,15 @@ msgstr "A tabela filha {0} do campo {1} deve ser virtual"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/core/doctype/doctype/doctype_list.js:53
 msgid "Child Tables are shown as a Grid in other DocTypes"
-msgstr "Tabelas filhas são exibidas como grade em outros DocTypes"
+msgstr "Tabelas filhas são exibidas como uma grade em outros tipos de documento"
 
 #: frappe/database/query.py:1062
 msgid "Child query fields for '{0}' must be a list or tuple."
-msgstr "Os campos da consulta filha para '{0}' devem ser uma lista ou tupla."
+msgstr "Os campos de consulta filho para '{0}' devem ser uma lista ou tupla."
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:651
 msgid "Choose Existing Card or create New Card"
-msgstr "Escolha um cartão existente ou crie um novo"
+msgstr "Escolha um cartão existente ou crie um novo cartão"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:616
 msgid "Choose a block or continue typing"
@@ -394,7 +393,7 @@ msgstr "Limpar cache e recarregar"
 
 #: frappe/core/doctype/error_log/error_log_list.js:12
 msgid "Clear Error Logs"
-msgstr "Limpar logs de erro"
+msgstr "Limpar registros de erro"
 
 #: frappe/public/js/frappe/ui/filters/filter_list.js:299
 msgid "Clear Filters"
@@ -403,7 +402,7 @@ msgstr "Limpar filtros"
 #. Label of the days (Int) field in DocType 'Logs To Clear'
 #: frappe/core/doctype/logs_to_clear/logs_to_clear.json
 msgid "Clear Logs After (days)"
-msgstr "Limpar logs após (dias)"
+msgstr "Limpar registros após (dias)"
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:144
 msgid "Clear User Permissions"
@@ -411,7 +410,7 @@ msgstr "Limpar permissões de usuário"
 
 #: frappe/public/js/frappe/views/communication.js:430
 msgid "Clear the email message and add the template"
-msgstr "Limpar a mensagem de e-mail e adicionar o modelo"
+msgstr "Limpe a mensagem de e-mail e adicione o modelo"
 
 #: frappe/website/doctype/web_page/web_page.py:215
 msgid "Clearing end date, as it cannot be in the past for published pages."
@@ -826,12 +825,12 @@ msgstr "Comentário"
 #. Label of the comment_by (Data) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json
 msgid "Comment By"
-msgstr "Comentado por"
+msgstr "Autor do comentário"
 
 #. Label of the comment_email (Data) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json
 msgid "Comment Email"
-msgstr "E-mail do comentário"
+msgstr "E-mail do autor"
 
 #. Label of the comment_type (Select) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json
@@ -844,7 +843,7 @@ msgstr "O comentário só pode ser editado pelo proprietário"
 
 #: frappe/desk/form/utils.py:73
 msgid "Comment publicity can only be updated by the original author or a System Manager."
-msgstr "A visibilidade do comentário só pode ser atualizada pelo autor original ou por um System Manager."
+msgstr "A visibilidade do comentário só pode ser atualizada pelo autor original ou por um Gerente do Sistema."
 
 #: frappe/model/meta.py:61 frappe/public/js/frappe/form/controls/comment.js:9
 #: frappe/public/js/frappe/model/meta.js:217

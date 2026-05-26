@@ -24,15 +24,15 @@ msgstr "{0} custo operacional da operação {1}"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:528
 msgid "{0} Operations: {1}"
-msgstr "{0} operações: {1}"
+msgstr "{0} Operações: {1}"
 
 #: erpnext/stock/doctype/material_request/material_request.py:220
 msgid "{0} Request for {1}"
-msgstr "Solicitação de {0} para {1}"
+msgstr "{0} pedido para {1}"
 
 #: erpnext/stock/doctype/item/item.py:323
 msgid "{0} Retain Sample is based on batch, please check Has Batch No to retain sample of item"
-msgstr "A retenção de amostra de {0} é baseada em lote; marque Possui número de lote para reter amostra do item"
+msgstr "A amostra de retenção de {0} é baseada em lote; marque Possui nº de lote para reter amostra do item"
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.py:457
 msgid "{0} Transaction(s) Reconciled"
@@ -40,15 +40,15 @@ msgstr "{0} transação(ões) conciliada(s)"
 
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.py:59
 msgid "{0} account is not of company {1}"
-msgstr "A conta {0} não pertence à empresa {1}"
+msgstr "a conta {0} não é da empresa {1}"
 
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.py:62
 msgid "{0} account is not of type {1}"
-msgstr "A conta {0} não é do tipo {1}"
+msgstr "a conta {0} não é do tipo {1}"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:514
 msgid "{0} account not found while submitting purchase receipt"
-msgstr "Conta {0} não encontrada ao enviar o recebimento de compra"
+msgstr "conta {0} não encontrada ao enviar o recebimento de compra"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1034
 msgid "{0} against Bill {1} dated {2}"
@@ -85,7 +85,7 @@ msgstr "{0} não pode ser negativo"
 
 #: erpnext/accounts/doctype/pos_settings/pos_settings.py:52
 msgid "{0} cannot be changed with opened Opening Entries."
-msgstr "{0} não pode ser alterado com lançamentos de abertura em aberto."
+msgstr "{0} não pode ser alterado enquanto houver lançamentos de abertura em aberto."
 
 #: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.py:136
 msgid "{0} cannot be used as a Main Cost Center because it has been used as child in Cost Center Allocation {1}"
@@ -107,15 +107,15 @@ msgstr "A criação de {0} para os seguintes registros será ignorada."
 
 #: erpnext/setup/doctype/company/company.py:283
 msgid "{0} currency must be same as company's default currency. Please select another account."
-msgstr "A moeda de {0} deve ser a mesma moeda padrão da empresa. Selecione outra conta."
+msgstr "A moeda de {0} deve ser a mesma da moeda padrão da empresa. Selecione outra conta."
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:332
 msgid "{0} currently has a {1} Supplier Scorecard standing, and Purchase Orders to this supplier should be issued with caution."
-msgstr "{0} atualmente tem avaliação {1} no scorecard do fornecedor, e os pedidos de compra para esse fornecedor devem ser emitidos com cautela."
+msgstr "{0} atualmente tem classificação {1} no Supplier Scorecard, e os pedidos de compra para este fornecedor devem ser emitidos com cautela."
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:112
 msgid "{0} currently has a {1} Supplier Scorecard standing, and RFQs to this supplier should be issued with caution."
-msgstr "{0} atualmente tem avaliação {1} no scorecard do fornecedor, e as solicitações de cotação para esse fornecedor devem ser emitidas com cautela."
+msgstr "{0} atualmente tem classificação {1} no Supplier Scorecard, e as solicitações de cotação para este fornecedor devem ser emitidas com cautela."
 
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:156
 msgid "{0} does not belong to Company {1}"
@@ -127,12 +127,12 @@ msgstr "{0} não pertence à empresa {1}."
 
 #: erpnext/accounts/doctype/item_tax_template/item_tax_template.py:67
 msgid "{0} entered twice in Item Tax"
-msgstr "{0} foi informado duas vezes em Imposto do item"
+msgstr "{0} foi informado duas vezes no imposto do item"
 
 #: erpnext/setup/doctype/item_group/item_group.py:48
 #: erpnext/stock/doctype/item/item.py:454
 msgid "{0} entered twice {1} in Item Taxes"
-msgstr "{0} informado duas vezes {1} em impostos do item"
+msgstr "{0} foi informado duas vezes {1} em impostos do item"
 
 #: erpnext/accounts/utils.py:124
 #: erpnext/projects/doctype/activity_cost/activity_cost.py:40
@@ -141,11 +141,11 @@ msgstr "{0} para {1}"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:447
 msgid "{0} has Payment Term based allocation enabled. Select a Payment Term for Row #{1} in Payment References section"
-msgstr "{0} está com alocação baseada em condição de pagamento habilitada. Selecione uma condição de pagamento para a linha #{1} na seção Referências de pagamento"
+msgstr "{0} tem alocação baseada em condição de pagamento habilitada. Selecione uma condição de pagamento para a linha nº {1} na seção Referências de pagamento"
 
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.py:773
 msgid "{0} has been modified after you pulled it. Please pull it again."
-msgstr "{0} foi modificado depois que você o buscou. Busque-o novamente."
+msgstr "{0} foi modificado depois de você buscá-lo. Busque-o novamente."
 
 #: erpnext/setup/default_success_action.py:15
 msgid "{0} has been submitted successfully"
@@ -192,11 +192,11 @@ msgstr "{0} é obrigatório para a conta {1}"
 
 #: erpnext/public/js/controllers/taxes_and_totals.js:129
 msgid "{0} is mandatory. Maybe Currency Exchange record is not created for {1} to {2}"
-msgstr "{0} é obrigatório. Talvez o registro de câmbio não tenha sido criado para {1} a {2}"
+msgstr "{0} é obrigatório. Talvez o registro de taxa de câmbio não tenha sido criado para {1} para {2}"
 
 #: erpnext/controllers/accounts_controller.py:3163
 msgid "{0} is mandatory. Maybe Currency Exchange record is not created for {1} to {2}."
-msgstr "{0} é obrigatório. Talvez o registro de câmbio não tenha sido criado para {1} a {2}."
+msgstr "{0} é obrigatório. Talvez o registro de taxa de câmbio não tenha sido criado para {1} para {2}."
 
 #: erpnext/selling/doctype/customer/customer.py:204
 msgid "{0} is not a company bank account"
@@ -236,7 +236,7 @@ msgstr "{0} está em espera até {1}"
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:68
 msgid "{0} is open. Close the POS or cancel the existing POS Opening Entry to create a new POS Opening Entry."
-msgstr "{0} está aberto. Feche o PDV ou cancele o lançamento de abertura de PDV existente para criar um novo."
+msgstr "{0} está aberto. Feche o POS ou cancele o lançamento de abertura de POS existente para criar um novo lançamento de abertura de POS."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:483
 msgid "{0} items in progress"
@@ -256,7 +256,7 @@ msgstr "{0} deve ser negativo no documento de devolução"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2290
 msgid "{0} not allowed to transact with {1}. Please change the Company or add the Company in the 'Allowed To Transact With'-Section in the Customer record."
-msgstr "{0} não tem permissão para transacionar com {1}. Altere a empresa ou adicione a empresa na seção 'Permissão para transacionar com' no cadastro do cliente."
+msgstr "{0} não tem permissão para transacionar com {1}. Altere a empresa ou adicione a empresa na seção 'Allowed To Transact With' no cadastro do cliente."
 
 #: erpnext/manufacturing/doctype/bom/bom.py:522
 msgid "{0} not found for item {1}"
@@ -264,7 +264,7 @@ msgstr "{0} não encontrado para Item {1}"
 
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.py:706
 msgid "{0} parameter is invalid"
-msgstr "O parâmetro {0} é inválido"
+msgstr "{0} parâmetro é inválido"
 
 #: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:65
 msgid "{0} payment entries can not be filtered by {1}"
@@ -272,28 +272,28 @@ msgstr "{0} lançamentos de pagamento não podem ser filtrados por {1}"
 
 #: erpnext/controllers/stock_controller.py:1680
 msgid "{0} qty of Item {1} is being received into Warehouse {2} with capacity {3}."
-msgstr "A quantidade {0} do item {1} está sendo recebida no armazém {2}, com capacidade {3}."
+msgstr "A quantidade {0} do item {1} está sendo recebida no depósito {2}, com capacidade {3}."
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:703
 msgid "{0} units are reserved for Item {1} in Warehouse {2}, please un-reserve the same to {3} the Stock Reconciliation."
-msgstr "{0} unidades estão reservadas para o item {1} no armazém {2}; desfaça a reserva para {3} a reconciliação de estoque."
+msgstr "{0} unidades estão reservadas para o item {1} no depósito {2}; desfaça a reserva para {3} a reconciliação de estoque."
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:1029
 msgid "{0} units of Item {1} is not available in any of the warehouses."
-msgstr "{0} unidades do item {1} não estão disponíveis em nenhum dos armazéns."
+msgstr "{0} unidades do item {1} não estão disponíveis em nenhum dos depósitos."
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:1021
 msgid "{0} units of Item {1} is picked in another Pick List."
-msgstr "{0} unidades do item {1} já foram separadas em outra lista de separação."
+msgstr "{0} unidades do item {1} foram separadas em outra lista de separação."
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:145
 msgid "{0} units of {1} are required in {2} with the inventory dimension: {3} on {4} {5} for {6} to complete the transaction."
-msgstr "São necessárias {0} unidades de {1} em {2}, com a dimensão de estoque: {3}, em {4} {5} para {6} concluir a transação."
+msgstr "São necessárias {0} unidades de {1} em {2} com a dimensão de inventário: {3} em {4} {5} para {6} concluir a transação."
 
 #: erpnext/stock/stock_ledger.py:1687 erpnext/stock/stock_ledger.py:2193
 #: erpnext/stock/stock_ledger.py:2207
 msgid "{0} units of {1} needed in {2} on {3} {4} for {5} to complete this transaction."
-msgstr "São necessárias {0} unidades de {1} em {2}, em {3} {4}, para {5} concluir esta transação."
+msgstr "São necessárias {0} unidades de {1} em {2} em {3} {4} para {5} para concluir esta transação."
 
 #: erpnext/stock/stock_ledger.py:2294 erpnext/stock/stock_ledger.py:2339
 msgid "{0} units of {1} needed in {2} on {3} {4} to complete this transaction."
@@ -317,7 +317,7 @@ msgstr "{0} variantes criadas."
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_engine.py:232
 msgid "{0} view is currently unsupported in Custom Financial Report."
-msgstr "A visualização {0} não é compatível no Relatório Financeiro Personalizado."
+msgstr "A visualização {0} não é compatível no relatório financeiro personalizado."
 
 #: erpnext/accounts/doctype/payment_term/payment_term.js:19
 msgid "{0} will be given as discount."
@@ -325,7 +325,7 @@ msgstr "{0} será concedido como desconto."
 
 #: erpnext/public/js/utils/barcode_scanner.js:523
 msgid "{0} will be set as the {1} in subsequently scanned items"
-msgstr "{0} será definido como {1} nos próximos itens lidos"
+msgstr "{0} será definido como {1} nos itens lidos em seguida"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:884
 msgid "{0} {1}"
@@ -359,17 +359,17 @@ msgstr "{0} {1} possui entradas contábeis na moeda {2} para a empresa {3}. Sele
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:457
 msgid "{0} {1} has already been fully paid."
-msgstr "{0} {1} já foi totalmente pago."
+msgstr "{0} {1} já foi pago integralmente."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:467
 msgid "{0} {1} has already been partly paid. Please use the 'Get Outstanding Invoice' or the 'Get Outstanding Orders' button to get the latest outstanding amounts."
-msgstr "{0} {1} já foi pago parcialmente. Use o botão 'Obter faturas em aberto' ou 'Obter pedidos em aberto' para buscar os valores em aberto mais recentes."
+msgstr "{0} {1} já foi pago parcialmente. Use o botão 'Buscar fatura em aberto' ou 'Buscar pedidos em aberto' para obter os valores em aberto mais recentes."
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:472
 #: erpnext/selling/doctype/sales_order/sales_order.py:585
 #: erpnext/stock/doctype/material_request/material_request.py:247
 msgid "{0} {1} has been modified. Please refresh."
-msgstr "{0} {1} foi modificado. Atualize a tela."
+msgstr "{0} {1} foi modificado. Atualize."
 
 #: erpnext/stock/doctype/material_request/material_request.py:274
 msgid "{0} {1} has not been submitted so the action cannot be completed"
@@ -381,7 +381,7 @@ msgstr "{0} {1} foi alocado duas vezes nesta transação bancária"
 
 #: erpnext/edi/doctype/common_code/common_code.py:52
 msgid "{0} {1} is already linked to Common Code {2}."
-msgstr "{0} {1} já está vinculado ao código comum {2}."
+msgstr "{0} {1} já está vinculado ao Common Code {2}."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:690
 msgid "{0} {1} is associated with {2}, but Party Account is {3}"
@@ -390,7 +390,7 @@ msgstr "{0} {1} está associado a {2}, mas a conta do cadastro é {3}"
 #: erpnext/controllers/selling_controller.py:526
 #: erpnext/controllers/subcontracting_controller.py:1140
 msgid "{0} {1} is cancelled or closed"
-msgstr "{0} {1} está cancelado ou encerrado"
+msgstr "{0} {1} está cancelado ou fechado"
 
 #: erpnext/stock/doctype/material_request/material_request.py:423
 msgid "{0} {1} is cancelled or stopped"
@@ -402,7 +402,7 @@ msgstr "{0} {1} está cancelado, então a ação não pode ser concluída"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:829
 msgid "{0} {1} is closed"
-msgstr "{0} {1} está encerrado"
+msgstr "{0} {1} está fechado"
 
 #: erpnext/accounts/party.py:806
 msgid "{0} {1} is disabled"
@@ -422,11 +422,11 @@ msgstr "{0} {1} não está ativo"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:667
 msgid "{0} {1} is not associated with {2} {3}"
-msgstr "{0} {1} não está associado com {2} {3}"
+msgstr "{0} {1} não está associado a {2} {3}"
 
 #: erpnext/accounts/utils.py:120
 msgid "{0} {1} is not in any active Fiscal Year"
-msgstr "{0} {1} não está em nenhum ano fiscal ativo"
+msgstr "{0} {1} não está em nenhum exercício fiscal ativo"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:823
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:862
@@ -443,7 +443,7 @@ msgstr "{0} {1} deve ser enviado"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:272
 msgid "{0} {1} not allowed to be reposted. Modify {2} to enable reposting."
-msgstr "{0} {1} não pode ser reprocessado. Altere {2} para permitir o reprocessamento."
+msgstr "{0} {1} não pode ser reprocessado. Altere {2} para habilitar o reprocessamento."
 
 #: erpnext/buying/utils.py:116
 msgid "{0} {1} status is {2}"
@@ -455,7 +455,7 @@ msgstr "{0} {1} via arquivo CSV"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:227
 msgid "{0} {1}: 'Profit and Loss' type account {2} not allowed in Opening Entry"
-msgstr "{0} {1}: a conta {2} do tipo 'Lucros e perdas' não é permitida em lançamento de abertura"
+msgstr "{0} {1}: a conta do tipo 'Lucros e perdas' {2} não é permitida em lançamento de abertura"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:253
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.py:85
@@ -474,7 +474,7 @@ msgstr "{0} {1}: a conta {2} está inativa"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:294
 msgid "{0} {1}: Accounting Entry for {2} can only be made in currency: {3}"
-msgstr "{0} {1}: o lançamento contábil de {2} só pode ser feito na moeda: {3}"
+msgstr "{0} {1}: o lançamento contábil para {2} só pode ser feito na moeda: {3}"
 
 #: erpnext/controllers/stock_controller.py:903
 msgid "{0} {1}: Cost Center is mandatory for Item {2}"
@@ -482,7 +482,7 @@ msgstr "{0} {1}: centro de custo é obrigatório para o item {2}"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:178
 msgid "{0} {1}: Cost Center is required for 'Profit and Loss' account {2}."
-msgstr "{0} {1}: centro de custo é obrigatório para a conta {2} do tipo 'Lucros e perdas'."
+msgstr "{0} {1}: centro de custo é obrigatório para a conta do tipo 'Lucros e perdas' {2}."
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:266
 msgid "{0} {1}: Cost Center {2} does not belong to Company {3}"
@@ -498,7 +498,7 @@ msgstr "{0} {1}: cliente é obrigatório para a conta a receber {2}"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:166
 msgid "{0} {1}: Either debit or credit amount is required for {2}"
-msgstr "{0} {1}: é obrigatório informar valor de débito ou crédito para {2}"
+msgstr "{0} {1}: é necessário informar débito ou crédito para {2}"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:150
 msgid "{0} {1}: Supplier is required against Payable account {2}"
@@ -523,7 +523,7 @@ msgstr "{0}% do valor total da fatura será concedido como desconto."
 
 #: erpnext/projects/doctype/task/task.py:130
 msgid "{0}'s {1} cannot be after {2}'s Expected End Date."
-msgstr "{1} de {0} não pode ser posterior à data prevista de término de {2}."
+msgstr "O {1} de {0} não pode ser posterior à data prevista de término de {2}."
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1183
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1191
@@ -532,7 +532,7 @@ msgstr "{0}, conclua a operação {1} antes da operação {2}."
 
 #: erpnext/controllers/accounts_controller.py:542
 msgid "{0}: {1} does not belong to the Company: {2}"
-msgstr "{0}: {1} não pertence à empresa: {2}"
+msgstr "{0}: {1} não pertence à empresa {2}"
 
 #: erpnext/accounts/party.py:80
 msgid "{0}: {1} does not exists"
@@ -552,7 +552,7 @@ msgstr "{count} ativos criados para {item_code}"
 
 #: erpnext/controllers/buying_controller.py:907
 msgid "{doctype} {name} is cancelled or closed."
-msgstr "{doctype} {name} está cancelado ou encerrado."
+msgstr "{doctype} {name} está cancelado ou fechado."
 
 #: erpnext/controllers/buying_controller.py:628
 msgid "{field_label} is mandatory for sub-contracted {doctype}."
@@ -564,7 +564,7 @@ msgstr "O tamanho da amostra de {item_name} ({sample_size}) não pode ser maior 
 
 #: erpnext/controllers/buying_controller.py:732
 msgid "{ref_doctype} {ref_name} is {status}."
-msgstr "{ref_doctype} {ref_name} está com status {status}."
+msgstr "{ref_doctype} {ref_name} está {status}."
 
 #: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:432
 msgid "{}"
@@ -573,17 +573,17 @@ msgstr "{}"
 #. Count format of shortcut in the Stock Workspace
 #: erpnext/stock/workspace/stock/stock.json
 msgid "{}  Available"
-msgstr "{}  Disponíveis"
+msgstr "{}  disponível"
 
 #. Count format of shortcut in the Selling Workspace
 #: erpnext/selling/workspace/selling/selling.json
 msgid "{}  To Deliver"
-msgstr "{}  Para entregar"
+msgstr "{}  para entregar"
 
 #. Count format of shortcut in the Buying Workspace
 #: erpnext/buying/workspace/buying/buying.json
 msgid "{}  To Receive"
-msgstr "{}  Para receber"
+msgstr "{}  para receber"
 
 #. Count format of shortcut in the CRM Workspace
 #. Count format of shortcut in the Projects Workspace
@@ -592,14 +592,14 @@ msgstr "{}  Para receber"
 #: erpnext/projects/workspace/projects/projects.json
 #: erpnext/support/workspace/support/support.json
 msgid "{} Assigned"
-msgstr "{} atribuídos"
+msgstr "{} atribuído"
 
 #. Count format of shortcut in the Buying Workspace
 #. Count format of shortcut in the Selling Workspace
 #: erpnext/buying/workspace/buying/buying.json
 #: erpnext/selling/workspace/selling/selling.json
 msgid "{} Available"
-msgstr "{} disponíveis"
+msgstr "{} disponível"
 
 #. Count format of shortcut in the CRM Workspace
 #. Count format of shortcut in the Projects Workspace
@@ -610,14 +610,14 @@ msgstr "{} disponíveis"
 #: erpnext/quality_management/workspace/quality/quality.json
 #: erpnext/selling/workspace/selling/selling.json
 msgid "{} Open"
-msgstr "{} abertos"
+msgstr "{} em aberto"
 
 #. Count format of shortcut in the Buying Workspace
 #. Count format of shortcut in the Stock Workspace
 #: erpnext/buying/workspace/buying/buying.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "{} Pending"
-msgstr "{} pendentes"
+msgstr "{} pendente"
 
 #. Count format of shortcut in the Stock Workspace
 #: erpnext/stock/workspace/stock/stock.json
@@ -630,7 +630,7 @@ msgstr "{} não pode ser cancelado porque os pontos de fidelidade ganhos foram r
 
 #: erpnext/controllers/buying_controller.py:286
 msgid "{} has submitted assets linked to it. You need to cancel the assets to create purchase return."
-msgstr "{} possui ativos enviados vinculados a ele. Você precisa cancelar os ativos para criar a devolução de compra."
+msgstr "{} possui ativos enviados vinculados. Você precisa cancelar os ativos para criar a devolução de compra."
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:66
 msgid "{} is a child company."

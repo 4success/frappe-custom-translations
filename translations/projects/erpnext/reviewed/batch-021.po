@@ -25,26 +25,26 @@ msgstr "Do cliente"
 
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:43
 msgid "From Date and To Date are Mandatory"
-msgstr "Data inicial e data final são obrigatórias"
+msgstr "As datas inicial e final são obrigatórias"
 
 #: erpnext/accounts/report/financial_statements.py:138
 msgid "From Date and To Date are mandatory"
-msgstr "Data inicial e data final são obrigatórias"
+msgstr "As datas inicial e final são obrigatórias"
 
 #: erpnext/accounts/report/tds_computation_summary/tds_computation_summary.py:46
 msgid "From Date and To Date lie in different Fiscal Year"
-msgstr "Data inicial e data final pertencem a anos fiscais diferentes"
+msgstr "As datas inicial e final estão em anos fiscais diferentes"
 
 #: erpnext/accounts/report/trial_balance/trial_balance.py:64
 #: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.py:13
 #: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.py:14
 #: erpnext/stock/report/reserved_stock/reserved_stock.py:29
 msgid "From Date cannot be greater than To Date"
-msgstr "Data inicial não pode ser posterior à data final"
+msgstr "A data inicial não pode ser posterior à data final"
 
 #: erpnext/crm/report/sales_pipeline_analytics/sales_pipeline_analytics.py:27
 msgid "From Date is mandatory"
-msgstr "Data inicial é obrigatória"
+msgstr "A data inicial é obrigatória"
 
 #: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.py:53
 #: erpnext/accounts/report/general_ledger/general_ledger.py:86
@@ -54,19 +54,19 @@ msgstr "Data inicial é obrigatória"
 #: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.py:34
 #: erpnext/stock/report/cogs_by_item_group/cogs_by_item_group.py:38
 msgid "From Date must be before To Date"
-msgstr "Data inicial deve ser anterior à data final"
+msgstr "A data inicial deve ser anterior à data final"
 
 #: erpnext/accounts/report/trial_balance/trial_balance.py:68
 msgid "From Date should be within the Fiscal Year. Assuming From Date = {0}"
-msgstr "Data inicial deve estar dentro do ano fiscal. Considerando Data inicial = {0}"
+msgstr "A data inicial deve estar dentro do ano fiscal. Considerando data inicial = {0}"
 
 #: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.py:43
 msgid "From Date: {0} cannot be greater than To date: {1}"
-msgstr "Data inicial: {0} não pode ser posterior à data final: {1}"
+msgstr "A data inicial: {0} não pode ser posterior à data final: {1}"
 
 #: erpnext/projects/report/daily_timesheet_summary/daily_timesheet_summary.py:29
 msgid "From Datetime"
-msgstr "Data e hora inicial"
+msgstr "Data/hora inicial"
 
 #. Label of the from_delivery_date (Date) field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
@@ -81,7 +81,7 @@ msgstr "Da nota de entrega"
 #. Detail'
 #: erpnext/bulk_transaction/doctype/bulk_transaction_log_detail/bulk_transaction_log_detail.json
 msgid "From Doctype"
-msgstr "Do DocType"
+msgstr "Do tipo de documento"
 
 #: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.js:78
 msgid "From Due Date"
@@ -94,7 +94,7 @@ msgstr "Do funcionário"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:85
 msgid "From Employee is required while issuing Asset {0}"
-msgstr "Funcionário de origem é obrigatório ao emitir o ativo {0}"
+msgstr "O funcionário de origem é obrigatório ao emitir o ativo {0}"
 
 #. Label of the from_external_ecomm_platform (Check) field in DocType 'Coupon
 #. Code'
@@ -110,12 +110,12 @@ msgstr "Ano fiscal inicial"
 
 #: erpnext/accounts/doctype/budget/budget.py:110
 msgid "From Fiscal Year cannot be greater than To Fiscal Year"
-msgstr "Ano fiscal inicial não pode ser maior que o ano fiscal final"
+msgstr "O ano fiscal inicial não pode ser maior que o ano fiscal final"
 
 #. Label of the from_folio_no (Data) field in DocType 'Share Transfer'
 #: erpnext/accounts/doctype/share_transfer/share_transfer.json
 msgid "From Folio No"
-msgstr "Do nº do fólio"
+msgstr "Nº inicial do fólio"
 
 #. Label of the from_invoice_date (Date) field in DocType 'Payment
 #. Reconciliation'
@@ -136,7 +136,7 @@ msgstr "Do lead"
 #: erpnext/accounts/doctype/share_balance/share_balance.json
 #: erpnext/accounts/doctype/share_transfer/share_transfer.json
 msgid "From No"
-msgstr "Do nº"
+msgstr "Nº inicial"
 
 #. Label of the opportunity_name (Link) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
@@ -146,7 +146,7 @@ msgstr "Da oportunidade"
 #. Label of the from_case_no (Int) field in DocType 'Packing Slip'
 #: erpnext/stock/doctype/packing_slip/packing_slip.json
 msgid "From Package No."
-msgstr "Do nº do pacote"
+msgstr "Nº inicial do pacote"
 
 #. Label of the from_payment_date (Date) field in DocType 'Payment
 #. Reconciliation'
@@ -176,7 +176,7 @@ msgstr "Faixa inicial"
 
 #: erpnext/stock/doctype/item_attribute/item_attribute.py:96
 msgid "From Range has to be less than To Range"
-msgstr "Faixa inicial deve ser menor que a faixa final"
+msgstr "A faixa inicial deve ser menor que a faixa final"
 
 #. Label of the from_reference_date (Date) field in DocType 'Bank
 #. Reconciliation Tool'
@@ -231,7 +231,7 @@ msgstr "Horário inicial "
 
 #: erpnext/accounts/doctype/cashier_closing/cashier_closing.py:67
 msgid "From Time Should Be Less Than To Time"
-msgstr "Horário inicial deve ser menor que o horário final"
+msgstr "O horário inicial deve ser menor que o horário final"
 
 #. Label of the from_value (Float) field in DocType 'Shipping Rule Condition'
 #: erpnext/accounts/doctype/shipping_rule_condition/shipping_rule_condition.json
@@ -242,7 +242,7 @@ msgstr "Valor inicial"
 #. Reservation Entry'
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
 msgid "From Voucher Detail No"
-msgstr "Do nº do detalhe do comprovante"
+msgstr "Nº inicial do detalhe do comprovante"
 
 #. Label of the from_voucher_no (Dynamic Link) field in DocType 'Stock
 #. Reservation Entry'
@@ -250,7 +250,7 @@ msgstr "Do nº do detalhe do comprovante"
 #: erpnext/stock/report/reserved_stock/reserved_stock.js:103
 #: erpnext/stock/report/reserved_stock/reserved_stock.py:164
 msgid "From Voucher No"
-msgstr "Do nº do comprovante"
+msgstr "Nº inicial do comprovante"
 
 #. Label of the from_voucher_type (Select) field in DocType 'Stock Reservation
 #. Entry'
@@ -258,7 +258,7 @@ msgstr "Do nº do comprovante"
 #: erpnext/stock/report/reserved_stock/reserved_stock.js:92
 #: erpnext/stock/report/reserved_stock/reserved_stock.py:158
 msgid "From Voucher Type"
-msgstr "Do tipo de comprovante"
+msgstr "Tipo inicial de comprovante"
 
 #. Label of the from_warehouse (Link) field in DocType 'Purchase Invoice Item'
 #. Label of the from_warehouse (Link) field in DocType 'Purchase Order Item'
@@ -282,15 +282,15 @@ msgstr "As datas de início e fim são obrigatórias."
 
 #: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py:166
 msgid "From and To dates are required"
-msgstr "Datas inicial e final são obrigatórias"
+msgstr "As datas inicial e final são obrigatórias"
 
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:51
 msgid "From date cannot be greater than To date"
-msgstr "Data inicial não pode ser posterior à data final"
+msgstr "A data inicial não pode ser posterior à data final"
 
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:74
 msgid "From value must be less than to value in row {0}"
-msgstr "Valor inicial deve ser menor que o valor final na linha {0}"
+msgstr "O valor inicial deve ser menor que o valor final na linha {0}"
 
 #. Label of the freeze_account (Select) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
@@ -305,7 +305,7 @@ msgstr "Tipo de combustível"
 #. Label of the uom (Link) field in DocType 'Vehicle'
 #: erpnext/setup/doctype/vehicle/vehicle.json
 msgid "Fuel UOM"
-msgstr "UM do combustível"
+msgstr "UOM do combustível"
 
 #. Option for the 'Fulfilment Status' (Select) field in DocType 'Contract'
 #. Label of the fulfilled (Check) field in DocType 'Contract Fulfilment
@@ -320,12 +320,12 @@ msgstr "Cumprido"
 
 #: erpnext/selling/doctype/sales_order/sales_order_dashboard.py:24
 msgid "Fulfillment"
-msgstr "Atendimento"
+msgstr "Cumprimento"
 
 #. Name of a role
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.json
 msgid "Fulfillment User"
-msgstr "Usuário de atendimento"
+msgstr "Usuário de Cumprimento"
 
 #. Label of the fulfilment_deadline (Date) field in DocType 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
@@ -340,7 +340,7 @@ msgstr "Detalhes do cumprimento"
 #. Label of the fulfilment_status (Select) field in DocType 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
 msgid "Fulfilment Status"
-msgstr "Status do cumprimento"
+msgstr "Status de cumprimento"
 
 #. Label of the fulfilment_terms (Table) field in DocType 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
@@ -356,7 +356,7 @@ msgstr "Termos e condições de cumprimento"
 #. Account'
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 msgid "Full and Final Statement"
-msgstr "Demonstrativo final"
+msgstr "Demonstrativo final de quitação"
 
 #. Option for the 'Billing Status' (Select) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -397,37 +397,37 @@ msgstr "Totalmente pago"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Furlong"
-msgstr ""
+msgstr "Furlong"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:52
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:87
 msgid "Furniture and Fixtures"
-msgstr ""
+msgstr "Móveis e utensílios"
 
 #: erpnext/accounts/doctype/account/account_tree.js:139
 msgid "Further accounts can be made under Groups, but entries can be made against non-Groups"
-msgstr "Mais contas podem ser criadas sob grupos, mas os lançamentos devem ser feitos em contas que não são grupos"
+msgstr "Contas adicionais podem ser criadas em grupos, mas os lançamentos só podem ser feitos em contas que não sejam grupos"
 
 #: erpnext/accounts/doctype/cost_center/cost_center_tree.js:31
 msgid "Further cost centers can be made under Groups but entries can be made against non-Groups"
-msgstr "Mais centros de custo podem ser criados sob grupos, mas os lançamentos devem ser feitos em centros de custo que não são grupos"
+msgstr "Centros de custo adicionais podem ser criados em grupos, mas os lançamentos só podem ser feitos em centros de custo que não sejam grupos"
 
 #: erpnext/setup/doctype/sales_person/sales_person_tree.js:15
 msgid "Further nodes can be only created under 'Group' type nodes"
-msgstr "Novos nós só podem ser criados sob nós do tipo 'Group'"
+msgstr "Novos nós só podem ser criados sob nós do tipo 'Grupo'"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:188
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:155
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1231
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:177
 msgid "Future Payment Amount"
-msgstr "Valor do pagamento futuro"
+msgstr "Valor do Pagamento Futuro"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:187
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:154
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1230
 msgid "Future Payment Ref"
-msgstr "Referência do pagamento futuro"
+msgstr "Referência de Pagamento Futuro"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:123
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:102
@@ -450,25 +450,25 @@ msgstr "LIVRO RAZÃO"
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:170
 #: erpnext/accounts/report/general_and_payment_ledger_comparison/general_and_payment_ledger_comparison.py:238
 msgid "GL Balance"
-msgstr "Saldo do Livro Razão"
+msgstr "Saldo do razão"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/gl_entry/gl_entry.json
 #: erpnext/accounts/report/general_ledger/general_ledger.py:675
 msgid "GL Entry"
-msgstr "Lançamento do Livro Razão"
+msgstr "Lançamento GL"
 
 #. Label of the gle_processing_status (Select) field in DocType 'Period Closing
 #. Voucher'
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.json
 msgid "GL Entry Processing Status"
-msgstr "Status do processamento dos lançamentos do Livro Razão"
+msgstr "Status de processamento dos lançamentos do razão"
 
 #. Label of the gl_reposting_index (Int) field in DocType 'Repost Item
 #. Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "GL reposting index"
-msgstr "Índice de relançamento do Livro Razão"
+msgstr "Índice de reprocessamento do razão"
 
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
@@ -489,7 +489,7 @@ msgstr "Ganho/Perda"
 #. Label of the disposal_account (Link) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Gain/Loss Account on Asset Disposal"
-msgstr "Conta de ganho/perda na baixa de ativo"
+msgstr "Conta de ganho/perda na baixa do ativo"
 
 #. Description of the 'Gain/Loss already booked' (Currency) field in DocType
 #. 'Exchange Rate Revaluation'
@@ -501,7 +501,7 @@ msgstr "Ganho/perda acumulado na conta em moeda estrangeira. Contas com saldo '0
 #. Revaluation'
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.json
 msgid "Gain/Loss already booked"
-msgstr "Ganho/perda já contábilizado"
+msgstr "Ganho/perda já contabilizado"
 
 #. Label of the gain_loss_unbooked (Currency) field in DocType 'Exchange Rate
 #. Revaluation'
@@ -513,27 +513,27 @@ msgstr "Ganho/perda da reavaliação"
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:220
 #: erpnext/setup/doctype/company/company.py:673
 msgid "Gain/Loss on Asset Disposal"
-msgstr "Ganho/perda na baixa de ativo"
+msgstr "Ganho/perda na baixa do ativo"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Gallon (UK)"
-msgstr ""
+msgstr "Galão (UK)"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Gallon Dry (US)"
-msgstr ""
+msgstr "Galão seco (US)"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Gallon Liquid (US)"
-msgstr ""
+msgstr "Galão líquido (US)"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Gamma"
-msgstr ""
+msgstr "Gama"
 
 #: erpnext/projects/doctype/project/project.js:102
 msgid "Gantt Chart"
@@ -575,13 +575,13 @@ msgstr "Configurações gerais"
 #. Name of a report
 #: erpnext/accounts/report/general_and_payment_ledger_comparison/general_and_payment_ledger_comparison.json
 msgid "General and Payment Ledger Comparison"
-msgstr "Comparação entre Livro Razão e Livro de Pagamentos"
+msgstr "Comparação entre razão geral e razão de pagamentos"
 
 #. Label of the general_and_payment_ledger_mismatch (Check) field in DocType
 #. 'Ledger Health'
 #: erpnext/accounts/doctype/ledger_health/ledger_health.json
 msgid "General and Payment Ledger mismatch"
-msgstr "Divergência entre Livro Razão e Livro de Pagamentos"
+msgstr "Divergência entre razão geral e razão de pagamentos"
 
 #. Label of the generate_demand (Button) field in DocType 'Sales Forecast'
 #: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.json
@@ -620,7 +620,7 @@ msgstr "Gerar lançamento de fechamento de estoque"
 #. Description of a DocType
 #: erpnext/stock/doctype/packing_slip/packing_slip.json
 msgid "Generate packing slips for packages to be delivered. Used to notify package number, package contents and its weight."
-msgstr "Gerar romaneios de embalagem para os pacotes a serem entregues. Usado para informar o número do pacote, o conteúdo e seu peso."
+msgstr "Gere romaneios para os pacotes a serem entregues. Usado para informar o número do pacote, o conteúdo do pacote e seu peso."
 
 #. Label of the generated (Check) field in DocType 'Bisect Nodes'
 #: erpnext/accounts/doctype/bisect_nodes/bisect_nodes.json
@@ -639,30 +639,30 @@ msgstr "Gerando pré-visualização"
 #. Schedule'
 #: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
 msgid "Get Actual Demand"
-msgstr "Buscar demanda real"
+msgstr "Obter demanda real"
 
 #. Label of the get_advances (Button) field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Get Advances Paid"
-msgstr "Buscar adiantamentos pagos"
+msgstr "Obter adiantamentos pagos"
 
 #. Label of the get_advances (Button) field in DocType 'POS Invoice'
 #. Label of the get_advances (Button) field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Get Advances Received"
-msgstr "Buscar adiantamentos recebidos"
+msgstr "Obter adiantamentos recebidos"
 
 #. Label of the get_allocations (Button) field in DocType 'Unreconcile Payment'
 #: erpnext/accounts/doctype/unreconcile_payment/unreconcile_payment.json
 msgid "Get Allocations"
-msgstr "Buscar alocações"
+msgstr "Obter alocações"
 
 #. Label of the get_balance_for_periodic_accounting (Button) field in DocType
 #. 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 msgid "Get Balance"
-msgstr "Buscar saldo"
+msgstr "Obter saldo"
 
 #. Label of the get_current_stock (Button) field in DocType 'Purchase Receipt'
 #. Label of the get_current_stock (Button) field in DocType 'Subcontracting
@@ -670,46 +670,46 @@ msgstr "Buscar saldo"
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Get Current Stock"
-msgstr "Buscar estoque atual"
+msgstr "Obter estoque atual"
 
 #: erpnext/selling/doctype/customer/customer.js:189
 msgid "Get Customer Group Details"
-msgstr "Buscar detalhes do grupo de clientes"
+msgstr "Obter detalhes do grupo de clientes"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:608
 msgid "Get Delivery Schedule"
-msgstr "Buscar programação de entrega"
+msgstr "Obter programação de entrega"
 
 #. Label of the get_entries (Button) field in DocType 'Exchange Rate
 #. Revaluation'
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.json
 msgid "Get Entries"
-msgstr "Buscar lançamentos"
+msgstr "Obter lançamentos"
 
 #. Label of the get_items (Button) field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Get Finished Goods"
-msgstr "Buscar produtos acabados"
+msgstr "Obter produtos acabados"
 
 #. Description of the 'Get Finished Goods' (Button) field in DocType
 #. 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Get Finished Goods for Manufacture"
-msgstr "Buscar produtos acabados para fabricação"
+msgstr "Obter produtos acabados para fabricação"
 
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.js:57
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.js:159
 msgid "Get Invoices"
-msgstr "Buscar faturas"
+msgstr "Obter Faturas"
 
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.js:104
 msgid "Get Invoices based on Filters"
-msgstr "Buscar faturas com base nos filtros"
+msgstr "Obter faturas com base em filtros"
 
 #. Label of the get_item_locations (Button) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
 msgid "Get Item Locations"
-msgstr "Buscar localizações dos itens"
+msgstr "Obter localizações dos itens"
 
 #. Label of the get_items_from (Select) field in DocType 'Production Plan'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:166
@@ -747,48 +747,48 @@ msgstr "Buscar localizações dos itens"
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:661
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:164
 msgid "Get Items From"
-msgstr "Buscar itens de"
+msgstr "Obter itens de"
 
 #. Label of the transfer_materials (Button) field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Get Items for Purchase / Transfer"
-msgstr "Buscar itens para compra / transferência"
+msgstr "Obter itens para compra / transferência"
 
 #. Label of the get_items_for_mr (Button) field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Get Items for Purchase Only"
-msgstr "Buscar itens apenas para compra"
+msgstr "Obter itens somente para compra"
 
 #: erpnext/stock/doctype/material_request/material_request.js:334
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:697
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:710
 msgid "Get Items from BOM"
-msgstr "Buscar itens da BOM"
+msgstr "Obter itens da BOM"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:405
 msgid "Get Items from Material Requests against this Supplier"
-msgstr "Buscar itens de solicitações de material para este fornecedor"
+msgstr "Obter itens de solicitações de material para este fornecedor"
 
 #. Label of the get_items_from_open_material_requests (Button) field in DocType
 #. 'Purchase Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 msgid "Get Items from Open Material Requests"
-msgstr "Buscar itens de solicitações de material em aberto"
+msgstr "Obter itens de solicitações de material em aberto"
 
 #: erpnext/public/js/controllers/buying.js:604
 msgid "Get Items from Product Bundle"
-msgstr "Buscar itens do pacote de produtos"
+msgstr "Obter Itens do Pacote de Produtos"
 
 #. Label of the get_latest_query (Data) field in DocType 'Support Settings'
 #: erpnext/support/doctype/support_settings/support_settings.json
 msgid "Get Latest Query"
-msgstr "Buscar última consulta"
+msgstr "Obter última consulta"
 
 #. Label of the get_material_request (Button) field in DocType 'Production
 #. Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Get Material Request"
-msgstr "Buscar solicitação de material"
+msgstr "Obter solicitação de material"
 
 #. Label of the get_material_requests (Button) field in DocType 'Master
 #. Production Schedule'
@@ -796,7 +796,7 @@ msgstr "Buscar solicitação de material"
 #: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.js:183
 #: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
 msgid "Get Material Requests"
-msgstr "Buscar solicitações de material"
+msgstr "Obter solicitações de material"
 
 #. Label of the get_outstanding_invoices (Button) field in DocType 'Journal
 #. Entry'
@@ -805,30 +805,30 @@ msgstr "Buscar solicitações de material"
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Get Outstanding Invoices"
-msgstr "Buscar faturas em aberto"
+msgstr "Obter faturas em aberto"
 
 #. Label of the get_outstanding_orders (Button) field in DocType 'Payment
 #. Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Get Outstanding Orders"
-msgstr "Buscar pedidos em aberto"
+msgstr "Obter pedidos em aberto"
 
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.js:38
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.js:40
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.js:43
 msgid "Get Payment Entries"
-msgstr "Buscar lançamentos de pagamento"
+msgstr "Obter Lançamentos de Pagamentos"
 
 #: erpnext/accounts/doctype/payment_order/payment_order.js:23
 #: erpnext/accounts/doctype/payment_order/payment_order.js:31
 msgid "Get Payments from"
-msgstr "Buscar pagamentos de"
+msgstr "Obter pagamentos de"
 
 #. Label of the get_rm_cost_from_consumption_entry (Check) field in DocType
 #. 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Get Raw Materials Cost from Consumption Entry"
-msgstr "Buscar custo de matérias-primas do lançamento de consumo"
+msgstr "Obter custo das matérias-primas pelo lançamento de consumo"
 
 #. Label of the get_sales_orders (Button) field in DocType 'Master Production
 #. Schedule'
@@ -838,13 +838,13 @@ msgstr "Buscar custo de matérias-primas do lançamento de consumo"
 #: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Get Sales Orders"
-msgstr "Buscar pedidos de venda"
+msgstr "Obter pedidos de venda"
 
 #. Label of the get_scrap_items (Button) field in DocType 'Subcontracting
 #. Receipt'
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Get Scrap Items"
-msgstr "Buscar itens de sucata"
+msgstr "Obter itens de sucata"
 
 #. Label of the get_started_sections (Code) field in DocType 'Support Settings'
 #: erpnext/support/doctype/support_settings/support_settings.json
@@ -853,30 +853,30 @@ msgstr "Seções iniciais"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:552
 msgid "Get Stock"
-msgstr "Buscar estoque"
+msgstr "Obter estoque"
 
 #. Label of the get_sub_assembly_items (Button) field in DocType 'Production
 #. Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Get Sub Assembly Items"
-msgstr "Buscar itens de subconjunto"
+msgstr "Obter itens de subconjuntos"
 
 #: erpnext/buying/doctype/supplier/supplier.js:115
 msgid "Get Supplier Group Details"
-msgstr "Buscar detalhes do grupo de fornecedores"
+msgstr "Obter detalhes do grupo de fornecedores"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:447
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:467
 msgid "Get Suppliers"
-msgstr "Buscar fornecedores"
+msgstr "Obter Fornecedores"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:471
 msgid "Get Suppliers By"
-msgstr "Buscar fornecedores por"
+msgstr "Obter fornecedores por"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:1099
 msgid "Get Timesheets"
-msgstr "Buscar apontamentos de horas"
+msgstr "Obter apontamentos"
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.js:84
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.js:87
@@ -885,15 +885,15 @@ msgstr "Buscar apontamentos de horas"
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.js:102
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.js:107
 msgid "Get Unreconciled Entries"
-msgstr "Buscar lançamentos não conciliados"
+msgstr "Obter Lançamentos Não Conciliados"
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.js:69
 msgid "Get stops from"
-msgstr "Buscar paradas de"
+msgstr "Obter paradas de"
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:194
 msgid "Getting Scrap Items"
-msgstr "Buscando itens de sucata"
+msgstr "Obtendo itens de sucata"
 
 #. Option for the 'Coupon Type' (Select) field in DocType 'Coupon Code'
 #: erpnext/accounts/doctype/coupon_code/coupon_code.json

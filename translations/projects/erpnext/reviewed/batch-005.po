@@ -22,13 +22,13 @@ msgstr ""
 #. in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allow Sales Order Creation For Expired Quotation"
-msgstr "Permitir criar pedido de venda para orçamento expirado"
+msgstr "Permitir criação de Pedido de Venda para Orçamento vencido"
 
 #. Label of the allow_zero_qty_in_sales_order (Check) field in DocType 'Selling
 #. Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allow Sales Order with Zero Quantity"
-msgstr "Permitir pedido de venda com quantidade zero"
+msgstr "Permitir Pedido de Venda com quantidade zero"
 
 #. Label of the allow_stale (Check) field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
@@ -39,13 +39,13 @@ msgstr "Permitir taxas de câmbio desatualizadas"
 #. 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Allow Supplier Quotation with Zero Quantity"
-msgstr "Permitir cotação de fornecedor com quantidade zero"
+msgstr "Permitir Cotação de fornecedor com quantidade zero"
 
 #. Label of the allow_uom_with_conversion_rate_defined_in_item (Check) field in
 #. DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Allow UOM with Conversion Rate Defined in Item"
-msgstr "Permitir UM com fator de conversão definido no item"
+msgstr "Permitir UOM com fator de conversão definido no item"
 
 #. Label of the allow_discount_change (Check) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
@@ -56,7 +56,7 @@ msgstr "Permitir que o usuário edite o desconto"
 #. Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allow User to Edit Price List Rate in Transactions"
-msgstr "Permitir que o usuário edite o preço da lista nas transações"
+msgstr "Permitir que o usuário edite o preço da lista de preços nas transações"
 
 #. Label of the allow_rate_change (Check) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
@@ -67,7 +67,7 @@ msgstr "Permitir que o usuário edite o preço"
 #. Settings'
 #: erpnext/stock/doctype/item_variant_settings/item_variant_settings.json
 msgid "Allow Variant UOM to be different from Template UOM"
-msgstr "Permitir UM da variante diferente da UM do modelo"
+msgstr "Permitir que a UOM da variante seja diferente da UOM do modelo"
 
 #. Label of the allow_zero_rate (Check) field in DocType 'Repost Item
 #. Valuation'
@@ -103,13 +103,13 @@ msgstr "Permitir taxa de avaliação zero"
 #. Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Allow existing Serial No to be Manufactured/Received again"
-msgstr "Permitir fabricar/receber novamente um No. de Série existente"
+msgstr "Permitir que um nº de série existente seja fabricado/recebido novamente"
 
 #. Description of the 'Allow Continuous Material Consumption' (Check) field in
 #. DocType 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Allow material consumptions without immediately manufacturing finished goods against a Work Order"
-msgstr "Permitir consumo de materiais sem fabricar imediatamente produtos acabados para uma Ordem de Trabalho"
+msgstr "Permitir consumo de matéria-prima sem fabricar imediatamente os produtos acabados de uma Ordem de Trabalho"
 
 #. Label of the allow_multi_currency_invoices_against_single_party_account
 #. (Check) field in DocType 'Accounts Settings'
@@ -121,25 +121,25 @@ msgstr "Permitir faturas em várias moedas para uma única conta do cadastro "
 #. DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Allow to Edit Stock UOM Qty for Purchase Documents"
-msgstr "Permitir editar a qtd. da UM de estoque em documentos de compra"
+msgstr "Permitir editar a qtd. em UOM de estoque em documentos de compra"
 
 #. Label of the allow_to_edit_stock_uom_qty_for_sales (Check) field in DocType
 #. 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Allow to Edit Stock UOM Qty for Sales Documents"
-msgstr "Permitir editar a qtd. da UM de estoque em documentos de venda"
+msgstr "Permitir editar a qtd. em UOM de estoque em documentos de venda"
 
 #. Label of the allow_to_make_quality_inspection_after_purchase_or_delivery
 #. (Check) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Allow to Make Quality Inspection after Purchase / Delivery"
-msgstr "Permitir fazer inspeção de qualidade após compra / entrega"
+msgstr "Permitir fazer inspeção de qualidade após compra/entrega"
 
 #. Description of the 'Allow Excess Material Transfer' (Check) field in DocType
 #. 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Allow transferring raw materials even after the Required Quantity is fulfilled"
-msgstr "Permitir transferir matérias-primas mesmo após atingir a quantidade necessária"
+msgstr "Permitir transferir matérias-primas mesmo após a quantidade necessária ser atendida"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/allowed_dimension/allowed_dimension.json
@@ -170,7 +170,7 @@ msgstr "Permitido transacionar com"
 
 #: erpnext/accounts/doctype/party_link/party_link.py:27
 msgid "Allowed primary roles are 'Customer' and 'Supplier'. Please select one of these roles only."
-msgstr "Os papéis principais permitidos são 'Cliente' e 'Fornecedor'. Selecione apenas um desses papéis."
+msgstr "Os perfis principais permitidos são 'Cliente' e 'Fornecedor'. Selecione apenas um desses perfis."
 
 #. Description of the 'Enable Stock Reservation' (Check) field in DocType
 #. 'Stock Settings'
@@ -182,31 +182,31 @@ msgstr "Permite reservar uma quantidade específica do estoque para um pedido es
 #. in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Allows users to submit Purchase Orders with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar pedidos de compra com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
+msgstr "Permite que os usuários enviem Pedidos de Compra com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
 
 #. Description of the 'Allow Quotation with Zero Quantity' (Check) field in
 #. DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allows users to submit Quotations with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar orçamentos com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
+msgstr "Permite que os usuários enviem Orçamentos com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
 
 #. Description of the 'Allow Request for Quotation with Zero Quantity' (Check)
 #. field in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Allows users to submit Request for Quotations with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar solicitações de cotação com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
+msgstr "Permite que os usuários enviem Solicitações de cotação com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
 
 #. Description of the 'Allow Sales Order with Zero Quantity' (Check) field in
 #. DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Allows users to submit Sales Orders with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar pedidos de venda com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
+msgstr "Permite que os usuários enviem Pedidos de Venda com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
 
 #. Description of the 'Allow Supplier Quotation with Zero Quantity' (Check)
 #. field in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Allows users to submit Supplier Quotations with zero quantity. Useful when rates are fixed but the quantities are not. Eg. Rate Contracts."
-msgstr "Permite enviar cotações de fornecedor com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
+msgstr "Permite que os usuários enviem Cotações de fornecedor com quantidade zero. Útil quando os preços são fixos, mas as quantidades não. Ex.: contratos de preço."
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:1024
 msgid "Already Picked"
@@ -218,11 +218,11 @@ msgstr "Já existe um registro para o item {0}"
 
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:132
 msgid "Already set default in pos profile {0} for user {1}, kindly disabled default"
-msgstr "Já existe padrão definido no perfil de PDV {0} para o usuário {1}; desative o padrão"
+msgstr "Já foi definido um padrão no perfil de POS {0} para o usuário {1}; desative o padrão"
 
 #: erpnext/stock/doctype/item/item.js:20
 msgid "Also you can't switch back to FIFO after setting the valuation method to Moving Average for this item."
-msgstr "Também não é possível voltar para FIFO depois de definir o método de avaliação como média móvel para este item."
+msgstr "Além disso, você não pode voltar para FIFO após definir o método de avaliação como Média Móvel para este item."
 
 #: erpnext/manufacturing/doctype/bom/bom.js:222
 #: erpnext/manufacturing/doctype/work_order/work_order.js:165
@@ -250,11 +250,11 @@ msgstr "Itens alternativos"
 
 #: erpnext/stock/doctype/item_alternative/item_alternative.py:37
 msgid "Alternative item must not be same as item code"
-msgstr "O item alternativo não pode ser o mesmo código do item"
+msgstr "O item alternativo não pode ser igual ao código do item"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:378
 msgid "Alternatively, you can download the template and fill your data in."
-msgstr "Como alternativa, você pode baixar o modelo e preenchê-lo com seus dados."
+msgstr "Como alternativa, você pode baixar o modelo e preencher seus dados."
 
 #. Option for the 'Action on New Invoice' (Select) field in DocType 'POS
 #. Profile'
@@ -559,7 +559,7 @@ msgstr "Valor por extenso"
 #. Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Amount in party's bank account currency"
-msgstr "Valor na moeda da conta bancária da parte"
+msgstr "Valor na moeda da conta bancária do cadastro"
 
 #. Description of the 'Amount' (Currency) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
@@ -577,11 +577,11 @@ msgstr "Valor a faturar"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1324
 msgid "Amount {0} {1} against {2} {3}"
-msgstr "Valor {0} {1} em {2} {3}"
+msgstr "Valor {0} {1} referente a {2} {3}"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1335
 msgid "Amount {0} {1} deducted against {2}"
-msgstr "Valor {0} {1} deduzido em {2}"
+msgstr "Valor {0} {1} deduzido de {2}"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1299
 msgid "Amount {0} {1} transferred from {2} to {3}"
@@ -589,7 +589,7 @@ msgstr "Valor {0} {1} transferido de {2} para {3}"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1305
 msgid "Amount {0} {1} {2} {3}"
-msgstr "Total {0} {1} {2} {3}"
+msgstr "Valor {0} {1} {2} {3}"
 
 #. Label of the amounts_section (Section Break) field in DocType 'GL Entry'
 #: erpnext/accounts/doctype/gl_entry/gl_entry.json
@@ -599,36 +599,36 @@ msgstr "Valores"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Ampere"
-msgstr ""
+msgstr "Ampere"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Ampere-Hour"
-msgstr ""
+msgstr "Ampere-hora"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Ampere-Minute"
-msgstr ""
+msgstr "Ampere-minuto"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Ampere-Second"
-msgstr ""
+msgstr "Ampere-segundo"
 
 #: erpnext/controllers/trends.py:269 erpnext/controllers/trends.py:281
 #: erpnext/controllers/trends.py:290
 msgid "Amt"
-msgstr "Valor"
+msgstr "Total"
 
 #. Description of a DocType
 #: erpnext/setup/doctype/item_group/item_group.json
 msgid "An Item Group is a way to classify items based on types."
-msgstr "Um Grupo de Itens é uma forma de classificar itens por tipo."
+msgstr "Um Grupo de itens é uma forma de classificar itens com base em tipos."
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:520
 msgid "An error has been appeared while reposting item valuation via {0}"
-msgstr "Ocorreu um erro ao reprocessar a avaliação do item via {0}"
+msgstr "Ocorreu um erro ao refazer a avaliação do item via {0}"
 
 #: erpnext/public/js/controllers/buying.js:380
 #: erpnext/public/js/utils/sales_common.js:489
@@ -637,7 +637,7 @@ msgstr "Ocorreu um erro durante o processo de atualização"
 
 #: erpnext/stock/reorder_item.py:386
 msgid "An error occurred for certain Items while creating Material Requests based on Re-order level. Please rectify these issues :"
-msgstr "Ocorreu um erro para alguns itens ao criar solicitações de material com base no nível de reposição. Corrija estes problemas:"
+msgstr "Ocorreu um erro para alguns itens ao criar Solicitações de material com base no nível de reposição. Corrija estes problemas:"
 
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.html:124
 msgid "Analysis Chart"
@@ -653,7 +653,7 @@ msgstr "Faturamento anual: {0}"
 
 #: erpnext/controllers/budget_controller.py:449
 msgid "Annual Budget for Account {0} against {1} {2} is {3}. It will be collectively ({4}) exceeded by {5}"
-msgstr "O orçamento anual da conta {0} para {1} {2} é {3}. Ele será excedido no total ({4}) em {5}"
+msgstr "O orçamento anual da conta {0} para {1} {2} é {3}. Ele será excedido coletivamente ({4}) em {5}"
 
 #: erpnext/controllers/budget_controller.py:314
 msgid "Annual Budget for Account {0} against {1}: {2} is {3}. It will be exceeded by {4}"
@@ -684,23 +684,23 @@ msgstr "Já existe outro registro de orçamento '{0}' para {1} '{2}' e a conta '
 
 #: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.py:107
 msgid "Another Cost Center Allocation record {0} applicable from {1}, hence this allocation will be applicable upto {2}"
-msgstr "Existe outro registro de Alocação de Centro de Custo {0} aplicável a partir de {1}; por isso, esta alocação será aplicável até {2}"
+msgstr "Existe outro registro de alocação de centro de custo {0} aplicável a partir de {1}; por isso, esta alocação será aplicável até {2}"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:752
 msgid "Another Payment Request is already processed"
-msgstr "Outra Solicitação de Pagamento já foi processada"
+msgstr "Outra Solicitação de pagamento já foi processada"
 
 #: erpnext/setup/doctype/sales_person/sales_person.py:123
 msgid "Another Sales Person {0} exists with the same Employee id"
-msgstr "Já existe outro Vendedor {0} com o mesmo ID de funcionario"
+msgstr "Já existe outro vendedor {0} com o mesmo ID de funcionário"
 
 #: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:37
 msgid "Any one of following filters required: warehouse, Item Code, Item Group"
-msgstr "E necessario um dos seguintes filtros: armazém, código do item, grupo de itens"
+msgstr "É necessário um dos seguintes filtros: depósito, código do item, grupo de itens"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:6
 msgid "Apparel & Accessories"
-msgstr "Vestuario é acessorios"
+msgstr "Vestuário e acessórios"
 
 #. Label of the applicable_charges (Currency) field in DocType 'Landed Cost
 #. Item'
@@ -709,7 +709,7 @@ msgstr "Vestuario é acessorios"
 #: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.json
 msgid "Applicable Charges"
-msgstr "Encargos aplicaveis"
+msgstr "Encargos aplicáveis"
 
 #. Label of the dimensions (Table) field in DocType 'Accounting Dimension
 #. Filter'
@@ -726,54 +726,54 @@ msgstr "Lista de feriados aplicável"
 #. 'Terms and Conditions'
 #: erpnext/setup/doctype/terms_and_conditions/terms_and_conditions.json
 msgid "Applicable Modules"
-msgstr "Modulos aplicaveis"
+msgstr "Módulos aplicáveis"
 
 #. Label of the accounts (Table) field in DocType 'Accounting Dimension Filter'
 #. Name of a DocType
 #: erpnext/accounts/doctype/accounting_dimension_filter/accounting_dimension_filter.json
 #: erpnext/accounts/doctype/applicable_on_account/applicable_on_account.json
 msgid "Applicable On Account"
-msgstr "Aplicavel a conta"
+msgstr "Aplicável à conta"
 
 #. Label of the to_designation (Link) field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 msgid "Applicable To (Designation)"
-msgstr "Aplicavel a (cargo)"
+msgstr "Aplicável a (cargo)"
 
 #. Label of the to_emp (Link) field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 msgid "Applicable To (Employee)"
-msgstr "Aplicavel a (funcionario)"
+msgstr "Aplicável a (funcionário)"
 
 #. Label of the system_role (Link) field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 msgid "Applicable To (Role)"
-msgstr "Aplicavel a (papel)"
+msgstr "Aplicável a (perfil)"
 
 #. Label of the system_user (Link) field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 msgid "Applicable To (User)"
-msgstr "Aplicavel a (usuário)"
+msgstr "Aplicável a (usuário)"
 
 #. Label of the countries (Table) field in DocType 'Price List'
 #: erpnext/stock/doctype/price_list/price_list.json
 msgid "Applicable for Countries"
-msgstr "Aplicavel a paises"
+msgstr "Aplicável a países"
 
 #. Label of the section_break_15 (Section Break) field in DocType 'POS Profile'
 #. Label of the applicable_for_users (Table) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 msgid "Applicable for Users"
-msgstr "Aplicavel a usuários"
+msgstr "Aplicável a usuários"
 
 #. Description of the 'Transporter' (Link) field in DocType 'Driver'
 #: erpnext/setup/doctype/driver/driver.json
 msgid "Applicable for external driver"
-msgstr "Aplicavel para motorista externo"
+msgstr "Aplicável a motorista externo"
 
 #: erpnext/regional/italy/setup.py:162
 msgid "Applicable if the company is SpA, SApA or SRL"
-msgstr "Aplicavel se a empresa for SpA, SApA ou SRL"
+msgstr "Aplicável se a empresa for SpA, SApA ou SRL"
 
 #: erpnext/regional/italy/setup.py:171
 msgid "Applicable if the company is a limited liability company"
@@ -781,30 +781,30 @@ msgstr "Aplicável se a empresa for uma sociedade de responsabilidade limitada"
 
 #: erpnext/regional/italy/setup.py:122
 msgid "Applicable if the company is an Individual or a Proprietorship"
-msgstr "Aplicavel se a empresa for individual ou de próprietario único"
+msgstr "Aplicável se a empresa for uma pessoa física ou empresa individual"
 
 #. Label of the applicable_on_cumulative_expense (Check) field in DocType
 #. 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Applicable on Cumulative Expense"
-msgstr "Aplicavel a despesa acumulada"
+msgstr "Aplicável à despesa acumulada"
 
 #. Label of the applicable_on_material_request (Check) field in DocType
 #. 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Applicable on Material Request"
-msgstr "Aplicavel a Solicitação de Material"
+msgstr "Aplicável à Solicitação de material"
 
 #. Label of the applicable_on_purchase_order (Check) field in DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Applicable on Purchase Order"
-msgstr "Aplicavel a Pedido de Compra"
+msgstr "Aplicável ao Pedido de compra"
 
 #. Label of the applicable_on_booking_actual_expenses (Check) field in DocType
 #. 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Applicable on booking actual expenses"
-msgstr "Aplicavel ao lançamento de despesas reais"
+msgstr "Aplicável ao lançamento de despesas reais"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:10
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:10
@@ -821,7 +821,7 @@ msgstr "Código de Cupom Aplicado"
 #. Inspection Reading'
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Applied on each reading."
-msgstr "Aplicado em cada leitura."
+msgstr "Aplicado a cada leitura."
 
 #: erpnext/stock/doctype/putaway_rule/putaway_rule.py:197
 msgid "Applied putaway rules."
@@ -855,27 +855,27 @@ msgstr "Aplica-se a"
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Apply Additional Discount On"
-msgstr "Aplicar desconto adicional em"
+msgstr "Aplicar desconto adicional sobre"
 
 #. Label of the apply_discount_on (Select) field in DocType 'POS Profile'
 #. Label of the apply_discount_on (Select) field in DocType 'Pricing Rule'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 msgid "Apply Discount On"
-msgstr "Aplicar desconto em"
+msgstr "Aplicar desconto sobre"
 
 #. Label of the apply_discount_on_rate (Check) field in DocType 'Pricing Rule'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:190
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:199
 msgid "Apply Discount on Discounted Rate"
-msgstr "Aplicar desconto sobre a taxa com desconto"
+msgstr "Aplicar desconto sobre o preço com desconto"
 
 #. Label of the apply_discount_on_rate (Check) field in DocType 'Promotional
 #. Scheme Price Discount'
 #: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
 msgid "Apply Discount on Rate"
-msgstr "Aplicar desconto sobre a taxa"
+msgstr "Aplicar desconto sobre o preço"
 
 #. Label of the apply_multiple_pricing_rules (Check) field in DocType 'Pricing
 #. Rule'
@@ -887,7 +887,7 @@ msgstr "Aplicar desconto sobre a taxa"
 #: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
 msgid "Apply Multiple Pricing Rules"
-msgstr "Aplicar varias regras de preço"
+msgstr "Aplicar várias regras de preço"
 
 #. Label of the apply_on (Select) field in DocType 'Pricing Rule'
 #. Label of the apply_on (Select) field in DocType 'Promotional Scheme'
@@ -911,22 +911,22 @@ msgstr "Aplicar regra de armazenagem"
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
 msgid "Apply Recursion Over (As Per Transaction UOM)"
-msgstr "Aplicar recursao sobre (conforme a UM da transação)"
+msgstr "Aplicar recursão em (conforme a UOM da transação)"
 
 #. Label of the brands (Table) field in DocType 'Pricing Rule'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 msgid "Apply Rule On Brand"
-msgstr "Aplicar regra na marca"
+msgstr "Aplicar regra à marca"
 
 #. Label of the items (Table) field in DocType 'Pricing Rule'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 msgid "Apply Rule On Item Code"
-msgstr "Aplicar regra no código do item"
+msgstr "Aplicar regra ao código do item"
 
 #. Label of the item_groups (Table) field in DocType 'Pricing Rule'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 msgid "Apply Rule On Item Group"
-msgstr "Aplicar regra no grupo de itens"
+msgstr "Aplicar regra ao grupo de itens"
 
 #. Label of the apply_rule_on_other (Select) field in DocType 'Pricing Rule'
 #. Label of the apply_rule_on_other (Select) field in DocType 'Promotional
@@ -934,13 +934,13 @@ msgstr "Aplicar regra no grupo de itens"
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
 msgid "Apply Rule On Other"
-msgstr "Aplicar regra em outro"
+msgstr "Aplicar regra a outro"
 
 #. Label of the apply_sla_for_resolution (Check) field in DocType 'Service
 #. Level Agreement'
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
 msgid "Apply SLA for Resolution Time"
-msgstr "Aplicar SLA ao tempo de resolucao"
+msgstr "Aplicar SLA ao tempo de resolução"
 
 #. Label of the apply_tds (Check) field in DocType 'Purchase Invoice Item'
 #. Label of the apply_tds (Check) field in DocType 'Purchase Order Item'
@@ -959,18 +959,18 @@ msgstr "Aplicar TDS"
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 msgid "Apply Tax Withholding Amount"
-msgstr "Aplicar valor de retencao de imposto"
+msgstr "Aplicar valor de retenção de imposto"
 
 #. Label of the apply_tds (Check) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 msgid "Apply Tax Withholding Amount "
-msgstr "Aplicar valor de retencao de imposto "
+msgstr "Aplicar valor de retenção de imposto "
 
 #. Label of the apply_restriction_on_values (Check) field in DocType
 #. 'Accounting Dimension Filter'
 #: erpnext/accounts/doctype/accounting_dimension_filter/accounting_dimension_filter.json
 msgid "Apply restriction on dimension values"
-msgstr "Aplicar restricao aos valores de dimensão"
+msgstr "Aplicar restrição aos valores da dimensão"
 
 #. Label of the apply_to_all_doctypes (Check) field in DocType 'Inventory
 #. Dimension'
@@ -1022,11 +1022,11 @@ msgstr "Duração do compromisso (em minutos)"
 
 #: erpnext/www/book_appointment/index.py:20
 msgid "Appointment Scheduling Disabled"
-msgstr "Agendamento de compromisso desativado"
+msgstr "Agendamento de compromissos desativado"
 
 #: erpnext/www/book_appointment/index.py:21
 msgid "Appointment Scheduling has been disabled for this site"
-msgstr "O agendamento de compromisso foi desativado para este site"
+msgstr "O agendamento de compromissos foi desativado para este site"
 
 #. Label of the appointment_with (Link) field in DocType 'Appointment'
 #: erpnext/crm/doctype/appointment/appointment.json
@@ -1040,11 +1040,11 @@ msgstr "O compromisso foi criado, mas nenhum lead foi encontrado. Verifique o e-
 #. Label of the approving_role (Link) field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 msgid "Approving Role (above authorized value)"
-msgstr "Papel aprovador (acima do valor autorizado)"
+msgstr "Perfil aprovador (acima do valor autorizado)"
 
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.py:79
 msgid "Approving Role cannot be same as role the rule is Applicable To"
-msgstr "O papel aprovador não pode ser o mesmo papel ao qual a regra se aplica"
+msgstr "O perfil aprovador não pode ser o mesmo perfil ao qual a regra se aplica"
 
 #. Label of the approving_user (Link) field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
@@ -1059,12 +1059,12 @@ msgstr "O usuário aprovador não pode ser o mesmo usuário ao qual a regra se a
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Approximately match the description/party name against parties"
-msgstr "Fazer correspondência aproximada entre descrição/nome da parte e as partes"
+msgstr "Fazer correspondência aproximada da descrição/nome do cadastro com os cadastros"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Are"
-msgstr ""
+msgstr "Are"
 
 #: erpnext/public/js/utils/demo.js:20
 msgid "Are you sure you want to clear all demo data?"
@@ -1076,7 +1076,7 @@ msgstr "Tem certeza de que deseja excluir este item?"
 
 #: erpnext/edi/doctype/code_list/code_list.js:18
 msgid "Are you sure you want to delete {0}?<p>This action will also delete all associated Common Code documents.</p>"
-msgstr "Tem certeza de que deseja excluir {0}?<p>Esta ação também excluirá todos os documentos de Código Comum associados.</p>"
+msgstr "Tem certeza de que deseja excluir {0}?<p>Esta ação também excluirá todos os documentos de Código comum associados.</p>"
 
 #: erpnext/accounts/doctype/subscription/subscription.js:75
 msgid "Are you sure you want to restart this subscription?"
@@ -1096,7 +1096,7 @@ msgstr "Área"
 #. Label of the area_uom (Link) field in DocType 'Location'
 #: erpnext/assets/doctype/location/location.json
 msgid "Area UOM"
-msgstr "UM de área"
+msgstr "UOM da área"
 
 #: erpnext/manufacturing/report/production_planning_report/production_planning_report.py:435
 msgid "Arrival Quantity"

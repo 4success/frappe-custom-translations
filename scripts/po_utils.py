@@ -106,11 +106,20 @@ def extract_placeholders(text: str) -> list[str]:
 def read_msgid_and_msgstr_text(block: str) -> tuple[str, str]:
     msgid = "".join(iter_field_values(block, "msgid"))
     msgstr_parts: list[str] = []
-    for line in block.splitlines():
+    lines = block.splitlines()
+    index = 0
+    while index < len(lines):
+        line = lines[index]
         stripped = line.strip()
         if stripped.startswith("msgstr"):
             remainder = stripped.split(" ", 1)[1] if " " in stripped else ""
             msgstr_parts.append(parse_quoted(remainder.strip()))
+            index += 1
+            while index < len(lines) and lines[index].strip().startswith('"'):
+                msgstr_parts.append(parse_quoted(lines[index].strip()))
+                index += 1
+            continue
+        index += 1
     if not msgstr_parts:
         for index in range(10):
             prefix = f"msgstr[{index}]"

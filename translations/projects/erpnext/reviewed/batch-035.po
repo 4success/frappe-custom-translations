@@ -20,11 +20,11 @@ msgstr ""
 
 #: erpnext/controllers/accounts_controller.py:1610
 msgid "Payment Entry {0} is linked against Order {1}, check if it should be pulled as advance in this invoice."
-msgstr "A entrada de pagamento {0} está vinculada ao pedido {1}; verifique se deve ser considerada como adiantamento nesta fatura."
+msgstr ""
 
 #: erpnext/selling/page/point_of_sale/pos_payment.js:378
 msgid "Payment Failed"
-msgstr "Falha no pagamento"
+msgstr "Pagamento falhou"
 
 #. Label of the party_section (Section Break) field in DocType 'Bank
 #. Transaction'
@@ -32,7 +32,7 @@ msgstr "Falha no pagamento"
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Payment From / To"
-msgstr "Pagamento De / Para"
+msgstr "Pagamento de / para"
 
 #. Label of the payment_gateway (Link) field in DocType 'Payment Gateway
 #. Account'
@@ -42,7 +42,7 @@ msgstr "Pagamento De / Para"
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 #: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
 msgid "Payment Gateway"
-msgstr "Gateway de Pagamento"
+msgstr "Gateway de pagamento"
 
 #. Name of a DocType
 #. Label of the payment_gateway_account (Link) field in DocType 'Payment
@@ -52,17 +52,17 @@ msgstr "Gateway de Pagamento"
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 #: erpnext/accounts/workspace/receivables/receivables.json
 msgid "Payment Gateway Account"
-msgstr "Conta do Gateway de Pagamento"
+msgstr "Conta do gateway de pagamento"
 
 #: erpnext/accounts/utils.py:1384
 msgid "Payment Gateway Account not created, please create one manually."
-msgstr "A conta do gateway de pagamento não foi criada; crie uma manualmente."
+msgstr "A conta do gateway de pagamento não foi criada. Crie uma manualmente."
 
 #. Label of the section_break_7 (Section Break) field in DocType 'Payment
 #. Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Payment Gateway Details"
-msgstr "Detalhes do Gateway de Pagamento"
+msgstr "Detalhes do gateway de pagamento"
 
 #. Name of a report
 #: erpnext/accounts/report/payment_ledger/payment_ledger.json
@@ -81,7 +81,7 @@ msgstr "Lançamento da razão de pagamentos"
 #. Label of the payment_limit (Int) field in DocType 'Payment Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 msgid "Payment Limit"
-msgstr "Limite de pagamentos"
+msgstr "Limite de pagamento"
 
 #: erpnext/accounts/report/pos_register/pos_register.js:50
 #: erpnext/accounts/report/pos_register/pos_register.py:126
@@ -94,7 +94,7 @@ msgstr "Forma de Pagamento"
 #. Label of the payments (Table) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 msgid "Payment Methods"
-msgstr "Formas de Pagamento"
+msgstr "Formas de pagamento"
 
 #: erpnext/accounts/report/sales_payment_summary/sales_payment_summary.py:24
 #: erpnext/accounts/report/sales_payment_summary/sales_payment_summary.py:40
@@ -117,17 +117,17 @@ msgstr "Ordem de Pagamento"
 #: erpnext/accounts/doctype/payment_order/payment_order.json
 #: erpnext/accounts/doctype/payment_order_reference/payment_order_reference.json
 msgid "Payment Order Reference"
-msgstr "Referência da Ordem de Pagamento"
+msgstr "Referência de Pedido de Pagamento"
 
 #. Label of the payment_order_status (Select) field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Payment Order Status"
-msgstr "Status da Ordem de Pagamento"
+msgstr "Status da ordem de pagamento"
 
 #. Label of the payment_order_type (Select) field in DocType 'Payment Order'
 #: erpnext/accounts/doctype/payment_order/payment_order.json
 msgid "Payment Order Type"
-msgstr "Tipo de Ordem de Pagamento"
+msgstr "Tipo de ordem de pagamento"
 
 #. Option for the 'Payment Order Status' (Select) field in DocType 'Payment
 #. Entry'
@@ -135,7 +135,7 @@ msgstr "Tipo de Ordem de Pagamento"
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Payment Ordered"
-msgstr "Em ordem de pagamento"
+msgstr "Ordenado para pagamento"
 
 #. Name of a report
 #. Label of a Link in the Financial Reports Workspace
@@ -148,7 +148,7 @@ msgstr "Prazo Médio de Pagamento Baseado na Emissão da Nota"
 #. 'Subscription Plan'
 #: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
 msgid "Payment Plan"
-msgstr "Plano de Pagamento"
+msgstr "Plano de pagamento"
 
 #: erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html:4
 msgid "Payment Receipt Note"
@@ -156,7 +156,7 @@ msgstr "Nota de Recibo de Pagamento"
 
 #: erpnext/selling/page/point_of_sale/pos_payment.js:359
 msgid "Payment Received"
-msgstr "Pagamento Recebido"
+msgstr "Pagamento recebido"
 
 #. Name of a DocType
 #. Label of the payment_reconciliation (Table) field in DocType 'POS Closing
@@ -178,7 +178,7 @@ msgstr "Alocação da conciliação de pagamento"
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_reconciliation_invoice/payment_reconciliation_invoice.json
 msgid "Payment Reconciliation Invoice"
-msgstr "Fatura da conciliação de pagamento"
+msgstr "Fatura da Conciliação de Pagamento"
 
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.js:139
 msgid "Payment Reconciliation Job: {0} is running for this party. Can't reconcile now."
@@ -187,7 +187,7 @@ msgstr "Tarefa de conciliação de pagamento: {0} está em execução para este 
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_reconciliation_payment/payment_reconciliation_payment.json
 msgid "Payment Reconciliation Payment"
-msgstr "Pagamento da conciliação de pagamento"
+msgstr "Pagamento da Conciliação de Pagamento"
 
 #. Label of the section_break_jpd0 (Section Break) field in DocType 'Accounts
 #. Settings'
@@ -199,12 +199,12 @@ msgstr "Configurações da conciliação de pagamento"
 #. Reference'
 #: erpnext/accounts/doctype/payment_order_reference/payment_order_reference.json
 msgid "Payment Reference"
-msgstr "Referência de Pagamento"
+msgstr "Referência de pagamento"
 
 #. Label of the references (Table) field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Payment References"
-msgstr "Referências de Pagamento"
+msgstr "Referências de pagamento"
 
 #. Label of the payment_request_settings (Tab Break) field in DocType 'Accounts
 #. Settings'
@@ -229,25 +229,25 @@ msgstr "Referências de Pagamento"
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:471
 #: erpnext/selling/doctype/sales_order/sales_order.js:1152
 msgid "Payment Request"
-msgstr "Pedido de Pagamento"
+msgstr "Pedido de pagamento"
 
 #. Label of the payment_request_outstanding (Float) field in DocType 'Payment
 #. Entry Reference'
 #: erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.json
 msgid "Payment Request Outstanding"
-msgstr "Valor em Aberto do Pedido de Pagamento"
+msgstr "Saldo em aberto da solicitação de pagamento"
 
 #. Label of the payment_request_type (Select) field in DocType 'Payment
 #. Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Payment Request Type"
-msgstr "Tipo de Pedido de Pagamento"
+msgstr "Tipo de solicitação de pagamento"
 
 #. Description of the 'Payment Request' (Tab Break) field in DocType 'Accounts
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Payment Request created from Sales Order or Purchase Order will be in Draft status. When disabled document will be in unsaved state."
-msgstr "O pedido de pagamento criado a partir de um pedido de venda ou pedido de compra ficará com status Rascunho. Quando desativado, o documento ficará sem salvar."
+msgstr "Solicitações de pagamento criadas a partir de pedido de venda ou pedido de compra ficarão com status Rascunho. Quando desabilitado, o documento ficará sem salvar."
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:626
 msgid "Payment Request for {0}"
@@ -255,15 +255,15 @@ msgstr "Pedido de pagamento para {0}"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:568
 msgid "Payment Request is already created"
-msgstr "O pedido de pagamento já foi criado"
+msgstr "A solicitação de pagamento já foi criada"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:454
 msgid "Payment Request took too long to respond. Please try requesting for payment again."
-msgstr "O pedido de pagamento demorou muito para responder. Solicite o pagamento novamente."
+msgstr "A solicitação de pagamento demorou muito para responder. Tente solicitar o pagamento novamente."
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:541
 msgid "Payment Requests cannot be created against: {0}"
-msgstr "Não é possível criar pedidos de pagamento para: {0}"
+msgstr "Não é possível criar solicitações de pagamento para: {0}"
 
 #. Label of the payment_schedule (Data) field in DocType 'Overdue Payment'
 #. Name of a DocType
@@ -287,7 +287,7 @@ msgstr "Cronograma de pagamento"
 
 #: erpnext/accounts/print_format/sales_invoice_print/sales_invoice_print.html:123
 msgid "Payment Status"
-msgstr "Status do Pagamento"
+msgstr "Status do pagamento"
 
 #. Label of the payment_term (Link) field in DocType 'Overdue Payment'
 #. Label of the payment_term (Link) field in DocType 'Payment Entry Reference'
@@ -306,18 +306,18 @@ msgstr "Status do Pagamento"
 #: erpnext/accounts/workspace/accounting/accounting.json
 #: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.py:30
 msgid "Payment Term"
-msgstr "Condição de pagamento"
+msgstr "Termo de Pagamento"
 
 #. Label of the payment_term_name (Data) field in DocType 'Payment Term'
 #: erpnext/accounts/doctype/payment_term/payment_term.json
 msgid "Payment Term Name"
-msgstr "Nome da condição de pagamento"
+msgstr "Nome do termo de pagamento"
 
 #. Label of the payment_term_outstanding (Float) field in DocType 'Payment
 #. Entry Reference'
 #: erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.json
 msgid "Payment Term Outstanding"
-msgstr "Valor em aberto da condição de pagamento"
+msgstr "Saldo em aberto do termo de pagamento"
 
 #. Label of the terms (Table) field in DocType 'Payment Terms Template'
 #. Label of the payment_schedule_section (Section Break) field in DocType 'POS
@@ -341,12 +341,12 @@ msgstr "Valor em aberto da condição de pagamento"
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "Payment Terms"
-msgstr "Condições de pagamento"
+msgstr "Termos de Pagamento"
 
 #. Name of a report
 #: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.json
 msgid "Payment Terms Status for Sales Order"
-msgstr "Status das condições de pagamento do pedido de venda"
+msgstr "Status dos termos de pagamento para pedido de venda"
 
 #. Name of a DocType
 #. Label of the payment_terms_template (Link) field in DocType 'POS Invoice'
@@ -373,22 +373,22 @@ msgstr "Status das condições de pagamento do pedido de venda"
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "Payment Terms Template"
-msgstr "Modelo de condições de pagamento"
+msgstr "Modelo de Termos de Pagamento"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_terms_template_detail/payment_terms_template_detail.json
 msgid "Payment Terms Template Detail"
-msgstr "Detalhe do modelo de condições de pagamento"
+msgstr "Detalhes do Modelo de Termos de Pagamento"
 
 #. Description of the 'Automatically Fetch Payment Terms from Order' (Check)
 #. field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Payment Terms from orders will be fetched into the invoices as is"
-msgstr "As condições de pagamento dos pedidos serão copiadas para as faturas sem alterações"
+msgstr "Os termos de pagamento dos pedidos serão buscados nas faturas como estão"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:45
 msgid "Payment Terms:"
-msgstr "Condições de pagamento:"
+msgstr "Termos de pagamento:"
 
 #. Label of the payment_type (Select) field in DocType 'Payment Entry'
 #. Label of the payment_type (Data) field in DocType 'Payment Entry Reference'
@@ -396,16 +396,16 @@ msgstr "Condições de pagamento:"
 #: erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.json
 #: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.js:28
 msgid "Payment Type"
-msgstr "Tipo de Pagamento"
+msgstr "Tipo de pagamento"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:603
 msgid "Payment Type must be one of Receive, Pay and Internal Transfer"
-msgstr "O tipo de pagamento deve ser Receber, Pagar ou Transferencia Interna"
+msgstr "O tipo de pagamento deve ser um entre Receber, Pagar e Transferência interna"
 
 #. Label of the payment_url (Data) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Payment URL"
-msgstr "URL de Pagamento"
+msgstr "URL de pagamento"
 
 #: erpnext/accounts/utils.py:1102
 msgid "Payment Unlink Error"
@@ -413,7 +413,7 @@ msgstr "Erro ao desvincular pagamento"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:867
 msgid "Payment against {0} {1} cannot be greater than Outstanding Amount {2}"
-msgstr "O pagamento referente a {0} {1} não pode ser maior que o valor em aberto {2}"
+msgstr "O pagamento contra {0} {1} não pode ser maior que o valor em aberto {2}"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:801
 msgid "Payment amount cannot be less than or equal to 0"
@@ -430,7 +430,7 @@ msgstr "Pagamento de {0} recebido com sucesso."
 
 #: erpnext/selling/page/point_of_sale/pos_payment.js:373
 msgid "Payment of {0} received successfully. Waiting for other requests to complete..."
-msgstr "Pagamento de {0} recebido com sucesso. Aguardando a conclusão das outras solicitações..."
+msgstr "Pagamento de {0} recebido com sucesso. Aguardando a conclusão de outras solicitações..."
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:389
 msgid "Payment related to {0} is not completed"
@@ -438,11 +438,11 @@ msgstr "O pagamento relacionado a {0} não foi concluído"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:443
 msgid "Payment request failed"
-msgstr "Falha no pedido de pagamento"
+msgstr "Falha na solicitação de pagamento"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:817
 msgid "Payment term {0} not used in {1}"
-msgstr "A condição de pagamento {0} não é usada em {1}"
+msgstr "O termo de pagamento {0} não foi usado em {1}"
 
 #. Label of the payments (Table) field in DocType 'Cashier Closing'
 #. Label of the payments (Table) field in DocType 'Payment Reconciliation'
@@ -504,28 +504,28 @@ msgstr "Holerite"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Peck (UK)"
-msgstr "Peck (Reino Unido)"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Peck (US)"
-msgstr "Peck (EUA)"
+msgstr ""
 
 #. Label of the pegged_against (Link) field in DocType 'Pegged Currency
 #. Details'
 #: erpnext/accounts/doctype/pegged_currency_details/pegged_currency_details.json
 msgid "Pegged Against"
-msgstr "Vinculado a"
+msgstr "Atrelado a"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/pegged_currencies/pegged_currencies.json
 msgid "Pegged Currencies"
-msgstr "Moedas Vinculadas"
+msgstr "Moedas atreladas"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/pegged_currency_details/pegged_currency_details.json
 msgid "Pegged Currency Details"
-msgstr "Detalhes da Moeda Vinculada"
+msgstr "Detalhes da moeda atrelada"
 
 #: erpnext/setup/doctype/email_digest/templates/default.html:93
 msgid "Pending Activities"
@@ -536,7 +536,7 @@ msgstr "Atividades Pendentes"
 #: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:291
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:306
 msgid "Pending Amount"
-msgstr "Valor pendente"
+msgstr "Total Pendente"
 
 #. Label of the pending_qty (Float) field in DocType 'Production Plan Item'
 #: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:254
@@ -546,7 +546,7 @@ msgstr "Valor pendente"
 #: erpnext/selling/doctype/sales_order/sales_order.js:1637
 #: erpnext/selling/report/pending_so_items_for_purchase_request/pending_so_items_for_purchase_request.py:45
 msgid "Pending Qty"
-msgstr "Qtd. Pendente"
+msgstr "Qtd. pendente"
 
 #: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.py:55
 #: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.py:44
@@ -559,7 +559,7 @@ msgstr "Quantidade Pendente"
 #: erpnext/projects/web_form/tasks/tasks.json
 #: erpnext/templates/pages/task_info.html:74
 msgid "Pending Review"
-msgstr "Pendente de revisão"
+msgstr "Revisão pendente"
 
 #. Name of a report
 #. Label of a Link in the Selling Workspace
@@ -570,7 +570,7 @@ msgstr "Itens pendentes do pedido de venda para solicitação de compra"
 
 #: erpnext/manufacturing/dashboard_fixtures.py:123
 msgid "Pending Work Order"
-msgstr "Ordem de produção pendente"
+msgstr "Ordem de trabalho pendente"
 
 #: erpnext/setup/doctype/email_digest/email_digest.py:182
 msgid "Pending activities for today"
@@ -582,21 +582,21 @@ msgstr "Processamento pendente"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:36
 msgid "Pension Funds"
-msgstr "Fundos de Pensão"
+msgstr "Fundos de pensão"
 
 #. Description of the 'Shift Time (In Hours)' (Int) field in DocType 'Item Lead
 #. Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "Per Day"
-msgstr "Por Dia"
+msgstr "Por dia"
 
 #. Description of the 'Total Workstation Time (In Hours)' (Int) field in
 #. DocType 'Item Lead Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "Per Day\n"
 "Shift Time (In Hours) * No of Workstations * No of Shift"
-msgstr "Por Dia\n"
-"Tempo de turno (em horas) * Número de estações de trabalho * Número de turnos"
+msgstr "Por dia\n"
+"Tempo de turno (em horas) * Nº de estações de trabalho * Nº de turnos"
 
 #. Option for the 'Evaluation Period' (Select) field in DocType 'Supplier
 #. Scorecard'
@@ -607,30 +607,30 @@ msgstr "Por mês"
 #. Label of the per_received (Percent) field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Per Received"
-msgstr "Percentual Recebido"
+msgstr "Percentual recebido"
 
 #. Label of the per_transferred (Percent) field in DocType 'Stock Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Per Transferred"
-msgstr "Percentual Transferido"
+msgstr "Percentual transferido"
 
 #. Description of the 'Manufacturing Time' (Int) field in DocType 'Item Lead
 #. Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "Per Unit Time in Mins"
-msgstr "Tempo por Unidade em Minutos"
+msgstr "Tempo por unidade em min"
 
 #. Option for the 'Evaluation Period' (Select) field in DocType 'Supplier
 #. Scorecard'
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json
 msgid "Per Week"
-msgstr "Por Semana"
+msgstr "Por semana"
 
 #. Option for the 'Evaluation Period' (Select) field in DocType 'Supplier
 #. Scorecard'
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json
 msgid "Per Year"
-msgstr "Por Ano"
+msgstr "Por ano"
 
 #. Label of the percentage (Percent) field in DocType 'Cost Center Allocation
 #. Percentage'
@@ -642,7 +642,7 @@ msgstr "Percentual (%)"
 #. Distribution Percentage'
 #: erpnext/accounts/doctype/monthly_distribution_percentage/monthly_distribution_percentage.json
 msgid "Percentage Allocation"
-msgstr "Alocação Percentual"
+msgstr "Alocação percentual"
 
 #: erpnext/accounts/doctype/monthly_distribution/monthly_distribution.py:57
 msgid "Percentage Allocation should be equal to 100%"
@@ -652,19 +652,19 @@ msgstr "A alocação percentual deve ser igual a 100%"
 #. 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Percentage you are allowed to order beyond the Blanket Order quantity."
-msgstr "Percentual que você pode pedir acima da quantidade da ordem geral."
+msgstr "Percentual que você pode pedir além da quantidade do Blanket Order."
 
 #. Description of the 'Blanket Order Allowance (%)' (Float) field in DocType
 #. 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Percentage you are allowed to sell beyond the Blanket Order quantity."
-msgstr "Percentual que você pode vender acima da quantidade da ordem geral."
+msgstr "Percentual que você pode vender além da quantidade do Blanket Order."
 
 #. Description of the 'Over Transfer Allowance (%)' (Float) field in DocType
 #. 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Percentage you are allowed to transfer more against the quantity ordered. For example: If you have ordered 100 units. and your Allowance is 10% then you are allowed to transfer 110 units."
-msgstr "Percentual que você pode transferir acima da quantidade pedida. Por exemplo: se você pediu 100 unidades, uma tolerancia de 10% torna possível transferir 110 unidades."
+msgstr "Percentual que você pode transferir além da quantidade pedida. Por exemplo: se você pediu 100 unidades e sua tolerância é de 10%, então poderá transferir 110 unidades."
 
 #: erpnext/setup/setup_wizard/data/sales_stage.txt:6
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:437
@@ -688,7 +688,7 @@ msgstr "Lançamento de encerramento do período atual"
 #. DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Period Closing Settings"
-msgstr "Configurações de encerramento de período"
+msgstr "Configurações de encerramento do período"
 
 #. Label of the period_closing_voucher (Link) field in DocType 'Account Closing
 #. Balance'
@@ -702,11 +702,11 @@ msgstr "Comprovante de Encerramento do Período"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:499
 msgid "Period Closing Voucher {0} GL Entry Cancellation Failed"
-msgstr "Falha ao cancelar o lançamento contábil do comprovante de encerramento de período {0}"
+msgstr "Falha ao cancelar o lançamento contábil do comprovante de encerramento do período {0}"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:478
 msgid "Period Closing Voucher {0} GL Entry Processing Failed"
-msgstr "Falha ao processar o lançamento contábil do comprovante de encerramento de período {0}"
+msgstr "Falha ao processar o lançamento contábil do comprovante de encerramento do período {0}"
 
 #. Label of the period_details_section (Section Break) field in DocType 'POS
 #. Closing Entry'
@@ -732,7 +732,7 @@ msgstr "A data final do período não pode ser maior que a data final do exercí
 #. Row'
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
 msgid "Period Movement (Debits - Credits)"
-msgstr "Movimento do Período (Débitos - Créditos)"
+msgstr "Movimentação do período (débitos - créditos)"
 
 #. Label of the period_name (Data) field in DocType 'Accounting Period'
 #: erpnext/accounts/doctype/accounting_period/accounting_period.json
@@ -826,13 +826,13 @@ msgstr "Periodicidade"
 #. Label of the permanent_address (Small Text) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Permanent Address"
-msgstr "Endereço Permanente"
+msgstr "Endereço permanente"
 
 #. Label of the permanent_accommodation_type (Select) field in DocType
 #. 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Permanent Address Is"
-msgstr "O endereço permanente é"
+msgstr "Endereço permanente é"
 
 #: erpnext/stock/report/incorrect_stock_value_report/incorrect_stock_value_report.py:19
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:18
@@ -842,14 +842,14 @@ msgstr "Inventário perpétuo necessário para a empresa {0} exibir este relató
 #. Label of the personal_details (Tab Break) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Personal Details"
-msgstr "Dados Pessoais"
+msgstr "Dados pessoais"
 
 #. Option for the 'Preferred Contact Email' (Select) field in DocType
 #. 'Employee'
 #. Label of the personal_email (Data) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Personal Email"
-msgstr "E-mail Pessoal"
+msgstr "E-mail pessoal"
 
 #. Option for the 'Fuel Type' (Select) field in DocType 'Vehicle'
 #: erpnext/setup/doctype/vehicle/vehicle.json
@@ -859,11 +859,11 @@ msgstr "Gasolina"
 #: erpnext/manufacturing/doctype/bom/bom_item_preview.html:16
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:321
 msgid "Phantom Item"
-msgstr "Item Fantasma"
+msgstr "Item fantasma"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:430
 msgid "Phantom Item is mandatory"
-msgstr "O item fantasma e obrigatório"
+msgstr "O item fantasma é obrigatório"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:234
 msgid "Pharmaceutical"
@@ -871,7 +871,7 @@ msgstr "Farmacêutico"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:37
 msgid "Pharmaceuticals"
-msgstr "Produtos Farmaceuticos"
+msgstr "Produtos farmacêuticos"
 
 #. Label of the phone_ext (Data) field in DocType 'Lead'
 #. Label of the phone_ext (Data) field in DocType 'Opportunity'
@@ -908,35 +908,35 @@ msgstr "Número de telefone"
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Pick List"
-msgstr "Lista de Separação"
+msgstr "Lista de separação"
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:231
 msgid "Pick List Incomplete"
-msgstr "Lista de Separação Incompleta"
+msgstr "Lista de separação incompleta"
 
 #. Label of the pick_list_item (Data) field in DocType 'Delivery Note Item'
 #. Name of a DocType
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/pick_list_item/pick_list_item.json
 msgid "Pick List Item"
-msgstr "Item da Lista de Separação"
+msgstr "Item da lista de separação"
 
 #. Label of the pick_manually (Check) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
 msgid "Pick Manually"
-msgstr "Separar Manualmente"
+msgstr "Separar manualmente"
 
 #. Label of the pick_serial_and_batch (Button) field in DocType 'Asset Repair
 #. Consumed Item'
 #: erpnext/assets/doctype/asset_repair_consumed_item/asset_repair_consumed_item.json
 msgid "Pick Serial / Batch"
-msgstr "Selecionar Serie / Lote"
+msgstr "Selecionar série / lote"
 
 #. Label of the pick_serial_and_batch_based_on (Select) field in DocType 'Stock
 #. Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Pick Serial / Batch Based On"
-msgstr "Selecionar Serie / Lote Com Base Em"
+msgstr "Selecionar série / lote com base em"
 
 #. Label of the pick_serial_and_batch (Button) field in DocType 'Sales Invoice
 #. Item'
@@ -950,21 +950,21 @@ msgstr "Selecionar Serie / Lote Com Base Em"
 #: erpnext/stock/doctype/packed_item/packed_item.json
 #: erpnext/stock/doctype/pick_list_item/pick_list_item.json
 msgid "Pick Serial / Batch No"
-msgstr "Selecionar N. de Serie / Lote"
+msgstr "Selecionar nº de série / lote"
 
 #. Label of the picked_qty (Float) field in DocType 'Material Request Item'
 #. Label of the picked_qty (Float) field in DocType 'Packed Item'
 #: erpnext/stock/doctype/material_request_item/material_request_item.json
 #: erpnext/stock/doctype/packed_item/packed_item.json
 msgid "Picked Qty"
-msgstr "Qtd. Separada"
+msgstr "Qtd. separada"
 
 #. Label of the picked_qty (Float) field in DocType 'Sales Order Item'
 #. Label of the picked_qty (Float) field in DocType 'Pick List Item'
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 #: erpnext/stock/doctype/pick_list_item/pick_list_item.json
 msgid "Picked Qty (in Stock UOM)"
-msgstr "Qtd. Separada (na UM de estoque)"
+msgstr "Qtd. separada (na UOM de estoque)"
 
 #. Option for the 'Pickup Type' (Select) field in DocType 'Shipment'
 #: erpnext/stock/doctype/shipment/shipment.json
@@ -974,12 +974,12 @@ msgstr "Coleta"
 #. Label of the pickup_contact_person (Link) field in DocType 'Shipment'
 #: erpnext/stock/doctype/shipment/shipment.json
 msgid "Pickup Contact Person"
-msgstr "Contato para Coleta"
+msgstr "Contato para coleta"
 
 #. Label of the pickup_date (Date) field in DocType 'Shipment'
 #: erpnext/stock/doctype/shipment/shipment.json
 msgid "Pickup Date"
-msgstr "Data da Coleta"
+msgstr "Data da coleta"
 
 #: erpnext/stock/doctype/shipment/shipment.js:398
 msgid "Pickup Date cannot be before this day"
@@ -988,4 +988,4 @@ msgstr "A data da coleta não pode ser anterior a este dia"
 #. Label of the pickup (Data) field in DocType 'Shipment'
 #: erpnext/stock/doctype/shipment/shipment.json
 msgid "Pickup From"
-msgstr "Coletar em"
+msgstr "Coleta em"

@@ -20,13 +20,13 @@ msgstr ""
 
 #: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.js:71
 msgid "Bisecting Right ..."
-msgstr "Bissecionando à direita..."
+msgstr ""
 
 #. Label of the bisecting_to (Heading) field in DocType 'Bisect Accounting
 #. Statements'
 #: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.json
 msgid "Bisecting To"
-msgstr "Bissecionando para"
+msgstr ""
 
 #. Option for the 'Frequency' (Select) field in DocType 'Process Statement Of
 #. Accounts'
@@ -85,7 +85,7 @@ msgstr "Preço do pedido guarda-chuva"
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:109
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:261
 msgid "Block Invoice"
-msgstr "Bloquear fatura"
+msgstr "Bloquear Fatura"
 
 #. Label of the on_hold (Check) field in DocType 'Supplier'
 #. Label of the block_supplier_section (Section Break) field in DocType
@@ -121,7 +121,7 @@ msgstr "Texto do corpo"
 #. Letter Text'
 #: erpnext/accounts/doctype/dunning_letter_text/dunning_letter_text.json
 msgid "Body and Closing Text Help"
-msgstr "Ajuda do corpo e texto de encerramento"
+msgstr "Ajuda do texto do corpo e fechamento"
 
 #. Label of the bold_text (Check) field in DocType 'Financial Report Row'
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
@@ -136,7 +136,7 @@ msgstr "Texto em negrito para destaque (totais, títulos principais)"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:282
 msgid "Book Advance Payments as Liability option is chosen. Paid From account changed from {0} to {1}."
-msgstr "A opção de lançar adiantamentos como passivo foi selecionada. A conta de origem do pagamento foi alterada de {0} para {1}."
+msgstr "A opção de lançar adiantamentos como passivo foi escolhida. A conta de origem foi alterada de {0} para {1}."
 
 #. Label of the book_advance_payments_in_separate_party_account (Check) field
 #. in DocType 'Payment Entry'
@@ -149,35 +149,35 @@ msgstr "Lançar adiantamentos em conta separada do cadastro"
 
 #: erpnext/www/book_appointment/index.html:3
 msgid "Book Appointment"
-msgstr "Agendar atendimento"
+msgstr "Agendar compromisso"
 
 #. Label of the book_asset_depreciation_entry_automatically (Check) field in
 #. DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Book Asset Depreciation Entry Automatically"
-msgstr "Lançar depreciação do ativo automaticamente"
+msgstr "Lançar automaticamente a depreciação do ativo"
 
 #. Label of the book_deferred_entries_based_on (Select) field in DocType
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Book Deferred Entries Based On"
-msgstr "Lançar diferimentos com base em"
+msgstr "Lançar contabilização diferida com base em"
 
 #. Label of the book_deferred_entries_via_journal_entry (Check) field in
 #. DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Book Deferred Entries Via Journal Entry"
-msgstr "Lançar diferimentos via lançamento contábil"
+msgstr "Lançar contabilização diferida via lançamento contábil"
 
 #. Label of the book_tax_discount_loss (Check) field in DocType 'Accounts
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Book Tax Loss on Early Payment Discount"
-msgstr "Lançar perda fiscal no desconto por pagamento antecipado"
+msgstr "Lançar perda de imposto no desconto por pagamento antecipado"
 
 #: erpnext/www/book_appointment/index.html:15
 msgid "Book an appointment"
-msgstr "Agende um atendimento"
+msgstr "Agende um compromisso"
 
 #. Option for the 'Status' (Select) field in DocType 'Shipment'
 #: erpnext/stock/doctype/shipment/shipment.json
@@ -192,11 +192,11 @@ msgstr "Ativo imobilizado contabilizado"
 
 #: erpnext/stock/doctype/warehouse/warehouse.py:146
 msgid "Booking stock value across multiple accounts will make it harder to track stock and account value."
-msgstr "Registrar o valor do estoque em várias contas dificultará o acompanhamento do estoque e do valor contábil."
+msgstr "Contabilizar o valor do estoque em várias contas dificultará o acompanhamento do estoque e do valor contábil."
 
 #: erpnext/accounts/general_ledger.py:811
 msgid "Books have been closed till the period ending on {0}"
-msgstr "Os livros foram encerrados até o período com término em {0}"
+msgstr "Os livros foram fechados até o período encerrado em {0}"
 
 #. Option for the 'Type of Transaction' (Select) field in DocType 'Inventory
 #. Dimension'
@@ -206,11 +206,11 @@ msgstr "Ambos"
 
 #: erpnext/setup/doctype/supplier_group/supplier_group.py:57
 msgid "Both Payable Account: {0} and Advance Account: {1} must be of same currency for company: {2}"
-msgstr "A conta a pagar: {0} e a conta de adiantamento: {1} devem ter a mesma moeda para a empresa: {2}"
+msgstr "A conta a pagar {0} e a conta de adiantamento {1} devem ter a mesma moeda para a empresa {2}"
 
 #: erpnext/setup/doctype/customer_group/customer_group.py:62
 msgid "Both Receivable Account: {0} and Advance Account: {1} must be of same currency for company: {2}"
-msgstr "A conta a receber: {0} e a conta de adiantamento: {1} devem ter a mesma moeda para a empresa: {2}"
+msgstr "A conta a receber {0} e a conta de adiantamento {1} devem ter a mesma moeda para a empresa {2}"
 
 #: erpnext/accounts/doctype/subscription/subscription.py:339
 msgid "Both Trial Period Start Date and Trial Period End Date must be set"
@@ -218,7 +218,7 @@ msgstr "A data de início do período de avaliação e a data de término do per
 
 #: erpnext/utilities/transaction_base.py:230
 msgid "Both {0} Account: {1} and Advance Account: {2} must be of same currency for company: {3}"
-msgstr "A conta de {0}: {1} e a conta de adiantamento: {2} devem ter a mesma moeda para a empresa: {3}"
+msgstr "A conta de {0} {1} e a conta de adiantamento {2} devem ter a mesma moeda para a empresa {3}"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -249,7 +249,7 @@ msgstr "Código da agência"
 #. Label of the brand_defaults (Table) field in DocType 'Brand'
 #: erpnext/setup/doctype/brand/brand.json
 msgid "Brand Defaults"
-msgstr "Padrões de marca"
+msgstr "Padrões da marca"
 
 #. Label of the brand (Data) field in DocType 'POS Invoice Item'
 #. Label of the brand (Data) field in DocType 'Sales Invoice Item'
@@ -268,7 +268,7 @@ msgstr "Nome da marca"
 #. Visit'
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
 msgid "Breakdown"
-msgstr "Falha"
+msgstr "Pane"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:10
 msgid "Broadcasting"
@@ -280,41 +280,41 @@ msgstr "Corretagem"
 
 #: erpnext/manufacturing/doctype/bom/bom.js:165
 msgid "Browse BOM"
-msgstr "Navegar pela BOM"
+msgstr "Navegar na BOM"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Btu (It)"
-msgstr "Btu (IT)"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Btu (Mean)"
-msgstr "Btu (médio)"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Btu (Th)"
-msgstr "Btu (TH)"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Btu/Hour"
-msgstr "Btu/hora"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Btu/Minutes"
-msgstr "Btu/minuto"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Btu/Seconds"
-msgstr "Btu/segundo"
+msgstr ""
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.js:101
 msgid "Bucket Size"
-msgstr "Tamanho do período"
+msgstr ""
 
 #. Label of the budget_settings (Tab Break) field in DocType 'Accounts
 #. Settings'
@@ -336,7 +336,7 @@ msgstr "Orçamento"
 #. Name of a DocType
 #: erpnext/accounts/doctype/budget_account/budget_account.json
 msgid "Budget Account"
-msgstr "Conta orçamentária"
+msgstr "Conta do Orçamento"
 
 #. Label of the budget_against (Select) field in DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
@@ -390,7 +390,7 @@ msgstr "Limite do orçamento excedido"
 
 #: erpnext/accounts/doctype/cost_center/cost_center_tree.js:61
 msgid "Budget List"
-msgstr "Lista de orçamentos"
+msgstr "Lista de Orçamentos"
 
 #. Label of the budget_start_date (Date) field in DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
@@ -403,7 +403,7 @@ msgstr "Data inicial do orçamento"
 #: erpnext/accounts/report/budget_variance_report/budget_variance_report.json
 #: erpnext/accounts/workspace/accounting/accounting.json
 msgid "Budget Variance Report"
-msgstr "Relatório de variação do orçamento"
+msgstr "Relatório de Variação de Orçamento"
 
 #: erpnext/accounts/doctype/budget/budget.py:157
 msgid "Budget cannot be assigned against Group Account {0}"
@@ -426,7 +426,7 @@ msgstr "Tempo de folga"
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Buffered Cursor"
-msgstr "Cursor com buffer"
+msgstr "Cursor em buffer"
 
 #: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:162
 msgid "Build All?"
@@ -434,11 +434,11 @@ msgstr "Produzir tudo?"
 
 #: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.js:20
 msgid "Build Tree"
-msgstr "Construir árvore"
+msgstr "Montar árvore"
 
 #: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:155
 msgid "Buildable Qty"
-msgstr "Qtd. produzível"
+msgstr "Qtd. montável"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:61
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:102
@@ -447,7 +447,7 @@ msgstr "Edifícios"
 
 #: erpnext/utilities/doctype/rename_tool/rename_tool.js:70
 msgid "Bulk Rename Jobs"
-msgstr "Tarefas de renomeação em massa"
+msgstr "Renomeações em massa"
 
 #. Name of a DocType
 #: erpnext/bulk_transaction/doctype/bulk_transaction_log/bulk_transaction_log.json
@@ -464,21 +464,21 @@ msgstr "Detalhe do log de transações em massa"
 #. 'Quotation'
 #: erpnext/selling/doctype/quotation/quotation.json
 msgid "Bundle Items"
-msgstr "Itens do kit"
+msgstr "Itens do pacote"
 
 #: erpnext/stock/report/product_bundle_balance/product_bundle_balance.py:95
 msgid "Bundle Qty"
-msgstr "Qtd. do kit"
+msgstr "Qtd. do pacote"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Bushel (UK)"
-msgstr "Bushel (Reino Unido)"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Bushel (US Dry Level)"
-msgstr "Bushel (EUA seco nivelado)"
+msgstr ""
 
 #: erpnext/setup/setup_wizard/data/designation.txt:6
 msgid "Business Analyst"
@@ -529,15 +529,15 @@ msgstr "Compras"
 #. Label of the sales_settings (Section Break) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Buying & Selling Settings"
-msgstr "Configurações de Compras e Vendas"
+msgstr "Configurações de compras e vendas"
 
 #: erpnext/accounts/report/gross_profit/gross_profit.py:357
 msgid "Buying Amount"
-msgstr "Valor de compra"
+msgstr "Valor de Compra"
 
 #: erpnext/stock/report/item_price_stock/item_price_stock.py:40
 msgid "Buying Price List"
-msgstr "Lista de preços de compra"
+msgstr "Lista de Preços de Compra"
 
 #: erpnext/stock/report/item_price_stock/item_price_stock.py:46
 msgid "Buying Rate"
@@ -550,26 +550,26 @@ msgstr "Preço de compra"
 #: erpnext/buying/workspace/buying/buying.json
 #: erpnext/setup/workspace/settings/settings.json
 msgid "Buying Settings"
-msgstr "Configurações de compras"
+msgstr "Configurações de Compras"
 
 #. Label of the buying_and_selling_tab (Tab Break) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Buying and Selling"
-msgstr "Compras e Vendas"
+msgstr "Compras e vendas"
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:219
 msgid "Buying must be checked, if Applicable For is selected as {0}"
-msgstr "A opção Compras deve estar marcada se Aplicável a estiver definida como {0}"
+msgstr "Compras deve estar marcado se Aplicável para estiver selecionado como {0}"
 
 #: erpnext/buying/doctype/buying_settings/buying_settings.js:13
 msgid "By default, the Supplier Name is set as per the Supplier Name entered. If you want Suppliers to be named by a <a href='https://docs.erpnext.com/docs/user/manual/en/setting-up/settings/naming-series' target='_blank'>Naming Series</a> choose the 'Naming Series' option."
-msgstr "Por padrão, o nome do fornecedor é definido conforme o Nome do Fornecedor informado. Se quiser que os fornecedores sejam nomeados por uma <a href='https://docs.erpnext.com/docs/user/manual/en/setting-up/settings/naming-series' target='_blank'>Série de Nomenclatura</a>, escolha a opção 'Série de Nomenclatura'."
+msgstr "Por padrão, o Nome do fornecedor é definido conforme o Nome do fornecedor informado. Se você quiser que os fornecedores sejam nomeados por uma <a href='https://docs.erpnext.com/docs/user/manual/en/setting-up/settings/naming-series' target='_blank'>série de nomenclatura</a>, escolha a opção 'Série de nomenclatura'."
 
 #. Label of the bypass_credit_limit_check (Check) field in DocType 'Customer
 #. Credit Limit'
 #: erpnext/selling/doctype/customer_credit_limit/customer_credit_limit.json
 msgid "Bypass Credit Limit Check at Sales Order"
-msgstr "Ignorar verificação de limite de crédito no pedido de venda"
+msgstr "Ignorar verificação do limite de crédito no pedido de venda"
 
 #: erpnext/selling/report/customer_credit_balance/customer_credit_balance.py:68
 msgid "Bypass credit check at Sales Order"
@@ -584,16 +584,16 @@ msgstr "CC"
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
 msgid "CODE-39"
-msgstr "CODE-39"
+msgstr ""
 
 #. Name of a report
 #: erpnext/stock/report/cogs_by_item_group/cogs_by_item_group.json
 msgid "COGS By Item Group"
-msgstr "CMV por grupo de itens"
+msgstr "CPV por grupo de itens"
 
 #: erpnext/stock/report/cogs_by_item_group/cogs_by_item_group.py:44
 msgid "COGS Debit"
-msgstr "Débito do CMV"
+msgstr "Débito de CPV"
 
 #. Name of a Workspace
 #. Label of a Card Break in the Home Workspace
@@ -616,39 +616,39 @@ msgstr "Configurações do CRM"
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:67
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:117
 msgid "CWIP Account"
-msgstr "Conta de imobilizado em andamento (CWIP)"
+msgstr "Conta do CWIP"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Caballeria"
-msgstr "Caballeria"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Cable Length"
-msgstr "Comprimento de cabo"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Cable Length (UK)"
-msgstr "Comprimento de cabo (Reino Unido)"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Cable Length (US)"
-msgstr "Comprimento de cabo (EUA)"
+msgstr ""
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:62
 #: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.js:28
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:91
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:28
 msgid "Calculate Ageing With"
-msgstr "Calcular antiguidade com base em"
+msgstr ""
 
 #. Label of the calculate_based_on (Select) field in DocType 'Shipping Rule'
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
 msgid "Calculate Based On"
-msgstr "Calcular com base em"
+msgstr ""
 
 #. Label of the calculate_depreciation (Check) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
@@ -665,13 +665,13 @@ msgstr "Calcular horários estimados de chegada"
 #. Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Calculate Product Bundle Price based on Child Items' Rates"
-msgstr "Calcular o preço do kit com base nos preços dos itens filhos"
+msgstr "Calcular o preço do pacote de produtos com base nos preços dos itens filhos"
 
 #. Description of the 'Hidden Line (Internal Use Only)' (Check) field in
 #. DocType 'Financial Report Row'
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
 msgid "Calculate but don't show on final report"
-msgstr "Calcular, mas não exibir no relatório final"
+msgstr "Calcular, mas não mostrar no relatório final"
 
 #. Label of the calculate_depr_using_total_days (Check) field in DocType
 #. 'Accounts Settings'
@@ -714,7 +714,7 @@ msgstr "Calibração"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Calibre"
-msgstr "Calibre"
+msgstr ""
 
 #: erpnext/telephony/doctype/call_log/call_log.js:8
 msgid "Call Again"
@@ -798,27 +798,27 @@ msgstr "Retorno de chamada"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Calorie (Food)"
-msgstr "Caloria (alimento)"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Calorie (It)"
-msgstr "Caloria (IT)"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Calorie (Mean)"
-msgstr "Caloria (média)"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Calorie (Th)"
-msgstr "Caloria (TH)"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Calorie/Seconds"
-msgstr "Caloria/segundo"
+msgstr ""
 
 #. Name of a report
 #. Label of a Link in the CRM Workspace
@@ -830,7 +830,7 @@ msgstr "Eficiência da Campanha"
 #. Name of a DocType
 #: erpnext/crm/doctype/campaign_email_schedule/campaign_email_schedule.json
 msgid "Campaign Email Schedule"
-msgstr "Agenda de e-mail da campanha"
+msgstr "Agendamento de e-mail de campanha"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/campaign_item/campaign_item.json
@@ -854,4 +854,4 @@ msgstr "Nomeação da campanha por"
 #. Label of the campaign_schedules (Table) field in DocType 'Campaign'
 #: erpnext/crm/doctype/campaign/campaign.json
 msgid "Campaign Schedules"
-msgstr "Agendas da campanha"
+msgstr "Agendamentos da campanha"

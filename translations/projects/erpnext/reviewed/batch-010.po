@@ -24,7 +24,7 @@ msgstr "Pode ser aprovado por {0}"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:2454
 msgid "Can not close Work Order. Since {0} Job Cards are in Work In Progress state."
-msgstr "Não é possível encerrar a Ordem de Trabalho, pois {0} cartões de trabalho estão em estado de trabalho em andamento."
+msgstr "Não é possível encerrar a ordem de trabalho, pois {0} cartões de trabalho estão em andamento."
 
 #: erpnext/accounts/report/pos_register/pos_register.py:124
 msgid "Can not filter based on Cashier, if grouped by Cashier"
@@ -48,7 +48,7 @@ msgstr "Não é possível filtrar com base na forma de pagamento, se agrupado po
 
 #: erpnext/accounts/report/general_ledger/general_ledger.py:83
 msgid "Can not filter based on Voucher No, if grouped by Voucher"
-msgstr "Não é possível filtrar por número do comprovante se estiver agrupado por comprovante"
+msgstr "Não é possível filtrar por nº do comprovante se estiver agrupado por comprovante"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1580
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:2941
@@ -160,7 +160,7 @@ msgstr "Não é possível cancelar o fechamento de PDV"
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:140
 msgid "Cannot cancel Stock Reservation Entry {0}, as it has used in the work order {1}. Please cancel the work order first or unreserved the stock"
-msgstr "Não é possível cancelar a entrada de reserva de estoque {0}, pois ela foi usada na ordem de produção {1}. Cancele a ordem de produção primeiro ou desfaça a reserva do estoque"
+msgstr "Não é possível cancelar a entrada de reserva de estoque {0}, pois ela foi usada na ordem de trabalho {1}. Cancele a ordem de trabalho primeiro ou desfaça a reserva do estoque"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:246
 msgid "Cannot cancel as processing of cancelled documents is pending."
@@ -253,7 +253,7 @@ msgstr "Não é possível desativar ou cancelar a BOM, pois ela está vinculada 
 
 #: erpnext/crm/doctype/opportunity/opportunity.py:282
 msgid "Cannot declare as lost, because Quotation has been made."
-msgstr "Não é possível marcar como perdida, pois já foi criada uma cotação."
+msgstr "Não é possível marcar como perdida, pois já foi criado um orçamento."
 
 #: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.js:16
 #: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.js:26
@@ -403,7 +403,7 @@ msgstr "Capacidade (em dias)"
 
 #: erpnext/stock/page/warehouse_capacity_summary/warehouse_capacity_summary.js:69
 msgid "Capacity (Stock UOM)"
-msgstr "Capacidade (UM de estoque)"
+msgstr "Capacidade (UOM de estoque)"
 
 #. Label of the capacity_planning (Section Break) field in DocType
 #. 'Manufacturing Settings'
@@ -413,7 +413,7 @@ msgstr "Planejamento de capacidade"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1051
 msgid "Capacity Planning Error, planned start time can not be same as end time"
-msgstr "Erro de planejamento de capacidade: a hora de início planejada não pode ser igual à hora de término"
+msgstr "Erro de planejamento de capacidade, a hora de início planejada não pode ser igual à hora de término"
 
 #. Label of the capacity_planning_for_days (Int) field in DocType
 #. 'Manufacturing Settings'
@@ -424,7 +424,7 @@ msgstr "Planejamento de capacidade para (dias)"
 #. Label of the stock_capacity (Float) field in DocType 'Putaway Rule'
 #: erpnext/stock/doctype/putaway_rule/putaway_rule.json
 msgid "Capacity in Stock UOM"
-msgstr "Capacidade em UM de estoque"
+msgstr "Capacidade em UOM de estoque"
 
 #: erpnext/stock/doctype/putaway_rule/putaway_rule.py:86
 msgid "Capacity must be greater than 0"
@@ -466,7 +466,7 @@ msgstr "Capitalizar custo de reparo"
 
 #: erpnext/assets/doctype/asset/asset.js:208
 msgid "Capitalize this asset before submitting."
-msgstr "Capitalize este ativo antes de enviar."
+msgstr "Capitalizar este ativo antes de enviar."
 
 #. Option for the 'Status' (Select) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
@@ -482,12 +482,12 @@ msgstr "Quilate"
 #. Title of an incoterm
 #: erpnext/setup/doctype/incoterm/incoterms.csv:6
 msgid "Carriage Paid To"
-msgstr "Frete pago até"
+msgstr "Carriage Paid To"
 
 #. Title of an incoterm
 #: erpnext/setup/doctype/incoterm/incoterms.csv:7
 msgid "Carriage and Insurance Paid to"
-msgstr "Frete e seguro pagos até"
+msgstr "Carriage and Insurance Paid to"
 
 #. Label of the carrier (Data) field in DocType 'Shipment'
 #: erpnext/stock/doctype/shipment/shipment.json
@@ -620,7 +620,7 @@ msgstr "Categorizar por item"
 
 #: erpnext/accounts/report/general_ledger/general_ledger.js:133
 msgid "Categorize by Party"
-msgstr "Categorizar por parte"
+msgstr "Categorizar por cadastro"
 
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:83
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:86

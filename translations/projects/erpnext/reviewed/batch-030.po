@@ -21,34 +21,34 @@ msgstr ""
 #. Label of the minimum_net_rate (Float) field in DocType 'Item Tax'
 #: erpnext/stock/doctype/item_tax/item_tax.json
 msgid "Minimum Net Rate"
-msgstr "Preço Líquido Mínimo"
+msgstr "Preço líquido mínimo"
 
 #. Label of the min_order_qty (Float) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Minimum Order Qty"
-msgstr "Qtd. Mín. do Pedido"
+msgstr "Qtd. mínima de pedido"
 
 #. Label of the min_order_qty (Float) field in DocType 'Material Request Plan
 #. Item'
 #: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
 msgid "Minimum Order Quantity"
-msgstr "Quantidade Mínima do Pedido"
+msgstr "Quantidade mínima de pedido"
 
 #. Label of the minimum_payment_amount (Currency) field in DocType 'Payment
 #. Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 msgid "Minimum Payment Amount"
-msgstr "Valor Mínimo do Pagamento"
+msgstr "Valor mínimo do pagamento"
 
 #: erpnext/stock/report/product_bundle_balance/product_bundle_balance.py:97
 msgid "Minimum Qty"
-msgstr "Qtd. Mín."
+msgstr "Qtd. mínima"
 
 #. Label of the min_spent (Currency) field in DocType 'Loyalty Program
 #. Collection'
 #: erpnext/accounts/doctype/loyalty_program_collection/loyalty_program_collection.json
 msgid "Minimum Total Spent"
-msgstr "Gasto Total Mínimo"
+msgstr "Total mínimo gasto"
 
 #. Label of the min_value (Float) field in DocType 'Item Quality Inspection
 #. Parameter'
@@ -56,19 +56,19 @@ msgstr "Gasto Total Mínimo"
 #: erpnext/stock/doctype/item_quality_inspection_parameter/item_quality_inspection_parameter.json
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Minimum Value"
-msgstr "Valor Mínimo"
+msgstr "Valor mínimo"
 
 #. Description of the 'Minimum Order Qty' (Float) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Minimum quantity should be as per Stock UOM"
-msgstr "A quantidade mínima deve seguir a UM de estoque"
+msgstr "A quantidade mínima deve seguir a UOM de estoque"
 
 #. Label of the minute (Text Editor) field in DocType 'Quality Meeting Minutes'
 #. Name of a UOM
 #: erpnext/quality_management/doctype/quality_meeting_minutes/quality_meeting_minutes.json
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Minute"
-msgstr "Minuto"
+msgstr ""
 
 #. Label of the minutes (Table) field in DocType 'Quality Meeting'
 #: erpnext/quality_management/doctype/quality_meeting/quality_meeting.json
@@ -82,11 +82,11 @@ msgstr "Despesas Diversas"
 
 #: erpnext/controllers/buying_controller.py:709
 msgid "Mismatch"
-msgstr "Incompatibilidade"
+msgstr "Divergência"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:1435
 msgid "Missing"
-msgstr "Ausente"
+msgstr "Faltante"
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:97
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:200
@@ -132,15 +132,15 @@ msgstr "Item ausente"
 
 #: erpnext/utilities/__init__.py:53
 msgid "Missing Payments App"
-msgstr "App Payments ausente"
+msgstr "Aplicativo Payments ausente"
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.py:297
 msgid "Missing Serial No Bundle"
-msgstr "Pacote de números de série ausente"
+msgstr "Pacote de nºs de série ausente"
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.js:154
 msgid "Missing email template for dispatch. Please set one in Delivery Settings."
-msgstr "Modelo de e-mail de expedição ausente. Defina um em Configurações de Entrega."
+msgstr "Falta o modelo de e-mail para expedição. Defina um em Configurações de entrega."
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_engine.py:223
 msgid "Missing required filter: {0}"
@@ -167,7 +167,7 @@ msgstr "Celular: "
 #: erpnext/accounts/report/purchase_register/purchase_register.py:201
 #: erpnext/accounts/report/sales_register/sales_register.py:224
 msgid "Mode Of Payment"
-msgstr "Forma de pagamento"
+msgstr "Forma de Pagamento"
 
 #. Label of the mode_of_payment (Link) field in DocType 'Cashier Closing
 #. Payments'
@@ -216,7 +216,7 @@ msgstr "Forma de pagamento"
 #: erpnext/accounts/workspace/accounting/accounting.json
 #: erpnext/selling/page/point_of_sale/pos_controller.js:33
 msgid "Mode of Payment"
-msgstr "Forma de pagamento"
+msgstr "Forma de Pagamento"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/mode_of_payment_account/mode_of_payment_account.json
@@ -236,16 +236,16 @@ msgstr "Modelo"
 #. Entry'
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
 msgid "Modes of Payment"
-msgstr "Formas de Pagamento"
+msgstr "Formas de pagamento"
 
 #: erpnext/templates/pages/projects.html:69
 msgid "Modified By"
-msgstr "Modificado Por"
+msgstr "Modificado por"
 
 #: erpnext/templates/pages/projects.html:49
 #: erpnext/templates/pages/projects.html:70
 msgid "Modified On"
-msgstr "Modificado Em"
+msgstr "Modificado em"
 
 #. Label of the module (Link) field in DocType 'Financial Report Template'
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.json
@@ -261,7 +261,7 @@ msgstr "Monitorar progresso"
 #. Monitor'
 #: erpnext/accounts/doctype/ledger_health_monitor/ledger_health_monitor.json
 msgid "Monitor for Last 'X' days"
-msgstr "Monitorar os últimos 'X' dias"
+msgstr "Monitorar pelos últimos 'X' dias"
 
 #. Label of the frequency (Select) field in DocType 'Quality Goal'
 #: erpnext/quality_management/doctype/quality_goal/quality_goal.json
@@ -287,7 +287,7 @@ msgstr "Mês(es) após o fim do mês da fatura"
 
 #: erpnext/manufacturing/dashboard_fixtures.py:215
 msgid "Monthly Completed Work Orders"
-msgstr "Ordens de Trabalho concluídas no mês"
+msgstr "Ordens de Trabalho concluídas por mês"
 
 #. Name of a DocType
 #. Label of a Link in the Accounting Workspace
@@ -295,21 +295,21 @@ msgstr "Ordens de Trabalho concluídas no mês"
 #: erpnext/accounts/doctype/monthly_distribution/monthly_distribution.json
 #: erpnext/accounts/workspace/accounting/accounting.json
 msgid "Monthly Distribution"
-msgstr "Distribuição mensal"
+msgstr "Distribuição Mensal"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/monthly_distribution_percentage/monthly_distribution_percentage.json
 msgid "Monthly Distribution Percentage"
-msgstr "Percentual de distribuição mensal"
+msgstr "Distribuição Percentual Mensal"
 
 #. Label of the percentages (Table) field in DocType 'Monthly Distribution'
 #: erpnext/accounts/doctype/monthly_distribution/monthly_distribution.json
 msgid "Monthly Distribution Percentages"
-msgstr "Percentuais de distribuição mensal"
+msgstr "Percentuais da distribuição mensal"
 
 #: erpnext/manufacturing/dashboard_fixtures.py:244
 msgid "Monthly Quality Inspections"
-msgstr "Inspeções mensais de qualidade"
+msgstr "Inspeções Mensais de Qualidade"
 
 #. Option for the 'Subscription Price Based On' (Select) field in DocType
 #. 'Subscription Plan'
@@ -336,23 +336,23 @@ msgstr "Meses"
 #. Year'
 #: erpnext/accounts/doctype/fiscal_year/fiscal_year.json
 msgid "More/Less than 12 months."
-msgstr "Mais/Menos de 12 meses."
+msgstr "Mais/menos de 12 meses."
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:32
 msgid "Motion Picture & Video"
-msgstr "Cinema e Vídeo"
+msgstr "Cinema e vídeo"
 
 #: erpnext/stock/dashboard/item_dashboard.js:216
 msgid "Move Item"
-msgstr "Mover item"
+msgstr "Mover Item"
 
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:239
 msgid "Move Stock"
-msgstr "Movimentar estoque"
+msgstr "Mover estoque"
 
 #: erpnext/templates/includes/macros.html:169
 msgid "Move to Cart"
-msgstr "Mover para o Carrinho"
+msgstr "Mover para o carrinho"
 
 #: erpnext/assets/doctype/asset/asset_dashboard.py:7
 msgid "Movement"
@@ -367,11 +367,11 @@ msgstr "Movimentação"
 #: erpnext/stock/doctype/item/item.json
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Moving Average"
-msgstr "Média Móvel"
+msgstr "Média móvel"
 
 #: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.js:82
 msgid "Moving up in tree ..."
-msgstr "Movendo para cima na árvore ..."
+msgstr "Subindo na árvore ..."
 
 #. Label of the multi_currency (Check) field in DocType 'Journal Entry'
 #. Label of the multi_currency (Check) field in DocType 'Journal Entry
@@ -393,11 +393,11 @@ msgstr "Vários programas de fidelidade encontrados para o cliente {}. Selecione
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1170
 msgid "Multiple POS Opening Entry"
-msgstr "Múltiplas aberturas de PDV"
+msgstr "Múltiplos registros de abertura de PDV"
 
 #: erpnext/accounts/doctype/pricing_rule/utils.py:346
 msgid "Multiple Price Rules exists with same criteria, please resolve conflict by assigning priority. Price Rules: {0}"
-msgstr "Existem várias regras de preço com os mesmos critérios; resolva o conflito definindo a prioridade. Regras de preço: {0}"
+msgstr "Existem várias regras de preço com os mesmos critérios. Resolva o conflito definindo a prioridade. Regras de preço: {0}"
 
 #. Option for the 'Loyalty Program Type' (Select) field in DocType 'Loyalty
 #. Program'
@@ -407,19 +407,19 @@ msgstr "Programa com múltiplas faixas"
 
 #: erpnext/stock/doctype/item/item.js:170
 msgid "Multiple Variants"
-msgstr "Múltiplas variantes"
+msgstr "Variantes Múltiplas"
 
 #: erpnext/stock/doctype/warehouse/warehouse.py:152
 msgid "Multiple Warehouse Accounts"
-msgstr "Múltiplas contas de armazém"
+msgstr "Várias contas de armazém"
 
 #: erpnext/controllers/accounts_controller.py:1299
 msgid "Multiple fiscal years exist for the date {0}. Please set company in Fiscal Year"
-msgstr "Existem vários exercícios fiscais para a data {0}. Defina a empresa no exercício fiscal"
+msgstr "Existem vários anos fiscais para a data {0}. Defina a empresa no ano fiscal"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1611
 msgid "Multiple items cannot be marked as finished item"
-msgstr "Não é possível marcar vários itens como produto acabado"
+msgstr "Vários itens não podem ser marcados como item acabado"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:33
 msgid "Music"
@@ -431,13 +431,13 @@ msgstr "Música"
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:267
 #: erpnext/utilities/transaction_base.py:563
 msgid "Must be Whole Number"
-msgstr "Deve ser um número inteiro"
+msgstr "Deve ser número inteiro"
 
 #. Description of the 'Import from Google Sheets' (Data) field in DocType 'Bank
 #. Statement Import'
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.json
 msgid "Must be a publicly accessible Google Sheets URL and adding Bank Account column is necessary for importing via Google Sheets"
-msgstr "Deve ser uma URL do Google Sheets acessível publicamente, e adicionar a coluna Conta Bancária é necessário para importar via Google Sheets"
+msgstr "Deve ser uma URL do Google Sheets acessível publicamente, e é necessário adicionar a coluna Conta bancária para importar via Google Sheets"
 
 #. Label of the mute_email (Check) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
@@ -462,7 +462,7 @@ msgstr "Nome do beneficiário"
 
 #: erpnext/accounts/doctype/account/account_tree.js:125
 msgid "Name of new Account. Note: Please don't create accounts for Customers and Suppliers"
-msgstr "Nome da nova conta. Nota: não crie contas para clientes e fornecedores"
+msgstr "Nome da nova conta. Observação: não crie contas para clientes e fornecedores"
 
 #. Description of the 'Distribution Name' (Data) field in DocType 'Monthly
 #. Distribution'
@@ -500,7 +500,7 @@ msgstr "Prefixo da série de nomenclatura"
 #. DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Naming Series and Price Defaults"
-msgstr "Séries de nomenclatura e padrões de preço"
+msgstr "Série de nomenclatura e padrões de preço"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:94
 msgid "Naming Series is mandatory"
@@ -514,7 +514,7 @@ msgstr "Nanocoulomb"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Nanogram/Litre"
-msgstr "Nanograma/Litro"
+msgstr "Nanograma/litro"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -551,7 +551,7 @@ msgstr "Erro de estoque negativo"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:625
 msgid "Negative Valuation Rate is not allowed"
-msgstr "Preço de avaliação negativo não é permitido"
+msgstr "Taxa de Avaliação negativa não é permitida"
 
 #: erpnext/setup/setup_wizard/data/sales_stage.txt:8
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:439
@@ -634,15 +634,15 @@ msgstr "Valor líquido do ativo em"
 
 #: erpnext/accounts/report/cash_flow/cash_flow.py:177
 msgid "Net Cash from Financing"
-msgstr "Caixa líquido das atividades de financiamento"
+msgstr "Fluxo de caixa líquido de financiamentos"
 
 #: erpnext/accounts/report/cash_flow/cash_flow.py:170
 msgid "Net Cash from Investing"
-msgstr "Caixa líquido das atividades de investimento"
+msgstr "Fluxo de caixa líquido de investimentos"
 
 #: erpnext/accounts/report/cash_flow/cash_flow.py:158
 msgid "Net Cash from Operations"
-msgstr "Caixa líquido das atividades operacionais"
+msgstr "Fluxo de caixa líquido das operações"
 
 #: erpnext/accounts/report/cash_flow/cash_flow.py:163
 msgid "Net Change in Accounts Payable"
@@ -663,7 +663,7 @@ msgstr "Variação líquida no patrimônio líquido"
 
 #: erpnext/accounts/report/cash_flow/cash_flow.py:172
 msgid "Net Change in Fixed Asset"
-msgstr "Variação líquida do ativo imobilizado"
+msgstr "Variação líquida no ativo imobilizado"
 
 #: erpnext/accounts/report/cash_flow/cash_flow.py:164
 msgid "Net Change in Inventory"
@@ -684,11 +684,11 @@ msgstr "Lucro Líquido"
 
 #: erpnext/accounts/report/financial_ratios/financial_ratios.py:172
 msgid "Net Profit Ratio"
-msgstr "Margem de Lucro Líquido"
+msgstr "Margem de lucro líquido"
 
 #: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py:186
 msgid "Net Profit/Loss"
-msgstr "Lucro/Prejuízo Líquido"
+msgstr "Lucro/Prejuízo líquido"
 
 #. Label of the net_purchase_amount (Currency) field in DocType 'Asset'
 #. Label of the net_purchase_amount (Currency) field in DocType 'Asset
@@ -710,7 +710,7 @@ msgstr "O valor líquido de compra deve ser <b>igual</b> ao valor de compra de u
 
 #: erpnext/assets/doctype/asset_depreciation_schedule/deppreciation_schedule_controller.py:388
 msgid "Net Purchase Amount {0} cannot be depreciated over {1} cycles."
-msgstr "O valor líquido de compra {0} não pode ser depreciado em {1} ciclos."
+msgstr "O valor líquido de compra {0} não pode ser depreciado ao longo de {1} ciclos."
 
 #. Label of the net_rate (Currency) field in DocType 'POS Invoice Item'
 #. Label of the net_rate (Currency) field in DocType 'Purchase Invoice Item'
@@ -814,7 +814,7 @@ msgstr "Preço líquido (moeda da empresa)"
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 #: erpnext/templates/includes/order/order_taxes.html:5
 msgid "Net Total"
-msgstr "Total líquido"
+msgstr "Total Líquido"
 
 #. Label of the base_net_total (Currency) field in DocType 'POS Invoice'
 #. Label of the base_net_total (Currency) field in DocType 'Purchase Invoice'
@@ -850,7 +850,7 @@ msgstr "Peso líquido"
 #. Label of the net_weight_uom (Link) field in DocType 'Packing Slip'
 #: erpnext/stock/doctype/packing_slip/packing_slip.json
 msgid "Net Weight UOM"
-msgstr "UM do peso líquido"
+msgstr "UOM do peso líquido"
 
 #: erpnext/controllers/accounts_controller.py:1659
 msgid "Net total calculation precision loss"
@@ -868,7 +868,7 @@ msgstr "Novo valor do ativo"
 
 #: erpnext/assets/dashboard_fixtures.py:164
 msgid "New Assets (This Year)"
-msgstr "Novos Ativos (este Ano)"
+msgstr "Novos ativos (este ano)"
 
 #. Label of the new_bom (Link) field in DocType 'BOM Update Log'
 #. Label of the new_bom (Link) field in DocType 'BOM Update Tool'
@@ -882,13 +882,13 @@ msgstr "Nova BOM"
 #. 'Exchange Rate Revaluation Account'
 #: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
 msgid "New Balance In Account Currency"
-msgstr "Novo Saldo na Moeda da Conta"
+msgstr "Novo saldo na moeda da conta"
 
 #. Label of the new_balance_in_base_currency (Currency) field in DocType
 #. 'Exchange Rate Revaluation Account'
 #: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
 msgid "New Balance In Base Currency"
-msgstr "Novo Saldo na Moeda Base"
+msgstr "Novo saldo na moeda base"
 
 #: erpnext/stock/doctype/batch/batch.js:167
 msgid "New Batch ID (Optional)"
@@ -906,15 +906,15 @@ msgstr "Nova Empresa"
 
 #: erpnext/accounts/doctype/cost_center/cost_center_tree.js:26
 msgid "New Cost Center Name"
-msgstr "Nome do Novo Centro de Custo"
+msgstr "Nome do novo centro de custo"
 
 #: erpnext/selling/report/customer_acquisition_and_loyalty/customer_acquisition_and_loyalty.py:30
 msgid "New Customer Revenue"
-msgstr "Receita com novos clientes"
+msgstr "Receita Com Novos Clientes"
 
 #: erpnext/selling/report/customer_acquisition_and_loyalty/customer_acquisition_and_loyalty.py:15
 msgid "New Customers"
-msgstr "Clientes Novos"
+msgstr "Novos clientes"
 
 #: erpnext/setup/doctype/department/department_tree.js:18
 msgid "New Department"
@@ -922,27 +922,27 @@ msgstr "Novo Departamento"
 
 #: erpnext/setup/doctype/employee/employee_tree.js:29
 msgid "New Employee"
-msgstr "Novo Funcionário"
+msgstr "Novo funcionário"
 
 #. Label of the new_exchange_rate (Float) field in DocType 'Exchange Rate
 #. Revaluation Account'
 #: erpnext/accounts/doctype/exchange_rate_revaluation_account/exchange_rate_revaluation_account.json
 msgid "New Exchange Rate"
-msgstr "Nova Taxa de Câmbio"
+msgstr "Nova taxa de câmbio"
 
 #. Label of the expenses_booked (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "New Expenses"
-msgstr "Novas Despesas"
+msgstr "Novas despesas"
 
 #. Label of the income (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "New Income"
-msgstr "Novas Receitas"
+msgstr "Novas receitas"
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:259
 msgid "New Invoice"
-msgstr "Nova Fatura"
+msgstr "Nova fatura"
 
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.js:337
 msgid "New Journal Entry will be posted for the difference amount. The Posting Date can be modified."
@@ -954,7 +954,7 @@ msgstr "Nova Localização"
 
 #: erpnext/public/js/templates/crm_notes.html:7
 msgid "New Note"
-msgstr "Nova Nota"
+msgstr "Nova nota"
 
 #. Label of the purchase_invoice (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -964,7 +964,7 @@ msgstr "Nova fatura de compra"
 #. Label of the purchase_order (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "New Purchase Orders"
-msgstr "Novos Pedidos de Compra"
+msgstr "Novos pedidos de compra"
 
 #: erpnext/quality_management/doctype/quality_procedure/quality_procedure_tree.js:24
 msgid "New Quality Procedure"
@@ -987,13 +987,13 @@ msgstr "Novos pedidos de venda"
 
 #: erpnext/setup/doctype/sales_person/sales_person_tree.js:3
 msgid "New Sales Person Name"
-msgstr "Nome do novo vendedor"
+msgstr "Nome do Novo Vendedor"
 
 #: erpnext/stock/doctype/serial_no/serial_no.py:70
 msgid "New Serial No cannot have Warehouse. Warehouse must be set by Stock Entry or Purchase Receipt"
-msgstr "Novo Nº de Série não pode ter armazém. O armazém deve ser definido por uma entrada de estoque ou recebimento de compra"
+msgstr "Um novo nº de série não pode ter armazém. O armazém deve ser definido por movimento de estoque ou recebimento de compra"
 
 #: erpnext/public/js/templates/crm_activities.html:8
 #: erpnext/public/js/utils/crm_activities.js:69
 msgid "New Task"
-msgstr "Nova Tarefa"
+msgstr "Nova tarefa"

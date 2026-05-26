@@ -82,7 +82,7 @@ msgstr " Ignorar transferência de material"
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:133
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:174
 msgid " Sub Assembly"
-msgstr " Subconjunto"
+msgstr " Submontagem"
 
 #: erpnext/projects/doctype/project_update/project_update.py:104
 msgid " Summary"
@@ -98,7 +98,7 @@ msgstr "\"Item fornecido pelo cliente\" não pode ter preço de avaliação"
 
 #: erpnext/stock/doctype/item/item.py:315
 msgid "\"Is Fixed Asset\" cannot be unchecked, as Asset record exists against the item"
-msgstr "\"É Ativo Fixo\" não pode ser desmarcado, pois existe um registro de ativo vinculado ao item"
+msgstr "\"É ativo imobilizado\" não pode ser desmarcado, pois existe um registro de ativo vinculado ao item"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:262
 msgid "\"SN-01::10\" for \"SN-01\" to \"SN-10\""
@@ -106,16 +106,16 @@ msgstr "\"SN-01::10\" para \"SN-01\" a \"SN-10\""
 
 #: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:148
 msgid "# In Stock"
-msgstr "Nº em estoque"
+msgstr "# Em estoque"
 
 #: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:141
 msgid "# Req'd Items"
-msgstr "Nº de itens necessários"
+msgstr "# Itens necessários"
 
 #. Label of the per_delivered (Percent) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "%  Delivered"
-msgstr "%  Entregue"
+msgstr "% Entregue"
 
 #. Label of the per_billed (Percent) field in DocType 'Timesheet'
 #. Label of the per_billed (Percent) field in DocType 'Sales Order'
@@ -154,7 +154,7 @@ msgstr "% Entregue"
 #: erpnext/manufacturing/doctype/bom/bom.js:962
 #, python-format
 msgid "% Finished Item Quantity"
-msgstr "% Quantidade do item acabado"
+msgstr "% Quantidade de item acabado"
 
 #. Label of the per_installed (Percent) field in DocType 'Delivery Note'
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
@@ -174,7 +174,7 @@ msgstr "% do total geral"
 #. Label of the per_ordered (Percent) field in DocType 'Material Request'
 #: erpnext/stock/doctype/material_request/material_request.json
 msgid "% Ordered"
-msgstr "% Pedido"
+msgstr ""
 
 #. Label of the per_picked (Percent) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -258,7 +258,7 @@ msgstr "% dos materiais entregues neste pedido de venda"
 
 #: erpnext/controllers/accounts_controller.py:2368
 msgid "'Account' in the Accounting section of Customer {0}"
-msgstr "'Conta' na seção Contabilidade do cliente {0}"
+msgstr "'Conta' na seção Contabilidade do Cliente {0}"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:348
 msgid "'Allow Multiple Sales Orders Against a Customer's Purchase Order'"
@@ -266,7 +266,7 @@ msgstr "'Permitir vários pedidos de venda para um pedido de compra do cliente'"
 
 #: erpnext/controllers/trends.py:56
 msgid "'Based On' and 'Group By' can not be same"
-msgstr "'Baseado em' e 'Agrupar por' não podem ser o mesmo"
+msgstr "'Baseado em' e 'Agrupar por' não podem ser iguais"
 
 #: erpnext/selling/report/inactive_customers/inactive_customers.py:18
 msgid "'Days Since Last Order' must be greater than or equal to zero"
@@ -278,29 +278,29 @@ msgstr "'Conta padrão de {0}' na empresa {1}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1198
 msgid "'Entries' cannot be empty"
-msgstr "O campo 'Entradas' não pode ficar vazio"
+msgstr "'Entradas' não podem estar vazias"
 
 #: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.py:24
 #: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.py:127
 #: erpnext/stock/report/stock_analytics/stock_analytics.py:313
 msgid "'From Date' is required"
-msgstr "'Data Inicial' é obrigatória"
+msgstr "'Data inicial' é obrigatória"
 
 #: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py:18
 msgid "'From Date' must be after 'To Date'"
-msgstr "'Data Inicial' deve ser posterior à 'Data Final'"
+msgstr "A 'Data inicial' deve ser posterior à 'Data final'"
 
 #: erpnext/stock/doctype/item/item.py:398
 msgid "'Has Serial No' can not be 'Yes' for non-stock item"
-msgstr "'Tem número de série' não pode ser 'Sim' para item não estocável"
+msgstr "'Tem número de série' não pode ser 'Sim' para item sem estoque"
 
 #: erpnext/stock/doctype/quality_inspection/quality_inspection.py:139
 msgid "'Inspection Required before Delivery' has disabled for the item {0}, no need to create the QI"
-msgstr "'Inspeção obrigatória antes da entrega' está desabilitada para o item {0}; não é necessário criar a QI"
+msgstr "'Inspeção obrigatória antes da entrega' foi desabilitada para o item {0}, não é necessário criar a inspeção"
 
 #: erpnext/stock/doctype/quality_inspection/quality_inspection.py:130
 msgid "'Inspection Required before Purchase' has disabled for the item {0}, no need to create the QI"
-msgstr "'Inspeção obrigatória antes da compra' está desabilitada para o item {0}; não é necessário criar a QI"
+msgstr "'Inspeção obrigatória antes da compra' foi desabilitada para o item {0}, não é necessário criar a inspeção"
 
 #: erpnext/stock/report/stock_ledger/stock_ledger.py:601
 #: erpnext/stock/report/stock_ledger/stock_ledger.py:634
@@ -311,7 +311,7 @@ msgstr "'Abertura'"
 #: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.py:129
 #: erpnext/stock/report/stock_analytics/stock_analytics.py:319
 msgid "'To Date' is required"
-msgstr "'Data Final' é obrigatória"
+msgstr "'Data final' é obrigatória"
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:95
 msgid "'To Package No.' cannot be less than 'From Package No.'"
@@ -319,11 +319,11 @@ msgstr "'Nº do pacote final' não pode ser menor que 'Nº do pacote inicial'"
 
 #: erpnext/controllers/sales_and_purchase_return.py:80
 msgid "'Update Stock' can not be checked because items are not delivered via {0}"
-msgstr "'Atualizar estoque' não pode ser marcado porque os itens não são entregues via {0}"
+msgstr "'Atualizar estoque' não pode ser marcado porque os itens não são entregues por {0}"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:388
 msgid "'Update Stock' cannot be checked for fixed asset sale"
-msgstr "'Atualizar estoque' não pode ser selecionado para venda de ativo fixo"
+msgstr "'Atualizar estoque' não pode ser selecionado para venda de ativo imobilizado"
 
 #: erpnext/accounts/doctype/bank_account/bank_account.py:64
 msgid "'{0}' account is already used by {1}. Use another account."
@@ -367,18 +367,18 @@ msgstr "(D) Valor do estoque em saldo"
 #. Description of the 'Capacity' (Int) field in DocType 'Item Lead Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "(Daily Yield * No of Units Produced) / 100"
-msgstr "(Rendimento diário * nº de unidades produzidas) / 100"
+msgstr ""
 
 #: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:199
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:238
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:141
 msgid "(E) Balance Stock Value in Queue"
-msgstr "(E) Valor do estoque em saldo na fila"
+msgstr ""
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:248
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:151
 msgid "(F) Change in Stock Value"
-msgstr "(F) Variação no valor do estoque"
+msgstr ""
 
 #: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.py:192
 msgid "(Forecast)"
@@ -387,91 +387,91 @@ msgstr "(Previsão)"
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:253
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:156
 msgid "(G) Sum of Change in Stock Value"
-msgstr "(G) Soma da variação no valor do estoque"
+msgstr "(G) Soma da alteração no valor do estoque"
 
 #. Description of the 'Daily Yield (%)' (Percent) field in DocType 'Item Lead
 #. Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "(Good Units Produced / Total Units Produced) × 100"
-msgstr "(Unidades boas produzidas / total de unidades produzidas) × 100"
+msgstr ""
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:263
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:166
 msgid "(H) Change in Stock Value (FIFO Queue)"
-msgstr "(H) Variação no valor do estoque (fila FIFO)"
+msgstr ""
 
 #: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:209
 msgid "(H) Valuation Rate"
-msgstr "(H) Taxa de avaliação"
+msgstr ""
 
 #. Description of the 'Actual Operating Cost' (Currency) field in DocType 'Work
 #. Order Operation'
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 msgid "(Hour Rate / 60) * Actual Operation Time"
-msgstr "(Taxa horária / 60) * tempo real de operação"
+msgstr ""
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:273
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:176
 msgid "(I) Valuation Rate"
-msgstr "(I) Taxa de avaliação"
+msgstr ""
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:278
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:181
 msgid "(J) Valuation Rate as per FIFO"
-msgstr "(J) Taxa de avaliação conforme FIFO"
+msgstr ""
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:288
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:191
 msgid "(K) Valuation = Value (D) ÷ Qty (A)"
-msgstr "(K) Avaliação = valor (D) ÷ qtd. (A)"
+msgstr ""
 
 #. Description of the 'Applicable on Cumulative Expense' (Check) field in
 #. DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "(Purchase Order + Material Request + Actual Expense)"
-msgstr "(Pedido de compra + solicitação de material + despesa real)"
+msgstr ""
 
 #. Description of the 'No of Units Produced' (Int) field in DocType 'Item Lead
 #. Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "(Total Workstation Time / Manufacturing Time) * 60"
-msgstr "(Tempo total da estação de trabalho / tempo de fabricação) * 60"
+msgstr ""
 
 #. Description of the 'From No' (Int) field in DocType 'Share Transfer'
 #. Description of the 'To No' (Int) field in DocType 'Share Transfer'
 #: erpnext/accounts/doctype/share_transfer/share_transfer.json
 msgid "(including)"
-msgstr "(inclusive)"
+msgstr ""
 
 #. Description of the 'Sales Taxes and Charges' (Table) field in DocType 'Sales
 #. Taxes and Charges Template'
 #: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.json
 msgid "* Will be calculated in the transaction."
-msgstr "* Será calculado na transação."
+msgstr ""
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:112
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:360
 msgid "0 - 30 Days"
-msgstr "0 - 30 dias"
+msgstr ""
 
 #: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:114
 msgid "0-30"
-msgstr "0-30"
+msgstr ""
 
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
 msgid "0-30 Days"
-msgstr "0-30 dias"
+msgstr ""
 
 #. Description of the 'Conversion Factor' (Float) field in DocType 'Loyalty
 #. Program'
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
 msgid "1 Loyalty Points = How much base currency?"
-msgstr "1 ponto de fidelidade = quanto em moeda base?"
+msgstr ""
 
 #. Option for the 'Frequency' (Select) field in DocType 'Video Settings'
 #: erpnext/utilities/doctype/video_settings/video_settings.json
 msgid "1 hr"
-msgstr "1 h"
+msgstr ""
 
 #. Option for the 'No of Employees' (Select) field in DocType 'Lead'
 #. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
@@ -529,20 +529,20 @@ msgstr ""
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:113
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:361
 msgid "30 - 60 Days"
-msgstr "30 - 60 dias"
+msgstr ""
 
 #. Option for the 'Frequency' (Select) field in DocType 'Video Settings'
 #: erpnext/utilities/doctype/video_settings/video_settings.json
 msgid "30 mins"
-msgstr "30 min"
+msgstr ""
 
 #: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:115
 msgid "30-60"
-msgstr "30-60"
+msgstr ""
 
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
 msgid "30-60 Days"
-msgstr "30-60 dias"
+msgstr ""
 
 #. Option for the 'No of Employees' (Select) field in DocType 'Lead'
 #. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
@@ -570,25 +570,25 @@ msgstr ""
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:114
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:362
 msgid "60 - 90 Days"
-msgstr "60 - 90 dias"
+msgstr ""
 
 #: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:116
 msgid "60-90"
-msgstr "60-90"
+msgstr ""
 
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
 msgid "60-90 Days"
-msgstr "60-90 dias"
+msgstr ""
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:115
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:363
 msgid "90 - 120 Days"
-msgstr "90 - 120 dias"
+msgstr ""
 
 #: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:117
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
 msgid "90 Above"
-msgstr "Acima de 90"
+msgstr ""
 
 #: erpnext/assets/doctype/asset/asset.py:533
 msgid "<b>Cannot create asset.</b><br><br>You're trying to create <b>{0} asset(s)</b> from {2} {3}.<br>However, only <b>{1} item(s)</b> were purchased and <b>{4} asset(s)</b> already exist against {5}."

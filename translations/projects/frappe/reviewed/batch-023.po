@@ -6,6 +6,7 @@ msgstr ""
 "PO-Revision-Date: 2026-01-21 06:48\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +17,6 @@ msgstr ""
 "X-Crowdin-Language: pt-BR\n"
 "X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
 "X-Crowdin-File-ID: 138\n"
-"Language: pt_BR\n"
 
 #: frappe/core/doctype/file/file.js:34
 #: frappe/core/report/database_storage_usage_by_tables/database_storage_usage_by_tables.js:8
@@ -47,7 +47,7 @@ msgstr "A opção {0} do campo {1} não é uma tabela filha"
 #. Description of the 'CC' (Code) field in DocType 'Notification Recipient'
 #: frappe/email/doctype/notification_recipient/notification_recipient.json
 msgid "Optional: Always send to these ids. Each Email Address on a new row"
-msgstr "Opcional: sempre enviar para estes IDs. Um endereço de e-mail por linha"
+msgstr "Opcional: sempre enviar para estes endereços de e-mail. Um por linha"
 
 #. Description of the 'Condition' (Code) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
@@ -75,8 +75,12 @@ msgid "Options"
 msgstr "Opções"
 
 #: frappe/core/doctype/doctype/doctype.py:1381
-msgid "Options 'Dynamic Link' type of field must point to another Link Field with options as 'DocType'"
-msgstr "As opções do campo do tipo 'Dynamic Link' devem apontar para outro campo Link com opções como 'DocType'"
+msgid ""
+"Options 'Dynamic Link' type of field must point to another Link Field with "
+"options as 'DocType'"
+msgstr ""
+"As opções do campo do tipo 'Dynamic Link' devem apontar para outro campo "
+"Link com opções como 'DocType'"
 
 #. Label of the options_help (HTML) field in DocType 'Custom Field'
 #: frappe/custom/doctype/custom_field/custom_field.json
@@ -93,7 +97,8 @@ msgstr "Opções para seleção. Cada opção em uma nova linha."
 
 #: frappe/core/doctype/doctype/doctype.py:1398
 msgid "Options for {0} must be set before setting the default value."
-msgstr "As opções de {0} devem ser definidas antes de configurar o valor padrão."
+msgstr ""
+"As opções de {0} devem ser definidas antes de configurar o valor padrão."
 
 #: frappe/public/js/form_builder/store.js:182
 msgid "Options is required for field {0} of type {1}"
@@ -316,8 +321,12 @@ msgstr "Pacotes"
 
 #. Description of a Card Break in the Build Workspace
 #: frappe/core/workspace/build/build.json
-msgid "Packages are lightweight apps (collection of Module Defs) that can be created, imported, or released right from the UI"
-msgstr "Pacotes são apps leves (coleção de definições de módulo) que podem ser criados, importados ou publicados diretamente pela interface"
+msgid ""
+"Packages are lightweight apps (collection of Module Defs) that can be "
+"created, imported, or released right from the UI"
+msgstr ""
+"Pacotes são aplicativos leves (coleção de definições de módulo) que podem "
+"ser criados, importados ou publicados diretamente pela interface"
 
 #. Label of the page (Link) field in DocType 'Custom Role'
 #. Name of a DocType
@@ -510,23 +519,27 @@ msgstr "Tabela pai"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:404
 msgid "Parent document type is required to create a dashboard chart"
-msgstr "O tipo de documento pai é obrigatório para criar um gráfico de dashboard"
+msgstr "O tipo de documento pai é obrigatório para criar um gráfico do painel"
 
 #: frappe/core/doctype/data_export/exporter.py:253
 msgid "Parent is the name of the document to which the data will get added to."
-msgstr "Parent é o nome do documento ao qual os dados serão adicionados."
+msgstr "Pai é o nome do documento ao qual os dados serão adicionados."
 
 #: frappe/public/js/frappe/ui/group_by/group_by.js:253
 msgid "Parent-to-child or child-to-different-child grouping is not allowed."
-msgstr "Não é permitido agrupar de pai para filho ou de filho para filho diferente."
+msgstr ""
+"Não é permitido agrupar de pai para filho ou de filho para filho diferente."
 
 #: frappe/permissions.py:835
 msgid "Parentfield not specified in {0}: {1}"
 msgstr "Parentfield não especificado em {0}: {1}"
 
 #: frappe/client.py:470
-msgid "Parenttype, Parent and Parentfield are required to insert a child record"
-msgstr "Parenttype, Parent e Parentfield são obrigatórios para inserir um registro filho"
+msgid ""
+"Parenttype, Parent and Parentfield are required to insert a child record"
+msgstr ""
+"Parenttype, Parent e Parentfield são obrigatórios para inserir um registro "
+"filho"
 
 #. Label of the partial (Check) field in DocType 'Personal Data Deletion Step'
 #: frappe/website/doctype/personal_data_deletion_step/personal_data_deletion_step.json
@@ -628,7 +641,8 @@ msgstr "Os requisitos de senha não foram atendidos"
 
 #: frappe/core/doctype/user/user.py:1140
 msgid "Password reset instructions have been sent to {}'s email"
-msgstr "As instruções de redefinição de senha foram enviadas para o e-mail de {}"
+msgstr ""
+"As instruções de redefinição de senha foram enviadas para o e-mail de {}"
 
 #: frappe/www/update-password.html:191
 msgid "Password set"

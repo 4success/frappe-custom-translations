@@ -141,7 +141,7 @@ msgstr "Ocultar login"
 #: frappe/public/js/form_builder/form_builder.bundle.js:43
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:54
 msgid "Hide Preview"
-msgstr "Ocultar visualização"
+msgstr "Ocultar prévia"
 
 #. Description of the 'Hide Buttons' (Check) field in DocType 'Form Tour Step'
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json
@@ -175,7 +175,7 @@ msgstr "Ocultar fins de semana"
 #. Permission'
 #: frappe/core/doctype/user_permission/user_permission.json
 msgid "Hide descendant records of <b>For Value</b>."
-msgstr "Ocultar registros descendentes de <b>Para o valor</b>."
+msgstr "Ocultar registros descendentes de <b>Por valor</b>."
 
 #: frappe/public/js/frappe/form/layout.js:296
 msgid "Hide details"
@@ -245,21 +245,21 @@ msgstr "Página inicial"
 #. Label of the home_settings (Code) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Home Settings"
-msgstr "Configurações da página inicial"
+msgstr "Configurações iniciais"
 
 #: frappe/core/doctype/file/test_file.py:321
 #: frappe/core/doctype/file/test_file.py:323
 #: frappe/core/doctype/file/test_file.py:387
 msgid "Home/Test Folder 1"
-msgstr "Home/Test Folder 1"
+msgstr "Home/Pasta de teste 1"
 
 #: frappe/core/doctype/file/test_file.py:376
 msgid "Home/Test Folder 1/Test Folder 3"
-msgstr "Home/Test Folder 1/Test Folder 3"
+msgstr "Home/Pasta de teste 1/Pasta de teste 3"
 
 #: frappe/core/doctype/file/test_file.py:332
 msgid "Home/Test Folder 2"
-msgstr "Home/Test Folder 2"
+msgstr "Home/Pasta de teste 2"
 
 #. Option for the 'Frequency' (Select) field in DocType 'Scheduled Job Type'
 #. Option for the 'Event Frequency' (Select) field in DocType 'Server Script'
@@ -275,18 +275,18 @@ msgstr "De hora em hora"
 #: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json
 #: frappe/core/doctype/server_script/server_script.json
 msgid "Hourly Long"
-msgstr "De hora em hora - longo"
+msgstr "Por hora"
 
 #. Option for the 'Frequency' (Select) field in DocType 'Scheduled Job Type'
 #: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json
 msgid "Hourly Maintenance"
-msgstr "De hora em hora - manutenção"
+msgstr "Manutenção horária"
 
 #. Description of the 'Password Reset Link Generation Limit' (Int) field in
 #. DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Hourly rate limit for generating password reset links"
-msgstr "Limite por hora para gerar links de redefinição de senha"
+msgstr "Limite de taxa por hora para gerar links de redefinição de senha"
 
 #: frappe/public/js/frappe/form/controls/duration.js:29
 msgctxt "Duration"
@@ -301,7 +301,7 @@ msgstr "Como essa moeda deve ser formatada? Se não for definido, serão usados 
 #. Description of the 'Resource Name' (Data) field in DocType 'OAuth Settings'
 #: frappe/integrations/doctype/oauth_settings/oauth_settings.json
 msgid "Human-readable name intended for display to the end user."
-msgstr "Nome legível para exibição ao usuário final."
+msgstr "Nome legível destinado à exibição para o usuário final."
 
 #. Paragraph text in the Welcome Workspace Workspace
 #: frappe/core/workspace/welcome_workspace/welcome_workspace.json
@@ -334,17 +334,17 @@ msgstr "ID"
 
 #: frappe/public/js/print_format_builder/PrintFormatControls.vue:169
 msgid "ID (name)"
-msgstr "ID (name)"
+msgstr "ID (nome)"
 
 #. Description of the 'Field Name' (Data) field in DocType 'Property Setter'
 #: frappe/custom/doctype/property_setter/property_setter.json
 msgid "ID (name) of the entity whose property is to be set"
-msgstr "ID (name) da entidade cuja propriedade será definida"
+msgstr "ID (nome) da entidade cuja propriedade será definida"
 
 #. Description of the 'Section ID' (Data) field in DocType 'Web Page Block'
 #: frappe/website/doctype/web_page_block/web_page_block.json
 msgid "IDs must contain only alphanumeric characters, not contain spaces, and should be unique."
-msgstr "Os IDs devem conter apenas caracteres alfanuméricos, não conter espaços e devem ser exclusivos."
+msgstr "Os IDs devem conter apenas caracteres alfanuméricos, não podem conter espaços e devem ser exclusivos."
 
 #. Label of the section_break_25 (Section Break) field in DocType 'Email
 #. Account'
@@ -427,7 +427,7 @@ msgstr "Idx"
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "If Apply Strict User Permission is checked and User Permission is defined for a DocType for a User, then all the documents where value of the link is blank, will not be shown to that User"
-msgstr "Se Permissão de Usuário Estrita estiver marcada e uma Permissão de Usuário estiver definida para um DocType para um usuário, então todos os documentos em que o valor do link estiver em branco não serão mostrados a esse usuário"
+msgstr "Se Aplicar permissão estrita de usuário estiver marcado e uma Permissão de usuário estiver definida para um DocType para um usuário, todos os documentos em que o valor do link estiver em branco não serão exibidos para esse usuário"
 
 #. Description of the 'Don't Override Status' (Check) field in DocType
 #. 'Workflow'
@@ -446,7 +446,7 @@ msgstr "Se for o proprietário"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:25
 msgid "If a Role does not have access at Level 0, then higher levels are meaningless."
-msgstr "Se um perfil não tiver acesso no Nível 0, os níveis superiores não terão efeito."
+msgstr "Se um perfil não tiver acesso no Nível 0, os níveis mais altos não terão efeito."
 
 #. Description of the 'Enable Action Confirmation' (Check) field in DocType
 #. 'Workflow'
@@ -463,7 +463,7 @@ msgstr "Se marcada, todos os outros fluxos de trabalho tornam-se inativos."
 #. Format'
 #: frappe/printing/doctype/print_format/print_format.json
 msgid "If checked, negative numeric values of Currency, Quantity or Count would be shown as positive"
-msgstr "Se marcado, valores numéricos negativos de moeda, quantidade ou contagem serão mostrados como positivos"
+msgstr "Se marcado, valores numéricos negativos de Moeda, Quantidade ou Contagem serão exibidos como positivos"
 
 #. Description of the 'Skip Authorization' (Check) field in DocType 'OAuth
 #. Client'
@@ -474,13 +474,13 @@ msgstr "Se marcado, os usuários não verão a caixa de diálogo Confirmar acess
 #. Description of the 'Disabled' (Check) field in DocType 'Role'
 #: frappe/core/doctype/role/role.json
 msgid "If disabled, this role will be removed from all users."
-msgstr "Se desativado, este perfil será removido de todos os usuários."
+msgstr "Se esta função for desativada será removida em todos os usuários."
 
 #. Description of the 'Bypass Restricted IP Address Check If Two Factor Auth
 #. Enabled' (Check) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "If enabled,  user can login from any IP Address using Two Factor Auth, this can also be set for all users in System Settings"
-msgstr "Se ativado, o usuário poderá fazer login de qualquer endereço IP usando autenticação de dois fatores; isso também pode ser definido para todos os usuários em Configurações do sistema"
+msgstr "Se ativado, o usuário poderá fazer login de qualquer endereço IP usando autenticação em dois fatores; isso também pode ser definido para todos os usuários em Configurações do sistema"
 
 #. Description of the 'Anonymous responses' (Check) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
@@ -491,7 +491,7 @@ msgstr "Se ativado, todas as respostas no formulário web serão enviadas anonim
 #. Enabled' (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "If enabled, all users can login from any IP Address using Two Factor Auth. This can also be set only for specific user(s) in User Page"
-msgstr "Se ativado, todos os usuários poderão fazer login de qualquer endereço IP usando autenticação de dois fatores. Isso também pode ser definido apenas para usuários específicos na página do usuário"
+msgstr "Se ativado, todos os usuários poderão fazer login de qualquer endereço IP usando autenticação em dois fatores. Isso também pode ser definido apenas para usuários específicos na página Usuário"
 
 #. Description of the 'Track Changes' (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -507,7 +507,7 @@ msgstr "Se ativado, as visualizações de documentos são rastreadas, isso pode 
 #. (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "If enabled, only System Managers can upload public files. Other users can't see the checkbox <i>Is Private</i> in the upload dialog."
-msgstr "Se ativado, apenas Gerentes do sistema podem enviar arquivos públicos. Outros usuários não podem ver a caixa de seleção <i>Is Private</i> na caixa de diálogo de upload."
+msgstr "Se ativado, apenas os Gerentes do sistema poderão carregar arquivos públicos. Outros usuários não poderão ver a caixa de seleção <i>É privado</i> na caixa de diálogo de carregamento."
 
 #. Description of the 'Track Seen' (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -524,13 +524,13 @@ msgstr "Se ativada, a notificação aparecerá na lista suspensa de notificaçõ
 #. Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "If enabled, the password strength will be enforced based on the Minimum Password Score value. A value of 1 being very weak and 4 being very strong."
-msgstr "Se ativado, a força da senha será exigida com base no valor mínimo de pontuação da senha. O valor 1 é muito fraco e o valor 4 é muito forte."
+msgstr "Se ativado, a força da senha será exigida com base no valor de Pontuação mínima da senha. Um valor 1 é muito fraco e 4 é muito forte."
 
 #. Description of the 'Bypass Two Factor Auth for users who login from
 #. restricted IP Address' (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "If enabled, users who login from Restricted IP Address, won't be prompted for Two Factor Auth"
-msgstr "Se ativado, usuários que fizerem login de um endereço IP restrito não serão solicitados a usar autenticação de dois fatores"
+msgstr "Se ativado, usuários que fizerem login de um endereço IP restrito não serão solicitados a usar autenticação em dois fatores"
 
 #. Description of the 'Notify Users On Every Login' (Check) field in DocType
 #. 'Note'
@@ -541,7 +541,7 @@ msgstr "Se ativado, os usuários serão notificados sempre que iniciarem sessão
 #. Description of the 'Default Workspace' (Link) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "If left empty, the default workspace will be the last visited workspace"
-msgstr "Se deixado em branco, o espaço de trabalho padrão será o último espaço de trabalho visitado"
+msgstr "Se ficar em branco, o espaço de trabalho padrão será o último espaço de trabalho visitado"
 
 #. Description of the 'Port' (Data) field in DocType 'Email Domain'
 #: frappe/email/doctype/email_domain/email_domain.json
@@ -558,7 +558,7 @@ msgstr "Se não for a porta padrão (por exemplo, 587). Se estiver no Google Clo
 #: frappe/email/doctype/email_account/email_account.json
 #: frappe/email/doctype/email_domain/email_domain.json
 msgid "If non-standard port (e.g. POP3: 995/110, IMAP: 993/143)"
-msgstr "Se não for a porta padrão (por exemplo, POP3: 995/110, IMAP: 993/143)"
+msgstr "Se não for uma porta padrão (por exemplo, POP3: 995/110, IMAP: 993/143)"
 
 #. Description of the 'Currency Precision' (Select) field in DocType 'System
 #. Settings'
@@ -569,20 +569,20 @@ msgstr "Se não for definido, a precisão da moeda dependerá do formato de núm
 #. Description of the 'Roles' (Table) field in DocType 'Dashboard Chart'
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 msgid "If set, only user with these roles can access this chart. If not set, DocType or Report permissions will be used."
-msgstr "Se definido, apenas usuários com esses perfis podem acessar este gráfico. Se não for definido, serão usadas as permissões do DocType ou do relatório."
+msgstr "Se definido, apenas usuários com estes perfis poderão acessar este gráfico. Se não for definido, serão usadas as permissões do DocType ou do relatório."
 
 #. Description of the 'User Type' (Link) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "If the user has any role checked, then the user becomes a \"System User\". \"System User\" has access to the desktop"
-msgstr "Se o usuário tiver qualquer perfil marcado, ele se tornará um \"System User\". \"System User\" tem acesso ao Desk"
+msgstr "Se o usuário tiver qualquer perfil marcado, ele se tornará um \"Usuário do sistema\". Um \"Usuário do sistema\" tem acesso à área de trabalho"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:38
 msgid "If these instructions where not helpful, please add in your suggestions on GitHub Issues."
-msgstr "Se estas instruções não ajudaram, adicione suas sugestões no GitHub Issues."
+msgstr "Se estas instruções não foram úteis, adicione suas sugestões no GitHub Issues."
 
 #: frappe/templates/emails/user_invitation_cancelled.html:8
 msgid "If this was a mistake or you need access again, please reach out to your team."
-msgstr "Se isso foi um engano ou se você precisa de acesso novamente, entre em contato com sua equipe."
+msgstr "Se isso foi um engano ou você precisa de acesso novamente, entre em contato com sua equipe."
 
 #. Description of the 'Fetch on Save if Empty' (Check) field in DocType
 #. 'DocField'
@@ -594,26 +594,26 @@ msgstr "Se isso foi um engano ou se você precisa de acesso novamente, entre em 
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "If unchecked, the value will always be re-fetched on save."
-msgstr "Se desmarcado, o valor será sempre buscado novamente ao salvar."
+msgstr "Se desmarcado, o valor sempre será buscado novamente ao salvar."
 
 #. Label of the if_owner (Check) field in DocType 'Custom DocPerm'
 #. Label of the if_owner (Check) field in DocType 'DocPerm'
 #: frappe/core/doctype/custom_docperm/custom_docperm.json
 #: frappe/core/doctype/docperm/docperm.json
 msgid "If user is the owner"
-msgstr "Se o usuário for o proprietário"
+msgstr "Se o usuário é o proprietário"
 
 #: frappe/core/doctype/data_export/exporter.py:204
 msgid "If you are updating, please select \"Overwrite\" else existing rows will not be deleted."
-msgstr "Se estiver atualizando, selecione \"Overwrite\", caso contrário as linhas existentes não serão excluídas."
+msgstr "Se você estiver atualizando, selecione \"Overwrite\"; caso contrário, as linhas existentes não serão excluídas."
 
 #: frappe/core/doctype/data_export/exporter.py:188
 msgid "If you are uploading new records, \"Naming Series\" becomes mandatory, if present."
-msgstr "Se estiver enviando novos registros, \"Série de nomeação\" se tornará obrigatória, se estiver presente."
+msgstr "Se você estiver carregando novos registros, \"Naming Series\" se torna obrigatório, se estiver presente."
 
 #: frappe/core/doctype/data_export/exporter.py:186
 msgid "If you are uploading new records, leave the \"name\" (ID) column blank."
-msgstr "Se estiver enviando novos registros, deixe a coluna \"name\" (ID) em branco."
+msgstr "Se você estiver carregando novos registros, deixe a coluna \"name\" (ID) em branco."
 
 #: frappe/templates/emails/user_invitation.html:19
 msgid "If you have any questions, reach out to your system administrator."
@@ -621,12 +621,12 @@ msgstr "Se tiver alguma dúvida, entre em contato com o administrador do sistema
 
 #: frappe/utils/password.py:213
 msgid "If you have recently restored the site, you may need to copy the site_config.json containing the original encryption key."
-msgstr "Se você restaurou o site recentemente, talvez seja necessário copiar o site_config.json que contém a chave de criptografia original."
+msgstr "Se você restaurou o site recentemente, talvez precise copiar o site_config.json que contém a chave de criptografia original."
 
 #. Description of the 'Parent Label' (Select) field in DocType 'Top Bar Item'
 #: frappe/website/doctype/top_bar_item/top_bar_item.json
 msgid "If you set this, this Item will come in a drop-down under the selected parent."
-msgstr "Se definir isso, este item aparecerá em uma lista suspensa sob o item pai selecionado."
+msgstr "Se você definir isso, este item aparecerá em um menu suspenso sob o item pai selecionado."
 
 #: frappe/templates/emails/administrator_logged_in.html:3
 msgid "If you think this is unauthorized, please change the Administrator password."
@@ -635,7 +635,7 @@ msgstr "Se você acha que isso não foi autorizado, altere a senha do Administra
 #. Description of the 'Delimiter Options' (Data) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
 msgid "If your CSV uses a different delimiter, add that character here, ensuring no spaces or additional characters are included."
-msgstr "Se o seu CSV usa um delimitador diferente, adicione esse caractere aqui, garantindo que não haja espaços nem caracteres adicionais."
+msgstr "Se seu CSV usar um delimitador diferente, adicione esse caractere aqui, garantindo que não haja espaços nem caracteres adicionais."
 
 #. Description of the 'Source Text' (Code) field in DocType 'Translation'
 #: frappe/core/doctype/translation/translation.json
@@ -650,7 +650,7 @@ msgstr "Se seus dados estiverem em HTML, copie e cole o código HTML exato com a
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Ignore User Permissions"
-msgstr "Ignorar permissões do usuário"
+msgstr "Ignorar permissões de usuário"
 
 #. Label of the ignore_xss_filter (Check) field in DocType 'DocField'
 #. Label of the ignore_xss_filter (Check) field in DocType 'Custom Field'
@@ -660,7 +660,7 @@ msgstr "Ignorar permissões do usuário"
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Ignore XSS Filter"
-msgstr "Ignorar filtro XSS"
+msgstr "Ignorar Filtro XSS"
 
 #. Description of the 'Attachment Limit (MB)' (Int) field in DocType 'Email
 #. Account'
@@ -674,7 +674,7 @@ msgstr "Ignorar anexos maiores que este tamanho"
 #. Label of the ignored_apps (Table) field in DocType 'Website Theme'
 #: frappe/website/doctype/website_theme/website_theme.json
 msgid "Ignored Apps"
-msgstr "Apps ignorados"
+msgstr "Aplicativos ignorados"
 
 #: frappe/model/workflow.py:202
 msgid "Illegal Document Status for {0}"
@@ -687,7 +687,7 @@ msgstr "Consulta SQL inválida"
 
 #: frappe/utils/jinja.py:127
 msgid "Illegal template"
-msgstr "Template inválido"
+msgstr "Modelo inválido"
 
 #. Label of the image (Attach Image) field in DocType 'Contact'
 #. Option for the 'Type' (Select) field in DocType 'DocField'
@@ -719,7 +719,7 @@ msgstr "Imagem"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Image Field"
-msgstr "Campo de imagem"
+msgstr "Campo de Imagem"
 
 #. Label of the image_height (Float) field in DocType 'Letter Head'
 #. Label of the footer_image_height (Float) field in DocType 'Letter Head'
@@ -730,11 +730,11 @@ msgstr "Altura da imagem"
 #. Label of the image_link (Attach) field in DocType 'About Us Team Member'
 #: frappe/website/doctype/about_us_team_member/about_us_team_member.json
 msgid "Image Link"
-msgstr "Link da imagem"
+msgstr "Link da Imagem"
 
 #: frappe/public/js/frappe/list/base_list.js:209
 msgid "Image View"
-msgstr "Visualização de imagens"
+msgstr "Visualização de imagem"
 
 #. Label of the image_width (Float) field in DocType 'Letter Head'
 #. Label of the footer_image_width (Float) field in DocType 'Letter Head'
@@ -748,7 +748,7 @@ msgstr "O campo de imagem deve ser um nome de campo válido"
 
 #: frappe/core/doctype/doctype/doctype.py:1523
 msgid "Image field must be of type Attach Image"
-msgstr "O campo de imagem deve ser do tipo Attach Image"
+msgstr "O campo de imagem deve ser do tipo Anexar imagem"
 
 #: frappe/core/doctype/file/utils.py:136
 msgid "Image link '{0}' is not valid"
@@ -782,11 +782,11 @@ msgstr "Impersonado por {0}"
 
 #: frappe/public/js/frappe/ui/toolbar/navbar.html:23
 msgid "Impersonating {0}"
-msgstr "Impersonando {0}"
+msgstr "Representando {0}"
 
 #: frappe/core/doctype/log_settings/log_settings.py:56
 msgid "Implement `clear_old_logs` method to enable auto error clearing."
-msgstr "Implemente o método `clear_old_logs` para ativar a limpeza automática de erros."
+msgstr ""
 
 #. Option for the 'Grant Type' (Select) field in DocType 'OAuth Client'
 #: frappe/integrations/doctype/oauth_client/oauth_client.json
@@ -809,18 +809,18 @@ msgstr "Importar"
 
 #: frappe/email/doctype/email_group/email_group.js:14
 msgid "Import Email From"
-msgstr "Importar e-mails de"
+msgstr "Importar e-mail de"
 
 #. Label of the import_file (Attach) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
 msgid "Import File"
-msgstr "Arquivo de importação"
+msgstr "Importar arquivo"
 
 #. Label of the import_warnings_section (Section Break) field in DocType 'Data
 #. Import'
 #: frappe/core/doctype/data_import/data_import.json
 msgid "Import File Errors and Warnings"
-msgstr "Erros e avisos do arquivo de importação"
+msgstr "Erros e avisos de importação de arquivos"
 
 #. Label of the import_log_section (Section Break) field in DocType 'Data
 #. Import'
@@ -831,7 +831,7 @@ msgstr "Log de importação"
 #. Label of the import_log_preview (HTML) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
 msgid "Import Log Preview"
-msgstr "Visualização do log de importação"
+msgstr "Visualização do registro de importação"
 
 #. Label of the import_preview (HTML) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
@@ -859,7 +859,7 @@ msgstr "Avisos de importação"
 
 #: frappe/public/js/frappe/views/file/file_view.js:117
 msgid "Import Zip"
-msgstr "Importar ZIP"
+msgstr "Importar zip"
 
 #. Label of the google_sheets_url (Data) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
@@ -876,7 +876,7 @@ msgstr "O modelo de importação deve conter um cabeçalho e pelo menos uma linh
 
 #: frappe/core/doctype/data_import/data_import.js:171
 msgid "Import timed out, please re-try."
-msgstr "A importação expirou, tente novamente."
+msgstr "A importação expirou; tente novamente."
 
 #: frappe/core/doctype/data_import/data_import.py:71
 msgid "Importing {0} is not allowed."
@@ -905,4 +905,4 @@ msgstr "Em dias"
 #: frappe/core/doctype/docfield/docfield.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "In Filter"
-msgstr "No filtro"
+msgstr "No Filtro da Lista"

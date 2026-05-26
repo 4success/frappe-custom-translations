@@ -129,7 +129,7 @@ msgstr "Desconto em outro item"
 #: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Discount on Price List Rate (%)"
-msgstr "Desconto no preço da lista de preços (%)"
+msgstr "Desconto sobre o preço da tabela (%)"
 
 #. Label of the discounted_amount (Currency) field in DocType 'Overdue Payment'
 #. Label of the discounted_amount (Currency) field in DocType 'Payment
@@ -155,13 +155,13 @@ msgstr "Descontos"
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
 msgid "Discounts to be applied in sequential ranges like buy 1 get 1, buy 2 get 2, buy 3 get 3 and so on"
-msgstr "Descontos a serem aplicados em faixas sequenciais, como compre 1 leve 1, compre 2 leve 2, compre 3 leve 3 e assim por diante"
+msgstr "Descontos a serem aplicados em faixas sequenciais, como compre 1 e leve 1, compre 2 e leve 2, compre 3 e leve 3 e assim por diante"
 
 #. Label of the general_and_payment_ledger_mismatch (Check) field in DocType
 #. 'Ledger Health Monitor'
 #: erpnext/accounts/doctype/ledger_health_monitor/ledger_health_monitor.json
 msgid "Discrepancy between General and Payment Ledger"
-msgstr "Divergencia entre razão geral e razão de pagamentos"
+msgstr "Divergência entre o razão geral e o razão de pagamentos"
 
 #. Label of the discretionary_reason (Data) field in DocType 'Loyalty Point
 #. Entry'
@@ -173,7 +173,7 @@ msgstr "Motivo discricionário"
 #: erpnext/utilities/doctype/video/video.json
 #: erpnext/utilities/report/youtube_interactions/youtube_interactions.py:27
 msgid "Dislikes"
-msgstr "Não curtidas"
+msgstr "Não gostei"
 
 #: erpnext/setup/doctype/company/company.py:472
 msgid "Dispatch"
@@ -263,18 +263,18 @@ msgstr "A data de baixa {0} não pode ser anterior à data {1} {2} do ativo."
 #. Label of the distance (Float) field in DocType 'Delivery Stop'
 #: erpnext/stock/doctype/delivery_stop/delivery_stop.json
 msgid "Distance"
-msgstr "Distancia"
+msgstr "Distância"
 
 #. Label of the uom (Link) field in DocType 'Delivery Trip'
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.json
 msgid "Distance UOM"
-msgstr "UM de distancia"
+msgstr "UOM da distância"
 
 #. Label of the acc_pay_dist_from_left_edge (Float) field in DocType 'Cheque
 #. Print Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
 msgid "Distance from left edge"
-msgstr "Distancia da borda esquerda"
+msgstr "Distância da borda esquerda"
 
 #. Label of the acc_pay_dist_from_top_edge (Float) field in DocType 'Cheque
 #. Print Template'
@@ -292,13 +292,13 @@ msgstr "Distancia da borda esquerda"
 #. Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
 msgid "Distance from top edge"
-msgstr "Distancia da borda superior"
+msgstr "Distância da borda superior"
 
 #. Label of the distinct_item_and_warehouse (Code) field in DocType 'Repost
 #. Item Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Distinct Item and Warehouse"
-msgstr "Item e deposito distintos"
+msgstr "Item e depósito distintos"
 
 #. Description of a DocType
 #: erpnext/stock/doctype/serial_no/serial_no.json
@@ -312,7 +312,7 @@ msgstr "Unidade distinta de um item"
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Distribute Additional Costs Based On "
-msgstr "Distribuir custos adicionais com base em"
+msgstr "Distribuir custos adicionais com base em "
 
 #. Label of the distribute_charges_based_on (Select) field in DocType 'Landed
 #. Cost Voucher'
@@ -359,17 +359,17 @@ msgstr "Distribuir manualmente"
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Distributed Discount Amount"
-msgstr "Valor do desconto distribuido"
+msgstr "Valor do desconto distribuído"
 
 #. Label of the distribution_frequency (Select) field in DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Distribution Frequency"
-msgstr "Frequencia de distribuicao"
+msgstr "Frequência de distribuição"
 
 #. Label of the distribution_id (Data) field in DocType 'Monthly Distribution'
 #: erpnext/accounts/doctype/monthly_distribution/monthly_distribution.json
 msgid "Distribution Name"
-msgstr "Nome da distribuicao"
+msgstr "Nome da distribuição"
 
 #: erpnext/setup/setup_wizard/data/sales_partner_type.txt:2
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:240
@@ -403,7 +403,7 @@ msgstr "Não expandir"
 #. field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Do Not Update Serial / Batch on Creation of Auto Bundle"
-msgstr "Não atualizar série/lote na criação do pacote automático"
+msgstr "Não atualizar série/lote ao criar pacote automático"
 
 #. Label of the do_not_use_batchwise_valuation (Check) field in DocType 'Stock
 #. Settings'
@@ -415,7 +415,7 @@ msgstr "Não usar avaliação por lote"
 #. Defaults'
 #: erpnext/setup/doctype/global_defaults/global_defaults.json
 msgid "Do not show any symbol like $ etc next to currencies."
-msgstr "Não mostrar nenhum símbolo como $, etc., ao lado das moedas."
+msgstr "Não mostrar nenhum símbolo, como $ etc., ao lado das moedas."
 
 #. Label of the do_not_update_variants (Check) field in DocType 'Item Variant
 #. Settings'
@@ -429,7 +429,7 @@ msgstr "Você realmente deseja restaurar este ativo descartado?"
 
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.js:15
 msgid "Do you still want to enable immutable ledger?"
-msgstr "Ainda deseja ativar o razão imutavel?"
+msgstr "Ainda deseja ativar o razão imutável?"
 
 #: erpnext/stock/doctype/stock_settings/stock_settings.js:44
 msgid "Do you still want to enable negative inventory?"
@@ -437,7 +437,7 @@ msgstr "Ainda deseja ativar o estoque negativo?"
 
 #: erpnext/stock/doctype/item/item.js:24
 msgid "Do you want to change valuation method?"
-msgstr "Deseja alterar o metodo de avaliação?"
+msgstr "Deseja alterar o método de avaliação?"
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.js:156
 msgid "Do you want to notify all the customers by email?"
@@ -449,11 +449,11 @@ msgstr "Você deseja enviar a solicitação de material"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:103
 msgid "Do you want to submit the stock entry?"
-msgstr "Deseja enviar o lançamento de estoque?"
+msgstr "Deseja enviar o movimento de estoque?"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:78
 msgid "DocTypes should not be added manually to the 'Excluded DocTypes' table. You are only allowed to remove entries from it."
-msgstr "DocTypes não devem ser adicionados manualmente a tabela 'Excluded DocTypes'. Você so pode remover entradas dela."
+msgstr "DocTypes não devem ser adicionados manualmente à tabela 'Excluded DocTypes'. Você só pode remover entradas dela."
 
 #: erpnext/templates/pages/search_help.py:22
 msgid "Docs Search"
@@ -462,11 +462,11 @@ msgstr "Pesquisa na documentação"
 #. Label of the document_type (Link) field in DocType 'Subscription Invoice'
 #: erpnext/accounts/doctype/subscription_invoice/subscription_invoice.json
 msgid "Document Type "
-msgstr "Tipo de documento"
+msgstr "Tipo de documento "
 
 #: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:65
 msgid "Document Type already used as a dimension"
-msgstr "O tipo de documento já está sendo usado como dimensão"
+msgstr "Tipo de documento já usado como dimensão"
 
 #: erpnext/setup/install.py:188
 msgid "Documentation"
@@ -476,11 +476,11 @@ msgstr "Documentação"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Documents Processed on each trigger. Queue Size should be between 5 and 100"
-msgstr "Documentos processados em cada acionamento. O tamanho da fila deve ficar entre 5 e 100"
+msgstr "Documentos processados em cada acionamento. O tamanho da fila deve estar entre 5 e 100"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:257
 msgid "Documents: {0} have deferred revenue/expense enabled for them. Cannot repost."
-msgstr "Documentos: {0} estão com receita/despesa diferida ativada. Não é possível refazer o lançamento."
+msgstr "Os documentos: {0} têm receita/despesa diferida ativada. Não é possível repostar."
 
 #. Label of the dont_create_loyalty_points (Check) field in DocType 'Sales
 #. Invoice'
@@ -492,13 +492,13 @@ msgstr "Não criar pontos de fidelidade"
 #. Rule'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 msgid "Don't Enforce Free Item Qty"
-msgstr "Não exigir qtd. de item gratis"
+msgstr "Não exigir qtd. de item grátis"
 
 #. Label of the dont_reserve_sales_order_qty_on_sales_return (Check) field in
 #. DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Don't Reserve Sales Order Qty on Sales Return"
-msgstr "Não reservar qtd. do pedido de venda na devolucao"
+msgstr "Não reservar qtd. do pedido de venda na devolução de venda"
 
 #. Label of the dont_recompute_tax (Check) field in DocType 'Sales Taxes and
 #. Charges'
@@ -520,7 +520,7 @@ msgstr "Portas"
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
 #: erpnext/assets/doctype/asset_finance_book/asset_finance_book.json
 msgid "Double Declining Balance"
-msgstr "Saldo duplamente decrescente"
+msgstr "Saldo decrescente duplo"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:235
 msgid "Download CSV Template"
@@ -528,13 +528,13 @@ msgstr "Baixar modelo CSV"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:153
 msgid "Download PDF for Supplier"
-msgstr "Baixar PDF para o fornecedor"
+msgstr "Baixar PDF para fornecedor"
 
 #. Label of the download_materials_required (Button) field in DocType
 #. 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Download Required Materials"
-msgstr "Baixar materiais necessarios"
+msgstr "Baixar materiais necessários"
 
 #. Label of the downtime (Data) field in DocType 'Asset Repair'
 #. Label of the downtime (Float) field in DocType 'Downtime Entry'
@@ -569,12 +569,12 @@ msgstr "Motivo da inatividade"
 
 #: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.py:248
 msgid "Dr/Cr"
-msgstr "Deb./Cred."
+msgstr "Db/Cr"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Dram"
-msgstr "Dram"
+msgstr ""
 
 #. Name of a DocType
 #. Label of the driver (Link) field in DocType 'Delivery Note'
@@ -605,7 +605,7 @@ msgstr "Nome do motorista"
 #. Label of the class (Data) field in DocType 'Driving License Category'
 #: erpnext/setup/doctype/driving_license_category/driving_license_category.json
 msgid "Driver licence class"
-msgstr "Categoria da carteira do motorista"
+msgstr "Classe da carteira de motorista"
 
 #. Label of the driving_license_categories (Section Break) field in DocType
 #. 'Driver'
@@ -624,7 +624,7 @@ msgstr "Categoria da carteira de motorista"
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Drop Procedures"
-msgstr "Excluir procedimentos"
+msgstr "Excluir procedures"
 
 #. Label of the drop_ship (Section Break) field in DocType 'POS Invoice Item'
 #. Label of the drop_ship (Section Break) field in DocType 'Sales Invoice Item'
@@ -642,7 +642,7 @@ msgstr "Entrega direta"
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Drops existing SQL Procedures and Function setup by Accounts Receivable report"
-msgstr "Exclui os procedimentos SQL e a função criados pelo relatório de contas a receber"
+msgstr "Exclui procedures SQL e função existentes configuradas pelo relatório de contas a receber"
 
 #: erpnext/accounts/party.py:703
 msgid "Due Date cannot be after {0}"
@@ -654,7 +654,7 @@ msgstr "A data de vencimento não pode ser anterior a {0}"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:138
 msgid "Due to stock closing entry {0}, you cannot repost item valuation before {1}"
-msgstr "Devido ao fechamento de estoque {0}, não é possível refazer a avaliação do item antes de {1}"
+msgstr "Devido ao lançamento de fechamento de estoque {0}, não é possível repostar a avaliação do item antes de {1}"
 
 #. Name of a DocType
 #. Label of a Card Break in the Receivables Workspace
@@ -668,12 +668,12 @@ msgstr "Cobrança"
 #. Label of the dunning_amount (Currency) field in DocType 'Dunning'
 #: erpnext/accounts/doctype/dunning/dunning.json
 msgid "Dunning Amount"
-msgstr "Valor da cobrança"
+msgstr "Valor de cobrança"
 
 #. Label of the base_dunning_amount (Currency) field in DocType 'Dunning'
 #: erpnext/accounts/doctype/dunning/dunning.json
 msgid "Dunning Amount (Company Currency)"
-msgstr "Valor da cobrança (moeda da empresa)"
+msgstr "Valor de cobrança (moeda da empresa)"
 
 #. Label of the dunning_fee (Currency) field in DocType 'Dunning'
 #. Label of the dunning_fee (Currency) field in DocType 'Dunning Type'
@@ -714,7 +714,7 @@ msgstr "Grupo de clientes duplicado"
 
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.py:71
 msgid "Duplicate Entry. Please check Authorization Rule {0}"
-msgstr "Entrada duplicada. Verifique a Regra de Autorização {0}"
+msgstr "Entrada duplicada. Verifique a regra de autorização {0}"
 
 #: erpnext/assets/doctype/asset/asset.py:409
 msgid "Duplicate Finance Book"
@@ -768,7 +768,7 @@ msgstr "Grupo de itens duplicado encontrado na tabela de grupos de itens"
 
 #: erpnext/projects/doctype/project/project.js:186
 msgid "Duplicate project has been created"
-msgstr "O projeto duplicado foi criado"
+msgstr "Projeto duplicado foi criado"
 
 #: erpnext/utilities/transaction_base.py:54
 msgid "Duplicate row {0} with same {1}"
@@ -802,7 +802,7 @@ msgstr "Condição dinâmica"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Dyne"
-msgstr "Dyne"
+msgstr ""
 
 #: erpnext/regional/italy/utils.py:221 erpnext/regional/italy/utils.py:241
 #: erpnext/regional/italy/utils.py:251 erpnext/regional/italy/utils.py:259
@@ -816,27 +816,27 @@ msgstr "Informações de Faturamento Eletrônico Ausentes"
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
 msgid "EAN"
-msgstr "EAN"
+msgstr ""
 
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
 msgid "EAN-12"
-msgstr "EAN-12"
+msgstr ""
 
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
 msgid "EAN-8"
-msgstr "EAN-8"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "EMU Of Charge"
-msgstr "EMU Of Charge"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "EMU of current"
-msgstr "EMU of current"
+msgstr ""
 
 #. Label of the user_id (Data) field in DocType 'Employee Group Table'
 #: erpnext/setup/doctype/employee_group_table/employee_group_table.json
@@ -854,7 +854,7 @@ msgstr "Cada transação"
 
 #: erpnext/stock/report/stock_ageing/stock_ageing.py:176
 msgid "Earliest"
-msgstr "Mais antiga"
+msgstr "Mais Antigas"
 
 #: erpnext/stock/report/stock_balance/stock_balance.py:516
 msgid "Earliest Age"
@@ -908,7 +908,7 @@ msgstr "Editar nota"
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Edit Posting Date and Time"
-msgstr "Editar data e hora do lançamento"
+msgstr "Editar data e hora de lançamento"
 
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:286
 msgid "Edit Receipt"
@@ -916,7 +916,7 @@ msgstr "Editar Recibo"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:777
 msgid "Editing {0} is not allowed as per POS Profile settings"
-msgstr "A edicao de {0} não é permitida conforme as configurações do Perfil de PDV"
+msgstr "A edição de {0} não é permitida conforme as configurações do perfil de PDV"
 
 #. Label of the education (Table) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -928,11 +928,11 @@ msgstr "Escolaridade"
 #. 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Educational Qualification"
-msgstr "Formação acadêmica"
+msgstr "Formação"
 
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.py:147
 msgid "Either 'Selling' or 'Buying' must be selected"
-msgstr "'Vendas' ou 'Compras' deve ser selecionado"
+msgstr "É preciso selecionar 'Vendas' ou 'Compras'"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:290
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:441

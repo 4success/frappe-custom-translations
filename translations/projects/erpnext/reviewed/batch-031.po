@@ -24,7 +24,7 @@ msgstr "Nova versão"
 
 #: erpnext/stock/doctype/warehouse/warehouse_tree.js:16
 msgid "New Warehouse Name"
-msgstr "Nome do novo armazém"
+msgstr "Novo nome do armazém"
 
 #. Label of the new_workplace (Data) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -33,17 +33,17 @@ msgstr "Novo local de trabalho"
 
 #: erpnext/selling/doctype/customer/customer.py:362
 msgid "New credit limit is less than current outstanding amount for the customer. Credit limit has to be atleast {0}"
-msgstr "O novo limite de crédito é inferior ao valor em aberto atual do cliente. O limite de crédito deve ser de pelo menos {0}"
+msgstr "O novo limite de crédito é inferior ao saldo devedor atual do cliente. O limite de crédito deve ser de pelo menos {0}"
 
 #: erpnext/accounts/notification/notification_for_new_fiscal_year/notification_for_new_fiscal_year.html:3
 msgid "New fiscal year created :- "
-msgstr "Novo ano fiscal criado :- "
+msgstr "Novo exercício fiscal criado :- "
 
 #. Description of the 'Generate New Invoices Past Due Date' (Check) field in
 #. DocType 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
 msgid "New invoices will be generated as per schedule even if current invoices are unpaid or past due date"
-msgstr "Novas faturas serão geradas conforme o agendamento, mesmo que as faturas atuais não estejam pagas ou estejam vencidas"
+msgstr "Novas faturas serão geradas conforme o agendamento, mesmo se as faturas atuais não estiverem pagas ou estiverem vencidas"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:251
 msgid "New release date should be in the future"
@@ -92,7 +92,7 @@ msgstr "Próximo e-mail será enviado em:"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:161
 msgid "No <strong>Account Data</strong> row found"
-msgstr "Nenhuma linha de <strong>Dados da conta</strong> encontrada"
+msgstr "Nenhuma linha de <strong>dados da conta</strong> encontrada"
 
 #: erpnext/setup/doctype/company/test_company.py:99
 msgid "No Account matched these filters: {}"
@@ -100,12 +100,12 @@ msgstr "Nenhuma conta corresponde a esses filtros: {}"
 
 #: erpnext/quality_management/doctype/quality_review/quality_review_list.js:5
 msgid "No Action"
-msgstr "Nenhuma ação"
+msgstr "Nenhuma Ação"
 
 #. Option for the 'Status' (Select) field in DocType 'Call Log'
 #: erpnext/telephony/doctype/call_log/call_log.json
 msgid "No Answer"
-msgstr "Não atendida"
+msgstr "Sem resposta"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2447
 msgid "No Customer found for Inter Company Transactions which represents company {0}"
@@ -126,11 +126,11 @@ msgstr "Sem impacto no razão contábil"
 
 #: erpnext/stock/get_item_details.py:318
 msgid "No Item with Barcode {0}"
-msgstr "Nenhum item com código de barras {0}"
+msgstr "Nenhum artigo com código de barras {0}"
 
 #: erpnext/stock/get_item_details.py:322
 msgid "No Item with Serial No {0}"
-msgstr "Nenhum item com nº de série {0}"
+msgstr "Nenhum item com número de série {0}"
 
 #: erpnext/controllers/subcontracting_controller.py:1445
 msgid "No Items selected for transfer."
@@ -138,7 +138,7 @@ msgstr "Nenhum item selecionado para transferência."
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1226
 msgid "No Items with Bill of Materials to Manufacture"
-msgstr "Não há itens com BOM para fabricar"
+msgstr "Não há itens com Lista de Materiais para Fabricação"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1364
 msgid "No Items with Bill of Materials."
@@ -154,7 +154,7 @@ msgstr "Sem notas"
 
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.js:239
 msgid "No Outstanding Invoices found for this party"
-msgstr "Nenhuma fatura em aberto encontrada para este cadastro"
+msgstr "Nenhuma fatura pendente encontrada para este cadastro"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:669
 msgid "No POS Profile found. Please create a New POS Profile first"
@@ -165,7 +165,7 @@ msgstr "Nenhum perfil de PDV encontrado. Crie primeiro um novo perfil de PDV"
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1840
 #: erpnext/stock/doctype/item/item.py:1369
 msgid "No Permission"
-msgstr "Sem permissão"
+msgstr "Nenhuma permissão"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:771
 msgid "No Purchase Orders were created"
@@ -179,7 +179,7 @@ msgstr "Nenhum registro para essas configurações."
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:337
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1081
 msgid "No Remarks"
-msgstr "Sem observações"
+msgstr "Sem Observações"
 
 #: erpnext/public/js/utils/unreconcile.js:147
 msgid "No Selection"
@@ -225,11 +225,11 @@ msgstr "Nenhuma ordem de trabalho foi criada"
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:828
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:860
 msgid "No accounting entries for the following warehouses"
-msgstr "Nenhum lançamento contábil para os seguintes armazéns"
+msgstr "Nenhuma entrada de contabilidade para os seguintes armazéns"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:784
 msgid "No active BOM found for item {0}. Delivery by Serial No cannot be ensured"
-msgstr "Nenhum BOM ativo encontrado para o item {0}. A entrega por nº de série não pode ser garantida"
+msgstr "Nenhum BOM ativo encontrado para o item {0}. A entrega por número de série não pode ser garantida"
 
 #: erpnext/stock/doctype/item_variant_settings/item_variant_settings.js:46
 msgid "No additional fields available"
@@ -237,7 +237,7 @@ msgstr "Nenhum campo adicional disponível"
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:1360
 msgid "No available quantity to reserve for item {0} in warehouse {1}"
-msgstr "Não há quantidade disponível para reservar do item {0} no armazém {1}"
+msgstr "Nenhuma quantidade disponível para reservar para o item {0} no armazém {1}"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:495
 msgid "No billing email found for customer: {0}"
@@ -245,7 +245,7 @@ msgstr "Nenhum e-mail de cobrança encontrado para o cliente: {0}"
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.py:445
 msgid "No contacts with email IDs found."
-msgstr "Nenhum contato com endereço de e-mail encontrado."
+msgstr "Nenhum contato com e-mail encontrado."
 
 #: erpnext/selling/page/sales_funnel/sales_funnel.js:134
 msgid "No data for this period"
@@ -253,7 +253,7 @@ msgstr "Nenhum dado para este período"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:46
 msgid "No data found. Seems like you uploaded a blank file"
-msgstr "Nenhum dado encontrado. Parece que você enviou um arquivo em branco"
+msgstr "Nenhum dado encontrado. Parece que você carregou um arquivo em branco"
 
 #: erpnext/templates/generators/bom.html:85
 msgid "No description given"
@@ -265,7 +265,7 @@ msgstr "Nenhuma diferença encontrada para a conta de estoque {0}"
 
 #: erpnext/telephony/doctype/call_log/call_log.py:117
 msgid "No employee was scheduled for call popup"
-msgstr "Nenhum funcionário foi programado para o pop-up de chamada"
+msgstr "Nenhum funcionário foi agendado para o pop-up de chamada"
 
 #: erpnext/controllers/subcontracting_controller.py:1354
 msgid "No item available for transfer."
@@ -273,16 +273,16 @@ msgstr "Nenhum item disponível para transferência."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:157
 msgid "No items are available in sales orders {0} for production"
-msgstr "Nenhum item está disponível nos pedidos de venda {0} para produção"
+msgstr "Não há itens disponíveis nos pedidos de venda {0} para produção"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:154
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:166
 msgid "No items are available in the sales order {0} for production"
-msgstr "Nenhum item está disponível no pedido de venda {0} para produção"
+msgstr "Não há itens disponíveis no pedido de venda {0} para produção"
 
 #: erpnext/selling/page/point_of_sale/pos_item_selector.js:351
 msgid "No items found. Scan barcode again."
-msgstr "Nenhum item encontrado. Escaneie o código de barras novamente."
+msgstr "Nenhum item encontrado. Leia o código de barras novamente."
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:76
 msgid "No items in cart"
@@ -294,7 +294,7 @@ msgstr "Nenhum item a receber está em atraso"
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.py:452
 msgid "No matches occurred via auto reconciliation"
-msgstr "Nenhuma correspondência foi encontrada pela conciliação automática"
+msgstr "Nenhuma correspondência foi encontrada via conciliação automática"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:1015
 msgid "No material request created"
@@ -302,11 +302,11 @@ msgstr "Não foi criada nenhuma solicitação de material"
 
 #: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.py:199
 msgid "No more children on Left"
-msgstr "Sem mais filhos à esquerda"
+msgstr "Não há mais filhos à esquerda"
 
 #: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.py:213
 msgid "No more children on Right"
-msgstr "Sem mais filhos à direita"
+msgstr "Não há mais filhos à direita"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:600
 msgid "No of Deliveries"
@@ -343,7 +343,7 @@ msgstr "Nº de meses (receita)"
 #. Reposting Settings'
 #: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.json
 msgid "No of Parallel Reposting (Per Item)"
-msgstr "Nº de reprocessamentos paralelos (por item)"
+msgstr "Nº de repostagens paralelas (por item)"
 
 #. Label of the no_of_shares (Int) field in DocType 'Share Balance'
 #. Label of the no_of_shares (Int) field in DocType 'Share Transfer'
@@ -380,7 +380,7 @@ msgstr "Nenhuma solicitação de material em aberto encontrada para os critério
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1164
 msgid "No open POS Opening Entry found for POS Profile {0}."
-msgstr "Nenhum registro de abertura de PDV em aberto encontrado para o perfil de PDV {0}."
+msgstr "Nenhum lançamento de abertura de PDV em aberto encontrado para o perfil de PDV {0}."
 
 #: erpnext/public/js/templates/crm_activities.html:145
 msgid "No open event"
@@ -400,7 +400,7 @@ msgstr "Nenhuma fatura pendente requer reavaliação da taxa de câmbio"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:2493
 msgid "No outstanding {0} found for the {1} {2} which qualify the filters you have specified."
-msgstr "Nenhum {0} em aberto encontrado para {1} {2} que atenda aos filtros especificados."
+msgstr "Nenhum {0} pendente encontrado para {1} {2} que atenda aos filtros especificados."
 
 #: erpnext/public/js/controllers/buying.js:533
 msgid "No pending Material Requests found to link for the given items."
@@ -438,7 +438,7 @@ msgstr "Nenhum registro encontrado na tabela de pagamentos"
 
 #: erpnext/public/js/stock_reservation.js:222
 msgid "No reserved stock to unreserve."
-msgstr "Não há estoque reservado para liberar."
+msgstr "Nenhum estoque reservado para desfazer a reserva."
 
 #: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.py:117
 msgid "No sales data found for the selected items."
@@ -491,7 +491,7 @@ msgstr "Tarefas não concluídas"
 #: erpnext/quality_management/doctype/non_conformance/non_conformance.json
 #: erpnext/quality_management/workspace/quality/quality.json
 msgid "Non Conformance"
-msgstr "Não conformidade"
+msgstr "Não Conformidade"
 
 #. Label of the non_depreciable_category (Check) field in DocType 'Asset
 #. Category'
@@ -514,24 +514,24 @@ msgstr "Passivos não circulantes"
 
 #: erpnext/selling/report/sales_analytics/sales_analytics.js:95
 msgid "Non-Zeros"
-msgstr "Diferentes de zero"
+msgstr "Não zeros"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:553
 msgid "None of the items have any change in quantity or value."
-msgstr "Nenhum dos itens teve alteração na quantidade ou no valor."
+msgstr "Nenhum dos itens teve qualquer alteração na quantidade ou no valor."
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json erpnext/stock/utils.py:711
 #: erpnext/stock/utils.py:713
 msgid "Nos"
-msgstr "Un"
+msgstr "Nos"
 
 #. Option for the 'Delivery Status' (Select) field in DocType 'Sales Order'
 #. Option for the 'Based On' (Select) field in DocType 'Authorization Rule'
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 msgid "Not Applicable"
-msgstr "Não se aplica"
+msgstr "Não aplicável"
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:848
 #: erpnext/selling/page/point_of_sale/pos_controller.js:877
@@ -585,7 +585,7 @@ msgstr "Não iniciado"
 
 #: erpnext/accounts/report/cash_flow/cash_flow.py:405
 msgid "Not able to find the earliest Fiscal Year for the given company."
-msgstr "Não foi possível encontrar o ano fiscal mais antigo para a empresa informada."
+msgstr "Não foi possível encontrar o exercício fiscal mais antigo para a empresa informada."
 
 #: erpnext/stock/doctype/item_alternative/item_alternative.py:33
 msgid "Not allow to set alternative item for the item {0}"
@@ -605,11 +605,11 @@ msgstr "Não autorizado, pois {0} excede os limites"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:432
 msgid "Not authorized to edit frozen Account {0}"
-msgstr "Não autorizado para editar conta congelada {0}"
+msgstr "Não autorizado a editar a conta congelada {0}"
 
 #: erpnext/templates/form_grid/stock_entry_grid.html:26
 msgid "Not in Stock"
-msgstr "Sem estoque"
+msgstr "Fora de estoque"
 
 #: erpnext/templates/includes/products_as_grid.html:20
 msgid "Not in stock"
@@ -617,11 +617,11 @@ msgstr "Esgotado"
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1283
 msgid "Not permitted to make Purchase Orders"
-msgstr "Sem permissão para criar pedidos de compra"
+msgstr "Não é permitido criar pedidos de compra"
 
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log_list.js:21
 msgid "Note: Automatic log deletion only applies to logs of type <i>Update Cost</i>"
-msgstr "Observação: a exclusão automática de logs se aplica apenas a logs do tipo <i>Atualizar custo</i>"
+msgstr "Observação: a exclusão automática de logs se aplica apenas a logs do tipo <i>Update Cost</i>"
 
 #: erpnext/accounts/party.py:698
 msgid "Note: Due Date exceeds allowed {0} credit days by {1} day(s)"
@@ -631,19 +631,19 @@ msgstr "Observação: a data de vencimento excede os {0} dias de crédito permit
 #. Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Note: Email will not be sent to disabled users"
-msgstr "Observação: o e-mail não será enviado para usuários desativados"
+msgstr "Observação: o e-mail não será enviado para usuários desabilitados"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:703
 msgid "Note: If you want to use the finished good {0} as a raw material, then enable the 'Do Not Explode' checkbox in the Items table against the same raw material."
-msgstr "Observação: se você quiser usar o produto acabado {0} como matéria-prima, ative a caixa de seleção 'Não explodir' na tabela Itens para essa mesma matéria-prima."
+msgstr "Observação: se você quiser usar o produto acabado {0} como matéria-prima, habilite a caixa de seleção 'Do Not Explode' na tabela Itens para essa mesma matéria-prima."
 
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:94
 msgid "Note: Item {0} added multiple times"
-msgstr "Observação: item {0} adicionado várias vezes"
+msgstr "Nota: Item {0} adicionado várias vezes"
 
 #: erpnext/controllers/accounts_controller.py:711
 msgid "Note: Payment Entry will not be created since 'Cash or Bank Account' was not specified"
-msgstr "Observação: o lançamento de pagamento não será criado porque 'Conta de caixa ou bancária' não foi especificada"
+msgstr "Observação: o lançamento de pagamento não será criado, pois 'Cash or Bank Account' não foi informado"
 
 #: erpnext/accounts/doctype/cost_center/cost_center.js:30
 msgid "Note: This Cost Center is a Group. Cannot make accounting entries against groups."
@@ -732,4 +732,4 @@ msgstr "Notificar outro"
 #. Reposting Settings'
 #: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.json
 msgid "Notify Reposting Error to Role"
-msgstr "Notificar erro de reprocessamento para o perfil"
+msgstr "Notificar erro de repostagem para o perfil"

@@ -28,7 +28,7 @@ msgstr "Configurações da visualização de lista de {0}"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:37
 msgid "{0} M"
-msgstr "{0} M"
+msgstr "{0} m"
 
 #: frappe/public/js/frappe/views/map/map_view.js:14
 msgid "{0} Map"
@@ -61,7 +61,7 @@ msgstr "Árvore de {0}"
 #: frappe/public/js/frappe/form/footer/form_timeline.js:128
 #: frappe/public/js/frappe/form/sidebar/form_sidebar.js:130
 msgid "{0} Web page views"
-msgstr "{0} visualizações de página web"
+msgstr "Visualizações da página da web de {0}"
 
 #: frappe/public/js/frappe/form/link_selector.js:225
 msgid "{0} added"
@@ -93,7 +93,7 @@ msgstr "{0} e {1}"
 
 #: frappe/public/js/frappe/form/sidebar/form_sidebar_users.js:72
 msgid "{0} are currently {1}"
-msgstr "{0} estão {1} no momento"
+msgstr "{0} estão atualmente {1}"
 
 #: frappe/printing/doctype/print_format/print_format.py:98
 msgid "{0} are required"
@@ -101,7 +101,7 @@ msgstr "{0} são obrigatórios"
 
 #: frappe/desk/form/assign_to.py:286
 msgid "{0} assigned a new task {1} {2} to you"
-msgstr "{0} atribuiu uma nova tarefa {1} {2} a você"
+msgstr "{0} atribuiu a você uma nova tarefa {1} {2}"
 
 #: frappe/desk/doctype/todo/todo.py:48
 msgid "{0} assigned {1}: {2}"
@@ -131,7 +131,7 @@ msgstr "{0} não pode ser retificado porque não está cancelado. Cancele o docu
 
 #: frappe/public/js/form_builder/store.js:190
 msgid "{0} cannot be hidden and mandatory without any default value"
-msgstr "{0} não pode ser oculto e obrigatório sem valor padrão"
+msgstr "{0} não pode ser oculto e obrigatório sem um valor padrão"
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:128
 msgid "{0} changed the value of {1}"
@@ -187,11 +187,11 @@ msgstr "{0} não existe na linha {1}"
 
 #: frappe/database/mariadb/schema.py:141 frappe/database/postgres/schema.py:187
 msgid "{0} field cannot be set as unique in {1}, as there are non-unique existing values"
-msgstr "O campo {0} não pode ser definido como exclusivo em {1}, pois há valores existentes não exclusivos"
+msgstr "O campo {0} não pode ser definido como único em {1}, pois há valores existentes que não são únicos"
 
 #: frappe/core/doctype/data_import/importer.py:1070
 msgid "{0} format could not be determined from the values in this column. Defaulting to {1}."
-msgstr "Não foi possível determinar o formato de {0} pelos valores desta coluna. Usando {1} como padrão."
+msgstr "Não foi possível determinar o formato de {0} com base nos valores desta coluna. O padrão será {1}."
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:101
 msgid "{0} from {1} to {2}"
@@ -207,11 +207,11 @@ msgstr "{0} h"
 
 #: frappe/core/doctype/user_permission/user_permission.py:77
 msgid "{0} has already assigned default value for {1}."
-msgstr "{0} já definiu um valor padrão para {1}."
+msgstr "{0} já atribuiu um valor padrão para {1}."
 
 #: frappe/database/query.py:1158
 msgid "{0} has invalid backtick notation: {1}"
-msgstr "{0} tem notação com crase inválida: {1}"
+msgstr "{0} tem uma notação com crase inválida: {1}"
 
 #: frappe/email/queue.py:124
 msgid "{0} has left the conversation in {1} {2}"
@@ -236,7 +236,7 @@ msgstr "{0} é um campo obrigatório"
 
 #: frappe/core/doctype/file/file.py:576
 msgid "{0} is a not a valid zip file"
-msgstr "{0} não é um arquivo ZIP válido"
+msgstr "{0} não é um arquivo zip válido"
 
 #: frappe/core/doctype/doctype/doctype.py:1633
 msgid "{0} is an invalid Data field."
@@ -244,7 +244,7 @@ msgstr "{0} é um campo Data inválido."
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:162
 msgid "{0} is an invalid email address in 'Recipients'"
-msgstr "{0} é um endereço de e-mail inválido em 'Recipients'"
+msgstr "{0} é um endereço de e-mail inválido em 'Destinatários'"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:1464
 msgid "{0} is between {1} and {2}"
@@ -253,7 +253,7 @@ msgstr "{0} está entre {1} e {2}"
 #: frappe/public/js/frappe/form/sidebar/form_sidebar_users.js:41
 #: frappe/public/js/frappe/form/sidebar/form_sidebar_users.js:69
 msgid "{0} is currently {1}"
-msgstr "{0} está {1} no momento"
+msgstr "{0} está atualmente {1}"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:1433
 msgid "{0} is equal to {1}"
@@ -289,7 +289,7 @@ msgstr "{0} não é uma tabela filha de {1}"
 
 #: frappe/core/doctype/document_naming_rule/document_naming_rule.py:50
 msgid "{0} is not a field of doctype {1}"
-msgstr "{0} não é um campo do DocType {1}"
+msgstr "{0} não é um campo do doctype {1}"
 
 #: frappe/www/printview.py:380
 msgid "{0} is not a raw printing format."
@@ -334,7 +334,7 @@ msgstr "{0} não é um DocType pai válido para {1}"
 
 #: frappe/permissions.py:844
 msgid "{0} is not a valid parentfield for {1}"
-msgstr "{0} não é um campo pai válido para {1}"
+msgstr "{0} não é um parentfield válido para {1}"
 
 #: frappe/email/doctype/auto_email_report/auto_email_report.py:117
 msgid "{0} is not a valid report format. Report format should one of the following {1}"
@@ -342,7 +342,7 @@ msgstr "{0} não é um formato de relatório válido. O formato do relatório de
 
 #: frappe/core/doctype/file/file.py:556
 msgid "{0} is not a zip file"
-msgstr "{0} não é um arquivo ZIP"
+msgstr "{0} não é um arquivo zip"
 
 #: frappe/core/doctype/user_invitation/user_invitation.py:182
 msgid "{0} is not an allowed role for {1}"
@@ -366,7 +366,7 @@ msgstr "{0} não está definido"
 
 #: frappe/printing/doctype/print_format/print_format.py:176
 msgid "{0} is now default print format for {1} doctype"
-msgstr "{0} agora é o formato de impressão padrão para o DocType {1}"
+msgstr "{0} agora é o formato de impressão padrão para o doctype {1}"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:1472
 msgid "{0} is one of {1}"
@@ -386,7 +386,7 @@ msgstr "{0} está definido"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:1467
 msgid "{0} is within {1}"
-msgstr "{0} está dentro de {1}"
+msgstr "{0} está em {1}"
 
 #: frappe/public/js/frappe/list/list_view.js:1844
 msgid "{0} items selected"
@@ -394,7 +394,7 @@ msgstr "{0} itens selecionados"
 
 #: frappe/core/doctype/user/user.py:1458
 msgid "{0} just impersonated as you. They gave this reason: {1}"
-msgstr "{0} acabou de se passar por você. Motivo informado: {1}"
+msgstr "{0} acabou de se passar por você. Foi dado o seguinte motivo: {1}"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:152
 #: frappe/public/js/frappe/form/sidebar/form_sidebar.js:142
@@ -411,7 +411,7 @@ msgstr "{0} saiu: {1}"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:27
 msgid "{0} m"
-msgstr "{0} m"
+msgstr "{0} min"
 
 #: frappe/desk/notifications.py:407
 msgid "{0} mentioned you in a comment in {1} {2}"
@@ -427,7 +427,7 @@ msgstr "há {0} meses"
 
 #: frappe/model/document.py:1861
 msgid "{0} must be after {1}"
-msgstr "{0} deve ser posterior a {1}"
+msgstr "{0} deve ser depois de {1}"
 
 #: frappe/model/document.py:1613
 msgid "{0} must be beginning with '{1}'"
@@ -439,7 +439,7 @@ msgstr "{0} deve ser igual a '{1}'"
 
 #: frappe/model/document.py:1611
 msgid "{0} must be none of {1}"
-msgstr "{0} não pode ser nenhum de {1}"
+msgstr "{0} não deve ser nenhum dos valores de {1}"
 
 #: frappe/model/document.py:1609 frappe/utils/csvutils.py:161
 msgid "{0} must be one of {1}"
@@ -451,7 +451,7 @@ msgstr "{0} deve ser definido primeiro"
 
 #: frappe/model/base_document.py:830
 msgid "{0} must be unique"
-msgstr "{0} deve ser exclusivo"
+msgstr "{0} deve ser único"
 
 #: frappe/model/document.py:1617
 msgid "{0} must be {1} {2}"
@@ -459,7 +459,7 @@ msgstr "{0} deve ser {1} {2}"
 
 #: frappe/core/doctype/language/language.py:79
 msgid "{0} must begin and end with a letter and can only contain letters, hyphen or underscore."
-msgstr "{0} deve começar e terminar com uma letra e pode conter apenas letras, hífen ou sublinhado."
+msgstr "{0} deve começar e terminar com uma letra e só pode conter letras, hífen ou sublinhado."
 
 #: frappe/workflow/doctype/workflow/workflow.py:91
 msgid "{0} not a valid State"
@@ -489,7 +489,7 @@ msgstr "{0} ou {1}"
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:177
 msgid "{0} record deleted"
-msgstr "Registro {0} excluído"
+msgstr "{0} registro excluído"
 
 #: frappe/public/js/frappe/logtypes.js:22
 msgid "{0} records are not automatically deleted."
@@ -526,7 +526,7 @@ msgstr "{0} removeu {1} linhas de {2}"
 
 #: frappe/public/js/frappe/roles_editor.js:64
 msgid "{0} role does not have permission on any doctype"
-msgstr "O perfil {0} não tem permissão em nenhum DocType"
+msgstr "O perfil {0} não tem permissão em nenhum doctype"
 
 #: frappe/model/document.py:1852
 msgid "{0} row #{1}:"
@@ -540,7 +540,7 @@ msgstr "{0} linhas de {1}"
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:259
 msgctxt "User added rows to child table"
 msgid "{0} rows to {1}"
-msgstr "{0} linhas em {1}"
+msgstr "{0} linhas para {1}"
 
 #: frappe/desk/query_report.py:701
 msgid "{0} saved successfully"
@@ -552,7 +552,7 @@ msgstr "{0} atribuiu esta tarefa a si mesmo: {1}"
 
 #: frappe/share.py:229
 msgid "{0} shared a document {1} {2} with you"
-msgstr "{0} compartilhou com você o documento {1} {2}"
+msgstr "{0} compartilhou com você um documento {1} {2}"
 
 #: frappe/core/doctype/docshare/docshare.py:77
 msgid "{0} shared this document with everyone"
@@ -592,7 +592,7 @@ msgstr "{0} para parar de receber e-mails deste tipo"
 #: frappe/public/js/frappe/form/controls/date_range.js:71
 #: frappe/public/js/frappe/form/formatters.js:238
 msgid "{0} to {1}"
-msgstr "{0} a {1}"
+msgstr "de {0} a {1}"
 
 #: frappe/core/doctype/docshare/docshare.py:89
 msgid "{0} un-shared this document with {1}"
@@ -612,7 +612,7 @@ msgstr "{0} visualizou isto"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:35
 msgid "{0} w"
-msgstr "{0} sem."
+msgstr "{0} sem"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:64
 msgid "{0} weeks ago"

@@ -6,6 +6,7 @@ msgstr ""
 "PO-Revision-Date: 2026-01-21 06:48\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,15 +17,16 @@ msgstr ""
 "X-Crowdin-Language: pt-BR\n"
 "X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
 "X-Crowdin-File-ID: 138\n"
-"Language: pt_BR\n"
 
 #: frappe/core/doctype/user/user.js:394
 msgid "Note: This will be shared with user."
 msgstr "Nota: isso será compartilhado com o usuário."
 
 #: frappe/website/web_form/request_to_delete_data/request_to_delete_data.js:8
-msgid "Note: Your request for account deletion will be fulfilled within {0} hours."
-msgstr "Nota: sua solicitação de exclusão da conta será atendida em até {0} horas."
+msgid ""
+"Note: Your request for account deletion will be fulfilled within {0} hours."
+msgstr ""
+"Nota: sua solicitação de exclusão da conta será atendida em até {0} horas."
 
 #: frappe/core/doctype/data_export/exporter.py:183
 msgid "Notes:"
@@ -98,7 +100,8 @@ msgstr "Notificação: o cliente {0} não tem número de celular definido"
 
 #: frappe/email/doctype/notification/notification.py:547
 msgid "Notification: document {0} has no {1} number set (field: {2})"
-msgstr "Notificação: o documento {0} não tem número de {1} definido (campo: {2})"
+msgstr ""
+"Notificação: o documento {0} não tem número de {1} definido (campo: {2})"
 
 #: frappe/email/doctype/notification/notification.py:556
 msgid "Notification: user {0} has no Mobile number set"
@@ -119,7 +122,8 @@ msgstr "Notificações desativadas"
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Notifications and bulk mails will be sent from this outgoing server."
-msgstr "Notificações e e-mails em massa serão enviados deste servidor de saída."
+msgstr ""
+"Notificações e e-mails em massa serão enviados deste servidor de saída."
 
 #. Label of the notify_on_every_login (Check) field in DocType 'Note'
 #: frappe/desk/doctype/note/note.json
@@ -144,7 +148,7 @@ msgstr "Notificar se não houver resposta"
 #. Label of the unreplied_for_mins (Int) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Notify if unreplied for (in mins)"
-msgstr "Notificar se não houver resposta por (em min.)"
+msgstr "Notificar se não houver resposta por (min.)"
 
 #. Label of the notify_on_login (Check) field in DocType 'Note'
 #: frappe/desk/doctype/note/note.json
@@ -212,7 +216,8 @@ msgstr "Número de consultas"
 #: frappe/core/doctype/doctype/doctype.py:444
 #: frappe/public/js/frappe/doctype/index.js:66
 msgid "Number of attachment fields are more than {}, limit updated to {}."
-msgstr "O número de campos de anexo é maior que {}; o limite foi atualizado para {}."
+msgstr ""
+"O número de campos de anexo é maior que {}; o limite foi atualizado para {}."
 
 #: frappe/core/doctype/system_settings/system_settings.py:189
 msgid "Number of backups must be greater than zero."
@@ -220,21 +225,33 @@ msgstr "O número de backups deve ser maior que zero."
 
 #. Description of the 'Columns' (Int) field in DocType 'Customize Form Field'
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
-msgid "Number of columns for a field in a Grid (Total Columns in a grid should be less than 11)"
-msgstr "Número de colunas de um campo em uma grade (o total de colunas em uma grade deve ser menor que 11)"
+msgid ""
+"Number of columns for a field in a Grid (Total Columns in a grid should be "
+"less than 11)"
+msgstr ""
+"Número de colunas de um campo em uma grade (o total de colunas em uma grade "
+"deve ser menor que 11)"
 
 #. Description of the 'Columns' (Int) field in DocType 'DocField'
 #. Description of the 'Columns' (Int) field in DocType 'Custom Field'
 #: frappe/core/doctype/docfield/docfield.json
 #: frappe/custom/doctype/custom_field/custom_field.json
-msgid "Number of columns for a field in a List View or a Grid (Total Columns should be less than 11)"
-msgstr "Número de colunas de um campo em uma visualização de lista ou grade (o total de colunas deve ser menor que 11)"
+msgid ""
+"Number of columns for a field in a List View or a Grid (Total Columns should "
+"be less than 11)"
+msgstr ""
+"Número de colunas de um campo em uma visualização de lista ou grade (o total "
+"de colunas deve ser menor que 11)"
 
 #. Description of the 'Document Share Key Expiry (in Days)' (Int) field in
 #. DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
-msgid "Number of days after which the document Web View link shared on email will be expired"
-msgstr "Número de dias após os quais o link da visualização web do documento compartilhado por e-mail expirará"
+msgid ""
+"Number of days after which the document Web View link shared on email will "
+"be expired"
+msgstr ""
+"Número de dias após os quais o link da visualização web do documento "
+"compartilhado por e-mail expirará"
 
 #. Label of the cache_keys (Int) field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
@@ -259,7 +276,7 @@ msgstr "Código de autorização OAuth"
 #. Name of a DocType
 #: frappe/integrations/doctype/oauth_bearer_token/oauth_bearer_token.json
 msgid "OAuth Bearer Token"
-msgstr "Token Bearer OAuth"
+msgstr "OAuth Bearer Token"
 
 #. Name of a DocType
 #. Label of a Link in the Integrations Workspace
@@ -300,8 +317,12 @@ msgid "OAuth Settings"
 msgstr "Configurações de OAuth"
 
 #: frappe/email/doctype/email_account/email_account.js:250
-msgid "OAuth has been enabled but not authorised. Please use \"Authorise API Access\" button to do the same."
-msgstr "O OAuth foi habilitado, mas não autorizado. Use o botão \"Authorise API Access\" para fazer isso."
+msgid ""
+"OAuth has been enabled but not authorised. Please use \"Authorise API "
+"Access\" button to do the same."
+msgstr ""
+"O OAuth foi habilitado, mas não autorizado. Use o botão \"Autorizar acesso à "
+"API\" para fazer isso."
 
 #. Option for the 'Method' (Select) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json
@@ -330,16 +351,22 @@ msgid "OTP SMS Template"
 msgstr "Modelo de SMS OTP"
 
 #: frappe/core/doctype/system_settings/system_settings.py:168
-msgid "OTP SMS Template must contain <code>{0}</code> placeholder to insert the OTP."
-msgstr "O modelo de SMS OTP deve conter o placeholder <code>{0}</code> para inserir o OTP."
+msgid ""
+"OTP SMS Template must contain <code>{0}</code> placeholder to insert the OTP."
+msgstr ""
+"O modelo de SMS OTP deve conter o placeholder <code>{0}</code> para inserir "
+"o OTP."
 
 #: frappe/twofactor.py:459
 msgid "OTP Secret Reset - {0}"
 msgstr "Redefinição do segredo OTP - {0}"
 
 #: frappe/twofactor.py:478
-msgid "OTP Secret has been reset. Re-registration will be required on next login."
-msgstr "O segredo OTP foi redefinido. Será necessário fazer novo registro no próximo login."
+msgid ""
+"OTP Secret has been reset. Re-registration will be required on next login."
+msgstr ""
+"O segredo OTP foi redefinido. Será necessário fazer novo registro no próximo "
+"login."
 
 #. Description of the 'OTP SMS Template' (Small Text) field in DocType 'System
 #. Settings'
@@ -348,8 +375,11 @@ msgid "OTP placeholder should be defined as <code>{{ otp }}</code> "
 msgstr "O placeholder do OTP deve ser definido como <code>{{ otp }}</code> "
 
 #: frappe/templates/includes/login/login.js:355
-msgid "OTP setup using OTP App was not completed. Please contact Administrator."
-msgstr "A configuração de OTP usando o app OTP não foi concluída. Entre em contato com o administrador."
+msgid ""
+"OTP setup using OTP App was not completed. Please contact Administrator."
+msgstr ""
+"A configuração de OTP usando o app OTP não foi concluída. Entre em contato "
+"com o administrador."
 
 #. Label of the occurrences (Int) field in DocType 'System Health Report
 #. Errors'
@@ -449,8 +479,10 @@ msgstr "No pagamento efetuado"
 
 #. Description of the 'Is Dynamic URL?' (Check) field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
-msgid "On checking this option, URL will be treated like a jinja template string"
-msgstr "Ao marcar esta opção, a URL será tratada como uma string de template Jinja"
+msgid ""
+"On checking this option, URL will be treated like a jinja template string"
+msgstr ""
+"Ao marcar esta opção, a URL será tratada como uma string de template Jinja"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:66
 #: frappe/public/js/frappe/ui/filters/filter.js:72
@@ -503,12 +535,20 @@ msgstr "Onboarding concluído"
 #. Description of the 'Is Submittable' (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/core/doctype/doctype/doctype_list.js:43
-msgid "Once submitted, submittable documents cannot be changed. They can only be Cancelled and Amended."
-msgstr "Depois de enviados, esses documentos não podem ser alterados. Eles só podem ser cancelados e retificados."
+msgid ""
+"Once submitted, submittable documents cannot be changed. They can only be "
+"Cancelled and Amended."
+msgstr ""
+"Depois de enviados, esses documentos não podem ser alterados. Eles só podem "
+"ser cancelados e retificados."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:35
-msgid "Once you have set this, the users will only be able access documents (eg. Blog Post) where the link exists (eg. Blogger)."
-msgstr "Depois de definir isso, os usuários só poderão acessar documentos (ex.: Post do blog) onde o link existir (ex.: Blogger)."
+msgid ""
+"Once you have set this, the users will only be able access documents (eg. "
+"Blog Post) where the link exists (eg. Blogger)."
+msgstr ""
+"Depois de definir isso, os usuários só poderão acessar documentos (ex.: Post "
+"do blog) onde o link existir (ex.: Blogger)."
 
 #: frappe/www/complete_signup.html:7
 msgid "One Last Step"
@@ -528,19 +568,20 @@ msgstr "Somente 200 inserções são permitidas em uma solicitação"
 
 #: frappe/email/doctype/email_queue/email_queue.py:90
 msgid "Only Administrator can delete Email Queue"
-msgstr "Somente o Administrator pode excluir a fila de e-mail"
+msgstr "Somente o Administrador pode excluir a fila de e-mail"
 
 #: frappe/core/doctype/page/page.py:66
 msgid "Only Administrator can edit"
-msgstr "Somente o Administrator pode editar"
+msgstr "Somente o Administrador pode editar"
 
 #: frappe/core/doctype/report/report.py:76
 msgid "Only Administrator can save a standard report. Please rename and save."
-msgstr "Somente o Administrator pode salvar um relatório padrão. Renomeie e salve."
+msgstr ""
+"Somente o Administrador pode salvar um relatório padrão. Renomeie e salve."
 
 #: frappe/recorder.py:314
 msgid "Only Administrator is allowed to use Recorder"
-msgstr "Somente o Administrator pode usar o Recorder"
+msgstr "Somente o Administrador pode usar o Recorder"
 
 #. Label of the allow_edit (Link) field in DocType 'Workflow Document State'
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
@@ -562,13 +603,15 @@ msgstr "Somente os gerentes do sistema podem tornar este arquivo público."
 
 #: frappe/desk/doctype/workspace/workspace.js:32
 msgid "Only Workspace Manager can edit public workspaces"
-msgstr "Somente o perfil Workspace Manager pode editar espaços de trabalho públicos"
+msgstr ""
+"Somente o Gerente do espaço de trabalho pode editar espaços de trabalho "
+"públicos"
 
 #. Label of the only_allow_system_managers_to_upload_public_files (Check) field
 #. in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Only allow System Managers to upload public files"
-msgstr "Permitir somente que gerentes do sistema enviem arquivos públicos"
+msgstr "Permitir somente que gerentes do sistema carreguem arquivos públicos"
 
 #: frappe/modules/utils.py:68
 msgid "Only allowed to export customizations in developer mode"
@@ -585,8 +628,12 @@ msgid "Only for"
 msgstr "Somente para"
 
 #: frappe/core/doctype/data_export/exporter.py:192
-msgid "Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish."
-msgstr "Somente os campos obrigatórios são necessários para novos registros. Você pode excluir colunas não obrigatórias, se quiser."
+msgid ""
+"Only mandatory fields are necessary for new records. You can delete non-"
+"mandatory columns if you wish."
+msgstr ""
+"Somente os campos obrigatórios são necessários para novos registros. Você "
+"pode excluir colunas não obrigatórias, se quiser."
 
 #: frappe/contacts/doctype/contact/contact.py:131
 #: frappe/contacts/doctype/contact/contact.py:158
@@ -595,19 +642,22 @@ msgstr "Somente um {0} pode ser definido como principal."
 
 #: frappe/desk/reportview.py:360
 msgid "Only reports of type Report Builder can be deleted"
-msgstr "Somente relatórios do tipo Construtor de relatórios podem ser excluídos"
+msgstr ""
+"Somente relatórios do tipo Construtor de relatórios podem ser excluídos"
 
 #: frappe/desk/reportview.py:331
 msgid "Only reports of type Report Builder can be edited"
 msgstr "Somente relatórios do tipo Construtor de relatórios podem ser editados"
 
 #: frappe/custom/doctype/customize_form/customize_form.py:131
-msgid "Only standard DocTypes are allowed to be customized from Customize Form."
-msgstr "Somente DocTypes padrão podem ser personalizados em Personalizar formulário."
+msgid ""
+"Only standard DocTypes are allowed to be customized from Customize Form."
+msgstr ""
+"Somente DocTypes padrão podem ser personalizados em Personalizar formulário."
 
 #: frappe/model/delete_doc.py:283
 msgid "Only the Administrator can delete a standard DocType."
-msgstr "Somente o Administrator pode excluir um DocType padrão."
+msgstr "Somente o Administrador pode excluir um DocType padrão."
 
 #: frappe/desk/form/assign_to.py:198
 msgid "Only the assignee can complete this to-do."
@@ -688,8 +738,13 @@ msgstr "Abrir URL em uma nova guia"
 
 #. Description of the 'Quick Entry' (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
-msgid "Open a dialog with mandatory fields to create a new record quickly. There must be at least one mandatory field to show in dialog."
-msgstr "Abre uma janela com campos obrigatórios para criar um novo registro rapidamente. Deve haver pelo menos um campo obrigatório para exibir na janela."
+msgid ""
+"Open a dialog with mandatory fields to create a new record quickly. There "
+"must be at least one mandatory field to show in dialog."
+msgstr ""
+"Abre uma janela com campos obrigatórios para criar um novo registro "
+"rapidamente. Deve haver pelo menos um campo obrigatório para exibir na "
+"janela."
 
 #: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:238
 msgid "Open a module or tool"
@@ -765,4 +820,5 @@ msgstr "O operador deve ser um destes: {0}"
 
 #: frappe/database/query.py:2031
 msgid "Operator {0} requires exactly 2 arguments (left and right operands)"
-msgstr "O operador {0} exige exatamente 2 argumentos (operandos esquerdo e direito)"
+msgstr ""
+"O operador {0} exige exatamente 2 argumentos (operandos esquerdo e direito)"

@@ -53,13 +53,13 @@ msgstr "Buscar números de série automaticamente"
 #. 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Auto Insert Item Price If Missing"
-msgstr "Inserir preço do item automaticamente se faltar"
+msgstr "Inserir preço do item automaticamente se estiver faltando"
 
 #. Label of the auto_material_request (Section Break) field in DocType 'Stock
 #. Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Auto Material Request"
-msgstr "Requisição de material automática"
+msgstr "Solicitação automática de material"
 
 #: erpnext/stock/reorder_item.py:337
 msgid "Auto Material Requests Generated"
@@ -306,7 +306,7 @@ msgstr "Quantidade disponível"
 #. Name of a report
 #: erpnext/stock/report/available_serial_no/available_serial_no.json
 msgid "Available Serial No"
-msgstr "N.o de série disponível"
+msgstr "Nº de série disponível"
 
 #: erpnext/selling/report/customer_wise_item_price/customer_wise_item_price.py:38
 msgid "Available Stock"
@@ -518,7 +518,7 @@ msgstr "Item do criador de BOM"
 #: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
 msgid "BOM Detail No"
-msgstr "N.o do detalhe da BOM"
+msgstr "Nº do detalhe da BOM"
 
 #. Name of a report
 #: erpnext/manufacturing/report/bom_explorer/bom_explorer.json
@@ -578,17 +578,17 @@ msgstr "Nível da BOM"
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "BOM No"
-msgstr "N.o da BOM"
+msgstr "Nº da BOM"
 
 #. Label of the bom_no (Link) field in DocType 'Work Order Operation'
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 msgid "BOM No (For Semi-Finished Goods)"
-msgstr "N.o da BOM (para produtos semiacabados)"
+msgstr "Nº da BOM (para produtos semiacabados)"
 
 #. Description of the 'BOM No' (Link) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "BOM No. for a Finished Good Item"
-msgstr "N.o da BOM para um item acabado"
+msgstr "Nº da BOM para um item acabado"
 
 #. Name of a DocType
 #. Label of the operations (Table) field in DocType 'Routing'
@@ -610,7 +610,7 @@ msgstr "Qtd. da BOM"
 
 #: erpnext/stock/report/item_prices/item_prices.py:60
 msgid "BOM Rate"
-msgstr "Valor da BOM"
+msgstr "Preço da BOM"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_scrap_item/bom_scrap_item.json
@@ -645,7 +645,7 @@ msgstr "Árvore da BOM"
 
 #: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py:27
 msgid "BOM UOM"
-msgstr "UM da BOM"
+msgstr "UOM da BOM"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/bom_update_batch/bom_update_batch.json
@@ -832,7 +832,7 @@ msgstr "Qtd. em saldo (estoque)"
 
 #: erpnext/stock/report/available_serial_no/available_serial_no.py:144
 msgid "Balance Serial No"
-msgstr "N.o de série em saldo"
+msgstr "Nº de série em saldo"
 
 #. Option for the 'Report Type' (Select) field in DocType 'Account'
 #. Option for the 'Report Type' (Select) field in DocType 'Financial Report
@@ -891,7 +891,7 @@ msgstr "Valor em saldo"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:346
 msgid "Balance for Account {0} must always be {1}"
-msgstr "Saldo da Conta {0} deve ser sempre {1}"
+msgstr "Saldo da conta {0} deve ser sempre {1}"
 
 #. Label of the balance_must_be (Select) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json

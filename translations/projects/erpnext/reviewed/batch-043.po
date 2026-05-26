@@ -98,7 +98,7 @@ msgstr "Resolução"
 #. Label of the sla_resolution_by (Datetime) field in DocType 'Issue'
 #: erpnext/support/doctype/issue/issue.json
 msgid "Resolution By"
-msgstr "Resolver até"
+msgstr "Prazo de resolução"
 
 #. Label of the sla_resolution_date (Datetime) field in DocType 'Issue'
 #. Label of the resolution_date (Datetime) field in DocType 'Warranty Claim'
@@ -119,7 +119,7 @@ msgstr "Detalhes da resolução"
 #. 'Issue'
 #: erpnext/support/doctype/issue/issue.json
 msgid "Resolution Due"
-msgstr "Prazo de resolução"
+msgstr ""
 
 #. Label of the resolution_time (Duration) field in DocType 'Issue'
 #. Label of the resolution_time (Duration) field in DocType 'Service Level
@@ -159,7 +159,7 @@ msgstr "Resolvido por"
 #. Label of the response_by (Datetime) field in DocType 'Issue'
 #: erpnext/support/doctype/issue/issue.json
 msgid "Response By"
-msgstr "Responder até"
+msgstr "Prazo de resposta"
 
 #. Label of the response (Section Break) field in DocType 'Issue'
 #: erpnext/support/doctype/issue/issue.json
@@ -169,7 +169,7 @@ msgstr "Detalhes da resposta"
 #. Label of the response_key_list (Data) field in DocType 'Support Settings'
 #: erpnext/support/doctype/support_settings/support_settings.json
 msgid "Response Key List"
-msgstr "Lista de chaves da resposta"
+msgstr "Lista de chaves de resposta"
 
 #. Label of the response_options_sb (Section Break) field in DocType 'Support
 #. Search Source'
@@ -185,7 +185,7 @@ msgstr "Caminho da chave do resultado da resposta"
 
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.py:99
 msgid "Response Time for {0} priority in row {1} can't be greater than Resolution Time."
-msgstr "O tempo de resposta para a prioridade {0} na linha {1} não pode ser maior que o tempo de resolução."
+msgstr "O tempo de resposta para {0} prioridade na linha {1} não pode ser maior que o tempo de resolução."
 
 #. Label of the response_and_resolution_time_section (Section Break) field in
 #. DocType 'Service Level Agreement'
@@ -201,7 +201,7 @@ msgstr "Responsável"
 #: erpnext/setup/setup_wizard/operations/defaults_setup.py:108
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:158
 msgid "Rest Of The World"
-msgstr "Resto do Mundo"
+msgstr "Resto do mundo"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.js:84
 msgid "Restart"
@@ -247,19 +247,19 @@ msgstr "Chave do resultado"
 #. Source'
 #: erpnext/support/doctype/support_search_source/support_search_source.json
 msgid "Result Preview Field"
-msgstr "Campo de visualização do resultado"
+msgstr "Campo de pré-visualização do resultado"
 
 #. Label of the result_route_field (Data) field in DocType 'Support Search
 #. Source'
 #: erpnext/support/doctype/support_search_source/support_search_source.json
 msgid "Result Route Field"
-msgstr "Campo de rota do resultado"
+msgstr "Campo da rota do resultado"
 
 #. Label of the result_title_field (Data) field in DocType 'Support Search
 #. Source'
 #: erpnext/support/doctype/support_search_source/support_search_source.json
 msgid "Result Title Field"
-msgstr "Campo de título do resultado"
+msgstr "Campo do título do resultado"
 
 #: erpnext/accounts/doctype/process_period_closing_voucher/process_period_closing_voucher.js:43
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:386
@@ -300,16 +300,16 @@ msgstr "Lucros Acumulados"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:266
 msgid "Retention Stock Entry"
-msgstr "Entrada de estoque de retenção"
+msgstr "Entrada de Estoque de Retenção"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:555
 msgid "Retention Stock Entry already created or Sample Quantity not provided"
-msgstr "A entrada de estoque de retenção já foi criada ou a quantidade de amostra não foi informada"
+msgstr "Entrada de estoque de retenção já criada ou Quantidade de amostra não fornecida"
 
 #. Label of the retried (Int) field in DocType 'Bulk Transaction Log Detail'
 #: erpnext/bulk_transaction/doctype/bulk_transaction_log_detail/bulk_transaction_log_detail.json
 msgid "Retried"
-msgstr "Tentativas"
+msgstr "Retentativas"
 
 #: erpnext/bulk_transaction/doctype/bulk_transaction_log/bulk_transaction_log.js:27
 msgid "Retry Failed Transactions"
@@ -395,7 +395,7 @@ msgstr "Devolução emitida"
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:326
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:126
 msgid "Return Qty"
-msgstr "Qtd. devolvida"
+msgstr "Qtd. de devolução"
 
 #. Label of the return_qty_from_rejected_warehouse (Check) field in DocType
 #. 'Purchase Receipt Item'
@@ -403,7 +403,7 @@ msgstr "Qtd. devolvida"
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:102
 msgid "Return Qty from Rejected Warehouse"
-msgstr "Devolver qtd. do armazém rejeitado"
+msgstr "Devolver qtd. do armazém de rejeitados"
 
 #. Option for the 'Purpose' (Select) field in DocType 'Stock Entry'
 #. Option for the 'Purpose' (Select) field in DocType 'Stock Entry Type'
@@ -415,7 +415,7 @@ msgstr "Devolver matéria-prima ao cliente"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1448
 msgid "Return invoice of asset cancelled"
-msgstr "Fatura de devolução do ativo cancelada"
+msgstr ""
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:131
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:480
@@ -424,11 +424,11 @@ msgstr "Devolução de componentes"
 
 #: erpnext/accounts/report/financial_ratios/financial_ratios.py:173
 msgid "Return on Asset Ratio"
-msgstr "Retorno sobre ativos"
+msgstr "Índice de retorno sobre ativos"
 
 #: erpnext/accounts/report/financial_ratios/financial_ratios.py:174
 msgid "Return on Equity Ratio"
-msgstr "Retorno sobre patrimônio líquido"
+msgstr "Índice de retorno sobre o patrimônio líquido"
 
 #. Option for the 'Tracking Status' (Select) field in DocType 'Shipment'
 #. Option for the 'Status' (Select) field in DocType 'Subcontracting Inward
@@ -480,18 +480,18 @@ msgstr "Qtd. devolvida"
 #. Label of the returned_qty (Float) field in DocType 'Work Order Item'
 #: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
 msgid "Returned Qty "
-msgstr "Qtd. devolvida"
+msgstr "Qtd. devolvida "
 
 #. Label of the returned_qty (Float) field in DocType 'Delivery Note Item'
 #. Label of the returned_qty (Float) field in DocType 'Purchase Receipt Item'
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Returned Qty in Stock UOM"
-msgstr "Qtd. devolvida na UM de estoque"
+msgstr "Qtd. devolvida na UOM de estoque"
 
 #: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.py:101
 msgid "Returned exchange rate is neither integer not float."
-msgstr "A taxa de câmbio retornada não é inteira nem decimal."
+msgstr "A taxa de câmbio retornada não é um inteiro nem um float."
 
 #. Label of the returns (Float) field in DocType 'Cashier Closing'
 #: erpnext/accounts/doctype/cashier_closing/cashier_closing.json
@@ -558,7 +558,7 @@ msgstr "Data da revisão"
 #. Label of a Card Break in the Quality Workspace
 #: erpnext/quality_management/workspace/quality/quality.json
 msgid "Review and Action"
-msgstr "Revisão e ação"
+msgstr "Revisão e Ação"
 
 #. Group in Quality Procedure's connections
 #. Label of the reviews (Table) field in DocType 'Quality Review'
@@ -585,50 +585,50 @@ msgstr "Revisão cancelada"
 #: erpnext/accounts/doctype/account/account.json
 #: erpnext/setup/doctype/company/company.json
 msgid "Rgt"
-msgstr "Rgt"
+msgstr ""
 
 #. Label of the right_child (Link) field in DocType 'Bisect Nodes'
 #: erpnext/accounts/doctype/bisect_nodes/bisect_nodes.json
 msgid "Right Child"
-msgstr "Filho à direita"
+msgstr ""
 
 #. Label of the rgt (Int) field in DocType 'Quality Procedure'
 #: erpnext/quality_management/doctype/quality_procedure/quality_procedure.json
 msgid "Right Index"
-msgstr "Índice direito"
+msgstr ""
 
 #. Option for the 'Status' (Select) field in DocType 'Call Log'
 #: erpnext/telephony/doctype/call_log/call_log.json
 msgid "Ringing"
-msgstr "Tocando"
+msgstr ""
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Rod"
-msgstr "Haste"
+msgstr ""
 
 #. Label of the role_allowed_to_create_edit_back_dated_transactions (Link)
 #. field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Role Allowed to Create/Edit Back-dated Transactions"
-msgstr "Perfil permitido para criar/editar transações retroativas"
+msgstr ""
 
 #. Label of the stock_auth_role (Link) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Role Allowed to Edit Frozen Stock"
-msgstr "Perfil permitido para editar estoque congelado"
+msgstr ""
 
 #. Label of the role_allowed_to_over_bill (Link) field in DocType 'Accounts
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Role Allowed to Over Bill "
-msgstr "Perfil permitido para faturar a maior"
+msgstr ""
 
 #. Label of the role_allowed_to_over_deliver_receive (Link) field in DocType
 #. 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Role Allowed to Over Deliver/Receive"
-msgstr "Perfil permitido para entregar/receber a maior"
+msgstr ""
 
 #. Label of the role_to_override_stop_action (Link) field in DocType 'Accounts
 #. Settings'
@@ -640,39 +640,39 @@ msgstr "Perfil permitido para entregar/receber a maior"
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Role Allowed to Override Stop Action"
-msgstr "Perfil permitido para ignorar a ação de bloqueio"
+msgstr ""
 
 #. Label of the credit_controller (Link) field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Role allowed to bypass Credit Limit"
-msgstr "Perfil permitido para ignorar o limite de crédito"
+msgstr ""
 
 #. Description of the 'Exempted Role' (Link) field in DocType 'Accounting
 #. Period'
 #: erpnext/accounts/doctype/accounting_period/accounting_period.json
 msgid "Role allowed to bypass period restrictions."
-msgstr "Perfil permitido para ignorar as restrições do período."
+msgstr ""
 
 #. Label of the role_to_notify_on_depreciation_failure (Link) field in DocType
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Role to Notify on Depreciation Failure"
-msgstr "Perfil a notificar em caso de falha na depreciação"
+msgstr ""
 
 #. Label of the role_allowed_for_frozen_entries (Link) field in DocType
 #. 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Roles Allowed to Set and Edit Frozen Account Entries"
-msgstr "Perfis permitidos para definir e editar lançamentos contábeis congelados"
+msgstr ""
 
 #. Label of the root (Link) field in DocType 'Bisect Nodes'
 #: erpnext/accounts/doctype/bisect_nodes/bisect_nodes.json
 msgid "Root"
-msgstr "Raiz"
+msgstr ""
 
 #: erpnext/accounts/doctype/account/account_tree.js:48
 msgid "Root Company"
-msgstr "Empresa raiz"
+msgstr "Empresa Raiz"
 
 #. Label of the root_type (Select) field in DocType 'Account'
 #. Label of the root_type (Select) field in DocType 'Ledger Merge'
@@ -685,11 +685,11 @@ msgstr "Tipo raiz"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:399
 msgid "Root Type for {0} must be one of the Asset, Liability, Income, Expense and Equity"
-msgstr "O tipo raiz de {0} deve ser um entre Ativo, Passivo, Receita, Despesa e Patrimônio Líquido"
+msgstr "O tipo raiz de {0} deve ser um entre Ativo, Passivo, Receita, Despesa e Patrimônio líquido"
 
 #: erpnext/accounts/doctype/account/account.py:459
 msgid "Root Type is mandatory"
-msgstr "Tipo raiz é obrigatório"
+msgstr "O tipo raiz é obrigatório"
 
 #: erpnext/accounts/doctype/account/account.py:215
 msgid "Root cannot be edited."
@@ -697,7 +697,7 @@ msgstr "A raiz não pode ser editada."
 
 #: erpnext/accounts/doctype/cost_center/cost_center.py:47
 msgid "Root cannot have a parent cost center"
-msgstr "A raiz não pode ter centro de custo pai"
+msgstr "A raiz não pode ter um centro de custo pai"
 
 #. Label of the round_free_qty (Check) field in DocType 'Pricing Rule'
 #. Label of the round_free_qty (Check) field in DocType 'Promotional Scheme
@@ -738,7 +738,7 @@ msgstr "Arredondar valor do imposto"
 #: erpnext/accounts/doctype/account/account.json
 #: erpnext/setup/doctype/company/company.json
 msgid "Round Off for Opening"
-msgstr "Arredondamento para abertura"
+msgstr "Arredondamento de abertura"
 
 #. Label of the round_row_wise_tax (Check) field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
@@ -766,7 +766,7 @@ msgstr "Arredondar valor do imposto por linha"
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Rounded Total"
-msgstr "Total arredondado"
+msgstr "Total Arredondado"
 
 #. Label of the base_rounded_total (Currency) field in DocType 'POS Invoice'
 #. Label of the base_rounded_total (Currency) field in DocType 'Purchase
@@ -876,7 +876,7 @@ msgstr "Lançamento de ganho/perda por arredondamento para transferência de est
 #: erpnext/manufacturing/doctype/routing/routing.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "Routing"
-msgstr "Roteiro"
+msgstr "Encaminhamento"
 
 #. Label of the routing_name (Data) field in DocType 'Routing'
 #: erpnext/manufacturing/doctype/routing/routing.json
@@ -893,15 +893,15 @@ msgstr "Linha # {0}: não é possível devolver mais de {1} para o item {2}"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:186
 msgid "Row # {0}: Please add Serial and Batch Bundle for Item {1}"
-msgstr "Linha # {0}: adicione o pacote de série e lote para o item {1}"
+msgstr "Linha # {0}: adicione o pacote de séries e lotes para o item {1}"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:205
 msgid "Row # {0}: Please enter quantity for Item {1} as it is not zero."
-msgstr "Linha # {0}: informe a quantidade do item {1}, pois ela não é zero."
+msgstr "Linha # {0}: informe a quantidade para o item {1}, pois ela não é zero."
 
 #: erpnext/controllers/sales_and_purchase_return.py:150
 msgid "Row # {0}: Rate cannot be greater than the rate used in {1} {2}"
-msgstr "Linha # {0}: o preço não pode ser maior que o preço usado em {1} {2}"
+msgstr "Linha # {0}: o preço não pode ser maior que o usado em {1} {2}"
 
 #: erpnext/controllers/sales_and_purchase_return.py:134
 msgid "Row # {0}: Returned Item {1} does not exist in {2} {3}"
@@ -936,7 +936,7 @@ msgstr "Linha #{0}: a fórmula do critério de aceitação é obrigatória."
 #: erpnext/controllers/subcontracting_controller.py:125
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:534
 msgid "Row #{0}: Accepted Warehouse and Rejected Warehouse cannot be same"
-msgstr "Linha #{0}: o armazém aceito e o armazém rejeitado não podem ser iguais"
+msgstr "Linha #{0}: o armazém aceito e o armazém de rejeitados não podem ser iguais"
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:527
 msgid "Row #{0}: Accepted Warehouse is mandatory for the accepted Item {1}"
@@ -944,7 +944,7 @@ msgstr "Linha #{0}: o armazém aceito é obrigatório para o item aceito {1}"
 
 #: erpnext/controllers/accounts_controller.py:1287
 msgid "Row #{0}: Account {1} does not belong to company {2}"
-msgstr "Linha #{0}: a conta {1} não pertence a empresa {2}"
+msgstr "Linha #{0}: a conta {1} não pertence à empresa {2}"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:391
 msgid "Row #{0}: Allocated Amount cannot be greater than Outstanding Amount of Payment Request {1}"

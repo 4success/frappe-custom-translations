@@ -21,7 +21,7 @@ msgstr ""
 #. Label of the workstations_tab (Tab Break) field in DocType 'Plant Floor'
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.json
 msgid "Workstations"
-msgstr "Postos de trabalho"
+msgstr "Estações de trabalho"
 
 #. Label of the write_off (Section Break) field in DocType 'Journal Entry'
 #. Label of the column_break4 (Section Break) field in DocType 'POS Invoice'
@@ -116,7 +116,7 @@ msgstr "Limite de baixa"
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Write Off Outstanding Amount"
-msgstr "Baixar valor em aberto"
+msgstr "Baixar valor pendente"
 
 #. Label of the section_break_34 (Section Break) field in DocType 'Payment
 #. Entry'
@@ -178,7 +178,7 @@ msgstr "Ano de conclusão"
 
 #: erpnext/accounts/doctype/fiscal_year/fiscal_year.py:111
 msgid "Year start date or end date is overlapping with {0}. To avoid please set company"
-msgstr "A data de início ou término do ano se sobrepõe a {0}. Para evitar isso, defina a empresa"
+msgstr "A data de início ou término do ano está sobreposta com {0}. Para evitar isso, defina a empresa"
 
 #: erpnext/edi/doctype/code_list/code_list_import.js:29
 msgid "You are importing data for the code list:"
@@ -190,11 +190,11 @@ msgstr "Você não tem permissão para atualizar conforme as condições definid
 
 #: erpnext/accounts/general_ledger.py:793
 msgid "You are not authorized to add or update entries before {0}"
-msgstr "Você não tem permissão para adicionar ou atualizar lançamentos antes de {0}"
+msgstr "Você não está autorizado para adicionar ou atualizar entradas antes de {0}"
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:338
 msgid "You are not authorized to make/edit Stock Transactions for Item {0} under warehouse {1} before this time."
-msgstr "Você não tem autorização para criar/editar transações de estoque do item {0} no armazém {1} antes deste horário."
+msgstr "Você não está autorizado a criar/editar movimentações de estoque para o item {0} no armazém {1} antes deste horário."
 
 #: erpnext/accounts/doctype/account/account.py:312
 msgid "You are not authorized to set Frozen value"
@@ -202,11 +202,11 @@ msgstr "Você não está autorizado para definir o valor congelado"
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:489
 msgid "You are picking more than required quantity for the item {0}. Check if there is any other pick list created for the sales order {1}."
-msgstr "Você está separando mais do que a quantidade necessária para o item {0}. Verifique se há outra lista de separação criada para o pedido de venda {1}."
+msgstr "Você está separando uma quantidade maior do que a necessária para o item {0}. Verifique se há outra lista de separação criada para o pedido de venda {1}."
 
 #: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.py:111
 msgid "You can add the original invoice {} manually to proceed."
-msgstr "Você pode adicionar manualmente a fatura original {} para continuar."
+msgstr "Você pode adicionar a fatura original {} manualmente para prosseguir."
 
 #: erpnext/templates/emails/confirm_appointment.html:10
 msgid "You can also copy-paste this link in your browser"
@@ -214,7 +214,7 @@ msgstr "Você também pode copiar e colar este link no seu navegador"
 
 #: erpnext/assets/doctype/asset_category/asset_category.py:113
 msgid "You can also set default CWIP account in Company {}"
-msgstr "Você também pode definir uma conta CWIP padrão na Empresa {}"
+msgstr "Você também pode definir uma conta padrão de imobilizado em andamento (CWIP) na empresa {}"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:990
 msgid "You can change the parent account to a Balance Sheet account or select a different account."
@@ -222,7 +222,7 @@ msgstr "Você pode alterar a conta pai para uma conta patrimonial ou selecionar 
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:681
 msgid "You can not enter current voucher in 'Against Journal Entry' column"
-msgstr "Você não pode informar o comprovante atual na coluna 'Against Journal Entry'"
+msgstr "Você não pode lançar o comprovante atual na coluna 'Against Journal Entry'"
 
 #: erpnext/accounts/doctype/subscription/subscription.py:174
 msgid "You can only have Plans with the same billing cycle in a Subscription"
@@ -243,15 +243,15 @@ msgstr "Você pode resgatar até {0}."
 
 #: erpnext/manufacturing/doctype/workstation/workstation.js:59
 msgid "You can set it as a machine name or operation type. For example, stiching machine 12"
-msgstr "Você pode defini-lo como nome da máquina ou tipo de operação. Por exemplo, máquina de costura 12"
+msgstr "Você pode defini-la como nome da máquina ou tipo de operação. Por exemplo, máquina de costura 12"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1211
 msgid "You can't make any changes to Job Card since Work Order is closed."
-msgstr "Você não pode fazer alterações no cartão de trabalho porque a ordem de produção está encerrada."
+msgstr "Você não pode fazer alterações no Cartão de Trabalho, pois a Ordem de Trabalho está encerrada."
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:189
 msgid "You can't process the serial number {0} as it has already been used in the SABB {1}. {2} if you want to inward same serial number multiple times then enabled 'Allow existing Serial No to be Manufactured/Received again' in the {3}"
-msgstr "Você não pode processar o número de série {0}, pois ele já foi usado no SABB {1}. {2} se quiser dar entrada no mesmo número de série várias vezes, habilite 'Permitir que um número de série existente seja fabricado/recebido novamente' em {3}"
+msgstr "Você não pode processar o número de série {0}, pois ele já foi usado no SABB {1}. {2} se quiser dar entrada no mesmo número de série várias vezes, habilite 'Allow existing Serial No to be Manufactured/Received again' em {3}"
 
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.py:192
 msgid "You can't redeem Loyalty Points having more value than the Total Amount."
@@ -259,7 +259,7 @@ msgstr "Você não pode resgatar pontos de fidelidade com valor maior que o valo
 
 #: erpnext/manufacturing/doctype/bom/bom.js:698
 msgid "You cannot change the rate if BOM is mentioned against any Item."
-msgstr "Você não pode alterar a taxa se houver uma BOM informada para algum item."
+msgstr "Você não pode alterar o preço se houver uma BOM informada para algum item."
 
 #: erpnext/accounts/doctype/accounting_period/accounting_period.py:136
 msgid "You cannot create a {0} within the closed Accounting Period {1}"
@@ -271,7 +271,7 @@ msgstr "Você não pode criar ou cancelar qualquer lançamento contábil no per�
 
 #: erpnext/accounts/general_ledger.py:813
 msgid "You cannot create/amend any accounting entries till this date."
-msgstr "Você não pode criar/alterar lançamentos contábeis até esta data."
+msgstr "Você não pode criar/retificar lançamentos contábeis até esta data."
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:914
 msgid "You cannot credit and debit same account at the same time"
@@ -279,7 +279,7 @@ msgstr "Você não pode ter débito e crédito na mesma conta"
 
 #: erpnext/projects/doctype/project_type/project_type.py:25
 msgid "You cannot delete Project Type 'External'"
-msgstr "Você não pode excluir o tipo de projeto 'Externo'"
+msgstr "Você não pode excluir o Tipo de projeto 'Externo'"
 
 #: erpnext/setup/doctype/department/department.js:19
 msgid "You cannot edit root node."
@@ -287,7 +287,7 @@ msgstr "Você não pode editar o nó raiz."
 
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.py:144
 msgid "You cannot enable both the settings '{0}' and '{1}'."
-msgstr "Você não pode habilitar as configurações '{0}' e '{1}' ao mesmo tempo."
+msgstr "Você não pode habilitar as duas configurações '{0}' e '{1}'."
 
 #: erpnext/selling/page/point_of_sale/pos_payment.js:625
 msgid "You cannot redeem more than {0}."
@@ -295,7 +295,7 @@ msgstr "Você não pode resgatar mais de {0}."
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:183
 msgid "You cannot repost item valuation before {}"
-msgstr "Você não pode reprocessar a valoração do item antes de {}"
+msgstr "Você não pode refazer a valoração do item antes de {}"
 
 #: erpnext/accounts/doctype/subscription/subscription.py:703
 msgid "You cannot restart a Subscription that is not cancelled."
@@ -311,7 +311,7 @@ msgstr "Você não pode enviar o pedido sem pagamento."
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:107
 msgid "You cannot {0} this document because another Period Closing Entry {1} exists after {2}"
-msgstr "Você não pode {0} este documento porque existe outro lançamento de encerramento de período {1} após {2}"
+msgstr "Você não pode {0} este documento porque existe outro lançamento de fechamento de período {1} após {2}"
 
 #: erpnext/controllers/accounts_controller.py:3831
 msgid "You do not have permissions to {} items in a {}."
@@ -327,7 +327,7 @@ msgstr "Você não tem pontos suficientes para resgatar."
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:273
 msgid "You had {} errors while creating opening invoices. Check {} for more details"
-msgstr "Ocorreram {} erros ao criar faturas de abertura. Verifique {} para obter mais detalhes"
+msgstr "Você teve {} erros ao criar faturas de abertura. Verifique {} para obter mais detalhes"
 
 #: erpnext/public/js/utils.js:942
 msgid "You have already selected items from {0} {1}"
@@ -363,16 +363,16 @@ msgstr "Você deve selecionar um cliente antes de adicionar um item."
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:278
 msgid "You need to cancel POS Closing Entry {} to be able to cancel this document."
-msgstr "Você precisa cancelar o fechamento de PDV {} para poder cancelar este documento."
+msgstr "Você precisa cancelar o lançamento de fechamento do PDV {} para poder cancelar este documento."
 
 #: erpnext/controllers/accounts_controller.py:3206
 msgid "You selected the account group {1} as {2} Account in row {0}. Please select a single account."
-msgstr "Você selecionou o grupo de contas {1} como conta {2} na linha {0}. Selecione uma conta individual."
+msgstr "Você selecionou o grupo de contas {1} como conta {2} na linha {0}. Selecione uma conta analítica."
 
 #. Name of a report
 #: erpnext/utilities/report/youtube_interactions/youtube_interactions.json
 msgid "YouTube Interactions"
-msgstr "Interações no YouTube"
+msgstr "Interações do YouTube"
 
 #: erpnext/www/book_appointment/index.html:49
 msgid "Your Name (required)"
@@ -380,7 +380,7 @@ msgstr "Seu nome (obrigatório)"
 
 #: erpnext/www/book_appointment/verify/index.html:11
 msgid "Your email has been verified and your appointment has been scheduled"
-msgstr "Seu e-mail foi verificado e seu agendamento foi marcado"
+msgstr "Seu e-mail foi verificado e seu agendamento foi confirmado"
 
 #: erpnext/patches/v11_0/add_default_dispatch_notification_template.py:22
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:337
@@ -494,12 +494,12 @@ msgstr "desconto aplicado"
 #: erpnext/selling/report/sales_person_commission_summary/sales_person_commission_summary.py:46
 #: erpnext/selling/report/sales_person_wise_transaction_summary/sales_person_wise_transaction_summary.py:58
 msgid "doc_type"
-msgstr "tipo de documento"
+msgstr "doc_type"
 
 #: erpnext/selling/report/sales_partner_commission_summary/sales_partner_commission_summary.py:25
 #: erpnext/selling/report/sales_partner_transaction_summary/sales_partner_transaction_summary.py:25
 msgid "doctype"
-msgstr "tipo de documento"
+msgstr "doctype"
 
 #. Description of the 'Coupon Name' (Data) field in DocType 'Coupon Code'
 #: erpnext/accounts/doctype/coupon_code/coupon_code.json
@@ -510,7 +510,7 @@ msgstr "ex.: \"Oferta Férias de Verão 2019 20\""
 #. Rule'
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
 msgid "example: Next Day Shipping"
-msgstr "exemplo: entrega no dia seguinte"
+msgstr "exemplo: Entrega no dia seguinte"
 
 #. Option for the 'Service Provider' (Select) field in DocType 'Currency
 #. Exchange Settings'
@@ -520,7 +520,7 @@ msgstr "exchangerate.host"
 
 #: erpnext/crm/report/sales_pipeline_analytics/sales_pipeline_analytics.py:184
 msgid "fieldname"
-msgstr "nome do campo"
+msgstr "fieldname"
 
 #. Option for the 'Service Provider' (Select) field in DocType 'Currency
 #. Exchange Settings'
@@ -571,7 +571,7 @@ msgstr "lft"
 #. Item'
 #: erpnext/manufacturing/doctype/production_plan_item/production_plan_item.json
 msgid "material_request_item"
-msgstr "item da solicitação de material"
+msgstr "material_request_item"
 
 #: erpnext/controllers/selling_controller.py:217
 msgid "must be between 0 and 100"
@@ -596,15 +596,15 @@ msgstr "de 5"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1310
 msgid "paid to"
-msgstr "pago a"
+msgstr "pago para"
 
 #: erpnext/public/js/utils.js:372
 msgid "payments app is not installed. Please install it from {0} or {1}"
-msgstr "O aplicativo Payments não está instalado. Instale-o por {0} ou {1}"
+msgstr "O aplicativo payments não está instalado. Instale-o por {0} ou {1}"
 
 #: erpnext/utilities/__init__.py:47
 msgid "payments app is not installed. Please install it from {} or {}"
-msgstr "O aplicativo Payments não está instalado. Instale-o por {} ou {}"
+msgstr "O aplicativo payments não está instalado. Instale-o por {} ou {}"
 
 #. Description of the 'Net Hour Rate' (Currency) field in DocType 'Workstation'
 #. Description of the 'Net Hour Rate' (Currency) field in DocType 'Workstation
@@ -627,7 +627,7 @@ msgstr "executando uma das opções abaixo:"
 #. Item'
 #: erpnext/stock/doctype/pick_list_item/pick_list_item.json
 msgid "product bundle item row's name in sales order. Also indicates that picked item is to be used for a product bundle"
-msgstr "nome da linha do item do pacote de produtos no pedido de venda. Também indica que o item separado será usado em um pacote de produtos"
+msgstr "nome da linha do item do pacote de produto no pedido de venda. Também indica que o item separado deve ser usado para um pacote de produto"
 
 #. Option for the 'Plaid Environment' (Select) field in DocType 'Plaid
 #. Settings'
@@ -638,7 +638,7 @@ msgstr "produção"
 #. Label of the quotation_item (Data) field in DocType 'Sales Order Item'
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 msgid "quotation_item"
-msgstr "item da cotação"
+msgstr "quotation_item"
 
 #: erpnext/templates/includes/macros.html:202
 msgid "ratings"
@@ -650,7 +650,7 @@ msgstr "recebido de"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1399
 msgid "returned"
-msgstr "devolvido"
+msgstr "devolução"
 
 #. Label of the rgt (Int) field in DocType 'Cost Center'
 #. Label of the rgt (Int) field in DocType 'Location'
@@ -694,7 +694,7 @@ msgstr "a assinatura já está cancelada."
 #: erpnext/controllers/status_updater.py:459
 #: erpnext/controllers/status_updater.py:478
 msgid "target_ref_field"
-msgstr "campo de referência de destino"
+msgstr "target_ref_field"
 
 #. Label of the temporary_name (Data) field in DocType 'Production Plan Item'
 #: erpnext/manufacturing/doctype/production_plan_item/production_plan_item.json
@@ -712,12 +712,12 @@ msgstr "para"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:3087
 msgid "to unallocate the amount of this Return Invoice before cancelling it."
-msgstr "desalocar o valor desta fatura de devolução antes de cancelá-la."
+msgstr "para desalocar o valor desta fatura de devolução antes de cancelá-la."
 
 #. Description of the 'Coupon Code' (Data) field in DocType 'Coupon Code'
 #: erpnext/accounts/doctype/coupon_code/coupon_code.json
 msgid "unique e.g. SAVE20  To be used to get discount"
-msgstr "único, ex.: SAVE20  Para usar e obter desconto"
+msgstr "único, ex.: SAVE20  Para ser usado para obter desconto"
 
 #: erpnext/accounts/report/budget_variance_report/budget_variance_report.js:9
 msgid "variance"
@@ -743,15 +743,15 @@ msgstr "{0} '{1}' está desativado"
 
 #: erpnext/accounts/utils.py:187
 msgid "{0} '{1}' not in Fiscal Year {2}"
-msgstr "{0} '{1}' não está no ano fiscal {2}"
+msgstr "{0} '{1}' não localizado no Ano Fiscal {2}"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:627
 msgid "{0} ({1}) cannot be greater than planned quantity ({2}) in Work Order {3}"
-msgstr "{0} ({1}) não pode ser maior que a quantidade planejada ({2}) na ordem de produção {3}"
+msgstr "{0} ({1}) não pode ser maior que a quantidade planejada ({2}) na Ordem de Trabalho {3}"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:341
 msgid "{0} <b>{1}</b> has submitted Assets. Remove Item <b>{2}</b> from table to continue."
-msgstr "{0} <b>{1}</b> possui ativos enviados. Remova o item <b>{2}</b> da tabela para continuar."
+msgstr "{0} <b>{1}</b> tem ativos enviados. Remova o item <b>{2}</b> da tabela para continuar."
 
 #: erpnext/controllers/accounts_controller.py:2364
 msgid "{0} Account not found against Customer {1}."
@@ -759,19 +759,19 @@ msgstr "Conta {0} não encontrada para o cliente {1}."
 
 #: erpnext/utilities/transaction_base.py:199
 msgid "{0} Account: {1} ({2}) must be in either customer billing currency: {3} or Company default currency: {4}"
-msgstr "Conta {0}: {1} ({2}) deve estar na moeda de faturamento do cliente: {3} ou na moeda padrão da empresa: {4}"
+msgstr "A conta {0}: {1} ({2}) deve estar na moeda de cobrança do cliente: {3} ou na moeda padrão da empresa: {4}"
 
 #: erpnext/accounts/doctype/budget/budget.py:547
 msgid "{0} Budget for Account {1} against {2} {3} is {4}. It is already exceeded by {5}."
-msgstr "O orçamento {0} da conta {1} para {2} {3} é {4}. Ele já foi excedido em {5}."
+msgstr "O orçamento de {0} para a conta {1} em {2} {3} é {4}. Ele já foi excedido em {5}."
 
 #: erpnext/accounts/doctype/budget/budget.py:550
 msgid "{0} Budget for Account {1} against {2} {3} is {4}. It will be exceeded by {5}."
-msgstr "O orçamento {0} da conta {1} para {2} {3} é {4}. Ele será excedido em {5}."
+msgstr "O orçamento de {0} para a conta {1} em {2} {3} é {4}. Ele será excedido em {5}."
 
 #: erpnext/accounts/doctype/pricing_rule/utils.py:770
 msgid "{0} Coupon used are {1}. Allowed quantity is exhausted"
-msgstr "Os cupons usados em {0} são {1}. A quantidade permitida foi esgotada"
+msgstr "Os cupons usados para {0} são {1}. A quantidade permitida foi esgotada"
 
 #: erpnext/setup/doctype/email_digest/email_digest.py:124
 msgid "{0} Digest"

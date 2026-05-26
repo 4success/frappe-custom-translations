@@ -23,7 +23,7 @@ msgstr ""
 msgid "SLA Name"
 msgstr "Nome do SLA"
 
-#: frontend/src/components/Settings/Settings.vue:174
+#: frontend/src/components/Settings/Settings.vue:188
 #: frontend/src/components/Settings/Sla/SlaPolicyList.vue:3
 msgid "SLA Policies"
 msgstr "Políticas de SLA"
@@ -64,7 +64,7 @@ msgstr "Status do SLA"
 msgid "SLA set as default cannot be disabled"
 msgstr "O SLA definido como padrão não pode ser desativado"
 
-#: frontend/src/components/EmailEditor.vue:85
+#: frontend/src/components/EmailEditor.vue:102
 msgid "SUBJECT"
 msgstr "ASSUNTO"
 
@@ -103,7 +103,7 @@ msgstr "ASSUNTO"
 #: crm/lead_syncing/doctype/failed_lead_sync_log/failed_lead_sync_log.json
 #: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.json
 msgid "Sales Manager"
-msgstr "Gerente de vendas"
+msgstr "Gerente de Vendas"
 
 #: frontend/src/components/Dashboard/AddChartModal.vue:94
 msgid "Sales Trend"
@@ -130,20 +130,22 @@ msgstr "Tendência de vendas"
 #: crm/fcrm/doctype/crm_organization/crm_organization.json
 #: crm/fcrm/doctype/crm_product/crm_product.json
 #: crm/fcrm/doctype/crm_task/crm_task.json
+#: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.json
 #: crm/fcrm/doctype/crm_territory/crm_territory.json
 #: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
+#: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.json
 #: crm/fcrm/doctype/fcrm_note/fcrm_note.json
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 #: frontend/src/components/Modals/AddExistingUserModal.vue:92
 #: frontend/src/components/Settings/InviteUserPage.vue:164
 #: frontend/src/components/Settings/InviteUserPage.vue:171
 #: frontend/src/components/Settings/Users.vue:84
-#: frontend/src/components/Settings/Users.vue:191
-#: frontend/src/components/Settings/Users.vue:259
-#: frontend/src/components/Settings/Users.vue:262
-#: frontend/src/pages/Dashboard.vue:92
+#: frontend/src/components/Settings/Users.vue:192
+#: frontend/src/components/Settings/Users.vue:248
+#: frontend/src/components/Settings/Users.vue:251
+#: frontend/src/pages/Dashboard.vue:95
 msgid "Sales User"
-msgstr "Usuário de vendas"
+msgstr "Usuário de Vendas"
 
 #: crm/api/dashboard.py:638
 msgid "Sales trend"
@@ -167,7 +169,8 @@ msgstr "Saudação"
 msgid "Saturday"
 msgstr "Sábado"
 
-#: frontend/src/components/Calendar/CalendarEventPanel.vue:510
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:511
+#: frontend/src/components/Controls/GeolocationControl.vue:60
 #: frontend/src/components/Controls/GridFieldsEditorModal.vue:84
 #: frontend/src/components/Controls/GridRowFieldsModal.vue:26
 #: frontend/src/components/Modals/AddressModal.vue:90
@@ -178,9 +181,9 @@ msgstr "Sábado"
 #: frontend/src/components/Modals/SidePanelModal.vue:26
 #: frontend/src/components/PrimaryDropdownItem.vue:21
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:36
-#: frontend/src/components/Settings/CurrencySettings.vue:173
-#: frontend/src/components/Settings/ProfileSettings.vue:89
-#: frontend/src/components/Settings/Sla/EditResponseResolutionModal.vue:69
+#: frontend/src/components/Settings/DashboardSettings.vue:244
+#: frontend/src/components/Settings/PreferencesSettings.vue:49
+#: frontend/src/components/Settings/Sla/EditResponseResolutionModal.vue:56
 #: frontend/src/components/Settings/Sla/SlaPolicyView.vue:34
 #: frontend/src/components/Settings/Sla/WorkDayModal.vue:78
 #: frontend/src/components/Telephony/ExotelCallUI.vue:221
@@ -195,7 +198,7 @@ msgstr "Salvar"
 msgid "Save Changes"
 msgstr "Salvar alterações"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:576
+#: frontend/src/components/Layouts/AppSidebar.vue:593
 msgid "Saved View"
 msgstr "Visualização salva"
 
@@ -210,14 +213,14 @@ msgstr "Agendar uma tarefa..."
 #: frontend/src/components/Activities/ActivityHeader.vue:36
 #: frontend/src/components/Activities/ActivityHeader.vue:130
 msgid "Schedule an Event"
-msgstr "Agendar evento"
+msgstr "Agendar um evento"
 
 #. Label of the script (Code) field in DocType 'CRM Form Script'
 #: crm/fcrm/doctype/crm_form_script/crm_form_script.json
 msgid "Script"
 msgstr "Script"
 
-#: frontend/src/components/Settings/AssignmentRules/AssigneeSearch.vue:21
+#: frontend/src/components/Settings/AssignmentRules/AssigneeSearch.vue:23
 #: frontend/src/components/Settings/Sla/SlaPolicyList.vue:21
 #: frontend/src/components/frappe-ui/Autocomplete.vue:58
 msgid "Search"
@@ -231,72 +234,72 @@ msgstr "Pesquisar modelo"
 msgid "Search User"
 msgstr "Pesquisar usuário"
 
-#: frontend/src/components/FieldLayoutEditor.vue:334
+#: frontend/src/components/FieldLayoutEditor.vue:454
 msgid "Section"
 msgstr "Seção"
 
-#: frontend/src/components/Calendar/CalendarEventPanel.vue:231
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:232
 msgid "See All Participants"
 msgstr "Ver todos os participantes"
 
-#: frontend/src/components/SidePanelLayout.vue:135
+#: frontend/src/components/SidePanelLayout.vue:154
 msgid "Select"
-msgstr "Selecionar"
+msgstr "Selecione"
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:176
 msgid "Select Company"
-msgstr "Selecione Empresa"
+msgstr "Selecione a empresa"
 
-#: frontend/src/components/Settings/CurrencySettings.vue:50
+#: frontend/src/components/Settings/DashboardSettings.vue:89
 msgid "Select Currency"
-msgstr "Selecionar moeda"
+msgstr "Selecione a moeda"
 
 #: frontend/src/components/Settings/Sla/SlaHolidays.vue:20
 msgid "Select Holiday List"
-msgstr "Selecionar lista de feriados"
+msgstr "Selecione a lista de feriados"
 
-#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:53
+#: frontend/src/components/Settings/Telephony/TelephonySettings.vue:54
 msgid "Select Medium"
-msgstr "Selecionar meio"
+msgstr "Selecione o canal"
 
 #: frontend/src/components/Settings/Sla/EditResponseResolutionModal.vue:15
 msgid "Select Priority"
-msgstr "Selecionar prioridade"
+msgstr "Selecione a prioridade"
 
-#: frontend/src/components/Settings/CurrencySettings.vue:75
+#: frontend/src/components/Settings/DashboardSettings.vue:119
 msgid "Select Provider"
-msgstr "Selecionar provedor"
+msgstr "Selecione o provedor"
 
 #: frontend/src/pages/Dashboard.vue:50
 msgid "Select Range"
-msgstr "Selecionar período"
+msgstr "Selecione o período"
 
 #: frontend/src/components/Settings/LeadSyncing/LeadSyncSourceForm.vue:57
 msgid "Select Source Type"
-msgstr "Selecionar tipo de origem"
+msgstr "Selecione o tipo de origem"
 
 #: frontend/src/components/Calendar/EventNotifications.vue:31
 #: frontend/src/components/Calendar/EventNotifications.vue:99
 msgid "Select Type"
-msgstr "Selecionar tipo"
+msgstr "Selecione o tipo"
 
-#: frontend/src/components/Settings/CalendarSettings.vue:53
+#: frontend/src/components/Settings/CalendarSettings.vue:54
 msgid "Select View"
-msgstr "Selecionar visualização"
+msgstr "Selecione a visualização"
 
 #: frontend/src/components/Settings/Sla/WorkDayModal.vue:15
 msgid "Select Workday"
-msgstr "Selecionar dia de trabalho"
+msgstr "Selecione o dia de trabalho"
 
 #: frontend/src/components/Settings/Telephony/TwilioSettings.vue:71
 msgid "Select a Twilio App for your CRM"
-msgstr ""
+msgstr "Selecione um aplicativo Twilio para seu CRM"
 
-#: frontend/src/components/Filter.vue:566
+#: frontend/src/components/Filter.vue:599
 msgid "Select a Value"
 msgstr "Selecione um valor"
 
-#: frontend/src/components/Filter.vue:568
+#: frontend/src/components/Filter.vue:601
 msgid "Select an Option"
 msgstr "Selecione uma opção"
 
@@ -306,25 +309,25 @@ msgstr "Selecione os responsáveis por {0}."
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:217
 msgid "Select the deal status to trigger the auto customer creation in ERPNext"
-msgstr ""
+msgstr "Selecione o status do negócio para acionar a criação automática de cliente no ERPNext"
 
-#: frontend/src/components/Settings/CalendarSettings.vue:37
+#: frontend/src/components/Settings/CalendarSettings.vue:38
 msgid "Select the default view for your calendar. This will be the initial view when you open the calendar"
 msgstr "Selecione a visualização padrão do seu calendário. Ela será a visualização inicial ao abrir o calendário"
 
 #: frontend/src/components/Settings/DefaultsSettings.vue:131
 msgid "Select whether to display time with or without seconds"
-msgstr ""
+msgstr "Selecione se o horário será exibido com ou sem segundos"
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:133
 msgid "Select your ERPNext company to connect with"
-msgstr ""
+msgstr "Selecione a empresa do ERPNext com a qual deseja se conectar"
 
-#: frontend/src/components/FieldLayout/Field.vue:365
+#: frontend/src/components/FieldLayout/Field.vue:557
 msgid "Select {0}"
-msgstr "Selecionar {0}"
+msgstr "Selecione {0}"
 
-#: frontend/src/components/EmailEditor.vue:165
+#: frontend/src/components/EmailEditor.vue:182
 msgid "Send"
 msgstr "Enviar"
 
@@ -342,17 +345,17 @@ msgstr "Enviar modelo"
 
 #: frontend/src/pages/Deal.vue:92 frontend/src/pages/Lead.vue:140
 msgid "Send an Email"
-msgstr "Enviar e-mail"
+msgstr "Enviar um e-mail"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:465
+#: frontend/src/components/Layouts/AppSidebar.vue:482
 msgid "Send email"
 msgstr "Enviar e-mail"
 
-#: frontend/src/components/CommunicationArea.vue:273
+#: frontend/src/components/CommunicationArea.vue:274
 msgid "Sending comment..."
 msgstr "Enviando comentário..."
 
-#: frontend/src/components/CommunicationArea.vue:257
+#: frontend/src/components/CommunicationArea.vue:258
 msgid "Sending email..."
 msgstr "Enviando e-mail..."
 
@@ -366,7 +369,7 @@ msgstr "Separador"
 msgid "Series"
 msgstr "Série"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:588
+#: frontend/src/components/Layouts/AppSidebar.vue:605
 msgid "Service Level Agreement"
 msgstr "Acordo de Nível de Serviço"
 
@@ -375,11 +378,11 @@ msgstr "Acordo de Nível de Serviço"
 msgid "Service Provider"
 msgstr "Provedor de serviço"
 
-#: frontend/src/components/Filter.vue:556
+#: frontend/src/components/Filter.vue:589
 msgid "Set"
-msgstr "Definir"
+msgstr "Definido"
 
-#: frontend/src/components/ViewControls.vue:1087
+#: frontend/src/components/ViewControls.vue:1081
 msgid "Set As Default"
 msgstr "Definir como padrão"
 
@@ -387,11 +390,11 @@ msgstr "Definir como padrão"
 msgid "Set As Primary"
 msgstr "Definir como principal"
 
-#: frontend/src/components/Settings/CurrencySettings.vue:164
+#: frontend/src/components/Settings/DashboardSettings.vue:235
 msgid "Set Currency"
 msgstr "Definir moeda"
 
-#: frontend/src/components/Settings/Sla/EditResponseResolutionModal.vue:47
+#: frontend/src/components/Settings/Sla/EditResponseResolutionModal.vue:34
 msgid "Set Default Priority"
 msgstr "Definir prioridade padrão"
 
@@ -401,7 +404,7 @@ msgstr "Definir primeiro nome"
 
 #: frontend/src/components/Controls/GeolocationControl.vue:43
 msgid "Set Location"
-msgstr ""
+msgstr "Definir localização"
 
 #: frontend/src/components/FilesUploader/FilesUploader.vue:66
 msgid "Set all as private"
@@ -415,7 +418,7 @@ msgstr "Definir tudo como público"
 msgid "Set an Organization"
 msgstr "Definir uma organização"
 
-#: frontend/src/pages/Deal.vue:648 frontend/src/pages/MobileDeal.vue:523
+#: frontend/src/pages/Deal.vue:660 frontend/src/pages/MobileDeal.vue:531
 msgid "Set as Primary Contact"
 msgstr "Definir como contato principal"
 
@@ -425,77 +428,77 @@ msgstr "Definir como SLA padrão"
 
 #: frontend/src/components/Controls/GeolocationControl.vue:10
 msgid "Set location…"
-msgstr ""
+msgstr "Definir localização…"
 
 #: frontend/src/components/Settings/Telephony/TelephonySettings.vue:102
 msgid "Set the Exotel number to be used for outgoing calls."
-msgstr ""
+msgstr "Defina o número do Exotel a ser usado em chamadas de saída."
 
 #: frontend/src/components/Settings/Telephony/TelephonySettings.vue:77
 msgid "Set the Twilio number to be used for outgoing calls."
-msgstr ""
+msgstr "Defina o número do Twilio a ser usado em chamadas de saída."
 
 #: frontend/src/components/Settings/BrandSettings.vue:33
 msgid "Set the name of your brand. Appears in the left sidebar."
-msgstr ""
+msgstr "Defina o nome da sua marca. Ele aparece na barra lateral esquerda."
 
 #: frontend/src/components/Settings/Sla/SlaHolidays.vue:9
 msgid "Set working days, hours, and holidays by selecting a predefined schedule or creating a new one"
-msgstr "Defina dias de trabalho, horários e feriados selecionando uma programação predefinida ou criando uma nova"
+msgstr "Defina dias e horários de trabalho e feriados selecionando uma agenda predefinida ou criando uma nova"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:540
+#: frontend/src/components/Layouts/AppSidebar.vue:557
 msgid "Setting Up"
-msgstr "Configuração"
+msgstr "Configuração inicial"
 
 #: frontend/src/components/Settings/GeneralSettings.vue:94
 msgid "Setting disabled successfully"
-msgstr ""
+msgstr "Configuração desativada com sucesso"
 
 #: frontend/src/components/Settings/GeneralSettings.vue:93
 msgid "Setting enabled successfully"
-msgstr ""
+msgstr "Configuração ativada com sucesso"
 
-#: frontend/src/components/Settings/emailConfig.js:149
+#: frontend/src/components/Settings/emailConfig.js:158
 msgid "Setting up Frappe Mail requires you to have an API key and API Secret of your email account. Read more"
 msgstr "Para configurar o Frappe Mail, você precisa ter uma chave de API e um segredo de API da sua conta de e-mail. Saiba mais"
 
-#: frontend/src/components/Settings/emailConfig.js:95
-msgid "Setting up GMail requires you to enable two factor authentication and app specific passwords. Read more"
-msgstr "Para configurar o GMail, você precisa ativar a autenticação de dois fatores e senhas específicas de app. Saiba mais"
-
 #: frontend/src/components/Settings/emailConfig.js:104
-msgid "Setting up Outlook requires you to enable two factor authentication and app specific passwords. Read more"
-msgstr "Para configurar o Outlook, você precisa ativar a autenticação de dois fatores e senhas específicas de app. Saiba mais"
+msgid "Setting up GMail requires you to enable two factor authentication and app specific passwords. Read more"
+msgstr "Configurar o GMail exige ativar a autenticação de dois fatores e senhas específicas de aplicativo. Saiba mais"
 
 #: frontend/src/components/Settings/emailConfig.js:113
-msgid "Setting up Sendgrid requires you to enable two factor authentication and app specific passwords. Read more"
-msgstr "Para configurar o Sendgrid, você precisa ativar a autenticação de dois fatores e senhas específicas de app. Saiba mais"
+msgid "Setting up Outlook requires you to enable two factor authentication and app specific passwords. Read more"
+msgstr "Configurar o Outlook exige ativar a autenticação de dois fatores e senhas específicas de aplicativo. Saiba mais"
 
 #: frontend/src/components/Settings/emailConfig.js:122
-msgid "Setting up Sparkpost requires you to enable two factor authentication and app specific passwords. Read more"
-msgstr "Para configurar o Sparkpost, você precisa ativar a autenticação de dois fatores e senhas específicas de app. Saiba mais"
+msgid "Setting up Sendgrid requires you to enable two factor authentication and app specific passwords. Read more"
+msgstr "Configurar o Sendgrid exige ativar a autenticação de dois fatores e senhas específicas de aplicativo. Saiba mais"
 
 #: frontend/src/components/Settings/emailConfig.js:131
-msgid "Setting up Yahoo requires you to enable two factor authentication and app specific passwords. Read more"
-msgstr "Para configurar o Yahoo, você precisa ativar a autenticação de dois fatores e senhas específicas de app. Saiba mais"
+msgid "Setting up Sparkpost requires you to enable two factor authentication and app specific passwords. Read more"
+msgstr "Configurar o Sparkpost exige ativar a autenticação de dois fatores e senhas específicas de aplicativo. Saiba mais"
 
 #: frontend/src/components/Settings/emailConfig.js:140
+msgid "Setting up Yahoo requires you to enable two factor authentication and app specific passwords. Read more"
+msgstr "Configurar o Yahoo exige ativar a autenticação de dois fatores e senhas específicas de aplicativo. Saiba mais"
+
+#: frontend/src/components/Settings/emailConfig.js:149
 msgid "Setting up Yandex requires you to enable two factor authentication and app specific passwords. Read more"
-msgstr "Para configurar o Yandex, você precisa ativar a autenticação de dois fatores e senhas específicas de app. Saiba mais"
+msgstr "Configurar o Yandex exige ativar a autenticação de dois fatores e senhas específicas de aplicativo. Saiba mais"
 
 #. Label of the defaults_tab (Tab Break) field in DocType 'FCRM Settings'
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
-#: frontend/src/components/Layouts/AppSidebar.vue:544
+#: frontend/src/components/Layouts/AppSidebar.vue:561
 msgid "Settings"
 msgstr "Configurações"
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:302
 msgid "Settings saved"
-msgstr ""
+msgstr "Configurações salvas"
 
 #: frontend/src/components/Settings/DefaultsSettings.vue:166
 msgid "Settings updated successfully"
-msgstr ""
+msgstr "Configurações atualizadas com sucesso"
 
 #: frontend/src/components/Settings/EmailAdd.vue:6
 msgid "Setup Email"
@@ -503,9 +506,9 @@ msgstr "Configurar e-mail"
 
 #: crm/api/exchange_rate.py:149
 msgid "Setup the Exchange Rate Provider other than 'Frankfurter' in settings, as default provider does not support currency conversion for {0} to {1}."
-msgstr ""
+msgstr "Configure nas definições um provedor de taxa de câmbio diferente de 'Frankfurter', pois o provedor padrão não oferece suporte à conversão de moeda de {0} para {1}."
 
-#: frontend/src/components/Layouts/AppSidebar.vue:338
+#: frontend/src/components/Layouts/AppSidebar.vue:354
 msgid "Setup your password"
 msgstr "Defina sua senha"
 
@@ -513,15 +516,15 @@ msgstr "Defina sua senha"
 msgid "Show"
 msgstr "Mostrar"
 
-#: frontend/src/components/FieldLayoutEditor.vue:352
+#: frontend/src/components/FieldLayoutEditor.vue:472
 msgid "Show Border"
 msgstr "Mostrar borda"
 
-#: frontend/src/components/FieldLayoutEditor.vue:347
+#: frontend/src/components/FieldLayoutEditor.vue:467
 msgid "Show Label"
 msgstr "Mostrar rótulo"
 
-#: frontend/src/components/Calendar/CalendarEventPanel.vue:239
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:240
 msgid "Show Less"
 msgstr "Mostrar menos"
 
@@ -534,7 +537,7 @@ msgstr "Mostrar senha"
 #: frontend/src/components/Modals/QuickEntryModal.vue:20
 #: frontend/src/components/Modals/SidePanelModal.vue:20
 msgid "Show Preview"
-msgstr "Mostrar visualização"
+msgstr "Mostrar pré-visualização"
 
 #. Option for the 'Type' (Select) field in DocType 'CRM Fields Layout'
 #: crm/fcrm/doctype/crm_fields_layout/crm_fields_layout.json
@@ -566,15 +569,15 @@ msgstr "Como você removeu {0} do responsável, {0} foi alterado para o próximo
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:66
 msgid "Site URL"
-msgstr ""
+msgstr "URL do site"
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:449
 msgid "Site URL is required"
-msgstr ""
+msgstr "A URL do site é obrigatória"
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:432
 msgid "Site connection validated"
-msgstr ""
+msgstr "Conexão com o site validada"
 
 #: frontend/src/components/Settings/Sla/SlaPolicyView.vue:439
 msgid "Some error occurred while creating SLA Policy"
@@ -596,14 +599,14 @@ msgstr "Ocorreu um erro ao atualizar a política de SLA"
 msgid "Some error occurred while updating assignment rule"
 msgstr "Ocorreu um erro ao atualizar a regra de atribuição"
 
-#: frontend/src/components/Settings/Users.vue:290
-#: frontend/src/components/Settings/Users.vue:303
+#: frontend/src/components/Settings/Users.vue:279
+#: frontend/src/components/Settings/Users.vue:292
 msgid "Something went wrong"
 msgstr "Algo deu errado"
 
 #: frontend/src/components/Settings/Sla/SlaPolicyList.vue:246
 msgid "Something went wrong, try again later"
-msgstr "Algo deu errado. Tente novamente mais tarde"
+msgstr "Algo deu errado, tente novamente mais tarde"
 
 #: frontend/src/components/SortBy.vue:10 frontend/src/components/SortBy.vue:24
 #: frontend/src/components/SortBy.vue:226
@@ -631,11 +634,11 @@ msgstr "Nome da origem"
 msgid "Source Type"
 msgstr "Tipo de origem"
 
-#: frontend/src/components/Settings/LeadSyncing/LeadSyncSources.vue:160
+#: frontend/src/components/Settings/LeadSyncing/LeadSyncSources.vue:161
 msgid "Source disabled successfully"
 msgstr "Origem desativada com sucesso"
 
-#: frontend/src/components/Settings/LeadSyncing/LeadSyncSources.vue:159
+#: frontend/src/components/Settings/LeadSyncing/LeadSyncSources.vue:160
 msgid "Source enabled successfully"
 msgstr "Origem ativada com sucesso"
 
@@ -650,7 +653,7 @@ msgstr "Etapa"
 
 #: crm/fcrm/doctype/crm_form_script/crm_form_script.js:15
 msgid "Standard Form Scripts can not be modified, duplicate the Form Script instead."
-msgstr "Scripts de formulário padrão não podem ser modificados. Duplique o script do formulário."
+msgstr "Scripts de formulário padrão não podem ser modificados. Em vez disso, duplique o Script de Formulário."
 
 #. Label of the standard_rate (Currency) field in DocType 'CRM Product'
 #: crm/fcrm/doctype/crm_product/crm_product.json
@@ -663,7 +666,7 @@ msgstr "Visualizações padrão"
 
 #: frontend/src/composables/event.js:248
 msgid "Start & End Time Are Required"
-msgstr "Os horários de início e fim são obrigatórios"
+msgstr "Os horários de início e término são obrigatórios"
 
 #. Label of the start_date (Date) field in DocType 'CRM Service Level
 #. Agreement'
@@ -682,13 +685,13 @@ msgstr "A data de início não pode ser posterior à data de término"
 #. Label of the start_time (Time) field in DocType 'CRM Service Day'
 #: crm/fcrm/doctype/crm_call_log/crm_call_log.json
 #: crm/fcrm/doctype/crm_service_day/crm_service_day.json
-#: frontend/src/components/Calendar/CalendarEventPanel.vue:337
+#: frontend/src/components/Calendar/CalendarEventPanel.vue:338
 #: frontend/src/components/Modals/EventModal.vue:103
 #: frontend/src/components/Settings/Sla/SlaHolidays.vue:219
 #: frontend/src/components/Settings/Sla/WorkDayModal.vue:31
 #: frontend/src/components/Settings/Sla/WorkDayModal.vue:32
 msgid "Start Time"
-msgstr "Horário de início"
+msgstr "Horário de Início"
 
 #: frontend/src/components/Settings/Sla/WorkDayModal.vue:186
 msgid "Start Time is required"
@@ -696,7 +699,7 @@ msgstr "O horário de início é obrigatório"
 
 #: frontend/src/pages/Welcome.vue:21
 msgid "Start with sample 10 leads"
-msgstr "Comece com 10 leads de exemplo"
+msgstr "Começar com 10 leads de exemplo"
 
 #. Label of the status (Select) field in DocType 'CRM Call Log'
 #. Label of the status (Data) field in DocType 'CRM Communication Status'
@@ -715,19 +718,19 @@ msgstr "Comece com 10 leads de exemplo"
 #: crm/fcrm/doctype/crm_lead/crm_lead.json
 #: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
 #: crm/fcrm/doctype/crm_rolling_response_time/crm_rolling_response_time.json
-#: crm/fcrm/doctype/crm_task/crm_task.json frontend/src/pages/Contact.vue:526
-#: frontend/src/pages/MobileContact.vue:519
-#: frontend/src/pages/MobileOrganization.vue:468
-#: frontend/src/pages/Organization.vue:498
+#: crm/fcrm/doctype/crm_task/crm_task.json frontend/src/pages/Contact.vue:531
+#: frontend/src/pages/MobileContact.vue:524
+#: frontend/src/pages/MobileOrganization.vue:473
+#: frontend/src/pages/Organization.vue:503
 msgid "Status"
-msgstr "Status"
+msgstr "Situação"
 
 #. Label of the status_change_log (Table) field in DocType 'CRM Deal'
 #. Label of the status_change_log (Table) field in DocType 'CRM Lead'
 #: crm/fcrm/doctype/crm_deal/crm_deal.json
 #: crm/fcrm/doctype/crm_lead/crm_lead.json
 msgid "Status Change Log"
-msgstr "Log de alterações de status"
+msgstr "Histórico de alterações de status"
 
 #: frontend/src/components/Modals/DealModal.vue:209
 #: frontend/src/components/Modals/LeadModal.vue:152
@@ -736,6 +739,7 @@ msgstr "O status é obrigatório"
 
 #. Label of the subdomain (Data) field in DocType 'CRM Exotel Settings'
 #: crm/fcrm/doctype/crm_exotel_settings/crm_exotel_settings.json
+#: frontend/src/components/Settings/Telephony/ExotelSettings.vue:75
 msgid "Subdomain"
 msgstr "Subdomínio"
 
@@ -745,11 +749,11 @@ msgid "Subject"
 msgstr "Assunto"
 
 #: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:152
-#: frontend/src/components/Settings/EmailTemplate/NewEmailTemplate.vue:155
+#: frontend/src/components/Settings/EmailTemplate/NewEmailTemplate.vue:158
 msgid "Subject is required"
 msgstr "O assunto é obrigatório"
 
-#: frontend/src/components/Modals/EmailTemplateSelectorModal.vue:45
+#: frontend/src/components/Modals/EmailTemplateSelectorModal.vue:35
 msgid "Subject: {0}"
 msgstr "Assunto: {0}"
 
@@ -766,15 +770,15 @@ msgstr "Suporte / Vendas"
 
 #: frontend/src/components/FilesUploader/FilesUploader.vue:46
 msgid "Switch Camera"
-msgstr "Trocar câmera"
+msgstr "Alternar câmera"
 
 #: frontend/src/components/Settings/PreferencesSettings.vue:26
 msgid "Switch between light, dark, or system theme"
-msgstr ""
+msgstr "Alterne entre os temas claro, escuro ou do sistema"
 
 #: frontend/src/components/Settings/Profile/UserEmailSettings.vue:55
 msgid "Switch between outgoing email accounts when sending emails"
-msgstr ""
+msgstr "Alterne entre contas de e-mail de saída ao enviar e-mails"
 
 #: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.js:6
 #: frontend/src/components/Settings/LeadSyncing/LeadSyncSourceForm.vue:23
@@ -783,8 +787,8 @@ msgstr "Sincronizar agora"
 
 #: frontend/src/components/Settings/LeadSyncing/FailureLogs.vue:132
 msgid "Sync Successful!"
-msgstr "Sincronização concluída com sucesso!"
+msgstr "Sincronização concluída!"
 
 #: crm/lead_syncing/doctype/failed_lead_sync_log/failed_lead_sync_log.js:16
 msgid "Sync Successful, CRM Lead: {0}!"
-msgstr "Sincronização concluída com sucesso. Lead do CRM: {0}!"
+msgstr "Sincronização concluída, lead do CRM: {0}!"

@@ -44,11 +44,11 @@ msgstr "Você não tem permissão para acessar este recurso"
 
 #: frappe/permissions.py:437
 msgid "You are not allowed to access this {0} record because it is linked to {1} '{2}' in field {3}"
-msgstr "Você não tem permissão para acessar este registro de {0}, porque ele está vinculado a {1} '{2}' no campo {3}"
+msgstr "Você não tem permissão para acessar este registro de {0} porque ele está vinculado a {1} '{2}' no campo {3}"
 
 #: frappe/permissions.py:426
 msgid "You are not allowed to access this {0} record because it is linked to {1} '{2}' in row {3}, field {4}"
-msgstr "Você não tem permissão para acessar este registro de {0}, porque ele está vinculado a {1} '{2}' na linha {3}, campo {4}"
+msgstr "Você não tem permissão para acessar este registro de {0} porque ele está vinculado a {1} '{2}' na linha {3}, campo {4}"
 
 #: frappe/public/js/frappe/views/kanban/kanban_board.bundle.js:68
 msgid "You are not allowed to create columns"
@@ -56,11 +56,11 @@ msgstr "Você não tem permissão para criar colunas"
 
 #: frappe/core/doctype/report/report.py:102
 msgid "You are not allowed to delete Standard Report"
-msgstr "Você não tem permissão para excluir um relatório padrão"
+msgstr "Você não tem permissão para excluir Relatório padrão"
 
 #: frappe/website/doctype/website_theme/website_theme.py:73
 msgid "You are not allowed to delete a standard Website Theme"
-msgstr "Você não tem permissão para excluir um tema do site padrão"
+msgstr "Você não tem permissão para excluir um Tema do site padrão"
 
 #: frappe/core/doctype/report/report.py:396
 msgid "You are not allowed to edit the report."
@@ -83,11 +83,11 @@ msgstr "Você não tem permissão para enviar e-mails relacionados a este docume
 
 #: frappe/website/doctype/web_form/web_form.py:633
 msgid "You are not allowed to update this Web Form Document"
-msgstr "Você não tem permissão para atualizar este documento de formulário web"
+msgstr "Você não tem permissão para atualizar este documento de Formulário Web"
 
 #: frappe/public/js/frappe/request.js:37
 msgid "You are not connected to Internet. Retry after sometime."
-msgstr "Você não está conectado à internet. Tente novamente daqui a pouco."
+msgstr "Você não está conectado à internet. Tente novamente em instantes."
 
 #: frappe/public/js/frappe/web_form/webform_script.js:22
 msgid "You are not permitted to access this page without login."
@@ -107,11 +107,11 @@ msgstr "Agora você está seguindo este documento. Você receberá atualizaçõe
 
 #: frappe/core/doctype/installed_applications/installed_applications.py:125
 msgid "You are only allowed to update order, do not remove or add apps."
-msgstr "Você só pode atualizar a ordem; não remova nem adicione apps."
+msgstr "Você só pode atualizar a ordem; não remova nem adicione aplicativos."
 
 #: frappe/email/doctype/email_account/email_account.js:284
 msgid "You are selecting Sync Option as ALL, It will resync all read as well as unread message from server. This may also cause the duplication of Communication (emails)."
-msgstr "Você está selecionando a opção de sincronização como ALL. Isso vai sincronizar novamente todas as mensagens lidas e não lidas do servidor. Isso também pode causar duplicação de Comunicação (e-mails)."
+msgstr "Você selecionou a opção de sincronização ALL. Isso resincronizará do servidor todas as mensagens lidas e não lidas. Isso também pode causar a duplicação de comunicações (e-mails)."
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:414
 msgctxt "Form timeline"
@@ -124,11 +124,11 @@ msgstr "Você pode adicionar propriedades dinâmicas do documento usando templat
 
 #: frappe/printing/doctype/letter_head/letter_head.js:32
 msgid "You can also access wkhtmltopdf variables (valid only in PDF print):"
-msgstr "Você também pode acessar variáveis do wkhtmltopdf (válido somente na impressão em PDF):"
+msgstr "Você também pode acessar variáveis do wkhtmltopdf (válido apenas na impressão em PDF):"
 
 #: frappe/templates/emails/new_user.html:22
 msgid "You can also copy-paste following link in your browser"
-msgstr "Você também pode copiar e colar o link a seguir no navegador"
+msgstr "Você também pode copiar e colar o link a seguir no seu navegador"
 
 #: frappe/templates/emails/download_data.html:9
 msgid "You can also copy-paste this"
@@ -136,7 +136,7 @@ msgstr "Você também pode copiar e colar isso"
 
 #: frappe/templates/emails/delete_data_confirmation.html:11
 msgid "You can also copy-paste this {0} to your browser"
-msgstr "Você também pode copiar e colar {0} no navegador"
+msgstr "Você também pode copiar e colar este {0} no seu navegador"
 
 #: frappe/templates/emails/user_invitation_expired.html:8
 msgid "You can ask your team to resend the invitation if you'd still like to join."
@@ -144,7 +144,7 @@ msgstr "Você pode pedir à sua equipe para reenviar o convite se ainda quiser p
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:17
 msgid "You can change Submitted documents by cancelling them and then, amending them."
-msgstr "Você pode alterar documentos enviados cancelando-os e, depois, retificando-os."
+msgstr "Você pode alterar documentos Enviados cancelando-os e depois retificando-os."
 
 #: frappe/public/js/frappe/logtypes.js:21
 msgid "You can change the retention policy from {0}."
@@ -180,33 +180,33 @@ msgstr "Você só pode definir os 3 DocTypes personalizados na tabela Tipos de d
 
 #: frappe/handler.py:184
 msgid "You can only upload JPG, PNG, GIF, PDF, TXT, CSV or Microsoft documents."
-msgstr "Você só pode enviar arquivos JPG, PNG, GIF, PDF, TXT, CSV ou documentos da Microsoft."
+msgstr "Você só pode carregar documentos JPG, PNG, GIF, PDF, TXT, CSV ou do Microsoft Office."
 
 #: frappe/core/doctype/data_export/exporter.py:199
 msgid "You can only upload upto 5000 records in one go. (may be less in some cases)"
-msgstr "Você só pode enviar até 5000 registros de uma vez. (pode ser menos em alguns casos)"
+msgstr "Você só pode carregar até 5000 registros de uma vez. (em alguns casos, pode ser menos)"
 
 #: frappe/website/doctype/web_page/web_page.js:92
 msgid "You can select one from the following,"
-msgstr "Você pode selecionar um dos itens a seguir,"
+msgstr "Você pode selecionar um dos seguintes,"
 
 #. Description of the 'Rate limit for email link login' (Int) field in DocType
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "You can set a high value here if multiple users will be logging in from the same network."
-msgstr "Você pode definir um valor alto aqui se vários usuários forem fazer login pela mesma rede."
+msgstr "Você pode definir um valor alto aqui se vários usuários fizerem login pela mesma rede."
 
 #: frappe/desk/query_report.py:383
 msgid "You can try changing the filters of your report."
-msgstr "Você pode tentar alterar os filtros do relatório."
+msgstr "Você pode tentar alterar os filtros do seu relatório."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:27
 msgid "You can use Customize Form to set levels on fields."
-msgstr "Você pode usar o Personalizar formulário para definir níveis nos campos."
+msgstr "Você pode usar Personalizar formulário para definir níveis nos campos."
 
 #: frappe/public/js/frappe/form/link_selector.js:30
 msgid "You can use wildcard %"
-msgstr "Você pode usar o caractere curinga %"
+msgstr "Você pode usar o curinga %"
 
 #: frappe/custom/doctype/customize_form/customize_form.py:394
 msgid "You can't set 'Options' for field {0}"
@@ -228,11 +228,11 @@ msgstr "Você cancelou este documento {1}"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:417
 msgid "You cannot create a dashboard chart from single DocTypes"
-msgstr "Você não pode criar um gráfico de dashboard a partir de DocTypes Single"
+msgstr "Você não pode criar um gráfico de painel a partir de DocTypes únicos"
 
 #: frappe/custom/doctype/customize_form/customize_form.py:390
 msgid "You cannot unset 'Read Only' for field {0}"
-msgstr "Você não pode desmarcar 'Read Only' para o campo {0}"
+msgstr "Você não pode desmarcar 'Somente leitura' para o campo {0}"
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:125
 msgid "You changed the value of {0}"
@@ -267,7 +267,7 @@ msgstr "Você criou este documento {0}"
 
 #: frappe/client.py:420
 msgid "You do not have Read or Select Permissions for {}"
-msgstr "Você não tem permissões de leitura ou seleção para {}"
+msgstr "Você não tem permissões de Leitura ou Seleção para {}"
 
 #: frappe/public/js/frappe/request.js:177
 msgid "You do not have enough permissions to access this resource. Please contact your manager to get access."
@@ -291,7 +291,7 @@ msgstr "Você não tem permissão para acessar {0}: {1}."
 
 #: frappe/public/js/frappe/form/form.js:963
 msgid "You do not have permissions to cancel all linked documents."
-msgstr "Você não tem permissão para cancelar todos os documentos vinculados."
+msgstr "Você não tem permissões para cancelar todos os documentos vinculados."
 
 #: frappe/desk/query_report.py:44
 msgid "You don't have access to Report: {0}"
@@ -307,11 +307,11 @@ msgstr "Você não tem permissão para acessar este arquivo"
 
 #: frappe/desk/query_report.py:50
 msgid "You don't have permission to get a report on: {0}"
-msgstr "Você não tem permissão para obter um relatório de: {0}"
+msgstr "Você não tem permissão para obter um relatório sobre: {0}"
 
 #: frappe/website/doctype/web_form/web_form.py:176
 msgid "You don't have the permissions to access this document"
-msgstr "Você não tem permissão para acessar este documento"
+msgstr "Você não tem permissões para acessar este documento"
 
 #: frappe/templates/emails/new_message.html:1
 msgid "You have a new message from:"
@@ -319,7 +319,7 @@ msgstr "Você tem uma nova mensagem de:"
 
 #: frappe/handler.py:120
 msgid "You have been successfully logged out"
-msgstr "Você saiu com sucesso"
+msgstr "Sua sessão foi encerrada com sucesso"
 
 #: frappe/custom/doctype/customize_form/customize_form.py:247
 msgid "You have hit the row size limit on database table: {0}"
@@ -327,7 +327,7 @@ msgstr "Você atingiu o limite de tamanho de linha na tabela do banco de dados: 
 
 #: frappe/public/js/frappe/list/bulk_operations.js:412
 msgid "You have not entered a value. The field will be set to empty."
-msgstr "Você não informou um valor. O campo será definido como vazio."
+msgstr "Você não informou um valor. O campo será deixado em branco."
 
 #: frappe/twofactor.py:446
 msgid "You have to enable Two Factor Auth from System Settings."
@@ -339,11 +339,11 @@ msgstr "Você tem alterações não salvas neste formulário. Salve antes de con
 
 #: frappe/core/doctype/log_settings/log_settings.py:125
 msgid "You have unseen {0}"
-msgstr "Você tem {0} não visualizados"
+msgstr "Você tem {0} não lidos"
 
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:192
 msgid "You haven't added any Dashboard Charts or Number Cards yet."
-msgstr "Você ainda não adicionou nenhum gráfico de dashboard nem cartão numérico."
+msgstr "Você ainda não adicionou nenhum Gráfico de painel nem Cartão numérico."
 
 #: frappe/public/js/frappe/list/list_view.js:504
 msgid "You haven't created a {0} yet"
@@ -351,7 +351,7 @@ msgstr "Você ainda não criou um(a) {0}"
 
 #: frappe/rate_limiter.py:166
 msgid "You hit the rate limit because of too many requests. Please try after sometime."
-msgstr "Você atingiu o limite de taxa por excesso de solicitações. Tente novamente daqui a pouco."
+msgstr "Você atingiu o limite de taxa devido ao excesso de solicitações. Tente novamente em instantes."
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:151
 #: frappe/public/js/frappe/form/sidebar/form_sidebar.js:141
@@ -364,15 +364,15 @@ msgstr "Você deve adicionar pelo menos um link."
 
 #: frappe/website/doctype/web_form/web_form.py:836
 msgid "You must be logged in to use this form."
-msgstr "Você precisa fazer login para usar este formulário."
+msgstr "Você deve estar conectado para usar este formulário."
 
 #: frappe/website/doctype/web_form/web_form.py:677
 msgid "You must login to submit this form"
-msgstr "Você precisa fazer login para enviar este formulário"
+msgstr "Você deve fazer login para enviar este formulário"
 
 #: frappe/model/document.py:391
 msgid "You need the '{0}' permission on {1} {2} to perform this action."
-msgstr "Você precisa da permissão '{0}' em {1} {2} para executar esta ação."
+msgstr "Você precisa da permissão '{0}' em {1} {2} para realizar esta ação."
 
 #: frappe/desk/doctype/workspace/workspace.py:129
 #: frappe/desk/doctype/workspace_sidebar/workspace_sidebar.py:75
@@ -389,19 +389,19 @@ msgstr "Você precisa ser um usuário do sistema para acessar esta página."
 
 #: frappe/website/doctype/web_form/web_form.py:92
 msgid "You need to be in developer mode to edit a Standard Web Form"
-msgstr "Você precisa estar em modo de desenvolvimento para editar um Web Form padrão"
+msgstr "Você precisa estar no modo de desenvolvedor para editar um Formulário Web padrão"
 
 #: frappe/utils/response.py:280
 msgid "You need to be logged in and have System Manager Role to be able to access backups."
-msgstr "Você precisa fazer login e ter o perfil Gerente do sistema para acessar os backups."
+msgstr "Você precisa estar conectado e ter o perfil Gerente do sistema para acessar os backups."
 
 #: frappe/www/me.py:13 frappe/www/third_party_apps.py:10
 msgid "You need to be logged in to access this page"
-msgstr "Você precisa fazer login para acessar esta página"
+msgstr "Você precisa estar conectado para acessar esta página"
 
 #: frappe/website/doctype/web_form/web_form.py:165
 msgid "You need to be logged in to access this {0}."
-msgstr "Você precisa fazer login para acessar este {0}."
+msgstr "Você precisa estar conectado para acessar este {0}."
 
 #: frappe/public/js/frappe/widgets/links_widget.js:63
 msgid "You need to create these first:"
@@ -409,7 +409,7 @@ msgstr "Você precisa criar estes primeiro:"
 
 #: frappe/www/login.html:76
 msgid "You need to enable JavaScript for your app to work."
-msgstr "Você precisa ativar o JavaScript para que seu app funcione."
+msgstr "Você precisa ativar o JavaScript para que seu aplicativo funcione."
 
 #: frappe/core/doctype/docshare/docshare.py:62
 msgid "You need to have \"Share\" permission"
@@ -417,11 +417,11 @@ msgstr "Você precisa ter a permissão \"Share\""
 
 #: frappe/utils/print_format.py:271
 msgid "You need to install pycups to use this feature!"
-msgstr "Você precisa instalar o pycups para usar este recurso!"
+msgstr "Você precisa instalar pycups para usar este recurso!"
 
 #: frappe/core/doctype/recorder/recorder.js:38
 msgid "You need to select indexes you want to add first."
-msgstr "Você precisa primeiro selecionar os índices que deseja adicionar."
+msgstr "Você precisa selecionar primeiro os índices que deseja adicionar."
 
 #: frappe/email/doctype/email_account/email_account.py:160
 msgid "You need to set one IMAP folder for {0}"
@@ -429,11 +429,11 @@ msgstr "Você precisa definir uma pasta IMAP para {0}"
 
 #: frappe/model/rename_doc.py:391
 msgid "You need write permission on {0} {1} to merge"
-msgstr "Você precisa de permissão de gravação em {0} {1} para mesclar"
+msgstr "Você precisa de permissão de escrita em {0} {1} para mesclar"
 
 #: frappe/model/rename_doc.py:386
 msgid "You need write permission on {0} {1} to rename"
-msgstr "Você precisa de permissão de gravação em {0} {1} para renomear"
+msgstr "Você precisa de permissão de escrita em {0} {1} para renomear"
 
 #: frappe/client.py:452
 msgid "You need {0} permission to fetch values from {1} {2}"
@@ -454,15 +454,15 @@ msgstr "Você removeu {0} linhas de {1}"
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:520
 msgid "You seem good to go!"
-msgstr "Parece que está tudo certo!"
+msgstr "Parece que está tudo pronto!"
 
 #: frappe/templates/includes/contact.js:20
 msgid "You seem to have written your name instead of your email. Please enter a valid email address so that we can get back."
-msgstr "Parece que você digitou seu nome em vez do e-mail. Informe um endereço de e-mail válido para que possamos retornar."
+msgstr "Parece que você digitou seu nome em vez do seu e-mail. Informe um endereço de e-mail válido para que possamos retornar o contato."
 
 #: frappe/public/js/frappe/list/bulk_operations.js:31
 msgid "You selected Draft or Cancelled documents"
-msgstr "Você selecionou documentos em rascunho ou cancelados"
+msgstr "Você selecionou documentos em Rascunho ou Cancelados"
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:48
 msgctxt "Form timeline"
@@ -504,7 +504,7 @@ msgstr "YouTube"
 
 #: frappe/core/doctype/prepared_report/prepared_report.js:57
 msgid "Your CSV file is being generated and will appear in the Attachments section once ready. Additionally, you will get notified when the file is available for download."
-msgstr "Seu arquivo CSV está sendo gerado e aparecerá na seção Anexos quando estiver pronto. Além disso, você receberá uma notificação quando o arquivo estiver disponível para download."
+msgstr "Seu arquivo CSV está sendo gerado e aparecerá na seção Anexos quando estiver pronto. Além disso, você será notificado quando o arquivo estiver disponível para download."
 
 #: frappe/desk/page/setup_wizard/setup_wizard.js:397
 msgid "Your Country"
@@ -587,15 +587,15 @@ msgstr "Sua senha antiga está incorreta."
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Your organization name and address for the email footer."
-msgstr "O nome e o endereço da sua organização para o rodapé do e-mail."
+msgstr "Nome e endereço da sua organização para o rodapé do e-mail."
 
 #: frappe/templates/emails/auto_reply.html:2
 msgid "Your query has been received. We will reply back shortly. If you have any additional information, please reply to this mail."
-msgstr "Sua solicitação foi recebida. Responderemos em breve. Se tiver informações adicionais, responda a este e-mail."
+msgstr "Sua solicitação foi recebida. Responderemos em breve. Se você tiver alguma informação adicional, responda a este e-mail."
 
 #: frappe/desk/query_report.py:343 frappe/desk/reportview.py:399
 msgid "Your report is being generated in the background. You will receive an email on {0} with a download link once it is ready."
-msgstr "Seu relatório está sendo gerado em segundo plano. Você receberá um e-mail em {0} com um link para download quando estiver pronto."
+msgstr "Seu relatório está sendo gerado em segundo plano. Você receberá um e-mail em {0} com um link para download quando ele estiver pronto."
 
 #: frappe/app.py:377
 msgid "Your session has expired, please login again to continue."
@@ -640,4 +640,4 @@ msgstr "after_insert"
 #. Inspector'
 #: frappe/core/doctype/permission_inspector/permission_inspector.json
 msgid "amend"
-msgstr "retificar"
+msgstr "Retificar"

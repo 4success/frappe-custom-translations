@@ -6,6 +6,7 @@ msgstr ""
 "PO-Revision-Date: 2026-01-21 06:48\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +17,6 @@ msgstr ""
 "X-Crowdin-Language: pt-BR\n"
 "X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
 "X-Crowdin-File-ID: 138\n"
-"Language: pt_BR\n"
 
 #: frappe/public/js/frappe/list/list_view.js:1455
 msgctxt "Description of a list view shortcut"
@@ -73,8 +73,14 @@ msgstr "Enviar"
 
 #. Description of the 'Minutes Offset' (Int) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
-msgid "Send <b>at the earliest</b> this number of minutes before or after the reference datetime. The actual sending may be delayed by up to 5 minutes due to the scheduler's trigger cadence."
-msgstr "Enviar <b>no mínimo</b> este número de minutos antes ou depois da data e hora de referência. O envio real pode atrasar em até 5 minutos devido à frequência de execução do agendador."
+msgid ""
+"Send <b>at the earliest</b> this number of minutes before or after the "
+"reference datetime. The actual sending may be delayed by up to 5 minutes due "
+"to the scheduler's trigger cadence."
+msgstr ""
+"Enviar <b>no mínimo</b> este número de minutos antes ou depois da data e "
+"hora de referência. O envio real pode atrasar em até 5 minutos devido à "
+"frequência de execução do agendador."
 
 #. Label of the send_after (Datetime) field in DocType 'Communication'
 #. Label of the send_after (Datetime) field in DocType 'Email Queue'
@@ -113,7 +119,7 @@ msgstr "Enviar e-mail ao criador"
 #. Label of the send_me_a_copy (Check) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Send Me A Copy of Outgoing Emails"
-msgstr "Enviar-me uma cópia dos e-mails enviados"
+msgstr "Enviar cópia dos e-mails enviados para mim"
 
 #. Label of the send_notification_to (Small Text) field in DocType 'Email
 #. Account'
@@ -205,7 +211,7 @@ msgstr "Enviar link de login"
 
 #: frappe/public/js/frappe/views/communication.js:135
 msgid "Send me a copy"
-msgstr "Enviar-me uma cópia"
+msgstr "Enviar cópia para mim"
 
 #. Label of the send_if_data (Check) field in DocType 'Auto Email Report'
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
@@ -366,20 +372,29 @@ msgid "Server Script"
 msgstr "Script do servidor"
 
 #: frappe/utils/safe_exec.py:98
-msgid "Server Scripts are disabled. Please enable server scripts from bench configuration."
-msgstr "Os scripts do servidor estão desativados. Ative-os na configuração do bench."
+msgid ""
+"Server Scripts are disabled. Please enable server scripts from bench "
+"configuration."
+msgstr ""
+"Os scripts do servidor estão desativados. Ative-os na configuração do bench."
 
 #: frappe/core/doctype/server_script/server_script.js:39
 msgid "Server Scripts feature is not available on this site."
 msgstr "O recurso de scripts do servidor não está disponível neste site."
 
 #: frappe/public/js/frappe/request.js:254
-msgid "Server failed to process this request because of a concurrent conflicting request. Please try again."
-msgstr "O servidor não conseguiu processar esta solicitação devido a um conflito com outra solicitação simultânea. Tente novamente."
+msgid ""
+"Server failed to process this request because of a concurrent conflicting "
+"request. Please try again."
+msgstr ""
+"O servidor não conseguiu processar esta solicitação devido a um conflito com "
+"outra solicitação simultânea. Tente novamente."
 
 #: frappe/public/js/frappe/request.js:246
 msgid "Server was too busy to process this request. Please try again."
-msgstr "O servidor estava ocupado demais para processar esta solicitação. Tente novamente."
+msgstr ""
+"O servidor estava ocupado demais para processar esta solicitação. Tente "
+"novamente."
 
 #. Label of the service (Select) field in DocType 'Email Account'
 #. Label of the integration_request_service (Data) field in DocType
@@ -461,8 +476,12 @@ msgstr "Definir gráfico"
 
 #. Description of the 'Chart Options' (Code) field in DocType 'Dashboard'
 #: frappe/desk/doctype/dashboard/dashboard.json
-msgid "Set Default Options for all charts on this Dashboard (Ex: \"colors\": [\"#d1d8dd\", \"#ff5858\"])"
-msgstr "Defina as opções padrão para todos os gráficos deste painel (Ex.: \"colors\": [\"#d1d8dd\", \"#ff5858\"])"
+msgid ""
+"Set Default Options for all charts on this Dashboard (Ex: \"colors\": "
+"[\"#d1d8dd\", \"#ff5858\"])"
+msgstr ""
+"Defina as opções padrão para todos os gráficos deste painel (Ex.: "
+"\"colors\": [\"#d1d8dd\", \"#ff5858\"])"
 
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:467
 #: frappe/desk/doctype/number_card/number_card.js:384
@@ -571,7 +590,9 @@ msgstr "Definido pelo usuário"
 
 #: frappe/public/js/frappe/utils/dashboard_utils.js:162
 msgid "Set dynamic filter values in JavaScript for the required fields here."
-msgstr "Defina aqui, em JavaScript, os valores dos filtros dinâmicos para os campos obrigatórios."
+msgstr ""
+"Defina aqui, em JavaScript, os valores dos filtros dinâmicos para os campos "
+"obrigatórios."
 
 #. Description of the 'Precision' (Select) field in DocType 'Custom Field'
 #. Description of the 'Precision' (Select) field in DocType 'Customize Form
@@ -586,7 +607,8 @@ msgstr "Defina uma precisão não padrão para um campo Float ou Currency"
 #. Description of the 'Precision' (Select) field in DocType 'DocField'
 #: frappe/core/doctype/docfield/docfield.json
 msgid "Set non-standard precision for a Float, Currency or Percent field"
-msgstr "Defina uma precisão não padrão para um campo Float, Currency ou Percent"
+msgstr ""
+"Defina uma precisão não padrão para um campo Float, Currency ou Percent"
 
 #. Label of the set_only_once (Check) field in DocType 'DocField'
 #: frappe/core/doctype/docfield/docfield.json
@@ -601,7 +623,8 @@ msgstr "Defina o tamanho em MB"
 #. Description of the 'Filters Configuration' (Code) field in DocType 'Number
 #. Card'
 #: frappe/desk/doctype/number_card/number_card.json
-msgid "Set the filters here. For example:\n"
+msgid ""
+"Set the filters here. For example:\n"
 "<pre class=\"small text-muted\"><code>\n"
 "[{\n"
 "\tfieldname: \"company\",\n"
@@ -619,7 +642,8 @@ msgid "Set the filters here. For example:\n"
 "\treqd: 1\n"
 "}]\n"
 "</code></pre>"
-msgstr "Defina os filtros aqui. Por exemplo:\n"
+msgstr ""
+"Defina os filtros aqui. Por exemplo:\n"
 "<pre class=\"small text-muted\"><code>\n"
 "[{\n"
 "\tfieldname: \"company\",\n"
@@ -640,7 +664,10 @@ msgstr "Defina os filtros aqui. Por exemplo:\n"
 
 #. Description of the 'Method' (Data) field in DocType 'Number Card'
 #: frappe/desk/doctype/number_card/number_card.json
-msgid "Set the path to a whitelisted function that will return the data for the number card in the format:\n\n"
+msgid ""
+"Set the path to a whitelisted function that will return the data for the "
+"number card in the format:\n"
+"\n"
 "<pre class=\"small text-muted\"><code>\n"
 "{\n"
 "\t\"value\": value,\n"
@@ -648,7 +675,10 @@ msgid "Set the path to a whitelisted function that will return the data for the 
 "\t\"route_options\": {\"from_date\": \"2023-05-23\"},\n"
 "\t\"route\": [\"query-report\", \"Permitted Documents For User\"]\n"
 "}</code></pre>"
-msgstr "Defina o caminho para uma função permitida que retornará os dados para o cartão numérico no formato:\n\n"
+msgstr ""
+"Defina o caminho para uma função permitida que retornará os dados para o "
+"cartão numérico no formato:\n"
+"\n"
 "<pre class=\"small text-muted\"><code>\n"
 "{\n"
 "\t\"value\": value,\n"
@@ -659,7 +689,8 @@ msgstr "Defina o caminho para uma função permitida que retornará os dados par
 
 #: frappe/contacts/doctype/address_template/address_template.py:33
 msgid "Setting this Address Template as default as there is no other default"
-msgstr "Definindo este modelo de endereço como padrão, pois não há outro padrão"
+msgstr ""
+"Definindo este modelo de endereço como padrão, pois não há outro padrão"
 
 #: frappe/desk/doctype/global_search_settings/global_search_settings.py:86
 msgid "Setting up Global Search documents."
@@ -830,7 +861,7 @@ msgstr "Mostrar tudo"
 #. Settings'
 #: frappe/desk/doctype/desktop_settings/desktop_settings.json
 msgid "Show App Icons As Folder"
-msgstr "Mostrar ícones de apps como pasta"
+msgstr "Mostrar ícones de aplicativos como pasta"
 
 #. Label of the show_arrow (Check) field in DocType 'Workspace Sidebar Item'
 #: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json

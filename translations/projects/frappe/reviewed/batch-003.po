@@ -41,7 +41,7 @@ msgstr "Permitir formulários incompletos"
 #. Label of the allow_multiple (Check) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Allow multiple responses"
-msgstr "Permitir várias respostas"
+msgstr "Permitir múltiplas respostas"
 
 #. Label of the allow_on_submit (Check) field in DocType 'DocField'
 #. Label of the allow_on_submit (Check) field in DocType 'Custom Field'
@@ -50,7 +50,7 @@ msgstr "Permitir várias respostas"
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Allow on Submit"
-msgstr "Permitir após envio"
+msgstr "Permitir ao enviar"
 
 #. Label of the deny_multiple_sessions (Check) field in DocType 'System
 #. Settings'
@@ -62,7 +62,7 @@ msgstr "Permitir apenas uma sessão por usuário"
 #. Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
 msgid "Allow page break inside tables"
-msgstr "Permitir quebra de página dentro de tabelas"
+msgstr "Permitir quebra de página dentro das tabelas"
 
 #. Label of the allow_print (Check) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
@@ -77,27 +77,27 @@ msgstr "Permitir gravar minha primeira sessão para melhorar a experiência do u
 #. Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Allow saving if mandatory fields are not filled"
-msgstr "Permitir salvar se os campos obrigatórios não forem preenchidos"
+msgstr "Permitir salvar se os campos obrigatórios não estiverem preenchidos"
 
 #: frappe/desk/page/setup_wizard/setup_wizard.js:424
 msgid "Allow sending usage data for improving applications"
-msgstr "Permitir o envio de dados de uso para melhorar os aplicativos"
+msgstr "Permitir enviar dados de uso para melhorar os aplicativos"
 
 #. Description of the 'Login After' (Int) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Allow user to login only after this hour (0-24)"
-msgstr "Permitir que o usuário entre somente após este horário (0-24)"
+msgstr "Permitir que o usuário faça login somente após este horário (0-24)"
 
 #. Description of the 'Login Before' (Int) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Allow user to login only before this hour (0-24)"
-msgstr "Permitir que o usuário entre somente antes deste horário (0-24)"
+msgstr "Permitir que o usuário faça login somente antes deste horário (0-24)"
 
 #. Description of the 'Login with email link' (Check) field in DocType 'System
 #. Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Allow users to log in without a password, using a login link sent to their email"
-msgstr "Permitir que os usuários entrem sem senha, usando um link de acesso enviado por e-mail"
+msgstr "Permitir que os usuários façam login sem senha, usando um link enviado para o e-mail"
 
 #. Label of the allowed (Link) field in DocType 'Workflow Transition'
 #: frappe/workflow/doctype/workflow_transition/workflow_transition.json
@@ -125,7 +125,7 @@ msgstr "Módulos permitidos"
 #. 'OAuth Settings'
 #: frappe/integrations/doctype/oauth_settings/oauth_settings.json
 msgid "Allowed Public Client Origins"
-msgstr "Origens públicas de cliente permitidas"
+msgstr "Origens permitidas do cliente público"
 
 #. Label of the allowed_roles (Table MultiSelect) field in DocType 'OAuth
 #. Client'
@@ -137,11 +137,11 @@ msgstr "Perfis permitidos"
 #. Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Allowed embedding domains"
-msgstr "Domínios de incorporação permitidos"
+msgstr "Domínios permitidos para incorporação"
 
 #: frappe/public/js/frappe/form/form.js:1268
 msgid "Allowing DocType, DocType. Be careful!"
-msgstr "Permitindo DocType em DocType. Cuidado!"
+msgstr "Permitindo DocType, DocType. Tenha cuidado!"
 
 #. Description of the 'Show Auth Server Metadata' (Check) field in DocType
 #. 'OAuth Settings'
@@ -165,27 +165,27 @@ msgstr "Permite que clientes se registrem sem intervenção manual. O registro c
 #. 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "Allows clients to view this as an Authorization Server when querying the <code>/.well-known/oauth-protected-resource</code> end point."
-msgstr "Permite que clientes vejam isto como um servidor de autorização ao consultar o endpoint <code>/.well-known/oauth-protected-resource</code>."
+msgstr "Permite que clientes vejam isto como um Authorization Server ao consultar o endpoint <code>/.well-known/oauth-protected-resource</code>."
 
 #. Description of the 'Show Social Login Key as Authorization Server' (Check)
 #. field in DocType 'OAuth Settings'
 #: frappe/integrations/doctype/oauth_settings/oauth_settings.json
 msgid "Allows enabled Social Login Key Base URL to be shown as authorization server."
-msgstr "Permite mostrar a URL base da chave de login social habilitada como servidor de autorização."
+msgstr "Permite exibir a URL base da Social Login Key habilitada como servidor de autorização."
 
 #. Description of the 'Skip Authorization' (Check) field in DocType 'OAuth
 #. Settings'
 #: frappe/integrations/doctype/oauth_settings/oauth_settings.json
 msgid "Allows skipping authorization if a user has active tokens."
-msgstr "Permite pular a autorização se um usuário tiver tokens ativos."
+msgstr "Permite pular a autorização se o usuário tiver tokens ativos."
 
 #: frappe/core/doctype/user/user.py:1081
 msgid "Already Registered"
-msgstr "Já registrado"
+msgstr "Já cadastrado"
 
 #: frappe/desk/form/assign_to.py:137
 msgid "Already in the following Users ToDo list:{0}"
-msgstr "Já está na lista de afazeres dos seguintes usuários:{0}"
+msgstr "Já está na lista de tarefas dos seguintes usuários:{0}"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:901
 msgid "Also adding the dependent currency field {0}"
@@ -209,7 +209,7 @@ msgstr "Sempre"
 #. Label of the always_bcc (Data) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Always BCC Address"
-msgstr "Endereço CCO fixo"
+msgstr "Endereço de CCO padrão"
 
 #. Label of the add_draft_heading (Check) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -220,7 +220,7 @@ msgstr "Sempre adicionar \"Rascunho\" no cabeçalho para impressão de documento
 #. 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Always use this email address as sender address"
-msgstr "Sempre usar este endereço de e-mail como remetente"
+msgstr "Sempre usar este endereço de e-mail como endereço do remetente"
 
 #. Label of the always_use_account_name_as_sender_name (Check) field in DocType
 #. 'Email Account'
@@ -244,7 +244,7 @@ msgstr "Retificar"
 #: frappe/core/doctype/amended_document_naming_settings/amended_document_naming_settings.json
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Amend Counter"
-msgstr "Contador de retificação"
+msgstr "Contador de retificações"
 
 #. Name of a DocType
 #: frappe/core/doctype/amended_document_naming_settings/amended_document_naming_settings.json
@@ -314,13 +314,13 @@ msgstr "Ancestrais de"
 #. Settings'
 #: frappe/core/doctype/navbar_settings/navbar_settings.json
 msgid "Announcement Widget"
-msgstr "Widget de anúncio"
+msgstr "Widget de avisos"
 
 #. Label of the announcements_section (Section Break) field in DocType 'Navbar
 #. Settings'
 #: frappe/core/doctype/navbar_settings/navbar_settings.json
 msgid "Announcements"
-msgstr "Anúncios"
+msgstr "Avisos"
 
 #. Option for the 'Frequency' (Select) field in DocType 'Scheduled Job Type'
 #: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json
@@ -349,11 +349,11 @@ msgstr "Já existe outro {0} com o nome {1}; selecione outro nome"
 #. Description of the 'Raw Commands' (Code) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
 msgid "Any string-based printer languages can be used. Writing raw commands requires knowledge of the printer's native language provided by the printer manufacturer. Please refer to the developer manual provided by the printer manufacturer on how to write their native commands. These commands are rendered on the server side using the Jinja Templating Language."
-msgstr "Qualquer linguagem de impressora baseada em texto pode ser usada. Escrever comandos brutos exige conhecimento da linguagem nativa da impressora fornecida pelo fabricante. Consulte o manual do desenvolvedor fornecido pelo fabricante para saber como escrever esses comandos nativos. Esses comandos são renderizados no servidor usando a linguagem de template Jinja."
+msgstr "Qualquer linguagem de impressora baseada em texto pode ser usada. Escrever comandos brutos exige conhecimento da linguagem nativa da impressora fornecida pelo fabricante. Consulte o manual do desenvolvedor fornecido pelo fabricante da impressora para saber como escrever esses comandos nativos. Esses comandos são renderizados no servidor usando a linguagem de templates Jinja."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:36
 msgid "Apart from System Manager, roles with Set User Permissions right can set permissions for other users for that Document Type."
-msgstr "Além de System Manager, perfis com a permissão Definir Permissões de Usuário podem definir permissões para outros usuários nesse tipo de documento."
+msgstr "Além do System Manager, perfis com a permissão Set User Permissions podem definir permissões para outros usuários nesse tipo de documento."
 
 #. Label of the app_tab (Tab Break) field in DocType 'System Settings'
 #. Label of the app_section (Section Break) field in DocType 'User'
@@ -427,7 +427,7 @@ msgstr "Adicionar a"
 
 #: frappe/email/doctype/email_account/email_account.py:202
 msgid "Append To can be one of {0}"
-msgstr "\"Adicionar a\" pode ser um destes: {0}"
+msgstr "Adicionar a pode ser um destes: {0}"
 
 #. Description of the 'Append To' (Link) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
@@ -492,7 +492,7 @@ msgstr "Aplicar filtros"
 #. Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Apply Strict User Permissions"
-msgstr "Aplicar permissões de usuário estritas"
+msgstr "Aplicar permissões estritas de usuário"
 
 #. Label of the view (Select) field in DocType 'Client Script'
 #: frappe/custom/doctype/client_script/client_script.json
@@ -513,7 +513,7 @@ msgstr "Aplicar permissão de usuário em"
 #. Label of the apply_document_permissions (Check) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Apply document permissions"
-msgstr "Aplicar permissões do documento"
+msgstr "Aplicar permissões de documento"
 
 #. Description of the 'If user is the owner' (Check) field in DocType 'Custom
 #. DocPerm'
@@ -623,11 +623,11 @@ msgstr "Tem certeza de que deseja reativar o agendador?"
 
 #: frappe/core/doctype/communication/communication.js:163
 msgid "Are you sure you want to relink this communication to {0}?"
-msgstr "Tem certeza de que deseja vincular novamente esta comunicação a {0}?"
+msgstr "Tem certeza de que deseja revincular esta comunicação a {0}?"
 
 #: frappe/core/doctype/rq_job/rq_job_list.js:10
 msgid "Are you sure you want to remove all failed jobs?"
-msgstr "Tem certeza de que deseja remover todos os jobs com falha?"
+msgstr "Tem certeza de que deseja remover todas as tarefas com falha?"
 
 #: frappe/public/js/frappe/list/list_filter.js:57
 msgid "Are you sure you want to remove the {0} filter?"
@@ -670,7 +670,7 @@ msgstr "Como o compartilhamento de documentos está desativado, conceda as permi
 
 #: frappe/templates/emails/account_deletion_notification.html:3
 msgid "As per your request, your account and data on {0} associated with email {1} has been permanently deleted"
-msgstr "Conforme sua solicitação, sua conta e seus dados em {0} associados ao e-mail {1} foram excluídos permanentemente"
+msgstr "Conforme sua solicitação, sua conta e os dados em {0} associados ao e-mail {1} foram excluídos permanentemente"
 
 #. Option for the 'Show External Link Warning' (Select) field in DocType
 #. 'System Settings'
@@ -739,7 +739,7 @@ msgstr "Atribuído por"
 #. Label of the assigned_by_full_name (Read Only) field in DocType 'ToDo'
 #: frappe/desk/doctype/todo/todo.json
 msgid "Assigned By Full Name"
-msgstr "Atribuído por nome completo"
+msgstr "Nome completo de quem atribuiu"
 
 #: frappe/model/meta.py:62 frappe/public/js/frappe/list/base_list.js:809
 #: frappe/public/js/frappe/list/list_sidebar_group_by.js:37
@@ -797,4 +797,4 @@ msgstr "Usuário da regra de atribuição"
 
 #: frappe/automation/doctype/assignment_rule/assignment_rule.py:55
 msgid "Assignment Rule is not allowed on document type {0}"
-msgstr "A regra de atribuição não é permitida para o tipo de documento {0}"
+msgstr "A regra de atribuição não é permitida no tipo de documento {0}"

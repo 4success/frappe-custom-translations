@@ -39,7 +39,7 @@ msgstr "Eletricidade"
 #. Option for the 'Stop Reason' (Select) field in DocType 'Downtime Entry'
 #: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json
 msgid "Electricity down"
-msgstr "Falta de energia"
+msgstr "Sem energia elétrica"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:48
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:82
@@ -66,7 +66,7 @@ msgstr "Endereço de e-mail (obrigatório)"
 
 #: erpnext/crm/doctype/lead/lead.py:164
 msgid "Email Address must be unique, it is already used in {0}"
-msgstr "O endereço de e-mail deve ser único; ele já está em uso em {0}"
+msgstr "O endereço de e-mail deve ser único; ele já está sendo usado em {0}"
 
 #. Name of a DocType
 #. Label of a Link in the CRM Workspace
@@ -78,7 +78,7 @@ msgstr "Campanha de e-mail"
 #. Label of the email_campaign_for (Select) field in DocType 'Email Campaign'
 #: erpnext/crm/doctype/email_campaign/email_campaign.json
 msgid "Email Campaign For "
-msgstr "Campanha de e-mail para"
+msgstr "Campanha de e-mail para "
 
 #. Label of the supplier_response_section (Section Break) field in DocType
 #. 'Request for Quotation'
@@ -117,7 +117,7 @@ msgstr "E-mail enviado"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:333
 msgid "Email Sent to Supplier {0}"
-msgstr "E-mail enviado ao fornecedor {0}"
+msgstr "E-mail enviado para o fornecedor {0}"
 
 #: erpnext/stock/doctype/shipment/shipment.js:174
 msgid "Email or Phone/Mobile of the Contact are mandatory to continue."
@@ -138,7 +138,7 @@ msgstr "E-mail enviado para {0}"
 
 #: erpnext/crm/doctype/appointment/appointment.py:114
 msgid "Email verification failed."
-msgstr "Falha na verificação do e-mail."
+msgstr "A verificação do e-mail falhou."
 
 #: erpnext/accounts/letterhead/company_letterhead.html:96
 #: erpnext/accounts/letterhead/company_letterhead_grey.html:114
@@ -147,7 +147,7 @@ msgstr "E-mail:"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.js:20
 msgid "Emails Queued"
-msgstr "E-mails na fila"
+msgstr "E-mails enfileirados"
 
 #. Label of the emergency_contact_details (Section Break) field in DocType
 #. 'Employee'
@@ -221,7 +221,7 @@ msgstr "Colaborador"
 #. Scoring Standing'
 #: erpnext/buying/doctype/supplier_scorecard_scoring_standing/supplier_scorecard_scoring_standing.json
 msgid "Employee "
-msgstr "Colaborador"
+msgstr "Colaborador "
 
 #. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
 #. Account'
@@ -237,7 +237,7 @@ msgstr "Adiantamentos a colaboradores"
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:184
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:322
 msgid "Employee Benefits Obligation"
-msgstr "Obrigações com benefícios a colaboradores"
+msgstr "Obrigação com benefícios de colaboradores"
 
 #. Label of the employee_detail (Section Break) field in DocType 'Timesheet'
 #: erpnext/projects/doctype/timesheet/timesheet.json
@@ -295,25 +295,25 @@ msgstr "Nome do Colaborador"
 #. Label of the employee_number (Data) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Employee Number"
-msgstr "Matrícula do colaborador"
+msgstr "Número do colaborador"
 
 #. Label of the employee_user_id (Link) field in DocType 'Call Log'
 #: erpnext/telephony/doctype/call_log/call_log.json
 msgid "Employee User Id"
-msgstr "ID do usuário do colaborador"
+msgstr "ID de usuário do colaborador"
 
 #: erpnext/setup/doctype/employee/employee.py:214
 msgid "Employee cannot report to himself."
-msgstr "O colaborador não pode responder a si mesmo."
+msgstr "O colaborador não pode se reportar a si mesmo."
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:96
 msgid "Employee is required while issuing Asset {0}"
-msgstr "O colaborador e obrigatório ao emitir o ativo {0}"
+msgstr "O colaborador é obrigatório ao emitir o ativo {0}"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:79
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:100
 msgid "Employee {0} does not belong to the company {1}"
-msgstr "O colaborador {0} não pertence a empresa {1}"
+msgstr "O colaborador {0} não pertence à empresa {1}"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:310
 msgid "Employee {0} is currently working on another workstation. Please assign another employee."
@@ -356,7 +356,7 @@ msgstr "Ativar Reordenação Automática"
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Enable Automatic Party Matching"
-msgstr "Ativar conciliação automática de entidades"
+msgstr "Ativar correspondência automática de cadastro"
 
 #. Label of the enable_cwip_accounting (Check) field in DocType 'Asset
 #. Category'
@@ -368,13 +368,13 @@ msgstr "Ativar contabilização de imobilizado em andamento (CWIP)"
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Enable Common Party Accounting"
-msgstr "Ativar contabilização comum de cadastros"
+msgstr "Ativar contabilização comum de cadastro"
 
 #. Label of the enable_cutoff_date_on_bulk_delivery_note_creation (Check) field
 #. in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Enable Cut-Off Date on Bulk Delivery Note Creation"
-msgstr "Ativar data limite na criação em massa de notas de entrega"
+msgstr "Ativar data de corte na criação em massa de nota de entrega"
 
 #. Label of the enable_deferred_expense (Check) field in DocType 'Purchase
 #. Invoice Item'
@@ -399,7 +399,7 @@ msgstr "Ativar receita diferida"
 #. Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Enable Discount Accounting for Selling"
-msgstr "Ativar contábilização de descontos em vendas"
+msgstr "Ativar contabilização de descontos para vendas"
 
 #. Label of the enable_european_access (Check) field in DocType 'Plaid
 #. Settings'
@@ -469,17 +469,17 @@ msgstr "Ative se os usuários quiserem considerar materiais rejeitados para expe
 #. Description of the 'Has Priority' (Check) field in DocType 'Pricing Rule'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 msgid "Enable this checkbox even if you want to set the zero priority"
-msgstr "Ative esta caixa mesmo se quiser definir a prioridade zero"
+msgstr "Ative esta caixa mesmo se quiser definir prioridade zero"
 
 #. Description of the 'Calculate daily depreciation using total days in
 #. depreciation period' (Check) field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Enable this option to calculate daily depreciation by considering the total number of days in the entire depreciation period, (including leap years) while using daily pro-rata based depreciation"
-msgstr "Ative esta opção para calcular a depreciação diária considerando o número total de dias de todo o período de depreciação (incluindo anos bissextos) ao usar depreciação diária proporcional"
+msgstr "Ative esta opção para calcular a depreciação diária considerando o total de dias de todo o período de depreciação (incluindo anos bissextos) ao usar depreciação diária proporcional"
 
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.js:34
 msgid "Enable to apply SLA on every {0}"
-msgstr "Ative para aplicar SLA em cada {0}"
+msgstr "Ative para aplicar o SLA em cada {0}"
 
 #. Description of the 'Fetch Timesheet in Sales Invoice' (Check) field in
 #. DocType 'Projects Settings'
@@ -491,34 +491,34 @@ msgstr "Ao ativar esta caixa, a planilha de horas será buscada ao selecionar um
 #. 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Enabling this checkbox will force each Job Card Time Log to have From Time and To Time"
-msgstr "Ao ativar esta caixa, cada registro de tempo do cartão de trabalho deverá ter Hora inicial e Hora final"
+msgstr "Ao ativar esta caixa, cada registro de tempo do cartão de trabalho deverá ter hora inicial e hora final"
 
 #. Description of the 'Check Supplier Invoice Number Uniqueness' (Check) field
 #. in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Enabling this ensures each Purchase Invoice has a unique value in Supplier Invoice No. field within a particular fiscal year"
-msgstr "Ao ativar, cada fatura de compra deverá ter um valor único no campo Nro. da fatura do fornecedor dentro do mesmo exercício fiscal"
+msgstr "Ao ativar isso, cada fatura de compra terá um valor único no campo Nº da fatura do fornecedor dentro de um exercício fiscal específico"
 
 #. Description of the 'Book Advance Payments in Separate Party Account' (Check)
 #. field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Enabling this option will allow you to record - <br><br> 1. Advances Received in a <b>Liability Account</b> instead of the <b>Asset Account</b><br><br>2. Advances Paid in an <b>Asset Account</b> instead of the <b> Liability Account</b>"
-msgstr "Ao ativar esta opção, você podera registrar - <br><br> 1. Adiantamentos recebidos em uma <b>Conta de passivo</b> em vez da <b>Conta de ativo</b><br><br>2. Adiantamentos pagos em uma <b>Conta de ativo</b> em vez da <b> Conta de passivo</b>"
+msgstr "Ao ativar esta opção, você poderá registrar - <br><br> 1. Adiantamentos recebidos em uma <b>conta de passivo</b> em vez da <b>conta de ativo</b><br><br>2. Adiantamentos pagos em uma <b>conta de ativo</b> em vez da <b> conta de passivo</b>"
 
 #. Description of the 'Allow multi-currency invoices against single party
 #. account ' (Check) field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Enabling this will allow creation of multi-currency invoices against single party account in company currency"
-msgstr "Ao ativar, será possível criar faturas em várias moedas para uma única conta do cadastro na moeda da empresa"
+msgstr "Ao ativar isso, será possível criar faturas em várias moedas para uma única conta do cadastro na moeda da empresa"
 
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.js:11
 msgid "Enabling this will change the way how cancelled transactions are handled."
-msgstr "Ao ativar, a forma como as transações canceladas são tratadas será alterada."
+msgstr "Ao ativar isso, a forma como transações canceladas são tratadas será alterada."
 
 #. Label of the encashment_date (Date) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Encashment Date"
-msgstr "Data de conversão em dinheiro"
+msgstr "Data do resgate"
 
 #: erpnext/crm/doctype/contract/contract.py:70
 msgid "End Date cannot be before Start Date."
@@ -566,7 +566,7 @@ msgstr "Data final do período da fatura atual"
 #. Label of the end_of_life (Date) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "End of Life"
-msgstr "Fim de vida útil"
+msgstr "Fim da vida útil"
 
 #. Option for the 'Generate Invoice At' (Select) field in DocType
 #. 'Subscription'
@@ -598,19 +598,19 @@ msgstr "Peças Suficientes Para Construir"
 #. DocType 'Sales Order Item'
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 msgid "Ensure Delivery Based on Produced Serial No"
-msgstr "Garantir entrega com base no nro. de série produzido"
+msgstr "Garantir entrega com base no nº de série produzido"
 
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.py:279
 msgid "Enter API key in Google Settings."
-msgstr "Digite a Chave da API Nas Configurações do Google."
+msgstr "Digite a chave da API nas Configurações do Google."
 
 #: erpnext/public/js/print.js:51
 msgid "Enter Company Details"
-msgstr "Informe os dados da empresa"
+msgstr "Insira os dados da empresa"
 
 #: erpnext/setup/doctype/employee/employee.js:108
 msgid "Enter First and Last name of Employee, based on Which Full Name will be updated. IN transactions, it will be Full Name which will be fetched."
-msgstr "Informe o nome e o sobrenome do colaborador, com base nos quais o nome completo será atualizado. Nas transações, será o nome completo que será buscado."
+msgstr "Insira o nome e o sobrenome do colaborador, com base nos quais o nome completo será atualizado. Nas transações, será buscado o nome completo."
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:201
 msgid "Enter Manually"
@@ -618,11 +618,11 @@ msgstr "Inserir manualmente"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:279
 msgid "Enter Serial Nos"
-msgstr "Inserir nros. de série"
+msgstr "Inserir números de série"
 
 #: erpnext/stock/doctype/material_request/material_request.js:425
 msgid "Enter Supplier"
-msgstr "Informe o fornecedor"
+msgstr "Insira o fornecedor"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:402
 #: erpnext/manufacturing/doctype/job_card/job_card.js:471
@@ -632,19 +632,19 @@ msgstr "Digite o Valor"
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.js:96
 msgid "Enter Visit Details"
-msgstr "Informe os detalhes da visita"
+msgstr "Insira os detalhes da visita"
 
 #: erpnext/manufacturing/doctype/routing/routing.js:88
 msgid "Enter a name for Routing."
-msgstr "Informe um nome para o roteiro."
+msgstr "Insira um nome para o roteiro."
 
 #: erpnext/manufacturing/doctype/operation/operation.js:20
 msgid "Enter a name for the Operation, for example, Cutting."
-msgstr "Informe um nome para a operação, por exemplo, Corte."
+msgstr "Insira um nome para a operação, por exemplo, Corte."
 
 #: erpnext/setup/doctype/holiday_list/holiday_list.js:50
 msgid "Enter a name for this Holiday List."
-msgstr "Informe um nome para esta lista de feriados."
+msgstr "Insira um nome para esta lista de feriados."
 
 #: erpnext/selling/page/point_of_sale/pos_payment.js:616
 msgid "Enter amount to be redeemed."
@@ -652,11 +652,11 @@ msgstr "Insira o valor a ser resgatado."
 
 #: erpnext/stock/doctype/item/item.js:1034
 msgid "Enter an Item Code, the name will be auto-filled the same as Item Code on clicking inside the Item Name field."
-msgstr "Informe um código do item; ao clicar no campo Nome do item, o nome será preenchido automaticamente com o mesmo valor do código do item."
+msgstr "Insira um código de item; ao clicar no campo Nome do item, o nome será preenchido automaticamente com o mesmo valor do código do item."
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:942
 msgid "Enter customer's email"
-msgstr "Informe o e-mail do cliente"
+msgstr "Insira o e-mail do cliente"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:948
 msgid "Enter customer's phone number"
@@ -664,7 +664,7 @@ msgstr "Insira o número de telefone do cliente"
 
 #: erpnext/assets/doctype/asset/asset.js:804
 msgid "Enter date to scrap asset"
-msgstr "Informe a data para sucatear o ativo"
+msgstr "Insira a data para sucatear o ativo"
 
 #: erpnext/assets/doctype/asset/asset.py:475
 msgid "Enter depreciation details"
@@ -676,37 +676,37 @@ msgstr "Insira a porcentagem de desconto."
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:282
 msgid "Enter each serial no in a new line"
-msgstr "Informe cada nro. de série em uma nova linha"
+msgstr "Insira cada nº de série em uma nova linha"
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:51
 msgid "Enter the Bank Guarantee Number before submitting."
-msgstr "Informe o número da garantia bancária antes de enviar."
+msgstr "Insira o número da garantia bancária antes de enviar."
 
 #: erpnext/manufacturing/doctype/routing/routing.js:93
 msgid "Enter the Operation, the table will fetch the Operation details like Hourly Rate, Workstation automatically.\n\n"
 " After that, set the Operation Time in minutes and the table will calculate the Operation Costs based on the Hourly Rate and Operation Time."
-msgstr "Informe a operação; a tabela buscara automaticamente os detalhes da operação, como tarifa horaria e posto de trabalho.\n\n"
-" Depois disso, defina o tempo da operação em minutos e a tabela calculara os custos da operação com base na tarifa horaria e no tempo da operação."
+msgstr "Insira a operação; a tabela buscará automaticamente os detalhes da operação, como preço por hora e posto de trabalho.\n\n"
+" Depois disso, defina o tempo da operação em minutos e a tabela calculará os custos da operação com base no preço por hora e no tempo da operação."
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:53
 msgid "Enter the name of the Beneficiary before submitting."
-msgstr "Informe o nome do beneficiario antes de enviar."
+msgstr "Insira o nome do beneficiário antes de enviar."
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:55
 msgid "Enter the name of the bank or lending institution before submitting."
-msgstr "Informe o nome do banco ou da instituicao financeira antes de enviar."
+msgstr "Insira o nome do banco ou da instituição financeira antes de enviar."
 
 #: erpnext/stock/doctype/item/item.js:1060
 msgid "Enter the opening stock units."
-msgstr "Informe as unidades do estoque inicial."
+msgstr "Insira as unidades do estoque inicial."
 
 #: erpnext/manufacturing/doctype/bom/bom.js:935
 msgid "Enter the quantity of the Item that will be manufactured from this Bill of Materials."
-msgstr "Informe a quantidade do item que será fabricada a partir desta lista de materiais."
+msgstr "Insira a quantidade do item que será fabricada a partir desta BOM."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1133
 msgid "Enter the quantity to manufacture. Raw material Items will be fetched only when this is set."
-msgstr "Informe a quantidade a fabricar. Os itens de materia-prima serão buscados somente quando este campo for definido."
+msgstr "Insira a quantidade a fabricar. Os itens de matéria-prima só serão buscados quando isso for definido."
 
 #: erpnext/selling/page/point_of_sale/pos_payment.js:539
 msgid "Enter {0} amount."
@@ -750,7 +750,7 @@ msgstr "Patrimônio Líquido"
 #. Transfer'
 #: erpnext/accounts/doctype/share_transfer/share_transfer.json
 msgid "Equity/Liability Account"
-msgstr "Conta de patrimonio/passivo"
+msgstr "Conta de patrimônio líquido/passivo"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -779,25 +779,27 @@ msgstr "Erro ao avaliar a fórmula de critérios"
 
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:307
 msgid "Error in party matching for Bank Transaction {0}"
-msgstr "Erro na conciliação de cadastros da transação bancária {0}"
+msgstr "Erro na correspondência de cadastro da transação bancária {0}"
 
 #: erpnext/assets/doctype/asset/depreciation.py:317
 msgid "Error while posting depreciation entries"
-msgstr "Erro ao lançar os registros de depreciação"
+msgstr "Erro ao lançar registros de depreciação"
 
 #: erpnext/accounts/deferred_revenue.py:541
 msgid "Error while processing deferred accounting for {0}"
-msgstr "Erro ao processar a contábilização diferida de {0}"
+msgstr "Erro ao processar a contabilização diferida de {0}"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:516
 msgid "Error while reposting item valuation"
-msgstr "Erro ao refazer a avaliação do item"
+msgstr "Erro ao repostar a avaliação do item"
 
 #: erpnext/assets/doctype/asset_depreciation_schedule/deppreciation_schedule_controller.py:176
 msgid "Error: This asset already has {0} depreciation periods booked.\n"
 "\t\t\t\t\tThe `depreciation start` date must be at least {1} periods after the `available for use` date.\n"
 "\t\t\t\t\tPlease correct the dates accordingly."
-msgstr "Erro: Este ativo já tem {0} períodos de depreciação contábilizados.\n\t\t\t\t\tA data de `início da depreciação` deve ser pelo menos {1} períodos após a data `disponível para uso`.\n\t\t\t\t\tCorrija as datas adequadamente."
+msgstr "Erro: este ativo já tem {0} períodos de depreciação registrados.\n"
+"\t\t\t\t\tA data de `início da depreciação` deve ser pelo menos {1} períodos após a data `disponível para uso`.\n"
+"\t\t\t\t\tCorrija as datas conforme necessário."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:962
 msgid "Error: {0} is mandatory field"
@@ -833,4 +835,4 @@ msgstr "Período de avaliação"
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:48
 msgid "Even if there are multiple Pricing Rules with highest priority, then following internal priorities are applied:"
-msgstr "Mesmo que haja varias regras de precificação com a maior prioridade, as seguintes prioridades internas serão aplicadas:"
+msgstr "Mesmo que existam várias regras de preço com a maior prioridade, as seguintes prioridades internas serão aplicadas:"

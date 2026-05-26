@@ -6,6 +6,7 @@ msgstr ""
 "PO-Revision-Date: 2026-01-21 06:48\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +17,6 @@ msgstr ""
 "X-Crowdin-Language: pt-BR\n"
 "X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
 "X-Crowdin-File-ID: 138\n"
-"Language: pt_BR\n"
 
 #. Name of a report
 #: frappe/core/report/prepared_report_analytics/prepared_report_analytics.json
@@ -42,7 +42,8 @@ msgstr "Adicionar o modelo no início da mensagem de e-mail"
 
 #: frappe/public/js/frappe/ui/keyboard.js:139
 msgid "Press Alt Key to trigger additional shortcuts in Menu and Sidebar"
-msgstr "Pressione Alt para acionar atalhos adicionais no menu e na barra lateral"
+msgstr ""
+"Pressione Alt para acionar atalhos adicionais no menu e na barra lateral"
 
 #: frappe/public/js/frappe/list/list_filter.js:87
 msgid "Press Enter to save"
@@ -158,8 +159,11 @@ msgstr "Telefone principal"
 
 #: frappe/database/mariadb/schema.py:156 frappe/database/postgres/schema.py:202
 #: frappe/database/sqlite/schema.py:141
-msgid "Primary key of doctype {0} can not be changed as there are existing values."
-msgstr "A chave primária do tipo de documento {0} não pode ser alterada porque já existem valores."
+msgid ""
+"Primary key of doctype {0} can not be changed as there are existing values."
+msgstr ""
+"A chave primária do tipo de documento {0} não pode ser alterada porque já "
+"existem valores."
 
 #. Label of the print (Check) field in DocType 'Custom DocPerm'
 #. Label of the print (Check) field in DocType 'DocPerm'
@@ -331,7 +335,7 @@ msgstr "Largura de impressão"
 #. Field'
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Print Width of the field, if the field is a column in a table"
-msgstr "Largura de impressão do campo, se o campo é uma coluna na tabela"
+msgstr "Largura de impressão do campo, se ele for uma coluna em uma tabela"
 
 #: frappe/public/js/frappe/form/form.js:171
 msgid "Print document"
@@ -340,7 +344,7 @@ msgstr "Imprimir documento"
 #. Label of the with_letterhead (Check) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
 msgid "Print with letterhead"
-msgstr "Imprimir com o timbre"
+msgstr "Imprimir com papel timbrado"
 
 #: frappe/printing/page/print/print.js:895
 msgid "Printer"
@@ -406,8 +410,12 @@ msgstr "Backup de arquivos privados:"
 #. Description of the 'Auto Reply Message' (Text Editor) field in DocType
 #. 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
-msgid "ProTip: Add <code>Reference: {{ reference_doctype }} {{ reference_name }}</code> to send document reference"
-msgstr "Dica: adicione <code>Reference: {{ reference_doctype }} {{ reference_name }}</code> para enviar a referência do documento"
+msgid ""
+"ProTip: Add <code>Reference: {{ reference_doctype }} {{ reference_name }}</"
+"code> to send document reference"
+msgstr ""
+"Dica: adicione <code>Reference: {{ reference_doctype }} {{ reference_name }}"
+"</code> para enviar a referência do documento"
 
 #: frappe/core/doctype/document_naming_rule/document_naming_rule.js:22
 msgid "Proceed"
@@ -467,7 +475,7 @@ msgstr "Propriedade"
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 #: frappe/website/doctype/web_form_field/web_form_field.json
 msgid "Property Depends On"
-msgstr "Depende da propriedade"
+msgstr "Dependência da propriedade"
 
 #. Name of a DocType
 #: frappe/custom/doctype/property_setter/property_setter.json
@@ -477,7 +485,9 @@ msgstr "Definidor de propriedade"
 #. Description of a DocType
 #: frappe/custom/doctype/property_setter/property_setter.json
 msgid "Property Setter overrides a standard DocType or Field property"
-msgstr "O Definidor de Propriedade substitui uma propriedade padrão de DocType ou campo"
+msgstr ""
+"O Definidor de Propriedade substitui uma propriedade padrão de DocType ou "
+"campo"
 
 #. Label of the property_type (Data) field in DocType 'Property Setter'
 #: frappe/custom/doctype/property_setter/property_setter.json
@@ -499,8 +509,15 @@ msgstr "Arquivo protegido"
 #. Description of the 'Allowed File Extensions' (Small Text) field in DocType
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
-msgid "Provide a list of allowed file extensions for file uploads. Each line should contain one allowed file type. If unset, all file extensions are allowed. Example: <br>CSV<br>JPG<br>PNG"
-msgstr "Forneça uma lista de extensões de arquivo permitidas para envio de arquivos. Cada linha deve conter um tipo de arquivo permitido. Se não for definido, todas as extensões de arquivo serão permitidas. Exemplo: <br>CSV<br>JPG<br>PNG"
+msgid ""
+"Provide a list of allowed file extensions for file uploads. Each line should "
+"contain one allowed file type. If unset, all file extensions are allowed. "
+"Example: <br>CSV<br>JPG<br>PNG"
+msgstr ""
+"Forneça uma lista de extensões de arquivo permitidas para carregamento de "
+"arquivos. Cada linha deve conter um tipo de arquivo permitido. Se não for "
+"definido, todas as extensões de arquivo serão permitidas. Exemplo: "
+"<br>CSV<br>JPG<br>PNG"
 
 #. Label of the provider (Data) field in DocType 'User Social Login'
 #. Label of the provider (Select) field in DocType 'Geolocation Settings'
@@ -792,7 +809,8 @@ msgstr "Enfileirado para envio. Você pode acompanhar o progresso em {0}."
 
 #: frappe/desk/page/backups/backups.py:96
 msgid "Queued for backup. You will receive an email with the download link"
-msgstr "Enfileirado para backup. Você receberá um e-mail com o link de download"
+msgstr ""
+"Enfileirado para backup. Você receberá um e-mail com o link de download"
 
 #. Label of the queues (Data) field in DocType 'System Health Report Workers'
 #: frappe/desk/doctype/system_health_report_workers/system_health_report_workers.json

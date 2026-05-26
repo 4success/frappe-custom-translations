@@ -6,6 +6,7 @@ msgstr ""
 "PO-Revision-Date: 2026-01-21 06:48\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +17,6 @@ msgstr ""
 "X-Crowdin-Language: pt-BR\n"
 "X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
 "X-Crowdin-File-ID: 138\n"
-"Language: pt_BR\n"
 
 #: frappe/printing/page/print/print.js:179
 msgid "Raw Printing Setting"
@@ -81,12 +81,12 @@ msgstr "Somente leitura"
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 #: frappe/website/doctype/web_form_field/web_form_field.json
 msgid "Read Only Depends On"
-msgstr "Dependência de somente leitura"
+msgstr "Somente leitura quando"
 
 #. Label of the read_only_depends_on (Code) field in DocType 'DocField'
 #: frappe/core/doctype/docfield/docfield.json
 msgid "Read Only Depends On (JS)"
-msgstr "Dependência de somente leitura (JS)"
+msgstr "Somente leitura quando (JS)"
 
 #: frappe/public/js/frappe/ui/toolbar/navbar.html:18
 #: frappe/templates/includes/navbar/navbar_items.html:97
@@ -241,7 +241,7 @@ msgstr "Status HTTP de redirecionamento"
 #. Label of the redirect_to_path (Data) field in DocType 'User Invitation'
 #: frappe/core/doctype/user_invitation/user_invitation.json
 msgid "Redirect To Path"
-msgstr "Redirecionar para o caminho"
+msgstr "Caminho de redirecionamento"
 
 #. Label of the redirect_uri (Data) field in DocType 'Connected App'
 #: frappe/integrations/doctype/connected_app/connected_app.json
@@ -284,8 +284,11 @@ msgid "Redirects"
 msgstr "Redirecionamentos"
 
 #: frappe/sessions.py:149
-msgid "Redis cache server not running. Please contact Administrator / Tech support"
-msgstr "O servidor de cache Redis não está em execução. Entre em contato com o administrador / suporte técnico"
+msgid ""
+"Redis cache server not running. Please contact Administrator / Tech support"
+msgstr ""
+"O servidor de cache Redis não está em execução. Entre em contato com o "
+"administrador / suporte técnico"
 
 #: frappe/public/js/frappe/form/toolbar.js:563
 msgid "Redo"
@@ -302,8 +305,10 @@ msgid "Ref DocType"
 msgstr "DocType de referência"
 
 #: frappe/desk/doctype/form_tour/form_tour.js:38
-msgid "Referance Doctype and Dashboard Name both can't be used at the same time."
-msgstr "Doctype de referência e nome do dashboard não podem ser usados ao mesmo tempo."
+msgid ""
+"Referance Doctype and Dashboard Name both can't be used at the same time."
+msgstr ""
+"Doctype de referência e nome do painel não podem ser usados ao mesmo tempo."
 
 #. Label of the linked_with (Section Break) field in DocType 'Address'
 #. Label of the contact_details (Section Break) field in DocType 'Contact'
@@ -569,13 +574,13 @@ msgstr "Rejeitado"
 
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.py:30
 msgid "Relay Server URL missing"
-msgstr "URL do servidor relay não informada"
+msgstr "URL do servidor de retransmissão não informada"
 
 #. Label of the section_break_qgjr (Section Break) field in DocType 'Push
 #. Notification Settings'
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.json
 msgid "Relay Settings"
-msgstr "Configurações do relay"
+msgstr "Configurações de retransmissão"
 
 #. Group in Package's connections
 #: frappe/core/doctype/package/package.json
@@ -790,8 +795,11 @@ msgid "Repeats like \"aaa\" are easy to guess"
 msgstr "Repetições como \"aaa\" são fáceis de adivinhar"
 
 #: frappe/utils/password_strength.py:105
-msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
-msgstr "Repetições como \"abcabcabc\" são apenas um pouco mais difíceis de adivinhar do que \"abc\""
+msgid ""
+"Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
+msgstr ""
+"Repetições como \"abcabcabc\" são apenas um pouco mais difíceis de adivinhar "
+"do que \"abc\""
 
 #: frappe/public/js/frappe/form/sidebar/form_sidebar.js:174
 msgid "Repeats {0}"
@@ -947,8 +955,11 @@ msgid "Report Name"
 msgstr "Nome do relatório"
 
 #: frappe/desk/doctype/number_card/number_card.py:70
-msgid "Report Name, Report Field and Fucntion are required to create a number card"
-msgstr "Nome do relatório, campo do relatório e função são obrigatórios para criar um cartão numérico"
+msgid ""
+"Report Name, Report Field and Fucntion are required to create a number card"
+msgstr ""
+"Nome do relatório, campo do relatório e função são obrigatórios para criar "
+"um cartão numérico"
 
 #. Label of the report_ref_doctype (Link) field in DocType 'Workspace Link'
 #. Label of the report_ref_doctype (Link) field in DocType 'Workspace Shortcut'

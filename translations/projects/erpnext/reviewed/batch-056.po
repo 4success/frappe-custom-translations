@@ -49,7 +49,7 @@ msgstr "Data de Término do Período de Teste"
 
 #: erpnext/accounts/doctype/subscription/subscription.py:336
 msgid "Trial Period End Date Cannot be before Trial Period Start Date"
-msgstr "A data de término do período de teste não pode ser anterior a data de início do período de teste"
+msgstr "A data de término do período de teste não pode ser anterior à data de início do período de teste"
 
 #. Label of the trial_period_start (Date) field in DocType 'Subscription'
 #: erpnext/accounts/doctype/subscription/subscription.json
@@ -307,7 +307,7 @@ msgstr "Detalhe da Conversão de UOM"
 #: erpnext/stock/doctype/pick_list_item/pick_list_item.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "UOM Conversion Factor"
-msgstr "Fator de Conversão de UOM"
+msgstr "Fator de conversão de UOM"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:1438
 msgid "UOM Conversion factor ({0} -> {1}) not found for item: {2}"
@@ -347,7 +347,7 @@ msgstr "UPC-A"
 
 #: erpnext/utilities/doctype/video/video.py:114
 msgid "URL can only be a string"
-msgstr "A URL deve ser uma string"
+msgstr "A URL só pode ser uma string"
 
 #. Option for the 'Data Fetch Method' (Select) field in DocType 'Accounts
 #. Settings'
@@ -366,20 +366,20 @@ msgstr "Desfazer reconciliação de alocações"
 
 #: erpnext/setup/utils.py:182
 msgid "Unable to find exchange rate for {0} to {1} for key date {2}. Please create a Currency Exchange record manually"
-msgstr "Não foi possível encontrar a taxa de câmbio de {0} para {1} na data-chave {2}. Crie um registro de câmbio manualmente"
+msgstr "Não foi possível encontrar a taxa de câmbio de {0} para {1} na data-base {2}. Crie um registro de câmbio manualmente"
 
 #: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.py:165
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:314
 msgid "Unable to find exchange rate for {0} to {1} for key date {2}. Please create a Currency Exchange record manually."
-msgstr "Não foi possível encontrar a taxa de câmbio de {0} para {1} na data-chave {2}. Crie um registro de câmbio manualmente."
+msgstr "Não foi possível encontrar a taxa de câmbio de {0} para {1} na data-base {2}. Crie um registro de câmbio manualmente."
 
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.py:78
 msgid "Unable to find score starting at {0}. You need to have standing scores covering 0 to 100"
-msgstr "Não foi possível encontrar uma pontuação iniciando em {0}. Você precisa ter faixas de pontuação cobrindo de 0 a 100"
+msgstr "Não foi possível encontrar uma pontuação inicial em {0}. É necessário ter faixas de pontuação cobrindo de 0 a 100"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1013
 msgid "Unable to find the time slot in the next {0} days for the operation {1}. Please increase the 'Capacity Planning For (Days)' in the {2}."
-msgstr "Não foi possível encontrar um intervalo de tempo nos próximos {0} dias para a operação {1}. Aumente 'Planejamento de Capacidade para (Dias)' em {2}."
+msgstr "Não foi possível encontrar um horário disponível nos próximos {0} dias para a operação {1}. Aumente o campo 'Capacity Planning For (Days)' em {2}."
 
 #: erpnext/buying/doctype/supplier_scorecard_criteria/supplier_scorecard_criteria.py:98
 msgid "Unable to find variable:"
@@ -392,7 +392,7 @@ msgstr "Não foi possível encontrar a variável:"
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 #: erpnext/public/js/bank_reconciliation_tool/data_table_manager.js:74
 msgid "Unallocated Amount"
-msgstr "Valor Não Alocado"
+msgstr "Valor não alocado"
 
 #: erpnext/stock/doctype/putaway_rule/putaway_rule.py:323
 msgid "Unassigned Qty"
@@ -400,7 +400,7 @@ msgstr "Qtd. não atribuída"
 
 #: erpnext/accounts/doctype/budget/budget.py:649
 msgid "Unbilled Orders"
-msgstr "Pedidos Não Faturados"
+msgstr "Pedidos não faturados"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:101
 msgid "Unblock Invoice"
@@ -419,7 +419,7 @@ msgstr "Lucro / Prejuízo (crédito) de Anos Fiscais Não Encerrados"
 #: erpnext/stock/doctype/serial_no/serial_no.json
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Under AMC"
-msgstr "Sob contrato de manutenção"
+msgstr "Sob AMC"
 
 #. Option for the 'Level' (Select) field in DocType 'Employee Education'
 #: erpnext/setup/doctype/employee_education/employee_education.json
@@ -432,16 +432,16 @@ msgstr "Graduação"
 #: erpnext/stock/doctype/serial_no/serial_no.json
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Under Warranty"
-msgstr "Em garantia"
+msgstr "Na garantia"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.js:78
 msgid "Under Working Hours table, you can add start and end times for a Workstation. For example, a Workstation may be active from 9 am to 1 pm, then 2 pm to 5 pm. You can also specify the working hours based on shifts. While scheduling a Work Order, the system will check for the availability of the Workstation based on the working hours specified."
-msgstr "Na tabela Horário de Trabalho, você pode adicionar horários de início e fim para um Posto de Trabalho. Por exemplo, um Posto de Trabalho pode ficar ativo das 9h às 13h e depois das 14h às 17h. Você também pode definir o horário de trabalho com base em turnos. Ao programar uma Ordem de Trabalho, o sistema verificará a disponibilidade do Posto de Trabalho com base no horário informado."
+msgstr "Na tabela Horário de trabalho, você pode adicionar horários de início e término para um posto de trabalho. Por exemplo, um posto de trabalho pode ficar ativo das 9h às 13h e depois das 14h às 17h. Você também pode definir o horário de trabalho com base em turnos. Ao programar uma Ordem de Trabalho, o sistema verificará a disponibilidade do posto de trabalho com base no horário de trabalho informado."
 
 #. Option for the 'Fulfilment Status' (Select) field in DocType 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
 msgid "Unfulfilled"
-msgstr "Não Cumprido"
+msgstr "Não cumprido"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -461,7 +461,7 @@ msgstr "Unidade de Medida"
 #: erpnext/setup/workspace/home/home.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Unit of Measure (UOM)"
-msgstr "Unidade de Medida (UOM)"
+msgstr "Unidade de medida (UOM)"
 
 #: erpnext/stock/doctype/item/item.py:384
 msgid "Unit of Measure {0} has been entered more than once in Conversion Factor Table"
@@ -471,7 +471,7 @@ msgstr "Unidade de Medida {0} foi inserida mais de uma vez na Tabela de Convers�
 #. 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Units of Measure"
-msgstr "Unidades de Medida"
+msgstr "Unidades de medida"
 
 #: erpnext/public/js/call_popup/call_popup.js:110
 msgid "Unknown Caller"
@@ -481,13 +481,13 @@ msgstr "Chamador Desconhecido"
 #. DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Unlink Advance Payment on Cancellation of Order"
-msgstr "Desvincular Pagamento Antecipado ao Cancelar o Pedido"
+msgstr "Desvincular pagamento antecipado ao cancelar o pedido"
 
 #. Label of the unlink_payment_on_cancellation_of_invoice (Check) field in
 #. DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Unlink Payment on Cancellation of Invoice"
-msgstr "Desvincular Pagamento ao Cancelar a Fatura"
+msgstr "Desvincular pagamento ao cancelar a fatura"
 
 #: erpnext/accounts/doctype/bank_account/bank_account.js:33
 msgid "Unlink external integrations"
@@ -509,14 +509,14 @@ msgstr "Desvinculado"
 #: erpnext/accounts/doctype/subscription/subscription.json
 #: erpnext/accounts/doctype/subscription/subscription_list.js:12
 msgid "Unpaid"
-msgstr "Não Pago"
+msgstr "A Pagar"
 
 #. Option for the 'Status' (Select) field in DocType 'POS Invoice'
 #. Option for the 'Status' (Select) field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Unpaid and Discounted"
-msgstr "Não Pago e Descontado"
+msgstr "Não pago e descontado"
 
 #. Option for the 'Stop Reason' (Select) field in DocType 'Downtime Entry'
 #: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json
@@ -526,13 +526,13 @@ msgstr "Manutenção não planejada da máquina"
 #. Option for the 'Qualification Status' (Select) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
 msgid "Unqualified"
-msgstr "Não Qualificado"
+msgstr "Não qualificado"
 
 #. Label of the unrealized_exchange_gain_loss_account (Link) field in DocType
 #. 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Unrealized Exchange Gain/Loss Account"
-msgstr "Conta de Ganho/Perda Cambial Não Realizado"
+msgstr "Conta de ganho/perda cambial não realizado"
 
 #. Label of the unrealized_profit_loss_account (Link) field in DocType
 #. 'Purchase Invoice'
@@ -544,19 +544,19 @@ msgstr "Conta de Ganho/Perda Cambial Não Realizado"
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 #: erpnext/setup/doctype/company/company.json
 msgid "Unrealized Profit / Loss Account"
-msgstr "Conta de Lucro / Prejuízo Não Realizado"
+msgstr "Conta de lucro / prejuízo não realizado"
 
 #. Description of the 'Unrealized Profit / Loss Account' (Link) field in
 #. DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Unrealized Profit / Loss account for intra-company transfers"
-msgstr "Conta de Lucro / Prejuízo Não Realizado para transferências entre empresas"
+msgstr "Conta de lucro / prejuízo não realizado para transferências entre empresas"
 
 #. Description of the 'Unrealized Profit / Loss Account' (Link) field in
 #. DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Unrealized Profit/Loss account for intra-company transfers"
-msgstr "Conta de Lucro/Prejuízo Não Realizado para transferências entre empresas"
+msgstr "Conta de lucro/prejuízo não realizado para transferências entre empresas"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/unreconcile_payment/unreconcile_payment.json
@@ -585,26 +585,26 @@ msgstr "Não Reconciliado"
 #: erpnext/accounts/doctype/payment_reconciliation_allocation/payment_reconciliation_allocation.json
 #: erpnext/accounts/doctype/process_payment_reconciliation_log_allocations/process_payment_reconciliation_log_allocations.json
 msgid "Unreconciled Amount"
-msgstr "Valor Não Reconciliado"
+msgstr "Valor não reconciliado"
 
 #. Label of the sec_break1 (Section Break) field in DocType 'Payment
 #. Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 msgid "Unreconciled Entries"
-msgstr "Lançamentos Não Reconciliados"
+msgstr "Lançamentos não reconciliados"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:903
 #: erpnext/selling/doctype/sales_order/sales_order.js:107
 #: erpnext/stock/doctype/pick_list/pick_list.js:156
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:193
 msgid "Unreserve"
-msgstr "Cancelar Reserva"
+msgstr "Cancelar reserva"
 
 #: erpnext/public/js/stock_reservation.js:245
 #: erpnext/selling/doctype/sales_order/sales_order.js:502
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:378
 msgid "Unreserve Stock"
-msgstr "Cancelar Reserva de Estoque"
+msgstr "Cancelar reserva de estoque"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:295
 msgid "Unreserve for Raw Materials"
@@ -612,7 +612,7 @@ msgstr "Cancelar reserva de matérias-primas"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:269
 msgid "Unreserve for Sub-assembly"
-msgstr "Cancelar Reserva para Submontagem"
+msgstr "Cancelar reserva para submontagem"
 
 #: erpnext/public/js/stock_reservation.js:281
 #: erpnext/selling/doctype/sales_order/sales_order.js:514
@@ -631,7 +631,7 @@ msgstr "Não Resolvido"
 #. Visit'
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
 msgid "Unscheduled"
-msgstr "Não Programado"
+msgstr "Não programado"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:178
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:305
@@ -640,12 +640,12 @@ msgstr "Empréstimos Não Garantidos"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1706
 msgid "Unset Matched Payment Request"
-msgstr "Desfazer Solicitação de Pagamento Vinculada"
+msgstr "Desfazer solicitação de pagamento vinculada"
 
 #. Option for the 'Status' (Select) field in DocType 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
 msgid "Unsigned"
-msgstr "Não Assinado"
+msgstr "Não assinado"
 
 #: erpnext/setup/doctype/email_digest/email_digest.py:128
 msgid "Unsubscribe from this Email Digest"
@@ -658,11 +658,11 @@ msgstr "Até"
 #. Option for the 'Status' (Select) field in DocType 'Appointment'
 #: erpnext/crm/doctype/appointment/appointment.json
 msgid "Unverified"
-msgstr "Não Verificado"
+msgstr "Não verificado"
 
 #: erpnext/erpnext_integrations/utils.py:22
 msgid "Unverified Webhook Data"
-msgstr "Dados de Webhook Não Verificados"
+msgstr "Dados de webhook não verificados"
 
 #: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.js:17
 msgid "Up"
@@ -687,7 +687,7 @@ msgstr "Atualizar Número da Conta / Nome"
 
 #: erpnext/selling/page/point_of_sale/pos_payment.js:22
 msgid "Update Additional Information"
-msgstr "Atualizar Informações Adicionais"
+msgstr "Atualizar informações adicionais"
 
 #. Label of the update_auto_repeat_reference (Button) field in DocType 'POS
 #. Invoice'
@@ -718,17 +718,17 @@ msgstr "Atualizar referência de repetição automática"
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:23
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Update BOM Cost Automatically"
-msgstr "Atualizar Custo da BOM Automaticamente"
+msgstr "Atualizar custo da BOM automaticamente"
 
 #. Description of the 'Update BOM Cost Automatically' (Check) field in DocType
 #. 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Update BOM cost automatically via scheduler, based on the latest Valuation Rate/Price List Rate/Last Purchase Rate of raw materials"
-msgstr "Atualiza o custo da BOM automaticamente via agendador, com base na última Taxa de Avaliação/Taxa da Lista de Preços/Última Taxa de Compra das matérias-primas"
+msgstr "Atualizar automaticamente o custo da BOM via agendador, com base na taxa de avaliação / preço da lista de preços / último preço de compra mais recente das matérias-primas"
 
 #: erpnext/stock/report/stock_qty_vs_batch_qty/stock_qty_vs_batch_qty.js:31
 msgid "Update Batch Qty"
-msgstr "Atualizar Qtd. do Lote"
+msgstr "Atualizar qtd. do lote"
 
 #. Label of the update_billed_amount_in_delivery_note (Check) field in DocType
 #. 'POS Invoice'
@@ -737,19 +737,19 @@ msgstr "Atualizar Qtd. do Lote"
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Update Billed Amount in Delivery Note"
-msgstr "Atualizar Valor Faturado na Nota de Entrega"
+msgstr "Atualizar valor faturado na nota de entrega"
 
 #. Label of the update_billed_amount_in_purchase_order (Check) field in DocType
 #. 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Update Billed Amount in Purchase Order"
-msgstr "Atualizar Valor Faturado no Pedido de Compra"
+msgstr "Atualizar valor faturado no pedido de compra"
 
 #. Label of the update_billed_amount_in_purchase_receipt (Check) field in
 #. DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Update Billed Amount in Purchase Receipt"
-msgstr "Atualizar Valor Faturado no Recebimento de Compra"
+msgstr "Atualizar valor faturado no recebimento de compra"
 
 #. Label of the update_billed_amount_in_sales_order (Check) field in DocType
 #. 'POS Invoice'
@@ -758,18 +758,18 @@ msgstr "Atualizar Valor Faturado no Recebimento de Compra"
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Update Billed Amount in Sales Order"
-msgstr "Atualizar Valor Faturado no Pedido de Venda"
+msgstr "Atualizar valor faturado no pedido de venda"
 
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.js:42
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.js:44
 msgid "Update Clearance Date"
-msgstr "Atualizar Data de Compensação"
+msgstr "Atualizar data da compensação bancária"
 
 #. Label of the update_consumed_material_cost_in_project (Check) field in
 #. DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Update Consumed Material Cost In Project"
-msgstr "Atualizar Custo do Material Consumido no Projeto"
+msgstr "Atualizar custo do material consumido no projeto"
 
 #. Option for the 'Update Type' (Select) field in DocType 'BOM Update Log'
 #. Label of the update_cost_section (Section Break) field in DocType 'BOM
@@ -787,7 +787,7 @@ msgstr "Atualizar Nome / Número do Centro de Custo"
 
 #: erpnext/projects/doctype/project/project.js:91
 msgid "Update Costing and Billing"
-msgstr "Atualizar Custos e Faturamento"
+msgstr "Atualizar custos e faturamento"
 
 #: erpnext/stock/doctype/pick_list/pick_list.js:126
 msgid "Update Current Stock"
@@ -797,7 +797,7 @@ msgstr "Atualizar Estoque Atual"
 #. Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Update Existing Price List Rate"
-msgstr "Atualizar Preço da Lista de Preços Existente"
+msgstr "Atualizar preço existente da lista de preços"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:366
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.js:35
@@ -816,13 +816,13 @@ msgstr "Atualizar Itens"
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 #: erpnext/controllers/accounts_controller.py:196
 msgid "Update Outstanding for Self"
-msgstr "Atualizar Saldo Pendente para a Própria Empresa"
+msgstr "Atualizar saldo pendente próprio"
 
 #. Label of the update_price_list_based_on (Select) field in DocType 'Stock
 #. Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Update Price List Based On"
-msgstr "Atualizar Lista de Preços com Base em"
+msgstr "Atualizar lista de preços com base em"
 
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.js:10
 msgid "Update Print Format"
@@ -831,11 +831,11 @@ msgstr "Atualizar Formato de Impressão"
 #. Label of the get_stock_and_rate (Button) field in DocType 'Stock Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Update Rate and Availability"
-msgstr "Atualizar Preço e Disponibilidade"
+msgstr "Atualizar preço e disponibilidade"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:630
 msgid "Update Rate as per Last Purchase"
-msgstr "Atualizar Preço conforme a Última Compra"
+msgstr "Atualizar preço conforme a última compra"
 
 #. Label of the update_stock (Check) field in DocType 'POS Invoice'
 #. Label of the update_stock (Check) field in DocType 'POS Profile'
@@ -846,12 +846,12 @@ msgstr "Atualizar Preço conforme a Última Compra"
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Update Stock"
-msgstr "Atualizar Estoque"
+msgstr "Atualizar estoque"
 
 #. Label of the update_type (Select) field in DocType 'BOM Update Log'
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.json
 msgid "Update Type"
-msgstr "Tipo de Atualização"
+msgstr "Tipo de atualização"
 
 #. Label of the project_update_frequency (Select) field in DocType 'Buying
 #. Settings'
@@ -873,7 +873,7 @@ msgstr "Atualizar estoque deve estar habilitado para a fatura de compra {0}"
 #. DocType 'CRM Settings'
 #: erpnext/crm/doctype/crm_settings/crm_settings.json
 msgid "Update the modified timestamp on new communications received in Lead & Opportunity."
-msgstr "Atualiza o registro de modificação ao receber novas comunicações em Lead e Oportunidade."
+msgstr "Atualiza o carimbo de data e hora de modificação ao receber novas comunicações em Lead e Oportunidade."
 
 #. Label of the update_timestamp_on_new_communication (Check) field in DocType
 #. 'CRM Settings'
@@ -919,12 +919,12 @@ msgstr "Carregar extrato bancário"
 #. 'Import Supplier Invoice'
 #: erpnext/regional/doctype/import_supplier_invoice/import_supplier_invoice.json
 msgid "Upload XML Invoices"
-msgstr "Carregar Faturas XML"
+msgstr "Carregar faturas XML"
 
 #. Description of the 'Submit ERR Journals?' (Check) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Upon enabling this, the JV will be submitted for a different exchange rate."
-msgstr "Ao habilitar isso, o JV será enviado para uma taxa de câmbio diferente."
+msgstr "Ao habilitar isso, o JV será enviado com uma taxa de câmbio diferente."
 
 #. Description of the 'Auto Reserve Stock' (Check) field in DocType 'Stock
 #. Settings'
@@ -946,18 +946,18 @@ msgstr "Urgente"
 
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.js:36
 msgid "Use 'Repost in background' button to trigger background job. Job can only be triggered when document is in Queued or Failed status."
-msgstr "Use o botão 'Repost in background' para acionar a tarefa em segundo plano. A tarefa só pode ser acionada quando o documento estiver com status Em fila ou Falhou."
+msgstr "Use o botão 'Repost in background' para acionar a tarefa em segundo plano. A tarefa só pode ser acionada quando o documento estiver com status Queued ou Failed."
 
 #. Description of the 'Advanced Filtering' (Check) field in DocType 'Financial
 #. Report Row'
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
 msgid "Use <strong>Python</strong> filters to get Accounts"
-msgstr "Use filtros em <strong>Python</strong> para obter contas"
+msgstr "Use filtros <strong>Python</strong> para obter contas"
 
 #. Label of the use_batchwise_valuation (Check) field in DocType 'Batch'
 #: erpnext/stock/doctype/batch/batch.json
 msgid "Use Batch-wise Valuation"
-msgstr "Usar Avaliação por Lote"
+msgstr "Usar avaliação por lote"
 
 #. Label of the use_csv_sniffer (Check) field in DocType 'Bank Statement
 #. Import'
@@ -969,23 +969,23 @@ msgstr "Usar detector de CSV"
 #. 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Use Company Default Round Off Cost Center"
-msgstr "Usar Centro de Custo Padrão da Empresa para Arredondamento"
+msgstr "Usar centro de custo padrão da empresa para arredondamento"
 
 #. Label of the use_company_roundoff_cost_center (Check) field in DocType
 #. 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Use Company default Cost Center for Round off"
-msgstr "Usar Centro de Custo padrão da Empresa para Arredondamento"
+msgstr "Usar centro de custo padrão da empresa para arredondamento"
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.js:146
 msgid "Use Default Warehouse"
-msgstr "Usar Armazém Padrão"
+msgstr "Usar almoxarifado padrão"
 
 #. Description of the 'Calculate Estimated Arrival Times' (Button) field in
 #. DocType 'Delivery Trip'
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.json
 msgid "Use Google Maps Direction API to calculate estimated arrival times"
-msgstr "Usar a API Google Maps Direction para calcular os tempos estimados de chegada"
+msgstr "Usar a API Google Maps Direction para calcular os horários estimados de chegada"
 
 #. Description of the 'Optimize Route' (Button) field in DocType 'Delivery
 #. Trip'
@@ -996,4 +996,4 @@ msgstr "Usar a API Google Maps Direction para otimizar a rota"
 #. Label of the use_http (Check) field in DocType 'Currency Exchange Settings'
 #: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.json
 msgid "Use HTTP Protocol"
-msgstr "Usar Protocolo HTTP"
+msgstr "Usar protocolo HTTP"

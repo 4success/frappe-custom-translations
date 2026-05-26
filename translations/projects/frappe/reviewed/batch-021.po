@@ -6,6 +6,7 @@ msgstr ""
 "PO-Revision-Date: 2026-01-21 06:48\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +17,6 @@ msgstr ""
 "X-Crowdin-Language: pt-BR\n"
 "X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
 "X-Crowdin-File-ID: 138\n"
-"Language: pt_BR\n"
 
 #. Label of the next_actions_html (HTML) field in DocType 'Success Action'
 #: frappe/core/doctype/success_action/success_action.json
@@ -238,7 +238,7 @@ msgstr "Nenhuma impressora disponível."
 
 #: frappe/core/doctype/rq_worker/rq_worker_list.js:3
 msgid "No RQ Workers connected. Try restarting the bench."
-msgstr "Nenhum worker RQ conectado. Tente reiniciar o bench."
+msgstr "Nenhum processo RQ conectado. Tente reiniciar o bench."
 
 #: frappe/public/js/frappe/form/link_selector.js:135
 msgid "No Results"
@@ -321,16 +321,24 @@ msgid "No data to export"
 msgstr "Nenhum dado para exportar"
 
 #: frappe/contacts/doctype/address/address.py:245
-msgid "No default Address Template found. Please create a new one from Setup > Printing and Branding > Address Template."
-msgstr "Nenhum modelo de endereço padrão encontrado. Crie um novo em Configuração > Impressão e identidade visual > Modelo de endereço."
+msgid ""
+"No default Address Template found. Please create a new one from Setup > "
+"Printing and Branding > Address Template."
+msgstr ""
+"Nenhum modelo de endereço padrão encontrado. Crie um novo em Configuração > "
+"Impressão e identidade visual > Modelo de endereço."
 
 #: frappe/public/js/frappe/ui/toolbar/search.js:71
 msgid "No documents found tagged with {0}"
 msgstr "Nenhum documento encontrado com a tag {0}"
 
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:21
-msgid "No email account associated with the User. Please add an account under User > Email Inbox."
-msgstr "Nenhuma conta de e-mail associada ao usuário. Adicione uma conta em Usuário > Caixa de entrada de e-mail."
+msgid ""
+"No email account associated with the User. Please add an account under User "
+"> Email Inbox."
+msgstr ""
+"Nenhuma conta de e-mail associada ao usuário. Adicione uma conta em Usuário "
+"> Caixa de entrada de e-mail."
 
 #: frappe/core/api/user_invitation.py:17
 msgid "No email addresses to invite"
@@ -341,8 +349,13 @@ msgid "No failed logs"
 msgstr "Nenhum log com falha"
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:385
-msgid "No fields found that can be used as a Kanban Column. Use the Customize Form to add a Custom Field of type \"Select\"."
-msgstr "Nenhum campo encontrado que possa ser usado como coluna Kanban. Use Personalizar formulário para adicionar um campo personalizado do tipo \"Select\"."
+msgid ""
+"No fields found that can be used as a Kanban Column. Use the Customize Form "
+"to add a Custom Field of type \"Select\"."
+msgstr ""
+"Nenhum campo encontrado que possa ser usado como coluna Kanban. Use "
+"Personalizar formulário para adicionar um campo personalizado do tipo "
+"\"Select\"."
 
 #: frappe/utils/file_manager.py:143
 msgid "No file attached"
@@ -463,7 +476,9 @@ msgstr "Nenhum {0} encontrado"
 
 #: frappe/public/js/frappe/list/list_view.js:500
 msgid "No {0} found with matching filters. Clear filters to see all {0}."
-msgstr "Nenhum {0} encontrado com os filtros aplicados. Limpe os filtros para ver todos os {0}."
+msgstr ""
+"Nenhum {0} encontrado com os filtros aplicados. Limpe os filtros para ver "
+"todos os {0}."
 
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:171
 msgid "No {0} mail"
@@ -571,7 +586,7 @@ msgstr "Não permitido"
 
 #: frappe/desk/query_report.py:631
 msgid "Not Permitted to read {0}"
-msgstr "Não permitido ler {0}"
+msgstr "Sem permissão para ler {0}"
 
 #: frappe/website/doctype/web_form/web_form_list.js:7
 #: frappe/website/doctype/web_page/web_page_list.js:7
@@ -634,8 +649,12 @@ msgid "Not allowed for {0}: {1}"
 msgstr "Não permitido para {0}: {1}"
 
 #: frappe/email/doctype/notification/notification.py:674
-msgid "Not allowed to attach {0} document, please enable Allow Print For {0} in Print Settings"
-msgstr "Não é permitido anexar o documento {0}; habilite Permitir impressão para {0} nas configurações de impressão"
+msgid ""
+"Not allowed to attach {0} document, please enable Allow Print For {0} in "
+"Print Settings"
+msgstr ""
+"Não é permitido anexar o documento {0}; habilite Permitir impressão para {0} "
+"nas configurações de impressão"
 
 #: frappe/core/doctype/doctype/doctype.py:337
 msgid "Not allowed to create custom Virtual DocType."
@@ -662,8 +681,11 @@ msgid "Not in Developer Mode"
 msgstr "Não está no modo de desenvolvedor"
 
 #: frappe/core/doctype/doctype/doctype.py:332
-msgid "Not in Developer Mode! Set in site_config.json or make 'Custom' DocType."
-msgstr "Não está no modo de desenvolvedor! Defina em site_config.json ou crie um DocType 'Custom'."
+msgid ""
+"Not in Developer Mode! Set in site_config.json or make 'Custom' DocType."
+msgstr ""
+"Não está no modo de desenvolvedor! Defina em site_config.json ou crie um "
+"DocType 'Custom'."
 
 #: frappe/core/doctype/system_settings/system_settings.py:234
 #: frappe/public/js/frappe/request.js:159
@@ -677,7 +699,7 @@ msgstr "Não permitido"
 
 #: frappe/public/js/frappe/list/list_view.js:53
 msgid "Not permitted to view {0}"
-msgstr "Não permitido visualizar {0}"
+msgstr "Sem permissão para visualizar {0}"
 
 #: frappe/public/js/frappe/file_uploader/FileUploader.vue:623
 msgid "Not permitted. {0}."
@@ -709,8 +731,12 @@ msgstr "Nota: os fusos horários Etc têm os sinais invertidos."
 #. Description of the 'sb0' (Section Break) field in DocType 'Website
 #. Slideshow'
 #: frappe/website/doctype/website_slideshow/website_slideshow.json
-msgid "Note: For best results,  images must be of the same size and width must be greater than height."
-msgstr "Nota: Para obter melhores resultados, as imagens devem ter o mesmo tamanho e a largura deve ser maior que a altura."
+msgid ""
+"Note: For best results,  images must be of the same size and width must be "
+"greater than height."
+msgstr ""
+"Nota: Para obter melhores resultados, as imagens devem ter o mesmo tamanho e "
+"a largura deve ser maior que a altura."
 
 #. Description of the 'Allow only one session per user' (Check) field in
 #. DocType 'System Settings'

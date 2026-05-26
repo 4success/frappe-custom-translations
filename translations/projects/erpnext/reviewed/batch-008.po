@@ -21,7 +21,7 @@ msgstr ""
 #. Label of the bank_ac_no (Data) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Bank A/C No."
-msgstr "N.o da conta bancária"
+msgstr "Nº da conta bancária"
 
 #. Name of a DocType
 #. Label of the bank_account (Link) field in DocType 'Bank Clearance'
@@ -49,7 +49,7 @@ msgstr "N.o da conta bancária"
 #: erpnext/accounts/report/cheques_and_deposits_incorrectly_cleared/cheques_and_deposits_incorrectly_cleared.js:16
 #: erpnext/accounts/workspace/accounting/accounting.json
 msgid "Bank Account"
-msgstr "Conta bancária"
+msgstr "Conta Bancária"
 
 #. Label of the bank_account_details (Section Break) field in DocType 'Payment
 #. Order Reference'
@@ -75,12 +75,12 @@ msgstr "Informações da conta bancária"
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Bank Account No"
-msgstr "N.o da conta bancária"
+msgstr "Nº da conta bancária"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank_account_subtype/bank_account_subtype.json
 msgid "Bank Account Subtype"
-msgstr "Subtipo de conta bancária"
+msgstr "Subtipo de Conta Bancária"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank_account_type/bank_account_type.json
@@ -94,7 +94,7 @@ msgstr "A conta bancária {} na transação bancária {} não corresponde à con
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:15
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:20
 msgid "Bank Accounts"
-msgstr "Contas bancárias"
+msgstr "Contas Bancárias"
 
 #. Label of the bank_balance (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -143,7 +143,7 @@ msgstr "Saldo credor bancário"
 #: erpnext/accounts/doctype/bank/bank_dashboard.py:7
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Bank Details"
-msgstr "Detalhes bancários"
+msgstr "Detalhes Bancários"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:260
 msgid "Bank Draft"
@@ -160,7 +160,7 @@ msgstr "Lançamento bancário"
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
 msgid "Bank Guarantee"
-msgstr "Garantia bancária"
+msgstr "Garantia Bancária"
 
 #. Label of the bank_guarantee_number (Data) field in DocType 'Bank Guarantee'
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
@@ -214,19 +214,19 @@ msgstr "Saldo do extrato bancário conforme o razão geral"
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:32
 msgid "Bank Transaction"
-msgstr "Transação bancária"
+msgstr "Transação Bancária"
 
 #. Label of the bank_transaction_mapping (Table) field in DocType 'Bank'
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank/bank.json
 #: erpnext/accounts/doctype/bank_transaction_mapping/bank_transaction_mapping.json
 msgid "Bank Transaction Mapping"
-msgstr "Mapeamento de transações bancárias"
+msgstr "Mapeamento de Transações Bancárias"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/bank_transaction_payments/bank_transaction_payments.json
 msgid "Bank Transaction Payments"
-msgstr "Pagamentos de transações bancárias"
+msgstr "Pagamentos de Transações Bancárias"
 
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:493
 msgid "Bank Transaction {0} Matched"
@@ -280,7 +280,7 @@ msgstr "A conta bancária/caixa {0} não pertence à empresa {1}"
 #: erpnext/accounts/workspace/accounting/accounting.json
 #: erpnext/setup/setup_wizard/data/industry_type.txt:8
 msgid "Banking"
-msgstr "Bancário"
+msgstr "Bancos"
 
 #. Label of the barcode_type (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
@@ -341,7 +341,7 @@ msgstr "Custo base por unidade"
 #. Label of the base_hour_rate (Currency) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Base Hour Rate(Company Currency)"
-msgstr "Taxa horária base (moeda da empresa)"
+msgstr "Preço base por hora (moeda da empresa)"
 
 #. Label of the base_rate (Currency) field in DocType 'BOM Creator Item'
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
@@ -414,11 +414,11 @@ msgstr "Com base no valor"
 
 #: erpnext/setup/doctype/holiday_list/holiday_list.js:60
 msgid "Based on your HR Policy, select your leave allocation period's end date"
-msgstr "Com base na sua política de RH, selecione a data final do período de alocação de férias"
+msgstr "Com base na sua política de RH, selecione a data final do período de alocação de licenças"
 
 #: erpnext/setup/doctype/holiday_list/holiday_list.js:55
 msgid "Based on your HR Policy, select your leave allocation period's start date"
-msgstr "Com base na sua política de RH, selecione a data inicial do período de alocação de férias"
+msgstr "Com base na sua política de RH, selecione a data inicial do período de alocação de licenças"
 
 #. Label of the basic_amount (Currency) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
@@ -442,7 +442,7 @@ msgstr "Preço base (moeda da empresa)"
 #. Label of the basic_rate (Currency) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Basic Rate (as per Stock UOM)"
-msgstr "Preço base (conforme a UM de estoque)"
+msgstr "Preço base (conforme a UOM de estoque)"
 
 #. Name of a DocType
 #. Label of a Link in the Stock Workspace
@@ -549,38 +549,38 @@ msgstr "Status de vencimento de lotes por item"
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
 msgid "Batch No"
-msgstr "N.o do lote"
+msgstr "Nº do lote"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1080
 msgid "Batch No is mandatory"
-msgstr "O n.º do lote é obrigatório"
+msgstr "O nº do lote é obrigatório"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:3031
 msgid "Batch No {0} does not exists"
-msgstr "O n.º do lote {0} não existe"
+msgstr "O nº do lote {0} não existe"
 
 #: erpnext/stock/utils.py:646
 msgid "Batch No {0} is linked with Item {1} which has serial no. Please scan serial no instead."
-msgstr "O n.º do lote {0} está vinculado ao item {1}, que tem n.º de série. Escaneie o n.º de série em vez disso."
+msgstr "O nº do lote {0} está vinculado ao item {1}, que tem nº de série. Escaneie o nº de série em vez disso."
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:406
 msgid "Batch No {0} is not present in the original {1} {2}, hence you can't return it against the {1} {2}"
-msgstr "O n.º do lote {0} não está presente no {1} {2} original, portanto você não pode devolvê-lo contra o {1} {2}"
+msgstr "O nº do lote {0} não está presente no {1} {2} original, portanto você não pode devolvê-lo para o {1} {2}"
 
 #. Label of the batch_no (Int) field in DocType 'BOM Update Batch'
 #: erpnext/manufacturing/doctype/bom_update_batch/bom_update_batch.json
 msgid "Batch No."
-msgstr "N.o do lote"
+msgstr "Nº do lote"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:16
 #: erpnext/public/js/utils/serial_no_batch_selector.js:190
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:50
 msgid "Batch Nos"
-msgstr "N.os dos lotes"
+msgstr "Nºs dos lotes"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1687
 msgid "Batch Nos are created successfully"
-msgstr "Os n.ºs dos lotes foram criados com sucesso"
+msgstr "Os nºs dos lotes foram criados com sucesso"
 
 #: erpnext/controllers/sales_and_purchase_return.py:1072
 msgid "Batch Not Available for Return"
@@ -624,13 +624,13 @@ msgstr "Tamanho do lote"
 #. Label of the stock_uom (Link) field in DocType 'Batch'
 #: erpnext/stock/doctype/batch/batch.json
 msgid "Batch UOM"
-msgstr "UM do lote"
+msgstr "UOM do lote"
 
 #. Label of the batch_and_serial_no_section (Section Break) field in DocType
 #. 'Asset Capitalization Stock Item'
 #: erpnext/assets/doctype/asset_capitalization_stock_item/asset_capitalization_stock_item.json
 msgid "Batch and Serial No"
-msgstr "Lote e n.º de série"
+msgstr "Lote e nº de série"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:880
 msgid "Batch not created for item {} since it does not have a batch series."
@@ -685,7 +685,7 @@ msgstr "Início do período atual da assinatura"
 
 #: erpnext/accounts/doctype/subscription/subscription.py:320
 msgid "Below Subscription Plans are of different currency to the party default billing currency/Company currency: {0}"
-msgstr "Os planos de assinatura abaixo estão em moeda diferente da moeda padrão de faturamento da parte/moeda da empresa: {0}"
+msgstr "Os planos de assinatura abaixo estão em moeda diferente da moeda padrão de faturamento do cadastro/moeda da empresa: {0}"
 
 #. Label of the bill_date (Date) field in DocType 'Journal Entry'
 #. Label of the bill_date (Date) field in DocType 'Subcontracting Receipt'
@@ -703,7 +703,7 @@ msgstr "Data da fatura"
 #: erpnext/accounts/report/purchase_register/purchase_register.py:213
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Bill No"
-msgstr "N.o da fatura"
+msgstr "Nº da fatura"
 
 #. Label of the bill_for_rejected_quantity_in_purchase_invoice (Check) field in
 #. DocType 'Buying Settings'
@@ -904,7 +904,7 @@ msgstr "O intervalo de faturamento no plano de assinatura deve ser Mensal para s
 #: erpnext/projects/doctype/activity_cost/activity_cost.json
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
 msgid "Billing Rate"
-msgstr "Taxa de faturamento"
+msgstr "Preço de faturamento"
 
 #. Label of the billing_state (Data) field in DocType 'Tax Rule'
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
@@ -924,7 +924,7 @@ msgstr "CEP de faturamento"
 
 #: erpnext/accounts/party.py:610
 msgid "Billing currency must be equal to either default company's currency or party account currency"
-msgstr "A moeda de faturamento deve ser igual à moeda padrão da empresa ou à moeda da conta da parte"
+msgstr "A moeda de faturamento deve ser igual à moeda padrão da empresa ou à moeda da conta do cadastro"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/bin/bin.json

@@ -186,17 +186,17 @@ msgstr "Referência de Item do Plano de Produção"
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/production_plan_material_request/production_plan_material_request.json
 msgid "Production Plan Material Request"
-msgstr "Requisição de Material do Planejamento de Produção"
+msgstr "Requisição de Material do Plano de Produção"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/production_plan_material_request_warehouse/production_plan_material_request_warehouse.json
 msgid "Production Plan Material Request Warehouse"
-msgstr "Armazém de Solicitação de Material do Plano de Produção"
+msgstr "Armazém da Requisição de Material do Plano de Produção"
 
 #. Label of the production_plan_qty (Float) field in DocType 'Sales Order Item'
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 msgid "Production Plan Qty"
-msgstr "Qtd. do Plano de Produção"
+msgstr "Quantidade do Plano de Produção"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/production_plan_sales_order/production_plan_sales_order.json
@@ -304,7 +304,7 @@ msgstr "Progresso (%)"
 
 #: erpnext/projects/doctype/project/project.py:370
 msgid "Project Collaboration Invitation"
-msgstr "Convite para colaboração em projeto"
+msgstr "Convite Para Colaboração Em Projeto"
 
 #: erpnext/projects/report/project_wise_stock_tracking/project_wise_stock_tracking.py:38
 msgid "Project Id"
@@ -327,7 +327,7 @@ msgstr "Nome do Projeto"
 
 #: erpnext/templates/pages/projects.html:112
 msgid "Project Progress:"
-msgstr "Progresso do Projeto:"
+msgstr "Progresso do projeto:"
 
 #: erpnext/projects/report/project_wise_stock_tracking/project_wise_stock_tracking.py:47
 msgid "Project Start Date"
@@ -404,7 +404,7 @@ msgstr "Cadastro de Projeto."
 #. Description of the 'Users' (Table) field in DocType 'Project'
 #: erpnext/projects/doctype/project/project.json
 msgid "Project will be accessible on the website to these users"
-msgstr "O projeto estará acessível no site para estes usuários"
+msgstr "O projeto ficará acessível no site para estes usuários"
 
 #. Label of a Link in the Projects Workspace
 #: erpnext/projects/workspace/projects/projects.json
@@ -418,13 +418,13 @@ msgstr "Rastreamento de Estoque por Projeto "
 
 #: erpnext/controllers/trends.py:421
 msgid "Project-wise data is not available for Quotation"
-msgstr "Os dados por projeto não estão disponíveis para Orçamento"
+msgstr "Dados por projeto não estão disponíveis para Orçamento"
 
 #. Label of the projected_on_hand (Float) field in DocType 'Material Request
 #. Item'
 #: erpnext/stock/doctype/material_request_item/material_request_item.json
 msgid "Projected On Hand"
-msgstr "Saldo Projetado"
+msgstr "Estoque Projetado"
 
 #. Label of the projected_qty (Float) field in DocType 'Material Request Plan
 #. Item'
@@ -448,7 +448,7 @@ msgstr "Saldo Projetado"
 #: erpnext/stock/report/stock_projected_qty/stock_projected_qty.py:204
 #: erpnext/templates/emails/reorder_item.html:12
 msgid "Projected Qty"
-msgstr "Qtd. Projetada"
+msgstr "Qtd. projetada"
 
 #: erpnext/stock/report/item_shortage_report/item_shortage_report.py:130
 msgid "Projected Quantity"
@@ -460,7 +460,7 @@ msgstr "Fórmula da Quantidade Projetada"
 
 #: erpnext/stock/page/stock_balance/stock_balance.js:51
 msgid "Projected qty"
-msgstr "qtd. projetada"
+msgstr "Qtd. projetada"
 
 #. Name of a Workspace
 #. Label of a Card Break in the Projects Workspace
@@ -526,7 +526,7 @@ msgstr "ID do Esquema Promocional"
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
 #: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
 msgid "Promotional Scheme Price Discount"
-msgstr "Desconto de Preço do Regime Promocional"
+msgstr "Desconto de preço do Esquema Promocional"
 
 #. Label of the product_discount_slabs (Table) field in DocType 'Promotional
 #. Scheme'
@@ -539,7 +539,7 @@ msgstr "Desconto do Produto do Esquema Promocional"
 #. Label of the prompt_qty (Check) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
 msgid "Prompt Qty"
-msgstr "Solicitar Qtd."
+msgstr ""
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:264
 msgid "Proposal Writing"
@@ -548,7 +548,7 @@ msgstr "Redação de Propostas"
 #: erpnext/setup/setup_wizard/data/sales_stage.txt:7
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:438
 msgid "Proposal/Price Quote"
-msgstr "Proposta / Cotação de Preço"
+msgstr "Proposta / Orçamento"
 
 #. Label of the prorate (Check) field in DocType 'Subscription Settings'
 #: erpnext/accounts/doctype/subscription_settings/subscription_settings.json
@@ -592,18 +592,18 @@ msgstr "Prospecção"
 #: erpnext/crm/report/prospects_engaged_but_not_converted/prospects_engaged_but_not_converted.json
 #: erpnext/crm/workspace/crm/crm.json
 msgid "Prospects Engaged But Not Converted"
-msgstr "Prospects Engajados, mas Não Convertidos"
+msgstr "Prospects engajados, mas não convertidos"
 
 #. Description of the 'Company Email' (Data) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Provide Email Address registered in company"
-msgstr "Informe o endereço de e-mail registrado na empresa"
+msgstr "Informe o endereço de e-mail cadastrado na empresa"
 
 #. Option for the 'Bank Guarantee Type' (Select) field in DocType 'Bank
 #. Guarantee'
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
 msgid "Providing"
-msgstr "Prestação"
+msgstr ""
 
 #: erpnext/setup/doctype/company/company.py:565
 msgid "Provisional Account"
@@ -613,7 +613,7 @@ msgstr "Conta Provisória"
 #. Receipt Item'
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Provisional Expense Account"
-msgstr "Conta Provisória de Despesa"
+msgstr "Conta de Despesa Provisória"
 
 #: erpnext/accounts/report/balance_sheet/balance_sheet.py:158
 #: erpnext/accounts/report/balance_sheet/balance_sheet.py:159
@@ -638,16 +638,16 @@ msgstr "Data de Publicação"
 #. Label of the publisher (Data) field in DocType 'Code List'
 #: erpnext/edi/doctype/code_list/code_list.json
 msgid "Publisher"
-msgstr "Publicador"
+msgstr "Editor"
 
 #. Label of the publisher_id (Data) field in DocType 'Code List'
 #: erpnext/edi/doctype/code_list/code_list.json
 msgid "Publisher ID"
-msgstr "ID do Publicador"
+msgstr "ID do Editor"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:39
 msgid "Publishing"
-msgstr "Editoração"
+msgstr "Publicação"
 
 #. Option for the 'Invoice Type' (Select) field in DocType 'Opening Invoice
 #. Creation Tool'
@@ -743,7 +743,7 @@ msgstr "Conta de Contrapartida da Despesa de Compra"
 #: erpnext/controllers/buying_controller.py:362
 #: erpnext/controllers/buying_controller.py:376
 msgid "Purchase Expense for Item {0}"
-msgstr "Despesa de Compra do Item {0}"
+msgstr "Despesa de compra para o item {0}"
 
 #. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
 #. Account'
@@ -902,7 +902,7 @@ msgstr "Valor do Pedido de Compra (moeda da Empresa)"
 #: erpnext/buying/workspace/buying/buying.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Purchase Order Analysis"
-msgstr "Análise de Pedidos de Compra"
+msgstr "Análise de Pedido de Compra"
 
 #: erpnext/buying/report/procurement_tracker/procurement_tracker.py:76
 msgid "Purchase Order Date"
@@ -946,12 +946,12 @@ msgstr "Falta a referência do item do pedido de compra no Recebimento de Subcon
 
 #: erpnext/setup/doctype/email_digest/templates/default.html:186
 msgid "Purchase Order Items not received on time"
-msgstr "Itens do Pedido de Compra não recebidos no prazo"
+msgstr "Itens do pedido de compra não recebidos no prazo"
 
 #. Label of the pricing_rules (Table) field in DocType 'Purchase Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 msgid "Purchase Order Pricing Rule"
-msgstr "Regra de Preço do Pedido de Compra"
+msgstr "Regra de Preços do Pedido de Compra"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:631
 msgid "Purchase Order Required"
@@ -959,7 +959,7 @@ msgstr "Pedido de Compra Obrigatório"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:626
 msgid "Purchase Order Required for item {}"
-msgstr "Pedido de Compra obrigatório para o item {}"
+msgstr "Pedido de compra obrigatório para o item {}"
 
 #. Name of a report
 #. Label of a chart in the Buying Workspace
@@ -975,15 +975,15 @@ msgstr "Pedido de compra já criado para todos os itens do pedido de venda"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:337
 msgid "Purchase Order number required for Item {0}"
-msgstr "Número do Pedido de Compra obrigatório para o Item {0}"
+msgstr "Número do pedido de compra obrigatório para o item {0}"
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1343
 msgid "Purchase Order {0} created"
-msgstr "Pedido de Compra {0} criado"
+msgstr "Pedido de compra {0} criado"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:669
 msgid "Purchase Order {0} is not submitted"
-msgstr "Pedido de Compra {0} não foi enviado"
+msgstr "Pedido de compra {0} não foi enviado"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:931
 msgid "Purchase Orders"
@@ -998,26 +998,26 @@ msgstr "Total de Pedidos de Compra"
 #. Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Purchase Orders Items Overdue"
-msgstr "Itens de Pedidos de Compra em Atraso"
+msgstr "Itens de pedidos de compra em atraso"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:323
 msgid "Purchase Orders are not allowed for {0} due to a scorecard standing of {1}."
-msgstr "Pedidos de Compra não são permitidos para {0} devido à classificação no scorecard de {1}."
+msgstr "Os pedidos de compra não são permitidos para {0} devido a uma classificação de scorecard de {1}."
 
 #. Label of the purchase_orders_to_bill (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Purchase Orders to Bill"
-msgstr "Pedidos de Compra a Faturar"
+msgstr "Pedidos de compra a faturar"
 
 #. Label of the purchase_orders_to_receive (Check) field in DocType 'Email
 #. Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Purchase Orders to Receive"
-msgstr "Pedidos de Compra a Receber"
+msgstr "Pedidos de compra a receber"
 
 #: erpnext/controllers/accounts_controller.py:2007
 msgid "Purchase Orders {0} are un-linked"
-msgstr "Os Pedidos de Compra {0} foram desvinculados"
+msgstr "Os pedidos de compra {0} foram desvinculados"
 
 #: erpnext/stock/report/item_prices/item_prices.py:59
 msgid "Purchase Price List"
@@ -1065,7 +1065,7 @@ msgstr "Recebimento de Compra"
 #. 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Purchase Receipt (Draft) will be auto-created on submission of Subcontracting Receipt."
-msgstr "O Recebimento de Compra (Rascunho) será criado automaticamente ao enviar o Recebimento de Subcontratação."
+msgstr "O Recebimento de Compra (rascunho) será criado automaticamente ao enviar o Recebimento de Subcontratação."
 
 #. Label of the pr_detail (Data) field in DocType 'Purchase Invoice Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -1103,7 +1103,7 @@ msgstr "Recebimento de Compra Obrigatório"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:647
 msgid "Purchase Receipt Required for item {}"
-msgstr "Recebimento de Compra obrigatório para o item {}"
+msgstr "Recebimento de compra obrigatório para o item {}"
 
 #. Label of a Link in the Buying Workspace
 #. Name of a report
@@ -1112,16 +1112,16 @@ msgstr "Recebimento de Compra obrigatório para o item {}"
 #: erpnext/stock/report/purchase_receipt_trends/purchase_receipt_trends.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Purchase Receipt Trends"
-msgstr "Tendência de Recebimentos"
+msgstr "Tendências de Recebimentos de Compra"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.js:355
 msgid "Purchase Receipt doesn't have any Item for which Retain Sample is enabled."
-msgstr "O Recebimento de Compra não tem nenhum item com Reter Amostra ativado."
+msgstr "O recebimento de compra não tem nenhum item para o qual Reter Amostra esteja ativado."
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:1052
 msgid "Purchase Receipt {0} created."
-msgstr "Recebimento de Compra {0} criado."
+msgstr "Recebimento de compra {0} criado."
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:676
 msgid "Purchase Receipt {0} is not submitted"
-msgstr "Recebimento de Compra {0} não foi enviado"
+msgstr "Recebimento de compra {0} não foi enviado"

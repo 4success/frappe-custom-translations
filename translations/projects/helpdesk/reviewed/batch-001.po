@@ -24,12 +24,12 @@ msgstr " comentou"
 
 #: helpdesk/api/dashboard.py:181
 msgid "% SLA Fulfilled"
-msgstr "% SLA cumprido"
+msgstr "% do SLA cumprido"
 
 #: helpdesk/api/dashboard.py:186
 #, python-format
 msgid "% of tickets created that were resolved within SLA"
-msgstr "% de chamados criados que foram resolvidos dentro do SLA"
+msgstr "% dos chamados criados que foram resolvidos dentro do SLA"
 
 #: desk/src/pages/SearchAgent.vue:120
 msgid "({0}s)"
@@ -55,15 +55,15 @@ msgstr "- {0} como status de reabertura<br>"
 #. Feedback'
 #: helpdesk/helpdesk/doctype/hd_article_feedback/hd_article_feedback.json
 msgid "0 is no feedback, 1 is Like, 2 is Dislike"
-msgstr "0 = sem feedback, 1 = gostei, 2 = não gostei"
+msgstr "0 é sem feedback, 1 é Curtir, 2 é Não curtir"
 
 #: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.py:117
 msgid "<br>Please update HD Settings to use a different status before disabling this status."
-msgstr "<br>Atualize as Configurações do HD para usar outro status antes de desativar este status."
+msgstr "<br>Atualize as Configurações do Helpdesk para usar outro status antes de desativar este status."
 
 #: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.py:95
 msgid "<br>Please update the SLA(s) to use a different status before disabling this status."
-msgstr "<br>Atualize o(s) SLA(s) para usar outro status antes de desativar este status."
+msgstr "<br>Atualize os SLAs para usar outro status antes de desativar este status."
 
 #. Introduction text of the email-feedback Web Form
 #: helpdesk/helpdesk/web_form/email_feedback/email_feedback.json
@@ -73,7 +73,7 @@ msgstr "<div class=\"ql-editor read-mode\"><p>Conte para nós se resolvemos bem 
 #. Header text in the Helpdesk Workspace
 #: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
 msgid "<span class=\"h3\" style=\"\"><a href=\"/helpdesk\">Visit Helpdesk</a></span>"
-msgstr "<span class=\"h3\" style=\"\"><a href=\"/helpdesk\">Acessar o Helpdesk</a></span>"
+msgstr "<span class=\"h3\" style=\"\"><a href=\"/helpdesk\">Acessar Helpdesk</a></span>"
 
 #. Paragraph text in the Helpdesk Workspace
 #: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
@@ -114,21 +114,21 @@ msgstr "Conta"
 
 #: desk/src/components/Settings/Profile/Profile.vue:98
 msgid "Account Info & Security"
-msgstr "Conta e segurança"
+msgstr "Informações da conta e segurança"
 
 #. Label of the acknowledgement_section (Section Break) field in DocType 'HD
 #. Settings'
-#: desk/src/components/Settings/EmailNotifications/NotificationList.vue:71
+#: desk/src/components/Settings/EmailNotifications/NotificationList.vue:72
 #: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
 msgid "Acknowledgement"
-msgstr "Confirmação de recebimento"
+msgstr "Confirmação"
 
-#. Label of the action (Data) field in DocType 'HD Ticket Activity'
+#. Label of the action (Small Text) field in DocType 'HD Ticket Activity'
 #: helpdesk/helpdesk/doctype/hd_ticket_activity/hd_ticket_activity.json
 msgid "Action"
 msgstr "Ação"
 
-#: helpdesk/helpdesk/doctype/hd_ticket_priority/hd_ticket_priority.py:22
+#: helpdesk/helpdesk/doctype/hd_ticket_priority/hd_ticket_priority.py:24
 msgid "Action Required"
 msgstr "Ação necessária"
 
@@ -136,13 +136,13 @@ msgstr "Ação necessária"
 #. Action'
 #: helpdesk/helpdesk/doctype/hd_action/hd_action.json
 msgid "Action to perform when clicking the button. The doc will be available as `this`"
-msgstr "Ação a executar ao clicar no botão. O documento estará disponível como `this`"
+msgstr "Ação a executar ao clicar no botão. O documento ficará disponível como `this`"
 
 #: desk/src/components/Settings/Assignment Rules/AssignmentSchedule.vue:42
 msgid "Active"
 msgstr "Ativo"
 
-#: desk/src/pages/ticket/MobileTicketAgent.vue:359
+#: desk/src/pages/ticket/MobileTicketAgent.vue:446
 msgid "Activity"
 msgstr "Atividade"
 
@@ -158,11 +158,11 @@ msgstr "Adicionar categoria"
 msgid "Add Email"
 msgstr "Adicionar e-mail"
 
-#: desk/src/components/Settings/Holiday/HolidayView.vue:180
+#: desk/src/components/Settings/Holiday/HolidayView.vue:181
 msgid "Add Holiday"
 msgstr "Adicionar feriado"
 
-#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:125
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:128
 msgid "Add New Article"
 msgstr "Adicionar novo artigo"
 
@@ -172,9 +172,9 @@ msgstr "Adicionar novo artigo"
 msgid "Add Weekly Holidays"
 msgstr "Adicionar feriados semanais"
 
-#: desk/src/components/layouts/Sidebar.vue:467
+#: desk/src/components/layouts/Sidebar.vue:481
 msgid "Add a comment on a ticket"
-msgstr "Adicionar um comentário a um chamado"
+msgstr "Adicionar um comentário em um chamado"
 
 #: desk/src/components/Settings/Assignment Rules/AssignmentRulesSection.vue:17
 msgid "Add a condition"
@@ -198,7 +198,7 @@ msgstr "Adicionar condição"
 msgid "Add condition group"
 msgstr "Adicionar grupo de condições"
 
-#: desk/src/components/Settings/Holiday/HolidayView.vue:153
+#: desk/src/components/Settings/Holiday/HolidayView.vue:154
 msgid "Add holidays here to make sure they’re excluded from SLA calculations."
 msgstr "Adicione feriados aqui para garantir que eles sejam excluídos dos cálculos de SLA."
 
@@ -209,19 +209,21 @@ msgstr "Adicione membros a esta equipe para começar."
 #: desk/src/components/Settings/Agents.vue:104
 #: desk/src/components/Settings/Assignment Rules/AssignmentRulesListView.vue:23
 #: desk/src/components/Settings/EmailAccountList.vue:55
+#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:62
 #: desk/src/components/Settings/Holiday/HolidayList.vue:23
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:98
 #: desk/src/components/Settings/Sla/SlaPolicyList.vue:23
 #: desk/src/components/Settings/Teams/TeamsList.vue:119
 msgid "Add one to get started."
 msgstr "Adicione um para começar."
 
-#: desk/src/components/Settings/Holiday/HolidayView.vue:134
+#: desk/src/components/Settings/Holiday/HolidayView.vue:135
 msgid "Add recurring holidays such as weekends."
 msgstr "Adicione feriados recorrentes, como fins de semana."
 
 #: desk/src/components/Settings/Sla/SlaPolicyView.vue:199
 msgid "Add time targets around support milestones like first reply and resolution times."
-msgstr "Adicione metas de tempo para marcos do suporte, como primeira resposta e resolução."
+msgstr "Adicione metas de tempo para marcos do suporte, como primeira resposta e tempo de resolução."
 
 #. Label of the get_weekly_off_dates (Button) field in DocType 'HD Service
 #. Holiday List'
@@ -231,7 +233,7 @@ msgstr "Adicionar aos feriados"
 
 #: desk/src/components/Settings/Agents.vue:4
 msgid "Add, manage agents and assign roles to them."
-msgstr "Adicione, gerencie agentes e atribua funções a eles."
+msgstr "Adicione, gerencie agentes e atribua perfis a eles."
 
 #. Label of the about (Code) field in DocType 'HD Ticket Template'
 #: helpdesk/helpdesk/doctype/hd_ticket_template/hd_ticket_template.json
@@ -248,13 +250,14 @@ msgstr "Administrador"
 #. Name of a role
 #. Label of the to_agent (Link) field in DocType 'HD Escalation Rule'
 #. Label of a Link in the Helpdesk Workspace
-#: desk/src/pages/dashboard/Dashboard.vue:71
+#: desk/src/pages/dashboard/Dashboard.vue:76
 #: helpdesk/helpdesk/doctype/hd_action/hd_action.json
 #: helpdesk/helpdesk/doctype/hd_agent/hd_agent.json
 #: helpdesk/helpdesk/doctype/hd_article/hd_article.json
 #: helpdesk/helpdesk/doctype/hd_article_category/hd_article_category.json
 #: helpdesk/helpdesk/doctype/hd_customer/hd_customer.json
 #: helpdesk/helpdesk/doctype/hd_escalation_rule/hd_escalation_rule.json
+#: helpdesk/helpdesk/doctype/hd_field_layout/hd_field_layout.json
 #: helpdesk/helpdesk/doctype/hd_notification/hd_notification.json
 #: helpdesk/helpdesk/doctype/hd_saved_reply/hd_saved_reply.json
 #: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
@@ -281,6 +284,7 @@ msgid "Agent Dashboard"
 msgstr "Painel do agente"
 
 #. Name of a role
+#: helpdesk/helpdesk/doctype/hd_field_layout/hd_field_layout.json
 #: helpdesk/helpdesk/doctype/hd_form_script/hd_form_script.json
 #: helpdesk/helpdesk/doctype/hd_saved_reply/hd_saved_reply.json
 #: helpdesk/helpdesk/doctype/hd_service_holiday_list/hd_service_holiday_list.json
@@ -293,7 +297,6 @@ msgid "Agent Manager"
 msgstr "Gerente de agentes"
 
 #. Label of the agent_name (Data) field in DocType 'HD Agent'
-#: desk/src/components/Settings/Agents.vue:123
 #: helpdesk/helpdesk/doctype/hd_agent/hd_agent.json
 msgid "Agent Name"
 msgstr "Nome do agente"
@@ -308,11 +311,12 @@ msgstr "Agentes"
 
 #: desk/src/components/Settings/General/components/TicketSettings.vue:70
 msgid "Agents will no longer be able to view and create saved replies with global scope."
-msgstr "Os agentes não poderão mais visualizar nem criar respostas prontas com escopo global."
+msgstr "Os agentes não poderão mais visualizar e criar respostas prontas com escopo global."
 
 #. Name of a role
 #: desk/src/components/SavedRepliesSelectorModal.vue:159
-#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:325
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:328
+#: desk/src/components/ticket/TicketSplitModal.vue:6
 #: helpdesk/helpdesk/doctype/hd_article/hd_article.json
 #: helpdesk/helpdesk/doctype/hd_article_category/hd_article_category.json
 #: helpdesk/helpdesk/doctype/hd_article_feedback/hd_article_feedback.json
@@ -337,11 +341,11 @@ msgstr "Todos os SLAs em dia"
 msgid "All Time"
 msgstr "Todo o período"
 
-#: desk/src/components/layouts/Sidebar.vue:262
+#: desk/src/components/layouts/Sidebar.vue:276
 msgid "All Views"
 msgstr "Todas as visualizações"
 
-#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:305
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:318
 msgid "All articles from this category will move to General category."
 msgstr "Todos os artigos desta categoria serão movidos para a categoria Geral."
 
@@ -351,7 +355,7 @@ msgstr "Todos os comentários e e-mails do chamado serão movidos para o"
 
 #: desk/src/pages/home/components/PendingTickets.vue:240
 msgid "All your assigned tickets have been responded to"
-msgstr "Todos os seus chamados atribuídos já receberam resposta"
+msgstr "Todos os seus chamados atribuídos já foram respondidos"
 
 #. Label of the allow_anyone_to_create_tickets (Check) field in DocType 'HD
 #. Settings'
@@ -362,7 +366,6 @@ msgstr "Permitir que qualquer pessoa crie chamados"
 
 #. Description of the 'Enable comment reactions' (Check) field in DocType 'HD
 #. Settings'
-#: desk/src/components/Settings/General/components/TicketSettings.vue:26
 #: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
 msgid "Allow users to react to comments with emojis"
 msgstr "Permitir que os usuários reajam aos comentários com emojis"
@@ -385,10 +388,9 @@ msgid "Appears in the left sidebar. Recommended size is minimum 32x32 px in PNG 
 msgstr "Aparece na barra lateral esquerda. O tamanho recomendado mínimo é 32x32 px em PNG ou SVG."
 
 #. Description of the 'Favicon' (Attach Image) field in DocType 'HD Settings'
-#: desk/src/components/Settings/General/components/Branding.vue:29
 #: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
 msgid "Appears next to the title in your browser tab. Recommended size is minimum 32x32 px in PNG or ICO"
-msgstr "Aparece ao lado do título na aba do navegador. O tamanho recomendado é de no mínimo 32x32 px em PNG ou ICO"
+msgstr "Aparece ao lado do título na aba do seu navegador. O tamanho mínimo recomendado é 32x32 px em PNG ou ICO"
 
 #: desk/src/components/Settings/General/components/Branding.vue:29
 msgid "Appears next to the title in your browser tab. Recommended size is minimum 32x32 px in PNG or ICO."
@@ -403,7 +405,7 @@ msgstr "Aplicar SLA ao tempo de resolução"
 #. Label of the apply_to (Select) field in DocType 'HD Form Script'
 #: helpdesk/helpdesk/doctype/hd_form_script/hd_form_script.json
 msgid "Apply To"
-msgstr "Aplicar a"
+msgstr "Aplicar para"
 
 #. Label of the apply_on_new_page (Check) field in DocType 'HD Form Script'
 #: helpdesk/helpdesk/doctype/hd_form_script/hd_form_script.json
@@ -423,12 +425,12 @@ msgid "Apply to customer portal"
 msgstr "Aplicar ao portal do cliente"
 
 #. Option for the 'Status' (Select) field in DocType 'HD Article'
-#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:423
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:447
 #: helpdesk/helpdesk/doctype/hd_article/hd_article.json
 msgid "Archived"
 msgstr "Arquivado"
 
-#: desk/src/components/Settings/SettingsModal.vue:56
+#: desk/src/components/Settings/SettingsModal.vue:73
 msgid "Are you sure you want to change tabs? Unsaved changes will be lost."
 msgstr "Tem certeza de que deseja trocar de aba? As alterações não salvas serão perdidas."
 
@@ -436,23 +438,23 @@ msgstr "Tem certeza de que deseja trocar de aba? As alterações não salvas ser
 msgid "Are you sure you want to close this ticket?"
 msgstr "Tem certeza de que deseja fechar este chamado?"
 
-#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:198
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:201
 msgid "Are you sure you want to delete these articles?"
 msgstr "Tem certeza de que deseja excluir estes artigos?"
 
 #: desk/src/components/Settings/Teams/TeamEdit.vue:107
 msgid "Are you sure you want to delete this team? This action cannot be reversed!"
-msgstr "Tem certeza de que deseja excluir esta equipe? Essa ação não pode ser desfeita!"
+msgstr "Tem certeza de que deseja excluir esta equipe? Esta ação não pode ser desfeita!"
 
 #: desk/src/components/ticket-agent/TicketHeader.vue:204
 msgid "Are you sure you want to delete this ticket? This is an irreversible action and cannot be undone."
 msgstr "Tem certeza de que deseja excluir este chamado? Esta ação é irreversível e não pode ser desfeita."
 
-#: desk/src/pages/ticket/Tickets.vue:444
+#: desk/src/pages/ticket/Tickets.vue:488
 msgid "Are you sure you want to delete this view?"
 msgstr "Tem certeza de que deseja excluir esta visualização?"
 
-#: desk/src/pages/knowledge-base/Article.vue:67
+#: desk/src/pages/knowledge-base/Article.vue:147
 msgid "Are you sure you want to discard changes?"
 msgstr "Tem certeza de que deseja descartar as alterações?"
 
@@ -460,13 +462,16 @@ msgstr "Tem certeza de que deseja descartar as alterações?"
 msgid "Are you sure you want to discard this article?"
 msgstr "Tem certeza de que deseja descartar este artigo?"
 
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:465
-#: desk/src/components/Settings/EmailNotifications/Notification.vue:109
-#: desk/src/components/Settings/FieldDependency/FieldDependency.vue:76
-#: desk/src/components/Settings/Holiday/HolidayView.vue:209
-#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:310
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:370
-#: desk/src/components/Settings/Teams/NewTeam.vue:108
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:466
+#: desk/src/components/Settings/EmailNotifications/Notification.vue:110
+#: desk/src/components/Settings/FieldDependency/FieldDependency.vue:81
+#: desk/src/components/Settings/Holiday/HolidayView.vue:210
+#: desk/src/components/Settings/Profile/UserEmailSettings.vue:243
+#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:311
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:371
+#: desk/src/components/Settings/Teams/NewTeam.vue:109
+#: desk/src/components/Settings/Telephony/ExotelSettings.vue:230
+#: desk/src/components/Settings/Telephony/TwilioSettings.vue:199
 msgid "Are you sure you want to go back? Unsaved changes will be lost."
 msgstr "Tem certeza de que deseja voltar? As alterações não salvas serão perdidas."
 
@@ -474,16 +479,16 @@ msgstr "Tem certeza de que deseja voltar? As alterações não salvas serão per
 msgid "Are you sure you want to leave? Unsaved changes will be lost."
 msgstr "Tem certeza de que deseja sair? As alterações não salvas serão perdidas."
 
-#: desk/src/components/Settings/General/components/Branding.vue:97
+#: desk/src/components/Settings/General/components/Branding.vue:111
 msgid "Are you sure you want to remove the logo?"
 msgstr "Tem certeza de que deseja remover o logo?"
 
-#: desk/src/components/Settings/EmailNotifications/Notification.vue:122
+#: desk/src/components/Settings/EmailNotifications/Notification.vue:123
 msgid "Are you sure you want to reset the content? Current content will be overridden."
 msgstr "Tem certeza de que deseja redefinir o conteúdo? O conteúdo atual será substituído."
 
 #. Label of the article (Link) field in DocType 'HD Article Feedback'
-#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:107
+#: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:110
 #: helpdesk/helpdesk/doctype/hd_article_feedback/hd_article_feedback.json
 msgid "Article"
 msgstr "Artigo"
@@ -500,7 +505,7 @@ msgstr "Artigo criado com sucesso."
 msgid "Article deleted successfully."
 msgstr "Artigo excluído com sucesso."
 
-#: desk/src/pages/knowledge-base/Article.vue:408
+#: desk/src/pages/knowledge-base/Article.vue:652
 msgid "Article link copied to clipboard"
 msgstr "Link do artigo copiado para a área de transferência"
 
@@ -520,7 +525,7 @@ msgstr "Artigos excluídos com sucesso."
 msgid "Articles moved successfully."
 msgstr "Artigos movidos com sucesso."
 
-#: desk/src/components/layouts/Sidebar.vue:444
+#: desk/src/components/layouts/Sidebar.vue:458
 msgid "Assign a ticket to an agent"
 msgstr "Atribuir um chamado a um agente"
 
@@ -530,7 +535,6 @@ msgstr "Atribuir chamado"
 
 #. Label of the assign_to_section (Section Break) field in DocType 'HD
 #. Escalation Rule'
-#: desk/src/components/ticket-agent/AssignToBody.vue:5
 #: helpdesk/helpdesk/doctype/hd_escalation_rule/hd_escalation_rule.json
 msgid "Assign to"
 msgstr "Atribuir a"
@@ -550,7 +554,7 @@ msgstr "Responsável"
 
 #: desk/src/components/Settings/Assignment Rules/AssigneeRules.vue:5
 msgid "Assignee Rules"
-msgstr "Regras de atribuição"
+msgstr "Regras de Atribuição"
 
 #: desk/src/components/ticket-agent/AssignTo.vue:439
 msgid "Assignee's updated successfully."
@@ -575,6 +579,7 @@ msgstr "Condição de atribuição"
 
 #. Label of the filters_section (Section Break) field in DocType 'HD Service
 #. Level Agreement'
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:82
 #: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.json
 msgid "Assignment Conditions"
 msgstr "Condições de atribuição"
@@ -597,11 +602,11 @@ msgstr "Regras de atribuição"
 msgid "Assignment Rules automatically route tickets to the right team members based on predefined conditions."
 msgstr "As regras de atribuição encaminham automaticamente os chamados para os membros certos da equipe com base em condições predefinidas."
 
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:291
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:292
 msgid "Assignment Schedule"
 msgstr "Cronograma de atribuições"
 
-#: desk/src/components/Settings/Assignment Rules/AssignmentRulesListView.vue:35
+#: desk/src/components/Settings/Assignment Rules/AssignmentRulesListView.vue:29
 msgid "Assignment rule"
 msgstr "Regra de atribuição"
 
@@ -635,13 +640,13 @@ msgstr "Pelo menos um e-mail é obrigatório"
 
 #: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.py:73
 msgid "At least one enabled status for <u>{0}</u> category must be enabled."
-msgstr "Pelo menos um status habilitado da categoria <u>{0}</u> deve permanecer habilitado."
+msgstr "Pelo menos um status da categoria <u>{0}</u> deve estar habilitado."
 
 #: helpdesk/helpdesk/doctype/hd_ticket_feedback_option/hd_ticket_feedback_option.py:38
 msgid "At least one feedback option must be enabled for rating {0}"
 msgstr "Pelo menos uma opção de feedback deve estar habilitada para a avaliação {0}"
 
-#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:450
+#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:451
 msgid "At least one team is required"
 msgstr "Pelo menos uma equipe é obrigatória"
 
@@ -675,13 +680,13 @@ msgstr "Fechar automaticamente após (dias)"
 
 #: desk/src/components/Settings/General/components/TicketSettings.vue:148
 msgid "Auto-close tickets that remain in a status for the specified number of days."
-msgstr "Fechar automaticamente os chamados que permanecerem em um status pelo número especificado de dias."
+msgstr "Feche automaticamente chamados que permanecerem em um status pelo número de dias especificado."
 
 #. Description of the 'Condition' (Code) field in DocType 'HD Service Level
 #. Agreement'
 #: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.json
 msgid "Auto-generated from the portal view — do not edit directly unless you know what you're doing! "
-msgstr "Gerado automaticamente pela visão do portal — não edite diretamente, a menos que saiba o que está fazendo! "
+msgstr "Gerado automaticamente a partir da visualização do portal — não edite diretamente, a menos que você saiba o que está fazendo! "
 
 #. Label of the auto_close_tickets (Check) field in DocType 'HD Settings'
 #: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
@@ -707,7 +712,7 @@ msgstr "Tempo médio da primeira resposta"
 
 #: desk/src/pages/home/components/ChartItem.vue:16
 msgid "Average Resolution"
-msgstr "Média da resolução"
+msgstr "Média de resolução"
 
 #: desk/src/pages/home/Home.vue:329
 msgid "Average Resolution Time"
@@ -725,7 +730,7 @@ msgstr "Métricas médias de tempo"
 
 #: helpdesk/api/dashboard.py:364
 msgid "Average feedback rating per day is around {0} stars"
-msgstr "A avaliação média de feedback por dia é de cerca de {0} estrelas"
+msgstr "A média diária de feedback é de cerca de {0} estrelas"
 
 #: desk/src/pages/home/components/AvgTimeMetrics.vue:37
 msgid "Average response and resolution metrics not yet generated"
@@ -737,7 +742,7 @@ msgstr "A média de chamados por dia é de cerca de {0}"
 
 #: helpdesk/api/dashboard.py:231
 msgid "Avg. Feedback Rating"
-msgstr "Avaliação média do feedback"
+msgstr "Média de feedback"
 
 #: helpdesk/api/dashboard.py:196
 msgid "Avg. First Response"
@@ -749,4 +754,4 @@ msgstr "Média de resolução"
 
 #: helpdesk/api/dashboard.py:236
 msgid "Avg. feedback rating for the tickets resolved"
-msgstr "Avaliação média de feedback dos chamados resolvidos"
+msgstr "Média de feedback dos chamados resolvidos"

@@ -24,7 +24,7 @@ msgstr ""
 #: erpnext/assets/doctype/asset/asset.js:302
 #: erpnext/assets/doctype/depreciation_schedule/depreciation_schedule.json
 msgid "Accumulated Depreciation Amount"
-msgstr "Valor da depreciação acumulada"
+msgstr "Total de Depreciação Acumulada"
 
 #: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.py:635
 #: erpnext/accounts/report/asset_depreciations_and_balances/asset_depreciations_and_balances.py:653
@@ -33,25 +33,25 @@ msgstr "Depreciação acumulada em"
 
 #: erpnext/accounts/doctype/budget/budget.py:521
 msgid "Accumulated Monthly"
-msgstr "Acumulado mensal"
+msgstr "Acumulada Mensalmente"
 
 #: erpnext/controllers/budget_controller.py:425
 msgid "Accumulated Monthly Budget for Account {0} against {1} {2} is {3}. It will be collectively ({4}) exceeded by {5}"
-msgstr "O orçamento mensal acumulado da conta {0} para {1} {2} é {3}. Ele será excedido no total ({4}) em {5}"
+msgstr "Orçamento mensal acumulado da conta {0} para {1} {2} é {3}. Será excedido coletivamente ({4}) em {5}"
 
 #: erpnext/controllers/budget_controller.py:327
 msgid "Accumulated Monthly Budget for Account {0} against {1}: {2} is {3}. It will be exceeded by {4}"
-msgstr "O orçamento mensal acumulado da conta {0} para {1}: {2} é {3}. Ele será excedido em {4}"
+msgstr "Orçamento mensal acumulado da conta {0} para {1}: {2} é {3}. Será excedido em {4}"
 
 #: erpnext/accounts/report/balance_sheet/balance_sheet.js:39
 #: erpnext/accounts/report/gross_and_net_profit_report/gross_and_net_profit_report.js:8
 #: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.js:40
 msgid "Accumulated Values"
-msgstr "Valores acumulados"
+msgstr "Valores Acumulados"
 
 #: erpnext/accounts/report/consolidated_financial_statement/consolidated_financial_statement.js:125
 msgid "Accumulated Values in Group Company"
-msgstr "Valores acumulados na empresa do grupo"
+msgstr "Valores Acumulados na Empresa do Grupo"
 
 #: erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py:111
 msgid "Achieved ({})"
@@ -92,7 +92,7 @@ msgstr "Ação se o mesmo preço não for mantido"
 
 #: erpnext/quality_management/doctype/quality_review/quality_review_list.js:7
 msgid "Action Initialised"
-msgstr "Ação inicializada"
+msgstr "Ação Inicializada"
 
 #. Label of the action_if_accumulated_monthly_budget_exceeded (Select) field in
 #. DocType 'Budget'
@@ -110,7 +110,7 @@ msgstr "Ação se o orçamento mensal acumulado for excedido na MR"
 #. field in DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Action if Accumulated Monthly Budget Exceeded on PO"
-msgstr "Ação se o orçamento mensal acumulado for excedido no PO"
+msgstr "Ação se o orçamento mensal acumulado for excedido na PO"
 
 #. Label of the action_if_accumulated_monthly_exceeded_on_cumulative_expense
 #. (Select) field in DocType 'Budget'
@@ -134,7 +134,7 @@ msgstr "Ação se o orçamento anual for excedido na MR"
 #. DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
 msgid "Action if Annual Budget Exceeded on PO"
-msgstr "Ação se o orçamento anual for excedido no PO"
+msgstr "Ação se o orçamento anual for excedido na PO"
 
 #. Label of the action_if_annual_exceeded_on_cumulative_expense (Select) field
 #. in DocType 'Budget'
@@ -195,11 +195,11 @@ msgstr "Atividades"
 #: erpnext/projects/doctype/activity_cost/activity_cost.json
 #: erpnext/projects/workspace/projects/projects.json
 msgid "Activity Cost"
-msgstr "Custo da atividade"
+msgstr "Custo da Atividade"
 
 #: erpnext/projects/doctype/activity_cost/activity_cost.py:51
 msgid "Activity Cost exists for Employee {0} against Activity Type - {1}"
-msgstr "Já existe custo de atividade para o colaborador {0} no tipo de atividade {1}"
+msgstr "Já existe custo da atividade para o colaborador {0} no tipo de atividade - {1}"
 
 #: erpnext/projects/doctype/activity_type/activity_type.js:10
 msgid "Activity Cost per Employee"
@@ -231,11 +231,11 @@ msgstr "Tipo de atividade"
 #: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:100
 #: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:110
 msgid "Actual"
-msgstr "Realizado"
+msgstr "Real"
 
 #: erpnext/stock/report/incorrect_balance_qty_after_transaction/incorrect_balance_qty_after_transaction.py:125
 msgid "Actual Balance Qty"
-msgstr "Qtd. real de saldo"
+msgstr "Qtd. de saldo real"
 
 #. Label of the actual_batch_qty (Float) field in DocType 'Packed Item'
 #: erpnext/stock/doctype/packed_item/packed_item.json
@@ -244,19 +244,19 @@ msgstr "Quantidade real do lote"
 
 #: erpnext/buying/report/procurement_tracker/procurement_tracker.py:101
 msgid "Actual Cost"
-msgstr "Custo real"
+msgstr "Custo Real"
 
 #. Label of the actual_date (Date) field in DocType 'Maintenance Schedule
 #. Detail'
 #: erpnext/maintenance/doctype/maintenance_schedule_detail/maintenance_schedule_detail.json
 msgid "Actual Date"
-msgstr "Data efetiva"
+msgstr "Data real"
 
 #: erpnext/buying/report/procurement_tracker/procurement_tracker.py:121
 #: erpnext/stock/report/delayed_item_report/delayed_item_report.py:141
 #: erpnext/stock/report/delayed_order_report/delayed_order_report.py:66
 msgid "Actual Delivery Date"
-msgstr "Data de entrega efetiva"
+msgstr "Data de Entrega Real"
 
 #. Label of the section_break_cmgo (Section Break) field in DocType 'Master
 #. Production Schedule'
@@ -271,32 +271,32 @@ msgstr "Demanda real"
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:254
 #: erpnext/projects/report/delayed_tasks_summary/delayed_tasks_summary.py:129
 msgid "Actual End Date"
-msgstr "Data efetiva de término"
+msgstr "Data Final Real"
 
 #. Label of the actual_end_date (Date) field in DocType 'Project'
 #. Label of the act_end_date (Date) field in DocType 'Task'
 #: erpnext/projects/doctype/project/project.json
 #: erpnext/projects/doctype/task/task.json
 msgid "Actual End Date (via Timesheet)"
-msgstr "Data efetiva de término (via Timesheet)"
+msgstr "Data final real (via registro de horas)"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:222
 msgid "Actual End Date cannot be before Actual Start Date"
-msgstr "A data efetiva de término não pode ser anterior à data efetiva de início"
+msgstr "A data final real não pode ser anterior à data inicial real"
 
 #. Label of the actual_end_time (Datetime) field in DocType 'Work Order
 #. Operation'
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 msgid "Actual End Time"
-msgstr "Hora efetiva de término"
+msgstr "Hora final real"
 
 #: erpnext/accounts/report/budget_variance_report/budget_variance_report.py:381
 msgid "Actual Expense"
-msgstr "Despesa realizada"
+msgstr "Despesa real"
 
 #: erpnext/accounts/doctype/budget/budget.py:601
 msgid "Actual Expenses"
-msgstr "Despesas realizadas"
+msgstr "Despesas reais"
 
 #. Label of the actual_operating_cost (Currency) field in DocType 'Work Order'
 #. Label of the actual_operating_cost (Currency) field in DocType 'Work Order
@@ -310,11 +310,11 @@ msgstr "Custo operacional real"
 #. Operation'
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 msgid "Actual Operation Time"
-msgstr "Tempo real de operação"
+msgstr "Tempo real da operação"
 
 #: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.py:430
 msgid "Actual Posting"
-msgstr "Lançamento efetivo"
+msgstr "Lançamento real"
 
 #. Label of the actual_qty (Float) field in DocType 'Production Plan Sub
 #. Assembly Item'
@@ -334,13 +334,13 @@ msgstr "Qtd. real"
 #. Label of the actual_qty (Float) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Actual Qty (at source/target)"
-msgstr "Qtd. real (na origem/no destino)"
+msgstr "Qtd. real (na origem/destino)"
 
 #. Label of the actual_qty (Float) field in DocType 'Asset Capitalization Stock
 #. Item'
 #: erpnext/assets/doctype/asset_capitalization_stock_item/asset_capitalization_stock_item.json
 msgid "Actual Qty in Warehouse"
-msgstr "Qtd. real no armazém"
+msgstr "Qtd. real no depósito"
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:202
 msgid "Actual Qty is mandatory"
@@ -349,15 +349,15 @@ msgstr "Qtd. real é obrigatória"
 #: erpnext/manufacturing/doctype/plant_floor/stock_summary_template.html:37
 #: erpnext/stock/dashboard/item_dashboard_list.html:28
 msgid "Actual Qty {0} / Waiting Qty {1}"
-msgstr "Qtd. real {0} / Qtd. pendente {1}"
+msgstr "Qtd. real {0} / Qtd. em espera {1}"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:179
 msgid "Actual Qty: Quantity available in the warehouse."
-msgstr "Qtd. real: quantidade disponível no armazém."
+msgstr "Qtd. real: quantidade disponível no depósito."
 
 #: erpnext/stock/report/item_shortage_report/item_shortage_report.py:95
 msgid "Actual Quantity"
-msgstr "Quantidade real"
+msgstr "Quantidade Real"
 
 #. Label of the actual_start_date (Datetime) field in DocType 'Job Card'
 #. Label of the actual_start_date (Datetime) field in DocType 'Work Order'
@@ -365,20 +365,20 @@ msgstr "Quantidade real"
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:248
 msgid "Actual Start Date"
-msgstr "Data efetiva de início"
+msgstr "Data de Início Real"
 
 #. Label of the actual_start_date (Date) field in DocType 'Project'
 #. Label of the act_start_date (Date) field in DocType 'Task'
 #: erpnext/projects/doctype/project/project.json
 #: erpnext/projects/doctype/task/task.json
 msgid "Actual Start Date (via Timesheet)"
-msgstr "Data efetiva de início (via Timesheet)"
+msgstr "Data inicial real (via registro de horas)"
 
 #. Label of the actual_start_time (Datetime) field in DocType 'Work Order
 #. Operation'
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 msgid "Actual Start Time"
-msgstr "Hora efetiva de início"
+msgstr "Hora inicial real"
 
 #. Label of the timing_detail (Tab Break) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
@@ -396,7 +396,7 @@ msgstr "Tempo e custo reais"
 #: erpnext/projects/doctype/project/project.json
 #: erpnext/projects/doctype/task/task.json
 msgid "Actual Time in Hours (via Timesheet)"
-msgstr "Tempo real em horas (via Timesheet)"
+msgstr "Tempo real em horas (via registro de horas)"
 
 #: erpnext/stock/page/stock_balance/stock_balance.js:55
 msgid "Actual qty in stock"
@@ -429,11 +429,11 @@ msgstr "Adicionar comentário"
 #. (Check) field in DocType 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Add Corrective Operation Cost in Finished Good Valuation"
-msgstr "Adicionar custo da operação corretiva na valorização do produto acabado"
+msgstr "Adicionar custo da operação corretiva na avaliação do produto acabado"
 
 #: erpnext/public/js/event.js:24
 msgid "Add Customers"
-msgstr "Adicionar clientes"
+msgstr "Adicionar Clientes"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:92
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:442
@@ -442,30 +442,30 @@ msgstr "Adicionar desconto"
 
 #: erpnext/public/js/event.js:40
 msgid "Add Employees"
-msgstr "Adicionar colaboradores"
+msgstr "Adicionar Colaboradores"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:256
 #: erpnext/selling/doctype/sales_order/sales_order.js:277
 #: erpnext/stock/dashboard/item_dashboard.js:216
 msgid "Add Item"
-msgstr "Adicionar item"
+msgstr "Adicionar Item"
 
 #: erpnext/public/js/utils/item_selector.js:20
 #: erpnext/public/js/utils/item_selector.js:35
 msgid "Add Items"
-msgstr "Adicionar itens"
+msgstr "Adicionar Itens"
 
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.py:56
 msgid "Add Items in the Purpose Table"
-msgstr "Adicione itens na tabela Finalidade"
+msgstr "Adicione itens na tabela de finalidade"
 
 #: erpnext/crm/doctype/lead/lead.js:84
 msgid "Add Lead to Prospect"
-msgstr "Adicionar Lead ao prospecto"
+msgstr "Adicionar lead ao prospecto"
 
 #: erpnext/public/js/event.js:16
 msgid "Add Leads"
-msgstr "Adicionar Leads"
+msgstr "Adicionar leads"
 
 #. Label of the add_local_holidays (Section Break) field in DocType 'Holiday
 #. List'
@@ -490,7 +490,7 @@ msgstr "Adicionar ou deduzir"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:280
 msgid "Add Order Discount"
-msgstr "Adicionar desconto do pedido"
+msgstr "Adicionar Desconto de Pedido"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:281
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:416
@@ -500,7 +500,7 @@ msgstr "Adicionar item fantasma"
 #. Label of the add_quote (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Add Quote"
-msgstr "Adicionar cotação"
+msgstr "Adicionar citação"
 
 #. Label of the add_raw_materials (Button) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom/bom.js:990
@@ -514,13 +514,13 @@ msgstr "Adicionar estoque de segurança"
 
 #: erpnext/public/js/event.js:48
 msgid "Add Sales Partners"
-msgstr "Adicionar parceiros de vendas"
+msgstr "Adicionar Parceiros de Vendas"
 
 #. Label of the add_schedule (Button) field in DocType 'Sales Order Item'
 #: erpnext/selling/doctype/sales_order/sales_order.js:649
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 msgid "Add Schedule"
-msgstr "Adicionar cronograma"
+msgstr "Adicionar programação"
 
 #. Label of the add_serial_batch_bundle (Button) field in DocType
 #. 'Subcontracting Receipt Item'
@@ -529,7 +529,7 @@ msgstr "Adicionar cronograma"
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
 msgid "Add Serial / Batch Bundle"
-msgstr "Adicionar pacote de série/lote"
+msgstr "Adicionar conjunto de série / lote"
 
 #. Label of the add_serial_batch_bundle (Button) field in DocType 'Purchase
 #. Invoice Item'
@@ -544,7 +544,7 @@ msgstr "Adicionar pacote de série/lote"
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 #: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
 msgid "Add Serial / Batch No"
-msgstr "Adicionar n.º de série/lote"
+msgstr "Adicionar nº de série / lote"
 
 #. Label of the add_serial_batch_for_rejected_qty (Button) field in DocType
 #. 'Purchase Receipt Item'
@@ -553,7 +553,7 @@ msgstr "Adicionar n.º de série/lote"
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Add Serial / Batch No (Rejected Qty)"
-msgstr "Adicionar n.º de série/lote (Qtd. rejeitada)"
+msgstr "Adicionar nº de série / lote (qtd. rejeitada)"
 
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:200
 msgid "Add Stock"
@@ -567,11 +567,11 @@ msgstr "Adicionar subconjunto"
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:503
 #: erpnext/public/js/event.js:32
 msgid "Add Suppliers"
-msgstr "Adicionar fornecedores"
+msgstr "Adicionar Fornecedores"
 
 #: erpnext/utilities/activation.py:124
 msgid "Add Timesheets"
-msgstr "Adicionar apontamentos de horas"
+msgstr "Adicionar registros de horas"
 
 #. Label of the add_weekly_holidays (Section Break) field in DocType 'Holiday
 #. List'
@@ -581,7 +581,7 @@ msgstr "Adicionar feriados semanais"
 
 #: erpnext/public/js/utils/crm_activities.js:144
 msgid "Add a Note"
-msgstr "Adicionar nota"
+msgstr "Adicionar uma nota"
 
 #: erpnext/www/book_appointment/index.html:42
 msgid "Add details"
@@ -600,7 +600,7 @@ msgstr "Adicionar ou deduzir"
 
 #: erpnext/utilities/activation.py:114
 msgid "Add the rest of your organization as your users. You can also add invite Customers to your portal by adding them from Contacts"
-msgstr "Adicione o restante da sua organização como usuários. Você também pode adicionar clientes convidados ao seu portal a partir de Contatos"
+msgstr "Adicione o restante de sua organização como usuários. Você também pode convidar clientes para o seu portal adicionando-os a partir de Contatos"
 
 #. Label of the get_weekly_off_dates (Button) field in DocType 'Holiday List'
 #. Label of the get_local_holidays (Button) field in DocType 'Holiday List'
@@ -617,7 +617,7 @@ msgstr "Adicionar ao prospecto"
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
 msgid "Add to Transit"
-msgstr "Adicionar ao trânsito"
+msgstr "Adicionar em trânsito"
 
 #: erpnext/accounts/doctype/coupon_code/coupon_code.js:36
 msgid "Add/Edit Coupon Conditions"
@@ -635,15 +635,15 @@ msgstr "Adicionado em"
 
 #: erpnext/buying/doctype/supplier/supplier.py:132
 msgid "Added Supplier Role to User {0}."
-msgstr "Função de Fornecedor adicionada ao usuário {0}."
+msgstr "Perfil de fornecedor adicionado ao usuário {0}."
 
 #: erpnext/controllers/website_list_for_contact.py:304
 msgid "Added {1} Role to User {0}."
-msgstr "Função {1} adicionada ao usuário {0}."
+msgstr "Perfil {1} adicionado ao usuário {0}."
 
 #: erpnext/crm/doctype/lead/lead.js:81
 msgid "Adding Lead to Prospect..."
-msgstr "Adicionando Lead ao Prospecto..."
+msgstr "Adicionando lead ao prospecto..."
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:450
 msgid "Additional"
@@ -872,7 +872,7 @@ msgstr "Custo operacional adicional"
 #. Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Additional Transferred Qty"
-msgstr "Qtd. adicional transferida"
+msgstr "Qtd. transferida adicional"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:660
 msgid "Additional Transferred Qty {0}\n"
@@ -880,7 +880,11 @@ msgid "Additional Transferred Qty {0}\n"
 "\t\t\t\t\tTo fix this, increase the percentage value\n"
 "\t\t\t\t\tof the field 'Transfer Extra Raw Materials to WIP'\n"
 "\t\t\t\t\tin Manufacturing Settings."
-msgstr "A qtd. adicional transferida {0}\n\t\t\t\t\tnão pode ser maior que {1}.\n\t\t\t\t\tPara corrigir isso, aumente o valor percentual\n\t\t\t\t\tdo campo 'Transfer Extra Raw Materials to WIP'\n\t\t\t\t\tem Configurações de fabricação."
+msgstr "Qtd. transferida adicional {0}\n"
+"\t\t\t\t\tnão pode ser maior que {1}.\n"
+"\t\t\t\t\tPara corrigir isso, aumente o valor percentual\n"
+"\t\t\t\t\tdo campo 'Transfer Extra Raw Materials to WIP'\n"
+"\t\t\t\t\tem Configurações de fabricação."
 
 #. Description of the 'Customer Details' (Text) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
@@ -889,7 +893,7 @@ msgstr "Informações adicionais sobre o cliente."
 
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:590
 msgid "Additional {0} {1} of item {2} required as per BOM to complete this transaction"
-msgstr "Mais {0} {1} do item {2} são necessários conforme a BOM para concluir esta transação"
+msgstr "{0} {1} adicional do item {2} necessário, conforme a BOM, para concluir esta transação"
 
 #. Label of the address_and_contact_tab (Tab Break) field in DocType 'Dunning'
 #. Label of the contact_and_address_tab (Tab Break) field in DocType 'POS
@@ -941,14 +945,14 @@ msgstr "Endereço e contato"
 #: erpnext/setup/doctype/employee/employee.json
 #: erpnext/setup/doctype/sales_partner/sales_partner.json
 msgid "Address & Contacts"
-msgstr "Endereços e contatos"
+msgstr "Endereço e contatos"
 
 #. Label of a Link in the Financial Reports Workspace
 #. Name of a report
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json
 #: erpnext/selling/report/address_and_contacts/address_and_contacts.json
 msgid "Address And Contacts"
-msgstr "Endereços e contatos"
+msgstr "Endereço e contatos"
 
 #. Label of the address_desc (HTML) field in DocType 'Sales Partner'
 #: erpnext/setup/doctype/sales_partner/sales_partner.json
@@ -1015,7 +1019,7 @@ msgstr "Endereço e contato"
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/stock/doctype/manufacturer/manufacturer.json
 msgid "Address and Contacts"
-msgstr "Endereços e contatos"
+msgstr "Endereço e contatos"
 
 #: erpnext/accounts/custom/address.py:33
 msgid "Address needs to be linked to a Company. Please add a row for Company in the Links table."
@@ -1038,11 +1042,11 @@ msgstr "Ajustar qtd."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:1108
 msgid "Adjustment Against"
-msgstr "Ajuste referente a"
+msgstr "Ajuste contra"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:664
 msgid "Adjustment based on Purchase Invoice rate"
-msgstr "Ajuste com base na taxa da fatura de compra"
+msgstr "Ajuste com base no preço da fatura de compra"
 
 #: erpnext/setup/setup_wizard/data/designation.txt:2
 msgid "Administrative Assistant"

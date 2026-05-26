@@ -20,7 +20,7 @@ msgstr ""
 
 #: frappe/templates/includes/comments/comments.py:52
 msgid "Comments cannot have links or email addresses"
-msgstr "Comentários não podem ter links nem endereços de e-mail"
+msgstr "Os comentários não podem ter links nem endereços de e-mail"
 
 #. Option for the 'Rounding Method' (Select) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -66,7 +66,7 @@ msgstr "Data da comunicação"
 #. Name of a DocType
 #: frappe/core/doctype/communication_link/communication_link.json
 msgid "Communication Link"
-msgstr "Vínculo de comunicação"
+msgstr "Link da comunicação"
 
 #. Label of a Link in the Build Workspace
 #: frappe/core/workspace/build/build.json
@@ -244,7 +244,7 @@ msgstr "Configurar gravador"
 
 #: frappe/public/js/print_format_builder/Field.vue:103
 msgid "Configure columns for {0}"
-msgstr "Configurar colunas para {0}"
+msgstr "Configurar colunas de {0}"
 
 #. Description of the 'Amended Documents' (Section Break) field in DocType
 #. 'Document Naming Settings'
@@ -253,13 +253,13 @@ msgid "Configure how amended documents will be named.<br>\n\n"
 "Default behaviour is to follow an amend counter which adds a number to the end of the original name indicating the amended version. <br>\n\n"
 "Default Naming will make the amended document to behave same as new documents."
 msgstr "Configure como os documentos retificados serão nomeados.<br>\n\n"
-"O comportamento padrão é seguir um contador de retificação que adiciona um número ao final do nome original, indicando a versão retificada. <br>\n\n"
+"O comportamento padrão é seguir um contador de retificação, que adiciona um número ao fim do nome original para indicar a versão retificada. <br>\n\n"
 "A nomenclatura padrão fará com que o documento retificado se comporte como documentos novos."
 
 #. Description of a DocType
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Configure various aspects of how document naming works like naming series, current counter."
-msgstr "Configure vários aspectos de como funciona a nomeação de documentos, como séries de numeração e contador atual."
+msgstr "Configure vários aspectos do funcionamento da nomenclatura de documentos, como série de nomenclatura e contador atual."
 
 #: frappe/core/doctype/user/user.js:407 frappe/public/js/frappe/dom.js:342
 #: frappe/www/update-password.html:66
@@ -336,7 +336,7 @@ msgstr "Conexão perdida"
 
 #: frappe/templates/pages/integrations/gcalendar-success.html:3
 msgid "Connection Success"
-msgstr "Conexão bem-sucedida"
+msgstr "Conexão realizada com sucesso"
 
 #: frappe/public/js/frappe/dom.js:443
 msgid "Connection lost. Some features might not work."
@@ -379,12 +379,12 @@ msgstr "Contato"
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:812
 msgid "Contact / email not found. Did not add attendee for -<br>{0}"
-msgstr "Contato/e-mail não encontrado. O participante não foi adicionado para -<br>{0}"
+msgstr "Contato / e-mail não encontrado. O participante não foi adicionado para -<br>{0}"
 
 #. Label of the sb_01 (Section Break) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
 msgid "Contact Details"
-msgstr "Detalhes do contato"
+msgstr "Detalhes do Contato"
 
 #. Name of a DocType
 #: frappe/contacts/doctype/contact_email/contact_email.json
@@ -420,7 +420,7 @@ msgstr "Configurações de contato"
 #. Settings'
 #: frappe/website/doctype/contact_us_settings/contact_us_settings.json
 msgid "Contact options, like \"Sales Query, Support Query\" etc each on a new line or separated by commas."
-msgstr "Opções de contato, como \"Consulta de vendas, Consulta de suporte\", cada uma em uma nova linha ou separadas por vírgulas."
+msgstr "Opções de contato, como \"Consulta de vendas, Consulta de suporte\" etc., cada uma em uma nova linha ou separadas por vírgulas."
 
 #. Label of the contacts (Small Text) field in DocType 'OAuth Client'
 #: frappe/integrations/doctype/oauth_client/oauth_client.json
@@ -464,7 +464,7 @@ msgstr "Tipo de conteúdo"
 
 #: frappe/desk/doctype/workspace/workspace.py:88
 msgid "Content data shoud be a list"
-msgstr "Os dados de conteúdo devem ser uma lista"
+msgstr "Os dados do conteúdo devem ser uma lista"
 
 #: frappe/website/doctype/web_page/web_page.js:91
 msgid "Content type for building the page"
@@ -511,7 +511,7 @@ msgstr "Status da contribuição"
 #. Description of the 'Sign ups' (Select) field in DocType 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "Controls whether new users can sign up using this Social Login Key. If unset, Website Settings is respected."
-msgstr "Controla se novos usuários podem se cadastrar usando esta chave de login social. Se não definido, as Configurações do site serão respeitadas."
+msgstr "Controla se novos usuários podem se cadastrar usando esta chave de login social. Se não for definido, as Configurações do site serão respeitadas."
 
 #: frappe/public/js/frappe/utils/utils.js:1077
 msgid "Copied to clipboard."
@@ -536,7 +536,7 @@ msgstr "Copiar erro para a área de transferência"
 #: frappe/public/js/frappe/form/toolbar.js:540
 #: frappe/public/js/frappe/list/list_view.js:2371
 msgid "Copy to Clipboard"
-msgstr "Copiar"
+msgstr "Copiar para a área de transferência"
 
 #: frappe/core/doctype/user/user.js:494
 msgid "Copy token to clipboard"
@@ -549,11 +549,11 @@ msgstr "Direitos autorais"
 
 #: frappe/custom/doctype/customize_form/customize_form.py:125
 msgid "Core DocTypes cannot be customized."
-msgstr "Os DocTypes principais não podem ser personalizados."
+msgstr "DocTypes principais não podem ser personalizados."
 
 #: frappe/desk/doctype/global_search_settings/global_search_settings.py:36
 msgid "Core Modules {0} cannot be searched in Global Search."
-msgstr "Não é possível pesquisar os módulos principais {0} na Pesquisa global."
+msgstr "Os módulos principais {0} não podem ser pesquisados na Busca global."
 
 #: frappe/printing/page/print/print.js:679
 msgid "Correct version :"
@@ -614,7 +614,7 @@ msgstr "Filtro de contagem"
 
 #: frappe/public/js/frappe/form/dashboard.js:509
 msgid "Count of linked documents"
-msgstr "Contagem de documentos vinculados"
+msgstr "Quantidade de documentos vinculados"
 
 #. Label of the counter (Int) field in DocType 'Document Naming Rule'
 #: frappe/core/doctype/document_naming_rule/document_naming_rule.json
@@ -647,7 +647,7 @@ msgstr "Nome do país"
 #. Label of the county (Data) field in DocType 'Address'
 #: frappe/contacts/doctype/address/address.json
 msgid "County"
-msgstr "Condado"
+msgstr "Distrito"
 
 #: frappe/public/js/frappe/utils/number_systems.js:23
 #: frappe/public/js/frappe/utils/number_systems.js:45
@@ -766,7 +766,7 @@ msgstr "Criar novo registro"
 #: frappe/public/js/frappe/list/list_view.js:507
 #: frappe/public/js/frappe/web_form/web_form_list.js:226
 msgid "Create a new {0}"
-msgstr "Criar novo(a) {0}"
+msgstr "Criar novo {0}"
 
 #: frappe/www/login.html:162
 msgid "Create a {0} Account"

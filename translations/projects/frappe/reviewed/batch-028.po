@@ -6,6 +6,7 @@ msgstr ""
 "PO-Revision-Date: 2026-01-21 06:48\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +17,6 @@ msgstr ""
 "X-Crowdin-Language: pt-BR\n"
 "X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
 "X-Crowdin-File-ID: 138\n"
-"Language: pt_BR\n"
 
 #: frappe/email/doctype/email_account/email_account.py:212
 msgid "SMTP Server is required"
@@ -49,8 +49,12 @@ msgid "SQL Queries"
 msgstr "Consultas SQL"
 
 #: frappe/database/query.py:1876
-msgid "SQL functions are not allowed as strings in SELECT: {0}. Use dict syntax like {{'COUNT': '*'}} instead."
-msgstr "Funções SQL não são permitidas como strings em SELECT: {0}. Use a sintaxe de dicionário como {{'COUNT': '*'}}."
+msgid ""
+"SQL functions are not allowed as strings in SELECT: {0}. Use dict syntax "
+"like {{'COUNT': '*'}} instead."
+msgstr ""
+"Funções SQL não são permitidas como strings em SELECT: {0}. Use a sintaxe de "
+"dicionário como {{'COUNT': '*'}}."
 
 #. Label of the ssl_tls_mode (Select) field in DocType 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
@@ -69,7 +73,7 @@ msgstr "Gerente de vendas"
 #. Name of a role
 #: frappe/contacts/doctype/contact/contact.json
 msgid "Sales Master Manager"
-msgstr "Gerente mestre de vendas"
+msgstr "Gerente principal de vendas"
 
 #. Name of a role
 #: frappe/contacts/doctype/address/address.json
@@ -209,8 +213,12 @@ msgid "Saving Sidebar"
 msgstr "Salvando barra lateral"
 
 #: frappe/desk/doctype/module_onboarding/module_onboarding.js:8
-msgid "Saving this will export this document as well as the steps linked here as json."
-msgstr "Ao salvar, este documento e as etapas vinculadas aqui serão exportados como JSON."
+msgid ""
+"Saving this will export this document as well as the steps linked here as "
+"json."
+msgstr ""
+"Ao salvar, este documento e as etapas vinculadas aqui serão exportados como "
+"JSON."
 
 #: frappe/public/js/form_builder/store.js:233
 #: frappe/public/js/print_format_builder/store.js:36
@@ -224,7 +232,7 @@ msgstr "Escanear QR Code"
 
 #: frappe/www/qrcode.html:14
 msgid "Scan the QR Code and enter the resulting code displayed."
-msgstr "Escaneie o QR Code e informe o código resultante exibido."
+msgstr "Escaneie o QR Code e digite o código exibido."
 
 #. Label of the section_break_10 (Tab Break) field in DocType 'Auto Repeat'
 #: frappe/automation/doctype/auto_repeat/auto_repeat.json
@@ -306,7 +314,8 @@ msgstr "Status do agendador"
 
 #: frappe/utils/scheduler.py:247
 msgid "Scheduler can not be re-enabled when maintenance mode is active."
-msgstr "O agendador não pode ser reativado quando o modo de manutenção estiver ativo."
+msgstr ""
+"O agendador não pode ser reativado quando o modo de manutenção estiver ativo."
 
 #: frappe/core/doctype/data_import/data_import.py:124
 msgid "Scheduler is inactive. Cannot import data."
@@ -410,7 +419,7 @@ msgstr "Scripts"
 #: frappe/templates/discussions/search.html:2
 #: frappe/templates/includes/search_template.html:26
 msgid "Search"
-msgstr "Pesquisar"
+msgstr "Pesquisa"
 
 #. Label of the search_bar (Check) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
@@ -426,7 +435,7 @@ msgstr "Campos de pesquisa"
 
 #: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:253
 msgid "Search Help"
-msgstr "Ajuda da pesquisa"
+msgstr "Ajuda de pesquisa"
 
 #. Label of the allowed_in_global_search (Table) field in DocType 'Global
 #. Search Settings'
@@ -457,7 +466,7 @@ msgstr "Pesquisar tipos de campo..."
 #: frappe/public/js/frappe/ui/toolbar/search.js:50
 #: frappe/public/js/frappe/ui/toolbar/search.js:69
 msgid "Search for anything"
-msgstr "Pesquisar tudo"
+msgstr "Pesquisar qualquer coisa"
 
 #: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:367
 #: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:374
@@ -600,7 +609,7 @@ msgstr "Tabela de visualizações"
 #: frappe/website/doctype/web_form_field/web_form_field.json
 #: frappe/website/doctype/web_template_field/web_template_field.json
 msgid "Select"
-msgstr "Selecionar"
+msgstr "Seleção"
 
 #: frappe/public/js/frappe/data_import/data_exporter.js:149
 #: frappe/public/js/frappe/form/controls/multicheck.js:167
@@ -672,8 +681,11 @@ msgid "Select Document Type or Role to start."
 msgstr "Selecione um tipo de documento ou perfil para começar."
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:34
-msgid "Select Document Types to set which User Permissions are used to limit access."
-msgstr "Selecione os tipos de documento para definir quais permissões de usuário serão usadas para limitar o acesso."
+msgid ""
+"Select Document Types to set which User Permissions are used to limit access."
+msgstr ""
+"Selecione os tipos de documento para definir quais permissões de usuário "
+"serão usadas para limitar o acesso."
 
 #: frappe/public/js/form_builder/components/controls/FetchFromControl.vue:33
 #: frappe/public/js/frappe/doctype/index.js:207
@@ -713,7 +725,8 @@ msgstr "Selecione o Google Calendar com o qual o evento deve ser sincronizado."
 
 #: frappe/contacts/doctype/contact/contact.py:77
 msgid "Select Google Contacts to which contact should be synced."
-msgstr "Selecione o Google Contacts com o qual o contato deve ser sincronizado."
+msgstr ""
+"Selecione o Google Contacts com o qual o contato deve ser sincronizado."
 
 #: frappe/public/js/frappe/ui/group_by/group_by.html:10
 msgid "Select Group By..."
@@ -734,7 +747,7 @@ msgstr "Selecionar visualização de lista"
 
 #: frappe/public/js/frappe/data_import/data_exporter.js:158
 msgid "Select Mandatory"
-msgstr "Selecionar obrigatórios"
+msgstr "Selecionar campos obrigatórios"
 
 #: frappe/custom/doctype/customize_form/customize_form.js:280
 msgid "Select Module"
@@ -811,11 +824,14 @@ msgstr "Selecione primeiro um grupo {0}."
 
 #: frappe/core/doctype/doctype/doctype.py:1977
 msgid "Select a valid Sender Field for creating documents from Email"
-msgstr "Selecione um campo de remetente válido para criar documentos a partir de e-mail"
+msgstr ""
+"Selecione um campo de remetente válido para criar documentos a partir de e-"
+"mail"
 
 #: frappe/core/doctype/doctype/doctype.py:1961
 msgid "Select a valid Subject field for creating documents from Email"
-msgstr "Selecione um campo de assunto válido para criar documentos a partir de e-mail"
+msgstr ""
+"Selecione um campo de assunto válido para criar documentos a partir de e-mail"
 
 #: frappe/public/js/frappe/form/form_tour.js:321
 msgid "Select an Image"
@@ -828,8 +844,12 @@ msgstr "Selecione um formato existente para editar ou inicie um novo formato."
 #. Description of the 'Brand Image' (Attach Image) field in DocType 'Website
 #. Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
-msgid "Select an image of approx width 150px with a transparent background for best results."
-msgstr "Selecione uma imagem com largura aproximada de 150px e fundo transparente para melhores resultados."
+msgid ""
+"Select an image of approx width 150px with a transparent background for best "
+"results."
+msgstr ""
+"Selecione uma imagem com largura aproximada de 150px e fundo transparente "
+"para melhores resultados."
 
 #: frappe/public/js/frappe/list/bulk_operations.js:36
 msgid "Select atleast 1 record for printing"

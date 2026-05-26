@@ -163,7 +163,7 @@ msgstr "Item 5"
 #: erpnext/stock/doctype/item_alternative/item_alternative.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Item Alternative"
-msgstr "Item alternativo"
+msgstr "Alternativa de item"
 
 #. Option for the 'Variant Based On' (Select) field in DocType 'Item'
 #. Name of a DocType
@@ -191,14 +191,14 @@ msgstr "Valores do atributo do item"
 #. Name of a report
 #: erpnext/stock/report/item_balance/item_balance.json
 msgid "Item Balance (Simple)"
-msgstr "Saldo de itens (simples)"
+msgstr "Saldo de item (simples)"
 
 #. Name of a DocType
 #. Label of the item_barcode (Data) field in DocType 'Quick Stock Balance'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
 #: erpnext/stock/doctype/quick_stock_balance/quick_stock_balance.json
 msgid "Item Barcode"
-msgstr "Código de barras do item"
+msgstr "Código de Barras do Item"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:46
 msgid "Item Cart"
@@ -431,7 +431,7 @@ msgstr "Carrinho de itens"
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 #: erpnext/templates/includes/products_as_list.html:14
 msgid "Item Code"
-msgstr "Código do item"
+msgstr "Código do Item"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.js:61
 msgid "Item Code (Final Product)"
@@ -443,16 +443,16 @@ msgstr "Código do item > Grupo de itens > Marca"
 
 #: erpnext/stock/doctype/serial_no/serial_no.py:83
 msgid "Item Code cannot be changed for Serial No."
-msgstr "O código do item não pode ser alterado para o número de série."
+msgstr "O código do item não pode ser alterado para o nº de série."
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:453
 msgid "Item Code required at Row No {0}"
-msgstr "Código do item obrigatório na linha {0}"
+msgstr "Código do item obrigatório na linha nº {0}"
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:849
 #: erpnext/selling/page/point_of_sale/pos_item_details.js:275
 msgid "Item Code: {0} is not available under warehouse {1}."
-msgstr "Código do item: {0} não está disponível no depósito {1}."
+msgstr "Código do item: {0} não está disponível no armazém {1}."
 
 #. Name of a DocType
 #: erpnext/stock/doctype/item_customer_detail/item_customer_detail.json
@@ -656,7 +656,7 @@ msgstr "Grupos de itens"
 #. Description of the 'Website Image' (Attach Image) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Item Image (if not slideshow)"
-msgstr "Imagem do item (se não for slideshow)"
+msgstr "Imagem do item (se não houver carrossel)"
 
 #. Label of the item_information_section (Section Break) field in DocType
 #. 'Stock Reservation Entry'
@@ -923,7 +923,7 @@ msgstr "Configurações de preço do item"
 #: erpnext/stock/report/item_price_stock/item_price_stock.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Item Price Stock"
-msgstr "Preço de estoque do item"
+msgstr "Preço e estoque do item"
 
 #: erpnext/stock/get_item_details.py:1101
 msgid "Item Price added for {0} in Price List {1}"
@@ -931,11 +931,11 @@ msgstr "Preço do item adicionado para {0} na lista de preços {1}"
 
 #: erpnext/stock/doctype/item_price/item_price.py:140
 msgid "Item Price appears multiple times based on Price List, Supplier/Customer, Currency, Item, Batch, UOM, Qty, and Dates."
-msgstr "O preço do item aparece várias vezes com base em lista de preços, fornecedor/cliente, moeda, item, lote, UDM, qtd. e datas."
+msgstr "O preço do item aparece várias vezes com base em Lista de preços, Fornecedor/Cliente, Moeda, Item, Lote, UOM, Qtd. e Datas."
 
 #: erpnext/stock/get_item_details.py:1080
 msgid "Item Price updated for {0} in Price List {1}"
-msgstr "Preço do item atualizado para {0} na lista de preços {1}"
+msgstr "O Preço do Item foi atualizado para {0} na Lista de Preços {1}"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
@@ -1038,7 +1038,7 @@ msgstr "Alíquota de imposto do item"
 
 #: erpnext/accounts/doctype/item_tax_template/item_tax_template.py:61
 msgid "Item Tax Row {0} must have account of type Tax or Income or Expense or Chargeable"
-msgstr "A linha de imposto do item {0} deve ter uma conta do tipo imposto, receita, despesa ou passível de cobrança"
+msgstr "A linha de imposto do item {0} deve ter uma conta do tipo imposto, receita, despesa ou cobrável"
 
 #: erpnext/accounts/doctype/item_tax_template/item_tax_template.py:48
 msgid "Item Tax Row {0}: Account must belong to Company - {1}"
@@ -1072,12 +1072,12 @@ msgstr "Linha de imposto do item {0}: a conta deve pertencer à empresa - {1}"
 #: erpnext/stock/doctype/item_tax/item_tax.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Item Tax Template"
-msgstr "Modelo de imposto por item"
+msgstr "Modelo de imposto do item"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/item_tax_template_detail/item_tax_template_detail.json
 msgid "Item Tax Template Detail"
-msgstr "Detalhe do modelo de imposto por item"
+msgstr "Detalhe do modelo de imposto do item"
 
 #. Label of the production_item (Link) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
@@ -1087,7 +1087,7 @@ msgstr "Item a fabricar"
 #. Label of the uom (Link) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Item UOM"
-msgstr "UDM do item"
+msgstr "UOM do item"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/item_variant/item_variant.json
@@ -1124,7 +1124,7 @@ msgstr "Variantes do item atualizadas"
 
 #: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.py:85
 msgid "Item Warehouse based reposting has been enabled."
-msgstr "O reprocessamento baseado em item e depósito foi ativado."
+msgstr "O reprocessamento com base em item e armazém foi ativado."
 
 #. Name of a DocType
 #: erpnext/stock/doctype/item_website_specification/item_website_specification.json
@@ -1192,7 +1192,7 @@ msgstr "Detalhes de imposto por item"
 
 #: erpnext/controllers/taxes_and_totals.py:542
 msgid "Item Wise Tax Details do not match with Taxes and Charges at the following rows:"
-msgstr "Os detalhes de imposto por item não correspondem aos impostos e encargos nas seguintes linhas:"
+msgstr "Os detalhes de imposto por item não correspondem a Impostos e taxas nas seguintes linhas:"
 
 #. Label of the section_break_rrrx (Section Break) field in DocType 'Sales
 #. Forecast'
@@ -1200,7 +1200,7 @@ msgstr "Os detalhes de imposto por item não correspondem aos impostos e encargo
 #: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.json
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Item and Warehouse"
-msgstr "Item e depósito"
+msgstr "Item e armazém"
 
 #. Label of the issue_details (Section Break) field in DocType 'Warranty Claim'
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
@@ -1213,7 +1213,7 @@ msgstr "O item da linha {0} não corresponde à solicitação de material"
 
 #: erpnext/stock/doctype/item/item.py:788
 msgid "Item has variants."
-msgstr "O item possui variantes."
+msgstr "O item tem variantes."
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:436
 msgid "Item is mandatory in Raw Materials table."
@@ -1221,11 +1221,11 @@ msgstr "O item é obrigatório na tabela de matérias-primas."
 
 #: erpnext/selling/page/point_of_sale/pos_item_details.js:110
 msgid "Item is removed since no serial / batch no selected."
-msgstr "O item foi removido porque nenhum nº de série/lote foi selecionado."
+msgstr "O item foi removido, pois nenhum nº de série/lote foi selecionado."
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:141
 msgid "Item must be added using 'Get Items from Purchase Receipts' button"
-msgstr "O item deve ser adicionado usando o botão 'Get Items from Purchase Receipts'"
+msgstr "O item deve ser adicionado usando o botão 'Obter itens dos recebimentos de compra'"
 
 #: erpnext/buying/report/subcontracted_item_to_be_received/subcontracted_item_to_be_received.py:42
 #: erpnext/selling/doctype/sales_order/sales_order.js:1630
@@ -1243,7 +1243,7 @@ msgstr "A qtd. do item não pode ser atualizada, pois as matérias-primas já fo
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1074
 msgid "Item rate has been updated to zero as Allow Zero Valuation Rate is checked for item {0}"
-msgstr "O preço do item foi atualizado para zero, pois 'Allow Zero Valuation Rate' está marcado para o item {0}"
+msgstr "O preço do item foi atualizado para zero, pois Permitir taxa de avaliação zero está marcado para o item {0}"
 
 #. Label of the finished_good (Link) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
@@ -1257,7 +1257,7 @@ msgstr "Item a ser fabricado ou reembalado"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:9
 msgid "Item valuation rate is recalculated considering landed cost voucher amount"
-msgstr "O preço de avaliação do item é recalculado considerando o valor do comprovante de custo adicional"
+msgstr "A taxa de avaliação do item é recalculada considerando o valor do comprovante de custo adicional"
 
 #: erpnext/stock/utils.py:559
 msgid "Item valuation reposting in progress. Report might show incorrect item valuation."
@@ -1269,7 +1269,7 @@ msgstr "A variante do item {0} existe com os mesmos atributos"
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:85
 msgid "Item {0} cannot be added as a sub-assembly of itself"
-msgstr "O item {0} não pode ser adicionado como seu próprio subconjunto"
+msgstr "O item {0} não pode ser adicionado como um subconjunto de si mesmo"
 
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:197
 msgid "Item {0} cannot be ordered more than {1} against Blanket Order {2}."
@@ -1302,7 +1302,7 @@ msgstr "O item {0} foi desativado"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:778
 msgid "Item {0} has no Serial No. Only serialized items can have delivery based on Serial No"
-msgstr "O item {0} não possui nº de série. Somente itens serializados podem ter entrega baseada em nº de série"
+msgstr "O item {0} não tem nº de série. Somente itens serializados podem ter entrega com base no nº de série"
 
 #: erpnext/stock/doctype/item/item.py:1124
 msgid "Item {0} has reached its end of life on {1}"
@@ -1310,7 +1310,7 @@ msgstr "O item {0} atingiu o fim de vida em {1}"
 
 #: erpnext/stock/stock_ledger.py:118
 msgid "Item {0} ignored since it is not a stock item"
-msgstr "Item {0} ignorado, pois não é um item de estoque"
+msgstr "O item {0} foi ignorado, pois não é um item de estoque"
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:608
 msgid "Item {0} is already reserved/delivered against Sales Order {1}."
@@ -1338,11 +1338,11 @@ msgstr "O item {0} não é um item terceirizado"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:2055
 msgid "Item {0} is not active or end of life has been reached"
-msgstr "O item {0} não está ativo ou chegou ao fim de vida"
+msgstr "O item {0} não está ativo ou atingiu o fim de vida"
 
 #: erpnext/assets/doctype/asset/asset.py:342
 msgid "Item {0} must be a Fixed Asset Item"
-msgstr "O Item {0} deve ser um Item de Ativo Imobilizado"
+msgstr "O item {0} deve ser um item de ativo imobilizado"
 
 #: erpnext/stock/get_item_details.py:347
 msgid "Item {0} must be a Non-Stock Item"
@@ -1358,7 +1358,7 @@ msgstr "O item {0} deve ser um item não estocável"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1407
 msgid "Item {0} not found in 'Raw Materials Supplied' table in {1} {2}"
-msgstr "Item {0} não encontrado na tabela 'Raw Materials Supplied' em {1} {2}"
+msgstr "O item {0} não foi encontrado na tabela 'Matérias-primas fornecidas' em {1} {2}"
 
 #: erpnext/stock/doctype/item_price/item_price.py:56
 msgid "Item {0} not found."
@@ -1366,11 +1366,11 @@ msgstr "Item {0} não encontrado."
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:362
 msgid "Item {0}: Ordered qty {1} cannot be less than minimum order qty {2} (defined in Item)."
-msgstr "Item {0}: a qtd. solicitada {1} não pode ser menor que a qtd. mínima de pedido {2} (definida no item)."
+msgstr "Item {0}: a qtd. pedida {1} não pode ser menor que a qtd. mínima de pedido {2} (definida no item)."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:573
 msgid "Item {0}: {1} qty produced. "
-msgstr "Item {0}: {1} qtd. produzida. "
+msgstr "Item {0}: qtd. produzida {1}. "
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:1434
 msgid "Item {} does not exist."
@@ -1379,7 +1379,7 @@ msgstr "O item {} não existe."
 #. Name of a report
 #: erpnext/stock/report/item_wise_price_list_rate/item_wise_price_list_rate.json
 msgid "Item-wise Price List Rate"
-msgstr "Lista de Preços Por Item"
+msgstr "Preço de tabela por item"
 
 #. Name of a report
 #. Label of a Link in the Buying Workspace
@@ -1441,7 +1441,7 @@ msgstr "Itens Necessários"
 #: erpnext/buying/workspace/buying/buying.json
 #: erpnext/stock/report/items_to_be_requested/items_to_be_requested.json
 msgid "Items To Be Requested"
-msgstr "Itens a solicitar"
+msgstr "Itens Para Requisitar"
 
 #. Label of a Card Break in the Selling Workspace
 #: erpnext/selling/workspace/selling/selling.json
@@ -1450,11 +1450,11 @@ msgstr "Itens e Preços"
 
 #: erpnext/controllers/accounts_controller.py:4169
 msgid "Items cannot be updated as Subcontracting Inward Order(s) exist against this Subcontracted Sales Order."
-msgstr "Os itens não podem ser atualizados, pois existem ordens de entrada de terceirização para este pedido de venda terceirizado."
+msgstr "Os itens não podem ser atualizados, pois existem pedidos de entrada de terceirização vinculados a este pedido de venda terceirizado."
 
 #: erpnext/controllers/accounts_controller.py:4162
 msgid "Items cannot be updated as Subcontracting Order is created against the Purchase Order {0}."
-msgstr "Os itens não podem ser atualizados, pois foi criada uma ordem de terceirização para o pedido de compra {0}."
+msgstr "Os itens não podem ser atualizados, pois foi criado um pedido de terceirização para o pedido de compra {0}."
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1428
 msgid "Items for Raw Material Request"
@@ -1462,7 +1462,7 @@ msgstr "Itens Para Solicitação de Matéria-prima"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1070
 msgid "Items rate has been updated to zero as Allow Zero Valuation Rate is checked for the following items: {0}"
-msgstr "Os valores dos itens foram atualizados para zero, pois 'Allow Zero Valuation Rate' está marcado para os seguintes itens: {0}"
+msgstr "O preço dos itens foi atualizado para zero, pois Permitir taxa de avaliação zero está marcado para os seguintes itens: {0}"
 
 #. Label of the items_to_be_repost (Code) field in DocType 'Repost Item
 #. Valuation'
@@ -1488,7 +1488,7 @@ msgstr "Itens para reservar"
 #. Description of the 'Warehouse' (Link) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
 msgid "Items under this warehouse will be suggested"
-msgstr "Itens deste depósito serão sugeridos"
+msgstr "Os itens deste armazém serão sugeridos"
 
 #: erpnext/controllers/stock_controller.py:125
 msgid "Items {0} do not exist in the Item master."
@@ -1509,7 +1509,7 @@ msgstr "Nível de reposição recomendado por item"
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
 msgid "JAN"
-msgstr "JAN"
+msgstr ""
 
 #. Label of the production_capacity (Int) field in DocType 'Workstation'
 #: erpnext/manufacturing/doctype/workstation/workstation.json

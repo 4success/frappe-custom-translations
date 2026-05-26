@@ -20,13 +20,13 @@ msgstr ""
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1002
 msgid "Change the account type to Receivable or select a different account."
-msgstr "Altere o tipo de conta para Recebível ou selecione outra conta."
+msgstr "Altere o tipo de conta para Contas a receber ou selecione outra conta."
 
 #. Description of the 'Last Integration Date' (Date) field in DocType 'Bank
 #. Account'
 #: erpnext/accounts/doctype/bank_account/bank_account.json
 msgid "Change this date manually to setup the next synchronization start date"
-msgstr "Altere esta data manualmente para definir a próxima data inicial da sincronização"
+msgstr "Altere esta data manualmente para definir a próxima data de início da sincronização"
 
 #: erpnext/selling/doctype/customer/customer.py:127
 msgid "Changed customer name to '{}' as '{}' already exists."
@@ -42,7 +42,7 @@ msgstr "A alteração do grupo de clientes para o cliente selecionado não é pe
 
 #: erpnext/stock/doctype/item/item.js:16
 msgid "Changing the valuation method to Moving Average will affect new transactions. If backdated entries are added, earlier FIFO-based entries will be reposted, which may change closing balances."
-msgstr "Alterar o método de avaliação para Média Móvel afetará novas transações. Se lançamentos retroativos forem adicionados, os lançamentos anteriores com base em FIFO serão repostados, o que pode alterar os saldos finais."
+msgstr "Alterar o método de avaliação para Média móvel afetará novas transações. Se lançamentos retroativos forem adicionados, os lançamentos anteriores baseados em FIFO serão repostados, o que pode alterar os saldos finais."
 
 #. Option for the 'Lead Type' (Select) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
@@ -68,7 +68,7 @@ msgstr "Encargos incorridos"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:9
 msgid "Charges are updated in Purchase Receipt against each item"
-msgstr "Os encargos são atualizados no Recebimento de Compra de cada item"
+msgstr "Os encargos são atualizados no recebimento de compra de cada item"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:9
 msgid "Charges will be distributed proportionately based on item qty or amount, as per your selection"
@@ -77,23 +77,23 @@ msgstr "Os encargos serão distribuídos proporcionalmente com base na quantidad
 #. Label of the tab_break_dpet (Tab Break) field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Chart Of Accounts"
-msgstr "Plano de Contas"
+msgstr "Plano de contas"
 
 #. Label of the chart_of_accounts (Select) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Chart Of Accounts Template"
-msgstr "Modelo de Plano de Contas"
+msgstr "Modelo do plano de contas"
 
 #. Label of the chart_preview (Section Break) field in DocType 'Chart of
 #. Accounts Importer'
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.json
 msgid "Chart Preview"
-msgstr "Visualização do plano"
+msgstr "Prévia do plano de contas"
 
 #. Label of the chart_tree (HTML) field in DocType 'Chart of Accounts Importer'
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.json
 msgid "Chart Tree"
-msgstr "Árvore do plano"
+msgstr "Árvore do plano de contas"
 
 #. Label of a Link in the Accounting Workspace
 #. Label of the section_break_28 (Section Break) field in DocType 'Company'
@@ -137,18 +137,18 @@ msgstr "Nº do chassi"
 #. Label of the warehouse_group (Link) field in DocType 'Item Reorder'
 #: erpnext/stock/doctype/item_reorder/item_reorder.json
 msgid "Check Availability in Warehouse"
-msgstr "Verificar disponibilidade no depósito"
+msgstr "Verificar disponibilidade no armazém"
 
 #. Label of the check_supplier_invoice_uniqueness (Check) field in DocType
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Check Supplier Invoice Number Uniqueness"
-msgstr "Verificar exclusividade do número da fatura do fornecedor"
+msgstr "Verificar unicidade do número da fatura do fornecedor"
 
 #. Description of the 'Is Container' (Check) field in DocType 'Location'
 #: erpnext/assets/doctype/location/location.json
 msgid "Check if it is a hydroponic unit"
-msgstr "Marque se for uma unidade hidropônica"
+msgstr "Verifique se é uma unidade hidropônica"
 
 #. Description of the 'Skip Material Transfer to WIP Warehouse' (Check) field
 #. in DocType 'Work Order'
@@ -159,7 +159,7 @@ msgstr "Marque se o lançamento de transferência de material não for necessár
 #. Description of the 'Must be Whole Number' (Check) field in DocType 'UOM'
 #: erpnext/setup/doctype/uom/uom.json
 msgid "Check this to disallow fractions. (for Nos)"
-msgstr "Marque para não permitir frações. (para Un)"
+msgstr "Marque para não permitir frações. (para un.)"
 
 #. Label of the checked_on (Datetime) field in DocType 'Ledger Health'
 #: erpnext/accounts/doctype/ledger_health/ledger_health.json
@@ -170,7 +170,7 @@ msgstr "Verificado em"
 #. Withholding Category'
 #: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
 msgid "Checking this will round off the tax amount to the nearest integer"
-msgstr "Ao marcar, o valor do imposto será arredondado para o inteiro mais próximo"
+msgstr "Marcar isto arredondará o valor do imposto para o inteiro mais próximo"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:92
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:148
@@ -183,7 +183,7 @@ msgstr "Finalizar Pedido / Enviar Pedido / Novo Pedido"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:12
 msgid "Chemical"
-msgstr "Químico"
+msgstr "Química"
 
 #. Option for the 'Salary Mode' (Select) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -250,7 +250,7 @@ msgstr "Cheques e depósitos compensados incorretamente"
 
 #: erpnext/setup/setup_wizard/data/designation.txt:9
 msgid "Chief Executive Officer"
-msgstr "Diretor executivo"
+msgstr "Diretor-presidente"
 
 #: erpnext/setup/setup_wizard/data/designation.txt:10
 msgid "Chief Financial Officer"
@@ -258,7 +258,7 @@ msgstr "Diretor financeiro"
 
 #: erpnext/setup/setup_wizard/data/designation.txt:11
 msgid "Chief Operating Officer"
-msgstr "Diretor operacional"
+msgstr "Diretor de operações"
 
 #: erpnext/setup/setup_wizard/data/designation.txt:12
 msgid "Chief Technology Officer"
@@ -278,15 +278,15 @@ msgstr "Referência da linha filha"
 
 #: erpnext/projects/doctype/task/task.py:312
 msgid "Child Task exists for this Task. You can not delete this Task."
-msgstr "Existem subtarefas para esta tarefa. Você não pode excluí-la."
+msgstr "Existe uma subtarefa para esta tarefa. Você não pode excluí-la."
 
 #: erpnext/stock/doctype/warehouse/warehouse_tree.js:21
 msgid "Child nodes can be only created under 'Group' type nodes"
-msgstr "Nós filhos só podem ser criados sob nós do tipo \"Grupo\""
+msgstr "Os subgrupos só podem ser criados sob os ramos do tipo \"Grupo\""
 
 #: erpnext/stock/doctype/warehouse/warehouse.py:103
 msgid "Child warehouse exists for this warehouse. You can not delete this warehouse."
-msgstr "Existe um armazém filho para este armazém. Não é possível excluí-lo."
+msgstr "Existe um armazém secundário para este armazém. Não pode eliminar este armazém."
 
 #: erpnext/projects/doctype/task/task.py:260
 msgid "Circular Reference Error"
@@ -296,7 +296,7 @@ msgstr "Erro de Referência Circular"
 #. 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Claimed Landed Cost Amount (Company Currency)"
-msgstr "Valor do custo adicional apropriado (moeda da empresa)"
+msgstr "Valor do custo de aquisição lançado (Moeda da empresa)"
 
 #. Label of the class_per (Data) field in DocType 'Employee Education'
 #: erpnext/setup/doctype/employee_education/employee_education.json
@@ -364,11 +364,11 @@ msgstr "Limpando dados de demonstração..."
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:719
 msgid "Click on 'Get Finished Goods for Manufacture' to fetch the items from the above Sales Orders. Items only for which a BOM is present will be fetched."
-msgstr "Clique em 'Obter produtos acabados para fabricação' para buscar os itens dos pedidos de venda acima. Somente itens com BOM cadastrada serão buscados."
+msgstr "Clique em 'Obter produtos acabados para fabricação' para buscar os itens dos pedidos de venda acima. Somente os itens com BOM serão buscados."
 
 #: erpnext/setup/doctype/holiday_list/holiday_list.js:70
 msgid "Click on Add to Holidays. This will populate the holidays table with all the dates that fall on the selected weekly off. Repeat the process for populating the dates for all your weekly holidays"
-msgstr "Clique em Adicionar aos feriados. Isso preencherá a tabela de feriados com todas as datas que caem na folga semanal selecionada. Repita o processo para preencher as datas de todas as suas folgas semanais"
+msgstr "Clique em Adicionar aos feriados. Isso preencherá a tabela de feriados com todas as datas que caem na folga semanal selecionada. Repita o processo para preencher as datas de todos os seus feriados semanais"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:714
 msgid "Click on Get Sales Orders to fetch sales orders based on the above filters."
@@ -378,7 +378,7 @@ msgstr "Clique em Obter pedidos de venda para buscar os pedidos de venda com bas
 #. Supplier Invoice'
 #: erpnext/regional/doctype/import_supplier_invoice/import_supplier_invoice.json
 msgid "Click on Import Invoices button once the zip file has been attached to the document. Any errors related to processing will be shown in the Error Log."
-msgstr "Clique no botão Importar faturas depois que o arquivo zip for anexado ao documento. Quaisquer erros de processamento serão exibidos no Registro de Erros."
+msgstr "Clique no botão Importar faturas depois que o arquivo zip for anexado ao documento. Quaisquer erros relacionados ao processamento serão exibidos no Registro de erros."
 
 #: erpnext/templates/emails/confirm_appointment.html:3
 msgid "Click on the link below to verify your email and confirm the appointment"
@@ -388,11 +388,11 @@ msgstr "Clique no link abaixo para verificar seu e-mail e confirmar o agendament
 #. 'Subcontracting Receipt'
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Click this button if you encounter a negative stock error for a serial or batch item. The system will fetch the available serials or batches automatically."
-msgstr "Clique neste botão se ocorrer um erro de estoque negativo para um item serializado ou em lote. O sistema buscará automaticamente os seriais ou lotes disponíveis."
+msgstr "Clique neste botão se encontrar um erro de estoque negativo para um item serializado ou por lote. O sistema buscará automaticamente os seriais ou lotes disponíveis."
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:485
 msgid "Click to add email / phone"
-msgstr "Clique para adicionar e-mail / telefone"
+msgstr "Clique para adicionar e-mail/telefone"
 
 #. Label of the close_issue_after_days (Int) field in DocType 'Support
 #. Settings'
@@ -426,11 +426,11 @@ msgstr "Documentos fechados"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:2377
 msgid "Closed Work Order can not be stopped or Re-opened"
-msgstr "A ordem de trabalho fechada não pode ser interrompida nem reaberta"
+msgstr "Ordem de Trabalho fechada não pode ser parada nem reaberta"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:525
 msgid "Closed order cannot be cancelled. Unclose to cancel."
-msgstr "O pedido fechado não pode ser cancelado. Reabra-o para cancelar."
+msgstr "Pedido fechado não pode ser cancelado. Reabra-o para cancelar."
 
 #. Label of the expected_closing (Date) field in DocType 'Prospect Opportunity'
 #: erpnext/crm/doctype/prospect_opportunity/prospect_opportunity.json
@@ -457,11 +457,11 @@ msgstr "Fechamento (Abertura + Total)"
 #. Voucher'
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.json
 msgid "Closing Account Head"
-msgstr "Conta de encerramento"
+msgstr "Conta de fechamento"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:124
 msgid "Closing Account {0} must be of type Liability / Equity"
-msgstr "A conta de encerramento {0} deve ser do tipo Passivo / Patrimônio Líquido"
+msgstr "A conta de fechamento {0} deve ser do tipo Passivo / Patrimônio líquido"
 
 #. Label of the closing_amount (Currency) field in DocType 'POS Closing Entry
 #. Detail'
@@ -484,11 +484,11 @@ msgstr "Saldo Final"
 
 #: erpnext/public/js/bank_reconciliation_tool/number_card.js:18
 msgid "Closing Balance as per Bank Statement"
-msgstr "Saldo final conforme extrato bancário"
+msgstr "Saldo final conforme o extrato bancário"
 
 #: erpnext/public/js/bank_reconciliation_tool/number_card.js:24
 msgid "Closing Balance as per ERP"
-msgstr "Saldo final conforme ERP"
+msgstr "Saldo final conforme o ERP"
 
 #. Label of the closing_date (Date) field in DocType 'Account Closing Balance'
 #. Label of the closing_date (Date) field in DocType 'Task'
@@ -520,11 +520,11 @@ msgstr "Lista de códigos"
 #. Report Row'
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
 msgid "Code to reference this line in formulas (e.g., REV100, EXP200, ASSET100)"
-msgstr "Código para referenciar esta linha nas fórmulas (ex.: REV100, EXP200, ASSET100)"
+msgstr "Código para referenciar esta linha em fórmulas (ex.: REV100, EXP200, ASSET100)"
 
 #: erpnext/setup/setup_wizard/data/marketing_source.txt:4
 msgid "Cold Calling"
-msgstr "Prospecção fria"
+msgstr "Prospecção ativa"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:281
 msgid "Collect Outstanding Amount"
@@ -533,23 +533,23 @@ msgstr "Receber valor pendente"
 #. Label of the collect_progress (Check) field in DocType 'Project'
 #: erpnext/projects/doctype/project/project.json
 msgid "Collect Progress"
-msgstr "Coletar progresso"
+msgstr "Registrar progresso"
 
 #. Label of the collection_factor (Currency) field in DocType 'Loyalty Program
 #. Collection'
 #: erpnext/accounts/doctype/loyalty_program_collection/loyalty_program_collection.json
 msgid "Collection Factor (=1 LP)"
-msgstr "Fator de acumulo (=1 LP)"
+msgstr "Fator de acúmulo (=1 LP)"
 
 #. Label of the collection_rules (Table) field in DocType 'Loyalty Program'
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
 msgid "Collection Rules"
-msgstr "Regras de acumulo"
+msgstr "Regras de acúmulo"
 
 #. Label of the rules (Section Break) field in DocType 'Loyalty Program'
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
 msgid "Collection Tier"
-msgstr "Faixa de acumulo"
+msgstr "Faixa de acúmulo"
 
 #. Description of the 'Color' (Color) field in DocType 'Financial Report Row'
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
@@ -567,11 +567,11 @@ msgstr "Coluna no arquivo bancário"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:52
 msgid "Columns are not according to template. Please compare the uploaded file with standard template"
-msgstr "As colunas não estão de acordo com o modelo. Compare o arquivo enviado com o modelo padrão"
+msgstr "As colunas não seguem o modelo. Compare o arquivo carregado com o modelo padrão"
 
 #: erpnext/accounts/doctype/payment_terms_template/payment_terms_template.py:39
 msgid "Combined invoice portion must equal 100%"
-msgstr "A soma das parcelas da fatura deve totalizar 100%"
+msgstr "A parcela combinada da fatura deve ser igual a 100%"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:178
 msgid "Commercial"
@@ -610,7 +610,7 @@ msgstr "Taxa de comissão"
 #: erpnext/selling/report/sales_partner_transaction_summary/sales_partner_transaction_summary.py:78
 #: erpnext/selling/report/sales_person_commission_summary/sales_person_commission_summary.py:82
 msgid "Commission Rate %"
-msgstr "Taxa de comissão %"
+msgstr "% de comissão"
 
 #. Label of the commission_rate (Float) field in DocType 'POS Invoice'
 #. Label of the commission_rate (Float) field in DocType 'Sales Invoice'
@@ -1226,7 +1226,7 @@ msgstr "Descrição da empresa"
 #. 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Company Details"
-msgstr "Detalhes da empresa"
+msgstr "Dados da empresa"
 
 #. Option for the 'Preferred Contact Email' (Select) field in DocType
 #. 'Employee'
@@ -1264,7 +1264,7 @@ msgstr "Empresa e data de lançamento são obrigatórias"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2501
 msgid "Company currencies of both the companies should match for Inter Company Transactions."
-msgstr "As moedas das duas empresas devem ser iguais para transações entre empresas."
+msgstr "As moedas da empresa de ambas as empresas devem corresponder às transações da empresa."
 
 #: erpnext/stock/doctype/material_request/material_request.js:368
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:717
@@ -1277,11 +1277,11 @@ msgstr "Empresa é obrigatória"
 
 #: erpnext/accounts/doctype/bank_account/bank_account.py:72
 msgid "Company is mandatory for company account"
-msgstr "A empresa é obrigatória para conta da empresa"
+msgstr "Empresa é obrigatória para conta da empresa"
 
 #: erpnext/accounts/doctype/subscription/subscription.py:392
 msgid "Company is mandatory for generating an invoice. Please set a default company in Global Defaults."
-msgstr "A empresa é obrigatória para gerar uma fatura. Defina uma empresa padrão em Padrões Globais."
+msgstr "A empresa é obrigatória para gerar uma fatura. Defina uma empresa padrão em Padrões globais."
 
 #: erpnext/setup/doctype/company/company.js:222
 msgid "Company name not same"
@@ -1316,4 +1316,4 @@ msgstr "Empresa que o fornecedor interno representa"
 
 #: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.py:62
 msgid "Company {0} added multiple times"
-msgstr "A empresa {0} foi adicionada varias vezes"
+msgstr "Empresa {0} adicionada várias vezes"

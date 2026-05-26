@@ -6,6 +6,7 @@ msgstr ""
 "PO-Revision-Date: 2026-01-21 06:48\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,11 +17,11 @@ msgstr ""
 "X-Crowdin-Language: pt-BR\n"
 "X-Crowdin-File: /[frappe.frappe] version-16-hotfix/frappe/locale/main.pot\n"
 "X-Crowdin-File-ID: 138\n"
-"Language: pt_BR\n"
 
 #: frappe/public/js/frappe/form/layout.js:603
 msgid "Show Fieldname (click to copy on clipboard)"
-msgstr "Mostrar nome do campo (clique para copiar para a área de transferência)"
+msgstr ""
+"Mostrar nome do campo (clique para copiar para a área de transferência)"
 
 #. Label of the first_document (Check) field in DocType 'Form Tour'
 #: frappe/desk/doctype/form_tour/form_tour.json
@@ -168,7 +169,7 @@ msgstr "Mostrar tour"
 
 #: frappe/core/doctype/data_import/data_import.js:474
 msgid "Show Traceback"
-msgstr "Mostrar traceback"
+msgstr "Mostrar rastreamento da pilha"
 
 #. Label of the show_values_over_chart (Check) field in DocType 'Dashboard
 #. Chart'
@@ -339,7 +340,7 @@ msgstr "O cadastro está desativado"
 #: frappe/templates/signup.html:16 frappe/www/login.html:140
 #: frappe/www/login.html:156 frappe/www/update-password.html:71
 msgid "Sign up"
-msgstr "Cadastrar-se"
+msgstr "Cadastre-se"
 
 #. Label of the sign_ups (Select) field in DocType 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
@@ -372,20 +373,32 @@ msgstr "Os cadastros foram desativados para este site."
 #. Description of the 'Close Condition' (Code) field in DocType 'Assignment
 #. Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
-msgid "Simple Python Expression, Example: <code class=\"language-python\">status == \"Invalid\"</code>"
-msgstr "Expressão simples em Python. Exemplo: <code class=\"language-python\">status == \"Invalid\"</code>"
+msgid ""
+"Simple Python Expression, Example: <code class=\"language-python\">status == "
+"\"Invalid\"</code>"
+msgstr ""
+"Expressão simples em Python. Exemplo: <code class=\"language-python\">status "
+"== \"Invalid\"</code>"
 
 #. Description of the 'Assign Condition' (Code) field in DocType 'Assignment
 #. Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
-msgid "Simple Python Expression, Example: <code class=\"language-python\">status == 'Open' and issue_type == 'Bug'</code>"
-msgstr "Expressão simples em Python. Exemplo: <code class=\"language-python\">status == 'Open' and issue_type == 'Bug'</code>"
+msgid ""
+"Simple Python Expression, Example: <code class=\"language-python\">status == "
+"'Open' and issue_type == 'Bug'</code>"
+msgstr ""
+"Expressão simples em Python. Exemplo: <code class=\"language-python\">status "
+"== 'Open' and issue_type == 'Bug'</code>"
 
 #. Description of the 'Unassign Condition' (Code) field in DocType 'Assignment
 #. Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
-msgid "Simple Python Expression, Example: <code class=\"language-python\">status in (\"Closed\", \"Cancelled\")</code>"
-msgstr "Expressão simples em Python. Exemplo: <code class=\"language-python\">status in (\"Closed\", \"Cancelled\")</code>"
+msgid ""
+"Simple Python Expression, Example: <code class=\"language-python\">status in "
+"(\"Closed\", \"Cancelled\")</code>"
+msgstr ""
+"Expressão simples em Python. Exemplo: <code class=\"language-python\">status "
+"in (\"Closed\", \"Cancelled\")</code>"
 
 #. Label of the simultaneous_sessions (Int) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
@@ -394,17 +407,25 @@ msgstr "Sessões simultâneas"
 
 #: frappe/custom/doctype/customize_form/customize_form.py:128
 msgid "Single DocTypes cannot be customized."
-msgstr "DocTypes Single não podem ser personalizados."
+msgstr "DocTypes do tipo Single não podem ser personalizados."
 
 #. Description of the 'Is Single' (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/core/doctype/doctype/doctype_list.js:68
-msgid "Single Types have only one record no tables associated. Values are stored in tabSingles"
-msgstr "Tipos Single têm apenas um registro, sem tabelas associadas. Os valores são armazenados em tabSingles"
+msgid ""
+"Single Types have only one record no tables associated. Values are stored in "
+"tabSingles"
+msgstr ""
+"Tipos Single têm apenas um registro e não possuem tabelas associadas. Os "
+"valores são armazenados em tabSingles"
 
 #: frappe/database/database.py:285
-msgid "Site is running in read only mode for maintenance or site update, this action can not be performed right now. Please try again later."
-msgstr "O site está em modo somente leitura para manutenção ou atualização, e esta ação não pode ser executada agora. Tente novamente mais tarde."
+msgid ""
+"Site is running in read only mode for maintenance or site update, this "
+"action can not be performed right now. Please try again later."
+msgstr ""
+"O site está em modo somente leitura para manutenção ou atualização, e esta "
+"ação não pode ser executada agora. Tente novamente mais tarde."
 
 #: frappe/public/js/frappe/views/file/file_view.js:371
 msgid "Size"
@@ -417,7 +438,7 @@ msgstr "Tamanho (MB)"
 
 #: frappe/public/js/frappe/file_uploader/FileUploader.vue:629
 msgid "Size exceeds the maximum allowed file size."
-msgstr "O tamanho excede o tamanho máximo permitido para o arquivo."
+msgstr "O tamanho do arquivo excede o máximo permitido."
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:82
 #: frappe/public/js/onboarding_tours/onboarding_tours.js:18
@@ -541,8 +562,12 @@ msgstr "Menor valor fracionado de moeda"
 #. Description of the 'Smallest Currency Fraction Value' (Currency) field in
 #. DocType 'Currency'
 #: frappe/geo/doctype/currency/currency.json
-msgid "Smallest circulating fraction unit (coin). For e.g. 1 cent for USD and it should be entered as 0.01"
-msgstr "Menor unidade fracionária circulante (moeda). Por exemplo, 1 centavo para USD, e deve ser informada como 0.01"
+msgid ""
+"Smallest circulating fraction unit (coin). For e.g. 1 cent for USD and it "
+"should be entered as 0.01"
+msgstr ""
+"Menor unidade fracionária circulante (moeda). Por exemplo, 1 centavo para "
+"USD, e deve ser informada como 0.01"
 
 #: frappe/printing/doctype/letter_head/letter_head.js:32
 msgid "Snippet and more variables:  {0}"
@@ -610,25 +635,38 @@ msgid "Solid"
 msgstr "Sólido"
 
 #: frappe/printing/page/print_format_builder/print_format_builder_column_selector.html:4
-msgid "Some columns might get cut off when printing to PDF. Try to keep number of columns under 10."
-msgstr "Algumas colunas podem ser cortadas ao imprimir em PDF. Tente manter o número de colunas abaixo de 10."
+msgid ""
+"Some columns might get cut off when printing to PDF. Try to keep number of "
+"columns under 10."
+msgstr ""
+"Algumas colunas podem ser cortadas ao imprimir em PDF. Tente manter o número "
+"de colunas abaixo de 10."
 
 #. Description of the 'Sent Folder Name' (Data) field in DocType 'Email Domain'
 #: frappe/email/doctype/email_domain/email_domain.json
 msgid "Some mailboxes require a different Sent Folder Name e.g. \"INBOX.Sent\""
-msgstr "Algumas caixas de correio exigem um nome diferente para a pasta Enviados, por exemplo \"INBOX.Sent\""
+msgstr ""
+"Algumas caixas de correio exigem um nome diferente para a pasta Enviados, "
+"por exemplo \"INBOX.Sent\""
 
 #: frappe/public/js/frappe/desk.js:20
-msgid "Some of the features might not work in your browser. Please update your browser to the latest version."
-msgstr "Alguns recursos podem não funcionar no seu navegador. Atualize-o para a versão mais recente."
+msgid ""
+"Some of the features might not work in your browser. Please update your "
+"browser to the latest version."
+msgstr ""
+"Alguns recursos podem não funcionar no seu navegador. Atualize-o para a "
+"versão mais recente."
 
 #: frappe/public/js/frappe/views/translation_manager.js:101
 msgid "Something went wrong"
 msgstr "Algo deu errado"
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:133
-msgid "Something went wrong during the token generation. Click on {0} to generate a new one."
-msgstr "Algo deu errado durante a geração do token. Clique em {0} para gerar um novo."
+msgid ""
+"Something went wrong during the token generation. Click on {0} to generate a "
+"new one."
+msgstr ""
+"Algo deu errado durante a geração do token. Clique em {0} para gerar um novo."
 
 #: frappe/templates/includes/login/login.js:293
 msgid "Something went wrong."
@@ -725,8 +763,12 @@ msgid "Special Characters are not allowed"
 msgstr "Caracteres especiais não são permitidos"
 
 #: frappe/model/naming.py:68
-msgid "Special Characters except '-', '#', '.', '/', '{{' and '}}' not allowed in naming series {0}"
-msgstr "Caracteres especiais, exceto '-', '#', '.', '/', '{{' e '}}', não são permitidos na série de numeração {0}"
+msgid ""
+"Special Characters except '-', '#', '.', '/', '{{' and '}}' not allowed in "
+"naming series {0}"
+msgstr ""
+"Caracteres especiais, exceto '-', '#', '.', '/', '{{' e '}}', não são "
+"permitidos na série de numeração {0}"
 
 #. Description of the 'Timeout (In Seconds)' (Int) field in DocType 'Report'
 #: frappe/core/doctype/report/report.json
@@ -736,8 +778,15 @@ msgstr "Especifique um tempo limite personalizado; o padrão é 1500 segundos"
 #. Description of the 'Allowed embedding domains' (Small Text) field in DocType
 #. 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
-msgid "Specify the domains or origins that are permitted to embed this form. Enter one domain per line (e.g., https://example.com). If no domains are specified, the form can only be embedded on the same origin."
-msgstr "Especifique os domínios ou origens com permissão para incorporar este formulário. Informe um domínio por linha (por exemplo, https://example.com). Se nenhum domínio for informado, o formulário só poderá ser incorporado na mesma origem."
+msgid ""
+"Specify the domains or origins that are permitted to embed this form. Enter "
+"one domain per line (e.g., https://example.com). If no domains are "
+"specified, the form can only be embedded on the same origin."
+msgstr ""
+"Especifique os domínios ou origens com permissão para incorporar este "
+"formulário. Informe um domínio por linha (por exemplo, https://example.com). "
+"Se nenhum domínio for informado, o formulário só poderá ser incorporado na "
+"mesma origem."
 
 #. Label of the splash_image (Attach Image) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -783,7 +832,9 @@ msgstr "DocType padrão não pode ser excluído."
 
 #: frappe/core/doctype/doctype/doctype.py:230
 msgid "Standard DocType cannot have default print format, use Customize Form"
-msgstr "DocType padrão não pode ter formato de impressão padrão; use Personalizar formulário"
+msgstr ""
+"DocType padrão não pode ter formato de impressão padrão; use Personalizar "
+"formulário"
 
 #: frappe/desk/doctype/dashboard/dashboard.py:58
 msgid "Standard Not Set"
@@ -799,7 +850,8 @@ msgstr "O formato de impressão padrão não pode ser atualizado"
 
 #: frappe/printing/doctype/print_style/print_style.py:31
 msgid "Standard Print Style cannot be changed. Please duplicate to edit."
-msgstr "O estilo de impressão padrão não pode ser alterado. Duplique para editar."
+msgstr ""
+"O estilo de impressão padrão não pode ser alterado. Duplique para editar."
 
 #: frappe/desk/reportview.py:357
 msgid "Standard Reports cannot be deleted"

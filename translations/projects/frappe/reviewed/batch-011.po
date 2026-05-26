@@ -22,11 +22,11 @@ msgstr ""
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
 msgid "Eg. smsgateway.com/api/send_sms.cgi"
-msgstr "Ex.: smsgateway.com/api/send_sms.cgi"
+msgstr ""
 
 #: frappe/rate_limiter.py:152
 msgid "Either key or IP flag is required."
-msgstr "É necessário informar a chave ou a flag de IP."
+msgstr "É necessário informar a chave ou o sinalizador de IP."
 
 #. Label of the element_selector (Data) field in DocType 'Form Tour Step'
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json
@@ -104,7 +104,7 @@ msgstr "Conta de e-mail adicionada várias vezes"
 
 #: frappe/email/smtp.py:43
 msgid "Email Account not setup. Please create a new Email Account from Settings > Email Account"
-msgstr "Conta de e-mail não configurada. Crie uma nova em Configurações > Conta de e-mail"
+msgstr "Conta de e-mail não configurada. Crie uma nova Conta de e-mail em Configurações > Conta de e-mail"
 
 #: frappe/email/doctype/email_account/email_account.py:576
 msgid "Email Account {0} Disabled"
@@ -127,7 +127,7 @@ msgstr "Endereço de e-mail"
 #. Description of the 'Email Address' (Data) field in DocType 'Google Contacts'
 #: frappe/integrations/doctype/google_contacts/google_contacts.json
 msgid "Email Address whose Google Contacts are to be synced."
-msgstr "Endereço de e-mail cujos contatos do Google serão sincronizados."
+msgstr "Endereço de e-mail cujos Contatos do Google serão sincronizados."
 
 #: frappe/email/doctype/email_group/email_group.js:43
 msgid "Email Addresses"
@@ -141,7 +141,7 @@ msgstr "Domínio de e-mail"
 #. Name of a DocType
 #: frappe/email/doctype/email_flag_queue/email_flag_queue.json
 msgid "Email Flag Queue"
-msgstr "Fila de sinalizadores de e-mail"
+msgstr ""
 
 #. Label of the email_footer_address (Small Text) field in DocType 'System
 #. Settings'
@@ -174,23 +174,23 @@ msgstr "Cabeçalho do e-mail"
 #: frappe/core/doctype/user_email/user_email.json
 #: frappe/email/doctype/email_rule/email_rule.json
 msgid "Email ID"
-msgstr "Endereço de e-mail"
+msgstr "ID do e-mail"
 
 #. Label of the email_ids (Table) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
 msgid "Email IDs"
-msgstr "Endereços de e-mail"
+msgstr "IDs de e-mail"
 
 #. Label of the email_id (Data) field in DocType 'Contact Us Settings'
 #: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.py:48
 #: frappe/website/doctype/contact_us_settings/contact_us_settings.json
 msgid "Email Id"
-msgstr "Endereço de e-mail"
+msgstr "ID do e-mail"
 
 #. Label of the email_inbox (Section Break) field in DocType 'Communication'
 #: frappe/core/doctype/communication/communication.json
 msgid "Email Inbox"
-msgstr "Caixa de entrada de e-mail"
+msgstr "Caixa de entrada"
 
 #. Name of a DocType
 #: frappe/email/doctype/email_queue/email_queue.json
@@ -200,11 +200,11 @@ msgstr "Fila de e-mail"
 #. Name of a DocType
 #: frappe/email/doctype/email_queue_recipient/email_queue_recipient.json
 msgid "Email Queue Recipient"
-msgstr "Destinatário da fila de e-mail"
+msgstr ""
 
 #: frappe/email/queue.py:161
 msgid "Email Queue flushing aborted due to too many failures."
-msgstr "O esvaziamento da fila de e-mail foi cancelado devido a muitas falhas."
+msgstr "Limpeza da fila de e-mail interrompida devido a muitas falhas."
 
 #. Description of a DocType
 #: frappe/email/doctype/email_queue/email_queue.json
@@ -214,7 +214,7 @@ msgstr "Registros da fila de e-mail."
 #. Label of the email_reply_help (HTML) field in DocType 'Email Template'
 #: frappe/email/doctype/email_template/email_template.json
 msgid "Email Reply Help"
-msgstr "Ajuda de resposta por e-mail"
+msgstr "Ajuda da resposta por e-mail"
 
 #. Label of the email_retry_limit (Int) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -277,28 +277,28 @@ msgstr "Conversas de e-mail no documento atribuído"
 #. Label of the email_to (Small Text) field in DocType 'Auto Email Report'
 #: frappe/email/doctype/auto_email_report/auto_email_report.json
 msgid "Email To"
-msgstr "Enviar e-mail para"
+msgstr "E-mail para"
 
 #. Name of a DocType
 #: frappe/email/doctype/email_unsubscribe/email_unsubscribe.json
 msgid "Email Unsubscribe"
-msgstr "Descadastro de e-mail"
+msgstr ""
 
 #: frappe/core/doctype/communication/communication.js:342
 msgid "Email has been marked as spam"
-msgstr "O e-mail foi marcado como spam"
+msgstr "E-mail foi marcado como spam"
 
 #: frappe/core/doctype/communication/communication.js:355
 msgid "Email has been moved to trash"
-msgstr "O e-mail foi movido para a lixeira"
+msgstr "E-mail foi movido para a lixeira"
 
 #: frappe/core/doctype/user/user.js:273
 msgid "Email is mandatory to create User Email"
-msgstr "O e-mail é obrigatório para criar um e-mail de usuário"
+msgstr "O e-mail é obrigatório para criar um E-mail do usuário"
 
 #: frappe/public/js/frappe/views/communication.js:813
 msgid "Email not sent to {0} (unsubscribed / disabled)"
-msgstr "E-mail não enviado para {0} (descadastrado / desativado)"
+msgstr "E-mail não enviado para {0} (cancelado / desativado)"
 
 #: frappe/utils/oauth.py:192
 msgid "Email not verified with {0}"
@@ -369,7 +369,7 @@ msgstr "Ativar preenchimento automático de endereço"
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:123
 msgid "Enable Allow Auto Repeat for the doctype {0} in Customize Form"
-msgstr "Ative a opção Permitir repetição automática para o tipo de documento {0} em Personalizar formulário"
+msgstr "Ative a opção Permitir repetição automática para o DocType {0} em Personalizar formulário"
 
 #. Label of the enable_auto_reply (Check) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
@@ -409,7 +409,7 @@ msgstr "Ative a API do Google em Configurações do Google."
 #. Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Enable Google indexing"
-msgstr "Ativar indexação no Google"
+msgstr "Ativar indexação do Google"
 
 #. Label of the enable_incoming (Check) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
@@ -420,7 +420,7 @@ msgstr "Ativar recebimento"
 #. Label of the enable_onboarding (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Enable Onboarding"
-msgstr "Ativar onboarding"
+msgstr "Ativar Onboarding"
 
 #. Label of the enable_outgoing (Check) field in DocType 'User Email'
 #. Label of the enable_outgoing (Check) field in DocType 'Email Account'
@@ -456,7 +456,7 @@ msgstr "Ativar retransmissão de notificações push"
 #. Label of the enable_rate_limit (Check) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
 msgid "Enable Rate Limit"
-msgstr "Ativar limite de requisições"
+msgstr "Ativar limite de taxa"
 
 #. Label of the enable_raw_printing (Check) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -510,13 +510,13 @@ msgstr "Ative o modo de desenvolvedor para criar um modelo web padrão"
 msgid "Enable if on click\n"
 "opens modal."
 msgstr "Ative se ao clicar\n"
-"abrir um modal."
+"abre modal."
 
 #. Label of the enable_view_tracking (Check) field in DocType 'Website
 #. Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Enable in-app website tracking"
-msgstr "Ativar rastreamento do site no app"
+msgstr "Ativar rastreamento do site no aplicativo"
 
 #. Label of the enabled (Check) field in DocType 'Language'
 #. Label of the enabled (Check) field in DocType 'User'
@@ -564,14 +564,14 @@ msgstr "Ativa as visualizações Calendário e Gantt."
 
 #: frappe/email/doctype/email_account/email_account.js:295
 msgid "Enabling auto reply on an incoming email account will send automated replies to all the synchronized emails. Do you wish to continue?"
-msgstr "Ativar a resposta automática em uma conta de e-mail de entrada enviará respostas automáticas para todos os e-mails sincronizados. Deseja continuar?"
+msgstr ""
 
 #. Description of a DocType
 #. Description of the 'Relay Settings' (Section Break) field in DocType 'Push
 #. Notification Settings'
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.json
 msgid "Enabling this will register your site on a central relay server to send push notifications for all installed apps through Firebase Cloud Messaging. This server only stores user tokens and error logs, and no messages are saved."
-msgstr "Ao ativar isso, seu site será registrado em um servidor central de retransmissão para enviar notificações push de todos os apps instalados por meio do Firebase Cloud Messaging. Esse servidor armazena apenas tokens de usuário e logs de erro, e nenhuma mensagem é salva."
+msgstr ""
 
 #. Description of the 'Queue in Background (BETA)' (Check) field in DocType
 #. 'DocType'
@@ -580,7 +580,7 @@ msgstr "Ao ativar isso, seu site será registrado em um servidor central de retr
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Enabling this will submit documents in background"
-msgstr "Ao ativar isso, os documentos serão enviados em segundo plano"
+msgstr ""
 
 #. Label of the encrypt_backup (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
@@ -589,11 +589,11 @@ msgstr "Criptografar backups"
 
 #: frappe/utils/password.py:196
 msgid "Encryption key is in invalid format!"
-msgstr "A chave de criptografia está em formato inválido!"
+msgstr "A chave de criptografia está em um formato inválido!"
 
 #: frappe/utils/password.py:211
 msgid "Encryption key is invalid! Please check site_config.json"
-msgstr "A chave de criptografia é inválida! Verifique `site_config.json`"
+msgstr "A chave de criptografia é inválida! Verifique o site_config.json"
 
 #: frappe/core/report/prepared_report_analytics/prepared_report_analytics.py:51
 msgid "End"
@@ -657,64 +657,64 @@ msgstr "Criação de índices enfileirada"
 
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:108
 msgid "Ensure the user and group search paths are correct."
-msgstr "Verifique se os caminhos de busca de usuário e grupo estão corretos."
+msgstr "Verifique se os caminhos de pesquisa de usuários e grupos estão corretos."
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:109
 msgid "Enter Client Id and Client Secret in Google Settings."
-msgstr "Informe o ID e o segredo do cliente em Configurações do Google."
+msgstr "Informe o ID do cliente e o segredo do cliente em Configurações do Google."
 
 #: frappe/templates/includes/login/login.js:351
 msgid "Enter Code displayed in OTP App."
-msgstr "Digite o código exibido no app OTP."
+msgstr "Informe o código exibido no aplicativo OTP."
 
 #: frappe/public/js/frappe/views/communication.js:768
 msgid "Enter Email Recipient(s) in the To, CC, or BCC fields"
-msgstr "Informe os destinatários de e-mail nos campos Para, CC ou CCO"
+msgstr "Informe os destinatários do e-mail nos campos Para, CC ou CCO"
 
 #. Label of the doc_type (Link) field in DocType 'Customize Form'
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Enter Form Type"
-msgstr "Digite o tipo de formulário"
+msgstr "Informe o tipo de formulário"
 
 #: frappe/public/js/frappe/ui/messages.js:94
 msgctxt "Title of prompt dialog"
 msgid "Enter Value"
-msgstr "Digite o valor"
+msgstr "Informe o valor"
 
 #: frappe/public/js/frappe/form/form_tour.js:60
 msgid "Enter a name for this {0}"
-msgstr "Digite um nome para {0}"
+msgstr "Informe um nome para este {0}"
 
 #. Description of the 'User Defaults' (Table) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Enter default value fields (keys) and values. If you add multiple values for a field, the first one will be picked. These defaults are also used to set \"match\" permission rules. To see list of fields, go to \"Customize Form\"."
-msgstr "Informe os campos de valor padrão (chaves) e os valores. Se você adicionar vários valores para um campo, o primeiro será usado. Esses padrões também são usados para definir regras de permissão de \"correspondência\". Para ver a lista de campos, vá em \"Personalizar formulário\"."
+msgstr ""
 
 #: frappe/public/js/frappe/views/file/file_view.js:111
 msgid "Enter folder name"
-msgstr "Digite o nome da pasta"
+msgstr "Informe o nome da pasta"
 
 #. Description of the 'Static Parameters' (Table) field in DocType 'SMS
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
 msgid "Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)"
-msgstr "Informe aqui os parâmetros estáticos da URL (Ex.: sender=ERPNext, username=ERPNext, password=1234 etc.)"
+msgstr ""
 
 #. Description of the 'Message Parameter' (Data) field in DocType 'SMS
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
 msgid "Enter url parameter for message"
-msgstr "Informe o parâmetro de URL para a mensagem"
+msgstr ""
 
 #. Description of the 'Receiver Parameter' (Data) field in DocType 'SMS
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
 msgid "Enter url parameter for receiver nos"
-msgstr "Informe o parâmetro de URL para os números dos destinatários"
+msgstr ""
 
 #: frappe/public/js/frappe/ui/messages.js:341
 msgid "Enter your password"
-msgstr "Digite sua senha"
+msgstr "Informe sua senha"
 
 #: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.js:22
 msgid "Entity Name"
@@ -780,7 +780,7 @@ msgstr "Mensagem de erro"
 
 #: frappe/public/js/frappe/form/print_utils.js:156
 msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
-msgstr "Erro ao conectar ao aplicativo QZ Tray...<br><br> Você precisa ter o aplicativo QZ Tray instalado e em execução para usar o recurso de impressão bruta.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Clique aqui para baixar e instalar o QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">Clique aqui para saber mais sobre impressão bruta</a>."
+msgstr ""
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 msgid "Error connecting via IMAP/POP3: {e}"
@@ -826,11 +826,11 @@ msgstr "Erro ao processar filtros aninhados: {0}. {1}"
 
 #: frappe/desk/search.py:248
 msgid "Error validating \"Ignore User Permissions\""
-msgstr "Erro ao validar \"Ignorar permissões do usuário\""
+msgstr "Erro ao validar \"Ignorar permissões de usuário\""
 
 #: frappe/email/doctype/email_account/email_account.py:670
 msgid "Error while connecting to email account {0}"
-msgstr "Erro ao conectar a conta de e-mail {0}"
+msgstr "Erro ao conectar à conta de e-mail {0}"
 
 #: frappe/email/doctype/notification/notification.py:813
 msgid "Error while evaluating Notification {0}. Please fix your template."
@@ -850,7 +850,7 @@ msgstr "Erro: valor ausente para {0}: {1}"
 
 #: frappe/model/base_document.py:908
 msgid "Error: {0} Row #{1}: Value missing for: {2}"
-msgstr "Erro: {0} Linha #{1}: valor ausente para: {2}"
+msgstr "Erro: {0} Linha nº {1}: valor ausente para: {2}"
 
 #. Label of the errors_generated_in_last_1_day_section (Section Break) field in
 #. DocType 'System Health Report'

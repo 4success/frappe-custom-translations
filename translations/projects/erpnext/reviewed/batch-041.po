@@ -23,7 +23,7 @@ msgstr ""
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Rate at which Customer Currency is converted to customer's base currency"
-msgstr "Taxa em que a moeda do cliente é convertida para a moeda base do cliente"
+msgstr "Taxa de conversão da moeda do cliente para a moeda base do cliente"
 
 #. Description of the 'Price List Exchange Rate' (Float) field in DocType
 #. 'Quotation'
@@ -35,7 +35,7 @@ msgstr "Taxa em que a moeda do cliente é convertida para a moeda base do client
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Rate at which Price list currency is converted to company's base currency"
-msgstr "Taxa em que a moeda da lista de preços é convertida para a moeda base da empresa"
+msgstr "Taxa de conversão da moeda da lista de preços para a moeda base da empresa"
 
 #. Description of the 'Price List Exchange Rate' (Float) field in DocType 'POS
 #. Invoice'
@@ -44,7 +44,7 @@ msgstr "Taxa em que a moeda da lista de preços é convertida para a moeda base 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Rate at which Price list currency is converted to customer's base currency"
-msgstr "Taxa em que a moeda da lista de preços é convertida para a moeda base do cliente"
+msgstr "Taxa de conversão da moeda da lista de preços para a moeda base do cliente"
 
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Quotation'
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Sales Order'
@@ -53,18 +53,18 @@ msgstr "Taxa em que a moeda da lista de preços é convertida para a moeda base 
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Rate at which customer's currency is converted to company's base currency"
-msgstr "Taxa em que a moeda do cliente é convertida para a moeda base da empresa"
+msgstr "Taxa de conversão da moeda do cliente para a moeda base da empresa"
 
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Purchase
 #. Receipt'
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Rate at which supplier's currency is converted to company's base currency"
-msgstr "Taxa em que a moeda do fornecedor é convertida para a moeda base da empresa"
+msgstr "Taxa de conversão da moeda do fornecedor para a moeda base da empresa"
 
 #. Description of the 'Tax Rate' (Float) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
 msgid "Rate at which this tax is applied"
-msgstr "Alíquota aplicada a este imposto"
+msgstr "Taxa aplicada a este imposto"
 
 #: erpnext/controllers/accounts_controller.py:4041
 msgid "Rate of '{}' items cannot be changed"
@@ -74,20 +74,20 @@ msgstr "O preço dos itens '{}' não pode ser alterado"
 #. Depreciation Schedule'
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
 msgid "Rate of Depreciation"
-msgstr "Taxa de Depreciação"
+msgstr "Taxa de depreciação"
 
 #. Label of the rate_of_depreciation (Percent) field in DocType 'Asset Finance
 #. Book'
 #: erpnext/assets/doctype/asset_finance_book/asset_finance_book.json
 msgid "Rate of Depreciation (%)"
-msgstr "Taxa de Depreciação (%)"
+msgstr "Taxa de depreciação (%)"
 
 #. Label of the rate_of_interest (Float) field in DocType 'Dunning'
 #. Label of the rate_of_interest (Float) field in DocType 'Dunning Type'
 #: erpnext/accounts/doctype/dunning/dunning.json
 #: erpnext/accounts/doctype/dunning_type/dunning_type.json
 msgid "Rate of Interest (%) Yearly"
-msgstr "Taxa de Juros (%) ao Ano"
+msgstr "Taxa de juros anual (%)"
 
 #. Label of the stock_uom_rate (Currency) field in DocType 'Purchase Invoice
 #. Item'
@@ -107,18 +107,18 @@ msgstr "Taxa de Juros (%) ao Ano"
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Rate of Stock UOM"
-msgstr "Preço na UM de Estoque"
+msgstr "Preço na UOM de estoque"
 
 #. Label of the rate_or_discount (Select) field in DocType 'Pricing Rule'
 #. Label of the rate_or_discount (Data) field in DocType 'Pricing Rule Detail'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/pricing_rule_detail/pricing_rule_detail.json
 msgid "Rate or Discount"
-msgstr "Preço ou Desconto"
+msgstr "Preço ou desconto"
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:184
 msgid "Rate or Discount is required for the price discount."
-msgstr "Preço ou desconto é obrigatório para o desconto no preço."
+msgstr "É obrigatório informar preço ou desconto para o desconto no preço."
 
 #. Label of the rates (Table) field in DocType 'Tax Withholding Category'
 #. Label of the rates_section (Section Break) field in DocType 'Stock Entry
@@ -144,17 +144,17 @@ msgstr "Matéria-prima"
 
 #: erpnext/manufacturing/report/production_planning_report/production_planning_report.py:407
 msgid "Raw Material Code"
-msgstr "Código da Matéria-prima"
+msgstr "Código da matéria-prima"
 
 #. Label of the raw_material_cost (Currency) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Raw Material Cost"
-msgstr "Custo da Matéria-prima"
+msgstr "Custo da matéria-prima"
 
 #. Label of the base_raw_material_cost (Currency) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Raw Material Cost (Company Currency)"
-msgstr "Custo da Matéria-prima (Moeda da Empresa)"
+msgstr "Custo da matéria-prima (moeda da empresa)"
 
 #. Label of the rm_cost_per_qty (Currency) field in DocType 'Subcontracting
 #. Order Item'
@@ -163,11 +163,11 @@ msgstr "Custo da Matéria-prima (Moeda da Empresa)"
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Raw Material Cost Per Qty"
-msgstr "Custo da Matéria-prima por Qtd."
+msgstr "Custo da matéria-prima por qtd."
 
 #: erpnext/manufacturing/report/work_order_consumed_materials/work_order_consumed_materials.py:132
 msgid "Raw Material Item"
-msgstr "Item de Matéria-prima"
+msgstr "Item de matéria-prima"
 
 #. Label of the rm_item_code (Link) field in DocType 'Purchase Order Item
 #. Supplied'
@@ -185,27 +185,27 @@ msgstr "Item de Matéria-prima"
 #: erpnext/subcontracting/doctype/subcontracting_order_supplied_item/subcontracting_order_supplied_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
 msgid "Raw Material Item Code"
-msgstr "Código do Item de Matéria-prima"
+msgstr "Código do item de matéria-prima"
 
 #: erpnext/manufacturing/report/production_planning_report/production_planning_report.py:414
 msgid "Raw Material Name"
-msgstr "Nome da Matéria-prima"
+msgstr "Nome da matéria-prima"
 
 #: erpnext/manufacturing/report/process_loss_report/process_loss_report.py:112
 msgid "Raw Material Value"
-msgstr "Valor da Matéria-prima"
+msgstr "Valor da matéria-prima"
 
 #: erpnext/stock/report/landed_cost_report/landed_cost_report.js:36
 msgid "Raw Material Voucher No"
-msgstr "Nº do Documento de Matéria-prima"
+msgstr ""
 
 #: erpnext/stock/report/landed_cost_report/landed_cost_report.js:30
 msgid "Raw Material Voucher Type"
-msgstr "Tipo de Documento de Matéria-prima"
+msgstr ""
 
 #: erpnext/manufacturing/report/production_planning_report/production_planning_report.js:65
 msgid "Raw Material Warehouse"
-msgstr "Armazém de Matéria-prima"
+msgstr "Armazém de matéria-prima"
 
 #. Label of the materials_section (Section Break) field in DocType 'BOM'
 #. Label of the section_break_8 (Section Break) field in DocType 'Job Card'
@@ -289,7 +289,7 @@ msgstr "SQL bruto"
 #. DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "Raw materials consumed qty will be validated based on FG BOM required qty"
-msgstr "A qtd. consumida de matérias-primas será validada com base na qtd. requerida da BOM do produto acabado"
+msgstr ""
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:411
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:124
@@ -314,68 +314,68 @@ msgstr "Qtd. de reposição"
 
 #: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.py:227
 msgid "Reached Root"
-msgstr "Raiz alcançada"
+msgstr ""
 
 #. Label of the reading_1 (Data) field in DocType 'Quality Inspection Reading'
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Reading 1"
-msgstr "Leitura 1"
+msgstr ""
 
 #. Label of the reading_10 (Data) field in DocType 'Quality Inspection Reading'
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Reading 10"
-msgstr "Leitura 10"
+msgstr ""
 
 #. Label of the reading_2 (Data) field in DocType 'Quality Inspection Reading'
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Reading 2"
-msgstr "Leitura 2"
+msgstr ""
 
 #. Label of the reading_3 (Data) field in DocType 'Quality Inspection Reading'
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Reading 3"
-msgstr "Leitura 3"
+msgstr ""
 
 #. Label of the reading_4 (Data) field in DocType 'Quality Inspection Reading'
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Reading 4"
-msgstr "Leitura 4"
+msgstr ""
 
 #. Label of the reading_5 (Data) field in DocType 'Quality Inspection Reading'
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Reading 5"
-msgstr "Leitura 5"
+msgstr ""
 
 #. Label of the reading_6 (Data) field in DocType 'Quality Inspection Reading'
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Reading 6"
-msgstr "Leitura 6"
+msgstr ""
 
 #. Label of the reading_7 (Data) field in DocType 'Quality Inspection Reading'
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Reading 7"
-msgstr "Leitura 7"
+msgstr ""
 
 #. Label of the reading_8 (Data) field in DocType 'Quality Inspection Reading'
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Reading 8"
-msgstr "Leitura 8"
+msgstr ""
 
 #. Label of the reading_9 (Data) field in DocType 'Quality Inspection Reading'
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Reading 9"
-msgstr "Leitura 9"
+msgstr ""
 
 #. Label of the reading_value (Data) field in DocType 'Quality Inspection
 #. Reading'
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Reading Value"
-msgstr "Valor da Leitura"
+msgstr ""
 
 #. Label of the readings (Table) field in DocType 'Quality Inspection'
 #: erpnext/stock/doctype/quality_inspection/quality_inspection.json
 msgid "Readings"
-msgstr "Leituras"
+msgstr ""
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:40
 msgid "Real Estate"
@@ -390,12 +390,12 @@ msgstr "Motivo para colocar em espera"
 #. Label of the failed_reason (Data) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Reason for Failure"
-msgstr "Motivo da Falha"
+msgstr "Motivo da falha"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:742
 #: erpnext/selling/doctype/sales_order/sales_order.js:1752
 msgid "Reason for Hold"
-msgstr "Motivo da suspensão"
+msgstr "Motivo da retenção"
 
 #. Label of the reason_for_leaving (Small Text) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -404,24 +404,24 @@ msgstr "Motivo da saída"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1767
 msgid "Reason for hold:"
-msgstr "Motivo da suspensão:"
+msgstr "Motivo da retenção:"
 
 #: erpnext/accounts/doctype/bisect_accounting_statements/bisect_accounting_statements.js:93
 msgid "Rebuilding BTree for period ..."
-msgstr "Recriando BTree para o período ..."
+msgstr ""
 
 #: erpnext/stock/doctype/batch/batch.js:26
 msgid "Recalculate Batch Qty"
-msgstr "Recalcular Qtd. do Lote"
+msgstr ""
 
 #: erpnext/stock/doctype/bin/bin.js:10
 msgid "Recalculate Bin Qty"
-msgstr "Recalcular Qtd. do Bin"
+msgstr ""
 
 #. Label of the recalculate_rate (Check) field in DocType 'Stock Ledger Entry'
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
 msgid "Recalculate Incoming/Outgoing Rate"
-msgstr "Recalcular Preço de Entrada/Saída"
+msgstr ""
 
 #. Option for the 'Status' (Select) field in DocType 'Asset'
 #. Option for the 'Purpose' (Select) field in DocType 'Asset Movement'
@@ -440,7 +440,7 @@ msgstr "Recebimento"
 #: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
 #: erpnext/stock/doctype/landed_cost_purchase_receipt/landed_cost_purchase_receipt.json
 msgid "Receipt Document"
-msgstr "Documento de Recebimento"
+msgstr "Documento de recebimento"
 
 #. Label of the receipt_document_type (Select) field in DocType 'Landed Cost
 #. Item'
@@ -449,12 +449,12 @@ msgstr "Documento de Recebimento"
 #: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
 #: erpnext/stock/doctype/landed_cost_purchase_receipt/landed_cost_purchase_receipt.json
 msgid "Receipt Document Type"
-msgstr "Tipo de Documento de Recebimento"
+msgstr "Tipo de documento de recebimento"
 
 #. Label of the items (Table) field in DocType 'Landed Cost Voucher'
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.json
 msgid "Receipt Items"
-msgstr "Itens de Recebimento"
+msgstr "Itens do recebimento"
 
 #. Option for the 'Account Type' (Select) field in DocType 'Account'
 #. Option for the 'Account Type' (Select) field in DocType 'Payment Ledger
@@ -471,7 +471,7 @@ msgstr "A Receber"
 #. Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 msgid "Receivable / Payable Account"
-msgstr "Conta a Receber / a Pagar"
+msgstr "Conta a receber / a pagar"
 
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:68
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.py:1158
@@ -479,7 +479,7 @@ msgstr "Conta a Receber / a Pagar"
 #: erpnext/accounts/report/sales_register/sales_register.py:217
 #: erpnext/accounts/report/sales_register/sales_register.py:271
 msgid "Receivable Account"
-msgstr "Conta a Receber"
+msgstr "Conta a receber"
 
 #. Label of the receivable_payable_account (Link) field in DocType 'Process
 #. Payment Reconciliation'
@@ -489,14 +489,14 @@ msgstr "Conta a receber/a pagar"
 
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.py:48
 msgid "Receivable/Payable Account: {0} doesn't belong to company {1}"
-msgstr "A conta a receber/a pagar: {0} não pertence à empresa {1}"
+msgstr ""
 
 #. Name of a Workspace
 #. Label of the invoiced_amount (Check) field in DocType 'Email Digest'
 #: erpnext/accounts/workspace/receivables/receivables.json
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Receivables"
-msgstr "Contas a Receber"
+msgstr "Contas a receber"
 
 #. Option for the 'Payment Type' (Select) field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
@@ -511,30 +511,30 @@ msgstr "Receber"
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
 msgid "Receive from Customer"
-msgstr "Receber do Cliente"
+msgstr "Receber do cliente"
 
 #. Label of the received_amount (Currency) field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Received Amount"
-msgstr "Valor Recebido"
+msgstr "Valor recebido"
 
 #. Label of the base_received_amount (Currency) field in DocType 'Payment
 #. Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Received Amount (Company Currency)"
-msgstr "Valor Recebido (Moeda da Empresa)"
+msgstr "Valor recebido (moeda da empresa)"
 
 #. Label of the received_amount_after_tax (Currency) field in DocType 'Payment
 #. Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Received Amount After Tax"
-msgstr "Valor Recebido após Impostos"
+msgstr "Valor recebido após imposto"
 
 #. Label of the base_received_amount_after_tax (Currency) field in DocType
 #. 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Received Amount After Tax (Company Currency)"
-msgstr "Valor Recebido após Impostos (Moeda da Empresa)"
+msgstr "Valor recebido após imposto (moeda da empresa)"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1046
 msgid "Received Amount cannot be greater than Paid Amount"
@@ -549,7 +549,7 @@ msgstr "Recebido de"
 #: erpnext/accounts/report/received_items_to_be_billed/received_items_to_be_billed.json
 #: erpnext/accounts/workspace/payables/payables.json
 msgid "Received Items To Be Billed"
-msgstr "Itens Recebidos a Faturar"
+msgstr "Itens recebidos a faturar"
 
 #: erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html:8
 msgid "Received On"
@@ -578,17 +578,17 @@ msgstr "Recebido em"
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
 msgid "Received Qty"
-msgstr "Qtd. Recebida"
+msgstr "Qtd. recebida"
 
 #: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:299
 msgid "Received Qty Amount"
-msgstr "Valor da Qtd. Recebida"
+msgstr "Valor da qtd. recebida"
 
 #. Label of the received_stock_qty (Float) field in DocType 'Purchase Receipt
 #. Item'
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Received Qty in Stock UOM"
-msgstr "Qtd. Recebida na UM de Estoque"
+msgstr "Qtd. recebida na UOM de estoque"
 
 #. Label of the received_qty (Float) field in DocType 'Purchase Receipt Item'
 #. Label of the received_qty (Float) field in DocType 'Subcontracting Receipt
@@ -612,7 +612,7 @@ msgstr "Entradas de Estoque Recebidas"
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Received and Accepted"
-msgstr "Recebido e Aceito"
+msgstr "Recebido e aceito"
 
 #. Label of the receiver_list (Code) field in DocType 'SMS Center'
 #: erpnext/selling/doctype/sms_center/sms_center.json
@@ -633,11 +633,11 @@ msgstr "Recebimento"
 #: erpnext/selling/page/point_of_sale/pos_controller.js:297
 #: erpnext/selling/page/point_of_sale/pos_past_order_list.js:17
 msgid "Recent Orders"
-msgstr "Pedidos Recentes"
+msgstr "Pedidos recentes"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:891
 msgid "Recent Transactions"
-msgstr "Transações Recentes"
+msgstr "Transações recentes"
 
 #. Label of the recipient_and_message (Section Break) field in DocType 'Payment
 #. Request'
@@ -657,13 +657,13 @@ msgstr "Conciliar"
 #. Reconciliation Item'
 #: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
 msgid "Reconcile All Serial Nos / Batches"
-msgstr "Conciliar todos os números de série / lotes"
+msgstr ""
 
 #. Label of the reconcile_effect_on (Date) field in DocType 'Payment Entry
 #. Reference'
 #: erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.json
 msgid "Reconcile Effect On"
-msgstr "Conciliar com Efeito em"
+msgstr ""
 
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.js:363
 msgid "Reconcile Entries"
@@ -676,11 +676,11 @@ msgstr "Reconciliar Entradas"
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 #: erpnext/setup/doctype/company/company.json
 msgid "Reconcile on Advance Payment Date"
-msgstr "Conciliar na Data do Pagamento Antecipado"
+msgstr ""
 
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:221
 msgid "Reconcile the Bank Transaction"
-msgstr "Conciliar a transação bancária"
+msgstr ""
 
 #. Option for the 'Status' (Select) field in DocType 'Bank Transaction'
 #. Label of the reconciled (Check) field in DocType 'Process Payment
@@ -700,7 +700,7 @@ msgstr "Reconciliado"
 #. Reconciliation Log'
 #: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.json
 msgid "Reconciled Entries"
-msgstr "Lançamentos Conciliados"
+msgstr ""
 
 #. Option for the 'Posting Date Inheritance for Exchange Gain / Loss' (Select)
 #. field in DocType 'Accounts Settings'
@@ -709,58 +709,58 @@ msgstr "Lançamentos Conciliados"
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 #: erpnext/setup/doctype/company/company.json
 msgid "Reconciliation Date"
-msgstr "Data da Conciliação"
+msgstr ""
 
 #. Label of the error_log (Long Text) field in DocType 'Process Payment
 #. Reconciliation Log'
 #: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.json
 msgid "Reconciliation Error Log"
-msgstr "Log de Erros da Conciliação"
+msgstr ""
 
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation_dashboard.py:9
 msgid "Reconciliation Logs"
-msgstr "Logs de Conciliação"
+msgstr ""
 
 #: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.js:13
 msgid "Reconciliation Progress"
-msgstr "Progresso da Conciliação"
+msgstr ""
 
 #. Label of the reconciliation_queue_size (Int) field in DocType 'Accounts
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Reconciliation Queue Size"
-msgstr "Tamanho da Fila de Conciliação"
+msgstr ""
 
 #. Label of the reconciliation_takes_effect_on (Select) field in DocType
 #. 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Reconciliation Takes Effect On"
-msgstr "Conciliação tem efeito em"
+msgstr ""
 
 #. Label of the recording_html (HTML) field in DocType 'Call Log'
 #: erpnext/telephony/doctype/call_log/call_log.json
 msgid "Recording HTML"
-msgstr "HTML da Gravação"
+msgstr ""
 
 #. Label of the recording_url (Data) field in DocType 'Call Log'
 #: erpnext/telephony/doctype/call_log/call_log.json
 msgid "Recording URL"
-msgstr "URL da Gravação"
+msgstr ""
 
 #. Group in Quality Feedback Template's connections
 #: erpnext/quality_management/doctype/quality_feedback_template/quality_feedback_template.json
 msgid "Records"
-msgstr "Registros"
+msgstr ""
 
 #: erpnext/regional/united_arab_emirates/utils.py:193
 msgid "Recoverable Standard Rated expenses should not be set when Reverse Charge Applicable is Y"
-msgstr "Despesas tributadas com alíquota padrão recuperáveis não devem ser definidas quando 'Reverse Charge Applicable' for Y"
+msgstr ""
 
 #. Label of the recreate_stock_ledgers (Check) field in DocType 'Repost Item
 #. Valuation'
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 msgid "Recreate Stock Ledgers"
-msgstr "Recriar razões de estoque"
+msgstr ""
 
 #. Label of the recurse_for (Float) field in DocType 'Pricing Rule'
 #. Label of the recurse_for (Float) field in DocType 'Promotional Scheme
@@ -768,21 +768,21 @@ msgstr "Recriar razões de estoque"
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
 msgid "Recurse Every (As Per Transaction UOM)"
-msgstr "Repetir a Cada (Conforme UM da Transação)"
+msgstr ""
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:240
 msgid "Recurse Over Qty cannot be less than 0"
-msgstr "A qtd. de repetição não pode ser menor que 0"
+msgstr ""
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:316
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.py:231
 msgid "Recursive Discounts with Mixed condition is not supported by the system"
-msgstr "Descontos recursivos com condição mista não são suportados pelo sistema"
+msgstr ""
 
 #. Label of the redeem_against (Link) field in DocType 'Loyalty Point Entry'
 #: erpnext/accounts/doctype/loyalty_point_entry/loyalty_point_entry.json
 msgid "Redeem Against"
-msgstr "Resgatar em"
+msgstr ""
 
 #. Label of the redeem_loyalty_points (Check) field in DocType 'POS Invoice'
 #. Label of the redeem_loyalty_points (Check) field in DocType 'Sales Invoice'
@@ -796,12 +796,12 @@ msgstr "Resgatar Pontos de Fidelidade"
 #. Redemption'
 #: erpnext/accounts/doctype/loyalty_point_entry_redemption/loyalty_point_entry_redemption.json
 msgid "Redeemed Points"
-msgstr "Pontos Resgatados"
+msgstr ""
 
 #. Label of the redemption (Section Break) field in DocType 'Loyalty Program'
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
 msgid "Redemption"
-msgstr "Resgate"
+msgstr ""
 
 #. Label of the loyalty_redemption_account (Link) field in DocType 'POS
 #. Invoice'
@@ -810,7 +810,7 @@ msgstr "Resgate"
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Redemption Account"
-msgstr "Conta de Resgate"
+msgstr ""
 
 #. Label of the loyalty_redemption_cost_center (Link) field in DocType 'POS
 #. Invoice'
@@ -819,51 +819,51 @@ msgstr "Conta de Resgate"
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Redemption Cost Center"
-msgstr "Centro de Custo do Resgate"
+msgstr ""
 
 #. Label of the redemption_date (Date) field in DocType 'Loyalty Point Entry
 #. Redemption'
 #: erpnext/accounts/doctype/loyalty_point_entry_redemption/loyalty_point_entry_redemption.json
 msgid "Redemption Date"
-msgstr "Data do Resgate"
+msgstr ""
 
 #. Label of the ref_code (Data) field in DocType 'Item Customer Detail'
 #: erpnext/stock/doctype/item_customer_detail/item_customer_detail.json
 msgid "Ref Code"
-msgstr "Cod. de Referência"
+msgstr ""
 
 #: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.py:97
 msgid "Ref Date"
-msgstr "Data de Referência"
+msgstr ""
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1003
 msgid "Reference #{0} dated {1}"
-msgstr "Referência nº {0} de {1}"
+msgstr "Referência #{0} datada de {1}"
 
 #: erpnext/public/js/controllers/transaction.js:2744
 msgid "Reference Date for Early Payment Discount"
-msgstr "Data de Referência para Desconto por Pagamento Antecipado"
+msgstr ""
 
 #. Label of the reference_detail (Data) field in DocType 'Advance Tax'
 #: erpnext/accounts/doctype/advance_tax/advance_tax.json
 msgid "Reference Detail"
-msgstr "Detalhe da Referência"
+msgstr ""
 
 #. Label of the reference_detail_no (Data) field in DocType 'Journal Entry
 #. Account'
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 msgid "Reference Detail No"
-msgstr "Nº do Detalhe da Referência"
+msgstr ""
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:653
 msgid "Reference Doctype must be one of {0}"
-msgstr "O DocType de referência deve ser um destes: {0}"
+msgstr ""
 
 #. Label of the reference_due_date (Date) field in DocType 'Journal Entry
 #. Account'
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 msgid "Reference Due Date"
-msgstr "Data de Vencimento da Referência"
+msgstr ""
 
 #. Label of the ref_exchange_rate (Float) field in DocType 'Purchase Invoice
 #. Advance'
@@ -872,28 +872,28 @@ msgstr "Data de Vencimento da Referência"
 #: erpnext/accounts/doctype/purchase_invoice_advance/purchase_invoice_advance.json
 #: erpnext/accounts/doctype/sales_invoice_advance/sales_invoice_advance.json
 msgid "Reference Exchange Rate"
-msgstr "Taxa de Câmbio de Referência"
+msgstr ""
 
 #. Label of the reference_no (Data) field in DocType 'Sales Invoice Payment'
 #: erpnext/accounts/doctype/sales_invoice_payment/sales_invoice_payment.json
 msgid "Reference No"
-msgstr "Nº de Referência"
+msgstr ""
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:617
 msgid "Reference No & Reference Date is required for {0}"
-msgstr "Nº de referência e data de referência são obrigatórios para {0}"
+msgstr "O número de referência e a data de referência são obrigatórios para {0}"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1291
 msgid "Reference No and Reference Date is mandatory for Bank transaction"
-msgstr "Nº de referência e data de referência são obrigatórios para transação bancária"
+msgstr ""
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:622
 msgid "Reference No is mandatory if you entered Reference Date"
-msgstr "O nº de referência é obrigatório se você informar a data de referência"
+msgstr "O número de referência é obrigatório se você informar a data de referência"
 
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:280
 msgid "Reference No."
-msgstr "Nº de Referência"
+msgstr "Nº de referência."
 
 #. Label of the reference_number (Small Text) field in DocType 'Bank
 #. Transaction'
@@ -909,7 +909,7 @@ msgstr "Número de Referência"
 #. Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Reference Purchase Receipt"
-msgstr "Recebimento de compra de referência"
+msgstr ""
 
 #. Label of the reference_row (Data) field in DocType 'Payment Reconciliation
 #. Allocation'
@@ -926,7 +926,7 @@ msgstr "Recebimento de compra de referência"
 #: erpnext/accounts/doctype/purchase_invoice_advance/purchase_invoice_advance.json
 #: erpnext/accounts/doctype/sales_invoice_advance/sales_invoice_advance.json
 msgid "Reference Row"
-msgstr "Linha de Referência"
+msgstr ""
 
 #. Label of the row_id (Data) field in DocType 'Advance Taxes and Charges'
 #. Label of the row_id (Data) field in DocType 'Purchase Taxes and Charges'
@@ -935,19 +935,19 @@ msgstr "Linha de Referência"
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
 #: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
 msgid "Reference Row #"
-msgstr "Nº da Linha de Referência"
+msgstr ""
 
 #. Label of the reference_for_reservation (Data) field in DocType 'Serial and
 #. Batch Entry'
 #: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
 msgid "Reference for Reservation"
-msgstr "Referência da Reserva"
+msgstr ""
 
 #. Description of the 'Invoice Number' (Data) field in DocType 'Opening Invoice
 #. Creation Tool Item'
 #: erpnext/accounts/doctype/opening_invoice_creation_tool_item/opening_invoice_creation_tool_item.json
 msgid "Reference number of the invoice from the previous system"
-msgstr "Número de referência da fatura do sistema anterior"
+msgstr ""
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:142
 msgid "Reference: {0}, Item Code: {1} and Customer: {2}"
@@ -981,8 +981,8 @@ msgstr "Referências"
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.py:391
 msgid "References to Sales Invoices are Incomplete"
-msgstr "As referências às faturas de venda estão incompletas"
+msgstr ""
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.py:386
 msgid "References to Sales Orders are Incomplete"
-msgstr "As referências aos pedidos de venda estão incompletas"
+msgstr ""
