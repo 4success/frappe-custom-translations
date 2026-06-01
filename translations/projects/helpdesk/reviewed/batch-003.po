@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-05-03 10:46+0000\n"
-"PO-Revision-Date: 2026-05-04 05:14\n"
+"POT-Creation-Date: 2026-05-24 10:57+0000\n"
+"PO-Revision-Date: 2026-05-27 10:31\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -147,10 +147,6 @@ msgstr "Explicação detalhada"
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
 msgid "Details"
 msgstr "Detalhes"
-
-#: desk/src/components/Settings/Teams/TeamEdit.vue:299
-msgid "Disable Bypass Restrictions"
-msgstr "Desativar a opção de ignorar restrições"
 
 #: desk/src/components/Settings/General/components/TicketSettings.vue:67
 msgid "Disable global saved replies"
@@ -394,10 +390,6 @@ msgstr "E-mails recebidos com sucesso"
 #: helpdesk/helpdesk/doctype/hd_comment_reaction/hd_comment_reaction.json
 msgid "Emoji"
 msgstr "Emoji"
-
-#: desk/src/components/Settings/Teams/TeamEdit.vue:300
-msgid "Enable Bypass Restrictions"
-msgstr "Ativar a opção de ignorar restrições"
 
 #. Label of the enable_comment_reactions (Check) field in DocType 'HD Settings'
 #: desk/src/components/Settings/General/components/TicketSettings.vue:23
@@ -707,6 +699,12 @@ msgstr "Primeira resposta em"
 msgid "First Response Due"
 msgstr "Primeira resposta devida"
 
+#. Label of the first_response_failed_by (Duration) field in DocType 'HD
+#. Ticket'
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
+msgid "First Response Failed By"
+msgstr "Primeira resposta falhou por"
+
 #. Label of the response_time (Duration) field in DocType 'HD Service Level
 #. Priority'
 #. Label of the first_response_time (Duration) field in DocType 'HD Ticket'
@@ -823,3 +821,8 @@ msgstr "Verde"
 #: helpdesk/helpdesk/doctype/hd_view/hd_view.json
 msgid "Group By"
 msgstr "Agrupar por"
+
+#. Label of the group_by_field (Data) field in DocType 'HD View'
+#: helpdesk/helpdesk/doctype/hd_view/hd_view.json
+msgid "Group By Field"
+msgstr "Agrupar por campo"

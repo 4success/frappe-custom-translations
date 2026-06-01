@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-05-03 10:46+0000\n"
-"PO-Revision-Date: 2026-05-04 05:14\n"
+"POT-Creation-Date: 2026-05-24 10:57+0000\n"
+"PO-Revision-Date: 2026-05-27 10:31\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -17,11 +17,6 @@ msgstr ""
 "X-Crowdin-File: /[frappe.helpdesk] develop/helpdesk/locale/main.pot\n"
 "X-Crowdin-File-ID: 118\n"
 "Language: pt_BR\n"
-
-#. Label of the group_by_field (Data) field in DocType 'HD View'
-#: helpdesk/helpdesk/doctype/hd_view/hd_view.json
-msgid "Group By Field"
-msgstr "Agrupar por campo"
 
 #. Name of a role
 #: helpdesk/helpdesk/doctype/hd_article/hd_article.json
@@ -560,10 +555,6 @@ msgstr "Item(s) excluído(s) com sucesso."
 msgid "Jump to"
 msgstr "Ir para"
 
-#: desk/src/pages/knowledge-base/Article.vue:670
-msgid "KB"
-msgstr "KB"
-
 #. Label of the key (Data) field in DocType 'HD Email Feedback'
 #. Label of the key (Data) field in DocType 'HD Ticket'
 #. Label of a field in the email-feedback Web Form
@@ -780,3 +771,13 @@ msgstr "Fazer login no Frappe Cloud"
 #: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
 msgid "Logo"
 msgstr "Logotipo"
+
+#. Description of the 'Integer value' (Int) field in DocType 'HD Ticket
+#. Priority'
+#: helpdesk/helpdesk/doctype/hd_ticket_priority/hd_ticket_priority.json
+msgid "Lower the Integer value, higher is the priority of the issue"
+msgstr "Quanto menor o valor inteiro, maior a prioridade do chamado"
+
+#: desk/src/pages/ticket/Tickets.vue:448
+msgid "Make Private"
+msgstr "Tornar privado"

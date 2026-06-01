@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-05-03 10:46+0000\n"
-"PO-Revision-Date: 2026-05-04 05:14\n"
+"POT-Creation-Date: 2026-05-24 10:57+0000\n"
+"PO-Revision-Date: 2026-05-27 10:31\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -17,26 +17,6 @@ msgstr ""
 "X-Crowdin-File: /[frappe.helpdesk] develop/helpdesk/locale/main.pot\n"
 "X-Crowdin-File-ID: 118\n"
 "Language: pt_BR\n"
-
-#: desk/src/components/command-palette/CP.vue:126
-msgid "Search for \"{0}\""
-msgstr ""
-
-#: desk/src/pages/SearchAgent.vue:100
-msgid "Search index does not exist. Please build the index first."
-msgstr ""
-
-#: helpdesk/api/search.py:41
-msgid "Search index not available. Please contact administrator."
-msgstr ""
-
-#: helpdesk/api/search.py:17
-msgid "Search query must be at least 2 characters"
-msgstr ""
-
-#: desk/src/components/Settings/SavedReplies/components/PreviewDialog.vue:19
-msgid "Search ticket"
-msgstr ""
 
 #: desk/src/pages/SearchAgent.vue:16
 msgid "Search tickets, comments, and communications..."
@@ -54,7 +34,7 @@ msgstr ""
 msgid "Searching..."
 msgstr "Procurando..."
 
-#: desk/src/pages/home/components/PendingTickets.vue:138
+#: desk/src/pages/home/components/PendingTickets.vue:147
 msgid "See all {0} tickets"
 msgstr ""
 
@@ -66,7 +46,7 @@ msgstr ""
 msgid "Select"
 msgstr "Selecione"
 
-#: desk/src/pages/knowledge-base/NewArticle.vue:21
+#: desk/src/pages/knowledge-base/NewArticle.vue:19
 msgid "Select Category"
 msgstr ""
 
@@ -82,7 +62,12 @@ msgstr "Selecione Uma Prioridade Padrão."
 msgid "Select a rating"
 msgstr ""
 
-#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:104
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:34
+#: desk/src/pages/home/components/RecentFeedback.vue:148
+msgid "Select range"
+msgstr ""
+
+#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:98
 msgid "Select teams"
 msgstr ""
 
@@ -102,7 +87,7 @@ msgstr ""
 msgid "Send"
 msgstr "Enviar"
 
-#: desk/src/components/Settings/InviteAgents.vue:31
+#: desk/src/components/Settings/InviteAgents.vue:37
 msgid "Send Invites"
 msgstr ""
 
@@ -155,11 +140,11 @@ msgstr ""
 msgid "Set Response Time for Priority {0} in row {1}."
 msgstr ""
 
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:91
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:84
 msgid "Set as default SLA"
 msgstr ""
 
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:247
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:240
 msgid "Set the default status assigned when a ticket is created, and the status to apply when a ticket is reopened. If not specified, the default status from HD Settings will be used."
 msgstr ""
 
@@ -176,12 +161,14 @@ msgid "Setting <strong>{0}</strong> as the default SLA removes <strong>{1}</stro
 msgstr ""
 
 #. Label of the column_break_feto (Column Break) field in DocType 'HD Team'
-#: desk/src/components/layouts/Sidebar.vue:362
+#: desk/src/components/layouts/Sidebar.vue:379
 #: helpdesk/helpdesk/doctype/hd_team/hd_team.json
 msgid "Settings"
 msgstr "Configurações"
 
-#: desk/src/components/Settings/General/General.vue:245
+#: desk/src/components/Settings/General/General.vue:254
+#: desk/src/components/Settings/General/General.vue:292
+#: desk/src/components/Settings/General/General.vue:301
 msgid "Settings updated"
 msgstr ""
 
@@ -201,7 +188,7 @@ msgstr "Configuração"
 msgid "Setup Email"
 msgstr ""
 
-#: desk/src/components/layouts/Sidebar.vue:437
+#: desk/src/components/layouts/Sidebar.vue:454
 msgid "Setup SLA"
 msgstr ""
 
@@ -220,7 +207,7 @@ msgstr ""
 msgid "Share feedback"
 msgstr ""
 
-#: desk/src/components/layouts/Sidebar.vue:357
+#: desk/src/components/layouts/Sidebar.vue:373
 msgid "Shortcuts"
 msgstr "Atalhos"
 
@@ -235,6 +222,10 @@ msgstr ""
 
 #: desk/src/components/modals/ShortcutsModal.vue:83
 msgid "Show keyboard shortcuts"
+msgstr ""
+
+#: desk/src/pages/home/components/PendingTickets.vue:154
+msgid "Showing {0} of {1} {2}"
 msgstr ""
 
 #: desk/src/components/Settings/Profile/UserEmailSettings.vue:37
@@ -256,23 +247,23 @@ msgstr ""
 msgid "Skip email workflow"
 msgstr ""
 
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:633
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:627
 msgid "Some error occurred while renaming assignment rule"
 msgstr ""
 
-#: desk/src/components/Settings/Holiday/HolidayView.vue:418
+#: desk/src/components/Settings/Holiday/HolidayView.vue:412
 msgid "Some error occurred while renaming holiday list"
 msgstr ""
 
-#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:399
+#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:398
 msgid "Some error occurred while renaming saved reply"
 msgstr ""
 
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:617
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:611
 msgid "Some error occurred while updating assignment rule"
 msgstr ""
 
-#: desk/src/components/Settings/Holiday/HolidayView.vue:408
+#: desk/src/components/Settings/Holiday/HolidayView.vue:402
 msgid "Some error occurred while updating holiday list"
 msgstr ""
 
@@ -299,10 +290,6 @@ msgstr ""
 
 #: helpdesk/helpdesk/doctype/hd_ticket/api.py:338
 msgid "Source and target ticket cannot be same"
-msgstr ""
-
-#: desk/src/components/ticket/TicketMergeModal.vue:44
-msgid "Source and target tickets which are to be merged cannot be the same."
 msgstr ""
 
 #: helpdesk/helpdesk/doctype/hd_ticket/api.py:334
@@ -343,7 +330,7 @@ msgstr ""
 #. Label of a field in the tickets Web Form
 #: desk/src/pages/SearchAgent.vue:59 desk/src/pages/SearchAgent.vue:60
 #: desk/src/pages/call-logs/CallLogModal.vue:53
-#: desk/src/pages/home/components/PendingTickets.vue:27
+#: desk/src/pages/home/components/PendingTickets.vue:32
 #: helpdesk/helpdesk/doctype/hd_article/hd_article.json
 #: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
@@ -365,7 +352,7 @@ msgstr ""
 
 #. Label of the status_details (Section Break) field in DocType 'HD Service
 #. Level Agreement'
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:243
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:236
 #: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.json
 msgid "Status Details"
 msgstr ""
@@ -402,7 +389,7 @@ msgstr ""
 
 #. Label of the subject (Data) field in DocType 'HD Ticket'
 #. Label of a field in the tickets Web Form
-#: desk/src/pages/home/components/PendingTickets.vue:24
+#: desk/src/pages/home/components/PendingTickets.vue:29
 #: desk/src/pages/ticket/TicketNew.vue:63
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
 #: helpdesk/helpdesk/report/ticket_search_analysis/ticket_search_analysis.py:30
@@ -438,7 +425,7 @@ msgstr "Resumo"
 msgid "Sunday"
 msgstr "Domingo"
 
-#: desk/src/components/layouts/Sidebar.vue:342
+#: desk/src/components/layouts/Sidebar.vue:358
 msgid "Support"
 msgstr "Pós-vendas"
 
@@ -529,11 +516,11 @@ msgstr "Azul-petróleo"
 #. Label of the team (Link) field in DocType 'HD Saved Reply Team'
 #. Label of the agent_group (Link) field in DocType 'HD Ticket'
 #. Label of a Link in the Helpdesk Workspace
-#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:379
-#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:229
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:372
+#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:225
 #: desk/src/pages/SearchAgent.vue:50 desk/src/pages/SearchAgent.vue:51
 #: desk/src/pages/dashboard/Dashboard.vue:63
-#: desk/src/pages/home/components/PendingTickets.vue:33
+#: desk/src/pages/home/components/PendingTickets.vue:38
 #: helpdesk/helpdesk/doctype/hd_escalation_rule/hd_escalation_rule.json
 #: helpdesk/helpdesk/doctype/hd_saved_reply/hd_saved_reply.json
 #: helpdesk/helpdesk/doctype/hd_saved_reply_team/hd_saved_reply_team.json
@@ -542,7 +529,7 @@ msgstr "Azul-petróleo"
 msgid "Team"
 msgstr "Nossa Equipe"
 
-#: desk/src/components/Settings/Teams/NewTeam.vue:37
+#: desk/src/components/Settings/Teams/NewTeam.vue:38
 msgid "Team Name"
 msgstr ""
 
@@ -552,30 +539,45 @@ msgstr ""
 msgid "Team Restrictions"
 msgstr ""
 
+#: desk/src/components/Settings/Teams/TeamEdit.vue:280
+msgid "Team can now access all tickets."
+msgstr ""
+
 #: desk/src/components/Settings/NewTeamModal.vue:54
 msgid "Team created"
 msgstr ""
 
-#: desk/src/components/Settings/Teams/NewTeam.vue:139
+#: desk/src/components/Settings/Teams/NewTeam.vue:150
 msgid "Team created successfully."
 msgstr ""
 
-#: desk/src/components/Settings/Teams/TeamEdit.vue:189
-#: desk/src/components/Settings/Teams/TeamsList.vue:190
+#: desk/src/components/Settings/Teams/TeamEdit.vue:173
+#: desk/src/components/Settings/Teams/TeamsList.vue:182
 msgid "Team deleted successfully."
+msgstr ""
+
+#: desk/src/components/Settings/Teams/TeamEdit.vue:195
+msgid "Team disabled successfully."
+msgstr ""
+
+#: desk/src/components/Settings/Teams/TeamEdit.vue:194
+msgid "Team enabled successfully."
 msgstr ""
 
 #: desk/src/components/Settings/Teams/TeamsList.vue:48
 msgid "Team name"
 msgstr ""
 
-#: desk/src/components/Settings/Teams/RenameTeamModal.vue:51
-#: desk/src/components/Settings/Teams/TeamEdit.vue:268
+#: desk/src/components/Settings/Teams/RenameTeamModal.vue:52
 msgid "Team renamed successfully."
 msgstr ""
 
+#: desk/src/components/Settings/Teams/TeamEdit.vue:281
+msgid "Team will only see their own tickets."
+msgstr ""
+
 #. Label of the teams (Table MultiSelect) field in DocType 'HD Saved Reply'
-#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:100
+#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:94
 #: desk/src/components/Settings/Teams/TeamsList.vue:3
 #: helpdesk/helpdesk/doctype/hd_saved_reply/hd_saved_reply.json
 msgid "Teams"
@@ -585,9 +587,9 @@ msgstr ""
 msgid "Telephony"
 msgstr ""
 
-#: desk/src/components/Settings/Telephony/ExotelSettings.vue:296
-#: desk/src/components/Settings/Telephony/Telephony.vue:257
-#: desk/src/components/Settings/Telephony/TwilioSettings.vue:248
+#: desk/src/components/Settings/Telephony/ExotelSettings.vue:292
+#: desk/src/components/Settings/Telephony/Telephony.vue:254
+#: desk/src/components/Settings/Telephony/TwilioSettings.vue:244
 msgid "Telephony settings updated successfully."
 msgstr ""
 
@@ -609,11 +611,11 @@ msgstr ""
 msgid "The 'Closed' status cannot be renamed."
 msgstr ""
 
-#: helpdesk/extends/assignment_rule.py:18
+#: helpdesk/extends/assignment_rule.py:20
 msgid "The Assign Condition JSON '{0}' is invalid: </br> {1}"
 msgstr ""
 
-#: helpdesk/extends/assignment_rule.py:26
+#: helpdesk/extends/assignment_rule.py:28
 msgid "The Unassign Condition JSON '{0}' is invalid: </br> {1}"
 msgstr ""
 
@@ -649,7 +651,15 @@ msgstr ""
 msgid "There are no categories published at the moment."
 msgstr ""
 
-#: desk/src/components/ticket/TicketMergeModal.vue:83
+#: helpdesk/extends/assignment_rule.py:14
+msgid "There should be at least 1 assignment rule for ticket"
+msgstr ""
+
+#: helpdesk/extends/assignment_rule.py:51
+msgid "This Assignment Rule is linked to the Team {0}.</br> User {1} is added in the Assignment Rule but not in the linked Team. Please add the user in the {2} to ensure proper team structure."
+msgstr ""
+
+#: desk/src/components/ticket/TicketMergeModal.vue:76
 #: desk/src/components/ticket/TicketSplitModal.vue:24
 msgid "This action is irreversible."
 msgstr ""
@@ -719,7 +729,7 @@ msgstr "Quinta"
 msgid "Ticket"
 msgstr ""
 
-#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:814
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:816
 msgid "Ticket #{0}: We've received your request"
 msgstr ""
 
@@ -773,16 +783,4 @@ msgstr ""
 
 #: desk/src/components/Settings/General/components/TicketSettings.vue:4
 msgid "Ticket Settings"
-msgstr ""
-
-#. Label of the ticket_split_from (Link) field in DocType 'HD Ticket'
-#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
-msgid "Ticket Split From"
-msgstr ""
-
-#. Name of a report
-#. Label of a Link in the Helpdesk Workspace
-#: helpdesk/helpdesk/report/ticket_summary/ticket_summary.json
-#: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
-msgid "Ticket Summary"
 msgstr ""

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-05-03 10:46+0000\n"
-"PO-Revision-Date: 2026-05-04 05:14\n"
+"POT-Creation-Date: 2026-05-24 10:57+0000\n"
+"PO-Revision-Date: 2026-05-27 10:31\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -56,6 +56,22 @@ msgstr "- {0} como status de reabertura<br>"
 #: helpdesk/helpdesk/doctype/hd_article_feedback/hd_article_feedback.json
 msgid "0 is no feedback, 1 is Like, 2 is Dislike"
 msgstr "0 é sem feedback, 1 é Curtir, 2 é Não curtir"
+
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:174
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:192
+msgid "1 Year"
+msgstr "1 ano"
+
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:172
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:184
+msgid "3 Months"
+msgstr "3 meses"
+
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:173
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:179
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:188
+msgid "6 Months"
+msgstr "6 meses"
 
 #: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.py:117
 msgid "<br>Please update HD Settings to use a different status before disabling this status."
@@ -442,10 +458,6 @@ msgstr "Tem certeza de que deseja fechar este chamado?"
 msgid "Are you sure you want to delete these articles?"
 msgstr "Tem certeza de que deseja excluir estes artigos?"
 
-#: desk/src/components/Settings/Teams/TeamEdit.vue:107
-msgid "Are you sure you want to delete this team? This action cannot be reversed!"
-msgstr "Tem certeza de que deseja excluir esta equipe? Esta ação não pode ser desfeita!"
-
 #: desk/src/components/ticket-agent/TicketHeader.vue:204
 msgid "Are you sure you want to delete this ticket? This is an irreversible action and cannot be undone."
 msgstr "Tem certeza de que deseja excluir este chamado? Esta ação é irreversível e não pode ser desfeita."
@@ -634,10 +646,6 @@ msgstr "Regra de atribuição {0} atualizada com sucesso."
 msgid "At least one email is required"
 msgstr "Pelo menos um e-mail é obrigatório"
 
-#: desk/src/components/Settings/InviteAgents.vue:171
-msgid "At least one email required"
-msgstr "Pelo menos um e-mail é obrigatório"
-
 #: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.py:73
 msgid "At least one enabled status for <u>{0}</u> category must be enabled."
 msgstr "Pelo menos um status da categoria <u>{0}</u> deve estar habilitado."
@@ -732,9 +740,9 @@ msgstr "Métricas médias de tempo"
 msgid "Average feedback rating per day is around {0} stars"
 msgstr "A média diária de feedback é de cerca de {0} estrelas"
 
-#: desk/src/pages/home/components/AvgTimeMetrics.vue:37
-msgid "Average response and resolution metrics not yet generated"
-msgstr "As métricas médias de resposta e resolução ainda não foram geradas"
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:103
+msgid "Average response and resolution metrics not available"
+msgstr "As métricas médias de resposta e resolução não estão disponíveis"
 
 #: helpdesk/api/dashboard.py:286
 msgid "Average tickets per day is around {0}"
@@ -751,7 +759,3 @@ msgstr "Média da primeira resposta"
 #: helpdesk/api/dashboard.py:215
 msgid "Avg. Resolution"
 msgstr "Média de resolução"
-
-#: helpdesk/api/dashboard.py:236
-msgid "Avg. feedback rating for the tickets resolved"
-msgstr "Média de feedback dos chamados resolvidos"

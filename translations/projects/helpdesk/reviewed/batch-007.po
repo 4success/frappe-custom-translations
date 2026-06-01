@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-05-03 10:46+0000\n"
-"PO-Revision-Date: 2026-05-04 05:14\n"
+"POT-Creation-Date: 2026-05-24 10:57+0000\n"
+"PO-Revision-Date: 2026-05-27 10:31\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -17,26 +17,6 @@ msgstr ""
 "X-Crowdin-File: /[frappe.helpdesk] develop/helpdesk/locale/main.pot\n"
 "X-Crowdin-File-ID: 118\n"
 "Language: pt_BR\n"
-
-#: desk/src/components/command-palette/CP.vue:126
-msgid "Search for \"{0}\""
-msgstr "Pesquisar por \"{0}\""
-
-#: desk/src/pages/SearchAgent.vue:100
-msgid "Search index does not exist. Please build the index first."
-msgstr "O índice de pesquisa não existe. Crie o índice primeiro."
-
-#: helpdesk/api/search.py:41
-msgid "Search index not available. Please contact administrator."
-msgstr "Índice de pesquisa indisponível. Entre em contato com o administrador."
-
-#: helpdesk/api/search.py:17
-msgid "Search query must be at least 2 characters"
-msgstr "A consulta de pesquisa deve ter pelo menos 2 caracteres"
-
-#: desk/src/components/Settings/SavedReplies/components/PreviewDialog.vue:19
-msgid "Search ticket"
-msgstr "Pesquisar chamado"
 
 #: desk/src/pages/SearchAgent.vue:16
 msgid "Search tickets, comments, and communications..."
@@ -81,6 +61,11 @@ msgstr "Selecione uma prioridade padrão."
 #: desk/src/pages/ticket/TicketFeedback.vue:28
 msgid "Select a rating"
 msgstr "Selecione uma avaliação"
+
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:34
+#: desk/src/pages/home/components/RecentFeedback.vue:148
+msgid "Select range"
+msgstr "Selecionar período"
 
 #: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:104
 msgid "Select teams"
@@ -237,6 +222,10 @@ msgstr "Mostrar na barra lateral"
 msgid "Show keyboard shortcuts"
 msgstr "Mostrar atalhos do teclado"
 
+#: desk/src/pages/home/components/PendingTickets.vue:154
+msgid "Showing {0} of {1} {2}"
+msgstr "Mostrando {0} de {1} {2}"
+
 #: desk/src/components/Settings/Profile/UserEmailSettings.vue:37
 msgid "Signature"
 msgstr "Assinatura"
@@ -300,10 +289,6 @@ msgstr "A categoria de origem e a categoria de destino não podem ser iguais"
 #: helpdesk/helpdesk/doctype/hd_ticket/api.py:338
 msgid "Source and target ticket cannot be same"
 msgstr "O chamado de origem e o chamado de destino não podem ser iguais"
-
-#: desk/src/components/ticket/TicketMergeModal.vue:44
-msgid "Source and target tickets which are to be merged cannot be the same."
-msgstr "Os chamados de origem e destino que serão mesclados não podem ser iguais."
 
 #: helpdesk/helpdesk/doctype/hd_ticket/api.py:334
 msgid "Source ticket does not exist"
@@ -554,6 +539,10 @@ msgstr "Nome da equipe"
 msgid "Team Restrictions"
 msgstr "Restrições de equipe"
 
+#: desk/src/components/Settings/Teams/TeamEdit.vue:280
+msgid "Team can now access all tickets."
+msgstr "A equipe agora pode acessar todos os chamados."
+
 #: desk/src/components/Settings/NewTeamModal.vue:54
 msgid "Team created"
 msgstr "Equipe criada"
@@ -567,6 +556,14 @@ msgstr "Equipe criada com sucesso."
 msgid "Team deleted successfully."
 msgstr "Equipe excluída com sucesso."
 
+#: desk/src/components/Settings/Teams/TeamEdit.vue:195
+msgid "Team disabled successfully."
+msgstr "Equipe desativada com sucesso."
+
+#: desk/src/components/Settings/Teams/TeamEdit.vue:194
+msgid "Team enabled successfully."
+msgstr "Equipe ativada com sucesso."
+
 #: desk/src/components/Settings/Teams/TeamsList.vue:48
 msgid "Team name"
 msgstr "Nome da equipe"
@@ -575,6 +572,10 @@ msgstr "Nome da equipe"
 #: desk/src/components/Settings/Teams/TeamEdit.vue:268
 msgid "Team renamed successfully."
 msgstr "Equipe renomeada com sucesso."
+
+#: desk/src/components/Settings/Teams/TeamEdit.vue:281
+msgid "Team will only see their own tickets."
+msgstr "A equipe verá apenas os próprios chamados."
 
 #. Label of the teams (Table MultiSelect) field in DocType 'HD Saved Reply'
 #: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:100
@@ -650,6 +651,14 @@ msgstr "A situação do chamado mudará automaticamente sempre que o agente resp
 #: desk/src/components/knowledge-base/CategoryFolderContainer.vue:18
 msgid "There are no categories published at the moment."
 msgstr "Não há categorias publicadas no momento."
+
+#: helpdesk/extends/assignment_rule.py:14
+msgid "There should be at least 1 assignment rule for ticket"
+msgstr "Deve haver pelo menos 1 regra de atribuição para o chamado"
+
+#: helpdesk/extends/assignment_rule.py:51
+msgid "This Assignment Rule is linked to the Team {0}.</br> User {1} is added in the Assignment Rule but not in the linked Team. Please add the user in the {2} to ensure proper team structure."
+msgstr "Esta regra de atribuição está vinculada à equipe {0}.</br> O usuário {1} foi adicionado à regra de atribuição, mas não está na equipe vinculada. Adicione o usuário em {2} para garantir a estrutura correta da equipe."
 
 #: desk/src/components/ticket/TicketMergeModal.vue:83
 #: desk/src/components/ticket/TicketSplitModal.vue:24
@@ -776,15 +785,3 @@ msgstr "Encaminhamento de chamados"
 #: desk/src/components/Settings/General/components/TicketSettings.vue:4
 msgid "Ticket Settings"
 msgstr "Configurações do chamado"
-
-#. Label of the ticket_split_from (Link) field in DocType 'HD Ticket'
-#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
-msgid "Ticket Split From"
-msgstr "Chamado de origem da divisão"
-
-#. Name of a report
-#. Label of a Link in the Helpdesk Workspace
-#: helpdesk/helpdesk/report/ticket_summary/ticket_summary.json
-#: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
-msgid "Ticket Summary"
-msgstr "Resumo de chamados"

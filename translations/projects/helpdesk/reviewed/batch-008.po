@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-05-03 10:46+0000\n"
-"PO-Revision-Date: 2026-05-04 05:14\n"
+"POT-Creation-Date: 2026-05-24 10:57+0000\n"
+"PO-Revision-Date: 2026-05-27 10:31\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,18 @@ msgstr ""
 "X-Crowdin-File: /[frappe.helpdesk] develop/helpdesk/locale/main.pot\n"
 "X-Crowdin-File-ID: 118\n"
 "Language: pt_BR\n"
+
+#. Label of the ticket_split_from (Link) field in DocType 'HD Ticket'
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
+msgid "Ticket Split From"
+msgstr "Chamado de origem da divisão"
+
+#. Name of a report
+#. Label of a Link in the Helpdesk Workspace
+#: helpdesk/helpdesk/report/ticket_summary/ticket_summary.json
+#: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
+msgid "Ticket Summary"
+msgstr "Resumo de chamados"
 
 #: helpdesk/api/dashboard.py:292
 msgid "Ticket Trend"
@@ -46,17 +58,9 @@ msgstr "Chamado excluído com sucesso."
 msgid "Ticket does not exist."
 msgstr "O chamado não existe."
 
-#: desk/src/components/ticket/TicketMergeModal.vue:31
-msgid "Ticket must be Open or Paused."
-msgstr "O chamado deve estar aberto ou pausado."
-
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:342
 msgid "Ticket must be resolved with a feedback"
 msgstr "O chamado deve ser resolvido com um feedback"
-
-#: desk/src/components/ticket/TicketMergeModal.vue:37
-msgid "Ticket must not already be merged."
-msgstr "O chamado não pode já ter sido mesclado."
 
 #: desk/src/pages/ticket/TicketAgent.vue:33
 #: helpdesk/helpdesk/doctype/hd_ticket/api.py:62
@@ -115,9 +119,9 @@ msgstr "Chamados"
 msgid "Tickets approaching or breached SLA"
 msgstr "Chamados próximos do SLA ou já violados"
 
-#: desk/src/pages/home/components/PendingTickets.vue:221
-msgid "Tickets assigned to you in the last 24 hours"
-msgstr "Chamados atribuídos a você nas últimas 24 horas"
+#: desk/src/pages/home/components/PendingTickets.vue:243
+msgid "Tickets assigned to you in the last 7 days"
+msgstr "Chamados atribuídos a você nos últimos 7 dias"
 
 #: helpdesk/api/dashboard.py:553
 msgid "Tickets by Channel"
@@ -211,6 +215,10 @@ msgstr "Para saber mais sobre a configuração de contas de e-mail, clique"
 #: desk/src/pages/dashboard/Dashboard.vue:454
 msgid "Today"
 msgstr "Hoje"
+
+#: desk/src/components/layouts/Sidebar.vue:254
+msgid "Toggle theme"
+msgstr "Alternar tema"
 
 #: helpdesk/helpdesk/report/ticket_search_analysis/ticket_search_analysis.py:35
 msgid "Top Result"
@@ -395,10 +403,6 @@ msgstr "Carregando {0}%"
 #: helpdesk/helpdesk/report/ticket_summary/ticket_summary.py:83
 msgid "User"
 msgstr "Usuário"
-
-#: helpdesk/helpdesk/doctype/hd_team/hd_team.py:137
-msgid "User Not found"
-msgstr "Usuário não encontrado"
 
 #. Label of the user_resolution_time (Duration) field in DocType 'HD Ticket'
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
@@ -591,10 +595,6 @@ msgstr "Você não tem permissão para visualizar esta página ou ela não exist
 msgid "You have already provided feedback for this ticket."
 msgstr "Você já enviou um feedback para este chamado."
 
-#: desk/src/pages/home/components/RecentFeedback.vue:214
-msgid "You haven't received any feedback yet"
-msgstr "Você ainda não recebeu nenhum feedback"
-
 #: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.py:132
 msgid "You must set one SLA as Default. Please check the Default SLA option."
 msgstr "Você deve definir um SLA como padrão. Marque a opção SLA padrão."
@@ -690,10 +690,6 @@ msgstr "hrs"
 msgid "in"
 msgstr "em"
 
-#: desk/src/components/ticket/TicketMergeModal.vue:39
-msgid "is_merged === 0"
-msgstr ""
-
 #. Option for the 'Type' (Select) field in DocType 'HD View'
 #: helpdesk/helpdesk/doctype/hd_view/hd_view.json
 msgid "kanban"
@@ -721,14 +717,14 @@ msgstr "roxo"
 msgid "stars"
 msgstr "estrelas"
 
-#: desk/src/components/ticket/TicketMergeModal.vue:33
-msgid "status_category in ['Open', 'Paused']"
-msgstr ""
-
 #. Label of the synonym (Data) field in DocType 'HD Synonym'
 #: helpdesk/helpdesk/doctype/hd_synonym/hd_synonym.json
 msgid "synonym"
 msgstr "sinônimo"
+
+#: desk/src/pages/home/components/PendingTickets.vue:158
+msgid "ticket"
+msgstr "tíquete"
 
 #: desk/src/pages/ticket/MobileTicketAgent.vue:525
 msgid "viewed this"

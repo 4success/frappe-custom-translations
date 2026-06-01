@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-05-03 10:46+0000\n"
-"PO-Revision-Date: 2026-05-04 05:14\n"
+"POT-Creation-Date: 2026-05-24 10:57+0000\n"
+"PO-Revision-Date: 2026-05-27 10:31\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -17,16 +17,6 @@ msgstr ""
 "X-Crowdin-File: /[frappe.helpdesk] develop/helpdesk/locale/main.pot\n"
 "X-Crowdin-File-ID: 118\n"
 "Language: pt_BR\n"
-
-#. Description of the 'Integer value' (Int) field in DocType 'HD Ticket
-#. Priority'
-#: helpdesk/helpdesk/doctype/hd_ticket_priority/hd_ticket_priority.json
-msgid "Lower the Integer value, higher is the priority of the issue"
-msgstr "Quanto menor o valor inteiro, maior a prioridade do chamado"
-
-#: desk/src/pages/ticket/Tickets.vue:448
-msgid "Make Private"
-msgstr "Tornar privado"
 
 #: desk/src/pages/ticket/Tickets.vue:448
 msgid "Make Public"
@@ -80,14 +70,6 @@ msgstr "Membros"
 #: desk/src/components/Settings/Teams/TeamEdit.vue:57
 msgid "Members ({0})"
 msgstr "Membros ({0})"
-
-#: desk/src/components/Settings/Teams/TeamEdit.vue:309
-msgid "Members of this team will be able to see the tickets assigned to all the teams"
-msgstr "Os membros desta equipe poderão ver os chamados atribuídos a todas as equipes"
-
-#: desk/src/components/Settings/Teams/TeamEdit.vue:306
-msgid "Members of this team will see the tickets assigned to this team only"
-msgstr "Os membros desta equipe verão apenas os chamados atribuídos a esta equipe"
 
 #. Option for the 'Type' (Select) field in DocType 'HD Notification'
 #: helpdesk/helpdesk/doctype/hd_notification/hd_notification.json
@@ -315,10 +297,6 @@ msgstr "Sem equipe"
 msgid "No additional comments"
 msgstr "Sem comentários adicionais"
 
-#: desk/src/components/Settings/Agents.vue:98
-msgid "No agent found"
-msgstr "Nenhum agente encontrado"
-
 #: desk/src/components/ticket-agent/AssignTo.vue:122
 msgid "No agents found"
 msgstr "Nenhum agente encontrado"
@@ -363,17 +341,9 @@ msgstr "Nenhum contato encontrado para os filtros aplicados. Tente ajustar ou li
 msgid "No customers found for the applied filters. Try adjusting or clearing your filters."
 msgstr "Nenhum cliente encontrado para os filtros aplicados. Tente ajustar ou limpar os filtros."
 
-#: desk/src/components/Settings/EmailAccountList.vue:52
-msgid "No email account found"
-msgstr "Nenhuma conta de e-mail encontrada"
-
 #: desk/src/pages/home/components/RecentFeedback.vue:211
 msgid "No feedback"
 msgstr "Sem feedback"
-
-#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:59
-msgid "No field dependency found"
-msgstr "Nenhuma dependência de campo encontrada"
 
 #: desk/src/components/Settings/Teams/TeamEdit.vue:94
 msgid "No members found"
@@ -383,9 +353,9 @@ msgstr "Nenhum membro encontrado"
 msgid "No new notifications"
 msgstr "Nenhuma notificação nova"
 
-#: desk/src/pages/home/components/PendingTickets.vue:236
-msgid "No new tickets assigned to you in the last 24 hours"
-msgstr "Nenhum novo chamado atribuído a você nas últimas 24 horas"
+#: desk/src/pages/home/components/PendingTickets.vue:258
+msgid "No new tickets assigned to you in the last 7 days"
+msgstr "Nenhum novo chamado atribuído a você nos últimos 7 dias"
 
 #: desk/src/components/ticket-agent/TicketNavigation.vue:22
 msgid "No next ticket"
@@ -419,10 +389,6 @@ msgstr "Nenhum resultado encontrado"
 #: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:95
 msgid "No saved replies found"
 msgstr "Nenhuma resposta pronta encontrada"
-
-#: desk/src/components/Settings/Teams/TeamsList.vue:113
-msgid "No team found"
-msgstr "Nenhuma equipe encontrada"
 
 #: desk/src/pages/ticket/Tickets.vue:163
 msgid "No tickets found"
@@ -703,3 +669,38 @@ msgstr "Fixar visualização"
 #: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.json
 msgid "Pink"
 msgstr "Rosa"
+
+#. Label of the pinned (Check) field in DocType 'HD View'
+#: helpdesk/helpdesk/doctype/hd_view/hd_view.json
+msgid "Pinned"
+msgstr "Fixado"
+
+#. Label of the placeholder (Data) field in DocType 'HD Ticket Template Field'
+#: helpdesk/helpdesk/doctype/hd_ticket_template_field/hd_ticket_template_field.json
+msgid "Placeholder"
+msgstr "Texto de exemplo"
+
+#: helpdesk/helpdesk/doctype/hd_ticket_priority/hd_ticket_priority.py:21
+msgid "Please add this priority in the <a href='/app/hd-service-level-agreement'>required SLA documents</a>"
+msgstr "Adicione esta prioridade nos <a href='/app/hd-service-level-agreement'>documentos de SLA obrigatórios</a>"
+
+#: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.py:328
+msgid "Please add {0} priority in {1} SLA"
+msgstr "Adicione a prioridade {0} no SLA {1}"
+
+#: desk/src/components/Settings/Telephony/Telephony.vue:216
+msgid "Please configure your Exotel settings correctly"
+msgstr "Configure corretamente as configurações do Exotel"
+
+#: desk/src/components/Settings/Telephony/Telephony.vue:212
+msgid "Please configure your Twilio settings correctly"
+msgstr "Configure corretamente as configurações do Twilio"
+
+#: desk/src/pages/ticket/TicketNew.vue:83
+msgid "Please enter a subject to continue"
+msgstr "Digite um assunto para continuar"
+
+#: desk/src/pages/call-logs/CallLogModal.vue:368
+#: desk/src/pages/call-logs/CallLogModal.vue:376
+msgid "Please enter a valid phone number"
+msgstr "Digite um número de telefone válido"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-05-03 10:46+0000\n"
-"PO-Revision-Date: 2026-05-04 05:14\n"
+"POT-Creation-Date: 2026-05-24 10:57+0000\n"
+"PO-Revision-Date: 2026-05-27 10:31\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -56,6 +56,22 @@ msgstr "- {0} como status de reabertura<br>"
 #: helpdesk/helpdesk/doctype/hd_article_feedback/hd_article_feedback.json
 msgid "0 is no feedback, 1 is Like, 2 is Dislike"
 msgstr "0 é sem feedback, 1 é Curtir, 2 é Não curtir"
+
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:174
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:192
+msgid "1 Year"
+msgstr "1 ano"
+
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:172
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:184
+msgid "3 Months"
+msgstr "3 meses"
+
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:173
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:179
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:188
+msgid "6 Months"
+msgstr "6 meses"
 
 #: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.py:117
 msgid "<br>Please update HD Settings to use a different status before disabling this status."
@@ -442,10 +458,6 @@ msgstr "Tem certeza de que deseja fechar este chamado?"
 msgid "Are you sure you want to delete these articles?"
 msgstr "Tem certeza de que deseja excluir estes artigos?"
 
-#: desk/src/components/Settings/Teams/TeamEdit.vue:107
-msgid "Are you sure you want to delete this team? This action cannot be reversed!"
-msgstr "Tem certeza de que deseja excluir esta equipe? Esta ação não pode ser desfeita!"
-
 #: desk/src/components/ticket-agent/TicketHeader.vue:204
 msgid "Are you sure you want to delete this ticket? This is an irreversible action and cannot be undone."
 msgstr "Tem certeza de que deseja excluir este chamado? Esta ação é irreversível e não pode ser desfeita."
@@ -634,10 +646,6 @@ msgstr "Regra de atribuição {0} atualizada com sucesso."
 msgid "At least one email is required"
 msgstr "Pelo menos um e-mail é obrigatório"
 
-#: desk/src/components/Settings/InviteAgents.vue:171
-msgid "At least one email required"
-msgstr "Pelo menos um e-mail é obrigatório"
-
 #: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.py:73
 msgid "At least one enabled status for <u>{0}</u> category must be enabled."
 msgstr "Pelo menos um status da categoria <u>{0}</u> deve estar habilitado."
@@ -732,9 +740,9 @@ msgstr "Métricas médias de tempo"
 msgid "Average feedback rating per day is around {0} stars"
 msgstr "A média diária de feedback é de cerca de {0} estrelas"
 
-#: desk/src/pages/home/components/AvgTimeMetrics.vue:37
-msgid "Average response and resolution metrics not yet generated"
-msgstr "As métricas médias de resposta e resolução ainda não foram geradas"
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:103
+msgid "Average response and resolution metrics not available"
+msgstr "As métricas médias de resposta e resolução não estão disponíveis"
 
 #: helpdesk/api/dashboard.py:286
 msgid "Average tickets per day is around {0}"
@@ -1006,14 +1014,6 @@ msgstr "Altere o fuso horário do aplicativo."
 msgid "Change your account password for security."
 msgstr "Altere a senha da sua conta por segurança."
 
-#: desk/src/components/Settings/Agents.vue:103
-msgid "Change your search terms or filters"
-msgstr "Altere os termos de busca ou os filtros"
-
-#: desk/src/components/Settings/Teams/TeamsList.vue:118
-msgid "Change your search terms to find teams."
-msgstr "Altere os termos de busca para encontrar equipes."
-
 #. Label of a Card Break in the Helpdesk Workspace
 #: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
 msgid "Channels"
@@ -1128,7 +1128,7 @@ msgid "Comment cannot be empty."
 msgstr "O comentário não pode ficar vazio."
 
 #: desk/src/components/CommentBox.vue:308
-msgid "Comment deleted sucessfully."
+msgid "Comment deleted successfully."
 msgstr "Comentário excluído com sucesso."
 
 #: helpdesk/helpdesk/doctype/hd_ticket_comment/hd_ticket_comment.py:67
@@ -1282,6 +1282,10 @@ msgstr "Copiar ID do chamado"
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:666
 msgid "Could not an email due to: {0}"
 msgstr "Não foi possível enviar um e-mail devido a: {0}"
+
+#: helpdesk/patches/set_hd_ticket_naming_series.py:37
+msgid "Could not find the `name` column in tabHD Ticket"
+msgstr "Não foi possível encontrar a coluna `name` em tabHD Ticket"
 
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:827
 msgid "Could not send an acknowledgement email due to: {0}"
@@ -1572,10 +1576,6 @@ msgstr "Explicação detalhada"
 msgid "Details"
 msgstr "Detalhes"
 
-#: desk/src/components/Settings/Teams/TeamEdit.vue:299
-msgid "Disable Bypass Restrictions"
-msgstr "Desativar a opção de ignorar restrições"
-
 #: desk/src/components/Settings/General/components/TicketSettings.vue:67
 msgid "Disable global saved replies"
 msgstr "Desativar respostas prontas globais"
@@ -1818,10 +1818,6 @@ msgstr "E-mails recebidos com sucesso"
 #: helpdesk/helpdesk/doctype/hd_comment_reaction/hd_comment_reaction.json
 msgid "Emoji"
 msgstr "Emoji"
-
-#: desk/src/components/Settings/Teams/TeamEdit.vue:300
-msgid "Enable Bypass Restrictions"
-msgstr "Ativar a opção de ignorar restrições"
 
 #. Label of the enable_comment_reactions (Check) field in DocType 'HD Settings'
 #: desk/src/components/Settings/General/components/TicketSettings.vue:23
@@ -2130,6 +2126,12 @@ msgstr "Primeira resposta em"
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
 msgid "First Response Due"
 msgstr "Primeira resposta devida"
+
+#. Label of the first_response_failed_by (Duration) field in DocType 'HD
+#. Ticket'
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
+msgid "First Response Failed By"
+msgstr "Primeira resposta falhou por"
 
 #. Label of the response_time (Duration) field in DocType 'HD Service Level
 #. Priority'
@@ -2790,10 +2792,6 @@ msgstr "Item(s) excluído(s) com sucesso."
 msgid "Jump to"
 msgstr "Ir para"
 
-#: desk/src/pages/knowledge-base/Article.vue:670
-msgid "KB"
-msgstr "KB"
-
 #. Label of the key (Data) field in DocType 'HD Email Feedback'
 #. Label of the key (Data) field in DocType 'HD Ticket'
 #. Label of a field in the email-feedback Web Form
@@ -3074,14 +3072,6 @@ msgstr "Membros"
 msgid "Members ({0})"
 msgstr "Membros ({0})"
 
-#: desk/src/components/Settings/Teams/TeamEdit.vue:309
-msgid "Members of this team will be able to see the tickets assigned to all the teams"
-msgstr "Os membros desta equipe poderão ver os chamados atribuídos a todas as equipes"
-
-#: desk/src/components/Settings/Teams/TeamEdit.vue:306
-msgid "Members of this team will see the tickets assigned to this team only"
-msgstr "Os membros desta equipe verão apenas os chamados atribuídos a esta equipe"
-
 #. Option for the 'Type' (Select) field in DocType 'HD Notification'
 #: helpdesk/helpdesk/doctype/hd_notification/hd_notification.json
 msgid "Mention"
@@ -3308,10 +3298,6 @@ msgstr "Sem equipe"
 msgid "No additional comments"
 msgstr "Sem comentários adicionais"
 
-#: desk/src/components/Settings/Agents.vue:98
-msgid "No agent found"
-msgstr "Nenhum agente encontrado"
-
 #: desk/src/components/ticket-agent/AssignTo.vue:122
 msgid "No agents found"
 msgstr "Nenhum agente encontrado"
@@ -3356,17 +3342,9 @@ msgstr "Nenhum contato encontrado para os filtros aplicados. Tente ajustar ou li
 msgid "No customers found for the applied filters. Try adjusting or clearing your filters."
 msgstr "Nenhum cliente encontrado para os filtros aplicados. Tente ajustar ou limpar os filtros."
 
-#: desk/src/components/Settings/EmailAccountList.vue:52
-msgid "No email account found"
-msgstr "Nenhuma conta de e-mail encontrada"
-
 #: desk/src/pages/home/components/RecentFeedback.vue:211
 msgid "No feedback"
 msgstr "Sem feedback"
-
-#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:59
-msgid "No field dependency found"
-msgstr "Nenhuma dependência de campo encontrada"
 
 #: desk/src/components/Settings/Teams/TeamEdit.vue:94
 msgid "No members found"
@@ -3376,9 +3354,9 @@ msgstr "Nenhum membro encontrado"
 msgid "No new notifications"
 msgstr "Nenhuma notificação nova"
 
-#: desk/src/pages/home/components/PendingTickets.vue:236
-msgid "No new tickets assigned to you in the last 24 hours"
-msgstr "Nenhum novo chamado atribuído a você nas últimas 24 horas"
+#: desk/src/pages/home/components/PendingTickets.vue:258
+msgid "No new tickets assigned to you in the last 7 days"
+msgstr "Nenhum novo chamado atribuído a você nos últimos 7 dias"
 
 #: desk/src/components/ticket-agent/TicketNavigation.vue:22
 msgid "No next ticket"
@@ -3412,10 +3390,6 @@ msgstr "Nenhum resultado encontrado"
 #: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:95
 msgid "No saved replies found"
 msgstr "Nenhuma resposta pronta encontrada"
-
-#: desk/src/components/Settings/Teams/TeamsList.vue:113
-msgid "No team found"
-msgstr "Nenhuma equipe encontrada"
 
 #: desk/src/pages/ticket/Tickets.vue:163
 msgid "No tickets found"
@@ -3732,6 +3706,10 @@ msgstr "Digite um assunto para continuar"
 msgid "Please enter a valid phone number"
 msgstr "Digite um número de telefone válido"
 
+#: desk/src/components/Settings/InviteAgents.vue:185
+msgid "Please enter at least one valid email to send an invite."
+msgstr "Informe pelo menos um e-mail válido para enviar um convite."
+
 #: desk/src/components/Settings/Teams/NewTeam.vue:129
 #: desk/src/pages/call-logs/CallLogModal.vue:264
 #: desk/src/pages/call-logs/CallLogModal.vue:310
@@ -3758,6 +3736,10 @@ msgstr "Corrija os erros no formulário"
 #: helpdesk/api/saved_replies.py:11
 msgid "Please provide saved_reply_id"
 msgstr "Informe saved_reply_id"
+
+#: desk/src/components/Settings/General/General.vue:240
+msgid "Please select at least one restriction option for teams in the settings."
+msgstr "Selecione pelo menos uma opção de restrição para equipes nas configurações."
 
 #: helpdesk/helpdesk/doctype/hd_service_holiday_list/hd_service_holiday_list.py:41
 msgid "Please select weekly off day"
@@ -3873,9 +3855,9 @@ msgstr "Especialistas no produto"
 msgid "Profile"
 msgstr "Perfil"
 
-#: desk/src/components/Settings/Profile/Profile.vue:262
-msgid "Profile Updated Successfully"
-msgstr "Perfil atualizado com sucesso"
+#: desk/src/components/Settings/Profile/Profile.vue:263
+msgid "Profile updated successfully."
+msgstr "Perfil atualizado com sucesso."
 
 #. Label of the public (Check) field in DocType 'HD View'
 #: helpdesk/helpdesk/doctype/hd_view/hd_view.json
@@ -4172,6 +4154,11 @@ msgstr "Detalhes da resolução"
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
 msgid "Resolution Due"
 msgstr "Prazo de resolução"
+
+#. Label of the resolution_failed_by (Duration) field in DocType 'HD Ticket'
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
+msgid "Resolution Failed By"
+msgstr "Resolução falhou por"
 
 #. Label of the resolution_time (Duration) field in DocType 'HD Service Level
 #. Priority'
@@ -4526,6 +4513,11 @@ msgstr "Selecione uma prioridade padrão."
 msgid "Select a rating"
 msgstr "Selecione uma avaliação"
 
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:34
+#: desk/src/pages/home/components/RecentFeedback.vue:148
+msgid "Select range"
+msgstr "Selecionar período"
+
 #: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:104
 msgid "Select teams"
 msgstr "Selecionar equipes"
@@ -4681,6 +4673,10 @@ msgstr "Mostrar na barra lateral"
 msgid "Show keyboard shortcuts"
 msgstr "Mostrar atalhos do teclado"
 
+#: desk/src/pages/home/components/PendingTickets.vue:154
+msgid "Showing {0} of {1} {2}"
+msgstr "Mostrando {0} de {1} {2}"
+
 #: desk/src/components/Settings/Profile/UserEmailSettings.vue:37
 msgid "Signature"
 msgstr "Assinatura"
@@ -4744,10 +4740,6 @@ msgstr "A categoria de origem e a categoria de destino não podem ser iguais"
 #: helpdesk/helpdesk/doctype/hd_ticket/api.py:338
 msgid "Source and target ticket cannot be same"
 msgstr "O chamado de origem e o chamado de destino não podem ser iguais"
-
-#: desk/src/components/ticket/TicketMergeModal.vue:44
-msgid "Source and target tickets which are to be merged cannot be the same."
-msgstr "Os chamados de origem e destino que serão mesclados não podem ser iguais."
 
 #: helpdesk/helpdesk/doctype/hd_ticket/api.py:334
 msgid "Source ticket does not exist"
@@ -4998,6 +4990,10 @@ msgstr "Nome da equipe"
 msgid "Team Restrictions"
 msgstr "Restrições de equipe"
 
+#: desk/src/components/Settings/Teams/TeamEdit.vue:280
+msgid "Team can now access all tickets."
+msgstr "A equipe agora pode acessar todos os chamados."
+
 #: desk/src/components/Settings/NewTeamModal.vue:54
 msgid "Team created"
 msgstr "Equipe criada"
@@ -5011,6 +5007,14 @@ msgstr "Equipe criada com sucesso."
 msgid "Team deleted successfully."
 msgstr "Equipe excluída com sucesso."
 
+#: desk/src/components/Settings/Teams/TeamEdit.vue:195
+msgid "Team disabled successfully."
+msgstr "Equipe desativada com sucesso."
+
+#: desk/src/components/Settings/Teams/TeamEdit.vue:194
+msgid "Team enabled successfully."
+msgstr "Equipe ativada com sucesso."
+
 #: desk/src/components/Settings/Teams/TeamsList.vue:48
 msgid "Team name"
 msgstr "Nome da equipe"
@@ -5019,6 +5023,10 @@ msgstr "Nome da equipe"
 #: desk/src/components/Settings/Teams/TeamEdit.vue:268
 msgid "Team renamed successfully."
 msgstr "Equipe renomeada com sucesso."
+
+#: desk/src/components/Settings/Teams/TeamEdit.vue:281
+msgid "Team will only see their own tickets."
+msgstr "A equipe verá apenas os próprios chamados."
 
 #. Label of the teams (Table MultiSelect) field in DocType 'HD Saved Reply'
 #: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:100
@@ -5094,6 +5102,14 @@ msgstr "A situação do chamado mudará automaticamente sempre que o agente resp
 #: desk/src/components/knowledge-base/CategoryFolderContainer.vue:18
 msgid "There are no categories published at the moment."
 msgstr "Não há categorias publicadas no momento."
+
+#: helpdesk/extends/assignment_rule.py:14
+msgid "There should be at least 1 assignment rule for ticket"
+msgstr "Deve haver pelo menos 1 regra de atribuição para o chamado"
+
+#: helpdesk/extends/assignment_rule.py:51
+msgid "This Assignment Rule is linked to the Team {0}.</br> User {1} is added in the Assignment Rule but not in the linked Team. Please add the user in the {2} to ensure proper team structure."
+msgstr "Esta regra de atribuição está vinculada à equipe {0}.</br> O usuário {1} foi adicionado à regra de atribuição, mas não está na equipe vinculada. Adicione o usuário em {2} para garantir a estrutura correta da equipe."
 
 #: desk/src/components/ticket/TicketMergeModal.vue:83
 #: desk/src/components/ticket/TicketSplitModal.vue:24
@@ -5261,17 +5277,9 @@ msgstr "Chamado excluído com sucesso."
 msgid "Ticket does not exist."
 msgstr "O chamado não existe."
 
-#: desk/src/components/ticket/TicketMergeModal.vue:31
-msgid "Ticket must be Open or Paused."
-msgstr "O chamado deve estar aberto ou pausado."
-
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:342
 msgid "Ticket must be resolved with a feedback"
 msgstr "O chamado deve ser resolvido com um feedback"
-
-#: desk/src/components/ticket/TicketMergeModal.vue:37
-msgid "Ticket must not already be merged."
-msgstr "O chamado não pode já ter sido mesclado."
 
 #: desk/src/pages/ticket/TicketAgent.vue:33
 #: helpdesk/helpdesk/doctype/hd_ticket/api.py:62
@@ -5330,9 +5338,9 @@ msgstr "Chamados"
 msgid "Tickets approaching or breached SLA"
 msgstr "Chamados próximos do SLA ou já violados"
 
-#: desk/src/pages/home/components/PendingTickets.vue:221
-msgid "Tickets assigned to you in the last 24 hours"
-msgstr "Chamados atribuídos a você nas últimas 24 horas"
+#: desk/src/pages/home/components/PendingTickets.vue:243
+msgid "Tickets assigned to you in the last 7 days"
+msgstr "Chamados atribuídos a você nos últimos 7 dias"
 
 #: helpdesk/api/dashboard.py:553
 msgid "Tickets by Channel"
@@ -5426,6 +5434,10 @@ msgstr "Para saber mais sobre a configuração de contas de e-mail, clique"
 #: desk/src/pages/dashboard/Dashboard.vue:454
 msgid "Today"
 msgstr "Hoje"
+
+#: desk/src/components/layouts/Sidebar.vue:254
+msgid "Toggle theme"
+msgstr "Alternar tema"
 
 #: helpdesk/helpdesk/report/ticket_search_analysis/ticket_search_analysis.py:35
 msgid "Top Result"
@@ -5610,10 +5622,6 @@ msgstr "Carregando {0}%"
 #: helpdesk/helpdesk/report/ticket_summary/ticket_summary.py:83
 msgid "User"
 msgstr "Usuário"
-
-#: helpdesk/helpdesk/doctype/hd_team/hd_team.py:137
-msgid "User Not found"
-msgstr "Usuário não encontrado"
 
 #. Label of the user_resolution_time (Duration) field in DocType 'HD Ticket'
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
@@ -5806,10 +5814,6 @@ msgstr "Você não tem permissão para visualizar esta página ou ela não exist
 msgid "You have already provided feedback for this ticket."
 msgstr "Você já enviou um feedback para este chamado."
 
-#: desk/src/pages/home/components/RecentFeedback.vue:214
-msgid "You haven't received any feedback yet"
-msgstr "Você ainda não recebeu nenhum feedback"
-
 #: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.py:132
 msgid "You must set one SLA as Default. Please check the Default SLA option."
 msgstr "Você deve definir um SLA como padrão. Marque a opção SLA padrão."
@@ -5905,10 +5909,6 @@ msgstr "hrs"
 msgid "in"
 msgstr "em"
 
-#: desk/src/components/ticket/TicketMergeModal.vue:39
-msgid "is_merged === 0"
-msgstr ""
-
 #. Option for the 'Type' (Select) field in DocType 'HD View'
 #: helpdesk/helpdesk/doctype/hd_view/hd_view.json
 msgid "kanban"
@@ -5936,14 +5936,14 @@ msgstr "roxo"
 msgid "stars"
 msgstr "estrelas"
 
-#: desk/src/components/ticket/TicketMergeModal.vue:33
-msgid "status_category in ['Open', 'Paused']"
-msgstr ""
-
 #. Label of the synonym (Data) field in DocType 'HD Synonym'
 #: helpdesk/helpdesk/doctype/hd_synonym/hd_synonym.json
 msgid "synonym"
 msgstr "sinônimo"
+
+#: desk/src/pages/home/components/PendingTickets.vue:158
+msgid "ticket"
+msgstr "tíquete"
 
 #: desk/src/pages/ticket/MobileTicketAgent.vue:525
 msgid "viewed this"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-05-03 10:46+0000\n"
-"PO-Revision-Date: 2026-05-04 05:14\n"
+"POT-Creation-Date: 2026-05-24 10:57+0000\n"
+"PO-Revision-Date: 2026-05-27 10:31\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -18,40 +18,9 @@ msgstr ""
 "X-Crowdin-File-ID: 118\n"
 "Language: pt_BR\n"
 
-#. Label of the pinned (Check) field in DocType 'HD View'
-#: helpdesk/helpdesk/doctype/hd_view/hd_view.json
-msgid "Pinned"
-msgstr "Fixado"
-
-#. Label of the placeholder (Data) field in DocType 'HD Ticket Template Field'
-#: helpdesk/helpdesk/doctype/hd_ticket_template_field/hd_ticket_template_field.json
-msgid "Placeholder"
-msgstr "Texto de exemplo"
-
-#: helpdesk/helpdesk/doctype/hd_ticket_priority/hd_ticket_priority.py:21
-msgid "Please add this priority in the <a href='/app/hd-service-level-agreement'>required SLA documents</a>"
-msgstr "Adicione esta prioridade nos <a href='/app/hd-service-level-agreement'>documentos de SLA obrigatórios</a>"
-
-#: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.py:328
-msgid "Please add {0} priority in {1} SLA"
-msgstr "Adicione a prioridade {0} no SLA {1}"
-
-#: desk/src/components/Settings/Telephony/Telephony.vue:216
-msgid "Please configure your Exotel settings correctly"
-msgstr "Configure corretamente as configurações do Exotel"
-
-#: desk/src/components/Settings/Telephony/Telephony.vue:212
-msgid "Please configure your Twilio settings correctly"
-msgstr "Configure corretamente as configurações do Twilio"
-
-#: desk/src/pages/ticket/TicketNew.vue:83
-msgid "Please enter a subject to continue"
-msgstr "Digite um assunto para continuar"
-
-#: desk/src/pages/call-logs/CallLogModal.vue:368
-#: desk/src/pages/call-logs/CallLogModal.vue:376
-msgid "Please enter a valid phone number"
-msgstr "Digite um número de telefone válido"
+#: desk/src/components/Settings/InviteAgents.vue:185
+msgid "Please enter at least one valid email to send an invite."
+msgstr "Informe pelo menos um e-mail válido para enviar um convite."
 
 #: desk/src/components/Settings/Teams/NewTeam.vue:129
 #: desk/src/pages/call-logs/CallLogModal.vue:264
@@ -79,6 +48,10 @@ msgstr "Corrija os erros no formulário"
 #: helpdesk/api/saved_replies.py:11
 msgid "Please provide saved_reply_id"
 msgstr "Informe saved_reply_id"
+
+#: desk/src/components/Settings/General/General.vue:240
+msgid "Please select at least one restriction option for teams in the settings."
+msgstr "Selecione pelo menos uma opção de restrição para equipes nas configurações."
 
 #: helpdesk/helpdesk/doctype/hd_service_holiday_list/hd_service_holiday_list.py:41
 msgid "Please select weekly off day"
@@ -194,9 +167,9 @@ msgstr "Especialistas no produto"
 msgid "Profile"
 msgstr "Perfil"
 
-#: desk/src/components/Settings/Profile/Profile.vue:262
-msgid "Profile Updated Successfully"
-msgstr "Perfil atualizado com sucesso"
+#: desk/src/components/Settings/Profile/Profile.vue:263
+msgid "Profile updated successfully."
+msgstr "Perfil atualizado com sucesso."
 
 #. Label of the public (Check) field in DocType 'HD View'
 #: helpdesk/helpdesk/doctype/hd_view/hd_view.json
@@ -494,6 +467,11 @@ msgstr "Detalhes da resolução"
 msgid "Resolution Due"
 msgstr "Prazo de resolução"
 
+#. Label of the resolution_failed_by (Duration) field in DocType 'HD Ticket'
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.json
+msgid "Resolution Failed By"
+msgstr "Resolução falhou por"
+
 #. Label of the resolution_time (Duration) field in DocType 'HD Service Level
 #. Priority'
 #. Label of the resolution_time (Duration) field in DocType 'HD Ticket'
@@ -782,3 +760,23 @@ msgstr "Nome do parâmetro do termo de pesquisa"
 #: desk/src/components/ticket-agent/AssignTo.vue:62
 msgid "Search agents..."
 msgstr "Pesquisar agentes..."
+
+#: desk/src/components/command-palette/CP.vue:126
+msgid "Search for \"{0}\""
+msgstr "Pesquisar por \"{0}\""
+
+#: desk/src/pages/SearchAgent.vue:100
+msgid "Search index does not exist. Please build the index first."
+msgstr "O índice de pesquisa não existe. Crie o índice primeiro."
+
+#: helpdesk/api/search.py:41
+msgid "Search index not available. Please contact administrator."
+msgstr "Índice de pesquisa indisponível. Entre em contato com o administrador."
+
+#: helpdesk/api/search.py:17
+msgid "Search query must be at least 2 characters"
+msgstr "A consulta de pesquisa deve ter pelo menos 2 caracteres"
+
+#: desk/src/components/Settings/SavedReplies/components/PreviewDialog.vue:19
+msgid "Search ticket"
+msgstr "Pesquisar chamado"

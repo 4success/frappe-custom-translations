@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-05-03 10:46+0000\n"
-"PO-Revision-Date: 2026-05-04 05:14\n"
+"POT-Creation-Date: 2026-05-24 10:57+0000\n"
+"PO-Revision-Date: 2026-05-27 10:31\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,10 @@ msgstr ""
 "X-Crowdin-File: /[frappe.helpdesk] develop/helpdesk/locale/main.pot\n"
 "X-Crowdin-File-ID: 118\n"
 "Language: pt_BR\n"
+
+#: helpdesk/api/dashboard.py:236
+msgid "Avg. feedback rating for the tickets resolved"
+msgstr "Média de feedback dos chamados resolvidos"
 
 #: desk/src/pages/home/components/AvgTimeMetrics.vue:49
 #: desk/src/pages/home/components/AvgTimeMetrics.vue:148
@@ -268,14 +272,6 @@ msgstr "Altere o fuso horário do aplicativo."
 msgid "Change your account password for security."
 msgstr "Altere a senha da sua conta por segurança."
 
-#: desk/src/components/Settings/Agents.vue:103
-msgid "Change your search terms or filters"
-msgstr "Altere os termos de busca ou os filtros"
-
-#: desk/src/components/Settings/Teams/TeamsList.vue:118
-msgid "Change your search terms to find teams."
-msgstr "Altere os termos de busca para encontrar equipes."
-
 #. Label of a Card Break in the Helpdesk Workspace
 #: helpdesk/helpdesk/workspace/helpdesk/helpdesk.json
 msgid "Channels"
@@ -390,7 +386,7 @@ msgid "Comment cannot be empty."
 msgstr "O comentário não pode ficar vazio."
 
 #: desk/src/components/CommentBox.vue:308
-msgid "Comment deleted sucessfully."
+msgid "Comment deleted successfully."
 msgstr "Comentário excluído com sucesso."
 
 #: helpdesk/helpdesk/doctype/hd_ticket_comment/hd_ticket_comment.py:67
@@ -544,6 +540,10 @@ msgstr "Copiar ID do chamado"
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:666
 msgid "Could not an email due to: {0}"
 msgstr "Não foi possível enviar um e-mail devido a: {0}"
+
+#: helpdesk/patches/set_hd_ticket_naming_series.py:37
+msgid "Could not find the `name` column in tabHD Ticket"
+msgstr "Não foi possível encontrar a coluna `name` em tabHD Ticket"
 
 #: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:827
 msgid "Could not send an acknowledgement email due to: {0}"

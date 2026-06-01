@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-05-03 10:46+0000\n"
-"PO-Revision-Date: 2026-05-04 05:14\n"
+"POT-Creation-Date: 2026-05-24 10:57+0000\n"
+"PO-Revision-Date: 2026-05-27 10:31\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -57,6 +57,22 @@ msgstr ""
 msgid "0 is no feedback, 1 is Like, 2 is Dislike"
 msgstr ""
 
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:174
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:192
+msgid "1 Year"
+msgstr ""
+
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:172
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:184
+msgid "3 Months"
+msgstr ""
+
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:173
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:179
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:188
+msgid "6 Months"
+msgstr ""
+
 #: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.py:117
 msgid "<br>Please update HD Settings to use a different status before disabling this status."
 msgstr ""
@@ -96,7 +112,7 @@ msgstr ""
 msgid "API"
 msgstr "API"
 
-#: desk/src/components/Settings/Teams/TeamEdit.vue:338
+#: desk/src/components/Settings/Teams/TeamEdit.vue:274
 msgid "Access all team tickets"
 msgstr ""
 
@@ -104,7 +120,7 @@ msgstr ""
 msgid "Access denied"
 msgstr ""
 
-#: desk/src/components/Settings/Teams/TeamEdit.vue:337
+#: desk/src/components/Settings/Teams/TeamEdit.vue:273
 msgid "Access only this team's tickets"
 msgstr ""
 
@@ -142,7 +158,7 @@ msgstr ""
 msgid "Active"
 msgstr "Ativo"
 
-#: desk/src/pages/ticket/MobileTicketAgent.vue:446
+#: desk/src/pages/ticket/MobileTicketAgent.vue:448
 msgid "Activity"
 msgstr "Atividade"
 
@@ -158,7 +174,7 @@ msgstr ""
 msgid "Add Email"
 msgstr ""
 
-#: desk/src/components/Settings/Holiday/HolidayView.vue:181
+#: desk/src/components/Settings/Holiday/HolidayView.vue:174
 msgid "Add Holiday"
 msgstr ""
 
@@ -172,7 +188,7 @@ msgstr ""
 msgid "Add Weekly Holidays"
 msgstr "Adicionar Feriados Semanais"
 
-#: desk/src/components/layouts/Sidebar.vue:481
+#: desk/src/components/layouts/Sidebar.vue:500
 msgid "Add a comment on a ticket"
 msgstr ""
 
@@ -198,30 +214,25 @@ msgstr "Adicionar condição"
 msgid "Add condition group"
 msgstr ""
 
-#: desk/src/components/Settings/Holiday/HolidayView.vue:154
+#: desk/src/components/Settings/Holiday/HolidayView.vue:147
 msgid "Add holidays here to make sure they’re excluded from SLA calculations."
 msgstr ""
 
-#: desk/src/components/Settings/Teams/TeamEdit.vue:97
+#: desk/src/components/Settings/Teams/TeamEdit.vue:108
 msgid "Add members to this team to get started."
 msgstr ""
 
-#: desk/src/components/Settings/Agents.vue:104
 #: desk/src/components/Settings/Assignment Rules/AssignmentRulesListView.vue:23
-#: desk/src/components/Settings/EmailAccountList.vue:55
-#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:62
 #: desk/src/components/Settings/Holiday/HolidayList.vue:23
-#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:98
 #: desk/src/components/Settings/Sla/SlaPolicyList.vue:23
-#: desk/src/components/Settings/Teams/TeamsList.vue:119
 msgid "Add one to get started."
 msgstr ""
 
-#: desk/src/components/Settings/Holiday/HolidayView.vue:135
+#: desk/src/components/Settings/Holiday/HolidayView.vue:128
 msgid "Add recurring holidays such as weekends."
 msgstr ""
 
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:199
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:192
 msgid "Add time targets around support milestones like first reply and resolution times."
 msgstr ""
 
@@ -279,7 +290,7 @@ msgstr ""
 msgid "Agent Configuration"
 msgstr ""
 
-#: desk/src/pages/dashboard/Dashboard.vue:242
+#: desk/src/pages/dashboard/Dashboard.vue:254
 msgid "Agent Dashboard"
 msgstr ""
 
@@ -301,7 +312,7 @@ msgstr ""
 msgid "Agent Name"
 msgstr ""
 
-#: desk/src/components/Settings/Agents.vue:117
+#: desk/src/components/Settings/Agents.vue:106
 msgid "Agent name"
 msgstr ""
 
@@ -315,7 +326,7 @@ msgstr ""
 
 #. Name of a role
 #: desk/src/components/SavedRepliesSelectorModal.vue:159
-#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:328
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:321
 #: desk/src/components/ticket/TicketSplitModal.vue:6
 #: helpdesk/helpdesk/doctype/hd_article/hd_article.json
 #: helpdesk/helpdesk/doctype/hd_article_category/hd_article_category.json
@@ -331,17 +342,17 @@ msgstr ""
 msgid "All"
 msgstr "Todos"
 
-#: desk/src/pages/home/components/PendingTickets.vue:231
+#: desk/src/pages/home/components/PendingTickets.vue:253
 msgid "All SLAs on track"
 msgstr ""
 
-#: desk/src/pages/home/components/RecentFeedback.vue:285
-#: desk/src/pages/home/components/RecentFeedback.vue:314
-#: desk/src/pages/home/components/RecentFeedback.vue:321
+#: desk/src/pages/home/components/RecentFeedback.vue:350
+#: desk/src/pages/home/components/RecentFeedback.vue:388
+#: desk/src/pages/home/components/RecentFeedback.vue:396
 msgid "All Time"
 msgstr ""
 
-#: desk/src/components/layouts/Sidebar.vue:276
+#: desk/src/components/layouts/Sidebar.vue:285
 msgid "All Views"
 msgstr ""
 
@@ -353,7 +364,7 @@ msgstr ""
 msgid "All comments and emails of the ticket will be moved to the"
 msgstr ""
 
-#: desk/src/pages/home/components/PendingTickets.vue:240
+#: desk/src/pages/home/components/PendingTickets.vue:262
 msgid "All your assigned tickets have been responded to"
 msgstr ""
 
@@ -442,10 +453,6 @@ msgstr ""
 msgid "Are you sure you want to delete these articles?"
 msgstr ""
 
-#: desk/src/components/Settings/Teams/TeamEdit.vue:107
-msgid "Are you sure you want to delete this team? This action cannot be reversed!"
-msgstr ""
-
 #: desk/src/components/ticket-agent/TicketHeader.vue:204
 msgid "Are you sure you want to delete this ticket? This is an irreversible action and cannot be undone."
 msgstr ""
@@ -458,24 +465,24 @@ msgstr ""
 msgid "Are you sure you want to discard changes?"
 msgstr ""
 
-#: desk/src/pages/knowledge-base/NewArticle.vue:146
+#: desk/src/pages/knowledge-base/NewArticle.vue:144
 msgid "Are you sure you want to discard this article?"
 msgstr ""
 
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:466
-#: desk/src/components/Settings/EmailNotifications/Notification.vue:110
-#: desk/src/components/Settings/FieldDependency/FieldDependency.vue:81
-#: desk/src/components/Settings/Holiday/HolidayView.vue:210
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:460
+#: desk/src/components/Settings/EmailNotifications/Notification.vue:103
+#: desk/src/components/Settings/FieldDependency/FieldDependency.vue:77
+#: desk/src/components/Settings/Holiday/HolidayView.vue:203
 #: desk/src/components/Settings/Profile/UserEmailSettings.vue:243
-#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:311
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:371
-#: desk/src/components/Settings/Teams/NewTeam.vue:109
-#: desk/src/components/Settings/Telephony/ExotelSettings.vue:230
-#: desk/src/components/Settings/Telephony/TwilioSettings.vue:199
+#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:310
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:365
+#: desk/src/components/Settings/Teams/NewTeam.vue:119
+#: desk/src/components/Settings/Telephony/ExotelSettings.vue:226
+#: desk/src/components/Settings/Telephony/TwilioSettings.vue:195
 msgid "Are you sure you want to go back? Unsaved changes will be lost."
 msgstr ""
 
-#: desk/src/components/Settings/Assignment Rules/AssigneeSearch.vue:162
+#: desk/src/components/Settings/Assignment Rules/AssigneeSearch.vue:164
 msgid "Are you sure you want to leave? Unsaved changes will be lost."
 msgstr ""
 
@@ -483,7 +490,7 @@ msgstr ""
 msgid "Are you sure you want to remove the logo?"
 msgstr ""
 
-#: desk/src/components/Settings/EmailNotifications/Notification.vue:123
+#: desk/src/components/Settings/EmailNotifications/Notification.vue:116
 msgid "Are you sure you want to reset the content? Current content will be overridden."
 msgstr ""
 
@@ -497,7 +504,7 @@ msgstr ""
 msgid "Article body cannot be set as empty."
 msgstr ""
 
-#: desk/src/pages/knowledge-base/NewArticle.vue:119
+#: desk/src/pages/knowledge-base/NewArticle.vue:117
 msgid "Article created successfully."
 msgstr ""
 
@@ -525,7 +532,7 @@ msgstr ""
 msgid "Articles moved successfully."
 msgstr ""
 
-#: desk/src/components/layouts/Sidebar.vue:458
+#: desk/src/components/layouts/Sidebar.vue:475
 msgid "Assign a ticket to an agent"
 msgstr ""
 
@@ -573,13 +580,13 @@ msgstr ""
 msgid "Assignment"
 msgstr "Tarefa"
 
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:138
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:131
 msgid "Assignment Condition"
 msgstr ""
 
 #. Label of the filters_section (Section Break) field in DocType 'HD Service
 #. Level Agreement'
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:82
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:75
 #: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.json
 msgid "Assignment Conditions"
 msgstr ""
@@ -602,7 +609,7 @@ msgstr "Regras de atribuição"
 msgid "Assignment Rules automatically route tickets to the right team members based on predefined conditions."
 msgstr ""
 
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:292
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:285
 msgid "Assignment Schedule"
 msgstr "Cronograma de atribuições"
 
@@ -610,7 +617,7 @@ msgstr "Cronograma de atribuições"
 msgid "Assignment rule"
 msgstr ""
 
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:561
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:555
 msgid "Assignment rule created successfully."
 msgstr ""
 
@@ -622,7 +629,7 @@ msgstr ""
 msgid "Assignment rule duplicated successfully."
 msgstr ""
 
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:648
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:642
 msgid "Assignment rule updated successfully."
 msgstr ""
 
@@ -634,10 +641,6 @@ msgstr ""
 msgid "At least one email is required"
 msgstr ""
 
-#: desk/src/components/Settings/InviteAgents.vue:171
-msgid "At least one email required"
-msgstr ""
-
 #: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.py:73
 msgid "At least one enabled status for <u>{0}</u> category must be enabled."
 msgstr ""
@@ -646,7 +649,7 @@ msgstr ""
 msgid "At least one feedback option must be enabled for rating {0}"
 msgstr ""
 
-#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:451
+#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:450
 msgid "At least one team is required"
 msgstr ""
 
@@ -732,8 +735,8 @@ msgstr ""
 msgid "Average feedback rating per day is around {0} stars"
 msgstr ""
 
-#: desk/src/pages/home/components/AvgTimeMetrics.vue:37
-msgid "Average response and resolution metrics not yet generated"
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:103
+msgid "Average response and resolution metrics not available"
 msgstr ""
 
 #: helpdesk/api/dashboard.py:286
@@ -750,8 +753,4 @@ msgstr ""
 
 #: helpdesk/api/dashboard.py:215
 msgid "Avg. Resolution"
-msgstr ""
-
-#: helpdesk/api/dashboard.py:236
-msgid "Avg. feedback rating for the tickets resolved"
 msgstr ""

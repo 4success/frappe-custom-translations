@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-05-03 10:46+0000\n"
-"PO-Revision-Date: 2026-05-04 05:14\n"
+"POT-Creation-Date: 2026-05-24 10:57+0000\n"
+"PO-Revision-Date: 2026-05-27 10:31\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -17,16 +17,6 @@ msgstr ""
 "X-Crowdin-File: /[frappe.helpdesk] develop/helpdesk/locale/main.pot\n"
 "X-Crowdin-File-ID: 118\n"
 "Language: pt_BR\n"
-
-#. Description of the 'Integer value' (Int) field in DocType 'HD Ticket
-#. Priority'
-#: helpdesk/helpdesk/doctype/hd_ticket_priority/hd_ticket_priority.json
-msgid "Lower the Integer value, higher is the priority of the issue"
-msgstr ""
-
-#: desk/src/pages/ticket/Tickets.vue:448
-msgid "Make Private"
-msgstr ""
 
 #: desk/src/pages/ticket/Tickets.vue:448
 msgid "Make Public"
@@ -52,7 +42,7 @@ msgstr ""
 msgid "Manage pre-defined responses that can be used to respond to customer queries."
 msgstr ""
 
-#: desk/src/components/Settings/Profile/Profile.vue:128
+#: desk/src/components/Settings/Profile/Profile.vue:120
 msgid "Manage your account emails and email signature for communication."
 msgstr ""
 
@@ -73,20 +63,12 @@ msgstr ""
 msgid "Mark all as read"
 msgstr "Marcar tudo como lido"
 
-#: desk/src/components/Settings/Teams/NewTeam.vue:46
+#: desk/src/components/Settings/Teams/NewTeam.vue:47
 msgid "Members"
 msgstr "Membros"
 
-#: desk/src/components/Settings/Teams/TeamEdit.vue:57
+#: desk/src/components/Settings/Teams/TeamEdit.vue:67
 msgid "Members ({0})"
-msgstr ""
-
-#: desk/src/components/Settings/Teams/TeamEdit.vue:309
-msgid "Members of this team will be able to see the tickets assigned to all the teams"
-msgstr ""
-
-#: desk/src/components/Settings/Teams/TeamEdit.vue:306
-msgid "Members of this team will see the tickets assigned to this team only"
 msgstr ""
 
 #. Option for the 'Type' (Select) field in DocType 'HD Notification'
@@ -137,12 +119,12 @@ msgstr "Mensal"
 msgid "Move To"
 msgstr "Mover para"
 
-#: desk/src/pages/dashboard/Dashboard.vue:243
+#: desk/src/pages/dashboard/Dashboard.vue:255
 msgid "My Dashboard"
 msgstr ""
 
 #: desk/src/components/SavedRepliesSelectorModal.vue:169
-#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:342
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:335
 msgid "My Team"
 msgstr ""
 
@@ -155,14 +137,14 @@ msgstr ""
 #. Label of the organization_name (Data) field in DocType 'HD Organization'
 #. Label of the brand_name (Data) field in DocType 'HD Settings'
 #. Label of the team_name (Data) field in DocType 'HD Team'
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:62
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:63
-#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:78
-#: desk/src/components/Settings/Holiday/HolidayView.vue:53
-#: desk/src/components/Settings/Holiday/HolidayView.vue:54
-#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:63
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:58
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:59
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:55
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:56
+#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:67
+#: desk/src/components/Settings/Holiday/HolidayView.vue:46
+#: desk/src/components/Settings/Holiday/HolidayView.vue:47
+#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:56
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:51
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:52
 #: helpdesk/helpdesk/doctype/hd_article_category/hd_article_category.json
 #: helpdesk/helpdesk/doctype/hd_organization/hd_organization.json
 #: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
@@ -185,8 +167,8 @@ msgstr ""
 msgid "Navigation"
 msgstr ""
 
-#: desk/src/pages/home/components/RecentFeedback.vue:308
-#: desk/src/pages/home/components/RecentFeedback.vue:325
+#: desk/src/pages/home/components/RecentFeedback.vue:382
+#: desk/src/pages/home/components/RecentFeedback.vue:400
 msgid "Negative first"
 msgstr ""
 
@@ -203,8 +185,8 @@ msgstr ""
 msgid "New"
 msgstr "Novo"
 
-#: desk/src/pages/knowledge-base/NewArticle.vue:176
-#: desk/src/pages/knowledge-base/NewArticle.vue:183
+#: desk/src/pages/knowledge-base/NewArticle.vue:174
+#: desk/src/pages/knowledge-base/NewArticle.vue:181
 msgid "New Article"
 msgstr ""
 
@@ -224,11 +206,11 @@ msgstr ""
 msgid "New Call Log"
 msgstr ""
 
-#: desk/src/components/Settings/FieldDependency/FieldDependency.vue:113
+#: desk/src/components/Settings/FieldDependency/FieldDependency.vue:110
 msgid "New Field Dependency"
 msgstr ""
 
-#: desk/src/components/Settings/Holiday/HolidayListItem.vue:34
+#: desk/src/components/Settings/Holiday/HolidayListItem.vue:36
 msgid "New Holiday List Name"
 msgstr ""
 
@@ -248,11 +230,11 @@ msgstr ""
 msgid "New Saved Reply"
 msgstr ""
 
-#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:189
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:181
 msgid "New Saved reply Name"
 msgstr ""
 
-#: desk/src/pages/ticket/MobileTicketAgent.vue:139
+#: desk/src/pages/ticket/MobileTicketAgent.vue:141
 msgid "New Subject"
 msgstr ""
 
@@ -265,8 +247,7 @@ msgstr ""
 msgid "New Ticket"
 msgstr ""
 
-#: desk/src/components/Settings/Teams/RenameTeamModal.vue:48
-#: desk/src/components/Settings/Teams/TeamEdit.vue:264
+#: desk/src/components/Settings/Teams/RenameTeamModal.vue:49
 msgid "New and old title cannot be same"
 msgstr ""
 
@@ -274,12 +255,11 @@ msgstr ""
 msgid "New team"
 msgstr ""
 
-#: desk/src/components/Settings/Teams/RenameTeamModal.vue:46
-#: desk/src/components/Settings/Teams/TeamEdit.vue:262
+#: desk/src/components/Settings/Teams/RenameTeamModal.vue:47
 msgid "New title is required"
 msgstr ""
 
-#: desk/src/components/Settings/General/General.vue:58
+#: desk/src/components/Settings/General/General.vue:50
 msgid "New users will have to be manually registered by system managers."
 msgstr "Novos usuários terão que ser registrados manualmente pelos gerentes do sistema."
 
@@ -295,7 +275,7 @@ msgstr ""
 msgid "No Data Found"
 msgstr ""
 
-#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:590
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:492
 msgid "No Email Account found for {0}"
 msgstr ""
 
@@ -311,12 +291,8 @@ msgstr ""
 msgid "No Team"
 msgstr ""
 
-#: desk/src/pages/home/components/RecentFeedback.vue:163
+#: desk/src/pages/home/components/RecentFeedback.vue:202
 msgid "No additional comments"
-msgstr ""
-
-#: desk/src/components/Settings/Agents.vue:98
-msgid "No agent found"
 msgstr ""
 
 #: desk/src/components/ticket-agent/AssignTo.vue:122
@@ -335,7 +311,7 @@ msgstr ""
 msgid "No assignment rule found"
 msgstr ""
 
-#: desk/src/pages/home/components/AvgTimeMetrics.vue:34
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:101
 msgid "No average metrics"
 msgstr ""
 
@@ -363,19 +339,11 @@ msgstr ""
 msgid "No customers found for the applied filters. Try adjusting or clearing your filters."
 msgstr ""
 
-#: desk/src/components/Settings/EmailAccountList.vue:52
-msgid "No email account found"
-msgstr ""
-
-#: desk/src/pages/home/components/RecentFeedback.vue:211
+#: desk/src/pages/home/components/RecentFeedback.vue:273
 msgid "No feedback"
 msgstr ""
 
-#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:59
-msgid "No field dependency found"
-msgstr ""
-
-#: desk/src/components/Settings/Teams/TeamEdit.vue:94
+#: desk/src/components/Settings/Teams/TeamEdit.vue:105
 msgid "No members found"
 msgstr ""
 
@@ -383,8 +351,8 @@ msgstr ""
 msgid "No new notifications"
 msgstr ""
 
-#: desk/src/pages/home/components/PendingTickets.vue:236
-msgid "No new tickets assigned to you in the last 24 hours"
+#: desk/src/pages/home/components/PendingTickets.vue:258
+msgid "No new tickets assigned to you in the last 7 days"
 msgstr ""
 
 #: desk/src/components/ticket-agent/TicketNavigation.vue:22
@@ -395,7 +363,7 @@ msgstr ""
 msgid "No one"
 msgstr ""
 
-#: desk/src/pages/home/components/PendingTickets.vue:239
+#: desk/src/pages/home/components/PendingTickets.vue:261
 msgid "No pending tickets"
 msgstr ""
 
@@ -403,25 +371,20 @@ msgstr ""
 msgid "No previous ticket"
 msgstr ""
 
-#: desk/src/pages/home/components/PendingTickets.vue:86
+#: desk/src/pages/home/components/PendingTickets.vue:94
 msgid "No reason"
 msgstr ""
 
-#: desk/src/pages/home/components/PendingTickets.vue:235
+#: desk/src/pages/home/components/PendingTickets.vue:257
 msgid "No recently assigned tickets"
 msgstr ""
 
-#: desk/src/components/Settings/Assignment Rules/AssigneeSearch.vue:76
+#: desk/src/components/Settings/Assignment Rules/AssigneeSearch.vue:78
 msgid "No results found"
 msgstr ""
 
 #: desk/src/components/SavedRepliesSelectorModal.vue:107
-#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:95
 msgid "No saved replies found"
-msgstr ""
-
-#: desk/src/components/Settings/Teams/TeamsList.vue:113
-msgid "No team found"
 msgstr ""
 
 #: desk/src/pages/ticket/Tickets.vue:163
@@ -444,7 +407,7 @@ msgstr ""
 msgid "Not Allowed"
 msgstr "Não Permitido"
 
-#: desk/src/pages/home/components/PendingTickets.vue:61
+#: desk/src/pages/home/components/PendingTickets.vue:69
 msgid "Not Assigned"
 msgstr ""
 
@@ -469,12 +432,12 @@ msgstr "Configurações de notificação"
 msgid "Notifications"
 msgstr "Notificações"
 
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:162
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:243
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:155
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:236
 msgid "Old Condition"
 msgstr "Condição antiga"
 
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:104
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:97
 msgid "Old Conditions"
 msgstr ""
 
@@ -564,7 +527,7 @@ msgstr "Ordem"
 msgid "Order By"
 msgstr "Ordenar Por"
 
-#: desk/src/pages/dashboard/Dashboard.vue:243
+#: desk/src/pages/dashboard/Dashboard.vue:255
 msgid "Organization Dashboard"
 msgstr ""
 
@@ -584,7 +547,7 @@ msgstr "Saída"
 msgid "Outside working hours notice"
 msgstr ""
 
-#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:113
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:102
 msgid "Owner"
 msgstr "Proprietário"
 
@@ -600,7 +563,7 @@ msgstr ""
 msgid "Parent field, child field, and parent-child mapping are required."
 msgstr ""
 
-#: desk/src/components/Settings/Profile/Profile.vue:142
+#: desk/src/components/Settings/Profile/Profile.vue:134
 msgid "Password"
 msgstr "Senha"
 
@@ -633,17 +596,17 @@ msgstr ""
 msgid "Paused"
 msgstr ""
 
-#: desk/src/pages/home/components/PendingTickets.vue:200
+#: desk/src/pages/home/components/PendingTickets.vue:222
 msgid "Pending"
 msgstr "Pendente"
 
-#: desk/src/components/Settings/InviteAgents.vue:36
+#: desk/src/components/Settings/InviteAgents.vue:42
 msgid "Pending Invites"
 msgstr ""
 
 #: desk/src/pages/home/Home.vue:353
-#: desk/src/pages/home/components/PendingTickets.vue:212
-#: desk/src/pages/home/components/PendingTickets.vue:216
+#: desk/src/pages/home/components/PendingTickets.vue:234
+#: desk/src/pages/home/components/PendingTickets.vue:238
 msgid "Pending Tickets"
 msgstr ""
 
@@ -669,14 +632,14 @@ msgstr "Período"
 
 #. Option for the 'Scope' (Select) field in DocType 'HD Saved Reply'
 #: desk/src/components/SavedRepliesSelectorModal.vue:164
-#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:335
-#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:375
-#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:224
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:328
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:368
+#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:220
 #: helpdesk/helpdesk/doctype/hd_saved_reply/hd_saved_reply.json
 msgid "Personal"
 msgstr "Pessoal"
 
-#: desk/src/components/Settings/Telephony/ExotelSettings.vue:69
+#: desk/src/components/Settings/Telephony/ExotelSettings.vue:64
 msgid "Personal mobile no"
 msgstr ""
 
@@ -701,3 +664,38 @@ msgstr ""
 #: helpdesk/helpdesk/doctype/hd_ticket_status/hd_ticket_status.json
 msgid "Pink"
 msgstr "Rosa"
+
+#. Label of the pinned (Check) field in DocType 'HD View'
+#: helpdesk/helpdesk/doctype/hd_view/hd_view.json
+msgid "Pinned"
+msgstr ""
+
+#. Label of the placeholder (Data) field in DocType 'HD Ticket Template Field'
+#: helpdesk/helpdesk/doctype/hd_ticket_template_field/hd_ticket_template_field.json
+msgid "Placeholder"
+msgstr "Espaço reservado"
+
+#: helpdesk/helpdesk/doctype/hd_ticket_priority/hd_ticket_priority.py:21
+msgid "Please add this priority in the <a href='/app/hd-service-level-agreement'>required SLA documents</a>"
+msgstr ""
+
+#: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.py:341
+msgid "Please add {0} priority in {1} SLA"
+msgstr ""
+
+#: desk/src/components/Settings/Telephony/Telephony.vue:213
+msgid "Please configure your Exotel settings correctly"
+msgstr ""
+
+#: desk/src/components/Settings/Telephony/Telephony.vue:209
+msgid "Please configure your Twilio settings correctly"
+msgstr ""
+
+#: desk/src/pages/ticket/TicketNew.vue:83
+msgid "Please enter a subject to continue"
+msgstr ""
+
+#: desk/src/pages/call-logs/CallLogModal.vue:368
+#: desk/src/pages/call-logs/CallLogModal.vue:376
+msgid "Please enter a valid phone number"
+msgstr ""

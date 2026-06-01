@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-05-03 10:46+0000\n"
-"PO-Revision-Date: 2026-05-04 05:14\n"
+"POT-Creation-Date: 2026-05-24 10:57+0000\n"
+"PO-Revision-Date: 2026-05-27 10:31\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: Portuguese, Brazilian\n"
 "MIME-Version: 1.0\n"
@@ -18,13 +18,17 @@ msgstr ""
 "X-Crowdin-File-ID: 118\n"
 "Language: pt_BR\n"
 
-#: desk/src/pages/home/components/AvgTimeMetrics.vue:49
-#: desk/src/pages/home/components/AvgTimeMetrics.vue:148
+#: helpdesk/api/dashboard.py:236
+msgid "Avg. feedback rating for the tickets resolved"
+msgstr ""
+
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:117
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:286
 msgid "Avg. first response time"
 msgstr ""
 
-#: desk/src/pages/home/components/AvgTimeMetrics.vue:58
-#: desk/src/pages/home/components/AvgTimeMetrics.vue:156
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:126
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:294
 msgid "Avg. resolution time"
 msgstr ""
 
@@ -36,7 +40,7 @@ msgstr ""
 msgid "Avg. time taken to resolve a ticket"
 msgstr ""
 
-#: desk/src/components/Settings/EmailAdd.vue:143
+#: desk/src/components/Settings/EmailAdd.vue:145
 #: desk/src/components/Settings/EmailEdit.vue:134
 msgid "Back"
 msgstr "Voltar"
@@ -117,7 +121,7 @@ msgstr ""
 msgid "Call Details"
 msgstr "Detalhes da Chamada"
 
-#: desk/src/components/layouts/Sidebar.vue:271
+#: desk/src/components/layouts/Sidebar.vue:280
 msgid "Call Logs"
 msgstr ""
 
@@ -133,19 +137,19 @@ msgstr ""
 msgid "Caller"
 msgstr ""
 
-#: desk/src/pages/ticket/MobileTicketAgent.vue:464
+#: desk/src/pages/ticket/MobileTicketAgent.vue:466
 msgid "Calls"
 msgstr ""
 
-#: desk/src/components/Settings/InviteAgents.vue:148
+#: desk/src/components/Settings/InviteAgents.vue:162
 msgid "Can invite new agents, manage tickets, create custom views and manage public views."
 msgstr ""
 
-#: desk/src/components/Settings/InviteAgents.vue:156
+#: desk/src/components/Settings/InviteAgents.vue:170
 msgid "Can manage all aspects of Helpdesk."
 msgstr ""
 
-#: desk/src/components/Settings/InviteAgents.vue:140
+#: desk/src/components/Settings/InviteAgents.vue:154
 msgid "Can work on tickets, create custom views and manage private views."
 msgstr ""
 
@@ -153,7 +157,7 @@ msgstr ""
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: desk/src/components/Settings/InviteAgents.vue:57
+#: desk/src/components/Settings/InviteAgents.vue:63
 msgid "Cancel Invitation"
 msgstr ""
 
@@ -161,7 +165,7 @@ msgstr ""
 msgid "Canceled"
 msgstr ""
 
-#: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.py:513
+#: helpdesk/helpdesk/doctype/hd_service_level_agreement/hd_service_level_agreement.py:526
 msgid "Cannot delete the default SLA. At least one SLA must be marked as default."
 msgstr ""
 
@@ -227,16 +231,16 @@ msgstr ""
 msgid "Change"
 msgstr "Moedas"
 
-#: desk/src/components/Settings/Profile/Profile.vue:150
+#: desk/src/components/Settings/Profile/Profile.vue:142
 #: desk/src/components/Settings/Profile/components/ChangePasswordModal.vue:2
 msgid "Change Password"
 msgstr "Alterar Senha"
 
-#: desk/src/components/Settings/Profile/Profile.vue:228
+#: desk/src/components/Settings/Profile/Profile.vue:221
 msgid "Change Photo"
 msgstr ""
 
-#: desk/src/components/Settings/Profile/Profile.vue:161
+#: desk/src/components/Settings/Profile/Profile.vue:153
 msgid "Change language of the application."
 msgstr ""
 
@@ -260,20 +264,12 @@ msgstr ""
 msgid "Change ticket type"
 msgstr ""
 
-#: desk/src/components/Settings/Profile/Profile.vue:177
+#: desk/src/components/Settings/Profile/Profile.vue:169
 msgid "Change timezone of the application."
 msgstr ""
 
-#: desk/src/components/Settings/Profile/Profile.vue:145
+#: desk/src/components/Settings/Profile/Profile.vue:137
 msgid "Change your account password for security."
-msgstr ""
-
-#: desk/src/components/Settings/Agents.vue:103
-msgid "Change your search terms or filters"
-msgstr ""
-
-#: desk/src/components/Settings/Teams/TeamsList.vue:118
-msgid "Change your search terms to find teams."
 msgstr ""
 
 #. Label of a Card Break in the Helpdesk Workspace
@@ -281,11 +277,11 @@ msgstr ""
 msgid "Channels"
 msgstr ""
 
-#: desk/src/components/Settings/FieldDependency/FieldDependencyFieldsSelection.vue:17
+#: desk/src/components/Settings/FieldDependency/FieldDependencyFieldsSelection.vue:18
 msgid "Child field"
 msgstr ""
 
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:151
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:144
 msgid "Choose how long this SLA policy will be active."
 msgstr ""
 
@@ -293,11 +289,11 @@ msgstr ""
 msgid "Choose how tickets are distributed among selected assignees."
 msgstr ""
 
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:296
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:289
 msgid "Choose the days of the week when this rule should be active."
 msgstr "Escolha os dias da semana em que esta regra deve estar ativa."
 
-#: desk/src/components/Settings/Holiday/HolidayView.vue:82
+#: desk/src/components/Settings/Holiday/HolidayView.vue:75
 msgid "Choose the duration of this holiday list."
 msgstr ""
 
@@ -305,19 +301,19 @@ msgstr ""
 msgid "Choose the email service provider you want to configure."
 msgstr ""
 
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:143
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:136
 msgid "Choose which tickets are affected by this assignment rule."
 msgstr ""
 
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:85
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:78
 msgid "Choose which tickets are affected by this policy."
 msgstr ""
 
-#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:220
+#: desk/src/components/Settings/Assignment Rules/AssignmentRuleView.vue:213
 msgid "Choose which tickets are affected by this un-assignment rule."
 msgstr ""
 
-#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:95
+#: desk/src/components/Settings/SavedReplies/SavedReplyView.vue:89
 msgid "Choose who can view and use this response."
 msgstr "Escolha quem pode visualizar e usar esta resposta."
 
@@ -339,10 +335,10 @@ msgid "Click on Add to Holidays. This will populate the holidays table with all 
 msgstr ""
 
 #: desk/src/components/Settings/Assignment Rules/AssignmentRuleListItem.vue:69
-#: desk/src/components/Settings/Holiday/HolidayListItem.vue:45
-#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:199
+#: desk/src/components/Settings/Holiday/HolidayListItem.vue:47
+#: desk/src/components/Settings/SavedReplies/SavedRepliesList.vue:191
 #: desk/src/components/Settings/Sla/SlaPolicyListItem.vue:58
-#: desk/src/pages/ticket/MobileTicketAgent.vue:157
+#: desk/src/pages/ticket/MobileTicketAgent.vue:159
 #: desk/src/pages/ticket/TicketCustomer.vue:14
 msgid "Close"
 msgstr "Fechar"
@@ -356,7 +352,7 @@ msgstr ""
 msgid "Closed"
 msgstr "Fechado"
 
-#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:352
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:351
 msgid "Closed or rated tickets cannot be updated by non-agents"
 msgstr ""
 
@@ -390,7 +386,7 @@ msgid "Comment cannot be empty."
 msgstr ""
 
 #: desk/src/components/CommentBox.vue:308
-msgid "Comment deleted sucessfully."
+msgid "Comment deleted successfully."
 msgstr ""
 
 #: helpdesk/helpdesk/doctype/hd_ticket_comment/hd_ticket_comment.py:67
@@ -409,7 +405,7 @@ msgstr ""
 
 #. Label of the comments_section (Section Break) field in DocType 'HD Settings'
 #: desk/src/pages/SearchAgent.vue:353
-#: desk/src/pages/ticket/MobileTicketAgent.vue:456
+#: desk/src/pages/ticket/MobileTicketAgent.vue:458
 #: helpdesk/helpdesk/doctype/hd_settings/hd_settings.json
 msgid "Comments"
 msgstr "Comentários"
@@ -433,7 +429,7 @@ msgstr "Concluído"
 msgid "Condition"
 msgstr "Condição"
 
-#: desk/src/components/Settings/Profile/Profile.vue:135
+#: desk/src/components/Settings/Profile/Profile.vue:127
 msgid "Configure"
 msgstr ""
 
@@ -441,7 +437,7 @@ msgstr ""
 msgid "Configure your Exotel settings for Helpdesk."
 msgstr ""
 
-#: desk/src/components/Settings/Telephony/Telephony.vue:101
+#: desk/src/components/Settings/Telephony/Telephony.vue:97
 msgid "Configure your Exotel telephony integration settings here"
 msgstr ""
 
@@ -449,7 +445,7 @@ msgstr ""
 msgid "Configure your Twilio settings for Helpdesk."
 msgstr ""
 
-#: desk/src/components/Settings/Telephony/Telephony.vue:80
+#: desk/src/components/Settings/Telephony/Telephony.vue:76
 msgid "Configure your Twilio telephony integration settings here"
 msgstr ""
 
@@ -457,11 +453,9 @@ msgstr ""
 msgid "Configure your telephony settings."
 msgstr ""
 
-#: desk/src/components/Settings/Teams/TeamEdit.vue:115
-#: desk/src/components/Settings/Teams/TeamEdit.vue:241
 #: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:323
-#: desk/src/pages/knowledge-base/NewArticle.vue:149
-#: desk/src/pages/ticket/MobileTicketAgent.vue:154
+#: desk/src/pages/knowledge-base/NewArticle.vue:147
+#: desk/src/pages/ticket/MobileTicketAgent.vue:156
 #: desk/src/pages/ticket/TicketCustomer.vue:296
 #: desk/src/pages/ticket/Tickets.vue:375 desk/src/pages/ticket/Tickets.vue:497
 msgid "Confirm"
@@ -475,11 +469,11 @@ msgstr ""
 msgid "Confirm Password"
 msgstr "Confirmar senha"
 
-#: desk/src/components/Settings/Sla/SlaPolicyView.vue:409
+#: desk/src/components/Settings/Sla/SlaPolicyView.vue:403
 msgid "Confirm overwrite"
 msgstr ""
 
-#: desk/src/components/layouts/Sidebar.vue:415
+#: desk/src/components/layouts/Sidebar.vue:432
 msgid "Connect your support email"
 msgstr ""
 
@@ -541,30 +535,34 @@ msgstr ""
 msgid "Copy ticket id"
 msgstr ""
 
-#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:666
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:668
 msgid "Could not an email due to: {0}"
 msgstr ""
 
-#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:827
+#: helpdesk/patches/set_hd_ticket_naming_series.py:37
+msgid "Could not find the `name` column in tabHD Ticket"
+msgstr ""
+
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:829
 msgid "Could not send an acknowledgement email due to: {0}"
 msgstr ""
 
-#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:170
+#: helpdesk/helpdesk/doctype/hd_ticket/hd_ticket.py:169
 msgid "Could not send feedback email,due to: {0}"
 msgstr ""
 
-#: desk/src/components/Settings/EmailAdd.vue:150
+#: desk/src/components/Settings/EmailAdd.vue:152
 #: desk/src/components/Settings/NewTeamModal.vue:8
 #: desk/src/components/desk/global/NewContactDialog.vue:39
-#: desk/src/components/layouts/Sidebar.vue:517
+#: desk/src/components/layouts/Sidebar.vue:537
 #: desk/src/pages/call-logs/CallLogModal.vue:225
 #: desk/src/pages/knowledge-base/KnowledgeBaseAgent.vue:11
-#: desk/src/pages/knowledge-base/NewArticle.vue:31
+#: desk/src/pages/knowledge-base/NewArticle.vue:29
 msgid "Create"
 msgstr "Criar"
 
-#: desk/src/components/layouts/Sidebar.vue:510
-#: desk/src/components/layouts/Sidebar.vue:516
+#: desk/src/components/layouts/Sidebar.vue:530
+#: desk/src/components/layouts/Sidebar.vue:536
 msgid "Create & invite a contact"
 msgstr ""
 
@@ -576,11 +574,11 @@ msgstr ""
 msgid "Create View"
 msgstr ""
 
-#: desk/src/components/layouts/Sidebar.vue:448
+#: desk/src/components/layouts/Sidebar.vue:465
 msgid "Create a ticket"
 msgstr ""
 
-#: desk/src/components/layouts/Sidebar.vue:493
+#: desk/src/components/layouts/Sidebar.vue:513
 msgid "Create an article"
 msgstr ""
 
@@ -596,7 +594,7 @@ msgstr ""
 msgid "Create new business holiday"
 msgstr ""
 
-#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:79
+#: desk/src/components/Settings/FieldDependency/FieldDependencyList.vue:68
 msgid "Created by"
 msgstr ""
 
@@ -612,8 +610,12 @@ msgstr ""
 msgid "Custom Outside Working Hours Message"
 msgstr ""
 
-#: desk/src/pages/dashboard/Dashboard.vue:489
-#: desk/src/pages/dashboard/Dashboard.vue:495
+#: desk/src/pages/dashboard/Dashboard.vue:504
+#: desk/src/pages/dashboard/Dashboard.vue:510
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:175
+#: desk/src/pages/home/components/AvgTimeMetrics.vue:196
+#: desk/src/pages/home/components/RecentFeedback.vue:366
+#: desk/src/pages/home/components/RecentFeedback.vue:392
 msgid "Custom Range"
 msgstr ""
 
@@ -633,7 +635,7 @@ msgstr "Nome do Cliente"
 msgid "Customer created successfully."
 msgstr "Cliente criado com sucesso."
 
-#: desk/src/components/layouts/Sidebar.vue:333
+#: desk/src/components/layouts/Sidebar.vue:349
 msgid "Customer portal"
 msgstr ""
 
@@ -650,12 +652,13 @@ msgstr ""
 msgid "Cyan"
 msgstr "Ciano"
 
-#: desk/src/components/layouts/Sidebar.vue:367
+#: desk/src/components/layouts/Sidebar.vue:332
+#: desk/src/components/layouts/Sidebar.vue:384
 #: desk/src/pages/knowledge-base/Article.vue:656
 msgid "Danger"
 msgstr "Perigo"
 
-#: desk/src/pages/dashboard/Dashboard.vue:576
+#: desk/src/pages/dashboard/Dashboard.vue:562
 msgid "Dashboard"
 msgstr "Painel"
 
