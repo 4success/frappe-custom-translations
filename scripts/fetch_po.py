@@ -12,6 +12,15 @@ from pathlib import Path
 from po_utils import ensure_project_dirs, load_projects
 
 
+def fetch_url(owner: str, repo: str, branch: str, path: str) -> str:
+    url = f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{path}"
+    try:
+        with urllib.request.urlopen(url) as response:
+            return response.read().decode("utf-8")
+    except urllib.error.HTTPError as exc:
+        raise SystemExit(f"Failed to fetch {url}: HTTP {exc.code}") from exc
+
+
 def fetch_project(name: str, branch_override: str | None) -> Path:
     projects = load_projects()
     if name not in projects:
@@ -19,26 +28,33 @@ def fetch_project(name: str, branch_override: str | None) -> Path:
 
     config = projects[name]
     branch = branch_override or config["branch"]
-    url = (
-        f"https://raw.githubusercontent.com/{config['owner']}/{config['repo']}"
-        f"/{branch}/{config['po_path']}"
-    )
     paths = ensure_project_dirs(name)
-    target = paths["source"] / "pt_BR.po"
+    pot_target = paths["source"] / "main.pot"
+    po_target = paths["source"] / "pt_BR.po"
     metadata = paths["meta"] / "source.json"
 
-    try:
-        with urllib.request.urlopen(url) as response:
-            content = response.read().decode("utf-8")
-    except urllib.error.HTTPError as exc:
-        raise SystemExit(f"Failed to fetch {url}: HTTP {exc.code}") from exc
+    owner = config["owner"]
+    repo = config["repo"]
+    pot_path = config["pot_path"]
+    po_path = config["po_path"]
+    pot_url = f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{pot_path}"
+    po_url = f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{po_path}"
 
-    target.write_text(content, encoding="utf-8")
+    pot_target.write_text(fetch_url(owner, repo, branch, pot_path), encoding="utf-8")
+    po_target.write_text(fetch_url(owner, repo, branch, po_path), encoding="utf-8")
     metadata.write_text(
-        json.dumps({"url": url, "branch": branch, "repo": config["repo"]}, indent=2) + "\n",
+        json.dumps(
+            {
+                "pot_url": pot_url,
+                "po_url": po_url,
+                "branch": branch,
+                "repo": repo,
+            },
+            indent=2,
+        ) + "\n",
         encoding="utf-8",
     )
-    return target
+    return pot_target
 
 
 def main() -> None:

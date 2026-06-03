@@ -56,6 +56,7 @@ def main() -> None:
     if args.project:
         paths = ensure_project_dirs(args.project)
         files.extend([
+            (paths["source"] / "main.pot", False),
             (paths["source"] / "pt_BR.po", False),
             (paths["merged"] / "pt_BR.po", True),
             (paths["overrides"] / "messages.po", True),

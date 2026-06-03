@@ -1275,9 +1275,11 @@ msgstr "Saldo de fechamento da conta"
 #. Label of the account_currency (Link) field in DocType 'Purchase Taxes and
 #. Charges'
 #. Label of the account_currency (Link) field in DocType 'Sales Taxes and
+#. Charges'
 #. Label of the account_currency (Link) field in DocType 'Unreconcile Payment
 #. Entries'
 #. Label of the account_currency (Link) field in DocType 'Landed Cost Taxes and
+#. Charges'
 #: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.json
 #: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.json
@@ -1333,6 +1335,7 @@ msgstr "Detalhes da conta"
 #. Charges'
 #. Label of the account_head (Link) field in DocType 'POS Closing Entry Taxes'
 #. Label of the account_head (Link) field in DocType 'Purchase Taxes and
+#. Charges'
 #. Label of the account_head (Link) field in DocType 'Sales Taxes and Charges'
 #: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
 #: erpnext/accounts/doctype/pos_closing_entry_taxes/pos_closing_entry_taxes.json
@@ -1536,17 +1539,24 @@ msgstr "Contador"
 #. Label of the section_break_9 (Section Break) field in DocType 'Dunning Type'
 #. Label of the more_info (Section Break) field in DocType 'POS Invoice'
 #. Label of the accounting (Section Break) field in DocType 'POS Invoice Item'
+#. Label of the accounting_details_section (Section Break) field in DocType
 #. 'Purchase Invoice'
 #. Label of the more_info (Section Break) field in DocType 'Sales Invoice'
 #. Label of the accounting (Section Break) field in DocType 'Sales Invoice
 #. Item'
 #. Label of the accounting_details (Section Break) field in DocType 'Purchase
 #. Order Item'
+#. Label of the accounting_details_section (Section Break) field in DocType
 #. 'Delivery Note Item'
+#. Label of the accounting_details_section (Section Break) field in DocType
 #. 'Material Request Item'
+#. Label of the accounting_details_section (Section Break) field in DocType
 #. 'Purchase Receipt Item'
+#. Label of the accounting_details_section (Section Break) field in DocType
 #. 'Subcontracting Order Item'
+#. Label of the accounting_details_section (Section Break) field in DocType
 #. 'Subcontracting Receipt Item'
+#. Label of the accounting_details_section (Section Break) field in DocType
 #. 'Subcontracting Receipt Supplied Item'
 #: erpnext/accounts/doctype/dunning/dunning.json
 #: erpnext/accounts/doctype/dunning_type/dunning_type.json
@@ -1582,8 +1592,11 @@ msgstr "Filtro de dimensão contábil"
 
 #. Label of the accounting_dimensions_section (Section Break) field in DocType
 #. 'Purchase Invoice'
+#. Label of the accounting_dimensions_section (Section Break) field in DocType
 #. 'Purchase Order'
+#. Label of the accounting_dimensions_section (Section Break) field in DocType
 #. 'Purchase Order Item'
+#. Label of the accounting_dimensions_section (Section Break) field in DocType
 #. 'Subcontracting Receipt'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
@@ -2111,6 +2124,7 @@ msgstr "Adicionar programação"
 
 #. Label of the add_serial_batch_bundle (Button) field in DocType
 #. 'Subcontracting Receipt Item'
+#. Label of the add_serial_batch_bundle (Button) field in DocType
 #. 'Subcontracting Receipt Supplied Item'
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
@@ -2119,6 +2133,7 @@ msgstr "Adicionar conjunto de série / lote"
 
 #. Label of the add_serial_batch_bundle (Button) field in DocType 'Purchase
 #. Invoice Item'
+#. Label of the add_serial_batch_bundle (Button) field in DocType 'Purchase
 #. Receipt Item'
 #. Label of the add_serial_batch_bundle (Button) field in DocType 'Stock Entry
 #. Detail'
@@ -2133,6 +2148,7 @@ msgstr "Adicionar nº de série / lote"
 
 #. Label of the add_serial_batch_for_rejected_qty (Button) field in DocType
 #. 'Purchase Receipt Item'
+#. Label of the add_serial_batch_for_rejected_qty (Button) field in DocType
 #. 'Subcontracting Receipt Item'
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
@@ -2240,6 +2256,7 @@ msgstr "Custo adicional"
 
 #. Label of the additional_cost_per_qty (Currency) field in DocType
 #. 'Subcontracting Order Item'
+#. Label of the additional_cost_per_qty (Currency) field in DocType
 #. 'Subcontracting Receipt Item'
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
@@ -2253,7 +2270,9 @@ msgstr "Custo adicional por qtd."
 #. 'Subcontracting Order'
 #. Label of the additional_costs (Table) field in DocType 'Subcontracting
 #. Order'
+#. Label of the tab_additional_costs (Tab Break) field in DocType
 #. 'Subcontracting Receipt'
+#. Label of the additional_costs (Table) field in DocType 'Subcontracting
 #. Receipt'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
@@ -2281,6 +2300,7 @@ msgstr "Detalhes adicionais"
 #. Label of the section_break_41 (Section Break) field in DocType 'Supplier
 #. Quotation'
 #. Label of the section_break_44 (Section Break) field in DocType 'Quotation'
+#. Label of the additional_discount_section (Section Break) field in DocType
 #. 'Sales Order'
 #. Label of the section_break_49 (Section Break) field in DocType 'Delivery
 #. Note'
@@ -2328,12 +2348,15 @@ msgstr "Valor do desconto adicional"
 #. Label of the base_discount_amount (Currency) field in DocType 'Purchase
 #. Invoice'
 #. Label of the base_discount_amount (Currency) field in DocType 'Sales
+#. Invoice'
+#. Label of the base_discount_amount (Currency) field in DocType 'Purchase
 #. Order'
 #. Label of the base_discount_amount (Currency) field in DocType 'Supplier
 #. Quotation'
 #. Label of the base_discount_amount (Currency) field in DocType 'Quotation'
 #. Label of the base_discount_amount (Currency) field in DocType 'Delivery
 #. Note'
+#. Label of the base_discount_amount (Currency) field in DocType 'Purchase
 #. Receipt'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -2355,13 +2378,20 @@ msgstr "O valor do desconto adicional ({discount_amount}) não pode exceder o to
 #. Label of the additional_discount_percentage (Float) field in DocType
 #. 'Purchase Invoice'
 #. Label of the additional_discount_percentage (Float) field in DocType 'Sales
+#. Invoice'
 #. Label of the additional_discount_percentage (Percent) field in DocType
 #. 'Subscription'
+#. Label of the additional_discount_percentage (Float) field in DocType
 #. 'Purchase Order'
+#. Label of the additional_discount_percentage (Float) field in DocType
 #. 'Supplier Quotation'
+#. Label of the additional_discount_percentage (Float) field in DocType
 #. 'Quotation'
+#. Label of the additional_discount_percentage (Float) field in DocType 'Sales
 #. Order'
+#. Label of the additional_discount_percentage (Float) field in DocType
 #. 'Delivery Note'
+#. Label of the additional_discount_percentage (Float) field in DocType
 #. 'Purchase Receipt'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -2397,13 +2427,16 @@ msgstr "Produto acabado adicional"
 #. Label of the more_information (Section Break) field in DocType 'Sales
 #. Invoice'
 #. Label of the section_break_jtou (Section Break) field in DocType 'Asset'
+#. Label of the additional_info_section (Section Break) field in DocType
 #. 'Purchase Order'
 #. Label of the more_info (Section Break) field in DocType 'Supplier Quotation'
 #. Label of the sb_more_info (Section Break) field in DocType 'Task'
+#. Label of the additional_info_section (Section Break) field in DocType
 #. 'Quotation'
 #. Label of the additional_info_section (Section Break) field in DocType 'Sales
 #. Order'
 #. Label of the more_info (Section Break) field in DocType 'Delivery Note'
+#. Label of the additional_info_section (Section Break) field in DocType
 #. 'Purchase Receipt'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -2480,7 +2513,10 @@ msgstr "{0} {1} adicional do item {2} necessário, conforme a BOM, para concluir
 #. Label of the contact_and_address_tab (Tab Break) field in DocType 'POS
 #. Invoice'
 #. Label of the address_and_contact_tab (Tab Break) field in DocType 'Purchase
+#. Invoice'
 #. Label of the contact_and_address_tab (Tab Break) field in DocType 'Sales
+#. Invoice'
+#. Label of the address_and_contact_tab (Tab Break) field in DocType 'Purchase
 #. Order'
 #. Label of the address_and_contact_tab (Tab Break) field in DocType 'Request
 #. for Quotation'
@@ -2497,6 +2533,7 @@ msgstr "{0} {1} adicional do item {2} necessário, conforme a BOM, para concluir
 #. Label of the company_info (Section Break) field in DocType 'Company'
 #. Label of the address_and_contact_tab (Tab Break) field in DocType 'Delivery
 #. Note'
+#. Label of the address_and_contact_tab (Tab Break) field in DocType 'Purchase
 #. Receipt'
 #: erpnext/accounts/doctype/dunning/dunning.json
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
@@ -2716,6 +2753,7 @@ msgstr "O adiantamento pago para {0} {1} não pode ser maior que o total geral {
 
 #. Description of the 'Only Include Allocated Payments' (Check) field in
 #. DocType 'Purchase Invoice'
+#. Description of the 'Only Include Allocated Payments' (Check) field in
 #. DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -2779,6 +2817,7 @@ msgstr "Conta de contrapartida"
 #. Item'
 #. Label of the against_blanket_order (Check) field in DocType 'Quotation Item'
 #. Label of the against_blanket_order (Check) field in DocType 'Sales Order
+#. Item'
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
 #: erpnext/selling/doctype/quotation_item/quotation_item.json
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
@@ -2834,6 +2873,7 @@ msgstr "Contra produto acabado"
 #. Label of the against_income_account (Small Text) field in DocType 'POS
 #. Invoice'
 #. Label of the against_income_account (Small Text) field in DocType 'Sales
+#. Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Against Income Account"
@@ -2959,6 +2999,7 @@ msgstr "Agente"
 #. Label of the agent_busy_message (Data) field in DocType 'Incoming Call
 #. Settings'
 #. Label of the agent_busy_message (Data) field in DocType 'Voice Call
+#. Settings'
 #: erpnext/telephony/doctype/incoming_call_settings/incoming_call_settings.json
 #: erpnext/telephony/doctype/voice_call_settings/voice_call_settings.json
 msgid "Agent Busy Message"
@@ -3013,6 +3054,7 @@ msgstr "Algoritmo"
 #. Label of the all_activities_section (Section Break) field in DocType 'Lead'
 #. Label of the all_activities_section (Section Break) field in DocType
 #. 'Opportunity'
+#. Label of the all_activities_section (Section Break) field in DocType
 #. 'Prospect'
 #: erpnext/crm/doctype/lead/lead.json
 #: erpnext/crm/doctype/opportunity/opportunity.json
@@ -3136,6 +3178,7 @@ msgstr "Todos os itens necessários (matérias-primas) serão buscados da BOM e 
 #. Label of the allocate_advances_automatically (Check) field in DocType 'POS
 #. Invoice'
 #. Label of the allocate_advances_automatically (Check) field in DocType 'Sales
+#. Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Allocate Advances Automatically (FIFO)"
@@ -3481,8 +3524,10 @@ msgstr "Permitir preço zero"
 #. Label of the allow_zero_valuation_rate (Check) field in DocType 'Purchase
 #. Invoice Item'
 #. Label of the allow_zero_valuation_rate (Check) field in DocType 'Sales
+#. Invoice Item'
 #. Label of the allow_zero_valuation_rate (Check) field in DocType 'Delivery
 #. Note Item'
+#. Label of the allow_zero_valuation_rate (Check) field in DocType 'Purchase
 #. Receipt Item'
 #. Label of the allow_zero_valuation_rate (Check) field in DocType 'Stock Entry
 #. Detail'
@@ -3728,7 +3773,9 @@ msgstr "Sempre perguntar"
 #. Label of the amount (Currency) field in DocType 'Payment Order Reference'
 #. Label of the amount (Currency) field in DocType 'Payment Reconciliation
 #. Allocation'
+#. Label of the amount (Currency) field in DocType 'Payment Reconciliation
 #. Invoice'
+#. Label of the amount (Currency) field in DocType 'Payment Reconciliation
 #. Payment'
 #. Label of the amount (Currency) field in DocType 'Payment Reference'
 #. Label of the grand_total (Currency) field in DocType 'Payment Request'
@@ -3747,27 +3794,33 @@ msgstr "Sempre perguntar"
 #. Option for the 'Margin Type' (Select) field in DocType 'Purchase Invoice
 #. Item'
 #. Label of the tax_amount (Currency) field in DocType 'Purchase Taxes and
+#. Charges'
 #. Option for the 'Margin Type' (Select) field in DocType 'Sales Invoice Item'
 #. Label of the amount (Currency) field in DocType 'Sales Invoice Item'
 #. Label of the amount (Currency) field in DocType 'Sales Invoice Payment'
 #. Label of the grand_total (Currency) field in DocType 'Sales Invoice
 #. Reference'
 #. Label of the tax_amount (Currency) field in DocType 'Sales Taxes and
+#. Charges'
 #. Label of the amount (Currency) field in DocType 'Share Balance'
 #. Label of the amount (Currency) field in DocType 'Share Transfer'
 #. Label of the amount (Currency) field in DocType 'Asset Capitalization
 #. Service Item'
 #. Label of the amount (Currency) field in DocType 'Asset Capitalization Stock
+#. Item'
 #. Label of the amount (Currency) field in DocType 'Purchase Order Item'
 #. Option for the 'Margin Type' (Select) field in DocType 'Purchase Order Item'
 #. Label of the amount (Currency) field in DocType 'Purchase Order Item
 #. Supplied'
 #. Label of the amount (Currency) field in DocType 'Purchase Receipt Item
+#. Supplied'
 #. Label of the amount (Currency) field in DocType 'Supplier Quotation Item'
 #. Option for the 'Margin Type' (Select) field in DocType 'Supplier Quotation
+#. Item'
 #. Label of the amount (Currency) field in DocType 'Opportunity Item'
 #. Label of the amount (Currency) field in DocType 'Prospect Opportunity'
 #. Label of the amount_section (Section Break) field in DocType 'BOM Creator
+#. Item'
 #. Label of the amount (Currency) field in DocType 'BOM Creator Item'
 #. Label of the amount (Currency) field in DocType 'BOM Explosion Item'
 #. Label of the amount (Currency) field in DocType 'BOM Item'
@@ -3780,21 +3833,30 @@ msgstr "Sempre perguntar"
 #. Label of the amount (Currency) field in DocType 'Delivery Note Item'
 #. Label of the amount (Currency) field in DocType 'Landed Cost Item'
 #. Label of the amount (Currency) field in DocType 'Landed Cost Taxes and
+#. Charges'
 #. Option for the 'Distribute Charges Based On' (Select) field in DocType
 #. 'Landed Cost Voucher'
 #. Label of the amount (Currency) field in DocType 'Material Request Item'
 #. Label of the amount (Currency) field in DocType 'Purchase Receipt Item'
 #. Option for the 'Margin Type' (Select) field in DocType 'Purchase Receipt
+#. Item'
 #. Label of the amount (Currency) field in DocType 'Stock Entry Detail'
 #. Label of the amount (Currency) field in DocType 'Stock Reconciliation Item'
 #. Label of the amount (Currency) field in DocType 'Subcontracting Inward Order
+#. Service Item'
 #. Option for the 'Distribute Additional Costs Based On ' (Select) field in
 #. DocType 'Subcontracting Order'
 #. Label of the amount (Currency) field in DocType 'Subcontracting Order Item'
 #. Label of the amount (Currency) field in DocType 'Subcontracting Order
+#. Service Item'
+#. Label of the amount (Currency) field in DocType 'Subcontracting Order
 #. Supplied Item'
+#. Option for the 'Distribute Additional Costs Based On ' (Select) field in
 #. DocType 'Subcontracting Receipt'
 #. Label of the amount (Currency) field in DocType 'Subcontracting Receipt
+#. Item'
+#. Label of the amount (Currency) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
 #: erpnext/accounts/doctype/advance_payment_ledger_entry/advance_payment_ledger_entry.json
 #: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
 #: erpnext/accounts/doctype/bank_clearance_detail/bank_clearance_detail.json
@@ -3904,8 +3966,10 @@ msgstr "Valor (AED)"
 #. Label of the base_amount (Currency) field in DocType 'POS Invoice Item'
 #. Label of the base_amount (Currency) field in DocType 'Purchase Invoice Item'
 #. Label of the base_tax_amount (Currency) field in DocType 'Purchase Taxes and
+#. Charges'
 #. Label of the base_amount (Currency) field in DocType 'Sales Invoice Item'
 #. Label of the base_tax_amount (Currency) field in DocType 'Sales Taxes and
+#. Charges'
 #. Label of the base_amount (Currency) field in DocType 'Purchase Order Item'
 #. Label of the base_amount (Currency) field in DocType 'Supplier Quotation
 #. Item'
@@ -3915,6 +3979,7 @@ msgstr "Valor (AED)"
 #. Label of the base_amount (Currency) field in DocType 'Sales Order Item'
 #. Label of the base_amount (Currency) field in DocType 'Delivery Note Item'
 #. Label of the base_amount (Currency) field in DocType 'Landed Cost Taxes and
+#. Charges'
 #. Label of the amount (Currency) field in DocType 'Landed Cost Vendor Invoice'
 #. Label of the base_amount (Currency) field in DocType 'Purchase Receipt Item'
 #: erpnext/accounts/doctype/advance_payment_ledger_entry/advance_payment_ledger_entry.json
@@ -3958,7 +4023,9 @@ msgstr "Diferença de valor com a fatura de compra"
 #. Invoice'
 #. Label of the amount_eligible_for_commission (Currency) field in DocType
 #. 'Sales Invoice'
+#. Label of the amount_eligible_for_commission (Currency) field in DocType
 #. 'Sales Order'
+#. Label of the amount_eligible_for_commission (Currency) field in DocType
 #. 'Delivery Note'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -4232,6 +4299,7 @@ msgstr "Aplicável ao lançamento de despesas reais"
 #. Description of the 'Minimum Value' (Float) field in DocType 'Quality
 #. Inspection Reading'
 #. Description of the 'Maximum Value' (Float) field in DocType 'Quality
+#. Inspection Reading'
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
 msgid "Applied on each reading."
 msgstr "Aplicado a cada leitura."
@@ -4294,6 +4362,7 @@ msgstr "Aplicar desconto sobre o preço"
 #. Rule'
 #. Label of the apply_multiple_pricing_rules (Check) field in DocType
 #. 'Promotional Scheme Price Discount'
+#. Label of the apply_multiple_pricing_rules (Check) field in DocType
 #. 'Promotional Scheme Product Discount'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
@@ -5369,7 +5438,9 @@ msgstr "Qtd. disponível para reserva"
 
 #. Label of the available_quantity_section (Section Break) field in DocType
 #. 'Sales Invoice Item'
+#. Label of the available_quantity_section (Section Break) field in DocType
 #. 'Quotation Item'
+#. Label of the available_quantity_section (Section Break) field in DocType
 #. 'Sales Order Item'
 #. Label of the qty (Float) field in DocType 'Quick Stock Balance'
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
@@ -5576,11 +5647,13 @@ msgstr "Item do criador de BOM"
 #. Label of the bom_detail_no (Data) field in DocType 'Purchase Order Item
 #. Supplied'
 #. Label of the bom_detail_no (Data) field in DocType 'Purchase Receipt Item
+#. Supplied'
 #. Label of the bom_detail_no (Data) field in DocType 'Subcontracting Inward
 #. Order Received Item'
 #. Label of the bom_detail_no (Data) field in DocType 'Subcontracting Order
 #. Supplied Item'
 #. Label of the bom_detail_no (Data) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
 #: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
 #: erpnext/buying/doctype/purchase_receipt_item_supplied/purchase_receipt_item_supplied.json
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
@@ -5625,6 +5698,7 @@ msgstr "Nível da BOM"
 #. Item'
 #. Label of the bom_no (Link) field in DocType 'Production Plan Item'
 #. Label of the bom_no (Link) field in DocType 'Production Plan Sub Assembly
+#. Item'
 #. Label of the bom_no (Link) field in DocType 'Work Order'
 #. Label of the bom_no (Link) field in DocType 'Sales Order Item'
 #. Label of the bom_no (Link) field in DocType 'Material Request Item'
@@ -5978,6 +6052,7 @@ msgstr "Nº da conta bancária"
 
 #. Label of the bank_account_details (Section Break) field in DocType 'Payment
 #. Order Reference'
+#. Label of the bank_account_details (Section Break) field in DocType 'Payment
 #. Request'
 #: erpnext/accounts/doctype/payment_order_reference/payment_order_reference.json
 #: erpnext/accounts/doctype/payment_request/payment_request.json
@@ -6619,7 +6694,9 @@ msgstr "Faturado, recebido e devolvido"
 #. Label of the contact_info (Section Break) field in DocType 'Delivery Note'
 #. Label of the address_display (Text Editor) field in DocType 'Delivery Note'
 #. Label of the billing_address (Link) field in DocType 'Purchase Receipt'
+#. Label of the billing_address_display (Text Editor) field in DocType
 #. 'Purchase Receipt'
+#. Label of the billing_address_display (Text Editor) field in DocType
 #. 'Subcontracting Receipt'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -6636,7 +6713,9 @@ msgstr "Endereço de faturamento"
 #. 'Purchase Order'
 #. Label of the billing_address_display (Text Editor) field in DocType 'Request
 #. for Quotation'
+#. Label of the billing_address_display (Text Editor) field in DocType
 #. 'Supplier Quotation'
+#. Label of the billing_address_display (Text Editor) field in DocType
 #. 'Subcontracting Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
@@ -6847,6 +6926,7 @@ msgstr "Pedido guarda-chuva"
 #. Label of the blanket_order_allowance (Float) field in DocType 'Buying
 #. Settings'
 #. Label of the blanket_order_allowance (Float) field in DocType 'Selling
+#. Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Blanket Order Allowance (%)"
@@ -6861,6 +6941,7 @@ msgstr "Item do pedido guarda-chuva"
 #. Item'
 #. Label of the blanket_order_rate (Currency) field in DocType 'Quotation Item'
 #. Label of the blanket_order_rate (Currency) field in DocType 'Sales Order
+#. Item'
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
 #: erpnext/selling/doctype/quotation_item/quotation_item.json
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
@@ -6923,6 +7004,7 @@ msgstr "A opção de lançar adiantamentos como passivo foi escolhida. A conta d
 
 #. Label of the book_advance_payments_in_separate_party_account (Check) field
 #. in DocType 'Payment Entry'
+#. Label of the book_advance_payments_in_separate_party_account (Check) field
 #. in DocType 'Company'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 #: erpnext/setup/doctype/company/company.json
@@ -8151,6 +8233,7 @@ msgstr "Valor do troco"
 #. Batch Entry'
 #. Label of the stock_value_difference (Currency) field in DocType 'Stock
 #. Closing Balance'
+#. Label of the stock_value_difference (Currency) field in DocType 'Stock
 #. Ledger Entry'
 #: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
 #: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
@@ -8747,12 +8830,19 @@ msgstr "Conta da empresa"
 #. Invoice'
 #. Label of the company_address (Link) field in DocType 'POS Profile'
 #. Label of the company_address_display (Text Editor) field in DocType 'Sales
+#. Invoice'
 #. Label of the company_address_section (Section Break) field in DocType 'Sales
+#. Invoice'
 #. Label of the company_address_display (Text Editor) field in DocType
 #. 'Quotation'
 #. Label of the company_address_section (Section Break) field in DocType
+#. 'Quotation'
+#. Label of the company_address_display (Text Editor) field in DocType 'Sales
 #. Order'
 #. Label of the col_break46 (Section Break) field in DocType 'Sales Order'
+#. Label of the company_address_display (Text Editor) field in DocType
+#. 'Delivery Note'
+#. Label of the company_address_section (Section Break) field in DocType
 #. 'Delivery Note'
 #: erpnext/accounts/doctype/dunning/dunning.json
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
@@ -8801,8 +8891,10 @@ msgstr "Conta bancária da empresa"
 #. Label of the company_billing_address_section (Section Break) field in
 #. DocType 'Purchase Invoice'
 #. Label of the billing_address (Link) field in DocType 'Purchase Order'
+#. Label of the company_billing_address_section (Section Break) field in
 #. DocType 'Purchase Order'
 #. Label of the billing_address (Link) field in DocType 'Request for Quotation'
+#. Label of the company_billing_address_section (Section Break) field in
 #. DocType 'Supplier Quotation'
 #. Label of the billing_address (Link) field in DocType 'Supplier Quotation'
 #. Label of the billing_address_section (Section Break) field in DocType
@@ -9177,6 +9269,7 @@ msgstr "Considerar para retenção de imposto "
 #. Label of the included_in_paid_amount (Check) field in DocType 'Purchase
 #. Taxes and Charges'
 #. Label of the included_in_paid_amount (Check) field in DocType 'Sales Taxes
+#. and Charges'
 #: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
 #: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
@@ -9292,6 +9385,7 @@ msgstr "Custo dos itens consumidos"
 #. Label of the consumed_qty (Float) field in DocType 'Subcontracting Order
 #. Supplied Item'
 #. Label of the consumed_qty (Float) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
 #: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
 #: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.py:153
 #: erpnext/manufacturing/doctype/job_card_item/job_card_item.json
@@ -9684,6 +9778,7 @@ msgstr "Alocação de custo / perda de processo"
 #. Label of the cost_center (Link) field in DocType 'Loyalty Program'
 #. Label of the cost_center (Link) field in DocType 'Opening Invoice Creation
 #. Tool'
+#. Label of the cost_center (Link) field in DocType 'Opening Invoice Creation
 #. Tool Item'
 #. Label of the cost_center (Link) field in DocType 'Payment Entry'
 #. Label of the cost_center (Link) field in DocType 'Payment Entry Deduction'
@@ -9691,6 +9786,7 @@ msgstr "Alocação de custo / perda de processo"
 #. Label of the cost_center (Link) field in DocType 'Payment Reconciliation'
 #. Label of the cost_center (Link) field in DocType 'Payment Reconciliation
 #. Allocation'
+#. Label of the cost_center (Link) field in DocType 'Payment Reconciliation
 #. Payment'
 #. Label of the cost_center (Link) field in DocType 'Payment Request'
 #. Label of the cost_center (Link) field in DocType 'POS Invoice'
@@ -9718,6 +9814,7 @@ msgstr "Alocação de custo / perda de processo"
 #. Label of the cost_center (Link) field in DocType 'Asset Capitalization
 #. Service Item'
 #. Label of the cost_center (Link) field in DocType 'Asset Capitalization Stock
+#. Item'
 #. Label of the cost_center (Link) field in DocType 'Asset Repair'
 #. Label of the cost_center (Link) field in DocType 'Asset Value Adjustment'
 #. Label of the cost_center (Link) field in DocType 'Purchase Order'
@@ -9738,6 +9835,8 @@ msgstr "Alocação de custo / perda de processo"
 #. Label of the cost_center (Link) field in DocType 'Subcontracting Order'
 #. Label of the cost_center (Link) field in DocType 'Subcontracting Order Item'
 #. Label of the cost_center (Link) field in DocType 'Subcontracting Receipt'
+#. Label of the cost_center (Link) field in DocType 'Subcontracting Receipt
+#. Item'
 #. Label of the cost_center (Link) field in DocType 'Subcontracting Receipt
 #. Supplied Item'
 #. Label of a Workspace Sidebar Item
@@ -10582,6 +10681,7 @@ msgstr "Critérios"
 
 #. Label of the formula (Small Text) field in DocType 'Supplier Scorecard
 #. Criteria'
+#. Label of the formula (Small Text) field in DocType 'Supplier Scorecard
 #. Scoring Criteria'
 #: erpnext/buying/doctype/supplier_scorecard_criteria/supplier_scorecard_criteria.json
 #: erpnext/buying/doctype/supplier_scorecard_scoring_criteria/supplier_scorecard_scoring_criteria.json
@@ -10686,11 +10786,18 @@ msgstr "Resultado das configurações de câmbio"
 #. Label of the currency_and_price_list (Section Break) field in DocType
 #. 'Purchase Invoice'
 #. Label of the currency_and_price_list (Section Break) field in DocType 'Sales
+#. Invoice'
+#. Label of the currency_and_price_list (Section Break) field in DocType
 #. 'Purchase Order'
+#. Label of the currency_and_price_list (Section Break) field in DocType
 #. 'Supplier Quotation'
+#. Label of the currency_and_price_list (Section Break) field in DocType
 #. 'Quotation'
+#. Label of the currency_and_price_list (Section Break) field in DocType 'Sales
 #. Order'
+#. Label of the currency_and_price_list (Section Break) field in DocType
 #. 'Delivery Note'
+#. Label of the currency_and_price_list (Section Break) field in DocType
 #. 'Purchase Receipt'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -11049,6 +11156,7 @@ msgstr "Pedido de compra do cliente"
 #. Label of the customer_po_details (Section Break) field in DocType 'POS
 #. Invoice'
 #. Label of the customer_po_details (Section Break) field in DocType 'Sales
+#. Invoice'
 #. Label of the customer_po_details (Section Break) field in DocType 'Delivery
 #. Note'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
@@ -11370,9 +11478,11 @@ msgstr "Dia para enviar"
 #. Option for the 'Discount Validity Based On' (Select) field in DocType
 #. 'Payment Schedule'
 #. Option for the 'Due Date Based On' (Select) field in DocType 'Payment Term'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
 #. 'Payment Term'
 #. Option for the 'Due Date Based On' (Select) field in DocType 'Payment Terms
 #. Template Detail'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
 #. 'Payment Terms Template Detail'
 #: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
 #: erpnext/accounts/doctype/payment_term/payment_term.json
@@ -11385,9 +11495,11 @@ msgstr "Dia(s) após a data da fatura"
 #. Option for the 'Discount Validity Based On' (Select) field in DocType
 #. 'Payment Schedule'
 #. Option for the 'Due Date Based On' (Select) field in DocType 'Payment Term'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
 #. 'Payment Term'
 #. Option for the 'Due Date Based On' (Select) field in DocType 'Payment Terms
 #. Template Detail'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
 #. 'Payment Terms Template Detail'
 #: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
 #: erpnext/accounts/doctype/payment_term/payment_term.json
@@ -11564,6 +11676,7 @@ msgstr "Decímetro"
 #. Option for the 'Add Or Deduct' (Select) field in DocType 'Advance Taxes and
 #. Charges'
 #. Option for the 'Add or Deduct' (Select) field in DocType 'Purchase Taxes and
+#. Charges'
 #: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
 msgid "Deduct"
@@ -12083,6 +12196,7 @@ msgstr "Defesa"
 
 #. Label of the deferred_accounting_section (Section Break) field in DocType
 #. 'Company'
+#. Label of the deferred_accounting_section (Section Break) field in DocType
 #. 'Item'
 #: erpnext/setup/doctype/company/company.json
 #: erpnext/stock/doctype/item/item.json
@@ -12131,6 +12245,7 @@ msgstr "Receita diferida"
 #. Label of the deferred_revenue_account (Link) field in DocType 'POS Invoice
 #. Item'
 #. Label of the deferred_revenue_account (Link) field in DocType 'Sales Invoice
+#. Item'
 #. Label of the deferred_revenue_account (Link) field in DocType 'Item Default'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
@@ -12278,6 +12393,7 @@ msgstr "Delivered At Place Unloaded"
 #. Label of the delivered_by_supplier (Check) field in DocType 'POS Invoice
 #. Item'
 #. Label of the delivered_by_supplier (Check) field in DocType 'Sales Invoice
+#. Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
 msgid "Delivered By Supplier"
@@ -12301,6 +12417,7 @@ msgstr "Itens entregues a faturar"
 #. Entry'
 #. Label of the delivered_qty (Float) field in DocType 'Subcontracting Inward
 #. Order Item'
+#. Label of the delivered_qty (Float) field in DocType 'Subcontracting Inward
 #. Order Secondary Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
@@ -12656,6 +12773,7 @@ msgstr "Linha de depreciação {0}: a data de lançamento da depreciação não 
 #. 'Asset Depreciation Schedule'
 #. Label of the depreciation_schedule (Table) field in DocType 'Asset
 #. Depreciation Schedule'
+#. Label of the depreciation_schedule_section (Section Break) field in DocType
 #. 'Asset Shift Allocation'
 #. Label of the depreciation_schedule (Table) field in DocType 'Asset Shift
 #. Allocation'
@@ -12837,6 +12955,7 @@ msgstr "Devolução direta não é permitida para Timesheet."
 #. Label of the disable (Check) field in DocType 'Promotional Scheme Price
 #. Discount'
 #. Label of the disable (Check) field in DocType 'Promotional Scheme Product
+#. Discount'
 #. Label of the disable (Check) field in DocType 'Putaway Rule'
 #: erpnext/accounts/doctype/account/account.json
 #: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.json
@@ -12881,6 +13000,7 @@ msgstr "Desativar cálculo do saldo inicial"
 #. Label of the disable_rounded_total (Check) field in DocType 'Global
 #. Defaults'
 #. Label of the disable_rounded_total (Check) field in DocType 'Delivery Note'
+#. Label of the disable_rounded_total (Check) field in DocType 'Purchase
 #. Receipt'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -12982,9 +13102,12 @@ msgstr "Desconto (%)"
 #. Label of the discount_percentage (Percent) field in DocType 'POS Invoice
 #. Item'
 #. Label of the discount_percentage (Percent) field in DocType 'Sales Invoice
+#. Item'
 #. Label of the discount_percentage (Percent) field in DocType 'Quotation Item'
 #. Label of the discount_percentage (Percent) field in DocType 'Sales Order
+#. Item'
 #. Label of the discount_percentage (Float) field in DocType 'Delivery Note
+#. Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
 #: erpnext/selling/doctype/quotation_item/quotation_item.json
@@ -13007,15 +13130,21 @@ msgstr "Conta de desconto"
 #. Option for the 'Discount Type' (Select) field in DocType 'Promotional Scheme
 #. Price Discount'
 #. Label of the discount_amount (Currency) field in DocType 'Promotional Scheme
+#. Price Discount'
 #. Label of the discount_amount (Currency) field in DocType 'Purchase Invoice
 #. Item'
 #. Label of the discount_amount (Currency) field in DocType 'Sales Invoice
+#. Item'
 #. Label of the discount_amount (Currency) field in DocType 'Purchase Order
+#. Item'
 #. Label of the discount_amount (Currency) field in DocType 'Supplier Quotation
+#. Item'
 #. Label of the discount_amount (Currency) field in DocType 'Quotation Item'
 #. Label of the discount_amount (Currency) field in DocType 'Sales Order Item'
 #. Label of the discount_amount (Currency) field in DocType 'Delivery Note
+#. Item'
 #. Label of the discount_amount (Currency) field in DocType 'Purchase Receipt
+#. Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
@@ -13091,7 +13220,9 @@ msgstr "Validade do desconto"
 
 #. Label of the discount_validity_based_on (Select) field in DocType 'Payment
 #. Schedule'
+#. Label of the discount_validity_based_on (Select) field in DocType 'Payment
 #. Term'
+#. Label of the discount_validity_based_on (Select) field in DocType 'Payment
 #. Terms Template Detail'
 #: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
 #: erpnext/accounts/doctype/payment_term/payment_term.json
@@ -13102,15 +13233,20 @@ msgstr "Validade do desconto com base em"
 #. Label of the discount_and_margin (Section Break) field in DocType 'POS
 #. Invoice Item'
 #. Label of the section_break_26 (Section Break) field in DocType 'Purchase
+#. Invoice Item'
 #. Label of the discount_and_margin (Section Break) field in DocType 'Sales
+#. Invoice Item'
 #. Label of the discount_and_margin_section (Section Break) field in DocType
 #. 'Purchase Order Item'
+#. Label of the discount_and_margin_section (Section Break) field in DocType
 #. 'Supplier Quotation Item'
 #. Label of the discount_and_margin (Section Break) field in DocType 'Quotation
 #. Item'
+#. Label of the discount_and_margin (Section Break) field in DocType 'Sales
 #. Order Item'
 #. Label of the discount_and_margin (Section Break) field in DocType 'Delivery
 #. Note Item'
+#. Label of the discount_and_margin_section (Section Break) field in DocType
 #. 'Purchase Receipt Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -13151,6 +13287,7 @@ msgstr "Desconto em outro item"
 #. Item'
 #. Label of the discount_percentage (Percent) field in DocType 'Supplier
 #. Quotation Item'
+#. Label of the discount_percentage (Percent) field in DocType 'Purchase
 #. Receipt Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
@@ -13204,6 +13341,7 @@ msgstr "Não gostei"
 #. Label of the dispatch_address (Link) field in DocType 'Purchase Order'
 #. Label of the dispatch_address (Text Editor) field in DocType 'Sales Order'
 #. Label of the dispatch_address (Text Editor) field in DocType 'Delivery Note'
+#. Label of the dispatch_address_display (Text Editor) field in DocType
 #. 'Purchase Receipt'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -13299,10 +13437,15 @@ msgstr "Distância da borda esquerda"
 #. Label of the date_dist_from_top_edge (Float) field in DocType 'Cheque Print
 #. Template'
 #. Label of the payer_name_from_top_edge (Float) field in DocType 'Cheque Print
+#. Template'
 #. Label of the amt_in_words_from_top_edge (Float) field in DocType 'Cheque
+#. Print Template'
 #. Label of the amt_in_figures_from_top_edge (Float) field in DocType 'Cheque
+#. Print Template'
 #. Label of the acc_no_dist_from_top_edge (Float) field in DocType 'Cheque
+#. Print Template'
 #. Label of the signatory_from_top_edge (Float) field in DocType 'Cheque Print
+#. Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
 msgid "Distance from top edge"
 msgstr "Distância da borda superior"
@@ -13314,6 +13457,7 @@ msgstr "Unidade distinta de um item"
 
 #. Label of the distribute_additional_costs_based_on (Select) field in DocType
 #. 'Subcontracting Order'
+#. Label of the distribute_additional_costs_based_on (Select) field in DocType
 #. 'Subcontracting Receipt'
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
@@ -13342,11 +13486,18 @@ msgstr "Distribuir manualmente"
 #. Label of the distributed_discount_amount (Currency) field in DocType
 #. 'Purchase Invoice Item'
 #. Label of the distributed_discount_amount (Currency) field in DocType 'Sales
+#. Invoice Item'
+#. Label of the distributed_discount_amount (Currency) field in DocType
 #. 'Purchase Order Item'
+#. Label of the distributed_discount_amount (Currency) field in DocType
 #. 'Supplier Quotation Item'
+#. Label of the distributed_discount_amount (Currency) field in DocType
 #. 'Quotation Item'
+#. Label of the distributed_discount_amount (Currency) field in DocType 'Sales
 #. Order Item'
+#. Label of the distributed_discount_amount (Currency) field in DocType
 #. 'Delivery Note Item'
+#. Label of the distributed_discount_amount (Currency) field in DocType
 #. 'Purchase Receipt Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -13478,6 +13629,7 @@ msgstr "Pesquisa na documentação"
 #. Label of the document_naming_tab (Tab Break) field in DocType 'Buying
 #. Settings'
 #. Label of the default_naming_tab (Tab Break) field in DocType 'Selling
+#. Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 #: erpnext/public/js/utils/naming_series.js:7
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
@@ -13533,6 +13685,7 @@ msgstr "Portas"
 #. Option for the 'Depreciation Method' (Select) field in DocType 'Asset'
 #. Option for the 'Depreciation Method' (Select) field in DocType 'Asset
 #. Depreciation Schedule'
+#. Option for the 'Depreciation Method' (Select) field in DocType 'Asset
 #. Finance Book'
 #: erpnext/assets/doctype/asset/asset.json
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
@@ -13864,8 +14017,11 @@ msgstr "Editar data e hora de lançamento"
 
 #. Label of the override_tax_withholding_entries (Check) field in DocType
 #. 'Journal Entry'
+#. Label of the override_tax_withholding_entries (Check) field in DocType
 #. 'Payment Entry'
+#. Label of the override_tax_withholding_entries (Check) field in DocType
 #. 'Purchase Invoice'
+#. Label of the override_tax_withholding_entries (Check) field in DocType
 #. 'Sales Invoice'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
@@ -14189,6 +14345,7 @@ msgstr "Ativar despesa diferida"
 #. Label of the enable_deferred_revenue (Check) field in DocType 'POS Invoice
 #. Item'
 #. Label of the enable_deferred_revenue (Check) field in DocType 'Sales Invoice
+#. Item'
 #. Label of the enable_deferred_revenue (Check) field in DocType 'Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
@@ -14771,7 +14928,9 @@ msgstr "O valor de ganho/perda cambial foi lançado por meio de {0}"
 #. Reference'
 #. Label of the exchange_rate (Float) field in DocType 'Payment Reconciliation
 #. Allocation'
+#. Label of the exchange_rate (Float) field in DocType 'Payment Reconciliation
 #. Invoice'
+#. Label of the exchange_rate (Float) field in DocType 'Payment Reconciliation
 #. Payment'
 #. Label of the pegged_exchange_rate (Data) field in DocType 'Pegged Currency
 #. Details'
@@ -14781,6 +14940,7 @@ msgstr "O valor de ganho/perda cambial foi lançado por meio de {0}"
 #. Label of the conversion_rate (Float) field in DocType 'Purchase Invoice'
 #. Label of the conversion_rate (Float) field in DocType 'Sales Invoice'
 #. Label of the conversion_rate (Float) field in DocType 'Tax Withholding
+#. Entry'
 #. Label of the conversion_rate (Float) field in DocType 'Purchase Order'
 #. Label of the conversion_rate (Float) field in DocType 'Supplier Quotation'
 #. Label of the conversion_rate (Float) field in DocType 'Opportunity'
@@ -15788,6 +15948,7 @@ msgstr "Para a lista de preços"
 #. Description of the 'Planned Quantity' (Float) field in DocType 'Sales Order
 #. Item'
 #. Description of the 'Produced Quantity' (Float) field in DocType 'Sales Order
+#. Item'
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 msgid "For Production"
 msgstr "Para produção"
@@ -16172,6 +16333,7 @@ msgstr "Nº inicial do fólio"
 #. Label of the from_invoice_date (Date) field in DocType 'Payment
 #. Reconciliation'
 #. Label of the from_invoice_date (Date) field in DocType 'Process Payment
+#. Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
 msgid "From Invoice Date"
@@ -16192,6 +16354,7 @@ msgstr "Nº inicial do pacote"
 #. Label of the from_payment_date (Date) field in DocType 'Payment
 #. Reconciliation'
 #. Label of the from_payment_date (Date) field in DocType 'Process Payment
+#. Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
 msgid "From Payment Date"
@@ -16393,6 +16556,7 @@ msgstr "Totalmente faturado"
 
 #. Option for the 'Completion Status' (Select) field in DocType 'Maintenance
 #. Schedule Detail'
+#. Option for the 'Completion Status' (Select) field in DocType 'Maintenance
 #. Visit'
 #: erpnext/maintenance/doctype/maintenance_schedule_detail/maintenance_schedule_detail.json
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
@@ -16415,6 +16579,7 @@ msgstr "Totalmente depreciado"
 #. Option for the 'Advance Payment Status' (Select) field in DocType 'Purchase
 #. Order'
 #. Option for the 'Advance Payment Status' (Select) field in DocType 'Sales
+#. Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "Fully Paid"
@@ -16778,6 +16943,7 @@ msgstr "Obter solicitações de material"
 #. Label of the get_outstanding_invoices (Button) field in DocType 'Journal
 #. Entry'
 #. Label of the get_outstanding_invoices (Button) field in DocType 'Payment
+#. Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Get Outstanding Invoices"
@@ -16854,6 +17020,7 @@ msgstr "Cartão-presente"
 
 #. Description of the 'Recurse Every (As Per Transaction UOM)' (Float) field in
 #. DocType 'Pricing Rule'
+#. Description of the 'Recurse Every (As Per Transaction UOM)' (Float) field in
 #. DocType 'Promotional Scheme Product Discount'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
@@ -17179,6 +17346,7 @@ msgstr "Tem data de validade"
 #. Item'
 #. Label of the has_item_scanned (Check) field in DocType 'Stock Entry Detail'
 #. Label of the has_item_scanned (Data) field in DocType 'Stock Reconciliation
+#. Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
@@ -17229,6 +17397,7 @@ msgstr "Tem subcontratação"
 #. Label of the has_unit_price_items (Check) field in DocType 'Request for
 #. Quotation'
 #. Label of the has_unit_price_items (Check) field in DocType 'Supplier
+#. Quotation'
 #. Label of the has_unit_price_items (Check) field in DocType 'Quotation'
 #. Label of the has_unit_price_items (Check) field in DocType 'Sales Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
@@ -17658,6 +17827,7 @@ msgstr "Se marcado, a qtd. separada não será considerada automaticamente como 
 
 #. Description of the 'Considered In Paid Amount' (Check) field in DocType
 #. 'Purchase Taxes and Charges'
+#. Description of the 'Considered In Paid Amount' (Check) field in DocType
 #. 'Sales Taxes and Charges'
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
 #: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
@@ -17666,6 +17836,7 @@ msgstr "Se marcado, o valor do imposto será considerado como já incluído no v
 
 #. Description of the 'Is this Tax included in Basic Rate?' (Check) field in
 #. DocType 'Purchase Taxes and Charges'
+#. Description of the 'Is this Tax included in Basic Rate?' (Check) field in
 #. DocType 'Sales Taxes and Charges'
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
 #: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
@@ -18050,11 +18221,15 @@ msgstr "Se você {0} {1} em valor do item {2}, o esquema {3} será aplicado ao i
 #. Option for the 'Action if Accumulated Monthly Budget Exceeded on MR'
 #. (Select) field in DocType 'Budget'
 #. Option for the 'Action if Annual Budget Exceeded on PO' (Select) field in
+#. DocType 'Budget'
 #. Option for the 'Action if Accumulated Monthly Budget Exceeded on PO'
+#. (Select) field in DocType 'Budget'
 #. Option for the 'Action if Annual Budget Exceeded on Actual' (Select) field
 #. in DocType 'Budget'
 #. Option for the 'Action if Accumulated Monthly Budget Exceeded on Actual'
+#. (Select) field in DocType 'Budget'
 #. Option for the 'Action if Anual Budget Exceeded on Cumulative Expense'
+#. (Select) field in DocType 'Budget'
 #. Option for the 'Action if Accumulative Monthly Budget Exceeded on Cumulative
 #. Expense' (Select) field in DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
@@ -18073,7 +18248,9 @@ msgstr "Ignorar saldo de fechamento"
 
 #. Label of the ignore_default_payment_terms_template (Check) field in DocType
 #. 'Purchase Invoice'
+#. Label of the ignore_default_payment_terms_template (Check) field in DocType
 #. 'Sales Invoice'
+#. Label of the ignore_default_payment_terms_template (Check) field in DocType
 #. 'Sales Order'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -18144,8 +18321,11 @@ msgstr "Ignorar notas de crédito / débito geradas pelo sistema"
 
 #. Label of the ignore_tax_withholding_threshold (Check) field in DocType
 #. 'Journal Entry'
+#. Label of the ignore_tax_withholding_threshold (Check) field in DocType
 #. 'Payment Entry'
+#. Label of the ignore_tax_withholding_threshold (Check) field in DocType
 #. 'Purchase Invoice'
+#. Label of the ignore_tax_withholding_threshold (Check) field in DocType
 #. 'Sales Invoice'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
@@ -18484,10 +18664,14 @@ msgstr "Incluir lotes vencidos"
 #. Item'
 #. Label of the include_exploded_items (Check) field in DocType 'Production
 #. Plan Item'
+#. Label of the include_exploded_items (Check) field in DocType 'Purchase
 #. Receipt Item'
 #. Label of the include_exploded_items (Check) field in DocType 'Subcontracting
 #. Inward Order Item'
+#. Label of the include_exploded_items (Check) field in DocType 'Subcontracting
 #. Order Item'
+#. Label of the include_exploded_items (Check) field in DocType 'Subcontracting
+#. Receipt Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
 #: erpnext/manufacturing/doctype/production_plan_item/production_plan_item.json
@@ -18501,6 +18685,7 @@ msgstr "Incluir componentes detalhados"
 
 #. Label of the include_item_in_manufacturing (Check) field in DocType 'BOM
 #. Explosion Item'
+#. Label of the include_item_in_manufacturing (Check) field in DocType 'BOM
 #. Item'
 #. Label of the include_item_in_manufacturing (Check) field in DocType 'Work
 #. Order Item'
@@ -18981,6 +19166,7 @@ msgstr "ID da integração"
 #. Label of the inter_company_invoice_reference (Link) field in DocType
 #. 'Purchase Invoice'
 #. Label of the inter_company_invoice_reference (Link) field in DocType 'Sales
+#. Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -19004,6 +19190,7 @@ msgstr "Referência do lançamento contábil entre empresas"
 #. Label of the inter_company_order_reference (Link) field in DocType 'Purchase
 #. Order'
 #. Label of the inter_company_order_reference (Link) field in DocType 'Sales
+#. Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "Inter Company Order Reference"
@@ -19404,6 +19591,7 @@ msgstr "Limite de faturas"
 #. Creation Tool Item'
 #. Label of the invoice_number (Dynamic Link) field in DocType 'Payment
 #. Reconciliation Allocation'
+#. Label of the invoice_number (Dynamic Link) field in DocType 'Payment
 #. Reconciliation Invoice'
 #. Label of the invoice_number (Dynamic Link) field in DocType 'Process Payment
 #. Reconciliation Log Allocations'
@@ -19554,6 +19742,7 @@ msgstr "É lançamento de ajuste"
 #. Label of the is_advance (Select) field in DocType 'Journal Entry Account'
 #. Label of the is_advance (Data) field in DocType 'Payment Reconciliation
 #. Allocation'
+#. Label of the is_advance (Data) field in DocType 'Payment Reconciliation
 #. Payment'
 #. Label of the is_advance (Data) field in DocType 'Process Payment
 #. Reconciliation Log Allocations'
@@ -19765,6 +19954,7 @@ msgstr "É cliente interno"
 #. Invoice'
 #. Label of the is_internal_supplier (Check) field in DocType 'Purchase Order'
 #. Label of the is_internal_supplier (Check) field in DocType 'Supplier'
+#. Label of the is_internal_supplier (Check) field in DocType 'Purchase
 #. Receipt'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
@@ -19799,7 +19989,9 @@ msgstr "É marco"
 
 #. Label of the is_old_subcontracting_flow (Check) field in DocType 'Purchase
 #. Invoice'
+#. Label of the is_old_subcontracting_flow (Check) field in DocType 'Purchase
 #. Order'
+#. Label of the is_old_subcontracting_flow (Check) field in DocType 'Purchase
 #. Receipt'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
@@ -19971,7 +20163,9 @@ msgstr "É item subcontratado"
 #. Label of the is_tax_withholding_account (Check) field in DocType 'Journal
 #. Entry Account'
 #. Label of the is_tax_withholding_account (Check) field in DocType 'Purchase
+#. Taxes and Charges'
 #. Label of the is_tax_withholding_account (Check) field in DocType 'Sales
+#. Taxes and Charges'
 #: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
@@ -20006,6 +20200,7 @@ msgstr "É criado pelo PDV"
 #. Label of the included_in_print_rate (Check) field in DocType 'Purchase Taxes
 #. and Charges'
 #. Label of the included_in_print_rate (Check) field in DocType 'Sales Taxes
+#. and Charges'
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
 #: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
 msgid "Is this Tax included in Basic Rate?"
@@ -20418,6 +20613,7 @@ msgstr "Detalhes do item"
 #. Label of the item_group (Link) field in DocType 'Sales Order Item'
 #. Label of a Link in the Selling Workspace
 #. Option for the 'Customer or Item' (Select) field in DocType 'Authorization
+#. Rule'
 #. Name of a DocType
 #. Label of the item_group (Link) field in DocType 'Target Detail'
 #. Label of the item_group (Link) field in DocType 'Website Item Group'
@@ -20667,6 +20863,7 @@ msgstr "Relatório de falta de itens"
 #. Label of the item_tax_amount (Currency) field in DocType 'Purchase Invoice
 #. Item'
 #. Label of the item_tax_amount (Currency) field in DocType 'Purchase Receipt
+#. Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Item Tax Amount Included in Value"
@@ -20681,6 +20878,7 @@ msgstr "Valor do imposto do item incluído no valor"
 #. Label of the item_tax_rate (Code) field in DocType 'Quotation Item'
 #. Label of the item_tax_rate (Code) field in DocType 'Sales Order Item'
 #. Label of the item_tax_rate (Small Text) field in DocType 'Delivery Note
+#. Item'
 #. Label of the item_tax_rate (Code) field in DocType 'Purchase Receipt Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -20710,11 +20908,13 @@ msgstr "Linha de imposto do item {0}: a conta deve pertencer à empresa - {1}"
 #. Label of a Link in the Invoicing Workspace
 #. Label of the item_tax_template (Link) field in DocType 'Purchase Order Item'
 #. Label of the item_tax_template (Link) field in DocType 'Supplier Quotation
+#. Item'
 #. Label of the item_tax_template (Link) field in DocType 'Quotation Item'
 #. Label of the item_tax_template (Link) field in DocType 'Sales Order Item'
 #. Label of the item_tax_template (Link) field in DocType 'Delivery Note Item'
 #. Label of the item_tax_template (Link) field in DocType 'Item Tax'
 #. Label of the item_tax_template (Link) field in DocType 'Purchase Receipt
+#. Item'
 #. Label of a Workspace Sidebar Item
 #: erpnext/accounts/doctype/item_tax_template/item_tax_template.json
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
@@ -20789,13 +20989,18 @@ msgstr "O reprocessamento com base em item e armazém foi ativado."
 #. Label of the item_weight_details (Section Break) field in DocType 'Purchase
 #. Invoice Item'
 #. Label of the section_break_18 (Section Break) field in DocType 'Sales
+#. Invoice Item'
+#. Label of the item_weight_details (Section Break) field in DocType 'Purchase
 #. Order Item'
 #. Label of the item_weight_details (Section Break) field in DocType 'Supplier
 #. Quotation Item'
 #. Label of the item_weight_details (Section Break) field in DocType 'Quotation
+#. Item'
 #. Label of the item_weight_details (Section Break) field in DocType 'Sales
+#. Order Item'
 #. Label of the item_weight_details (Section Break) field in DocType 'Delivery
 #. Note Item'
+#. Label of the item_weight_details (Section Break) field in DocType 'Purchase
 #. Receipt Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -20833,6 +21038,7 @@ msgstr "Detalhe de imposto por item"
 #. Label of the item_wise_tax_details (Table) field in DocType 'Quotation'
 #. Label of the item_wise_tax_details (Table) field in DocType 'Sales Order'
 #. Label of the item_wise_tax_details (Table) field in DocType 'Delivery Note'
+#. Label of the item_wise_tax_details (Table) field in DocType 'Purchase
 #. Receipt'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -21236,6 +21442,7 @@ msgstr "Nome do subcontratado"
 
 #. Label of the supplier_warehouse (Link) field in DocType 'Subcontracting
 #. Order'
+#. Label of the supplier_warehouse (Link) field in DocType 'Subcontracting
 #. Receipt'
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
@@ -21493,9 +21700,11 @@ msgstr "Fatura do fornecedor do custo de desembarque"
 
 #. Label of the landed_cost_voucher_amount (Currency) field in DocType
 #. 'Purchase Invoice Item'
+#. Label of the landed_cost_voucher_amount (Currency) field in DocType
 #. 'Purchase Receipt Item'
 #. Label of the landed_cost_voucher_amount (Currency) field in DocType 'Stock
 #. Entry Detail'
+#. Label of the landed_cost_voucher_amount (Currency) field in DocType
 #. 'Subcontracting Receipt Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
@@ -21554,6 +21763,7 @@ msgstr "Preço da última compra"
 #. Label of the last_scanned_warehouse (Data) field in DocType 'Delivery Note'
 #. Label of the last_scanned_warehouse (Data) field in DocType 'Material
 #. Request'
+#. Label of the last_scanned_warehouse (Data) field in DocType 'Purchase
 #. Receipt'
 #. Label of the last_scanned_warehouse (Data) field in DocType 'Stock Entry'
 #. Label of the last_scanned_warehouse (Data) field in DocType 'Stock
@@ -22260,6 +22470,7 @@ msgstr "Registro de manutenção"
 
 #. Label of the maintenance_manager_name (Read Only) field in DocType 'Asset
 #. Maintenance'
+#. Label of the maintenance_manager_name (Read Only) field in DocType 'Asset
 #. Maintenance Team'
 #: erpnext/assets/doctype/asset_maintenance/asset_maintenance.json
 #: erpnext/assets/doctype/asset_maintenance_team/asset_maintenance_team.json
@@ -22325,6 +22536,7 @@ msgstr "Cronogramas de manutenção"
 
 #. Label of the maintenance_status (Select) field in DocType 'Asset Maintenance
 #. Log'
+#. Label of the maintenance_status (Select) field in DocType 'Asset Maintenance
 #. Task'
 #. Label of the maintenance_status (Select) field in DocType 'Serial No'
 #: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
@@ -22538,6 +22750,7 @@ msgstr "Seção obrigatória"
 #. Option for the 'Depreciation Method' (Select) field in DocType 'Asset'
 #. Option for the 'Depreciation Method' (Select) field in DocType 'Asset
 #. Depreciation Schedule'
+#. Option for the 'Depreciation Method' (Select) field in DocType 'Asset
 #. Finance Book'
 #. Option for the 'How often should project be updated of Total Purchase Cost
 #. ?' (Select) field in DocType 'Buying Settings'
@@ -22613,6 +22826,7 @@ msgstr "Configuração de fabricação"
 #. Label of the manufacturing_time_in_mins (Int) field in DocType 'Item Lead
 #. Time'
 #. Label of the manufacturing_time_tab (Tab Break) field in DocType 'Item Lead
+#. Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "Manufacturing Time"
 msgstr "Tempo de fabricação"
@@ -22653,12 +22867,17 @@ msgstr "Margem de garantia"
 #. Label of the margin_rate_or_amount (Float) field in DocType 'Purchase
 #. Invoice Item'
 #. Label of the margin_rate_or_amount (Float) field in DocType 'Sales Invoice
+#. Item'
 #. Label of the margin_rate_or_amount (Float) field in DocType 'Purchase Order
+#. Item'
 #. Label of the margin_rate_or_amount (Float) field in DocType 'Supplier
 #. Quotation Item'
 #. Label of the margin_rate_or_amount (Float) field in DocType 'Quotation Item'
 #. Label of the margin_rate_or_amount (Float) field in DocType 'Sales Order
+#. Item'
 #. Label of the margin_rate_or_amount (Float) field in DocType 'Delivery Note
+#. Item'
+#. Label of the margin_rate_or_amount (Float) field in DocType 'Purchase
 #. Receipt Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
@@ -22802,19 +23021,25 @@ msgstr "Detalhes da requisição de material"
 #. Label of the material_request_item (Data) field in DocType 'Purchase Invoice
 #. Item'
 #. Label of the material_request_item (Data) field in DocType 'Purchase Order
+#. Item'
 #. Label of the material_request_item (Data) field in DocType 'Request for
 #. Quotation Item'
 #. Label of the material_request_item (Data) field in DocType 'Supplier
+#. Quotation Item'
 #. Label of the material_request_item (Data) field in DocType 'Work Order'
 #. Label of the material_request_item (Data) field in DocType 'Sales Order
+#. Item'
 #. Label of the material_request_item (Data) field in DocType 'Delivery Note
+#. Item'
 #. Name of a DocType
 #. Label of the material_request_item (Data) field in DocType 'Pick List Item'
 #. Label of the material_request_item (Data) field in DocType 'Purchase Receipt
+#. Item'
 #. Label of the material_request_item (Link) field in DocType 'Stock Entry
 #. Detail'
 #. Label of the material_request_item (Data) field in DocType 'Subcontracting
 #. Order Item'
+#. Label of the material_request_item (Data) field in DocType 'Subcontracting
 #. Order Service Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
@@ -22981,6 +23206,7 @@ msgstr "Os materiais precisam ser transferidos para o armazém de estoque em pro
 
 #. Label of the max_amount (Currency) field in DocType 'Promotional Scheme
 #. Price Discount'
+#. Label of the max_amount (Currency) field in DocType 'Promotional Scheme
 #. Product Discount'
 #: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
@@ -22999,6 +23225,7 @@ msgstr "Desconto máx. (%)"
 
 #. Label of the max_grade (Percent) field in DocType 'Supplier Scorecard
 #. Scoring Standing'
+#. Label of the max_grade (Percent) field in DocType 'Supplier Scorecard
 #. Standing'
 #: erpnext/buying/doctype/supplier_scorecard_scoring_standing/supplier_scorecard_scoring_standing.json
 #: erpnext/buying/doctype/supplier_scorecard_standing/supplier_scorecard_standing.json
@@ -23013,6 +23240,7 @@ msgstr "Qtd. máxima produzível"
 #. Label of the max_qty (Float) field in DocType 'Promotional Scheme Price
 #. Discount'
 #. Label of the max_qty (Float) field in DocType 'Promotional Scheme Product
+#. Discount'
 #: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
 msgid "Max Qty"
@@ -23031,6 +23259,7 @@ msgstr "Qtd. máxima de amostra"
 #. Label of the max_score (Float) field in DocType 'Supplier Scorecard
 #. Criteria'
 #. Label of the max_score (Float) field in DocType 'Supplier Scorecard Scoring
+#. Criteria'
 #: erpnext/buying/doctype/supplier_scorecard_criteria/supplier_scorecard_criteria.json
 #: erpnext/buying/doctype/supplier_scorecard_scoring_criteria/supplier_scorecard_scoring_criteria.json
 msgid "Max Score"
@@ -23356,6 +23585,7 @@ msgstr "Milissegundo"
 
 #. Label of the min_amount (Currency) field in DocType 'Promotional Scheme
 #. Price Discount'
+#. Label of the min_amount (Currency) field in DocType 'Promotional Scheme
 #. Product Discount'
 #: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
@@ -23373,6 +23603,7 @@ msgstr "O valor mín. não pode ser maior que o valor máx."
 
 #. Label of the min_grade (Percent) field in DocType 'Supplier Scorecard
 #. Scoring Standing'
+#. Label of the min_grade (Percent) field in DocType 'Supplier Scorecard
 #. Standing'
 #: erpnext/buying/doctype/supplier_scorecard_scoring_standing/supplier_scorecard_scoring_standing.json
 #: erpnext/buying/doctype/supplier_scorecard_standing/supplier_scorecard_standing.json
@@ -23388,6 +23619,7 @@ msgstr "Qtd. mínima de pedido"
 #. Label of the min_qty (Float) field in DocType 'Promotional Scheme Price
 #. Discount'
 #. Label of the min_qty (Float) field in DocType 'Promotional Scheme Product
+#. Discount'
 #: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
 msgid "Min Qty"
@@ -23614,9 +23846,11 @@ msgstr "Frequência de monitoramento"
 #. Option for the 'Discount Validity Based On' (Select) field in DocType
 #. 'Payment Schedule'
 #. Option for the 'Due Date Based On' (Select) field in DocType 'Payment Term'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
 #. 'Payment Term'
 #. Option for the 'Due Date Based On' (Select) field in DocType 'Payment Terms
 #. Template Detail'
+#. Option for the 'Discount Validity Based On' (Select) field in DocType
 #. 'Payment Terms Template Detail'
 #: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
 #: erpnext/accounts/doctype/payment_term/payment_term.json
@@ -23823,6 +24057,7 @@ msgstr "A série de nomenclatura é obrigatória"
 #. Label of the naming_series_details (Small Text) field in DocType 'Buying
 #. Settings'
 #. Label of the naming_series_details (Small Text) field in DocType 'Selling
+#. Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Naming Series options"
@@ -23891,8 +24126,10 @@ msgstr "Erro de estoque negativo"
 #. Label of the net_amount (Currency) field in DocType 'POS Invoice Item'
 #. Label of the net_amount (Currency) field in DocType 'Purchase Invoice Item'
 #. Label of the net_amount (Currency) field in DocType 'Purchase Taxes and
+#. Charges'
 #. Label of the net_amount (Currency) field in DocType 'Sales Invoice Item'
 #. Label of the net_amount (Currency) field in DocType 'Sales Taxes and
+#. Charges'
 #. Label of the net_amount (Currency) field in DocType 'Purchase Order Item'
 #. Label of the net_amount (Currency) field in DocType 'Supplier Quotation
 #. Item'
@@ -23922,14 +24159,21 @@ msgstr "Valor líquido"
 #. Label of the base_net_amount (Currency) field in DocType 'Purchase Invoice
 #. Item'
 #. Label of the base_net_amount (Currency) field in DocType 'Purchase Taxes and
+#. Charges'
 #. Label of the base_net_amount (Currency) field in DocType 'Sales Invoice
+#. Item'
 #. Label of the base_net_amount (Currency) field in DocType 'Sales Taxes and
+#. Charges'
 #. Label of the base_net_amount (Currency) field in DocType 'Purchase Order
+#. Item'
 #. Label of the base_net_amount (Currency) field in DocType 'Supplier Quotation
+#. Item'
 #. Label of the base_net_amount (Currency) field in DocType 'Quotation Item'
 #. Label of the base_net_amount (Currency) field in DocType 'Sales Order Item'
 #. Label of the base_net_amount (Currency) field in DocType 'Delivery Note
+#. Item'
 #. Label of the base_net_amount (Currency) field in DocType 'Purchase Receipt
+#. Item'
 #: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -24051,10 +24295,12 @@ msgstr "Preço líquido"
 #. Label of the base_net_rate (Currency) field in DocType 'Sales Invoice Item'
 #. Label of the base_net_rate (Currency) field in DocType 'Purchase Order Item'
 #. Label of the base_net_rate (Currency) field in DocType 'Supplier Quotation
+#. Item'
 #. Label of the base_net_rate (Currency) field in DocType 'Quotation Item'
 #. Label of the base_net_rate (Currency) field in DocType 'Sales Order Item'
 #. Label of the base_net_rate (Currency) field in DocType 'Delivery Note Item'
 #. Label of the base_net_rate (Currency) field in DocType 'Purchase Receipt
+#. Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
@@ -24834,6 +25080,7 @@ msgstr "Notificar erro de repostagem para o perfil"
 #. Label of the notify_supplier (Check) field in DocType 'Supplier Scorecard'
 #. Label of the notify_supplier (Check) field in DocType 'Supplier Scorecard
 #. Scoring Standing'
+#. Label of the notify_supplier (Check) field in DocType 'Supplier Scorecard
 #. Standing'
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json
 #: erpnext/buying/doctype/supplier_scorecard_scoring_standing/supplier_scorecard_scoring_standing.json
@@ -25127,6 +25374,7 @@ msgstr "Leilões online"
 
 #. Description of the 'Default Advance Account' (Link) field in DocType
 #. 'Payment Reconciliation'
+#. Description of the 'Default Advance Account' (Link) field in DocType
 #. 'Process Payment Reconciliation'
 #. Description of the 'Default Advance Received Account' (Link) field in
 #. DocType 'Company'
@@ -25365,6 +25613,7 @@ msgstr "Abertura (Dr)"
 #. Label of the opening_amount (Currency) field in DocType 'POS Closing Entry
 #. Detail'
 #. Label of the opening_amount (Currency) field in DocType 'POS Opening Entry
+#. Detail'
 #: erpnext/accounts/doctype/pos_closing_entry_detail/pos_closing_entry_detail.json
 #: erpnext/accounts/doctype/pos_opening_entry_detail/pos_opening_entry_detail.json
 #: erpnext/selling/page/point_of_sale/pos_controller.js:41
@@ -25431,6 +25680,7 @@ msgstr "Faturas de abertura"
 
 #. Label of the opening_number_of_booked_depreciations (Int) field in DocType
 #. 'Asset'
+#. Label of the opening_number_of_booked_depreciations (Int) field in DocType
 #. 'Asset Depreciation Schedule'
 #: erpnext/assets/doctype/asset/asset.json
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
@@ -25512,6 +25762,7 @@ msgstr "Custos operacionais"
 
 #. Label of the section_break_auzm (Section Break) field in DocType
 #. 'Workstation'
+#. Label of the section_break_auzm (Section Break) field in DocType
 #. 'Workstation Type'
 #: erpnext/manufacturing/doctype/workstation/workstation.json
 #: erpnext/manufacturing/doctype/workstation_type/workstation_type.json
@@ -25748,7 +25999,9 @@ msgstr "Nº do pedido"
 #. Order'
 #. Label of the order_status_section (Section Break) field in DocType
 #. 'Subcontracting Inward Order'
+#. Label of the order_status_section (Section Break) field in DocType
 #. 'Subcontracting Order'
+#. Label of the order_status_section (Section Break) field in DocType
 #. 'Subcontracting Receipt'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
@@ -25839,7 +26092,9 @@ msgstr "Outros detalhes"
 #. Label of the other_info_tab (Tab Break) field in DocType 'Stock Entry'
 #. Label of the tab_other_info (Tab Break) field in DocType 'Subcontracting
 #. Inward Order'
+#. Label of the tab_other_info (Tab Break) field in DocType 'Subcontracting
 #. Order'
+#. Label of the tab_other_info (Tab Break) field in DocType 'Subcontracting
 #. Receipt'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
@@ -26481,6 +26736,7 @@ msgstr "Paletes"
 #. Inspection Parameter'
 #. Label of the parameter_group (Link) field in DocType 'Quality Inspection
 #. Parameter'
+#. Label of the parameter_group (Link) field in DocType 'Quality Inspection
 #. Reading'
 #: erpnext/stock/doctype/item_quality_inspection_parameter/item_quality_inspection_parameter.json
 #: erpnext/stock/doctype/quality_inspection_parameter/quality_inspection_parameter.json
@@ -26497,6 +26753,7 @@ msgstr "Nome do grupo de parâmetros"
 #. Label of the param_name (Data) field in DocType 'Supplier Scorecard Scoring
 #. Variable'
 #. Label of the param_name (Data) field in DocType 'Supplier Scorecard
+#. Variable'
 #: erpnext/buying/doctype/supplier_scorecard_scoring_variable/supplier_scorecard_scoring_variable.json
 #: erpnext/buying/doctype/supplier_scorecard_variable/supplier_scorecard_variable.json
 msgid "Parameter Name"
@@ -26683,6 +26940,7 @@ msgstr "Faturado parcialmente"
 
 #. Option for the 'Completion Status' (Select) field in DocType 'Maintenance
 #. Schedule Detail'
+#. Option for the 'Completion Status' (Select) field in DocType 'Maintenance
 #. Visit'
 #: erpnext/maintenance/doctype/maintenance_schedule_detail/maintenance_schedule_detail.json
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
@@ -26716,6 +26974,7 @@ msgstr "Parcialmente pedido"
 
 #. Option for the 'Status' (Select) field in DocType 'Process Payment
 #. Reconciliation'
+#. Option for the 'Status' (Select) field in DocType 'Process Payment
 #. Reconciliation Log'
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
 #: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.json
@@ -26969,6 +27228,7 @@ msgstr "Item específico do cadastro"
 #. Label of the party_type (Link) field in DocType 'GL Entry'
 #. Label of the party_type (Link) field in DocType 'Journal Entry Account'
 #. Label of the party_type (Link) field in DocType 'Journal Entry Template
+#. Account'
 #. Label of the party_type (Link) field in DocType 'Opening Invoice Creation
 #. Tool Item'
 #. Label of the party_type (Link) field in DocType 'Payment Entry'
@@ -27098,9 +27358,11 @@ msgstr "Pausar SLA no status"
 
 #. Option for the 'Status' (Select) field in DocType 'Process Payment
 #. Reconciliation'
+#. Option for the 'Status' (Select) field in DocType 'Process Payment
 #. Reconciliation Log'
 #. Option for the 'Status' (Select) field in DocType 'Process Period Closing
 #. Voucher'
+#. Option for the 'Status' (Select) field in DocType 'Process Period Closing
 #. Voucher Detail'
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
 #: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.json
@@ -27398,6 +27660,7 @@ msgstr "Referências de pagamento"
 #. Option for the 'Payment Order Type' (Select) field in DocType 'Payment
 #. Order'
 #. Label of the payment_request (Link) field in DocType 'Payment Order
+#. Reference'
 #. Name of a DocType
 #. Label of a Workspace Sidebar Item
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
@@ -27496,8 +27759,11 @@ msgstr "Saldo em aberto do termo de pagamento"
 #. Invoice'
 #. Label of the payment_schedule_section (Section Break) field in DocType
 #. 'Purchase Invoice'
+#. Label of the payment_schedule_section (Section Break) field in DocType
 #. 'Sales Invoice'
+#. Label of the payment_schedule_section (Section Break) field in DocType
 #. 'Purchase Order'
+#. Label of the payment_schedule_section (Section Break) field in DocType
 #. 'Quotation'
 #. Label of the payment_terms_section (Section Break) field in DocType 'Sales
 #. Order'
@@ -27867,6 +28133,7 @@ msgstr "Configurações do período"
 #. Label of the period_start_date (Datetime) field in DocType 'POS Closing
 #. Entry'
 #. Label of the period_start_date (Datetime) field in DocType 'POS Opening
+#. Entry'
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.json
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.json
@@ -28021,8 +28288,10 @@ msgstr "Selecionar série / lote com base em"
 #. Label of the pick_serial_and_batch (Button) field in DocType 'Sales Invoice
 #. Item'
 #. Label of the pick_serial_and_batch (Button) field in DocType 'Delivery Note
+#. Item'
 #. Label of the pick_serial_and_batch (Button) field in DocType 'Packed Item'
 #. Label of the pick_serial_and_batch (Button) field in DocType 'Pick List
+#. Item'
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/packed_item/packed_item.json
@@ -28194,6 +28463,7 @@ msgstr "Planejar apontamentos de tempo fora do horário de trabalho da estação
 
 #. Option for the 'Maintenance Status' (Select) field in DocType 'Asset
 #. Maintenance Log'
+#. Option for the 'Maintenance Status' (Select) field in DocType 'Asset
 #. Maintenance Task'
 #. Option for the 'Status' (Select) field in DocType 'Sales Forecast'
 #: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
@@ -29533,10 +29803,12 @@ msgstr "A data de lançamento será alterada para a data de hoje, pois Editar da
 
 #. Label of the posting_datetime (Datetime) field in DocType 'Serial and Batch
 #. Bundle'
+#. Label of the posting_datetime (Datetime) field in DocType 'Serial and Batch
 #. Entry'
 #. Label of the posting_datetime (Datetime) field in DocType 'Stock Closing
 #. Balance'
 #. Label of the posting_datetime (Datetime) field in DocType 'Stock Ledger
+#. Entry'
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
 #: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
 #: erpnext/stock/doctype/stock_closing_balance/stock_closing_balance.json
@@ -29690,6 +29962,7 @@ msgstr "Impedir pedidos de compra"
 
 #. Label of the prevent_pos (Check) field in DocType 'Supplier Scorecard
 #. Scoring Standing'
+#. Label of the prevent_pos (Check) field in DocType 'Supplier Scorecard
 #. Standing'
 #: erpnext/buying/doctype/supplier_scorecard_scoring_standing/supplier_scorecard_scoring_standing.json
 #: erpnext/buying/doctype/supplier_scorecard_standing/supplier_scorecard_standing.json
@@ -29700,6 +29973,7 @@ msgstr "Impedir pedidos de compra"
 #. Label of the prevent_rfqs (Check) field in DocType 'Supplier Scorecard'
 #. Label of the prevent_rfqs (Check) field in DocType 'Supplier Scorecard
 #. Scoring Standing'
+#. Label of the prevent_rfqs (Check) field in DocType 'Supplier Scorecard
 #. Standing'
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json
@@ -29903,13 +30177,19 @@ msgstr "Nome da lista de preços"
 #. Label of the price_list_rate (Currency) field in DocType 'Purchase Invoice
 #. Item'
 #. Label of the price_list_rate (Currency) field in DocType 'Sales Invoice
+#. Item'
 #. Label of the price_list_rate (Currency) field in DocType 'Purchase Order
+#. Item'
 #. Label of the price_list_rate (Currency) field in DocType 'Supplier Quotation
+#. Item'
 #. Label of the price_list_rate (Currency) field in DocType 'Quotation Item'
 #. Label of the price_list_rate (Currency) field in DocType 'Sales Order Item'
 #. Label of the price_list_rate (Currency) field in DocType 'Delivery Note
+#. Item'
 #. Label of the price_list_rate (Currency) field in DocType 'Material Request
+#. Item'
 #. Label of the price_list_rate (Currency) field in DocType 'Purchase Receipt
+#. Item'
 #. Option for the 'Update Price List Based On' (Select) field in DocType 'Stock
 #. Settings'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
@@ -29931,12 +30211,18 @@ msgstr "Preço da lista de preços"
 #. Label of the base_price_list_rate (Currency) field in DocType 'Purchase
 #. Invoice Item'
 #. Label of the base_price_list_rate (Currency) field in DocType 'Sales Invoice
+#. Item'
+#. Label of the base_price_list_rate (Currency) field in DocType 'Purchase
 #. Order Item'
 #. Label of the base_price_list_rate (Currency) field in DocType 'Supplier
 #. Quotation Item'
 #. Label of the base_price_list_rate (Currency) field in DocType 'Quotation
+#. Item'
 #. Label of the base_price_list_rate (Currency) field in DocType 'Sales Order
+#. Item'
 #. Label of the base_price_list_rate (Currency) field in DocType 'Delivery Note
+#. Item'
+#. Label of the base_price_list_rate (Currency) field in DocType 'Purchase
 #. Receipt Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -30013,25 +30299,35 @@ msgstr "A regra de preços {0} foi atualizada"
 #. Invoice'
 #. Label of the pricing_rules (Small Text) field in DocType 'POS Invoice Item'
 #. Label of the pricing_rule_details (Section Break) field in DocType 'Purchase
+#. Invoice'
 #. Label of the pricing_rules (Small Text) field in DocType 'Purchase Invoice
 #. Item'
 #. Label of the pricing_rule_details (Section Break) field in DocType 'Sales
+#. Invoice'
 #. Label of the pricing_rules (Small Text) field in DocType 'Sales Invoice
+#. Item'
 #. Label of the section_break_48 (Section Break) field in DocType 'Purchase
 #. Order'
 #. Label of the pricing_rules (Small Text) field in DocType 'Purchase Order
+#. Item'
 #. Label of the pricing_rule_details (Section Break) field in DocType 'Supplier
 #. Quotation'
 #. Label of the pricing_rules (Small Text) field in DocType 'Supplier Quotation
+#. Item'
 #. Label of the pricing_rule_details (Section Break) field in DocType
 #. 'Quotation'
 #. Label of the pricing_rules (Small Text) field in DocType 'Quotation Item'
+#. Label of the pricing_rule_details (Section Break) field in DocType 'Sales
+#. Order'
 #. Label of the pricing_rules (Small Text) field in DocType 'Sales Order Item'
 #. Label of the pricing_rule_details (Section Break) field in DocType 'Delivery
 #. Note'
 #. Label of the pricing_rules (Small Text) field in DocType 'Delivery Note
+#. Item'
+#. Label of the pricing_rule_details (Section Break) field in DocType 'Purchase
 #. Receipt'
 #. Label of the pricing_rules (Small Text) field in DocType 'Purchase Receipt
+#. Item'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -30140,9 +30436,12 @@ msgstr "Detalhes de impressão"
 #. Label of the printing_settings (Section Break) field in DocType 'Request for
 #. Quotation'
 #. Label of the printing_settings (Section Break) field in DocType 'Supplier
+#. Quotation'
 #. Label of the printing_settings (Section Break) field in DocType 'Purchase
 #. Receipt'
 #. Label of the printing_settings (Section Break) field in DocType 'Stock
+#. Entry'
+#. Label of the printing_settings_section (Section Break) field in DocType
 #. 'Subcontracting Order'
 #. Label of the printing_settings (Section Break) field in DocType
 #. 'Subcontracting Receipt'
@@ -30238,6 +30537,7 @@ msgstr "A porcentagem de perda no processo não pode ser maior que 100"
 #. Label of the process_loss_qty (Float) field in DocType 'Stock Entry'
 #. Label of the process_loss_qty (Float) field in DocType 'Subcontracting
 #. Inward Order Item'
+#. Label of the process_loss_qty (Float) field in DocType 'Subcontracting
 #. Receipt Item'
 #: erpnext/manufacturing/doctype/bom/bom.json
 #: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
@@ -30383,6 +30683,7 @@ msgstr "Qtd. produzida / recebida"
 #. Label of the produced_qty (Float) field in DocType 'Batch'
 #. Label of the produced_qty (Float) field in DocType 'Subcontracting Inward
 #. Order Item'
+#. Label of the produced_qty (Float) field in DocType 'Subcontracting Inward
 #. Order Secondary Item'
 #: erpnext/manufacturing/doctype/production_plan_item/production_plan_item.json
 #: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
@@ -30469,6 +30770,7 @@ msgstr "Item de Produção"
 
 #. Label of the production_item_info_section (Section Break) field in DocType
 #. 'BOM'
+#. Label of the production_item_info_section (Section Break) field in DocType
 #. 'Work Order'
 #: erpnext/manufacturing/doctype/bom/bom.json
 #: erpnext/manufacturing/doctype/work_order/work_order.json
@@ -30519,6 +30821,7 @@ msgstr "Quantidade do Plano de Produção"
 #. Name of a DocType
 #. Label of the production_plan_sub_assembly_item (Data) field in DocType 'Work
 #. Order'
+#. Label of the production_plan_sub_assembly_item (Data) field in DocType
 #. 'Subcontracting Order Item'
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
 #: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
@@ -30874,6 +31177,7 @@ msgstr "Despesa de compra para o item {0}"
 #. Item'
 #. Label of the purchase_invoice_item (Data) field in DocType 'Asset'
 #. Label of the purchase_invoice_item (Data) field in DocType 'Purchase Receipt
+#. Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/assets/doctype/asset/asset.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
@@ -30892,10 +31196,14 @@ msgstr "Configurações da fatura de compra"
 #. Name of a DocType
 #. Label of the purchase_order_item (Data) field in DocType 'Sales Order Item'
 #. Label of the purchase_order_item (Data) field in DocType 'Delivery Note
+#. Item'
 #. Label of the purchase_order_item (Data) field in DocType 'Purchase Receipt
+#. Item'
 #. Label of the purchase_order_item (Data) field in DocType 'Subcontracting
 #. Order Item'
+#. Label of the purchase_order_item (Data) field in DocType 'Subcontracting
 #. Order Service Item'
+#. Label of the purchase_order_item (Data) field in DocType 'Subcontracting
 #. Receipt Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
@@ -30987,6 +31295,7 @@ msgstr "Lista de Preços de Compra"
 #. Option for the 'Transaction' (Select) field in DocType 'Authorization Rule'
 #. Option for the 'Receipt Document Type' (Select) field in DocType 'Landed
 #. Cost Item'
+#. Option for the 'Receipt Document Type' (Select) field in DocType 'Landed
 #. Cost Purchase Receipt'
 #. Name of a DocType
 #. Option for the 'Reference Type' (Select) field in DocType 'Quality
@@ -31038,6 +31347,7 @@ msgstr "Detalhe do Recebimento de Compra"
 #. Item'
 #. Name of a DocType
 #. Label of the purchase_receipt_item (Data) field in DocType 'Purchase Receipt
+#. Item'
 #: erpnext/assets/doctype/asset/asset.json
 #: erpnext/assets/doctype/asset_capitalization_stock_item/asset_capitalization_stock_item.json
 #: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
@@ -31186,6 +31496,7 @@ msgstr "A regra de armazenagem já existe para o item {0} no armazém {1}."
 #. Reservation Entry'
 #. Option for the 'Distribute Additional Costs Based On ' (Select) field in
 #. DocType 'Subcontracting Order'
+#. Option for the 'Distribute Additional Costs Based On ' (Select) field in
 #. DocType 'Subcontracting Receipt'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
@@ -31258,6 +31569,7 @@ msgstr "Qtd. (conforme BOM)"
 #. Label of the company_total_stock (Float) field in DocType 'Quotation Item'
 #. Label of the company_total_stock (Float) field in DocType 'Sales Order Item'
 #. Label of the company_total_stock (Float) field in DocType 'Delivery Note
+#. Item'
 #. Label of the company_total_stock (Float) field in DocType 'Pick List Item'
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
 #: erpnext/selling/doctype/quotation_item/quotation_item.json
@@ -31379,6 +31691,7 @@ msgstr "Qtd. conforme a UOM de estoque"
 
 #. Description of the 'Apply Recursion Over (As Per Transaction UOM)' (Float)
 #. field in DocType 'Pricing Rule'
+#. Description of the 'Apply Recursion Over (As Per Transaction UOM)' (Float)
 #. field in DocType 'Promotional Scheme Product Discount'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
@@ -31629,6 +31942,7 @@ msgstr "Quantidade e Descrição"
 
 #. Label of the quantity_and_rate (Section Break) field in DocType 'Purchase
 #. Invoice Item'
+#. Label of the quantity_and_rate (Section Break) field in DocType 'Purchase
 #. Order Item'
 #. Label of the quantity_and_rate (Section Break) field in DocType 'Supplier
 #. Quotation Item'
@@ -31642,10 +31956,12 @@ msgstr "Quantidade e Descrição"
 #. Label of the quantity_and_rate (Section Break) field in DocType 'Quotation
 #. Item'
 #. Label of the quantity_and_rate (Section Break) field in DocType 'Sales Order
+#. Item'
 #. Label of the quantity_and_rate (Section Break) field in DocType 'Delivery
 #. Note Item'
 #. Label of the quantity_and_rate_section (Tab Break) field in DocType 'Serial
 #. and Batch Bundle'
+#. Label of the quantity_and_rate_section (Section Break) field in DocType
 #. 'Subcontracting Order Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
@@ -31869,10 +32185,13 @@ msgstr "Aberto por (e-mail)"
 #. Settings'
 #. Label of the rate (Currency) field in DocType 'Subcontracting Inward Order
 #. Received Item'
+#. Label of the rate (Currency) field in DocType 'Subcontracting Inward Order
 #. Service Item'
 #. Label of the rate (Currency) field in DocType 'Subcontracting Order Item'
 #. Label of the rate (Currency) field in DocType 'Subcontracting Order Service
+#. Item'
 #. Label of the rate (Currency) field in DocType 'Subcontracting Order Supplied
+#. Item'
 #. Label of the rate (Currency) field in DocType 'Subcontracting Receipt Item'
 #. Label of the rate (Currency) field in DocType 'Subcontracting Receipt
 #. Supplied Item'
@@ -31976,13 +32295,17 @@ msgstr "Seção de Preço"
 #. Label of the rate_with_margin (Currency) field in DocType 'Purchase Invoice
 #. Item'
 #. Label of the rate_with_margin (Currency) field in DocType 'Sales Invoice
+#. Item'
 #. Label of the rate_with_margin (Currency) field in DocType 'Purchase Order
+#. Item'
 #. Label of the rate_with_margin (Currency) field in DocType 'Supplier
 #. Quotation Item'
 #. Label of the rate_with_margin (Currency) field in DocType 'Quotation Item'
 #. Label of the rate_with_margin (Currency) field in DocType 'Sales Order Item'
 #. Label of the rate_with_margin (Currency) field in DocType 'Delivery Note
+#. Item'
 #. Label of the rate_with_margin (Currency) field in DocType 'Purchase Receipt
+#. Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
@@ -32000,11 +32323,16 @@ msgstr "Preço com Margem"
 #. Label of the base_rate_with_margin (Currency) field in DocType 'Purchase
 #. Invoice Item'
 #. Label of the base_rate_with_margin (Currency) field in DocType 'Sales
+#. Invoice Item'
+#. Label of the base_rate_with_margin (Currency) field in DocType 'Purchase
 #. Order Item'
 #. Label of the base_rate_with_margin (Currency) field in DocType 'Quotation
+#. Item'
 #. Label of the base_rate_with_margin (Currency) field in DocType 'Sales Order
+#. Item'
 #. Label of the base_rate_with_margin (Currency) field in DocType 'Delivery
 #. Note Item'
+#. Label of the base_rate_with_margin (Currency) field in DocType 'Purchase
 #. Receipt Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -32035,7 +32363,9 @@ msgstr "Taxa de conversão da moeda do cliente para a moeda base do cliente"
 
 #. Description of the 'Price List Exchange Rate' (Float) field in DocType
 #. 'Quotation'
+#. Description of the 'Price List Exchange Rate' (Float) field in DocType
 #. 'Sales Order'
+#. Description of the 'Price List Exchange Rate' (Float) field in DocType
 #. 'Delivery Note'
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -32099,10 +32429,12 @@ msgstr "Taxa de juros anual (%)"
 #. Item'
 #. Label of the stock_uom_rate (Currency) field in DocType 'Sales Invoice Item'
 #. Label of the stock_uom_rate (Currency) field in DocType 'Purchase Order
+#. Item'
 #. Label of the stock_uom_rate (Currency) field in DocType 'Quotation Item'
 #. Label of the stock_uom_rate (Currency) field in DocType 'Sales Order Item'
 #. Label of the stock_uom_rate (Currency) field in DocType 'Delivery Note Item'
 #. Label of the stock_uom_rate (Currency) field in DocType 'Purchase Receipt
+#. Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
@@ -32152,6 +32484,7 @@ msgstr "Custo da matéria-prima (moeda da empresa)"
 
 #. Label of the rm_cost_per_qty (Currency) field in DocType 'Subcontracting
 #. Order Item'
+#. Label of the rm_cost_per_qty (Currency) field in DocType 'Subcontracting
 #. Receipt Item'
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
@@ -32165,11 +32498,13 @@ msgstr "Item de matéria-prima"
 #. Label of the rm_item_code (Link) field in DocType 'Purchase Order Item
 #. Supplied'
 #. Label of the rm_item_code (Link) field in DocType 'Purchase Receipt Item
+#. Supplied'
 #. Label of the rm_item_code (Link) field in DocType 'Subcontracting Inward
 #. Order Received Item'
 #. Label of the rm_item_code (Link) field in DocType 'Subcontracting Order
 #. Supplied Item'
 #. Label of the rm_item_code (Link) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
 #: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
 #: erpnext/buying/doctype/purchase_receipt_item_supplied/purchase_receipt_item_supplied.json
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
@@ -32244,6 +32579,7 @@ msgstr "Matérias-primas fornecidas"
 #. Label of the rm_supp_cost (Currency) field in DocType 'Purchase Invoice
 #. Item'
 #. Label of the rm_supp_cost (Currency) field in DocType 'Purchase Receipt
+#. Item'
 #. Label of the rm_supp_cost (Currency) field in DocType 'Subcontracting
 #. Receipt Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -32410,6 +32746,7 @@ msgstr "Recebimento"
 
 #. Label of the receipt_document (Dynamic Link) field in DocType 'Landed Cost
 #. Item'
+#. Label of the receipt_document (Dynamic Link) field in DocType 'Landed Cost
 #. Purchase Receipt'
 #: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
 #: erpnext/stock/doctype/landed_cost_purchase_receipt/landed_cost_purchase_receipt.json
@@ -32418,6 +32755,7 @@ msgstr "Documento de recebimento"
 
 #. Label of the receipt_document_type (Select) field in DocType 'Landed Cost
 #. Item'
+#. Label of the receipt_document_type (Select) field in DocType 'Landed Cost
 #. Purchase Receipt'
 #: erpnext/stock/doctype/landed_cost_item/landed_cost_item.json
 #: erpnext/stock/doctype/landed_cost_purchase_receipt/landed_cost_purchase_receipt.json
@@ -32552,6 +32890,7 @@ msgstr "Qtd. recebida na UOM de estoque"
 
 #. Label of the received_and_accepted (Section Break) field in DocType
 #. 'Purchase Receipt Item'
+#. Label of the received_and_accepted (Section Break) field in DocType
 #. 'Subcontracting Receipt Item'
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
@@ -32603,6 +32942,7 @@ msgstr "Vigência da conciliação"
 
 #. Label of the reconcile_on_advance_payment_date (Check) field in DocType
 #. 'Payment Entry'
+#. Label of the reconcile_on_advance_payment_date (Check) field in DocType
 #. 'Company'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 #: erpnext/setup/doctype/company/company.json
@@ -32720,6 +33060,7 @@ msgstr "Resgate"
 #. Label of the loyalty_redemption_account (Link) field in DocType 'POS
 #. Invoice'
 #. Label of the loyalty_redemption_account (Link) field in DocType 'Sales
+#. Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Redemption Account"
@@ -32728,6 +33069,7 @@ msgstr "Conta de resgate"
 #. Label of the loyalty_redemption_cost_center (Link) field in DocType 'POS
 #. Invoice'
 #. Label of the loyalty_redemption_cost_center (Link) field in DocType 'Sales
+#. Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Redemption Cost Center"
@@ -32775,6 +33117,7 @@ msgstr "Data de vencimento da referência"
 #. Label of the ref_exchange_rate (Float) field in DocType 'Purchase Invoice
 #. Advance'
 #. Label of the ref_exchange_rate (Float) field in DocType 'Sales Invoice
+#. Advance'
 #: erpnext/accounts/doctype/purchase_invoice_advance/purchase_invoice_advance.json
 #: erpnext/accounts/doctype/sales_invoice_advance/sales_invoice_advance.json
 msgid "Reference Exchange Rate"
@@ -32809,6 +33152,7 @@ msgstr "Recebimento de compra de referência"
 
 #. Label of the reference_row (Data) field in DocType 'Payment Reconciliation
 #. Allocation'
+#. Label of the reference_row (Data) field in DocType 'Payment Reconciliation
 #. Payment'
 #. Label of the reference_row (Data) field in DocType 'Process Payment
 #. Reconciliation Log Allocations'
@@ -32906,6 +33250,7 @@ msgstr "Quantidade rejeitada"
 #. Label of the rejected_serial_no (Text) field in DocType 'Purchase Invoice
 #. Item'
 #. Label of the rejected_serial_no (Text) field in DocType 'Purchase Receipt
+#. Item'
 #. Label of the rejected_serial_no (Small Text) field in DocType
 #. 'Subcontracting Receipt Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -32916,7 +33261,9 @@ msgstr "Nº de série rejeitado"
 
 #. Label of the rejected_serial_and_batch_bundle (Link) field in DocType
 #. 'Purchase Invoice Item'
+#. Label of the rejected_serial_and_batch_bundle (Link) field in DocType
 #. 'Purchase Receipt Item'
+#. Label of the rejected_serial_and_batch_bundle (Link) field in DocType
 #. 'Subcontracting Receipt Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
@@ -32929,8 +33276,10 @@ msgstr "Pacote de séries e lotes rejeitados"
 #. Item'
 #. Label of the rejected_warehouse (Link) field in DocType 'Purchase Receipt'
 #. Label of the rejected_warehouse (Link) field in DocType 'Purchase Receipt
+#. Item'
 #. Label of the rejected_warehouse (Link) field in DocType 'Subcontracting
 #. Receipt'
+#. Label of the rejected_warehouse (Link) field in DocType 'Subcontracting
 #. Receipt Item'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -33456,7 +33805,9 @@ msgstr "Solicitante"
 #. Label of the schedule_date (Date) field in DocType 'Purchase Receipt Item'
 #. Label of the schedule_date (Date) field in DocType 'Subcontracting Order'
 #. Label of the schedule_date (Date) field in DocType 'Subcontracting Order
+#. Item'
 #. Label of the schedule_date (Date) field in DocType 'Subcontracting Receipt
+#. Item'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
 #: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:201
@@ -33483,6 +33834,7 @@ msgstr "Data necessária"
 #. Label of the section_break_ndpq (Section Break) field in DocType 'Work
 #. Order'
 #. Label of the received_items (Table) field in DocType 'Subcontracting Inward
+#. Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
 msgid "Required Items"
@@ -33504,6 +33856,7 @@ msgstr "Necessário em"
 #. Label of the required_qty (Float) field in DocType 'Subcontracting Order
 #. Supplied Item'
 #. Label of the required_qty (Float) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
 #: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
 #: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.py:151
 #: erpnext/manufacturing/doctype/job_card_item/job_card_item.json
@@ -34081,11 +34434,14 @@ msgstr "Valor devolvido"
 #. Label of the returned_qty (Float) field in DocType 'Sales Order Item'
 #. Label of the returned_qty (Float) field in DocType 'Subcontracting Inward
 #. Order Item'
+#. Label of the returned_qty (Float) field in DocType 'Subcontracting Inward
 #. Order Received Item'
 #. Label of the returned_qty (Float) field in DocType 'Subcontracting Order
 #. Item'
+#. Label of the returned_qty (Float) field in DocType 'Subcontracting Order
 #. Supplied Item'
 #. Label of the returned_qty (Float) field in DocType 'Subcontracting Receipt
+#. Item'
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
 #: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
 #: erpnext/buying/report/subcontract_order_summary/subcontract_order_summary.py:154
@@ -34162,6 +34518,7 @@ msgstr "Inverter sinal"
 #. Label of the review (Text Editor) field in DocType 'Quality Review
 #. Objective'
 #. Label of the sb_00 (Section Break) field in DocType 'Quality Review
+#. Objective'
 #. Name of a report
 #: erpnext/quality_management/doctype/quality_action/quality_action.json
 #: erpnext/quality_management/doctype/quality_goal/quality_goal.json
@@ -34307,6 +34664,7 @@ msgstr "Perfil autorizado a ignorar as restrições do período."
 #. Label of the role_to_override_stop_action (Link) field in DocType 'Buying
 #. Settings'
 #. Label of the role_to_override_stop_action (Link) field in DocType 'Selling
+#. Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Role allowed to override stop action"
@@ -34406,16 +34764,26 @@ msgstr "Total arredondado (moeda da empresa)"
 #. Label of the base_rounding_adjustment (Currency) field in DocType 'Purchase
 #. Invoice'
 #. Label of the rounding_adjustment (Currency) field in DocType 'Purchase
+#. Invoice'
 #. Label of the base_rounding_adjustment (Currency) field in DocType 'Sales
+#. Invoice'
 #. Label of the rounding_adjustment (Currency) field in DocType 'Sales Invoice'
+#. Label of the base_rounding_adjustment (Currency) field in DocType 'Purchase
+#. Order'
+#. Label of the rounding_adjustment (Currency) field in DocType 'Purchase
 #. Order'
 #. Label of the rounding_adjustment (Currency) field in DocType 'Supplier
 #. Quotation'
 #. Label of the rounding_adjustment (Currency) field in DocType 'Quotation'
+#. Label of the base_rounding_adjustment (Currency) field in DocType 'Sales
+#. Order'
 #. Label of the rounding_adjustment (Currency) field in DocType 'Sales Order'
 #. Label of the base_rounding_adjustment (Currency) field in DocType 'Delivery
 #. Note'
 #. Label of the rounding_adjustment (Currency) field in DocType 'Delivery Note'
+#. Label of the base_rounding_adjustment (Currency) field in DocType 'Purchase
+#. Receipt'
+#. Label of the rounding_adjustment (Currency) field in DocType 'Purchase
 #. Receipt'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -35591,6 +35959,7 @@ msgstr "Regra aplicada"
 #. Label of the rule_description (Small Text) field in DocType 'Pricing Rule'
 #. Label of the rule_description (Small Text) field in DocType 'Promotional
 #. Scheme Price Discount'
+#. Label of the rule_description (Small Text) field in DocType 'Promotional
 #. Scheme Product Discount'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
@@ -35609,9 +35978,11 @@ msgstr "Executar cartões de trabalho em paralelo em um posto de trabalho"
 
 #. Option for the 'Status' (Select) field in DocType 'Process Payment
 #. Reconciliation'
+#. Option for the 'Status' (Select) field in DocType 'Process Payment
 #. Reconciliation Log'
 #. Option for the 'Status' (Select) field in DocType 'Process Period Closing
 #. Voucher'
+#. Option for the 'Status' (Select) field in DocType 'Process Period Closing
 #. Voucher Detail'
 #. Option for the 'Status' (Select) field in DocType 'Transaction Deletion
 #. Record'
@@ -35731,6 +36102,7 @@ msgstr "Item da previsão de vendas"
 
 #. Label of the sales_incoming_rate (Currency) field in DocType 'Purchase
 #. Invoice Item'
+#. Label of the sales_incoming_rate (Currency) field in DocType 'Purchase
 #. Receipt Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
@@ -35838,10 +36210,13 @@ msgstr "Data do pedido de venda"
 #. Item'
 #. Name of a DocType
 #. Label of the sales_order_item (Data) field in DocType 'Material Request
+#. Item'
 #. Label of the sales_order_item (Data) field in DocType 'Pick List Item'
 #. Label of the sales_order_item (Data) field in DocType 'Purchase Receipt
+#. Item'
 #. Label of the sales_order_item (Data) field in DocType 'Subcontracting Inward
 #. Order Item'
+#. Label of the sales_order_item (Data) field in DocType 'Subcontracting Inward
 #. Order Service Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
@@ -36857,13 +37232,17 @@ msgstr "Nºs de série / lote"
 #. Label of the serial_no (Text) field in DocType 'Asset Capitalization Stock
 #. Item'
 #. Label of the serial_no (Small Text) field in DocType 'Asset Repair Consumed
+#. Item'
 #. Label of the serial_no (Text) field in DocType 'Purchase Receipt Item
 #. Supplied'
 #. Label of the serial_no (Small Text) field in DocType 'Maintenance Schedule
 #. Detail'
+#. Label of the serial_no (Small Text) field in DocType 'Maintenance Schedule
+#. Item'
 #. Label of the serial_no (Link) field in DocType 'Maintenance Visit Purpose'
 #. Label of the serial_no (Small Text) field in DocType 'Job Card'
 #. Label of the serial_no (Small Text) field in DocType 'Installation Note
+#. Item'
 #. Label of the serial_no (Text) field in DocType 'Delivery Note Item'
 #. Label of the serial_no (Text) field in DocType 'Packed Item'
 #. Label of the serial_no (Small Text) field in DocType 'Pick List Item'
@@ -36874,8 +37253,10 @@ msgstr "Nºs de série / lote"
 #. Label of the serial_no (Text) field in DocType 'Stock Entry Detail'
 #. Label of the serial_no (Long Text) field in DocType 'Stock Ledger Entry'
 #. Label of the serial_no (Long Text) field in DocType 'Stock Reconciliation
+#. Item'
 #. Label of a Link in the Stock Workspace
 #. Label of the serial_no (Small Text) field in DocType 'Subcontracting Receipt
+#. Item'
 #. Label of the serial_no (Text) field in DocType 'Subcontracting Receipt
 #. Supplied Item'
 #. Label of the serial_no (Link) field in DocType 'Warranty Claim'
@@ -37110,6 +37491,7 @@ msgstr "Série e lote"
 #. Label of the serial_and_batch_bundle (Link) field in DocType 'Purchase
 #. Invoice Item'
 #. Label of the serial_and_batch_bundle (Link) field in DocType 'Sales Invoice
+#. Item'
 #. Label of the serial_and_batch_bundle (Link) field in DocType 'Asset
 #. Capitalization Stock Item'
 #. Label of the serial_and_batch_bundle (Link) field in DocType 'Asset Repair
@@ -37120,8 +37502,11 @@ msgstr "Série e lote"
 #. Label of the serial_and_batch_bundle (Link) field in DocType 'Installation
 #. Note Item'
 #. Label of the serial_and_batch_bundle (Link) field in DocType 'Delivery Note
+#. Item'
 #. Label of the serial_and_batch_bundle (Link) field in DocType 'Packed Item'
 #. Label of the serial_and_batch_bundle (Link) field in DocType 'Pick List
+#. Item'
+#. Label of the serial_and_batch_bundle (Link) field in DocType 'Purchase
 #. Receipt Item'
 #. Name of a DocType
 #. Label of the serial_and_batch_bundle (Link) field in DocType 'Stock Entry
@@ -37129,6 +37514,7 @@ msgstr "Série e lote"
 #. Label of the serial_and_batch_bundle (Link) field in DocType 'Stock Ledger
 #. Entry'
 #. Label of the serial_and_batch_bundle (Link) field in DocType 'Subcontracting
+#. Receipt Item'
 #. Label of a Workspace Sidebar Item
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -37243,6 +37629,7 @@ msgstr "Endereço de atendimento"
 
 #. Label of the service_cost_per_qty (Currency) field in DocType
 #. 'Subcontracting Order Item'
+#. Label of the service_cost_per_qty (Currency) field in DocType
 #. 'Subcontracting Receipt Item'
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
@@ -37316,6 +37703,7 @@ msgstr "O item de serviço {0} deve ser um item não estocável."
 #. 'Subcontracting Inward Order'
 #. Label of the service_items (Table) field in DocType 'Subcontracting Inward
 #. Order'
+#. Label of the service_items_section (Section Break) field in DocType
 #. 'Subcontracting Order'
 #. Label of the service_items (Table) field in DocType 'Subcontracting Order'
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
@@ -37558,6 +37946,7 @@ msgstr "Definir depósito"
 #. Label of the set_by_item_tax_template (Check) field in DocType 'Advance
 #. Taxes and Charges'
 #. Label of the set_by_item_tax_template (Check) field in DocType 'Purchase
+#. Taxes and Charges'
 #. Label of the set_by_item_tax_template (Check) field in DocType 'Sales Taxes
 #. and Charges'
 #: erpnext/accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
@@ -37846,8 +38235,11 @@ msgstr "Conta de envio"
 
 #. Label of the shipping_address_display (Text Editor) field in DocType
 #. 'Purchase Order'
+#. Label of the shipping_address_display (Text Editor) field in DocType
 #. 'Request for Quotation'
+#. Label of the shipping_address_display (Text Editor) field in DocType
 #. 'Supplier Quotation'
+#. Label of the shipping_address_display (Text Editor) field in DocType
 #. 'Subcontracting Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
@@ -38209,6 +38601,7 @@ msgstr "Expressão Python simples. Exemplo: territory != 'All Territories'"
 
 #. Description of the 'Acceptance Criteria Formula' (Code) field in DocType
 #. 'Item Quality Inspection Parameter'
+#. Description of the 'Acceptance Criteria Formula' (Code) field in DocType
 #. 'Quality Inspection Reading'
 #: erpnext/stock/doctype/item_quality_inspection_parameter/item_quality_inspection_parameter.json
 #: erpnext/stock/doctype/quality_inspection_reading/quality_inspection_reading.json
@@ -38684,9 +39077,13 @@ msgstr "Um processo em segundo plano foi iniciado para criar {1} {0}. {2}"
 #. Label of the payer_name_from_left_edge (Float) field in DocType 'Cheque
 #. Print Template'
 #. Label of the amt_in_words_from_left_edge (Float) field in DocType 'Cheque
+#. Print Template'
 #. Label of the amt_in_figures_from_left_edge (Float) field in DocType 'Cheque
+#. Print Template'
 #. Label of the acc_no_dist_from_left_edge (Float) field in DocType 'Cheque
+#. Print Template'
 #. Label of the signatory_from_left_edge (Float) field in DocType 'Cheque Print
+#. Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
 msgid "Starting location from left edge"
 msgstr "Posição inicial a partir da margem esquerda"
@@ -38814,6 +39211,7 @@ msgstr "Log de fechamento de estoque"
 #. Label of the warehouse_and_reference (Section Break) field in DocType 'POS
 #. Invoice Item'
 #. Label of the warehouse_and_reference (Section Break) field in DocType 'Sales
+#. Invoice Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
 msgid "Stock Details"
@@ -38827,6 +39225,7 @@ msgstr "Movimentos de estoque já criados para a ordem de trabalho {0}: {1}"
 #. Label of a Link in the Manufacturing Workspace
 #. Option for the 'Receipt Document Type' (Select) field in DocType 'Landed
 #. Cost Item'
+#. Option for the 'Receipt Document Type' (Select) field in DocType 'Landed
 #. Cost Purchase Receipt'
 #. Option for the 'Reference Type' (Select) field in DocType 'Quality
 #. Inspection'
@@ -39139,6 +39538,7 @@ msgstr "Configurações das transações de estoque"
 #. Label of the stock_uom (Link) field in DocType 'Job Card Item'
 #. Label of the stock_uom (Link) field in DocType 'Job Card Secondary Item'
 #. Label of the stock_uom (Link) field in DocType 'Production Plan Sub Assembly
+#. Item'
 #. Label of the stock_uom (Link) field in DocType 'Work Order'
 #. Label of the stock_uom (Link) field in DocType 'Work Order Item'
 #. Label of the stock_uom (Link) field in DocType 'Delivery Schedule Item'
@@ -39156,13 +39556,17 @@ msgstr "Configurações das transações de estoque"
 #. Label of the stock_uom (Link) field in DocType 'Stock Reconciliation Item'
 #. Label of the stock_uom (Link) field in DocType 'Stock Reservation Entry'
 #. Label of the stock_uom (Link) field in DocType 'Subcontracting Inward Order
+#. Item'
+#. Label of the stock_uom (Link) field in DocType 'Subcontracting Inward Order
 #. Received Item'
+#. Label of the stock_uom (Link) field in DocType 'Subcontracting Inward Order
 #. Secondary Item'
 #. Label of the stock_uom (Link) field in DocType 'Subcontracting Order Item'
 #. Label of the stock_uom (Link) field in DocType 'Subcontracting Order
 #. Supplied Item'
 #. Label of the stock_uom (Link) field in DocType 'Subcontracting Receipt Item'
 #. Label of the stock_uom (Link) field in DocType 'Subcontracting Receipt
+#. Supplied Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
@@ -39226,6 +39630,7 @@ msgstr "Liberação de reserva de estoque"
 #. Label of the stock_uom (Link) field in DocType 'Purchase Order Item
 #. Supplied'
 #. Label of the stock_uom (Link) field in DocType 'Purchase Receipt Item
+#. Supplied'
 #: erpnext/buying/doctype/purchase_order_item_supplied/purchase_order_item_supplied.json
 #: erpnext/buying/doctype/purchase_receipt_item_supplied/purchase_receipt_item_supplied.json
 msgid "Stock Uom"
@@ -39331,6 +39736,7 @@ msgstr "A ordem de trabalho parada não pode ser cancelada. Reative-a primeiro p
 #. Option for the 'Depreciation Method' (Select) field in DocType 'Asset'
 #. Option for the 'Depreciation Method' (Select) field in DocType 'Asset
 #. Depreciation Schedule'
+#. Option for the 'Depreciation Method' (Select) field in DocType 'Asset
 #. Finance Book'
 #: erpnext/assets/doctype/asset/asset.json
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
@@ -39494,6 +39900,7 @@ msgstr "BOM de subcontratação"
 
 #. Label of the subcontracting_conversion_factor (Float) field in DocType
 #. 'Subcontracting Inward Order Item'
+#. Label of the subcontracting_conversion_factor (Float) field in DocType
 #. 'Subcontracting Order Item'
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_item/subcontracting_inward_order_item.json
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
@@ -39525,6 +39932,7 @@ msgstr "Entrada de subcontratação"
 #. Label of the subcontracting_inward_order (Link) field in DocType 'Stock
 #. Entry'
 #. Option for the 'Voucher Type' (Select) field in DocType 'Stock Reservation
+#. Entry'
 #. Option for the 'From Voucher Type' (Select) field in DocType 'Stock
 #. Reservation Entry'
 #. Name of a DocType
@@ -39576,6 +39984,7 @@ msgstr "Item de serviço da ordem de entrada de subcontratação"
 #. Name of a DocType
 #. Label of the subcontracting_order (Link) field in DocType 'Subcontracting
 #. Receipt Item'
+#. Label of the subcontracting_order (Link) field in DocType 'Subcontracting
 #. Receipt Supplied Item'
 #. Label of a Workspace Sidebar Item
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:404
@@ -39641,6 +40050,7 @@ msgstr "Pedido de compra de subcontratação"
 #. Label of a Link in the Manufacturing Workspace
 #. Option for the 'Receipt Document Type' (Select) field in DocType 'Landed
 #. Cost Item'
+#. Option for the 'Receipt Document Type' (Select) field in DocType 'Landed
 #. Cost Purchase Receipt'
 #. Label of the subcontracting_receipt (Link) field in DocType 'Purchase
 #. Receipt'
@@ -39740,8 +40150,10 @@ msgstr "Envie sua cotação"
 #. Invoice'
 #. Label of the subscription (Link) field in DocType 'Process Subscription'
 #. Label of the subscription_section (Section Break) field in DocType 'Purchase
+#. Invoice'
 #. Label of the subscription (Link) field in DocType 'Purchase Invoice'
 #. Label of the subscription_section (Section Break) field in DocType 'Sales
+#. Invoice'
 #. Label of the subscription (Link) field in DocType 'Sales Invoice'
 #. Name of a DocType
 #. Label of a Link in the Invoicing Workspace
@@ -39923,11 +40335,13 @@ msgstr "Fornecedor > Tipo de fornecedor"
 
 #. Label of the section_addresses (Section Break) field in DocType 'Purchase
 #. Invoice'
+#. Label of the section_addresses (Section Break) field in DocType 'Purchase
 #. Order'
 #. Label of the supplier_address (Link) field in DocType 'Purchase Order'
 #. Label of the supplier_address (Link) field in DocType 'Supplier Quotation'
 #. Label of the supplier_address_section (Section Break) field in DocType
 #. 'Supplier Quotation'
+#. Label of the section_addresses (Section Break) field in DocType 'Purchase
 #. Receipt'
 #. Label of the supplier_address (Link) field in DocType 'Purchase Receipt'
 #. Label of the supplier_address (Link) field in DocType 'Stock Entry'
@@ -40063,6 +40477,7 @@ msgstr "Nº da peça do fornecedor"
 #. Item'
 #. Label of the supplier_part_no (Data) field in DocType 'Item Supplier'
 #. Label of the supplier_part_no (Data) field in DocType 'Purchase Receipt
+#. Item'
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
 #: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
 #: erpnext/stock/doctype/item_supplier/item_supplier.json
@@ -40348,6 +40763,7 @@ msgstr "O sistema fará uma conversão implícita usando a moeda atrelada. <br>\
 #. Description of the 'Invoice Limit' (Int) field in DocType 'Payment
 #. Reconciliation'
 #. Description of the 'Payment Limit' (Int) field in DocType 'Payment
+#. Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 msgid "System will fetch all the entries if limit value is zero."
 msgstr "O sistema buscará todos os lançamentos se o valor do limite for zero."
@@ -40584,6 +41000,7 @@ msgstr "Valor do imposto"
 #. 'Purchase Taxes and Charges'
 #. Label of the base_tax_amount_after_discount_amount (Currency) field in
 #. DocType 'Purchase Taxes and Charges'
+#. Label of the tax_amount_after_discount_amount (Currency) field in DocType
 #. 'Sales Taxes and Charges'
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
 #: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
@@ -40612,6 +41029,8 @@ msgstr "Ativos fiscais"
 #. Label of the sec_tax_breakup (Section Break) field in DocType 'Purchase
 #. Invoice'
 #. Label of the sec_tax_breakup (Section Break) field in DocType 'Sales
+#. Invoice'
+#. Label of the sec_tax_breakup (Section Break) field in DocType 'Purchase
 #. Order'
 #. Label of the tax_breakup (Section Break) field in DocType 'Supplier
 #. Quotation'
@@ -40619,6 +41038,7 @@ msgstr "Ativos fiscais"
 #. Label of the sec_tax_breakup (Section Break) field in DocType 'Sales Order'
 #. Label of the sec_tax_breakup (Section Break) field in DocType 'Delivery
 #. Note'
+#. Label of the sec_tax_breakup (Section Break) field in DocType 'Purchase
 #. Receipt'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -40741,9 +41161,11 @@ msgstr "Detalhes da retenção de impostos"
 #. Label of the tax_withholding_entries (Table) field in DocType 'Journal
 #. Entry'
 #. Label of the tax_withholding_entries (Table) field in DocType 'Payment
+#. Entry'
 #. Label of the tax_withholding_entries (Table) field in DocType 'Purchase
 #. Invoice'
 #. Label of the tax_withholding_entries (Table) field in DocType 'Sales
+#. Invoice'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -40753,7 +41175,9 @@ msgstr "Lançamentos de retenção de imposto"
 
 #. Label of the section_tax_withholding_entry (Section Break) field in DocType
 #. 'Payment Entry'
+#. Label of the section_tax_withholding_entry (Section Break) field in DocType
 #. 'Purchase Invoice'
+#. Label of the section_tax_withholding_entry (Section Break) field in DocType
 #. 'Sales Invoice'
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
@@ -40771,6 +41195,7 @@ msgstr "Lançamento de retenção de imposto"
 #. Label of the tax_withholding_group (Link) field in DocType 'Tax Withholding
 #. Entry'
 #. Name of a DocType
+#. Label of the tax_withholding_group (Link) field in DocType 'Tax Withholding
 #. Rate'
 #. Label of the tax_withholding_group (Link) field in DocType 'Supplier'
 #. Label of the tax_withholding_group (Link) field in DocType 'Customer'
@@ -40797,9 +41222,11 @@ msgstr "Alíquotas de retenção de impostos"
 #. Description of the 'Item Tax Rate' (Code) field in DocType 'Purchase Invoice
 #. Item'
 #. Description of the 'Item Tax Rate' (Code) field in DocType 'Purchase Order
+#. Item'
 #. Description of the 'Item Tax Rate' (Code) field in DocType 'Supplier
 #. Quotation Item'
 #. Description of the 'Item Tax Rate' (Code) field in DocType 'Purchase Receipt
+#. Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
 #: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
@@ -40863,9 +41290,11 @@ msgstr "Impostos e encargos"
 
 #. Label of the taxes_and_charges_added (Currency) field in DocType 'Purchase
 #. Invoice'
+#. Label of the taxes_and_charges_added (Currency) field in DocType 'Purchase
 #. Order'
 #. Label of the taxes_and_charges_added (Currency) field in DocType 'Supplier
 #. Quotation'
+#. Label of the taxes_and_charges_added (Currency) field in DocType 'Purchase
 #. Receipt'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
@@ -40876,8 +41305,11 @@ msgstr "Impostos e encargos adicionados"
 
 #. Label of the base_taxes_and_charges_added (Currency) field in DocType
 #. 'Purchase Invoice'
+#. Label of the base_taxes_and_charges_added (Currency) field in DocType
 #. 'Purchase Order'
+#. Label of the base_taxes_and_charges_added (Currency) field in DocType
 #. 'Supplier Quotation'
+#. Label of the base_taxes_and_charges_added (Currency) field in DocType
 #. 'Purchase Receipt'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
@@ -40891,11 +41323,18 @@ msgstr "Impostos e encargos adicionados (moeda da empresa)"
 #. Label of the other_charges_calculation (Text Editor) field in DocType
 #. 'Purchase Invoice'
 #. Label of the other_charges_calculation (Text Editor) field in DocType 'Sales
+#. Invoice'
+#. Label of the other_charges_calculation (Text Editor) field in DocType
 #. 'Purchase Order'
+#. Label of the other_charges_calculation (Text Editor) field in DocType
 #. 'Supplier Quotation'
+#. Label of the other_charges_calculation (Text Editor) field in DocType
 #. 'Quotation'
+#. Label of the other_charges_calculation (Text Editor) field in DocType 'Sales
 #. Order'
+#. Label of the other_charges_calculation (Text Editor) field in DocType
 #. 'Delivery Note'
+#. Label of the other_charges_calculation (Text Editor) field in DocType
 #. 'Purchase Receipt'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -40911,8 +41350,11 @@ msgstr "Cálculo de impostos e encargos"
 
 #. Label of the taxes_and_charges_deducted (Currency) field in DocType
 #. 'Purchase Invoice'
+#. Label of the taxes_and_charges_deducted (Currency) field in DocType
 #. 'Purchase Order'
+#. Label of the taxes_and_charges_deducted (Currency) field in DocType
 #. 'Supplier Quotation'
+#. Label of the taxes_and_charges_deducted (Currency) field in DocType
 #. 'Purchase Receipt'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
@@ -40923,8 +41365,11 @@ msgstr "Impostos e encargos deduzidos"
 
 #. Label of the base_taxes_and_charges_deducted (Currency) field in DocType
 #. 'Purchase Invoice'
+#. Label of the base_taxes_and_charges_deducted (Currency) field in DocType
 #. 'Purchase Order'
+#. Label of the base_taxes_and_charges_deducted (Currency) field in DocType
 #. 'Supplier Quotation'
+#. Label of the base_taxes_and_charges_deducted (Currency) field in DocType
 #. 'Purchase Receipt'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
@@ -41012,6 +41457,7 @@ msgstr "Detalhes do termo"
 #. Label of the terms_section_break (Section Break) field in DocType 'Purchase
 #. Order'
 #. Label of the terms_section_break (Section Break) field in DocType 'Sales
+#. Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "Terms & Conditions"
@@ -41859,6 +42305,7 @@ msgstr "Isenção por limite"
 
 #. Label of the threshold_percentage (Percent) field in DocType 'Promotional
 #. Scheme Price Discount'
+#. Label of the threshold_percentage (Percent) field in DocType 'Promotional
 #. Scheme Product Discount'
 #: erpnext/accounts/doctype/promotional_scheme_price_discount/promotional_scheme_price_discount.json
 #: erpnext/accounts/doctype/promotional_scheme_product_discount/promotional_scheme_product_discount.json
@@ -42046,6 +42493,7 @@ msgstr "Até o nº do fólio"
 #. Label of the to_invoice_date (Date) field in DocType 'Payment
 #. Reconciliation'
 #. Label of the to_invoice_date (Date) field in DocType 'Process Payment
+#. Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
 msgid "To Invoice Date"
@@ -42073,6 +42521,7 @@ msgstr "A pagar"
 #. Label of the to_payment_date (Date) field in DocType 'Payment
 #. Reconciliation'
 #. Label of the to_payment_date (Date) field in DocType 'Process Payment
+#. Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
 msgid "To Payment Date"
@@ -42314,8 +42763,10 @@ msgstr "Torr"
 #. Label of the base_total (Currency) field in DocType 'POS Invoice'
 #. Label of the base_total (Currency) field in DocType 'Purchase Invoice'
 #. Label of the base_total (Currency) field in DocType 'Purchase Taxes and
+#. Charges'
 #. Label of the base_total (Currency) field in DocType 'Sales Invoice'
 #. Label of the base_total (Currency) field in DocType 'Sales Taxes and
+#. Charges'
 #. Label of the base_total (Currency) field in DocType 'Purchase Order'
 #. Label of the base_total (Currency) field in DocType 'Supplier Quotation'
 #. Label of the base_total (Currency) field in DocType 'Opportunity'
@@ -42356,6 +42807,7 @@ msgstr "Total realizado"
 #. Entry'
 #. Label of the total_additional_costs (Currency) field in DocType
 #. 'Subcontracting Order'
+#. Label of the total_additional_costs (Currency) field in DocType
 #. 'Subcontracting Receipt'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
@@ -42674,6 +43126,7 @@ msgstr "Número total de depreciações lançadas "
 #. Label of the total_number_of_depreciations (Int) field in DocType 'Asset'
 #. Label of the total_number_of_depreciations (Int) field in DocType 'Asset
 #. Depreciation Schedule'
+#. Label of the total_number_of_depreciations (Int) field in DocType 'Asset
 #. Finance Book'
 #: erpnext/assets/doctype/asset/asset.json
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
@@ -42794,15 +43247,22 @@ msgstr "Valor tributável total"
 #. Entry'
 #. Label of the total_taxes_and_charges (Currency) field in DocType 'POS
 #. Closing Entry'
+#. Label of the total_taxes_and_charges (Currency) field in DocType 'POS
 #. Invoice'
 #. Label of the total_taxes_and_charges (Currency) field in DocType 'Purchase
+#. Invoice'
 #. Label of the total_taxes_and_charges (Currency) field in DocType 'Sales
+#. Invoice'
+#. Label of the total_taxes_and_charges (Currency) field in DocType 'Purchase
 #. Order'
 #. Label of the total_taxes_and_charges (Currency) field in DocType 'Supplier
 #. Quotation'
 #. Label of the total_taxes_and_charges (Currency) field in DocType 'Quotation'
+#. Label of the total_taxes_and_charges (Currency) field in DocType 'Sales
+#. Order'
 #. Label of the total_taxes_and_charges (Currency) field in DocType 'Delivery
 #. Note'
+#. Label of the total_taxes_and_charges (Currency) field in DocType 'Purchase
 #. Receipt'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
@@ -42822,13 +43282,21 @@ msgstr "Total de Impostos e Encargos"
 #. 'Payment Entry'
 #. Label of the base_total_taxes_and_charges (Currency) field in DocType 'POS
 #. Invoice'
+#. Label of the base_total_taxes_and_charges (Currency) field in DocType
 #. 'Purchase Invoice'
 #. Label of the base_total_taxes_and_charges (Currency) field in DocType 'Sales
+#. Invoice'
+#. Label of the base_total_taxes_and_charges (Currency) field in DocType
 #. 'Purchase Order'
+#. Label of the base_total_taxes_and_charges (Currency) field in DocType
 #. 'Supplier Quotation'
+#. Label of the base_total_taxes_and_charges (Currency) field in DocType
 #. 'Quotation'
+#. Label of the base_total_taxes_and_charges (Currency) field in DocType 'Sales
 #. Order'
+#. Label of the base_total_taxes_and_charges (Currency) field in DocType
 #. 'Delivery Note'
+#. Label of the base_total_taxes_and_charges (Currency) field in DocType
 #. 'Purchase Receipt'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
@@ -42943,9 +43411,14 @@ msgstr "Total (Qtd.)"
 #. Label of the base_totals_section (Section Break) field in DocType 'Purchase
 #. Invoice'
 #. Label of the base_totals_section (Section Break) field in DocType 'Sales
+#. Invoice'
+#. Label of the base_totals_section (Section Break) field in DocType 'Purchase
+#. Order'
+#. Label of the base_totals_section (Section Break) field in DocType 'Sales
 #. Order'
 #. Label of the base_totals_section (Section Break) field in DocType 'Delivery
 #. Note'
+#. Label of the base_totals_section (Section Break) field in DocType 'Purchase
 #. Receipt'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -43541,14 +44014,17 @@ msgstr "Detalhes da conversão de UOM"
 #. Item'
 #. Label of the conversion_factor (Float) field in DocType 'Sales Invoice Item'
 #. Label of the conversion_factor (Float) field in DocType 'Purchase Order
+#. Item'
 #. Label of the conversion_factor (Float) field in DocType 'Request for
 #. Quotation Item'
 #. Label of the conversion_factor (Float) field in DocType 'Supplier Quotation
+#. Item'
 #. Label of the conversion_factor (Float) field in DocType 'Quotation Item'
 #. Label of the conversion_factor (Float) field in DocType 'Sales Order Item'
 #. Name of a DocType
 #. Label of the conversion_factor (Float) field in DocType 'Delivery Note Item'
 #. Label of the conversion_factor (Float) field in DocType 'Material Request
+#. Item'
 #. Label of the conversion_factor (Float) field in DocType 'Pick List Item'
 #. Label of a Link in the Stock Workspace
 #. Label of a Workspace Sidebar Item
@@ -43607,9 +44083,12 @@ msgstr "A URL só pode ser uma string"
 #. Label of the utm_analytics_section (Section Break) field in DocType 'POS
 #. Invoice'
 #. Label of the utm_analytics_section (Section Break) field in DocType 'Sales
+#. Invoice'
 #. Label of the utm_analytics_section (Section Break) field in DocType
 #. 'Quotation'
+#. Label of the utm_analytics_section (Section Break) field in DocType 'Sales
 #. Order'
+#. Label of the utm_analytics_section (Section Break) field in DocType
 #. 'Delivery Note'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -43788,6 +44267,7 @@ msgstr "Conta de ganho/perda cambial não realizado"
 #. 'Purchase Invoice'
 #. Label of the unrealized_profit_loss_account (Link) field in DocType 'Sales
 #. Invoice'
+#. Label of the unrealized_profit_loss_account (Link) field in DocType
 #. 'Company'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -43922,9 +44402,14 @@ msgstr "Atualizar informações adicionais"
 #. Label of the update_auto_repeat_reference (Button) field in DocType
 #. 'Purchase Invoice'
 #. Label of the update_auto_repeat_reference (Button) field in DocType 'Sales
+#. Invoice'
+#. Label of the update_auto_repeat_reference (Button) field in DocType
 #. 'Purchase Order'
+#. Label of the update_auto_repeat_reference (Button) field in DocType
 #. 'Supplier Quotation'
+#. Label of the update_auto_repeat_reference (Button) field in DocType
 #. 'Quotation'
+#. Label of the update_auto_repeat_reference (Button) field in DocType 'Sales
 #. Order'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -43955,6 +44440,7 @@ msgstr "Atualizar qtd. do lote"
 
 #. Label of the update_billed_amount_in_delivery_note (Check) field in DocType
 #. 'POS Invoice'
+#. Label of the update_billed_amount_in_delivery_note (Check) field in DocType
 #. 'Sales Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -43975,6 +44461,7 @@ msgstr "Atualizar valor faturado no recebimento de compra"
 
 #. Label of the update_billed_amount_in_sales_order (Check) field in DocType
 #. 'POS Invoice'
+#. Label of the update_billed_amount_in_sales_order (Check) field in DocType
 #. 'Sales Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -44005,6 +44492,7 @@ msgstr "Atualizar preço existente da lista de preços"
 #. Label of the update_outstanding_for_self (Check) field in DocType 'Purchase
 #. Invoice'
 #. Label of the update_outstanding_for_self (Check) field in DocType 'Sales
+#. Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 #: erpnext/controllers/accounts_controller.py:198
@@ -44069,6 +44557,7 @@ msgstr "Atualizar registro de modificação em nova comunicação"
 #. Description of the 'Actual End Time' (Datetime) field in DocType 'Work Order
 #. Operation'
 #. Description of the 'Actual Operation Time' (Float) field in DocType 'Work
+#. Order Operation'
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 msgid "Updated via 'Time Log' (In Minutes)"
 msgstr "Atualizado via 'Registro de Tempo' (em minutos)"
@@ -44216,11 +44705,15 @@ msgstr "Usar campos de série/lote"
 #. Label of the use_serial_batch_fields (Check) field in DocType 'Purchase
 #. Invoice Item'
 #. Label of the use_serial_batch_fields (Check) field in DocType 'Sales Invoice
+#. Item'
 #. Label of the use_serial_batch_fields (Check) field in DocType 'Asset
 #. Capitalization Stock Item'
 #. Label of the use_serial_batch_fields (Check) field in DocType 'Delivery Note
+#. Item'
 #. Label of the use_serial_batch_fields (Check) field in DocType 'Packed Item'
 #. Label of the use_serial_batch_fields (Check) field in DocType 'Pick List
+#. Item'
+#. Label of the use_serial_batch_fields (Check) field in DocType 'Purchase
 #. Receipt Item'
 #. Label of the use_serial_batch_fields (Check) field in DocType 'Stock Entry
 #. Detail'
@@ -44228,6 +44721,7 @@ msgstr "Usar campos de série/lote"
 #. Reconciliation Item'
 #. Label of the use_serial_batch_fields (Check) field in DocType
 #. 'Subcontracting Receipt Item'
+#. Label of the use_serial_batch_fields (Check) field in DocType
 #. 'Subcontracting Receipt Supplied Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -44246,6 +44740,7 @@ msgstr "Usar campos de nº de série/lote"
 
 #. Label of the use_transaction_date_exchange_rate (Check) field in DocType
 #. 'Purchase Invoice'
+#. Label of the use_transaction_date_exchange_rate (Check) field in DocType
 #. 'Buying Settings'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
@@ -44562,6 +45057,7 @@ msgstr "Tipo do campo de avaliação"
 #. Label of the valuation_rate (Float) field in DocType 'Bin'
 #. Label of the valuation_rate (Currency) field in DocType 'Item'
 #. Label of the valuation_rate (Currency) field in DocType 'Purchase Receipt
+#. Item'
 #. Label of the incoming_rate (Float) field in DocType 'Serial and Batch Entry'
 #. Label of the valuation_rate (Currency) field in DocType 'Stock Closing
 #. Balance'
@@ -44625,6 +45121,7 @@ msgstr "A taxa de avaliação dos itens fornecidos pelo cliente foi definida com
 
 #. Description of the 'Sales Incoming Rate' (Currency) field in DocType
 #. 'Purchase Invoice Item'
+#. Description of the 'Sales Incoming Rate' (Currency) field in DocType
 #. 'Purchase Receipt Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
@@ -44651,6 +45148,7 @@ msgstr "Valor ({0})"
 #. Label of the value_after_depreciation (Currency) field in DocType 'Asset'
 #. Label of the value_after_depreciation (Currency) field in DocType 'Asset
 #. Depreciation Schedule'
+#. Label of the value_after_depreciation (Currency) field in DocType 'Asset
 #. Finance Book'
 #: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.py:184
 #: erpnext/assets/doctype/asset/asset.json
@@ -44999,8 +45497,11 @@ msgstr "Comprovante"
 #. Entry'
 #. Label of the voucher_detail_no (Data) field in DocType 'Serial and Batch
 #. Bundle'
+#. Label of the voucher_detail_no (Data) field in DocType 'Serial and Batch
+#. Entry'
 #. Label of the voucher_detail_no (Data) field in DocType 'Stock Ledger Entry'
 #. Label of the voucher_detail_no (Data) field in DocType 'Stock Reservation
+#. Entry'
 #: erpnext/accounts/doctype/gl_entry/gl_entry.json
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.json
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
@@ -45030,6 +45531,7 @@ msgstr "Detalhes do lançamento"
 #. Label of the voucher_no (Dynamic Link) field in DocType 'Repost Accounting
 #. Ledger Items'
 #. Label of the voucher_no (Dynamic Link) field in DocType 'Repost Payment
+#. Ledger Items'
 #. Label of the voucher_no (Dynamic Link) field in DocType 'Unreconcile
 #. Payment'
 #. Label of the voucher_no (Dynamic Link) field in DocType 'Repost Item
@@ -45039,6 +45541,7 @@ msgstr "Detalhes do lançamento"
 #. Label of the voucher_no (Data) field in DocType 'Serial and Batch Entry'
 #. Label of the voucher_no (Dynamic Link) field in DocType 'Stock Ledger Entry'
 #. Label of the voucher_no (Dynamic Link) field in DocType 'Stock Reservation
+#. Entry'
 #: erpnext/accounts/doctype/advance_payment_ledger_entry/advance_payment_ledger_entry.json
 #: erpnext/accounts/doctype/gl_entry/gl_entry.json
 #: erpnext/accounts/doctype/ledger_health/ledger_health.json
@@ -45104,12 +45607,14 @@ msgstr "Subtipo do comprovante"
 #. Items'
 #. Label of the voucher_type (Link) field in DocType 'Repost Payment Ledger'
 #. Label of the voucher_type (Link) field in DocType 'Repost Payment Ledger
+#. Items'
 #. Label of the voucher_type (Link) field in DocType 'Unreconcile Payment'
 #. Label of the voucher_type (Link) field in DocType 'Repost Item Valuation'
 #. Label of the voucher_type (Link) field in DocType 'Serial and Batch Bundle'
 #. Label of the voucher_type (Data) field in DocType 'Serial and Batch Entry'
 #. Label of the voucher_type (Link) field in DocType 'Stock Ledger Entry'
 #. Label of the voucher_type (Select) field in DocType 'Stock Reservation
+#. Entry'
 #: erpnext/accounts/doctype/advance_payment_ledger_entry/advance_payment_ledger_entry.json
 #: erpnext/accounts/doctype/gl_entry/gl_entry.json
 #: erpnext/accounts/doctype/ledger_health/ledger_health.json
@@ -45178,8 +45683,11 @@ msgstr "AVISO: o aplicativo Exotel foi separado do ERPNext. Instale o aplicativo
 #. Label of the wip_composite_asset (Link) field in DocType 'Purchase Invoice
 #. Item'
 #. Label of the wip_composite_asset (Link) field in DocType 'Purchase Order
+#. Item'
 #. Label of the wip_composite_asset (Link) field in DocType 'Material Request
+#. Item'
 #. Label of the wip_composite_asset (Link) field in DocType 'Purchase Receipt
+#. Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
 #: erpnext/stock/doctype/material_request_item/material_request_item.json
@@ -45281,12 +45789,16 @@ msgstr "Saldo de estoque por armazém"
 
 #. Label of the warehouse_and_reference (Section Break) field in DocType
 #. 'Request for Quotation Item'
+#. Label of the warehouse_and_reference (Section Break) field in DocType
 #. 'Supplier Quotation Item'
 #. Label of the reference (Section Break) field in DocType 'Quotation Item'
 #. Label of the warehouse_and_reference (Section Break) field in DocType 'Sales
 #. Order Item'
+#. Label of the warehouse_and_reference (Section Break) field in DocType
 #. 'Delivery Note Item'
+#. Label of the warehouse_and_reference (Section Break) field in DocType
 #. 'Purchase Receipt Item'
+#. Label of the warehouse_and_reference (Section Break) field in DocType
 #. 'Subcontracting Receipt Item'
 #: erpnext/buying/doctype/request_for_quotation_item/request_for_quotation_item.json
 #: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
@@ -45359,11 +45871,15 @@ msgstr "Armazéns com transações existentes não podem ser convertidos em raz�
 #. Option for the 'Action if Accumulated Monthly Budget Exceeded on MR'
 #. (Select) field in DocType 'Budget'
 #. Option for the 'Action if Annual Budget Exceeded on PO' (Select) field in
+#. DocType 'Budget'
 #. Option for the 'Action if Accumulated Monthly Budget Exceeded on PO'
+#. (Select) field in DocType 'Budget'
 #. Option for the 'Action if Annual Budget Exceeded on Actual' (Select) field
 #. in DocType 'Budget'
 #. Option for the 'Action if Accumulated Monthly Budget Exceeded on Actual'
+#. (Select) field in DocType 'Budget'
 #. Option for the 'Action if Anual Budget Exceeded on Cumulative Expense'
+#. (Select) field in DocType 'Budget'
 #. Option for the 'Action if Accumulative Monthly Budget Exceeded on Cumulative
 #. Expense' (Select) field in DocType 'Budget'
 #. Option for the 'Action if same rate is not maintained' (Select) field in
@@ -45399,6 +45915,7 @@ msgstr "Avisar pedidos de compra"
 #. Label of the warn_rfqs (Check) field in DocType 'Supplier Scorecard Scoring
 #. Standing'
 #. Label of the warn_rfqs (Check) field in DocType 'Supplier Scorecard
+#. Standing'
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/buying/doctype/supplier_scorecard_scoring_standing/supplier_scorecard_scoring_standing.json
 #: erpnext/buying/doctype/supplier_scorecard_standing/supplier_scorecard_standing.json
@@ -45574,11 +46091,13 @@ msgstr "Peso (kg)"
 #. Label of the weight_per_unit (Float) field in DocType 'Sales Invoice Item'
 #. Label of the weight_per_unit (Float) field in DocType 'Purchase Order Item'
 #. Label of the weight_per_unit (Float) field in DocType 'Supplier Quotation
+#. Item'
 #. Label of the weight_per_unit (Float) field in DocType 'Quotation Item'
 #. Label of the weight_per_unit (Float) field in DocType 'Sales Order Item'
 #. Label of the weight_per_unit (Float) field in DocType 'Delivery Note Item'
 #. Label of the weight_per_unit (Float) field in DocType 'Item'
 #. Label of the weight_per_unit (Float) field in DocType 'Purchase Receipt
+#. Item'
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
@@ -46025,6 +46544,7 @@ msgstr "Valor da baixa"
 #. Label of the base_write_off_amount (Currency) field in DocType 'Purchase
 #. Invoice'
 #. Label of the base_write_off_amount (Currency) field in DocType 'Sales
+#. Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -46069,6 +46589,7 @@ msgstr "Limite de baixa"
 
 #. Label of the write_off_outstanding_amount_automatically (Check) field in
 #. DocType 'POS Invoice'
+#. Label of the write_off_outstanding_amount_automatically (Check) field in
 #. DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -46084,6 +46605,7 @@ msgstr "Baixa"
 #. Option for the 'Depreciation Method' (Select) field in DocType 'Asset'
 #. Option for the 'Depreciation Method' (Select) field in DocType 'Asset
 #. Depreciation Schedule'
+#. Option for the 'Depreciation Method' (Select) field in DocType 'Asset
 #. Finance Book'
 #: erpnext/assets/doctype/asset/asset.json
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
@@ -46516,6 +47038,7 @@ msgstr "O aplicativo payments não está instalado. Instale-o por {} ou {}"
 #. Description of the 'Billing Rate' (Currency) field in DocType 'Activity
 #. Cost'
 #. Description of the 'Costing Rate' (Currency) field in DocType 'Activity
+#. Cost'
 #: erpnext/manufacturing/doctype/workstation/workstation.json
 #: erpnext/manufacturing/doctype/workstation_type/workstation_type.json
 #: erpnext/projects/doctype/activity_cost/activity_cost.json

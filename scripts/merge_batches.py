@@ -4,11 +4,11 @@ from __future__ import annotations
 
 import argparse
 
-from po_utils import ROOT, block_key, ensure_project_dirs, iter_field_values, split_blocks, write_po
+from po_utils import ROOT, block_key, ensure_project_dirs, read_msgid_and_msgstr_text, split_blocks, write_po
 
 
 def has_msgstr(block: str) -> bool:
-    return any("".join(iter_field_values(block, field)) for field in ["msgstr", "msgstr[0]", "msgstr[1]"])
+    return bool(read_msgid_and_msgstr_text(block)[1])
 
 
 def msgstr_lines(block: str) -> list[str]:
@@ -57,14 +57,19 @@ def main() -> None:
     args = parser.parse_args()
 
     paths = ensure_project_dirs(args.project)
-    source_file = paths["source"] / "pt_BR.po"
+    source_file = paths["source"] / "main.pot"
     if not source_file.exists():
         raise SystemExit(f"Missing source file: {source_file}")
 
-    header, _ = split_blocks(source_file.read_text(encoding="utf-8"))
-    _, source_entries = split_blocks(source_file.read_text(encoding="utf-8"))
+    header, source_entries = split_blocks(source_file.read_text(encoding="utf-8"))
 
     translations = {}
+    baseline_file = paths["source"] / "pt_BR.po"
+    if baseline_file.exists():
+        baseline_header, baseline_entries = split_blocks(baseline_file.read_text(encoding="utf-8"))
+        header = baseline_header or header
+        translations.update({block_key(entry): entry for entry in baseline_entries if has_msgstr(entry)})
+
     output_file = ROOT / "output" / args.project / "messages.po"
     if output_file.exists():
         _, output_entries = split_blocks(output_file.read_text(encoding="utf-8"))
