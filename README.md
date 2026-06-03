@@ -138,11 +138,17 @@ Depois da compilação e da limpeza de cache:
 
 ## 🤖 Atalhos do OpenCode
 
+- `/update-incremental`
+- `/refresh-translations`
 - `/bootstrap-po`
 - `/prepare-project frappe 150`
 - `/translate-batch translations/projects/frappe/batches/batch-001.po`
 - `/review-batch translations/projects/frappe/reviewed/batch-001.po`
 - `/build-overrides frappe`
+
+Use `/update-incremental` para uma rodada geral incremental: fetch das branches pinadas, split dos quatro projetos, revisão dos batches pendentes com subagentes, merge, geração de overrides, validação e sincronização para `output/`.
+
+Use `/refresh-translations` para descartar a memória local revisada e começar uma revisão completa do zero com `split_po.py --all`. Esse comando é destrutivo e deve pedir confirmação explícita antes de remover `batches/`, `reviewed/`, `merged/`, `overrides/` e `output/<project>/messages.po`.
 
 ## 📤 Exportar para `output/`
 
