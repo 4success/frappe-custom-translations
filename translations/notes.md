@@ -806,3 +806,19 @@ Use this file to capture ambiguous strings, terminology conflicts, and decisions
 - Proposed `msgstr`: manter as formas atuais conservadoras para preservar a sintaxe
 - Why this is ambiguous: as strings-fonte usam `%` inicial em formato que o validador interpreta como placeholder; uma traducao totalmente natural quebra a verificacao automatica.
 - Decision: mantida traducao conservadora para preservar a sintaxe
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-002.po`
+- `msgid`: `Learn about <a href="https://docs.frappe.io/erpnext/user/manual/en/common_party_accounting" rel="noopener noreferrer">Common Party</a>`
+- Current `msgstr`: `Saiba mais sobre <a href="https://docs.frappe.io/erpnext/user/manual/en/common_party_accounting" rel="noopener noreferrer">cadastro comum</a>`
+- Proposed `msgstr`: manter por ora
+- Why this is ambiguous: a família `Common Party` ainda mistura nome de recurso em inglês e tradução funcional do conceito (`cadastro comum` / `contabilização comum de cadastro`) em outros lotes.
+- Decision: manter `cadastro comum` neste lote e revisar quando a convenção do recurso estiver fechada no projeto
+
+- Project: `erpnext`
+- File: `translations/projects/erpnext/reviewed/batch-004.po`
+- `msgid`: `Source Manufacture Entry` / `Source Stock Entry {0} belongs to Work Order {1}, not {2}. Please use a manufacture entry from the same Work Order.` / `When there are multiple finished goods ({0}) in a Repack stock entry...`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: `Movimento de fabricação de origem` / `...Use um movimento de fabricação...` / `...o custo básico...`
+- Why this is ambiguous: ainda falta consolidar no projeto se `Manufacture Entry` deve seguir a família `movimento` ou `lançamento`, e se `Basic Rate` em custos/estoque deve ficar como `custo básico` ou outra forma estável.
+- Decision: usar `movimento de fabricação` e `custo básico` nesta passada por consistência local; revisar se surgir convenção mais ampla
