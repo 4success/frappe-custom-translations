@@ -1,945 +1,840 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: frappe\n"
+"Project-Id-Version:  frappe\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2025-12-21 09:37+0000\n"
-"PO-Revision-Date: 2025-12-22 03:08\n"
+"POT-Creation-Date: 2026-05-31 10:17+0000\n"
+"PO-Revision-Date: 2026-05-29 17:37+0000\n"
 "Last-Translator: hello@frappe.io\n"
+"Language: pt_BR\n"
 "Language-Team: Portuguese, Brazilian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: frappe\n"
-"X-Crowdin-Project-ID: 639578\n"
-"X-Crowdin-Language: pt-BR\n"
-"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
-"X-Crowdin-File-ID: 46\n"
-"Language: pt_BR\n"
 
-#. Label of the column_break_32 (Column Break) field in DocType 'Email Digest'
-#: erpnext/setup/doctype/email_digest/email_digest.json
-msgid "  "
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1591
+msgid ""
+"\n"
+"\t\t\tThe Batch {0} of an item {1} has negative stock in the warehouse {2}{3}.\n"
+"\t\t\tPlease add a stock quantity of {4} to proceed with this entry.\n"
+"\t\t\tIf it is not possible to make an adjustment entry, please enable 'Allow Negative Stock for Batch' in Stock Settings to proceed.\n"
+"\t\t\tHowever, enabling this setting may lead to negative stock in the system.\n"
+"\t\t\tSo please ensure the stock levels are adjusted as soon as possible to maintain the correct valuation rate."
 msgstr ""
 
-#: erpnext/selling/doctype/quotation/quotation.js:73
-msgid " Address"
-msgstr ""
-
-#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:605
-msgid " Amount"
-msgstr ""
-
-#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:114
-msgid " BOM"
-msgstr ""
-
-#. Label of the default_wip_warehouse (Link) field in DocType 'Company'
-#: erpnext/setup/doctype/company/company.json
-msgid " Default Work In Progress Warehouse "
-msgstr ""
-
-#. Label of the istable (Check) field in DocType 'Inventory Dimension'
-#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
-msgid " Is Child Table"
-msgstr ""
-
-#. Label of the is_subcontracted (Check) field in DocType 'Job Card'
-#: erpnext/manufacturing/doctype/job_card/job_card.json
-msgid " Is Subcontracted"
-msgstr ""
-
-#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:196
-msgid " Item"
-msgstr ""
-
-#: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.py:153
-#: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:206
-#: erpnext/accounts/report/tds_computation_summary/tds_computation_summary.py:107
-#: erpnext/selling/report/sales_analytics/sales_analytics.py:128
-msgid " Name"
-msgstr ""
-
-#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:144
-#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:185
-msgid " Phantom Item"
-msgstr ""
-
-#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:596
-msgid " Rate"
-msgstr ""
-
-#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:122
-msgid " Raw Material"
-msgstr ""
-
-#. Label of the skip_material_transfer (Check) field in DocType 'BOM Operation'
-#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
-msgid " Skip Material Transfer"
-msgstr ""
-
-#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:133
-#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:174
-msgid " Sub Assembly"
-msgstr ""
-
-#: erpnext/projects/doctype/project_update/project_update.py:104
-msgid " Summary"
-msgstr ""
-
-#: erpnext/stock/doctype/item/item.py:238
-msgid "\"Customer Provided Item\" cannot be Purchase Item also"
-msgstr "\"Item fornecido pelo cliente\" não pode ser item de compra também"
-
-#: erpnext/stock/doctype/item/item.py:240
-msgid "\"Customer Provided Item\" cannot have Valuation Rate"
-msgstr "\"Item fornecido pelo cliente\" não pode ter taxa de avaliação"
-
-#: erpnext/stock/doctype/item/item.py:315
-msgid "\"Is Fixed Asset\" cannot be unchecked, as Asset record exists against the item"
-msgstr ""
-
-#: erpnext/public/js/utils/serial_no_batch_selector.js:262
-msgid "\"SN-01::10\" for \"SN-01\" to \"SN-10\""
-msgstr ""
-
-#: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:148
-msgid "# In Stock"
-msgstr ""
-
-#: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:141
-msgid "# Req'd Items"
-msgstr ""
-
-#. Label of the per_delivered (Percent) field in DocType 'Sales Order'
-#: erpnext/selling/doctype/sales_order/sales_order.json
-msgid "%  Delivered"
-msgstr ""
-
-#. Label of the per_billed (Percent) field in DocType 'Timesheet'
-#. Label of the per_billed (Percent) field in DocType 'Sales Order'
-#. Label of the per_billed (Percent) field in DocType 'Delivery Note'
-#. Label of the per_billed (Percent) field in DocType 'Purchase Receipt'
-#: erpnext/projects/doctype/timesheet/timesheet.json
-#: erpnext/selling/doctype/sales_order/sales_order.json
-#: erpnext/stock/doctype/delivery_note/delivery_note.json
-#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
-msgid "% Amount Billed"
-msgstr ""
-
-#. Label of the per_billed (Percent) field in DocType 'Purchase Order'
-#: erpnext/buying/doctype/purchase_order/purchase_order.json
-msgid "% Billed"
-msgstr ""
-
-#. Label of the percent_complete_method (Select) field in DocType 'Project'
-#: erpnext/projects/doctype/project/project.json
-msgid "% Complete Method"
-msgstr ""
-
-#. Label of the percent_complete (Percent) field in DocType 'Project'
-#: erpnext/projects/doctype/project/project.json
-msgid "% Completed"
-msgstr ""
-
-#. Label of the per_delivered (Percent) field in DocType 'Pick List'
-#. Label of the per_delivered (Percent) field in DocType 'Subcontracting Inward
-#. Order'
-#: erpnext/stock/doctype/pick_list/pick_list.json
-#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
-msgid "% Delivered"
-msgstr "% Entregue"
-
-#: erpnext/manufacturing/doctype/bom/bom.js:962
-#, python-format
-msgid "% Finished Item Quantity"
-msgstr ""
-
-#. Label of the per_installed (Percent) field in DocType 'Delivery Note'
-#: erpnext/stock/doctype/delivery_note/delivery_note.json
-msgid "% Installed"
-msgstr ""
-
-#: erpnext/stock/page/warehouse_capacity_summary/warehouse_capacity_summary.js:70
-#: erpnext/stock/page/warehouse_capacity_summary/warehouse_capacity_summary_header.html:16
-msgid "% Occupied"
-msgstr ""
-
-#: erpnext/accounts/report/item_wise_purchase_register/item_wise_purchase_register.py:277
-#: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:329
-msgid "% Of Grand Total"
-msgstr ""
-
-#. Label of the per_ordered (Percent) field in DocType 'Material Request'
-#: erpnext/stock/doctype/material_request/material_request.json
-msgid "% Ordered"
-msgstr ""
-
-#. Label of the per_picked (Percent) field in DocType 'Sales Order'
-#: erpnext/selling/doctype/sales_order/sales_order.json
-msgid "% Picked"
-msgstr ""
-
-#. Label of the process_loss_percentage (Percent) field in DocType 'BOM'
-#. Label of the process_loss_percentage (Percent) field in DocType 'Stock
-#. Entry'
-#. Label of the per_process_loss (Percent) field in DocType 'Subcontracting
-#. Inward Order'
+#. Label of the cost_allocation_per (Percent) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
-#: erpnext/stock/doctype/stock_entry/stock_entry.json
-#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
-msgid "% Process Loss"
+msgid "% Cost Allocation"
 msgstr ""
 
-#. Label of the per_produced (Percent) field in DocType 'Subcontracting Inward
-#. Order'
-#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
-msgid "% Produced"
+#. Content of the 'Stock Levels HTML' (HTML) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "<div id=\"stock-levels-placeholder\"></div>"
 msgstr ""
 
-#. Label of the progress (Percent) field in DocType 'Task'
-#: erpnext/projects/doctype/task/task.json
-msgid "% Progress"
+#. Content of the 'uom_help_html' (HTML) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "<div style=\"margin-bottom:10px; color: var(--gray-500) !important;\">Define alternate units for this item. Eg: 1 Box = 12 Nos, set conversion factor as 12. (Will also apply for variants) <a href=\"https://docs.frappe.io/erpnext/uom\" target=\"_blank\">Learn more &#8594;</a></div>"
 msgstr ""
 
-#. Label of the per_raw_material_received (Percent) field in DocType
-#. 'Subcontracting Inward Order'
-#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
-msgid "% Raw Material Received"
+#: erpnext/accounts/notification/notification_for_new_fiscal_year/notification_for_new_fiscal_year.html:3
+msgid "A new fiscal year has been automatically created."
 msgstr ""
 
-#. Label of the per_raw_material_returned (Percent) field in DocType
-#. 'Subcontracting Inward Order'
-#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
-msgid "% Raw Material Returned"
+#. Description of the 'Inspection Required before Delivery' (Check) field in
+#. DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "A quality inspection must be completed before generating a Delivery Note for this item."
 msgstr ""
 
-#. Label of the per_received (Percent) field in DocType 'Purchase Order'
-#. Label of the per_received (Percent) field in DocType 'Material Request'
-#. Label of the per_received (Percent) field in DocType 'Subcontracting Order'
+#. Description of the 'Inspection Required before Purchase' (Check) field in
+#. DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "A quality inspection must be completed before generating a Purchase Receipt for this item."
+msgstr ""
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:88
+msgid "ALL records will be deleted (entire DocType cleared)"
+msgstr ""
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/financial_reports.json
+msgid "AP Summary"
+msgstr ""
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/financial_reports.json
+msgid "AR Summary"
+msgstr ""
+
+#. Description of the 'Purchase Expense Account' (Link) field in DocType 'Item
+#. Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Account to record additional purchase expenses like freight or customs for this item"
+msgstr ""
+
+#. Description of the 'Default COGS Account' (Link) field in DocType 'Item
+#. Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Account where cost of goods sold will be posted when this item is sold"
+msgstr ""
+
+#. Description of the 'Default Income Account' (Link) field in DocType 'Item
+#. Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Account where revenue from selling this item will be credited"
+msgstr ""
+
+#. Description of the 'Default Expense Account' (Link) field in DocType 'Item
+#. Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Account where the cost of this item will be debited on purchase"
+msgstr ""
+
+#. Title of the Module Onboarding 'Accounting Onboarding'
+#: erpnext/accounts/module_onboarding/accounting_onboarding/accounting_onboarding.json
+msgid "Accounting Onboarding"
+msgstr ""
+
+#. Label of the maintain_same_rate_action (Select) field in DocType 'Buying
+#. Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Action if same rate is not maintained"
+msgstr ""
+
+#. Label of the maintain_same_rate_action (Select) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Action if same rate is not maintained throughout sales cycle"
+msgstr ""
+
+#. Label of the enable_serial_and_batch_no_for_item (Check) field in DocType
+#. 'Stock Settings'
+#: erpnext/stock/doctype/item/item.js:407
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Activate Serial / Batch No for Item"
+msgstr ""
+
+#: erpnext/public/js/utils/naming_series.js:26
+msgid "Add Series Prefix"
+msgstr ""
+
+#: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:119
+msgid "Add vouchers to generate preview."
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'BOM Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Job Card Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Stock Entry Detail'
+#. Option for the 'Type' (Select) field in DocType 'Subcontracting Inward Order
+#. Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Subcontracting Receipt
+#. Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+#: erpnext/manufacturing/doctype/job_card_secondary_item/job_card_secondary_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_secondary_item/subcontracting_inward_order_secondary_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Additional Finished Good"
+msgstr ""
+
+#. Label of the advance_paid (Currency) field in DocType 'Purchase Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
-#: erpnext/stock/doctype/material_request/material_request.json
-#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
-msgid "% Received"
+msgid "Advance Paid (Company Currency)"
 msgstr ""
 
-#. Label of the per_returned (Percent) field in DocType 'Delivery Note'
-#. Label of the per_returned (Percent) field in DocType 'Purchase Receipt'
-#. Label of the per_returned (Percent) field in DocType 'Subcontracting Inward
-#. Order'
-#. Label of the per_returned (Percent) field in DocType 'Subcontracting
-#. Receipt'
-#: erpnext/stock/doctype/delivery_note/delivery_note.json
-#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
-#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
-#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
-msgid "% Returned"
+#. Label of the advanced_features_tab (Tab Break) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Advanced Features"
 msgstr ""
 
-#. Description of the '% Amount Billed' (Percent) field in DocType 'Sales
-#. Order'
-#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/stock_settings/stock_settings.js:20
+msgid "After save, please refresh the page to apply the changes."
+msgstr ""
+
+#: erpnext/accounts/report/accounts_payable/accounts_payable.html:114
+#: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.html:113
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.html:115
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.html:113
+msgid "All Parties"
+msgstr ""
+
+#. Label of the allow_multiple_items (Check) field in DocType 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Allow Item to be added multiple times in a transaction"
+msgstr ""
+
+#. Label of the allow_negative_stock_for_batch (Check) field in DocType 'Stock
+#. Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Allow Negative Stock for Batch"
+msgstr ""
+
+#. Label of the allow_zero_qty_in_quotation (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow Quotation with zero quantity"
+msgstr ""
+
+#. Label of the allow_sales_order_creation_for_expired_quotation (Check) field
+#. in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow Sales Order creation for expired Quotation"
+msgstr ""
+
+#. Label of the allow_zero_qty_in_sales_order (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow Sales Order with zero quantity"
+msgstr ""
+
+#. Label of the allow_delivery_of_overproduced_qty (Check) field in DocType
+#. 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow delivery of overproduced quantity"
+msgstr ""
+
+#. Label of the editable_price_list_rate (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow editing Price List rate in transactions"
+msgstr ""
+
+#. Label of the allow_against_multiple_purchase_orders (Check) field in DocType
+#. 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow multiple Sales Orders against a customer's Purchase Order"
+msgstr ""
+
+#. Label of the allow_negative_rates_for_items (Check) field in DocType 'Buying
+#. Settings'
+#. Label of the allow_negative_rates_for_items (Check) field in DocType
+#. 'Selling Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow negative rates for Items"
+msgstr ""
+
+#. Description of the 'Zero-Quantity Line Items' (Section Break) field in
+#. DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow sales transactions with zero quantities if the rate is fixed but the quantities are not. e.g. Rate Contracts"
+msgstr ""
+
+#. Label of the allow_multiple_items (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Allow same Item to be added multiple times in a transaction"
+msgstr ""
+
+#. Description of the 'Allow Negative Stock' (Check) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Allow stock to go below zero for this item, even if negative stock is disabled in Stock Settings."
+msgstr ""
+
+#. Description of the 'Allow Alternative Item' (Check) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Allow substituting this item with an alternative from the Item Alternative list when stock is unavailable."
+msgstr ""
+
+#. Description of the 'Allow Purchase' (Check) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Allow this item to be used in purchase transactions."
+msgstr ""
+
+#. Description of the 'Allow Sales' (Check) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Allow this item to be used in sales transactions."
+msgstr ""
+
+#: erpnext/public/js/utils/naming_series.js:81
+msgid "Allowed special characters are '/' and '-'"
+msgstr ""
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:1259
+msgid "Amount {0} {1} adjusted against {2} {3}"
+msgstr ""
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:1270
+msgid "Amount {0} {1} as adjustment to {2}"
+msgstr ""
+
+#. Label of the analytics_section (Section Break) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Analytical Accounting"
+msgstr ""
+
+#. Description of the 'Allow Partial Payment' (Check) field in DocType 'POS
+#. Profile'
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+msgid "Applicable on POS Invoice"
+msgstr ""
+
+#. Description of the 'Enable Discounts and Margin' (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Apply discounts and margins on products"
+msgstr ""
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1436
+msgid "At Row {0}: In Serial and Batch Bundle {1} must have docstatus as 1 and not 0"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:324
+msgid "At least one raw material item must be present in the stock entry for the type {0}"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:883
+msgid "Attribute Value {0} is not valid for the selected attribute {1}."
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:872
+msgid "Attribute {0} is disabled."
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:860
+msgid "Attribute {0} is not valid for the selected template."
+msgstr ""
+
+#: erpnext/setup/doctype/employee/employee.py:170
+msgid "Auto User Creation Error"
+msgstr ""
+
+#. Label of the auto_create_purchase_receipt (Check) field in DocType 'Buying
+#. Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Auto create Purchase Receipt"
+msgstr ""
+
+#. Label of the auto_create_subcontracting_order (Check) field in DocType
+#. 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Auto create Subcontracting Order"
+msgstr ""
+
+#. Label of the auto_create_assets (Check) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Auto create assets on purchase"
+msgstr ""
+
+#. Label of the automatically_fetch_payment_terms (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Automatically Fetch Payment Terms from Order/Quotation"
+msgstr ""
+
+#. Label of the available__future_inventory_section (Section Break) field in
+#. DocType 'Bin'
+#: erpnext/stock/doctype/bin/bin.json
+msgid "Available / Future Inventory"
+msgstr ""
+
+#. Label of the available_for_use_date (Date) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Available for Use Date"
+msgstr ""
+
+#. Label of the bom_conf_tab (Tab Break) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "BOM Configuration"
+msgstr ""
+
+#. Name of a DocType
+#. Label of the bom_secondary_item (Data) field in DocType 'Stock Entry Detail'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+msgid "BOM Secondary Item"
+msgstr ""
+
+#. Label of the bom_secondary_item (Data) field in DocType 'Job Card Secondary
+#. Item'
+#: erpnext/manufacturing/doctype/job_card_secondary_item/job_card_secondary_item.json
+msgid "BOM Secondary Item Reference"
+msgstr ""
+
+#. Name of a report
+#: erpnext/manufacturing/report/bom_stock_analysis/bom_stock_analysis.json
+msgid "BOM Stock Analysis"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:2458
+msgid "BOM and Finished Good Quantity is mandatory for Disassembly"
+msgstr ""
+
+#. Label of the backflush_raw_materials_of_subcontract_based_on (Select) field
+#. in DocType 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Backflush raw materials of subcontract based on"
+msgstr ""
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/banking.json
+msgid "Bank Reconciliation"
+msgstr ""
+
+#. Label of the base_cost (Currency) field in DocType 'BOM Secondary Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+msgid "Base Cost (Company Currency)"
+msgstr ""
+
+#. Label of the withholding_amount (Currency) field in DocType 'Tax Withholding
+#. Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Base Tax Withheld"
+msgstr ""
+
+#. Label of the taxable_amount (Currency) field in DocType 'Tax Withholding
+#. Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Base Taxable Amount"
+msgstr ""
+
+#. Description of the 'Automatically Create New Batch' (Check) field in DocType
+#. 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Batch number will be auto-created in format AAAA.00001 if not specified in transactions. Leave blank to always enter batch numbers manually."
+msgstr ""
+
+#. Description of the 'Has Expiry Date' (Check) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Batch number will be created based on expiry date. Expiry dates can be set in the Batch master."
+msgstr ""
+
+#. Label of the bill_for_rejected_quantity_in_purchase_invoice (Check) field in
+#. DocType 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid "Bill for rejected quantity in Purchase Invoice"
+msgstr ""
+
+#. Label of the blanket_order_section (Section Break) field in DocType 'Buying
+#. Settings'
+#. Label of the blanket_orders_section (Section Break) field in DocType
+#. 'Selling Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Blanket Orders"
+msgstr ""
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/budget.json
+msgid "Budget Variance"
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'BOM Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Job Card Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Stock Entry Detail'
+#. Option for the 'Type' (Select) field in DocType 'Subcontracting Inward Order
+#. Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Subcontracting Receipt
+#. Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+#: erpnext/manufacturing/doctype/job_card_secondary_item/job_card_secondary_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_secondary_item/subcontracting_inward_order_secondary_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "By-Product"
+msgstr ""
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/accounts_setup.json
+msgid "COA Importer"
+msgstr ""
+
+#. Label of the editable_bundle_item_rates (Check) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Calculate Product Bundle price based on child Item's rates"
+msgstr ""
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:204
+msgid "Cannot add child table {0} to deletion list. Child tables are automatically deleted with their parent DocTypes."
+msgstr ""
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:579
+msgid "Cannot cancel this document as it is linked with the submitted Asset Value Adjustment <b>{0}</b>. Please cancel the Asset Value Adjustment to continue."
+msgstr ""
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:197
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:783
+msgid "Cannot delete protected core DocType: {0}"
+msgstr ""
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:213
+msgid "Cannot delete virtual DocType: {0}. Virtual DocTypes do not have database tables."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_settings/stock_settings.py:146
+msgid "Cannot disable Serial and Batch No for Item, as there are existing records for serial / batch."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_settings/stock_settings.py:127
+msgid "Cannot disable {0} as it may lead to incorrect stock valuation."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:926
+msgid "Cannot disassemble {0} qty against Stock Entry {1}. Only {2} qty available to disassemble."
+msgstr ""
+
+#: erpnext/accounts/doctype/payment_request/payment_request.js:111
+msgid "Cannot fetch selected rows for submitted Payment Request"
+msgstr ""
+
+#: erpnext/accounts/party.py:1063
+msgid "Cannot merge {0} '{1}' into '{2}' as both have existing accounting entries in different currencies for company '{3}'."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.py:578
+msgid "Cannot produce more Item {0} than Sales Order quantity {1} {2}"
+msgstr ""
+
+#: erpnext/selling/doctype/customer/customer.py:367
+msgid "Cannot select a Group type Customer Group. Please select a non-group Customer Group."
+msgstr ""
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:266
+msgid "Cannot start deletion. Another deletion {0} is already queued/running. Please wait for it to complete."
+msgstr ""
+
+#: erpnext/controllers/accounts_controller.py:3941
+msgid "Cannot update rate as item {0} is already ordered or purchased against this quotation"
+msgstr ""
+
+#. Description of the 'Not Applicable' (Check) field in DocType 'Item Tax
+#. Template Detail'
+#: erpnext/accounts/doctype/item_tax_template_detail/item_tax_template_detail.json
 #, python-format
-msgid "% of materials billed against this Sales Order"
+msgid "Check if this tax is not applicable to items (distinct from 0% rate)"
 msgstr ""
 
-#. Description of the '% Delivered' (Percent) field in DocType 'Pick List'
-#: erpnext/stock/doctype/pick_list/pick_list.json
-#, python-format
-msgid "% of materials delivered against this Pick List"
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.py:58
+msgid "Check row {0} for account {1}: Party Type is only allowed for Receivable or Payable accounts"
 msgstr ""
 
-#. Description of the '%  Delivered' (Percent) field in DocType 'Sales Order'
-#: erpnext/selling/doctype/sales_order/sales_order.json
-#, python-format
-msgid "% of materials delivered against this Sales Order"
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.py:65
+msgid "Check row {0} for account {1}: Party is only allowed if Party Type is set"
 msgstr ""
 
-#: erpnext/controllers/accounts_controller.py:2368
-msgid "'Account' in the Accounting section of Customer {0}"
+#. Label of the child_doctypes (Small Text) field in DocType 'Transaction
+#. Deletion Record To Delete'
+#: erpnext/setup/doctype/transaction_deletion_record_to_delete/transaction_deletion_record_to_delete.json
+msgid "Child DocTypes"
 msgstr ""
 
-#: erpnext/selling/doctype/sales_order/sales_order.py:348
-msgid "'Allow Multiple Sales Orders Against a Customer's Purchase Order'"
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:207
+msgid "Child Table Not Allowed"
 msgstr ""
 
-#: erpnext/controllers/trends.py:56
-msgid "'Based On' and 'Group By' can not be same"
-msgstr "'Baseado em' e 'Agrupar por' não podem ser o mesmo"
-
-#: erpnext/selling/report/inactive_customers/inactive_customers.py:18
-msgid "'Days Since Last Order' must be greater than or equal to zero"
-msgstr "'Dias desde a última Ordem' deve ser maior ou igual a zero"
-
-#: erpnext/controllers/accounts_controller.py:2373
-msgid "'Default {0} Account' in Company {1}"
-msgstr ""
-
-#: erpnext/accounts/doctype/journal_entry/journal_entry.py:1198
-msgid "'Entries' cannot be empty"
-msgstr "'Entradas' não pode estar vazio"
-
-#: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.py:24
-#: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.py:127
-#: erpnext/stock/report/stock_analytics/stock_analytics.py:313
-msgid "'From Date' is required"
-msgstr "'Informe a 'Data Inicial'"
-
-#: erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py:18
-msgid "'From Date' must be after 'To Date'"
-msgstr "A 'Data Final' deve ser posterior a 'Data Inicial'"
-
-#: erpnext/stock/doctype/item/item.py:398
-msgid "'Has Serial No' can not be 'Yes' for non-stock item"
-msgstr "'Tem Número Serial' não pode ser confirmado para itens sem controle de estoque"
-
-#: erpnext/stock/doctype/quality_inspection/quality_inspection.py:139
-msgid "'Inspection Required before Delivery' has disabled for the item {0}, no need to create the QI"
-msgstr ""
-
-#: erpnext/stock/doctype/quality_inspection/quality_inspection.py:130
-msgid "'Inspection Required before Purchase' has disabled for the item {0}, no need to create the QI"
-msgstr ""
-
-#: erpnext/stock/report/stock_ledger/stock_ledger.py:601
-#: erpnext/stock/report/stock_ledger/stock_ledger.py:634
-msgid "'Opening'"
-msgstr "'Abrindo'"
-
-#: erpnext/stock/report/batch_item_expiry_status/batch_item_expiry_status.py:27
-#: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.py:129
-#: erpnext/stock/report/stock_analytics/stock_analytics.py:319
-msgid "'To Date' is required"
-msgstr "'Data Final' é necessária"
-
-#: erpnext/stock/doctype/packing_slip/packing_slip.py:95
-msgid "'To Package No.' cannot be less than 'From Package No.'"
-msgstr ""
-
-#: erpnext/controllers/sales_and_purchase_return.py:80
-msgid "'Update Stock' can not be checked because items are not delivered via {0}"
-msgstr "'Atualização do Estoque' não pode ser verificado porque os itens não são entregues via {0}"
-
-#: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:388
-msgid "'Update Stock' cannot be checked for fixed asset sale"
-msgstr "'Atualizar Estoque' não pode ser selecionado para venda de ativo fixo"
-
-#: erpnext/accounts/doctype/bank_account/bank_account.py:64
-msgid "'{0}' account is already used by {1}. Use another account."
-msgstr ""
-
-#: erpnext/accounts/doctype/pos_settings/pos_settings.py:43
-msgid "'{0}' has been already added."
-msgstr ""
-
-#: erpnext/setup/doctype/company/company.py:295
-#: erpnext/setup/doctype/company/company.py:306
-msgid "'{0}' should be in company currency {1}."
-msgstr ""
-
-#: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:174
-#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:203
-#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:106
-msgid "(A) Qty After Transaction"
-msgstr ""
-
-#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:208
-#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:111
-msgid "(B) Expected Qty After Transaction"
-msgstr ""
-
-#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:223
-#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:126
-msgid "(C) Total Qty in Queue"
-msgstr ""
-
-#: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:184
-msgid "(C) Total qty in queue"
-msgstr ""
-
-#: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:194
-#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:233
-#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:136
-msgid "(D) Balance Stock Value"
-msgstr ""
-
-#. Description of the 'Capacity' (Int) field in DocType 'Item Lead Time'
-#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
-msgid "(Daily Yield * No of Units Produced) / 100"
-msgstr ""
-
-#: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:199
-#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:238
-#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:141
-msgid "(E) Balance Stock Value in Queue"
-msgstr ""
-
-#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:248
-#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:151
-msgid "(F) Change in Stock Value"
-msgstr ""
-
-#: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.py:192
-msgid "(Forecast)"
-msgstr "(Previsão)"
-
-#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:253
-#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:156
-msgid "(G) Sum of Change in Stock Value"
-msgstr ""
-
-#. Description of the 'Daily Yield (%)' (Percent) field in DocType 'Item Lead
-#. Time'
-#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
-msgid "(Good Units Produced / Total Units Produced) × 100"
-msgstr ""
-
-#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:263
-#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:166
-msgid "(H) Change in Stock Value (FIFO Queue)"
-msgstr ""
-
-#: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:209
-msgid "(H) Valuation Rate"
-msgstr ""
-
-#. Description of the 'Actual Operating Cost' (Currency) field in DocType 'Work
-#. Order Operation'
-#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
-msgid "(Hour Rate / 60) * Actual Operation Time"
-msgstr ""
-
-#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:273
-#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:176
-msgid "(I) Valuation Rate"
-msgstr ""
-
-#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:278
-#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:181
-msgid "(J) Valuation Rate as per FIFO"
-msgstr ""
-
-#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:288
-#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:191
-msgid "(K) Valuation = Value (D) ÷ Qty (A)"
-msgstr ""
-
-#. Description of the 'Applicable on Cumulative Expense' (Check) field in
-#. DocType 'Budget'
-#: erpnext/accounts/doctype/budget/budget.json
-msgid "(Purchase Order + Material Request + Actual Expense)"
-msgstr ""
-
-#. Description of the 'No of Units Produced' (Int) field in DocType 'Item Lead
-#. Time'
-#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
-msgid "(Total Workstation Time / Manufacturing Time) * 60"
-msgstr ""
-
-#. Description of the 'From No' (Int) field in DocType 'Share Transfer'
-#. Description of the 'To No' (Int) field in DocType 'Share Transfer'
-#: erpnext/accounts/doctype/share_transfer/share_transfer.json
-msgid "(including)"
-msgstr ""
-
-#. Description of the 'Sales Taxes and Charges' (Table) field in DocType 'Sales
-#. Taxes and Charges Template'
-#: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.json
-msgid "* Will be calculated in the transaction."
-msgstr ""
-
-#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:112
-#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:360
-msgid "0 - 30 Days"
-msgstr ""
-
-#: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:114
-msgid "0-30"
-msgstr ""
-
-#: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
-msgid "0-30 Days"
-msgstr ""
-
-#. Description of the 'Conversion Factor' (Float) field in DocType 'Loyalty
-#. Program'
-#: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
-msgid "1 Loyalty Points = How much base currency?"
-msgstr ""
-
-#. Option for the 'Frequency' (Select) field in DocType 'Video Settings'
-#: erpnext/utilities/doctype/video_settings/video_settings.json
-msgid "1 hr"
-msgstr ""
-
-#. Option for the 'No of Employees' (Select) field in DocType 'Lead'
-#. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
-#. Option for the 'No. of Employees' (Select) field in DocType 'Prospect'
-#: erpnext/crm/doctype/lead/lead.json
-#: erpnext/crm/doctype/opportunity/opportunity.json
-#: erpnext/crm/doctype/prospect/prospect.json
-msgid "1-10"
-msgstr ""
-
-#. Option for the 'No of Employees' (Select) field in DocType 'Lead'
-#. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
-#. Option for the 'No. of Employees' (Select) field in DocType 'Prospect'
-#: erpnext/crm/doctype/lead/lead.json
-#: erpnext/crm/doctype/opportunity/opportunity.json
-#: erpnext/crm/doctype/prospect/prospect.json
-msgid "1000+"
-msgstr ""
-
-#. Option for the 'No of Employees' (Select) field in DocType 'Lead'
-#. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
-#. Option for the 'No. of Employees' (Select) field in DocType 'Prospect'
-#: erpnext/crm/doctype/lead/lead.json
-#: erpnext/crm/doctype/opportunity/opportunity.json
-#: erpnext/crm/doctype/prospect/prospect.json
-msgid "11-50"
-msgstr ""
-
-#: erpnext/regional/report/uae_vat_201/uae_vat_201.py:95
-#: erpnext/regional/report/uae_vat_201/uae_vat_201.py:101
-msgid "1{0}"
-msgstr ""
-
-#. Option for the 'Periodicity' (Select) field in DocType 'Asset Maintenance
-#. Task'
-#: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
-msgid "2 Yearly"
-msgstr ""
-
-#. Option for the 'No of Employees' (Select) field in DocType 'Lead'
-#. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
-#. Option for the 'No. of Employees' (Select) field in DocType 'Prospect'
-#: erpnext/crm/doctype/lead/lead.json
-#: erpnext/crm/doctype/opportunity/opportunity.json
-#: erpnext/crm/doctype/prospect/prospect.json
-msgid "201-500"
-msgstr ""
-
-#. Option for the 'Periodicity' (Select) field in DocType 'Asset Maintenance
-#. Task'
-#: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
-msgid "3 Yearly"
-msgstr ""
-
-#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:113
-#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:361
-msgid "30 - 60 Days"
-msgstr ""
-
-#. Option for the 'Frequency' (Select) field in DocType 'Video Settings'
-#: erpnext/utilities/doctype/video_settings/video_settings.json
-msgid "30 mins"
-msgstr ""
-
-#: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:115
-msgid "30-60"
-msgstr ""
-
-#: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
-msgid "30-60 Days"
-msgstr ""
-
-#. Option for the 'No of Employees' (Select) field in DocType 'Lead'
-#. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
-#. Option for the 'No. of Employees' (Select) field in DocType 'Prospect'
-#: erpnext/crm/doctype/lead/lead.json
-#: erpnext/crm/doctype/opportunity/opportunity.json
-#: erpnext/crm/doctype/prospect/prospect.json
-msgid "501-1000"
-msgstr ""
-
-#. Option for the 'No of Employees' (Select) field in DocType 'Lead'
-#. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
-#. Option for the 'No. of Employees' (Select) field in DocType 'Prospect'
-#: erpnext/crm/doctype/lead/lead.json
-#: erpnext/crm/doctype/opportunity/opportunity.json
-#: erpnext/crm/doctype/prospect/prospect.json
-msgid "51-200"
+#. Description of the 'Child DocTypes' (Small Text) field in DocType
+#. 'Transaction Deletion Record To Delete'
+#: erpnext/setup/doctype/transaction_deletion_record_to_delete/transaction_deletion_record_to_delete.json
+msgid "Child tables that will also be deleted"
 msgstr ""
 
-#. Option for the 'Frequency' (Select) field in DocType 'Video Settings'
-#: erpnext/utilities/doctype/video_settings/video_settings.json
-msgid "6 hrs"
+#: erpnext/public/js/utils/barcode_scanner.js:493
+msgid "Clear Last Scanned Warehouse"
 msgstr ""
 
-#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:114
-#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:362
-msgid "60 - 90 Days"
+#: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:158
+#: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:173
+msgid "Clearance date changed from {0} to {1} via Bank Clearance Tool"
 msgstr ""
 
-#: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:116
-msgid "60-90"
+#. Option for the 'Type' (Select) field in DocType 'BOM Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Job Card Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Stock Entry Detail'
+#. Option for the 'Type' (Select) field in DocType 'Subcontracting Inward Order
+#. Secondary Item'
+#. Option for the 'Type' (Select) field in DocType 'Subcontracting Receipt
+#. Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+#: erpnext/manufacturing/doctype/job_card_secondary_item/job_card_secondary_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/subcontracting/doctype/subcontracting_inward_order_secondary_item/subcontracting_inward_order_secondary_item.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Co-Product"
 msgstr ""
 
-#: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
-msgid "60-90 Days"
+#: erpnext/public/js/utils/naming_series.js:101
+msgid "Company Abbreviation (requires ERPNext to be installed)"
 msgstr ""
 
-#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:115
-#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:363
-msgid "90 - 120 Days"
+#: erpnext/controllers/accounts_controller.py:4379
+msgid "Company Address is missing. You don't have permission to create an Address. Please contact your System Manager."
 msgstr ""
 
-#: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:117
-#: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
-msgid "90 Above"
+#. Description of the 'Company Field' (Data) field in DocType 'Transaction
+#. Deletion Record To Delete'
+#: erpnext/setup/doctype/transaction_deletion_record_to_delete/transaction_deletion_record_to_delete.json
+msgid "Company link field name used for filtering (optional - leave empty to delete all records)"
 msgstr ""
 
-#: erpnext/assets/doctype/asset/asset.py:533
-msgid "<b>Cannot create asset.</b><br><br>You're trying to create <b>{0} asset(s)</b> from {2} {3}.<br>However, only <b>{1} item(s)</b> were purchased and <b>{4} asset(s)</b> already exist against {5}."
+#: erpnext/setup/doctype/employee/employee.py:168
+msgid "Company or Personal Email is mandatory when 'Create User Automatically' is enabled"
 msgstr ""
 
-#: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.py:61
-msgid "<b>From Time</b> cannot be later than <b>To Time</b> for {0}"
+#: erpnext/regional/doctype/south_africa_vat_settings/south_africa_vat_settings.py:33
+msgid "Company {0} is not in South Africa."
 msgstr ""
 
-#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:432
-msgid "<b>Row #{0}:</b> Bundle {1} in warehouse {2} has insufficient packed items:<br><div style='margin-top: 15px;'><ul style='line-height: 0.8;'>{3}</ul></div>"
+#. Label of the items (Table) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Components"
 msgstr ""
 
-#. Content of the 'Help Text' (HTML) field in DocType 'Process Statement Of
-#. Accounts'
-#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
-#, python-format
-msgid "<br>\n"
-"<h4>Note</h4>\n"
-"<ul>\n"
-"<li>\n"
-"You can use <a href=\"https://jinja.palletsprojects.com/en/2.11.x/\" target=\"_blank\">Jinja tags</a> in <b>Subject</b> and <b>Body</b> fields for dynamic values.\n"
-"</li><li>\n"
-"    All fields in this doctype are available under the <b>doc</b> object and all fields for the customer to whom the mail will go to is available under the  <b>customer</b> object.\n"
-"</li></ul>\n"
-"<h4> Examples</h4>\n"
-"<!-- {% raw %} -->\n"
-"<ul>\n"
-"    <li><b>Subject</b>:<br><br><pre><code>Statement Of Accounts for {{ customer.customer_name }}</code></pre><br></li>\n"
-"    <li><b>Body</b>: <br><br>\n"
-"<pre><code>Hello {{ customer.customer_name }},<br>PFA your Statement Of Accounts from {{ doc.from_date }} to {{ doc.to_date }}.</code> </pre></li>\n"
-"</ul>\n"
-"<!-- {% endraw %} -->"
+#. Option for the 'Asset Type' (Select) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Composite Asset"
 msgstr ""
 
-#. Content of the 'Other Details' (HTML) field in DocType 'Purchase Receipt'
-#. Content of the 'Other Details' (HTML) field in DocType 'Subcontracting
-#. Receipt'
-#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
-#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
-msgid "<div class=\"columnHeading\">Other Details</div>"
+#. Option for the 'Asset Type' (Select) field in DocType 'Asset'
+#: erpnext/assets/doctype/asset/asset.json
+msgid "Composite Component"
 msgstr ""
 
-#. Content of the 'no_bank_transactions' (HTML) field in DocType 'Bank
-#. Reconciliation Tool'
-#: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.json
-msgid "<div class=\"text-muted text-center\">No Matching Bank Transactions Found</div>"
+#. Label of an action in the Onboarding Step 'Review Chart of Accounts'
+#: erpnext/accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json
+msgid "Configure Chart of Accounts"
 msgstr ""
 
-#: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:262
-msgid "<div class=\"text-muted text-center\">{0}</div>"
+#. Label of the configure (Button) field in DocType 'Buying Settings'
+#. Label of the configure (Button) field in DocType 'Selling Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Configure Series"
 msgstr ""
 
-#. Content of the 'settings' (HTML) field in DocType 'Cheque Print Template'
-#: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
-msgid "<div>\n"
-"<h3> All dimensions in centimeter only </h3>\n"
-"</div>"
+#. Label of the apply_tds (Check) field in DocType 'Payment Entry'
+#. Label of the apply_tds (Check) field in DocType 'Purchase Invoice'
+#. Label of the apply_tds (Check) field in DocType 'Purchase Invoice Item'
+#. Label of the apply_tds (Check) field in DocType 'Sales Invoice'
+#. Label of the apply_tds (Check) field in DocType 'Sales Invoice Item'
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
+msgid "Consider for Tax Withholding"
 msgstr ""
 
-#. Content of the 'about' (HTML) field in DocType 'Product Bundle'
-#: erpnext/selling/doctype/product_bundle/product_bundle.json
-msgid "<h3>About Product Bundle</h3>\n\n"
-"<p>Aggregate group of <b>Items</b> into another <b>Item</b>. This is useful if you are bundling a certain <b>Items</b> into a package and you maintain stock of the packed <b>Items</b> and not the aggregate <b>Item</b>.</p>\n"
-"<p>The package <b>Item</b> will have <code>Is Stock Item</code> as <b>No</b> and <code>Is Sales Item</code> as <b>Yes</b>.</p>\n"
-"<h4>Example:</h4>\n"
-"<p>If you are selling Laptops and Backpacks separately and have a special price if the customer buys both, then the Laptop + Backpack will be a new Product Bundle Item.</p>"
+#. Label of the apply_tds (Check) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Consider for Tax Withholding "
 msgstr ""
 
-#. Content of the 'Help' (HTML) field in DocType 'Currency Exchange Settings'
-#: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.json
-msgid "<h3>Currency Exchange Settings Help</h3>\n"
-"<p>There are 3 variables that could be used within the endpoint, result key and in values of the parameter.</p>\n"
-"<p>Exchange rate between {from_currency} and {to_currency} on {transaction_date} is fetched by the API.</p>\n"
-"<p>Example: If your endpoint is exchange.com/2021-08-01, then, you will have to input exchange.com/{transaction_date}</p>"
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/financial_reports.json
+msgid "Consolidated Report"
 msgstr ""
 
-#. Content of the 'Body and Closing Text Help' (HTML) field in DocType 'Dunning
-#. Letter Text'
-#: erpnext/accounts/doctype/dunning_letter_text/dunning_letter_text.json
-msgid "<h4>Body Text and Closing Text Example</h4>\n\n"
-"<div>We have noticed that you have not yet paid invoice {{sales_invoice}} for {{frappe.db.get_value(\"Currency\", currency, \"symbol\")}} {{outstanding_amount}}. This is a friendly reminder that the invoice was due on {{due_date}}. Please pay the amount due immediately to avoid any further dunning cost.</div>\n\n"
-"<h4>How to get fieldnames</h4>\n\n"
-"<p>The fieldnames you can use in your template are the fields in the document. You can find out the fields of any documents via Setup &gt; Customize Form View and selecting the document type (e.g. Sales Invoice)</p>\n\n"
-"<h4>Templating</h4>\n\n"
-"<p>Templates are compiled using the Jinja Templating Language. To learn more about Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">read this documentation.</a></p>"
+#. Label of the consume_components_section (Section Break) field in DocType
+#. 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Consume Components"
 msgstr ""
 
-#. Content of the 'Contract Template Help' (HTML) field in DocType 'Contract
-#. Template'
-#: erpnext/crm/doctype/contract_template/contract_template.json
-msgid "<h4>Contract Template Example</h4>\n\n"
-"<pre>Contract for Customer {{ party_name }}\n\n"
-"-Valid From : {{ start_date }} \n"
-"-Valid To : {{ end_date }}\n"
-"</pre>\n\n"
-"<h4>How to get fieldnames</h4>\n\n"
-"<p>The field names you can use in your Contract Template are the fields in the Contract for which you are creating the template. You can find out the fields of any documents via Setup &gt; Customize Form View and selecting the document type (e.g. Contract)</p>\n\n"
-"<h4>Templating</h4>\n\n"
-"<p>Templates are compiled using the Jinja Templating Language. To learn more about Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">read this documentation.</a></p>"
+#. Description of the 'Based On' (Select) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Controls how raw materials are consumed during the ‘Manufacture’ stock entry."
 msgstr ""
 
-#. Content of the 'Terms and Conditions Help' (HTML) field in DocType 'Terms
+#. Label of the copy_attachments_to_transaction (Check) field in DocType 'Terms
 #. and Conditions'
 #: erpnext/setup/doctype/terms_and_conditions/terms_and_conditions.json
-msgid "<h4>Standard Terms and Conditions Example</h4>\n\n"
-"<pre>Delivery Terms for Order number {{ name }}\n\n"
-"-Order Date : {{ transaction_date }} \n"
-"-Expected Delivery Date : {{ delivery_date }}\n"
-"</pre>\n\n"
-"<h4>How to get fieldnames</h4>\n\n"
-"<p>The fieldnames you can use in your email template are the fields in the document from which you are sending the email. You can find out the fields of any documents via Setup &gt; Customize Form View and selecting the document type (e.g. Sales Invoice)</p>\n\n"
-"<h4>Templating</h4>\n\n"
-"<p>Templates are compiled using the Jinja Templating Language. To learn more about Jinja, <a class=\"strong\" href=\"http://jinja.pocoo.org/docs/dev/templates/\">read this documentation.</a></p>"
+msgid "Copy Attachments to Transaction"
 msgstr ""
 
-#. Content of the 'account_no_settings' (HTML) field in DocType 'Cheque Print
-#. Template'
-#: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
-msgid "<label class=\"control-label\" style=\"margin-bottom: 0px;\">Account Number Settings</label>"
+#. Label of the cost_allocation__process_loss_section (Section Break) field in
+#. DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Cost Allocation / Process Loss"
 msgstr ""
 
-#. Content of the 'html_19' (HTML) field in DocType 'Cheque Print Template'
-#: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
-msgid "<label class=\"control-label\" style=\"margin-bottom: 0px;\">Amount In Words</label>"
+#: erpnext/manufacturing/doctype/bom/bom.py:442
+msgid "Cost allocation between finished goods and secondary items should equal 100%"
 msgstr ""
 
-#. Content of the 'Date Settings' (HTML) field in DocType 'Cheque Print
-#. Template'
-#: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
-msgid "<label class=\"control-label\" style=\"margin-bottom: 0px;\">Date Settings</label>"
+#. Description of the 'Default Buying Cost Center' (Link) field in DocType
+#. 'Item Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Cost center used for tracking purchase expenses for this item"
 msgstr ""
 
-#: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:123
-msgid "<li>Clearance date must be after cheque date for row(s): {0}</li>"
+#. Description of the 'Default Selling Cost Center' (Link) field in DocType
+#. 'Item Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Cost center used for tracking sales revenue for this item"
 msgstr ""
 
-#: erpnext/controllers/accounts_controller.py:2261
-msgid "<li>Item {0} in row(s) {1} billed more than {2}</li>"
+#. Title of an Onboarding Step
+#: erpnext/manufacturing/onboarding_step/create_raw_materials/create_raw_materials.json
+#: erpnext/subcontracting/onboarding_step/create_raw_materials/create_raw_materials.json
+msgid "Create Raw Materials"
 msgstr ""
 
-#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:423
-msgid "<li>Packed Item {0}: Required {1}, Available {2}</li>"
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Service Item'
+#: erpnext/subcontracting/onboarding_step/create_service_item/create_service_item.json
+msgid "Create Service Item"
 msgstr ""
 
-#: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:118
-msgid "<li>Payment document required for row(s): {0}</li>"
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Subcontracted Item'
+#: erpnext/subcontracting/onboarding_step/create_subcontracted_item/create_subcontracted_item.json
+msgid "Create Subcontracted Item"
 msgstr ""
 
-#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:163
-#: erpnext/utilities/bulk_transaction.py:35
-msgid "<li>{}</li>"
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Subcontracting Order'
+#: erpnext/subcontracting/onboarding_step/create_subcontracting_order/create_subcontracting_order.json
+msgid "Create Subcontracting Order"
 msgstr ""
 
-#: erpnext/controllers/accounts_controller.py:2258
-msgid "<p>Cannot overbill for the following Items:</p>"
+#. Title of an Onboarding Step
+#: erpnext/subcontracting/onboarding_step/create_subcontracting_po/create_subcontracting_po.json
+msgid "Create Subcontracting PO"
 msgstr ""
 
-#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:157
-msgid "<p>Following {0}s doesn't belong to Company {1} :</p>"
+#. Label of an action in the Onboarding Step 'Create Subcontracting PO'
+#: erpnext/subcontracting/onboarding_step/create_subcontracting_po/create_subcontracting_po.json
+msgid "Create Subcontracting Purchase Order"
 msgstr ""
 
-#. Content of the 'html_llwp' (HTML) field in DocType 'Request for Quotation'
-#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
-msgid "<p>In your <b>Email Template</b>, you can use the following special variables:\n"
-"</p>\n"
-"<ul>\n"
-"        <li>\n"
-"            <code>{{ update_password_link }}</code>: A link where your supplier can set a new password to log into your portal.\n"
-"        </li>\n"
-"        <li>\n"
-"            <code>{{ portal_link }}</code>: A link to this RFQ in your supplier portal.\n"
-"        </li>\n"
-"        <li>\n"
-"            <code>{{ supplier_name }}</code>: The company name of your supplier.\n"
-"        </li>\n"
-"        <li>\n"
-"            <code>{{ contact.salutation }} {{ contact.last_name }}</code>: The contact person of your supplier.\n"
-"        </li><li>\n"
-"            <code>{{ user_fullname }}</code>: Your full name.\n"
-"        </li>\n"
-"    </ul>\n"
-"<p></p>\n"
-"<p>Apart from these, you can access all values in this RFQ, like <code>{{ message_for_supplier }}</code> or <code>{{ terms }}</code>.</p>"
+#. Title of an Onboarding Step
+#: erpnext/buying/onboarding_step/create_supplier/create_supplier.json
+msgid "Create Supplier"
 msgstr ""
 
-#: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:116
-msgid "<p>Please correct the following row(s):</p><ul>"
+#. Label of an action in the Onboarding Step 'Create Tasks'
+#: erpnext/projects/onboarding_step/create_tasks/create_tasks.json
+msgid "Create Task"
 msgstr ""
 
-#: erpnext/controllers/buying_controller.py:121
-msgid "<p>Posting Date {0} cannot be before Purchase Order date for the following:</p><ul>"
+#. Title of an Onboarding Step
+#: erpnext/projects/onboarding_step/create_tasks/create_tasks.json
+msgid "Create Tasks"
 msgstr ""
 
-#: erpnext/stock/doctype/stock_settings/stock_settings.js:69
-msgid "<p>Price List Rate has not been set as editable in Selling Settings. In this scenario, setting <strong>Update Price List Based On</strong> to <strong>Price List Rate</strong> will prevent auto-updation of Item Price.</p>Are you sure you want to continue?"
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Transfer Entry'
+#: erpnext/stock/onboarding_step/create_transfer_entry/create_transfer_entry.json
+msgid "Create Transfer Entry"
 msgstr ""
 
-#: erpnext/controllers/accounts_controller.py:2270
-msgid "<p>To allow over-billing, please set allowance in Accounts Settings.</p>"
+#. Label of the create_user_automatically (Check) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Create User Automatically"
 msgstr ""
 
-#. Content of the 'Message Examples' (HTML) field in DocType 'Payment Gateway
-#. Account'
-#: erpnext/accounts/doctype/payment_gateway_account/payment_gateway_account.json
-msgid "<pre><h5>Message Example</h5>\n\n"
-"&lt;p&gt; Thank You for being a part of {{ doc.company }}! We hope you are enjoying the service.&lt;/p&gt;\n\n"
-"&lt;p&gt; Please find enclosed the E Bill statement. The outstanding amount is {{ doc.grand_total }}.&lt;/p&gt;\n\n"
-"&lt;p&gt; We don't want you to be spending time running around in order to pay for your Bill.<br>After all, life is beautiful and the time you have in hand should be spent to enjoy it!<br>So here are our little ways to help you get more time for life! &lt;/p&gt;\n\n"
-"&lt;a href=\"{{ payment_url }}\"&gt; click here to pay &lt;/a&gt;\n\n"
-"</pre>\n"
+#. Label of an action in the Onboarding Step 'Setup Warehouse'
+#: erpnext/stock/onboarding_step/setup_warehouse/setup_warehouse.json
+msgid "Create Warehouses"
 msgstr ""
 
-#. Content of the 'Message Examples' (HTML) field in DocType 'Payment Request'
-#: erpnext/accounts/doctype/payment_request/payment_request.json
-msgid "<pre><h5>Message Example</h5>\n\n"
-"&lt;p&gt;Dear {{ doc.contact_person }},&lt;/p&gt;\n\n"
-"&lt;p&gt;Requesting payment for {{ doc.doctype }}, {{ doc.name }} for {{ doc.grand_total }}.&lt;/p&gt;\n\n"
-"&lt;a href=\"{{ payment_url }}\"&gt; click here to pay &lt;/a&gt;\n\n"
-"</pre>\n"
+#. Title of an Onboarding Step
+#. Label of an action in the Onboarding Step 'Create Work Order'
+#: erpnext/manufacturing/onboarding_step/create_work_order/create_work_order.json
+msgid "Create Work Order"
 msgstr ""
 
-#. Header text in the Stock Workspace
-#: erpnext/stock/workspace/stock/stock.json
-msgid "<span class=\"h4\"><b>Masters &amp; Reports</b></span>"
+#. Label of an action in the Onboarding Step 'Create Delivery Note'
+#: erpnext/selling/onboarding_step/create_delivery_note/create_delivery_note.json
+msgid "Create delivery note"
 msgstr ""
 
-#. Header text in the Selling Workspace
-#. Header text in the Stock Workspace
-#: erpnext/selling/workspace/selling/selling.json
-#: erpnext/stock/workspace/stock/stock.json
-msgid "<span class=\"h4\"><b>Quick Access</b></span>"
+#. Label of an action in the Onboarding Step 'Create Supplier'
+#: erpnext/buying/onboarding_step/create_supplier/create_supplier.json
+msgid "Create supplier"
 msgstr ""
 
-#. Header text in the Assets Workspace
-#: erpnext/assets/workspace/assets/assets.json
-msgid "<span class=\"h4\"><b>Reports & Masters</b></span>"
+#. Label of the created_by_migration (Check) field in DocType 'Tax Withholding
+#. Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Created By Migration"
 msgstr ""
 
-#. Header text in the Accounting Workspace
-#. Header text in the Payables Workspace
-#. Header text in the Receivables Workspace
-#. Header text in the Buying Workspace
-#. Header text in the CRM Workspace
-#. Header text in the Manufacturing Workspace
-#. Header text in the Projects Workspace
-#. Header text in the Quality Workspace
-#. Header text in the Selling Workspace
-#. Header text in the Home Workspace
-#. Header text in the Support Workspace
-#: erpnext/accounts/workspace/accounting/accounting.json
-#: erpnext/accounts/workspace/payables/payables.json
-#: erpnext/accounts/workspace/receivables/receivables.json
-#: erpnext/buying/workspace/buying/buying.json
-#: erpnext/crm/workspace/crm/crm.json
-#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
-#: erpnext/projects/workspace/projects/projects.json
-#: erpnext/quality_management/workspace/quality/quality.json
-#: erpnext/selling/workspace/selling/selling.json
-#: erpnext/setup/workspace/home/home.json
-#: erpnext/support/workspace/support/support.json
-msgid "<span class=\"h4\"><b>Reports &amp; Masters</b></span>"
+#. Description of the 'Create User Automatically' (Check) field in DocType
+#. 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Creates a User account for this employee using the Preferred, Company, or Personal email."
 msgstr ""
 
-#. Header text in the Payables Workspace
-#. Header text in the Receivables Workspace
-#: erpnext/accounts/workspace/payables/payables.json
-#: erpnext/accounts/workspace/receivables/receivables.json
-msgid "<span class=\"h4\"><b>Shortcuts</b></span>"
+#. Description of the 'Create Grouped Asset' (Check) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Creates a single grouped asset instead of individual assets when purchased in bulk."
 msgstr ""
 
-#. Header text in the Subcontracting Workspace
-#: erpnext/subcontracting/workspace/subcontracting/subcontracting.json
-msgid "<span class=\"h4\"><b>Subcontracting Inward and Outward</b></span>"
+#. Description of the 'Standard Selling Rate' (Currency) field in DocType
+#. 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Creates an Item Price automatically when the item is saved"
 msgstr ""
 
-#. Header text in the Settings Workspace
-#: erpnext/setup/workspace/settings/settings.json
-msgid "<span class=\"h4\"><b>Your Shortcuts\n"
-"\t\t\t\n"
-"\t\t\n"
-"\t\t\t\n"
-"\t\t\n"
-"\t\t\t\n"
-"\t\t</b></span>"
+#: erpnext/setup/setup_wizard/setup_wizard.py:36
+msgid "Creating demo data"
 msgstr ""
 
-#. Header text in the Assets Workspace
-#. Header text in the Buying Workspace
-#. Header text in the CRM Workspace
-#. Header text in the Manufacturing Workspace
-#. Header text in the Projects Workspace
-#. Header text in the Quality Workspace
-#. Header text in the Home Workspace
-#. Header text in the Support Workspace
-#: erpnext/assets/workspace/assets/assets.json
-#: erpnext/buying/workspace/buying/buying.json
-#: erpnext/crm/workspace/crm/crm.json
-#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
-#: erpnext/projects/workspace/projects/projects.json
-#: erpnext/quality_management/workspace/quality/quality.json
-#: erpnext/setup/workspace/home/home.json
-#: erpnext/support/workspace/support/support.json
-msgid "<span class=\"h4\"><b>Your Shortcuts</b></span>"
+#. Label of the cumulative_threshold (Float) field in DocType 'Tax Withholding
+#. Rate'
+#: erpnext/accounts/doctype/tax_withholding_rate/tax_withholding_rate.json
+msgid "Cumulative Threshold"
 msgstr ""
 
-#: erpnext/accounts/doctype/payment_request/payment_request.py:1002
-msgid "<strong>Grand Total:</strong> {0}"
+#: erpnext/public/js/utils/naming_series.js:223
+msgid "Current Series"
 msgstr ""
 
-#: erpnext/accounts/doctype/payment_request/payment_request.py:1003
-msgid "<strong>Outstanding Amount:</strong> {0}"
+#. Label of the custom_remark (Check) field in DocType 'Journal Entry'
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "Custom Remark"
 msgstr ""
 
-#. Content of the 'html_19' (HTML) field in DocType 'Inventory Dimension'
-#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
-msgid "<table class=\"table table-bordered table-condensed\">\n"
-"<thead>\n"
-"  <tr>\n"
-"         <th class=\"table-sr\" style=\"width: 50%;\">Child Document</th>\n"
-"         <th class=\"table-sr\" style=\"width: 50%;\">Non Child Document</th>\n"
-"   </tr>\n"
-"</thead>\n"
-"<tbody>\n"
-"<tr>\n"
-"         <td>\n"
-"                  <p> To access parent document field use parent.fieldname and to access child table document field use doc.fieldname </p>\n\n"
-"         </td>\n"
-"         <td>\n"
-"                    <p>To access document field use doc.fieldname </p>\n"
-"         </td>\n"
-"</tr>\n"
-"<tr>\n"
-"        <td>\n"
-"                   <p><b>Example: </b> parent.doctype == \"Stock Entry\" and doc.item_code == \"Test\" </p>\n\n"
-"        </td>\n"
-"         <td>\n"
-"                   <p><b>Example: </b> doc.doctype == \"Stock Entry\" and doc.purpose == \"Manufacture\"</p>    \n"
-"          </td>\n"
-"</tr>\n\n"
-"</tbody>\n"
-"</table>\n\n\n\n\n\n\n"
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/financial_reports.json
+msgid "Customer Ledger"
 msgstr ""
 
-#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:213
-#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:116
-msgid "A - B"
+#. Label of the customer_pos_id (Data) field in DocType 'Customer'
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Customer POS ID"
 msgstr ""
 
-#: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:189
-#: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:228
-#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:131
-msgid "A - C"
+#: erpnext/public/js/utils/naming_series.js:94
+msgid "Day of month"
+msgstr ""
+
+#. Label of the tax_deduction_basis (Select) field in DocType 'Tax Withholding
+#. Category'
+#: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.json
+msgid "Deduct Tax On Basis"
+msgstr ""
+
+#. Label of the source_section (Section Break) field in DocType 'Tax
+#. Withholding Entry'
+#: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
+msgid "Deducted From"
+msgstr ""
+
+#. Label of a Workspace Sidebar Item
+#: erpnext/workspace_sidebar/taxes.json
+msgid "Deduction Certificate"
+msgstr ""
+
+#. Label of the default_ageing_range (Data) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Default Ageing Range"
+msgstr ""
+
+#. Description of the 'Default Price List' (Link) field in DocType 'Item
+#. Default'
+#: erpnext/stock/doctype/item_default/item_default.json
+msgid "Default price list for buying or selling this item"
+msgstr ""
+
+#. Description of the 'End of Life' (Date) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Defines the date after which the item can no longer be used in transactions or manufacturing"
 msgstr ""

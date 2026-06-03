@@ -28,10 +28,16 @@ Este repositório foi pensado para quem quer manter overrides de tradução com 
    python3 scripts/fetch_po.py --all --branch version-16
    ```
 
-2. Divida um projeto em lotes menores para revisão:
+2. Divida um projeto em lotes menores para revisão. Por padrão, o split é incremental: ele gera apenas entradas ainda vazias no source e sem tradução já publicada em `output/<project>/messages.po`.
 
    ```bash
    python3 scripts/split_po.py --project frappe --size 150
+   ```
+
+   Para revisar o arquivo inteiro, use `--all`:
+
+   ```bash
+   python3 scripts/split_po.py --project frappe --size 150 --all
    ```
 
 3. Abra o OpenCode neste diretório e use os agentes ou comandos customizados para revisar os lotes.
@@ -74,7 +80,7 @@ Se você quer distribuir as traduções em outro ambiente, este é o arquivo mai
 translations/projects/<project>/overrides/messages.po
 ```
 
-- `merged/pt_BR.po` contém o resultado completo revisado
+- `merged/pt_BR.po` contém o resultado completo revisado, reconstruído a partir do source atual com traduções já publicadas em `output/` e novas revisões em `reviewed/`
 - `overrides/messages.po` contém apenas as entradas diferentes do arquivo-fonte original
 - para distribuição em um app customizado, o arquivo de override costuma ser a melhor opção
 
