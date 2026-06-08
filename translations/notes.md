@@ -198,6 +198,22 @@ Use this file to capture ambiguous strings, terminology conflicts, and decisions
 - Why this is ambiguous: unidade de medida obscura; não ficou claro se deve permanecer como nome técnico internacional ou receber equivalente localizado.
 - Decision: manter sem alteração por ora
 
+- Project: `crm`
+- File: `translations/projects/crm/reviewed/batch-001.po`
+- `msgid`: `Could not update report to`
+- Current `msgstr`: vazio
+- Proposed `msgstr`: manter vazio por enquanto
+- Why this is ambiguous: o texto-fonte parece fragmentado e pode depender de contexto dinâmico na UI; traduzir arrisca gerar um fragmento artificial ou incorreto em pt-BR.
+- Decision: manter sem tradução nesta passada por segurança
+
+- Project: `crm`
+- File: `translations/projects/crm/reviewed/batch-001.po`
+- `msgid`: `CRM Sales Hierarchy`
+- Current `msgstr`: `Hierarquia de vendas do CRM`
+- Proposed `msgstr`: manter como está por enquanto
+- Why this is ambiguous: o produto pode preferir manter `CRM` explícito no nome do DocType ou simplificar para `Hierarquia de vendas`; o contexto atual não fecha essa decisão global.
+- Decision: usar `Hierarquia de vendas do CRM` nesta passada e revisar apenas se surgir convenção mais ampla do produto
+
 - Project: `erpnext`
 - File: `translations/projects/erpnext/reviewed/batch-043.po`
 - `msgid`: `Resolution Due`
